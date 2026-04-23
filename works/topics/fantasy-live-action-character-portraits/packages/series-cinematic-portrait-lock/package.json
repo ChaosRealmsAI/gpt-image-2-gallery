@@ -1,0 +1,108 @@
+{
+  "id": "series-cinematic-portrait-lock",
+  "type": "series",
+  "title": "Identity-Locked Narrative Portrait Sequence",
+  "description": "A nine-image identity-locked portrait series for Fantasy Live-Action Character Portraits, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Fantasy Live-Action Character Portraits; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-character-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-character-anchor/meta.json",
+      "images/02-interior-scene/meta.json",
+      "images/03-transition-pause/meta.json",
+      "images/04-closeup-emotion/meta.json",
+      "images/05-exterior-walk/meta.json",
+      "images/06-profile-shadow/meta.json",
+      "images/07-detail-prop-frame/meta.json",
+      "images/08-poster-crop/meta.json",
+      "images/09-finale-aftermath/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-character-anchor first. Use its runtime result URL as --ref for 02-interior-scene, 03-transition-pause, 04-closeup-emotion, 05-exterior-walk, 06-profile-shadow, 07-detail-prop-frame, 08-poster-crop, 09-finale-aftermath. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Narrative Portrait Sequence",
+      "description": "A nine-image identity-locked portrait series for Fantasy Live-Action Character Portraits, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸叙事肖像序列",
+      "description": "围绕 幻想角色真人肖像 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-character-anchor",
+      "title": "Reference Character Anchor",
+      "image": "images/01-reference-character-anchor/image.png",
+      "meta": "images/01-reference-character-anchor/meta.json"
+    },
+    {
+      "id": "02-interior-scene",
+      "title": "Interior Scene",
+      "image": "images/02-interior-scene/image.png",
+      "meta": "images/02-interior-scene/meta.json"
+    },
+    {
+      "id": "03-transition-pause",
+      "title": "Transition Pause",
+      "image": "images/03-transition-pause/image.png",
+      "meta": "images/03-transition-pause/meta.json"
+    },
+    {
+      "id": "04-closeup-emotion",
+      "title": "Close-up Emotion",
+      "image": "images/04-closeup-emotion/image.png",
+      "meta": "images/04-closeup-emotion/meta.json"
+    },
+    {
+      "id": "05-exterior-walk",
+      "title": "Exterior Walk",
+      "image": "images/05-exterior-walk/image.png",
+      "meta": "images/05-exterior-walk/meta.json"
+    },
+    {
+      "id": "06-profile-shadow",
+      "title": "Profile Shadow",
+      "image": "images/06-profile-shadow/image.png",
+      "meta": "images/06-profile-shadow/meta.json"
+    },
+    {
+      "id": "07-detail-prop-frame",
+      "title": "Detail Prop Frame",
+      "image": "images/07-detail-prop-frame/image.png",
+      "meta": "images/07-detail-prop-frame/meta.json"
+    },
+    {
+      "id": "08-poster-crop",
+      "title": "Poster Crop",
+      "image": "images/08-poster-crop/image.png",
+      "meta": "images/08-poster-crop/meta.json"
+    },
+    {
+      "id": "09-finale-aftermath",
+      "title": "Finale Aftermath",
+      "image": "images/09-finale-aftermath/image.png",
+      "meta": "images/09-finale-aftermath/meta.json"
+    }
+  ]
+}

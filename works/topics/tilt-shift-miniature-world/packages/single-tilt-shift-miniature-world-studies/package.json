@@ -1,0 +1,82 @@
+{
+  "id": "single-tilt-shift-miniature-world-studies",
+  "type": "single",
+  "title": "Miniature Miniature World Studies",
+  "description": "Eight independent miniature world studies for Tilt-Shift Miniature World, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Tilt-Shift Miniature World, testing photorealism, physics-materials, style-transfer with GPT Image 2. through distinct studies that emphasize miniature-world, photorealism, frontier-creative-composition while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/village-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Miniature Miniature World Studies",
+      "description": "Eight independent miniature world studies for Tilt-Shift Miniature World, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "移轴微缩单图研究",
+      "description": "围绕 移轴微缩 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "miniature-world",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "village-overview",
+      "title": "Village Overview",
+      "image": "images/village-overview/image.png",
+      "meta": "images/village-overview/meta.json"
+    },
+    {
+      "id": "street-corner",
+      "title": "Street Corner",
+      "image": "images/street-corner/image.png",
+      "meta": "images/street-corner/meta.json"
+    },
+    {
+      "id": "workshop-interior",
+      "title": "Workshop Interior",
+      "image": "images/workshop-interior/image.png",
+      "meta": "images/workshop-interior/meta.json"
+    },
+    {
+      "id": "transit-snapshot",
+      "title": "Transit Snapshot",
+      "image": "images/transit-snapshot/image.png",
+      "meta": "images/transit-snapshot/meta.json"
+    },
+    {
+      "id": "night-window",
+      "title": "Night Window",
+      "image": "images/night-window/image.png",
+      "meta": "images/night-window/meta.json"
+    },
+    {
+      "id": "market-table",
+      "title": "Market Table",
+      "image": "images/market-table/image.png",
+      "meta": "images/market-table/meta.json"
+    },
+    {
+      "id": "weather-scene",
+      "title": "Weather Scene",
+      "image": "images/weather-scene/image.png",
+      "meta": "images/weather-scene/meta.json"
+    },
+    {
+      "id": "signature-world",
+      "title": "Signature World",
+      "image": "images/signature-world/image.png",
+      "meta": "images/signature-world/meta.json"
+    }
+  ]
+}

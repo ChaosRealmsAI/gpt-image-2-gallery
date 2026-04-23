@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square reward-card style composition with stronger glow and more dramatic contrast than the previous relics, while keeping the same codex frame language. Use volcanic reds, charred steel, deep plum shadows, and a focused halo around the object. The central relic should sit inside a ceremonial display cradle, surrounded by blank rarity plates and controlled ember particles that never obscure the silhouette.\n\nSubject:\nThe relic is a boss core reliquary containing the stabilized heart of a defeated giant construct. At the center floats a cracked crystal core with molten seams and a faint rotating inner geometry. Around it sits a black iron cage with mechanical brackets, heat-scored hinges, and two cooling fins shaped like ritual blades. The relic should feel equal parts trophy, power source, and warning. It belongs in a collection as proof of conquest but still hints that it could awaken again.\n\nImportant details:\nMake the crystal core luminous and layered, but keep the materials physically believable. The iron cage should show wear, scale, and heat damage. The card must read as high rarity through composition, color hierarchy, and finish instead of text. Ensure the relic feels engineered for containment rather than randomly floating magic. This image should work for a drop reward card, codex trophy entry, or event unlock surface. Avoid generic loot-chest clichés and keep the object design specific enough to imply encounter history.\n\nUse case:\nRelic Artifact Lore Card Set single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no monster corpse, no generic gem on a pedestal, no cartoon fire burst, no sci-fi reactor labels, no extra weapons, no blown-out glow that hides detail.",
+  "id": "boss-core-reliquary",
+  "title": "Boss Core Reliquary",
+  "description": "A high-rarity relic card showcasing a caged molten core that feels like both trophy loot and unstable power source.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/boss-core-reliquary/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a boss-drop core reliquary.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Boss Core Reliquary",
+      "description": "A high-rarity relic card showcasing a caged molten core that feels like both trophy loot and unstable power source."
+    },
+    "zh-CN": {
+      "title": "首领核心圣匣",
+      "description": "以被囚禁熔核为主体的高稀有度遗物卡，兼具战利品与危险能源气质。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A dramatic reward-card relic showing a glowing molten core locked inside a scorched iron cage.",
+      "zh-CN": "一张戏剧化奖励卡，展示被焦黑铁笼锁住的发光熔核。"
+    }
+  }
+}

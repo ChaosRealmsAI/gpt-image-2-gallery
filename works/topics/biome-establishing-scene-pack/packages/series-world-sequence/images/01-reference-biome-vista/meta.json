@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square loading-screen style establishing vista for a fictional game biome, composed as a grand but playable environment painting. The camera looks across a storm-carved mangrove canyon at dawn, with layered cliffs, hanging cable routes, shallow reflective water channels, broken industrial ruins, and one dominant landmark tower rising above the fog. Light is cool in the shadows and warm on the skyline, creating strong depth while preserving navigation clarity.\n\nSubject:\nA believable game-ready biome that feels like a real world entrance rather than a generic landscape matte painting. The space should show walkable ledges, bridges, lift platforms, watch towers, drainage channels, and path logic that players could actually traverse. The dominant landmark is a partly collapsed reactor-observatory fused into red stone and giant roots, giving the region a memorable silhouette. No characters are necessary; the environment itself is the hero subject.\n\nImportant details:\nThis image is the canonical reference for the series. Lock the landmark positions, canyon profile, root-covered tower silhouette, bridge network, palette of rust red stone, deep teal water, pale mist, and cold metallic structures. The image should sell both exploration mood and gameplay readability, with clear foreground, midground, and background separation. Atmosphere supports scale but must never erase pathing or landmark memory.\n\nUse case:\nBiome Pack series study 1/9, establishing the reference biome view for later atmosphere and route variations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no characters, no vehicles, no unreadable signage, no random fantasy castle clutter, no flat matte-painting emptiness, no oversaturated sky",
+  "id": "01-reference-biome-vista",
+  "title": "Reference Biome Vista",
+  "description": "A landmark-rich wide establishing shot that defines the biome palette, traversal routes, and environmental identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the biome reference view for the series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Biome Vista",
+      "description": "A landmark-rich wide establishing shot that defines the biome palette, traversal routes, and environmental identity."
+    },
+    "zh-CN": {
+      "title": "Reference Biome Vista",
+      "description": "A landmark-rich wide establishing shot that defines the biome palette, traversal routes, and environmental identity."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A landmark-rich wide establishing shot that defines the biome palette, traversal routes, and environmental identity.",
+      "zh-CN": "A landmark-rich wide establishing shot that defines the biome palette, traversal routes, and environmental identity."
+    }
+  }
+}

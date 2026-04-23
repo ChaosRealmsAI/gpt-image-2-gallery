@@ -1,0 +1,52 @@
+{
+  "id": "relic-artifact-lore-card-set",
+  "slug": "relic-artifact-lore-card-set",
+  "category": "fantasy",
+  "style": [
+    "painterly",
+    "flat-graphic"
+  ],
+  "capability": [
+    "world-knowledge",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "title": "Relic Artifact Lore Card Set",
+  "short_title": "Relic Cards",
+  "description": "A Prompt Atlas theme for collectible lore-card assets where relics feel beautiful, mechanically meaningful, and rooted in a coherent fictional world.",
+  "i18n": {
+    "en": {
+      "title": "Relic Artifact Lore Card Set",
+      "short_title": "Relic Cards",
+      "description": "A Prompt Atlas theme for collectible lore-card assets where relics feel beautiful, mechanically meaningful, and rooted in a coherent fictional world."
+    },
+    "zh-CN": {
+      "title": "遗物与神器卡面组",
+      "short_title": "遗物卡面",
+      "description": "把遗物做成既适合收藏卡界面，又具备明确历史感和功能暗示的世界观资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 885,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-relic-codex-studies",
+      "type": "single",
+      "title": "Relic Codex Studies",
+      "path": "packages/single-relic-codex-studies/package.json"
+    }
+  ]
+}

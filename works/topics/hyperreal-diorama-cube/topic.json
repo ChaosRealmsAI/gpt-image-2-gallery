@@ -1,0 +1,50 @@
+{
+  "id": "hyperreal-diorama-cube",
+  "slug": "hyperreal-diorama-cube",
+  "category": "fantasy",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Hyperreal Diorama Cube",
+  "short_title": "Hyperreal Diorama Cube",
+  "description": "A Prompt Atlas theme for hyperreal cutaway cubes that compress surface worlds, geology, roots, water, fossils, and hidden chambers into one structured object.",
+  "i18n": {
+    "en": {
+      "title": "Hyperreal Diorama Cube",
+      "short_title": "Hyperreal Diorama Cube",
+      "description": "A Prompt Atlas theme for hyperreal cutaway cubes that compress surface worlds, geology, roots, water, fossils, and hidden chambers into one structured object."
+    },
+    "zh-CN": {
+      "title": "Hyperreal Diorama Cube · 剖面立方",
+      "short_title": "剖面立方",
+      "description": "剖面立方主题：把顶面场景与四侧地层、树根、含水层、化石、熔岩腔等信息压缩成一个高真实度立方体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "miniature-world",
+      "structured-layout",
+      "scientific-realism",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-diorama-cube-studies",
+      "type": "single",
+      "title": "Diorama Cube Studies",
+      "path": "packages/single-diorama-cube-studies/package.json"
+    }
+  ]
+}

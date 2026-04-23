@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square lore-card composition that feels like an astronomical codex page recovered from ruins. Use a dry midnight palette with desaturated stone, dim gold leaf, and faint star-blue illumination. The card should feature a central broken tablet suspended over a sober frame system with empty diagram panels, thin radial accents, and a muted glow that implies celestial importance without readable labels.\n\nSubject:\nThe relic is a fallen observatory tablet carved from dark basalt and inlaid with tiny brass star pins. One corner is snapped away, exposing fresh stone beneath older weathering. The front surface contains circular orbit grooves, eclipse notches, and abstract constellation channels that suggest a predictive instrument rather than decorative carving. Dust lingers in the recesses, and a few hairline fractures cross the outer ring. It should feel like a device scholars used to map the heavens before a catastrophe destroyed the tower that housed it.\n\nImportant details:\nThe tablet must feel functional and mythic at the same time. Keep the orbital grooves precise, the brass pins subtly reflective, and the missing fragment visually important enough to imply incomplete knowledge. The card frame should support the storytelling with archive-like geometry, but never overpower the object. Make the object read clearly at thumbnail size, with a strong round-to-square contrast between relic and card. Avoid real zodiac symbols, readable star names, or generic sci-fi circuitry.\n\nUse case:\nRelic Artifact Lore Card Set single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real astronomy symbols, no modern circuit board look, no floating magical spellbook pages, no random planets, no cartoon ruin debris, no cracked-screen effect.",
+  "id": "fallen-observatory-tablet",
+  "title": "Fallen Observatory Tablet",
+  "description": "A broken basalt star tablet presented as a codex relic with clear astronomical purpose and ruined-civilization gravity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/fallen-observatory-tablet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a ruined astronomical tablet.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Fallen Observatory Tablet",
+      "description": "A broken basalt star tablet presented as a codex relic with clear astronomical purpose and ruined-civilization gravity."
+    },
+    "zh-CN": {
+      "title": "坠落观星台石板",
+      "description": "一块破损的玄武岩星图石板，以图鉴卡形式强调天文用途与失落文明感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A codex relic card featuring a fractured star-mapping tablet with brass inlays and orbit grooves.",
+      "zh-CN": "一张图鉴遗物卡，主体是嵌着黄铜星点、刻有轨道沟槽的破损石板。"
+    }
+  }
+}

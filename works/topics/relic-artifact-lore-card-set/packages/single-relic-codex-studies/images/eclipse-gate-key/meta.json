@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square climax-style relic card that still respects the same codex frame language as the rest of the set. Use blackened gold, violet shadow, dim ivory highlights, and a narrow corona of eclipse light behind the object. The card layout should feel authoritative and collectible, with strong central placement, empty plaque bars, subtle corner geometry, and just enough radiant contrast to imply endgame importance.\n\nSubject:\nThe relic is an eclipse gate key designed to open a sealed threshold between day and night domains. It has a long stem of dark metal, a circular bow split into light and shadow halves, and a complex bit that resembles nested crescent teeth rather than ordinary cuts. Thin fissures of pale light run through the metal like trapped dawn. One side is polished by use, while the shadow half remains rough and ancient. The key should feel ceremonial, mechanically plausible, and unmistakably tied to a major world event.\n\nImportant details:\nThis object must feel like a final-tier collectible without becoming generic epic fantasy jewelry. Keep the silhouette iconic and immediately legible. The mixed light-and-shadow material treatment should imply function, not random ornament. Preserve the package's card-frame consistency, but let the eclipse motif elevate the sense of stakes and lore. It should work as a codex highlight, event reward, or unlock banner centerpiece. Avoid real religious symbols, generic skeleton-key clichés, or unreadable magic circles.\n\nUse case:\nRelic Artifact Lore Card Set single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern key teeth, no giant fantasy castle backdrop, no glowing rune text, no extra hands, no overdesigned filigree mess, no lens flare washing out the silhouette.",
+  "id": "eclipse-gate-key",
+  "title": "Eclipse Gate Key",
+  "description": "A final-tier relic card centered on a split-light ceremonial key meant to open a world-defining threshold.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/eclipse-gate-key/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on an eclipse-threshold key relic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Eclipse Gate Key",
+      "description": "A final-tier relic card centered on a split-light ceremonial key meant to open a world-defining threshold."
+    },
+    "zh-CN": {
+      "title": "蚀门钥匙",
+      "description": "以分裂光影的仪式钥匙为主体，表现足以开启世界级门扉的终局遗物。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A dramatic collectible relic card featuring a ceremonial key divided between shadowed metal and pale eclipse light.",
+      "zh-CN": "一张戏剧化收藏遗物卡，展示一把由暗金属与蚀光共同构成的仪式钥匙。"
+    }
+  }
+}

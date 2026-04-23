@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nBuild a square quest-board casting sheet with pinned portrait cards, route markers, object evidence, and production-bible polish but no readable labels. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nMap out the faction's quest-facing cast: dispatcher, scout, medic, smuggler informant, and captain liaison. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. The sheet should imply narrative relationships and gameplay handoff points without becoming a detective corkboard parody. Treat this frame as an independent study that still honors the same overall theme and production logic. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet single study 6/9, a quest-facing cast relationship board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable mission text, no red string cliché overload, no horror crime tone, no unrelated civilians.",
+  "id": "02-quest-board-cast",
+  "title": "Quest Board Cast",
+  "description": "A cast board mapping quest-facing NPC roles inside the same region.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/single-faction-support-sheets/images/02-quest-board-cast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Quest Board Cast",
+      "description": "A cast board mapping quest-facing NPC roles inside the same region."
+    },
+    "zh-CN": {
+      "title": "任务板群像",
+      "description": "一张任务板式群像图，把同一区域的任务相关 NPC 角色关系排清楚。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Quest Board Cast for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的任务板群像。"
+    }
+  }
+}

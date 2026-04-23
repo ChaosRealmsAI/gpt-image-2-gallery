@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square studio character reference sheet on a quiet neutral background, arranged as eight portrait-and-half-body studies in a clean 4 by 2 grid with no captions. Use soft editorial lighting, restrained warm gray tones, and consistent camera height. The image should feel like a production reference board for a conceptual film about one life seen all at once.\n\nSubject:\nShow the same woman at eight life stages: small child, preteen, teenager, young adult, mid-career adult, older adult, elderly, and very elderly. Preserve identity through the same almond-shaped eyes, straight nose bridge, left cheek dimple, dark hair that gradually grays, and a small red scarf or scarf-like accessory repeated in age-appropriate ways. Clothing changes by decade, but posture, facial structure, and signature gaze stay clearly related.\n\nImportant details:\nThis reference must make age progression legible without turning the person into eight unrelated characters. Keep face proportions consistent, show natural aging, avoid glamour extremes, and make the red accessory a reliable identity anchor. Background, lighting, and crop should be consistent across all eight panels so later images can use the sheet as a stable multi-age reference.\n\nUse case:\nMirror Worlds series study 1/8, establishing the protagonist identity across eight life stages for fanout compositions.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no duplicate identical faces, no unrelated family members, no inconsistent eye color, no distorted hands, no decorative labels.",
+  "id": "01-reference-age-sheet",
+  "title": "Reference Age Sheet",
+  "description": "An eight-stage age reference sheet establishing one protagonist's identity for mirror-world compositions.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "identity-consistency",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root multi-age identity reference for the Mirror Worlds series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Age Sheet",
+      "description": "An eight-stage age reference sheet establishing one protagonist's identity for mirror-world compositions."
+    },
+    "zh-CN": {
+      "title": "年龄谱参考图",
+      "description": "一张八阶段年龄参考图，为镜像世界构图建立同一主角身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A grid showing the same woman from childhood to very old age with consistent facial traits.",
+      "zh-CN": "一张网格图，展示同一女性从童年到高龄并保持一致面部特征。"
+    }
+  }
+}

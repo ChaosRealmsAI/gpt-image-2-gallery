@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference age sheet as the identity source. Create a square hall of mirrors inside a quiet apartment, with a central hallway, tall antique mirrors along both sides, warm ceiling light, and a dark polished floor that reflects feet and furniture. The camera looks straight down the hallway so reflections create a deep recursive space.\n\nSubject:\nShow the same woman at multiple life stages meeting through mirrors: young adult standing in the center foreground, child version visible in the left mirror, teenager in the right mirror, mid-career adult reflected farther back, elderly version at the end of the hall, and very elderly version seated in a mirror reflection near the floor. Preserve the same facial structure, cheek dimple, red scarf motif, and calm direct gaze from the reference, while each age has distinct clothing and posture.\n\nImportant details:\nThe mirror logic must be coherent. Reflections should obey perspective, show believable angles, and not become random portraits pasted onto glass. Some figures may be physically in the hall while others appear only as reflections, but all must feel like the same person across time. Keep the scene emotionally charged, elegant, and visually legible at thumbnail scale.\n\nUse case:\nMirror Worlds series study 3/8, using mirror reflections to stage one protagonist's life stages in a single hallway.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unrelated people, no horror mood, no broken mirror shards, no impossible duplicate limbs, no inconsistent face, no decorative captions.",
+  "id": "03-mirror-hall-reunion",
+  "title": "Mirror Hall Reunion",
+  "description": "A reference-dependent hallway scene where one protagonist's life stages meet through coherent mirror reflections.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "identity-consistency",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/03-mirror-hall-reunion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-age-sheet",
+        "meta_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/meta.json",
+        "image_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the age sheet as primary reference and stage coherent mirror reflections across life stages."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mirror Hall Reunion",
+      "description": "A reference-dependent hallway scene where one protagonist's life stages meet through coherent mirror reflections."
+    },
+    "zh-CN": {
+      "title": "镜厅重逢",
+      "description": "一张依赖参考图的镜厅场景，同一主角的人生阶段通过镜像相遇。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "reasoning-composition",
+      "series"
+    ],
+    "alt": {
+      "en": "Different ages of the same woman appear in apartment hallway mirrors.",
+      "zh-CN": "同一女性的不同年龄阶段出现在公寓走廊的镜子中。"
+    }
+  }
+}

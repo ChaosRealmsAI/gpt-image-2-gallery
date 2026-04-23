@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a square poster treatment of the full overworld with continent shape, travel rhythm, and iconic landmark hierarchy with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a square poster treatment of the full overworld with continent shape, travel rhythm, and iconic landmark hierarchy. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of World Region Map Poster System. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nthe map should feel navigable and aspirational rather than decorative wallpaper. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nWorld Region Map Poster System single study 1/9, focused on overworld poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable place names, no compass labels, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "overworld-poster",
+  "title": "Overworld Poster",
+  "description": "Overworld Poster for World Region Map Poster System, designed as part of the world map poster studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-region-map-poster-system/packages/single-world-map-poster-studies/images/overworld-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Overworld Poster",
+      "description": "Overworld Poster for World Region Map Poster System, designed as part of the world map poster studies."
+    },
+    "zh-CN": {
+      "title": "世界总图海报",
+      "description": "世界总图海报，属于 世界区域地图海报系统 的 区域地图海报研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Overworld Poster image from the World Region Map Poster System package.",
+      "zh-CN": "世界区域地图海报系统 中的世界总图海报图像。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square dramatic weather variant of the same biome, framed around the landmark tower under approaching storm clouds, lateral rain bands, and colder metallic highlights. The camera remains wide enough to preserve environment layout, but the sky grows heavier and the water channels darken, making the landmark feel more dangerous and sacred without losing spatial clarity.\n\nSubject:\nThe exact same mangrove canyon biome from the reference model, with the same collapsed observatory-reactor, cable routes, cliff forms, root systems, and water network. Shift the weather into an incoming stormfront: brighter lightning far in the distance, stronger wind in banners of mist, and slicker surfaces across rock and metal, while the landmark remains the unmistakable center of the region.\n\nImportant details:\nPreserve the reference silhouette and route logic with zero landmark drift. Weather should amplify mood, not hide the level design. Keep bridge positions, canyon profile, and tower anatomy aligned to the reference while increasing contrast between wet stone, cold steel, rain haze, and luminous emergency lights tucked into the architecture. The result should read like a chapter-page hero image for the same playable biome.\n\nUse case:\nBiome Pack series study 3/9, preserving the same biome while transforming the atmosphere into a stormfront showcase.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact landmarks from the reference model, no characters, no tornado spectacle, no unreadable signage, no lightning striking the camera, no muddy blur",
+  "id": "03-stormfront-landmark",
+  "title": "Stormfront Landmark",
+  "description": "A weather-shift variation that keeps the same biome reference while pushing storm tension around the landmark tower.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/03-stormfront-landmark/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-biome-vista",
+        "meta_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/meta.json",
+        "image_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the biome landmarks and traversal logic from the reference image while changing atmosphere or camera emphasis.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stormfront Landmark",
+      "description": "A weather-shift variation that keeps the same biome reference while pushing storm tension around the landmark tower."
+    },
+    "zh-CN": {
+      "title": "Stormfront Landmark",
+      "description": "A weather-shift variation that keeps the same biome reference while pushing storm tension around the landmark tower."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A weather-shift variation that keeps the same biome reference while pushing storm tension around the landmark tower.",
+      "zh-CN": "A weather-shift variation that keeps the same biome reference while pushing storm tension around the landmark tower."
+    }
+  }
+}

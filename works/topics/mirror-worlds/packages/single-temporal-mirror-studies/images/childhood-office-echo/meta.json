@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square cinematic office at night, seen from a calm three-quarter angle. The room has a desk, a soft desk lamp, tall windows with city lights, shelves, a wall mirror, and a polished floor reflection. Use deep navy shadows, warm amber lamp light, and controlled negative space so multiple figures remain easy to read.\n\nSubject:\nShow the same man at four life stages sharing the office: child sitting under the desk with a sketchbook, teenager leaning against the window, adult working at the desk, and elderly version reflected in the wall mirror. Preserve identity through the same broad brow, round eyes, slight gap-toothed smile, and a blue cardigan motif adapted across ages. Each version should feel physically present or reflected in the same room, not pasted from separate images.\n\nImportant details:\nThe emotional concept is a person surrounded by earlier and later selves while making a decision. Keep the office geometry coherent, with reflections and shadows obeying the room. Age differences should be clear but connected through facial structure, posture echoes, and the blue clothing motif. The composition should feel like one surreal photograph with cinematic polish.\n\nUse case:\nMirror Worlds single study 5/8, testing same-person age consistency and mirror logic in an office scene without references.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra coworkers, no readable documents, no horror tone, no inconsistent facial traits, no broken mirror perspective, no cluttered desk pile.",
+  "id": "childhood-office-echo",
+  "title": "Childhood Office Echo",
+  "description": "An office mirror-world scene where the same man appears as child, teenager, adult, and elder.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "reasoning-composition",
+    "time-split",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/single-temporal-mirror-studies/images/childhood-office-echo/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing same-person life stages in a mirror-office composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Childhood Office Echo",
+      "description": "An office mirror-world scene where the same man appears as child, teenager, adult, and elder."
+    },
+    "zh-CN": {
+      "title": "童年办公室回声",
+      "description": "一张办公室镜像世界场景，同一男性以童年、少年、成年和老年形态出现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "time-split",
+      "single"
+    ],
+    "alt": {
+      "en": "The same man appears at four ages in a night office with a mirror reflection.",
+      "zh-CN": "同一男性以四个年龄阶段出现在夜间办公室和镜面反射中。"
+    }
+  }
+}

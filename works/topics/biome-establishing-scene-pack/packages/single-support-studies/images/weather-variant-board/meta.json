@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square comparison board showing three atmosphere states of the same biome across a disciplined triptych-like layout, with each window focusing on the same landmark zone under clear dawn, hard rain, and dense fog. The background remains quiet and graphic so the environment variations read immediately.\n\nSubject:\nThe subject is one consistent landmark composition repeated across multiple weather states, proving that the biome remains recognizable through climate shifts. The observatory tower, bridge route, cliff shape, and water channel should remain constant while visibility, moisture, and light quality change.\n\nImportant details:\nMake the comparison logic visual rather than textual. Weather must affect contrast, reflections, surface wetness, fog density, and sky color, but never erase the location identity. The board should feel useful for chapter-page planning, loading-screen art direction, and event variant discussion, while remaining polished enough to stand alone as a gallery image.\n\nUse case:\nBiome Pack single study 8/9, comparing multiple weather states while preserving the same biome identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no character inserts, no chaotic split-screen effects, no landmark drift between states, no poster slogans, no off-topic props",
+  "id": "weather-variant-board",
+  "title": "Weather Variant Board",
+  "description": "A compact board comparing clear, rain, and fog states for the biome without losing landmark recognition.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/single-support-studies/images/weather-variant-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the biome reference view for the series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Weather Variant Board",
+      "description": "A compact board comparing clear, rain, and fog states for the biome without losing landmark recognition."
+    },
+    "zh-CN": {
+      "title": "Weather Variant Board",
+      "description": "A compact board comparing clear, rain, and fog states for the biome without losing landmark recognition."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A compact board comparing clear, rain, and fog states for the biome without losing landmark recognition.",
+      "zh-CN": "A compact board comparing clear, rain, and fog states for the biome without losing landmark recognition."
+    }
+  }
+}

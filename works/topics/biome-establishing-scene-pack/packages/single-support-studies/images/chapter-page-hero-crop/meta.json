@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square website-hero style crop for the fictional biome, designed as a clean promotional environment image with bold foreground framing, a strong midground landmark, and enough open space to imply possible UI placement without actually rendering text. Lighting is elegant, atmospheric, and slightly more graphic than the gameplay-focused studies.\n\nSubject:\nThe subject remains the same canyon biome and landmark tower, but the composition is optimized for a branded page hero: strong diagonal bridge line in the foreground, tower framed by roots in the midground, and a soft atmospheric depth stack behind it. The environment should feel explorable, memorable, and commercially polished.\n\nImportant details:\nFocus on conversion-friendly clarity: one iconic landmark, one clear path cue, one memorable color relationship, and one set of surface materials that instantly identifies the region. Keep the art premium and collectible, suitable for a chapter landing page, event backdrop, or region overview panel without relying on readable text or logos.\n\nUse case:\nBiome Pack single study 9/9, adapting the biome into a polished chapter-page hero crop.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no characters, no oversized UI panels, no logo shapes, no random fantasy castles, no distorted horizon",
+  "id": "chapter-page-hero-crop",
+  "title": "Chapter Page Hero Crop",
+  "description": "A chapter-page hero crop showing how the biome can scale into a promotional website or regional page surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/single-support-studies/images/chapter-page-hero-crop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the biome reference view for the series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Chapter Page Hero Crop",
+      "description": "A chapter-page hero crop showing how the biome can scale into a promotional website or regional page surface."
+    },
+    "zh-CN": {
+      "title": "Chapter Page Hero Crop",
+      "description": "A chapter-page hero crop showing how the biome can scale into a promotional website or regional page surface."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A chapter-page hero crop showing how the biome can scale into a promotional website or regional page surface.",
+      "zh-CN": "A chapter-page hero crop showing how the biome can scale into a promotional website or regional page surface."
+    }
+  }
+}

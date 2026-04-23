@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square hyperreal cutaway cube displayed under clean architectural model lighting. The cube floats above a white plinth in a quiet design studio, with a three-quarter view and strong edge definition. Use cool concrete grays, asphalt black, signal yellow accents, and warm underground station light. The top and side faces must all be visible and sharply detailed.\n\nSubject:\nThe top face shows a miniature dense city block with towers, sidewalks, trees, rooftop equipment, crosswalks without readable markings, and small cars at realistic scale. The side faces reveal basement levels, utility conduits, storm drains, subway tunnels, platforms, escalator shafts, bedrock, groundwater seepage, and older buried foundations. Include train cars inside one tunnel, pipe bundles, cable trays, retaining walls, and soil nails that connect logically to surface structures.\n\nImportant details:\nThe cube is a structured urban x-ray, not a chaotic city collage. Each layer should have a distinct purpose: street surface, building foundations, service corridors, transit tube, drainage, bedrock, and water. Vertical shafts must connect from street entrances down to platforms. Keep architectural scale consistent and avoid impossible overlaps. The cutaway faces should feel like a physical model made from concrete, soil, metal, glass, and stone.\n\nUse case:\nHyperreal Diorama Cube single study 6/8, testing a megacity block cube with surface urban detail and organized underground infrastructure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand signs, no route maps, no station names, no floating labels, no impossible tunnel intersections, no toy-like cars, no muddy utility spaghetti, no cropped cube edges.",
+  "id": "06-megacity-subway-core",
+  "title": "Megacity Subway Core",
+  "description": "A dense city block cube exposing foundations, utilities, subway tunnels, drainage, and bedrock.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "miniature-world",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/06-megacity-subway-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent megacity cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Megacity Subway Core",
+      "description": "A dense city block cube exposing foundations, utilities, subway tunnels, drainage, and bedrock."
+    },
+    "zh-CN": {
+      "title": "巨城地铁岩芯",
+      "description": "密集城市街区立方，剖出地基、市政管线、地铁隧道、排水和基岩。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A megacity block diorama cube with buildings above foundations, utilities, subway tunnels, and drainage.",
+      "zh-CN": "一个巨城街区剖面立方，建筑下方可见地基、管线、地铁隧道和排水系统。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "npc-faction-casting-sheet",
+  "slug": "npc-faction-casting-sheet",
+  "category": "fantasy",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "consistency"
+  ],
+  "title": "NPC Faction Casting Sheet",
+  "short_title": "NPC Casting",
+  "description": "Assemble a faction casting sheet for NPC archetypes so side characters feel like a coherent world population rather than unrelated concept pieces.",
+  "i18n": {
+    "en": {
+      "title": "NPC Faction Casting Sheet",
+      "short_title": "NPC Casting",
+      "description": "Assemble a faction casting sheet for NPC archetypes so side characters feel like a coherent world population rather than unrelated concept pieces."
+    },
+    "zh-CN": {
+      "title": "阵营 NPC 选角表",
+      "short_title": "NPC 选角",
+      "description": "围绕一个阵营做 NPC casting sheet，比如卫兵、商人、祭司、工程师和精英单位，重点看世界观统一。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 710,
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-faction-language-lock",
+      "type": "series",
+      "title": "Faction Language Lock",
+      "path": "packages/series-faction-language-lock/package.json"
+    },
+    {
+      "id": "single-faction-support-sheets",
+      "type": "single",
+      "title": "Faction Support Sheets",
+      "path": "packages/single-faction-support-sheets/package.json"
+    }
+  ]
+}

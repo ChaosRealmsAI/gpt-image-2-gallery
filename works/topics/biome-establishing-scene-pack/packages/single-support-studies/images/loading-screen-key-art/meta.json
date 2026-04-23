@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square polished loading-screen hero composition for the same fictional canyon biome, with a grand cinematic camera, clean negative space, and layered atmosphere designed for a chapter or region splash image. The frame should feel more composed and poster-like than the reference, while still grounded in the same world language of cliffs, roots, ruins, and water.\n\nSubject:\nThe biome appears as a premium game environment artwork: the landmark tower, a foreground bridge, reflective water, and one strong sky break all align into a single iconic composition. The subject remains the place itself, not a figure. Every architectural element should imply climbable paths, explored ruins, and story-rich history embedded in the environment.\n\nImportant details:\nThe goal is brandable clarity rather than pure concept-art chaos. Use strong silhouette hierarchy, rich but believable atmosphere, and material contrast between wet rock, ancient roots, rusted metal, and pale fog. Keep the mood high-end and collectible, like a chapter key art that could sit on a website hero panel or regional landing page. No readable text anywhere.\n\nUse case:\nBiome Pack single study 5/9, turning the biome into a polished chapter-level loading screen asset.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no characters, no vehicles, no random monsters, no cluttered foreground props, no broken perspective",
+  "id": "loading-screen-key-art",
+  "title": "Loading Screen Key Art",
+  "description": "A polished loading-screen composition translating the biome into a standalone promotional environment image.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/single-support-studies/images/loading-screen-key-art/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the biome reference view for the series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Loading Screen Key Art",
+      "description": "A polished loading-screen composition translating the biome into a standalone promotional environment image."
+    },
+    "zh-CN": {
+      "title": "Loading Screen Key Art",
+      "description": "A polished loading-screen composition translating the biome into a standalone promotional environment image."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A polished loading-screen composition translating the biome into a standalone promotional environment image.",
+      "zh-CN": "A polished loading-screen composition translating the biome into a standalone promotional environment image."
+    }
+  }
+}

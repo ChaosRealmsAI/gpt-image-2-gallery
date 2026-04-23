@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square underground subway platform rendered as a polished editorial image, viewed along the platform edge with strong perspective lines, glossy floor reflections, cool fluorescent light, and a train window acting as a long horizontal mirror. The space is clean and cinematic, with no readable signage or route information.\n\nSubject:\nShow the same woman at five life stages distributed along the platform: small child holding a folded coat, teenager listening quietly, young adult with a travel bag, middle-aged adult looking into the train window, and elderly version reflected inside the dark glass. Preserve identity through the same high cheekbones, dark arched brows, short chin, and mustard yellow coat motif adapted by age. Each version should appear at a different depth point while still reading as one person across time.\n\nImportant details:\nThe subway platform must behave like one continuous architectural space. Reflections in the train window and floor should be plausible, with no duplicate bodies in impossible places. The time-split should be obvious through pose, scale, age, and costume changes, not through text. Keep facial continuity stronger than clothing differences.\n\nUse case:\nMirror Worlds single study 6/8, testing life-stage identity consistency along a reflective subway platform without references.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowded commuters, no route numbers, no advertising posters, no inconsistent face, no train-brand marks, no warped platform geometry.",
+  "id": "subway-platform-ages",
+  "title": "Subway Platform Ages",
+  "description": "A reflective subway platform where the same woman appears at five life stages along one perspective line.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "reasoning-composition",
+    "time-split",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/single-temporal-mirror-studies/images/subway-platform-ages/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing same-person ages across a reflective subway platform."
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Platform Ages",
+      "description": "A reflective subway platform where the same woman appears at five life stages along one perspective line."
+    },
+    "zh-CN": {
+      "title": "地铁站台年龄线",
+      "description": "一张反光地铁站台场景，同一女性沿透视线呈现五个人生阶段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "time-split",
+      "single"
+    ],
+    "alt": {
+      "en": "The same woman appears at five ages along a reflective subway platform.",
+      "zh-CN": "同一女性以五个年龄阶段出现在反光地铁站台上。"
+    }
+  }
+}

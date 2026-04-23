@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square high-resolution studio render of an arctic diorama cube sitting on a frosted acrylic plinth. The lighting is cold, bright, and clean, with pale blue reflections and fine crystalline sparkle. Show the cube from a slightly elevated three-quarter view so the snow-covered top and the transparent ice-rich side faces are equally readable.\n\nSubject:\nThe top face contains a tiny polar research camp with two dome tents, snow tracks, wind-carved drifts, a frozen melt pond, and low scientific instruments without visible labels. The cutaway sides reveal compacted snow, blue glacier ice, trapped air bubbles, dark permafrost soil, fossilized plant matter, an old mammoth bone fragment, brine channels, and a narrow subglacial stream. Include delicate frost crystals and sediment bands along the edges.\n\nImportant details:\nThe structure must show cold-region science rather than generic ice fantasy. Snow, firn, glacier ice, permafrost, organic matter, and buried bone should have distinct textures and plausible vertical ordering. The research camp should sit physically on the top surface, with stakes and tracks pressing into snow. Blue ice should be translucent but not opaque enough to hide the layers. Keep all four cube faces aligned and the cut edges sharp.\n\nUse case:\nHyperreal Diorama Cube single study 3/8, testing an arctic research scene with transparent ice, permafrost stratigraphy, fossils, and subglacial water.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no polar bear mascot, no flags, no labels, no floating instruments, no melted cube edges, no impossible glowing ice, no random bone piles, no cropped side faces.",
+  "id": "03-arctic-research-core",
+  "title": "Arctic Research Core",
+  "description": "An arctic camp cube exposing snow, glacier ice, permafrost, fossil matter, and brine channels.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "scientific-realism",
+    "physics-materials",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/03-arctic-research-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent arctic cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arctic Research Core",
+      "description": "An arctic camp cube exposing snow, glacier ice, permafrost, fossil matter, and brine channels."
+    },
+    "zh-CN": {
+      "title": "北极科研岩芯",
+      "description": "北极营地立方，剖出积雪、冰川冰、永久冻土、化石物质和盐水通道。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "An arctic research camp diorama cube with snow, glacier ice, permafrost, bone, and brine channels in cutaway.",
+      "zh-CN": "一个北极科研营地剖面立方，侧面可见积雪、冰川冰、冻土、骨骼和盐水通道。"
+    }
+  }
+}

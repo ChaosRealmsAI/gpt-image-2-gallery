@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nCreate a square tabletop dossier image with printed portrait cards, equipment strips, wax seals, map scraps, and orderly document layering photographed from above. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nThe same faction appears through dossier fragments, selection portraits, and gear evidence, giving producers a believable documentation asset. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. Everything should feel like one organized worldbuilding table, not a chaotic scrapbook. Surface wear and craft should stay grounded and tactile. Treat this frame as an independent study that still honors the same overall theme and production logic. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet single study 9/9, field documentation support for faction worldbuilding.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable paragraphs, no real-world passports, no brand stationery, no messy desk clutter.",
+  "id": "05-field-dossier-table",
+  "title": "Field Dossier Table",
+  "description": "A field dossier composition turning faction NPCs into a believable research-table deliverable.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/single-faction-support-sheets/images/05-field-dossier-table/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Field Dossier Table",
+      "description": "A field dossier composition turning faction NPCs into a believable research-table deliverable."
+    },
+    "zh-CN": {
+      "title": "外勤档案桌面",
+      "description": "一张把阵营 NPC 做成可信外勤档案桌面的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Field Dossier Table for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的外勤档案桌面。"
+    }
+  }
+}

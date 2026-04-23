@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Fantasy Live-Action Character Portraits. Use a cleaner campaign or one-sheet style portrait with deliberate negative space and clear focal hierarchy. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Translate fictional or stylized characters into live-action portrait photography that still feels emotionally grounded and costume-realistic.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one live-action fantasy heroine with warm brown skin, long dark braided hair, a faint scar above the left brow, and grounded warrior posture. Turn the same character into a poster-worthy portrait without readable text or identity drift. Use the example direction from the brief as grounding context: Translate fictional or stylized characters into live-action portrait photography that still feels emotionally grounded and costume-realistic.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Translate fictional or stylized characters into live-action portrait photography that still feels emotionally grounded and costume-realistic.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This frame should feel usable for key art while staying true to the reference model. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nFantasy Live-Action Character Portraits series study 8/9, a poster-like hero crop.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no fake title text, no logo marks, no giant montage collage, no alternate casting.",
+  "id": "08-poster-crop",
+  "title": "Poster Crop",
+  "description": "Poster Crop variation for Fantasy Live-Action Character Portraits, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fantasy-live-action-character-portraits/packages/series-cinematic-portrait-lock/images/08-poster-crop/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-anchor",
+        "meta_path": "works/topics/fantasy-live-action-character-portraits/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/meta.json",
+        "image_path": "works/topics/fantasy-live-action-character-portraits/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a poster-like hero crop.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Poster Crop",
+      "description": "Poster Crop variation for Fantasy Live-Action Character Portraits, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "海报裁切版",
+      "description": "海报裁切版 是 幻想角色真人肖像 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Poster Crop portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的海报裁切版肖像变体。"
+    }
+  }
+}

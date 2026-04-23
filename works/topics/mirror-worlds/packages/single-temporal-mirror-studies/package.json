@@ -1,0 +1,58 @@
+{
+  "id": "single-temporal-mirror-studies",
+  "type": "single",
+  "title": "Temporal Mirror Studies",
+  "description": "Four independent mirror-world compositions testing same-person life-stage consistency without reference dependencies.",
+  "creative_direction": "Each image stages one protagonist across multiple ages in a different environment, using reflections, split lighting, and spatial reasoning to make separate life stages coexist in one square frame.",
+  "cover_image": "images/childhood-office-echo/image.png",
+  "i18n": {
+    "en": {
+      "title": "Temporal Mirror Studies",
+      "description": "Four independent mirror-world compositions testing same-person life-stage consistency without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "时空镜像单图",
+      "description": "四张独立镜像世界构图，测试同一人物不同人生阶段在一个画面内共存。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "identity-consistency",
+      "reasoning-composition",
+      "time-split"
+    ]
+  },
+  "images": [
+    {
+      "id": "childhood-office-echo",
+      "title": "Childhood Office Echo",
+      "image": "images/childhood-office-echo/image.png",
+      "meta": "images/childhood-office-echo/meta.json"
+    },
+    {
+      "id": "subway-platform-ages",
+      "title": "Subway Platform Ages",
+      "image": "images/subway-platform-ages/image.png",
+      "meta": "images/subway-platform-ages/meta.json"
+    },
+    {
+      "id": "wedding-mirror-room",
+      "title": "Wedding Mirror Room",
+      "image": "images/wedding-mirror-room/image.png",
+      "meta": "images/wedding-mirror-room/meta.json"
+    },
+    {
+      "id": "rooftop-time-split",
+      "title": "Rooftop Time Split",
+      "image": "images/rooftop-time-split/image.png",
+      "meta": "images/rooftop-time-split/meta.json"
+    }
+  ]
+}

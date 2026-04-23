@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nDesign a square command-board finale with the elite captain dominant in frame, supported by smaller subordinate silhouettes and rank-emblem panels. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nTurn the elite captain into the highest-authority NPC of the same faction, with heavier ceremonial layers, tighter insignia, and command presence rather than monster-boss spectacle. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. The hierarchy should feel clear enough for quest-giver, region-leader, or late-game ally use, while still matching the clothing logic and field-worn surfaces from image 01. Treat this frame as reference-dependent on image 01 and preserve the same core system, hierarchy, and visual language. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet series study 4/9, the high-rank command variant for the same faction system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no throne-room excess, no villain parody, no floating magic overload, no off-theme luxury metals.",
+  "id": "04-elite-captain-command-board",
+  "title": "Elite Captain Command Board",
+  "description": "A dependent command board elevating the faction's elite tier while preserving the established material system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/04-elite-captain-command-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-faction-overview",
+        "meta_path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/01-reference-faction-overview/meta.json",
+        "image_path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/01-reference-faction-overview/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image that must preserve the same core system established by image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Elite Captain Command Board",
+      "description": "A dependent command board elevating the faction's elite tier while preserving the established material system."
+    },
+    "zh-CN": {
+      "title": "精英队长指挥板",
+      "description": "一张依赖参考图的指挥板，在保持既有材质系统的前提下抬高精英阶层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Elite Captain Command Board for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的精英队长指挥板。"
+    }
+  }
+}

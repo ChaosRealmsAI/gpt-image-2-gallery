@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nCompose a square lineup board with five full-body NPCs in even spacing, neutral ground shadow, and side accessory strips like a shipping-ready art sheet. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nShow a patrol group from rookie to veteran, making armor density, carried tools, and posture clearly tiered. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. Keep role readability strong enough for encounter design and side-quest casting while preserving one faction identity. Treat this frame as an independent study that still honors the same overall theme and production logic. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet single study 7/9, patrol-tier lineup planning for encounter casting.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no identical silhouettes, no extra monsters, no cinematic explosion backdrop, no broken spacing.",
+  "id": "03-patrol-lineup",
+  "title": "Patrol Lineup",
+  "description": "A clean lineup sheet for patrol-ready faction members with shared equipment logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/single-faction-support-sheets/images/03-patrol-lineup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Patrol Lineup",
+      "description": "A clean lineup sheet for patrol-ready faction members with shared equipment logic."
+    },
+    "zh-CN": {
+      "title": "巡逻队列阵",
+      "description": "一张展示巡逻成员统一装备逻辑的整齐列阵设定页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Patrol Lineup for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的巡逻队列阵。"
+    }
+  }
+}

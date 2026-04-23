@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square collectible lore card with a premium codex layout, centered object pedestal, dark velvet background, and restrained bronze frame accents. The card should feel like an in-game archive page rather than a loose still life: one large relic in the middle, blank plaque areas, faint decorative border geometry, and a controlled halo of smoky amber light. Keep the composition symmetrical enough to read as a collectible card while still feeling tactile and dramatic.\n\nSubject:\nThe relic is a haunted lantern reliquary made from blackened iron, cracked amber glass, soot-dark chains, and a suspended pale flame that seems trapped inside a small cage of ritual hooks. The base is engraved with abstract warding marks that remain unreadable. Tiny melted wax drips, old ash, and a few seal-thread knots imply repeated attempts to contain whatever spirit once lived inside it. The lantern should feel dangerous yet treasured, as if players would keep it for both lore and power.\n\nImportant details:\nMake the object itself tell the story. The iron should feel scorched and old, the amber glass should glow from within, and the flame should look eerie but controlled rather than explosive. The card frame language must suggest rarity through shape, metallic trim, and gemlike insets, not through words. Preserve strong silhouette clarity and make the relic feel worthy of a codex entry, reward card, or quest archive. Avoid generic fantasy clutter; every surface detail should reinforce age, containment, and cursed value.\n\nUse case:\nRelic Artifact Lore Card Set single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern lantern parts, no extra weapons, no character portrait, no random skull overload, no noisy particle storm, no broken card frame.",
+  "id": "cursed-lantern-reliquary",
+  "title": "Cursed Lantern Reliquary",
+  "description": "A codex-style relic card centered on a soot-dark spirit lantern that implies containment, danger, and collectible rarity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/cursed-lantern-reliquary/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a cursed lantern relic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cursed Lantern Reliquary",
+      "description": "A codex-style relic card centered on a soot-dark spirit lantern that implies containment, danger, and collectible rarity."
+    },
+    "zh-CN": {
+      "title": "诅咒提灯圣匣",
+      "description": "一张以被封印幽火提灯为主体的遗物卡面，强调危险感与收藏价值。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A dark collectible relic card featuring a chained lantern with an eerie trapped flame.",
+      "zh-CN": "一张深色遗物收藏卡，中央是一盏被锁链束缚、封着幽火的提灯。"
+    }
+  }
+}

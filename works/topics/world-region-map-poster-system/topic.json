@@ -1,0 +1,50 @@
+{
+  "id": "world-region-map-poster-system",
+  "slug": "world-region-map-poster-system",
+  "category": "fantasy",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "title": "World Region Map Poster System",
+  "short_title": "Map Posters",
+  "description": "Design maps and region posters that merge world navigation, landmark hierarchy, and collectible poster appeal in one package.",
+  "i18n": {
+    "en": {
+      "title": "World Region Map Poster System",
+      "short_title": "Map Posters",
+      "description": "Design maps and region posters that merge world navigation, landmark hierarchy, and collectible poster appeal in one package."
+    },
+    "zh-CN": {
+      "title": "世界区域地图海报系统",
+      "short_title": "地图海报",
+      "description": "围绕世界地图和区域地图做海报系统，既要能导航，也要像玩家愿意收藏的地区宣传图。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 931,
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-world-map-poster-studies",
+      "type": "single",
+      "title": "World Map Poster Studies",
+      "path": "packages/single-world-map-poster-studies/package.json"
+    }
+  ]
+}

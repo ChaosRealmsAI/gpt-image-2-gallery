@@ -1,0 +1,88 @@
+{
+  "id": "single-world-map-poster-studies",
+  "type": "single",
+  "title": "World Map Poster Studies",
+  "description": "Nine independent map-poster studies blending navigation clarity with poster-grade atmosphere.",
+  "creative_direction": "Each image should merge cartography, landmark hierarchy, and travel-poster seduction without relying on readable text.",
+  "cover_image": "images/overworld-poster/image.png",
+  "i18n": {
+    "en": {
+      "title": "World Map Poster Studies",
+      "description": "Nine independent map-poster studies blending navigation clarity with poster-grade atmosphere."
+    },
+    "zh-CN": {
+      "title": "区域地图海报研究",
+      "description": "九张独立地图海报研究，兼顾导航清晰度与传播感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "overworld-poster",
+      "title": "Overworld Poster",
+      "image": "images/overworld-poster/image.png",
+      "meta": "images/overworld-poster/meta.json"
+    },
+    {
+      "id": "single-region-annotated-map",
+      "title": "Single Region Annotated Map",
+      "image": "images/single-region-annotated-map/image.png",
+      "meta": "images/single-region-annotated-map/meta.json"
+    },
+    {
+      "id": "faction-travel-poster",
+      "title": "Faction Travel Poster",
+      "image": "images/faction-travel-poster/image.png",
+      "meta": "images/faction-travel-poster/meta.json"
+    },
+    {
+      "id": "dungeon-inset-map",
+      "title": "Dungeon Inset Map",
+      "image": "images/dungeon-inset-map/image.png",
+      "meta": "images/dungeon-inset-map/meta.json"
+    },
+    {
+      "id": "terrain-relief-study",
+      "title": "Terrain Relief Study",
+      "image": "images/terrain-relief-study/image.png",
+      "meta": "images/terrain-relief-study/meta.json"
+    },
+    {
+      "id": "landmark-icon-system",
+      "title": "Landmark Icon System",
+      "image": "images/landmark-icon-system/image.png",
+      "meta": "images/landmark-icon-system/meta.json"
+    },
+    {
+      "id": "merchant-route-board",
+      "title": "Merchant Route Board",
+      "image": "images/merchant-route-board/image.png",
+      "meta": "images/merchant-route-board/meta.json"
+    },
+    {
+      "id": "weather-front-map",
+      "title": "Weather Front Map",
+      "image": "images/weather-front-map/image.png",
+      "meta": "images/weather-front-map/meta.json"
+    },
+    {
+      "id": "tourism-poster-crop",
+      "title": "Tourism Poster Crop",
+      "image": "images/tourism-poster-crop/image.png",
+      "meta": "images/tourism-poster-crop/meta.json"
+    }
+  ]
+}

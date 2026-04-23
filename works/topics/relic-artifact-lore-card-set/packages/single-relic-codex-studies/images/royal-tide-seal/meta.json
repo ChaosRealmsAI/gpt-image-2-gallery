@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square collectible lore card with a polished archive layout, pale shell-like highlights, and a formal frame that suggests court provenance. Use a cool marine palette of pearl, indigo, oxidized silver, and muted sea green. The object should sit in the center over layered velvet and parchment shapes, with blank crest plates and subtle ornamental corners that imply rarity without any words.\n\nSubject:\nThe relic is a royal tide seal once used to authorize oceanic decrees. It combines a silver signet handle, a flattened oval stamp face made of nacre and dark steel, and a ring of wave-cut inlays around the edge. Salt deposits gather in seams, and one corner carries a tiny fracture filled with blue resin from an old repair. The stamp face should show abstract emblem geometry but no readable heraldry. It must feel ceremonial, administrative, and heavy with the politics of a drowned court.\n\nImportant details:\nThe seal should communicate rank and history through craft. Make the nacre shimmer softly, the silver feel worn by generations of hands, and the salt residue indicate long burial near water. The card frame must remain unified with the other relic studies, but the object should stand apart through elegant proportions and ocean-derived material language. Keep the composition organized enough for a codex, reward card, or collection page. Avoid generic pirate clichés; this is a state artifact, not a tavern prop.\n\nUse case:\nRelic Artifact Lore Card Set single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crown icon with readable initials, no pirate flags, no modern office stamp, no seashell clutter, no broken symmetry, no cheap jewelry styling.",
+  "id": "royal-tide-seal",
+  "title": "Royal Tide Seal",
+  "description": "A formal relic card built around a salt-worn royal seal that suggests bureaucracy, lineage, and a submerged empire.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/royal-tide-seal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a marine royal seal.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Royal Tide Seal",
+      "description": "A formal relic card built around a salt-worn royal seal that suggests bureaucracy, lineage, and a submerged empire."
+    },
+    "zh-CN": {
+      "title": "王潮印玺",
+      "description": "以盐蚀王室印玺为核心的遗物卡面，传达海底王庭的制度与血脉感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A refined relic card featuring a pearl and silver royal seal weathered by salt and time.",
+      "zh-CN": "一张精致遗物卡，展示一枚被盐分侵蚀的珍珠银质王室印玺。"
+    }
+  }
+}

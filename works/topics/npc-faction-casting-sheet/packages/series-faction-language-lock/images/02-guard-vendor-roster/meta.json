@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nCompose a square roster plate with two tall character columns and smaller accessory callouts, like a studio-approved sheet for side-cast implementation. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nFocus on a gate guard, a market vendor, and a caravan clerk from the same faction, showing how civilian roles inherit the same insignia and materials with softer protection levels. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. The sheet should prove that noncombat NPCs still belong to the same world. Use subtle prop logic such as ration satchels, water seals, and stamped cloth tabs. Treat this frame as reference-dependent on image 01 and preserve the same core system, hierarchy, and visual language. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet series study 2/9, a civilian-versus-military roster comparison within one faction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern storefront cues, no unrelated luxury styling, no duplicate poses, no broken accessory scale.",
+  "id": "02-guard-vendor-roster",
+  "title": "Guard and Vendor Roster",
+  "description": "A dependent roster sheet showing civilian and military roles coexisting under one faction language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/02-guard-vendor-roster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-faction-overview",
+        "meta_path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/01-reference-faction-overview/meta.json",
+        "image_path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/01-reference-faction-overview/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image that must preserve the same core system established by image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Guard and Vendor Roster",
+      "description": "A dependent roster sheet showing civilian and military roles coexisting under one faction language."
+    },
+    "zh-CN": {
+      "title": "卫兵与商贩花名册",
+      "description": "一张依赖参考图的 roster sheet，展示平民与军事角色如何共处同一阵营语言下。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Guard and Vendor Roster for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的卫兵与商贩花名册。"
+    }
+  }
+}

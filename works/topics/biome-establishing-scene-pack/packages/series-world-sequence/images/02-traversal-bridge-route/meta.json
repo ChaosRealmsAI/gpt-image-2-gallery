@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square traversal-focused gameplay art frame using the same biome and landmark language as the reference vista, but with the camera lowered closer to the route so hanging bridges, cliff switchbacks, and suspended maintenance platforms become the compositional spine. Lighting is slightly brighter and clearer than image 01, with crisp edge light on ropes, railings, and wet stone.\n\nSubject:\nThe exact same mangrove canyon biome from the reference model, preserving the collapsed reactor-observatory tower, canyon walls, root growth, water channels, and bridge architecture. Recompose the space to highlight how a player would move through it: one main bridge crossing in the foreground, secondary catwalks in the midground, and a distant lift platform leading toward the landmark.\n\nImportant details:\nPreserve the landmark silhouette, palette, and route logic from the reference image. The goal is to make traversal feel intentional and readable, not cinematic chaos. Show believable handrails, anchor points, support beams, wet stone wear, puddle reflections, and depth cues that clarify where a player could step, climb, or look next. The world language must remain identical to the reference biome.\n\nUse case:\nBiome Pack series study 2/9, using the same biome reference to foreground traversal and path readability.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact landmarks from the reference model, no characters, no combat effects, no broken bridge collapse in progress, no unreadable UI text, no floating islands",
+  "id": "02-traversal-bridge-route",
+  "title": "Traversal Bridge Route",
+  "description": "A route-focused variation preserving the same biome while emphasizing bridge crossings, vertical pathing, and player-readable movement.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/02-traversal-bridge-route/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-biome-vista",
+        "meta_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/meta.json",
+        "image_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the biome landmarks and traversal logic from the reference image while changing atmosphere or camera emphasis.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Traversal Bridge Route",
+      "description": "A route-focused variation preserving the same biome while emphasizing bridge crossings, vertical pathing, and player-readable movement."
+    },
+    "zh-CN": {
+      "title": "Traversal Bridge Route",
+      "description": "A route-focused variation preserving the same biome while emphasizing bridge crossings, vertical pathing, and player-readable movement."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A route-focused variation preserving the same biome while emphasizing bridge crossings, vertical pathing, and player-readable movement.",
+      "zh-CN": "A route-focused variation preserving the same biome while emphasizing bridge crossings, vertical pathing, and player-readable movement."
+    }
+  }
+}

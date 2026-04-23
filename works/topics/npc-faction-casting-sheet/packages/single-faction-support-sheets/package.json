@@ -1,0 +1,65 @@
+{
+  "id": "single-faction-support-sheets",
+  "type": "single",
+  "title": "Faction Support Sheets",
+  "description": "Five independent support sheets expanding the same faction into dialogue portraits, quest boards, roster logic, and field dossiers.",
+  "creative_direction": "These five independent images prove the faction works beyond one lineup board. Each sheet should feel usable in a codex, quest UI, dialogue roster, or live production bible.",
+  "cover_image": "images/01-dialogue-portrait-grid/image.png",
+  "i18n": {
+    "en": {
+      "title": "Faction Support Sheets",
+      "description": "Five independent support sheets expanding the same faction into dialogue portraits, quest boards, roster logic, and field dossiers."
+    },
+    "zh-CN": {
+      "title": "阵营配套设定页",
+      "description": "五张独立配套设定页,把同一阵营扩展到对话头像、任务板、阵容逻辑和外勤档案。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-dialogue-portrait-grid",
+      "title": "Dialogue Portrait Grid",
+      "image": "images/01-dialogue-portrait-grid/image.png",
+      "meta": "images/01-dialogue-portrait-grid/meta.json"
+    },
+    {
+      "id": "02-quest-board-cast",
+      "title": "Quest Board Cast",
+      "image": "images/02-quest-board-cast/image.png",
+      "meta": "images/02-quest-board-cast/meta.json"
+    },
+    {
+      "id": "03-patrol-lineup",
+      "title": "Patrol Lineup",
+      "image": "images/03-patrol-lineup/image.png",
+      "meta": "images/03-patrol-lineup/meta.json"
+    },
+    {
+      "id": "04-rank-insignia-comparison",
+      "title": "Rank Insignia Comparison",
+      "image": "images/04-rank-insignia-comparison/image.png",
+      "meta": "images/04-rank-insignia-comparison/meta.json"
+    },
+    {
+      "id": "05-field-dossier-table",
+      "title": "Field Dossier Table",
+      "image": "images/05-field-dossier-table/image.png",
+      "meta": "images/05-field-dossier-table/meta.json"
+    }
+  ]
+}

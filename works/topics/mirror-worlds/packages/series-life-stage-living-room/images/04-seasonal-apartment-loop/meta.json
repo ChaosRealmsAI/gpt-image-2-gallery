@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference age sheet as the identity source. Create a square apartment interior divided by lighting and window views into four seasonal zones while remaining one continuous room. Morning spring light enters from the left, summer noon warms the center, autumn dusk glows near the sofa, and winter blue light appears near the far window. No hard panel borders; the seasons blend through furniture, shadows, and color temperature.\n\nSubject:\nPlace the same woman at eight ages across the seasonal apartment loop: childhood and preteen near spring plants, teenage and young adult in the bright summer area, mid-career and older adult near autumn books and warm lamps, elderly and very elderly near winter window light. Preserve the facial identity, left cheek dimple, red scarf motif, and eye shape from the reference. Each life stage interacts with the same room in age-appropriate ways without looking like separate photo cutouts.\n\nImportant details:\nThis image tests temporal reasoning through environment. The room geometry must stay continuous even as seasons shift. Figures should cast shadows consistent with their local light zone, but furniture perspective must remain unified. Make the time split poetic and understandable, with no literal labels or calendars. The same protagonist must be recognizable through aging.\n\nUse case:\nMirror Worlds series study 4/8, merging eight life stages and four seasons into one continuous apartment world.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no panel grid, no unrelated characters, no random costume changes, no impossible scale shifts, no inconsistent identity, no chaotic background clutter.",
+  "id": "04-seasonal-apartment-loop",
+  "title": "Seasonal Apartment Loop",
+  "description": "A reference-dependent apartment scene merging eight life stages with four seasonal zones in one continuous room.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "identity-consistency",
+    "time-split",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/04-seasonal-apartment-loop/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-age-sheet",
+        "meta_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/meta.json",
+        "image_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the age sheet as primary reference and compose a continuous seasonal apartment time loop."
+  },
+  "i18n": {
+    "en": {
+      "title": "Seasonal Apartment Loop",
+      "description": "A reference-dependent apartment scene merging eight life stages with four seasonal zones in one continuous room."
+    },
+    "zh-CN": {
+      "title": "四季公寓时间环",
+      "description": "一张依赖参考图的公寓场景，将八个人生阶段和四个季节区融合在同一房间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "time-split",
+      "series"
+    ],
+    "alt": {
+      "en": "Eight ages of the same woman occupy one apartment divided by seasonal light.",
+      "zh-CN": "同一女性的八个年龄阶段位于一个被季节光线分区的公寓中。"
+    }
+  }
+}

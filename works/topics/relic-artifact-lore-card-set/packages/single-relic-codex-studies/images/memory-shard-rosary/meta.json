@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square lore card with a contemplative, almost sacred archive tone. Use pale stone, silver-blue haze, and warm candlelike highlights within the same codex frame grammar used across the set. The relic should rest in the center over layered vellum panels and a faint ornamental halo, with empty icon slots and a quiet border that feels collectible but not gaudy.\n\nSubject:\nThe relic is a memory shard rosary: a chain of translucent crystal fragments linked by tarnished silver, ending in a small tear-shaped pendant. Each shard holds a different foggy scene within it, like frozen echoes seen through frosted glass. Some fragments are chipped, one link has been repaired with thread, and the pendant carries a tiny sealed cavity holding a curl of hair or parchment fiber. The object should feel intimate and emotionally charged, something pilgrims or mourners would cherish as both relic and burden.\n\nImportant details:\nThis card should communicate story through material nuance instead of spectacle. Make the crystal fragments semi-opaque and layered, with subtle inner light and hints of trapped imagery that never become readable pictures. The silver should feel old and softly handled, not newly polished. Keep the silhouette elegant and slightly asymmetrical, as if the rosary evolved through use and repair. The collectible card must still feel systematized and ready for a codex or event reward, but the emotional tone should distinguish it from the more martial relics in the set.\n\nUse case:\nRelic Artifact Lore Card Set single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no overt religious icon copying, no character hands, no gemstone-jewelry glamour shot, no excessive glow, no cluttered background props, no modern chain hardware.",
+  "id": "memory-shard-rosary",
+  "title": "Memory Shard Rosary",
+  "description": "A quiet relic card built around a repaired crystal rosary that suggests grief, devotion, and preserved fragments of memory.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/memory-shard-rosary/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on an intimate memory-bearing relic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Memory Shard Rosary",
+      "description": "A quiet relic card built around a repaired crystal rosary that suggests grief, devotion, and preserved fragments of memory."
+    },
+    "zh-CN": {
+      "title": "记忆碎片念珠",
+      "description": "以修补过的晶体念珠为主体的遗物卡，传达哀悼、信念与记忆封存感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A contemplative relic card featuring a chain of translucent memory crystals linked by worn silver.",
+      "zh-CN": "一张安静的遗物卡，主体是由磨旧银链串起的半透明记忆晶体念珠。"
+    }
+  }
+}

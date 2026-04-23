@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Support Studies",
+  "description": "Five independent support images translate the biome into loading art, threshold interiors, weather boards, and web-hero crops.",
+  "creative_direction": "Independent support studies turn the same canyon biome into secondary marketing and art-direction surfaces, balancing playable spatial logic with premium environmental presentation.",
+  "cover_image": "images/loading-screen-key-art/image.png",
+  "i18n": {
+    "en": {
+      "title": "Support Studies",
+      "description": "Five independent support images translate the biome into loading art, threshold interiors, weather boards, and web-hero crops."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "Five independent support images translate the biome into loading art, threshold interiors, weather boards, and web-hero crops."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "loading-screen-key-art",
+      "title": "Loading Screen Key Art",
+      "image": "images/loading-screen-key-art/image.png",
+      "meta": "images/loading-screen-key-art/meta.json"
+    },
+    {
+      "id": "landmark-interior-threshold",
+      "title": "Landmark Interior Threshold",
+      "image": "images/landmark-interior-threshold/image.png",
+      "meta": "images/landmark-interior-threshold/meta.json"
+    },
+    {
+      "id": "flora-and-surface-board",
+      "title": "Flora and Surface Board",
+      "image": "images/flora-and-surface-board/image.png",
+      "meta": "images/flora-and-surface-board/meta.json"
+    },
+    {
+      "id": "weather-variant-board",
+      "title": "Weather Variant Board",
+      "image": "images/weather-variant-board/image.png",
+      "meta": "images/weather-variant-board/meta.json"
+    },
+    {
+      "id": "chapter-page-hero-crop",
+      "title": "Chapter Page Hero Crop",
+      "image": "images/chapter-page-hero-crop/image.png",
+      "meta": "images/chapter-page-hero-crop/meta.json"
+    }
+  ]
+}

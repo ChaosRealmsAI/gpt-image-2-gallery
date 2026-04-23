@@ -1,0 +1,54 @@
+{
+  "id": "biome-establishing-scene-pack",
+  "slug": "biome-establishing-scene-pack",
+  "category": "fantasy",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "title": "Biome Establishing Scene Pack",
+  "short_title": "Biome Pack",
+  "description": "Build a biome scene pack that establishes a level's visual identity through loading-screen views, traversal frames, and atmosphere states.",
+  "i18n": {
+    "en": {
+      "title": "Biome Establishing Scene Pack",
+      "short_title": "Biome Pack",
+      "description": "Build a biome scene pack that establishes a level's visual identity through loading-screen views, traversal frames, and atmosphere states."
+    },
+    "zh-CN": {
+      "title": "地形环境建立镜头包",
+      "short_title": "场景包",
+      "description": "围绕一个 biome 或关卡区域做建立镜头包，包括加载画面、探索视角和昼夜天气变化。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-world-sequence",
+      "type": "series",
+      "title": "World Sequence",
+      "path": "packages/series-world-sequence/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

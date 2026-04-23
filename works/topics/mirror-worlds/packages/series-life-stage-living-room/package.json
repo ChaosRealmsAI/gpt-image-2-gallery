@@ -1,0 +1,71 @@
+{
+  "id": "series-life-stage-living-room",
+  "type": "series",
+  "title": "Life Stage Living Room",
+  "description": "A reference-dependent mirror-world series: one age-spectrum character sheet followed by three same-person time-collage compositions in a shared living-room world.",
+  "creative_direction": "Image 01 locks the protagonist's identity across eight life stages. Images 02-04 use that reference to place the same person at different ages into simultaneous rooms, mirrors, and seasonal time loops while preserving facial structure and signature details.",
+  "cover_image": "images/01-reference-age-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-age-sheet/meta.json",
+      "images/02-eight-ages-living-room/meta.json",
+      "images/03-mirror-hall-reunion/meta.json",
+      "images/04-seasonal-apartment-loop/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Life Stage Living Room",
+      "description": "One age-spectrum character sheet expands into three same-person mirror-world compositions."
+    },
+    "zh-CN": {
+      "title": "人生阶段客厅系列",
+      "description": "一张年龄谱角色参考图扩展成三张同一人物跨时空同框构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "identity-consistency",
+      "time-split"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-age-sheet",
+      "title": "Reference Age Sheet",
+      "image": "images/01-reference-age-sheet/image.png",
+      "meta": "images/01-reference-age-sheet/meta.json"
+    },
+    {
+      "id": "02-eight-ages-living-room",
+      "title": "Eight Ages Living Room",
+      "image": "images/02-eight-ages-living-room/image.png",
+      "meta": "images/02-eight-ages-living-room/meta.json"
+    },
+    {
+      "id": "03-mirror-hall-reunion",
+      "title": "Mirror Hall Reunion",
+      "image": "images/03-mirror-hall-reunion/image.png",
+      "meta": "images/03-mirror-hall-reunion/meta.json"
+    },
+    {
+      "id": "04-seasonal-apartment-loop",
+      "title": "Seasonal Apartment Loop",
+      "image": "images/04-seasonal-apartment-loop/image.png",
+      "meta": "images/04-seasonal-apartment-loop/meta.json"
+    }
+  ]
+}

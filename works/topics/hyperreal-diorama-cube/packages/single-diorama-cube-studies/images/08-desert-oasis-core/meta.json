@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square hyperreal museum-display photograph of a desert oasis diorama cube on a pale limestone base. Use high, dry sunlight with crisp shadows, a clean cream background, and a three-quarter camera angle that shows the palm-covered top surface and exposed sides. The cube should feel tactile, dusty, and precisely cut.\n\nSubject:\nThe top face shows a small oasis with date palms, a shallow turquoise pool, reed patches, wind ripples in sand, camel tracks without animals, and a few mudbrick walls without signage. The cutaway sides reveal dune cross-bedding, compacted ancient lakebed clay, palm roots, a freshwater lens, salt crust, buried pottery fragments, beetle burrows, and a deeper fractured sandstone aquifer. Include capillary moisture gradients, root hairs touching wet sand, and mineral rings around the pool.\n\nImportant details:\nThe whole object must communicate how an oasis works. Surface water should connect visibly to groundwater, palm roots should reach toward the wet lens, and sand layers should show wind-driven structure. Pottery fragments and burrows should be sparse and embedded, not scattered decoration. Keep the cube edges sharp, the materials dry except at the wet zones, and the top oasis small enough to preserve the sense of a specimen block.\n\nUse case:\nHyperreal Diorama Cube single study 8/8, testing a desert oasis cube with groundwater logic, dune stratigraphy, roots, salt, artifacts, and aquifer layers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no floating labels, no fantasy temple ruins, no oversized animals, no random treasure, no muddy blue water stripe, no disconnected pool, no soft rounded cube edges, no cropped palm crowns.",
+  "id": "08-desert-oasis-core",
+  "title": "Desert Oasis Core",
+  "description": "A desert oasis cube exposing dune layers, palm roots, freshwater lens, salt crust, and aquifer.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "scientific-realism",
+    "miniature-world",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/08-desert-oasis-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent desert-oasis cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Oasis Core",
+      "description": "A desert oasis cube exposing dune layers, palm roots, freshwater lens, salt crust, and aquifer."
+    },
+    "zh-CN": {
+      "title": "沙漠绿洲岩芯",
+      "description": "沙漠绿洲立方，剖出沙丘层理、棕榈根、淡水透镜体、盐壳和含水层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A desert oasis diorama cube showing palms and a pool above dune layers, roots, salt, and aquifer water.",
+      "zh-CN": "一个沙漠绿洲剖面立方，棕榈和水池下方可见沙丘层、根系、盐壳和含水层。"
+    }
+  }
+}

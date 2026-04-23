@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square cinematic studio photograph of a Mars habitat diorama cube under warm directional light. The cube rests on a minimal black base, with a rust-red dust haze and a dark neutral background. Use a sharp three-quarter view that shows the top habitat surface and multiple cutaway sides with clean, physically convincing edges.\n\nSubject:\nThe top face shows a tiny modular Mars research outpost: pressurized domes, solar arrays, rover tracks, dust-covered equipment, regolith berms, and a small greenhouse bubble. The vertical cut faces expose layered red regolith, basalt fragments, buried ice lenses, cable trenches, habitat foundation pylons, a sealed lava tube chamber, and older impact breccia. Include fine dust, compacted tire marks, small rocks, and realistic scale cues.\n\nImportant details:\nThe cube should feel like a future planetary science exhibit. All infrastructure must connect logically: cables should run from the surface into trenches, foundations should enter the regolith, and the greenhouse should sit on a stable pad. Subsurface ice must appear as pale translucent seams, not blue fantasy crystal. The lava tube should be a dark hollow space below the habitat, with rough basalt walls and no magical glow.\n\nUse case:\nHyperreal Diorama Cube single study 4/8, testing a Mars habitat surface with regolith structure, buried ice, infrastructure, and a lava-tube void.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real space agency marks, no astronauts posing, no flags, no floating labels, no oversized rover, no glowing alien artifacts, no disconnected underground cables, no blurry side strata.",
+  "id": "04-mars-habitat-core",
+  "title": "Mars Habitat Core",
+  "description": "A Mars outpost cube with regolith layers, buried ice, infrastructure trenches, and a lava tube.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "miniature-world",
+    "scientific-realism",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/04-mars-habitat-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Mars cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mars Habitat Core",
+      "description": "A Mars outpost cube with regolith layers, buried ice, infrastructure trenches, and a lava tube."
+    },
+    "zh-CN": {
+      "title": "火星栖居岩芯",
+      "description": "火星前哨立方，剖出风化层、地下冰、设施沟槽和熔岩管空腔。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "miniature-world",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A Mars habitat diorama cube exposing regolith, buried ice, cables, foundations, and a lava tube.",
+      "zh-CN": "一个火星栖居地剖面立方，侧面可见风化层、地下冰、电缆、地基和熔岩管。"
+    }
+  }
+}

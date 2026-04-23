@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square collectible relic card with an austere diplomatic mood. Use cold silver light, deep navy shadows, and pale frost texture within a disciplined codex frame. The central object should sit over layered archival paper and velvet forms, surrounded by quiet geometric corners and blank insignia plates that imply ceremonial classification. Keep the presentation elegant, stable, and slightly severe.\n\nSubject:\nThe relic is a frostbound treaty ring forged to seal peace between rival winter kingdoms. It is a broad signet ring made of pallid white metal with a translucent ice-blue stone trapped inside the band rather than mounted above it. The metal carries faint stress cracks from repeated freezing and thawing. On the inside edge, there are abstract incisions that remain unreadable but imply formal ritual language. One side of the ring shows a seam where the band was once broken and repaired, suggesting the treaty itself was violated and later renewed.\n\nImportant details:\nThe ring must feel politically important, not merely luxurious. Emphasize weight, temperature, and restrained symbolism. The ice caught inside the band should feel ancient and impossible, while the metal repair seam adds history. Keep the silhouette bold enough for card readability and the material behavior credible under cold light. The card frame should echo the set's collectible language yet stay quieter than the boss core or lantern card. Avoid modern jewelry advertising, wedding-ring clichés, or glossy fashion styling.\n\nUse case:\nRelic Artifact Lore Card Set single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern diamond ring design, no luxury brand cues, no snowstorm clutter, no extra crown props, no cartoon ice spikes, no overpolished metal.",
+  "id": "frostbound-treaty-ring",
+  "title": "Frostbound Treaty Ring",
+  "description": "A diplomatic relic card centered on a repaired cold-metal signet ring that symbolizes a fragile peace.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/frostbound-treaty-ring/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a diplomatic treaty ring.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Frostbound Treaty Ring",
+      "description": "A diplomatic relic card centered on a repaired cold-metal signet ring that symbolizes a fragile peace."
+    },
+    "zh-CN": {
+      "title": "霜缚盟约戒",
+      "description": "以修复痕迹明显的寒金印戒为核心，象征脆弱却延续下来的和平。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A cold ceremonial relic card showing a wide treaty ring with ice trapped inside its metal band.",
+      "zh-CN": "一张冷峻的仪式遗物卡，展示一枚内部封着冰晶的宽大盟约戒。"
+    }
+  }
+}

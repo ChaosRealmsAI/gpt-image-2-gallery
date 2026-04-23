@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square night-time version of the same biome, viewed from a mid-wide angle that still reveals the landmark tower, lower bridges, and water channels while replacing the dawn palette with deep blue darkness, warm watchfire pools, and reflected lantern trails. Fog sits low in the canyon, allowing lights to sketch the route structure without flattening the space.\n\nSubject:\nThe exact same mangrove canyon biome from the reference model, with identical landmark placement, bridge rhythm, root-covered tower silhouette, and traversal routes. The scene now depicts an operational night watch state: signal braziers or enclosed work lights along the catwalks, dim service lamps around the tower base, and calm water reflecting the route network.\n\nImportant details:\nPreserve the reference geometry and world identity precisely. Night readability depends on disciplined lighting hierarchy, not random glow. Use warm route lights, cool moonlit rock faces, selective reflections, and crisp silhouette edges to keep pathing legible. The scene should feel suitable for a loading screen or chapter backdrop that still belongs unmistakably to the same biome established in image 01.\n\nUse case:\nBiome Pack series study 4/9, preserving the same biome in a readable night-state atmosphere.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact landmarks from the reference model, no characters, no readable signs, no neon city clutter, no star-filled fantasy sky, no overexposed bloom",
+  "id": "04-night-watchfire-state",
+  "title": "Night Watchfire State",
+  "description": "A night-state variation of the same biome reference, using lanterns, fog, and reflected light to keep the region readable after dark.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/04-night-watchfire-state/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-biome-vista",
+        "meta_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/meta.json",
+        "image_path": "works/topics/biome-establishing-scene-pack/packages/series-world-sequence/images/01-reference-biome-vista/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the biome landmarks and traversal logic from the reference image while changing atmosphere or camera emphasis.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Watchfire State",
+      "description": "A night-state variation of the same biome reference, using lanterns, fog, and reflected light to keep the region readable after dark."
+    },
+    "zh-CN": {
+      "title": "Night Watchfire State",
+      "description": "A night-state variation of the same biome reference, using lanterns, fog, and reflected light to keep the region readable after dark."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A night-state variation of the same biome reference, using lanterns, fog, and reflected light to keep the region readable after dark.",
+      "zh-CN": "A night-state variation of the same biome reference, using lanterns, fog, and reflected light to keep the region readable after dark."
+    }
+  }
+}

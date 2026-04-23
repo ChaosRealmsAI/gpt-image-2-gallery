@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square hyperreal product photograph of a rainforest diorama cube on a black velvet display base. Use humid atmospheric light, tiny water droplets, and a clean three-quarter angle that reveals the top canopy and three strong side faces. The background is dark green-gray and softly blurred, making the cube look like a rare scientific collectible.\n\nSubject:\nThe top face shows a dense rainforest canopy with giant leaves, bromeliads, small flowering vines, and a winding boardwalk barely visible between trees. The cube sides reveal stacked ecological systems: dark leaf litter, red clay soil, pale fungal threads, thick buttress roots, termite tunnels, a buried stream, mineral seams, and a hidden limestone cave with clear water. Include tiny insects, seed pods, root hairs, and moisture beads where they belong, all at believable scale.\n\nImportant details:\nThe visual rule is continuous ecology across every visible face. Roots must start from real trunks on the top and continue down into the soil layers. Water should pool in low cavities and glisten along clay seams. The side faces need crisp material transitions rather than random brown bands. The cube should have sharp cut edges, detailed micro-texture, and an understandable vertical hierarchy from canopy to cave.\n\nUse case:\nHyperreal Diorama Cube single study 2/8, testing a rainforest ecosystem compressed into a collectible cube with coherent roots, soil, tunnels, and groundwater.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no floating labels, no fantasy plants, no giant insects, no muddy texture soup, no disconnected root fragments, no flat wallpaper side faces, no cropped top canopy.",
+  "id": "02-rainforest-canopy-core",
+  "title": "Rainforest Canopy Core",
+  "description": "A rainforest canopy cube with roots, fungal threads, termite tunnels, clay, and cave water.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "miniature-world",
+    "scientific-realism",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/02-rainforest-canopy-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rainforest cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rainforest Canopy Core",
+      "description": "A rainforest canopy cube with roots, fungal threads, termite tunnels, clay, and cave water."
+    },
+    "zh-CN": {
+      "title": "雨林冠层岩芯",
+      "description": "雨林冠层立方，剖出树根、菌丝、白蚁隧道、红黏土和洞穴水。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "miniature-world",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A rainforest diorama cube showing canopy plants above roots, soil, tunnels, and cave water.",
+      "zh-CN": "一个雨林剖面立方，冠层植物下方可见树根、土壤、隧道和洞穴水。"
+    }
+  }
+}

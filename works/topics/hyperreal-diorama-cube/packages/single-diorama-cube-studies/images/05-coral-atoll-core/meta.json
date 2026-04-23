@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square hyperreal diorama cube photographed like a luxury natural-history specimen. The cube sits partly on a shallow reflective water surface, with bright tropical light from above and soft caustic patterns on the sides. The view is three-quarter and slightly elevated, revealing the turquoise top lagoon and the vertical coral-limestone cross sections.\n\nSubject:\nThe top face is a miniature coral atoll with a ring of white sand, shallow lagoon water, branching coral heads, seagrass patches, and tiny wavelets. The cutaway sides reveal living coral growth, older dead coral skeleton, porous limestone, sand channels, freshwater lens, saltwater intrusion, small reef fish in cavities, and a deeper volcanic seamount base. Include shells, algae films, sponge pockets, and suspended grains where the water meets the cut face.\n\nImportant details:\nThe image must show a clear relationship between surface reef and subsurface geology. The freshwater lens should be a subtle clear layer floating above denser blue saltwater, not a random stripe. Coral heads must attach to real substrate. Limestone pores, reef rubble, and volcanic base should have different materials. Keep water transparent enough to reveal depth while preserving realistic reflections and refraction.\n\nUse case:\nHyperreal Diorama Cube single study 5/8, testing a coral atoll cube with reef ecology, porous limestone, water lenses, and volcanic foundation layers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon fish, no fantasy coral colors, no disconnected water layer, no plastic aquarium look, no cloudy side faces, no impossible wave scale, no cropped lagoon rim.",
+  "id": "05-coral-atoll-core",
+  "title": "Coral Atoll Core",
+  "description": "A coral atoll cube exposing reef growth, limestone pores, freshwater lens, and volcanic base.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "scientific-realism",
+    "physics-materials",
+    "miniature-world",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/05-coral-atoll-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent coral-atoll cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coral Atoll Core",
+      "description": "A coral atoll cube exposing reef growth, limestone pores, freshwater lens, and volcanic base."
+    },
+    "zh-CN": {
+      "title": "珊瑚环礁岩芯",
+      "description": "珊瑚环礁立方，剖出生长礁体、石灰岩孔隙、淡水透镜体和火山基底。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A coral atoll diorama cube showing lagoon water above reef, limestone, freshwater lens, and volcanic base.",
+      "zh-CN": "一个珊瑚环礁剖面立方，泻湖水下方可见礁体、石灰岩、淡水透镜体和火山基底。"
+    }
+  }
+}

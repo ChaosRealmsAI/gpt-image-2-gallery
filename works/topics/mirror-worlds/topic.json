@@ -1,0 +1,56 @@
+{
+  "id": "mirror-worlds",
+  "slug": "mirror-worlds",
+  "category": "fantasy",
+  "style": [
+    "painterly",
+    "handdrawn"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency"
+  ],
+  "title": "Mirror Worlds",
+  "short_title": "Mirror Worlds",
+  "description": "A Prompt Atlas theme for mirror-world compositions, testing multi-image reference, identity consistency, and reasoning composition across simultaneous life stages with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Mirror Worlds",
+      "short_title": "Mirror Worlds",
+      "description": "A Prompt Atlas theme for mirror-world compositions, testing multi-image reference, identity consistency, and reasoning composition across simultaneous life stages with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Mirror Worlds · 同角色跨时空同框",
+      "short_title": "同角色跨时空",
+      "description": "Mirror Worlds · 同角色跨时空同框：同一个人从小到老同时出现在同一空间的不同角落，测试身份一致性和时空拼接。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "identity-consistency",
+      "reasoning-composition",
+      "time-split"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-life-stage-living-room",
+      "type": "series",
+      "title": "Life Stage Living Room",
+      "path": "packages/series-life-stage-living-room/package.json"
+    },
+    {
+      "id": "single-temporal-mirror-studies",
+      "type": "single",
+      "title": "Temporal Mirror Studies",
+      "path": "packages/single-temporal-mirror-studies/package.json"
+    }
+  ]
+}

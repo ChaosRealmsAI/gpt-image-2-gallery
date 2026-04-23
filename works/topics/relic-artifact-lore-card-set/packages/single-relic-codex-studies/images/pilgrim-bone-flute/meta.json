@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square relic card with a pilgrim-travel archive mood, using dusty ivory, muted ochre, weathered leather brown, and soft twilight blue. The codex frame should be present but modest: centered object, layered paper and fabric backing, blank relic slots, and fine border markings that support the object instead of dominating it. The overall image should feel personal, portable, and old.\n\nSubject:\nThe relic is a pilgrim bone flute carved from a long pale bone segment with wrapped leather grip, tiny inset shell studs, and several uneven finger holes darkened by use. One end is capped with a knotted tassel of faded blue thread and a bead made from smoky glass. The flute should imply ritual travel, mourning songs, or wayfinding hymns rather than battlefield ceremony. It needs to feel humble but deeply significant, as if many hands carried it across deserts, shrines, and borderlands.\n\nImportant details:\nFocus on touch history. The bone should show polished areas from fingers, tiny age cracks, and warm tonal variation. The leather wrap should feel repaired more than decorative, and the bead should add a quiet point of color. The card design must still communicate collectible-system value, but the relic itself should look emotionally grounded rather than flashy. Preserve clean silhouette and strong material readability for codex or lore reward use. Avoid real instrument branding, modern concert-flute cues, or overtly horror-coded bone styling.\n\nUse case:\nRelic Artifact Lore Card Set single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no skull imagery, no modern metal keys, no extra hands, no campfire scene, no busy travel props, no cartoon fantasy decoration, no oversized tassel clutter.",
+  "id": "pilgrim-bone-flute",
+  "title": "Pilgrim Bone Flute",
+  "description": "A restrained relic card centered on a travel-worn ritual flute whose repairs and patina suggest generations of devotion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/pilgrim-bone-flute/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a travel-worn ritual flute relic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pilgrim Bone Flute",
+      "description": "A restrained relic card centered on a travel-worn ritual flute whose repairs and patina suggest generations of devotion."
+    },
+    "zh-CN": {
+      "title": "行旅骨笛",
+      "description": "以一支带修补痕迹的仪式骨笛为主体，强调世代携带与信念传承。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A quiet collectible relic card featuring a weathered bone flute wrapped in repaired leather and blue thread.",
+      "zh-CN": "一张安静的收藏遗物卡，展示一支裹着修补皮革和蓝线的旧骨笛。"
+    }
+  }
+}

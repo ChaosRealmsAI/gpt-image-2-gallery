@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square rooftop at twilight, high above a city, composed as one continuous terrace split by changing sky colors: cool dawn blue on the left, bright afternoon near the center, amber sunset on the right, and deep night reflections in a glass door. Use cinematic realism, clean architectural lines, and reflective puddles after rain.\n\nSubject:\nShow the same man at six life stages on the rooftop: child near a low wall, teenager sitting on the parapet, young adult holding a jacket, adult standing near the glass door, older adult watering rooftop plants, and elderly version reflected in the wet floor. Preserve identity through the same square jaw, thick brows, close-set eyes, and burgundy scarf motif adapted across ages. The figures should occupy separate zones but share one terrace geometry.\n\nImportant details:\nThe time split is environmental as well as human. Lighting changes should signal different eras without breaking perspective or turning the image into panels. Keep all ages physically grounded with believable shadows and reflections. The city skyline can shift subtly in mood, but no readable signs should appear. Facial identity must remain consistent enough that the concept is clear immediately.\n\nUse case:\nMirror Worlds single study 8/8, testing simultaneous age stages and time-of-day zones in one rooftop scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra people, no superhero styling, no impossible rooftop scale, no inconsistent facial identity, no harsh panel dividers, no skyline text.",
+  "id": "rooftop-time-split",
+  "title": "Rooftop Time Split",
+  "description": "A rooftop scene where one man appears at six life stages across changing time-of-day zones.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "reasoning-composition",
+    "time-split",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/single-temporal-mirror-studies/images/rooftop-time-split/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing same-person life stages across a rooftop time split."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Time Split",
+      "description": "A rooftop scene where one man appears at six life stages across changing time-of-day zones."
+    },
+    "zh-CN": {
+      "title": "屋顶时间切片",
+      "description": "一张屋顶场景，同一男性跨越不同日光区域呈现六个人生阶段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "time-split",
+      "single"
+    ],
+    "alt": {
+      "en": "The same man appears at six ages across a rooftop divided by changing light.",
+      "zh-CN": "同一男性以六个年龄阶段出现在由光线变化分区的屋顶。"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tilt-shift-miniature-world",
+  "slug": "tilt-shift-miniature-world",
+  "category": "fantasy",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "style-transfer",
+    "physics-materials"
+  ],
+  "title": "Tilt-Shift Miniature World",
+  "short_title": "Miniature",
+  "description": "A Prompt Atlas theme for Tilt-Shift Miniature World, testing photorealism, physics-materials, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Tilt-Shift Miniature World",
+      "short_title": "Miniature",
+      "description": "A Prompt Atlas theme for Tilt-Shift Miniature World, testing photorealism, physics-materials, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "移轴微缩迷你世界 · tilt-shift",
+      "short_title": "移轴微缩",
+      "description": "移轴微缩迷你世界 · tilt-shift：俯视城市 / 工地 / 游园会 / 足球场 · tilt-shift 前后模糊 · 人车变玩具感 · 景深仿微距"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "miniature-world",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-tilt-shift-miniature-world-studies",
+      "type": "single",
+      "title": "Miniature Miniature World Studies",
+      "path": "packages/single-tilt-shift-miniature-world-studies/package.json"
+    }
+  ]
+}

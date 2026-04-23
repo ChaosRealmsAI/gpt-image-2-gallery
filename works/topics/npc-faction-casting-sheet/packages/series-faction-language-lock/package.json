@@ -1,0 +1,72 @@
+{
+  "id": "series-faction-language-lock",
+  "type": "series",
+  "title": "Faction Language Lock",
+  "description": "A four-image reference-dependent series that locks one NPC faction's material palette, symbols, ranks, and role casting logic.",
+  "creative_direction": "Image 01 establishes one coherent frontier faction through a casting-board anchor. Images 02-04 depend on that reference and reframe the same world through profession, command hierarchy, and deployment logic without losing insignia, palette, or social order.",
+  "cover_image": "images/01-reference-faction-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Faction Language Lock",
+      "description": "A four-image reference-dependent series that locks one NPC faction's material palette, symbols, ranks, and role casting logic."
+    },
+    "zh-CN": {
+      "title": "阵营语言锁定",
+      "description": "四张依赖参考图的系列,先锁定一个 NPC 阵营的材质、符号、阶级和职业分工语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-faction-overview",
+      "title": "Reference Faction Overview",
+      "image": "images/01-reference-faction-overview/image.png",
+      "meta": "images/01-reference-faction-overview/meta.json"
+    },
+    {
+      "id": "02-guard-vendor-roster",
+      "title": "Guard and Vendor Roster",
+      "image": "images/02-guard-vendor-roster/image.png",
+      "meta": "images/02-guard-vendor-roster/meta.json"
+    },
+    {
+      "id": "03-medic-engineer-pairing",
+      "title": "Medic and Engineer Pairing",
+      "image": "images/03-medic-engineer-pairing/image.png",
+      "meta": "images/03-medic-engineer-pairing/meta.json"
+    },
+    {
+      "id": "04-elite-captain-command-board",
+      "title": "Elite Captain Command Board",
+      "image": "images/04-elite-captain-command-board/image.png",
+      "meta": "images/04-elite-captain-command-board/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-faction-overview/meta.json",
+      "images/02-guard-vendor-roster/meta.json",
+      "images/03-medic-engineer-pairing/meta.json",
+      "images/04-elite-captain-command-board/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-faction-overview first. Use its runtime result URL as --ref for 02-guard-vendor-roster, 03-medic-engineer-pairing, 04-elite-captain-command-board. Queue may run 02-guard-vendor-roster, 03-medic-engineer-pairing, 04-elite-captain-command-board concurrently after 01-reference-faction-overview is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

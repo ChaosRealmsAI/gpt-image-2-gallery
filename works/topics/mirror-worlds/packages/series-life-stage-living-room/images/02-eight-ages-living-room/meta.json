@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference age sheet as the identity source. Create a square cinematic living room scene viewed from a slightly elevated corner, with warm late-afternoon window light, a polished wooden floor, bookshelves, a sofa, a small round table, and quiet domestic objects. The room should be one continuous space, not a panel grid, with clear depth layers and eight readable positions.\n\nSubject:\nPlace the same woman at eight life stages in different corners of the same living room: child drawing on the rug, preteen reading near the window, teenager leaning by the shelf, young adult carrying a suitcase, mid-career adult at the table, older adult watering a plant, elderly woman seated on the sofa, and very elderly woman near a mirror. Preserve the facial identity, cheek dimple, gaze, and red scarf motif from the reference while adapting age, clothing, and posture naturally.\n\nImportant details:\nThe core illusion is simultaneous time. Each age must feel physically present in the same room, with believable shadows, consistent scale, and no ghost transparency. Use composition to keep the eight figures separate but emotionally connected through sightlines and reflected glances. The living room should remain coherent and not collapse into a collage.\n\nUse case:\nMirror Worlds series study 2/8, placing the same protagonist's eight life stages into one shared living room.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unrelated characters, no panel borders, no duplicated exact pose, no broken reflections, no inconsistent facial identity, no clutter blocking the figures.",
+  "id": "02-eight-ages-living-room",
+  "title": "Eight Ages Living Room",
+  "description": "A reference-dependent living room scene where the same protagonist appears at eight ages simultaneously.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "identity-consistency",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/02-eight-ages-living-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-age-sheet",
+        "meta_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/meta.json",
+        "image_path": "works/topics/mirror-worlds/packages/series-life-stage-living-room/images/01-reference-age-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the age sheet as primary reference and place all eight life stages in one living room."
+  },
+  "i18n": {
+    "en": {
+      "title": "Eight Ages Living Room",
+      "description": "A reference-dependent living room scene where the same protagonist appears at eight ages simultaneously."
+    },
+    "zh-CN": {
+      "title": "八个年龄的客厅",
+      "description": "一张依赖参考图的客厅场景，同一主角以八个年龄阶段同时出现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "time-split",
+      "series"
+    ],
+    "alt": {
+      "en": "The same woman appears as eight ages in different parts of one living room.",
+      "zh-CN": "同一女性以八个年龄阶段出现在同一客厅的不同位置。"
+    }
+  }
+}

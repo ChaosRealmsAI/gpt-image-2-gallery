@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square lore card with a maritime navigation mood and a high-end codex frame. Use a moody seabed palette of verdigris, deep teal, pearl gray, and muted gold. The card should feel like a collectible navigation relic recovered from a drowned palace archive: centered object, restrained corner ornaments, empty plaque strips, and a subtle halo that suggests importance without turning into treasure-ad spectacle.\n\nSubject:\nThe relic is a sunken court compass with a heavy bronze housing, a cracked crystal cover, and a floating needle shaped like a narrow fin rather than a standard pointer. Instead of cardinal letters, the dial uses abstract tide marks and courtly geometry that remain unreadable. Barnacle scars, velvet algae traces, and a missing hinge pin imply centuries underwater. The compass must feel ceremonial as well as practical, perhaps used by envoys navigating flooded halls or hidden canals rather than open oceans.\n\nImportant details:\nLet the materials carry the fiction. Verdigris should bloom around edges, crystal should show stress and salt clouding, and the dial should be precise enough to imply true navigational logic even without readable symbols. Keep the collectible card structure unified with the rest of the package, but let the object's shape, corrosion, and water history make it distinct. This should feel appropriate for a codex entry, rare quest reward, or collection interface. Avoid pirate-map clichés, ship wheel clutter, or generic steampunk gauges.\n\nUse case:\nRelic Artifact Lore Card Set single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern compass letters, no pirate coins, no anchor icon overload, no fish characters, no ocean splash spectacle, no broken object silhouette.",
+  "id": "sunken-court-compass",
+  "title": "Sunken Court Compass",
+  "description": "A maritime relic card built around a corroded ceremonial compass recovered from a submerged royal environment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relic-artifact-lore-card-set/packages/single-relic-codex-studies/images/sunken-court-compass/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lore-card study focused on a drowned-court compass relic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sunken Court Compass",
+      "description": "A maritime relic card built around a corroded ceremonial compass recovered from a submerged royal environment."
+    },
+    "zh-CN": {
+      "title": "沉宫罗盘",
+      "description": "以腐蚀严重的仪式罗盘为主体，暗示一座沉没王庭的航行系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A collectible relic card featuring a verdigris ceremonial compass with a cracked crystal cover.",
+      "zh-CN": "一张收藏遗物卡，展示一枚带裂痕玻璃罩和铜绿腐蚀的仪式罗盘。"
+    }
+  }
+}

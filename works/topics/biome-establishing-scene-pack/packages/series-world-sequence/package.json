@@ -1,0 +1,71 @@
+{
+  "id": "series-world-sequence",
+  "type": "series",
+  "title": "World Sequence",
+  "description": "One reference biome expands into traversal, storm, and night-state views while preserving the same landmark system.",
+  "creative_direction": "Image 01 establishes the biome landmark stack, traversal routes, and palette; images 02-04 use it as a strict reference while shifting route emphasis and atmosphere across the same playable region.",
+  "cover_image": "images/01-reference-biome-vista/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-biome-vista/meta.json",
+      "images/02-traversal-bridge-route/meta.json",
+      "images/03-stormfront-landmark/meta.json",
+      "images/04-night-watchfire-state/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "World Sequence",
+      "description": "One reference biome expands into traversal, storm, and night-state views while preserving the same landmark system."
+    },
+    "zh-CN": {
+      "title": "World Sequence",
+      "description": "One reference biome expands into traversal, storm, and night-state views while preserving the same landmark system."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-biome-vista",
+      "title": "Reference Biome Vista",
+      "image": "images/01-reference-biome-vista/image.png",
+      "meta": "images/01-reference-biome-vista/meta.json"
+    },
+    {
+      "id": "02-traversal-bridge-route",
+      "title": "Traversal Bridge Route",
+      "image": "images/02-traversal-bridge-route/image.png",
+      "meta": "images/02-traversal-bridge-route/meta.json"
+    },
+    {
+      "id": "03-stormfront-landmark",
+      "title": "Stormfront Landmark",
+      "image": "images/03-stormfront-landmark/image.png",
+      "meta": "images/03-stormfront-landmark/meta.json"
+    },
+    {
+      "id": "04-night-watchfire-state",
+      "title": "Night Watchfire State",
+      "image": "images/04-night-watchfire-state/image.png",
+      "meta": "images/04-night-watchfire-state/meta.json"
+    }
+  ]
+}

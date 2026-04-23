@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square studio photograph of a hyperreal diorama cube floating above a matte charcoal plinth, lit with soft museum lighting and a crisp three-quarter view. The cube is about the size of a shoebox, with the top face visible and all four vertical faces cut away like a scientific specimen. Use natural colors, fine dust, tiny shadows, and shallow depth of field without hiding the cube edges.\n\nSubject:\nThe top surface is a miniature Kyoto rooftop district with clay tile roofs, a small temple gable, narrow alleys, moss, rain gutters, and tiny garden trees. The four side faces expose different hidden layers: compact city fill and stone foundations, tangled tree roots descending from courtyard pines, a blue-gray aquifer seam with pebbles and wet sand, dinosaur fossil fragments embedded in older strata, and a warm lava chamber glowing far below.\n\nImportant details:\nThe cube must read as one coherent object, not separate panels. Each side face should align with the top surface and show believable stratigraphy, material boundaries, roots crossing layers, water pockets, fossil cavities, and glowing volcanic depth. Keep the cut edges sharp and physically plausible. The image should feel both collectible and scientific, like an impossible museum display with precise information hierarchy.\n\nUse case:\nHyperreal Diorama Cube single study 1/8, testing a Kyoto rooftop surface combined with geological, biological, fossil, aquifer, and lava cutaway layers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no floating labels, no disconnected slices, no muddy layer boundaries, no cartoon miniature style, no impossible shadows, no oversized people, no cropped cube corners.",
+  "id": "01-kyoto-rooftop-core",
+  "title": "Kyoto Rooftop Core",
+  "description": "A Kyoto rooftop miniature cube exposing roots, aquifer seams, fossils, strata, and lava.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "miniature-world",
+    "structured-layout",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/01-kyoto-rooftop-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Kyoto cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Kyoto Rooftop Core",
+      "description": "A Kyoto rooftop miniature cube exposing roots, aquifer seams, fossils, strata, and lava."
+    },
+    "zh-CN": {
+      "title": "京都屋顶岩芯",
+      "description": "京都屋顶微缩立方，侧面剖出树根、含水层、化石、地层和熔岩。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "miniature-world",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A hyperreal Kyoto rooftop diorama cube with roots, aquifer, fossils, strata, and lava visible in cutaway sides.",
+      "zh-CN": "一个高真实京都屋顶剖面立方，侧面可见树根、含水层、化石、地层和熔岩。"
+    }
+  }
+}

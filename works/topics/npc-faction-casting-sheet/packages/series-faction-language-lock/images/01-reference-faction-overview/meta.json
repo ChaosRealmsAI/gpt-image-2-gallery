@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nBuild a square casting-board hero image viewed like a premium concept bible page pinned on a neutral studio wall, with structured compartments, clean margins, and strong central hierarchy. Keep the overall frame square, polished, and production-ready game art bible presentation with crisp panel rhythm, believable costume construction, and enough visual hierarchy for downstream UI or documentation reuse. Let materials, lighting, and spacing feel intentional enough for gallery, research, campaign, or approval-board reuse without depending on readable text.\n\nSubject:\nPresent five archetypes from the same citadel faction in one frame: a gate guard, a water merchant, a field medic, a machine tender, and an elite captain. Ground the image inside a wind-carved desert citadel faction with oxidized bronze, indigo cloth, pale bone accents, practical leather, and a sun-faded military-monastic attitude. Use multiple adult NPC archetypes such as guard, quartermaster, medic, machinist, scout, priest, and captain, but keep them visually linked through the same regional craft language and social hierarchy. \n\nImportant details:\nKeep insignia geometry, rank markers, cloth layering, tool silhouettes, and color hierarchy coherent across every role so the cast reads like one population rather than unrelated hero concepts. Make the captain visibly higher rank without turning the others into extras. Every figure should feel game-usable, grounded, and distinct in job function. Use this frame to establish the reference system that later dependent images must preserve. Favor believable production craft, clean hierarchy, and reusable visual logic over empty spectacle or random decoration.\n\nUse case:\nNPC Faction Casting Sheet series study 1/9, the anchor board that defines the faction casting language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unrelated fantasy races, no random neon tech, no comic exaggeration, no costume drift between roles.",
+  "id": "01-reference-faction-overview",
+  "title": "Reference Faction Overview",
+  "description": "The anchor casting board establishing the faction's shared silhouette, insignia, and class hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/npc-faction-casting-sheet/packages/series-faction-language-lock/images/01-reference-faction-overview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image establishing the locked visual system for this series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Faction Overview",
+      "description": "The anchor casting board establishing the faction's shared silhouette, insignia, and class hierarchy."
+    },
+    "zh-CN": {
+      "title": "基准阵营总览",
+      "description": "建立阵营统一轮廓、徽记和阶级秩序的基准 casting board。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "world-knowledge",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Reference Faction Overview for NPC Faction Casting Sheet.",
+      "zh-CN": "NPC 选角 主题中的基准阵营总览。"
+    }
+  }
+}

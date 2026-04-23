@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square fine-art product photograph of a volcanic vineyard diorama cube on a dark stone pedestal. Use golden-hour side light, sharp macro detail, and a warm earthy palette of vine green, black basalt, ochre soil, and ember red. The view should show the top vineyard rows and the cutaway side faces as one continuous specimen.\n\nSubject:\nThe top face shows terraced grape vines on a volcanic slope, with dry stone walls, small irrigation channels, dark gravel mulch, and a tiny farmhouse without signage. The cube sides reveal vine roots penetrating ash-rich soil, basalt fragments, pumice layers, mineral veins, an underground water pocket, old lava flow bands, and a glowing but deep magma chamber far below. Include root hairs, cracked scoria, moisture stains, and tiny pebbles along the cut edges.\n\nImportant details:\nThe challenge is material realism and continuity. Vine rows must align with visible root systems, terrace walls must continue into foundations, and volcanic layers must remain ordered rather than random stripes. The magma chamber should provide subtle warm light from below without turning the cube into fantasy. Soil, pumice, basalt, roots, and water all need distinct textures. The result should feel like a scientific luxury object and a landscape miniature at once.\n\nUse case:\nHyperreal Diorama Cube single study 7/8, testing a volcanic vineyard cube with agricultural surface detail, roots, minerals, aquifer pockets, and lava layers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no wine labels, no branded farmhouse, no floating labels, no fantasy lava fountains, no giant grapes, no disconnected root systems, no smeared basalt texture, no cropped terrace walls.",
+  "id": "07-volcanic-vineyard-core",
+  "title": "Volcanic Vineyard Core",
+  "description": "A terraced vineyard cube exposing roots, volcanic ash, basalt, water pockets, and lava depth.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "scientific-realism",
+    "physics-materials",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hyperreal-diorama-cube/packages/single-diorama-cube-studies/images/07-volcanic-vineyard-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent volcanic-vineyard cutaway cube study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Volcanic Vineyard Core",
+      "description": "A terraced vineyard cube exposing roots, volcanic ash, basalt, water pockets, and lava depth."
+    },
+    "zh-CN": {
+      "title": "火山葡萄园岩芯",
+      "description": "梯田葡萄园立方，剖出根系、火山灰、玄武岩、地下水囊和深部熔岩。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A volcanic vineyard diorama cube with vines above roots, ash soil, basalt, water pockets, and lava depth.",
+      "zh-CN": "一个火山葡萄园剖面立方，葡萄藤下方可见根系、火山灰土、玄武岩、水囊和熔岩深层。"
+    }
+  }
+}

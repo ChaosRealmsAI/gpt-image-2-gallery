@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior-threshold environment frame positioned at the entrance of the landmark tower, looking from a damp exterior platform into a half-open chamber of steel ribs, root intrusion, and misty reflected light. The shot balances interior architecture with glimpses back into the canyon beyond, keeping a sense of place continuity.\n\nSubject:\nThe subject is the threshold where exterior biome and interior landmark meet: fractured metal ribs, wet stone steps, root growth through seams, hanging maintenance cables, shallow water, and a distant view back to the canyon. The space should feel like the first room a player reaches after crossing the biome rather than a disconnected concept painting.\n\nImportant details:\nMaintain the same palette and material logic as the wider biome: rust-red stone, teal moisture, pale fog, cold steel, and selective warm utility lights. Composition should clearly show door scale, navigable steps, cover elements, and exploratory promise. The image needs to feel immediately usable as a story beat, chapter sub-header, or exploration promo asset.\n\nUse case:\nBiome Pack single study 6/9, extending the biome identity into a landmark interior threshold shot.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no characters, no combat, no magical portal cliché, no cluttered debris field, no non-square crop",
+  "id": "landmark-interior-threshold",
+  "title": "Landmark Interior Threshold",
+  "description": "A close landmark threshold view showing how the biome language continues into an explorable interior edge.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biome-establishing-scene-pack/packages/single-support-studies/images/landmark-interior-threshold/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the biome reference view for the series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Landmark Interior Threshold",
+      "description": "A close landmark threshold view showing how the biome language continues into an explorable interior edge."
+    },
+    "zh-CN": {
+      "title": "Landmark Interior Threshold",
+      "description": "A close landmark threshold view showing how the biome language continues into an explorable interior edge."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A close landmark threshold view showing how the biome language continues into an explorable interior edge.",
+      "zh-CN": "A close landmark threshold view showing how the biome language continues into an explorable interior edge."
+    }
+  }
+}
