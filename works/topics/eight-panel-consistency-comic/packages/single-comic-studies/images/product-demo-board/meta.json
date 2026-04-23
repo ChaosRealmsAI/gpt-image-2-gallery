@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square eight-panel product-demo comic page, exactly eight panels in a 2 by 4 grid, clean manga-inspired line art, crisp panel borders, soft screen tones, and a restrained black, cream, cyan, and orange palette.\n\nSubject:\nA consistent young inventor character demonstrates a floating image-making tablet across all eight panels. The character has curly dark hair, a yellow utility vest, black turtleneck, and orange headphones. The tablet projects small picture panels, then the inventor compares them, adjusts a dial, and presents a polished final image in the last panel.\n\nImportant details:\nStrong character consistency across panels, clear commercial demo storytelling, coherent panel-to-panel action, readable gesture language, pseudo-dialogue bubbles, simple sound-effect shapes, no dependency on reference images. The page should feel like a launch storyboard that could be used in a product presentation.\n\nUse case:\nIndependent comic single image, testing whether one prompt can produce a complete eight-panel product demonstration with consistent character and prop design.\n\nConstraints:\nExactly eight panels, no real logos, no watermark, no readable text, no extra main characters, no broken panel grid, no photorealism, no cluttered UI, preserve exact 1:1 aspect ratio.",
+  "id": "product-demo-board",
+  "title": "Product Demo Board",
+  "description": "An independent eight-panel comic showing a consistent inventor demonstrating an image tablet.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/single-comic-studies/images/product-demo-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent eight-panel comic single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Product Demo Board",
+      "description": "An independent eight-panel comic showing a consistent inventor demonstrating an image tablet."
+    },
+    "zh-CN": {
+      "title": "产品演示分镜",
+      "description": "同一发明家演示图像平板的独立八格漫画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel product demo comic with one consistent inventor and tablet prop.",
+      "zh-CN": "一个发明家和图像平板保持一致的八格产品演示漫画。"
+    }
+  }
+}

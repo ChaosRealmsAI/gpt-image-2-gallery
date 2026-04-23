@@ -1,0 +1,71 @@
+{
+  "id": "series-launch-comic",
+  "type": "series",
+  "title": "Launch Comic",
+  "description": "A reference-dependent four-image series about the same hero, outfit, glowing product orb, and eight-panel comic language.",
+  "creative_direction": "Image 01 establishes the protagonist, outfit, glowing GPT-IMAGE-2 orb, manga panel grammar, and launch-story tone; images 02-04 reuse that identity and page language in different locations.",
+  "cover_image": "images/01-reference-hero-orb-page/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-hero-orb-page/meta.json",
+      "images/02-rooftop-launch-page/meta.json",
+      "images/03-studio-demo-page/meta.json",
+      "images/04-subway-reveal-page/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Comic",
+      "description": "A reference-dependent four-image series about the same hero, outfit, glowing product orb, and eight-panel comic language."
+    },
+    "zh-CN": {
+      "title": "发布漫画",
+      "description": "四张依赖参考图的系列，保持同一主角、服装、发光产品球和八格漫画语言。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "comic",
+      "identity-consistency",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-hero-orb-page",
+      "title": "Reference Hero Orb Page",
+      "image": "images/01-reference-hero-orb-page/image.png",
+      "meta": "images/01-reference-hero-orb-page/meta.json"
+    },
+    {
+      "id": "02-rooftop-launch-page",
+      "title": "Rooftop Launch Page",
+      "image": "images/02-rooftop-launch-page/image.png",
+      "meta": "images/02-rooftop-launch-page/meta.json"
+    },
+    {
+      "id": "03-studio-demo-page",
+      "title": "Studio Demo Page",
+      "image": "images/03-studio-demo-page/image.png",
+      "meta": "images/03-studio-demo-page/meta.json"
+    },
+    {
+      "id": "04-subway-reveal-page",
+      "title": "Subway Reveal Page",
+      "image": "images/04-subway-reveal-page/image.png",
+      "meta": "images/04-subway-reveal-page/meta.json"
+    }
+  ]
+}

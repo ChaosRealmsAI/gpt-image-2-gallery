@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 advertising storyboard sheet drawn in pencil, gray marker, and pale blue wash, arranged as six equal panels in a clean 2 by 3 grid. Each panel includes abstract production-note blocks, camera arrows, and blank caption strips with no readable words. The board plans a tabletop beverage commercial in a bright kitchen studio with reflective glass, polished stone, and controlled splash lighting.\n\nSubject:\nThe six panels follow one physical action: a hand sets down a clear tumbler, condensation beads form on the glass, a second hand nudges it, the tumbler tips in slow motion, liquid arcs across the stone counter, and the final panel shows a dramatic splash frozen around the fallen glass. A plain unbranded bottle silhouette sits in the background as a product placeholder, never showing a label. The hand, glass, bottle, and counter remain consistent across the sequence.\n\nImportant details:\nThe board must feel useful for production: precise camera framing, arrows for dolly and tilt movement, cutaway insert boxes, notes bands, and clear physical continuity from upright glass to spill. Emphasize physics-materials: transparent glass refraction, water surface tension, droplets, splash direction, condensation, countertop reflections, and gravity. Keep the style as storyboard pencil work, not a finished advertisement render. All notation should be graphic and unreadable.\n\nUse case:\nFilm Storyboard Sequence single study 5/8, an independent tabletop commercial board testing material physics and production layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand label, no broken six-panel grid, no impossible liquid direction, no extra products, no full-color polished ad comp.",
+  "id": "01-glass-spill-commercial",
+  "title": "Glass Spill Commercial",
+  "description": "A six-panel tabletop commercial storyboard showing a glass tipping and liquid spilling with clear material physics.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "physics-materials",
+    "technical-diagram",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/single-production-storyboards/images/01-glass-spill-commercial/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for tabletop commercial storyboard layout and fluid physics."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Spill Commercial",
+      "description": "A six-panel tabletop commercial storyboard showing a glass tipping and liquid spilling with clear material physics."
+    },
+    "zh-CN": {
+      "title": "玻璃杯泼洒广告",
+      "description": "六格桌面广告分镜展示玻璃杯倾倒和液体泼洒,强调材质物理。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "A six-panel pencil commercial storyboard showing a tumbler tipping and liquid splashing across a counter.",
+      "zh-CN": "六格铅笔广告分镜展示玻璃杯倾倒,液体飞溅过台面。"
+    }
+  }
+}

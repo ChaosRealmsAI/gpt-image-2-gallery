@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square eight-panel character consistency comic page, exactly eight panels in a balanced 2 by 4 grid. The style is clean anime production art mixed with manga panel storytelling, cream paper, black ink, and blue accent shadows.\n\nSubject:\nOne consistent mascot courier appears in all eight panels: bobbed blue hair, star hairpin, oversized white delivery jacket, red backpack, black shorts, and white boots. The panels show front view, side run, close-up reaction, lifting a glowing parcel, jumping over a puddle, checking a tiny map, handing off the parcel, and final thumbs-up pose.\n\nImportant details:\nThe main test is identity consistency: same face, hair, outfit, backpack, boots, and parcel shape in every panel. Use different poses and camera angles while keeping the character recognizable. Add pseudo-dialogue balloons, action lines, and simple background cues, but keep the panel grid clean.\n\nUse case:\nIndependent comic single image, testing character identity lock across eight panels without reference images.\n\nConstraints:\nExactly eight panels, one main character only, no readable text, no logos, no watermark, no broken panel borders, no photorealism, no outfit changes, preserve exact 1:1 aspect ratio.",
+  "id": "character-turnaround-comic",
+  "title": "Character Turnaround Comic",
+  "description": "An independent eight-panel page testing one mascot character across poses and angles.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/single-comic-studies/images/character-turnaround-comic/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent eight-panel comic single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Character Turnaround Comic",
+      "description": "An independent eight-panel page testing one mascot character across poses and angles."
+    },
+    "zh-CN": {
+      "title": "角色转面漫画",
+      "description": "在姿势和角度变化中测试同一吉祥物角色一致性的八格漫画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel character turnaround comic with one consistent courier mascot.",
+      "zh-CN": "同一快递吉祥物保持一致的八格角色转面漫画。"
+    }
+  }
+}

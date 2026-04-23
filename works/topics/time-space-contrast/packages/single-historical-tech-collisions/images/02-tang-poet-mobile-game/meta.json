@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 photoreal night scene in a Tang dynasty wine house courtyard, with lantern light, painted wooden beams, stone paving, low tables, ceramic wine cups, musical instruments, and distant garden rocks. The frame is cinematic and balanced: the historical environment occupies most of the image, while one modern phone creates the unmistakable time-space contrast. Warm lanterns mix with the cool glow of the screen.\n\nSubject:\nA Tang poet figure inspired by the romantic image of a wandering literary celebrity reclines beside a low table in flowing white and pale green robes, loose hair under a soft cloth wrap, wine cup nearby, and brush materials pushed aside. He holds a modern smartphone horizontally with both hands, absorbed in a colorful mobile battle game. Several companions in Tang dress lean in, amused and astonished, while a musician pauses mid-performance.\n\nImportant details:\nKeep the Tang setting plausible: robe shapes, table height, wine vessels, lantern structure, courtyard architecture, and social posture should feel researched rather than generic fantasy. The smartphone must be unbranded with realistic glass, black bezel, finger reflections, and a screen showing abstract game lanes and colored hero-like shapes but no readable text, logos, or recognizable game interface. The joke should be instantly legible: ancient poetry culture collides with competitive mobile play.\n\nUse case:\nTime-Space Contrast single study 6/8, an independent Tang poet gaming scene for historical-modern fusion.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no named game UI, no fantasy armor, no inaccurate plastic props beyond the phone, no distorted hands, no crowded unreadable composition.",
+  "id": "02-tang-poet-mobile-game",
+  "title": "Tang Poet Mobile Game",
+  "description": "A Tang poet figure plays an unbranded modern mobile game in a lantern-lit wine house courtyard.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "photorealism",
+    "world-knowledge",
+    "reasoning-composition",
+    "extreme-aspect-ratio",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/single-historical-tech-collisions/images/02-tang-poet-mobile-game/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for Tang-era costume, nightlife detail, and modern mobile gaming contrast."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tang Poet Mobile Game",
+      "description": "A Tang poet figure plays an unbranded modern mobile game in a lantern-lit wine house courtyard."
+    },
+    "zh-CN": {
+      "title": "唐代诗人手游局",
+      "description": "唐代诗人形象在灯火酒肆庭院里横握无品牌手机玩现代手游。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A Tang poet in flowing robes plays a glowing smartphone game in a lantern-lit courtyard.",
+      "zh-CN": "一位唐代诗人身着宽袍,在灯火庭院里玩发光手机游戏。"
+    }
+  }
+}

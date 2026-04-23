@@ -1,0 +1,51 @@
+{
+  "id": "single-silhouette-studies",
+  "type": "single",
+  "title": "Silhouette Studies",
+  "description": "Three independent silhouette-as-container studies: the black outline holds a full narrative world inside — tower, doorway, and skull each framing a different universe.",
+  "creative_direction": "Each image uses a different iconic silhouette (tower / doorway / skull) as a narrative container. The outline stays crisp and solid black; the inside carries an entire scene with its own color temperature that contrasts the outside field.",
+  "cover_image": "images/tower-at-dusk/image.png",
+  "i18n": {
+    "en": {
+      "title": "Silhouette Studies",
+      "description": "Three independent silhouette-as-container studies: the black outline holds a full narrative world inside — tower, doorway, and skull each framing a different universe."
+    },
+    "zh-CN": {
+      "title": "剪影单图研究",
+      "description": "三张独立的剪影容器研究: 黑色轮廓内部装入完整叙事世界,塔、门和骷髅分别框住不同宇宙。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "single"
+    ]
+  },
+  "images": [
+    {
+      "id": "tower-at-dusk",
+      "title": "Tower at Dusk",
+      "image": "images/tower-at-dusk/image.png",
+      "meta": "images/tower-at-dusk/meta.json"
+    },
+    {
+      "id": "doorway-threshold",
+      "title": "Doorway Threshold",
+      "image": "images/doorway-threshold/image.png",
+      "meta": "images/doorway-threshold/meta.json"
+    },
+    {
+      "id": "skull-memento",
+      "title": "Skull Memento",
+      "image": "images/skull-memento/image.png",
+      "meta": "images/skull-memento/meta.json"
+    }
+  ]
+}

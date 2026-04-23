@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 cinematic photograph in the same preserved scholar's study, with the same carved window wall, desk angle, morning light, books, ink tools, porcelain cup, and muted wood tones from the reference image. The room remains historically grounded, but a subtle modern glow creates a second light source. The frame should feel like a serious museum-quality period drama disrupted by one contemporary device.\n\nSubject:\nUse the reference as the primary guide for the same scholar's face, robe colors, cap, posture language, desk placement, and room geometry. The scholar now wears a plain matte black VR headset over his eyes while seated at the desk. His hands hover above a star chart and blank scroll, as if he is comparing traditional astronomy diagrams with an invisible digital sky. Around him are a bronze armillary-sphere-like study model, brush tray, folded books, and a small oil lamp.\n\nImportant details:\nThe VR headset must be clearly modern but unbranded: smooth plastic shell, soft strap, glassy sensor areas, no labels. Keep the historical props plausible and tactile, with silk robe folds, worn wooden desk edges, hand-ground ink, and dust in sunlight. The contrast should come from accurate old-world scholarship meeting modern immersion, not from fantasy holograms. If any projected light appears, it must be abstract constellations with no readable symbols.\n\nUse case:\nTime-Space Contrast series study 3/8, testing continuity of scholar identity and room setting during a VR astronomy anachronism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no changed robe colors, no extra modern furniture, no sci-fi armor, no floating captions, no inconsistent window or desk geometry.",
+  "id": "03-vr-astronomy-lesson",
+  "title": "VR Astronomy Lesson",
+  "description": "The same historical scholar wears an unbranded VR headset while comparing old astronomy tools with modern immersion.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "identity-consistency",
+    "photorealism",
+    "world-knowledge",
+    "multi-image-reference",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/03-vr-astronomy-lesson/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-scholar-desk",
+        "meta_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/meta.json",
+        "image_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity, room, and lighting reference for a VR astronomy variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "VR Astronomy Lesson",
+      "description": "The same historical scholar wears an unbranded VR headset while comparing old astronomy tools with modern immersion."
+    },
+    "zh-CN": {
+      "title": "虚拟天文课",
+      "description": "同一历史书生戴着无品牌 VR 头显,在旧式天文器具旁体验现代沉浸技术。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "identity-consistency",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "The same historical scholar wears a black VR headset beside old astronomy tools in a preserved study.",
+      "zh-CN": "同一古代书生在保留的书斋中戴着黑色 VR 头显,身旁有旧式天文器具。"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "series-scholar-tech-desk",
+  "type": "series",
+  "title": "Scholar Tech Desk",
+  "description": "A reference-dependent wide-frame series where the same historical scholar and study remain consistent while different modern devices create time-space contrast.",
+  "creative_direction": "Continuity through anachronism: image 01 establishes the scholar, robes, desk, room geometry, and natural light; images 02-04 depend on it while changing only the modern technology interaction.",
+  "cover_image": "images/01-reference-scholar-desk/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-scholar-desk/meta.json",
+      "images/02-pocket-glass-message/meta.json",
+      "images/03-vr-astronomy-lesson/meta.json",
+      "images/04-handheld-battle-game/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scholar Tech Desk",
+      "description": "A reference-dependent wide-frame series where the same historical scholar and study remain consistent while different modern devices create time-space contrast."
+    },
+    "zh-CN": {
+      "title": "书斋科技错位",
+      "description": "同一历史书生和书斋保持一致,不同现代科技道具制造时空反差的宽幅系列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "time-split",
+      "identity-consistency",
+      "photorealism",
+      "world-knowledge",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-scholar-desk",
+      "title": "Reference Scholar Desk",
+      "image": "images/01-reference-scholar-desk/image.png",
+      "meta": "images/01-reference-scholar-desk/meta.json"
+    },
+    {
+      "id": "02-pocket-glass-message",
+      "title": "Pocket Glass Message",
+      "image": "images/02-pocket-glass-message/image.png",
+      "meta": "images/02-pocket-glass-message/meta.json"
+    },
+    {
+      "id": "03-vr-astronomy-lesson",
+      "title": "VR Astronomy Lesson",
+      "image": "images/03-vr-astronomy-lesson/image.png",
+      "meta": "images/03-vr-astronomy-lesson/meta.json"
+    },
+    {
+      "id": "04-handheld-battle-game",
+      "title": "Handheld Battle Game",
+      "image": "images/04-handheld-battle-game/image.png",
+      "meta": "images/04-handheld-battle-game/meta.json"
+    }
+  ]
+}

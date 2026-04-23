@@ -1,0 +1,60 @@
+{
+  "id": "single-historical-tech-collisions",
+  "type": "single",
+  "title": "Historical Tech Collisions",
+  "description": "Four independent wide-frame studies where different historical settings meet modern devices while preserving period-specific material detail.",
+  "creative_direction": "Independent cultural collision studies: each image uses a different era, costume system, and technology object to test world knowledge, photorealism, and readable time-space contrast without reference dependencies.",
+  "cover_image": "images/01-qing-vr-parlor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Historical Tech Collisions",
+      "description": "Four independent wide-frame studies where different historical settings meet modern devices while preserving period-specific material detail."
+    },
+    "zh-CN": {
+      "title": "历史科技碰撞单图",
+      "description": "四张独立宽幅图让不同时代场景遇到现代科技,同时保留时代服饰和材质考据。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "time-split",
+      "world-knowledge",
+      "photorealism",
+      "reasoning-composition",
+      "extreme-aspect-ratio"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-qing-vr-parlor",
+      "title": "Qing VR Parlor",
+      "image": "images/01-qing-vr-parlor/image.png",
+      "meta": "images/01-qing-vr-parlor/meta.json"
+    },
+    {
+      "id": "02-tang-poet-mobile-game",
+      "title": "Tang Poet Mobile Game",
+      "image": "images/02-tang-poet-mobile-game/image.png",
+      "meta": "images/02-tang-poet-mobile-game/meta.json"
+    },
+    {
+      "id": "03-han-courier-drone",
+      "title": "Han Courier Drone",
+      "image": "images/03-han-courier-drone/image.png",
+      "meta": "images/03-han-courier-drone/meta.json"
+    },
+    {
+      "id": "04-republican-laptop-studio",
+      "title": "Republican Laptop Studio",
+      "image": "images/04-republican-laptop-studio/image.png",
+      "meta": "images/04-republican-laptop-studio/meta.json"
+    }
+  ]
+}

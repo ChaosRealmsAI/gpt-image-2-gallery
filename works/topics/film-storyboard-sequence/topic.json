@@ -1,0 +1,59 @@
+{
+  "id": "film-storyboard-sequence",
+  "slug": "film-storyboard-sequence",
+  "category": "narrative",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Film Storyboard Sequence",
+  "short_title": "Storyboard",
+  "description": "A Prompt Atlas theme for cinematic storyboard sheets with multi-panel shot planning, camera-movement arrows, physical action continuity, and production-board hierarchy.",
+  "i18n": {
+    "en": {
+      "title": "Film Storyboard Sequence",
+      "short_title": "Storyboard",
+      "description": "A Prompt Atlas theme for cinematic storyboard sheets with multi-panel shot planning, camera-movement arrows, physical action continuity, and production-board hierarchy."
+    },
+    "zh-CN": {
+      "title": "电影 Storyboard 分镜 6-12 帧",
+      "short_title": "电影分镜",
+      "description": "测试电影工业分镜板、多面板镜头语言、运动箭头、物理动作连续性和生产级版式层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup",
+      "cinematic",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-rain-alley-storyboards",
+      "type": "series",
+      "title": "Rain Alley Storyboards",
+      "path": "packages/series-rain-alley-storyboards/package.json"
+    },
+    {
+      "id": "single-production-storyboards",
+      "type": "single",
+      "title": "Production Storyboards",
+      "path": "packages/single-production-storyboards/package.json"
+    }
+  ]
+}

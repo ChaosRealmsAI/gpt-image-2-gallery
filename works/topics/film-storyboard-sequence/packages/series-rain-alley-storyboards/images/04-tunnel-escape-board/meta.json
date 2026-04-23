@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 production storyboard sheet matching the reference image's six-panel 2 by 3 pencil layout, with straight gutters, gray marker wash, header strips of abstract scribbles, lower notes bands, camera arrows, movement arrows, and blank speech balloons. The sequence moves into a service tunnel below the city, lit by dim maintenance lamps and rainwater runoff, still drawn as rough but professional film-prep art.\n\nSubject:\nUse the reference as the primary guide for the same hooded courier, messenger bag, wet coat, and metal film canister. Six frames complete the escape beat: low wide view of the tunnel entrance, handheld-feeling run along pipes, insert of water splashing over the canister, silhouette blocking the far end, courier vaulting a low barrier, and final frame where a maintenance door swings open into bright backlight. The recurring antagonist remains a shape and shadow, preserving focus on the courier.\n\nImportant details:\nPreserve identity, prop, linework, panel sizing, arrow style, and unreadable notes from image 01. The board should clearly communicate camera intent without legible labels: push-in arrow, pan arc, character path, insert frame box, and cutaway emphasis. Material physics should be convincing in pencil: wet concrete, dripping pipes, rubber soles, metal canister, cloth folds, and backlit spray. The six frames must read as one continuous escape, not disconnected illustrations.\n\nUse case:\nFilm Storyboard Sequence series study 4/8, testing storyboard continuity through a tunnel escape finale.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no legible production labels, no extra main characters, no broken gutters, no changed courier outfit, no glossy comic coloring.",
+  "id": "04-tunnel-escape-board",
+  "title": "Tunnel Escape Board",
+  "description": "The same rain-alley courier escapes through a service tunnel in a six-panel pencil storyboard finale.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "cinematic",
+    "physics-materials",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/04-tunnel-escape-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alley-board",
+        "meta_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/meta.json",
+        "image_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the character, prop, rain, and storyboard-language reference."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tunnel Escape Board",
+      "description": "The same rain-alley courier escapes through a service tunnel in a six-panel pencil storyboard finale."
+    },
+    "zh-CN": {
+      "title": "隧道逃脱分镜",
+      "description": "同一雨巷信使穿过服务隧道逃脱,形成六格铅笔分镜结尾。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "series"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard finale showing the hooded courier escaping through a wet service tunnel.",
+      "zh-CN": "六格铅笔分镜结尾展示戴兜帽信使穿过潮湿服务隧道逃脱。"
+    }
+  }
+}

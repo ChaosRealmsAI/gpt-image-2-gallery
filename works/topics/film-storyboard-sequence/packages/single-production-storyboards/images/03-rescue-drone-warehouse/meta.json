@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 technical storyboard sheet drawn in pencil, blue-gray marker, and faint construction-line overlays. Six equal panels sit in a 2 by 3 grid with clean gutters, blank note bands, unreadable technical shorthand, camera arrows, altitude arrows, and path arcs. The setting is a dim warehouse after a flood, with stacked crates, shallow water, broken skylight beams, and a small rescue drone navigating the space.\n\nSubject:\nThe six panels plan a rescue-drone sequence: wide warehouse establishing shot, drone lifting from a dry platform, overhead path around hanging cables, low tracking shot above floodwater, camera insert showing a heat-signature-like abstract shape with no readable UI, and final panel where the drone drops a small emergency pouch near a trapped worker silhouette. The drone is compact, unbranded, and mechanically plausible, with four rotors, cage guards, sensor pod, and light payload hook.\n\nImportant details:\nThis board must combine cinematic planning with technical-diagram clarity. Use arrows to show drone movement, camera pan, altitude change, and payload drop, but keep all labels unreadable. Physics and materials matter: rotor wash rippling water, reflected lights, damp cardboard, cable sag, metal shelving, and pouch swing. Maintain consistent drone scale and path logic across all panels. The worker remains a background silhouette; the drone and blocking are the main subject.\n\nUse case:\nFilm Storyboard Sequence single study 7/8, an independent technical action storyboard for drone blocking and flood materials.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no legible UI, no broken six-panel grid, no impossible drone scale, no sci-fi weaponry, no extra rescue vehicles.",
+  "id": "03-rescue-drone-warehouse",
+  "title": "Rescue Drone Warehouse",
+  "description": "A six-panel technical storyboard planning a rescue drone path through a flooded warehouse.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "physics-materials",
+    "cinematic",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/single-production-storyboards/images/03-rescue-drone-warehouse/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for technical storyboard layout, drone blocking, and flood material behavior."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rescue Drone Warehouse",
+      "description": "A six-panel technical storyboard planning a rescue drone path through a flooded warehouse."
+    },
+    "zh-CN": {
+      "title": "仓库救援无人机",
+      "description": "六格技术分镜规划救援无人机穿越积水仓库的路径。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "A six-panel technical storyboard showing a rescue drone navigating a flooded warehouse.",
+      "zh-CN": "六格技术分镜展示救援无人机穿越积水仓库。"
+    }
+  }
+}

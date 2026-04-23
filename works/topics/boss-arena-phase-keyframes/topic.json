@@ -1,0 +1,57 @@
+{
+  "id": "boss-arena-phase-keyframes",
+  "slug": "boss-arena-phase-keyframes",
+  "category": "narrative",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Boss Arena Phase Keyframes",
+  "short_title": "Boss Arena",
+  "description": "Capture a boss encounter through phase-based arena keyframes so the space, mechanics, and escalation are readable before the player ever fights it.",
+  "i18n": {
+    "en": {
+      "title": "Boss Arena Phase Keyframes",
+      "short_title": "Boss Arena",
+      "description": "Capture a boss encounter through phase-based arena keyframes so the space, mechanics, and escalation are readable before the player ever fights it."
+    },
+    "zh-CN": {
+      "title": "Boss 场地阶段关键帧",
+      "short_title": "Boss 场地",
+      "description": "围绕一场 Boss 战做阶段关键帧，要求 arena 结构、机制变化和压迫感都能被读出来。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 921,
+    "tags": [
+      "reasoning-composition",
+      "physics-materials",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-boss-phase-core",
+      "type": "series",
+      "title": "Boss Phase Core",
+      "path": "packages/series-boss-phase-core/package.json"
+    },
+    {
+      "id": "single-boss-support-studies",
+      "type": "single",
+      "title": "Boss Support Studies",
+      "path": "packages/single-boss-support-studies/package.json"
+    }
+  ]
+}

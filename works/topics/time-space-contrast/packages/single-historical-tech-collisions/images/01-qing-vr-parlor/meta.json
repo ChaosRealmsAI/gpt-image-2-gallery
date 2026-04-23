@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 photoreal interior of a Qing dynasty upper-class parlor, composed like a still from a prestige period film. The room has dark carved hardwood furniture, embroidered seat cushions, blue-and-white porcelain, a lacquer side table, silk wall hangings with abstract floral motifs, a moon-gate doorway, and soft afternoon light filtered through paper windows. The wide frame should leave enough space to compare historical domestic detail with one modern object.\n\nSubject:\nA Qing-era noblewoman sits upright on a carved chair wearing layered silk robes with cloud collar details, a formal headdress, embroidered shoes, and restrained jewelry. She wears a plain black VR headset over her eyes, holding the side straps carefully with both hands as if being fitted for an impossible court entertainment. Two attendants in period dress stand nearby with reserved curiosity, one holding a tray with tea cups, the other lifting a folded silk sleeve away from the headset cable-free device.\n\nImportant details:\nKeep the scene culturally grounded: accurate robe layering, Manchu-inspired court silhouette, polished wood furniture, porcelain scale, and domestic etiquette. The VR headset must look modern but unbranded, with matte plastic, soft padding, and subtle reflections. The humor should come from precise contradiction between formal historical composure and futuristic immersion. Do not turn the parlor into cyberpunk; modern technology is limited to the headset.\n\nUse case:\nTime-Space Contrast single study 5/8, an independent Qing parlor VR collision testing photoreal world knowledge.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no fantasy palace armor, no neon holograms, no inaccurate modern furniture, no exaggerated comedy faces, no extra devices.",
+  "id": "01-qing-vr-parlor",
+  "title": "Qing VR Parlor",
+  "description": "A Qing noblewoman in a period parlor wears an unbranded VR headset while attendants react with formal restraint.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "photorealism",
+    "world-knowledge",
+    "reasoning-composition",
+    "extreme-aspect-ratio",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/single-historical-tech-collisions/images/01-qing-vr-parlor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for Qing-era costume accuracy and modern VR contrast."
+  },
+  "i18n": {
+    "en": {
+      "title": "Qing VR Parlor",
+      "description": "A Qing noblewoman in a period parlor wears an unbranded VR headset while attendants react with formal restraint."
+    },
+    "zh-CN": {
+      "title": "清代太太 VR 厅堂",
+      "description": "清代贵妇在考究厅堂中戴上无品牌 VR 头显,侍女以克制礼仪旁观。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A Qing noblewoman wearing a black VR headset in a richly detailed historical parlor.",
+      "zh-CN": "一位清代贵妇在细节丰富的历史厅堂中戴着黑色 VR 头显。"
+    }
+  }
+}

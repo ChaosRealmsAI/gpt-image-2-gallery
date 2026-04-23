@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Cinematic Story Portrait Sequence. Use a hallway, alley, corridor, or threshold frame with directional light and clean silhouette control. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Build portrait sequences that feel like stills from a character-driven film, with emotional continuity, scene logic, and camera-language variation.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one film protagonist with pale olive skin, tired expressive eyes, slightly tousled dark hair, and a grounded natural build. Use a transition space to show the same character in motion or pause while preserving exact face / hair base / body proportions from the reference model. Use the example direction from the brief as grounding context: Build portrait sequences that feel like stills from a character-driven film, with emotional continuity, scene logic, and camera-language variation.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Build portrait sequences that feel like stills from a character-driven film, with emotional continuity, scene logic, and camera-language variation.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This image should feel like the next shot in one film, not a new casting choice. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nCinematic Story Portrait Sequence series study 3/9, a transitional pause portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no hidden face, no body warp, no action blur, no background signage.",
+  "id": "03-transition-pause",
+  "title": "Transition Pause",
+  "description": "Transition Pause variation for Cinematic Story Portrait Sequence, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "reasoning-composition",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cinematic-story-portrait-sequence/packages/series-cinematic-portrait-lock/images/03-transition-pause/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-anchor",
+        "meta_path": "works/topics/cinematic-story-portrait-sequence/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/meta.json",
+        "image_path": "works/topics/cinematic-story-portrait-sequence/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a transitional pause portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Transition Pause",
+      "description": "Transition Pause variation for Cinematic Story Portrait Sequence, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "过渡停顿版",
+      "description": "过渡停顿版 是 电影感故事肖像组图 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Transition Pause portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的过渡停顿版肖像变体。"
+    }
+  }
+}

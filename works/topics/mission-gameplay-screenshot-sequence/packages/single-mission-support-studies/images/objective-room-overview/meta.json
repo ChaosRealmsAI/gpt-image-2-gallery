@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a room overview frame centered on the objective space and player route options with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a room overview frame centered on the objective space and player route options. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Mission Gameplay Screenshot Sequence. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nthe geometry should explain tactics at a glance while staying screenshot-real. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nMission Gameplay Screenshot Sequence single study 3/5, focused on objective room overview.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no arrows, no labels, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "objective-room-overview",
+  "title": "Objective Room Overview",
+  "description": "Objective Room Overview for Mission Gameplay Screenshot Sequence, designed as part of the mission support studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "photorealism",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mission-gameplay-screenshot-sequence/packages/single-mission-support-studies/images/objective-room-overview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Objective Room Overview",
+      "description": "Objective Room Overview for Mission Gameplay Screenshot Sequence, designed as part of the mission support studies."
+    },
+    "zh-CN": {
+      "title": "任务房间总览",
+      "description": "任务房间总览，属于 任务流程游戏截图组 的 任务截图延展。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Objective Room Overview image from the Mission Gameplay Screenshot Sequence package.",
+      "zh-CN": "任务流程游戏截图组 中的任务房间总览图像。"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "silhouette-universe",
+  "slug": "silhouette-universe",
+  "category": "narrative",
+  "style": [
+    "handdrawn",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Silhouette Universe",
+  "short_title": "Silhouette Universe",
+  "description": "A Prompt Atlas theme for symbolic compositions where a crisp black silhouette becomes a container for an entire narrative world.",
+  "i18n": {
+    "en": {
+      "title": "Silhouette Universe",
+      "short_title": "Silhouette Universe",
+      "description": "A Prompt Atlas theme for symbolic compositions where a crisp black silhouette becomes a container for an entire narrative world."
+    },
+    "zh-CN": {
+      "title": "Silhouette Universe · 剪影宇宙",
+      "short_title": "剪影宇宙",
+      "description": "测试黑色剪影作为叙事容器的象征性构图,让塔、门和骷髅轮廓内部承载完整世界。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-silhouette-studies",
+      "type": "single",
+      "title": "Silhouette Studies",
+      "path": "packages/single-silhouette-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square memento mori poster on aged beige parchment with subtly worn corners, faint paper grain, and restrained sepia atmosphere. A side-profile skull silhouette sits centered and large, clear enough to read from across a room. The outside field stays sparse, antique, and quiet, letting the skull shape carry the composition.\n\nSubject:\nA pure black profile silhouette of a human skull, but the skull is not a solid filled icon. Inside the head contour is a full Victorian funeral scene: a dark casket on a small road, a line of mourners in period clothing, bare trees, crows, a distant cemetery with tilted headstones, a low fog layer, and a pale evening sky visible through tiny interior openings. The eye socket and jaw area should help organize the narrative layers while preserving the skull profile.\n\nImportant details:\nThe skull is a container for the final chapter of life. All funeral elements must remain inside the skull outline, with no casket, crow, mourner, branch, or grave crossing the silhouette edge. The contour must stay sharp, continuous, and black against the parchment. Interior detail should read as a miniature staged narrative, using charcoal, sepia, and muted gray values for a solemn Victorian mood.\n\nUse case:\nSilhouette Universe independent study 3/3, completing the tower, door, and skull trio with the skull outline as a narrative container.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken silhouette edges, no white halo, no extra people outside the outline.",
+  "id": "skull-memento",
+  "title": "Skull Memento",
+  "description": "A black skull profile silhouette containing a full Victorian funeral narrative on aged parchment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "frontier-creative-composition",
+    "single",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/silhouette-universe/packages/single-silhouette-studies/images/skull-memento/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the silhouette universe theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Skull Memento",
+      "description": "A black skull profile silhouette containing a full Victorian funeral narrative on aged parchment."
+    },
+    "zh-CN": {
+      "title": "骷髅纪念",
+      "description": "做旧羊皮纸上,黑色侧面骷髅剪影内部容纳一整场维多利亚葬礼叙事。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "single",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A profile skull silhouette holds a full Victorian funeral scene inside — caskets, mourners, and crows tucked into its outline.",
+      "zh-CN": "侧面骷髅剪影内部装着一场维多利亚葬礼 — 灵柩、送葬队、乌鸦在头骨轮廓里铺开。"
+    }
+  }
+}

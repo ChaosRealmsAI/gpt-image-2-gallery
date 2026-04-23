@@ -1,0 +1,52 @@
+{
+  "id": "cinematic-story-portrait-sequence",
+  "slug": "cinematic-story-portrait-sequence",
+  "category": "narrative",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "style-transfer"
+  ],
+  "title": "Cinematic Story Portrait Sequence",
+  "short_title": "Story Sequence",
+  "description": "Build portrait sequences that feel like stills from a character-driven film, with emotional continuity, scene logic, and camera-language variation.",
+  "i18n": {
+    "en": {
+      "title": "Cinematic Story Portrait Sequence",
+      "short_title": "Story Sequence",
+      "description": "Build portrait sequences that feel like stills from a character-driven film, with emotional continuity, scene logic, and camera-language variation."
+    },
+    "zh-CN": {
+      "title": "电影感故事肖像组图",
+      "short_title": "故事肖像",
+      "description": "做像电影剧照一样的人像组图，要求人物情绪和镜头语言能串成故事，而不是几张不相关的氛围图。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 595,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "style-transfer"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-cinematic-portrait-lock",
+      "type": "series",
+      "title": "Identity-Locked Narrative Portrait Sequence",
+      "path": "packages/series-cinematic-portrait-lock/package.json"
+    }
+  ]
+}

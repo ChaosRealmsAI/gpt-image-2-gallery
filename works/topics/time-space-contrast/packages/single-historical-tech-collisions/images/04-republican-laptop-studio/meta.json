@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 photoreal interior of a 1930s Shanghai-style portrait photography studio, with painted backdrop, patterned tile floor, wooden camera tripod, fabric reflector, carved chair, qipao display mannequin, and soft window light mixed with a small practical lamp. The composition should be elegant, restrained, and historically grounded, with one modern laptop creating a precise time-space rupture inside an otherwise period-correct room.\n\nSubject:\nA Republican-era studio photographer in a long gown and round spectacles sits at a wooden worktable, comparing glass-plate negatives with a slim modern laptop. A fashionable woman in a silk qipao waits near the backdrop, watching the glowing screen with composed curiosity. The laptop is open but unbranded, showing abstract image-editing panels as colored blocks and tonal curves without readable text. Period cameras, chemical bottles, retouching brushes, and paper envelopes sit around it.\n\nImportant details:\nKeep the 1930s setting plausible: studio furniture, camera technology, textile patterns, hairstyle, spectacles, qipao cut, and photographic workflow should feel researched. The laptop must be the only modern object and should cast a cool reflection on nearby negatives. The scene tests editing-workflow contrast without displaying actual UI words. The viewer should understand old photographic craft meeting digital postproduction instantly from the objects and gestures.\n\nUse case:\nTime-Space Contrast single study 8/8, an independent early-modern photo studio and laptop editing collision.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no modern office furniture, no neon cyberpunk lighting, no inaccurate costumes, no readable software interface, no clutter that hides the laptop interaction.",
+  "id": "04-republican-laptop-studio",
+  "title": "Republican Laptop Studio",
+  "description": "A 1930s portrait studio photographer compares glass negatives with an unbranded modern laptop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "photorealism",
+    "world-knowledge",
+    "reasoning-composition",
+    "extreme-aspect-ratio",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/single-historical-tech-collisions/images/04-republican-laptop-studio/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for 1930s studio workflow and modern laptop editing contrast."
+  },
+  "i18n": {
+    "en": {
+      "title": "Republican Laptop Studio",
+      "description": "A 1930s portrait studio photographer compares glass negatives with an unbranded modern laptop."
+    },
+    "zh-CN": {
+      "title": "民国照相馆笔记本",
+      "description": "1930 年代照相馆摄影师把玻璃底片和一台无品牌现代笔记本电脑并置比较。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A 1930s Shanghai-style photographer studies glass negatives beside a glowing modern laptop.",
+      "zh-CN": "1930 年代上海风格照相馆里,摄影师在发光现代笔记本旁查看玻璃底片。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square eight-panel manga page format as the reference image, exactly eight panels in a clean 2 by 4 grid, same ink line weight, screen-tone texture, limited cyan, magenta, black, and cream palette.\n\nSubject:\nUse the same protagonist from the reference image: short silver hair, round glasses, cropped black jacket, white hoodie, cyan scarf, magenta sneakers. Place them on a city rooftop at night, using the same glowing GPT-IMAGE-2 orb as the story prop. The eight panels show the character testing the orb, projecting images into the skyline, reacting, then presenting it toward the reader.\n\nImportant details:\nPreserve identity, outfit, face shape, hair, scarf, sneakers, and orb design from the reference. Keep the exact eight-panel comic rhythm. Use speech balloons with pseudo-text only; the only intended readable text is GPT-IMAGE-2 on the orb. Add manga motion lines, rooftop railings, tiny skyline silhouettes, and glow reflections.\n\nUse case:\nSecond image in a reference-dependent comic consistency series, testing whether the same character and product prop survive a new setting and story beat.\n\nConstraints:\nPRESERVE the reference protagonist, outfit, orb, page style, panel count, and square crop. Exactly eight panels, no real logos, no watermark, no extra main character, no photorealism, no readable dialogue other than GPT-IMAGE-2, preserve exact 1:1 aspect ratio.",
+  "id": "02-rooftop-launch-page",
+  "title": "Rooftop Launch Page",
+  "description": "The same hero and orb appear in an eight-panel rooftop launch scene.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [
+    "01-reference-hero-orb-page"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/02-rooftop-launch-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-orb-page",
+        "meta_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/meta.json",
+        "image_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/image.png",
+        "ref_role": "character_and_prop_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Launch Page",
+      "description": "The same hero and orb appear in an eight-panel rooftop launch scene."
+    },
+    "zh-CN": {
+      "title": "屋顶发布页",
+      "description": "同一主角和光球出现在屋顶发布场景的八格漫画中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel rooftop launch comic preserving the same hero and glowing orb.",
+      "zh-CN": "保持同一主角和发光球的屋顶发布八格漫画。"
+    }
+  }
+}

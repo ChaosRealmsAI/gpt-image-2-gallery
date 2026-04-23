@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square single-page manga-style launch comic with exactly eight panels arranged in a clean 2 by 4 grid. Crisp black panel borders, warm screen-tone texture, limited cyan, magenta, black, and cream palette, high production polish, and clear reading flow from top-left to bottom-right.\n\nSubject:\nOne consistent protagonist appears across all eight panels: short silver hair, round glasses, cropped black jacket, white hoodie, cyan scarf, magenta sneakers. The protagonist discovers, lifts, and presents a glowing glass orb with the exact readable text GPT-IMAGE-2 inside the orb. The orb stays the same size and design across panels. Expressions change, but the face, hair, outfit, and prop identity remain consistent.\n\nImportant details:\nEight distinct panels, one coherent launch story, consistent character model, consistent outfit, consistent glowing orb, dynamic manga camera angles, clean speech balloons with pseudo-text except the orb text GPT-IMAGE-2. Include a few non-readable sound-effect shapes and speed lines. The layout must be readable as one finished comic page, not eight unrelated stickers.\n\nUse case:\nReference image for a four-image series testing character and product-prop consistency across multi-panel comic pages.\n\nConstraints:\nExactly eight panels, preserve one protagonist identity across all panels, only readable text should be GPT-IMAGE-2 on the orb, no real brand logos, no watermark, no extra main characters, no broken panel grid, no photorealism, preserve exact 1:1 aspect ratio.",
+  "id": "01-reference-hero-orb-page",
+  "title": "Reference Hero Orb Page",
+  "description": "An eight-panel manga launch page establishing the protagonist and glowing GPT-IMAGE-2 orb.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the eight-panel consistency comic series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Hero Orb Page",
+      "description": "An eight-panel manga launch page establishing the protagonist and glowing GPT-IMAGE-2 orb."
+    },
+    "zh-CN": {
+      "title": "基准主角光球页",
+      "description": "建立主角和 GPT-IMAGE-2 发光球的八格日漫发布页。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel manga page with one consistent hero holding a glowing GPT-IMAGE-2 orb.",
+      "zh-CN": "八格漫画页，同一主角举起发光的 GPT-IMAGE-2 球。"
+    }
+  }
+}

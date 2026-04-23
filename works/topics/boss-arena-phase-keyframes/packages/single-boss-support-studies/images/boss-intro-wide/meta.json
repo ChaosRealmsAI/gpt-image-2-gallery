@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a wider promotional frame that sells the boss entrance and space scale to players with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a wider promotional frame that sells the boss entrance and space scale to players. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Boss Arena Phase Keyframes. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nthe wide shot should still preserve actionable arena geography. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nBoss Arena Phase Keyframes single study 2/5, focused on boss intro wide.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no trailer text, no logos, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "boss-intro-wide",
+  "title": "Boss Intro Wide",
+  "description": "Boss Intro Wide for Boss Arena Phase Keyframes, designed as part of the boss support studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/boss-arena-phase-keyframes/packages/single-boss-support-studies/images/boss-intro-wide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Boss Intro Wide",
+      "description": "Boss Intro Wide for Boss Arena Phase Keyframes, designed as part of the boss support studies."
+    },
+    "zh-CN": {
+      "title": "Boss 开场广角",
+      "description": "Boss 开场广角，属于 Boss 场地阶段关键帧 的 Boss 战延展研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Boss Intro Wide image from the Boss Arena Phase Keyframes package.",
+      "zh-CN": "Boss 场地阶段关键帧 中的Boss 开场广角图像。"
+    }
+  }
+}

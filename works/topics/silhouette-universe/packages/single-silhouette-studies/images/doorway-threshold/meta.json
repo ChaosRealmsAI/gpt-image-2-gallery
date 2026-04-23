@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square gallery poster on a clean white canvas, using generous negative space around one centered arched doorway silhouette. The lighting is even and graphic, with the white exterior field kept plain so the door reads as a strong symbolic object. The composition should be calm at the edges and richly layered only inside the doorway.\n\nSubject:\nA pure black silhouette of an arched wooden door and frame, but the doorway interior is not solid. Inside the arched contour is a compressed otherworldly landscape: dark forest trunks at the base, glowing moss, a path leading inward, distant mountains, birds crossing the upper opening, a star field, and a visible galaxy band folding into the arch. The door shape must remain unmistakable as a black threshold.\n\nImportant details:\nThe door acts as a container for a universe, not as a literal open doorway in a room. All forest, stars, mountains, birds, and galaxy details must be pressed inside the arched outline and must not escape onto the white canvas. Keep the outer silhouette edge crisp, heavy, and black. The interior may use deep greens, indigo, silver stars, and subtle luminous depth while the exterior remains blank white.\n\nUse case:\nSilhouette Universe independent study 2/3, demonstrating the door outline within a tower, door, and skull silhouette-narrative matrix.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken silhouette edges, no white halo, no extra people outside the outline.",
+  "id": "doorway-threshold",
+  "title": "Doorway Threshold",
+  "description": "A black arched doorway silhouette containing a forest, mountains, stars, and a galaxy on a white poster field.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "frontier-creative-composition",
+    "single",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/silhouette-universe/packages/single-silhouette-studies/images/doorway-threshold/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the silhouette universe theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Doorway Threshold",
+      "description": "A black arched doorway silhouette containing a forest, mountains, stars, and a galaxy on a white poster field."
+    },
+    "zh-CN": {
+      "title": "门槛异界",
+      "description": "白色海报画布上,黑色拱门剪影内部容纳森林、远山、星空和银河。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "single",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A black arched doorway silhouette containing an otherworldly landscape — forest, stars, and galaxies pressed into the outline.",
+      "zh-CN": "拱门黑色剪影内部装着异世界 — 森林、星空、银河压进门框轮廓里。"
+    }
+  }
+}

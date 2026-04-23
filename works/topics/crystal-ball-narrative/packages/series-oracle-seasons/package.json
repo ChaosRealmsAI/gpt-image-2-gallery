@@ -1,0 +1,70 @@
+{
+  "id": "series-oracle-seasons",
+  "type": "series",
+  "title": "Oracle Seasons",
+  "description": "A reference-dependent series: one base crystal ball followed by seasonal variations preserving the same object.",
+  "creative_direction": "True continuity series: image 01 establishes the crystal ball, brass stand, table position, lighting and camera angle; images 02-04 depend on 01 as --ref.",
+  "cover_image": "images/01-reference-oracle/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-oracle/meta.json",
+      "images/02-spring-oracle/meta.json",
+      "images/03-autumn-oracle/meta.json",
+      "images/04-winter-oracle/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Oracle Seasons",
+      "description": "A reference-dependent series: one base crystal ball followed by seasonal variations preserving the same object."
+    },
+    "zh-CN": {
+      "title": "四季预言球",
+      "description": "一张基准水晶球，后续季节变化都依赖它保持同一主体。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "crystal-ball",
+      "miniature-world"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-oracle",
+      "title": "Reference Oracle",
+      "image": "images/01-reference-oracle/image.png",
+      "meta": "images/01-reference-oracle/meta.json"
+    },
+    {
+      "id": "02-spring-oracle",
+      "title": "Spring Oracle",
+      "image": "images/02-spring-oracle/image.png",
+      "meta": "images/02-spring-oracle/meta.json"
+    },
+    {
+      "id": "03-autumn-oracle",
+      "title": "Autumn Oracle",
+      "image": "images/03-autumn-oracle/image.png",
+      "meta": "images/03-autumn-oracle/meta.json"
+    },
+    {
+      "id": "04-winter-oracle",
+      "title": "Winter Oracle",
+      "image": "images/04-winter-oracle/image.png",
+      "meta": "images/04-winter-oracle/meta.json"
+    }
+  ]
+}

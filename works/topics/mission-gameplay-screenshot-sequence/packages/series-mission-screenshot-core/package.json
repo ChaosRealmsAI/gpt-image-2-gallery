@@ -1,0 +1,71 @@
+{
+  "id": "series-mission-screenshot-core",
+  "type": "series",
+  "title": "Mission Screenshot Core",
+  "description": "A four-image mission sequence that behaves like believable in-engine gameplay rather than poster art.",
+  "creative_direction": "Image 01 establishes the mission space, HUD framing, and playable viewpoint. Images 02-04 progress the same mission through combat, capture, and extraction.",
+  "cover_image": "images/01-mission-intro-screen/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-mission-intro-screen/meta.json",
+      "images/02-combat-beat-screen/meta.json",
+      "images/03-objective-capture-screen/meta.json",
+      "images/04-loot-extract-screen/meta.json"
+    ],
+    "ref_strategy": "Run 01-mission-intro-screen first. Use its runtime result URL as --ref for 02-combat-beat-screen, 03-objective-capture-screen, 04-loot-extract-screen. Queue may run 02-combat-beat-screen, 03-objective-capture-screen, 04-loot-extract-screen concurrently after 01-mission-intro-screen is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mission Screenshot Core",
+      "description": "A four-image mission sequence that behaves like believable in-engine gameplay rather than poster art."
+    },
+    "zh-CN": {
+      "title": "任务截图主线",
+      "description": "四张像真实引擎截图的任务阶段序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-mission-intro-screen",
+      "title": "Mission Intro Screen",
+      "image": "images/01-mission-intro-screen/image.png",
+      "meta": "images/01-mission-intro-screen/meta.json"
+    },
+    {
+      "id": "02-combat-beat-screen",
+      "title": "Combat Beat Screen",
+      "image": "images/02-combat-beat-screen/image.png",
+      "meta": "images/02-combat-beat-screen/meta.json"
+    },
+    {
+      "id": "03-objective-capture-screen",
+      "title": "Objective Capture Screen",
+      "image": "images/03-objective-capture-screen/image.png",
+      "meta": "images/03-objective-capture-screen/meta.json"
+    },
+    {
+      "id": "04-loot-extract-screen",
+      "title": "Loot Extract Screen",
+      "image": "images/04-loot-extract-screen/image.png",
+      "meta": "images/04-loot-extract-screen/meta.json"
+    }
+  ]
+}

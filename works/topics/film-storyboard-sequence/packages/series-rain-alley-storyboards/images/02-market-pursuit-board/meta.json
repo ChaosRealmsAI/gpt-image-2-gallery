@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 pencil-and-gray-marker storyboard sheet using the same six-panel 2 by 3 grid language as the reference image. The page has crisp gutters, paper grain, abstract header scribbles, blank lower notes bands, camera arrows, movement arrows, and a few empty speech balloons. The setting shifts from the alley into a covered night market under rain tarps, but the production-board style must remain identical.\n\nSubject:\nUse the reference as the primary guide for the same hooded courier, dark coat, messenger bag, wet hair, and small metal film canister. The six frames continue the pursuit: the courier bursts through plastic strip curtains, slides under a vegetable stall awning, knocks water from hanging tarps, hides the canister under the bag flap, spots the distant silhouette in a mirror, and dives into a narrow service passage. Vendors and shoppers appear only as rough background silhouettes, not new main characters.\n\nImportant details:\nPreserve the protagonist identity, prop, rain physics, pencil linework, panel structure, arrow style, and unreadable production notation from image 01. The board should show coherent screen direction and camera logic: one panel for tracking movement, one for insert detail, one for reaction, one for overhead blocking, one for obstructed view, and one exit beat. Material behavior matters: wet plastic tarp, puddles, vegetable crates, steam, cloth coat, and metal canister reflections.\n\nUse case:\nFilm Storyboard Sequence series study 2/8, testing continuity of character, prop, and storyboard language in a market-pursuit extension.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no legible labels, no brand signs, no broken six-panel grid, no changed protagonist outfit, no full-color comic style.",
+  "id": "02-market-pursuit-board",
+  "title": "Market Pursuit Board",
+  "description": "The rain-alley courier continues into a covered market across six pencil storyboard panels with consistent arrows and notation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "cinematic",
+    "physics-materials",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/02-market-pursuit-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alley-board",
+        "meta_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/meta.json",
+        "image_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the character, prop, rain, and storyboard-language reference."
+  },
+  "i18n": {
+    "en": {
+      "title": "Market Pursuit Board",
+      "description": "The rain-alley courier continues into a covered market across six pencil storyboard panels with consistent arrows and notation."
+    },
+    "zh-CN": {
+      "title": "市场追逐分镜",
+      "description": "雨巷信使进入棚顶夜市,在六格铅笔分镜中保持角色、道具和箭头语言一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "series"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard showing the same courier running through a rainy night market.",
+      "zh-CN": "六格铅笔分镜展示同一信使穿过雨夜市场。"
+    }
+  }
+}

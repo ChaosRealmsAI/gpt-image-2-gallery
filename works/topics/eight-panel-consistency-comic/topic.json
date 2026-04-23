@@ -1,0 +1,54 @@
+{
+  "id": "eight-panel-consistency-comic",
+  "slug": "eight-panel-consistency-comic",
+  "category": "narrative",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "consistency",
+    "structured-layout"
+  ],
+  "title": "Eight-Panel Consistency Comic",
+  "short_title": "8 Panel Comic",
+  "description": "A Prompt Atlas theme for multi-panel comics that keep character identity, product props, layout rhythm, and visual style consistent.",
+  "i18n": {
+    "en": {
+      "title": "Eight-Panel Consistency Comic",
+      "short_title": "8 Panel Comic",
+      "description": "A Prompt Atlas theme for multi-panel comics that keep character identity, product props, layout rhythm, and visual style consistent."
+    },
+    "zh-CN": {
+      "title": "八格一致性漫画",
+      "short_title": "八格漫画",
+      "description": "测试多格漫画中的角色身份、产品道具、版式节奏和画风一致性。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-launch-comic",
+      "type": "series",
+      "title": "Launch Comic",
+      "path": "packages/series-launch-comic/package.json"
+    },
+    {
+      "id": "single-comic-studies",
+      "type": "single",
+      "title": "Comic Studies",
+      "path": "packages/single-comic-studies/package.json"
+    }
+  ]
+}

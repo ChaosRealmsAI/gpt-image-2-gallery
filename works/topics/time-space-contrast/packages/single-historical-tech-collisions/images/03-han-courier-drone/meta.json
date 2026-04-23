@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 photoreal image on a Han dynasty frontier road, with packed earth, beacon-tower silhouette, low mountains, dry grass, wooden signposts without readable marks, and late golden light. The composition is wide and spacious, allowing a horse courier, period equipment, and a hovering modern drone to occupy distinct zones. The atmosphere should feel like serious historical reportage interrupted by one impossible machine.\n\nSubject:\nA Han courier in layered hemp and wool travel garments stands beside a saddled horse, carrying a bamboo document tube, leather belt pouch, wrapped bow case, and practical boots. He looks upward with alert professional focus as a compact quadcopter drone hovers at eye level, its camera gimbal facing him. The horse is calm but attentive. A second courier farther back shields his eyes from dust and light, grounding the scale of the road.\n\nImportant details:\nThe historical details should be plausible: frontier clothing, horse tack, beacon architecture, document tubes, road dust, and weathered materials. The drone must be modern, small, unbranded, with four rotors, camera lens, gray plastic body, and subtle motion blur on blades. No sci-fi weaponry or fantasy armor. The time-space contrast should read as logistics meeting logistics: ancient messenger network confronted by aerial delivery and surveillance technology.\n\nUse case:\nTime-Space Contrast single study 7/8, an independent Han courier and drone scene for world-knowledge composition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no futuristic city, no fantasy military armor, no oversized drone, no duplicated horses, no illegible dust cloud hiding the main interaction.",
+  "id": "03-han-courier-drone",
+  "title": "Han Courier Drone",
+  "description": "A Han frontier courier encounters a hovering unbranded quadcopter on a dusty messenger road.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "photorealism",
+    "world-knowledge",
+    "reasoning-composition",
+    "extreme-aspect-ratio",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/single-historical-tech-collisions/images/03-han-courier-drone/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for Han frontier logistics and modern drone contrast."
+  },
+  "i18n": {
+    "en": {
+      "title": "Han Courier Drone",
+      "description": "A Han frontier courier encounters a hovering unbranded quadcopter on a dusty messenger road."
+    },
+    "zh-CN": {
+      "title": "汉代驿使无人机",
+      "description": "汉代边塞驿使在尘土道路上遇见一架悬停的无品牌四旋翼无人机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A Han dynasty courier and horse face a hovering modern drone on a dusty frontier road.",
+      "zh-CN": "汉代驿使和马匹在尘土边路上面对一架悬停的现代无人机。"
+    }
+  }
+}

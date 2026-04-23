@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 production storyboard sheet drawn in graphite pencil and light gray marker wash, arranged as six equal cinematic panels in a clean 2 by 3 grid. Each panel has a small header strip with unreadable production scribbles, a lower notes band with abstract timing blocks, and clear camera-movement arrows. The page should look like a director's practical handoff board: paper texture, smudged pencil edges, ruler-straight gutters, and no readable words.\n\nSubject:\nA rain-soaked night alley sequence establishes one protagonist: a young courier in a dark hooded coat, messenger bag, wet hair visible under the hood, and a small metal film canister gripped in one hand. Six frames show a coherent beat: wide alley entrance, close-up of boots splashing, over-shoulder glance at a distant silhouette, low-angle sprint past pipes, insert shot of the canister, and final frame where the courier ducks behind a metal door. Rain, reflections, steam, and streetlight halos tie the panels together.\n\nImportant details:\nThis is the reference image for the series. Establish the protagonist, coat shape, messenger bag, canister, rainy alley geometry, pencil style, panel format, arrows, blank speech balloons, and abstract production notation. Arrows should imply pan, dolly, zoom, tilt, and character movement without readable labels. Keep action continuity believable and materials clear: wet pavement, metal door, cloth coat, water spray, and soft pencil hatching.\n\nUse case:\nFilm Storyboard Sequence series study 1/8, establishing the rain-alley character, prop, and six-panel storyboard language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no printed captions, no legible shot codes, no broken panel grid, no extra main characters, no full-color comic rendering.",
+  "id": "01-reference-alley-board",
+  "title": "Reference Alley Board",
+  "description": "A six-panel pencil storyboard sheet establishing the rainy alley protagonist, prop, camera arrows, and production-board layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "cinematic",
+    "physics-materials",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for rain-alley protagonist continuity and storyboard sheet language."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Alley Board",
+      "description": "A six-panel pencil storyboard sheet establishing the rainy alley protagonist, prop, camera arrows, and production-board layout."
+    },
+    "zh-CN": {
+      "title": "基准雨巷分镜",
+      "description": "六格铅笔分镜板建立雨巷主角、道具、镜头箭头和制作板版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "series"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard of a hooded courier running through a rainy alley with camera arrows and notes bands.",
+      "zh-CN": "六格铅笔分镜中,戴兜帽的信使穿过雨巷,画面带镜头箭头和备注栏。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-boss-support-studies",
+  "type": "single",
+  "title": "Boss Support Studies",
+  "description": "Five independent supporting images for mechanic boards, overheads, and promo-facing boss encounter packaging.",
+  "creative_direction": "Support the arena sequence with orthographic, atmospheric, and product-like encounter visuals.",
+  "cover_image": "images/mechanic-floor-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Boss Support Studies",
+      "description": "Five independent supporting images for mechanic boards, overheads, and promo-facing boss encounter packaging."
+    },
+    "zh-CN": {
+      "title": "Boss 战延展研究",
+      "description": "五张独立机制板、俯视图与宣发延展研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "physics-materials",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "mechanic-floor-board",
+      "title": "Mechanic Floor Board",
+      "image": "images/mechanic-floor-board/image.png",
+      "meta": "images/mechanic-floor-board/meta.json"
+    },
+    {
+      "id": "boss-intro-wide",
+      "title": "Boss Intro Wide",
+      "image": "images/boss-intro-wide/image.png",
+      "meta": "images/boss-intro-wide/meta.json"
+    },
+    {
+      "id": "collapse-overhead",
+      "title": "Collapse Overhead",
+      "image": "images/collapse-overhead/image.png",
+      "meta": "images/collapse-overhead/meta.json"
+    },
+    {
+      "id": "survivor-cover-shot",
+      "title": "Survivor Cover Shot",
+      "image": "images/survivor-cover-shot/image.png",
+      "meta": "images/survivor-cover-shot/meta.json"
+    },
+    {
+      "id": "encounter-promo-poster",
+      "title": "Encounter Promo Poster",
+      "image": "images/encounter-promo-poster/image.png",
+      "meta": "images/encounter-promo-poster/meta.json"
+    }
+  ]
+}

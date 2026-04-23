@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA dark walnut oracle table in a quiet library at night, black velvet cloth under the object, one warm candle on the left, soft cool moonbeam from a high window on the right, shallow background blur.\n\nSubject:\nthe same crystal ball and brass stand, now containing a miniature autumn forest with copper leaves and a lantern path. The crystal ball fills about 68% of the square image width and remains the main object.\n\nImportant details:\nPhotorealistic macro still life, 85mm lens, accurate glass refraction and caustics, subtle double reflections on the sphere, crisp brass patina, dark wood grain, preserve the reference crystal ball identity, tabletop position, brass stand, camera angle, and lighting. The miniature world must appear physically inside the glass, not painted on the surface.\n\nUse case:\nReference-dependent Prompt Atlas series for testing object continuity, runtime --ref injection, and gallery thumbnail readability. Square 1:1 crop-safe composition.\n\nConstraints:\nNo readable text, no watermark, no logos, no human hands, no extra crystal balls, no cartoon style, no fantasy glow outside the sphere, preserve exact 1:1 aspect ratio.",
+  "id": "03-autumn-oracle",
+  "title": "Autumn Oracle",
+  "description": "Autumn Oracle is part of a reference-dependent crystal ball continuity series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "crystal-ball",
+    "miniature-world",
+    "photorealism",
+    "series"
+  ],
+  "refs": [
+    "01-reference-oracle"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-ball-narrative/packages/series-oracle-seasons/images/03-autumn-oracle/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-oracle",
+        "meta_path": "works/topics/crystal-ball-narrative/packages/series-oracle-seasons/images/01-reference-oracle/meta.json",
+        "image_path": "works/topics/crystal-ball-narrative/packages/series-oracle-seasons/images/01-reference-oracle/image.png",
+        "ref_role": "preserve reference object identity, camera angle, lighting, and material style",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Queue waits for dependency result URLs, then passes them as image2gen --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Autumn Oracle",
+      "description": "Autumn Oracle is part of a reference-dependent crystal ball continuity series."
+    },
+    "zh-CN": {
+      "title": "秋日预言球",
+      "description": "秋日预言球属于参考图依赖的水晶球连续系列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "crystal-ball",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "Autumn Oracle is part of a reference-dependent crystal ball continuity series.",
+      "zh-CN": "秋日预言球属于参考图依赖的水晶球连续系列。"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 drama storyboard sheet in soft graphite pencil and warm gray wash, arranged as six equal panels in a strict 2 by 3 grid. Each panel has blank notes bands, unreadable shorthand, camera arrows, focus brackets, and occasional empty dialogue balloons. The setting is a small apartment kitchen at dawn, with window light, tiled backsplash, steam from a kettle, a table, two chairs, and domestic clutter rendered with quiet realism.\n\nSubject:\nTwo adult characters are staged for a tense conversation without readable dialogue. The six panels show cinematic blocking: wide two-shot across the table, slow dolly toward one character's hands around a mug, reverse close-up of the other character holding back emotion, insert of steam twisting in window light, overhead diagram-like panel showing chair positions and camera path, and final profile two-shot with emotional distance. The characters remain consistent in clothing, posture, and relative position.\n\nImportant details:\nThe board should demonstrate production-ready camera language: dolly path, shot-reverse-shot planning, insert timing, overhead blocking, and final composition. Arrows and focus brackets should be clear but not labeled with readable words. Materials should feel believable in pencil: ceramic mug, steam, condensation on window glass, worn table surface, cotton shirt folds, and soft morning shadows. Keep the grid clean and the emotional storytelling legible without text.\n\nUse case:\nFilm Storyboard Sequence single study 8/8, an independent kitchen drama board testing shot grammar and restrained production layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no legible dialogue, no brand objects, no broken grid, no extra characters, no inconsistent kitchen layout, no glossy comic color.",
+  "id": "04-kitchen-dolly-drama",
+  "title": "Kitchen Dolly Drama",
+  "description": "A six-panel apartment-kitchen drama storyboard using dolly arrows, shot-reverse-shot blocking, and quiet material detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "cinematic",
+    "reasoning-composition",
+    "physics-materials",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/single-production-storyboards/images/04-kitchen-dolly-drama/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for drama storyboard shot grammar and kitchen material detail."
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Dolly Drama",
+      "description": "A six-panel apartment-kitchen drama storyboard using dolly arrows, shot-reverse-shot blocking, and quiet material detail."
+    },
+    "zh-CN": {
+      "title": "厨房推轨戏",
+      "description": "六格公寓厨房剧情分镜用推轨箭头、正反打调度和克制材质细节规划镜头。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "single"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard of a quiet kitchen drama with dolly arrows and camera blocking.",
+      "zh-CN": "六格铅笔分镜展示安静厨房戏,包含推轨箭头和镜头调度。"
+    }
+  }
+}

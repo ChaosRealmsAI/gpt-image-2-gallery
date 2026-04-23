@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square poster-like composition with a single tall tower centered against a warm orange dusk sky. The outside field is quiet, misty, and minimal, with soft amber haze and low contrast so the tower silhouette dominates immediately. The image should feel like a high-impact editorial illustration with precise hierarchy: bold outer shape first, intricate inner world second.\n\nSubject:\nA pure black silhouette of a solitary tower, but the tower is not solid fill. Inside the tower outline is a complete dusk city in miniature: stacked windows, narrow buildings, tiny bridges, a winding river, lantern strings, rooftops, silhouettes of birds, and cold blue city light glowing through the interior. The tower top, walls, and base remain readable as one continuous iconic shape.\n\nImportant details:\nThe silhouette is a container, not a boundary decoration. Every city detail must stay inside the tower contour, with no spillover beyond the black edge. The outer contour must be razor sharp and solid black, while the interior world can reveal blue light, depth layers, and tiny atmospheric details. Keep a clear temperature contrast: warm orange mist outside, cool blue city inside.\n\nUse case:\nSilhouette Universe independent study 1/3, demonstrating the tower outline as a narrative container.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken silhouette edges, no white halo, no extra people outside the outline.",
+  "id": "tower-at-dusk",
+  "title": "Tower at Dusk",
+  "description": "A black tower silhouette containing a complete cool-blue dusk city against a warm orange sky.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "frontier-creative-composition",
+    "single",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/silhouette-universe/packages/single-silhouette-studies/images/tower-at-dusk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the silhouette universe theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tower at Dusk",
+      "description": "A black tower silhouette containing a complete cool-blue dusk city against a warm orange sky."
+    },
+    "zh-CN": {
+      "title": "黄昏之塔",
+      "description": "黑色塔形剪影内部容纳一座冷蓝黄昏城市,外部是暖橘薄雾天空。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "single",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A tower-shaped silhouette filled with an entire dusk cityscape — windows, rivers, and lanterns glowing inside the black outline.",
+      "zh-CN": "塔形黑色剪影内部装着一整座黄昏城市,窗户、河流、灯笼在轮廓内闪耀。"
+    }
+  }
+}

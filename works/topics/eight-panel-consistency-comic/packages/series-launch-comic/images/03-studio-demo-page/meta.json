@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square eight-panel manga page format as the reference image, exactly eight panels in a 2 by 4 grid, same line art, screen tones, limited cyan, magenta, black, and cream palette, and polished product-launch energy.\n\nSubject:\nUse the same protagonist from the reference image with identical silver hair, round glasses, black cropped jacket, white hoodie, cyan scarf, and magenta sneakers. The same glowing glass orb with GPT-IMAGE-2 inside sits on a studio table, then floats, projects sketch thumbnails, and becomes the focus of a demo sequence across eight panels.\n\nImportant details:\nPreserve protagonist identity and prop design from the reference. The studio has simple lights, a drawing table, camera tripod silhouettes, and clean product-demo staging. Keep speech bubbles as pseudo-text, with only GPT-IMAGE-2 readable on the orb. Each panel should advance the demo story while keeping the character model consistent.\n\nUse case:\nThird image in a reference-dependent comic consistency series, testing product demo storytelling with the same hero and prop.\n\nConstraints:\nPRESERVE the reference protagonist, outfit, orb, page style, panel count, and square crop. Exactly eight panels, no real logos, no watermark, no extra main character, no photorealistic UI, no readable dialogue except GPT-IMAGE-2, preserve exact 1:1 aspect ratio.",
+  "id": "03-studio-demo-page",
+  "title": "Studio Demo Page",
+  "description": "The same hero demonstrates the glowing orb in an eight-panel studio comic.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [
+    "01-reference-hero-orb-page"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/03-studio-demo-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-orb-page",
+        "meta_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/meta.json",
+        "image_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/image.png",
+        "ref_role": "character_and_prop_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Demo Page",
+      "description": "The same hero demonstrates the glowing orb in an eight-panel studio comic."
+    },
+    "zh-CN": {
+      "title": "影棚演示页",
+      "description": "同一主角在影棚中演示发光球的八格漫画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel studio demo comic preserving the same hero and glowing orb.",
+      "zh-CN": "保持同一主角和发光球的影棚演示八格漫画。"
+    }
+  }
+}

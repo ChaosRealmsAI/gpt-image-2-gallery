@@ -1,0 +1,72 @@
+{
+  "id": "series-rain-alley-storyboards",
+  "type": "series",
+  "title": "Rain Alley Storyboards",
+  "description": "A reference-dependent series of cinematic 16:9 storyboard sheets following the same rain-alley protagonist, prop, and pencil production-board language.",
+  "creative_direction": "Continuity storyboard series: image 01 establishes the protagonist, rainy alley location, camera-arrow notation style, and six-panel board format; images 02-04 extend the same film sequence.",
+  "cover_image": "images/01-reference-alley-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-alley-board/meta.json",
+      "images/02-market-pursuit-board/meta.json",
+      "images/03-rooftop-reveal-board/meta.json",
+      "images/04-tunnel-escape-board/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Alley Storyboards",
+      "description": "A reference-dependent series of cinematic 16:9 storyboard sheets following the same rain-alley protagonist, prop, and pencil production-board language."
+    },
+    "zh-CN": {
+      "title": "雨巷分镜系列",
+      "description": "一组依赖参考图的 16:9 电影分镜板,延续同一雨巷主角、道具和铅笔制作板语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-alley-board",
+      "title": "Reference Alley Board",
+      "image": "images/01-reference-alley-board/image.png",
+      "meta": "images/01-reference-alley-board/meta.json"
+    },
+    {
+      "id": "02-market-pursuit-board",
+      "title": "Market Pursuit Board",
+      "image": "images/02-market-pursuit-board/image.png",
+      "meta": "images/02-market-pursuit-board/meta.json"
+    },
+    {
+      "id": "03-rooftop-reveal-board",
+      "title": "Rooftop Reveal Board",
+      "image": "images/03-rooftop-reveal-board/image.png",
+      "meta": "images/03-rooftop-reveal-board/meta.json"
+    },
+    {
+      "id": "04-tunnel-escape-board",
+      "title": "Tunnel Escape Board",
+      "image": "images/04-tunnel-escape-board/image.png",
+      "meta": "images/04-tunnel-escape-board/meta.json"
+    }
+  ]
+}

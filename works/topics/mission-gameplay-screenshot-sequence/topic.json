@@ -1,0 +1,56 @@
+{
+  "id": "mission-gameplay-screenshot-sequence",
+  "slug": "mission-gameplay-screenshot-sequence",
+  "category": "narrative",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Mission Gameplay Screenshot Sequence",
+  "short_title": "Gameplay Screens",
+  "description": "Build a screenshot sequence that feels like real gameplay coverage, showing mission beats, HUD states, and player-readable action flow.",
+  "i18n": {
+    "en": {
+      "title": "Mission Gameplay Screenshot Sequence",
+      "short_title": "Gameplay Screens",
+      "description": "Build a screenshot sequence that feels like real gameplay coverage, showing mission beats, HUD states, and player-readable action flow."
+    },
+    "zh-CN": {
+      "title": "任务流程游戏截图组",
+      "short_title": "游戏截图",
+      "description": "围绕一个任务或一局对战做 gameplay screenshot 组图，要求 HUD、任务目标和操作节奏都像真实游戏截图。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 941,
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-mission-screenshot-core",
+      "type": "series",
+      "title": "Mission Screenshot Core",
+      "path": "packages/series-mission-screenshot-core/package.json"
+    },
+    {
+      "id": "single-mission-support-studies",
+      "type": "single",
+      "title": "Mission Support Studies",
+      "path": "packages/single-mission-support-studies/package.json"
+    }
+  ]
+}

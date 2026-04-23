@@ -1,0 +1,64 @@
+{
+  "id": "single-mission-support-studies",
+  "type": "single",
+  "title": "Mission Support Studies",
+  "description": "Five independent mission support screens and boards that reinforce HUD, calm beats, and recap packaging.",
+  "creative_direction": "Support the main gameplay sequence with quieter, system-facing, and social-facing mission screens.",
+  "cover_image": "images/post-fight-calm-screen/image.png",
+  "i18n": {
+    "en": {
+      "title": "Mission Support Studies",
+      "description": "Five independent mission support screens and boards that reinforce HUD, calm beats, and recap packaging."
+    },
+    "zh-CN": {
+      "title": "任务截图延展",
+      "description": "五张独立任务延展图，用于 HUD、静态段落与回顾包装。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "post-fight-calm-screen",
+      "title": "Post Fight Calm Screen",
+      "image": "images/post-fight-calm-screen/image.png",
+      "meta": "images/post-fight-calm-screen/meta.json"
+    },
+    {
+      "id": "hud-clarity-study",
+      "title": "HUD Clarity Study",
+      "image": "images/hud-clarity-study/image.png",
+      "meta": "images/hud-clarity-study/meta.json"
+    },
+    {
+      "id": "objective-room-overview",
+      "title": "Objective Room Overview",
+      "image": "images/objective-room-overview/image.png",
+      "meta": "images/objective-room-overview/meta.json"
+    },
+    {
+      "id": "loot-highlight-crop",
+      "title": "Loot Highlight Crop",
+      "image": "images/loot-highlight-crop/image.png",
+      "meta": "images/loot-highlight-crop/meta.json"
+    },
+    {
+      "id": "mission-recap-poster",
+      "title": "Mission Recap Poster",
+      "image": "images/mission-recap-poster/image.png",
+      "meta": "images/mission-recap-poster/meta.json"
+    }
+  ]
+}

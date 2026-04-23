@@ -1,0 +1,71 @@
+{
+  "id": "series-boss-phase-core",
+  "type": "series",
+  "title": "Boss Phase Core",
+  "description": "A four-image arena sequence that tracks one boss encounter through phase escalation and spatial change.",
+  "creative_direction": "Image 01 defines the arena architecture and boss presence. Images 02-04 preserve that same encounter while escalating mechanics and destruction.",
+  "cover_image": "images/01-reference-intro-phase/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-intro-phase/meta.json",
+      "images/02-mechanic-reveal/meta.json",
+      "images/03-phase-two-collapse/meta.json",
+      "images/04-final-burn-frame/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-intro-phase first. Use its runtime result URL as --ref for 02-mechanic-reveal, 03-phase-two-collapse, 04-final-burn-frame. Queue may run 02-mechanic-reveal, 03-phase-two-collapse, 04-final-burn-frame concurrently after 01-reference-intro-phase is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Boss Phase Core",
+      "description": "A four-image arena sequence that tracks one boss encounter through phase escalation and spatial change."
+    },
+    "zh-CN": {
+      "title": "Boss 战阶段主线",
+      "description": "同一 Boss 竞技场从开场到终盘的四张阶段序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "reasoning-composition",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-intro-phase",
+      "title": "Reference Intro Phase",
+      "image": "images/01-reference-intro-phase/image.png",
+      "meta": "images/01-reference-intro-phase/meta.json"
+    },
+    {
+      "id": "02-mechanic-reveal",
+      "title": "Mechanic Reveal",
+      "image": "images/02-mechanic-reveal/image.png",
+      "meta": "images/02-mechanic-reveal/meta.json"
+    },
+    {
+      "id": "03-phase-two-collapse",
+      "title": "Phase Two Collapse",
+      "image": "images/03-phase-two-collapse/image.png",
+      "meta": "images/03-phase-two-collapse/meta.json"
+    },
+    {
+      "id": "04-final-burn-frame",
+      "title": "Final Burn Frame",
+      "image": "images/04-final-burn-frame/image.png",
+      "meta": "images/04-final-burn-frame/meta.json"
+    }
+  ]
+}

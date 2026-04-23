@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square premium key-art frame built for a reference-dependent production series. Stage a mission-intro gameplay screenshot with restrained HUD framing and clear objective context with controlled lighting, clear silhouette separation, and a camera setup that feels deliberate enough for campaign reuse. The composition should carry strong focal hierarchy, believable depth, and polished surface behavior while still staying stable enough to support downstream dependent variations.\n\nSubject:\nCenter the image on a mission-intro gameplay screenshot with restrained HUD framing and clear objective context. The result should feel like a concrete, shippable asset for Mission Gameplay Screenshot Sequence, not a generic fantasy render. Build the subject with layered materials, stable anatomy or engineering logic, and enough specificity that later images can inherit the same underlying identity. This image is the root reference that defines continuity for the rest of the series. The viewer should immediately understand what is being preserved across the sequence and what is changing in this particular beat.\n\nImportant details:\nthe image must look like a real playable screen with believable camera height, interface rhythm, and environmental detail. Make continuity explicit through repeatable shape language, proportion control, and a coherent palette system. Changes in pose, angle, mood, rarity, weather, or layout should still feel downstream of one stable source. Avoid clutter that would confuse reference use. Any interface-like blocks or graphic surfaces must remain abstract and unreadable. Keep the image polished, original, and suitable for both gallery display and production review.\n\nUse case:\nMission Gameplay Screenshot Sequence series study 1/4, focused on mission intro screen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cinematic poster pose, no giant title text, no broken continuity, no off-model redesign, no accidental franchise resemblance.",
+  "id": "01-mission-intro-screen",
+  "title": "Mission Intro Screen",
+  "description": "Mission Intro Screen for Mission Gameplay Screenshot Sequence, designed as part of the mission screenshot core.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mission-gameplay-screenshot-sequence/packages/series-mission-screenshot-core/images/01-mission-intro-screen/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series continuity anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Mission Intro Screen",
+      "description": "Mission Intro Screen for Mission Gameplay Screenshot Sequence, designed as part of the mission screenshot core."
+    },
+    "zh-CN": {
+      "title": "任务开场截图",
+      "description": "任务开场截图，属于 任务流程游戏截图组 的 任务截图主线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Mission Intro Screen image from the Mission Gameplay Screenshot Sequence package.",
+      "zh-CN": "任务流程游戏截图组 中的任务开场截图图像。"
+    }
+  }
+}

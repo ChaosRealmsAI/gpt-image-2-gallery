@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square eight-panel storefront launch comic, exactly eight panels in a clean 2 by 4 grid. The style is polished commercial manga with crisp borders, bright but controlled colors, screen-tone shadows, and clear product-poster energy.\n\nSubject:\nA consistent shopkeeper character prepares a tiny pop-up storefront for an image-generation launch. The shopkeeper has a green apron, square glasses, rolled sleeves, and a small star-shaped badge. Across eight panels they hang posters, arrange sample cards, open the shutters, greet a small crowd, demonstrate a glowing display cube, and celebrate the launch.\n\nImportant details:\nMaintain the same shopkeeper identity and outfit across all panels. The storefront, display cube, posters, and sample cards should be consistent props. Use pseudo-lettering and symbol marks only; no readable brand names. The page should feel like a commercial launch comic with strong layout clarity and cheerful pacing.\n\nUse case:\nIndependent comic single image, testing multi-panel commercial storytelling and prop consistency in a self-contained prompt.\n\nConstraints:\nExactly eight panels, no readable text, no real logos, no watermark, no extra main protagonist, no broken grid, no photorealism, no clutter that hides panel flow, preserve exact 1:1 aspect ratio.",
+  "id": "launch-storefront-comic",
+  "title": "Launch Storefront Comic",
+  "description": "An independent eight-panel storefront launch comic with consistent props and character.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/single-comic-studies/images/launch-storefront-comic/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent eight-panel comic single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Storefront Comic",
+      "description": "An independent eight-panel storefront launch comic with consistent props and character."
+    },
+    "zh-CN": {
+      "title": "店铺发布漫画",
+      "description": "角色和道具保持一致的独立八格店铺发布漫画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel storefront launch comic with one consistent shopkeeper and display cube.",
+      "zh-CN": "一个店主和展示方块保持一致的八格店铺发布漫画。"
+    }
+  }
+}

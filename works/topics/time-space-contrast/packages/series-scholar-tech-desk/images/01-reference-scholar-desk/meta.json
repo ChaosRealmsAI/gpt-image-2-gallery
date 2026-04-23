@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 cinematic photograph inside a late imperial Chinese scholar's study, viewed from a low three-quarter angle across a dark wooden desk. Morning light enters through carved lattice windows and catches suspended dust, bamboo blinds, stacked thread-bound books, inkstone, brush rest, porcelain water dropper, and a plain modern black smartphone lying on the desk. The image should feel real, richly textured, and immediately legible as a time-space collision.\n\nSubject:\nA young historical scholar in layered pale linen and blue-gray silk robes sits at the desk, hair tied in a simple topknot under a soft black cloth cap. He leans forward with calm curiosity, one hand resting beside a brush and the other hovering near the glowing phone. His expression is thoughtful rather than comedic. The room contains period-accurate furniture, scroll storage tubes, a low screen, ceramic tea cup, worn floorboards, and no modern objects except the phone.\n\nImportant details:\nThis is the reference image for a continuity series. Establish the scholar's face, robe color, desk layout, window position, light direction, and exact room geometry clearly enough for later images to preserve them. The smartphone screen may glow with abstract colored blocks only, never readable text or logos. Balance historical material accuracy with photoreal modern technology, avoiding fantasy costume cues or stage-prop flatness.\n\nUse case:\nTime-Space Contrast series study 1/8, establishing the scholar identity and study reference for later modern-tech interactions.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no extra modern objects, no anachronistic clothing fasteners, no caricature expression, no fantasy palace styling.",
+  "id": "01-reference-scholar-desk",
+  "title": "Reference Scholar Desk",
+  "description": "A photoreal historical scholar's study with one modern smartphone establishing the wide-frame series reference.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "photorealism",
+    "world-knowledge",
+    "reasoning-composition",
+    "extreme-aspect-ratio",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the scholar, room, lighting, and time-space contrast series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Scholar Desk",
+      "description": "A photoreal historical scholar's study with one modern smartphone establishing the wide-frame series reference."
+    },
+    "zh-CN": {
+      "title": "基准书斋",
+      "description": "历史书生书斋里出现一部现代手机,建立宽幅系列的人物、空间和光线参考。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "photorealism",
+      "world-knowledge",
+      "series"
+    ],
+    "alt": {
+      "en": "A historical Chinese scholar studies a glowing smartphone on a wooden desk in a photoreal 16:9 study.",
+      "zh-CN": "一位中国古代书生在真实感宽幅书斋中端详木桌上的发光手机。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "single-production-storyboards",
+  "type": "single",
+  "title": "Production Storyboards",
+  "description": "Four independent 16:9 storyboard sheets testing commercial mockup, material physics, camera blocking, and technical production layout.",
+  "creative_direction": "Independent storyboard studies: each board uses a different production context but keeps six-panel shot clarity, pencil handoff language, camera arrows, and readable visual hierarchy without reference dependencies.",
+  "cover_image": "images/01-glass-spill-commercial/image.png",
+  "i18n": {
+    "en": {
+      "title": "Production Storyboards",
+      "description": "Four independent 16:9 storyboard sheets testing commercial mockup, material physics, camera blocking, and technical production layout."
+    },
+    "zh-CN": {
+      "title": "制作分镜单图",
+      "description": "四张独立 16:9 分镜板,测试广告样机、材质物理、镜头调度和技术制作版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-glass-spill-commercial",
+      "title": "Glass Spill Commercial",
+      "image": "images/01-glass-spill-commercial/image.png",
+      "meta": "images/01-glass-spill-commercial/meta.json"
+    },
+    {
+      "id": "02-perfume-caustic-mockup",
+      "title": "Perfume Caustic Mockup",
+      "image": "images/02-perfume-caustic-mockup/image.png",
+      "meta": "images/02-perfume-caustic-mockup/meta.json"
+    },
+    {
+      "id": "03-rescue-drone-warehouse",
+      "title": "Rescue Drone Warehouse",
+      "image": "images/03-rescue-drone-warehouse/image.png",
+      "meta": "images/03-rescue-drone-warehouse/meta.json"
+    },
+    {
+      "id": "04-kitchen-dolly-drama",
+      "title": "Kitchen Dolly Drama",
+      "image": "images/04-kitchen-dolly-drama/image.png",
+      "meta": "images/04-kitchen-dolly-drama/meta.json"
+    }
+  ]
+}

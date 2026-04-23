@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 cinematic photograph in the same late imperial scholar's study, preserving the reference image's room layout, desk position, lattice-window light, bamboo blinds, muted wood surfaces, book stacks, ink tools, and realistic dust. The frame should be wide enough to show the period setting clearly while focusing on the scholar's hands and modern device. The mood is concentrated, slightly tense, and visually witty without becoming parody.\n\nSubject:\nUse the reference as the primary guide for the same scholar's identity, robe layers, cap, face shape, posture, and desk environment. The scholar now holds a small unbranded handheld gaming console above a blank practice scroll. His brows are gently furrowed in strategic focus. The screen shows a colorful abstract battle-map interface made of shapes, lanes, and tiny icons, but no readable text, no numbers, and no recognizable game branding. Brushes, seal stones, a tea cup, and thread-bound books surround the device.\n\nImportant details:\nKeep the historical costume and props accurate: cloth cap, silk robe folds, wooden brush rack, inkstone sheen, ceramic glaze, and natural window light. The gaming device should have believable plastic, glass, joysticks, buttons, reflections, and cool screen spill on fingers. The time-space joke must come from the disciplined contrast between scholarly ritual and modern play, not from exaggerated cartoon expressions or cluttered neon effects.\n\nUse case:\nTime-Space Contrast series study 4/8, testing reference continuity while introducing a handheld battle-game anachronism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no changed scholar identity, no extra players, no fantasy weapons, no illegible hands, no inconsistent room layout.",
+  "id": "04-handheld-battle-game",
+  "title": "Handheld Battle Game",
+  "description": "The same scholar studies a modern handheld game console amid brushes, books, and period-accurate desk objects.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "identity-consistency",
+    "photorealism",
+    "world-knowledge",
+    "multi-image-reference",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/04-handheld-battle-game/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-scholar-desk",
+        "meta_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/meta.json",
+        "image_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity, room, and lighting reference for a handheld-gaming variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Handheld Battle Game",
+      "description": "The same scholar studies a modern handheld game console amid brushes, books, and period-accurate desk objects."
+    },
+    "zh-CN": {
+      "title": "掌机战局",
+      "description": "同一书生在毛笔、书册和考究书桌之间研究一台现代掌机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "identity-consistency",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "The same historical scholar concentrates on a handheld game console at an old wooden writing desk.",
+      "zh-CN": "同一古代书生坐在旧木书桌前,专注操作现代掌机。"
+    }
+  }
+}

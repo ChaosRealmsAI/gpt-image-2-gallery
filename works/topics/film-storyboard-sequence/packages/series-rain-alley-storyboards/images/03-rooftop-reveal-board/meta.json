@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 graphite storyboard sheet in the same six-panel 2 by 3 grid format as the reference, with ruler-straight gutters, header strips of unreadable pencil marks, blank notes bands, camera arrows, character-path arrows, and paper texture. The setting moves to a wet rooftop above the alley district, with rainwater tanks, antennas, low parapets, and city glow rendered in monochrome pencil wash.\n\nSubject:\nUse the reference as the primary guide for the same hooded courier, messenger bag, wet coat silhouette, and metal film canister. Six frames show a reveal sequence: the courier climbs a fire ladder, emerges onto the rooftop, sees the distant silhouette waiting near a water tank, opens the canister in a close insert, discovers a tiny reflective strip inside, and realizes the silhouette is closer in the final over-shoulder panel. The antagonist stays a vague recurring silhouette, never a detailed new protagonist.\n\nImportant details:\nPreserve visual continuity from image 01: same character design, same pencil storyboard style, same notes bands, same arrow grammar, same rainy material logic. The board should demonstrate professional shot progression: vertical climb, wide establishing rooftop, compressed telephoto reveal, insert of canister, reaction close-up, and suspenseful over-shoulder setup. Rain must behave believably on metal, concrete, cloth, and paper-like pencil shading. Keep notation marks graphic but not readable.\n\nUse case:\nFilm Storyboard Sequence series study 3/8, testing continuity and suspense blocking in a rooftop reveal board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no legible shot codes, no brand signage, no broken panel layout, no changed courier design, no polished full-color frames.",
+  "id": "03-rooftop-reveal-board",
+  "title": "Rooftop Reveal Board",
+  "description": "The same courier reaches a rain-slick rooftop in a six-panel suspense storyboard with canister insert and camera arrows.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "cinematic",
+    "physics-materials",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/03-rooftop-reveal-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alley-board",
+        "meta_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/meta.json",
+        "image_path": "works/topics/film-storyboard-sequence/packages/series-rain-alley-storyboards/images/01-reference-alley-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the character, prop, rain, and storyboard-language reference."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Reveal Board",
+      "description": "The same courier reaches a rain-slick rooftop in a six-panel suspense storyboard with canister insert and camera arrows."
+    },
+    "zh-CN": {
+      "title": "屋顶揭示分镜",
+      "description": "同一信使登上雨湿屋顶,六格悬疑分镜包含胶片罐特写和镜头箭头。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "cinematic",
+      "series"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard of the hooded courier discovering a clue on a rainy rooftop.",
+      "zh-CN": "六格铅笔分镜中,戴兜帽信使在雨湿屋顶发现线索。"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 cinematic image in the same late imperial scholar's study as the reference, keeping the desk, lattice windows, bamboo blinds, floorboards, scroll tubes, and morning light direction consistent. The camera remains low and slightly off-center, looking across the desk toward the scholar. The mood is quiet, realistic, and charged by the contrast between old paper culture and a modern pocket glass device.\n\nSubject:\nUse the reference as the primary identity and room guide. The same young scholar, with the same face, cloth cap, blue-gray silk robe, pale inner layers, and thoughtful demeanor, now holds the smartphone upright in both hands as if receiving an impossible message. Beside him are an inkstone, brush, seal paste box, folded fan, tea cup, and a half-unrolled blank scroll. The phone screen glows softly with abstract speech-bubble shapes and color blocks, but no readable characters.\n\nImportant details:\nPreserve the scholar's identity, robe palette, desk layout, window placement, and period material accuracy from image 01. The modern object should look genuinely manufactured: glass reflections, thin black bezel, slight fingerprints, and cool screen light falling onto his fingers. The historical props must not become generic fantasy décor. The image should make the time-space contrast instantly clear without relying on labels, comedy, or obvious branding.\n\nUse case:\nTime-Space Contrast series study 2/8, testing reference-based identity and space continuity while changing the scholar's modern-tech interaction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand marks, no changed scholar face, no extra modern devices, no malformed hands, no neon sci-fi room lighting, no costume inaccuracies.",
+  "id": "02-pocket-glass-message",
+  "title": "Pocket Glass Message",
+  "description": "The same scholar holds a glowing smartphone as an impossible message inside the preserved historical study.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "time-split",
+    "identity-consistency",
+    "photorealism",
+    "world-knowledge",
+    "multi-image-reference",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/02-pocket-glass-message/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-scholar-desk",
+        "meta_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/meta.json",
+        "image_path": "works/topics/time-space-contrast/packages/series-scholar-tech-desk/images/01-reference-scholar-desk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity, room, and lighting reference for a smartphone-message variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pocket Glass Message",
+      "description": "The same scholar holds a glowing smartphone as an impossible message inside the preserved historical study."
+    },
+    "zh-CN": {
+      "title": "掌中玻璃信",
+      "description": "同一书生在保留的历史书斋中双手拿起发光手机,仿佛收到不可能的消息。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "identity-consistency",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "The same historical scholar holds a glowing smartphone in a period-accurate study.",
+      "zh-CN": "同一古代书生在考究书斋中双手拿着发光手机。"
+    }
+  }
+}

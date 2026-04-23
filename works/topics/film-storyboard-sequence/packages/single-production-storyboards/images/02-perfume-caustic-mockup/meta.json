@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA horizontal 16:9 premium product storyboard sheet in graphite pencil, warm gray marker, and minimal gold wash, arranged as six equal panels with precise gutters. Each cell has camera arrows, lens-framing brackets, blank note bands, and unreadable shorthand marks. The board visualizes a perfume commercial on a dark reflective table with one unbranded glass bottle, hard side light, mist, and optical caustics.\n\nSubject:\nSix frames describe the commercial beat: black frame opening to a rim-lit bottle silhouette, macro push toward the cap, hand lifting the bottle, atomizer mist catching light, prism-like caustic patterns moving across the table, and final hero shot of the bottle centered against soft haze. The bottle is elegant but generic: clear rectangular glass, plain cap, no label, no logo, no readable engraving. The hand model appears only where needed for scale.\n\nImportant details:\nThe sheet should read as a commercial-mockup storyboard rather than a finished ad. Keep the six-panel sequence coherent, with consistent bottle proportions, light source direction, table reflection, and camera grammar. Camera movement arrows should imply push-in, rack focus, tilt, and light sweep without readable labels. Material accuracy matters: glass thickness, refraction, specular edges, atomized mist, caustic shapes, and reflection falloff. Preserve pencil hand-drawn texture and production-board hierarchy.\n\nUse case:\nFilm Storyboard Sequence single study 6/8, an independent product-commercial storyboard testing glass optics and shot planning.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 16:9 horizontal aspect ratio, no brand label, no legible bottle engraving, no broken panel gutters, no random extra products, no glossy finished poster style.",
+  "id": "02-perfume-caustic-mockup",
+  "title": "Perfume Caustic Mockup",
+  "description": "A six-panel perfume commercial storyboard using glass refraction, mist, caustics, and unbranded product framing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "physics-materials",
+    "technical-diagram",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/film-storyboard-sequence/packages/single-production-storyboards/images/02-perfume-caustic-mockup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for premium product storyboard layout and glass optics."
+  },
+  "i18n": {
+    "en": {
+      "title": "Perfume Caustic Mockup",
+      "description": "A six-panel perfume commercial storyboard using glass refraction, mist, caustics, and unbranded product framing."
+    },
+    "zh-CN": {
+      "title": "香水焦散广告样机",
+      "description": "六格香水广告分镜用玻璃折射、雾气、焦散和无品牌产品构图规划镜头。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "A six-panel pencil storyboard for an unbranded perfume commercial with glass caustics and mist.",
+      "zh-CN": "六格铅笔分镜为无品牌香水广告规划玻璃焦散和雾气镜头。"
+    }
+  }
+}

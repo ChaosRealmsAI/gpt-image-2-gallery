@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square eight-panel manga page format as the reference image, exactly eight panels in a clean 2 by 4 grid, same screen-tone texture, ink style, and limited cyan, magenta, black, and cream palette.\n\nSubject:\nUse the same protagonist from the reference image with the same silver hair, round glasses, cropped black jacket, white hoodie, cyan scarf, and magenta sneakers. The story takes place in a stylized subway station. The glowing GPT-IMAGE-2 orb reflects in train windows, lights up poster frames, and turns a waiting platform into a launch reveal across eight panels.\n\nImportant details:\nPreserve the character identity and orb design from the reference. Keep panel rhythm clean and cinematic: establishing shot, close-up, reaction, action, reveal, quiet beat, wide platform glow, final hero pose. Speech balloons contain pseudo-text only; GPT-IMAGE-2 should appear on the orb. Use manga speed lines, train silhouettes, and reflected glow.\n\nUse case:\nFourth image in a reference-dependent comic consistency series, testing identity and prop continuity in a public transit setting.\n\nConstraints:\nPRESERVE the reference protagonist, outfit, orb, page style, panel count, and square crop. Exactly eight panels, no real transit logos, no watermark, no extra main character, no photorealism, no readable dialogue except GPT-IMAGE-2, preserve exact 1:1 aspect ratio.",
+  "id": "04-subway-reveal-page",
+  "title": "Subway Reveal Page",
+  "description": "The same hero reveals the glowing orb in an eight-panel subway comic.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "identity-consistency",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [
+    "01-reference-hero-orb-page"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/04-subway-reveal-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-orb-page",
+        "meta_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/meta.json",
+        "image_path": "works/topics/eight-panel-consistency-comic/packages/series-launch-comic/images/01-reference-hero-orb-page/image.png",
+        "ref_role": "character_and_prop_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Reveal Page",
+      "description": "The same hero reveals the glowing orb in an eight-panel subway comic."
+    },
+    "zh-CN": {
+      "title": "地铁揭晓页",
+      "description": "同一主角在地铁站揭晓发光球的八格漫画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "An eight-panel subway reveal comic preserving the same hero and glowing orb.",
+      "zh-CN": "保持同一主角和发光球的地铁揭晓八格漫画。"
+    }
+  }
+}

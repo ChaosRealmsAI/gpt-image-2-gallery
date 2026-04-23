@@ -1,0 +1,58 @@
+{
+  "id": "time-space-contrast",
+  "slug": "time-space-contrast",
+  "category": "narrative",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "extreme-aspect-ratio",
+    "world-knowledge"
+  ],
+  "title": "Time-Space Contrast",
+  "short_title": "Time Contrast",
+  "description": "A Prompt Atlas theme for photoreal historical scenes where carefully researched period dress collides with modern technology in wide cinematic compositions.",
+  "i18n": {
+    "en": {
+      "title": "Time-Space Contrast",
+      "short_title": "Time Contrast",
+      "description": "A Prompt Atlas theme for photoreal historical scenes where carefully researched period dress collides with modern technology in wide cinematic compositions."
+    },
+    "zh-CN": {
+      "title": "时空错位反差",
+      "short_title": "时空反差",
+      "description": "测试考究历史服饰、真实世界细节、现代科技道具和宽幅时空错位构图的融合能力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "time-split",
+      "world-knowledge",
+      "photorealism",
+      "reasoning-composition",
+      "extreme-aspect-ratio",
+      "fusion"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-scholar-tech-desk",
+      "type": "series",
+      "title": "Scholar Tech Desk",
+      "path": "packages/series-scholar-tech-desk/package.json"
+    },
+    {
+      "id": "single-historical-tech-collisions",
+      "type": "single",
+      "title": "Historical Tech Collisions",
+      "path": "packages/single-historical-tech-collisions/package.json"
+    }
+  ]
+}

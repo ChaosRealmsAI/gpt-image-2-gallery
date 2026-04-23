@@ -1,0 +1,48 @@
+{
+  "id": "crystal-ball-narrative",
+  "slug": "crystal-ball-narrative",
+  "category": "narrative",
+  "style": [
+    "painterly",
+    "retro"
+  ],
+  "capability": [
+    "consistency",
+    "world-knowledge"
+  ],
+  "title": "Crystal Ball Narrative",
+  "short_title": "Crystal Ball",
+  "description": "A Prompt Atlas theme for compressing changing miniature worlds into one consistent crystal ball object.",
+  "i18n": {
+    "en": {
+      "title": "Crystal Ball Narrative",
+      "short_title": "Crystal Ball",
+      "description": "A Prompt Atlas theme for compressing changing miniature worlds into one consistent crystal ball object."
+    },
+    "zh-CN": {
+      "title": "水晶球叙事",
+      "short_title": "水晶球",
+      "description": "把变化的微缩世界压进同一颗水晶球，测试主体连续性。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "crystal-ball",
+      "miniature-world"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-oracle-seasons",
+      "type": "series",
+      "title": "Oracle Seasons",
+      "path": "packages/series-oracle-seasons/package.json"
+    }
+  ]
+}

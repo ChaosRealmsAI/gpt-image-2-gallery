@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA dark walnut oracle table in a quiet library at night, black velvet cloth under the object, one warm candle on the left, soft cool moonbeam from a high window on the right, shallow background blur.\n\nSubject:\na transparent crystal ball on an antique brass three-claw stand, centered on a dark walnut oracle table. The crystal ball fills about 68% of the square image width and remains the main object.\n\nImportant details:\nPhotorealistic macro still life, 85mm lens, accurate glass refraction and caustics, subtle double reflections on the sphere, crisp brass patina, dark wood grain, inside the ball is a tiny neutral valley with a river and one stone bridge. The miniature world must appear physically inside the glass, not painted on the surface.\n\nUse case:\nReference-dependent Prompt Atlas series for testing object continuity, runtime --ref injection, and gallery thumbnail readability. Square 1:1 crop-safe composition.\n\nConstraints:\nNo readable text, no watermark, no logos, no human hands, no extra crystal balls, no cartoon style, no fantasy glow outside the sphere, preserve exact 1:1 aspect ratio.",
+  "id": "01-reference-oracle",
+  "title": "Reference Oracle",
+  "description": "Reference Oracle is part of a reference-dependent crystal ball continuity series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "crystal-ball",
+    "miniature-world",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-ball-narrative/packages/series-oracle-seasons/images/01-reference-oracle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Oracle",
+      "description": "Reference Oracle is part of a reference-dependent crystal ball continuity series."
+    },
+    "zh-CN": {
+      "title": "基准预言球",
+      "description": "基准预言球属于参考图依赖的水晶球连续系列。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "crystal-ball",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "Reference Oracle is part of a reference-dependent crystal ball continuity series.",
+      "zh-CN": "基准预言球属于参考图依赖的水晶球连续系列。"
+    }
+  }
+}

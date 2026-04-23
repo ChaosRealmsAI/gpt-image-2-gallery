@@ -1,0 +1,64 @@
+{
+  "id": "single-comic-studies",
+  "type": "single",
+  "title": "Comic Studies",
+  "description": "Three independent eight-panel comic pages testing layout, character consistency, and commercial storytelling.",
+  "creative_direction": "Independent comic studies under the same theme: each is a complete eight-panel page with its own scene, protagonist, and product-story structure.",
+  "cover_image": "images/product-demo-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/product-demo-board/meta.json",
+      "images/character-turnaround-comic/meta.json",
+      "images/launch-storefront-comic/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Comic Studies",
+      "description": "Three independent eight-panel comic pages testing layout, character consistency, and commercial storytelling."
+    },
+    "zh-CN": {
+      "title": "漫画单图研究",
+      "description": "三张独立八格漫画页，测试版式、角色一致性和商业叙事。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "comic",
+      "identity-consistency",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "product-demo-board",
+      "title": "Product Demo Board",
+      "image": "images/product-demo-board/image.png",
+      "meta": "images/product-demo-board/meta.json"
+    },
+    {
+      "id": "character-turnaround-comic",
+      "title": "Character Turnaround Comic",
+      "image": "images/character-turnaround-comic/image.png",
+      "meta": "images/character-turnaround-comic/meta.json"
+    },
+    {
+      "id": "launch-storefront-comic",
+      "title": "Launch Storefront Comic",
+      "image": "images/launch-storefront-comic/image.png",
+      "meta": "images/launch-storefront-comic/meta.json"
+    }
+  ]
+}
