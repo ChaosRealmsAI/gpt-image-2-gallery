@@ -1,0 +1,50 @@
+{
+  "id": "world-knowledge-reconstruction",
+  "slug": "world-knowledge-reconstruction",
+  "category": "technical",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "world-knowledge",
+    "structured-layout"
+  ],
+  "title": "World Knowledge Reconstruction",
+  "short_title": "World Knowledge",
+  "description": "A Prompt Atlas theme for reconstructing recognizable real-world architecture, interfaces, retail interiors, and cultural spaces from model knowledge rather than loose visual guesses.",
+  "i18n": {
+    "en": {
+      "title": "World Knowledge Reconstruction",
+      "short_title": "World Knowledge",
+      "description": "A Prompt Atlas theme for reconstructing recognizable real-world architecture, interfaces, retail interiors, and cultural spaces from model knowledge rather than loose visual guesses."
+    },
+    "zh-CN": {
+      "title": "World Knowledge 场景还原",
+      "short_title": "场景还原",
+      "description": "测试真实品牌、建筑、系统界面和文化空间的知识还原能力: 重点不是泛化风格,而是让细节像模型真的知道现实世界。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 110,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-knowledge-reconstructions",
+      "type": "single",
+      "title": "Knowledge Reconstructions",
+      "path": "packages/single-knowledge-reconstructions/package.json"
+    }
+  ]
+}

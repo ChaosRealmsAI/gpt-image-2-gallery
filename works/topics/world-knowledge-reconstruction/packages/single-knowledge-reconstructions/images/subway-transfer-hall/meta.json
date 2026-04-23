@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic urban transit interior, viewed from a wide concourse corner with strong one-point perspective. The lighting is bright but slightly metallic, with tiled floors, ceiling panels, stainless railings, and colored line bands guiding passengers through a large underground transfer hall. The composition should be dense, legible, and architecturally plausible.\n\nSubject:\nThe subject is a major East Asian subway transfer station reconstructed from real-world transit logic without showing any real operator marks. Include platform stairs, escalators, tactile paving strips, fare-gate banks, overhead sign boxes with unreadable symbols, route color bands, wall-mounted map panels as abstract diagrams, emergency equipment boxes, vending machines, and commuters moving through separated flows. The image should capture how a transfer space works, not just how it looks.\n\nImportant details:\nPreserve circulation hierarchy: gates lead to paid area, escalators align with directional signage, tactile paving follows walk paths, colored route bands remain consistent, and crowd movement leaves clear lanes. Surfaces should feel like public infrastructure: durable tile, metal, glass, fluorescent panels, and modular maintenance access doors. Avoid airport terminals, shopping malls, fantasy train halls, or generic tunnels. All textual information must be pseudo-text; legibility comes from layout, icons, and color coding.\n\nUse case:\nWorld Knowledge Reconstruction single study 5/8, testing transit architecture, wayfinding structure, and culturally specific public-infrastructure knowledge.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real subway brand, no impossible stairs, no disconnected escalators, no overcrowding that hides wayfinding, no luxury mall styling, no outdoor train tracks.",
+  "id": "subway-transfer-hall",
+  "title": "Subway Transfer Hall",
+  "description": "A dense underground transfer concourse reconstructed through fare gates, route bands, tactile paving, escalators, and passenger-flow logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "structured-layout",
+    "world-knowledge",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/subway-transfer-hall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing transit wayfinding and public-infrastructure layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Transfer Hall",
+      "description": "A dense underground transfer concourse reconstructed through fare gates, route bands, tactile paving, escalators, and passenger-flow logic."
+    },
+    "zh-CN": {
+      "title": "地铁换乘大厅",
+      "description": "通过闸机、线路色带、盲道、扶梯和客流逻辑还原密集地下换乘空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "structured-layout",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A photoreal underground subway transfer hall with route-color bands, fare gates, tactile paving, escalators, and commuter flows.",
+      "zh-CN": "写实地下地铁换乘大厅,包含线路色带、闸机、盲道、扶梯和通勤客流。"
+    }
+  }
+}

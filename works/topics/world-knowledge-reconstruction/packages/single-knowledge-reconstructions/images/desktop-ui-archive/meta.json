@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square close-up of a late-1990s desktop computer screen photographed in a quiet archive room, straight-on with mild CRT glow, tiny scanline softness, and neutral gray ambient light. The image should feel like a carefully preserved operating-system interface study, not a fantasy screen. Keep the composition clean enough to inspect window chrome, taskbar structure, icon grid spacing, and desktop hierarchy.\n\nSubject:\nThe subject is a Windows-like classic desktop environment reconstructed from world knowledge without using protected logos or readable brand text. Show a teal-blue desktop field, a bottom taskbar with a left start-style button shape, small quick-launch icons, rectangular program buttons, and a right-side clock area rendered as unreadable marks. Several overlapping windows demonstrate old UI conventions: gray title bars, bevelled borders, minimize and close buttons, scrollbars, folder panes, small pixel icons, and a control-panel-like grid.\n\nImportant details:\nThe challenge is pixel-level layout memory: consistent bevels, 3D button shadows, square icon cadence, default gray panels, nested dialog boxes, menu bars as pseudo-text lines, and careful hierarchy between desktop, windows, and taskbar. The screen should look operational and historically plausible, but all text must be unreadable symbolic strokes. Avoid modern flat UI, glassmorphism, phone-app aesthetics, and generic cyberpunk screens.\n\nUse case:\nWorld Knowledge Reconstruction single study 2/8, testing operating-system interface memory, structured layout, and historic desktop visual logic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real operating system logo, no modern rounded app dashboard, no browser webpage, no neon hacker terminal, no distorted taskbar.",
+  "id": "desktop-ui-archive",
+  "title": "Desktop UI Archive",
+  "description": "A classic desktop operating-system interface reconstructed through layout, window chrome, taskbar logic, and pixel-era visual rules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "world-knowledge",
+    "text-rendering",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/desktop-ui-archive/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing historic desktop UI reconstruction without brand marks."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desktop UI Archive",
+      "description": "A classic desktop operating-system interface reconstructed through layout, window chrome, taskbar logic, and pixel-era visual rules."
+    },
+    "zh-CN": {
+      "title": "桌面界面档案",
+      "description": "通过窗口边框、任务栏逻辑和像素时代视觉规则还原经典桌面操作系统界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "world-knowledge",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "A CRT monitor showing a classic teal desktop with overlapping gray windows, old taskbar structure, and pixel-style icons.",
+      "zh-CN": "CRT 屏幕上显示经典青绿色桌面、重叠灰色窗口、旧式任务栏和像素图标。"
+    }
+  }
+}

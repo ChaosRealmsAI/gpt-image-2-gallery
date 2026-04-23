@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic architectural interior at night, viewed from a slightly elevated corner like a polished design-magazine photograph. The space is a vast Scandinavian flat-pack furniture warehouse converted into a temporary nightclub, with cool blue ceiling structure, warm yellow wayfinding bands, polished concrete floors, and theatrical beams of light cutting through haze. The camera should reveal both the original retail circulation logic and the new event atmosphere.\n\nSubject:\nThe main subject is a recognizable big-box furniture store interior transformed after hours: staged living-room islands become lounge booths, modular kitchen displays become cocktail counters, warehouse pallet racks become balcony-like DJ platforms, and the original one-way showroom path becomes a dance route. Keep the architecture disciplined: high grid ceiling, exposed ducts, sample room vignettes, flat-pack shelf bays, carts, lighting rails, and simple Nordic furniture silhouettes.\n\nImportant details:\nWorld-knowledge reconstruction is the test. The scene must feel like a real flat-pack furniture megastore, not a generic club. Preserve the scale, aisle widths, maze-like showroom sequence, product staging, cafeteria-like practicality, and blue-yellow commercial color logic while avoiding any actual brand marks. Crowd silhouettes may be present but secondary; furniture, signage shapes, warehouse structure, and retail navigation must remain readable.\n\nUse case:\nWorld Knowledge Reconstruction single study 1/8, testing retail architecture, commercial mockup logic, and photoreal after-hours transformation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no actual brand name, no luxury nightclub cliche replacing the store architecture, no chaotic crowd hiding the retail layout, no fantasy props.",
+  "id": "flatpack-nightclub",
+  "title": "Flatpack Nightclub",
+  "description": "A flat-pack furniture warehouse reconstructed as an after-hours nightclub while preserving retail architecture and navigation logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/flatpack-nightclub/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing retail architecture and commercial-world knowledge."
+  },
+  "i18n": {
+    "en": {
+      "title": "Flatpack Nightclub",
+      "description": "A flat-pack furniture warehouse reconstructed as an after-hours nightclub while preserving retail architecture and navigation logic."
+    },
+    "zh-CN": {
+      "title": "平板家具夜店",
+      "description": "把平板家具仓储卖场还原为夜间俱乐部,同时保留真实零售建筑和动线逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A blue-and-yellow flat-pack furniture warehouse converted into a hazy nightclub while showroom aisles and pallet racks remain visible.",
+      "zh-CN": "蓝黄配色的平板家具仓储卖场被改造成薄雾夜店,展厅动线和货架仍清晰可见。"
+    }
+  }
+}

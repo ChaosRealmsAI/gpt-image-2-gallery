@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial interior in soft morning light, viewed from just inside a glass-front flagship electronics store. The space is calm, minimalist, and precisely organized: pale stone floor, large glass facade, thin metal frames, warm wood tables, hidden lighting, and a few customers spaced naturally through the room. The visual tone should be premium but not branded.\n\nSubject:\nThe subject is a reconstructed contemporary flagship consumer-electronics retail store without any actual logos. Show long wooden display tables arranged in a strict grid, tablets and laptops as slim dark rectangles, phone stands with charging tethers, wall display niches, accessory shelving, a support counter at the back, ceiling tracks, product demo stools, and a transparent staircase or mezzanine hinted in the background. Staff may be visible as understated figures in plain shirts, secondary to the space.\n\nImportant details:\nThis is a commercial world-knowledge test: the store should feel like a real global flagship, with disciplined product spacing, museum-like table placement, clean glass envelope, hidden service logic, and high-end material restraint. Avoid mall kiosk clutter, visible brand marks, bargain retail signage, futuristic holograms, or generic furniture showroom. Devices must be plausible in scale and layout; the interior should work as a functioning store with customer circulation and service zones.\n\nUse case:\nWorld Knowledge Reconstruction single study 6/8, testing premium retail memory, commercial mockup discipline, and photoreal spatial organization.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no actual technology brand, no giant glowing product names, no cluttered sale signs, no sci-fi interface projections, no impossible glass reflections.",
+  "id": "flagship-electronics-store",
+  "title": "Flagship Electronics Store",
+  "description": "A premium electronics flagship interior reconstructed through glass architecture, wood display tables, device spacing, and service-zone logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/flagship-electronics-store/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing premium retail and product-display knowledge."
+  },
+  "i18n": {
+    "en": {
+      "title": "Flagship Electronics Store",
+      "description": "A premium electronics flagship interior reconstructed through glass architecture, wood display tables, device spacing, and service-zone logic."
+    },
+    "zh-CN": {
+      "title": "旗舰电子商店",
+      "description": "通过玻璃建筑、木质展示桌、设备间距和服务区逻辑还原高端电子旗舰店内部。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A minimalist glass-front electronics flagship store with wood display tables, precise device spacing, and a quiet service counter.",
+      "zh-CN": "极简玻璃立面电子旗舰店,木质展示桌、精确设备间距和安静服务柜台清晰可见。"
+    }
+  }
+}

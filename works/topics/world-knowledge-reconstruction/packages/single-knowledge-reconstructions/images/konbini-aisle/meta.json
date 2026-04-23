@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic interior view inside a Japanese convenience store at late evening, camera at standing eye level looking diagonally down a narrow aisle. The lighting is bright, cool, and fluorescent, with glossy floor reflections, dense shelf rhythm, and a glass storefront glow visible in the background. The image should feel ordinary, specific, and operational rather than staged.\n\nSubject:\nThe subject is a meticulously reconstructed konbini aisle: bento and onigiri refrigerators along one side, hot snack warmer near the counter, magazine rack, drink coolers, umbrella stand by the entrance, small trash and recycling station, compact checkout counter, payment terminal, tiny baskets, and seasonal promotional shelf islands. Include product rows as colored packages and price-card shapes, but keep all writing as unreadable blocks and strokes.\n\nImportant details:\nReal-world knowledge matters more than decoration. Maintain Japanese convenience-store density, clean modular shelving, vertical cooler doors, small aisle widths, careful product category grouping, bright ceiling panels, tiled or polished floor, and the sense that every object has a practical retail purpose. Avoid generic supermarket scale, American gas-station clutter, luxury boutique styling, or fantasy signage. The scene should be culturally legible through layout and objects without relying on readable labels.\n\nUse case:\nWorld Knowledge Reconstruction single study 3/8, testing cultural retail detail, photoreal interior layout, and dense merchandise organization.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real store brand, no manga illustration style, no oversized supermarket aisles, no random Asian stereotypes, no empty shelves, no distorted product rows.",
+  "id": "konbini-aisle",
+  "title": "Konbini Aisle",
+  "description": "A Japanese convenience-store interior reconstructed through shelf density, refrigerator placement, counter logic, and small retail details.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "world-knowledge",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/konbini-aisle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing cultural retail layout and merchandise knowledge."
+  },
+  "i18n": {
+    "en": {
+      "title": "Konbini Aisle",
+      "description": "A Japanese convenience-store interior reconstructed through shelf density, refrigerator placement, counter logic, and small retail details."
+    },
+    "zh-CN": {
+      "title": "便利店过道",
+      "description": "通过货架密度、冷柜位置、收银台逻辑和小型零售细节还原日本便利店内部。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A brightly lit Japanese convenience-store aisle with bento coolers, magazine racks, dense shelves, and a compact checkout area.",
+      "zh-CN": "明亮的日本便利店过道,包含便当冷柜、杂志架、密集货架和紧凑收银区。"
+    }
+  }
+}

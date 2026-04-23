@@ -1,0 +1,83 @@
+{
+  "id": "single-knowledge-reconstructions",
+  "type": "single",
+  "title": "Knowledge Reconstructions",
+  "description": "Eight independent reconstruction studies testing whether familiar real-world systems can be rendered with believable layout, materials, and cultural detail without reference dependencies.",
+  "creative_direction": "Each image targets a different kind of real-world knowledge: retail architecture, desktop interface layout, convenience-store merchandising, voxel game logic, transit circulation, flagship commercial interiors, historic apartments, and museum display systems.",
+  "cover_image": "images/flatpack-nightclub/image.png",
+  "i18n": {
+    "en": {
+      "title": "Knowledge Reconstructions",
+      "description": "Eight independent reconstruction studies testing whether familiar real-world systems can be rendered with believable layout, materials, and cultural detail without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "知识还原单图研究",
+      "description": "八张独立场景研究,测试模型能否不靠参考图还原现实系统的布局、材质和文化细节。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "flatpack-nightclub",
+      "title": "Flatpack Nightclub",
+      "image": "images/flatpack-nightclub/image.png",
+      "meta": "images/flatpack-nightclub/meta.json"
+    },
+    {
+      "id": "desktop-ui-archive",
+      "title": "Desktop UI Archive",
+      "image": "images/desktop-ui-archive/image.png",
+      "meta": "images/desktop-ui-archive/meta.json"
+    },
+    {
+      "id": "konbini-aisle",
+      "title": "Konbini Aisle",
+      "image": "images/konbini-aisle/image.png",
+      "meta": "images/konbini-aisle/meta.json"
+    },
+    {
+      "id": "minecraft-port-town",
+      "title": "Voxel Port Town",
+      "image": "images/minecraft-port-town/image.png",
+      "meta": "images/minecraft-port-town/meta.json"
+    },
+    {
+      "id": "subway-transfer-hall",
+      "title": "Subway Transfer Hall",
+      "image": "images/subway-transfer-hall/image.png",
+      "meta": "images/subway-transfer-hall/meta.json"
+    },
+    {
+      "id": "flagship-electronics-store",
+      "title": "Flagship Electronics Store",
+      "image": "images/flagship-electronics-store/image.png",
+      "meta": "images/flagship-electronics-store/meta.json"
+    },
+    {
+      "id": "paris-apartment-cutaway",
+      "title": "Paris Apartment Cutaway",
+      "image": "images/paris-apartment-cutaway/image.png",
+      "meta": "images/paris-apartment-cutaway/meta.json"
+    },
+    {
+      "id": "museum-egypt-gallery",
+      "title": "Museum Egypt Gallery",
+      "image": "images/museum-egypt-gallery/image.png",
+      "meta": "images/museum-egypt-gallery/meta.json"
+    }
+  ]
+}

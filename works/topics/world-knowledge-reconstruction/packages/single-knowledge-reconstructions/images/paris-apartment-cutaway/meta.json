@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square editorial architectural cutaway of a Parisian Haussmann apartment building, shown in refined semi-photoreal illustration with soft daylight and precise construction detail. The facade is opened like a section model so the viewer can see multiple floors at once, but the exterior street frontage, mansard roof, wrought-iron balconies, cream limestone, and tall windows remain recognizable.\n\nSubject:\nThe subject is a reconstructed classic Paris apartment block: ground-floor shopfront rhythm rendered without readable signs, piano nobile with taller ceilings, stacked apartments with fireplaces and parquet floors, narrow service stair, inner courtyard glimpse, attic chambres under the mansard roof, zinc roof planes, dormer windows, chimneys, balcony railings, and street-level stone base. Each room should contain plausible furniture and daily-life traces without becoming cluttered.\n\nImportant details:\nThe challenge is architectural and cultural knowledge, not fantasy dollhouse decoration. Preserve vertical hierarchy, facade proportions, French window spacing, wrought iron, herringbone parquet, marble fireplaces, ceiling moldings, and service-core logic. The section should be spatially coherent: floors align, walls have thickness, stairs connect levels, and the roof geometry matches the facade. Avoid generic European castle elements, modern glass towers, suburban house layouts, or impossible room stacking.\n\nUse case:\nWorld Knowledge Reconstruction single study 7/8, testing historic architecture memory, structured cutaway reasoning, and culturally specific interior detail.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy palace decor, no disconnected rooms, no impossible staircases, no modern luxury penthouse replacing the historic building, no oversized people.",
+  "id": "paris-apartment-cutaway",
+  "title": "Paris Apartment Cutaway",
+  "description": "A Haussmann apartment building cutaway reconstructed through facade hierarchy, mansard roof geometry, room stacking, and historic interior details.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "world-knowledge",
+    "editorial-illustration",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/paris-apartment-cutaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing architectural cutaway reasoning and cultural building knowledge."
+  },
+  "i18n": {
+    "en": {
+      "title": "Paris Apartment Cutaway",
+      "description": "A Haussmann apartment building cutaway reconstructed through facade hierarchy, mansard roof geometry, room stacking, and historic interior details."
+    },
+    "zh-CN": {
+      "title": "巴黎公寓剖面",
+      "description": "通过立面层级、曼萨尔屋顶、房间堆叠和历史室内细节还原奥斯曼公寓楼剖面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "world-knowledge",
+      "editorial-illustration",
+      "single"
+    ],
+    "alt": {
+      "en": "A cutaway Parisian Haussmann apartment building with limestone facade, iron balconies, mansard roof, stacked rooms, and service stairs.",
+      "zh-CN": "巴黎奥斯曼公寓楼剖面,可见石灰石立面、铁艺阳台、曼萨尔屋顶、层叠房间和服务楼梯。"
+    }
+  }
+}

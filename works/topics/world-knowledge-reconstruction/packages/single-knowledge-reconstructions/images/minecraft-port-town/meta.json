@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square isometric game-world view at golden hour, high enough to read a whole voxel coastal settlement while still showing individual block materials. The mood is adventurous and crisp, with warm sunlight, square shadows, blue water, and a clean horizon. The image should resemble a familiar block-building sandbox world but must avoid any official branding or UI overlays.\n\nSubject:\nThe subject is a reconstructed voxel port town built from world knowledge of block logic: stepped wooden docks, cube-plank houses, cobblestone paths, lantern posts, farm plots with grid crops, blocky cliffs, simple boats, a small watchtower, mine entrance, glass-paned greenhouse, and terraced roofs. Water should be composed of square reflective surfaces, trees should use cubic leaves and trunk blocks, and terrain should reveal layered dirt, grass, sand, and stone.\n\nImportant details:\nThe test is style-transfer plus spatial reasoning. Everything must obey block scale and axis-aligned construction: no smooth curved architecture, no photoreal materials, no triangular roofs unless made from stair-like blocks, and no arbitrary fantasy shapes. The town needs believable game-play logic: paths connect houses to docks, farms sit on flat terraces, storage chests and crafting-like work areas are implied as block objects, and the mine entrance aligns with exposed stone.\n\nUse case:\nWorld Knowledge Reconstruction single study 4/8, testing voxel world knowledge, style-transfer, and navigable settlement layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no official game title, no UI inventory bar, no round realistic objects, no non-block architecture, no chaotic floating islands, no extra branded characters.",
+  "id": "minecraft-port-town",
+  "title": "Voxel Port Town",
+  "description": "A block-building sandbox port settlement reconstructed through voxel material rules, terrain logic, and navigable game-world layout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "world-knowledge",
+    "structured-layout",
+    "miniature-world",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/minecraft-port-town/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing voxel game-world reconstruction without official branding."
+  },
+  "i18n": {
+    "en": {
+      "title": "Voxel Port Town",
+      "description": "A block-building sandbox port settlement reconstructed through voxel material rules, terrain logic, and navigable game-world layout."
+    },
+    "zh-CN": {
+      "title": "方块港口小镇",
+      "description": "通过体素材质规则、地形逻辑和可导航布局还原方块建造沙盒世界中的港口聚落。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "world-knowledge",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "An isometric voxel port town with blocky docks, farms, houses, cliffs, trees, and connected paths at golden hour.",
+      "zh-CN": "金色时刻的等距体素港口小镇,有方块码头、农田、房屋、峭壁、树木和连通路径。"
+    }
+  }
+}

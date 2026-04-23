@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic museum gallery interior, viewed from the center of a dim but carefully lit ancient Egypt exhibition hall. The atmosphere is quiet, scholarly, and realistic: dark neutral walls, warm spotlights, glass vitrines, polished floor reflections, wide visitor paths, and clear object groupings. The camera should show the entire display system, not just one artifact.\n\nSubject:\nThe subject is a reconstructed major-museum Egypt gallery without any real museum branding. Include a central stone sarcophagus case, wall relief fragments, small ushabti-like figures in vitrines, pottery, canopic-jar-like silhouettes, a seated statue, papyrus-colored panels rendered as unreadable texture, conservation mounts, label rails as blank blocks, low barriers, and controlled lighting. Visitors are sparse and small so the artifact layout remains dominant.\n\nImportant details:\nWorld knowledge must appear through curatorial logic: objects grouped by type and scale, fragile pieces behind glass, large stone items on plinths, neutral conservation lighting, accessible circulation, and restrained museum architecture. The gallery should avoid theme-park spectacle, treasure-room fantasy, glowing curses, incorrect pyramid interiors, or random gold overload. Text panels may exist as design blocks but cannot contain readable words; the image must communicate museum organization through display placement and material accuracy.\n\nUse case:\nWorld Knowledge Reconstruction single study 8/8, testing museum display systems, archaeological object knowledge, and photoreal cultural-space reconstruction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real museum name, no fantasy magic effects, no tomb tunnel, no piles of gold, no crowded tourists blocking cases, no distorted artifact scale.",
+  "id": "museum-egypt-gallery",
+  "title": "Museum Egypt Gallery",
+  "description": "An ancient Egypt museum gallery reconstructed through vitrine layout, artifact grouping, conservation lighting, and curatorial display logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "world-knowledge",
+    "structured-layout",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/world-knowledge-reconstruction/packages/single-knowledge-reconstructions/images/museum-egypt-gallery/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing museum curation, artifact-scale knowledge, and cultural-space reconstruction."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Egypt Gallery",
+      "description": "An ancient Egypt museum gallery reconstructed through vitrine layout, artifact grouping, conservation lighting, and curatorial display logic."
+    },
+    "zh-CN": {
+      "title": "埃及文物展厅",
+      "description": "通过展柜布局、文物分组、保护性照明和策展逻辑还原古埃及博物馆展厅。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A quiet ancient Egypt museum gallery with vitrines, stone artifacts, blank label panels, controlled spotlights, and clear visitor paths.",
+      "zh-CN": "安静的古埃及博物馆展厅,包含展柜、石质文物、空白标签板、受控射灯和清晰参观动线。"
+    }
+  }
+}
