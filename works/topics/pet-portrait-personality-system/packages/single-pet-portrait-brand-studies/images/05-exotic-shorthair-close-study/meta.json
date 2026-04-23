@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Frame the cat tightly against a warm gray seamless backdrop with very soft frontal light and delicate shadow under the chin.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Show the broad face, plush short coat, small ears, and symmetrical gaze with enough breathing room that the portrait still feels luxurious rather than compressed.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. Use shallow depth only lightly; the viewer should still read fur detail, nose texture, and subtle color transitions across the face.\n\nUse case:\nPet Portrait Personality System single study 5/9, exotic shorthair close study for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no exaggerated baby filter look, no costume collars, no distorted flat face caricature.",
+  "id": "05-exotic-shorthair-close-study",
+  "title": "Exotic Shorthair Close Study",
+  "description": "A close cropped exotic shorthair portrait balancing charm, texture, and high end grooming without novelty excess.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/05-exotic-shorthair-close-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Exotic Shorthair Close Study",
+      "description": "A close cropped exotic shorthair portrait balancing charm, texture, and high end grooming without novelty excess."
+    },
+    "zh-CN": {
+      "title": "异短猫近景研究",
+      "description": "异短猫近景研究，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A close cropped exotic shorthair portrait balancing charm, texture, and high end grooming without novelty excess.",
+      "zh-CN": "异短猫近景研究"
+    }
+  }
+}

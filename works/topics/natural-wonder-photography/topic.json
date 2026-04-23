@@ -1,0 +1,47 @@
+{
+  "id": "natural-wonder-photography",
+  "slug": "natural-wonder-photography",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Natural Wonder Photography",
+  "short_title": "Nature Wonder",
+  "description": "A Prompt Atlas theme for Natural Wonder Photography, testing photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Natural Wonder Photography",
+      "short_title": "Nature Wonder",
+      "description": "A Prompt Atlas theme for Natural Wonder Photography, testing photorealism with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "自然奇观摄影",
+      "short_title": "自然奇观",
+      "description": "自然奇观摄影：极光 Aurora 北欧夜空 / 火山熔岩喷发 / 闪电击树瞬间 / 冰川蓝洞 / 沙漠星空银河 / 钟乳石洞"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-natural-wonder-photography-studies",
+      "type": "single",
+      "title": "Nature Wonder Photography Studies",
+      "path": "packages/single-natural-wonder-photography-studies/package.json"
+    }
+  ]
+}

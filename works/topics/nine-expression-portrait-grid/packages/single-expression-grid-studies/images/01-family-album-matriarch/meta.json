@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 family-album portrait sheet arranged as an exact 3 by 3 grid with nine equal cells, thin cream gutters, and warm domestic daylight. The cells share a tasteful living-room setting with linen curtains, framed family photographs rendered too soft to read, a wooden chair, and muted floral textiles. The overall image should feel like a carefully designed family archive page, but without any readable dates, captions, names, or labels.\n\nSubject:\nOne elderly woman appears in all nine cells as the same person: silver bob haircut, warm brown eyes, fine smile lines, oval glasses, small jade pendant, and a navy cardigan over a pale blouse. The poses and expressions vary while identity remains stable: calm front portrait, broad grandmotherly smile, playful side-eye, thoughtful profile, surprised laugh, gentle sadness, hands folded with pride, cheek resting on hand, and confident direct gaze. Some cells show subtle wardrobe additions such as shawl, apron, or pearl-like earring, but the face and age remain unchanged.\n\nImportant details:\nThis is an independent same-subject consistency study. Every cell must show the same matriarch, not nine relatives. Keep glasses shape, hair length, skin tone, facial structure, and pendant consistent. The family-album mood should support the portrait grid without introducing extra people. Maintain exact grid geometry, equal cell sizes, clean gutters, and coherent warm light. The expressions should be emotionally distinct and easy to compare at a glance.\n\nUse case:\nNine-Expression Portrait Grid single study 5/8, testing family-album identity consistency in a 3x3 portrait sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no extra family members, no changed age, no broken grid gutters, no mismatched glasses, no duplicated background faces.",
+  "id": "01-family-album-matriarch",
+  "title": "Family Album Matriarch",
+  "description": "An elderly matriarch appears as the same person across nine family-album expressions in a vertical grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/single-expression-grid-studies/images/01-family-album-matriarch/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing family-album expression consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Album Matriarch",
+      "description": "An elderly matriarch appears as the same person across nine family-album expressions in a vertical grid."
+    },
+    "zh-CN": {
+      "title": "家族相册祖母",
+      "description": "一位祖母在竖幅九宫格家族相册中保持同一身份,呈现九种表情。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A warm family-album nine-cell sheet showing the same elderly woman with nine expressions.",
+      "zh-CN": "温暖家族相册风九宫格中,同一位老人呈现九种表情。"
+    }
+  }
+}

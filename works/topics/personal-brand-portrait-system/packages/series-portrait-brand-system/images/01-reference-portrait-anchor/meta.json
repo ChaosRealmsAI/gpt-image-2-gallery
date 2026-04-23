@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Personal Brand Portrait System. Use a clean studio anchor with balanced soft light, neutral gray or off-white backdrop, and premium agency-grade framing. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one creator-founder in their thirties with light brown skin, long dark hair tucked behind one ear, intelligent eyes, and an approachable but polished posture. Establish the exact identity, skin tone family, hair base, and body read that every later image must reuse. Let the styling stay minimal and believable so the series begins from an authoritative baseline. Use the example direction from the brief as grounding context: Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Keep the crop polished, the eye line steady, and the wardrobe simple enough to survive later changes without confusion. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nPersonal Brand Portrait System series study 1/9, the neutral baseline portrait proof.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no extra people, no hard fashion gimmicks, no exaggerated retouching, no broken eye alignment.",
+  "id": "01-reference-portrait-anchor",
+  "title": "Reference Portrait Anchor",
+  "description": "Reference portrait for Personal Brand Portrait System, locking the same face and body identity for the rest of the nine-image series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/personal-brand-portrait-system/packages/series-portrait-brand-system/images/01-reference-portrait-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root identity reference for the nine-image portrait series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Portrait Anchor",
+      "description": "Reference portrait for Personal Brand Portrait System, locking the same face and body identity for the rest of the nine-image series."
+    },
+    "zh-CN": {
+      "title": "基准肖像锚点",
+      "description": "个人品牌人像系统 的基准肖像,为后续九图系列锁定同一张脸与体态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Reference Portrait Anchor portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的基准肖像锚点肖像变体。"
+    }
+  }
+}

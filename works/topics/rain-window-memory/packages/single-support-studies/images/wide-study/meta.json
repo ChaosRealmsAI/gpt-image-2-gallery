@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. Pull back enough to explain the broader geography or architectural envelope while keeping the square crop intentional and balanced.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. The wider frame should reveal how the main light or weather phenomenon organizes the surrounding world and not just the immediate subject.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. Make scale legible through spacing, horizon control, and foreground-to-background separation rather than through extra props.\n\nUse case:\nRain Window single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "wide-study",
+  "title": "Wide Study",
+  "description": "An independent wider frame explaining the larger geography behind the topic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/single-support-studies/images/wide-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on wide spatial explanation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wide Study",
+      "description": "An independent wider frame explaining the larger geography behind the topic atmosphere."
+    },
+    "zh-CN": {
+      "title": "广角研究",
+      "description": "雨窗 · 通过更广视角解释该主题氛围所处整体地理或建筑环境的独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Wide Study from Rain Window Memory.",
+      "zh-CN": "雨窗的广角研究画面。"
+    }
+  }
+}

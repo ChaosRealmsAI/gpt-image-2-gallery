@@ -1,0 +1,51 @@
+{
+  "id": "michelin-plate-hero-shot",
+  "slug": "michelin-plate-hero-shot",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "commercial-mockup",
+    "physics-materials"
+  ],
+  "title": "Michelin Plate Hero Shot",
+  "short_title": "Food Hero",
+  "description": "A Prompt Atlas theme for fine-dining hero photography where plated dishes are staged like commercial campaign images with strict culinary realism, premium surfaces, and editorial restraint.",
+  "i18n": {
+    "en": {
+      "title": "Michelin Plate Hero Shot",
+      "short_title": "Food Hero",
+      "description": "A Prompt Atlas theme for fine-dining hero photography where plated dishes are staged like commercial campaign images with strict culinary realism, premium surfaces, and editorial restraint."
+    },
+    "zh-CN": {
+      "title": "米其林餐盘 Hero Shot",
+      "short_title": "米其林盘",
+      "description": "以高级餐饮商业拍摄为核心的主题,要求餐盘摆盘、材质、灯光与留白都达到米其林级 hero shot 的精确控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-fine-dining-hero-studies",
+      "type": "single",
+      "title": "Fine Dining Hero Studies",
+      "path": "packages/single-fine-dining-hero-studies/package.json"
+    }
+  ]
+}

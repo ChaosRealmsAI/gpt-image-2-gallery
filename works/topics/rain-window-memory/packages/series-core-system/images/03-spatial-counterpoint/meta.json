@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. Shift to an oblique or lateral point of view that reveals different depth layers while staying inside the same place and the same atmospheric event.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. Hold the reference structure, but use the new angle to show secondary planes, foreground interruption, or a changed distance relationship.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. The success condition is continuity with the reference plus a richer sense of depth, not a new location or a new lighting system.\n\nUse case:\nRain Window series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "03-spatial-counterpoint",
+  "title": "Spatial Counterpoint",
+  "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/series-core-system/images/03-spatial-counterpoint/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/rain-window-memory/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/rain-window-memory/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame using the reference image to preserve the same place from a shifted angle.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spatial Counterpoint",
+      "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact."
+    },
+    "zh-CN": {
+      "title": "侧向空间变体",
+      "description": "雨窗 · 在维持参考世界一致性的前提下，用侧向视角展示更复杂纵深的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Spatial Counterpoint from Rain Window Memory.",
+      "zh-CN": "雨窗的侧向空间变体画面。"
+    }
+  }
+}

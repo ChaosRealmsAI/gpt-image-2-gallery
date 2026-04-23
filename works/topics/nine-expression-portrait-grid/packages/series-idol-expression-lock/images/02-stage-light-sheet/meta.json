@@ -1,0 +1,73 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 portrait sheet using the same exact 3 by 3 grid structure as the reference image: nine equal cells, thin white gutters, no readable captions, and a polished idol-photobook layout. The setting changes to controlled stage-rehearsal lighting with dark charcoal backgrounds, magenta and cyan rim lights, soft haze, and glossy highlights, but every panel remains a close portrait or half-body portrait rather than a concert action scene.\n\nSubject:\nUse the reference as the primary identity and layout guide. The same young performer must appear in all nine cells with the same oval face, dark almond eyes, chin-length black hair with soft fringe, beauty mark below the left eye, natural lip shape, and recognizable facial proportions. Styling changes to stage-ready variations: black performance jacket, silver mesh collar, simple in-ear monitor shape without logo, satin shirt, cropped glove, and subtle eye makeup. The nine expressions are intense focus, bright smile, playful wink, open laughter, breath-before-performance, cool side glance, surprised look, hand-on-heart gratitude, and confident direct stare.\n\nImportant details:\nPreserve face identity from image 01 even under colored stage light. The grid must remain mechanically precise, with equal cells and consistent crop scale. Expressions should differ clearly, but the face cannot drift into different performers. Do not add readable tour graphics, stage logos, microphones with labels, or audience clutter. The image tests whether identity lock survives lighting and styling changes inside a structured 3x3 portrait sheet.\n\nUse case:\nNine-Expression Portrait Grid series study 2/8, testing reference-based identity consistency under stage-light styling.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no changed face identity, no extra performers, no broken grid gutters, no overexposed neon wash, no mismatched hair length.",
+  "id": "02-stage-light-sheet",
+  "title": "Stage Light Sheet",
+  "description": "The same idol face preserved across nine stage-lit expressions in a precise vertical 3x3 portrait sheet.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "multi-image-reference",
+    "reasoning-composition",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/02-stage-light-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-idol-sheet",
+        "meta_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/meta.json",
+        "image_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and grid reference for a stage-light expression variation.",
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/02-stage-light-sheet/image.png",
+      "checked_at": "2026-04-23T07:49:49.303Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Stage Light Sheet",
+      "description": "The same idol face preserved across nine stage-lit expressions in a precise vertical 3x3 portrait sheet."
+    },
+    "zh-CN": {
+      "title": "舞台光表情表",
+      "description": "同一偶像脸在舞台灯光下保持一致,呈现九种表情的竖幅 3x3 写真表。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "The same idol performer appears in nine stage-lit portrait cells with distinct expressions.",
+      "zh-CN": "同一偶像表演者出现在九个舞台光人像格中,表情各不相同。"
+    }
+  }
+}

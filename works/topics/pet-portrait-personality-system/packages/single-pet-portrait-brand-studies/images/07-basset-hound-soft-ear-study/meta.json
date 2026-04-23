@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Use creamy low contrast studio light and a muted dusty blue backdrop that supports the drooping ear silhouette without turning cute into kitsch.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Show a seated basset hound with long ears resting naturally, amber eyes, heavy brow, and a patient expression that feels gentle and slightly wistful.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. Allow subtle leather collar detail only if it remains secondary to the face and ear geometry; the mood should stay clean and premium.\n\nUse case:\nPet Portrait Personality System single study 7/9, basset hound soft ear study for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no comedic drool, no costume hats, no over sharpened fur.",
+  "id": "07-basset-hound-soft-ear-study",
+  "title": "Basset Hound Soft Ear Study",
+  "description": "A soulful basset hound portrait using ear shape and eye expression as the main personality cues for warm commerce.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/07-basset-hound-soft-ear-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Basset Hound Soft Ear Study",
+      "description": "A soulful basset hound portrait using ear shape and eye expression as the main personality cues for warm commerce."
+    },
+    "zh-CN": {
+      "title": "巴吉度柔耳肖像",
+      "description": "巴吉度柔耳肖像，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A soulful basset hound portrait using ear shape and eye expression as the main personality cues for warm commerce.",
+      "zh-CN": "巴吉度柔耳肖像"
+    }
+  }
+}

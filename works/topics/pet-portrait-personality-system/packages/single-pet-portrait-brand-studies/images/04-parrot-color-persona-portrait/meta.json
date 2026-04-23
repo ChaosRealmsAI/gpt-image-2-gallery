@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Use a muted teal background with crisp yet soft directional light so the feathers glow without becoming neon or theatrical.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Show a medium parrot perched on a minimal matte stand, head slightly tilted, with attentive eye contact and clearly separated feather planes.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. Let the bird provide the color story, but keep the grading controlled and commercial, avoiding zoo poster spectacle or cartoon exaggeration.\n\nUse case:\nPet Portrait Personality System single study 4/9, parrot color persona portrait for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no jungle overload, no screaming motion blur, no rainbow saturation spikes.",
+  "id": "04-parrot-color-persona-portrait",
+  "title": "Parrot Color Persona Portrait",
+  "description": "A tropical parrot portrait with disciplined color control and enough polish for profile, merch, and poster applications.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/04-parrot-color-persona-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Parrot Color Persona Portrait",
+      "description": "A tropical parrot portrait with disciplined color control and enough polish for profile, merch, and poster applications."
+    },
+    "zh-CN": {
+      "title": "鹦鹉色彩人格肖像",
+      "description": "鹦鹉色彩人格肖像，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A tropical parrot portrait with disciplined color control and enough polish for profile, merch, and poster applications.",
+      "zh-CN": "鹦鹉色彩人格肖像"
+    }
+  }
+}

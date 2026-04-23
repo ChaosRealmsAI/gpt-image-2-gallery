@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 actor audition contact sheet composed as a strict 3 by 3 grid with nine equal cells, thin black gutters, and neutral gray casting-studio backgrounds. The lighting is clean and practical, like professional headshot tests, with slight variation in intensity but no dramatic scene changes. There are no readable role labels, slate boards, names, numbers, or agency marks; the expressions and poses must carry the structure.\n\nSubject:\nOne adult actor appears in all nine cells as the same person: medium skin tone, short curly dark hair, defined cheekbones, straight nose, close-trimmed beard, dark eyes, and a plain charcoal crewneck. The actor performs nine distinct audition beats: neutral slate gaze, warm commercial smile, fear, anger, quiet grief, comic confusion, suspicious side glance, relieved laugh, and intense heroic stare. Hands may enter some frames for acting gesture, but every cell should remain a portrait or chest-up crop.\n\nImportant details:\nThe contact sheet must demonstrate controlled expression variation while preserving the same face. Keep beard length, hairline, eye shape, facial proportions, and wardrobe consistent across all nine cells. The differences should be emotional performance, head angle, and pose, not identity drift. Maintain perfectly aligned grid gutters and equal cell sizes. The casting-studio realism should be plain and useful, not decorative, so evaluators can compare expression control clearly.\n\nUse case:\nNine-Expression Portrait Grid single study 6/8, testing actor-audition expression range with strict identity consistency.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no slate text, no extra actors, no changing beard or hairline, no broken grid, no inconsistent clothing.",
+  "id": "02-actor-audition-contact-sheet",
+  "title": "Actor Audition Contact Sheet",
+  "description": "A casting-studio contact sheet showing the same actor performing nine distinct emotional beats.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/single-expression-grid-studies/images/02-actor-audition-contact-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing audition contact-sheet identity consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Actor Audition Contact Sheet",
+      "description": "A casting-studio contact sheet showing the same actor performing nine distinct emotional beats."
+    },
+    "zh-CN": {
+      "title": "演员试镜接触表",
+      "description": "试镜棚接触表中同一演员完成九种不同情绪表演。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A nine-cell casting contact sheet with the same actor performing varied emotions.",
+      "zh-CN": "九宫格试镜接触表中,同一演员表演多种情绪。"
+    }
+  }
+}

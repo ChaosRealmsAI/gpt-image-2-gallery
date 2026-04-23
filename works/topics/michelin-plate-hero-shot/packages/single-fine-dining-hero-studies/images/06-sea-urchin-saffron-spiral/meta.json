@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury food image shot from overhead with a slight tilt, showing a clean white porcelain coupe plate on black marble. Use bright but soft top lighting with a subtle side highlight to reveal glossy sauce, creamy textures, and porcelain curvature. The frame should feel Mediterranean and luminous while remaining minimal and commercially polished.\n\nSubject:\nPlate a small saffron risotto or creamy grain base in a tight spiral, topped with several realistic tongues of sea urchin, tiny fennel pollen dusting, micro herbs, and a few precise droplets of shellfish glaze. The saffron base should glow warm golden yellow, while the sea urchin adds richer orange tones and a soft marine texture. Arrange the urchin in a way that feels chef-planned rather than scattered. A minimal halo of sauce and a few tiny citrus zest threads can add energy without clutter.\n\nImportant details:\nSea urchin must look anatomically believable, delicate, and slightly glossy, never rubbery. The risotto or grain base should look creamy and luxurious without becoming soupy. This is a fine-dining composition built on ingredient knowledge: premium roe texture, saffron color, restrained herb usage, and a plate that communicates cost and precision. Keep the marble background quiet and avoid any casual seafood-restaurant cues.\n\nUse case:\nMichelin Plate Hero Shot single study 6/8, focused on a luminous saffron and sea urchin plate with high-end ingredient realism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no shells on the plate, no lemons cut in half, no cluttered garnish pile, no oversized risotto portion, no messy drips, no rustic seafood styling, no extra bowls, no fake bright-orange plastic texture.",
+  "id": "06-sea-urchin-saffron-spiral",
+  "title": "Sea Urchin Saffron Spiral",
+  "description": "A luminous saffron-based fine-dining plate topped with realistic sea urchin, shellfish glaze, and restrained citrus threads.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/06-sea-urchin-saffron-spiral/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium seafood grain plate with luminous color control."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sea Urchin Saffron Spiral",
+      "description": "A luminous saffron-based fine-dining plate topped with realistic sea urchin, shellfish glaze, and restrained citrus threads."
+    },
+    "zh-CN": {
+      "title": "海胆藏红花螺旋",
+      "description": "一份发光感的藏红花底高级餐盘,上覆真实海胆、贝类亮汁和克制的柑橘细丝。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A white plate with golden saffron base and carefully arranged sea urchin under bright top light.",
+      "zh-CN": "明亮顶光下的白瓷盘,金黄色藏红花底上摆放着精细海胆。"
+    }
+  }
+}

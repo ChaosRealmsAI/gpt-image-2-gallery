@@ -1,0 +1,53 @@
+{
+  "id": "noir-character-poster-portraits",
+  "slug": "noir-character-poster-portraits",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "retro"
+  ],
+  "capability": [
+    "consistency",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Noir Character Poster Portraits",
+  "short_title": "Noir Portraits",
+  "description": "Create moody noir-style character portraits that sit between still photography and key art, with shadow-led lighting and strong psychological framing.",
+  "i18n": {
+    "en": {
+      "title": "Noir Character Poster Portraits",
+      "short_title": "Noir Portraits",
+      "description": "Create moody noir-style character portraits that sit between still photography and key art, with shadow-led lighting and strong psychological framing."
+    },
+    "zh-CN": {
+      "title": "黑色电影角色肖像海报",
+      "short_title": "黑色肖像",
+      "description": "做黑色电影气质的人物海报式肖像，强调阴影、心理张力和角色档案感，介于摄影和 key art 之间。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 685,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-cinematic-portrait-lock",
+      "type": "series",
+      "title": "Identity-Locked Narrative Portrait Sequence",
+      "path": "packages/series-cinematic-portrait-lock/package.json"
+    }
+  ]
+}

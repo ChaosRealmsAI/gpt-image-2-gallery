@@ -1,0 +1,51 @@
+{
+  "id": "pet-clinic-and-vet-trust-visuals",
+  "slug": "pet-clinic-and-vet-trust-visuals",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "title": "Pet Clinic and Vet Trust Visuals",
+  "short_title": "Vet Trust",
+  "description": "Build pet-clinic visuals around trust, gentle examination, and modern veterinary professionalism.",
+  "i18n": {
+    "en": {
+      "title": "Pet Clinic and Vet Trust Visuals",
+      "short_title": "Vet Trust",
+      "description": "Build pet-clinic visuals around trust, gentle examination, and modern veterinary professionalism."
+    },
+    "zh-CN": {
+      "title": "宠物医院与兽医信任视觉",
+      "short_title": "宠物医院",
+      "description": "做宠物医院与兽医信任视觉，强调轻柔检查和现代专业感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 460,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-vet-trust-studies",
+      "type": "single",
+      "title": "Vet Trust Studies",
+      "path": "packages/single-vet-trust-studies/package.json"
+    }
+  ]
+}

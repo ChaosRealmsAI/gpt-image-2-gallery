@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square fine-dining photograph captured from a slightly elevated angle, showing a broad white bowl-plate on glossy black marble under cool top light and a gentle warm side reflection. The image should feel calm and expensive, with the kind of lighting used for menu covers or chef collaboration campaigns. Keep the composition minimal and centered, with the shallow bowl shape clearly visible.\n\nSubject:\nIn the center of the bowl, place a small island of handmade stuffed pasta and mushroom duxelles, surrounded by a dark clear truffle broth poured to a perfectly level ring. Add a few paper-thin black truffle slices, tiny chive batons, and restrained droplets of brown butter near the edge of the island. The pasta should appear delicate and freshly cooked, with subtle folds and a satin finish. The broth must look transparent yet deeply colored, showing reflections and depth without becoming muddy.\n\nImportant details:\nThis study depends on believable culinary physics: the liquid level should be clean, the pasta edges slightly swollen from cooking, and truffle slices thin enough to curl naturally. Avoid rustic soup cues. The plate should read as a luxury tasting course where the dark broth amplifies the pale central island. Negative space inside the bowl is as important as the garnish count.\n\nUse case:\nMichelin Plate Hero Shot single study 5/8, focused on a truffle broth composition with precise liquid control and minimal garnish.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no spoon, no bread, no splashed broth on the rim, no oversized soup serving, no cloudy liquid, no excessive herb scatter, no extra dishes, no rustic ceramic bowl.",
+  "id": "05-truffle-broth-island",
+  "title": "Truffle Broth Island",
+  "description": "A refined bowl-plate with handmade pasta, mushroom filling, black truffle slices, and a perfectly controlled ring of clear broth.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/05-truffle-broth-island/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent broth-focused hero shot with liquid precision."
+  },
+  "i18n": {
+    "en": {
+      "title": "Truffle Broth Island",
+      "description": "A refined bowl-plate with handmade pasta, mushroom filling, black truffle slices, and a perfectly controlled ring of clear broth."
+    },
+    "zh-CN": {
+      "title": "松露清汤孤岛",
+      "description": "精致白瓷汤盘中,手工意面与蘑菇内馅被一圈清澈深色松露汤包围。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A white bowl-plate with delicate pasta, truffle slices, and a ring of dark clear broth.",
+      "zh-CN": "一只白色汤盘中摆着精细意面、松露薄片和一圈深色清汤。"
+    }
+  }
+}

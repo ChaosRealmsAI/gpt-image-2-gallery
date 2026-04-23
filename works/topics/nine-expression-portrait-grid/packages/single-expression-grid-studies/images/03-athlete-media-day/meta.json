@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 sports media-day portrait sheet arranged as a precise 3 by 3 grid with nine equal cells, thin white gutters, and a clean arena back-wall environment. The background uses soft team-color lighting in navy, silver, and warm white, but contains no readable sponsor boards, team names, numbers, or logos. The sheet should feel like official pre-season media photography built for comparing one athlete's expressions.\n\nSubject:\nOne professional athlete appears in all nine cells as the same person: athletic build, deep brown skin, close-cropped hair, strong jaw, small scar over the right eyebrow, and bright focused eyes. The outfit is a plain unbranded warm-up jacket or sleeveless training top in navy and white, varying only by zipped collar, towel, or wrist tape. The nine expressions and poses are game-face intensity, relaxed smile, roar of celebration, skeptical side look, focused downward breath, laughing with head tilted back, hands crossed with confidence, surprised raised brows, and calm profile.\n\nImportant details:\nIdentity consistency is essential: keep the scar, jawline, skin tone, haircut, and eye shape stable in every cell. Do not invent different teammates or change the athlete's sport-specific body language into unrelated costumes. The grid should remain perfectly aligned, with equal cells and consistent crop scale. Lighting can add energy, but the face must stay readable and photoreal. The absence of logos should not make the media-day setting vague; use posture, lighting, and athletic styling.\n\nUse case:\nNine-Expression Portrait Grid single study 7/8, testing athlete media-day expression consistency in a structured 3x3 sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no jersey numbers, no extra athletes, no changed scar placement, no broken gutters, no distorted hands.",
+  "id": "03-athlete-media-day",
+  "title": "Athlete Media Day",
+  "description": "A sports media-day nine-expression sheet preserving the same athlete across energetic portrait variations.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/single-expression-grid-studies/images/03-athlete-media-day/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing athlete media-day expression consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Athlete Media Day",
+      "description": "A sports media-day nine-expression sheet preserving the same athlete across energetic portrait variations."
+    },
+    "zh-CN": {
+      "title": "运动员媒体日",
+      "description": "运动员媒体日九宫格写真中,同一运动员在高能表情变化中保持身份一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A sports media-day nine-cell portrait sheet showing the same athlete with different expressions.",
+      "zh-CN": "运动媒体日九宫格人像表中,同一运动员呈现不同表情。"
+    }
+  }
+}

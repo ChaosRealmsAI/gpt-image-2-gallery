@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square editorial food hero shot captured from directly above, using a single white porcelain plate on a nearly pure black marble slab with faint polished reflections. The light is crisp, frontal, and high-end, like a beauty campaign for a tasting menu. The composition should feel almost graphic in its simplicity, with large negative space and only a few carefully placed highlights.\n\nSubject:\nArrange three opened oysters, removed from their rough outer shells and presented in smooth white porcelain tasting spoons or porcelain depressions integrated into the plate. Each oyster is topped differently but within one visual system: one with a small pearl-like sphere of cucumber granita, one with a translucent champagne gel bead, and one with a tiny silvered herb leaf and clear mignonette sheen. Add only a few microscopic dots of green oil and perhaps one edible flower petal fragment for balance. The overall effect should be icy, saline, and minimal.\n\nImportant details:\nThe oyster flesh must look wet, tender, and anatomically correct, with realistic translucency and gentle folds. Garnishes should stay tiny and luxurious, not decorative clutter. The plate must read as Michelin minimalism, where premium ingredients and exact spacing create the drama. Keep every edge pristine and let the white porcelain contrast against the black stone without additional props.\n\nUse case:\nMichelin Plate Hero Shot single study 7/8, focused on extreme minimalism and ingredient luxury in an oyster course.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rough oyster shells scattered around, no lemon wedges, no ice bed, no cutlery, no table decor, no oversized garnish, no seafood platter abundance, no casual raw-bar styling.",
+  "id": "07-oyster-pearl-minimalism",
+  "title": "Oyster Pearl Minimalism",
+  "description": "A minimalist oyster hero plate with cucumber granita, champagne gel, and polished Michelin-level negative space.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/07-oyster-pearl-minimalism/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent oyster hero shot emphasizing extreme minimalism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Oyster Pearl Minimalism",
+      "description": "A minimalist oyster hero plate with cucumber granita, champagne gel, and polished Michelin-level negative space."
+    },
+    "zh-CN": {
+      "title": "生蚝珍珠极简",
+      "description": "极简主义生蚝 hero shot,以黄瓜冰沙珠、香槟凝胶和大面积留白突出高级感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A minimalist white plate with three dressed oysters and pearl-like garnishes on black marble.",
+      "zh-CN": "黑色大理石上的极简白瓷盘,盘中三枚调味生蚝点缀着珍珠般配料。"
+    }
+  }
+}

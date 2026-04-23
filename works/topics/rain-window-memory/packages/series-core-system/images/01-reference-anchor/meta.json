@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. Keep the camera in a disciplined anchor position so the full lighting event and the main spatial structure are immediately legible from edge to edge.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. This frame should lock the canonical arrangement, scale relationship, and emotional tone that the later dependent images inherit.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. Use this image to establish the authoritative direction of light, atmospheric density, and structural silhouette for the package.\n\nUse case:\nRain Window series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series."
+    },
+    "zh-CN": {
+      "title": "基准锚点",
+      "description": "雨窗 · 建立整组系列光线逻辑、空间关系与氛围基调的基准画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Reference Anchor from Rain Window Memory.",
+      "zh-CN": "雨窗的基准锚点画面。"
+    }
+  }
+}

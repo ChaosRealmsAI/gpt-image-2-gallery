@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square independent archaeology study composed from a slightly elevated fieldwork viewpoint. Use balanced natural light, crisp evidence hierarchy, and practical site organization so the image feels publishable in a museum report and still visually strong enough for a gallery wall. The frame should explain where excavation is happening without relying on readable markers or diagrams.\n\nSubject:\nShow a rediscovery approach scene with survey notes, partially cleared sand at the monument base, and careful inspection of cut channels and facade wear. Include grounded human traces such as ladders, trays, brushes, baskets, light rigs, or measuring tools only when they support archaeological realism and remain visually secondary. The site should stay culturally specific, with architecture, surface treatment, sediment, and environmental context all belonging to the correct civilization rather than a generic dig.\n\nImportant details:\nKeep the monument recognizably Petra, with faceted rock-cut massing, canyon compression, and carved architectural order that feels cut directly from stone rather than assembled from blocks. Prioritize evidence relationships: exposed layers, cleaned edges, protected surfaces, loose fragments, and transitions between buried and revealed material. Let color, wear, and composition explain what has just been uncovered. The image must feel methodical rather than adventurous. Keep any site tags, notes, or markers abstract and unreadable. Avoid sensational treasure imagery and keep the atmosphere scholarly, patient, and materially convincing.\n\nUse case:\nNabatean Petra Rediscovered single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern barriers, no souvenir stalls, no fantasy caravans, no electric lighting, no treasure-chest clichés, no action-movie posing, no arbitrary props, no infographic overlay.",
+  "id": "excavation-overview",
+  "title": "Excavation Overview",
+  "description": "An independent fieldwork overview for Petra Rediscovered focused on excavation context and evidence hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nabatean-petra-rediscovered/packages/single-context-studies/images/excavation-overview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Excavation Overview",
+      "description": "An independent fieldwork overview for Petra Rediscovered focused on excavation context and evidence hierarchy."
+    },
+    "zh-CN": {
+      "title": "发掘总览",
+      "description": "独立展示发掘现场组织与证据关系的总览图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "An excavation overview studies Petra Rediscovered through fieldwork context.",
+      "zh-CN": "佩特拉再发现相关研究图像。"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Atmosphere Sequence",
+  "description": "A four-image reference-driven sequence that establishes the canonical atmosphere and three controlled dependent variations.",
+  "creative_direction": "Image 01 sets the authoritative light logic, spatial identity, and emotional temperature; images 02-04 must remain inside the same world while changing camera distance, angle, or dramatic emphasis.",
+  "cover_image": "images/01-reference-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-anchor/meta.json",
+      "images/02-closer-frame/meta.json",
+      "images/03-spatial-counterpoint/meta.json",
+      "images/04-climax-frame/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-anchor first. Use its runtime result URL as --ref for 02-closer-frame, 03-spatial-counterpoint, 04-climax-frame. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Atmosphere Sequence",
+      "description": "A four-image reference-driven sequence that establishes the canonical atmosphere and three controlled dependent variations."
+    },
+    "zh-CN": {
+      "title": "核心氛围序列",
+      "description": "雨窗的四张核心参考依赖序列，先建立主氛围，再扩展三张受控变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-anchor",
+      "title": "Reference Anchor",
+      "image": "images/01-reference-anchor/image.png",
+      "meta": "images/01-reference-anchor/meta.json"
+    },
+    {
+      "id": "02-closer-frame",
+      "title": "Closer Frame",
+      "image": "images/02-closer-frame/image.png",
+      "meta": "images/02-closer-frame/meta.json"
+    },
+    {
+      "id": "03-spatial-counterpoint",
+      "title": "Spatial Counterpoint",
+      "image": "images/03-spatial-counterpoint/image.png",
+      "meta": "images/03-spatial-counterpoint/meta.json"
+    },
+    {
+      "id": "04-climax-frame",
+      "title": "Climax Frame",
+      "image": "images/04-climax-frame/image.png",
+      "meta": "images/04-climax-frame/meta.json"
+    }
+  ]
+}

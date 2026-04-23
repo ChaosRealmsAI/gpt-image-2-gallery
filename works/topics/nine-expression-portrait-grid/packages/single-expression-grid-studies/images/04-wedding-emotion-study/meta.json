@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 wedding portrait emotion study arranged as an exact 3 by 3 grid with nine equal cells, thin ivory gutters, and soft natural window light. The background is a quiet bridal preparation room with sheer curtains, pale flowers, a wooden vanity, and blurred fabric textures. No invitations, vows, signage, dates, names, monograms, or readable decorations appear anywhere. The grid should feel elegant and emotionally clear.\n\nSubject:\nOne bride appears in all nine cells as the same person: warm olive skin, dark wavy shoulder-length hair, arched brows, distinctive dimple on the right cheek, small nose stud, and a simple off-white satin dress with no brand details. The nine expressions and poses are serene front gaze, joyful laugh, nervous smile, tearful eyes, surprised delight, contemplative profile, playful veil gesture, deep breath with eyes closed, and confident direct gaze. Makeup, hair, jewelry, and dress remain consistent, with only veil position and hand pose changing.\n\nImportant details:\nThis independent study tests emotional range without identity drift. Keep the dimple, nose stud, brows, hair length, skin tone, and dress neckline stable in every cell. Each panel should show a distinct wedding-day feeling, not a different bride. Maintain equal cell dimensions, straight gutters, coherent soft light, and elegant crop scale. The subject can turn or gesture, but no bridesmaids, partners, photographers, or extra faces should enter the cells.\n\nUse case:\nNine-Expression Portrait Grid single study 8/8, testing wedding portrait emotion range inside a structured 3x3 grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no extra people, no changed dress neckline, no missing dimple, no broken grid, no duplicated hands.",
+  "id": "04-wedding-emotion-study",
+  "title": "Wedding Emotion Study",
+  "description": "A bridal portrait grid preserving the same bride across nine wedding-day expressions and subtle veil poses.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/single-expression-grid-studies/images/04-wedding-emotion-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing bridal emotion-grid identity consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wedding Emotion Study",
+      "description": "A bridal portrait grid preserving the same bride across nine wedding-day expressions and subtle veil poses."
+    },
+    "zh-CN": {
+      "title": "婚礼情绪研究",
+      "description": "新娘写真九宫格中,同一位新娘在九种婚礼情绪和轻微头纱动作中保持一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A bridal nine-cell portrait grid showing the same bride through varied wedding-day emotions.",
+      "zh-CN": "新娘九宫格写真中,同一位新娘呈现不同婚礼当天情绪。"
+    }
+  }
+}

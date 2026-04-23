@@ -1,0 +1,55 @@
+{
+  "id": "rain-window-memory",
+  "slug": "rain-window-memory",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "photorealism"
+  ],
+  "title": "Rain Window Memory",
+  "short_title": "Rain Window",
+  "description": "Close-up of a rain-streaked window with diffused city lights bokehing outside, a single finger smear tracing a heart, reflected interior lamp warm in foreground.",
+  "i18n": {
+    "en": {
+      "title": "Rain Window Memory",
+      "short_title": "Rain Window",
+      "description": "Close-up of a rain-streaked window with diffused city lights bokehing outside, a single finger smear tracing a heart, reflected interior lamp warm in foreground."
+    },
+    "zh-CN": {
+      "title": "雨窗记忆",
+      "short_title": "雨窗",
+      "description": "雨水划过的窗特写 · 窗外城市散景灯圈 · 指尖在玻璃划出一颗心 · 室内暖灯倒映前景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 360,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

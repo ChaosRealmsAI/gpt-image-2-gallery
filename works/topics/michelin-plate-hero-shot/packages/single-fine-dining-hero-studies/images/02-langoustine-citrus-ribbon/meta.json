@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square commercial food photograph shot at a shallow 45 degree angle so the rim of a wide white porcelain plate remains visible against a black marble tabletop. Use clean directional side light from the left with soft shadow falloff and controlled highlights on glaze and shellfish. The frame should feel like a premium restaurant launch image with ample breathing room, calm contrast, and no rustic clutter.\n\nSubject:\nPresent a single poached langoustine tail as the hero element, set on a pale ivory sauce with curled ribbons of compressed citrus peel, small fennel fronds, translucent grapefruit pearls, and a few precise dots of orange oil. The langoustine should look tender and moist, with subtle coral color variation and natural segmented structure. The garnish forms a loose spiral that guides the eye without overwhelming the main ingredient. Keep the plate elegant and contemporary, with a small tasting-menu portion and meticulous spacing.\n\nImportant details:\nThe seafood anatomy must remain believable: clear segment definition, slight sheen, and no cartoonish oversizing. Citrus ribbons should look thin, pliable, and freshly cut, not plastic. Sauce viscosity, oil separation, and porcelain reflections should read as real photography. This image depends on world knowledge of refined seafood plating, where restraint, freshness, and visual precision matter more than abundance.\n\nUse case:\nMichelin Plate Hero Shot single study 2/8, focused on a refined langoustine composition with citrus-driven movement.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no utensils, no hands, no table props, no rustic wood, no overfilled plate, no duplicated shellfish, no messy splashes, no unnatural neon color.",
+  "id": "02-langoustine-citrus-ribbon",
+  "title": "Langoustine Citrus Ribbon",
+  "description": "A side-lit langoustine hero plate with citrus ribbons, fennel, grapefruit pearls, and a pale sauce on white porcelain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/02-langoustine-citrus-ribbon/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent seafood hero shot with angled commercial lighting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Langoustine Citrus Ribbon",
+      "description": "A side-lit langoustine hero plate with citrus ribbons, fennel, grapefruit pearls, and a pale sauce on white porcelain."
+    },
+    "zh-CN": {
+      "title": "海螯虾柑橘丝带",
+      "description": "45 度侧光下的海螯虾餐盘,以柑橘丝带、茴香和葡萄柚珠点缀在白瓷盘中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A plated langoustine tail with citrus ribbons and pale sauce photographed on black marble.",
+      "zh-CN": "一份摆在黑色大理石上的海螯虾餐盘,带有柑橘丝带和浅色酱汁。"
+    }
+  }
+}

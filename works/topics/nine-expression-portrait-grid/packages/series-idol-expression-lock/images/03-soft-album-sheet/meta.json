@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 soft album portrait sheet with the same exact 3 by 3 grid geometry as the reference: nine equal cells, thin white gutters, clean edges, no labels, and a quiet editorial rhythm. The background becomes pale cream and powder blue fabric, with diffused window light, gentle film grain, and a calm photobook mood. Every cell should feel like part of one album package rather than nine unrelated snapshots.\n\nSubject:\nUse the reference image as the primary guide for the same young performer's face, chin-length black hair, soft fringe, dark almond eyes, beauty mark below the left eye, lip shape, and facial proportions. The styling changes to a gentle album concept: white cotton shirt, light blue cardigan, cream scarf, pearl-like stud earring, pale denim, soft knit vest, and simple natural makeup. The nine expressions are sleepy calm, shy smile, wide laughter, quiet sadness, curious raised eyebrow, warm direct gaze, cheek-in-hand thoughtfulness, surprised open eyes, and serene profile.\n\nImportant details:\nIdentity consistency is the main challenge. The viewer must believe every panel shows the same person even as expression, head angle, crop, hand placement, and outfit layers shift. Keep the grid mathematically clean, with all gutters straight and all cells equally sized. Maintain consistent skin tone, eye shape, hair length, and beauty mark placement. Avoid magazine text, sticker decorations, duplicate faces outside the grid, or heavy retouching that erases the subject's stable features.\n\nUse case:\nNine-Expression Portrait Grid series study 3/8, testing reference-based identity consistency in a soft album concept.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no changed face identity, no extra subjects, no broken cell sizes, no mismatched beauty mark, no distorted hands.",
+  "id": "03-soft-album-sheet",
+  "title": "Soft Album Sheet",
+  "description": "The same idol face in a soft album concept, preserving identity through nine expressions and gentle styling changes.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "multi-image-reference",
+    "reasoning-composition",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/03-soft-album-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-idol-sheet",
+        "meta_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/meta.json",
+        "image_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and grid reference for a soft album expression variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Soft Album Sheet",
+      "description": "The same idol face in a soft album concept, preserving identity through nine expressions and gentle styling changes."
+    },
+    "zh-CN": {
+      "title": "柔光专辑表情表",
+      "description": "同一偶像脸进入柔光专辑概念,在九种表情和轻微造型变化中保持身份一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "A soft cream-and-blue nine-cell album portrait sheet preserving one idol face across varied expressions.",
+      "zh-CN": "奶油蓝柔光九宫格专辑写真中,同一偶像脸保持一致并呈现多种表情。"
+    }
+  }
+}

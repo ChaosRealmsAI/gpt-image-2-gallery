@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Profession Age Mood Transform Board. Use a square commercial portrait proof with similar camera logic and controlled light. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one identity-locked adult with warm beige skin, dark hair, intelligent eyes, and adaptable posture that can shift profession, age, and mood cues. Preserve the same face and body while moving to a second transformation state that still feels plausible for the same person. Use the example direction from the brief as grounding context: Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Hairline logic, eye spacing, lip shape, and shoulder width must remain exact. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nProfession Age Mood Transform Board series study 3/9, the second controlled transformation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no hairstyle that changes skull shape, no enlarged eyes, no body morphing, no logo props.",
+  "id": "03-look-switch-two",
+  "title": "Look Switch Two",
+  "description": "Look Switch Two variation for Profession Age Mood Transform Board, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "editing-workflow",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/profession-age-mood-transform-board/packages/series-identity-switchboard/images/03-look-switch-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-natural-base",
+        "meta_path": "works/topics/profession-age-mood-transform-board/packages/series-identity-switchboard/images/01-reference-natural-base/meta.json",
+        "image_path": "works/topics/profession-age-mood-transform-board/packages/series-identity-switchboard/images/01-reference-natural-base/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward the second controlled transformation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Look Switch Two",
+      "description": "Look Switch Two variation for Profession Age Mood Transform Board, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "切换方案二",
+      "description": "切换方案二 是 职业年龄气质变体板 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Look Switch Two portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的切换方案二肖像变体。"
+    }
+  }
+}

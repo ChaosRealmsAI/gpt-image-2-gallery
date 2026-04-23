@@ -1,0 +1,73 @@
+{
+  "id": "series-idol-expression-lock",
+  "type": "series",
+  "title": "Idol Expression Lock",
+  "description": "A reference-dependent series of 9:16 Korean-idol-style portrait sheets preserving the same face through nine expressions and later styling variations.",
+  "creative_direction": "Identity-lock portrait sheet series: image 01 establishes the subject's face, hair, crop logic, and 3x3 grid; images 02-04 depend on it while varying lighting, styling, and mood.",
+  "cover_image": "images/01-reference-idol-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-idol-sheet/meta.json",
+      "images/02-stage-light-sheet/meta.json",
+      "images/03-soft-album-sheet/meta.json",
+      "images/04-street-casting-sheet/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Idol Expression Lock",
+      "description": "A reference-dependent series of 9:16 Korean-idol-style portrait sheets preserving the same face through nine expressions and later styling variations."
+    },
+    "zh-CN": {
+      "title": "偶像表情一致性",
+      "description": "一组依赖参考图的 9:16 韩系偶像写真九宫格,在九种表情和后续造型变化中保持同一张脸。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "structured-layout",
+      "multi-image-reference",
+      "photorealism",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-idol-sheet",
+      "title": "Reference Idol Sheet",
+      "image": "images/01-reference-idol-sheet/image.png",
+      "meta": "images/01-reference-idol-sheet/meta.json"
+    },
+    {
+      "id": "02-stage-light-sheet",
+      "title": "Stage Light Sheet",
+      "image": "images/02-stage-light-sheet/image.png",
+      "meta": "images/02-stage-light-sheet/meta.json"
+    },
+    {
+      "id": "03-soft-album-sheet",
+      "title": "Soft Album Sheet",
+      "image": "images/03-soft-album-sheet/image.png",
+      "meta": "images/03-soft-album-sheet/meta.json"
+    },
+    {
+      "id": "04-street-casting-sheet",
+      "title": "Street Casting Sheet",
+      "image": "images/04-street-casting-sheet/image.png",
+      "meta": "images/04-street-casting-sheet/meta.json"
+    }
+  ]
+}

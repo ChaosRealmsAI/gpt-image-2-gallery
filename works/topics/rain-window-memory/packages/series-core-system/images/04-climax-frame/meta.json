@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. Push the composition toward the emotional peak of the same setup, with the most dramatic balance of brightness, shadow, or atmospheric density inside the established world.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. Everything should still read as the same location and same event, but framed for maximum narrative force and visual closure.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. Make it feel like the strongest hero frame of the sequence without breaking continuity or introducing a new design language.\n\nUse case:\nRain Window series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "04-climax-frame",
+  "title": "Climax Frame",
+  "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/series-core-system/images/04-climax-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/rain-window-memory/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/rain-window-memory/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hero frame that amplifies drama while preserving the reference logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Climax Frame",
+      "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak."
+    },
+    "zh-CN": {
+      "title": "高潮画面",
+      "description": "雨窗 · 将同一场景推向最强视觉高潮的依赖主画面变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Climax Frame from Rain Window Memory.",
+      "zh-CN": "雨窗的高潮画面画面。"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Personal Brand Portrait System. Use a sculpted key light with subtle shadow modeling, clean negative space, and a slightly wider crop that still favors the face. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one creator-founder in their thirties with light brown skin, long dark hair tucked behind one ear, intelligent eyes, and an approachable but polished posture. Use the same identity and wardrobe family while introducing stronger body language through shoulders, hands, or a turn of the torso. The viewer should immediately recognize the same subject even though the composition becomes more campaign-like. Use the example direction from the brief as grounding context: Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Keep proportions stable and let the pose feel intentional rather than theatrical. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nPersonal Brand Portrait System series study 3/9, a three-quarter portrait hero.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no warped arms, no off-model body shape, no new facial hair pattern, no unrelated props.",
+  "id": "03-three-quarter-hero",
+  "title": "Three-Quarter Hero",
+  "description": "Three-Quarter Hero variation for Personal Brand Portrait System, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/personal-brand-portrait-system/packages/series-portrait-brand-system/images/03-three-quarter-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-portrait-anchor",
+        "meta_path": "works/topics/personal-brand-portrait-system/packages/series-portrait-brand-system/images/01-reference-portrait-anchor/meta.json",
+        "image_path": "works/topics/personal-brand-portrait-system/packages/series-portrait-brand-system/images/01-reference-portrait-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a three-quarter portrait hero.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Three-Quarter Hero",
+      "description": "Three-Quarter Hero variation for Personal Brand Portrait System, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "三分之四主视觉",
+      "description": "三分之四主视觉 是 个人品牌人像系统 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Three-Quarter Hero portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的三分之四主视觉肖像变体。"
+    }
+  }
+}

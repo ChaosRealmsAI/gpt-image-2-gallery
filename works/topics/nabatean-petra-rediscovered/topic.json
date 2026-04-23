@@ -1,0 +1,53 @@
+{
+  "id": "nabatean-petra-rediscovered",
+  "slug": "nabatean-petra-rediscovered",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Nabatean Petra Rediscovered",
+  "short_title": "Petra Rediscovered",
+  "description": "The Treasury facade of Petra at the precise moment 19th-century explorers first saw it — sand drifts still piled at the base, the rose-red stone glowing in afternoon sun, narrow siq canyon framing the view.",
+  "i18n": {
+    "en": {
+      "title": "Nabatean Petra Rediscovered",
+      "short_title": "Petra Rediscovered",
+      "description": "The Treasury facade of Petra at the precise moment 19th-century explorers first saw it — sand drifts still piled at the base, the rose-red stone glowing in afternoon sun, narrow siq canyon framing the view."
+    },
+    "zh-CN": {
+      "title": "佩特拉纳巴泰再发现",
+      "short_title": "佩特拉再发现",
+      "description": "19 世纪探险家初见佩特拉宝库立面一刻 · 基座仍堆着沙丘 · 玫瑰红砂岩午后发光 · 狭窄蛇道峡谷框住视野。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 450,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

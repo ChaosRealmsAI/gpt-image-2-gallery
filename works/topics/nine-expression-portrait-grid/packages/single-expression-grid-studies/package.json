@@ -1,0 +1,60 @@
+{
+  "id": "single-expression-grid-studies",
+  "type": "single",
+  "title": "Expression Grid Studies",
+  "description": "Four independent 9:16 portrait-grid studies testing same-subject consistency across family, acting, sports, and wedding-photo contexts.",
+  "creative_direction": "Independent static consistency studies: each image uses a different portrait-sheet scenario while requiring one face to remain stable across nine cells with distinct expressions and poses.",
+  "cover_image": "images/01-family-album-matriarch/image.png",
+  "i18n": {
+    "en": {
+      "title": "Expression Grid Studies",
+      "description": "Four independent 9:16 portrait-grid studies testing same-subject consistency across family, acting, sports, and wedding-photo contexts."
+    },
+    "zh-CN": {
+      "title": "表情九宫单图研究",
+      "description": "四张独立 9:16 人像九宫格,在家庭、演员、运动和婚礼场景中测试同一人物一致性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "identity-consistency",
+      "structured-layout",
+      "reasoning-composition",
+      "photorealism",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-family-album-matriarch",
+      "title": "Family Album Matriarch",
+      "image": "images/01-family-album-matriarch/image.png",
+      "meta": "images/01-family-album-matriarch/meta.json"
+    },
+    {
+      "id": "02-actor-audition-contact-sheet",
+      "title": "Actor Audition Contact Sheet",
+      "image": "images/02-actor-audition-contact-sheet/image.png",
+      "meta": "images/02-actor-audition-contact-sheet/meta.json"
+    },
+    {
+      "id": "03-athlete-media-day",
+      "title": "Athlete Media Day",
+      "image": "images/03-athlete-media-day/image.png",
+      "meta": "images/03-athlete-media-day/meta.json"
+    },
+    {
+      "id": "04-wedding-emotion-study",
+      "title": "Wedding Emotion Study",
+      "image": "images/04-wedding-emotion-study/image.png",
+      "meta": "images/04-wedding-emotion-study/meta.json"
+    }
+  ]
+}

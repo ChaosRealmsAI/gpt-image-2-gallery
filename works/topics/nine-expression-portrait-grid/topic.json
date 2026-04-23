@@ -1,0 +1,59 @@
+{
+  "id": "nine-expression-portrait-grid",
+  "slug": "nine-expression-portrait-grid",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "consistency"
+  ],
+  "title": "Nine-Expression Portrait Grid",
+  "short_title": "Expression Grid",
+  "description": "A Prompt Atlas theme for 9:16 portrait sheets where one subject remains identity-consistent across a precise 3 by 3 grid of expressions, poses, and styling changes.",
+  "i18n": {
+    "en": {
+      "title": "Nine-Expression Portrait Grid",
+      "short_title": "Expression Grid",
+      "description": "A Prompt Atlas theme for 9:16 portrait sheets where one subject remains identity-consistent across a precise 3 by 3 grid of expressions, poses, and styling changes."
+    },
+    "zh-CN": {
+      "title": "3x3 九宫格多表情写真",
+      "short_title": "表情九宫",
+      "description": "测试 9:16 竖幅 3x3 九宫格中同一人物的脸部一致性、表情差异、姿态变化和版式清晰度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "identity-consistency",
+      "structured-layout",
+      "reasoning-composition",
+      "social-feed",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-idol-expression-lock",
+      "type": "series",
+      "title": "Idol Expression Lock",
+      "path": "packages/series-idol-expression-lock/package.json"
+    },
+    {
+      "id": "single-expression-grid-studies",
+      "type": "single",
+      "title": "Expression Grid Studies",
+      "path": "packages/single-expression-grid-studies/package.json"
+    }
+  ]
+}

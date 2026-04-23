@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Place the dog against a pale graphite backdrop with clean top side lighting that reveals the beard, eyebrows, and clipped body texture.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Show a miniature schnauzer in a straight seated posture with alert dark eyes and balanced symmetry across the face and chest.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. The trim should look skilled, believable, and premium, suitable for salon marketing, breed club imagery, or branded grooming cards.\n\nUse case:\nPet Portrait Personality System single study 8/9, schnauzer classic groomed portrait for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no bow overload, no fashion gimmicks, no toy dog proportions.",
+  "id": "08-schnauzer-classic-groomed-portrait",
+  "title": "Schnauzer Classic Groomed Portrait",
+  "description": "A crisp schnauzer portrait emphasizing precise grooming lines and confident salon-grade polish without looking artificial.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/08-schnauzer-classic-groomed-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Schnauzer Classic Groomed Portrait",
+      "description": "A crisp schnauzer portrait emphasizing precise grooming lines and confident salon-grade polish without looking artificial."
+    },
+    "zh-CN": {
+      "title": "雪纳瑞经典修剪肖像",
+      "description": "雪纳瑞经典修剪肖像，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A crisp schnauzer portrait emphasizing precise grooming lines and confident salon-grade polish without looking artificial.",
+      "zh-CN": "雪纳瑞经典修剪肖像"
+    }
+  }
+}

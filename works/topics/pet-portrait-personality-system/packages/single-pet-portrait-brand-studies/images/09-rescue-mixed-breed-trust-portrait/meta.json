@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Use soft outdoor shade or simulated open shade against a plain plaster wall so the portrait feels real world and grounded rather than studio precious.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Feature a medium mixed breed dog with alert but gentle eyes, asymmetrical markings, and a relaxed standing pose that suggests resilience and trust.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. Keep the styling minimal and dignified; the emotion should come from honest presence, not pity cues or dramatic hardship staging.\n\nUse case:\nPet Portrait Personality System single study 9/9, rescue mixed breed trust portrait for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no chain fences, no visible neglect trauma, no gloomy disaster mood.",
+  "id": "09-rescue-mixed-breed-trust-portrait",
+  "title": "Rescue Mixed Breed Trust Portrait",
+  "description": "A mixed breed rescue dog portrait designed to feel trustworthy, hopeful, and broadly reusable across care and adoption communications.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/09-rescue-mixed-breed-trust-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Rescue Mixed Breed Trust Portrait",
+      "description": "A mixed breed rescue dog portrait designed to feel trustworthy, hopeful, and broadly reusable across care and adoption communications."
+    },
+    "zh-CN": {
+      "title": "救助混种犬信任肖像",
+      "description": "救助混种犬信任肖像，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A mixed breed rescue dog portrait designed to feel trustworthy, hopeful, and broadly reusable across care and adoption communications.",
+      "zh-CN": "救助混种犬信任肖像"
+    }
+  }
+}

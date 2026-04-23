@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial pet portrait built like a premium asset from a modern animal lifestyle brand. Use controlled studio or window light, accurate fur rendering, and a clean background with enough breathing room for avatar, packaging, and merch crops. The frame should feel intentionally art directed, with believable lens depth and restrained color grading rather than sentimental snapshot energy. Use a pale stone windowsill environment with diffused morning light and a soft neutral wall that keeps the composition quiet and editorial.\n\nSubject:\nPhotograph one pet as the clear hero and let its personality read through posture, eye expression, ear position, and grooming detail. The animal must feel real, well cared for, and emotionally specific, with anatomy, coat pattern, and whisker detail treated seriously. Avoid clownish costume logic; the character comes from attitude, styling restraint, and portrait craft. Show an older long haired cat with silver whiskers, slightly weathered fur around the muzzle, calm seated posture, and intelligent half narrowed eyes.\n\nImportant details:\nKeep the image commercially reusable: crisp edges, clean separation from the background, subtle brand polish, and enough negative space for later design systems. Props may appear only when they reinforce the personality cue. Maintain trustworthy realism, elegant light falloff, and a finish that could sit on a profile card, tote bag, clinic brochure, or premium social post without redesigning the core image. Honor age detail instead of hiding it; the portrait should feel tender, premium, and suitable for senior pet wellness or memorial adjacent branding.\n\nUse case:\nPet Portrait Personality System single study 2/9, window light senior cat portrait for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic home interiors, no novelty meme expressions, no distorted anatomy, no extra animals, no cluttered props, no cropped off ears unless intentionally close, no kitten cues, no harsh glamour retouching, no ornate furniture.",
+  "id": "02-window-light-senior-cat-portrait",
+  "title": "Window Light Senior Cat Portrait",
+  "description": "A refined senior cat portrait using window light, soft aging detail, and quiet dignity for gentle brand storytelling.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pet-portrait-personality-system/packages/single-pet-portrait-brand-studies/images/02-window-light-senior-cat-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pet portrait brand studies image for Pet Portraits.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Window Light Senior Cat Portrait",
+      "description": "A refined senior cat portrait using window light, soft aging detail, and quiet dignity for gentle brand storytelling."
+    },
+    "zh-CN": {
+      "title": "窗光高龄猫肖像",
+      "description": "窗光高龄猫肖像，用于宠物肖像品牌研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A refined senior cat portrait using window light, soft aging detail, and quiet dignity for gentle brand storytelling.",
+      "zh-CN": "窗光高龄猫肖像"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pet-portrait-personality-system",
+  "slug": "pet-portrait-personality-system",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "commercial-mockup",
+    "multi-image-reference",
+    "structured-layout"
+  ],
+  "title": "Pet Portrait Personality System",
+  "short_title": "Pet Portraits",
+  "description": "Create pet portrait systems that capture animal personality while remaining clean enough for social, merch, and profile uses.",
+  "i18n": {
+    "en": {
+      "title": "Pet Portrait Personality System",
+      "short_title": "Pet Portraits",
+      "description": "Create pet portrait systems that capture animal personality while remaining clean enough for social, merch, and profile uses."
+    },
+    "zh-CN": {
+      "title": "宠物肖像人格系统",
+      "short_title": "宠物肖像",
+      "description": "做宠物肖像人格系统，捕捉宠物个性，同时适合社媒、周边和 profile。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 410,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-pet-portrait-brand-studies",
+      "type": "single",
+      "title": "Pet Portrait Brand Studies",
+      "path": "packages/single-pet-portrait-brand-studies/package.json"
+    }
+  ]
+}

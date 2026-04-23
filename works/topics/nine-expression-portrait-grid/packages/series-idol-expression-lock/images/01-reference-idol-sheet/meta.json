@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 portrait sheet arranged as an exact 3 by 3 grid with nine equal cells, thin white gutters, and a clean studio-photobook look. The background is soft warm gray in every cell, with consistent beauty lighting, shallow depth of field, and polished Korean idol portrait styling. The sheet has no readable captions, labels, numbers, or interface elements; the structure must be carried by the grid alone.\n\nSubject:\nOne young adult performer appears in all nine cells as the same person: same oval face, clear skin texture, dark almond eyes, straight black chin-length hair with a soft fringe, small beauty mark below the left eye, and natural lip shape. The wardrobe is coordinated but varies subtly by cell: cream knit, black blazer, pale denim jacket, white shirt, satin collar, soft scarf, simple earrings, and no logos. Each cell shows a different expression and pose: calm front gaze, small smile, surprise, laughter, shy downward glance, serious profile, wink, thoughtful hand near chin, and confident three-quarter pose.\n\nImportant details:\nThis is the reference image for the series. The face must remain recognizably identical across all nine panels while expressions, head angles, hands, and outfit details change. Keep cell borders straight, cell sizes equal, and lighting direction coherent. Avoid turning the nine portraits into nine different people. The grid should read like an idol photobook contact sheet or social teaser, with precise static consistency rather than narrative action.\n\nUse case:\nNine-Expression Portrait Grid series study 1/8, establishing the face identity and 3x3 layout reference.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no duplicate cropped heads outside cells, no mismatched eye color, no distorted hands, no broken gutters, no extra subjects.",
+  "id": "01-reference-idol-sheet",
+  "title": "Reference Idol Sheet",
+  "description": "A 9:16 idol-style portrait contact sheet establishing one face across nine expressions in a precise 3x3 grid.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "multi-image-reference",
+    "reasoning-composition",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the idol face identity and 3x3 portrait-grid structure."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Idol Sheet",
+      "description": "A 9:16 idol-style portrait contact sheet establishing one face across nine expressions in a precise 3x3 grid."
+    },
+    "zh-CN": {
+      "title": "基准偶像表情表",
+      "description": "9:16 偶像写真接触表,在精准 3x3 九宫格中建立同一张脸的九种表情。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "A vertical nine-cell idol portrait sheet showing the same face with nine different expressions.",
+      "zh-CN": "竖幅九宫格偶像写真表,同一张脸呈现九种不同表情。"
+    }
+  }
+}

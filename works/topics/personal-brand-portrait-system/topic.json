@@ -1,0 +1,53 @@
+{
+  "id": "personal-brand-portrait-system",
+  "slug": "personal-brand-portrait-system",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "Personal Brand Portrait System",
+  "short_title": "Brand Portraits",
+  "description": "Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos.",
+  "i18n": {
+    "en": {
+      "title": "Personal Brand Portrait System",
+      "short_title": "Brand Portraits",
+      "description": "Create a full portrait system for creators, consultants, and public-facing professionals across profile photos, website hero images, and keynote promos."
+    },
+    "zh-CN": {
+      "title": "个人品牌人像系统",
+      "short_title": "品牌人像",
+      "description": "给创作者、顾问或公开露出的个人品牌做一整套人像系统，覆盖头像、官网主视觉、演讲海报和社媒封面。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 584,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-portrait-brand-system",
+      "type": "series",
+      "title": "Identity-Locked Brand Portrait System",
+      "path": "packages/series-portrait-brand-system/package.json"
+    }
+  ]
+}

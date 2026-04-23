@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 street-casting portrait sheet using the same 3 by 3 grid structure as the reference image: nine equal cells, thin white gutters, clean border logic, and no readable captions. The setting changes to overcast urban daylight with neutral concrete walls, subway-tile texture, glass reflections, and a casual editorial street-casting mood. The layout must stay strict even though the portraits feel more spontaneous.\n\nSubject:\nUse the reference as the primary identity guide. The same young performer appears in all nine cells with the same oval face, dark almond eyes, chin-length black hair with soft fringe, beauty mark below the left eye, and stable lip shape. Styling becomes casual streetwear without logos: black bomber jacket, white ribbed tee, gray hoodie, washed denim, plain canvas tote strap, silver ear cuff, and minimal makeup. The nine expressions are neutral casting stare, quick grin, laughing side turn, skeptical eyebrow, surprised phone-call reaction without showing a phone, soft profile, playful tongue-in-cheek smile, thoughtful downward gaze, and confident hands-in-pockets pose.\n\nImportant details:\nPreserve identity from image 01 while allowing street-style variation in pose and crop. Keep each cell a clean portrait or half-body portrait, not a full street scene. The face should not age, change ethnicity, change eye color, or change hair length. The grid must remain exact, with clear gutters and no overlapping panels. Backgrounds can vary slightly but should share one urban casting-session environment and consistent overcast light.\n\nUse case:\nNine-Expression Portrait Grid series study 4/8, testing identity lock in a casual street-casting portrait sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no brand marks, no changed face identity, no extra people, no broken grid alignment, no mismatched hair, no street signs.",
+  "id": "04-street-casting-sheet",
+  "title": "Street Casting Sheet",
+  "description": "The same idol face translated into a casual street-casting nine-expression sheet with strict grid alignment.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "multi-image-reference",
+    "reasoning-composition",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/04-street-casting-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-idol-sheet",
+        "meta_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/meta.json",
+        "image_path": "works/topics/nine-expression-portrait-grid/packages/series-idol-expression-lock/images/01-reference-idol-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and grid reference for a street-casting expression variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Street Casting Sheet",
+      "description": "The same idol face translated into a casual street-casting nine-expression sheet with strict grid alignment."
+    },
+    "zh-CN": {
+      "title": "街头试镜表情表",
+      "description": "同一偶像脸被转译为街头试镜风九宫格,保持严格版式和身份一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "A casual street-casting nine-cell portrait sheet showing the same performer in varied expressions.",
+      "zh-CN": "街头试镜风九宫格写真中,同一表演者呈现多种表情。"
+    }
+  }
+}

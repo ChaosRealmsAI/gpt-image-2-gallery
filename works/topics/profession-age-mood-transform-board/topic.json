@@ -1,0 +1,53 @@
+{
+  "id": "profession-age-mood-transform-board",
+  "slug": "profession-age-mood-transform-board",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Profession Age Mood Transform Board",
+  "short_title": "Transform Board",
+  "description": "Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.",
+  "i18n": {
+    "en": {
+      "title": "Profession Age Mood Transform Board",
+      "short_title": "Transform Board",
+      "description": "Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix."
+    },
+    "zh-CN": {
+      "title": "职业年龄气质变体板",
+      "short_title": "变体板",
+      "description": "把同一个人切成不同职业、年龄读感和情绪气质，比如律师、厨师、歌手、教师、成熟版、少年版等。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 716,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-switchboard",
+      "type": "series",
+      "title": "Identity-Locked Switchboard",
+      "path": "packages/series-identity-switchboard/package.json"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Profession Age Mood Transform Board. Use a clean approval-style studio portrait with neutral light, simple wardrobe, and enough facial visibility to lock identity perfectly. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one identity-locked adult with warm beige skin, dark hair, intelligent eyes, and adaptable posture that can shift profession, age, and mood cues. Establish the exact same face, hair base, skin tone family, and body proportions that every transformation image must preserve. Use the example direction from the brief as grounding context: Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Push one identity through profession, age, and mood transformations without losing the core face, producing a believable character-styling matrix.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This baseline must read like the trustworthy approval frame before switching anything. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nProfession Age Mood Transform Board series study 1/9, the natural baseline look.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no heavy styling, no logo wardrobe, no beauty filter, no extra subjects.",
+  "id": "01-reference-natural-base",
+  "title": "Reference Natural Base",
+  "description": "Reference portrait for Profession Age Mood Transform Board, locking the same face and body identity for the rest of the nine-image series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "editing-workflow",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/profession-age-mood-transform-board/packages/series-identity-switchboard/images/01-reference-natural-base/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root identity reference for the nine-image portrait series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Natural Base",
+      "description": "Reference portrait for Profession Age Mood Transform Board, locking the same face and body identity for the rest of the nine-image series."
+    },
+    "zh-CN": {
+      "title": "基准自然底版",
+      "description": "职业年龄气质变体板 的基准肖像,为后续九图系列锁定同一张脸与体态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Reference Natural Base portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的基准自然底版肖像变体。"
+    }
+  }
+}

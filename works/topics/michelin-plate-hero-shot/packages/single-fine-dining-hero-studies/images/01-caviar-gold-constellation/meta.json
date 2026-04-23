@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square fine-dining hero shot photographed from directly overhead on a deep black marble table with soft veining. A single matte white porcelain plate sits slightly off center with generous negative space around it, lit by a precise top light with a faint 45 degree fill from the upper left. The atmosphere is quiet, premium, and editorial, like a Michelin restaurant campaign image made for a luxury magazine spread.\n\nSubject:\nAt the center of the plate, build a small architectural tasting course around a quenelle of chilled creme fraiche, a restrained mound of glossy black caviar, tiny cubes of translucent kohlrabi, a few gold-leaf accents, and delicate edible flower petals in pale violet and white. Add a thin ring of clear herb oil and several micro dots of dark reduction so the dish reads as intentional constellation-like plating rather than random garnish. The portion should feel expensive and precise, not abundant.\n\nImportant details:\nPreserve true culinary realism: caviar beads must look separate and hydrated, creme fraiche should hold a soft spooned texture, porcelain should remain clean, and sauce dots must have crisp edges. Keep the garnish logic sparse and balanced, with every component readable at a glance. The visual language is minimalist French fine dining with immaculate spacing, premium ingredient knowledge, and commercial food-photography polish.\n\nUse case:\nMichelin Plate Hero Shot single study 1/8, focused on a luxury caviar plate with disciplined top-down composition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cutlery, no hands, no table clutter, no oversized portions, no messy sauce smears, no impossible garnish placements, no extra plates.",
+  "id": "01-caviar-gold-constellation",
+  "title": "Caviar Gold Constellation",
+  "description": "A top-down Michelin-style caviar plate arranged with creme fraiche, herb oil, edible flowers, and gold leaf on white porcelain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/01-caviar-gold-constellation/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent plated food hero shot with top-down luxury styling."
+  },
+  "i18n": {
+    "en": {
+      "title": "Caviar Gold Constellation",
+      "description": "A top-down Michelin-style caviar plate arranged with creme fraiche, herb oil, edible flowers, and gold leaf on white porcelain."
+    },
+    "zh-CN": {
+      "title": "鱼子酱金箔星群",
+      "description": "俯拍的米其林风格鱼子酱餐盘,以酸奶油、香草油、食用花和金箔完成极简摆盘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An overhead white porcelain plate with caviar, creme fraiche, flower petals, and gold leaf on black marble.",
+      "zh-CN": "一只白瓷盘置于黑色大理石上,盘中是鱼子酱、酸奶油、花瓣和金箔的极简摆盘。"
+    }
+  }
+}

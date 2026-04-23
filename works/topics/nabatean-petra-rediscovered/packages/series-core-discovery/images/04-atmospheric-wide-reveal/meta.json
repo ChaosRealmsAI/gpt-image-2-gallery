@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square wide reveal of the same site under a slightly different environmental condition, with more surrounding geography or architecture visible while keeping the anchor landmark dominant. Use disciplined composition, atmospheric perspective, and natural light behavior so the image feels like a patient field photograph captured after the reference shot rather than a different fantasy set.\n\nSubject:\nShow the same site identity with broader context: approaches, terraces, ring walls, canyon slot, canopy volume, quarry slope, or chamber boundaries depending on the location. The anchor structure must remain instantly recognizable. Environmental scale should deepen understanding of why the site is placed here and how people, water, topography, or vegetation shape the experience of the monument.\n\nImportant details:\nPreserve the exact landmark, materials, and civilizational cues from the reference model while allowing wider framing and a different atmospheric emphasis. Keep the monument recognizably Petra, with faceted rock-cut massing, canyon compression, and carved architectural order that feels cut directly from stone rather than assembled from blocks. Use geography and environmental systems to add meaning: drainage, mist, current, valley depth, roots, irrigation, or enclosure logic. The image should feel both beautiful and evidentiary, with no compositional tricks that break continuity with the established site.\n\nUse case:\nNabatean Petra Rediscovered series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact site identity from the reference image, no modern barriers, no souvenir stalls, no fantasy caravans, no electric lighting, no unrelated landmarks, no speculative mashup architecture, no posterized grading.",
+  "id": "04-atmospheric-wide-reveal",
+  "title": "Atmospheric Wide Reveal",
+  "description": "A dependent wide reveal that expands environmental context while preserving the exact Petra Rediscovered landmark.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nabatean-petra-rediscovered/packages/series-core-discovery/images/04-atmospheric-wide-reveal/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/nabatean-petra-rediscovered/packages/series-core-discovery/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/nabatean-petra-rediscovered/packages/series-core-discovery/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must preserve the anchor site identity.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Atmospheric Wide Reveal",
+      "description": "A dependent wide reveal that expands environmental context while preserving the exact Petra Rediscovered landmark."
+    },
+    "zh-CN": {
+      "title": "氛围广角揭示",
+      "description": "在保持同一地点身份下扩展环境尺度与氛围。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A wider environmental reveal expands the same Petra Rediscovered site.",
+      "zh-CN": "佩特拉再发现相关研究图像。"
+    }
+  }
+}

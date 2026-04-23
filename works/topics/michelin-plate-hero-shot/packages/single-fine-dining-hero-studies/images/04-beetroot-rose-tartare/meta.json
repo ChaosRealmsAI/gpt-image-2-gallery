@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square overhead hero shot on a pure black marble surface with subtle reflection, featuring a wide-rim white porcelain plate under crisp top light and a softer fill from the lower right. The frame should feel clean, feminine, and deliberate, like a seasonal tasting-menu campaign image. Negative space is important: let the plate breathe and keep the overall composition centered but not static.\n\nSubject:\nCreate an elegant beetroot tartare formed into a low circular mound, topped with paper-thin concentric rose-like slices of beet, tiny pink peppercorn accents, micro sorrel leaves, and a few dots of pale horseradish cream. Around the tartare, place a restrained ring of ruby beet reduction and a small scatter of translucent pickled vegetable cubes. The palette should stay within deep burgundy, blush pink, ivory, and a touch of green, with the tartare reading as refined vegetable-focused gastronomy rather than rustic salad.\n\nImportant details:\nThe beet texture must look real: moist but not wet, finely cut, and lightly glossy. Rose slices should appear thin and delicate, with natural organic irregularity. Porcelain cleanliness, sauce edge control, and microgreen placement matter as much as the ingredients themselves. This image should demonstrate that a vegetable course can carry the same premium hero-shot gravity as seafood or meat.\n\nUse case:\nMichelin Plate Hero Shot single study 4/8, focused on a jewel-toned beet tartare plated with floral precision.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cutlery, no linen, no rustic crumbs, no oversized salad volume, no sloppy beet stains outside the intended sauce, no cheese shavings, no extra bowls, no casual bistro styling.",
+  "id": "04-beetroot-rose-tartare",
+  "title": "Beetroot Rose Tartare",
+  "description": "A jewel-toned beet tartare plated with rose-like slices, horseradish cream, pickled cubes, and controlled beet reduction.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/04-beetroot-rose-tartare/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vegetable hero shot with floral tartare geometry."
+  },
+  "i18n": {
+    "en": {
+      "title": "Beetroot Rose Tartare",
+      "description": "A jewel-toned beet tartare plated with rose-like slices, horseradish cream, pickled cubes, and controlled beet reduction."
+    },
+    "zh-CN": {
+      "title": "甜菜玫瑰塔塔",
+      "description": "珠宝色调的甜菜塔塔,以玫瑰状薄片、辣根奶油和酸渍小方块完成精细摆盘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An overhead beet tartare on white porcelain with rose-like slices and ruby sauce accents.",
+      "zh-CN": "俯拍的白瓷盘甜菜塔塔,带有玫瑰状薄片和宝石红酱汁点缀。"
+    }
+  }
+}

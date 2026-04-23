@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. End on a quieter independent image that holds the residue of the topic atmosphere after its loudest moment has passed, while still feeling complete and exhibition-ready.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. The frame should suggest memory, aftermath, or lingering presence through environment first and only secondarily through any figure or object.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. Favor restraint, believable light decay, and subtle narrative closure over spectacle or decorative excess.\n\nUse case:\nRain Window single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "afterglow-study",
+  "title": "Afterglow Study",
+  "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/single-support-studies/images/afterglow-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on quiet atmospheric closure.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Afterglow Study",
+      "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere."
+    },
+    "zh-CN": {
+      "title": "余韵研究",
+      "description": "雨窗 · 围绕同一气氛残留余韵而构成的安静收束独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Afterglow Study from Rain Window Memory.",
+      "zh-CN": "雨窗的余韵研究画面。"
+    }
+  }
+}

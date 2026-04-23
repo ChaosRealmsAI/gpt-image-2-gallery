@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Noir Character Poster Portraits. Use a moody side-light frame with rich shadow design, clean negative space, and readable facial geometry. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create moody noir-style character portraits that sit between still photography and key art, with shadow-led lighting and strong psychological framing.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one noir lead with pale skin, dark wavy hair, sharp cheekbones, and guarded eyes. Use profile and shadow to deepen mood, but preserve the exact nose bridge, jawline, ear shape, and hair base from the reference. Use the example direction from the brief as grounding context: Create moody noir-style character portraits that sit between still photography and key art, with shadow-led lighting and strong psychological framing.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create moody noir-style character portraits that sit between still photography and key art, with shadow-led lighting and strong psychological framing.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This should feel psychologically sharper, not visually inconsistent. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nNoir Character Poster Portraits series study 6/9, a profile or shadow-driven portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no crushed shadow mush, no altered profile, no costume reset, no thriller poster text.",
+  "id": "06-profile-shadow",
+  "title": "Profile Shadow",
+  "description": "Profile Shadow variation for Noir Character Poster Portraits, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/noir-character-poster-portraits/packages/series-cinematic-portrait-lock/images/06-profile-shadow/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-anchor",
+        "meta_path": "works/topics/noir-character-poster-portraits/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/meta.json",
+        "image_path": "works/topics/noir-character-poster-portraits/packages/series-cinematic-portrait-lock/images/01-reference-character-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a profile or shadow-driven portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Shadow",
+      "description": "Profile Shadow variation for Noir Character Poster Portraits, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "侧颜阴影版",
+      "description": "侧颜阴影版 是 黑色电影角色肖像海报 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Profile Shadow portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的侧颜阴影版肖像变体。"
+    }
+  }
+}

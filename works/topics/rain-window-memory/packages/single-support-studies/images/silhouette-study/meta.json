@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Rain Window Memory. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A rain-covered window fills much of the frame while the city outside dissolves into cool bokeh circles and smeared light trails, and a warm interior lamp reflection hovers on the glass without overpowering the weathered surface. Compose an independent frame where one human, animal, or object silhouette negotiates with the atmospheric light event in a clean, readable way.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The subject is the interaction of droplets, finger-smear traces, condensation, reflected room light, and soft urban color beyond the pane, with any human presence implied indirectly rather than shown as a posed portrait. The silhouette should supply scale and emotional orientation, but the environment still needs to carry most of the storytelling weight.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Render droplet scale, gravity-driven streaking, condensation edges, and double reflections with high fidelity, preserving a restrained emotional intimacy that feels personal and cinematic instead of sentimental or glossy. Keep the silhouette simple and believable, avoiding poster-like graphic flattening while preserving strong contrast.\n\nUse case:\nRain Window single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable street signs, no brand logos, no full face pressed to the glass, no cartoon heart iconography, no perfect symmetrical droplets.",
+  "id": "silhouette-study",
+  "title": "Silhouette Study",
+  "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-window-memory/packages/single-support-studies/images/silhouette-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on silhouette and atmosphere balance.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Silhouette Study",
+      "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene."
+    },
+    "zh-CN": {
+      "title": "剪影研究",
+      "description": "雨窗 · 以单一剪影衡量场景尺度与情绪张力的独立画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Silhouette Study from Rain Window Memory.",
+      "zh-CN": "雨窗的剪影研究画面。"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "series-portrait-brand-system",
+  "type": "series",
+  "title": "Identity-Locked Brand Portrait System",
+  "description": "A nine-image identity-locked portrait series for Personal Brand Portrait System, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Personal Brand Portrait System; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-portrait-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-portrait-anchor/meta.json",
+      "images/02-clean-headshot/meta.json",
+      "images/03-three-quarter-hero/meta.json",
+      "images/04-profile-study/meta.json",
+      "images/05-approachable-smile/meta.json",
+      "images/06-dark-backdrop-editorial/meta.json",
+      "images/07-banner-crop-portrait/meta.json",
+      "images/08-monochrome-alt/meta.json",
+      "images/09-approval-sheet-layout/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-portrait-anchor first. Use its runtime result URL as --ref for 02-clean-headshot, 03-three-quarter-hero, 04-profile-study, 05-approachable-smile, 06-dark-backdrop-editorial, 07-banner-crop-portrait, 08-monochrome-alt, 09-approval-sheet-layout. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Brand Portrait System",
+      "description": "A nine-image identity-locked portrait series for Personal Brand Portrait System, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸品牌肖像系统",
+      "description": "围绕 个人品牌人像系统 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-portrait-anchor",
+      "title": "Reference Portrait Anchor",
+      "image": "images/01-reference-portrait-anchor/image.png",
+      "meta": "images/01-reference-portrait-anchor/meta.json"
+    },
+    {
+      "id": "02-clean-headshot",
+      "title": "Clean Headshot",
+      "image": "images/02-clean-headshot/image.png",
+      "meta": "images/02-clean-headshot/meta.json"
+    },
+    {
+      "id": "03-three-quarter-hero",
+      "title": "Three-Quarter Hero",
+      "image": "images/03-three-quarter-hero/image.png",
+      "meta": "images/03-three-quarter-hero/meta.json"
+    },
+    {
+      "id": "04-profile-study",
+      "title": "Profile Study",
+      "image": "images/04-profile-study/image.png",
+      "meta": "images/04-profile-study/meta.json"
+    },
+    {
+      "id": "05-approachable-smile",
+      "title": "Approachable Smile",
+      "image": "images/05-approachable-smile/image.png",
+      "meta": "images/05-approachable-smile/meta.json"
+    },
+    {
+      "id": "06-dark-backdrop-editorial",
+      "title": "Dark Backdrop Editorial",
+      "image": "images/06-dark-backdrop-editorial/image.png",
+      "meta": "images/06-dark-backdrop-editorial/meta.json"
+    },
+    {
+      "id": "07-banner-crop-portrait",
+      "title": "Banner Crop Portrait",
+      "image": "images/07-banner-crop-portrait/image.png",
+      "meta": "images/07-banner-crop-portrait/meta.json"
+    },
+    {
+      "id": "08-monochrome-alt",
+      "title": "Monochrome Alt",
+      "image": "images/08-monochrome-alt/image.png",
+      "meta": "images/08-monochrome-alt/meta.json"
+    },
+    {
+      "id": "09-approval-sheet-layout",
+      "title": "Approval Sheet Layout",
+      "image": "images/09-approval-sheet-layout/image.png",
+      "meta": "images/09-approval-sheet-layout/meta.json"
+    }
+  ]
+}

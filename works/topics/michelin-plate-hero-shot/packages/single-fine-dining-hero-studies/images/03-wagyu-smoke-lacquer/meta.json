@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square steak hero shot framed from a slightly elevated three-quarter angle, with a large white porcelain plate resting on polished black marble under controlled overhead light and a narrow warm side kicker. The lighting should reveal lacquered surfaces, gentle steam, and plate curvature while keeping the background clean and dark. The image must feel like a high-budget restaurant advertising visual rather than casual dining photography.\n\nSubject:\nFeature three neatly sliced pieces of medium-rare wagyu beef arranged in a staggered line over a glossy dark glaze. Add a small smoked onion puree swoosh, a few charred pearl onions, tiny mustard greens, and one precise arc of reduced jus. The beef should show realistic marbling, moist cut faces, and a restrained amount of rendered fat sheen. Use a very small portion, plated like a tasting course, with one faint wisp of smoke or vapor rising near the meat to imply heat and service timing.\n\nImportant details:\nWagyu texture must be convincing, with fine marbling and correct pink center rather than raw or overcooked extremes. Keep the glaze reflective but controlled, and avoid barbecue styling. The plate should read as European fine dining: minimal components, strong negative space, and exact sauce geometry. Every garnish must support the meat and not turn the plate into a busy still life.\n\nUse case:\nMichelin Plate Hero Shot single study 3/8, focused on premium wagyu treatment with lacquered surfaces and restrained drama.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no steak knife, no hands, no wooden board, no oversized ribeye slab, no casual grill marks, no messy grease, no extra side dishes, no cartoon smoke clouds.",
+  "id": "03-wagyu-smoke-lacquer",
+  "title": "Wagyu Smoke Lacquer",
+  "description": "A premium wagyu tasting plate with lacquered jus, onion puree, charred pearl onions, and subtle service steam.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/03-wagyu-smoke-lacquer/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent meat hero shot with premium glaze and steam detail."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wagyu Smoke Lacquer",
+      "description": "A premium wagyu tasting plate with lacquered jus, onion puree, charred pearl onions, and subtle service steam."
+    },
+    "zh-CN": {
+      "title": "和牛烟雾亮釉",
+      "description": "高级和牛品鉴餐盘,以亮泽肉汁、洋葱泥、炙烤珍珠洋葱和轻微热气完成戏剧化呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Slices of medium-rare wagyu on a white plate with dark glaze and charred pearl onions.",
+      "zh-CN": "白瓷盘中的几片五分熟和牛,配深色亮釉酱汁和炙烤珍珠洋葱。"
+    }
+  }
+}

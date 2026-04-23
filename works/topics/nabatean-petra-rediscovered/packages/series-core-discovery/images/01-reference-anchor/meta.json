@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary image composed like a premium archaeology magazine feature. Use rose-red sandstone, warm desert amber, cool canyon shadow, and fine airborne dust. Frame the Petra Treasury facade emerging at the end of a narrow siq, with sand drifts at the base and high canyon walls framing the reveal with crisp depth layering, restrained contrast, and subtle atmospheric depth so the scene feels excavated, observed, and historically grounded rather than theatrical or game-like. Keep the light directional but believable, as if captured during a careful field visit.\n\nSubject:\nCenter the image on the Petra Treasury facade emerging at the end of a narrow siq, with sand drifts at the base and high canyon walls framing the reveal. Include culturally accurate surface logic, region-specific setting, and believable human-scale cues in stairs, doorways, cut blocks, relief edges, or water depth. Shapes, carvings, masonry joints, and site wear should feel studied from real archaeology, with no generic ancient-world mashup and no ornamental filler borrowed from another civilization.\n\nImportant details:\nKeep the monument recognizably Petra, with faceted rock-cut massing, canyon compression, and carved architectural order that feels cut directly from stone rather than assembled from blocks. Emphasize rose sandstone, wind-shaped sand, chisel-cut columns, shadowed canyon walls, and softly weathered Nabataean ornament. Keep inscriptions, painted registers, symbolic motifs, or carved bands visually plausible but not readable. Preserve a museum-grade balance between beauty and evidence: light should reveal relief depth, edge wear, repairs, sediment traces, and excavation context without turning the site into fantasy spectacle. The composition should feel like a definitive reference frame that later variations can inherit exactly.\n\nUse case:\nNabatean Petra Rediscovered series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern barriers, no souvenir stalls, no fantasy caravans, no electric lighting, no tourists, no anachronistic props, no collage layout, no exaggerated fantasy lighting.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Petra Rediscovered.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/nabatean-petra-rediscovered/packages/series-core-discovery/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the discovery fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Petra Rediscovered."
+    },
+    "zh-CN": {
+      "title": "参考锚点",
+      "description": "建立系列基准遗址身份与视觉规则的核心参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The rose-red Treasury of Petra appears between dark canyon walls and windblown sand.",
+      "zh-CN": "佩特拉再发现相关研究图像。"
+    }
+  }
+}

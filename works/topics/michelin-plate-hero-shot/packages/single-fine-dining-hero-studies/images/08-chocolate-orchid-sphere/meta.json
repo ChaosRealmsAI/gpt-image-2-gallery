@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square dessert hero shot photographed from a slightly elevated front angle, with a pristine white porcelain plate on black marble under bright top light and a narrow side accent that catches gloss and cocoa texture. The framing should be luxurious and modern, with the dessert isolated like a jewel in a campaign photograph. Keep the background uncluttered and the mood elegant rather than playful.\n\nSubject:\nAt the center of the plate, place a dark chocolate sphere with a flawless tempered sheen, partially opened or delicately fractured to reveal a lighter mousse interior. Surround it with a thin ring of glossy sauce, a few crumbs of cocoa sable, tiny orchid petals in muted magenta, and two or three dots of pale vanilla creme. A touch of edible metallic leaf or powdered cocoa can add contrast, but the dessert must stay disciplined and premium. The portion should feel like a tasting-menu finale rather than a bakery product.\n\nImportant details:\nChocolate temper, shell thickness, mousse texture, and crumb scale must read as real pastry work. Avoid novelty-dessert excess. The plate should communicate chef-driven precision, with high contrast between dark chocolate, white porcelain, and restrained floral accents. The image also needs commercial polish: immaculate reflections, crisp shadows, controlled highlights, and no visual confusion between sauce, glaze, and shell.\n\nUse case:\nMichelin Plate Hero Shot single study 8/8, focused on a dramatic plated dessert with premium pastry realism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ice cream scoop, no cutlery, no dripping molten mess, no oversized cake portion, no candy decorations, no rustic dessert plate, no extra props, no cartoon shine, no colorful bakery styling.",
+  "id": "08-chocolate-orchid-sphere",
+  "title": "Chocolate Orchid Sphere",
+  "description": "A dark chocolate sphere dessert plated with mousse, cocoa sable, orchid petals, and restrained vanilla accents on white porcelain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-plate-hero-shot/packages/single-fine-dining-hero-studies/images/08-chocolate-orchid-sphere/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent plated dessert hero shot with pastry realism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Chocolate Orchid Sphere",
+      "description": "A dark chocolate sphere dessert plated with mousse, cocoa sable, orchid petals, and restrained vanilla accents on white porcelain."
+    },
+    "zh-CN": {
+      "title": "巧克力兰花球体",
+      "description": "深色巧克力球体甜点以慕斯、可可酥粒、兰花花瓣和香草点缀摆放在白瓷盘上。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A plated dark chocolate sphere dessert with orchid petals and vanilla accents on a white plate.",
+      "zh-CN": "一只摆在白瓷盘上的深色巧克力球体甜点,周围点缀兰花花瓣和香草元素。"
+    }
+  }
+}
