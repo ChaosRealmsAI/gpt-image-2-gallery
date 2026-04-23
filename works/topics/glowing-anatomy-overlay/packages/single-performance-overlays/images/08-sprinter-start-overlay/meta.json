@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal high-speed image of a sprinter launching from starting blocks on a dark track under clean stadium side light. The camera is low and close, looking along the lane with sharp focus on the athlete and blocks. Use a dramatic but uncluttered background, track texture, dust particles, and no visible lane numbers or event branding.\n\nSubject:\nAn adult sprinter in plain unbranded kit at the first explosive push, body angled forward, rear leg extending, front foot driving from the block, arms counterbalancing. Overlay red heart pulse and vascular paths through chest and legs, cyan breath pressure around throat and rib cage, green muscle activation in calves, hamstrings, quadriceps, glutes, core, shoulders, and forearms, and orange stress rings at toes, ankles, knees, hips, spine, shoulders, elbows, and wrists. Add ground-reaction force arrows, acceleration streaks, and small abstract performance ticks.\n\nImportant details:\nThe overlay must make the start mechanics clear: pressure into blocks, force through feet, extension through legs, forward torso angle, and arm drive. Ground-reaction arrows should originate exactly at contact points. Muscle glow should emphasize posterior chain and explosive extension, not a uniform body outline. Keep the starting blocks, shoe soles, track granules, sweat, and fabric photorealistic beneath the luminous technical layer.\n\nUse case:\nGlowing Anatomy Overlay single study 8/8, testing a sprint-start image with ground reaction, acceleration, muscle activation, breath, heart, and joint-stress overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no lane numbers, no sponsor signage, no jersey text, no medical gore, no impossible starting pose, no detached force vectors, no excessive sci-fi panels, no overlay obscuring foot contact.",
+  "id": "08-sprinter-start-overlay",
+  "title": "Sprinter Start Overlay",
+  "description": "A sprinter launch with glowing ground-reaction, acceleration, muscle, breath, heart, and joint-stress overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "high-speed",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/08-sprinter-start-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent sprinter anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sprinter Start Overlay",
+      "description": "A sprinter launch with glowing ground-reaction, acceleration, muscle, breath, heart, and joint-stress overlays."
+    },
+    "zh-CN": {
+      "title": "短跑起跑叠加",
+      "description": "短跑起跑瞬间叠加发光地面反作用力、加速度、肌肉、呼吸、心脏和关节应力图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "A sprinter launching from blocks with glowing force arrows, acceleration traces, muscle activation, breath, heart, and joint-stress overlays.",
+      "zh-CN": "一名短跑运动员从起跑器冲出，身上有发光力箭头、加速度轨迹、肌肉激活、呼吸、心脏和关节应力叠加层。"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "jovian-cloud-whale-migration",
+  "slug": "jovian-cloud-whale-migration",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Jovian Cloud Whale Migration",
+  "short_title": "Cloud Whale",
+  "description": "Visualize a gas-giant migration ecology in which enormous buoyant aerial vertebrate analogs ride cloud bands, lightning, and chemistry gradients across the upper atmosphere of a Jupiter-like world.",
+  "i18n": {
+    "en": {
+      "title": "Jovian Cloud Whale Migration",
+      "short_title": "Cloud Whale",
+      "description": "Visualize a gas-giant migration ecology in which enormous buoyant aerial vertebrate analogs ride cloud bands, lightning, and chemistry gradients across the upper atmosphere of a Jupiter-like world."
+    },
+    "zh-CN": {
+      "title": "木星云鲸迁徙",
+      "short_title": "云鲸",
+      "description": "把气巨星上层大气中的迁徙生态视觉化，让巨型漂浮生物沿着云带、闪电和化学梯度移动。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 814,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "cinematic",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-cloud-whale-atlas",
+      "type": "single",
+      "title": "Cloud Whale Atlas",
+      "path": "packages/single-cloud-whale-atlas/package.json"
+    }
+  ]
+}

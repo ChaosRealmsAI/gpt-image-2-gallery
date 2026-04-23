@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose a curated natural history survey plate against a dark neutral background that still feels underwater rather than graphic design. Arrange several representative abyssal species in one coherent square, each at slightly different scale and depth, as if observed through a study window into the deep. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nInclude a lure predator, a drifting medusa, a siphon grazer, a nursery shell form, and small scavengers, all positioned so their body plans can be compared without labels. The organisms should overlap subtly and share one believable water environment rather than floating as cutouts. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. This is a synthesis image, so clarity matters: preserve morphology, material differences, and glow logic while avoiding clutter. The composition should read like a polished field atlas cover that still feels alive and ecological, not like a poster of disconnected assets. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no specimen pins, no text labels, no flat collage cutout look, no empty black void, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "survey-plate-assemblage",
+  "title": "Survey Plate Assemblage",
+  "description": "A museum-grade assemblage summarizing several abyssal species within one research plate.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/survey-plate-assemblage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Survey Plate Assemblage",
+      "description": "A museum-grade assemblage summarizing several abyssal species within one research plate."
+    },
+    "zh-CN": {
+      "title": "勘测拼版总集",
+      "description": "用博物馆级拼版方式总结多种深渊物种的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A museum-like assemblage of multiple abyssal luminous species.",
+      "zh-CN": "总结多种发光深渊生物的博物式拼版。"
+    }
+  }
+}

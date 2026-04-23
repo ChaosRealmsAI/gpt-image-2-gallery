@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square material-focused image where lighting, scale, and surface behavior are the main event. Build the frame around the internal or layered structure made legible through detail. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Complex Optics Materials theme and should feel immediately legible as a prompt atlas theme for complex optics materials, testing photorealism, physics-materials, reasoning-composition with gpt image 2..\n\nSubject:\nCenter the study on the internal or layered structure made legible through detail. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of complex optics materials as a literal guide for subject matter, materials, and staging.\n\nImportant details:\nMicrostructure matters: refraction, fibers, scratches, pores, edge wear, translucency, and dust should all feel physically specific. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Complex Optics Materials. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nComplex Optics Materials single study 7/8, testing photorealism, physics-materials, reasoning-composition through the structure closeup variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no generic stock macro, no broken scale cues, no plastic-looking texture when it should feel natural, no meaningless blur, no watermark, no fake labels.",
+  "id": "structure-closeup",
+  "title": "Structure Closeup",
+  "description": "Structure Closeup interprets Complex Optics Materials as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/complex-optics-materials/packages/single-complex-optics-materials-studies/images/structure-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Complex Optics Materials single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Structure Closeup",
+      "description": "Structure Closeup interprets Complex Optics Materials as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "结构特写",
+      "description": "结构特写：围绕 复杂光学 · caustics / subsurface 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Structure Closeup for Complex Optics Materials.",
+      "zh-CN": "复杂光学 · caustics / subsurface主题中的结构特写图像研究。"
+    }
+  }
+}

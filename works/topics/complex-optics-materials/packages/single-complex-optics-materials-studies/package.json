@@ -1,0 +1,82 @@
+{
+  "id": "single-complex-optics-materials-studies",
+  "type": "single",
+  "title": "Optics Material Studies",
+  "description": "Eight independent material studies for Complex Optics Materials, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Complex Optics Materials, testing photorealism, physics-materials, reasoning-composition with GPT Image 2. through distinct studies that emphasize photorealism, physics-materials, micro-texture while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/surface-hero/image.png",
+  "i18n": {
+    "en": {
+      "title": "Optics Material Studies",
+      "description": "Eight independent material studies for Complex Optics Materials, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "复杂光学单图研究",
+      "description": "围绕 复杂光学 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ]
+  },
+  "images": [
+    {
+      "id": "surface-hero",
+      "title": "Surface Hero",
+      "image": "images/surface-hero/image.png",
+      "meta": "images/surface-hero/meta.json"
+    },
+    {
+      "id": "macro-study",
+      "title": "Macro Study",
+      "image": "images/macro-study/image.png",
+      "meta": "images/macro-study/meta.json"
+    },
+    {
+      "id": "side-light-study",
+      "title": "Side Light Study",
+      "image": "images/side-light-study/image.png",
+      "meta": "images/side-light-study/meta.json"
+    },
+    {
+      "id": "process-trace",
+      "title": "Process Trace",
+      "image": "images/process-trace/image.png",
+      "meta": "images/process-trace/meta.json"
+    },
+    {
+      "id": "specimen-table",
+      "title": "Specimen Table",
+      "image": "images/specimen-table/image.png",
+      "meta": "images/specimen-table/meta.json"
+    },
+    {
+      "id": "atmospheric-view",
+      "title": "氛围场景",
+      "image": "images/atmospheric-view/image.png",
+      "meta": "images/atmospheric-view/meta.json"
+    },
+    {
+      "id": "structure-closeup",
+      "title": "Structure Closeup",
+      "image": "images/structure-closeup/image.png",
+      "meta": "images/structure-closeup/meta.json"
+    },
+    {
+      "id": "signature-material",
+      "title": "Signature Material",
+      "image": "images/signature-material/image.png",
+      "meta": "images/signature-material/meta.json"
+    }
+  ]
+}

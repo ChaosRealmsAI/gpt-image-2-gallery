@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nPlace the viewer inside a dense thicket of tall siphon organisms rooted in soft sediment, with the camera looking through layered stalks into darkness. Thin ribbons of cyan and pale lime light should run along the fronds, revealing current direction and making the whole grove feel like a breathing electrical forest. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on trunk-like siphon bodies, semi-transparent feeding membranes, and small hitchhiker organisms that shelter in the grooves between structural ribs. A few detached fronds should drift through the current to imply seasonal shedding or reproduction. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Keep the biology plant-like in silhouette but unmistakably animal in tissue, attachment strategy, and feeding behavior. Membranes should look collagenous and wet, not leafy or botanical, and the grove should feel adapted to darkness, pressure, and sparse nutrients. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no trees, no terrestrial bark, no flowers, no sunlit kelp-forest look, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "siphon-forest-closeup",
+  "title": "Siphon Forest Closeup",
+  "description": "A close survey of tall siphon organisms that farm current-borne nutrients with light-coded leaves.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/siphon-forest-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Siphon Forest Closeup",
+      "description": "A close survey of tall siphon organisms that farm current-borne nutrients with light-coded leaves."
+    },
+    "zh-CN": {
+      "title": "虹吸森林特写",
+      "description": "用发光叶片筛取营养的高耸虹吸生物近景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Tall siphon organisms rising like a luminous forest on the abyssal floor.",
+      "zh-CN": "像森林一样矗立在深海底部的发光虹吸生物。"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "glowing-anatomy-overlay",
+  "slug": "glowing-anatomy-overlay",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "physics-materials"
+  ],
+  "title": "Glowing Anatomy Overlay",
+  "short_title": "Glowing Anatomy Overlay",
+  "description": "A Prompt Atlas theme for photoreal sports and wellness images with glowing anatomy, biomechanical stress, breathing, and performance-data overlays.",
+  "i18n": {
+    "en": {
+      "title": "Glowing Anatomy Overlay",
+      "short_title": "Glowing Anatomy Overlay",
+      "description": "A Prompt Atlas theme for photoreal sports and wellness images with glowing anatomy, biomechanical stress, breathing, and performance-data overlays."
+    },
+    "zh-CN": {
+      "title": "Glowing Anatomy Overlay · 霓虹解剖",
+      "short_title": "霓虹解剖",
+      "description": "霓虹解剖主题：在跑者、泳者、骑行者等实拍运动画面上叠加心率、呼吸、肌肉激活、关节应力和数据感图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "commercial-mockup",
+      "photorealism",
+      "data-visualization"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-performance-overlays",
+      "type": "single",
+      "title": "Performance Overlays",
+      "path": "packages/single-performance-overlays/package.json"
+    }
+  ]
+}

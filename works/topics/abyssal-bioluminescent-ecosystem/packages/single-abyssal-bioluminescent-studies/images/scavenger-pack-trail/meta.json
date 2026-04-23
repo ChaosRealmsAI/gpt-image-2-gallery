@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the viewpoint low to the sediment so the audience feels embedded in the abyssal plain. A narrow trail of intermittent green chemical light should snake across fine black mud, leading the eye toward a distant carcass bloom and dim predator silhouettes. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nCenter the image on a coordinated pack of six-legged scavenger analogs with pressure-flattened bodies, whisker-like chemoceptors, and reflective eye shields. Their feet disturb the sediment while trailing juveniles interpret the glow trail left by microbial partners living in their excreted mucus. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Show behavioral ecology rather than spectacle: cautious spacing, leader and follower roles, and a believable reason for collective movement in the dark. Keep materials wet, cold, and heavy, with light only clinging to slime traces, sensory organs, and microbial mats. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crab copy, no lobster copy, no heroic monster pose, no bright reef background, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "scavenger-pack-trail",
+  "title": "Scavenger Pack Trail",
+  "description": "Pack-hunting scavengers follow bioluminescent scent trails across black sediment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/scavenger-pack-trail/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Scavenger Pack Trail",
+      "description": "Pack-hunting scavengers follow bioluminescent scent trails across black sediment."
+    },
+    "zh-CN": {
+      "title": "清道夫群踪",
+      "description": "沿着生物光痕迹在黑色沉积物上移动的群居清道夫。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Small abyssal scavengers following glowing trails across sediment.",
+      "zh-CN": "一群沿着发光痕迹前进的深海清道夫。"
+    }
+  }
+}

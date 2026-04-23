@@ -1,0 +1,50 @@
+{
+  "id": "food-cross-section-atlas",
+  "slug": "food-cross-section-atlas",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Food Cross-Section Atlas",
+  "short_title": "Food Section",
+  "description": "A Prompt Atlas theme for Food Cross-Section Atlas, testing structured-layout, photorealism, technical-diagram, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Food Cross-Section Atlas",
+      "short_title": "Food Section",
+      "description": "A Prompt Atlas theme for Food Cross-Section Atlas, testing structured-layout, photorealism, technical-diagram, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "食物横截面图鉴 · Food cross-section",
+      "short_title": "食物剖面",
+      "description": "食物横截面图鉴 · Food cross-section：汉堡 7 层剖面标注 / 寿司卷横切材料图 / 拉面一碗成分拆解 / 分子料理演绎卡 / 粽子 / 月饼剖开"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-food-cross-section-studies",
+      "type": "single",
+      "title": "Food Section Photography Studies",
+      "path": "packages/single-food-cross-section-studies/package.json"
+    }
+  ]
+}

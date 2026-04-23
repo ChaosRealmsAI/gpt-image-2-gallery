@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a sheltered depression in the seafloor where overlapping shell-like organisms form a nursery ring. The square frame should feel intimate and quiet, with milky blue light leaking from seams between plates and reflecting on suspended eggs, detritus flakes, and nearby mud ridges. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow parental brooders whose calcified outer valves protect soft luminous brood chambers. Inside the ring, larvae at different growth stages should drift or cling to mucus threads while attendant cleaner symbionts groom fungal films and remove parasites. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Communicate lifecycle logic with clear age differences, nesting behavior, and material contrast between hard shell, gelatinous interior, and delicate larvae. The palette should stay subdued and cold, using light to reveal anatomy rather than decorate it. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no pearl-jewelry styling, no clam copy, no cute baby-animal sentimentality, no warm tropical sand, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "nursery-shell-colony",
+  "title": "Nursery Shell Colony",
+  "description": "Shell-forming brood organisms protect larvae inside a ring of soft blue light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/nursery-shell-colony/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Nursery Shell Colony",
+      "description": "Shell-forming brood organisms protect larvae inside a ring of soft blue light."
+    },
+    "zh-CN": {
+      "title": "育幼壳群落",
+      "description": "在柔蓝荧光中保护幼体的壳状育幼群落。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A nursery shell colony sheltering larvae in blue light.",
+      "zh-CN": "柔蓝荧光中的壳状育幼群落。"
+    }
+  }
+}

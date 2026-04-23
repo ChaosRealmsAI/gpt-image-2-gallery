@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the viewpoint at ground level beneath a major canopy island, where shifting shade, dust ribbons, and loose seed filaments reveal a constant upward wind. The scene should feel dimmer and cooler than the open sky above, with a strong sense of vertical pull. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow low vegetation hugging stones, root shadows moving overhead, and small scavenger or climber animals timing their movements with gust cycles. One or two seed bodies should begin lifting off the ground, connecting floor ecology to canopy reproduction. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume low gravity, persistent updrafts, and buoyant tissues let mature canopy masses hover while root tendrils still harvest minerals and moisture from the ground. Organisms should visibly respond to vertical distance, drifting substrates, and unstable aerial habitat. Explain the low-gravity world through subtle physics rather than spectacle. Soil texture, plant posture, and particle flow should all indicate that air movement is a governing force in this biome. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nExoplanet Floating Forest single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no tornado, no magic wind spirals, no human campsite, no heavy Earth forest density, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "forest-floor-updraft",
+  "title": "Forest Floor Updraft",
+  "description": "The shadowed forest floor is shaped by warm updrafts rising toward the canopy islands.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/exoplanet-floating-forest/packages/single-floating-forest-studies/images/forest-floor-updraft/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Exoplanet Floating Forest.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Forest Floor Updraft",
+      "description": "The shadowed forest floor is shaped by warm updrafts rising toward the canopy islands."
+    },
+    "zh-CN": {
+      "title": "林下上升气流",
+      "description": "阴影森林地表被向上吹拂的暖气流塑造。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Warm updrafts rising from the floor beneath floating forests.",
+      "zh-CN": "漂浮森林下方向上升腾的暖气流。"
+    }
+  }
+}

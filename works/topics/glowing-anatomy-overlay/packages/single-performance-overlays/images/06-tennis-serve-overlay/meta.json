@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal action image of a tennis player at the instant before striking a serve, photographed on a dark practice court under clean stadium lights. Use a slightly low camera angle, crisp subject focus, and controlled motion trails on the racket and ball. The background should be minimal and free of signage so the anatomy overlay can dominate.\n\nSubject:\nAn adult tennis player in plain training clothes, arched upward with racket overhead and weight transferring through the rear leg. Overlay red cardiovascular pulse through chest, shoulder, and forearm, cyan breath expansion around rib cage, green muscle activation across calves, glutes, core obliques, back, rotator cuff, triceps, and wrist flexors, and orange stress arcs at ankle, knee, hip, spine, shoulder, elbow, and wrist. Add a clean serve trajectory arc, torque spiral around the torso, and small abstract metric glyphs without readable text.\n\nImportant details:\nThe serve is a kinetic-chain test. The overlay must show force rising from ground contact through hips, torso rotation, shoulder external rotation, elbow extension, wrist snap, and racket path. Keep anatomy aligned to the visible pose and avoid generic body glow. The racket, ball, fabric, and skin should remain photoreal. Data graphics should be precise, thin, and commercial-grade, with clear color coding and no clutter.\n\nUse case:\nGlowing Anatomy Overlay single study 6/8, testing a tennis serve image with torque, muscle activation, cardiovascular, breath, and joint-stress overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no tournament branding, no court sponsor marks, no player name, no medical gore, no impossible shoulder rotation, no random interface boxes, no detached racket trail, no overlay hiding the ball.",
+  "id": "06-tennis-serve-overlay",
+  "title": "Tennis Serve Overlay",
+  "description": "A tennis serve with glowing torque, muscle activation, breath, heart, and joint-stress overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "high-speed",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/06-tennis-serve-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent tennis anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tennis Serve Overlay",
+      "description": "A tennis serve with glowing torque, muscle activation, breath, heart, and joint-stress overlays."
+    },
+    "zh-CN": {
+      "title": "网球发球叠加",
+      "description": "网球发球瞬间叠加发光扭矩、肌肉激活、呼吸、心脏和关节应力图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "A tennis player serving with glowing torque spiral, muscle activation, breath, heart pulse, and joint-stress overlays.",
+      "zh-CN": "一名网球运动员发球，身上有发光扭矩螺旋、肌肉激活、呼吸、心脏脉冲和关节应力叠加层。"
+    }
+  }
+}

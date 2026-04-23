@@ -1,0 +1,48 @@
+{
+  "id": "fluid-smoke-explosion",
+  "slug": "fluid-smoke-explosion",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "abstract"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Fluid Smoke Explosion",
+  "short_title": "Fluid FX",
+  "description": "A Prompt Atlas theme for Fluid Smoke Explosion, testing physics-materials, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fluid Smoke Explosion",
+      "short_title": "Fluid FX",
+      "description": "A Prompt Atlas theme for Fluid Smoke Explosion, testing physics-materials, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "流体 · 烟雾 · 爆炸",
+      "short_title": "流体爆炸",
+      "description": "流体 · 烟雾 · 爆炸：咖啡倒进杯子一瞬 · 奶花旋起 · 慢动作 · 毫秒级"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-fluid-smoke-explosion-studies",
+      "type": "single",
+      "title": "Fluid FX Photography Studies",
+      "path": "packages/single-fluid-smoke-explosion-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a naturalist notebook page centered on a feeding behavior study, with one main illustration of the organism kneeling at a cracked mineral seam and smaller observational insets around it. The paper should show subtle wash stains, graphite underdrawing, and careful edge shadows that keep the page tactile. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the organism opening fine feeding cilia or rasping facets into a fracture line rich in heat and trace minerals. Include secondary views of mineral slurry uptake, worn mouthparts, and residue patterns left behind on the rock crust after feeding. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these organisms use mineral accretion, fracture repair, thermal gradients, and electrochemical surfaces instead of flesh-heavy metabolisms. Forms should look feasible for an arid silicon ecology: faceted growth, abrasive wear, and slow but purposeful movement across sand and rock. Explain the feeding method through anatomy and composition alone. Fracture geometry, mineral dust, and body posture should all point toward slow extractive feeding rather than predation. The page should feel like a thoughtful behavior note recorded in the field. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nCrystal Silicon Lifeform Field Sketch single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable annotations, no industrial mining machine look, no laser-beam feeding, no gem-store glamour, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "feeding-fracture-study",
+  "title": "Feeding Fracture Study",
+  "description": "A diagrammatic study of how the organism feeds from mineral fractures and desert crusts.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "editorial-illustration",
+    "technical-diagram",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-silicon-lifeform/packages/single-silicon-lifeform-atlas/images/feeding-fracture-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Crystal Silicon Lifeform Field Sketch.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Feeding Fracture Study",
+      "description": "A diagrammatic study of how the organism feeds from mineral fractures and desert crusts."
+    },
+    "zh-CN": {
+      "title": "裂隙摄食研究",
+      "description": "研究该生物如何从矿物裂缝和沙漠表壳中摄食。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A notebook study of silicon life feeding from mineral fractures.",
+      "zh-CN": "关于硅基生命从矿物裂缝摄食的笔记研究。"
+    }
+  }
+}

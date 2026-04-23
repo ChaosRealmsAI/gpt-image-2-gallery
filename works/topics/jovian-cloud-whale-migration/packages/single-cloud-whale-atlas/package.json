@@ -1,0 +1,89 @@
+{
+  "id": "single-cloud-whale-atlas",
+  "type": "single",
+  "title": "Cloud Whale Atlas",
+  "description": "Nine atmospheric studies of buoyant migratory giants crossing the upper bands of a gas giant.",
+  "creative_direction": "Each image should feel like remote natural history photography from an orbital observer platform: immense scale, banded atmosphere, lightning depth, and anatomy designed for buoyancy, filtration, sensing, and migration in dense clouds.",
+  "cover_image": "images/migration-band-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Cloud Whale Atlas",
+      "description": "Nine atmospheric studies of buoyant migratory giants crossing the upper bands of a gas giant."
+    },
+    "zh-CN": {
+      "title": "云鲸图集",
+      "description": "九张大气层研究图，观察漂浮巨兽穿越气巨星上层云带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "cinematic",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "migration-band-overview",
+      "title": "Migration Band Overview",
+      "image": "images/migration-band-overview/image.png",
+      "meta": "images/migration-band-overview/meta.json"
+    },
+    {
+      "id": "juvenile-underbelly-close",
+      "title": "Juvenile Underbelly Close",
+      "image": "images/juvenile-underbelly-close/image.png",
+      "meta": "images/juvenile-underbelly-close/meta.json"
+    },
+    {
+      "id": "storm-front-breach",
+      "title": "Storm Front Breach",
+      "image": "images/storm-front-breach/image.png",
+      "meta": "images/storm-front-breach/meta.json"
+    },
+    {
+      "id": "symbiont-cleaner-swarm",
+      "title": "Symbiont Cleaner Swarm",
+      "image": "images/symbiont-cleaner-swarm/image.png",
+      "meta": "images/symbiont-cleaner-swarm/meta.json"
+    },
+    {
+      "id": "lightning-shadow-descent",
+      "title": "Lightning Shadow Descent",
+      "image": "images/lightning-shadow-descent/image.png",
+      "meta": "images/lightning-shadow-descent/meta.json"
+    },
+    {
+      "id": "mating-chorus-ring",
+      "title": "Mating Chorus Ring",
+      "image": "images/mating-chorus-ring/image.png",
+      "meta": "images/mating-chorus-ring/meta.json"
+    },
+    {
+      "id": "observer-platform-pass",
+      "title": "Observer Platform Pass",
+      "image": "images/observer-platform-pass/image.png",
+      "meta": "images/observer-platform-pass/meta.json"
+    },
+    {
+      "id": "high-altitude-feeding",
+      "title": "High Altitude Feeding",
+      "image": "images/high-altitude-feeding/image.png",
+      "meta": "images/high-altitude-feeding/meta.json"
+    },
+    {
+      "id": "dawn-band-silhouettes",
+      "title": "Dawn Band Silhouettes",
+      "image": "images/dawn-band-silhouettes/image.png",
+      "meta": "images/dawn-band-silhouettes/meta.json"
+    }
+  ]
+}

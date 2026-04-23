@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose the image as a vertical slice of open water above the abyssal floor, with the seabed barely visible at the bottom edge and the upper frame fading into black depth. The lighting should come from drifting medusae whose bell rims emit soft cool light, countered by dim red predator glints in the far field. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFeature several species of floating gelatinous organisms with trailing feeding veils, buoyancy sacs, and bioluminescent lure nodes. Around them, include stealth predators using narrow bands of low-visibility crimson light and tiny scavengers riding the wake of the larger drifters. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Preserve the sensation of suspension and depth through particulate layers, scale falloff, and overlapping transparency. Internal organs should be visible through the bells and membranes, with believable fluid anatomy instead of decorative fantasy swirls. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no surface horizon, no tropical jellyfish colors, no bright daylight, no hard scientific labels, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "medusa-drift-column",
+  "title": "Medusa Drift Column",
+  "description": "A vertical water-column view filled with translucent medusae and counter-glowing predators.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/medusa-drift-column/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Medusa Drift Column",
+      "description": "A vertical water-column view filled with translucent medusae and counter-glowing predators."
+    },
+    "zh-CN": {
+      "title": "水母漂流柱",
+      "description": "充满半透明水母与反向发光捕食者的垂直水柱景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Translucent medusae drifting through a dark vertical water column.",
+      "zh-CN": "半透明水母漂浮在黑暗垂直水柱中。"
+    }
+  }
+}

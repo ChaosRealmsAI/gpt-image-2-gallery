@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nArrange the page as a clean developmental sequence on cream paper, with four life stages stepping across the square from smallest to largest. Soft watercolor washes should distinguish age-related color shifts while pen outlines keep the page disciplined and museum-grade. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nPresent hatchling shards, mobile juvenile scouts, subadult ridge builders, and a mature adult with fully developed sensor crest and mineral reservoirs. Each stage should share unmistakable lineage while showing believable changes in proportion, armor thickness, and function. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these organisms use mineral accretion, fracture repair, thermal gradients, and electrochemical surfaces instead of flesh-heavy metabolisms. Forms should look feasible for an arid silicon ecology: faceted growth, abrasive wear, and slow but purposeful movement across sand and rock. Growth should look accretive and geological: edges repaired, facets thickened, and stress lines reorganized over time. The page should feel comparative and educational without relying on words or numeric markers. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nCrystal Silicon Lifeform Field Sketch single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cute baby-animal styling, no toy-figure look, no readable numbering, no fantasy evolution glow, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "juvenile-growth-sequence",
+  "title": "Juvenile Growth Sequence",
+  "description": "A comparative page shows juvenile to mature growth stages in one silicon species.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "editorial-illustration",
+    "technical-diagram",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-silicon-lifeform/packages/single-silicon-lifeform-atlas/images/juvenile-growth-sequence/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Crystal Silicon Lifeform Field Sketch.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Juvenile Growth Sequence",
+      "description": "A comparative page shows juvenile to mature growth stages in one silicon species."
+    },
+    "zh-CN": {
+      "title": "幼体生长序列",
+      "description": "在同一图页中比较硅基物种从幼体到成熟体的生长阶段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A notebook page comparing juvenile and mature growth stages of silicon life.",
+      "zh-CN": "比较硅基生命幼体与成体生长阶段的笔记页。"
+    }
+  }
+}

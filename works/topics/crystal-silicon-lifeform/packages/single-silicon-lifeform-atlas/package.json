@@ -1,0 +1,89 @@
+{
+  "id": "single-silicon-lifeform-atlas",
+  "type": "single",
+  "title": "Silicon Lifeform Notebook",
+  "description": "Nine notebook-style studies mapping the anatomy and behavior of crystalline desert organisms.",
+  "creative_direction": "Each image should feel like a finished naturalist page: cream paper, pen-and-wash discipline, diagrammatic clarity, and repeated attention to how silicon growth, fracture, heat, and mineral intake shape the organism.",
+  "cover_image": "images/scout-form-profile/image.png",
+  "i18n": {
+    "en": {
+      "title": "Silicon Lifeform Notebook",
+      "description": "Nine notebook-style studies mapping the anatomy and behavior of crystalline desert organisms."
+    },
+    "zh-CN": {
+      "title": "硅基生命笔记图册",
+      "description": "九张笔记式研究图，记录晶体沙漠生命的解剖与行为。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "scout-form-profile",
+      "title": "Scout Form Profile",
+      "image": "images/scout-form-profile/image.png",
+      "meta": "images/scout-form-profile/meta.json"
+    },
+    {
+      "id": "feeding-fracture-study",
+      "title": "Feeding Fracture Study",
+      "image": "images/feeding-fracture-study/image.png",
+      "meta": "images/feeding-fracture-study/meta.json"
+    },
+    {
+      "id": "reproductive-spore-cone",
+      "title": "Reproductive Spore Cone",
+      "image": "images/reproductive-spore-cone/image.png",
+      "meta": "images/reproductive-spore-cone/meta.json"
+    },
+    {
+      "id": "locomotion-track-plate",
+      "title": "Locomotion Track Plate",
+      "image": "images/locomotion-track-plate/image.png",
+      "meta": "images/locomotion-track-plate/meta.json"
+    },
+    {
+      "id": "dune-burrow-cross-section",
+      "title": "Dune Burrow Cross Section",
+      "image": "images/dune-burrow-cross-section/image.png",
+      "meta": "images/dune-burrow-cross-section/meta.json"
+    },
+    {
+      "id": "storm-shelter-cluster",
+      "title": "Storm Shelter Cluster",
+      "image": "images/storm-shelter-cluster/image.png",
+      "meta": "images/storm-shelter-cluster/meta.json"
+    },
+    {
+      "id": "juvenile-growth-sequence",
+      "title": "Juvenile Growth Sequence",
+      "image": "images/juvenile-growth-sequence/image.png",
+      "meta": "images/juvenile-growth-sequence/meta.json"
+    },
+    {
+      "id": "predator-defense-display",
+      "title": "Predator Defense Display",
+      "image": "images/predator-defense-display/image.png",
+      "meta": "images/predator-defense-display/meta.json"
+    },
+    {
+      "id": "comparative-field-page",
+      "title": "Comparative Field Page",
+      "image": "images/comparative-field-page/image.png",
+      "meta": "images/comparative-field-page/meta.json"
+    }
+  ]
+}

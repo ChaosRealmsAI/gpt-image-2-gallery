@@ -1,0 +1,50 @@
+{
+  "id": "exoplanet-floating-forest",
+  "slug": "exoplanet-floating-forest",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Exoplanet Floating Forest",
+  "short_title": "Floating Forest",
+  "description": "Study a low-gravity forest ecosystem whose canopies drift as suspended islands, forcing roots, seeds, pollinators, and climbing animals to evolve around persistent updrafts and vertical distance.",
+  "i18n": {
+    "en": {
+      "title": "Exoplanet Floating Forest",
+      "short_title": "Floating Forest",
+      "description": "Study a low-gravity forest ecosystem whose canopies drift as suspended islands, forcing roots, seeds, pollinators, and climbing animals to evolve around persistent updrafts and vertical distance."
+    },
+    "zh-CN": {
+      "title": "外行星漂浮森林",
+      "short_title": "漂浮森林",
+      "description": "研究低重力森林生态，让漂浮树冠、垂落根系、种子和飞攀动物围绕持续上升气流共同演化。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 813,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-floating-forest-studies",
+      "type": "single",
+      "title": "Floating Forest Studies",
+      "path": "packages/single-floating-forest-studies/package.json"
+    }
+  ]
+}

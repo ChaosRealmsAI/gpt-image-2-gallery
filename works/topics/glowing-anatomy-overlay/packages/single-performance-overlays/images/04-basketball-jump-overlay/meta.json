@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal sports image of a basketball player exploding upward for a jump in an empty indoor court. The lighting is high contrast with warm hardwood reflections, rim light along the athlete, and a dark background that keeps the glowing overlay readable. Use a frozen action moment with dust and sweat particles visible but controlled.\n\nSubject:\nAn adult athlete in plain unbranded training clothes, suspended near peak jump with knees bent and one arm reaching upward. Overlay a red pulse core at the heart and major blood-flow paths, cyan breath pressure around ribs and throat, green muscle activation in calves, quadriceps, glutes, abdominals, shoulders, and forearm, and orange joint-load halos around ankles, knees, hips, spine, shoulder, elbow, and wrist. Add vertical force arrows from the floor, a translucent jump arc, and small abstract data markers around the body.\n\nImportant details:\nThe biomechanics must be convincing: force begins at the planted foot, travels through ankle, knee, hip, core, shoulder, and hand. Overlay lines should follow body contours and court perspective. Keep the ball plain and unbranded if present. The glowing anatomy should be educational and premium, with precise thin strokes, restrained bloom, and no clutter over the face or hands.\n\nUse case:\nGlowing Anatomy Overlay single study 4/8, testing an explosive jump image with kinetic-chain, muscle activation, heart, breath, and joint-load overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no team uniforms, no arena signage, no jersey numbers, no medical gore, no impossible skeleton, no random holographic boxes, no disconnected force arrows, no broken limb proportions.",
+  "id": "04-basketball-jump-overlay",
+  "title": "Basketball Jump Overlay",
+  "description": "A basketball jump with glowing kinetic-chain, muscle, breath, heart, and joint-load overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "commercial-mockup",
+    "high-speed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/04-basketball-jump-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent basketball anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Basketball Jump Overlay",
+      "description": "A basketball jump with glowing kinetic-chain, muscle, breath, heart, and joint-load overlays."
+    },
+    "zh-CN": {
+      "title": "篮球起跳叠加",
+      "description": "篮球起跳瞬间叠加发光动力链、肌肉、呼吸、心脏和关节负载图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "A basketball player jumping with glowing force arrows, muscle zones, breath arcs, heart pulse, and joint-load rings.",
+      "zh-CN": "一名篮球运动员起跳，身上有发光力箭头、肌肉区、呼吸弧、心脏脉冲和关节负载环。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame the scene from just outside a sparse observation platform looking into the open atmosphere, using the platform only as a subtle edge element for scale. One enormous migratory animal should pass nearby with the gas giant bands curving far below. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nThe giant should dominate the frame while still leaving room for the atmospheric backdrop. Show skin detail, fin articulation, and the slow confidence of a creature adapted to immense scale and long-distance movement. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these giants maintain buoyancy with gas-filled tissues, membrane sails, and chemistry-driven metabolism in a dense upper atmosphere. Their behavior should respond to pressure bands, storm fronts, nutrient aerosols, and electrical weather rather than ocean analogies pasted into the sky. Use the platform sparingly; this remains a wildlife image, not a technology illustration. The purpose is to calibrate scale and texture while preserving the wonder and realism of upper-atmosphere biology. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nJovian Cloud Whale Migration single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cockpit interior, no military hardware, no space battle, no readable instrument text, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "observer-platform-pass",
+  "title": "Observer Platform Pass",
+  "description": "One migratory giant passes near an orbital observation platform for scale.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "cinematic",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/jovian-cloud-whale-migration/packages/single-cloud-whale-atlas/images/observer-platform-pass/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Jovian Cloud Whale Migration.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Observer Platform Pass",
+      "description": "One migratory giant passes near an orbital observation platform for scale."
+    },
+    "zh-CN": {
+      "title": "观测平台掠过",
+      "description": "一只迁徙巨兽掠过轨道观测平台以提供尺度对比。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "cinematic",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A cloud giant passing near an observation platform for scale.",
+      "zh-CN": "云中巨兽掠过观测平台形成尺度对比。"
+    }
+  }
+}

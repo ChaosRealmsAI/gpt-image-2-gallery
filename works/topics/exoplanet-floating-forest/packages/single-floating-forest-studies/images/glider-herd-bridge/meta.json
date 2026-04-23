@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCapture a mid-distance crossing between two nearby canopy islands with open sky occupying most of the square. The atmosphere should feel buoyant and calm, with visible depth, suspended seed fluff, and sunlight streaking through the gap between the islands. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow several medium-sized herbivore analogs launching from one root shelf and gliding toward another using membrane sails, steering tails, and grasping hind limbs. Their bodies should look evolved for repeated controlled leaps in low gravity rather than powered bird flight. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume low gravity, persistent updrafts, and buoyant tissues let mature canopy masses hover while root tendrils still harvest minerals and moisture from the ground. Organisms should visibly respond to vertical distance, drifting substrates, and unstable aerial habitat. Movement should be believable: stretched membranes, wind orientation, and landing targets must all support the ecology of scattered aerial habitat. The animals should feel native to the floating forest, not like copied bats or flying squirrels. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nExoplanet Floating Forest single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bird flock, no dragon anatomy, no superhero pose, no roller-coaster action framing, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "glider-herd-bridge",
+  "title": "Glider Herd Bridge",
+  "description": "Herd animals glide between adjacent tree islands using membrane sails and clawed tails.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/exoplanet-floating-forest/packages/single-floating-forest-studies/images/glider-herd-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Exoplanet Floating Forest.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Glider Herd Bridge",
+      "description": "Herd animals glide between adjacent tree islands using membrane sails and clawed tails."
+    },
+    "zh-CN": {
+      "title": "滑翔群跨越",
+      "description": "膜翼群居动物凭借滑翔结构在树岛之间迁移。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A herd of gliding animals moving between floating tree islands.",
+      "zh-CN": "一群滑翔动物在漂浮树岛之间迁移。"
+    }
+  }
+}

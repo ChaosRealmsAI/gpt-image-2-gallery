@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of a road cyclist climbing a dark mountain road at sunrise, shot from a low front three-quarter angle. Use crisp commercial lighting, light mist, reflective asphalt, and a deep background that keeps the athlete and bicycle cleanly separated. The scene should feel like a premium sports-tech campaign without any visible brand identity.\n\nSubject:\nA focused adult cyclist in plain black kit on an unbranded bike, hands on the bars and legs under load. Overlay translucent neon anatomy and performance graphics: red cardiovascular pulse through chest and thighs, cyan breathing volume around ribs and diaphragm, green muscle activation across quadriceps, glutes, calves, forearms, and neck stabilizers, and orange stress vectors at knees, hips, wrists, and lower back. Add abstract cadence rings around the crank, force arrows through the pedals, and small unreadable metric bars.\n\nImportant details:\nThe overlay must obey perspective around the cyclist and bike geometry. Muscle glow should wrap around the visible limbs instead of flattening into stickers. Joint-stress indicators should be anchored exactly at anatomical pivots. Data elements should look like a clean heads-up technical layer, with consistent stroke weights and no clutter. Preserve the realism of skin, fabric, bike frame, chain, tires, and road spray.\n\nUse case:\nGlowing Anatomy Overlay single study 2/8, testing a cyclist power image with muscular activation, breathing, cardiovascular, and pedal-force overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no team marks, no race numbers, no medical warning labels, no broken bicycle anatomy, no floating organs outside the body, no excessive sci-fi interface panels, no impossible leg position.",
+  "id": "02-cyclist-power-overlay",
+  "title": "Cyclist Power Overlay",
+  "description": "A climbing cyclist with glowing cardiovascular, respiratory, muscle, and pedal-force overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "commercial-mockup",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/02-cyclist-power-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cyclist anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cyclist Power Overlay",
+      "description": "A climbing cyclist with glowing cardiovascular, respiratory, muscle, and pedal-force overlays."
+    },
+    "zh-CN": {
+      "title": "骑行功率叠加",
+      "description": "爬坡骑行者画面叠加心血管、呼吸、肌肉激活和踏板力图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A road cyclist climbing with glowing anatomy overlays and force rings around the crank.",
+      "zh-CN": "一名公路骑行者爬坡，身上有发光解剖叠加层，牙盘周围有力学环。"
+    }
+  }
+}

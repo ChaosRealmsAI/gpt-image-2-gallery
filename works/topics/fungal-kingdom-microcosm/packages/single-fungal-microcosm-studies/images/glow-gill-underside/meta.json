@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nUse an extreme low-angle macro view from directly beneath a luminous fungal cap, letting the gill structure fill most of the frame like a vaulted radial ceiling. The ambient forest should recede into blur while cool blue-white light from the cap reveals moisture and airborne spores. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on the gill architecture, nutrient channels, and tiny feeding insects carefully navigating between rib lines. The cap should feel large and alive, with soft translucency at the edges and denser structural tissue near the stalk attachment point. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the forest floor as a dense biological city where moisture, decay, and spore traffic drive form. Caps, gills, stalks, hyphal mats, and insect partnerships should all look evolved to manage shade, humidity, nutrient exchange, and reproduction. Prioritize believable fungal engineering: repeating rib geometry, spore loading density, and subtle damage from grazing should all be visible. Light must be emitted by tissue with internal depth, not by a generic glowing outline. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nFungal Kingdom Microcosm single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no abstract kaleidoscope look, no perfect radial symmetry, no LED-like glow strips, no harsh flash photography, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "glow-gill-underside",
+  "title": "Glow Gill Underside",
+  "description": "The underside of a luminous cap reveals dense gill geometry and feeding insects.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "micro-texture",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fungal-kingdom-microcosm/packages/single-fungal-microcosm-studies/images/glow-gill-underside/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Fungal Kingdom Microcosm.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Glow Gill Underside",
+      "description": "The underside of a luminous cap reveals dense gill geometry and feeding insects."
+    },
+    "zh-CN": {
+      "title": "发光菌褶底面",
+      "description": "发光菌盖底面展示密集菌褶几何与取食昆虫。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "micro-texture",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "The luminous underside of a mushroom cap with dense gills.",
+      "zh-CN": "密集菌褶的发光菌盖底面。"
+    }
+  }
+}

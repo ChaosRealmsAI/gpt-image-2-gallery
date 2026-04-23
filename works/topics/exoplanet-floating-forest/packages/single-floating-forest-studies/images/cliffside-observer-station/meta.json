@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame the scene from a rocky cliff ledge looking across a valley filled with floating trees at different heights. The square image should feel like a serious expedition photograph with long atmospheric perspective, not a fantasy postcard. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nUse the lookout to compare scale, showing root lengths, canopy diameters, and the spacing between islands. Include a few native animals moving through the air or across roots so the forest reads as inhabited rather than static landscape sculpture. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume low gravity, persistent updrafts, and buoyant tissues let mature canopy masses hover while root tendrils still harvest minerals and moisture from the ground. Organisms should visibly respond to vertical distance, drifting substrates, and unstable aerial habitat. Cliffs, air currents, and plant morphology should tell one integrated story about how terrain influences suspension and colonization. Keep geology and biology equally convincing, with no magical shortcuts in how masses hang or move. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nExoplanet Floating Forest single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no human architecture, no fantasy temples, no floating boulders without roots, no oversaturated concept-art haze, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "cliffside-observer-station",
+  "title": "Cliffside Observer Station",
+  "description": "A natural lookout reveals the spacing and ecology of floating tree masses along a cliff.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/exoplanet-floating-forest/packages/single-floating-forest-studies/images/cliffside-observer-station/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Exoplanet Floating Forest.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Cliffside Observer Station",
+      "description": "A natural lookout reveals the spacing and ecology of floating tree masses along a cliff."
+    },
+    "zh-CN": {
+      "title": "崖边观察点",
+      "description": "自然观察点展示漂浮树冠沿峭壁分布的生态关系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A cliffside lookout facing several floating tree masses.",
+      "zh-CN": "面向多座漂浮树冠的崖边观察点。"
+    }
+  }
+}

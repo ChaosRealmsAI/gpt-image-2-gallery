@@ -1,0 +1,50 @@
+{
+  "id": "fungal-kingdom-microcosm",
+  "slug": "fungal-kingdom-microcosm",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Fungal Kingdom Microcosm",
+  "short_title": "Fungal Kingdom",
+  "description": "Observe an invented forest-floor biome from insect height, where speculative fungi, mycelial infrastructure, and tiny spore-farming animals combine into a richly scaled micro-ecosystem.",
+  "i18n": {
+    "en": {
+      "title": "Fungal Kingdom Microcosm",
+      "short_title": "Fungal Kingdom",
+      "description": "Observe an invented forest-floor biome from insect height, where speculative fungi, mycelial infrastructure, and tiny spore-farming animals combine into a richly scaled micro-ecosystem."
+    },
+    "zh-CN": {
+      "title": "真菌王国微宇宙",
+      "short_title": "真菌王国",
+      "description": "从昆虫高度观察虚构林地微生态，让蘑菇、菌丝网络与养孢小动物构成完整世界。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 811,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "photorealism",
+      "micro-texture",
+      "miniature-world"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-fungal-microcosm-studies",
+      "type": "single",
+      "title": "Fungal Microcosm Studies",
+      "path": "packages/single-fungal-microcosm-studies/package.json"
+    }
+  ]
+}

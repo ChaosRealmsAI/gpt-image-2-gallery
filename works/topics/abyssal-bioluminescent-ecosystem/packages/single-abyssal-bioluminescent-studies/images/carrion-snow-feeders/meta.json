@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild a square composition around a dim carcass remnant on the abyssal floor, with thick marine snow raining through the water column. The image should feel hushed and solemn rather than violent, illuminated by the feeding organisms themselves in faint blues, violets, and smoky white. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow several specialized feeder guilds at work: scraping grazers on the bones, hovering filter veils collecting drifting particles, and timid opportunists waiting at the edges for safer access. The carcass should be weathered and partially buried, implying a long-duration nutrient event. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Emphasize ecological succession, energy thrift, and the slow choreography of deep-sea feeding. Surfaces should show silt, biofilm, and pressure-softened tissues, while lighting remains local and biological rather than cinematic floodlight. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no shark frenzy, no human corpse, no action-movie violence, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "carrion-snow-feeders",
+  "title": "Carrion Snow Feeders",
+  "description": "A feeding congregation gathers beneath falling organic snow around a carcass remnant.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/carrion-snow-feeders/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Carrion Snow Feeders",
+      "description": "A feeding congregation gathers beneath falling organic snow around a carcass remnant."
+    },
+    "zh-CN": {
+      "title": "尸雪觅食者",
+      "description": "在尸体残骸和有机雪下聚集觅食的群落。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A congregation of deep-sea feeders beneath marine snow and a carcass remnant.",
+      "zh-CN": "有机雪与尸体残骸下聚集觅食的深海群落。"
+    }
+  }
+}

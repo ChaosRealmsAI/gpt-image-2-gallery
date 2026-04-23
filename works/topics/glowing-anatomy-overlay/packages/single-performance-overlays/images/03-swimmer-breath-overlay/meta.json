@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of a swimmer cutting through a dark indoor pool lane, captured just as one arm exits the water and the face turns to breathe. Use dramatic overhead pool lighting, crisp water droplets, deep blue reflections, and a clean advertising composition with no visible lane text or sponsor marks. The body should be readable through spray and surface distortion.\n\nSubject:\nAn adult freestyle swimmer wearing a plain cap and goggles, mid-stroke. Overlay glowing anatomical systems that interact with the water: cyan airflow arcs entering the mouth and filling the lungs, red heart and vascular rhythm through chest and shoulders, green muscle activation across deltoids, lats, core, hip flexors, and kicking legs, and orange stress arcs at shoulder, elbow, spine, and ankle. Add thin hydrodynamic streamlines, pulse waveforms, and abstract data nodes suspended above the water.\n\nImportant details:\nThe overlay must preserve both anatomy and water physics. Lines should refract subtly where they pass behind splashes or under the surface. Shoulder mechanics should look plausible for freestyle, with force direction traveling from torso rotation into the pulling arm. Keep the glowing systems separated by color and opacity. The image should feel like a sports-science commercial, not an x-ray horror image.\n\nUse case:\nGlowing Anatomy Overlay single study 3/8, testing a swimmer breath-cycle image with water-aware respiratory, muscular, cardiovascular, and joint overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no lane labels, no team insignia, no medical gore, no impossible transparent skeleton, no random hologram panels, no overlay ignoring water refraction, no distorted swimmer anatomy.",
+  "id": "03-swimmer-breath-overlay",
+  "title": "Swimmer Breath Overlay",
+  "description": "A freestyle swimmer with breath, muscle, heart, and joint overlays interacting with water.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "physics-materials",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/03-swimmer-breath-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent swimmer anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Swimmer Breath Overlay",
+      "description": "A freestyle swimmer with breath, muscle, heart, and joint overlays interacting with water."
+    },
+    "zh-CN": {
+      "title": "泳者呼吸叠加",
+      "description": "自由泳运动员画面叠加呼吸、肌肉、心脏和关节图层，并与水面折射互动。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A freestyle swimmer with cyan breath arcs, green muscle glow, red heart pulse, and orange joint stress over water.",
+      "zh-CN": "自由泳者身上有青色呼吸弧、绿色肌肉光、红色心脏脉冲和水面上的橙色关节应力。"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "audubon-specimen-atlas",
+  "slug": "audubon-specimen-atlas",
+  "category": "science",
+  "style": [
+    "handdrawn",
+    "painterly"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Audubon Specimen Atlas",
+  "short_title": "Specimen Atlas",
+  "description": "A Prompt Atlas theme for Audubon Specimen Atlas, testing structured-layout, technical-diagram with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Audubon Specimen Atlas",
+      "short_title": "Specimen Atlas",
+      "description": "A Prompt Atlas theme for Audubon Specimen Atlas, testing structured-layout, technical-diagram with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Audubon 风生物图谱 · 昆虫 / 鸟类标本盒",
+      "short_title": "生物图谱",
+      "description": "Audubon 风生物图谱 · 昆虫 / 鸟类标本盒：John James Audubon 鸟类图鉴风 / Maria Sibylla Merian 昆虫变态图 / 大英博物馆昆虫标本盒整面"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-audubon-specimen-studies",
+      "type": "single",
+      "title": "Specimen Atlas Photography Studies",
+      "path": "packages/single-audubon-specimen-studies/package.json"
+    }
+  ]
+}

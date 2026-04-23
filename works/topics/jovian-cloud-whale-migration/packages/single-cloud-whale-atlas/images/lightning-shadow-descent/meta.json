@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the view on a dramatic but observational descent through stacked cloud layers, with an adult giant angling downward into darker atmospheric bands. Lightning should illuminate the underside of the scene intermittently, revealing depth without turning the image into a spectacle poster. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the adult’s ventral sails, ballast organs, and muscular steering ridges working together as it leaves calmer air for a chemically richer layer. The body should look heavier, older, and more scarred than juvenile forms. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these giants maintain buoyancy with gas-filled tissues, membrane sails, and chemistry-driven metabolism in a dense upper atmosphere. Their behavior should respond to pressure bands, storm fronts, nutrient aerosols, and electrical weather rather than ocean analogies pasted into the sky. Use lighting to reveal function: membranes thin enough to glow at the edges, denser support tissues along load lines, and pressure-adapted contours that make sense in a fluid atmosphere. The descent should feel careful and energy-aware. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nJovian Cloud Whale Migration single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no monster attack pose, no aircraft comparison, no shark-like jaws, no fantasy god-ray dramatics, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "lightning-shadow-descent",
+  "title": "Lightning Shadow Descent",
+  "description": "A massive adult descends toward nutrient-rich lower clouds while lightning silhouettes its fins.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "cinematic",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/jovian-cloud-whale-migration/packages/single-cloud-whale-atlas/images/lightning-shadow-descent/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Jovian Cloud Whale Migration.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Lightning Shadow Descent",
+      "description": "A massive adult descends toward nutrient-rich lower clouds while lightning silhouettes its fins."
+    },
+    "zh-CN": {
+      "title": "雷影下潜",
+      "description": "一只巨型成体向富营养低层云下潜，闪电勾勒其鳍膜。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "cinematic",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A giant adult descending toward lower clouds above lightning.",
+      "zh-CN": "巨型成体在闪电上方下潜至低层云。"
+    }
+  }
+}

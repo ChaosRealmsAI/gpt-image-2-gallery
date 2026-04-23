@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame a hydrothermal vent garden from close range, with a mineral chimney rising off-center and cold dark water swallowing the edges of the square. The vent plume should read as warm turbulence inside an otherwise frigid environment, while ringed colonies on nearby rock pulse in synchronized cyan and amber cycles. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow anchored tube organisms, branching filter fans, and translucent feeder bladders arranged around the vent like a living power grid. Smaller crustacean analogs should cluster where pulse rhythms create temporary safe corridors between stinging tentacles and lure filaments. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Make every colony look adapted to chemical gradients: thicker insulation near hotter surfaces, pale mineral crust on older growth, and organ timing that suggests communication or reproductive signaling. Keep forms novel but internally consistent, avoiding coral clichés or tropical reef color palettes. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no reef fish, no tropical coral palette, no magma eruption, no shallow-water plants, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "vent-garden-pulse",
+  "title": "Vent Garden Pulse",
+  "description": "A dense hydrothermal vent garden where anchored light organs pulse in coordinated rhythms.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/vent-garden-pulse/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Vent Garden Pulse",
+      "description": "A dense hydrothermal vent garden where anchored light organs pulse in coordinated rhythms."
+    },
+    "zh-CN": {
+      "title": "热泉花园脉动",
+      "description": "热液喷口周围以脉冲发光协同运作的固着群落。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A vent garden of glowing sessile colonies around a deep-sea plume.",
+      "zh-CN": "热液喷口周围密集发光的固着群落。"
+    }
+  }
+}

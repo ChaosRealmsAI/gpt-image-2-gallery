@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild an intimate close study of one broad cap at dawn-like forest light, with large dew droplets hanging from its rim and reflecting the miniature world around it. The square crop should feel near enough to study individual gills, spore dust, and insect footprints. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nCenter on the cap and its spore-release mechanism: taut gill combs, moisture channels, and a slight tremor pattern that shakes loaded droplets loose to carry spores farther than dry release alone. Include one or two small insects responding to the moisture but do not let them dominate the frame. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the forest floor as a dense biological city where moisture, decay, and spore traffic drive form. Caps, gills, stalks, hyphal mats, and insect partnerships should all look evolved to manage shade, humidity, nutrient exchange, and reproduction. The image should teach a function through form. Show where water collects, how tension is managed, and why the cap geometry supports that behavior. Surfaces must read as organic and perishable, with exquisite micro-texture rather than glossy product polish. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nFungal Kingdom Microcosm single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no flower petals, no gem-like crystals, no artificial symmetry, no oversized insects blocking the mechanism, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "dew-cap-broadcast",
+  "title": "Dew Cap Broadcast",
+  "description": "A dew-heavy mushroom uses droplets and gill vibration to disperse spores.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "micro-texture",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fungal-kingdom-microcosm/packages/single-fungal-microcosm-studies/images/dew-cap-broadcast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Fungal Kingdom Microcosm.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Dew Cap Broadcast",
+      "description": "A dew-heavy mushroom uses droplets and gill vibration to disperse spores."
+    },
+    "zh-CN": {
+      "title": "露滴播孢帽",
+      "description": "挂满露珠的菌盖通过水滴和振动完成播孢。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "micro-texture",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A dew-covered cap releasing spores with vibrating droplets.",
+      "zh-CN": "借助露滴振动播散孢子的菌盖特写。"
+    }
+  }
+}

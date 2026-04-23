@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the scene on top of a decaying log whose surface reads like a mountain ridge at insect scale. Across the square frame, layered shelf fungi, stalk towers, slime films, and spore plumes should build a crownscape under cool forest shade and beads of recent rain. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow succession on rot: pioneer fuzzes, mature fruiting bodies, and late-stage recyclers all sharing the same substrate. A few beetle-like decomposers should tunnel or graze at the margins, making the log feel inhabited and dynamic. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the forest floor as a dense biological city where moisture, decay, and spore traffic drive form. Caps, gills, stalks, hyphal mats, and insect partnerships should all look evolved to manage shade, humidity, nutrient exchange, and reproduction. Wood grain, rot softness, and fungal colonization patterns must feel chemically and mechanically linked. Keep colors earthy with occasional restrained luminescent accents, and make the image read as a living decomposition engine rather than a fantasy mushroom garden. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nFungal Kingdom Microcosm single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fairy circle tropes, no bright candy colors, no polished wood furniture look, no decorative sparkles, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "rot-log-crownscape",
+  "title": "Rot Log Crownscape",
+  "description": "A fallen log supports a crownscape of layered speculative fruiting bodies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "micro-texture",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fungal-kingdom-microcosm/packages/single-fungal-microcosm-studies/images/rot-log-crownscape/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Fungal Kingdom Microcosm.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Rot Log Crownscape",
+      "description": "A fallen log supports a crownscape of layered speculative fruiting bodies."
+    },
+    "zh-CN": {
+      "title": "腐木冠景",
+      "description": "倒木上层层叠叠生长的虚构子实体景观。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "micro-texture",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "Layered fruiting bodies crowning a decaying log.",
+      "zh-CN": "倒木顶部层层叠叠的子实体景观。"
+    }
+  }
+}

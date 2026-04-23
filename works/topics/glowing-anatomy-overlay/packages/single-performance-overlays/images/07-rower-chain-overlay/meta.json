@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of an indoor rower training on a rowing machine in a dark performance lab. Use dramatic side lighting, subtle floor reflections, and a clean black background with no readable displays. The camera is positioned at a three-quarter side angle so the full body, handle, rail, seat, and foot stretchers are visible.\n\nSubject:\nAn adult athlete at the powerful drive phase of a rowing stroke, wearing plain unbranded training gear. Overlay red heart and vascular rhythm in the torso and legs, cyan breath-flow volume around ribs and diaphragm, green activation through calves, quadriceps, glutes, spinal erectors, lats, biceps, and grip muscles, and orange load rings at ankle, knee, hip, lower back, shoulder, elbow, and wrist. Add a clean force path from foot plate to handle, a seat-track motion trace, and small abstract data bars beside the athlete.\n\nImportant details:\nThe overlay must communicate rowing sequence: legs drive first, hips open, back stabilizes, arms finish. Do not show all muscles glowing equally; emphasize staged activation along the kinetic chain. The machine geometry should remain realistic, with the chain and handle aligned. Data lines should be thin and disciplined, not a busy sci-fi dashboard. Keep the athlete's posture strong and anatomically plausible.\n\nUse case:\nGlowing Anatomy Overlay single study 7/8, testing a rowing drive image with staged kinetic-chain, breath, cardiovascular, and joint-load overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no machine brand names, no screen numbers, no medical labels, no gore, no impossible spine curve, no detached handle cable, no random neon grid, no overlay hiding limb positions.",
+  "id": "07-rower-chain-overlay",
+  "title": "Rower Chain Overlay",
+  "description": "A rowing drive phase with staged kinetic-chain, breath, heart, muscle, and joint-load overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "data-visualization",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/07-rower-chain-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rowing anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rower Chain Overlay",
+      "description": "A rowing drive phase with staged kinetic-chain, breath, heart, muscle, and joint-load overlays."
+    },
+    "zh-CN": {
+      "title": "划船动力链叠加",
+      "description": "划船驱动阶段叠加分段动力链、呼吸、心脏、肌肉和关节负载图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "An indoor rower in drive phase with glowing kinetic-chain, breath, heart, muscle, and joint-load overlays.",
+      "zh-CN": "一名室内划船者处于驱动阶段，身上有发光动力链、呼吸、心脏、肌肉和关节负载叠加层。"
+    }
+  }
+}

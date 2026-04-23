@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nStage the moment just before an ambush on a dim mud plain, with most of the predator hidden against the substrate. A constellation of tiny blue lure lights should float above the body like harmless drifting plankton while the rest of the frame remains almost featureless black. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nReveal a flattened hunter with a hinge jaw, shielding fins, and a network of decoy photophores extending from flexible filaments. One curious grazer should approach the false light cloud, giving scale and narrative tension without turning the scene into action spectacle. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. The deception must feel biologically grounded: lure spacing, body camouflage, and attack posture should all support a plausible feeding strategy. Keep the predator alien but elegant, emphasizing stealth, musculature, and sensory adaptation rather than horror tropes. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no jump-scare monster face, no giant teeth closeup, no cartoon menace, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "predator-lure-ambush",
+  "title": "Predator Lure Ambush",
+  "description": "An ambush hunter extends decoy lights into the dark water above the mud.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/predator-lure-ambush/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Predator Lure Ambush",
+      "description": "An ambush hunter extends decoy lights into the dark water above the mud."
+    },
+    "zh-CN": {
+      "title": "诱饵伏击者",
+      "description": "伏击捕食者把假诱饵光点伸向黑暗水体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A deep-sea ambush predator projecting false lure lights into darkness.",
+      "zh-CN": "向黑暗中投出假诱饵光点的深海伏击捕食者。"
+    }
+  }
+}

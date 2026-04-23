@@ -1,0 +1,51 @@
+{
+  "id": "crystal-silicon-lifeform",
+  "slug": "crystal-silicon-lifeform",
+  "category": "science",
+  "style": [
+    "handdrawn",
+    "mixed-media"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Crystal Silicon Lifeform Field Sketch",
+  "short_title": "Silicon Lifeform",
+  "description": "Translate silicon-based desert organisms into disciplined field-journal imagery that studies morphology, feeding, locomotion, growth, and defense with the seriousness of a naturalist notebook from another planet.",
+  "i18n": {
+    "en": {
+      "title": "Crystal Silicon Lifeform Field Sketch",
+      "short_title": "Silicon Lifeform",
+      "description": "Translate silicon-based desert organisms into disciplined field-journal imagery that studies morphology, feeding, locomotion, growth, and defense with the seriousness of a naturalist notebook from another planet."
+    },
+    "zh-CN": {
+      "title": "硅基晶体生命田野笔记",
+      "short_title": "硅基生命",
+      "description": "用严谨博物笔记的方式记录外星沙漠中的硅基生命，研究形态、摄食、移动、生长和防御。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 812,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-silicon-lifeform-atlas",
+      "type": "single",
+      "title": "Silicon Lifeform Notebook",
+      "path": "packages/single-silicon-lifeform-atlas/package.json"
+    }
+  ]
+}

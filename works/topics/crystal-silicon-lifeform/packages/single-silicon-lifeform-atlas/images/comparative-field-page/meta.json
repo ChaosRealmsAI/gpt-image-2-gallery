@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFinish the package with a comparative notebook page that presents several related species on one coherent cream background, balancing one large key organism with smaller companion sketches. The layout should feel like the concluding spread of a naturalist atlas made in the field. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nInclude a scout form, a burrow specialist, a storm-cluster species, and a juvenile silhouette, each arranged so lineage and niche differences are legible without labels. A faint desert horizon wash can unify the page behind the studies. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these organisms use mineral accretion, fracture repair, thermal gradients, and electrochemical surfaces instead of flesh-heavy metabolisms. Forms should look feasible for an arid silicon ecology: faceted growth, abrasive wear, and slow but purposeful movement across sand and rock. This page should summarize the ecosystem through morphology and composition alone. Preserve consistency of pen style, paper texture, and mineral logic while giving each species enough distinction to feel evolutionarily related but ecologically separate. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nCrystal Silicon Lifeform Field Sketch single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no specimen cutout collage, no readable titles, no modern UI boxes, no polished gemstone catalogue look, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "comparative-field-page",
+  "title": "Comparative Field Page",
+  "description": "A comparative field page assembles several related silicon species from one desert region.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "editorial-illustration",
+    "technical-diagram",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-silicon-lifeform/packages/single-silicon-lifeform-atlas/images/comparative-field-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Crystal Silicon Lifeform Field Sketch.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Comparative Field Page",
+      "description": "A comparative field page assembles several related silicon species from one desert region."
+    },
+    "zh-CN": {
+      "title": "比较田野页",
+      "description": "把同一沙漠区域的多个相关硅基物种整合到一张比较页中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A comparative field page of several related silicon desert species.",
+      "zh-CN": "多个相关硅基沙漠物种的比较田野页。"
+    }
+  }
+}

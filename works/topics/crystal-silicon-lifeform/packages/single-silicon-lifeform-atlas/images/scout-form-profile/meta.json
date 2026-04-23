@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nRender a cream field-journal page viewed straight on, with a principal side-profile study occupying the center and subtle pen-and-wash shadows grounding it on the paper. The page should feel handled, observational, and elegant, with quiet warm desert tones embedded in the illustration rather than modern digital gloss. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nDepict a mobile silicon scout organism with faceted load-bearing limbs, a crystal sensor crest, abrasion-smoothed ventral plates, and mineral intake grooves along the lower body. Surround the main profile with a few smaller inset views of foot structure and crest orientation, but keep the page visually calm. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these organisms use mineral accretion, fracture repair, thermal gradients, and electrochemical surfaces instead of flesh-heavy metabolisms. Forms should look feasible for an arid silicon ecology: faceted growth, abrasive wear, and slow but purposeful movement across sand and rock. The page must read as serious natural history illustration: crisp line work, restrained wash color, and careful emphasis on how fracture lines also function as joints, heat fins, or growth seams. Avoid decorative gem fantasy and instead show wear, dust accumulation, and field-use plausibility. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nCrystal Silicon Lifeform Field Sketch single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no blueprint neon, no jewelry glamour, no polished fantasy crystal monster, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "scout-form-profile",
+  "title": "Scout Form Profile",
+  "description": "A field notebook plate introducing the primary desert scout form in profile.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "editorial-illustration",
+    "technical-diagram",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-silicon-lifeform/packages/single-silicon-lifeform-atlas/images/scout-form-profile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Crystal Silicon Lifeform Field Sketch.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Scout Form Profile",
+      "description": "A field notebook plate introducing the primary desert scout form in profile."
+    },
+    "zh-CN": {
+      "title": "侦察型侧视",
+      "description": "田野笔记中的主侦察型硅基生命侧视图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A notebook plate showing the profile of a silicon desert scout.",
+      "zh-CN": "展示硅基沙漠侦察体侧视的笔记图版。"
+    }
+  }
+}

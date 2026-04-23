@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nLay out a field-journal page that compares motion studies across one square spread: a central moving figure over sand, plus inset track patterns and enlarged limb views. The page should feel neatly composed, like a researcher organizing observations after a long desert traverse. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow how the organism advances over abrasive dunes using alternating facet edges, flexible fracture joints, and low-pressure contact pads that keep it from sinking. Tracks in the sand should echo the body plan and reveal gait timing without any written notation. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these organisms use mineral accretion, fracture repair, thermal gradients, and electrochemical surfaces instead of flesh-heavy metabolisms. Forms should look feasible for an arid silicon ecology: faceted growth, abrasive wear, and slow but purposeful movement across sand and rock. Convey locomotion through repeated positions, dust plumes, and footprint spacing rather than cartoon speed lines. The mechanical story matters: how rigid crystal structures still permit movement, shock absorption, and directional control on unstable ground. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nCrystal Silicon Lifeform Field Sketch single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no comic-book motion effects, no robotics schematic style, no readable symbols, no chrome metal look, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "locomotion-track-plate",
+  "title": "Locomotion Track Plate",
+  "description": "A plate comparing foot geometry with the tracks left in alien sand.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "editorial-illustration",
+    "technical-diagram",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/crystal-silicon-lifeform/packages/single-silicon-lifeform-atlas/images/locomotion-track-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Crystal Silicon Lifeform Field Sketch.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Locomotion Track Plate",
+      "description": "A plate comparing foot geometry with the tracks left in alien sand."
+    },
+    "zh-CN": {
+      "title": "移动轨迹图版",
+      "description": "比较足部几何与外星沙地轨迹的图版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "editorial-illustration",
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A naturalist plate comparing silicon feet and desert tracks.",
+      "zh-CN": "比较硅基足部与沙地轨迹的博物图版。"
+    }
+  }
+}

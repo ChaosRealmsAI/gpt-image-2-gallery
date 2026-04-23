@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nShow a recently storm-damaged canopy island in post-event light, with calmer skies but visible torn root bundles, debris drift, and exposed buoyant tissue. The square frame should feel observational and slightly uneasy, like a field note of ecosystem stress. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on damaged yet surviving structures: sealed trunk chambers, emergency droop roots reaching groundward, and resident animals adapting to the changed geometry. Regrowth buds and scar tissue should suggest an evolved resilience to wind shear. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume low gravity, persistent updrafts, and buoyant tissues let mature canopy masses hover while root tendrils still harvest minerals and moisture from the ground. Organisms should visibly respond to vertical distance, drifting substrates, and unstable aerial habitat. Damage must follow believable material logic. Tears, bends, and weight redistribution should show how a living suspended mass fails and heals under stress, not how a fantasy island breaks for drama. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nExoplanet Floating Forest single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no disaster-movie explosion, no fire, no falling human vehicles, no magical repair glow, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "storm-shear-recovery",
+  "title": "Storm Shear Recovery",
+  "description": "A canopy island recovers after storm shear, revealing torn roots and adaptive regrowth.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/exoplanet-floating-forest/packages/single-floating-forest-studies/images/storm-shear-recovery/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Exoplanet Floating Forest.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Storm Shear Recovery",
+      "description": "A canopy island recovers after storm shear, revealing torn roots and adaptive regrowth."
+    },
+    "zh-CN": {
+      "title": "风切恢复期",
+      "description": "一座树岛在风切后恢复，暴露受损根系与适应性再生。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A floating canopy island recovering after storm damage.",
+      "zh-CN": "风切损伤后的漂浮树岛恢复场景。"
+    }
+  }
+}

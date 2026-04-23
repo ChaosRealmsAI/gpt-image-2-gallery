@@ -1,0 +1,50 @@
+{
+  "id": "abyssal-bioluminescent-ecosystem",
+  "slug": "abyssal-bioluminescent-ecosystem",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Abyssal Bioluminescent Ecosystem",
+  "short_title": "Abyssal Bioluminescent",
+  "description": "Explore a rigorously imagined abyssal plain where speculative bioluminescent organisms supply the only illumination, shaping feeding, camouflage, courtship, and navigation across a complete deep-sea ecosystem.",
+  "i18n": {
+    "en": {
+      "title": "Abyssal Bioluminescent Ecosystem",
+      "short_title": "Abyssal Bioluminescent",
+      "description": "Explore a rigorously imagined abyssal plain where speculative bioluminescent organisms supply the only illumination, shaping feeding, camouflage, courtship, and navigation across a complete deep-sea ecosystem."
+    },
+    "zh-CN": {
+      "title": "深渊生物荧光生态",
+      "short_title": "深渊生态",
+      "description": "以严谨生物学逻辑构建深海发光生态系统，让觅食、伪装、求偶和导航都由自体光完成。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 810,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-abyssal-bioluminescent-studies",
+      "type": "single",
+      "title": "Abyssal Field Studies",
+      "path": "packages/single-abyssal-bioluminescent-studies/package.json"
+    }
+  ]
+}

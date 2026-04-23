@@ -1,0 +1,47 @@
+{
+  "id": "complex-optics-materials",
+  "slug": "complex-optics-materials",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Complex Optics Materials",
+  "short_title": "Optics",
+  "description": "A Prompt Atlas theme for Complex Optics Materials, testing photorealism, physics-materials, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Complex Optics Materials",
+      "short_title": "Optics",
+      "description": "A Prompt Atlas theme for Complex Optics Materials, testing photorealism, physics-materials, reasoning-composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "复杂光学 · caustics / subsurface",
+      "short_title": "复杂光学",
+      "description": "复杂光学 · caustics / subsurface：水波折射到水底光斑(焦散)/ 蜡烛照脸皮肤透光(次表面散射)/ 钻石多面反射"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-complex-optics-materials-studies",
+      "type": "single",
+      "title": "Optics Material Studies",
+      "path": "packages/single-complex-optics-materials-studies/package.json"
+    }
+  ]
+}

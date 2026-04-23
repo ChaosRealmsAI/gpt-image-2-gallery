@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal wellness campaign image in a quiet studio with soft morning light, warm wood floor, pale wall, and clean negative space. The camera is straight-on at low height, showing a yoga practitioner holding a balanced standing pose. The scene should feel calm, precise, and premium, with no visible brand props or text.\n\nSubject:\nAn adult practitioner in neutral unbranded clothing holding a warrior-like balance posture on a simple mat. Overlay glowing anatomical and alignment systems: cyan breath expansion around ribs and abdomen, red heart rhythm in the chest, green muscle engagement across feet, calves, thighs, glutes, core, shoulders, and neck, and orange joint-stability rings at ankles, knees, hips, spine, shoulders, and wrists. Add thin balance-axis lines, center-of-mass halo, pressure heat map under the supporting foot, and small abstract data ticks.\n\nImportant details:\nThis study should be quieter than the explosive sports images while still technical. The overlay must follow anatomy accurately and respect the pose's symmetry, weight distribution, and joint stacking. Alignment lines should be clean, minimal, and anchored to the body instead of floating decoratively. Preserve realistic skin, fabric folds, mat texture, and studio shadows. The result should feel like a wellness-tech product visual and a biomechanical teaching diagram.\n\nUse case:\nGlowing Anatomy Overlay single study 5/8, testing a yoga alignment image with breath, balance, muscle engagement, and joint-stability overlays.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no studio branding, no Sanskrit labels, no medical diagnosis marks, no transparent full skeleton, no impossible balance pose, no cluttered interface panels, no overlay hiding the face.",
+  "id": "05-yoga-alignment-overlay",
+  "title": "Yoga Alignment Overlay",
+  "description": "A yoga balance pose with glowing breath, muscle engagement, joint stability, and alignment overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/05-yoga-alignment-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent yoga anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Yoga Alignment Overlay",
+      "description": "A yoga balance pose with glowing breath, muscle engagement, joint stability, and alignment overlays."
+    },
+    "zh-CN": {
+      "title": "瑜伽对齐叠加",
+      "description": "瑜伽平衡体式叠加发光呼吸、肌肉参与、关节稳定和对齐图层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A yoga practitioner in balance pose with glowing breath, muscle, joint, pressure, and alignment overlays.",
+      "zh-CN": "一名瑜伽练习者保持平衡体式，身上有发光呼吸、肌肉、关节、压力和对齐叠加层。"
+    }
+  }
+}

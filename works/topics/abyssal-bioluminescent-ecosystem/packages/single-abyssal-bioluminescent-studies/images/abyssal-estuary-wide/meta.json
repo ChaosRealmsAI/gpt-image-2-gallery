@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a wide abyssal seafloor panorama at roughly four thousand meters depth, viewed from slightly above the sediment plain. The frame should feel almost black at first glance, then gradually reveal blue, teal, and acid-green points of living light across vents, shells, drifting bodies, and suspended marine snow. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on a complete community: lure-jawed hunters hovering near the edges, pulsing sessile colonies rooted in the mud, ribbon medusae drifting through the water column, and small scavengers tracing luminous paths between carcass falls and mineral seeps. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat the abyss as a high-pressure ecosystem where light is scarce, energy is expensive, and every glow pattern carries a function such as luring prey, signaling kin, masking silhouette edges, or attracting symbiotic cleaners. Emphasize pressure-shaped anatomy, soft sediment plumes, faint particulate haze, and distinct glow signatures for each clade so the viewer can read trophic roles at a glance. Keep the illumination physically plausible, with bright organs softly haloing nearby surfaces rather than flooding the whole environment. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nAbyssal Bioluminescent Ecosystem single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no diver, no submarine, no sunbeams, no surface-water clarity, no volcanic lava look, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "abyssal-estuary-wide",
+  "title": "Abyssal Estuary Wide",
+  "description": "A wide survey of a dark seafloor basin lit only by layered blue and green biological light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abyssal-bioluminescent-ecosystem/packages/single-abyssal-bioluminescent-studies/images/abyssal-estuary-wide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Abyssal Bioluminescent Ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Abyssal Estuary Wide",
+      "description": "A wide survey of a dark seafloor basin lit only by layered blue and green biological light."
+    },
+    "zh-CN": {
+      "title": "深渊河口总览",
+      "description": "由蓝绿生物光层层照亮的深海盆地全景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A wide abyssal basin filled with self-illuminated marine life.",
+      "zh-CN": "被自体荧光照亮的深海盆地全景。"
+    }
+  }
+}

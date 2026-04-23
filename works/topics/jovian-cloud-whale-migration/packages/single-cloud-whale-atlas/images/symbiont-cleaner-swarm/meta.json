@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose a calm upper-atmosphere maintenance scene with one large giant nearly stationary relative to the frame and a swarm of small symbionts circling it in soft golden cloud light. The background should remain expansive and atmospheric, with layered cloud bands and no hard horizon. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on the interaction between cleaner organisms and the host: parasites removed from membrane seams, mineral crust scraped from vents, and electrostatic debris harvested from the skin. The host should tolerate the swarm as part of normal migration ecology. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume these giants maintain buoyancy with gas-filled tissues, membrane sails, and chemistry-driven metabolism in a dense upper atmosphere. Their behavior should respond to pressure bands, storm fronts, nutrient aerosols, and electrical weather rather than ocean analogies pasted into the sky. The relationship should feel mutualistic and specific. Give the cleaners body plans suited to clinging in dense wind and harvesting surface resources, while the host skin shows wear, growth, and biofilm-like deposits that justify the behavior. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nJovian Cloud Whale Migration single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fish-remora copy, no mechanical drones, no cute mascot swarm, no flat studio background, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "symbiont-cleaner-swarm",
+  "title": "Symbiont Cleaner Swarm",
+  "description": "Small cleaner organisms service a giant migratory body in calm upper air.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "cinematic",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/jovian-cloud-whale-migration/packages/single-cloud-whale-atlas/images/symbiont-cleaner-swarm/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Jovian Cloud Whale Migration.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Symbiont Cleaner Swarm",
+      "description": "Small cleaner organisms service a giant migratory body in calm upper air."
+    },
+    "zh-CN": {
+      "title": "共生清理群",
+      "description": "宁静高空中，小型共生生物为迁徙巨体清理表面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "cinematic",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Small cleaner organisms tending a giant cloud migrant.",
+      "zh-CN": "小型共生生物为云中巨兽清理表面。"
+    }
+  }
+}

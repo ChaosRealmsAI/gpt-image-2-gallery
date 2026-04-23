@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal sports-advertising image of a runner moving through a city street at blue hour, captured with a sharp side profile and subtle motion blur in the background. The lighting is cinematic but realistic: cool ambient street light, warm rim highlights, wet pavement reflections, and a dark uncluttered backdrop that leaves room for glowing technical overlays.\n\nSubject:\nAn athletic adult runner in neutral unbranded gear, mid-stride, with transparent neon anatomy layers precisely aligned to the body. Show a red pulsing heart and arterial rhythm path, cyan breath-flow arcs from nose through lungs, green muscle activation on calves, hamstrings, quadriceps, and core, and orange joint-stress rings at ankle, knee, and hip. Add small abstract data ticks, pulse curves, and vector callout lines without readable text.\n\nImportant details:\nThe overlay must feel professionally composited, not painted on the surface. Anatomical elements should sit inside the body volume with correct perspective and opacity. The red, cyan, green, and orange systems must remain visually separate while sharing one clean hierarchy. Keep callout lines thin, luminous, and disciplined. The runner's pose should make biomechanical sense, with foot strike, knee angle, and hip drive readable at a glance.\n\nUse case:\nGlowing Anatomy Overlay single study 1/8, testing a runner performance image with heart-rate, breath, muscle, and joint-stress layers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no medical diagnosis labels, no exposed gore, no inaccurate floating organs, no random sci-fi armor, no overlay crossing outside the body without purpose.",
+  "id": "01-runner-cardio-overlay",
+  "title": "Runner Cardio Overlay",
+  "description": "A runner with glowing heart, breath, muscle activation, and joint-stress overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "commercial-mockup",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/glowing-anatomy-overlay/packages/single-performance-overlays/images/01-runner-cardio-overlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent runner anatomy overlay study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Runner Cardio Overlay",
+      "description": "A runner with glowing heart, breath, muscle activation, and joint-stress overlays."
+    },
+    "zh-CN": {
+      "title": "跑者心肺叠加",
+      "description": "跑者实拍画面叠加发光心率、呼吸、肌肉激活和关节应力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A runner in profile with glowing red heart, cyan breathing arcs, green muscle zones, and orange joint stress rings.",
+      "zh-CN": "侧面奔跑者身上叠加红色心脏、青色呼吸弧线、绿色肌肉区和橙色关节应力环。"
+    }
+  }
+}
