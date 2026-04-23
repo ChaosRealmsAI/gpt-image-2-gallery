@@ -1,0 +1,53 @@
+{
+  "id": "deadpan-caption-image-format",
+  "slug": "deadpan-caption-image-format",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Deadpan Caption Image Format",
+  "short_title": "Deadpan Format",
+  "description": "A Prompt Atlas theme for Deadpan Caption Image Format, testing structured-layout, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Deadpan Caption Image Format",
+      "short_title": "Deadpan Format",
+      "description": "Create deadpan image formats where the humor comes from mismatch between serious framing and ridiculous content."
+    },
+    "zh-CN": {
+      "title": "冷面 caption 图片格式",
+      "short_title": "冷面caption",
+      "description": "做冷面幽默图像格式，让严肃 framing 和荒诞内容形成反差。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

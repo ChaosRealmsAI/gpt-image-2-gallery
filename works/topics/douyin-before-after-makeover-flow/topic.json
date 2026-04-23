@@ -1,0 +1,53 @@
+{
+  "id": "douyin-before-after-makeover-flow",
+  "slug": "douyin-before-after-makeover-flow",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Douyin Before-After Makeover Flow",
+  "short_title": "Makeover Flow",
+  "description": "A Prompt Atlas theme for Douyin Before-After Makeover Flow, testing commercial-mockup, photorealism, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Douyin Before-After Makeover Flow",
+      "short_title": "Makeover Flow",
+      "description": "Build before-after makeover visuals for short-video flows covering beauty, room, styling, and fitness transformations."
+    },
+    "zh-CN": {
+      "title": "抖音前后改造流",
+      "short_title": "前后改造",
+      "description": "做适合短视频改造流的前后对比视觉，适合美妆、房间、穿搭和健身。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

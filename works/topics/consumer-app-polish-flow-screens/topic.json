@@ -1,0 +1,52 @@
+{
+  "id": "consumer-app-polish-flow-screens",
+  "slug": "consumer-app-polish-flow-screens",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Consumer App Polish Flow Screens",
+  "short_title": "App Flow Polish",
+  "description": "A Prompt Atlas theme for Consumer App Polish Flow Screens, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Consumer App Polish Flow Screens",
+      "short_title": "App Flow Polish",
+      "description": "Create polished consumer-app screen flows with premium card quality, strong focal actions, and believable mobile ergonomics."
+    },
+    "zh-CN": {
+      "title": "消费级 App 精修流程屏",
+      "short_title": "App流程",
+      "description": "做消费级 App 精修流程屏，强调卡片品质、核心动作和移动端手感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

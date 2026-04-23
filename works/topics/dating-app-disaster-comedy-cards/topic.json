@@ -1,0 +1,53 @@
+{
+  "id": "dating-app-disaster-comedy-cards",
+  "slug": "dating-app-disaster-comedy-cards",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Dating App Disaster Comedy Cards",
+  "short_title": "Dating Comedy",
+  "description": "A Prompt Atlas theme for Dating App Disaster Comedy Cards, testing reasoning-composition, structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Dating App Disaster Comedy Cards",
+      "short_title": "Dating Comedy",
+      "description": "Create dating-app and modern-romance disaster cards that capture tiny social misfires and expectation collapse."
+    },
+    "zh-CN": {
+      "title": "交友软件灾难喜剧卡",
+      "short_title": "约会喜剧",
+      "description": "做交友软件和现代约会灾难喜剧卡，捕捉细小社交失误和期待崩塌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

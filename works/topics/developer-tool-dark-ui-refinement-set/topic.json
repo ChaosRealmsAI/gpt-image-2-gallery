@@ -1,0 +1,52 @@
+{
+  "id": "developer-tool-dark-ui-refinement-set",
+  "slug": "developer-tool-dark-ui-refinement-set",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Developer Tool Dark UI Refinement Set",
+  "short_title": "Dev Dark UI",
+  "description": "A Prompt Atlas theme for Developer Tool Dark UI Refinement Set, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Developer Tool Dark UI Refinement Set",
+      "short_title": "Dev Dark UI",
+      "description": "Create refined dark-mode UIs for developer tools with sharp hierarchy, code-adjacent visuals, and panel discipline."
+    },
+    "zh-CN": {
+      "title": "开发者工具暗色 UI 精修组",
+      "short_title": "暗色工具UI",
+      "description": "做开发者工具暗色 UI 精修组，强调层级、panel discipline 和专业感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

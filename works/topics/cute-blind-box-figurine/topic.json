@@ -1,0 +1,49 @@
+{
+  "id": "cute-blind-box-figurine",
+  "slug": "cute-blind-box-figurine",
+  "category": "illustration",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Cute Blind Box Figurine",
+  "short_title": "Blind Box",
+  "description": "A Prompt Atlas theme for Cute Blind Box Figurine, testing physics-materials, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Cute Blind Box Figurine",
+      "short_title": "Blind Box",
+      "description": "A Prompt Atlas theme for Cute Blind Box Figurine, testing physics-materials, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "3D 手办盲盒级可爱",
+      "short_title": "盲盒手办",
+      "description": "3D 手办盲盒级可爱：POP MART 风 · 站在透明塑料底座上 · 哑光 PVC 材质 · studio 棚拍 · 背后光晕"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-cute-blind-box-figurine-studies",
+      "type": "single",
+      "title": "Blind Box Render Studies",
+      "path": "packages/single-cute-blind-box-figurine-studies/package.json"
+    }
+  ]
+}

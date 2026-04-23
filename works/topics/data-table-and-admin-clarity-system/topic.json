@@ -1,0 +1,52 @@
+{
+  "id": "data-table-and-admin-clarity-system",
+  "slug": "data-table-and-admin-clarity-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Data Table and Admin Clarity System",
+  "short_title": "Admin Clarity",
+  "description": "A Prompt Atlas theme for Data Table and Admin Clarity System, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Data Table and Admin Clarity System",
+      "short_title": "Admin Clarity",
+      "description": "Build admin and data-table systems where dense information still feels premium, orderly, and calm."
+    },
+    "zh-CN": {
+      "title": "表格与后台清晰度系统",
+      "short_title": "后台清晰",
+      "description": "做后台表格与 admin clarity 系统，让高密度信息仍然高级、秩序、冷静。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

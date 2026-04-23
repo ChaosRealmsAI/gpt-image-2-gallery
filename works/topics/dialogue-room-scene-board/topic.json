@@ -1,0 +1,53 @@
+{
+  "id": "dialogue-room-scene-board",
+  "slug": "dialogue-room-scene-board",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Dialogue Room Scene Board",
+  "short_title": "Dialogue Scene",
+  "description": "A Prompt Atlas theme for Dialogue Room Scene Board, testing reasoning-composition, multi-image-reference, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Dialogue Room Scene Board",
+      "short_title": "Dialogue Scene",
+      "description": "Stage a dialogue-heavy comic scene that relies on shot-reverse-shot clarity, acting, and panel rhythm."
+    },
+    "zh-CN": {
+      "title": "对话场景分镜板",
+      "short_title": "对话场景",
+      "description": "做对话驱动的漫画场景，重点看镜头切换和表演。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "multi-image-reference",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

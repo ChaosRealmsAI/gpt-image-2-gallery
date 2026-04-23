@@ -1,0 +1,53 @@
+{
+  "id": "destination-poster-grand-tour-language",
+  "slug": "destination-poster-grand-tour-language",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Destination Poster Grand Tour Language",
+  "short_title": "Destination Posters",
+  "description": "A Prompt Atlas theme for Destination Poster Grand Tour Language, testing commercial-mockup, structured-layout, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Destination Poster Grand Tour Language",
+      "short_title": "Destination Posters",
+      "description": "Build destination-poster systems for iconic landscapes with tourism-ready hierarchy and collectible appeal."
+    },
+    "zh-CN": {
+      "title": "目的地 grand tour 海报语言",
+      "short_title": "目的地海报",
+      "description": "做目的地海报系统，适合地标景观和收藏型旅游海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

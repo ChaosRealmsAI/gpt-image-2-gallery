@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square CGI or design-visualization frame with calibrated lighting, intentional composition, and premium material rendering. Build the frame around a presentation angle that reveals volume and silhouette clearly. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Claymation Style theme and should feel immediately legible as a prompt atlas theme for claymation style, testing multi-image-reference, physics-materials, style-transfer with gpt image 2..\n\nSubject:\nCenter the study on a presentation angle that reveals volume and silhouette clearly. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of claymation style as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by stop motion, but keep the result original and specific to this study.\n\nImportant details:\nThe model must feel engineered or art-directed rather than merely stylized: edges, seams, translucency, reflections, and scale cues should all hold up. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Claymation Style. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nClaymation Style single study 4/8, testing multi-image-reference, physics-materials, style-transfer through the studio turn variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand logos, no low-poly shortcuts, no broken reflections, no muddy materials, no generic showroom clutter, no unreadable UI overlays.",
+  "id": "studio-turn",
+  "title": "Studio Turn",
+  "description": "Studio Turn interprets Claymation Style as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/claymation-style/packages/single-claymation-style-studies/images/studio-turn/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Claymation Style single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Turn",
+      "description": "Studio Turn interprets Claymation Style as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "转台视角",
+      "description": "转台视角：围绕 黏土 claymation 风 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Studio Turn for Claymation Style.",
+      "zh-CN": "黏土 claymation 风主题中的转台视角图像研究。"
+    }
+  }
+}

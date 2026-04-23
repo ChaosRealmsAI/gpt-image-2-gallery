@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System Series",
+  "description": "A reference-driven core series establishing the main system and three coherent variations.",
+  "creative_direction": "Image 01 establishes the canonical system; images 02-04 preserve the same visual logic while varying surface and function.",
+  "cover_image": "images/01-reference-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-anchor/meta.json",
+      "images/02-variant-one/meta.json",
+      "images/03-variant-two/meta.json",
+      "images/04-variant-three/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-anchor first. Use its runtime result URL as --ref for 02-variant-one, 03-variant-two, 04-variant-three. Queue may run the dependent images concurrently after 01-reference-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System Series",
+      "description": "A reference-driven core series establishing the main system and three coherent variations."
+    },
+    "zh-CN": {
+      "title": "核心系统系列",
+      "description": "做交友软件和现代约会灾难喜剧卡，捕捉细小社交失误和期待崩塌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-anchor",
+      "title": "Reference Anchor",
+      "image": "images/01-reference-anchor/image.png",
+      "meta": "images/01-reference-anchor/meta.json"
+    },
+    {
+      "id": "02-variant-one",
+      "title": "Variant One",
+      "image": "images/02-variant-one/image.png",
+      "meta": "images/02-variant-one/meta.json"
+    },
+    {
+      "id": "03-variant-two",
+      "title": "Variant Two",
+      "image": "images/03-variant-two/image.png",
+      "meta": "images/03-variant-two/meta.json"
+    },
+    {
+      "id": "04-variant-three",
+      "title": "Variant Three",
+      "image": "images/04-variant-three/image.png",
+      "meta": "images/04-variant-three/meta.json"
+    }
+  ]
+}

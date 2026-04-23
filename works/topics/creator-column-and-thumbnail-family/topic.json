@@ -1,0 +1,53 @@
+{
+  "id": "creator-column-and-thumbnail-family",
+  "slug": "creator-column-and-thumbnail-family",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Creator Column and Thumbnail Family",
+  "short_title": "Column Family",
+  "description": "A Prompt Atlas theme for Creator Column and Thumbnail Family, testing structured-layout, multi-image-reference, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Creator Column and Thumbnail Family",
+      "short_title": "Column Family",
+      "description": "Build thumbnail families for creator columns so recurring series feel ownable and immediately scannable."
+    },
+    "zh-CN": {
+      "title": "创作者栏目与缩略图家族",
+      "short_title": "栏目家族",
+      "description": "做创作者栏目与缩略图家族，让固定系列更有识别度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "multi-image-reference",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

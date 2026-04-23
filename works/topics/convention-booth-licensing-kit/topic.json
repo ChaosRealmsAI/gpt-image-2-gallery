@@ -1,0 +1,53 @@
+{
+  "id": "convention-booth-licensing-kit",
+  "slug": "convention-booth-licensing-kit",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Convention Booth Licensing Kit",
+  "short_title": "Booth Kit",
+  "description": "A Prompt Atlas theme for Convention Booth Licensing Kit, testing commercial-mockup, structured-layout, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Convention Booth Licensing Kit",
+      "short_title": "Booth Kit",
+      "description": "Create booth-ready licensing kits spanning banners, backdrops, standees, and product displays for conventions or pop-ups."
+    },
+    "zh-CN": {
+      "title": "展会授权展台套件",
+      "short_title": "展会套件",
+      "description": "做展会授权展台套件，覆盖背景板、立牌和陈列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

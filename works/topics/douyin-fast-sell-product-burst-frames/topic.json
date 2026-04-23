@@ -1,0 +1,53 @@
+{
+  "id": "douyin-fast-sell-product-burst-frames",
+  "slug": "douyin-fast-sell-product-burst-frames",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Douyin Fast-Sell Product Burst Frames",
+  "short_title": "Burst Frames",
+  "description": "A Prompt Atlas theme for Douyin Fast-Sell Product Burst Frames, testing commercial-mockup, structured-layout, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Douyin Fast-Sell Product Burst Frames",
+      "short_title": "Burst Frames",
+      "description": "Create bursty short-video product visuals for fast-selling categories with bold value callouts and impact framing."
+    },
+    "zh-CN": {
+      "title": "抖音快销爆点帧",
+      "short_title": "爆点帧",
+      "description": "做适合短视频快销商品的爆点视觉，强调价格感、卖点感和冲击构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

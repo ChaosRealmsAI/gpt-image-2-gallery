@@ -1,0 +1,49 @@
+{
+  "id": "claymation-style",
+  "slug": "claymation-style",
+  "category": "illustration",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Claymation Style",
+  "short_title": "Claymation",
+  "description": "A Prompt Atlas theme for Claymation Style, testing multi-image-reference, physics-materials, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Claymation Style",
+      "short_title": "Claymation",
+      "description": "A Prompt Atlas theme for Claymation Style, testing multi-image-reference, physics-materials, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "黏土 claymation 风",
+      "short_title": "黏土动画",
+      "description": "黏土 claymation 风：整个人 / 动物 / 场景都是黏土捏成 · 有捏痕 · 粘土反光 · stop motion 感"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-claymation-style-studies",
+      "type": "single",
+      "title": "Claymation Render Studies",
+      "path": "packages/single-claymation-style-studies/package.json"
+    }
+  ]
+}
