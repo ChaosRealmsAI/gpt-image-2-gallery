@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal observatory-like room where a neural network explains token embeddings as a navigable spatial map. Use dim architectural lighting, a circular floor, brass rails, glass projection surfaces, and a suspended constellation of points. The composition should be elegant, academic, and physically plausible, with a strong central focus.\n\nSubject:\nThousands of tiny luminous points float in clustered neighborhoods like stars, connected by faint proximity filaments. Small token-like beads enter from a slot at the bottom, then project upward into the embedding constellation, landing near semantically related clusters represented by abstract icons and color regions. Curved distance rings, vector arrows, and similarity bridges show how meanings are positioned relative to one another. Use annotation tablets with only non-readable symbolic marks, dots, and line codes.\n\nImportant details:\nThe image must communicate mapping from discrete symbols into continuous space. Show before-and-after: raw bead sequence at the edge, projected vectors, clustered geometry, and retrieval of nearby neighbors. Clusters should be visually distinct but not random; use density, color, and distance to show relationships. Avoid literal word labels, planets, or generic galaxy art. The neural network should feel like it is presenting its own coordinate system as a scientific instrument.\n\nUse case:\nNeural Network Self-Explanation single study 4/8, testing token embedding and semantic neighborhood structure as a photoreal observatory map.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real vocabulary labels, no code, no equations, no private chain-of-thought, no astrology look, no random starfield, no disconnected vectors, no illegible cluster hierarchy.",
+  "id": "04-token-embedding-observatory",
+  "title": "Token Embedding Observatory",
+  "description": "A spatial observatory map showing token beads projected into clustered embedding space.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "data-visualization",
+    "reasoning-composition",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/04-token-embedding-observatory/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent token embedding explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Token Embedding Observatory",
+      "description": "A spatial observatory map showing token beads projected into clustered embedding space."
+    },
+    "zh-CN": {
+      "title": "Token 嵌入观测台",
+      "description": "空间观测台地图展示 token 珠子投射到聚类嵌入空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "data-visualization",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "An observatory room with token beads projected into a luminous clustered embedding constellation.",
+      "zh-CN": "观测台房间中，token 珠子被投射到发光聚类嵌入星群里。"
+    }
+  }
+}

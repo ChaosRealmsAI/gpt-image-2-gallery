@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of a futuristic but practical control room where a mixture-of-experts network explains routing decisions. Use a wall-sized mechanical switchboard, clean industrial lighting, matte graphite panels, glass relays, and colored fiber paths. The camera is centered and slightly wide, keeping the full routing layout structured and readable.\n\nSubject:\nInput signal packets arrive from the left as small glowing capsules. A central router gate splits them through sparse paths toward eight expert modules arranged in a clean grid. Only a few expert modules light up strongly for each packet, while inactive modules remain dim. The selected experts return processed streams to a merging chamber on the right. Abstract confidence bars, gating weights, and load-balancing indicators appear as non-readable symbols and ticks beside the relays.\n\nImportant details:\nThe image should make sparse routing obvious. Do not light every expert equally. Show the router choosing, dispatching, processing, and recombining. Expert modules should differ subtly by internal texture, suggesting specialization without labels. Fiber paths must be neat, bundled, and physically attached to sockets. The whole scene should feel like an AI explaining its own routing economy as a rigorous engineering control panel.\n\nUse case:\nNeural Network Self-Explanation single study 5/8, testing mixture-of-experts routing as a photoreal switchboard with sparse activated paths.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real company names, no code, no equations, no private chain-of-thought, no all-experts-on pattern, no tangled cable mess, no random server room noise, no disconnected merge chamber.",
+  "id": "05-expert-router-switchboard",
+  "title": "Expert Router Switchboard",
+  "description": "A control-room switchboard showing sparse routing through selected expert modules and a merge chamber.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "data-visualization",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/05-expert-router-switchboard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mixture-of-experts routing explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Expert Router Switchboard",
+      "description": "A control-room switchboard showing sparse routing through selected expert modules and a merge chamber."
+    },
+    "zh-CN": {
+      "title": "专家路由交换板",
+      "description": "控制室交换板展示稀疏路由进入选中专家模块并汇合。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A switchboard routes glowing input capsules through a few selected expert modules into a merge chamber.",
+      "zh-CN": "交换板把发光输入胶囊稀疏路由到少数专家模块，再汇入合并舱。"
+    }
+  }
+}

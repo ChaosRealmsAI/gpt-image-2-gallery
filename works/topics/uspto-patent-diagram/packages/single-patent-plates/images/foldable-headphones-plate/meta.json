@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA clean portrait 4:5 patent drawing sheet on pure white background, black technical linework only, arranged like a formal USPTO-style figure plate.\n\nSubject:\nA foldable over-ear headphone mechanism shown in three views: FIG. 1 front perspective, FIG. 2 side hinge detail, and FIG. 3 exploded view of the ear cup, hinge, headband slider, cushion ring, and cable channel. Use numbered callouts 10, 12, 14, 16, 18, 20, 22, and 24 with thin leader lines.\n\nImportant details:\nPrecise monochrome vector-like line art, no shading except legal-style hatch lines, dashed lines for optional folded position, Arial-like small labels, consistent callout numbering, crisp exploded spacing, professional engineering drawing hierarchy, generous margins.\n\nUse case:\nIndependent Prompt Atlas image testing text rendering, technical diagram structure, and patent-style multi-view layout.\n\nConstraints:\nOnly readable text should be FIG. 1, FIG. 2, FIG. 3, and numeric callouts 10 through 24; no color, no logo, no watermark, no photorealistic render, no handwritten text, no cluttered notes, preserve exact 4:5 aspect ratio.",
+  "id": "foldable-headphones-plate",
+  "title": "Foldable Headphones Plate",
+  "description": "A patent-style multi-view plate for a foldable headphone mechanism.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "patent-diagram",
+    "technical-diagram",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/uspto-patent-diagram/packages/single-patent-plates/images/foldable-headphones-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Foldable Headphones Plate",
+      "description": "A patent-style multi-view plate for a foldable headphone mechanism."
+    },
+    "zh-CN": {
+      "title": "折叠耳机专利图",
+      "description": "一张折叠耳机机构的专利风多视图图版。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "patent-diagram",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A black-and-white patent plate showing foldable headphones in three numbered figures.",
+      "zh-CN": "黑白专利图版展示折叠耳机的三个编号视图。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square cosmetic reveal frame in the same armory bay and camera position as the reference weapon, lit with slightly brighter side strips and a cool electric accent wash that makes the upgraded finish feel aspirational but still grounded. The rifle should occupy the same scale and placement as the reference, with a premium product-shot calmness rather than a chaotic action poster.\n\nSubject:\nThe same fictional modular rifle from the reference image, shown as a rare-tier upgrade. Preserve exact silhouette, attachment placement, receiver proportions, stock shape, grip, optic footprint, and barrel geometry from the reference model. The weapon now carries a refined midnight-blue ceramic coating, brushed titanium fastener caps, a cleaner muzzle device, and a slightly more advanced optic hood, while remaining clearly the same platform.\n\nImportant details:\nRarity should read through controlled surface hierarchy, not by redesigning the gun. Add a few luminous seam accents, slightly richer material contrast, cleaner machining transitions, and one tasteful geometric pattern on the side panels. Keep hard-surface logic plausible, with no floating pieces and no magic aura clouds. The upgrade must feel like a higher-tier production skin sold in an armory page, not a different weapon family.\n\nUse case:\nWeapon Blueprint Rarity Ladder series study 2/9, showing the rare-tier cosmetic step while preserving platform continuity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact silhouette from the reference model, no character, no muzzle flash, no detached parts, no fantasy runes, no soft toy proportions, no readable labels",
+  "id": "02-rare-tactical-upfit",
+  "title": "Rare Tactical Upfit",
+  "description": "A rare-tier cosmetic upgrade that preserves the base rifle silhouette while adding cleaner coatings, accent colors, and sharper attachment presence.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/02-rare-tactical-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-platform",
+        "meta_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/meta.json",
+        "image_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference weapon silhouette while escalating rarity treatment.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rare Tactical Upfit",
+      "description": "A rare-tier cosmetic upgrade that preserves the base rifle silhouette while adding cleaner coatings, accent colors, and sharper attachment presence."
+    },
+    "zh-CN": {
+      "title": "Rare Tactical Upfit",
+      "description": "A rare-tier cosmetic upgrade that preserves the base rifle silhouette while adding cleaner coatings, accent colors, and sharper attachment presence."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A rare-tier cosmetic upgrade that preserves the base rifle silhouette while adding cleaner coatings, accent colors, and sharper attachment presence.",
+      "zh-CN": "A rare-tier cosmetic upgrade that preserves the base rifle silhouette while adding cleaner coatings, accent colors, and sharper attachment presence."
+    }
+  }
+}

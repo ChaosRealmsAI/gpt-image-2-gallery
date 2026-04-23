@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal design studio where an AI system explains preference feedback and alignment as a visual production process. Use a clean white room, wall-mounted translucent panels, paper prototypes, softbox lighting, and precise shadows. The image should feel like a premium editorial shoot of a research workflow, not a corporate dashboard.\n\nSubject:\nThree candidate output sculptures sit on pedestals in the center, each connected to a preference comparison panel made of abstract check marks, ranking beads, and non-readable score marks. A reward-model lens gathers the comparison signals into a glowing evaluation surface, then sends a refined update stream back toward a neural-network lattice on the wall. Show before-and-after behavior as two clean paths: rough outputs on the left, improved output on the right, and a stable central alignment loop.\n\nImportant details:\nThe composition must explain feedback without showing real text or hidden reasoning. Make comparison, ranking, reward shaping, and update direction visually distinct. Avoid implying perfect moral judgment; this is a technical preference-training diagram. Use disciplined arrows, node spacing, translucent layers, and tactile materials such as paper, glass, steel, and light. The process should be legible from thumbnail scale and detailed on close inspection.\n\nUse case:\nNeural Network Self-Explanation single study 6/8, testing preference-feedback alignment as a photoreal studio workflow with comparison and update loops.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real user data, no chat transcripts, no private chain-of-thought, no code snippets, no brand UI, no moralizing symbols, no chaotic arrows, no human faces.",
+  "id": "06-feedback-alignment-studio",
+  "title": "Feedback Alignment Studio",
+  "description": "A studio workflow showing candidate outputs, preference comparison, reward signal, and model update loop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "reasoning-composition",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/06-feedback-alignment-studio/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent preference-feedback alignment explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Feedback Alignment Studio",
+      "description": "A studio workflow showing candidate outputs, preference comparison, reward signal, and model update loop."
+    },
+    "zh-CN": {
+      "title": "反馈对齐工作室",
+      "description": "工作室流程展示候选输出、偏好比较、奖励信号和模型更新回路。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A clean studio diagram with candidate output sculptures, preference panels, a reward lens, and an update loop.",
+      "zh-CN": "整洁工作室图中有候选输出雕塑、偏好面板、奖励透镜和更新回路。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square exploded-view support plate suspended over a muted industrial background, lit like a premium product manual image with enough negative space between modules to read every layer.\n\nSubject:\nA believable breakdown of the vehicle into body shell, control cluster, propulsion core, wheel or hover pod assembly, suspension bracket, seat, and lighting units. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nEvery part should align mechanically and look ready to be reassembled. Use crisp spacing, ghosted alignment guides, subtle material variation, and restrained technical elegance so the board feels both aspirational and useful. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no rider, no scrap heap chaos, no floating magical pieces, no extreme fisheye angle",
+  "id": "garage-parts-breakdown",
+  "title": "Garage Parts Breakdown",
+  "description": "An exploded support board showing how body shell, propulsion unit, wheel assembly, and cockpit modules relate.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/single-support-studies/images/garage-parts-breakdown/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Garage Parts Breakdown",
+      "description": "An exploded support board showing how body shell, propulsion unit, wheel assembly, and cockpit modules relate."
+    },
+    "zh-CN": {
+      "title": "Garage Parts Breakdown",
+      "description": "An exploded support board showing how body shell, propulsion unit, wheel assembly, and cockpit modules relate."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An exploded support board showing how body shell, propulsion unit, wheel assembly, and cockpit modules relate.",
+      "zh-CN": "An exploded support board showing how body shell, propulsion unit, wheel assembly, and cockpit modules relate."
+    }
+  }
+}

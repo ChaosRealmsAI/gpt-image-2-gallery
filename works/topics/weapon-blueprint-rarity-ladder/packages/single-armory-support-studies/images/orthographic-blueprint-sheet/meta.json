@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square blueprint presentation board pinned to a dark drafting surface, lit evenly like a product manual photo with minimal glare and a calm technical atmosphere. The composition is dense but organized, filling the square with aligned orthographic weapon views, detail callouts, and material swatches rendered as abstract shape blocks rather than readable labels.\n\nSubject:\nA fictional modular rifle family sheet built around the same platform language as the rarity ladder: one side elevation, one top view, one front profile, and two close detail insets for the receiver and muzzle assembly. The weapon silhouette should match a believable premium shooter firearm with bullpup-informed balance, vented shroud, optic rail, skeletal stock, and compact tactical footprint.\n\nImportant details:\nThe focus is technical readability. Use crisp linework, measured spacing, exploded inset arrows, tonal blueprint overlays, matte drafting textures, and subtle material chips showing steel, ceramic coating, and rubber grip zones. The board should feel suitable for an internal armory presentation or patch-notes explainer. Keep all symbols abstract and unreadable; the interest comes from structure, not typography.\n\nUse case:\nWeapon Blueprint Rarity Ladder single study 5/9, converting the platform into a technical blueprint support asset.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no human hands, no poster slogan, no messy collage, no fantasy anatomy, no bent perspective, no duplicate weapons overlapping randomly",
+  "id": "orthographic-blueprint-sheet",
+  "title": "Orthographic Blueprint Sheet",
+  "description": "A clean orthographic sheet translating the same rifle family into front, side, and top technical views for the armory bible.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/orthographic-blueprint-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study for the same weapon ecosystem.",
+    "attempt_count": 5,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/orthographic-blueprint-sheet/image.png",
+      "checked_at": "2026-04-23T13:18:12.971Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Orthographic Blueprint Sheet",
+      "description": "A clean orthographic sheet translating the same rifle family into front, side, and top technical views for the armory bible."
+    },
+    "zh-CN": {
+      "title": "Orthographic Blueprint Sheet",
+      "description": "A clean orthographic sheet translating the same rifle family into front, side, and top technical views for the armory bible."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A clean orthographic sheet translating the same rifle family into front, side, and top technical views for the armory bible.",
+      "zh-CN": "A clean orthographic sheet translating the same rifle family into front, side, and top technical views for the armory bible."
+    }
+  }
+}

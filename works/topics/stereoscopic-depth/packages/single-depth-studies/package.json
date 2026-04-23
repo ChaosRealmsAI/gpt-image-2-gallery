@@ -1,0 +1,63 @@
+{
+  "id": "single-depth-studies",
+  "type": "single",
+  "title": "Depth Studies",
+  "description": "Three independent stereoscopic experiments: a cross-view pair, a red-cyan anaglyph, and a hidden-depth autostereogram.",
+  "creative_direction": "Each image uses a different established stereo visual language while keeping the depth cue visible as a finished gallery asset.",
+  "cover_image": "images/crossview-crystal-cubes/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/crossview-crystal-cubes/meta.json",
+      "images/anaglyph-glass-corridor/meta.json",
+      "images/autostereogram-hidden-fish/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Depth Studies",
+      "description": "Three independent stereoscopic experiments: a cross-view pair, a red-cyan anaglyph, and a hidden-depth autostereogram."
+    },
+    "zh-CN": {
+      "title": "立体视差单图研究",
+      "description": "三张独立立体视觉实验：左右视差、红蓝 3D 和隐藏深度图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "stereoscopic-depth",
+      "optical-illusion"
+    ]
+  },
+  "images": [
+    {
+      "id": "crossview-crystal-cubes",
+      "title": "Crossview Crystal Cubes",
+      "image": "images/crossview-crystal-cubes/image.png",
+      "meta": "images/crossview-crystal-cubes/meta.json"
+    },
+    {
+      "id": "anaglyph-glass-corridor",
+      "title": "Anaglyph Glass Corridor",
+      "image": "images/anaglyph-glass-corridor/image.png",
+      "meta": "images/anaglyph-glass-corridor/meta.json"
+    },
+    {
+      "id": "autostereogram-hidden-fish",
+      "title": "Autostereogram Hidden Fish",
+      "image": "images/autostereogram-hidden-fish/image.png",
+      "meta": "images/autostereogram-hidden-fish/meta.json"
+    }
+  ]
+}

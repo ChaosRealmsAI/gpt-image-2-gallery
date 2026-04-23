@@ -1,0 +1,50 @@
+{
+  "id": "uspto-patent-diagram",
+  "slug": "uspto-patent-diagram",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout"
+  ],
+  "title": "USPTO Patent Diagram",
+  "short_title": "Patent Diagram",
+  "description": "A Prompt Atlas theme for black-and-white patent-style technical plates with strict linework, labels, and multi-view structure.",
+  "i18n": {
+    "en": {
+      "title": "USPTO Patent Diagram",
+      "short_title": "Patent Diagram",
+      "description": "A Prompt Atlas theme for black-and-white patent-style technical plates with strict linework, labels, and multi-view structure."
+    },
+    "zh-CN": {
+      "title": "美国专利技术图",
+      "short_title": "专利图",
+      "description": "测试黑白专利风技术线稿、多视图编号和结构拆解。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "patent-diagram",
+      "technical-diagram",
+      "text-rendering",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-patent-plates",
+      "type": "single",
+      "title": "Patent Plates",
+      "path": "packages/single-patent-plates/package.json"
+    }
+  ]
+}

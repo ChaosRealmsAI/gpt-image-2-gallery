@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square top-tier store hero render in the same controlled armory set, with a more dramatic gold-and-cobalt lighting scheme, crisp backlight halos hugging the weapon contour, and a faint atmospheric haze kept far behind the subject. The composition should still function as a clean product shot rather than an explosion scene.\n\nSubject:\nThe same modular rifle platform from the reference image presented as a legendary-tier finish. Preserve exact silhouette, receiver shape, grip, stock frame, optic mount, muzzle length, and hard-surface proportions from the reference model. Elevate the materials into dark obsidian ceramic, pale brushed alloy, embedded cobalt energy veins, and a ceremonial but still industrial muzzle crown that feels manufactured for a prestige season reward.\n\nImportant details:\nLegendary status must read immediately through controlled luxury and engineering confidence. Use brighter emissive channels locked inside the shell, more deliberate contrast between matte and mirror finishes, finer edge trims, and a few inset crystalline modules that remain flush with the weapon body. The gun must still belong to the same family as images 01 to 03, with no silhouette drift, no fantasy sword behavior, and no ornamental clutter hiding the functional parts.\n\nUse case:\nWeapon Blueprint Rarity Ladder series study 4/9, completing the rarity ladder with a prestige legendary treatment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact silhouette from the reference model, no character, no action scene, no detached attachments, no smoke plumes, no creature motifs, no readable badges",
+  "id": "04-legendary-relic-upfit",
+  "title": "Legendary Relic Upfit",
+  "description": "A legendary-tier hero render that keeps the reference platform intact while pushing trim, glow, and prestige detailing to the highest tier.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/04-legendary-relic-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-platform",
+        "meta_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/meta.json",
+        "image_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference weapon silhouette while escalating rarity treatment.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Legendary Relic Upfit",
+      "description": "A legendary-tier hero render that keeps the reference platform intact while pushing trim, glow, and prestige detailing to the highest tier."
+    },
+    "zh-CN": {
+      "title": "Legendary Relic Upfit",
+      "description": "A legendary-tier hero render that keeps the reference platform intact while pushing trim, glow, and prestige detailing to the highest tier."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A legendary-tier hero render that keeps the reference platform intact while pushing trim, glow, and prestige detailing to the highest tier.",
+      "zh-CN": "A legendary-tier hero render that keeps the reference platform intact while pushing trim, glow, and prestige detailing to the highest tier."
+    }
+  }
+}

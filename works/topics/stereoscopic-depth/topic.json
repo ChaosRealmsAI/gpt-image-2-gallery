@@ -1,0 +1,49 @@
+{
+  "id": "stereoscopic-depth",
+  "slug": "stereoscopic-depth",
+  "category": "technical",
+  "style": [
+    "abstract",
+    "flat-graphic"
+  ],
+  "capability": [
+    "physics-materials",
+    "structured-layout"
+  ],
+  "title": "Stereoscopic Depth",
+  "short_title": "Stereoscope",
+  "description": "A Prompt Atlas theme for images that encode depth through stereo pairs, anaglyph rendering, and hidden-depth patterns.",
+  "i18n": {
+    "en": {
+      "title": "Stereoscopic Depth",
+      "short_title": "Stereoscope",
+      "description": "A Prompt Atlas theme for images that encode depth through stereo pairs, anaglyph rendering, and hidden-depth patterns."
+    },
+    "zh-CN": {
+      "title": "立体视差",
+      "short_title": "立体视差",
+      "description": "测试左右视差、红蓝 3D 和隐藏深度图案。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "stereoscopic-depth",
+      "optical-illusion",
+      "physics-materials"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-depth-studies",
+      "type": "single",
+      "title": "Depth Studies",
+      "path": "packages/single-depth-studies/package.json"
+    }
+  ]
+}

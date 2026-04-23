@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square storefront hero composition with the vehicle floating above a low platform inside a sleek sci-fi garage bay, using elegant key light, rim light, and a dark premium backdrop.\n\nSubject:\nOne flagship version of the same vehicle family presented at a conversion-friendly angle with immaculate finish, stable silhouette, and luxury-grade reflections. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nThe scene should leave enough breathing room for hypothetical UI crops while keeping the engineering visible. Make it feel exclusive, fast, and premium without relying on action clutter or branding. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no rider, no race track, no trophy props, no oversized background structures",
+  "id": "store-hero-angle",
+  "title": "Store Hero Angle",
+  "description": "A polished store-facing hero image that frames the vehicle as a premium unlock.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/single-support-studies/images/store-hero-angle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Store Hero Angle",
+      "description": "A polished store-facing hero image that frames the vehicle as a premium unlock."
+    },
+    "zh-CN": {
+      "title": "Store Hero Angle",
+      "description": "A polished store-facing hero image that frames the vehicle as a premium unlock."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A polished store-facing hero image that frames the vehicle as a premium unlock.",
+      "zh-CN": "A polished store-facing hero image that frames the vehicle as a premium unlock."
+    }
+  }
+}

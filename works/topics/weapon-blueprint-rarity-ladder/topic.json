@@ -1,0 +1,56 @@
+{
+  "id": "weapon-blueprint-rarity-ladder",
+  "slug": "weapon-blueprint-rarity-ladder",
+  "category": "technical",
+  "style": [
+    "3d-render",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Weapon Blueprint Rarity Ladder",
+  "short_title": "Weapon Ladder",
+  "description": "A Prompt Atlas theme for showing one weapon family across rarity tiers, technical breakdowns, and marketing-ready hero views so progression stays visually coherent.",
+  "i18n": {
+    "en": {
+      "title": "Weapon Blueprint Rarity Ladder",
+      "short_title": "Weapon Ladder",
+      "description": "Show one weapon family across rarity tiers, technical breakdowns, and marketing-ready hero views so progression and desirability are visually clear."
+    },
+    "zh-CN": {
+      "title": "武器蓝图与稀有度梯度",
+      "short_title": "武器梯度",
+      "description": "围绕一套武器家族做普通到传奇的梯度，同时给出蓝图视角、细节特写和商店主图。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-rarity-ladder",
+      "type": "series",
+      "title": "Rarity Ladder",
+      "path": "packages/series-rarity-ladder/package.json"
+    },
+    {
+      "id": "single-armory-support-studies",
+      "type": "single",
+      "title": "Armory Support Studies",
+      "path": "packages/single-armory-support-studies/package.json"
+    }
+  ]
+}

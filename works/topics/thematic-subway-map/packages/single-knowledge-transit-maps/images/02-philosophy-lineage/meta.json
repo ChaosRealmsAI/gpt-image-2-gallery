@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square educational wall poster styled as a modern subway system map, printed on matte pale cream stock. The design is front-facing, crisp, and technical, with generous margins and a balanced legend panel in the lower right. Use calm academic colors: deep blue, burgundy, ochre, teal, charcoal, and muted purple. The poster should feel useful for a university hallway or museum shop.\n\nSubject:\nA thematic subway map of philosophy history. Route lines represent major schools and questions: metaphysics, ethics, political thought, empiricism, rationalism, existentialism, analytic logic, and eastern wisdom. The lines branch from an ancient forum-like origin hub, pass through dense medieval and enlightenment transfer zones, and spread into modern debates. Larger circular transfer stations indicate conceptual collisions such as mind-body, virtue, reason, social contract, language, suffering, and freedom. Small icons show scrolls, lamps, scales, dialogue bubbles, and labyrinths.\n\nImportant details:\nThe map must express lineage and influence without relying on readable names. Use station dots, interchange rings, branching lines, route colors, and section density to show chronology and cross-pollination. Keep all label areas as non-readable short glyph bars, with no actual text. Transit geometry should be disciplined: consistent stroke widths, clean corners, obvious transfer circles, and no accidental tangles. The network should feel like a knowledge graph converted into a professional public-transport diagram.\n\nUse case:\nThematic Subway Map single study 2/8, testing philosophical lineage abstraction, structured hierarchy, and transfer-based reasoning composition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real philosopher portraits, no fake university emblem, no random symbols, no illegible paragraph blocks, no chaotic route crossing, no geographic base map.",
+  "id": "02-philosophy-lineage",
+  "title": "Philosophy Lineage",
+  "description": "A subway-map knowledge graph of philosophical schools, conceptual transfers, and chronological branching.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/02-philosophy-lineage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for philosophy knowledge structure."
+  },
+  "i18n": {
+    "en": {
+      "title": "Philosophy Lineage",
+      "description": "A subway-map knowledge graph of philosophical schools, conceptual transfers, and chronological branching."
+    },
+    "zh-CN": {
+      "title": "哲学谱系线路",
+      "description": "把哲学流派、概念交汇和历史分支转化为地铁知识图谱。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "An academic subway-style knowledge map with colored routes for philosophical schools and transfer hubs for concepts.",
+      "zh-CN": "一张学术地铁风知识图,彩色路线代表哲学流派,换乘枢纽代表概念交汇。"
+    }
+  }
+}

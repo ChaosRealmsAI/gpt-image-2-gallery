@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of a museum-scale glass atrium installation that looks like a neural network explaining itself. Use soft daylight, polished concrete, suspended translucent panels, and clean reflections. The camera is slightly elevated, looking into a layered architectural space where the diagram is physical, luminous, and readable without text.\n\nSubject:\nA Transformer self-attention process represented as a suspended kinetic sculpture. Rows of small glowing token prisms enter from the left, split into query, key, and value-like light paths, pass through multiple attention heads as nested rings, then recombine into a refined output ribbon on the right. Use color-coded flows, curved cables, transparent matrices, and small abstract annotation plaques made only of symbols, ticks, and dots. The structure should feel academic and meta: an AI model drawing its own internal attention map as a physical exhibit.\n\nImportant details:\nThe composition must make process logic visible: input sequence, parallel attention heads, weighted connections, merging, normalization-like layers, and output. Keep node spacing regular, avoid tangled spaghetti, and maintain clear depth separation between foreground paths and background panels. The image should balance photoreal materials with exact technical-diagram hierarchy. No literal equations are needed; the flow itself should explain the mechanism.\n\nUse case:\nNeural Network Self-Explanation single study 1/8, testing a Transformer self-attention process as a photoreal academic installation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real model names, no code snippets, no private chain-of-thought, no random neon chaos, no impossible cable intersections, no generic brain icon, no unreadable clutter.",
+  "id": "01-transformer-attention-atrium",
+  "title": "Transformer Attention Atrium",
+  "description": "A photoreal atrium installation representing Transformer self-attention with nodes, heads, and data flows.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "reasoning-composition",
+    "technical-diagram",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/01-transformer-attention-atrium/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Transformer self-attention explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Transformer Attention Atrium",
+      "description": "A photoreal atrium installation representing Transformer self-attention with nodes, heads, and data flows."
+    },
+    "zh-CN": {
+      "title": "Transformer 注意力中庭",
+      "description": "用节点、多头结构和数据流表现 Transformer 自注意力的写实中庭装置。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A glass atrium installation showing token prisms, attention-head rings, and luminous data flows.",
+      "zh-CN": "玻璃中庭装置中有 token 棱柱、注意力头环和发光数据流。"
+    }
+  }
+}

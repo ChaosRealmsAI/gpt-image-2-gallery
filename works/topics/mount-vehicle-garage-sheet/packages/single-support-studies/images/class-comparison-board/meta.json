@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square comparison board on a muted garage background with four vehicle variants arranged in a clean grid and one small detail strip for wheel or hover hardware.\n\nSubject:\nA family of related vehicles or trim classes sharing one chassis language while differing in role emphasis, panel density, trim value, and performance attitude. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nKeep the shared DNA obvious through consistent geometry and materials while allowing role differences to read instantly. The board should feel like a garage selection screen concept translated into a polished standalone image. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no rider, no chaotic overlap, no mismatched art styles, no broken proportions",
+  "id": "class-comparison-board",
+  "title": "Class Comparison Board",
+  "description": "A class comparison board showing starter, speed, utility, and prestige reads in one disciplined layout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/single-support-studies/images/class-comparison-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Class Comparison Board",
+      "description": "A class comparison board showing starter, speed, utility, and prestige reads in one disciplined layout."
+    },
+    "zh-CN": {
+      "title": "Class Comparison Board",
+      "description": "A class comparison board showing starter, speed, utility, and prestige reads in one disciplined layout."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A class comparison board showing starter, speed, utility, and prestige reads in one disciplined layout.",
+      "zh-CN": "A class comparison board showing starter, speed, utility, and prestige reads in one disciplined layout."
+    }
+  }
+}

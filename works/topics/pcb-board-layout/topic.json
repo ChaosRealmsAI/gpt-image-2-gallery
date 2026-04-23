@@ -1,0 +1,49 @@
+{
+  "id": "pcb-board-layout",
+  "slug": "pcb-board-layout",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "PCB Board Layout",
+  "short_title": "PCB Layout",
+  "description": "A Prompt Atlas theme for PCB Board Layout, testing structured-layout, photorealism, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "PCB Board Layout",
+      "short_title": "PCB Layout",
+      "description": "A Prompt Atlas theme for PCB Board Layout, testing structured-layout, photorealism, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "PCB 电路板设计版图",
+      "short_title": "电路板",
+      "description": "PCB 电路板设计版图：风格:经典绿色 PCB 底板 + 金色铜线走线 + 白色丝印 + 贴片元件(电阻 / 电容 / 芯片) · 微距摄影级 · 或 白底工程线稿 schematic · 例:Arduino 板 / 耳机 PCB / 主板局部"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-pcb-board-layout-studies",
+      "type": "single",
+      "title": "PCB Layout Diagram Studies",
+      "path": "packages/single-pcb-board-layout-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square garage reveal frame using the same camera height and vehicle scale as the reference image, with slightly hotter side lights and a controlled electric accent wash that makes the livery feel aspirational while keeping the space uncluttered and product-focused.\n\nSubject:\nThe exact same vehicle chassis from the reference model, upgraded with a rare-tier racing livery, brighter body striping, improved front intake details, cleaner alloy edging, and a more premium seat or cockpit trim. Preserve exact chassis shape, wheelbase, body shell outline, suspension locations, and propulsion geometry from the reference model. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nThe upgrade should read as a higher trim level rather than a different vehicle family. Emphasize paint hierarchy, sharper panel contrast, tighter reflections, brighter light bars, and a few competition markings rendered only as abstract shape blocks. Maintain believable engineering, stable proportions, and side-profile recognizability suitable for a garage menu or store card. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact chassis from the reference model, no rider, no action scene, no flying debris, no oversized spoilers, no readable decals",
+  "id": "02-rally-livery-upfit",
+  "title": "Rally Livery Upfit",
+  "description": "A faster, brighter variant that preserves the reference chassis while introducing a competitive livery and sharper trim.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/02-rally-livery-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-garage-hero",
+        "meta_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/meta.json",
+        "image_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference structure while changing the requested surface treatment and crop logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rally Livery Upfit",
+      "description": "A faster, brighter variant that preserves the reference chassis while introducing a competitive livery and sharper trim."
+    },
+    "zh-CN": {
+      "title": "Rally Livery Upfit",
+      "description": "A faster, brighter variant that preserves the reference chassis while introducing a competitive livery and sharper trim."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A faster, brighter variant that preserves the reference chassis while introducing a competitive livery and sharper trim.",
+      "zh-CN": "A faster, brighter variant that preserves the reference chassis while introducing a competitive livery and sharper trim."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "single-skill-tree-studies",
+  "type": "single",
+  "title": "Skill Tree Studies",
+  "description": "Nine independent skill-tree studies that explain growth paths, branch logic, and unlock drama without readable copy.",
+  "creative_direction": "Treat progression as a readable visual system: nodes, branches, ultimates, and recaps should feel navigable and game-real.",
+  "cover_image": "images/full-skill-tree/image.png",
+  "i18n": {
+    "en": {
+      "title": "Skill Tree Studies",
+      "description": "Nine independent skill-tree studies that explain growth paths, branch logic, and unlock drama without readable copy."
+    },
+    "zh-CN": {
+      "title": "技能树研究",
+      "description": "九张独立技能树研究，在无可读文字下讲清成长路径与解锁逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "full-skill-tree",
+      "title": "Full Skill Tree",
+      "image": "images/full-skill-tree/image.png",
+      "meta": "images/full-skill-tree/meta.json"
+    },
+    {
+      "id": "branch-detail-board",
+      "title": "Branch Detail Board",
+      "image": "images/branch-detail-board/image.png",
+      "meta": "images/branch-detail-board/meta.json"
+    },
+    {
+      "id": "ultimate-unlock-panel",
+      "title": "Ultimate Unlock Panel",
+      "image": "images/ultimate-unlock-panel/image.png",
+      "meta": "images/ultimate-unlock-panel/meta.json"
+    },
+    {
+      "id": "leveling-summary-card",
+      "title": "Leveling Summary Card",
+      "image": "images/leveling-summary-card/image.png",
+      "meta": "images/leveling-summary-card/meta.json"
+    },
+    {
+      "id": "icon-family-study",
+      "title": "Icon Family Study",
+      "image": "images/icon-family-study/image.png",
+      "meta": "images/icon-family-study/meta.json"
+    },
+    {
+      "id": "pathing-comparison-board",
+      "title": "Pathing Comparison Board",
+      "image": "images/pathing-comparison-board/image.png",
+      "meta": "images/pathing-comparison-board/meta.json"
+    },
+    {
+      "id": "locked-node-closeup",
+      "title": "Locked Node Closeup",
+      "image": "images/locked-node-closeup/image.png",
+      "meta": "images/locked-node-closeup/meta.json"
+    },
+    {
+      "id": "mentor-guild-wall",
+      "title": "Mentor Guild Wall",
+      "image": "images/mentor-guild-wall/image.png",
+      "meta": "images/mentor-guild-wall/meta.json"
+    },
+    {
+      "id": "build-share-poster",
+      "title": "Build Share Poster",
+      "image": "images/build-share-poster/image.png",
+      "meta": "images/build-share-poster/meta.json"
+    }
+  ]
+}

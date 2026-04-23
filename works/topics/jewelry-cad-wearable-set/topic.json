@@ -1,0 +1,50 @@
+{
+  "id": "jewelry-cad-wearable-set",
+  "slug": "jewelry-cad-wearable-set",
+  "category": "technical",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Jewelry CAD Wearable Set",
+  "short_title": "Jewelry CAD",
+  "description": "A Prompt Atlas theme for Jewelry CAD Wearable Set, testing photorealism, physics-materials, technical-diagram, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Jewelry CAD Wearable Set",
+      "short_title": "Jewelry CAD",
+      "description": "A Prompt Atlas theme for Jewelry CAD Wearable Set, testing photorealism, physics-materials, technical-diagram, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "珠宝设计 CAD + 3D + 佩戴 三合一",
+      "short_title": "珠宝设计",
+      "description": "珠宝设计 CAD + 3D + 佩戴 三合一：风格:三栏布局 · 左 CAD 线框 + 尺寸标注 + 右 Octane 渲染实物 + 再右 真人佩戴 iPhone 摄 · 例:订婚戒指 / 项链 / 耳钉"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-jewelry-cad-wearable-set-studies",
+      "type": "single",
+      "title": "Jewelry CAD Render Studies",
+      "path": "packages/single-jewelry-cad-wearable-set-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square exploded-view diagram on a muted slate background, lit from above like a museum-grade industrial plate. The composition suspends weapon components in a precise axial order with generous air between layers, allowing the viewer to read barrel, receiver shell, power core, stock frame, optic mount, magazine, and muzzle assembly as a coherent construction stack.\n\nSubject:\nA believable futuristic rifle broken into carefully spaced modules. Show outer shell panels, internal frame, barrel system, magazine housing, optic, recoil assembly, and power-routing components in one aligned burst. Every part should look manufacturable, with matching connection logic and consistent material language, as if the object could be rebuilt from this diagram by a prop and engineering team.\n\nImportant details:\nUse a high-end technical illustration language rather than raw CAD. Surfaces should show anodized metals, matte ceramic shells, polymer grips, sealed translucent conduits, and tiny fasteners. Include subtle arrows, ghosted alignment traces, and abstract marker shapes without readable text. The arrangement must feel premium enough for a patch-notes visual yet rigorous enough for an internal asset bible.\n\nUse case:\nWeapon Blueprint Rarity Ladder single study 6/9, emphasizing internal assembly logic and component hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no person, no chaotic debris, no missing major components, no floating magic particles, no damaged scrap pile, no perspective warp",
+  "id": "exploded-core-assembly",
+  "title": "Exploded Core Assembly",
+  "description": "An exploded technical board revealing the internal module stack, fastener logic, and attachment relationship of the weapon system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/exploded-core-assembly/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study for the same weapon ecosystem.",
+    "attempt_count": 5,
+    "last_error": {
+      "reason": "poll 超时 240s",
+      "retryable": true,
+      "output_path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/exploded-core-assembly/image.png",
+      "checked_at": "2026-04-23T13:19:05.806Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Exploded Core Assembly",
+      "description": "An exploded technical board revealing the internal module stack, fastener logic, and attachment relationship of the weapon system."
+    },
+    "zh-CN": {
+      "title": "Exploded Core Assembly",
+      "description": "An exploded technical board revealing the internal module stack, fastener logic, and attachment relationship of the weapon system."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An exploded technical board revealing the internal module stack, fastener logic, and attachment relationship of the weapon system.",
+      "zh-CN": "An exploded technical board revealing the internal module stack, fastener logic, and attachment relationship of the weapon system."
+    }
+  }
+}

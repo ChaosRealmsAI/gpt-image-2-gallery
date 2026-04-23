@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square science communication poster styled as a technical subway map on clean white board stock. Use a calm environmental palette: ocean blue, forest green, cloud gray, solar yellow, heat red, ice cyan, and soil brown. The diagram is front-facing and vector-crisp, with a compact legend panel and small icon system. The design should feel suitable for an exhibition wall or educational product.\n\nSubject:\nA thematic subway map of Earth's climate system. Circular and looping route lines represent atmosphere, ocean circulation, carbon cycle, water cycle, ice-albedo feedback, biosphere, human emissions, and adaptation pathways. Large transfer stations show interaction points: evaporation, cloud formation, heat exchange, photosynthesis, runoff, warming feedback, urban infrastructure, and mitigation. Some lines form closed loops, while others branch outward to show pressures and responses. Tiny icons suggest sun, cloud, leaf, wave, glacier, factory silhouette, city block, and soil layers.\n\nImportant details:\nThe network should communicate system dynamics through route topology. Feedback loops must be visually distinct from one-way branches; transfer hubs must be clear and not buried under overlapping lines. Use arrows sparingly as small direction markers, but avoid readable labels. Keep station spacing consistent, line weights uniform, and crossings clean. The map should look like a rigorous climate-systems diagram translated into transit language, not a decorative eco poster.\n\nUse case:\nThematic Subway Map single study 6/8, testing system-loop reasoning, scientific structured layout, and commercial educational map design.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no political slogans, no real agency branding, no disaster photo collage, no messy infographic paragraphs, no random arrows, no globe clip art background.",
+  "id": "06-climate-system-loop",
+  "title": "Climate System Loop",
+  "description": "A subway-map climate system diagram with looped cycles, transfer hubs, and environmental route families.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/06-climate-system-loop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for system feedback loops."
+  },
+  "i18n": {
+    "en": {
+      "title": "Climate System Loop",
+      "description": "A subway-map climate system diagram with looped cycles, transfer hubs, and environmental route families."
+    },
+    "zh-CN": {
+      "title": "气候系统环线",
+      "description": "把气候循环、反馈和环境路线族转化为带有换乘枢纽的地铁系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A climate-systems subway diagram with colored loop routes for atmosphere, ocean, carbon, water, ice, and cities.",
+      "zh-CN": "一张气候系统地铁图,用彩色环线表现大气、海洋、碳、水、冰和城市。"
+    }
+  }
+}

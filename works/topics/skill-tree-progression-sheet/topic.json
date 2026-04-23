@@ -1,0 +1,49 @@
+{
+  "id": "skill-tree-progression-sheet",
+  "slug": "skill-tree-progression-sheet",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Skill Tree Progression Sheet",
+  "short_title": "Skill Tree",
+  "description": "Visualize an ability or progression tree so upgrades, branches, unlock logic, and role fantasy are understandable at a glance.",
+  "i18n": {
+    "en": {
+      "title": "Skill Tree Progression Sheet",
+      "short_title": "Skill Tree",
+      "description": "Visualize an ability or progression tree so upgrades, branches, unlock logic, and role fantasy are understandable at a glance."
+    },
+    "zh-CN": {
+      "title": "技能树与成长页",
+      "short_title": "技能树",
+      "description": "把角色成长或职业技能树做成可视化页面，让分支、升级路径和职业幻想都能被一眼读懂。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 991,
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-skill-tree-studies",
+      "type": "single",
+      "title": "Skill Tree Studies",
+      "path": "packages/single-skill-tree-studies/package.json"
+    }
+  ]
+}

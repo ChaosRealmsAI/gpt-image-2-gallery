@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square business workshop poster designed as a polished subway route map on light gray-white paper. The map is front-facing, clean, and highly structured, with a restrained SaaS palette: cobalt blue, mint green, amber, coral, slate, violet, and black. It should look like a premium product-strategy canvas or conference wall graphic without using any real company identity.\n\nSubject:\nA thematic subway map of startup growth. Route lines represent idea discovery, customer research, product design, engineering, go-to-market, fundraising, operations, and retention. The network begins at a small origin loop, expands through validation stations, splits at product-market-fit, and becomes denser around scale-up interchanges. Transfer hubs show major decision points: problem clarity, prototype, launch, revenue, hiring, compliance, support, and international expansion. Small icons suggest lightbulbs, users, gears, charts, tickets, shields, rockets, and support headsets.\n\nImportant details:\nThe map should function like a reasoning diagram for business stages. Use line density and hub size to show complexity increasing over time. Keep all station labels as non-readable glyph blocks, with no actual startup jargon text. Lines must be clean, layered, and traceable; avoid crossing chaos. Include a small legend and a route-status inset using colored bars and station symbols. The result should feel commercially useful, not like a decorative motivational poster.\n\nUse case:\nThematic Subway Map single study 8/8, testing business-process abstraction, structured-layout control, and commercial transit-map mockup quality.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real company names, no stock-market ticker, no motivational slogan, no messy flowchart arrows, no fake UI dashboard, no random spreadsheet blocks.",
+  "id": "08-startup-growth-transit",
+  "title": "Startup Growth Transit",
+  "description": "A business-process subway map translating startup growth stages into route lines, decision hubs, and scale-up transfers.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/08-startup-growth-transit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for business process mapping."
+  },
+  "i18n": {
+    "en": {
+      "title": "Startup Growth Transit",
+      "description": "A business-process subway map translating startup growth stages into route lines, decision hubs, and scale-up transfers."
+    },
+    "zh-CN": {
+      "title": "创业增长地铁",
+      "description": "把创业增长阶段转化为路线、决策枢纽和规模化换乘站的商业流程地铁图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A startup growth subway map with product, research, engineering, fundraising, and retention lines meeting at decision hubs.",
+      "zh-CN": "一张创业增长地铁图,产品、研究、工程、融资和留存线路在决策枢纽交汇。"
+    }
+  }
+}

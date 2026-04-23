@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal laboratory installation showing a diffusion model explaining its denoising process. The setting is a clean darkroom with soft overhead light, suspended glass plates, mist, and a long illuminated table. The camera faces the table at a shallow angle so a left-to-right sequence is visible in one frame.\n\nSubject:\nA sequence of eight transparent image plates evolves from pure granular noise on the far left into a crisp object silhouette on the far right. Between plates, luminous arrows and particle streams show progressive denoising steps. A central neural module made of layered translucent blocks predicts noise residuals as faint blue specks that peel away from each plate. Abstract timeline ticks and symbolic annotation markers sit below the plates without readable text. The model appears to be demonstrating how it gradually removes noise to reveal structure.\n\nImportant details:\nThe core logic must be unmistakable: noisy sample, repeated denoising, predicted noise removal, clearer intermediate states, final clean image. Avoid making the sequence look like simple photo editing; it should feel like a generative process with stochastic particles and controlled structure. Use disciplined spacing, consistent plate sizes, and material realism in glass, dust, light beams, and table reflections.\n\nUse case:\nNeural Network Self-Explanation single study 3/8, testing a diffusion denoising process as a photoreal sequence of glass plates and particle flows.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real equations, no code snippets, no brand UI, no private chain-of-thought, no chaotic smoke, no skipped denoising stages, no illegible plate order, no fantasy magic effects.",
+  "id": "03-diffusion-denoising-lab",
+  "title": "Diffusion Denoising Lab",
+  "description": "A photoreal lab sequence showing noise plates progressively denoised into a clean output.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "reasoning-composition",
+    "photorealism",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/03-diffusion-denoising-lab/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent diffusion denoising explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Diffusion Denoising Lab",
+      "description": "A photoreal lab sequence showing noise plates progressively denoised into a clean output."
+    },
+    "zh-CN": {
+      "title": "扩散去噪实验室",
+      "description": "写真实验室序列展示噪声板逐步去噪成清晰输出。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A darkroom lab sequence of glass image plates changing from noise into a clean form.",
+      "zh-CN": "暗房实验室里一排玻璃图像板从噪声逐步变成清晰形体。"
+    }
+  }
+}

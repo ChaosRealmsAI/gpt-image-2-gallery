@@ -1,0 +1,64 @@
+{
+  "id": "single-patent-plates",
+  "type": "single",
+  "title": "Patent Plates",
+  "description": "Three independent patent-style plates using monochrome linework, numbered callouts, and technical decomposition.",
+  "creative_direction": "Each image should look like a clean patent drawing sheet rather than a rendered product: white background, black linework, FIG labels, and precise callout numbering.",
+  "cover_image": "images/foldable-headphones-plate/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/foldable-headphones-plate/meta.json",
+      "images/modular-teapot-filter-plate/meta.json",
+      "images/drone-arm-exploded-plate/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Patent Plates",
+      "description": "Three independent patent-style plates using monochrome linework, numbered callouts, and technical decomposition."
+    },
+    "zh-CN": {
+      "title": "专利图单图研究",
+      "description": "三张独立专利风图版，使用黑白线稿、编号标注和技术拆解。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "patent-diagram",
+      "technical-diagram",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "foldable-headphones-plate",
+      "title": "Foldable Headphones Plate",
+      "image": "images/foldable-headphones-plate/image.png",
+      "meta": "images/foldable-headphones-plate/meta.json"
+    },
+    {
+      "id": "modular-teapot-filter-plate",
+      "title": "Modular Teapot Filter Plate",
+      "image": "images/modular-teapot-filter-plate/image.png",
+      "meta": "images/modular-teapot-filter-plate/meta.json"
+    },
+    {
+      "id": "drone-arm-exploded-plate",
+      "title": "Drone Arm Exploded Plate",
+      "image": "images/drone-arm-exploded-plate/image.png",
+      "meta": "images/drone-arm-exploded-plate/meta.json"
+    }
+  ]
+}

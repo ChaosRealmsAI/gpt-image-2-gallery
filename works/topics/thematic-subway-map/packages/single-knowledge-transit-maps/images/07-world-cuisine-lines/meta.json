@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square commercial food-culture poster designed as a clean subway map on warm white paper. The style is bright, friendly, and precise, with flat vector lines, circular station dots, and a compact icon legend. Use appetite-friendly but restrained colors: chili red, noodle yellow, herb green, ocean blue, spice orange, rice white, and charcoal. The poster should feel like something sold in a culinary museum shop or used in a food festival exhibit.\n\nSubject:\nA thematic subway map of world cuisine relationships. Route lines represent staple grains, spice routes, fermentation, street food, noodle families, seafood traditions, baking, and tea-and-dessert culture. Transfer hubs show shared techniques such as steaming, grilling, pickling, broth-making, flatbread, dumplings, and chili oil. Station clusters imply regional families without drawing a real geography map. Small icons show bowls, chopsticks, bread, fish, jars, steam, leaves, and clay pots.\n\nImportant details:\nThe map must show relationship logic without readable cuisine names. Use line colors and transfer hubs to suggest shared ingredients and cooking methods. Keep the station intervals regular, the legend orderly, and the route intersections easy to follow. Avoid food photography; this is a technical-diagram poster with playful culinary icons. All label positions should use short non-readable glyph marks only. The composition should be dense enough to reward inspection but not so crowded that it loses transit-map clarity.\n\nUse case:\nThematic Subway Map single study 7/8, testing culinary knowledge abstraction, commercial poster appeal, and structured route readability.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real restaurant brands, no national flags, no food photos, no tourist map base, no messy ingredient pile, no fake menu text, no random icon clutter.",
+  "id": "07-world-cuisine-lines",
+  "title": "World Cuisine Lines",
+  "description": "A culinary subway-map poster linking cuisine families through staples, techniques, ingredients, and transfer hubs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/07-world-cuisine-lines/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for cuisine relationship mapping."
+  },
+  "i18n": {
+    "en": {
+      "title": "World Cuisine Lines",
+      "description": "A culinary subway-map poster linking cuisine families through staples, techniques, ingredients, and transfer hubs."
+    },
+    "zh-CN": {
+      "title": "世界风味线路",
+      "description": "用地铁图连接菜系家族、主食、烹饪技法、食材和风味换乘枢纽。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A food-culture subway map linking cuisine families through colorful ingredient and technique route lines.",
+      "zh-CN": "一张美食文化地铁图,用彩色食材和技法线路连接菜系家族。"
+    }
+  }
+}

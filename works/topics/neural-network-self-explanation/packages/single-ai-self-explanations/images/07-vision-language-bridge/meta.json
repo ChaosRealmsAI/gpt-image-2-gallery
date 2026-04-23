@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal installation in a dark gallery showing how a multimodal neural network connects visual and language-like representations. Use a black reflective floor, suspended image tiles, glass token beads, and luminous bridges between two large transparent towers. The camera is centered and slightly low, giving the scene a monumental but readable structure.\n\nSubject:\nOn the left, a grid of small image tiles shows abstract objects, colors, shapes, and scenes without text. On the right, clusters of token beads and symbolic sequence blocks represent language structure without readable words. Between them, cross-modal attention bridges carry light in both directions through a central fusion chamber. Some image regions connect to specific token clusters, while global context lines arc over the top. Add abstract alignment marks, similarity bands, and non-readable annotation ticks.\n\nImportant details:\nThe image must show grounding and fusion, not just two decorative columns. Visual patches should map to token clusters through distinct colored paths. The central chamber should merge modalities while preserving separate input streams. Keep the diagram clean, symmetric enough to understand, but rich enough for close inspection. Avoid real captions, real object labels, or any suggestion of private thought text.\n\nUse case:\nNeural Network Self-Explanation single study 7/8, testing vision-language cross-attention as a photoreal gallery bridge between image patches and token structures.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand interface, no code, no equations, no private chain-of-thought, no random sci-fi portal, no disconnected image tiles, no text labels, no cluttered bridge crossings.",
+  "id": "07-vision-language-bridge",
+  "title": "Vision Language Bridge",
+  "description": "A gallery bridge connecting image tiles to token clusters through cross-modal attention paths.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "reasoning-composition",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/07-vision-language-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vision-language bridge explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Vision Language Bridge",
+      "description": "A gallery bridge connecting image tiles to token clusters through cross-modal attention paths."
+    },
+    "zh-CN": {
+      "title": "视觉语言桥",
+      "description": "画廊桥接图通过跨模态注意力路径连接图像块和 token 聚类。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A dark gallery installation linking image tiles to token clusters with luminous cross-modal bridges.",
+      "zh-CN": "暗色画廊装置用发光跨模态桥连接图像块和 token 聚类。"
+    }
+  }
+}

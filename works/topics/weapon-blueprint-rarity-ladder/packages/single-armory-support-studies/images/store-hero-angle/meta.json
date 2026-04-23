@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square storefront hero composition in a luxury sci-fi armory environment, with the weapon floating above a low pedestal and lit by elegant gold-cobalt spotlights, soft volumetric haze, and a dark architectural backdrop made of blurred industrial panels. The frame should feel like the cover tile for a premium store feature, but still centered on the weapon as product.\n\nSubject:\nOne legendary-tier modular rifle from a fictional competitive shooter, shown at a flattering three-quarter hero angle with premium attachments, restrained emissive seams, and immaculate surface finish. It should echo the same platform language as the blueprint ladder: compact bullpup-informed massing, vented barrel housing, skeletal stock, and low-profile optic, all rendered with retail-grade polish.\n\nImportant details:\nCommercial appeal and mechanical truth must coexist. Use elegant color separation, premium reflections, a stable silhouette, and enough negative space for hypothetical UI crops while avoiding actual text or logos. The gun should feel exclusive, season-defining, and immediately desirable, yet still like a believable manufactured object rather than a fantasy prop. Keep the composition uncluttered and high-conversion in tone.\n\nUse case:\nWeapon Blueprint Rarity Ladder single study 8/9, providing a premium hero asset for store and reward surfaces.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no character holding the weapon, no muzzle flash, no battle scene, no huge environmental props, no mascot branding, no distorted proportions",
+  "id": "store-hero-angle",
+  "title": "Store Hero Angle",
+  "description": "A polished armory storefront hero image that frames the legendary weapon as a premium reward without losing hard-surface credibility.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/store-hero-angle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study for the same weapon ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Store Hero Angle",
+      "description": "A polished armory storefront hero image that frames the legendary weapon as a premium reward without losing hard-surface credibility."
+    },
+    "zh-CN": {
+      "title": "Store Hero Angle",
+      "description": "A polished armory storefront hero image that frames the legendary weapon as a premium reward without losing hard-surface credibility."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A polished armory storefront hero image that frames the legendary weapon as a premium reward without losing hard-surface credibility.",
+      "zh-CN": "A polished armory storefront hero image that frames the legendary weapon as a premium reward without losing hard-surface credibility."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square armory showcase rendered like a premium game weapon inspect screen, with the rifle floating in a neutral graphite bay under cool rim lights and one clean overhead key light. The camera is a crisp three-quarter hero angle that shows stock, receiver, barrel shroud, magazine well, and optic mount without perspective exaggeration. The palette is muted steel, charcoal polymer, soft tungsten reflections, and tiny amber diagnostic glints, with enough negative space around the weapon to feel ready for UI framing.\n\nSubject:\nA fictional compact modular assault rifle designed for a fast extraction-shooter world. It has a bullpup-informed silhouette, a vented barrel jacket, a skeletal stock, a low-profile reflex optic, and a restrained industrial finish that feels mass-produced yet high quality. The proportions must feel believable for a handheld weapon: grip, trigger guard, magazine well, charging handle, and rail segments should all align as if they could function mechanically. Show only the weapon, centered and fully visible.\n\nImportant details:\nThis image is the canonical reference for later rarity variants. Lock the exact outline of the receiver, stock geometry, grip angle, barrel length, optic footprint, muzzle profile, and rail placement. Surface treatment should emphasize honest hard-surface materials: bead-blasted steel, matte polymer, rubberized grip inserts, faint machining marks, small fasteners, and subtle wear on edges. No dramatic fantasy effects yet; desirability must come from precision, believable construction, and a readable base silhouette.\n\nUse case:\nWeapon Blueprint Rarity Ladder series study 1/9, establishing the reference weapon for later rarity escalation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no hands, no character, no firing effects, no exploded parts, no cross-section, no unreadable clutter, no oversized decorative ornaments",
+  "id": "01-reference-platform",
+  "title": "Reference Platform",
+  "description": "The base modular rifle platform that establishes silhouette, attachment rails, and material language for the rarity ladder.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the base rifle silhouette and material logic for the rarity fanout.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Platform",
+      "description": "The base modular rifle platform that establishes silhouette, attachment rails, and material language for the rarity ladder."
+    },
+    "zh-CN": {
+      "title": "Reference Platform",
+      "description": "The base modular rifle platform that establishes silhouette, attachment rails, and material language for the rarity ladder."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The base modular rifle platform that establishes silhouette, attachment rails, and material language for the rarity ladder.",
+      "zh-CN": "The base modular rifle platform that establishes silhouette, attachment rails, and material language for the rarity ladder."
+    }
+  }
+}

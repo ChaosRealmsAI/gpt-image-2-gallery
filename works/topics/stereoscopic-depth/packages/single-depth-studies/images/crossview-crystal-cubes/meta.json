@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA clean 2:1 image split into two equal side-by-side stereo views with no divider line. Both halves show the same tabletop still life from slightly different horizontal viewpoints, designed for cross-eye viewing.\n\nSubject:\nA set of translucent crystal cubes, matte ceramic spheres, and thin brass rods arranged on a dark reflective table. The left and right halves must match object identity, count, color, lighting, and placement, but with a small correct stereo parallax shift: nearer objects shift more than farther objects.\n\nImportant details:\nPhotorealistic studio product photography, precise binocular disparity, identical camera height in both halves, controlled rim light, crisp reflections, visible depth layers, subtle background grid for depth confirmation, no mismatched object count between halves.\n\nUse case:\nIndependent Prompt Atlas image testing whether a generated image can encode a usable side-by-side stereo pair.\n\nConstraints:\nNo readable text, no labels, no watermark, no logos, no extra objects in only one half, no vertical misalignment, no left-right style mismatch, preserve exact 2:1 aspect ratio.",
+  "id": "crossview-crystal-cubes",
+  "title": "Crossview Crystal Cubes",
+  "description": "A side-by-side stereo pair of crystal cubes and studio objects with controlled parallax.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "stereoscopic-depth",
+    "optical-illusion",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stereoscopic-depth/packages/single-depth-studies/images/crossview-crystal-cubes/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Crossview Crystal Cubes",
+      "description": "A side-by-side stereo pair of crystal cubes and studio objects with controlled parallax."
+    },
+    "zh-CN": {
+      "title": "交叉视水晶方块",
+      "description": "一张左右并排立体图，用受控视差展示水晶方块和棚拍物体。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "stereoscopic-depth",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A side-by-side stereo pair of crystal cubes with small controlled parallax.",
+      "zh-CN": "左右并排立体图，水晶方块带有细微受控视差。"
+    }
+  }
+}

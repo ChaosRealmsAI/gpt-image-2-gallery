@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square comparison layout on a muted industrial background with the base weapon centered and four attachment families arranged in disciplined radial clusters around it. Lighting is clean and analytical, like a polished UI marketing composite that still respects product photography principles.\n\nSubject:\nA fictional modular rifle platform accompanied by grouped attachment options: compact reflex optic versus enclosed sight hood, short compensator versus extended muzzle, folded skeletal stock versus reinforced brace, and slim magazine versus high-capacity magazine. The attachments should clearly belong to the same design family and feel ready for a shooter customization menu.\n\nImportant details:\nMake the comparison logic visually obvious through spacing, alignment, and tonal hierarchy rather than text. Each attachment group needs distinct silhouette differences and believable mounting interfaces. The central weapon should anchor the system, while the surrounding parts show customization breadth without turning the image into random clutter. Materials must stay consistent with a premium near-future armory aesthetic.\n\nUse case:\nWeapon Blueprint Rarity Ladder single study 9/9, summarizing modular customization options for armory and patch-note surfaces.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no cluttered sticker sheet feel, no hands, no battle background, no impossible connectors, no soft cartoon rendering, no broken geometry",
+  "id": "attachment-comparison-board",
+  "title": "Attachment Comparison Board",
+  "description": "A comparison board showing optic, muzzle, stock, and magazine attachment options in one readable armory layout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/attachment-comparison-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study for the same weapon ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Attachment Comparison Board",
+      "description": "A comparison board showing optic, muzzle, stock, and magazine attachment options in one readable armory layout."
+    },
+    "zh-CN": {
+      "title": "Attachment Comparison Board",
+      "description": "A comparison board showing optic, muzzle, stock, and magazine attachment options in one readable armory layout."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A comparison board showing optic, muzzle, stock, and magazine attachment options in one readable armory layout.",
+      "zh-CN": "A comparison board showing optic, muzzle, stock, and magazine attachment options in one readable armory layout."
+    }
+  }
+}

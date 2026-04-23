@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square single-image autostereogram-style pattern, designed like a repeating ocean texture that hides a raised 3D fish silhouette when viewed with relaxed divergent focus.\n\nSubject:\nA seamless field of small coral, bubbles, sand ripples, shells, and blue-green dot clusters. The visible surface should look like a regular repeating pattern, but the spacing should subtly encode one large hidden fish shape in the center with fins, tail, and body depth.\n\nImportant details:\nPattern-based hidden-depth image, precise horizontal repetition, small phase shifts creating the fish silhouette, ocean palette of teal, aqua, ivory, coral, and navy, dense but organized micro texture, no obvious fish outline at normal viewing distance.\n\nUse case:\nIndependent Prompt Atlas image testing whether a generated image can imitate hidden-depth autostereogram logic.\n\nConstraints:\nNo readable text, no watermark, no logos, no obvious central fish drawing, no random large icons, no broken repeat bands, no frame, preserve exact 1:1 aspect ratio.",
+  "id": "autostereogram-hidden-fish",
+  "title": "Autostereogram Hidden Fish",
+  "description": "A repeating ocean pattern intended to hide a central fish through autostereogram-style depth shifts.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "stereoscopic-depth",
+    "optical-illusion",
+    "pattern"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stereoscopic-depth/packages/single-depth-studies/images/autostereogram-hidden-fish/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Autostereogram Hidden Fish",
+      "description": "A repeating ocean pattern intended to hide a central fish through autostereogram-style depth shifts."
+    },
+    "zh-CN": {
+      "title": "隐藏鱼立体图",
+      "description": "一张海洋重复纹理，尝试通过隐藏深度位移藏入中央鱼形。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "stereoscopic-depth",
+      "pattern"
+    ],
+    "alt": {
+      "en": "A repeating ocean texture meant to hide a fish shape through autostereogram depth.",
+      "zh-CN": "重复海洋纹理中尝试通过立体深度藏入鱼形。"
+    }
+  }
+}

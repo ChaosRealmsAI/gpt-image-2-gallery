@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA formal portrait 4:5 patent drawing sheet with pure white background, thin black vector-like strokes, and a clean engineering layout.\n\nSubject:\nA compact drone folding arm joint shown in FIG. 1 assembled perspective, FIG. 2 top plan view, FIG. 3 hinge cross-section, and FIG. 4 exploded motor mount stack. Include numbered callouts 50, 52, 54, 56, 58, 60, 62, and 64 for arm tube, hinge pin, locking latch, motor plate, vibration damper, screw boss, wire channel, and propeller guard socket.\n\nImportant details:\nUSPTO-style drawing, strict monochrome, dashed hidden lines, section hatching through hinge, exploded parts aligned on one axis, small clean labels, thin leader lines, realistic mechanical relationships, no rendering shadows, no perspective clutter.\n\nUse case:\nIndependent Prompt Atlas image testing technical decomposition, readable callouts, and patent drawing style transfer.\n\nConstraints:\nOnly readable text should be FIG. 1, FIG. 2, FIG. 3, FIG. 4, and numeric callouts 50 through 64; no color, no logo, no watermark, no photorealistic drone render, no dense legal text, no handwritten annotations, preserve exact 4:5 aspect ratio.",
+  "id": "drone-arm-exploded-plate",
+  "title": "Drone Arm Exploded Plate",
+  "description": "A patent-style exploded technical plate for a folding drone arm joint.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "patent-diagram",
+    "technical-diagram",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/uspto-patent-diagram/packages/single-patent-plates/images/drone-arm-exploded-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Drone Arm Exploded Plate",
+      "description": "A patent-style exploded technical plate for a folding drone arm joint."
+    },
+    "zh-CN": {
+      "title": "无人机折臂专利图",
+      "description": "一张折叠无人机臂关节的专利风爆炸技术图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "patent-diagram",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A black-and-white patent plate showing an exploded folding drone arm joint.",
+      "zh-CN": "黑白专利图展示折叠无人机臂关节爆炸结构。"
+    }
+  }
+}

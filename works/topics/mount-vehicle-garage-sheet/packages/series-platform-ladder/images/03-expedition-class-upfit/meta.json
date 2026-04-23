@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square industrial garage hero angle with the same framing and vehicle placement as image 01, but under moodier tungsten-blue shop lighting that gives more weight to tires, wheel pods, storage brackets, and weather seals.\n\nSubject:\nThe exact same vehicle chassis from the reference model, now adapted into a rugged expedition class. Preserve exact frame, wheelbase, shell outline, propulsion placement, and cockpit proportions from the reference model. Add reinforced cargo rails, sealed side panniers or utility packs, chunkier surface guards, and sand-scuffed finishes that imply long-distance traversal without changing the core silhouette. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nThis variant should feel purpose-built for endurance while still belonging to the same product family. Use denser materials, dust-softened highlights, more robust fasteners, and practical hardware mounted flush to the body. Any utility additions must look bolted to existing attachment points rather than floating or mutating the vehicle shape. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact chassis from the reference model, no driver, no wilderness backdrop, no loose cargo cloud, no creature anatomy, no readable text",
+  "id": "03-expedition-class-upfit",
+  "title": "Expedition Class Upfit",
+  "description": "A heavier expedition variant that keeps the reference platform intact while adding durable utility hardware and weather-ready surfaces.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/03-expedition-class-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-garage-hero",
+        "meta_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/meta.json",
+        "image_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference structure while changing the requested surface treatment and crop logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Expedition Class Upfit",
+      "description": "A heavier expedition variant that keeps the reference platform intact while adding durable utility hardware and weather-ready surfaces."
+    },
+    "zh-CN": {
+      "title": "Expedition Class Upfit",
+      "description": "A heavier expedition variant that keeps the reference platform intact while adding durable utility hardware and weather-ready surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A heavier expedition variant that keeps the reference platform intact while adding durable utility hardware and weather-ready surfaces.",
+      "zh-CN": "A heavier expedition variant that keeps the reference platform intact while adding durable utility hardware and weather-ready surfaces."
+    }
+  }
+}

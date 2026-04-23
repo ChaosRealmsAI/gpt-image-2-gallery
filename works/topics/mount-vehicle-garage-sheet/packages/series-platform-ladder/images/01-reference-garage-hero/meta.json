@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square premium garage hero shot of the main vehicle floating in a controlled service bay with cool overhead strips, side kickers, and a clean floor reflection. The camera is a flattering three-quarter angle that reveals front profile, saddle or cockpit area, wheel pods, side fairings, and rear propulsion hardware without distortion.\n\nSubject:\nA high-performance rally hoverbike or compact futuristic mount vehicle shown alone, centered, and fully visible. The chassis should feel genuinely engineered, with believable panel breaks, suspension logic, intake channels, protected lighting units, and a stable silhouette designed for both side-profile readability and store-page desirability. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nThis image is the reference anchor for later variants. Lock the exact wheel or hover pod spacing, body shell outline, seat and cockpit proportions, rear propulsion mass, front fairing cut, and lighting placement. Surface treatment should prioritize honest hard materials: painted alloy, matte polymer, rubber tire or anti-grav housings, brushed fasteners, faint scratches, and premium showroom cleanliness. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rider, no environment clutter, no detached parts, no racing crowd, no unreadable signage, no exaggerated cartoon proportions",
+  "id": "01-reference-garage-hero",
+  "title": "Reference Garage Hero",
+  "description": "The reference vehicle that establishes the chassis, wheel geometry, and core material language for the garage system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Garage Hero",
+      "description": "The reference vehicle that establishes the chassis, wheel geometry, and core material language for the garage system."
+    },
+    "zh-CN": {
+      "title": "Reference Garage Hero",
+      "description": "The reference vehicle that establishes the chassis, wheel geometry, and core material language for the garage system."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The reference vehicle that establishes the chassis, wheel geometry, and core material language for the garage system.",
+      "zh-CN": "The reference vehicle that establishes the chassis, wheel geometry, and core material language for the garage system."
+    }
+  }
+}

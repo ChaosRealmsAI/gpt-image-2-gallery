@@ -1,0 +1,56 @@
+{
+  "id": "mount-vehicle-garage-sheet",
+  "slug": "mount-vehicle-garage-sheet",
+  "category": "technical",
+  "style": [
+    "3d-render",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Mount Vehicle Garage Sheet",
+  "short_title": "Garage Sheet",
+  "description": "Design mount or vehicle garage sheets that cover side profiles, liveries, class differences, and promotional hero angles in one system.",
+  "i18n": {
+    "en": {
+      "title": "Mount Vehicle Garage Sheet",
+      "short_title": "Garage Sheet",
+      "description": "Design mount or vehicle garage sheets that cover side profiles, liveries, class differences, and promotional hero angles in one system."
+    },
+    "zh-CN": {
+      "title": "坐骑与载具车库表",
+      "short_title": "车库表",
+      "description": "围绕坐骑、机车、赛车或机甲载具做车库表，既有侧视图和分类，也有宣传级英雄视角。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-platform-ladder",
+      "type": "series",
+      "title": "Platform Ladder",
+      "path": "packages/series-platform-ladder/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

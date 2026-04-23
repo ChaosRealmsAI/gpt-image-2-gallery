@@ -1,0 +1,64 @@
+{
+  "id": "single-armory-support-studies",
+  "type": "single",
+  "title": "Armory Support Studies",
+  "description": "Five independent armory support studies cover blueprint, exploded, materials, storefront, and attachment comparison surfaces.",
+  "creative_direction": "These independent studies translate the same near-future weapon ecosystem into technical and commercial support assets, emphasizing hard-surface credibility, readable comparison logic, and retail polish without reference dependencies.",
+  "cover_image": "images/orthographic-blueprint-sheet/image.png",
+  "i18n": {
+    "en": {
+      "title": "Armory Support Studies",
+      "description": "Five independent armory support studies cover blueprint, exploded, materials, storefront, and attachment comparison surfaces."
+    },
+    "zh-CN": {
+      "title": "军械补充研究",
+      "description": "五张独立补充图覆盖蓝图、爆炸图、材质板、商店主图和配件对比。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "orthographic-blueprint-sheet",
+      "title": "Orthographic Blueprint Sheet",
+      "image": "images/orthographic-blueprint-sheet/image.png",
+      "meta": "images/orthographic-blueprint-sheet/meta.json"
+    },
+    {
+      "id": "exploded-core-assembly",
+      "title": "Exploded Core Assembly",
+      "image": "images/exploded-core-assembly/image.png",
+      "meta": "images/exploded-core-assembly/meta.json"
+    },
+    {
+      "id": "materials-wear-board",
+      "title": "Materials Wear Board",
+      "image": "images/materials-wear-board/image.png",
+      "meta": "images/materials-wear-board/meta.json"
+    },
+    {
+      "id": "store-hero-angle",
+      "title": "Store Hero Angle",
+      "image": "images/store-hero-angle/image.png",
+      "meta": "images/store-hero-angle/meta.json"
+    },
+    {
+      "id": "attachment-comparison-board",
+      "title": "Attachment Comparison Board",
+      "image": "images/attachment-comparison-board/image.png",
+      "meta": "images/attachment-comparison-board/meta.json"
+    }
+  ]
+}

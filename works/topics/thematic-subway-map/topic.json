@@ -1,0 +1,51 @@
+{
+  "id": "thematic-subway-map",
+  "slug": "thematic-subway-map",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "title": "Thematic Subway Map",
+  "short_title": "Subway Map",
+  "description": "A Prompt Atlas theme for turning knowledge domains into subway-map diagrams with clear topology, transfer logic, structured hierarchy, and commercial-grade transit visual language.",
+  "i18n": {
+    "en": {
+      "title": "Thematic Subway Map",
+      "short_title": "Subway Map",
+      "description": "A Prompt Atlas theme for turning knowledge domains into subway-map diagrams with clear topology, transfer logic, structured hierarchy, and commercial-grade transit visual language."
+    },
+    "zh-CN": {
+      "title": "X 主题地铁路线图",
+      "short_title": "主题地铁",
+      "description": "把莎士比亚戏剧、哲学史、AI 发展史或中国朝代等知识体系抽象为地铁路线图,测试关系可视化、线路拓扑和商业制图质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-knowledge-transit-maps",
+      "type": "single",
+      "title": "Knowledge Transit Maps",
+      "path": "packages/single-knowledge-transit-maps/package.json"
+    }
+  ]
+}

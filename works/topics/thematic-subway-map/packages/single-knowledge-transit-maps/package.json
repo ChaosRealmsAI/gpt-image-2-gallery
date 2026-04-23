@@ -1,0 +1,83 @@
+{
+  "id": "single-knowledge-transit-maps",
+  "type": "single",
+  "title": "Knowledge Transit Maps",
+  "description": "Eight independent thematic subway-map diagrams that translate literature, philosophy, AI history, dynasties, music, climate, cuisine, and startup growth into route networks.",
+  "creative_direction": "Each image uses transit-map visual language as a reasoning diagram: color-coded routes, station ticks, transfer hubs, legend panels, line hierarchy, and clean commercial map styling. The topic is about topology and abstraction rather than geographic accuracy.",
+  "cover_image": "images/01-shakespeare-interchange/image.png",
+  "i18n": {
+    "en": {
+      "title": "Knowledge Transit Maps",
+      "description": "Eight independent thematic subway-map diagrams that translate literature, philosophy, AI history, dynasties, music, climate, cuisine, and startup growth into route networks."
+    },
+    "zh-CN": {
+      "title": "知识地铁图单图研究",
+      "description": "八张独立主题地铁路线图,把文学、哲学、AI 史、朝代、音乐、气候、美食和创业成长转化为线路网络。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-shakespeare-interchange",
+      "title": "Shakespeare Interchange",
+      "image": "images/01-shakespeare-interchange/image.png",
+      "meta": "images/01-shakespeare-interchange/meta.json"
+    },
+    {
+      "id": "02-philosophy-lineage",
+      "title": "Philosophy Lineage",
+      "image": "images/02-philosophy-lineage/image.png",
+      "meta": "images/02-philosophy-lineage/meta.json"
+    },
+    {
+      "id": "03-ai-history-rail",
+      "title": "AI History Rail",
+      "image": "images/03-ai-history-rail/image.png",
+      "meta": "images/03-ai-history-rail/meta.json"
+    },
+    {
+      "id": "04-chinese-dynasty-network",
+      "title": "Chinese Dynasty Network",
+      "image": "images/04-chinese-dynasty-network/image.png",
+      "meta": "images/04-chinese-dynasty-network/meta.json"
+    },
+    {
+      "id": "05-jazz-evolution-map",
+      "title": "Jazz Evolution Map",
+      "image": "images/05-jazz-evolution-map/image.png",
+      "meta": "images/05-jazz-evolution-map/meta.json"
+    },
+    {
+      "id": "06-climate-system-loop",
+      "title": "Climate System Loop",
+      "image": "images/06-climate-system-loop/image.png",
+      "meta": "images/06-climate-system-loop/meta.json"
+    },
+    {
+      "id": "07-world-cuisine-lines",
+      "title": "World Cuisine Lines",
+      "image": "images/07-world-cuisine-lines/image.png",
+      "meta": "images/07-world-cuisine-lines/meta.json"
+    },
+    {
+      "id": "08-startup-growth-transit",
+      "title": "Startup Growth Transit",
+      "image": "images/08-startup-growth-transit/image.png",
+      "meta": "images/08-startup-growth-transit/meta.json"
+    }
+  ]
+}

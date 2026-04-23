@@ -1,0 +1,71 @@
+{
+  "id": "series-rarity-ladder",
+  "type": "series",
+  "title": "Rarity Ladder",
+  "description": "One reference weapon expands through rare, epic, and legendary treatments while preserving the same platform silhouette.",
+  "creative_direction": "Image 01 establishes a believable near-future rifle platform; images 02-04 use it as a strict reference and scale cosmetics, materials, and emissive treatment upward across the rarity ladder without redesigning the weapon.",
+  "cover_image": "images/01-reference-platform/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-platform/meta.json",
+      "images/02-rare-tactical-upfit/meta.json",
+      "images/03-epic-energy-upfit/meta.json",
+      "images/04-legendary-relic-upfit/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rarity Ladder",
+      "description": "One reference weapon expands through rare, epic, and legendary treatments while preserving the same platform silhouette."
+    },
+    "zh-CN": {
+      "title": "稀有度梯度系列",
+      "description": "一把基准武器扩展为稀有、史诗和传奇版本，同时保持相同平台轮廓。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-platform",
+      "title": "Reference Platform",
+      "image": "images/01-reference-platform/image.png",
+      "meta": "images/01-reference-platform/meta.json"
+    },
+    {
+      "id": "02-rare-tactical-upfit",
+      "title": "Rare Tactical Upfit",
+      "image": "images/02-rare-tactical-upfit/image.png",
+      "meta": "images/02-rare-tactical-upfit/meta.json"
+    },
+    {
+      "id": "03-epic-energy-upfit",
+      "title": "Epic Energy Upfit",
+      "image": "images/03-epic-energy-upfit/image.png",
+      "meta": "images/03-epic-energy-upfit/meta.json"
+    },
+    {
+      "id": "04-legendary-relic-upfit",
+      "title": "Legendary Relic Upfit",
+      "image": "images/04-legendary-relic-upfit/image.png",
+      "meta": "images/04-legendary-relic-upfit/meta.json"
+    }
+  ]
+}

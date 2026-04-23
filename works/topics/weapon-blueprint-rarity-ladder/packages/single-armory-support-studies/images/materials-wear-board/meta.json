@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square material study board photographed like a premium industrial design review, with macro close-ups tiled around one small full weapon silhouette in the center. Lighting is cool, controlled, and slightly raking so brushed surfaces, bead blasting, polymer grain, and coated edge wear remain highly legible without becoming glossy noise.\n\nSubject:\nA fictional shooter weapon family represented through surface samples: black ceramic shell panel, midnight blue rare coating, oil-slick epic alloy, obsidian legendary finish, translucent energy window insert, rubber grip overmold, and machined titanium fastener cluster. Each sample should feel pulled from the same rifle platform and arranged around the central weapon reference.\n\nImportant details:\nThis image must prioritize tactile credibility. Show micro scratches, edge burnish, fine machining grooves, grip stipple, layered clearcoat depth, and subtle heat discoloration near the muzzle components. The board should read like something used by weapon artists deciding rarity treatments and wear passes. Graphic separators can exist as simple lines and shapes, but no readable annotations.\n\nUse case:\nWeapon Blueprint Rarity Ladder single study 7/9, focusing on material hierarchy and believable surface wear.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no character, no muddy blur, no fantasy gemstones floating loose, no soft plastic toy finish, no random collage clutter, no non-square crop",
+  "id": "materials-wear-board",
+  "title": "Materials Wear Board",
+  "description": "A materials board comparing coatings, edge wear, grip texture, and energy-window finishes across the weapon family.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/single-armory-support-studies/images/materials-wear-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study for the same weapon ecosystem.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Materials Wear Board",
+      "description": "A materials board comparing coatings, edge wear, grip texture, and energy-window finishes across the weapon family."
+    },
+    "zh-CN": {
+      "title": "Materials Wear Board",
+      "description": "A materials board comparing coatings, edge wear, grip texture, and energy-window finishes across the weapon family."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A materials board comparing coatings, edge wear, grip texture, and energy-window finishes across the weapon family.",
+      "zh-CN": "A materials board comparing coatings, edge wear, grip texture, and energy-window finishes across the weapon family."
+    }
+  }
+}

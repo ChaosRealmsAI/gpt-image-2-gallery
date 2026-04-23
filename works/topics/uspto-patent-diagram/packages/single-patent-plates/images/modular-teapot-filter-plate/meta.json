@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA portrait 4:5 black-and-white patent drawing sheet, pure white background, crisp technical linework, and formal multi-figure arrangement.\n\nSubject:\nA modular teapot filter assembly shown as FIG. 1 assembled teapot section view, FIG. 2 removable filter basket, FIG. 3 locking bayonet ring, and FIG. 4 exploded seal stack. Include numbered callouts 30, 32, 34, 36, 38, 40, 42, and 44 with thin leader lines pointing to spout, lid, filter mesh, gasket, handle, ring tab, flow holes, and tea chamber.\n\nImportant details:\nUSPTO-style monochrome line art, clean section hatching, dashed hidden edges, precise exploded alignment, small Arial-like figure labels, consistent stroke weight, technical clarity, no decorative illustration style, enough whitespace to read every component.\n\nUse case:\nIndependent Prompt Atlas image testing engineering linework, callout consistency, and structured patent sheet composition.\n\nConstraints:\nOnly readable text should be FIG. 1, FIG. 2, FIG. 3, FIG. 4, and numeric callouts 30 through 44; no color, no logo, no watermark, no photorealism, no long paragraphs, no handwritten marks, preserve exact 4:5 aspect ratio.",
+  "id": "modular-teapot-filter-plate",
+  "title": "Modular Teapot Filter Plate",
+  "description": "A patent-style technical plate for a modular teapot filter assembly.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "patent-diagram",
+    "technical-diagram",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/uspto-patent-diagram/packages/single-patent-plates/images/modular-teapot-filter-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Modular Teapot Filter Plate",
+      "description": "A patent-style technical plate for a modular teapot filter assembly."
+    },
+    "zh-CN": {
+      "title": "模块茶壶滤器专利图",
+      "description": "一张模块化茶壶滤器组件的专利风技术图版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "patent-diagram",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A black-and-white patent sheet showing a modular teapot filter with numbered callouts.",
+      "zh-CN": "黑白专利图展示模块化茶壶滤器和编号标注。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square technical garage board on a dark drafting surface with evenly lit side profiles, rear and front silhouettes, and a few detail insets laid out in disciplined rows.\n\nSubject:\nThe same vehicle family rendered as clear orthographic garage references, with side elevation, rear read, front symmetry view, and close insets for wheel housings, cockpit trim, and propulsion modules. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nPrioritize side-profile clarity, class readability, and believable manufacturing seams. Use abstract callout lines, shape-based markers, material swatches, and soft drafting textures without any readable annotations. The board should feel suitable for an internal garage bible or patch explainer. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no rider, no warped perspective, no cluttered collage, no random spare parts",
+  "id": "orthographic-side-sheet",
+  "title": "Orthographic Side Sheet",
+  "description": "A side-profile garage sheet translating the vehicle family into clean orthographic presentation views.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/single-support-studies/images/orthographic-side-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Orthographic Side Sheet",
+      "description": "A side-profile garage sheet translating the vehicle family into clean orthographic presentation views."
+    },
+    "zh-CN": {
+      "title": "Orthographic Side Sheet",
+      "description": "A side-profile garage sheet translating the vehicle family into clean orthographic presentation views."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A side-profile garage sheet translating the vehicle family into clean orthographic presentation views.",
+      "zh-CN": "A side-profile garage sheet translating the vehicle family into clean orthographic presentation views."
+    }
+  }
+}

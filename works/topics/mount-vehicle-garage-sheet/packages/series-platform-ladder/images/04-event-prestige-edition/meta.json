@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square top-tier garage storefront render with the same base angle and silhouette as the reference, lit by elegant gold-cyan contrast, a subtle background haze, and dark architectural framing that leaves the vehicle fully legible.\n\nSubject:\nThe exact same vehicle chassis from the reference model presented as a prestige event edition. Preserve exact frame, wheel or hover pod placement, cockpit scale, front fairing, rear propulsion shape, and overall proportions from the reference model. Elevate the finish with obsidian paint, luminous inset strips, polished alloy details, and premium saddle or cockpit materials. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nPrestige should come from disciplined luxury and engineering precision, not from redesigning the machine. Add richer reflections, finer trim lines, flush energy channels, and a few collectible-quality hardware details that still feel manufacturable. The result must work equally as a garage unlock render and a season reward hero asset. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact chassis from the reference model, no rider, no race explosion, no floating ornaments, no fantasy animal head motifs, no readable branding",
+  "id": "04-event-prestige-edition",
+  "title": "Event Prestige Edition",
+  "description": "A prestige event finish that preserves the reference platform while pushing premium lighting, trim, and collectible desirability.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/04-event-prestige-edition/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-garage-hero",
+        "meta_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/meta.json",
+        "image_path": "works/topics/mount-vehicle-garage-sheet/packages/series-platform-ladder/images/01-reference-garage-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference structure while changing the requested surface treatment and crop logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Event Prestige Edition",
+      "description": "A prestige event finish that preserves the reference platform while pushing premium lighting, trim, and collectible desirability."
+    },
+    "zh-CN": {
+      "title": "Event Prestige Edition",
+      "description": "A prestige event finish that preserves the reference platform while pushing premium lighting, trim, and collectible desirability."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A prestige event finish that preserves the reference platform while pushing premium lighting, trim, and collectible desirability.",
+      "zh-CN": "A prestige event finish that preserves the reference platform while pushing premium lighting, trim, and collectible desirability."
+    }
+  }
+}

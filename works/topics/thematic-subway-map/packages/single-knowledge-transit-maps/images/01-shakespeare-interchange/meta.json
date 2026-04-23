@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square poster-style transit diagram on clean off-white paper, viewed straight-on with precise vector-like linework. The overall language should recall a premium city subway map: colored route lines, circular stations, transfer hubs, a small legend panel, and disciplined margins. Use warm ivory background, black station outlines, and six saturated but tasteful route colors. Keep the lighting flat and print-like, not photorealistic.\n\nSubject:\nA thematic subway map that abstracts Shakespeare's dramatic universe into routes. One red tragedy line, one blue comedy line, one gold history line, one green romance line, one violet power line, and one gray mistaken-identity line cross through a central interchange shaped like a stage. Station dots cluster as play-like narrative nodes, with larger transfer circles where themes overlap: ambition, exile, disguise, royal succession, revenge, and reconciliation. Small theater icons and mask symbols mark major route families.\n\nImportant details:\nThe map must look logically planned, not like random spaghetti. Lines should run at transit-map angles, mostly horizontal, vertical, or forty-five degrees, with clean bends, consistent station spacing, and clear crossings. Use tiny non-readable glyph blocks where labels would be; no actual readable words. The viewer should understand the knowledge abstraction through line color, transfers, icons, and hierarchy. Include a tidy legend area made of colored swatches and glyph marks, but no legible text.\n\nUse case:\nThematic Subway Map single study 1/8, testing literary relationship abstraction through professional transit-map topology and transfer logic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real transit authority branding, no map of London geography, no messy overlapping labels, no random colored noodles, no perspective tilt, no torn-paper texture.",
+  "id": "01-shakespeare-interchange",
+  "title": "Shakespeare Interchange",
+  "description": "A subway-map abstraction of Shakespearean genres and recurring dramatic themes with stage-like transfer hubs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/01-shakespeare-interchange/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Shakespeare Interchange",
+      "description": "A subway-map abstraction of Shakespearean genres and recurring dramatic themes with stage-like transfer hubs."
+    },
+    "zh-CN": {
+      "title": "莎剧换乘站",
+      "description": "把莎士比亚戏剧类型和反复出现的主题抽象为地铁线路,用舞台式换乘枢纽组织关系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A clean transit-style diagram where colored subway lines represent Shakespearean genres and theme intersections.",
+      "zh-CN": "一张整洁的地铁式图表,彩色线路代表莎剧类型和主题交汇。"
+    }
+  }
+}

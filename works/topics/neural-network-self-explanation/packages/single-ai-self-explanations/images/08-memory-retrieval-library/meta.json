@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal image of an impossible library where a neural network explains retrieval-augmented memory. Use warm archival lighting, tall shelves, translucent catalog drawers, fiber-optic index lines, and a central glass reading table. The space should feel like a real library merged with a precise technical diagram.\n\nSubject:\nA query sphere enters the scene at the front edge, splits into several search rays, and activates relevant memory shelves as glowing document blocks. A ranking conveyor brings a small set of retrieved blocks to the center table, where they are compressed into context ribbons feeding a neural response lattice at the back. Non-retrieved shelves remain dim. Use abstract citation markers, similarity rings, and symbolic annotation cards without readable text.\n\nImportant details:\nThe process must distinguish storage, search, retrieval, ranking, context assembly, and answer generation. Do not show every shelf glowing. The retrieved blocks should be visibly selected from a larger archive and then assembled into a compact context bundle. Keep library materials tactile: wood, paper, brass, glass, dust, and warm light. The data-flow overlays should be clean, sparse, and anchored to objects, not floating randomly.\n\nUse case:\nNeural Network Self-Explanation single study 8/8, testing retrieval-augmented generation as a photoreal library with query, search, ranking, and context assembly flows.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real book titles, no citations, no code, no private chain-of-thought, no all-shelves-glowing pattern, no magical fantasy library, no random paper storms, no disconnected response lattice.",
+  "id": "08-memory-retrieval-library",
+  "title": "Memory Retrieval Library",
+  "description": "A retrieval library showing query search, selected memory blocks, ranking, context assembly, and response flow.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "reasoning-composition",
+    "data-visualization",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/08-memory-retrieval-library/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent retrieval memory explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Memory Retrieval Library",
+      "description": "A retrieval library showing query search, selected memory blocks, ranking, context assembly, and response flow."
+    },
+    "zh-CN": {
+      "title": "记忆检索图书馆",
+      "description": "检索图书馆展示查询搜索、选中记忆块、排序、上下文组装和响应流。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A warm library installation where a query sphere retrieves selected memory blocks and assembles context ribbons.",
+      "zh-CN": "温暖图书馆装置中，查询球检索选中的记忆块并组装上下文丝带。"
+    }
+  }
+}

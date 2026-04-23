@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square music-culture poster designed as a metropolitan subway map on matte cream paper. The map is crisp and front-facing, with a subtle record-sleeve sensibility but no album art or artist portraits. Use a lively yet controlled palette: brass gold, deep blue, smoky black, warm red, mint green, and muted violet. The lines should feel rhythmic while still obeying strict transit-diagram geometry.\n\nSubject:\nA thematic subway map of jazz evolution. Route lines represent blues roots, swing, bebop, cool jazz, hard bop, modal, fusion, free jazz, and contemporary scenes. A central improvisation interchange connects many routes, while side branches show rhythm sections, horn language, club culture, recording technology, and global influence. Station dots form syncopated clusters, with larger transfer circles where styles merge. Small non-readable icon marks suggest saxophones, drums, piano keys, vinyl records, microphones, and dancing silhouettes.\n\nImportant details:\nThe composition must balance musical energy with map clarity. Lines may curve gently like phrasing, but they should still use consistent stroke widths, clear bends, regular station intervals, and readable transfer hubs. Avoid making it look like abstract album-cover scribbles. All label zones should be tiny non-readable glyph blocks; no actual performer names or song titles. Include a clean legend strip with colored route samples, icons, and station symbols, but no legible text.\n\nUse case:\nThematic Subway Map single study 5/8, testing cultural evolution mapping, rhythmic route composition, and polished music-poster diagram design.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real musician likenesses, no record label marks, no sheet music notation, no nightclub photo background, no chaotic swirls, no fake readable album titles.",
+  "id": "05-jazz-evolution-map",
+  "title": "Jazz Evolution Map",
+  "description": "A transit-map poster translating jazz styles, roots, and influence routes into a structured music knowledge network.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/05-jazz-evolution-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for music evolution mapping."
+  },
+  "i18n": {
+    "en": {
+      "title": "Jazz Evolution Map",
+      "description": "A transit-map poster translating jazz styles, roots, and influence routes into a structured music knowledge network."
+    },
+    "zh-CN": {
+      "title": "爵士演化地图",
+      "description": "把爵士风格、根源和影响路线转化为结构化音乐知识地铁图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A music-culture subway map where jazz styles branch, merge, and transfer through colored route lines.",
+      "zh-CN": "一张音乐文化地铁图,爵士风格通过彩色线路分支、汇合和换乘。"
+    }
+  }
+}

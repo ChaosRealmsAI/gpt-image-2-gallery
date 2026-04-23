@@ -1,0 +1,71 @@
+{
+  "id": "series-platform-ladder",
+  "type": "series",
+  "title": "Platform Ladder",
+  "description": "One reference-led core sequence for Garage Sheet, followed by three controlled variants that preserve the same visual system.",
+  "creative_direction": "Image 01 locks the core visual language for Mount Vehicle Garage Sheet; images 02-04 depend on it and scale surface treatment, crop emphasis, or role framing without losing continuity.",
+  "cover_image": "images/01-reference-garage-hero/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-garage-hero/meta.json",
+      "images/02-rally-livery-upfit/meta.json",
+      "images/03-expedition-class-upfit/meta.json",
+      "images/04-event-prestige-edition/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Platform Ladder",
+      "description": "Reference-led sequence for Garage Sheet."
+    },
+    "zh-CN": {
+      "title": "Platform Ladder",
+      "description": "Reference-led sequence for Garage Sheet."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-garage-hero",
+      "title": "Reference Garage Hero",
+      "image": "images/01-reference-garage-hero/image.png",
+      "meta": "images/01-reference-garage-hero/meta.json"
+    },
+    {
+      "id": "02-rally-livery-upfit",
+      "title": "Rally Livery Upfit",
+      "image": "images/02-rally-livery-upfit/image.png",
+      "meta": "images/02-rally-livery-upfit/meta.json"
+    },
+    {
+      "id": "03-expedition-class-upfit",
+      "title": "Expedition Class Upfit",
+      "image": "images/03-expedition-class-upfit/image.png",
+      "meta": "images/03-expedition-class-upfit/meta.json"
+    },
+    {
+      "id": "04-event-prestige-edition",
+      "title": "Event Prestige Edition",
+      "image": "images/04-event-prestige-edition/image.png",
+      "meta": "images/04-event-prestige-edition/meta.json"
+    }
+  ]
+}

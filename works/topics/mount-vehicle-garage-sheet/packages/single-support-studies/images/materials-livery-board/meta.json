@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square macro material board photographed like a luxury transportation design review, with close-up chips and textures arranged around a small center vehicle silhouette.\n\nSubject:\nSurface samples from the same vehicle system: painted alloy, brushed metal, rubberized tread, translucent light strip, weathered expedition shell, and prestige gloss panels. The subject theme is a fictional garage fleet built around a premium rally hoverbike chassis with modular panels, suspension pods, and luminous trim.\n\nImportant details:\nFocus on tactile credibility through machining marks, edge wear, coating depth, molded texture, and controlled reflections. Graphic dividers may appear as clean lines and panels, but no readable labels should exist. Keep the whole image pure English and image-led, with no readable text anywhere.\n\nUse case:\nGarage Sheet single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no rider, no muddy blur, no random color explosion, no toy-like plastic simplification",
+  "id": "materials-livery-board",
+  "title": "Materials Livery Board",
+  "description": "A material board comparing paint, alloy, rubber, and luminous trim finishes across the garage lineup.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mount-vehicle-garage-sheet/packages/single-support-studies/images/materials-livery-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Establish the primary visual language for this package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Materials Livery Board",
+      "description": "A material board comparing paint, alloy, rubber, and luminous trim finishes across the garage lineup."
+    },
+    "zh-CN": {
+      "title": "Materials Livery Board",
+      "description": "A material board comparing paint, alloy, rubber, and luminous trim finishes across the garage lineup."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A material board comparing paint, alloy, rubber, and luminous trim finishes across the garage lineup.",
+      "zh-CN": "A material board comparing paint, alloy, rubber, and luminous trim finishes across the garage lineup."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square premium weapon-card render using the same viewpoint and armory bay as image 01, but with deeper shadows, hotter cyan edge lighting, and a restrained bloom that hints at advanced power systems. The background remains neutral and minimal so the viewer can compare silhouette continuity directly against the earlier tiers.\n\nSubject:\nThe exact same modular rifle platform from the reference image, now interpreted as an epic-tier upgrade. Preserve exact silhouette, stock length, receiver profile, grip angle, optic placement, barrel shroud, rail spacing, and overall body proportions from the reference model. Add internal energy conduits visible through thin translucent slots, a denser layered finish of graphite ceramic and oil-slick alloy, and a more engineered high-tier optic without changing the outline.\n\nImportant details:\nEpic rarity should feel like the weapon has moved from tactical issue to elite prototype. Introduce brighter reactive seams, higher precision vent cuts, subtle translucent inserts, and richer specular separation between metals, polymers, and coated composite panels. The effect energy must remain disciplined and built into the hardware, never floating around it. Mechanical readability stays primary: screws, panel lines, and assembly logic should still make sense at a glance.\n\nUse case:\nWeapon Blueprint Rarity Ladder series study 3/9, escalating the same rifle into an epic-tier prototype treatment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact silhouette from the reference model, no character, no environmental debris, no loose sparks cloud, no overgrown ornament, no impossible floating geometry, no readable text",
+  "id": "03-epic-energy-upfit",
+  "title": "Epic Energy Upfit",
+  "description": "An epic-tier variant that keeps the reference geometry intact while introducing brighter energy channels and denser material contrast.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/03-epic-energy-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-platform",
+        "meta_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/meta.json",
+        "image_path": "works/topics/weapon-blueprint-rarity-ladder/packages/series-rarity-ladder/images/01-reference-platform/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference weapon silhouette while escalating rarity treatment.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Epic Energy Upfit",
+      "description": "An epic-tier variant that keeps the reference geometry intact while introducing brighter energy channels and denser material contrast."
+    },
+    "zh-CN": {
+      "title": "Epic Energy Upfit",
+      "description": "An epic-tier variant that keeps the reference geometry intact while introducing brighter energy channels and denser material contrast."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An epic-tier variant that keeps the reference geometry intact while introducing brighter energy channels and denser material contrast.",
+      "zh-CN": "An epic-tier variant that keeps the reference geometry intact while introducing brighter energy channels and denser material contrast."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square red-cyan anaglyph image of a futuristic glass corridor, composed so it can be viewed with red-cyan 3D glasses. The corridor recedes deeply from foreground to background.\n\nSubject:\nTransparent glass panels, floating white guide rails, suspended translucent cubes, and a central walkway. Near cubes should have strong red-cyan separation, midground panels moderate separation, and far background almost aligned, creating believable depth.\n\nImportant details:\nPhotorealistic architectural render, precise anaglyph channel offset, cyan and red fringes only where stereo separation should occur, glossy glass refraction, symmetrical perspective, clean vanishing point, dark floor reflection, high contrast but not chaotic.\n\nUse case:\nIndependent Prompt Atlas image testing anaglyph depth encoding and optical material rendering.\n\nConstraints:\nNo readable text, no watermark, no logos, no people, no random color fringing unrelated to depth, no tilted horizon, no broken corridor symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "anaglyph-glass-corridor",
+  "title": "Anaglyph Glass Corridor",
+  "description": "A red-cyan anaglyph corridor with depth encoded through controlled channel separation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "stereoscopic-depth",
+    "optical-illusion",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stereoscopic-depth/packages/single-depth-studies/images/anaglyph-glass-corridor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Anaglyph Glass Corridor",
+      "description": "A red-cyan anaglyph corridor with depth encoded through controlled channel separation."
+    },
+    "zh-CN": {
+      "title": "红蓝玻璃走廊",
+      "description": "一张红蓝 3D 玻璃走廊，用受控通道偏移表现深度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "stereoscopic-depth",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A red-cyan anaglyph glass corridor with stronger separation in the foreground.",
+      "zh-CN": "红蓝 3D 玻璃走廊，前景通道偏移更明显。"
+    }
+  }
+}

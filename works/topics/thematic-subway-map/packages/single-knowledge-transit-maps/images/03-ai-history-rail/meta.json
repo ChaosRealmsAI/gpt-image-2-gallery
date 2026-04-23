@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square technology exhibition poster designed as a clean subway map on white synthetic paper. The map is straight-on, flat, and highly structured, using crisp digital linework, small station nodes, and a dark navy header band made only of abstract glyph marks. Use a modern palette of electric blue, neural green, orange, magenta, black, and silver gray, but keep the overall design disciplined and not cyberpunk.\n\nSubject:\nA thematic transit diagram of AI development from early symbolic ideas to contemporary multimodal systems. Route lines represent symbolic AI, expert systems, machine learning, neural networks, reinforcement learning, computer vision, language models, and image generation. The network begins at a left-side origin hub, moves through several winter-like sparse sections, thickens around a deep-learning interchange, and expands into a dense modern terminal cluster. Transfer stations mark moments where methods converge: data scale, GPUs, attention, self-supervision, alignment, tools, and multimodal interfaces.\n\nImportant details:\nThe map should show historical reasoning through topology, not readable dates. Use station density to imply periods of rapid progress, long straight segments for slow eras, and large multi-ring interchanges for breakthroughs. Small icon glyphs may suggest chips, eyes, speech bubbles, robots, and image tiles, but all labels must be non-readable. Keep line crossings clean, route colors consistent, and legend blocks tidy. The poster should feel like a museum-grade technical diagram and commercial educational product.\n\nUse case:\nThematic Subway Map single study 3/8, testing AI-history abstraction, dense route logic, and clean technical-diagram hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real company marks, no actual model names, no readable years, no fake UI screenshots, no chaotic circuit-board background, no messy station labels.",
+  "id": "03-ai-history-rail",
+  "title": "AI History Rail",
+  "description": "A transit-map abstraction of AI development eras, method lines, and breakthrough transfer hubs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thematic-subway-map/packages/single-knowledge-transit-maps/images/03-ai-history-rail/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent thematic transit diagram for AI development history."
+  },
+  "i18n": {
+    "en": {
+      "title": "AI History Rail",
+      "description": "A transit-map abstraction of AI development eras, method lines, and breakthrough transfer hubs."
+    },
+    "zh-CN": {
+      "title": "AI 历史轨道",
+      "description": "把 AI 发展阶段、方法路线和突破节点抽象为科技展览式地铁图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A technology subway map where AI methods branch and converge through breakthrough interchange stations.",
+      "zh-CN": "一张科技地铁图,AI 方法路线在突破性换乘站处分支和汇合。"
+    }
+  }
+}

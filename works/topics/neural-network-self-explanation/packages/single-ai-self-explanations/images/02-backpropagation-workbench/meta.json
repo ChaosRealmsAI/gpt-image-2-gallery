@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal studio photograph of a technical workbench where a neural network explains how it learns. The surface is matte black with transparent acrylic layers, brass pins, fiber-optic lines, and precise shadows. Use controlled lab lighting, shallow depth of field, and a top-down three-quarter angle that keeps the full training loop visible.\n\nSubject:\nA physical backpropagation diagram built from miniature components. Forward activations travel left to right through stacked glass layers of nodes, producing a small output crystal. A red error signal returns right to left through thinner reverse paths, splitting into gradient arrows that adjust tiny weight dials between layers. Show loss as an abstract glowing basin, parameter updates as calibrated sliders, and learning progress as clean non-readable tick marks. The entire workbench should feel like the model has assembled a tabletop explanation of its own training cycle.\n\nImportant details:\nThe flow must be directional and coherent: inputs activate layers, output is compared to a target-like abstract shape, error propagates backward, gradients touch weights, and the next forward pass is implied. Use contrasting line styles for forward signal and backward correction. Keep nodes aligned in layers, avoid decorative circuitry, and make the weight adjustments physically attached to connections. The result should look rigorous but visually striking.\n\nUse case:\nNeural Network Self-Explanation single study 2/8, testing backpropagation as a physical workbench with forward activations and backward gradient flow.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real equations, no code, no brand hardware, no random circuit-board texture, no tangled arrows, no private chain-of-thought, no human hands, no disconnected update dials.",
+  "id": "02-backpropagation-workbench",
+  "title": "Backpropagation Workbench",
+  "description": "A physical training-loop workbench showing forward activation, loss, gradients, and weight updates.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "reasoning-composition",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/neural-network-self-explanation/packages/single-ai-self-explanations/images/02-backpropagation-workbench/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent backpropagation explanation study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Backpropagation Workbench",
+      "description": "A physical training-loop workbench showing forward activation, loss, gradients, and weight updates."
+    },
+    "zh-CN": {
+      "title": "反向传播工作台",
+      "description": "用实体训练回路工作台表现前向激活、损失、梯度和权重更新。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A tabletop backpropagation diagram with forward light paths, a loss basin, reverse gradients, and weight dials.",
+      "zh-CN": "桌面反向传播图中有前向光路、损失盆、反向梯度和权重旋钮。"
+    }
+  }
+}
