@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square fashion collage arranged as a crisp 3 by 3 social-feed outfit grid with thin cream gutters, clean margins, and no readable interface text. The lighting echoes a northern studio: dark background, cool side light, luminous skin tones, and small highlights on fabric and jewelry. The full composition should feel like a luxury editorial post made from an old painting and a modern wardrobe session.\n\nSubject:\nA young painted portrait figure inspired by a Dutch golden-age tronie, with a blue-and-gold head wrap, pearl earring, turned shoulder, parted lips, and softly glazed face. Preserve the painted head and luminous old-master surface, but style the body in modern outfit pieces: cropped navy bomber, white ribbed tank, wide indigo denim, silver belt, pale low-profile sneakers, and a compact crescent bag. The sitter appears in multiple grid panels as the same person.\n\nImportant details:\nEach panel should serve a fashion purpose: center full-body fit check, close-up of the head wrap and pearl, sneaker crop, bomber sleeve detail, bag silhouette, three-quarter portrait, seated pose, denim texture, and shadowed profile. The painted head must remain visibly historical while the garments read contemporary. Keep the nine panels aligned and visually related through consistent lighting, color, and identity.\n\nUse case:\nPainting Character OOTD single study 5/8, an independent art-history fit-check layout without reference dependencies.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no extra people, no changed head wrap, no mismatched outfit pieces, no broken grid, no photographic face replacement.",
+  "id": "01-pearl-earring-fit-check",
+  "title": "Pearl Earring Fit Check",
+  "description": "A Dutch golden-age portrait archetype restyled into a modern nine-panel fashion fit check.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "social-feed",
+    "editorial-illustration",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/single-art-history-ootd-studies/images/01-pearl-earring-fit-check/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing painted-head preservation in a Dutch portrait OOTD grid."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pearl Earring Fit Check",
+      "description": "A Dutch golden-age portrait archetype restyled into a modern nine-panel fashion fit check."
+    },
+    "zh-CN": {
+      "title": "珍珠耳环试穿",
+      "description": "荷兰黄金时代肖像类型被改造成现代九宫格穿搭试拍。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "social-feed",
+      "single"
+    ],
+    "alt": {
+      "en": "A Dutch old-master portrait figure wearing modern denim and a bomber jacket in a nine-panel fit check.",
+      "zh-CN": "荷兰旧大师肖像人物穿现代牛仔和飞行夹克,出现在九宫格试穿图中。"
+    }
+  }
+}

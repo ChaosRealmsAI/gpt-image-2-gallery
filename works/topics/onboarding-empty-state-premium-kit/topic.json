@@ -1,0 +1,52 @@
+{
+  "id": "onboarding-empty-state-premium-kit",
+  "slug": "onboarding-empty-state-premium-kit",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Onboarding Empty State Premium Kit",
+  "short_title": "Onboarding Kit",
+  "description": "A Prompt Atlas theme for Onboarding Empty State Premium Kit, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Onboarding Empty State Premium Kit",
+      "short_title": "Onboarding Kit",
+      "description": "Create onboarding and empty-state kits that make product beginnings feel thoughtful, premium, and brand-specific."
+    },
+    "zh-CN": {
+      "title": "引导与空状态高级套件",
+      "short_title": "空状态套件",
+      "description": "做 onboarding 与空状态高级套件，提升产品第一印象和完整度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

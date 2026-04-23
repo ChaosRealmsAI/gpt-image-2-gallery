@@ -1,0 +1,60 @@
+{
+  "id": "single-art-history-ootd-studies",
+  "type": "single",
+  "title": "Art History OOTD Studies",
+  "description": "Four independent outfit-grid studies translating different public-domain painting archetypes into modern fashion editorials without reference dependencies.",
+  "creative_direction": "Independent structured-layout studies: each image uses a different art-history visual language, keeps the painted-head illusion, and tests whether a social-feed OOTD composition can stay clear without readable UI text.",
+  "cover_image": "images/01-pearl-earring-fit-check/image.png",
+  "i18n": {
+    "en": {
+      "title": "Art History OOTD Studies",
+      "description": "Four independent outfit-grid studies translating different public-domain painting archetypes into modern fashion editorials without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "艺术史 OOTD 单图研究",
+      "description": "四张独立图把不同公共领域名画类型转译为现代穿搭编辑版式，不依赖参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "social-feed",
+      "editorial-illustration",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-pearl-earring-fit-check",
+      "title": "Pearl Earring Fit Check",
+      "image": "images/01-pearl-earring-fit-check/image.png",
+      "meta": "images/01-pearl-earring-fit-check/meta.json"
+    },
+    {
+      "id": "02-baroque-tailor-carousel",
+      "title": "Baroque Tailor Carousel",
+      "image": "images/02-baroque-tailor-carousel/image.png",
+      "meta": "images/02-baroque-tailor-carousel/meta.json"
+    },
+    {
+      "id": "03-ukiyo-e-street-style",
+      "title": "Ukiyo-e Street Style",
+      "image": "images/03-ukiyo-e-street-style/image.png",
+      "meta": "images/03-ukiyo-e-street-style/meta.json"
+    },
+    {
+      "id": "04-romantic-cloud-coat",
+      "title": "Romantic Cloud Coat",
+      "image": "images/04-romantic-cloud-coat/image.png",
+      "meta": "images/04-romantic-cloud-coat/meta.json"
+    }
+  ]
+}

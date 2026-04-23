@@ -1,0 +1,60 @@
+{
+  "id": "painting-character-ootd",
+  "slug": "painting-character-ootd",
+  "category": "illustration",
+  "style": [
+    "painterly",
+    "flat-graphic"
+  ],
+  "capability": [
+    "style-transfer",
+    "consistency",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "title": "Painting Character OOTD",
+  "short_title": "Art OOTD",
+  "description": "A Prompt Atlas theme for preserving painted-character identity while translating historic portrait subjects into modern outfit-of-the-day grid layouts.",
+  "i18n": {
+    "en": {
+      "title": "Painting Character OOTD",
+      "short_title": "Art OOTD",
+      "description": "A Prompt Atlas theme for preserving painted-character identity while translating historic portrait subjects into modern outfit-of-the-day grid layouts."
+    },
+    "zh-CN": {
+      "title": "名画人物 OOTD · 穿搭九宫格",
+      "short_title": "名画穿搭",
+      "description": "测试名画人物身份保留、现代穿搭替换、社交媒体九宫格版式和跨时代风格反串。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "style-transfer",
+      "editing-workflow",
+      "identity-consistency",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-renaissance-ootd-grid",
+      "type": "series",
+      "title": "Renaissance OOTD Grid",
+      "path": "packages/series-renaissance-ootd-grid/package.json"
+    },
+    {
+      "id": "single-art-history-ootd-studies",
+      "type": "single",
+      "title": "Art History OOTD Studies",
+      "path": "packages/single-art-history-ootd-studies/package.json"
+    }
+  ]
+}

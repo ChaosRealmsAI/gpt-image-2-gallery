@@ -1,0 +1,73 @@
+{
+  "id": "series-renaissance-ootd-grid",
+  "type": "series",
+  "title": "Renaissance OOTD Grid",
+  "description": "A reference-dependent series where one Renaissance portrait character keeps the same oil-painted head, expression, and social-grid structure across modern outfit edits.",
+  "creative_direction": "Identity-lock fashion fanout: image 01 establishes the painted sitter and nine-panel OOTD layout, while images 02-04 reinterpret the clothing language without changing the face, pose logic, or grid hierarchy.",
+  "cover_image": "images/01-reference-portrait-grid/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-portrait-grid/meta.json",
+      "images/02-streetwear-layering/meta.json",
+      "images/03-gallery-tailoring/meta.json",
+      "images/04-studio-athleisure/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Renaissance OOTD Grid",
+      "description": "A reference-dependent series where one Renaissance portrait character keeps the same oil-painted head, expression, and social-grid structure across modern outfit edits."
+    },
+    "zh-CN": {
+      "title": "文艺复兴 OOTD 九宫格",
+      "description": "同一名画人物在多套现代穿搭中保持油画头部、表情和九宫格版式的一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "style-transfer",
+      "structured-layout",
+      "editing-workflow",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-portrait-grid",
+      "title": "Reference Portrait Grid",
+      "image": "images/01-reference-portrait-grid/image.png",
+      "meta": "images/01-reference-portrait-grid/meta.json"
+    },
+    {
+      "id": "02-streetwear-layering",
+      "title": "Streetwear Layering",
+      "image": "images/02-streetwear-layering/image.png",
+      "meta": "images/02-streetwear-layering/meta.json"
+    },
+    {
+      "id": "03-gallery-tailoring",
+      "title": "Gallery Tailoring",
+      "image": "images/03-gallery-tailoring/image.png",
+      "meta": "images/03-gallery-tailoring/meta.json"
+    },
+    {
+      "id": "04-studio-athleisure",
+      "title": "Studio Athleisure",
+      "image": "images/04-studio-athleisure/image.png",
+      "meta": "images/04-studio-athleisure/meta.json"
+    }
+  ]
+}

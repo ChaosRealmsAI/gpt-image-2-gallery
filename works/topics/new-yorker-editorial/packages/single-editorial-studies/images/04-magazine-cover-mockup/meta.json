@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square commercial mockup of a fictional literary magazine cover lying flat on a designer's review table, photographed straight-on with soft studio light. The cover itself is an editorial illustration in thin graphite line and restrained watercolor on cream paper. Around the page are only minimal physical review objects: a pencil, two blank color swatches, a folded tracing-paper overlay, and a small binder clip. Keep the whole composition clean, premium, and gallery-ready.\n\nSubject:\nThe cover illustration shows a city skyline arranged as a set of theater curtains opening onto a tiny kitchen table scene. A single anonymous person sits at the table, while the skyscraper curtains reveal moonlight, a houseplant, and a tea cup, turning public city life into private domestic performance. The top masthead band and lower cover-line areas are present as elegant blank bars, and the decorative border uses tiny abstract floral corners. No letters, numbers, brand marks, or real publication identifiers appear anywhere.\n\nImportant details:\nThis image tests commercial mockup clarity without relying on actual typography. The viewer should understand it as a finished high-end editorial cover presentation through paper texture, precise margins, cover hierarchy, and surrounding design-review props. The cover art must still carry a readable metaphor: city as stage, private loneliness as performance. Keep the mockup straight, uncluttered, and plausible for a media pitch board.\n\nUse case:\nNew Yorker Editorial single study 8/8, testing a commercial magazine-cover mockup with blank typography and editorial visual pun.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real magazine name, no fake barcode, no price tag, no UI screenshot, no angled perspective, no cluttered desk, no glossy plastic cover.",
+  "id": "04-magazine-cover-mockup",
+  "title": "Magazine Cover Mockup",
+  "description": "An independent commercial mockup of a fictional editorial cover with blank typography and a city-stage metaphor.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/single-editorial-studies/images/04-magazine-cover-mockup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent commercial mockup single image with blank magazine typography."
+  },
+  "i18n": {
+    "en": {
+      "title": "Magazine Cover Mockup",
+      "description": "An independent commercial mockup of a fictional editorial cover with blank typography and a city-stage metaphor."
+    },
+    "zh-CN": {
+      "title": "杂志封面 Mockup",
+      "description": "一张独立商业 mockup，以空白排版和城市舞台隐喻呈现虚构编辑封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A clean design-table mockup of a fictional editorial magazine cover with blank typography.",
+      "zh-CN": "一张干净设计桌面上的虚构编辑杂志封面 mockup，排版区域为空白。"
+    }
+  }
+}

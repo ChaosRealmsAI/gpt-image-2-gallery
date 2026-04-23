@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference cover as the primary guide for a square fictional magazine cover on off-white paper, with the same blank masthead band, thin ornamental border, graphite contour lines, transparent watercolor washes, and restrained urban palette. The camera is straight-on, the printed page is flat, and the margins remain generous and balanced.\n\nSubject:\nThe central metaphor shows an apartment facade arranged like a social media grid, but every window contains a person alone in a different quiet pose. One person waters a plant, one eats dinner, one lifts a phone as if taking a picture, one waits beside a birthday cake with blank candles, one looks into a mirror that reflects another window, and one sleeps under a glowing rectangle of light. The window frames connect with thin vine-like notification shapes, yet no one actually meets. A small courtyard at the bottom contains a single shared bench that remains empty.\n\nImportant details:\nPreserve the shared cover grammar from image 01 while making loneliness legible through layout. The grid must be structured and readable, not a busy comic page. Windows should align cleanly, figures should remain anonymous and simple, and phone screens or note areas must be abstract colored rectangles with no readable icons or letters. The humor should be melancholic and precise: connected frames, disconnected lives, delicate watercolor restraint.\n\nUse case:\nNew Yorker Editorial series study 3/8, testing the reference cover system on a social-network loneliness metaphor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real app interface, no brand colors, no speech bubbles, no dense crowd scene, no dark cyberpunk mood, no broken window grid.",
+  "id": "03-social-window-grid",
+  "title": "Social Window Grid",
+  "description": "A reference-matched editorial cover where apartment windows become a lonely social grid.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/03-social-window-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-cover",
+        "meta_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/meta.json",
+        "image_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout cover using the reference grammar for a social isolation window-grid metaphor."
+  },
+  "i18n": {
+    "en": {
+      "title": "Social Window Grid",
+      "description": "A reference-matched editorial cover where apartment windows become a lonely social grid."
+    },
+    "zh-CN": {
+      "title": "社交窗格",
+      "description": "一张参考匹配的编辑封面，公寓窗户变成孤独的社交网络格子。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A hand-drawn magazine cover where apartment windows form a lonely social media grid.",
+      "zh-CN": "一张手绘杂志封面，公寓窗户组成孤独的社交媒体网格。"
+    }
+  }
+}

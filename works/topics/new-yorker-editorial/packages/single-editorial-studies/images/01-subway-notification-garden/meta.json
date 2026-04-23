@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square magazine-style editorial illustration of a subway car interior, viewed from a calm frontal angle with shallow perspective and soft morning light. Use hand-drawn graphite outlines, transparent watercolor fills, warm cream paper texture, muted transit colors, and a few restrained red and green accents. The composition should be organized like a single-panel magazine illustration, not a storyboard or advertising poster.\n\nSubject:\nSeveral anonymous commuters sit apart on a bench, each holding a small phone that has turned into a potted plant. One phone sprouts ivy around a wrist, another grows a tiny cactus, another has a flowering vine climbing toward the overhead rail. The rail itself bends into a trellis, and notification bubbles become round seed pods floating above the seats. The commuters look absorbed but gentle, as if tending private gardens without noticing one another. The subway windows show only abstract tunnel light.\n\nImportant details:\nThe visual pun must be immediate: attention economies as indoor gardening, connection as separate cultivation. Keep the layout structured, with clear bench rhythm, repeated phone-planter forms, and negative space around each figure. All route maps, signs, phone screens, ads, and labels must be blank blocks or unreadable decorative marks. Preserve editorial restraint, fine linework, pale watercolor shadows, and a witty melancholy mood.\n\nUse case:\nNew Yorker Editorial single study 5/8, testing an independent social technology metaphor in hand-drawn magazine style.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real transit branding, no real app icons, no speech bubbles, no crowded subway crush, no photorealistic faces, no saturated neon palette.",
+  "id": "01-subway-notification-garden",
+  "title": "Subway Notification Garden",
+  "description": "An independent editorial illustration where subway phones become private notification gardens.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/single-editorial-studies/images/01-subway-notification-garden/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent editorial single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Notification Garden",
+      "description": "An independent editorial illustration where subway phones become private notification gardens."
+    },
+    "zh-CN": {
+      "title": "地铁通知花园",
+      "description": "一张独立编辑插画，地铁乘客的手机变成各自照料的通知花园。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Commuters sit apart in a subway car while their phones sprout into small private gardens.",
+      "zh-CN": "通勤者在地铁车厢里分开坐着，手机长成各自的小花园。"
+    }
+  }
+}

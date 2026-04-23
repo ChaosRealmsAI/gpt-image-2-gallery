@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square editorial illustration of a newspaper copy desk after midnight, drawn in fine graphite lines with muted watercolor washes on warm cream paper. The camera looks slightly down at a tidy but lived-in desk, with a lamp pool of yellow light, blue-gray shadows, and carefully organized objects. The image must read as a single polished magazine illustration with clear hierarchy and no readable printed matter.\n\nSubject:\nAt the desk sits a small old-fashioned robot wearing a green visor, carefully editing a stack of blank pages with a red pencil. The robot's body is made from a pencil sharpener, a clock, and a coffee cup, suggesting human routines absorbed into a machine. Around it are neatly arranged style sheets, eraser crumbs, a blank calendar, paper clips, and a tiny wastebasket filled with crumpled pages that resemble wilted flowers. A human coat hangs on the chair back, implying the person has stepped away or been replaced.\n\nImportant details:\nThe metaphor should be layered but readable: automation doing editorial judgment, human craft displaced but not mocked, work culture continuing through objects. Keep the robot humble and mechanical, not cute branded merchandise. All papers, calendar blocks, sticky notes, and page marks must remain unreadable. Use precise object spacing, visible pencil texture, transparent watercolor, and a restrained palette. The scene should feel witty, humane, and slightly uneasy.\n\nUse case:\nNew Yorker Editorial single study 6/8, testing AI-era labor as an independent editorial desk metaphor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real newspaper name, no real AI product, no screen UI, no chrome sci-fi robot, no messy pileup, no dramatic horror lighting.",
+  "id": "02-robot-copy-desk",
+  "title": "Robot Copy Desk",
+  "description": "An independent editorial illustration of a modest robot doing late-night copy editing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "reasoning-composition",
+    "thinking-mode",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/single-editorial-studies/images/02-robot-copy-desk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent editorial single image about AI labor and editing judgment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Robot Copy Desk",
+      "description": "An independent editorial illustration of a modest robot doing late-night copy editing."
+    },
+    "zh-CN": {
+      "title": "机器人编辑台",
+      "description": "一张独立编辑插画，朴素机器人在深夜进行文字编辑工作。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A small old-fashioned robot edits blank pages at a late-night copy desk.",
+      "zh-CN": "一个小型老式机器人在深夜编辑台前修改空白稿纸。"
+    }
+  }
+}

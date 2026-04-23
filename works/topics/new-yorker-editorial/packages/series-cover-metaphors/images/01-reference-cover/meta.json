@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square fictional highbrow magazine cover illustration, viewed perfectly straight-on as a finished printed page on warm off-white paper. Use thin graphite ink lines, transparent watercolor fills, gentle paper grain, and a quiet daylight palette of cream, slate, muted red, moss green, and pale blue. Leave a clean blank masthead band at the top made of abstract empty blocks, with a delicate hand-drawn ornamental border around the page.\n\nSubject:\nThe central visual pun shows a lone city reader sitting on a park bench while the bench slowly becomes an open book, and the book pages turn into small apartment windows. The reader is simple and anonymous, drawn with elegant line economy, a coat, shoes, and a tilted hat. Around the figure, tiny balcony plants, street lamps, pigeons replaced by folded paper shapes, and window curtains create an urban literary world without clutter.\n\nImportant details:\nThis is the reference cover language for the series. Preserve square magazine-cover hierarchy, top blank masthead area, generous margins, ornamental corner flourishes, hand-drawn contour lines, restrained watercolor wash, and a single readable metaphor. All title areas, issue details, and cover lines must be blank bars or abstract marks, never real letters. The image should feel like an award-winning editorial cover rather than a poster template.\n\nUse case:\nNew Yorker Editorial series study 1/8, establishing the shared magazine cover grammar for the fanout series.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real magazine name, no celebrity likeness, no dense typography, no glossy photo realism, no chaotic collage, no heavy black border.",
+  "id": "01-reference-cover",
+  "title": "Reference Cover",
+  "description": "A fictional magazine cover that establishes the hand-drawn border, watercolor palette, and visual-pun grammar for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the fictional editorial cover fanout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Cover",
+      "description": "A fictional magazine cover that establishes the hand-drawn border, watercolor palette, and visual-pun grammar for the series."
+    },
+    "zh-CN": {
+      "title": "基准封面",
+      "description": "一张虚构杂志封面，建立本系列的手绘边框、水彩调色和视觉双关语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A fictional editorial magazine cover where a park bench becomes an open book and apartment windows.",
+      "zh-CN": "一张虚构编辑杂志封面，公园长椅变成打开的书和公寓窗户。"
+    }
+  }
+}

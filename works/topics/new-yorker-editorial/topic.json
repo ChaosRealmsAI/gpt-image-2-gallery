@@ -1,0 +1,58 @@
+{
+  "id": "new-yorker-editorial",
+  "slug": "new-yorker-editorial",
+  "category": "illustration",
+  "style": [
+    "painterly",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "New Yorker Editorial",
+  "short_title": "New Yorker",
+  "description": "A Prompt Atlas theme for magazine-style editorial illustration, hand-drawn metaphors, structured layout, and watercolor narrative restraint.",
+  "i18n": {
+    "en": {
+      "title": "New Yorker Editorial",
+      "short_title": "New Yorker",
+      "description": "A Prompt Atlas theme for magazine-style editorial illustration, hand-drawn metaphors, structured layout, and watercolor narrative restraint."
+    },
+    "zh-CN": {
+      "title": "The New Yorker editorial illustration",
+      "short_title": "纽约客",
+      "description": "纽约客式编辑插画研究：手绘线条、水彩填色、装饰花边和一眼成立的双关隐喻。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-cover-metaphors",
+      "type": "series",
+      "title": "Cover Metaphors",
+      "path": "packages/series-cover-metaphors/package.json"
+    },
+    {
+      "id": "single-editorial-studies",
+      "type": "single",
+      "title": "Editorial Studies",
+      "path": "packages/single-editorial-studies/package.json"
+    }
+  ]
+}

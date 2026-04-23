@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference cover as the primary guide for the same square fictional magazine-cover format: straight-on printed page, warm off-white paper, blank masthead band, delicate ornamental border, thin graphite linework, transparent watercolor fills, and calm editorial lighting. Keep the page hierarchy, margins, corner flourishes, and refined hand-drawn texture consistent with image 01.\n\nSubject:\nThe new central metaphor shows a nighttime office desk where a human editor's chair is empty, but many tiny mechanical hands emerge from a typewriter-like machine to sort paper, sharpen pencils, pour coffee, erase mistakes, and pin blank notes. The desk surface bends into a conveyor belt, and the belt loops back into a small sleeping cot under the desk. One simple desk lamp lights the whole scene like a stage, making the labor cycle visible without any written labels.\n\nImportant details:\nPreserve the shared cover language from the reference while changing the narrative to AI-era labor. The metaphor must be readable through objects: automation, invisible work, editorial production, exhaustion, and recursion. All papers, notes, calendar pages, screen areas, and typewriter keys must contain blank shapes or unreadable marks only. Keep the composition elegant and witty, with one central idea, controlled negative space, clear object silhouettes, and no software interface.\n\nUse case:\nNew Yorker Editorial series study 2/8, testing whether the reference cover grammar can carry an AI labor metaphor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real magazine name, no real AI product branding, no robot mascot, no cluttered office mess, no horror machinery, no photorealistic computer screen.",
+  "id": "02-ai-labor-desk",
+  "title": "AI Labor Desk",
+  "description": "A reference-matched editorial cover where automated hands run an endless desk-work cycle.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/02-ai-labor-desk/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-cover",
+        "meta_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/meta.json",
+        "image_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout cover using the reference border and watercolor grammar for an AI labor metaphor."
+  },
+  "i18n": {
+    "en": {
+      "title": "AI Labor Desk",
+      "description": "A reference-matched editorial cover where automated hands run an endless desk-work cycle."
+    },
+    "zh-CN": {
+      "title": "AI 劳动桌",
+      "description": "一张参考匹配的编辑封面，自动化小手让办公劳动循环不停。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A hand-drawn magazine cover showing tiny mechanical hands running an endless editorial desk.",
+      "zh-CN": "一张手绘杂志封面，小型机械手让编辑办公桌陷入无尽循环。"
+    }
+  }
+}

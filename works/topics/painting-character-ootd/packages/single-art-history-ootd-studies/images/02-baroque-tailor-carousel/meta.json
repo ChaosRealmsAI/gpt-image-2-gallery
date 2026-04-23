@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square editorial image designed like a social media carousel preview collapsed into a 3 by 3 grid. Use dramatic Baroque chiaroscuro, warm candlelit highlights, deep umber shadows, and crisp ivory gutters between panels. The layout must feel controlled and modern even though the light and pose language are theatrical. No readable captions, icons, labels, or UI text should appear.\n\nSubject:\nA Baroque noble portrait figure with powdered skin, dark curled hair, lace collar remnants, intense side glance, and painterly brushwork. The head and hands remain old-master oil paint, but the outfit is modern architectural tailoring: black oversized blazer with sculptural shoulders, cream silk shirt, tapered cropped trousers, polished black loafers, narrow satin neck scarf, and a small hard-shell clutch. The same figure appears across all visible panels as one fashion subject.\n\nImportant details:\nThe grid should include center full-body stance, dramatic face crop, hand and cuff close-up, blazer shoulder profile, loafer crop, clutch detail, seated chair pose, walking cape-like silhouette, and fabric texture under candlelight. Preserve the contrast between historic painted flesh and contemporary garments. The composition tests structured layout, fashion styling, and style transfer, so each crop must be purposeful and cleanly separated.\n\nUse case:\nPainting Character OOTD single study 6/8, an independent Baroque tailoring translation for the outfit-grid theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no extra models, no modern face retouching, no random costume armor, no broken panel gutters, no inconsistent outfit across panels.",
+  "id": "02-baroque-tailor-carousel",
+  "title": "Baroque Tailor Carousel",
+  "description": "A Baroque portrait figure restyled in architectural modern tailoring within a dramatic nine-panel outfit grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "social-feed",
+    "editorial-illustration",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/single-art-history-ootd-studies/images/02-baroque-tailor-carousel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing Baroque chiaroscuro with modern tailoring and a structured grid."
+  },
+  "i18n": {
+    "en": {
+      "title": "Baroque Tailor Carousel",
+      "description": "A Baroque portrait figure restyled in architectural modern tailoring within a dramatic nine-panel outfit grid."
+    },
+    "zh-CN": {
+      "title": "巴洛克剪裁轮播",
+      "description": "巴洛克肖像人物换上建筑感现代剪裁,置于戏剧化九宫格穿搭版式中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "social-feed",
+      "single"
+    ],
+    "alt": {
+      "en": "A Baroque painted noble figure in black modern tailoring shown across a candlelit nine-panel outfit grid.",
+      "zh-CN": "巴洛克油画贵族人物穿黑色现代剪裁,呈现在烛光感九宫格穿搭图中。"
+    }
+  }
+}

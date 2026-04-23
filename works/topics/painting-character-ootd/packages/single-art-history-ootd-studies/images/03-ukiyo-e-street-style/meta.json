@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square fashion composition using a precise 3 by 3 outfit grid, with flat paper texture, pale washi gutters, and a palette of indigo, persimmon, black ink, cream, and muted concrete gray. The lighting is graphic and even, halfway between a woodblock print and a street-style editorial shoot. The grid must read as a modern social-feed OOTD layout without any readable text.\n\nSubject:\nA painted figure inspired by ukiyo-e portrait traditions: elegant profile, black lacquered hair shape, calm narrow eyes, pale face, and simplified ink contours. Keep the head and facial language visibly woodblock-like, but dress the body in contemporary city layers: oversized indigo chore jacket, cropped black trousers, cream high-neck knit, plain canvas sneakers, folded tote bag, patterned socks, and a persimmon scarf. The person repeats across panels as one consistent subject.\n\nImportant details:\nThe nine panels should balance flat graphic design with fashion utility: center full-body fit check, face profile crop, sneaker and sock detail, chore jacket sleeve, scarf knot, tote fold, walking crosswalk pose, seated step pose, and textile close-up. Preserve ukiyo-e line economy in the head and hair while making the clothing modern and wearable. Keep all gutters straight, all panel crops intentional, and all colors consistent.\n\nUse case:\nPainting Character OOTD single study 7/8, an independent woodblock-inspired street-style grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no extra people, no anime style, no randomized print text, no broken grid, no replacing the woodblock head with a photographic face.",
+  "id": "03-ukiyo-e-street-style",
+  "title": "Ukiyo-e Street Style",
+  "description": "A ukiyo-e portrait figure translated into a modern street-style OOTD grid with flat graphic structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "social-feed",
+    "editorial-illustration",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/single-art-history-ootd-studies/images/03-ukiyo-e-street-style/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing ukiyo-e style transfer inside a modern outfit grid."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ukiyo-e Street Style",
+      "description": "A ukiyo-e portrait figure translated into a modern street-style OOTD grid with flat graphic structure."
+    },
+    "zh-CN": {
+      "title": "浮世绘街拍",
+      "description": "浮世绘肖像人物被转译为现代街拍 OOTD 九宫格,保留平面图形秩序。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "social-feed",
+      "single"
+    ],
+    "alt": {
+      "en": "A ukiyo-e styled portrait figure wearing modern city layers in a flat nine-panel street-style grid.",
+      "zh-CN": "浮世绘肖像人物穿现代城市叠搭,置于平面九宫格街拍版式中。"
+    }
+  }
+}

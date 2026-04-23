@@ -1,0 +1,53 @@
+{
+  "id": "office-microdrama-comedy-board",
+  "slug": "office-microdrama-comedy-board",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Office Microdrama Comedy Board",
+  "short_title": "Office Comedy",
+  "description": "A Prompt Atlas theme for Office Microdrama Comedy Board, testing reasoning-composition, structured-layout, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Office Microdrama Comedy Board",
+      "short_title": "Office Comedy",
+      "description": "Build office microdrama boards around meetings, Slack, KPI panic, and passive-aggressive workplace rituals."
+    },
+    "zh-CN": {
+      "title": "办公室微抓马喜剧板",
+      "short_title": "办公室喜剧",
+      "description": "做办公室微抓马喜剧板，围绕会议、群聊、KPI 焦虑和职场被动攻击。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

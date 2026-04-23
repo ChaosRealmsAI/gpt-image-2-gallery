@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square nine-panel outfit collage set inside a quiet contemporary gallery with polished concrete, pale walls, and indirect skylight. Keep the same clean social-grid rhythm as the reference image: thin ivory gutters, no readable UI labels, and a dominant central fit-check panel surrounded by eight supporting fashion details. The color temperature is neutral, refined, and bright enough to show fabric texture.\n\nSubject:\nThe same Renaissance oil-painting sitter from the reference image appears with unchanged painted head, dark veil, soft face modeling, calm gaze, and composed posture. The outfit becomes minimalist gallery tailoring: long ink-black wool overcoat, collarless ivory blouse, high-waisted charcoal pleated trousers, square-toe leather flats, slim sculptural belt, small brushed-metal clasp bag, and a single pearl-like earring. The face and veil remain old-master oil painting; the garments are contemporary and tactile.\n\nImportant details:\nUse the reference to lock identity, face proportions, expression, veil outline, and 3 by 3 grid structure. The center panel is a full-body gallery fit check. Surrounding panels show a three-quarter portrait, sleeve drape, trouser pleats, flat shoe, bag clasp, mirror reflection, seated bench pose, and a close crop where painted hand meets modern wool. The grid must feel like one editorial post, not nine unrelated images.\n\nUse case:\nPainting Character OOTD series study 3/8, testing whether a refined tailoring edit can preserve the same painted character and structured layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no face drift, no mismatched outfits between panels, no warped gallery architecture, no photorealistic replacement for the painted head.",
+  "id": "03-gallery-tailoring",
+  "title": "Gallery Tailoring",
+  "description": "The reference sitter in minimalist gallery tailoring, with the same old-master face and nine-panel social-grid structure.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "style-transfer",
+    "editing-workflow",
+    "social-feed",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/03-gallery-tailoring/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-portrait-grid",
+        "meta_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/meta.json",
+        "image_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and layout reference for a minimalist tailoring variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gallery Tailoring",
+      "description": "The reference sitter in minimalist gallery tailoring, with the same old-master face and nine-panel social-grid structure."
+    },
+    "zh-CN": {
+      "title": "画廊剪裁",
+      "description": "基准人物换上极简画廊剪裁造型,保持旧大师油画脸和九宫格结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A Renaissance painted sitter in black gallery tailoring shown through a precise nine-panel outfit collage.",
+      "zh-CN": "文艺复兴式油画人物穿黑色画廊剪裁服装,呈现在精准九宫格穿搭拼贴中。"
+    }
+  }
+}

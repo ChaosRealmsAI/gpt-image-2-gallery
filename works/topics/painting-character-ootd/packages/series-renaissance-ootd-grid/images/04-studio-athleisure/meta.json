@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square 3 by 3 outfit grid photographed in a clean daylight studio with pale paper backdrop, softbox reflections, and subtle floor shadows. Preserve the reference image's social-feed collage grammar: thin ivory gutters, central full-body panel, eight surrounding detail panels, no readable UI text, and a controlled editorial rhythm. The mood is lighter and more casual than the reference but still museum-aware.\n\nSubject:\nThe same Renaissance oil-painting sitter from the reference image appears with the identical painted oval face, dark veil, softened sfumato features, quiet gaze, and composed hands. The outfit shifts to elevated athleisure: cropped oatmeal sweatshirt, long technical skirt in slate gray, ribbed leggings, minimal off-white trainers, quilted nylon belt bag, thin knit arm warmers, and a soft charcoal wrap. Keep the head antique and oil-painted while the clothing reads modern, tactile, and wearable.\n\nImportant details:\nUse the first image as the primary reference for identity and grid layout. The center panel should be a full-body studio fit check; supporting panels show face crop, trainer detail, belt bag, knit sleeve, skirt fabric, standing side view, seated floor pose, and a painted hand resting against modern nylon. All panels must retain one consistent subject and outfit, with no drift in facial identity or garment color.\n\nUse case:\nPainting Character OOTD series study 4/8, testing casual modern outfit editing while preserving the painted portrait identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no altered face, no extra models, no panel misalignment, no glossy synthetic skin, no replacing the oil-paint texture.",
+  "id": "04-studio-athleisure",
+  "title": "Studio Athleisure",
+  "description": "The same painted sitter in elevated athleisure, arranged as a studio OOTD grid with preserved face and layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "style-transfer",
+    "editing-workflow",
+    "social-feed",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/04-studio-athleisure/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-portrait-grid",
+        "meta_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/meta.json",
+        "image_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and layout reference for an elevated athleisure variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Athleisure",
+      "description": "The same painted sitter in elevated athleisure, arranged as a studio OOTD grid with preserved face and layout."
+    },
+    "zh-CN": {
+      "title": "棚拍运动休闲",
+      "description": "同一油画人物换成高级运动休闲造型,在棚拍九宫格中保持脸部和版式一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "The same painted Renaissance sitter wearing elevated athleisure in a daylight studio nine-panel grid.",
+      "zh-CN": "同一文艺复兴式油画人物穿高级运动休闲装,呈现在日光棚拍九宫格中。"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "single-editorial-studies",
+  "type": "single",
+  "title": "Editorial Studies",
+  "description": "Four independent magazine-style editorial illustrations testing visual puns, symbolic structure, commercial mockup clarity, and watercolor line discipline.",
+  "creative_direction": "Independent studies broaden the theme beyond the cover series: each image solves a different editorial brief while preserving hand-drawn linework, restrained watercolor, blank text areas, and a precise metaphor that works without explanation.",
+  "cover_image": "images/01-subway-notification-garden/image.png",
+  "i18n": {
+    "en": {
+      "title": "Editorial Studies",
+      "description": "Four independent magazine-style editorial illustrations testing visual puns, symbolic structure, commercial mockup clarity, and watercolor line discipline."
+    },
+    "zh-CN": {
+      "title": "编辑插画单图研究",
+      "description": "四张独立杂志编辑插画，测试视觉双关、象征结构、商业 mockup 清晰度和水彩线条控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-subway-notification-garden",
+      "title": "Subway Notification Garden",
+      "image": "images/01-subway-notification-garden/image.png",
+      "meta": "images/01-subway-notification-garden/meta.json"
+    },
+    {
+      "id": "02-robot-copy-desk",
+      "title": "Robot Copy Desk",
+      "image": "images/02-robot-copy-desk/image.png",
+      "meta": "images/02-robot-copy-desk/meta.json"
+    },
+    {
+      "id": "03-flooded-boardroom",
+      "title": "Flooded Boardroom",
+      "image": "images/03-flooded-boardroom/image.png",
+      "meta": "images/03-flooded-boardroom/meta.json"
+    },
+    {
+      "id": "04-magazine-cover-mockup",
+      "title": "Magazine Cover Mockup",
+      "image": "images/04-magazine-cover-mockup/image.png",
+      "meta": "images/04-magazine-cover-mockup/meta.json"
+    }
+  ]
+}

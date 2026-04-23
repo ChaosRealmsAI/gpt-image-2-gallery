@@ -1,0 +1,53 @@
+{
+  "id": "mountain-megascale-poster-vistas",
+  "slug": "mountain-megascale-poster-vistas",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Mountain Megascale Poster Vistas",
+  "short_title": "Mountain Vistas",
+  "description": "A Prompt Atlas theme for Mountain Megascale Poster Vistas, testing photorealism, reasoning-composition, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Mountain Megascale Poster Vistas",
+      "short_title": "Mountain Vistas",
+      "description": "Create mountain vistas that feel poster-worthy, immense, and layered with atmospheric depth."
+    },
+    "zh-CN": {
+      "title": "巨型山地海报景观",
+      "short_title": "山地壮景",
+      "description": "做巨型山地 poster 级景观，强调尺度、纵深和压倒性感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

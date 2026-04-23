@@ -1,0 +1,53 @@
+{
+  "id": "product-comparison-benefit-board",
+  "slug": "product-comparison-benefit-board",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Product Comparison Benefit Board",
+  "short_title": "Compare Board",
+  "description": "A Prompt Atlas theme for Product Comparison Benefit Board, testing structured-layout, text-rendering, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Product Comparison Benefit Board",
+      "short_title": "Compare Board",
+      "description": "Build structured comparison boards that make feature differences, tiers, and upgrade reasons immediately clear."
+    },
+    "zh-CN": {
+      "title": "商品对比卖点板",
+      "short_title": "商品对比",
+      "description": "做商品对比卖点板，让档位差异和升级理由一眼清楚。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

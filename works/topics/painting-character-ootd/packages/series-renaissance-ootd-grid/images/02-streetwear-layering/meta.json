@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square social-feed fashion collage using the same 3 by 3 grid structure as the reference image, with thin ivory gutters, balanced panel spacing, and no readable UI. The mood is late-afternoon city light outside a stone museum, mixing old master warmth with contemporary street photography. Keep the composition polished, editorial, and legible at thumbnail size.\n\nSubject:\nThe same Renaissance oil-painting sitter from the reference image must appear across the grid with the identical oval face, dark veil, calm gaze, folded-hand poise, and softly modeled painterly skin. The clothing changes to modern streetwear layering: cropped technical jacket in moss green, long white shirt hem, wide washed-black trousers, understated court-style sneakers, canvas crossbody pouch, ribbed socks, and a matte charcoal scarf. The head remains painted and antique while the outfit materials read modern.\n\nImportant details:\nUse the reference as the primary identity and layout guide. Preserve the sitter's face shape, veil silhouette, expression, and calm frontal presence across all visible panels. The grid should include a center full-body fit check, face crop, shoe crop, jacket detail, crossbody pouch detail, walking pose, seated curb pose, sleeve texture, and profile crop. Every panel must share one subject, one outfit system, and one coherent lighting direction.\n\nUse case:\nPainting Character OOTD series study 2/8, testing reference-based identity retention during a streetwear outfit edit.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no changed face identity, no extra characters, no broken grid alignment, no modernizing the oil-painted head.",
+  "id": "02-streetwear-layering",
+  "title": "Streetwear Layering",
+  "description": "The same Renaissance-style sitter translated into a streetwear OOTD grid while preserving the painted head and expression.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "style-transfer",
+    "editing-workflow",
+    "social-feed",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/02-streetwear-layering/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-portrait-grid",
+        "meta_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/meta.json",
+        "image_path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the first image as the identity and layout reference for a streetwear outfit variation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Streetwear Layering",
+      "description": "The same Renaissance-style sitter translated into a streetwear OOTD grid while preserving the painted head and expression."
+    },
+    "zh-CN": {
+      "title": "街头叠搭",
+      "description": "同一文艺复兴式人物换成街头叠搭穿搭,同时保留油画头部和表情。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "The same painted Renaissance sitter in a streetwear outfit grid with jacket, trousers, sneakers, and detail crops.",
+      "zh-CN": "同一油画人物出现在街头穿搭九宫格中,包含夹克、长裤、鞋履和细节裁切。"
+    }
+  }
+}

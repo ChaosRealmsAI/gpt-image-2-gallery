@@ -1,0 +1,53 @@
+{
+  "id": "panoramic-wallscape-continuity-system",
+  "slug": "panoramic-wallscape-continuity-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Panoramic Wallscape Continuity System",
+  "short_title": "Panoramic Walls",
+  "description": "A Prompt Atlas theme for Panoramic Wallscape Continuity System, testing reasoning-composition, photorealism, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Panoramic Wallscape Continuity System",
+      "short_title": "Panoramic Walls",
+      "description": "Create panoramic wallscape systems that maintain continuity, layered landmarks, and decor-ready grandeur."
+    },
+    "zh-CN": {
+      "title": "全景墙画连续景观系统",
+      "short_title": "全景墙画",
+      "description": "做超宽全景墙画系统，强调连续空间和家居/酒店挂墙感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

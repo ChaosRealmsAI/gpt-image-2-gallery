@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square 3 by 3 fashion grid set against a stormy Romantic landscape background, with pale gutters, soft mist, windswept light, and dramatic cloud breaks. The image should feel like a museum painting escaped into a contemporary outerwear editorial. Keep the social-feed structure clear and modern, with no readable captions, handles, numbers, or interface labels.\n\nSubject:\nA Romantic-era painted wanderer with windblown hair, pale contemplative face, distant gaze, and brushy oil texture. The head and hands stay historical and painterly, but the outfit becomes contemporary cold-weather styling: long slate-blue technical raincoat, charcoal wool hood layer, cream thermal trousers, rugged plain hiking shoes, compact crossbody field bag, fingerless knit gloves, and a matte black umbrella used as a prop. The same person appears consistently in every face or body crop.\n\nImportant details:\nUse the grid as an outfit breakdown: center full-body stance on a rocky overlook, face crop in wind, raincoat seam detail, hiking shoe crop, bag strap close-up, umbrella silhouette, seated boulder pose, gloved hand detail, and distant side profile. The historical head must contrast with modern weatherproof materials, while the cloudscape and fashion panels remain disciplined and readable. Avoid fantasy costume cues; this is an OOTD editorial.\n\nUse case:\nPainting Character OOTD single study 8/8, an independent Romantic landscape outerwear grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no extra figures, no fantasy armor, no illegible panel structure, no changed face between panels, no photographic skin replacing the painted head.",
+  "id": "04-romantic-cloud-coat",
+  "title": "Romantic Cloud Coat",
+  "description": "A Romantic painted wanderer restyled in contemporary technical outerwear within a storm-lit nine-panel outfit grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "social-feed",
+    "editorial-illustration",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/single-art-history-ootd-studies/images/04-romantic-cloud-coat/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing Romantic painting atmosphere with modern technical outerwear."
+  },
+  "i18n": {
+    "en": {
+      "title": "Romantic Cloud Coat",
+      "description": "A Romantic painted wanderer restyled in contemporary technical outerwear within a storm-lit nine-panel outfit grid."
+    },
+    "zh-CN": {
+      "title": "浪漫主义云层风衣",
+      "description": "浪漫主义油画旅人换上当代机能外套,置于风暴光线下的九宫格穿搭中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "social-feed",
+      "single"
+    ],
+    "alt": {
+      "en": "A Romantic painted wanderer wearing technical outerwear in a storm-lit nine-panel outfit grid.",
+      "zh-CN": "浪漫主义油画旅人穿机能外套,出现在风暴光线下的九宫格穿搭图中。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "series-cover-metaphors",
+  "type": "series",
+  "title": "Cover Metaphors",
+  "description": "A reference-dependent series of four square magazine-cover illustrations sharing the same decorative border, watercolor line style, and editorial metaphor grammar.",
+  "creative_direction": "Image 01 establishes a fictional highbrow magazine cover language: thin hand-drawn border, restrained watercolor palette, centered visual pun, and blank masthead area. Images 02-04 reuse that cover grammar for AI labor, social-network loneliness, and climate anxiety.",
+  "cover_image": "images/01-reference-cover/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-cover/meta.json",
+      "images/02-ai-labor-desk/meta.json",
+      "images/03-social-window-grid/meta.json",
+      "images/04-climate-umbrella/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cover Metaphors",
+      "description": "A reference-dependent series of four square magazine-cover illustrations sharing the same decorative border, watercolor line style, and editorial metaphor grammar."
+    },
+    "zh-CN": {
+      "title": "封面隐喻系列",
+      "description": "四张参考依赖的方形杂志封面插画，共用装饰边框、水彩线条和编辑隐喻语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "editorial-illustration",
+      "structured-layout",
+      "reasoning-composition",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-cover",
+      "title": "Reference Cover",
+      "image": "images/01-reference-cover/image.png",
+      "meta": "images/01-reference-cover/meta.json"
+    },
+    {
+      "id": "02-ai-labor-desk",
+      "title": "AI Labor Desk",
+      "image": "images/02-ai-labor-desk/image.png",
+      "meta": "images/02-ai-labor-desk/meta.json"
+    },
+    {
+      "id": "03-social-window-grid",
+      "title": "Social Window Grid",
+      "image": "images/03-social-window-grid/image.png",
+      "meta": "images/03-social-window-grid/meta.json"
+    },
+    {
+      "id": "04-climate-umbrella",
+      "title": "Climate Umbrella",
+      "image": "images/04-climate-umbrella/image.png",
+      "meta": "images/04-climate-umbrella/meta.json"
+    }
+  ]
+}

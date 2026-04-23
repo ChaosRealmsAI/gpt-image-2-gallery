@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square fashion editorial image that looks like a social media outfit-of-the-day grid, arranged as a clean 3 by 3 collage with thin ivory gutters and no readable interface text. The lighting is soft museum daylight mixed with modern studio fill. The palette combines aged varnish amber, deep green, warm black, cream, and muted denim blue, with the center panel slightly dominant but still locked into the grid.\n\nSubject:\nA Renaissance oil-painting sitter inspired by a famous half-length portrait: oval face, dark veil, softly folded hands, reserved enigmatic expression, and smoky sfumato skin tones. Keep the head, hair veil, gaze, and painterly face fully classical, but replace the torso with a carefully styled modern outfit: oversized charcoal coat, cream knit layer, relaxed dark trousers, plain pale sneakers, a small structured shoulder bag, and simple metal jewelry with no logos.\n\nImportant details:\nThe nine panels should read as one coherent OOTD post: center full-body fit check, corner crop of the painted face, shoe detail, sleeve texture, bag detail, mirror pose, seated pose, fabric close-up, and profile silhouette. Preserve the same sitter identity in every visible face. Use painted head and hands against believable modern garments, with clear fashion styling and precise grid hierarchy.\n\nUse case:\nPainting Character OOTD series study 1/8, establishing the identity and layout reference for later outfit edits.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no distorted hands, no extra duplicate faces, no broken grid gutters, no photorealistic head replacement.",
+  "id": "01-reference-portrait-grid",
+  "title": "Reference Portrait Grid",
+  "description": "A Renaissance-style painted sitter in a modern nine-panel OOTD grid that establishes the series identity and layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "structured-layout",
+    "style-transfer",
+    "editing-workflow",
+    "social-feed",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/painting-character-ootd/packages/series-renaissance-ootd-grid/images/01-reference-portrait-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Renaissance OOTD identity and grid fanout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Portrait Grid",
+      "description": "A Renaissance-style painted sitter in a modern nine-panel OOTD grid that establishes the series identity and layout."
+    },
+    "zh-CN": {
+      "title": "基准肖像九宫格",
+      "description": "文艺复兴式油画人物进入现代九宫格 OOTD 版式，建立系列身份和布局参考。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A Renaissance-style painted sitter wearing modern layers inside a clean nine-panel outfit grid.",
+      "zh-CN": "文艺复兴式油画人物穿现代叠搭,置于整洁的九宫格穿搭版式中。"
+    }
+  }
+}

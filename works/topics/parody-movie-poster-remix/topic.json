@@ -1,0 +1,53 @@
+{
+  "id": "parody-movie-poster-remix",
+  "slug": "parody-movie-poster-remix",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Parody Movie Poster Remix",
+  "short_title": "Parody Poster",
+  "description": "A Prompt Atlas theme for Parody Movie Poster Remix, testing style-transfer, commercial-mockup, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Parody Movie Poster Remix",
+      "short_title": "Parody Poster",
+      "description": "Create parody poster systems that borrow serious movie-poster grammar for ridiculous or tiny real-life stakes."
+    },
+    "zh-CN": {
+      "title": "恶搞电影海报 remix",
+      "short_title": "恶搞海报",
+      "description": "做恶搞电影海报 remix，用严肃电影海报语法包装非常小的现实矛盾。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

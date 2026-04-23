@@ -1,0 +1,53 @@
+{
+  "id": "pakistani-truck-art-commercial-remix",
+  "slug": "pakistani-truck-art-commercial-remix",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Pakistani Truck Art Commercial Remix",
+  "short_title": "Truck Art",
+  "description": "A Prompt Atlas theme for Pakistani Truck Art Commercial Remix, testing style-transfer, commercial-mockup, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Pakistani Truck Art Commercial Remix",
+      "short_title": "Truck Art",
+      "description": "Translate Pakistani truck art into modern commercial surfaces while retaining ornament density and folk color energy."
+    },
+    "zh-CN": {
+      "title": "巴基斯坦卡车彩绘商业 remix",
+      "short_title": "卡车彩绘",
+      "description": "把巴基斯坦卡车彩绘转成现代商业表面，同时保留装饰密度和民间色彩能量。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

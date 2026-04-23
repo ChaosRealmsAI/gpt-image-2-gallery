@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference cover as the primary guide for the same square fictional magazine-cover page: blank masthead band, warm paper, hand-drawn ornamental border, graphite linework, transparent watercolor, and quiet editorial contrast. Keep the page flat, centered, and refined, with no real typography and no glossy poster finish.\n\nSubject:\nThe central metaphor shows a city crosswalk in soft rain where a commuter holds an umbrella that is actually a tiny greenhouse dome. Inside the transparent umbrella, a miniature garden thrives with a small tree, moss, a bench, and a blue puddle. Outside the umbrella, the street is dry and cracked on one side, flooded on the other, and a traffic light droops like a wilting flower. Other pedestrians carry normal umbrellas that cast little weather systems: one snow cloud, one heat shimmer, one gust of leaves. The main commuter remains calm but small against the city.\n\nImportant details:\nPreserve the shared cover language from image 01 while expressing climate change through a clean visual pun, not disaster spectacle. The transparent greenhouse umbrella must be clear, delicate, and central. Use watercolor gradients for rain, heat, and floodwater, but keep boundaries readable. All signs, street markings, signal panels, and shop awnings must be blank or abstract. The page should feel witty, uneasy, and suitable for a serious editorial cover.\n\nUse case:\nNew Yorker Editorial series study 4/8, testing the reference cover grammar on a climate anxiety metaphor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real city brand, no apocalyptic firestorm, no crowded street chaos, no photorealistic weather render, no broken ornamental border, no heavy black sky.",
+  "id": "04-climate-umbrella",
+  "title": "Climate Umbrella",
+  "description": "A reference-matched editorial cover where a commuter's umbrella becomes a fragile greenhouse world.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "structured-layout",
+    "reasoning-composition",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/04-climate-umbrella/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-cover",
+        "meta_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/meta.json",
+        "image_path": "works/topics/new-yorker-editorial/packages/series-cover-metaphors/images/01-reference-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout cover using the reference grammar for a climate-change umbrella metaphor."
+  },
+  "i18n": {
+    "en": {
+      "title": "Climate Umbrella",
+      "description": "A reference-matched editorial cover where a commuter's umbrella becomes a fragile greenhouse world."
+    },
+    "zh-CN": {
+      "title": "气候雨伞",
+      "description": "一张参考匹配的编辑封面，通勤者的雨伞变成脆弱的温室世界。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A hand-drawn magazine cover with a commuter holding an umbrella shaped like a tiny greenhouse.",
+      "zh-CN": "一张手绘杂志封面，通勤者举着像小温室一样的雨伞。"
+    }
+  }
+}
