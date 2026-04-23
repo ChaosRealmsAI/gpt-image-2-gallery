@@ -1,0 +1,51 @@
+{
+  "id": "pet-brand-merch-and-accessory-drop",
+  "slug": "pet-brand-merch-and-accessory-drop",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "commercial-mockup",
+    "editing-workflow",
+    "multi-image-reference"
+  ],
+  "title": "Pet Brand Merch and Accessory Drop",
+  "short_title": "Pet Accessories",
+  "description": "Build accessory-drop systems for pet brands spanning collars, bowls, carriers, apparel, and launch art.",
+  "i18n": {
+    "en": {
+      "title": "Pet Brand Merch and Accessory Drop",
+      "short_title": "Pet Accessories",
+      "description": "Build accessory-drop systems for pet brands spanning collars, bowls, carriers, apparel, and launch art."
+    },
+    "zh-CN": {
+      "title": "宠物品牌周边与配件 drop",
+      "short_title": "宠物配件",
+      "description": "做宠物品牌周边与配件 drop，覆盖项圈、食盆、包袋和服饰。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 480,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "fashion",
+      "photorealism",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-accessory-drop-studies",
+      "type": "single",
+      "title": "Accessory Drop Studies",
+      "path": "packages/single-accessory-drop-studies/package.json"
+    }
+  ]
+}

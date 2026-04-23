@@ -1,0 +1,50 @@
+{
+  "id": "pet-grooming-before-after-campaign",
+  "slug": "pet-grooming-before-after-campaign",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "title": "Pet Grooming Before-After Campaign",
+  "short_title": "Pet Grooming",
+  "description": "Create grooming makeover campaigns for pet salons with trustworthy before-after proof and lovable presentation.",
+  "i18n": {
+    "en": {
+      "title": "Pet Grooming Before-After Campaign",
+      "short_title": "Pet Grooming",
+      "description": "Create grooming makeover campaigns for pet salons with trustworthy before-after proof and lovable presentation."
+    },
+    "zh-CN": {
+      "title": "宠物 grooming 前后 campaign",
+      "short_title": "宠物grooming",
+      "description": "做宠物 grooming 前后 campaign，强调可信改造和门店推广。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 430,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-grooming-proof-boards",
+      "type": "single",
+      "title": "Grooming Proof Boards",
+      "path": "packages/single-grooming-proof-boards/package.json"
+    }
+  ]
+}

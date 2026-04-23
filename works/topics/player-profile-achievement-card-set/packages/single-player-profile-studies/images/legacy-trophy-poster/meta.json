@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a poster-like profile asset built around trophies, seasonal badges, and long-term legacy with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a poster-like profile asset built around trophies, seasonal badges, and long-term legacy. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Player Profile Achievement Card Set. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nthe mood should feel commemorative and premium rather than cluttered. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nPlayer Profile Achievement Card Set single study 9/9, focused on legacy trophy poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable years, no slogan, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "legacy-trophy-poster",
+  "title": "Legacy Trophy Poster",
+  "description": "Legacy Trophy Poster for Player Profile Achievement Card Set, designed as part of the player profile studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/player-profile-achievement-card-set/packages/single-player-profile-studies/images/legacy-trophy-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Legacy Trophy Poster",
+      "description": "Legacy Trophy Poster for Player Profile Achievement Card Set, designed as part of the player profile studies."
+    },
+    "zh-CN": {
+      "title": "荣誉奖杯海报",
+      "description": "荣誉奖杯海报，属于 玩家名片与成就卡组 的 玩家档案研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "Legacy Trophy Poster image from the Player Profile Achievement Card Set package.",
+      "zh-CN": "玩家名片与成就卡组 中的荣誉奖杯海报图像。"
+    }
+  }
+}

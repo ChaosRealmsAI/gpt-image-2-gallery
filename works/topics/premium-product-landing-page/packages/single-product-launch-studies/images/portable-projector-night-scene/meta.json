@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium landing-page still for a portable projector, designed as a cinematic product website frame. The page should blend low-light atmosphere with clean web hierarchy: a dark slate background, soft warm projection glow, and crisp layout bands that imply hero, use-case story, and compact specifications. The composition remains front-on and square, but it should feel immersive and brand-polished rather than flat.\n\nSubject:\nPlace a small premium projector on a low surface, angled so its lens, perforated vents, and sculpted housing are clearly visible. A subtle beam of light can suggest projection without overpowering the page. Build the surrounding landing-page system from abstract headline bars, lifestyle-image placeholders, benefit cards, and spec strips. Include one supporting module showing a minimal night-room scene with a projected abstract image on a wall, plus one close crop of the lens assembly or vent pattern. The projector remains the central hardware hero, with the layout reinforcing portability and cinematic experience.\n\nImportant details:\nThe challenge is balancing ambience and clarity. The projector should feel beautifully manufactured, with real materials, vent geometry, and lens detail, while the webpage still reads cleanly. The layout needs clear section rhythm from hero to use-case story to technical detail to CTA. Keep the visual language premium and restrained, avoiding gadget-store clutter or exaggerated sci-fi glow. The page must feel like something a refined consumer-tech brand would present to investors or clients.\n\nUse case:\nPremium Product Landing Page single study 8/9, testing a portable projector launch page with atmospheric lifestyle context and disciplined module hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no crowded living room, no movie characters on the wall, no laser-beam exaggeration, no toy projector styling, no chaotic app UI overlays, no distorted lens housing.",
+  "id": "portable-projector-night-scene",
+  "title": "Portable Projector Night Scene",
+  "description": "A premium landing-page still for a portable projector, mixing atmospheric lifestyle context with clear product and feature hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/portable-projector-night-scene/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on a portable projector in a cinematic web layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Portable Projector Night Scene",
+      "description": "A premium landing-page still for a portable projector, mixing atmospheric lifestyle context with clear product and feature hierarchy."
+    },
+    "zh-CN": {
+      "title": "便携投影夜景页",
+      "description": "一张便携投影设备的高级落地页静帧，将夜间氛围场景与清晰产品层级结合在一起。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium portable-projector landing page showing the device hero image, a dim room scene, and clean feature modules.",
+      "zh-CN": "一张高级便携投影落地页静帧，展示设备主视觉、昏暗房间场景和整洁的功能模块。"
+    }
+  }
+}

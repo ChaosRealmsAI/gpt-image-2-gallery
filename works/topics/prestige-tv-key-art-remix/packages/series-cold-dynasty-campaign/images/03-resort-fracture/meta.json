@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nUse the reference ensemble key art as the identity source. Create a square prestige-series campaign variant on a luxury seaside resort terrace at noon, with bleached stone, pale water, and a deceptively serene brightness. The frame should feel sunlit but emotionally cold, with crisp shadows and enough architectural depth to imply wealth, surveillance, and private agendas beneath a vacation surface.\n\nSubject:\nShow the same six characters from image 01 with preserved faces, clothing signatures, and role order, but redistribute them across a terrace composition that suggests temporary alliance and fracture. The matriarch occupies the central shaded seat near a stone table; the heir stands nearest to her, visibly protective but constrained. The daughter watches from a bright edge near the pool; the outsider son-in-law is separated by a table corner and a visible gap, hinting at exclusion. The fixer and bodyguard remain in supporting positions, one near a doorway, one near a reflective glass panel. Every pose should feel controlled, minimal, and loaded with subtext.\n\nImportant details:\nThe core task is to preserve campaign recognizability while changing environment and temperature. The same family must remain instantly identifiable from image 01, and their power geometry must still read clearly even in a wider, sunnier setting. Keep wardrobe in the same luxury neutral palette, maintain serious expressions, and use resort props sparingly so the image never becomes travel advertising. The visual message is privilege under pressure.\n\nUse case:\nPrestige TV Key Art Remix series study 3/9, translating the same fictional ensemble into a luxury-resort fracture variant.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no tropical postcard cheer, no swimwear, no extra hotel guests, no slapstick body language, no dramatic wind effects that break identity continuity.",
+  "id": "03-resort-fracture",
+  "title": "Resort Fracture",
+  "description": "The same fictional cast shifted to a luxury resort terrace, with status and exclusion expressed through distance.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/03-resort-fracture/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-penthouse-lineup",
+        "meta_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/meta.json",
+        "image_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root key art as the reference and preserve the same ensemble in a brighter resort setting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Resort Fracture",
+      "description": "The same fictional cast shifted to a luxury resort terrace, with status and exclusion expressed through distance."
+    },
+    "zh-CN": {
+      "title": "度假村裂痕",
+      "description": "把同一阵容移到奢华海边度假村露台,通过空间距离传达地位和排斥感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The same prestige-drama family posed on a bright luxury resort terrace with visible emotional distance.",
+      "zh-CN": "同一家族剧阵容站在明亮奢华的度假村露台上,彼此间带着明显距离感。"
+    }
+  }
+}

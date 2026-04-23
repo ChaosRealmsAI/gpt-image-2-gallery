@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium landing-page still for a luxury smartwatch, designed as an immaculate product website section stack. The palette uses silver steel, off-white, soft graphite, and a restrained cool-blue highlight. Lighting is bright, clean, and luxurious, with a catalog-photography feel that transitions into elegant webpage blocks and module separators. The top half should read like a hero section, while the lower half transitions into material story, internal engineering, and strap-system segments.\n\nSubject:\nShow a brushed-steel smartwatch with a sculpted case, subtle crown, precision chamfers, and a premium woven strap. The main watch render floats in front of delicate abstract page elements. Around it, build landing-page modules from abstract headline bars, slim comparison rows, circular callout markers, and one cutaway-style detail panel hinting at layered materials or sensor architecture. Include a secondary strap color variation and a close crop of the case edge to emphasize finish quality, but preserve the watch face and body as the dominant focus.\n\nImportant details:\nThe composition should sell luxury engineering and refinement. Case thickness, lugs, strap attachment, glass curvature, and brushed metal finish must feel believable. The page hierarchy needs to communicate hero, material story, engineering depth, and CTA in a single frame without becoming cluttered. Use premium spacing, gentle contrast, and polished alignment. The design language should feel closer to a launch keynote website than a generic watch-store page.\n\nUse case:\nPremium Product Landing Page single study 6/9, testing luxury wearable presentation with material storytelling and cutaway-inspired page modules.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no wrist on human skin, no fake app screenshots, no oversized fitness icons, no jewelry clutter, no distorted watch anatomy, no cheap sport-watch styling.",
+  "id": "smartwatch-material-cutaway",
+  "title": "Smartwatch Material Cutaway",
+  "description": "A premium landing-page still for a luxury smartwatch, mixing hero photography with material-story and cutaway-inspired modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/smartwatch-material-cutaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on smartwatch materials and engineering layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Smartwatch Material Cutaway",
+      "description": "A premium landing-page still for a luxury smartwatch, mixing hero photography with material-story and cutaway-inspired modules."
+    },
+    "zh-CN": {
+      "title": "智能手表材质剖面页",
+      "description": "一张奢华智能手表的高级落地页静帧，结合主视觉摄影、材质叙事与剖面感模块。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury smartwatch landing page with a steel watch hero image, strap variations, and material-detail modules.",
+      "zh-CN": "一张奢华智能手表落地页静帧，包含钢质手表主视觉、表带变化和材质细节模块。"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "pet-food-packaging-and-bowl-scene-system",
+  "slug": "pet-food-packaging-and-bowl-scene-system",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "title": "Pet Food Packaging and Bowl Scene System",
+  "short_title": "Pet Food System",
+  "description": "Create pet-food systems linking shelf packaging with bowl scenes, feeding moments, and ingredient trust.",
+  "i18n": {
+    "en": {
+      "title": "Pet Food Packaging and Bowl Scene System",
+      "short_title": "Pet Food System",
+      "description": "Create pet-food systems linking shelf packaging with bowl scenes, feeding moments, and ingredient trust."
+    },
+    "zh-CN": {
+      "title": "宠物食品包装与食盆场景系统",
+      "short_title": "宠物食品",
+      "description": "做宠物食品包装与食盆场景系统，把包装和喂食场景连起来。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 450,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-pet-food-system-studies",
+      "type": "single",
+      "title": "Pet Food System Studies",
+      "path": "packages/single-pet-food-system-studies/package.json"
+    }
+  ]
+}

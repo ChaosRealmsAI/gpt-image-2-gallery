@@ -1,0 +1,50 @@
+{
+  "id": "product-packaging-studio-mockup",
+  "slug": "product-packaging-studio-mockup",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Product Packaging Studio Mockup",
+  "short_title": "Packaging",
+  "description": "A Prompt Atlas theme for Product Packaging Studio Mockup, testing photorealism, physics-materials, editing-workflow, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Product Packaging Studio Mockup",
+      "short_title": "Packaging",
+      "description": "A Prompt Atlas theme for Product Packaging Studio Mockup, testing photorealism, physics-materials, editing-workflow, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "产品包装立体棚拍 mockup",
+      "short_title": "包装棚拍",
+      "description": "产品包装立体棚拍 mockup：咖啡袋 / 化妆品瓶 / 饮料罐 / 冰淇淋盒 · studio 光 + 深灰无缝背景 + 阴影反光真实 · 包装平面图转立体"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-product-packaging-studio-mockup-studies",
+      "type": "single",
+      "title": "Packaging Mockup Studies",
+      "path": "packages/single-product-packaging-studio-mockup-studies/package.json"
+    }
+  ]
+}

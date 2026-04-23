@@ -1,0 +1,50 @@
+{
+  "id": "player-profile-achievement-card-set",
+  "slug": "player-profile-achievement-card-set",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "title": "Player Profile Achievement Card Set",
+  "short_title": "Profile Cards",
+  "description": "Create profile and achievement cards that make personal progression, seasonal rank, and milestone bragging rights shareable.",
+  "i18n": {
+    "en": {
+      "title": "Player Profile Achievement Card Set",
+      "short_title": "Profile Cards",
+      "description": "Create profile and achievement cards that make personal progression, seasonal rank, and milestone bragging rights shareable."
+    },
+    "zh-CN": {
+      "title": "玩家名片与成就卡组",
+      "short_title": "玩家名片",
+      "description": "围绕玩家个人页、赛季段位和成就里程碑做分享卡组，让 profile 不只是信息表，而是带传播性的资产。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1021,
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-player-profile-studies",
+      "type": "single",
+      "title": "Player Profile Studies",
+      "path": "packages/single-player-profile-studies/package.json"
+    }
+  ]
+}

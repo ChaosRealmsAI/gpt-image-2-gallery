@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nUse the reference ensemble key art as the source of identity, wardrobe, and hierarchy. Create a square awards-season portrait adaptation set in a muted cream photo studio with soft architectural shadows, brushed metal panels, and controlled spotlight falloff. The mood is formal, expensive, and magazine-grade, as if the platform commissioned a prestige press image derived from the same series campaign.\n\nSubject:\nShow the same six characters from the reference with preserved faces, hairstyles, clothing language, and relationship structure. The matriarch remains the visual center, now standing instead of sitting, while the heir is placed close enough to imply succession but still clearly subordinate. The daughter and outsider son-in-law form opposing diagonals that create tension across the frame. The fixer and bodyguard stay slightly recessed, still readable but not competing for dominance. Use small shifts in shoulder angle, eye direction, and hand placement to intensify status and distrust without changing who each person is.\n\nImportant details:\nPreserve exact identity continuity from image 01. This variant tests whether a campaign can tighten the crop and simplify the background while keeping the same power map. Maintain luxury tailoring, restrained color palette, and premium retouching discipline. The image should still read instantly as the same fictional series, not a new cast or unrelated editorial portrait. Avoid clutter; the hierarchy must come from spacing, posture, gaze, and tonal contrast.\n\nUse case:\nPrestige TV Key Art Remix series study 2/9, adapting the same fictional ensemble into a formal awards-campaign portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cast reshuffle, no extra jewelry spectacle, no broad smiles, no busy set dressing, no fashion-editorial exaggeration that breaks the prestige-drama tone.",
+  "id": "02-awards-portrait",
+  "title": "Awards Portrait",
+  "description": "A tighter studio adaptation of the same fictional cast, preserving the original hierarchy for an awards-season portrait.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/02-awards-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-penthouse-lineup",
+        "meta_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/meta.json",
+        "image_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root key art as the reference and preserve identity while shifting to a studio portrait format."
+  },
+  "i18n": {
+    "en": {
+      "title": "Awards Portrait",
+      "description": "A tighter studio adaptation of the same fictional cast, preserving the original hierarchy for an awards-season portrait."
+    },
+    "zh-CN": {
+      "title": "奖季群像",
+      "description": "以更紧致的摄影棚构图重拍同一阵容,保留原始权力层级与角色关系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The same cold dynasty cast reassembled in a formal cream studio for an awards portrait.",
+      "zh-CN": "同一组冷峻家族剧角色在米白摄影棚中被重组为正式奖季群像。"
+    }
+  }
+}

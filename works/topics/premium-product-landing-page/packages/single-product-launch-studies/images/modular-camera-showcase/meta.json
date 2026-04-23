@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium web still for a modular compact camera system, laid out like a high-end product landing page with crisp art direction. The palette combines matte charcoal, silver aluminum, and muted sandstone highlights, with lighting that feels like a blend of studio catalog photography and editorial design. The frame should contain a dominant hero section above a sequence of tightly designed feature areas and specification blocks, all arranged in a precise vertical cadence.\n\nSubject:\nShow a compact modular camera body with interchangeable lens modules and an attachable grip, rendered with believable machined edges, knurled dials, textured buttons, and a soft shadow beneath the main hero object. Surround it with abstract headline bars, feature panels, small diagram-like callout zones, and cropped detail windows revealing the lens mount, tactile controls, and modular seams. One supporting module can show two lens units aligned side by side to imply system versatility, but the central product body remains the main focal point.\n\nImportant details:\nThe page must communicate that the product is a premium camera ecosystem. Emphasize industrial precision, material fidelity, and clean hierarchy from hero render to feature explanation to specs. The composition should feel design-agency polished: sharp alignment, elegant spacing, and convincing relationships between large product renders and smaller supporting modules. Use restrained contrast and avoid noisy interface clutter.\n\nUse case:\nPremium Product Landing Page single study 3/9, testing camera-system storytelling with product photography, module hierarchy, and diagram-like feature framing.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no photographer model, no oversized lens flare, no chaotic accessory pile, no fake retro film nostalgia, no distorted camera proportions.",
+  "id": "modular-camera-showcase",
+  "title": "Modular Camera Showcase",
+  "description": "A premium landing-page still for a modular compact camera system with hero photography, close-up feature panels, and precise layout rhythm.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/modular-camera-showcase/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on a modular camera launch composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Modular Camera Showcase",
+      "description": "A premium landing-page still for a modular compact camera system with hero photography, close-up feature panels, and precise layout rhythm."
+    },
+    "zh-CN": {
+      "title": "模块相机展示页",
+      "description": "一张模块化紧凑相机系统的高级落地页静帧，结合主视觉摄影、细节面板与精确页面节奏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A premium camera landing page showing a modular compact camera with close-up feature sections.",
+      "zh-CN": "一张高级相机落地页静帧，展示模块化紧凑相机及其细节功能分区。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square prestige-streaming key art image set in a monumental ancestral council chamber with polished stone floors, candlelike side lighting, and towering carved walls that imply dynastic history without turning into fantasy spectacle. The palette is restrained: black, deep oxblood, parchment ivory, and muted brass. The frame should feel ceremonial, cold, and platform-ready, with a polished photographic finish rather than a painted tableau.\n\nSubject:\nCreate a fictional ensemble of five heirs competing for control of an old empire. A stern eldest daughter sits in the central chair as the implied lead. Around her stand four rivals: a military brother in severe uniform, a scholar-sister holding a sealed document, a charming reformist cousin half turned away, and an elderly advisor whose presence is quiet but destabilizing. Arrange them so hierarchy is instantly readable: the lead is central and calm, the others orbit with distinct amounts of threat, resentment, and opportunism. Their faces and costumes should feel specific and believable, not generic fantasy cosplay.\n\nImportant details:\nThe key challenge is prestige-TV ensemble grammar applied to a historical power struggle. Use spacing, gaze direction, and subtle prop logic to show alliances and succession pressure. Keep the environment luxurious but understated so the cast remains the focus. This should feel like official campaign art for a serious serialized drama, not an adventure poster. Facial realism, wardrobe finish, and negative space discipline are critical.\n\nUse case:\nPrestige TV Key Art Remix single study 5/9, testing a dynastic council ensemble in premium streaming campaign language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no swords drawn, no fantasy creature elements, no cluttered throne-room excess, no camp theatricality, no chaotic crowd scene.",
+  "id": "council-of-heirs",
+  "title": "Council of Heirs",
+  "description": "A dynastic succession ensemble staged as a polished prestige-series campaign portrait.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/single-ensemble-remix-studies/images/council-of-heirs/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Standalone prestige key art study for a dynastic council ensemble."
+  },
+  "i18n": {
+    "en": {
+      "title": "Council of Heirs",
+      "description": "A dynastic succession ensemble staged as a polished prestige-series campaign portrait."
+    },
+    "zh-CN": {
+      "title": "继承议会",
+      "description": "把王朝继承争夺阵容拍成一张精致冷峻的精品剧集主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Five rival heirs posed in a monumental council chamber like a prestige streaming drama.",
+      "zh-CN": "五位互相竞争的继承人站在宏大的议会厅中,像一张精品流媒体剧集主视觉。"
+    }
+  }
+}

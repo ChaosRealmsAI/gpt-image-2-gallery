@@ -1,0 +1,51 @@
+{
+  "id": "premium-product-landing-page",
+  "slug": "premium-product-landing-page",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Premium Product Landing Page",
+  "short_title": "Product Landing",
+  "description": "A Prompt Atlas theme for premium product landing-page stills, testing hardware hero photography, value-prop hierarchy, module rhythm, and brand-grade web composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Premium Product Landing Page",
+      "short_title": "Product Landing",
+      "description": "A Prompt Atlas theme for premium product landing-page stills, testing hardware hero photography, value-prop hierarchy, module rhythm, and brand-grade web composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "高级产品落地页",
+      "short_title": "产品落地页",
+      "description": "一个用于测试高级产品落地页静帧的 Prompt Atlas 主题，聚焦硬件 hero 视觉、卖点层级、模块节奏与品牌级网页构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 310,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-product-launch-studies",
+      "type": "single",
+      "title": "Product Launch Studies",
+      "path": "packages/single-product-launch-studies/package.json"
+    }
+  ]
+}

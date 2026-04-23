@@ -1,0 +1,51 @@
+{
+  "id": "pet-holiday-costume-promo-set",
+  "slug": "pet-holiday-costume-promo-set",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "title": "Pet Holiday Costume Promo Set",
+  "short_title": "Pet Holiday",
+  "description": "Build holiday costume promo sets for pets with playful styling and platform-native shareability.",
+  "i18n": {
+    "en": {
+      "title": "Pet Holiday Costume Promo Set",
+      "short_title": "Pet Holiday",
+      "description": "Build holiday costume promo sets for pets with playful styling and platform-native shareability."
+    },
+    "zh-CN": {
+      "title": "宠物节日装扮宣传组",
+      "short_title": "宠物节日",
+      "description": "做宠物节日装扮宣传组，强调主题感和传播性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 440,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "commercial-mockup",
+      "fashion",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-holiday-promo-studies",
+      "type": "single",
+      "title": "Holiday Pet Promo Studies",
+      "path": "packages/single-holiday-promo-studies/package.json"
+    }
+  ]
+}

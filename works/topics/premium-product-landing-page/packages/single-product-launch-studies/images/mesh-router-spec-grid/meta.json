@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium landing-page still for a mesh-router system, arranged like a high-end networking product website. The page uses a restrained palette of matte white, soft gray, pale blue, and graphite, with a bright minimal background and precise grid discipline. The composition should imply a hero section at the top, then a network-coverage story, then a performance-and-specification row below, all integrated into one square frame with elegant whitespace.\n\nSubject:\nFeature a set of sculptural mesh-router units with rounded edges, vent detailing, and a refined industrial form, arranged as a hero trio with one main unit forward and two supporting nodes behind it. Surround them with a landing-page layout built from abstract headline blocks, network-diagram panels, signal-zone cards, and a precise specification grid made of clean rectangular modules without readable words. Add one simplified top-down coverage visualization using glowing nodes and lines, and one close crop revealing vent texture and material finish. The hardware objects should remain the primary focal point.\n\nImportant details:\nThis should feel like premium infrastructure branding, not commodity electronics marketing. The routers must look believable, sculpted, and desirable, with careful seams, venting, and premium matte material treatment. The webpage layout should communicate trust, coverage, and system elegance through hierarchy, spacing, and well-controlled module rhythm. Keep the image minimal, confident, and visually intelligent, with no unnecessary clutter or generic smart-home clichés.\n\nUse case:\nPremium Product Landing Page single study 9/9, testing a mesh-network launch page with product grouping, coverage storytelling, and a clean premium spec grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no server-rack environment, no cartoon wifi icons, no smart-home family photo, no excessive blue glow, no cheap plastic feel, no distorted router geometry.",
+  "id": "mesh-router-spec-grid",
+  "title": "Mesh Router Spec Grid",
+  "description": "A premium landing-page still for a sculptural mesh-router system with grouped hardware hero renders and a clean specification grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/mesh-router-spec-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on mesh-router hardware grouping and specs."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mesh Router Spec Grid",
+      "description": "A premium landing-page still for a sculptural mesh-router system with grouped hardware hero renders and a clean specification grid."
+    },
+    "zh-CN": {
+      "title": "Mesh 路由规格页",
+      "description": "一张雕塑感 mesh 路由系统的高级落地页静帧，突出成组硬件主视觉与整洁的规格网格。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A premium mesh-router landing page showing three sculptural router units above coverage and specification modules.",
+      "zh-CN": "一张高级 mesh 路由落地页静帧，展示三台雕塑感路由器以及覆盖范围和规格模块。"
+    }
+  }
+}

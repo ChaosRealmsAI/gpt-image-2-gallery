@@ -1,0 +1,49 @@
+{
+  "id": "octane-keyshot-render",
+  "slug": "octane-keyshot-render",
+  "category": "design",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Octane KeyShot Render",
+  "short_title": "Product Render",
+  "description": "A Prompt Atlas theme for Octane KeyShot Render, testing photorealism, physics-materials, editing-workflow, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Octane KeyShot Render",
+      "short_title": "Product Render",
+      "description": "A Prompt Atlas theme for Octane KeyShot Render, testing photorealism, physics-materials, editing-workflow, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Octane / Keyshot 级产品渲染",
+      "short_title": "产品渲染",
+      "description": "Octane / Keyshot 级产品渲染：高级香水瓶 · 玻璃折射 + 金属盖反光 + 液体漂浮 + 无缝灰色背景 · 商业拍摄级"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-octane-keyshot-render-studies",
+      "type": "single",
+      "title": "Product Render Render Studies",
+      "path": "packages/single-octane-keyshot-render-studies/package.json"
+    }
+  ]
+}

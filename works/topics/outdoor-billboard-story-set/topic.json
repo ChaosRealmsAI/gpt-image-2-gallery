@@ -1,0 +1,59 @@
+{
+  "id": "outdoor-billboard-story-set",
+  "slug": "outdoor-billboard-story-set",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Outdoor Billboard Story Set",
+  "short_title": "Billboard Set",
+  "description": "Extend one campaign idea into metro lightboxes, building screens, bus shelters, and event takeovers without losing clarity or impact.",
+  "i18n": {
+    "en": {
+      "title": "Outdoor Billboard Story Set",
+      "short_title": "Billboard Set",
+      "description": "Extend one campaign idea into metro lightboxes, building screens, bus shelters, and event takeovers without losing clarity or impact."
+    },
+    "zh-CN": {
+      "title": "户外广告故事组图",
+      "short_title": "户外广告组",
+      "description": "把一个宣发概念延展成地铁灯箱、公交站牌、商场大屏和活动主背景，让不同媒介上都保有清晰传播力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 663,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "world-knowledge",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-key-art-pivot",
+      "type": "series",
+      "title": "Key Art Pivot",
+      "path": "packages/series-key-art-pivot/package.json"
+    },
+    {
+      "id": "single-rollout-assets",
+      "type": "single",
+      "title": "Rollout Assets",
+      "path": "packages/single-rollout-assets/package.json"
+    }
+  ]
+}

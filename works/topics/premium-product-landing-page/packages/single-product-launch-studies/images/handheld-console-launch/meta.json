@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square launch-page still for a premium handheld gaming console, framed like a polished web campaign rather than a store listing. The page uses a deep charcoal-to-graphite background with controlled pools of light, clean module spacing, and a dramatic but disciplined contrast structure. The composition should read as a hero banner at the top flowing into performance, ergonomics, and portability sections below, all within one coherent square crop.\n\nSubject:\nPlace a premium handheld console in the center, angled slightly to reveal its screen, analog sticks, shoulder curve, vents, and finely machined frame. The screen may show non-readable geometric game imagery, but the device body should remain the main subject. Around it, design a believable landing-page system with abstract headline bars, performance cards, small benchmark-style panels, ergonomic callout zones, and one lower strip showing the console docked beside a slim case or charging cradle. Keep every supporting element subordinate to the hero hardware render.\n\nImportant details:\nThe image should feel like a proposal for a luxury consumer-electronics launch page. Industrial design must be credible: balanced proportions, tactile buttons, realistic screen glass, subtle venting, and premium surface finishes. The web layout needs a strong hierarchy from hero to feature tiles to compact spec grid, using generous spacing, crisp edge alignment, and a visually persuasive cadence. Avoid generic gamer chaos; keep it premium, mature, and art directed.\n\nUse case:\nPremium Product Landing Page single study 4/9, testing premium gaming-device presentation with strong hero hardware and supporting feature modules.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no chaotic esports graphics, no anime characters on screen, no RGB overload, no toy-like proportions, no messy accessory pile, no distorted controls.",
+  "id": "handheld-console-launch",
+  "title": "Handheld Console Launch",
+  "description": "A premium landing-page still for a handheld gaming console with hero hardware photography and disciplined performance modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/handheld-console-launch/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on a flagship handheld console launch."
+  },
+  "i18n": {
+    "en": {
+      "title": "Handheld Console Launch",
+      "description": "A premium landing-page still for a handheld gaming console with hero hardware photography and disciplined performance modules."
+    },
+    "zh-CN": {
+      "title": "掌机发布页",
+      "description": "一张面向高端掌机的高级落地页静帧，强调主视觉硬件表现和克制的性能模块层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium handheld-console landing page showing the device hero image above refined performance sections.",
+      "zh-CN": "一张高级掌机落地页静帧，中央是设备主视觉，下方是精炼的性能功能区。"
+    }
+  }
+}

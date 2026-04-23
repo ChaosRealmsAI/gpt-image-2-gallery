@@ -1,0 +1,71 @@
+{
+  "id": "series-cold-dynasty-campaign",
+  "type": "series",
+  "title": "Cold Dynasty Campaign",
+  "description": "A reference-dependent prestige-series campaign: one square ensemble key art establishes the cast pyramid, then three adaptations preserve the same identities and power dynamics.",
+  "creative_direction": "Use a single fictional dynasty-drama ensemble as the campaign anchor. Image 01 defines the dominant matriarch, the heir, the rival branch, and the fixer. Images 02-04 must feel like the same premium streaming series while shifting crop logic, setting temperature, and emotional tension without losing hierarchy.",
+  "cover_image": "images/01-penthouse-lineup/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-penthouse-lineup/meta.json",
+      "images/02-awards-portrait/meta.json",
+      "images/03-resort-fracture/meta.json",
+      "images/04-night-window-truce/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cold Dynasty Campaign",
+      "description": "One fictional prestige-drama key art expands into three campaign adaptations while preserving the same ensemble hierarchy."
+    },
+    "zh-CN": {
+      "title": "冷色王朝系列",
+      "description": "一张虚构精品家族剧主视觉延展成三张系列变体,始终保留同一阵容层级和权力关系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-penthouse-lineup",
+      "title": "Penthouse Lineup",
+      "image": "images/01-penthouse-lineup/image.png",
+      "meta": "images/01-penthouse-lineup/meta.json"
+    },
+    {
+      "id": "02-awards-portrait",
+      "title": "Awards Portrait",
+      "image": "images/02-awards-portrait/image.png",
+      "meta": "images/02-awards-portrait/meta.json"
+    },
+    {
+      "id": "03-resort-fracture",
+      "title": "Resort Fracture",
+      "image": "images/03-resort-fracture/image.png",
+      "meta": "images/03-resort-fracture/meta.json"
+    },
+    {
+      "id": "04-night-window-truce",
+      "title": "Night Window Truce",
+      "image": "images/04-night-window-truce/image.png",
+      "meta": "images/04-night-window-truce/meta.json"
+    }
+  ]
+}

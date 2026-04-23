@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium landing-page still for a boutique desktop synthesizer, composed like a sophisticated music-technology website. The visual tone is warm industrial: bone white, muted orange, brushed aluminum, and soft black accents, with diffuse studio lighting and a neat modular grid. The page should feel like an art-directed launch page with a hero zone up top and a sequence of feature sections below, all contained in a balanced square frame.\n\nSubject:\nPresent a compact desktop synthesizer with clean knobs, sliders, a small non-readable display area, speaker perforations, and a carefully machined chassis. The main hero render sits slightly off-center to create motion, while surrounding layout elements suggest feature stories, signal-path modules, tactile control explanations, and a slim accessory strip. Add one cropped macro panel showing the fader caps and one secondary angle of the synth from above, but keep the dominant focus on the central hardware object and the premium page hierarchy built around it.\n\nImportant details:\nThis must look like a creative-tech launch page for a serious design-led brand. The hardware needs authentic industrial design cues: measured proportions, believable materials, crisp edges, and tactile knobs that feel manufacturable. The landing-page composition should rely on elegant spacing, modular alignment, and a clear flow from hero to feature storytelling to condensed specification grid. Aim for premium calm, not retro clutter or maximalist music-poster energy.\n\nUse case:\nPremium Product Landing Page single study 5/9, testing a boutique synthesizer launch page with tactile product detail and refined module rhythm.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no crowded studio desk, no musician portrait, no excessive cables, no vintage grime, no chaotic patch-bay spaghetti, no malformed knobs or keys.",
+  "id": "desktop-synth-arrangement",
+  "title": "Desktop Synth Arrangement",
+  "description": "A premium landing-page still for a boutique desktop synthesizer with tactile hardware detail and clean editorial module rhythm.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/desktop-synth-arrangement/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on a boutique desktop synthesizer."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desktop Synth Arrangement",
+      "description": "A premium landing-page still for a boutique desktop synthesizer with tactile hardware detail and clean editorial module rhythm."
+    },
+    "zh-CN": {
+      "title": "桌面合成器编排页",
+      "description": "一张精品桌面合成器的高级落地页静帧，突出可触摸的硬件细节和整洁的编辑式模块节奏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium synthesizer launch page with a central hardware render and tightly arranged feature modules.",
+      "zh-CN": "一张高级合成器发布页静帧，中央是主视觉硬件渲染，周围是紧凑而有序的功能模块。"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nUse the reference ensemble key art as the campaign identity source. Create a square night variant inside the same penthouse world, now lit by rain-streaked windows, distant city bokeh, and a narrow pool of tungsten light across dark flooring. The atmosphere is tense and intimate, with most of the frame held in deep shadow so faces and posture carry the drama.\n\nSubject:\nShow the same six characters from image 01 with preserved identities, tailoring, and rank order, arranged around the window line as if a temporary truce is being negotiated. The matriarch remains dominant near the center, still the brightest face. The heir stands close but slightly behind, ready to step in. The daughter and outsider son-in-law occupy opposite sides of the frame, creating a visual split through opposing gazes. The fixer hovers between camps, while the bodyguard is almost absorbed into shadow yet still structurally important. Keep gestures minimal: a hand on a chair back, a chin tilt, a slight lean toward or away from the others.\n\nImportant details:\nThis image tests whether the same prestige ensemble can survive a darker, moodier campaign treatment without losing clarity. Preserve the recognizable faces, hairstyle outlines, and wardrobe tones from image 01. Use reflections and rain only as atmosphere, never as distraction. The power dynamics must remain legible in silhouette, spacing, and light hierarchy. The result should feel like a premium streaming finale poster cropped to a square social key art format.\n\nUse case:\nPrestige TV Key Art Remix series study 4/9, turning the same fictional dynasty cast into a darker night-truce campaign variant.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no action-scene chaos, no lightning theatrics, no extra weapons, no horror styling, no obscure faces hidden beyond recognition.",
+  "id": "04-night-window-truce",
+  "title": "Night Window Truce",
+  "description": "A darker penthouse-night adaptation of the same cast, where lighting and spacing carry the unresolved truce.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/04-night-window-truce/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-penthouse-lineup",
+        "meta_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/meta.json",
+        "image_path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root key art as the reference and preserve the cast under a darker night treatment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Window Truce",
+      "description": "A darker penthouse-night adaptation of the same cast, where lighting and spacing carry the unresolved truce."
+    },
+    "zh-CN": {
+      "title": "夜窗停战",
+      "description": "用更黑暗的顶层公寓夜景重拍同一阵容,让灯光和站位承载暂时停战的紧张感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The same dynasty cast arranged by rain-dark windows in a tense night-time truce.",
+      "zh-CN": "同一王朝家族剧阵容在雨夜落地窗前对峙,呈现紧张的暂时停战。"
+    }
+  }
+}

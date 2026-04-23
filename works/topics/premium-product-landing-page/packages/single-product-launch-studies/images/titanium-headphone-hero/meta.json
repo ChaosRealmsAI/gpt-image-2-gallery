@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium landing-page still for a flagship over-ear headphone, composed like the first viewport of a hardware launch website. The page is shown front-on with crisp vertical rhythm, a pale graphite background fading into warm stone gray, and a controlled studio-light glow that makes the page feel expensive rather than flashy. The upper half should read like a hero section, while the lower half suggests supporting modules and CTA blocks. Keep the lighting bright enough to reveal materials, with subtle reflections and disciplined shadows.\n\nSubject:\nCenter a titanium over-ear headphone with a floating three-quarter view, slightly larger than life, showing the brushed metal yoke, perforated ear cushions, fine seam lines, and a soft matte headband interior. Around the product, build an elegant landing-page hierarchy using abstract headline bars, short paragraph blocks, pill-shaped CTA zones, and two or three clean value cards that imply features like comfort, acoustic isolation, and battery life without containing readable words. Add one smaller secondary render of the headphone folded flat to suggest portability.\n\nImportant details:\nThe image must feel like a real premium product launch page, not a random UI mockup. Product photography is the hero; typography zones, spacing, and module cadence support it. Preserve believable industrial design proportions, distinct titanium texture, soft black fabric, and restrained monochrome accents. Use generous margins, precise alignment, and a convincing rhythm from hero to feature modules to specification snippets.\n\nUse case:\nPremium Product Landing Page single study 1/9, testing a premium headphone hero frame with strong product-first web hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no cluttered ecommerce thumbnails, no human model, no exploded parts, no neon gamer styling, no distorted headphone anatomy.",
+  "id": "titanium-headphone-hero",
+  "title": "Titanium Headphone Hero",
+  "description": "A premium landing-page still built around titanium over-ear headphones and a clean product-first hero hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/titanium-headphone-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on flagship headphone hero composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Titanium Headphone Hero",
+      "description": "A premium landing-page still built around titanium over-ear headphones and a clean product-first hero hierarchy."
+    },
+    "zh-CN": {
+      "title": "钛金耳机主视觉",
+      "description": "一张以钛金属头戴耳机为核心的高级落地页静帧，突出产品主视觉与清晰网页层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium landing-page still featuring titanium over-ear headphones above elegant feature modules.",
+      "zh-CN": "一张高级产品落地页静帧，中央是钛金属头戴耳机，下方配有整齐的卖点模块。"
+    }
+  }
+}

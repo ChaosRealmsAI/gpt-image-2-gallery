@@ -1,0 +1,64 @@
+{
+  "id": "single-ensemble-remix-studies",
+  "type": "single",
+  "title": "Ensemble Remix Studies",
+  "description": "Five independent prestige-TV key art studies that cast different fictional worlds into the grammar of premium streaming ensemble campaigns.",
+  "creative_direction": "Each image is a standalone key art study with its own cast, setting, and tension system. The common rule is prestige-streaming discipline: one clear lead, credible secondary hierarchy, controlled spacing, and a polished campaign finish that implies platform-ready marketing rather than a generic group portrait.",
+  "cover_image": "images/council-of-heirs/image.png",
+  "i18n": {
+    "en": {
+      "title": "Ensemble Remix Studies",
+      "description": "Five independent prestige-TV key art studies that cast different fictional worlds into the grammar of premium streaming ensemble campaigns."
+    },
+    "zh-CN": {
+      "title": "阵容换皮研究",
+      "description": "五张独立的精品剧集主视觉研究,把不同虚构世界的人物阵容放入流媒体 ensemble campaign 的海报语法中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "council-of-heirs",
+      "title": "Council of Heirs",
+      "image": "images/council-of-heirs/image.png",
+      "meta": "images/council-of-heirs/meta.json"
+    },
+    {
+      "id": "orbital-diplomats",
+      "title": "Orbital Diplomats",
+      "image": "images/orbital-diplomats/image.png",
+      "meta": "images/orbital-diplomats/meta.json"
+    },
+    {
+      "id": "monastery-conspirators",
+      "title": "Monastery Conspirators",
+      "image": "images/monastery-conspirators/image.png",
+      "meta": "images/monastery-conspirators/meta.json"
+    },
+    {
+      "id": "desert-empire-board",
+      "title": "Desert Empire Board",
+      "image": "images/desert-empire-board/image.png",
+      "meta": "images/desert-empire-board/meta.json"
+    },
+    {
+      "id": "coastal-mystery-cast",
+      "title": "Coastal Mystery Cast",
+      "image": "images/coastal-mystery-cast/image.png",
+      "meta": "images/coastal-mystery-cast/meta.json"
+    }
+  ]
+}

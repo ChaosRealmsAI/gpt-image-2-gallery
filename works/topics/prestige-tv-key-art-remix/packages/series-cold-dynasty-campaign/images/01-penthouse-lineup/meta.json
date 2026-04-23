@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square premium-streaming key art composition staged inside a glass-walled penthouse above a winter city skyline at blue hour. The frame is cool, polished, and austere, with silver reflections, pale marble, smoked glass, and a disciplined balance of shadow and controlled highlights. The camera is frontal and slightly elevated so the whole group reads like an official campaign image rather than a candid scene.\n\nSubject:\nCreate a fictional prestige-drama ensemble of six people arranged in a strict power pyramid. At the center sits an older matriarch in an ivory suit on a low modern chair, perfectly still and clearly dominant. Behind her stands the chosen heir in a dark charcoal suit, tense but composed. To one side, a sharp younger daughter leans against the window with a guarded stare; opposite her, an outsider son-in-law stands half a step back, uncertain but ambitious. Slightly behind them, a discreet fixer and a silent bodyguard complete the composition. Their expressions must suggest inheritance battles, private grievances, and long family memory without melodrama.\n\nImportant details:\nThis is the reference image for the series, so face identities, hair silhouettes, wardrobe palette, and precise spacing between figures must be memorable and reusable. The visual language must feel like an awards-season streamer campaign: clean negative space, expensive tailoring, subtle environmental storytelling, and unmistakable role hierarchy. Preserve believable anatomy, consistent eye lines, and enough empty space around the ensemble for future crop logic.\n\nUse case:\nPrestige TV Key Art Remix series study 1/9, establishing the core cast hierarchy for a fictional streaming dynasty drama.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no comedy energy, no crowded props, no extra background people, no exaggerated action poses, no cheap soap-opera styling.",
+  "id": "01-penthouse-lineup",
+  "title": "Penthouse Lineup",
+  "description": "The anchor ensemble key art for a fictional dynasty drama, defining cast identity and hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/series-cold-dynasty-campaign/images/01-penthouse-lineup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root ensemble key art that establishes the dynasty campaign cast and spacing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Penthouse Lineup",
+      "description": "The anchor ensemble key art for a fictional dynasty drama, defining cast identity and hierarchy."
+    },
+    "zh-CN": {
+      "title": "顶层公寓阵容",
+      "description": "虚构家族剧的核心 ensemble 主视觉,定义角色身份、站位和权力层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A cold prestige-drama ensemble lined up in a glass penthouse above a winter city.",
+      "zh-CN": "冬夜城市上方的玻璃顶层公寓里,一组冷峻的精品家族剧角色阵容。"
+    }
+  }
+}

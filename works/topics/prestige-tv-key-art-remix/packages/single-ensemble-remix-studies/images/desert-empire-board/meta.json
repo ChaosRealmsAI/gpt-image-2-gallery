@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square streaming-series key art setup inside a desert-capital strategy room with sand-colored concrete, shaded lattice windows, and late-afternoon amber light cutting clean geometric shapes across the floor. The atmosphere should feel expensive, modern, and politically loaded. The space is minimal enough to keep focus on the cast, but rich enough to imply money, extraction, and statecraft.\n\nSubject:\nCreate a fictional ensemble of six people controlling an energy empire. The lead is a young executive woman in a cream tailored suit standing at the head of a low table. Around her are an older patriarch in a wheelchair, a military liaison in dark uniform, a younger half-brother in relaxed luxury attire, a legal strategist with a tablet held dark and unreadable, and a desert field operator in dust-marked formalwear. Their arrangement should clearly suggest succession anxiety, public image management, and regional power. The lead must dominate the frame through posture and light, while every supporting character carries a distinct threat or dependency.\n\nImportant details:\nTreat this as official platform key art for a modern geopolitical family drama. Use spacing and body language to communicate ownership, rivalry, and strategic containment. Keep surfaces tactile and believable, with high-end wardrobe styling and restrained props. The composition must avoid generic corporate-photo symmetry; instead it should feel intentionally dramatic, with a real sense of private history between people.\n\nUse case:\nPrestige TV Key Art Remix single study 8/9, testing a desert-capital power board as a premium ensemble campaign image.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no war-zone chaos, no oil-rig spectacle, no extra attendants, no broad grin advertising tone, no cheap action-thriller clichés.",
+  "id": "desert-empire-board",
+  "title": "Desert Empire Board",
+  "description": "A modern energy-dynasty ensemble staged with the severe polish of premium streaming key art.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/single-ensemble-remix-studies/images/desert-empire-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Standalone prestige key art study for a desert energy empire ensemble."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Empire Board",
+      "description": "A modern energy-dynasty ensemble staged with the severe polish of premium streaming key art."
+    },
+    "zh-CN": {
+      "title": "沙漠帝国董事局",
+      "description": "把现代能源王朝阵容拍成一张严峻而高端的流媒体主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A six-person energy empire ensemble posed in a sun-cut strategy room in the desert capital.",
+      "zh-CN": "六位能源帝国关键人物站在被夕阳切割出几何光影的沙漠首都会议室里。"
+    }
+  }
+}

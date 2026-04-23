@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square web-launch still for a transparent desktop speaker system, presented as a polished premium landing page. The layout feels airy and editorial, with an off-white background that grades into faint ice gray, minimal grid lines, and a calm daylight tone. The composition should suggest stacked website sections inside one frame: a hero band at the top, a storytelling middle section, and compact feature tiles below. Everything is aligned, spacious, and highly intentional.\n\nSubject:\nFeature a pair of transparent acrylic speakers with visible internal drivers, aluminum knobs, and smoked glass edges. One speaker stands upright as the main hero object; the second sits slightly behind it for depth. Construct the surrounding landing-page layout from abstract headline blocks, specification ribbons, icon-like markers, and modular content cards that imply acoustic tuning, transparent construction, and room presence. Include one close-up crop of the circular driver housing and one narrow band that suggests a lifestyle scene without showing a full room.\n\nImportant details:\nThis should feel like a launch page for a design-forward audio brand. Transparency, edge highlights, screws, driver cones, and acrylic thickness must be rendered credibly. The page hierarchy should have a strong beat: hero, material story, internal detail, feature row, CTA. Keep the system elegant and premium rather than playful. Use negative space, thin dividers, and quiet contrast to make the composition readable at a glance.\n\nUse case:\nPremium Product Landing Page single study 2/9, testing transparent hardware presentation and story-module rhythm in one premium web frame.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no crowded furniture scene, no random equalizer graphics, no exaggerated RGB lighting, no warped acrylic geometry, no cheap retail packaging.",
+  "id": "transparent-speaker-story",
+  "title": "Transparent Speaker Story",
+  "description": "A premium landing-page still presenting transparent desktop speakers through hero photography and material-story sections.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-product-landing-page/packages/single-product-launch-studies/images/transparent-speaker-story/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premium landing-page study focused on transparent speaker storytelling modules."
+  },
+  "i18n": {
+    "en": {
+      "title": "Transparent Speaker Story",
+      "description": "A premium landing-page still presenting transparent desktop speakers through hero photography and material-story sections."
+    },
+    "zh-CN": {
+      "title": "透明音箱故事页",
+      "description": "一张展示透明桌面音箱的高级落地页静帧，通过主视觉与材质叙事模块体现产品价值。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A transparent speaker launch page with acrylic hardware, material close-ups, and clean feature cards.",
+      "zh-CN": "一张透明音箱发布页静帧，展示亚克力机身、细节特写和干净的功能模块。"
+    }
+  }
+}

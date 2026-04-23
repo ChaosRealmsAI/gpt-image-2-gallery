@@ -1,0 +1,88 @@
+{
+  "id": "single-player-profile-studies",
+  "type": "single",
+  "title": "Player Profile Studies",
+  "description": "Nine independent player-profile and achievement-card studies linking retention, identity, and social sharing.",
+  "creative_direction": "Focus on pride, progression memory, and shareability through polished profile surfaces and abstract but persuasive UI hierarchy.",
+  "cover_image": "images/profile-hero-card/image.png",
+  "i18n": {
+    "en": {
+      "title": "Player Profile Studies",
+      "description": "Nine independent player-profile and achievement-card studies linking retention, identity, and social sharing."
+    },
+    "zh-CN": {
+      "title": "玩家档案研究",
+      "description": "九张独立玩家档案与成就卡研究，连接留存、身份与社交分享。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "profile-hero-card",
+      "title": "Profile Hero Card",
+      "image": "images/profile-hero-card/image.png",
+      "meta": "images/profile-hero-card/meta.json"
+    },
+    {
+      "id": "ranked-season-recap",
+      "title": "Ranked Season Recap",
+      "image": "images/ranked-season-recap/image.png",
+      "meta": "images/ranked-season-recap/meta.json"
+    },
+    {
+      "id": "achievement-unlock-tile",
+      "title": "Achievement Unlock Tile",
+      "image": "images/achievement-unlock-tile/image.png",
+      "meta": "images/achievement-unlock-tile/meta.json"
+    },
+    {
+      "id": "end-of-season-share-card",
+      "title": "End Of Season Share Card",
+      "image": "images/end-of-season-share-card/image.png",
+      "meta": "images/end-of-season-share-card/meta.json"
+    },
+    {
+      "id": "profile-badge-wall",
+      "title": "Profile Badge Wall",
+      "image": "images/profile-badge-wall/image.png",
+      "meta": "images/profile-badge-wall/meta.json"
+    },
+    {
+      "id": "career-stats-abstract",
+      "title": "Career Stats Abstract",
+      "image": "images/career-stats-abstract/image.png",
+      "meta": "images/career-stats-abstract/meta.json"
+    },
+    {
+      "id": "cosmetic-showcase-panel",
+      "title": "Cosmetic Showcase Panel",
+      "image": "images/cosmetic-showcase-panel/image.png",
+      "meta": "images/cosmetic-showcase-panel/meta.json"
+    },
+    {
+      "id": "guild-social-card",
+      "title": "Guild Social Card",
+      "image": "images/guild-social-card/image.png",
+      "meta": "images/guild-social-card/meta.json"
+    },
+    {
+      "id": "legacy-trophy-poster",
+      "title": "Legacy Trophy Poster",
+      "image": "images/legacy-trophy-poster/image.png",
+      "meta": "images/legacy-trophy-poster/meta.json"
+    }
+  ]
+}

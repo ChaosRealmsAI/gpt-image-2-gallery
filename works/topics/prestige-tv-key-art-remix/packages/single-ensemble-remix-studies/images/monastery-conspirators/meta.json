@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square prestige-series key art image inside a mountain monastery archive lit by cold dawn light from high windows and a few warm practical lamps. Stone columns, paper screens, and tiered shelves create a disciplined architectural frame. The mood is contemplative but dangerous, with heavy silence and a premium photographic finish that suggests serious serialized drama rather than mystical fantasy.\n\nSubject:\nCreate a fictional ensemble of five conspirators embedded inside a religious institution. The lead is a young abbess in layered charcoal robes, centered and poised, holding neither weapon nor scripture but commanding the scene through stillness. Around her stand a war-scarred monk, an aristocratic donor in understated silk, a novice archivist with divided loyalty, and a severe investigator from the capital. Arrange them so the abbess is clearly the emotional center while the others form a network of suspicion and dependency. Their faces must feel lived-in, subtle, and complex, avoiding caricature.\n\nImportant details:\nThis study depends on relationship geometry more than overt plot props. Use posture, depth, and gaze to imply secret factions inside a closed institution. Maintain a restrained palette and sparse set dressing so the image reads like premium key art. The environment should feel real and expensive, not stagey. Keep clothing textures, age differences, and personal histories legible at thumbnail scale.\n\nUse case:\nPrestige TV Key Art Remix single study 7/9, exploring monastery intrigue through prestige ensemble campaign language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no glowing magic effects, no chanting crowd, no overt battle scene, no camp villain expressions, no fantasy-world excess.",
+  "id": "monastery-conspirators",
+  "title": "Monastery Conspirators",
+  "description": "A monastery intrigue ensemble rendered with the still, tense hierarchy of premium television key art.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/single-ensemble-remix-studies/images/monastery-conspirators/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Standalone prestige key art study for monastery intrigue and factional hierarchy."
+  },
+  "i18n": {
+    "en": {
+      "title": "Monastery Conspirators",
+      "description": "A monastery intrigue ensemble rendered with the still, tense hierarchy of premium television key art."
+    },
+    "zh-CN": {
+      "title": "修道院密谋者",
+      "description": "把修道院内部阴谋阵容拍成静止而紧张的精品电视主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Five monastery conspirators posed among stone columns and archive shelves in a tense prestige drama portrait.",
+      "zh-CN": "五位修道院密谋者站在石柱与档案架之间,形成紧张的精品剧群像。"
+    }
+  }
+}

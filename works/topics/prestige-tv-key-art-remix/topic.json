@@ -1,0 +1,57 @@
+{
+  "id": "prestige-tv-key-art-remix",
+  "slug": "prestige-tv-key-art-remix",
+  "category": "design",
+  "style": [
+    "collage",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Prestige TV Key Art Remix",
+  "short_title": "TV Key Art",
+  "description": "A Prompt Atlas theme for premium streaming ensemble key art, where alternate fictional casts must preserve hierarchy, distance, gaze, and prestige-drama polish.",
+  "i18n": {
+    "en": {
+      "title": "Prestige TV Key Art Remix",
+      "short_title": "TV Key Art",
+      "description": "A Prompt Atlas theme for premium streaming ensemble key art, where alternate fictional casts must preserve hierarchy, distance, gaze, and prestige-drama polish."
+    },
+    "zh-CN": {
+      "title": "精品剧集主视觉换阵容",
+      "short_title": "剧集换阵容",
+      "description": "测试把不同虚构阵容放进流媒体精品剧集主视觉语法时,是否仍能保持角色层级、距离关系、视线张力和大奖季海报质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 120,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-cold-dynasty-campaign",
+      "type": "series",
+      "title": "Cold Dynasty Campaign",
+      "path": "packages/series-cold-dynasty-campaign/package.json"
+    },
+    {
+      "id": "single-ensemble-remix-studies",
+      "type": "single",
+      "title": "Ensemble Remix Studies",
+      "path": "packages/single-ensemble-remix-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square prestige-streaming key art image on the terrace of a decaying coastal estate at overcast dusk. Sea mist, weathered stone, slate-blue water, and dim interior lamps create a restrained gothic atmosphere without turning supernatural. The composition should feel expensive and carefully art-directed, like a premium ensemble mystery limited series intended for platform homepages and awards-season press kits.\n\nSubject:\nCreate a fictional ensemble of five suspects linked by an old disappearance. At the center stands a composed middle-aged woman in a dark tailored coat, clearly the lead and emotional anchor. Around her are a younger brother with exhausted wealth, a local detective in plain dark wool, an elegant outsider bride with unreadable motives, and a housekeeper who has seen everything but reveals nothing. Arrange them so the lead is central while the others create asymmetrical tension through distance, half-turns, and withheld eye contact. Every face should feel specific, weathered, and capable of carrying a long-form mystery drama.\n\nImportant details:\nThe success condition is campaign-grade suspicion, not horror. Use architectural lines, sea horizon, and subtle depth separation to make the relationships legible. Keep costumes grounded, tasteful, and regionally believable. The image must look like a serious ensemble key art poster without relying on text or obvious crime-scene props. Preserve strong thumbnail readability and a refined prestige-series finish.\n\nUse case:\nPrestige TV Key Art Remix single study 9/9, testing a coastal mystery ensemble in premium key art form.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ghost effects, no jump-scare horror cues, no police tape, no melodramatic storm action, no cluttered prop table.",
+  "id": "coastal-mystery-cast",
+  "title": "Coastal Mystery Cast",
+  "description": "A coastal limited-series ensemble portrait built around suspicion, grief, and prestige-campaign restraint.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/prestige-tv-key-art-remix/packages/single-ensemble-remix-studies/images/coastal-mystery-cast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Standalone prestige key art study for a coastal mystery ensemble."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coastal Mystery Cast",
+      "description": "A coastal limited-series ensemble portrait built around suspicion, grief, and prestige-campaign restraint."
+    },
+    "zh-CN": {
+      "title": "海岸谜案阵容",
+      "description": "围绕怀疑、哀伤和克制感搭建的海岸悬疑限定剧群像主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Five coastal-mystery suspects posed on a weathered seaside estate terrace at dusk.",
+      "zh-CN": "五位海岸谜案嫌疑人站在黄昏海边旧宅露台上,形成克制而紧张的群像。"
+    }
+  }
+}
