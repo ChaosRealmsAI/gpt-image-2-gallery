@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square interior view through studio glass into an isolation booth, with warm practical light, soft reflections, and a minimal microphone silhouette inside. The image should feel quiet, intimate, and documentary, as if capturing a session in progress without spectacle.\n\nSubject:\nThe subject is the threshold between rooms: glass reflections, a mic silhouette, acoustic panel texture, and the glow of a small lamp or meter inside the booth. It should evoke recording presence even without showing a full person.\n\nImportant details:\nKeep the reflections subtle and the atmosphere believable. The booth should feel like part of a real studio, not a sci-fi chamber. This image should support a live-session campaign by showing the emotional architecture of recording rather than the performance itself.\n\nUse case:\nLive Session single study 6/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable notes on glass, no brand logos, no large computer monitors, no excessive neon, no visible crowd or spectators",
+  "id": "isolation-booth-window",
+  "title": "Isolation Booth Window",
+  "description": "A moody isolation-booth view using glass, shadow, and practical light to suggest a recording session in progress.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/single-studio-atmospheres/images/isolation-booth-window/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent booth-window study for the live-session theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Isolation Booth Window",
+      "description": "A moody isolation-booth view using glass, shadow, and practical light to suggest a recording session in progress."
+    },
+    "zh-CN": {
+      "title": "隔音窗研究",
+      "description": "隔音窗研究，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A view through an isolation-booth window with warm practical light and a sense of recording-session intimacy.",
+      "zh-CN": "隔音窗研究视觉图。"
+    }
+  }
+}

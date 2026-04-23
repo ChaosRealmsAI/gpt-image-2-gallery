@@ -1,0 +1,47 @@
+{
+  "id": "long-exposure-light-painting",
+  "slug": "long-exposure-light-painting",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Long-Exposure Light Painting",
+  "short_title": "Light Paint",
+  "description": "A Prompt Atlas theme for Long-Exposure Light Painting, testing photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Long-Exposure Light Painting",
+      "short_title": "Light Paint",
+      "description": "A Prompt Atlas theme for Long-Exposure Light Painting, testing photorealism with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "长曝光 Light Painting · 星轨 / 光迹",
+      "short_title": "长曝光",
+      "description": "长曝光 Light Painting · 星轨 / 光迹：车流光迹 / 星轨同心圆 / 烟花绽放 / silky 瀑布 / 钢丝绒火花旋转 · 快门 10s-30min 模拟"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-long-exposure-light-painting-studies",
+      "type": "single",
+      "title": "Light Paint Photography Studies",
+      "path": "packages/single-long-exposure-light-painting-studies/package.json"
+    }
+  ]
+}

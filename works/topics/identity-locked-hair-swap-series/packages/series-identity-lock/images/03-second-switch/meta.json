@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Identity-Locked Hair Swap Series. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Second Switch should feel like a specific transformation step that pushes the same identity into a more dramatic transformation without face drift. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Keep one person's identity stable while cycling through highly varied hairstyles, lengths, textures, and color treatments for salon, beauty, and fashion campaigns.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies multi-image-reference, editing-workflow, photorealism, commercial-mockup through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nIdentity-Locked Hair Swap Series series study 3/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "03-second-switch",
+  "title": "Second Switch",
+  "description": "Second Switch for Identity-Locked Hair Swap Series, pushes the same identity into a more dramatic transformation without face drift.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/identity-locked-hair-swap-series/packages/series-identity-lock/images/03-second-switch/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-anchor-portrait",
+        "meta_path": "works/topics/identity-locked-hair-swap-series/packages/series-identity-lock/images/01-anchor-portrait/meta.json",
+        "image_path": "works/topics/identity-locked-hair-swap-series/packages/series-identity-lock/images/01-anchor-portrait/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the anchor image identity while varying the requested campaign angle."
+  },
+  "i18n": {
+    "en": {
+      "title": "Second Switch",
+      "description": "Second Switch for Identity-Locked Hair Swap Series, pushes the same identity into a more dramatic transformation without face drift."
+    },
+    "zh-CN": {
+      "title": "第二次切换",
+      "description": "换发型 主题中的第二次切换研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Second Switch campaign image for Hair Swap.",
+      "zh-CN": "换发型 主题的第二次切换画面。"
+    }
+  }
+}

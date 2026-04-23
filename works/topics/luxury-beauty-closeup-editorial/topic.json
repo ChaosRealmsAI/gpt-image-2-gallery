@@ -1,0 +1,52 @@
+{
+  "id": "luxury-beauty-closeup-editorial",
+  "slug": "luxury-beauty-closeup-editorial",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "consistency",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Luxury Beauty Close-Up Editorial",
+  "short_title": "Beauty Close-Up",
+  "description": "Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.",
+  "i18n": {
+    "en": {
+      "title": "Luxury Beauty Close-Up Editorial",
+      "short_title": "Beauty Close-Up",
+      "description": "Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish."
+    },
+    "zh-CN": {
+      "title": "高级美妆近景大片",
+      "short_title": "美妆近景",
+      "description": "做近距离 beauty editorial，重点是眼妆、唇妆、皮肤纹理、眼神光和杂志级精修感，但不能塑料。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 702,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-beauty-editorial-lock",
+      "type": "series",
+      "title": "Identity-Locked Beauty Editorial",
+      "path": "packages/series-beauty-editorial-lock/package.json"
+    }
+  ]
+}

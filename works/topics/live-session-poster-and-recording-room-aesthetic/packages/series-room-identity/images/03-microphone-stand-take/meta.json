@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square session still in the same recording room, now composed around a single microphone stand, warm lamp spill, and softly receding acoustic walls. The camera should feel present but unobtrusive, like documentation of a real vocal take inside a stripped-back session.\n\nSubject:\nPreserve the exact same musician from the reference image, including face shape, hair base, skin tone, body proportions, and wardrobe silhouette. The artist stands or leans toward a simple microphone stand with quiet concentration, remaining the same person from the root image rather than a restyled campaign character.\n\nImportant details:\nThe microphone is a context cue, not the main spectacle. Keep the room tactile and believable, the expression focused, and the lighting gentle. This should feel like a true session poster still that could promote a live recording or acoustic release without exaggeration or brand-heavy studio fetishism.\n\nUse case:\nLive Session series study 3/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no pop-star stage pose, no crowd, no booth glass text, no visible gear brand, no dramatic concert beams",
+  "id": "03-microphone-stand-take",
+  "title": "Microphone Stand Take",
+  "description": "A vocal-take still preserving the same musician and room identity while bringing one microphone stand into the stripped-back session.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/03-microphone-stand-take/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-control-room-session",
+        "meta_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/meta.json",
+        "image_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Vocal-take variation depending on the root live-session image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Microphone Stand Take",
+      "description": "A vocal-take still preserving the same musician and room identity while bringing one microphone stand into the stripped-back session."
+    },
+    "zh-CN": {
+      "title": "麦克风支架变体",
+      "description": "麦克风支架变体，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A live vocal-take still with the same musician and room identity, centered on one simple microphone stand.",
+      "zh-CN": "麦克风支架变体视觉图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square mood variation from the same civilization theme, built around clear post-rain mountain light with faster cloud motion, stronger ridge contrast, and reflective wet stone across the same landscape. The image should stay grounded in field realism while testing how different illumination changes material reading, atmosphere, and emotional register. Keep the frame self-contained and coherent, as if photographed during a second visit under altered conditions.\n\nSubject:\nShow a culturally accurate site or interior connected to the same world as the main topic, but not as a direct dependency on the series reference. The focus should be on how light transforms relief, color, moisture, water, dust, or vegetation while preserving archaeological credibility. Architectural forms, objects, and setting must still belong to the same civilization with no cross-cultural contamination.\n\nImportant details:\nKeep the site unmistakably Inca, with exact terrace cadence, dry-stone precision, mountain topography, and sacred urban ordering that follows the ridge instead of flattening into a generic hilltop ruin. Use the shift in light to reveal different evidence than the other studies: pigment glow, root sheen, caustics, wet stone, canyon shadow, marine haze, terrace depth, or quarry moisture. Keep the result serious and observational rather than romanticized. Non-readable motifs are acceptable, but there should be no signs, captions, or modern display devices. The image should feel like a rigorous visual experiment in historical atmosphere.\n\nUse case:\nInca Machu Picchu Condor View single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy floating islands, no helicopters, no modern handrails, no sci-fi structures, no theatrical color filters, no supernatural effects, no montage composition, no glossy concept-art exaggeration.",
+  "id": "light-shift-study",
+  "title": "Light Shift Study",
+  "description": "An independent atmosphere study showing how changed light transforms the same civilizational world as Condor View.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/inca-machu-picchu-condor-view/packages/single-context-studies/images/light-shift-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Light Shift Study",
+      "description": "An independent atmosphere study showing how changed light transforms the same civilizational world as Condor View."
+    },
+    "zh-CN": {
+      "title": "光线变化研究",
+      "description": "通过光线变化测试同一文明题材的视觉表现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A light shift study changes mood while staying inside the Condor View world.",
+      "zh-CN": "秃鹰视角相关研究图像。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "identity-locked-hair-swap-series",
+  "slug": "identity-locked-hair-swap-series",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Identity-Locked Hair Swap Series",
+  "short_title": "Hair Swap",
+  "description": "Keep one person's identity stable while cycling through highly varied hairstyles, lengths, textures, and color treatments for salon, beauty, and fashion campaigns.",
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Hair Swap Series",
+      "short_title": "Hair Swap",
+      "description": "Keep one person's identity stable while cycling through highly varied hairstyles, lengths, textures, and color treatments for salon, beauty, and fashion campaigns."
+    },
+    "zh-CN": {
+      "title": "锁脸换发型系列",
+      "short_title": "换发型",
+      "description": "同一个人保持脸、骨相、肤色和气质不变，只切换发型、发长、卷直、湿发造型和染发颜色，用于沙龙和时尚 campaign。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 794,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Identity Lock",
+      "path": "packages/series-identity-lock/package.json"
+    },
+    {
+      "id": "single-editorial-support",
+      "type": "single",
+      "title": "Editorial Support",
+      "path": "packages/single-editorial-support/package.json"
+    }
+  ]
+}

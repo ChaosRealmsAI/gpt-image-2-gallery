@@ -1,0 +1,52 @@
+{
+  "id": "identity-locked-hairstyle-switchboard",
+  "slug": "identity-locked-hairstyle-switchboard",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Identity-Locked Hairstyle Switchboard",
+  "short_title": "Hair Switchboard",
+  "description": "Keep one face locked while exploring a broad hairstyle board across length, texture, color, and styling direction with salon-grade clarity.",
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Hairstyle Switchboard",
+      "short_title": "Hair Switchboard",
+      "description": "Keep one face locked while exploring a broad hairstyle board across length, texture, color, and styling direction with salon-grade clarity."
+    },
+    "zh-CN": {
+      "title": "锁脸换发型总览板",
+      "short_title": "换发型",
+      "description": "同一张脸不变，连续测试短发、长发、卷发、直发、刘海、盘发和不同发色，像真实发型试戴板。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 694,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-switchboard",
+      "type": "series",
+      "title": "Identity-Locked Switchboard",
+      "path": "packages/series-identity-switchboard/package.json"
+    }
+  ]
+}

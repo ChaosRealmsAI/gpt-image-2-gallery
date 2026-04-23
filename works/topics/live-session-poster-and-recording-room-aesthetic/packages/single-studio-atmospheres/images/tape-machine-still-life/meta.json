@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square close still life inside a recording room with a tape machine, softly glowing meters, brushed metal knobs, and warm wood surfaces catching lamplight. The frame should feel tactile, intimate, and emotionally musical rather than purely technical.\n\nSubject:\nThe subject is the recording object world itself: analog meters, reels, worn wood desk edges, a coiled cable, and a few softly out-of-focus studio surfaces. The composition should imply live-session authenticity and process without requiring a visible performer.\n\nImportant details:\nMaterial realism matters. The machine should look used and loved, the light should be warm but controlled, and the surrounding surfaces should support a believable recording-room atmosphere. This should feel like adjacent campaign imagery for a stripped-back music session.\n\nUse case:\nLive Session single study 5/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no bright computer screens, no desk clutter, no brand badges, no sterile lab look",
+  "id": "tape-machine-still-life",
+  "title": "Tape Machine Still Life",
+  "description": "A warm studio still life centered on a tape machine, meter lights, and tactile recording-room surfaces.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/single-studio-atmospheres/images/tape-machine-still-life/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent studio-object study for the live-session theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tape Machine Still Life",
+      "description": "A warm studio still life centered on a tape machine, meter lights, and tactile recording-room surfaces."
+    },
+    "zh-CN": {
+      "title": "磁带机静物",
+      "description": "磁带机静物，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "A tape machine still life glowing in warm studio light with tactile wood and metal surfaces.",
+      "zh-CN": "磁带机静物视觉图。"
+    }
+  }
+}

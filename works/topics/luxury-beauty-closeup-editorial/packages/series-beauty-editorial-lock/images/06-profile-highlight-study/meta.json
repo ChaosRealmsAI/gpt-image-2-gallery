@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Luxury Beauty Close-Up Editorial. Use a side-lit portrait where cheekbone highlight, nose bridge, lips, and ear shape remain crisp and elegant. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one beauty model with warm neutral skin, glossy dark hair, balanced features, refined hands, and pores that remain realistic at close range. Rotate the same subject into profile while keeping the exact same brow line, jawline, hairline, and neck proportions from the anchor image. Use the example direction from the brief as grounding context: Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Beauty lighting should carve form without turning the profile into a new person. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nLuxury Beauty Close-Up Editorial series study 6/9, a profile beauty highlight study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no altered nose bridge, no different ear shape, no melted jawline, no random flyaway wig volume.",
+  "id": "06-profile-highlight-study",
+  "title": "Profile Highlight Study",
+  "description": "Profile Highlight Study variation for Luxury Beauty Close-Up Editorial, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/06-profile-highlight-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-beauty-anchor",
+        "meta_path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/01-reference-beauty-anchor/meta.json",
+        "image_path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/01-reference-beauty-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a profile beauty highlight study.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Highlight Study",
+      "description": "Profile Highlight Study variation for Luxury Beauty Close-Up Editorial, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "高光侧颜研究",
+      "description": "高光侧颜研究 是 高级美妆近景大片 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Profile Highlight Study portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的高光侧颜研究肖像变体。"
+    }
+  }
+}

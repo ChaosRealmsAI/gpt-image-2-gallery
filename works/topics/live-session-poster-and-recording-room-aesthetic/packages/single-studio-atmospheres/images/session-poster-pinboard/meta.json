@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square wall pinboard inside a studio, holding a curated arrangement of session stills, room textures, portrait fragments, and abstract promo prints. The camera faces the board directly so it reads like a compact campaign-development surface inside the recording environment.\n\nSubject:\nThe subject is the live-session visual family itself: pinned images of instruments, warm rooms, portrait silhouettes, and mood swatches arranged with editorial care. The board should imply campaign planning and aesthetic cohesion without any readable notes or text labels.\n\nImportant details:\nKeep the board disciplined and believable, not scrapbook-like. Pins, paper curl, and wall texture can add realism, but the composition should remain clean enough to function as a polished visual-reference image. This is a bridge between recording atmosphere and promotional rollout.\n\nUse case:\nLive Session single study 9/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable notes, no moodboard software UI, no random magazine cutouts, no bright colors breaking the room mood, no cluttered desk elements in front",
+  "id": "session-poster-pinboard",
+  "title": "Session Poster Pinboard",
+  "description": "A pinboard of abstract session promo prints and room references showing how live-session imagery can become a wall system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/single-studio-atmospheres/images/session-poster-pinboard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pinboard study for the live-session theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Session Poster Pinboard",
+      "description": "A pinboard of abstract session promo prints and room references showing how live-session imagery can become a wall system."
+    },
+    "zh-CN": {
+      "title": "Session钉板研究",
+      "description": "Session钉板研究，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A studio pinboard of session promo prints, room references, and abstract composition studies.",
+      "zh-CN": "Session钉板研究视觉图。"
+    }
+  }
+}

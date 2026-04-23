@@ -1,0 +1,51 @@
+{
+  "id": "mens-grooming-hair-beard-rotation",
+  "slug": "mens-grooming-hair-beard-rotation",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Mens Grooming Hair Beard Rotation",
+  "short_title": "Mens Grooming",
+  "description": "Explore men’s grooming changes across haircut, beard length, stubble, clean shave, and styling mood while preserving face identity and age read.",
+  "i18n": {
+    "en": {
+      "title": "Mens Grooming Hair Beard Rotation",
+      "short_title": "Mens Grooming",
+      "description": "Explore men’s grooming changes across haircut, beard length, stubble, clean shave, and styling mood while preserving face identity and age read."
+    },
+    "zh-CN": {
+      "title": "男士发型胡型切换",
+      "short_title": "男士妆造",
+      "description": "围绕同一个男性形象测试寸头、油头、卷发、络腮胡、胡渣、clean shave 等，像男士 grooming 方案板。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 791,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-switchboard",
+      "type": "series",
+      "title": "Identity-Locked Switchboard",
+      "path": "packages/series-identity-switchboard/package.json"
+    }
+  ]
+}

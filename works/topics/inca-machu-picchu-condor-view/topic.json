@@ -1,0 +1,53 @@
+{
+  "id": "inca-machu-picchu-condor-view",
+  "slug": "inca-machu-picchu-condor-view",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Inca Machu Picchu Condor View",
+  "short_title": "Condor View",
+  "description": "Machu Picchu from a condor's perspective circling through dawn clouds, terraces and temples arranged like sacred geometry against the Urubamba valley mist.",
+  "i18n": {
+    "en": {
+      "title": "Inca Machu Picchu Condor View",
+      "short_title": "Condor View",
+      "description": "Machu Picchu from a condor's perspective circling through dawn clouds, terraces and temples arranged like sacred geometry against the Urubamba valley mist."
+    },
+    "zh-CN": {
+      "title": "马丘比丘秃鹰视角",
+      "short_title": "秃鹰视角",
+      "description": "马丘比丘从秃鹰视角俯瞰 · 穿过晨云盘旋 · 梯田与神庙排布如神圣几何 · 背景乌鲁班巴山谷晨雾。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 460,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

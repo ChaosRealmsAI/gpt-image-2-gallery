@@ -1,0 +1,71 @@
+{
+  "id": "series-room-identity",
+  "type": "series",
+  "title": "Room Identity Sequence",
+  "description": "A reference-led live-session sequence establishing one recording room, one musician identity, and one intimate performance mood across multiple stills.",
+  "creative_direction": "The root image defines the exact musician, room palette, and recording-session atmosphere. The following images preserve the same face, hair base, body proportions, room identity, and stripped-back performance realism while shifting angle and performance detail.",
+  "cover_image": "images/01-reference-control-room-session/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-control-room-session/meta.json",
+      "images/02-piano-corner-take/meta.json",
+      "images/03-microphone-stand-take/meta.json",
+      "images/04-midnight-drum-room/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-control-room-session first. Use its runtime result URL as --ref for 02-piano-corner-take, 03-microphone-stand-take, 04-midnight-drum-room. Queue may run 02-piano-corner-take, 03-microphone-stand-take, 04-midnight-drum-room concurrently after 01-reference-control-room-session is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Room Identity Sequence",
+      "description": "A reference-led live-session sequence establishing one recording room, one musician identity, and one intimate performance mood across multiple stills."
+    },
+    "zh-CN": {
+      "title": "房间身份序列",
+      "description": "建立同一录音室、同一音乐人和同一 live session 氛围的系列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-control-room-session",
+      "title": "Reference Control Room Session",
+      "image": "images/01-reference-control-room-session/image.png",
+      "meta": "images/01-reference-control-room-session/meta.json"
+    },
+    {
+      "id": "02-piano-corner-take",
+      "title": "Piano Corner Take",
+      "image": "images/02-piano-corner-take/image.png",
+      "meta": "images/02-piano-corner-take/meta.json"
+    },
+    {
+      "id": "03-microphone-stand-take",
+      "title": "Microphone Stand Take",
+      "image": "images/03-microphone-stand-take/image.png",
+      "meta": "images/03-microphone-stand-take/meta.json"
+    },
+    {
+      "id": "04-midnight-drum-room",
+      "title": "Midnight Drum Room",
+      "image": "images/04-midnight-drum-room/image.png",
+      "meta": "images/04-midnight-drum-room/meta.json"
+    }
+  ]
+}

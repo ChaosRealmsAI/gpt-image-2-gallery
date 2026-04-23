@@ -1,0 +1,53 @@
+{
+  "id": "maya-temple-dawn-discovery",
+  "slug": "maya-temple-dawn-discovery",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Maya Temple Dawn Discovery",
+  "short_title": "Maya Dawn",
+  "description": "A Maya stepped pyramid emerging from Yucatán jungle at dawn mist, carved stelae revealed with morning light raking across glyph surfaces, one archaeologist in field khaki ascending the temple steps.",
+  "i18n": {
+    "en": {
+      "title": "Maya Temple Dawn Discovery",
+      "short_title": "Maya Dawn",
+      "description": "A Maya stepped pyramid emerging from Yucatán jungle at dawn mist, carved stelae revealed with morning light raking across glyph surfaces, one archaeologist in field khaki ascending the temple steps."
+    },
+    "zh-CN": {
+      "title": "玛雅神庙拂晓发现",
+      "short_title": "玛雅拂晓",
+      "description": "玛雅阶梯金字塔在尤卡坦晨雾中浮现 · 雕刻石碑被晨光斜照出象形文字 · 一位考古学家身穿田野卡其攀登石阶。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 410,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

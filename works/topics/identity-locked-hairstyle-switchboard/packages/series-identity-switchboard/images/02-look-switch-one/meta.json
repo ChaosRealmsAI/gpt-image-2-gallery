@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Identity-Locked Hairstyle Switchboard. Use a premium portrait frame with one clear change direction and enough negative space to judge styling cleanly. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Keep one face locked while exploring a broad hairstyle board across length, texture, color, and styling direction with salon-grade clarity.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one face-locked model with neutral tan skin, almond eyes, high cheekbones, and a clean hairline that can support dramatic restyling. Keep the exact same person from the reference while executing the first major change requested by the topic, whether hair, makeup, wardrobe, grooming, or professional read. Use the example direction from the brief as grounding context: Keep one face locked while exploring a broad hairstyle board across length, texture, color, and styling direction with salon-grade clarity.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Keep one face locked while exploring a broad hairstyle board across length, texture, color, and styling direction with salon-grade clarity.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The switch must be obvious, but the identity must remain stronger than the styling change. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nIdentity-Locked Hairstyle Switchboard series study 2/9, the first controlled transformation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no face redraw, no changed age unless explicitly asked, no costume-party exaggeration, no new body shape.",
+  "id": "02-look-switch-one",
+  "title": "Look Switch One",
+  "description": "Look Switch One variation for Identity-Locked Hairstyle Switchboard, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/identity-locked-hairstyle-switchboard/packages/series-identity-switchboard/images/02-look-switch-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-natural-base",
+        "meta_path": "works/topics/identity-locked-hairstyle-switchboard/packages/series-identity-switchboard/images/01-reference-natural-base/meta.json",
+        "image_path": "works/topics/identity-locked-hairstyle-switchboard/packages/series-identity-switchboard/images/01-reference-natural-base/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward the first controlled transformation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Look Switch One",
+      "description": "Look Switch One variation for Identity-Locked Hairstyle Switchboard, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "切换方案一",
+      "description": "切换方案一 是 锁脸换发型总览板 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Look Switch One portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的切换方案一肖像变体。"
+    }
+  }
+}

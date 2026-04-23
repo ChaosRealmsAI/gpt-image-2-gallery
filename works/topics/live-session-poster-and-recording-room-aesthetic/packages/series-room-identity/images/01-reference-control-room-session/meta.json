@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square live-session still set in a warmly lit recording control room with wood paneling, muted acoustic treatment, softly glowing analog meters, and a single practical lamp. The camera is close enough to feel intimate but wide enough to show the room identity, creating the sense of a believable stripped-back performance recording.\n\nSubject:\nAn invented musician sits with a hollow-body guitar and relaxed posture, wearing a dark knit layer and simple trousers. This first image must lock the exact face, hair base, skin tone, body proportions, wardrobe silhouette, and recording-room palette that later live-session images will preserve.\n\nImportant details:\nThe performance mood should feel honest and intimate, not stagey. Use realistic instrument posture, believable room acoustics, warm practical light, and subtle equipment presence. The room is as important as the artist: wood grain, lamp glow, meter lights, and acoustic surfaces together create the identity of the session environment.\n\nUse case:\nLive Session series study 1/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no audience, no giant stage lighting, no flashy fashion styling, no brand labels on gear, no cluttered producer desk, no readable session notes",
+  "id": "01-reference-control-room-session",
+  "title": "Reference Control Room Session",
+  "description": "A root live-session portrait defining one musician, one recording-room palette, and one intimate performance atmosphere.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root room identity for the live-session sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Control Room Session",
+      "description": "A root live-session portrait defining one musician, one recording-room palette, and one intimate performance atmosphere."
+    },
+    "zh-CN": {
+      "title": "基准控制室现场",
+      "description": "基准控制室现场，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "An intimate live-session still of an invented musician seated in a recording room with warm practical light.",
+      "zh-CN": "基准控制室现场视觉图。"
+    }
+  }
+}

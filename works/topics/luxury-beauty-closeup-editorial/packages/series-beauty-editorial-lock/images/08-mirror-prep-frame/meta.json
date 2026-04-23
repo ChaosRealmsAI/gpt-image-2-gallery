@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Luxury Beauty Close-Up Editorial. Use an intimate but polished beauty setup with mirror cues, vanity light, and minimal luxury backstage context. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one beauty model with warm neutral skin, glossy dark hair, balanced features, refined hands, and pores that remain realistic at close range. Place the same face inside a getting-ready moment while preserving the reference identity and keeping the mood controlled and premium. Use the example direction from the brief as grounding context: Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create high-end beauty close-up editorials with realistic skin, precise makeup textures, controlled catchlights, and premium magazine polish.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The environment may expand slightly, but likeness still outranks atmosphere. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nLuxury Beauty Close-Up Editorial series study 8/9, a mirror-prep or vanity-side frame.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no busy dressing room, no other stylists, no readable mirror stickers, no copied magazine cover.",
+  "id": "08-mirror-prep-frame",
+  "title": "Mirror Prep Frame",
+  "description": "Mirror Prep Frame variation for Luxury Beauty Close-Up Editorial, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/08-mirror-prep-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-beauty-anchor",
+        "meta_path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/01-reference-beauty-anchor/meta.json",
+        "image_path": "works/topics/luxury-beauty-closeup-editorial/packages/series-beauty-editorial-lock/images/01-reference-beauty-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a mirror-prep or vanity-side frame.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Mirror Prep Frame",
+      "description": "Mirror Prep Frame variation for Luxury Beauty Close-Up Editorial, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "镜前准备版",
+      "description": "镜前准备版 是 高级美妆近景大片 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Mirror Prep Frame portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的镜前准备版肖像变体。"
+    }
+  }
+}

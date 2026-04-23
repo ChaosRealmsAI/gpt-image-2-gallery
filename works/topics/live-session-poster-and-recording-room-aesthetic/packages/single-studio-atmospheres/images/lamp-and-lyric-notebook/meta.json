@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square desk-side still life in a recording room with one warm lamp, a closed notebook or folded paper, pencil, and soft shadow gradients across wood grain. The frame should feel intimate and creative, evoking songwriting and preparation without needing a visible performer.\n\nSubject:\nThe subject is a small zone of process: a closed notebook, a lamp pool, and a few carefully placed objects that suggest a music session in motion. The notebook must stay unreadable and secondary to the overall room atmosphere.\n\nImportant details:\nThe mood should be quiet, thoughtful, and tactile. Use warm shadow, wood texture, and just enough object detail to imply artistic work. This should support a live-session campaign as an emotional process image, not as stationery photography or office styling.\n\nUse case:\nLive Session single study 8/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable handwriting, no laptop screen, no office-supply clutter, no visible brand products, no bright daylight spilling in",
+  "id": "lamp-and-lyric-notebook",
+  "title": "Lamp and Lyric Notebook",
+  "description": "A desk-side studio still life using a lamp, notebook silhouette, and warm shadows to evoke songwriting without readable text.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/single-studio-atmospheres/images/lamp-and-lyric-notebook/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent desk-side study for the live-session theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Lamp and Lyric Notebook",
+      "description": "A desk-side studio still life using a lamp, notebook silhouette, and warm shadows to evoke songwriting without readable text."
+    },
+    "zh-CN": {
+      "title": "台灯与笔记本",
+      "description": "台灯与笔记本，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A warm studio desk still life with lamp light, a closed notebook, and quiet songwriting atmosphere.",
+      "zh-CN": "台灯与笔记本视觉图。"
+    }
+  }
+}

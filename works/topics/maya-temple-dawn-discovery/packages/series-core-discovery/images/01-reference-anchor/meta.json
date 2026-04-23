@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary image composed like a premium archaeology magazine feature. Use humid jungle greens, weathered limestone gray, and low golden dawn light. Frame a stepped Maya pyramid rising above dense Yucatan canopy, flanked by carved stelae and damp limestone stairs with crisp depth layering, restrained contrast, and subtle atmospheric depth so the scene feels excavated, observed, and historically grounded rather than theatrical or game-like. Keep the light directional but believable, as if captured during a careful field visit.\n\nSubject:\nCenter the image on a stepped Maya pyramid rising above dense Yucatan canopy, flanked by carved stelae and damp limestone stairs. Include culturally accurate surface logic, region-specific setting, and believable human-scale cues in stairs, doorways, cut blocks, relief edges, or water depth. Shapes, carvings, masonry joints, and site wear should feel studied from real archaeology, with no generic ancient-world mashup and no ornamental filler borrowed from another civilization.\n\nImportant details:\nKeep the architecture unmistakably Maya rather than generic fantasy ruins, with steep stepped geometry, roof-comb silhouettes, believable glyph blocks, and dense tropical vegetation that respects the stone volumes instead of swallowing them completely. Emphasize limestone blocks, moss, wet leaf litter, carved glyph panels, eroded stucco traces, and jade-toned lichen. Keep inscriptions, painted registers, symbolic motifs, or carved bands visually plausible but not readable. Preserve a museum-grade balance between beauty and evidence: light should reveal relief depth, edge wear, repairs, sediment traces, and excavation context without turning the site into fantasy spectacle. The composition should feel like a definitive reference frame that later variations can inherit exactly.\n\nUse case:\nMaya Temple Dawn Discovery series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern vehicles, no sci-fi glow, no fantasy monsters, no glass skyscrapers, no tourists, no anachronistic props, no collage layout, no exaggerated fantasy lighting.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Maya Dawn.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maya-temple-dawn-discovery/packages/series-core-discovery/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the discovery fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Maya Dawn."
+    },
+    "zh-CN": {
+      "title": "参考锚点",
+      "description": "建立系列基准遗址身份与视觉规则的核心参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A Maya pyramid emerges through dawn mist above carved stelae and wet jungle stone.",
+      "zh-CN": "玛雅拂晓相关研究图像。"
+    }
+  }
+}

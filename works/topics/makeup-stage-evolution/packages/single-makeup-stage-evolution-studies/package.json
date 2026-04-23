@@ -1,0 +1,82 @@
+{
+  "id": "single-makeup-stage-evolution-studies",
+  "type": "single",
+  "title": "Makeup Steps Beauty Studies",
+  "description": "Eight independent beauty studies for Makeup Stage Evolution, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Makeup Stage Evolution, testing structured-layout, photorealism, style-transfer, commercial-mockup with GPT Image 2. through distinct studies that emphasize fashion, photorealism, style-transfer while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/bare-base-look/image.png",
+  "i18n": {
+    "en": {
+      "title": "Makeup Steps Beauty Studies",
+      "description": "Eight independent beauty studies for Makeup Stage Evolution, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "妆容演变单图研究",
+      "description": "围绕 妆容演变 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "photorealism",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "bare-base-look",
+      "title": "Bare Base Look",
+      "image": "images/bare-base-look/image.png",
+      "meta": "images/bare-base-look/meta.json"
+    },
+    {
+      "id": "editorial-pigment",
+      "title": "Editorial Pigment",
+      "image": "images/editorial-pigment/image.png",
+      "meta": "images/editorial-pigment/meta.json"
+    },
+    {
+      "id": "metallic-stage",
+      "title": "Metallic Stage",
+      "image": "images/metallic-stage/image.png",
+      "meta": "images/metallic-stage/meta.json"
+    },
+    {
+      "id": "pastel-wash",
+      "title": "Pastel Wash",
+      "image": "images/pastel-wash/image.png",
+      "meta": "images/pastel-wash/meta.json"
+    },
+    {
+      "id": "wet-gloss-transition",
+      "title": "Wet Gloss Transition",
+      "image": "images/wet-gloss-transition/image.png",
+      "meta": "images/wet-gloss-transition/meta.json"
+    },
+    {
+      "id": "graphic-liner",
+      "title": "Graphic Liner",
+      "image": "images/graphic-liner/image.png",
+      "meta": "images/graphic-liner/meta.json"
+    },
+    {
+      "id": "sculpted-finish",
+      "title": "Sculpted Finish",
+      "image": "images/sculpted-finish/image.png",
+      "meta": "images/sculpted-finish/meta.json"
+    },
+    {
+      "id": "signature-look",
+      "title": "Signature Look",
+      "image": "images/signature-look/image.png",
+      "meta": "images/signature-look/meta.json"
+    }
+  ]
+}

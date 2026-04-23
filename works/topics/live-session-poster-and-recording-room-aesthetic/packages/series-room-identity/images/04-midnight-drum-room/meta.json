@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square live-session still in the same broader studio world, now framed toward a compact drum-room corner with low midnight light, soft practical glow, and darker wood surfaces. The room should feel like a neighboring pocket of the same recording environment, not a totally different venue.\n\nSubject:\nPreserve the exact same musician from the reference image with identical face shape, hair base, skin tone, body proportions, and styling baseline. The artist is now positioned near a modest drum setup, maintaining the same understated authenticity and intimate session presence rather than performing theatrically.\n\nImportant details:\nLet the drum kit add rhythmic context without taking over. Maintain the same warm room palette, same acoustic intimacy, and same believable musician behavior. This should read as the same artist and same recording session evolving across corners of one real studio environment.\n\nUse case:\nLive Session series study 4/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no concert stage lighting, no drummer double, no readable notes, no large crowd kit spectacle, no visible brand marks on drums",
+  "id": "04-midnight-drum-room",
+  "title": "Midnight Drum Room",
+  "description": "A drum-room variation preserving the same musician and room palette while widening the session into a more rhythmic corner of the studio.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/04-midnight-drum-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-control-room-session",
+        "meta_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/meta.json",
+        "image_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Drum-room variation depending on the root live-session image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Midnight Drum Room",
+      "description": "A drum-room variation preserving the same musician and room palette while widening the session into a more rhythmic corner of the studio."
+    },
+    "zh-CN": {
+      "title": "午夜鼓房变体",
+      "description": "午夜鼓房变体，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A midnight drum-room session still preserving the same musician and warm studio identity.",
+      "zh-CN": "午夜鼓房变体视觉图。"
+    }
+  }
+}

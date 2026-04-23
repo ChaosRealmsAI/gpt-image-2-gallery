@@ -1,0 +1,53 @@
+{
+  "id": "live-session-poster-and-recording-room-aesthetic",
+  "slug": "live-session-poster-and-recording-room-aesthetic",
+  "category": "photography",
+  "capability": [
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "title": "Live Session Poster and Recording Room Aesthetic",
+  "short_title": "Live Session",
+  "description": "Build live-session visuals around rehearsal rooms, intimate performance spaces, and stripped-back musician presence.",
+  "i18n": {
+    "en": {
+      "title": "Live Session Poster and Recording Room Aesthetic",
+      "short_title": "Live Session",
+      "description": "Build live-session visuals around rehearsal rooms, intimate performance spaces, and stripped-back musician presence."
+    },
+    "zh-CN": {
+      "title": "live session 海报与录音室美学",
+      "short_title": "live session",
+      "description": "做 live session 海报与录音室美学，强调 rehearsal room 和 stripped-back 演出感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 980,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-room-identity",
+      "type": "series",
+      "title": "Room Identity Sequence",
+      "path": "packages/series-room-identity/package.json"
+    },
+    {
+      "id": "single-studio-atmospheres",
+      "type": "single",
+      "title": "Studio Atmosphere Studies",
+      "path": "packages/single-studio-atmospheres/package.json"
+    }
+  ]
+}

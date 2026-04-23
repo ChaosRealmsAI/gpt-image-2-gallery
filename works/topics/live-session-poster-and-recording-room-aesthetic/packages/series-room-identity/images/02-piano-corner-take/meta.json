@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square live-session still in the same recording environment, now framed near an upright piano corner with warm side light and a little more shadow. The room must still read as the same session space, with similar wood and acoustic textures, only shifting the focal corner and instrument presence.\n\nSubject:\nPreserve the exact same musician from the reference image with identical face shape, hair base, skin tone, body proportions, and styling baseline. The artist now leans near the piano or rests a hand on it, while keeping the same understated live-session attitude and believable musician presence.\n\nImportant details:\nKeep intimacy, realism, and room continuity absolute. The piano should extend the session story without turning the scene into a formal recital. Lamp glow, analog detail, and acoustic surfaces should still anchor the environment. This must feel like another still from the same recording day, not a new photoshoot.\n\nUse case:\nLive Session series study 2/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no stage glamour, no extra bandmates, no sheet-music text, no glossy music-video styling, no visible brand names on the instrument",
+  "id": "02-piano-corner-take",
+  "title": "Piano Corner Take",
+  "description": "A piano-corner live-session still preserving the same musician and room identity while changing the instrument focus.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/02-piano-corner-take/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-control-room-session",
+        "meta_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/meta.json",
+        "image_path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/series-room-identity/images/01-reference-control-room-session/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Piano-corner variation depending on the root live-session image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Piano Corner Take",
+      "description": "A piano-corner live-session still preserving the same musician and room identity while changing the instrument focus."
+    },
+    "zh-CN": {
+      "title": "钢琴角落变体",
+      "description": "钢琴角落变体，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A piano-corner live-session still preserving the same musician and warm recording-room identity from the reference image.",
+      "zh-CN": "钢琴角落变体视觉图。"
+    }
+  }
+}

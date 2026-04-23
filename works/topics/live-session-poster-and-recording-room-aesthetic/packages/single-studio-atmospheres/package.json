@@ -1,0 +1,64 @@
+{
+  "id": "single-studio-atmospheres",
+  "type": "single",
+  "title": "Studio Atmosphere Studies",
+  "description": "Five independent studies of recording-room objects, corners, and acoustic moods that support live-session campaign imagery.",
+  "creative_direction": "Independent images should feel like believable parts of a live-session campaign: room corners, instrument still lifes, practical light, and tactile studio materials translated into poster-friendly square frames.",
+  "cover_image": "images/tape-machine-still-life/image.png",
+  "i18n": {
+    "en": {
+      "title": "Studio Atmosphere Studies",
+      "description": "Five independent studies of recording-room objects, corners, and acoustic moods that support live-session campaign imagery."
+    },
+    "zh-CN": {
+      "title": "录音室氛围研究",
+      "description": "围绕 live session 的录音室物件与空间氛围研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "tape-machine-still-life",
+      "title": "Tape Machine Still Life",
+      "image": "images/tape-machine-still-life/image.png",
+      "meta": "images/tape-machine-still-life/meta.json"
+    },
+    {
+      "id": "isolation-booth-window",
+      "title": "Isolation Booth Window",
+      "image": "images/isolation-booth-window/image.png",
+      "meta": "images/isolation-booth-window/meta.json"
+    },
+    {
+      "id": "instrument-rack-corner",
+      "title": "Instrument Rack Corner",
+      "image": "images/instrument-rack-corner/image.png",
+      "meta": "images/instrument-rack-corner/meta.json"
+    },
+    {
+      "id": "lamp-and-lyric-notebook",
+      "title": "Lamp and Lyric Notebook",
+      "image": "images/lamp-and-lyric-notebook/image.png",
+      "meta": "images/lamp-and-lyric-notebook/meta.json"
+    },
+    {
+      "id": "session-poster-pinboard",
+      "title": "Session Poster Pinboard",
+      "image": "images/session-poster-pinboard/image.png",
+      "meta": "images/session-poster-pinboard/meta.json"
+    }
+  ]
+}

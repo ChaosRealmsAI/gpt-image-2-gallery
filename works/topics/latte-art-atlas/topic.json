@@ -1,0 +1,48 @@
+{
+  "id": "latte-art-atlas",
+  "slug": "latte-art-atlas",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Latte Art Atlas",
+  "short_title": "Latte Art",
+  "description": "A Prompt Atlas theme for Latte Art Atlas, testing structured-layout, photorealism, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Latte Art Atlas",
+      "short_title": "Latte Art",
+      "description": "A Prompt Atlas theme for Latte Art Atlas, testing structured-layout, photorealism, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "咖啡拉花图鉴 · Latte Art",
+      "short_title": "咖啡拉花",
+      "description": "咖啡拉花图鉴 · Latte Art：风格:纯顶视 · 深咖啡底 + 白奶泡拉花 + 咖啡杯边缘清晰 · 例:9 种拉花对照 · 心 / 玫瑰 / 天鹅 / 郁金香 / 蕨叶 / 月桂"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-latte-art-studies",
+      "type": "single",
+      "title": "Latte Art Photography Studies",
+      "path": "packages/single-latte-art-studies/package.json"
+    }
+  ]
+}

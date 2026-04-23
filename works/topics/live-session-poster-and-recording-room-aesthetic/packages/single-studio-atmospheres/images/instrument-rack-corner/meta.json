@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square corner of a recording room with several instruments on stands, a warm lamp glow, soft wall shadow, and enough negative space to feel poster-friendly. The composition should feel intentionally framed, not like random storage documentation.\n\nSubject:\nThe subject is the arrangement of instruments and space: guitars, stands, cables, wood grain, and acoustic fabric creating a quiet sense of a session paused between takes. The room itself should carry as much emotional weight as the objects.\n\nImportant details:\nUse tactile realism and restrained styling. The instruments should feel used, the room should feel inhabited, and the lighting should support intimacy rather than dramatic spectacle. This is supporting imagery for a live-session aesthetic, not a product catalog.\n\nUse case:\nLive Session single study 7/9 for the Live Session Poster and Recording Room Aesthetic Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand names on instruments, no cluttered storage mess, no bright retail lighting, no readable posters on walls, no synthetic showroom look",
+  "id": "instrument-rack-corner",
+  "title": "Instrument Rack Corner",
+  "description": "A studio-corner image of instruments, stands, and wood textures arranged with intimate campaign realism.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/live-session-poster-and-recording-room-aesthetic/packages/single-studio-atmospheres/images/instrument-rack-corner/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent instrument-corner study for the live-session theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Instrument Rack Corner",
+      "description": "A studio-corner image of instruments, stands, and wood textures arranged with intimate campaign realism."
+    },
+    "zh-CN": {
+      "title": "乐器架角落",
+      "description": "乐器架角落，用于live session主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A warm studio corner with instruments on stands, wood textures, and a quiet live-session mood.",
+      "zh-CN": "乐器架角落视觉图。"
+    }
+  }
+}
