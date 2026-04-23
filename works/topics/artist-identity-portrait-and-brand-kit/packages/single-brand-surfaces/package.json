@@ -1,0 +1,64 @@
+{
+  "id": "single-brand-surfaces",
+  "type": "single",
+  "title": "Brand Surface Studies",
+  "description": "Five independent studies that turn artist identity into kit-adjacent surfaces such as press folders, social cards, credential objects, and emblem walls.",
+  "creative_direction": "Independent assets should feel like parts of a believable music press kit: clean portrait-supporting layouts, emblem studies, credential objects, and launch collateral. Avoid literal readable logos; imply a brand system through shape, material, and hierarchy.",
+  "cover_image": "images/press-folder-desk/image.png",
+  "i18n": {
+    "en": {
+      "title": "Brand Surface Studies",
+      "description": "Five independent studies that turn artist identity into kit-adjacent surfaces such as press folders, social cards, credential objects, and emblem walls."
+    },
+    "zh-CN": {
+      "title": "品牌表面研究",
+      "description": "把艺人身份延展到 press 资料夹、社媒卡片、证件物料与抽象图形表面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "press-folder-desk",
+      "title": "Press Folder Desk",
+      "image": "images/press-folder-desk/image.png",
+      "meta": "images/press-folder-desk/meta.json"
+    },
+    {
+      "id": "social-avatar-grid",
+      "title": "Social Avatar Grid",
+      "image": "images/social-avatar-grid/image.png",
+      "meta": "images/social-avatar-grid/meta.json"
+    },
+    {
+      "id": "credential-pass-study",
+      "title": "Credential Pass Study",
+      "image": "images/credential-pass-study/image.png",
+      "meta": "images/credential-pass-study/meta.json"
+    },
+    {
+      "id": "emblem-wall-study",
+      "title": "Emblem Wall Study",
+      "image": "images/emblem-wall-study/image.png",
+      "meta": "images/emblem-wall-study/meta.json"
+    },
+    {
+      "id": "listening-party-invite",
+      "title": "Listening Party Invite",
+      "image": "images/listening-party-invite/image.png",
+      "meta": "images/listening-party-invite/meta.json"
+    }
+  ]
+}

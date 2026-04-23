@@ -1,0 +1,50 @@
+{
+  "id": "animal-character-editorial-spread-set",
+  "slug": "animal-character-editorial-spread-set",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "collage"
+  ],
+  "capability": [
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "title": "Animal Character Editorial Spread Set",
+  "short_title": "Animal Editorial",
+  "description": "Create editorial spreads where animals are treated as distinct personalities without becoming fully anthropomorphic mascots.",
+  "i18n": {
+    "en": {
+      "title": "Animal Character Editorial Spread Set",
+      "short_title": "Animal Editorial",
+      "description": "Create editorial spreads where animals are treated as distinct personalities without becoming fully anthropomorphic mascots."
+    },
+    "zh-CN": {
+      "title": "动物角色 editorial 跨页组",
+      "short_title": "动物editorial",
+      "description": "做动物角色 editorial 跨页组，强调个性但不过度拟人。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 490,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-animal-editorial-studies",
+      "type": "single",
+      "title": "Animal Editorial Studies",
+      "path": "packages/single-animal-editorial-studies/package.json"
+    }
+  ]
+}

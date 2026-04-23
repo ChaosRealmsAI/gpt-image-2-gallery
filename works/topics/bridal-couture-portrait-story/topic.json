@@ -1,0 +1,52 @@
+{
+  "id": "bridal-couture-portrait-story",
+  "slug": "bridal-couture-portrait-story",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "consistency",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Bridal Couture Portrait Story",
+  "short_title": "Bridal Couture",
+  "description": "Produce bridal and couture portrait stories with refined fabric rendering, emotional elegance, and premium magazine-level bridal photography cues.",
+  "i18n": {
+    "en": {
+      "title": "Bridal Couture Portrait Story",
+      "short_title": "Bridal Couture",
+      "description": "Produce bridal and couture portrait stories with refined fabric rendering, emotional elegance, and premium magazine-level bridal photography cues."
+    },
+    "zh-CN": {
+      "title": "婚纱与高定人像故事",
+      "short_title": "婚纱高定",
+      "description": "做婚纱与高定礼服方向的人像组图，重点看面料、头纱、妆面、情绪和杂志级婚礼摄影质感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 794,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-bridal-couture-lock",
+      "type": "series",
+      "title": "Identity-Locked Bridal Couture Story",
+      "path": "packages/series-bridal-couture-lock/package.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Blue Hour Metropolis Long Exposure. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A dense riverside metropolis is captured at the exact transition of blue hour, where the sky holds deep cobalt, windows begin to glow warm gold, traffic turns into elegant light trails, and water reflects both cool atmosphere and neon accents. Push the composition toward the emotional peak of the same setup, with the most dramatic balance of brightness, shadow, or atmospheric density inside the established world.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Skyscrapers, bridges, riverbanks, layered roads, and a few boats or ferries should form a coherent urban rhythm, with architecture believable and anonymous rather than tied to any one landmark identity. Everything should still read as the same location and same event, but framed for maximum narrative force and visual closure.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Control color temperature precisely, keeping the cool ambient sky separate from warm occupancy lights, with long-exposure motion on roads and water that feels polished, metropolitan, and technically disciplined. Make it feel like the strongest hero frame of the sequence without breaking continuity or introducing a new design language.\n\nUse case:\nBlue Hour City series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable billboards, no famous landmark mimicry, no fireworks, no science-fiction holograms, no empty skyline.",
+  "id": "04-climax-frame",
+  "title": "Climax Frame",
+  "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/blue-hour-metropolis/packages/series-core-system/images/04-climax-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/blue-hour-metropolis/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/blue-hour-metropolis/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hero frame that amplifies drama while preserving the reference logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Climax Frame",
+      "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak."
+    },
+    "zh-CN": {
+      "title": "高潮画面",
+      "description": "蓝调都市 · 将同一场景推向最强视觉高潮的依赖主画面变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Climax Frame from Blue Hour Metropolis Long Exposure.",
+      "zh-CN": "蓝调都市的高潮画面画面。"
+    }
+  }
+}

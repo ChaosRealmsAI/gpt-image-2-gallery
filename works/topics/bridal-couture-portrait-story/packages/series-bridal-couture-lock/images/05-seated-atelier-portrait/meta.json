@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Bridal Couture Portrait Story. Use a quieter couture setting with chair, fabric drape, and soft atelier light. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Produce bridal and couture portrait stories with refined fabric rendering, emotional elegance, and premium magazine-level bridal photography cues.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one bridal couture model with warm olive skin, wavy dark hair, luminous eyes, refined posture, and graceful hands. Maintain the same identity while shifting into a more intimate seated pose that still feels editorial and elevated. Use the example direction from the brief as grounding context: Produce bridal and couture portrait stories with refined fabric rendering, emotional elegance, and premium magazine-level bridal photography cues.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Produce bridal and couture portrait stories with refined fabric rendering, emotional elegance, and premium magazine-level bridal photography cues.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Hands, shoulders, and face should remain consistent even in a different posture. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nBridal Couture Portrait Story series study 5/9, a seated atelier portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no stiff mannequin pose, no different hairstyle, no extra stylist, no readable dress tags.",
+  "id": "05-seated-atelier-portrait",
+  "title": "Seated Atelier Portrait",
+  "description": "Seated Atelier Portrait variation for Bridal Couture Portrait Story, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/bridal-couture-portrait-story/packages/series-bridal-couture-lock/images/05-seated-atelier-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bridal-anchor",
+        "meta_path": "works/topics/bridal-couture-portrait-story/packages/series-bridal-couture-lock/images/01-reference-bridal-anchor/meta.json",
+        "image_path": "works/topics/bridal-couture-portrait-story/packages/series-bridal-couture-lock/images/01-reference-bridal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a seated atelier portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Seated Atelier Portrait",
+      "description": "Seated Atelier Portrait variation for Bridal Couture Portrait Story, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "坐姿工坊版",
+      "description": "坐姿工坊版 是 婚纱与高定人像故事 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Seated Atelier Portrait portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的坐姿工坊版肖像变体。"
+    }
+  }
+}

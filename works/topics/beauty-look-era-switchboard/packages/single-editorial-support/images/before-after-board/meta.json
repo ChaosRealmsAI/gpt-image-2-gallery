@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Beauty Look Era Switchboard. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Before After Board should feel like a specific transformation step that a disciplined comparison layout making transformation logic instantly legible. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Transform one face across distinct beauty directions such as clean-girl, Y2K, runway editorial, bridal, and retro glamour while preserving recognizability.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies editing-workflow, multi-image-reference, photorealism, commercial-mockup through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nBeauty Look Era Switchboard single study 1/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "before-after-board",
+  "title": "Before After Board",
+  "description": "Before After Board for Beauty Look Era Switchboard, a disciplined comparison layout making transformation logic instantly legible.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "single",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/beauty-look-era-switchboard/packages/single-editorial-support/images/before-after-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Before After Board",
+      "description": "Before After Board for Beauty Look Era Switchboard, a disciplined comparison layout making transformation logic instantly legible."
+    },
+    "zh-CN": {
+      "title": "前后对照板",
+      "description": "妆造切换 主题中的前后对照板研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Before After Board campaign image for Beauty Switch.",
+      "zh-CN": "妆造切换 主题的前后对照板画面。"
+    }
+  }
+}

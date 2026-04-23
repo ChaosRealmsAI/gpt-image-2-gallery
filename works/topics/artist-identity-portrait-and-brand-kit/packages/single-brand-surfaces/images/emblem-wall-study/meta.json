@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square studio installation image showing a wall of mounted panels, each carrying an abstract emblem fragment, muted portrait crop, or textured metallic field. The camera is frontal and balanced so the wall reads like a serious campaign language board, not a gallery gimmick.\n\nSubject:\nThe subject is the emblem system itself: circles, bars, profile fragments, and tonal fields arranged into a coherent non-verbal identity for a fictional musician. One or two portrait glimpses can appear, but the primary purpose is to show the ownership of a visual mark system without relying on typography.\n\nImportant details:\nThe installation should feel refined, presentable, and music-industry credible. Use material contrast such as brushed metal, matte board, smoked acrylic, and soft shadow. The panel arrangement must feel intentional and branded, suggesting how an artist identity could extend into sets, packaging, and publicity without needing literal words.\n\nUse case:\nArtist Kit single study 8/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no museum labels, no visible screws dominating the frame, no random colors, no graffiti feel, no decorative flourishes unrelated to the emblem system",
+  "id": "emblem-wall-study",
+  "title": "Emblem Wall Study",
+  "description": "An abstract emblem-wall composition that shows how a non-verbal artist mark system can feel ownable and press-ready.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/single-brand-surfaces/images/emblem-wall-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent emblem-language study for the artist brand kit theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Emblem Wall Study",
+      "description": "An abstract emblem-wall composition that shows how a non-verbal artist mark system can feel ownable and press-ready."
+    },
+    "zh-CN": {
+      "title": "图形墙研究",
+      "description": "图形墙研究，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A wall of abstract emblem panels and portrait fragments for an invented musician brand language.",
+      "zh-CN": "图形墙研究视觉图。"
+    }
+  }
+}

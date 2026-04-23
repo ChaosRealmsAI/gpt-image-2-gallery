@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Beauty Look Era Switchboard. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Anchor Portrait should feel like a specific transformation step that defines the exact face, camera angle, skin texture, and model identity that later images must preserve. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Transform one face across distinct beauty directions such as clean-girl, Y2K, runway editorial, bridal, and retro glamour while preserving recognizability.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies editing-workflow, multi-image-reference, photorealism, commercial-mockup through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nBeauty Look Era Switchboard series study 1/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "01-anchor-portrait",
+  "title": "Anchor Portrait",
+  "description": "Anchor Portrait for Beauty Look Era Switchboard, defines the exact face, camera angle, skin texture, and model identity that later images must preserve.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/beauty-look-era-switchboard/packages/series-identity-lock/images/01-anchor-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series fanout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Anchor Portrait",
+      "description": "Anchor Portrait for Beauty Look Era Switchboard, defines the exact face, camera angle, skin texture, and model identity that later images must preserve."
+    },
+    "zh-CN": {
+      "title": "基准肖像",
+      "description": "妆造切换 主题中的基准肖像研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Anchor Portrait campaign image for Beauty Switch.",
+      "zh-CN": "妆造切换 主题的基准肖像画面。"
+    }
+  }
+}

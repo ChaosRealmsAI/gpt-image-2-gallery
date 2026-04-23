@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Desert Dusk Monolith. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A severe desert dune field stretches to the horizon at sunset, where the last light turns the crests copper and rose, the far sky cools toward violet, and one dark monolith stands with absolute stillness above the wind-shaped sand. Build an independent square study around the way atmosphere interacts with surfaces, keeping enough environmental context for the image to feel finished rather than cropped at random.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The monolith, long shadow, dune ridges, and the empty horizon line should dominate, with no unnecessary props, because the image depends on scale tension between one silent object and an immense landscape. Let textures, reflections, residue, moisture, dust, or particulate response become primary, while the broader setting remains clearly implied.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Keep the geometry minimal but not sterile, using precise shadow direction, tactile sand micro-relief, clean sky gradient, and disciplined negative space so the frame feels monumental rather than decorative. The key is material credibility under dramatic light, with micro-contrast and controlled mood supporting the theme.\n\nUse case:\nDesert Monolith single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ruins, no spaceships, no readable markings on the monolith, no crowds, no surreal floating objects.",
+  "id": "surface-study",
+  "title": "Surface Study",
+  "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/desert-dusk-monolith/packages/single-support-studies/images/surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on material response.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Surface Study",
+      "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them."
+    },
+    "zh-CN": {
+      "title": "表面研究",
+      "description": "沙漠方碑 · 独立研究该主题气氛如何作用于各类材质表面的画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Surface Study from Desert Dusk Monolith.",
+      "zh-CN": "沙漠方碑的表面研究画面。"
+    }
+  }
+}

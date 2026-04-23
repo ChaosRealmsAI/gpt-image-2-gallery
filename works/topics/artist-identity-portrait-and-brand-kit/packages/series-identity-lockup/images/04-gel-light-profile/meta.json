@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square profile portrait in a dark controlled studio, lit by one deep blue gel and one narrow amber edge light so the face contours feel sculptural and campaign-ready. The frame should feel like a social-campaign extension of the press kit, with dramatic color but still enough restraint to remain usable.\n\nSubject:\nPreserve the exact same artist from the reference image, keeping the identical face shape, hair base, skin tone, and body proportions. The subject turns into profile while staying recognizably the same person, wearing the same core tailoring language with only subtle styling shifts in collar and jewelry placement.\n\nImportant details:\nThis variation should add mood, not replace the brand system. Keep skin detail real, highlights controlled, and the background simple. Abstract emblem cues can appear as colored light bars or shadow panels, but there should be no literal logo. The primary test is whether the portrait still reads as the same artist while the campaign expands into a richer emotional register.\n\nUse case:\nArtist Kit series study 4/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no hard beauty-retouch look, no smoky nightclub crowd, no costume-level wardrobe change, no extreme close crop, no colored text elements",
+  "id": "04-gel-light-profile",
+  "title": "Gel Light Profile",
+  "description": "A gel-lit profile portrait that keeps the same artist identity while pushing the kit into mood-led social-campaign territory.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/04-gel-light-profile/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-press-portrait",
+        "meta_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/meta.json",
+        "image_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Mood-light portrait variation depending on the root artist reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Gel Light Profile",
+      "description": "A gel-lit profile portrait that keeps the same artist identity while pushing the kit into mood-led social-campaign territory."
+    },
+    "zh-CN": {
+      "title": "彩胶侧脸变体",
+      "description": "彩胶侧脸变体，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A gel-lit profile portrait preserving the same artist face and hair from the reference image.",
+      "zh-CN": "彩胶侧脸变体视觉图。"
+    }
+  }
+}

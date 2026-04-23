@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square close tabletop shot of stacked invite cards, a translucent envelope, metallic edge foil, and one portrait insert arranged on dark velvet. The lighting should feel intimate and premium, revealing card stock thickness, foil reflection, and the ritual atmosphere of a private music event invite.\n\nSubject:\nThe cards carry an invented artist identity through portrait fragments, abstract symbols, and controlled layout zones intended for future event information. The package must read as exclusive music collateral, something for a listening party or press preview, without actually printing legible names or schedules.\n\nImportant details:\nThe visual test here is desirability through restraint. Use a muted palette, tactile materials, and a small set of repeating brand cues so the invite system feels connected to a larger artist kit. Keep everything elegant, not wedding-like or luxury-fashion generic. It should remain distinctly anchored in contemporary music publicity.\n\nUse case:\nArtist Kit single study 9/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no wax seals, no floral styling, no handwritten calligraphy, no visible address fields, no extra props unrelated to the invite package",
+  "id": "listening-party-invite",
+  "title": "Listening Party Invite",
+  "description": "A premium invite-card study showing how portrait identity and emblem logic extend into exclusive event collateral.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/single-brand-surfaces/images/listening-party-invite/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent invite-card study for the artist brand kit theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Listening Party Invite",
+      "description": "A premium invite-card study showing how portrait identity and emblem logic extend into exclusive event collateral."
+    },
+    "zh-CN": {
+      "title": "试听会邀请卡",
+      "description": "试听会邀请卡，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium music-event invite card with portrait fragments, metallic finish, and abstract emblem logic.",
+      "zh-CN": "试听会邀请卡视觉图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square studio portrait composed like the lead image of a press kit, with neutral charcoal backdrop panels, one soft key light, one narrow rim light, and a controlled layout field that leaves room for future campaign overlays. The camera stays at eye level and slightly close, creating an image that feels intimate, expensive, and usable across editorial and promotional contexts.\n\nSubject:\nAn invented recording artist faces the camera with relaxed authority, wearing a dark tailored jacket, short textured curls, subtle silver jewelry, and a minimal in-ear monitor. This first image must establish the exact face shape, hair base, skin tone, body proportions, and overall demeanor that later kit images will preserve without drift.\n\nImportant details:\nThe brand-kit language should feel mature and press-ready: abstract geometric emblem panels, muted metallic accents, and disciplined negative space rather than literal readable logos. Skin texture, fabric response, and lighting falloff should be photoreal and believable. The result should communicate a full artist identity system, not just a generic attractive portrait.\n\nUse case:\nArtist Kit series study 1/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no microphone as hero prop, no stage crowd, no heavy makeup glamour excess, no wide smile, no busy background graphics, no fashion-brand cues",
+  "id": "01-reference-press-portrait",
+  "title": "Reference Press Portrait",
+  "description": "A root artist portrait that locks one face, one haircut, and one press-kit visual identity for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root portrait reference for the artist identity sequence.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Press Portrait",
+      "description": "A root artist portrait that locks one face, one haircut, and one press-kit visual identity for the series."
+    },
+    "zh-CN": {
+      "title": "基准宣传肖像",
+      "description": "基准宣传肖像，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A clean press portrait of an invented musician framed with abstract emblem panels and magazine-grade lighting.",
+      "zh-CN": "基准宣传肖像视觉图。"
+    }
+  }
+}

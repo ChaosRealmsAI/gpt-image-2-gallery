@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square overhead desk photograph with an open press folder, stacked portrait cards, translucent inserts, credential sleeve, and metallic binding hardware arranged with editorial neatness. Lighting should be soft and expensive, showing paper texture, sleeve transparency, and the subtle tactile quality of a premium artist press package.\n\nSubject:\nThe subject is a complete artist press-kit surface rather than one hero portrait: a folder system, cropped headshots, abstract emblem cards, matte paper inserts, and a lanyard-like credential laid out with deliberate spacing. Everything should imply a coherent artist brand language without showing readable names or publication text.\n\nImportant details:\nKeep the composition practical and believable for the music industry. Materials matter: coated card stock, brushed metal clip, translucent vellum, and a muted monochrome palette with one controlled accent color. The desk should not feel like an office supply ad; it should feel like a refined music-publicity toolkit built around one clear artist identity.\n\nUse case:\nArtist Kit single study 5/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no laptop, no coffee cup, no stationery clutter, no visible corporate office branding, no readable paperwork",
+  "id": "press-folder-desk",
+  "title": "Press Folder Desk",
+  "description": "A desk-level still life of a press folder, portraits, and abstract brand inserts arranged like a real artist kit.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/single-brand-surfaces/images/press-folder-desk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent still-life study for the artist brand kit theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Press Folder Desk",
+      "description": "A desk-level still life of a press folder, portraits, and abstract brand inserts arranged like a real artist kit."
+    },
+    "zh-CN": {
+      "title": "媒体资料夹桌面",
+      "description": "媒体资料夹桌面，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A press-folder desk still life with portraits, metallic inserts, and abstract music-brand cues.",
+      "zh-CN": "媒体资料夹桌面视觉图。"
+    }
+  }
+}

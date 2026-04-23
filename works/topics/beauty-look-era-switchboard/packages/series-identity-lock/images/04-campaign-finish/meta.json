@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Beauty Look Era Switchboard. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Campaign Finish should feel like a specific transformation step that turns the locked identity into a polished campaign-ready hero frame. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Transform one face across distinct beauty directions such as clean-girl, Y2K, runway editorial, bridal, and retro glamour while preserving recognizability.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies editing-workflow, multi-image-reference, photorealism, commercial-mockup through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nBeauty Look Era Switchboard series study 4/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "04-campaign-finish",
+  "title": "Campaign Finish",
+  "description": "Campaign Finish for Beauty Look Era Switchboard, turns the locked identity into a polished campaign-ready hero frame.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/beauty-look-era-switchboard/packages/series-identity-lock/images/04-campaign-finish/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-anchor-portrait",
+        "meta_path": "works/topics/beauty-look-era-switchboard/packages/series-identity-lock/images/01-anchor-portrait/meta.json",
+        "image_path": "works/topics/beauty-look-era-switchboard/packages/series-identity-lock/images/01-anchor-portrait/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the anchor image identity while varying the requested campaign angle."
+  },
+  "i18n": {
+    "en": {
+      "title": "Campaign Finish",
+      "description": "Campaign Finish for Beauty Look Era Switchboard, turns the locked identity into a polished campaign-ready hero frame."
+    },
+    "zh-CN": {
+      "title": "系列收束图",
+      "description": "妆造切换 主题中的系列收束图研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Campaign Finish campaign image for Beauty Switch.",
+      "zh-CN": "妆造切换 主题的系列收束图画面。"
+    }
+  }
+}

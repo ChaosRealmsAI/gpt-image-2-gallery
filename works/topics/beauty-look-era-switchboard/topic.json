@@ -1,0 +1,58 @@
+{
+  "id": "beauty-look-era-switchboard",
+  "slug": "beauty-look-era-switchboard",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Beauty Look Era Switchboard",
+  "short_title": "Beauty Switch",
+  "description": "Transform one face across distinct beauty directions such as clean-girl, Y2K, runway editorial, bridal, and retro glamour while preserving recognizability.",
+  "i18n": {
+    "en": {
+      "title": "Beauty Look Era Switchboard",
+      "short_title": "Beauty Switch",
+      "description": "Transform one face across distinct beauty directions such as clean-girl, Y2K, runway editorial, bridal, and retro glamour while preserving recognizability."
+    },
+    "zh-CN": {
+      "title": "单人妆造时代切换",
+      "short_title": "妆造切换",
+      "description": "同一张脸在 clean girl、Y2K、runway editorial、新娘、高级复古等妆容路线中切换，仍能保持人物可识别。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 612,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Identity Lock",
+      "path": "packages/series-identity-lock/package.json"
+    },
+    {
+      "id": "single-editorial-support",
+      "type": "single",
+      "title": "Editorial Support",
+      "path": "packages/single-editorial-support/package.json"
+    }
+  ]
+}

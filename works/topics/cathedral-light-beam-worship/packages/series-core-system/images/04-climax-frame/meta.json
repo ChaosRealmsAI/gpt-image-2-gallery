@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Cathedral Light Beam of Worship. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A vast Gothic nave is carved by one sharply defined shaft of early sun entering from high clerestory windows on the left, with cold blue shadows in the aisles, faint amber heat around the altar, and visibly suspended dust or incense in the air. Push the composition toward the emotional peak of the same setup, with the most dramatic balance of brightness, shadow, or atmospheric density inside the established world.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Stone columns, ribbed vaults, carved pews, a restrained altar glow, and a few worshippers or attendants in silhouette should define the human scale without turning the image into a crowd scene or ceremony spectacle. Everything should still read as the same location and same event, but framed for maximum narrative force and visual closure.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Treat the volumetric beam as the true protagonist, with physically coherent light falloff, believable bounce on worn stone, clean separation between shadow layers, and a solemn emotional register that feels sacred rather than theatrical. Make it feel like the strongest hero frame of the sequence without breaking continuity or introducing a new design language.\n\nUse case:\nCathedral Beam series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy creatures, no electric stage lights, no readable scripture, no tourist clutter, no exaggerated stained-glass rainbows.",
+  "id": "04-climax-frame",
+  "title": "Climax Frame",
+  "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/04-climax-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hero frame that amplifies drama while preserving the reference logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Climax Frame",
+      "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak."
+    },
+    "zh-CN": {
+      "title": "高潮画面",
+      "description": "教堂光柱 · 将同一场景推向最强视觉高潮的依赖主画面变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Climax Frame from Cathedral Light Beam of Worship.",
+      "zh-CN": "教堂光柱的高潮画面画面。"
+    }
+  }
+}

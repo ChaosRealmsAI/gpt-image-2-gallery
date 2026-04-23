@@ -1,0 +1,53 @@
+{
+  "id": "angkor-wat-overgrown",
+  "slug": "angkor-wat-overgrown",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Angkor Wat Overgrown Symbiosis",
+  "short_title": "Angkor Overgrown",
+  "description": "An Angkor temple complex where tree roots have become one with the stone, sunlight filtering through canopy as green shafts, the architecture still intact beneath living wood.",
+  "i18n": {
+    "en": {
+      "title": "Angkor Wat Overgrown Symbiosis",
+      "short_title": "Angkor Overgrown",
+      "description": "An Angkor temple complex where tree roots have become one with the stone, sunlight filtering through canopy as green shafts, the architecture still intact beneath living wood."
+    },
+    "zh-CN": {
+      "title": "吴哥窟树石共生",
+      "short_title": "吴哥共生",
+      "description": "吴哥寺庙群 · 树根与石头融为一体 · 阳光穿树冠化为绿色光柱 · 建筑在树荫下仍完整。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 430,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "actor-casting-portrait-sheet",
+  "slug": "actor-casting-portrait-sheet",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Actor Casting Portrait Sheet",
+  "short_title": "Casting Sheet",
+  "description": "Create casting-ready portrait sheets for actors with clean framing, controlled expressions, minimal styling drift, and believable agency presentation.",
+  "i18n": {
+    "en": {
+      "title": "Actor Casting Portrait Sheet",
+      "short_title": "Casting Sheet",
+      "description": "Create casting-ready portrait sheets for actors with clean framing, controlled expressions, minimal styling drift, and believable agency presentation."
+    },
+    "zh-CN": {
+      "title": "演员选角照联系表",
+      "short_title": "选角照",
+      "description": "做像经纪公司会交给 casting 导演的人像联系表，要求正面、侧面、微表情和基础信息版式都很专业。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 639,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-portrait-brand-system",
+      "type": "series",
+      "title": "Identity-Locked Brand Portrait System",
+      "path": "packages/series-portrait-brand-system/package.json"
+    }
+  ]
+}

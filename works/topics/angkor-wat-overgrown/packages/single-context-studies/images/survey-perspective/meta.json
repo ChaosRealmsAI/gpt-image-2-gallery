@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square survey-oriented image that explains spatial logic with the clarity of an expert field overview while still reading as a finished artwork. Use a stable elevated vantage, clean depth layering, and enough visible terrain or architecture to make relationships legible without turning the frame into a literal map. The scene should feel analytical and cinematic at the same time.\n\nSubject:\nShow a slightly elevated survey image that reveals galleries, collapsed thresholds, root spread, and canopy openings as one integrated site system. Organize the composition so paths, terraces, walls, courtyards, chambers, canals, root systems, or quarry clusters can be read as a coherent system. The image should reveal how the civilization used land, water, elevation, enclosure, or monumentality. Keep all architecture, materials, and environmental details consistent with the correct place and period.\n\nImportant details:\nKeep the site recognizably Khmer, with disciplined tower silhouettes, naga-era stone logic, gallery rhythm, and roots that wrap around built forms instead of replacing them with fantasy tree sculpture. This image should reward close looking by showing infrastructural logic: how stone courses align, how water moves, how rooms connect, how carved masses sit inside geology, or how vegetation interacts with built form. Avoid explicit annotation. Let composition, light, and scale cues do the explanatory work. Keep any measuring elements generic and unreadable, and make the image feel like serious research made visually elegant.\n\nUse case:\nAngkor Wat Overgrown Symbiosis single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy elves, no glowing magic runes, no steel catwalks, no modern park signage, no infographic arrows, no split-screen layout, no impossible aerial geometry, no unrelated settlements.",
+  "id": "survey-perspective",
+  "title": "Survey Perspective",
+  "description": "An independent survey-oriented study clarifying spatial logic for Angkor Overgrown.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/angkor-wat-overgrown/packages/single-context-studies/images/survey-perspective/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Survey Perspective",
+      "description": "An independent survey-oriented study clarifying spatial logic for Angkor Overgrown."
+    },
+    "zh-CN": {
+      "title": "测绘视角",
+      "description": "从测绘与关系角度解释遗址空间结构的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A survey perspective explains the larger spatial logic of Angkor Overgrown.",
+      "zh-CN": "吴哥共生相关研究图像。"
+    }
+  }
+}

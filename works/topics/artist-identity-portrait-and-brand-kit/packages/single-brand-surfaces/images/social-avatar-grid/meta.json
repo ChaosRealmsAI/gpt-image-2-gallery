@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square grid composition on a clean matte background, showing multiple circular and rounded-square profile crops, abstract cover headers, and muted accent tiles arranged as if they belong to one social identity rollout. The framing should feel like a polished campaign board rather than a software screenshot.\n\nSubject:\nEach tile contains a version of the same invented artist language: portrait fragments, emblem marks, abstract light bars, and gradient fields prepared for social surfaces. The grid should communicate small-format recognizability and consistency, not literal app interface branding.\n\nImportant details:\nPrioritize compression clarity, facial memorability, and system logic. The board should look like a design presentation for a musician launch kit, with varied crop behavior but one shared visual ownership. Use disciplined spacing, clean edge alignment, and subtle texture changes to keep the image from feeling flat or generic.\n\nUse case:\nArtist Kit single study 6/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no recognizable social-media UI, no readable follower numbers, no notification icons, no bright rainbow palette, no random unrelated photos",
+  "id": "social-avatar-grid",
+  "title": "Social Avatar Grid",
+  "description": "A grid of avatar and profile-surface studies showing how an artist identity system compresses into small social formats.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/single-brand-surfaces/images/social-avatar-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent profile-surface study for the artist brand kit theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Social Avatar Grid",
+      "description": "A grid of avatar and profile-surface studies showing how an artist identity system compresses into small social formats."
+    },
+    "zh-CN": {
+      "title": "头像网格研究",
+      "description": "头像网格研究，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "identity-consistency",
+      "single"
+    ],
+    "alt": {
+      "en": "A tidy grid of profile-avatar crops and abstract header surfaces for an invented musician.",
+      "zh-CN": "头像网格研究视觉图。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "artist-identity-portrait-and-brand-kit",
+  "slug": "artist-identity-portrait-and-brand-kit",
+  "category": "photography",
+  "capability": [
+    "photorealism",
+    "commercial-mockup",
+    "multi-image-reference"
+  ],
+  "title": "Artist Identity Portrait and Brand Kit",
+  "short_title": "Artist Kit",
+  "description": "Build artist identity kits combining portraits, logos, visual motifs, and press-ready assets.",
+  "i18n": {
+    "en": {
+      "title": "Artist Identity Portrait and Brand Kit",
+      "short_title": "Artist Kit",
+      "description": "Build artist identity kits combining portraits, logos, visual motifs, and press-ready assets."
+    },
+    "zh-CN": {
+      "title": "艺人身份肖像与品牌套件",
+      "short_title": "艺人套件",
+      "description": "做艺人身份肖像与品牌套件，结合肖像、标志、视觉母题和 press 资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 920,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "multi-image-reference",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lockup",
+      "type": "series",
+      "title": "Identity Lockup Sequence",
+      "path": "packages/series-identity-lockup/package.json"
+    },
+    {
+      "id": "single-brand-surfaces",
+      "type": "single",
+      "title": "Brand Surface Studies",
+      "path": "packages/single-brand-surfaces/package.json"
+    }
+  ]
+}

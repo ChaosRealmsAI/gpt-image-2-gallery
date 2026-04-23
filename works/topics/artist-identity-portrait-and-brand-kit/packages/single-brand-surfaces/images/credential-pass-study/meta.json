@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square tabletop product shot of layered backstage passes, satin lanyards, clear laminate sleeves, and clipped portrait inserts arranged with high-end object photography discipline. Light should skim the plastic edges and reveal subtle scuffs, gloss, and realistic material thickness.\n\nSubject:\nThe composition centers on credential objects designed for an invented artist campaign: abstract portrait crops, emblem shapes, matte-black fields, and one muted metallic accent repeated across multiple passes. The objects should feel usable and event-realistic, but completely free of readable names or venue logos.\n\nImportant details:\nThis is a test of whether artist identity can survive on practical access objects. Keep the materials believable, the spacing tidy, and the brand language consistent. The passes should feel premium and music-industry specific rather than corporate conference badges or fashion guest lists.\n\nUse case:\nArtist Kit single study 7/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no barcodes, no readable numbers, no event logo, no tabletop clutter beyond the credential set, no harsh direct flash look",
+  "id": "credential-pass-study",
+  "title": "Credential Pass Study",
+  "description": "A credential and laminate study showing how artist identity extends into backstage-access objects and event collateral.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/single-brand-surfaces/images/credential-pass-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent credential-object study for the artist brand kit theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Credential Pass Study",
+      "description": "A credential and laminate study showing how artist identity extends into backstage-access objects and event collateral."
+    },
+    "zh-CN": {
+      "title": "通行证研究",
+      "description": "通行证研究，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A set of backstage passes and laminates styled with abstract artist-brand graphics and portrait crops.",
+      "zh-CN": "通行证研究视觉图。"
+    }
+  }
+}

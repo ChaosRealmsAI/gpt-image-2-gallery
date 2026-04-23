@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square rooftop portrait at overcast dusk, framed with clean city blur in the distance and a cooler, more editorial monochrome lighting scheme. The composition remains simple and press-usable, with enough empty edge space for later campaign use but a more atmospheric setting than the studio reference.\n\nSubject:\nPreserve the exact same artist from the reference image, including face shape, hair base, skin tone, and body proportions. The subject leans lightly against a concrete parapet in the same tailored jacket family, with the gaze turned slightly off-camera and the same calm authority carried into a more documentary urban setting.\n\nImportant details:\nThe image should widen the artist kit without breaking identity lock. Keep the portrait realistic, the geometry disciplined, and the palette nearly monochrome with only minimal metallic highlights. Abstract emblem cues can appear as architectural shadows or reflective inserts, but the artist must remain the undeniable center and must read as the exact same person from the reference portrait.\n\nUse case:\nArtist Kit series study 2/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no sunset orange explosion, no rooftop party extras, no hats hiding the hair, no lens gimmicks, no streetwear brand graphics",
+  "id": "02-monochrome-rooftop",
+  "title": "Monochrome Rooftop",
+  "description": "A monochrome rooftop portrait that preserves the exact reference artist while widening the brand kit into urban editorial territory.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/02-monochrome-rooftop/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-press-portrait",
+        "meta_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/meta.json",
+        "image_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Editorial portrait variation depending on the root artist reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Monochrome Rooftop",
+      "description": "A monochrome rooftop portrait that preserves the exact reference artist while widening the brand kit into urban editorial territory."
+    },
+    "zh-CN": {
+      "title": "天台单色变体",
+      "description": "天台单色变体，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A monochrome rooftop portrait preserving the same artist identity from the reference press image.",
+      "zh-CN": "天台单色变体视觉图。"
+    }
+  }
+}

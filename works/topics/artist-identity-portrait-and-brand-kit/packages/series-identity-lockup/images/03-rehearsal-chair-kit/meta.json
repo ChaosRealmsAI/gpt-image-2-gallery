@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square rehearsal-space portrait shot in a clean room with acoustic panels, a folded chair, muted practical lighting, and shallow depth that hints at instruments without turning them into clutter. The image should feel grounded and human, like a credible press-kit portrait made during production downtime.\n\nSubject:\nPreserve the exact same artist from the reference image with identical face structure, hair base, skin tone, and body proportions. The artist sits on a simple chair with shoulders relaxed, hands resting naturally, and a tailored dark outfit that still matches the broader identity grammar established in the studio portrait.\n\nImportant details:\nUse the room only to reinforce musician context, not to overwhelm the portrait. Subtle instrument silhouettes, cable loops, and acoustic textures are acceptable if they stay secondary. The true continuity comes from the artist face, grooming, wardrobe silhouette, and abstract emblem logic carried through lighting and layout. This should feel like a practical extension of a real artist brand kit.\n\nUse case:\nArtist Kit series study 3/9 for the Artist Identity Portrait and Brand Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no loud instrument performance pose, no cluttered gear stacks, no audience, no casual hoodie swap, no readable posters on the wall",
+  "id": "03-rehearsal-chair-kit",
+  "title": "Rehearsal Chair Kit",
+  "description": "A rehearsal-room seated portrait that keeps the same artist identity while making the kit feel grounded and musician-specific.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/03-rehearsal-chair-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-press-portrait",
+        "meta_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/meta.json",
+        "image_path": "works/topics/artist-identity-portrait-and-brand-kit/packages/series-identity-lockup/images/01-reference-press-portrait/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Rehearsal-room variation depending on the root artist reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rehearsal Chair Kit",
+      "description": "A rehearsal-room seated portrait that keeps the same artist identity while making the kit feel grounded and musician-specific."
+    },
+    "zh-CN": {
+      "title": "排练室坐姿变体",
+      "description": "排练室坐姿变体，用于艺人套件主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A seated rehearsal-room portrait with the same artist identity, photographed as part of a coherent press kit.",
+      "zh-CN": "排练室坐姿变体视觉图。"
+    }
+  }
+}

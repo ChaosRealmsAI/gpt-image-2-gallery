@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Cathedral Light Beam of Worship. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A vast Gothic nave is carved by one sharply defined shaft of early sun entering from high clerestory windows on the left, with cold blue shadows in the aisles, faint amber heat around the altar, and visibly suspended dust or incense in the air. Move the camera closer or lower so the viewer feels more embedded inside the atmosphere while the same light direction and environment remain intact.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Stone columns, ribbed vaults, carved pews, a restrained altar glow, and a few worshippers or attendants in silhouette should define the human scale without turning the image into a crowd scene or ceremony spectacle. Preserve the same world logic from the reference and let one human-scale or material-scale element become more prominent without stealing focus from the atmosphere.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Treat the volumetric beam as the true protagonist, with physically coherent light falloff, believable bounce on worn stone, clean separation between shadow layers, and a solemn emotional register that feels sacred rather than theatrical. Keep the palette family, structural read, and light behavior from image 01 while increasing immediacy and tactile presence.\n\nUse case:\nCathedral Beam series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy creatures, no electric stage lights, no readable scripture, no tourist clutter, no exaggerated stained-glass rainbows.",
+  "id": "02-closer-frame",
+  "title": "Closer Frame",
+  "description": "A dependent variation that moves closer to the light event while preserving the same environmental identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/02-closer-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/cathedral-light-beam-worship/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame preserving the established reference atmosphere.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Closer Frame",
+      "description": "A dependent variation that moves closer to the light event while preserving the same environmental identity."
+    },
+    "zh-CN": {
+      "title": "近景强化",
+      "description": "教堂光柱 · 在保持同一环境身份的前提下，更近距离地强化主光线事件的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Closer Frame from Cathedral Light Beam of Worship.",
+      "zh-CN": "教堂光柱的近景强化画面。"
+    }
+  }
+}

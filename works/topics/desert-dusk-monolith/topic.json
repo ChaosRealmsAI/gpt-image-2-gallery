@@ -1,0 +1,55 @@
+{
+  "id": "desert-dusk-monolith",
+  "slug": "desert-dusk-monolith",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "photorealism"
+  ],
+  "title": "Desert Dusk Monolith",
+  "short_title": "Desert Monolith",
+  "description": "A solitary black monolith standing on infinite dune field at the moment the sun touches the horizon, dramatic long shadow and warm-to-cool gradient sky.",
+  "i18n": {
+    "en": {
+      "title": "Desert Dusk Monolith",
+      "short_title": "Desert Monolith",
+      "description": "A solitary black monolith standing on infinite dune field at the moment the sun touches the horizon, dramatic long shadow and warm-to-cool gradient sky."
+    },
+    "zh-CN": {
+      "title": "沙漠日落方碑",
+      "short_title": "沙漠方碑",
+      "description": "一块孤黑方碑立于无尽沙丘 · 太阳触地那一刻 · 长阴影戏剧化 · 天空由暖过渡到冷紫。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 350,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

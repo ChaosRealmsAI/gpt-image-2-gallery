@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Blue Hour Metropolis Long Exposure. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A dense riverside metropolis is captured at the exact transition of blue hour, where the sky holds deep cobalt, windows begin to glow warm gold, traffic turns into elegant light trails, and water reflects both cool atmosphere and neon accents. Pull back enough to explain the broader geography or architectural envelope while keeping the square crop intentional and balanced.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Skyscrapers, bridges, riverbanks, layered roads, and a few boats or ferries should form a coherent urban rhythm, with architecture believable and anonymous rather than tied to any one landmark identity. The wider frame should reveal how the main light or weather phenomenon organizes the surrounding world and not just the immediate subject.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Control color temperature precisely, keeping the cool ambient sky separate from warm occupancy lights, with long-exposure motion on roads and water that feels polished, metropolitan, and technically disciplined. Make scale legible through spacing, horizon control, and foreground-to-background separation rather than through extra props.\n\nUse case:\nBlue Hour City single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable billboards, no famous landmark mimicry, no fireworks, no science-fiction holograms, no empty skyline.",
+  "id": "wide-study",
+  "title": "Wide Study",
+  "description": "An independent wider frame explaining the larger geography behind the topic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/blue-hour-metropolis/packages/single-support-studies/images/wide-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on wide spatial explanation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wide Study",
+      "description": "An independent wider frame explaining the larger geography behind the topic atmosphere."
+    },
+    "zh-CN": {
+      "title": "广角研究",
+      "description": "蓝调都市 · 通过更广视角解释该主题氛围所处整体地理或建筑环境的独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Wide Study from Blue Hour Metropolis Long Exposure.",
+      "zh-CN": "蓝调都市的广角研究画面。"
+    }
+  }
+}

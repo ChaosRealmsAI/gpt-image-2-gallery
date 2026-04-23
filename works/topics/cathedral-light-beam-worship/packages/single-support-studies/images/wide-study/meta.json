@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Cathedral Light Beam of Worship. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A vast Gothic nave is carved by one sharply defined shaft of early sun entering from high clerestory windows on the left, with cold blue shadows in the aisles, faint amber heat around the altar, and visibly suspended dust or incense in the air. Pull back enough to explain the broader geography or architectural envelope while keeping the square crop intentional and balanced.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Stone columns, ribbed vaults, carved pews, a restrained altar glow, and a few worshippers or attendants in silhouette should define the human scale without turning the image into a crowd scene or ceremony spectacle. The wider frame should reveal how the main light or weather phenomenon organizes the surrounding world and not just the immediate subject.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Treat the volumetric beam as the true protagonist, with physically coherent light falloff, believable bounce on worn stone, clean separation between shadow layers, and a solemn emotional register that feels sacred rather than theatrical. Make scale legible through spacing, horizon control, and foreground-to-background separation rather than through extra props.\n\nUse case:\nCathedral Beam single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy creatures, no electric stage lights, no readable scripture, no tourist clutter, no exaggerated stained-glass rainbows.",
+  "id": "wide-study",
+  "title": "Wide Study",
+  "description": "An independent wider frame explaining the larger geography behind the topic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cathedral-light-beam-worship/packages/single-support-studies/images/wide-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on wide spatial explanation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wide Study",
+      "description": "An independent wider frame explaining the larger geography behind the topic atmosphere."
+    },
+    "zh-CN": {
+      "title": "广角研究",
+      "description": "教堂光柱 · 通过更广视角解释该主题氛围所处整体地理或建筑环境的独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Wide Study from Cathedral Light Beam of Worship.",
+      "zh-CN": "教堂光柱的广角研究画面。"
+    }
+  }
+}

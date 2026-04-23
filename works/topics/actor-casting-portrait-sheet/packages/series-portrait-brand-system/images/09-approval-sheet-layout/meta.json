@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Actor Casting Portrait Sheet. Use a square layout that still reads as photography first, with restrained panel logic, tidy spacing, and agency-grade presentation cues but no readable text. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create casting-ready portrait sheets for actors with clean framing, controlled expressions, minimal styling drift, and believable agency presentation.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one working actor with medium olive skin, short dark curls, straight nose, defined cheekbones, close-trimmed beard, and alert brown eyes. Combine the same identity into a structured final board or polished hero frame that implies contact-sheet usability, campaign approval, or press-kit readiness. Keep the subject dominant and recognizable within the layout. Use the example direction from the brief as grounding context: Create casting-ready portrait sheets for actors with clean framing, controlled expressions, minimal styling drift, and believable agency presentation.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create casting-ready portrait sheets for actors with clean framing, controlled expressions, minimal styling drift, and believable agency presentation.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Structured presentation is allowed, but the face must still be the star. Preserve exact face / hair base / body proportions from the reference model while making the overall page logic convincing. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nActor Casting Portrait Sheet series study 9/9, a polished approval-sheet or press-sheet finish.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no readable names, no slate numbers, no fake logos, no broken grid logic.",
+  "id": "09-approval-sheet-layout",
+  "title": "Approval Sheet Layout",
+  "description": "Approval Sheet Layout variation for Actor Casting Portrait Sheet, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/actor-casting-portrait-sheet/packages/series-portrait-brand-system/images/09-approval-sheet-layout/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-portrait-anchor",
+        "meta_path": "works/topics/actor-casting-portrait-sheet/packages/series-portrait-brand-system/images/01-reference-portrait-anchor/meta.json",
+        "image_path": "works/topics/actor-casting-portrait-sheet/packages/series-portrait-brand-system/images/01-reference-portrait-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a polished approval-sheet or press-sheet finish.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Approval Sheet Layout",
+      "description": "Approval Sheet Layout variation for Actor Casting Portrait Sheet, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "审批联系表",
+      "description": "审批联系表 是 演员选角照联系表 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Approval Sheet Layout portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的审批联系表肖像变体。"
+    }
+  }
+}

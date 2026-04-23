@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Desert Dusk Monolith. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A severe desert dune field stretches to the horizon at sunset, where the last light turns the crests copper and rose, the far sky cools toward violet, and one dark monolith stands with absolute stillness above the wind-shaped sand. Compose an independent frame where one human, animal, or object silhouette negotiates with the atmospheric light event in a clean, readable way.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The monolith, long shadow, dune ridges, and the empty horizon line should dominate, with no unnecessary props, because the image depends on scale tension between one silent object and an immense landscape. The silhouette should supply scale and emotional orientation, but the environment still needs to carry most of the storytelling weight.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Keep the geometry minimal but not sterile, using precise shadow direction, tactile sand micro-relief, clean sky gradient, and disciplined negative space so the frame feels monumental rather than decorative. Keep the silhouette simple and believable, avoiding poster-like graphic flattening while preserving strong contrast.\n\nUse case:\nDesert Monolith single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ruins, no spaceships, no readable markings on the monolith, no crowds, no surreal floating objects.",
+  "id": "silhouette-study",
+  "title": "Silhouette Study",
+  "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/desert-dusk-monolith/packages/single-support-studies/images/silhouette-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on silhouette and atmosphere balance.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Silhouette Study",
+      "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene."
+    },
+    "zh-CN": {
+      "title": "剪影研究",
+      "description": "沙漠方碑 · 以单一剪影衡量场景尺度与情绪张力的独立画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Silhouette Study from Desert Dusk Monolith.",
+      "zh-CN": "沙漠方碑的剪影研究画面。"
+    }
+  }
+}

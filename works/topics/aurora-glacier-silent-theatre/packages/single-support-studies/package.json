@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Independent Light Studies",
+  "description": "Five independent studies extending the same theme into material, silhouette, transition, wide, and afterglow frames.",
+  "creative_direction": "These images do not depend on the series reference file, but they should still belong to the same atmospheric topic through light physics, material behavior, and disciplined cinematic framing.",
+  "cover_image": "images/surface-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Independent Light Studies",
+      "description": "Five independent studies extending the same theme into material, silhouette, transition, wide, and afterglow frames."
+    },
+    "zh-CN": {
+      "title": "独立光影研究",
+      "description": "极光冰川的五张独立光影研究，分别覆盖材质、剪影、过渡、广角与余韵。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ]
+  },
+  "images": [
+    {
+      "id": "surface-study",
+      "title": "Surface Study",
+      "image": "images/surface-study/image.png",
+      "meta": "images/surface-study/meta.json"
+    },
+    {
+      "id": "silhouette-study",
+      "title": "Silhouette Study",
+      "image": "images/silhouette-study/image.png",
+      "meta": "images/silhouette-study/meta.json"
+    },
+    {
+      "id": "transition-study",
+      "title": "Transition Study",
+      "image": "images/transition-study/image.png",
+      "meta": "images/transition-study/meta.json"
+    },
+    {
+      "id": "wide-study",
+      "title": "Wide Study",
+      "image": "images/wide-study/image.png",
+      "meta": "images/wide-study/meta.json"
+    },
+    {
+      "id": "afterglow-study",
+      "title": "Afterglow Study",
+      "image": "images/afterglow-study/image.png",
+      "meta": "images/afterglow-study/meta.json"
+    }
+  ]
+}

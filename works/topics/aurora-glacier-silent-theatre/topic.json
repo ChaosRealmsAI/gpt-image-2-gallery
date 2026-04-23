@@ -1,0 +1,56 @@
+{
+  "id": "aurora-glacier-silent-theatre",
+  "slug": "aurora-glacier-silent-theatre",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "title": "Aurora Glacier Silent Theatre",
+  "short_title": "Aurora Glacier",
+  "description": "An Arctic glacier under a massive aurora curtain, ice reflecting the green ribbons, one tiny human figure in a red parka as scale reference.",
+  "i18n": {
+    "en": {
+      "title": "Aurora Glacier Silent Theatre",
+      "short_title": "Aurora Glacier",
+      "description": "An Arctic glacier under a massive aurora curtain, ice reflecting the green ribbons, one tiny human figure in a red parka as scale reference."
+    },
+    "zh-CN": {
+      "title": "极光冰川静剧场",
+      "short_title": "极光冰川",
+      "description": "北极冰川之上 · 巨大极光帷幔 · 冰面倒映绿色飘带 · 一个红羽绒人影作比例参照。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 370,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

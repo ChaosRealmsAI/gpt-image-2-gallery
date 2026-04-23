@@ -1,0 +1,71 @@
+{
+  "id": "series-identity-lockup",
+  "type": "series",
+  "title": "Identity Lockup Sequence",
+  "description": "A portrait-led series establishing one artist face, styling baseline, and press-ready visual grammar before extending it into adjacent campaign looks.",
+  "creative_direction": "Image 01 defines the exact artist reference model and a believable brand-kit grammar of portrait photography, abstract emblem marks, and empty layout zones. Images 02-04 preserve the exact same face, hair base, and body proportions while rotating setting, lighting, and campaign surface mood.",
+  "cover_image": "images/01-reference-press-portrait/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-press-portrait/meta.json",
+      "images/02-monochrome-rooftop/meta.json",
+      "images/03-rehearsal-chair-kit/meta.json",
+      "images/04-gel-light-profile/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-press-portrait first. Use its runtime result URL as --ref for 02-monochrome-rooftop, 03-rehearsal-chair-kit, 04-gel-light-profile. Queue may run 02-monochrome-rooftop, 03-rehearsal-chair-kit, 04-gel-light-profile concurrently after 01-reference-press-portrait is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity Lockup Sequence",
+      "description": "A portrait-led series establishing one artist face, styling baseline, and press-ready visual grammar before extending it into adjacent campaign looks."
+    },
+    "zh-CN": {
+      "title": "身份锁定序列",
+      "description": "先锁定艺人脸部与造型基线，再扩展成 press-ready 身份序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-press-portrait",
+      "title": "Reference Press Portrait",
+      "image": "images/01-reference-press-portrait/image.png",
+      "meta": "images/01-reference-press-portrait/meta.json"
+    },
+    {
+      "id": "02-monochrome-rooftop",
+      "title": "Monochrome Rooftop",
+      "image": "images/02-monochrome-rooftop/image.png",
+      "meta": "images/02-monochrome-rooftop/meta.json"
+    },
+    {
+      "id": "03-rehearsal-chair-kit",
+      "title": "Rehearsal Chair Kit",
+      "image": "images/03-rehearsal-chair-kit/image.png",
+      "meta": "images/03-rehearsal-chair-kit/meta.json"
+    },
+    {
+      "id": "04-gel-light-profile",
+      "title": "Gel Light Profile",
+      "image": "images/04-gel-light-profile/image.png",
+      "meta": "images/04-gel-light-profile/meta.json"
+    }
+  ]
+}
