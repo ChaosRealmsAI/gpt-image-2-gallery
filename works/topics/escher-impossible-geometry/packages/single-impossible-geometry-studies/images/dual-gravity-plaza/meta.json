@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white engraving of an open stone plaza with arches, stair ramps, tiled ground, and two visible horizon cues that contradict each other. The view is architectural and exact, with strong ink lines and delicate cross-hatching. The plaza is mostly empty so the geometry can be read clearly.\n\nSubject:\nDesign a dual-gravity plaza where the left half treats the central wall as a vertical facade, while the right half treats that same wall as a floor. Two stair ramps meet at the central edge, and both appear to lead downward from their own gravity direction. A few small robed figures may walk on different planes to clarify orientation, but no figure should dominate. Arches, tiles, and shadows should reveal the contradiction without written labels.\n\nImportant details:\nThe optical rule must be strict: each local area should make sense, with believable stair direction, shadows, and upright figures, while the shared central geometry cannot exist in normal space. Use tiled grids to make the shift in gravity visible. Keep the composition balanced and calm, like a formal proof in architectural engraving. Avoid hiding the paradox behind decoration.\n\nUse case:\nEscher Impossible Geometry single study 8/8, testing a dual-gravity public plaza where two directions are both logically down.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no chaotic crowd, no fantasy portals, no floating figures, no inconsistent tile grid, no labels, no painterly blur.",
+  "id": "dual-gravity-plaza",
+  "title": "Dual Gravity Plaza",
+  "description": "A black-and-white engraved plaza where two incompatible gravity directions share one architectural edge.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/dual-gravity-plaza/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent dual-gravity plaza image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Dual Gravity Plaza",
+      "description": "A black-and-white engraved plaza where two incompatible gravity directions share one architectural edge."
+    },
+    "zh-CN": {
+      "title": "双重重力广场",
+      "description": "一张黑白线雕广场图，两种不兼容的重力方向共用同一建筑边界。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "An impossible stone plaza where two gravity directions meet at one architectural edge.",
+      "zh-CN": "一个不可能石质广场，两种重力方向在同一建筑边界相遇。"
+    }
+  }
+}

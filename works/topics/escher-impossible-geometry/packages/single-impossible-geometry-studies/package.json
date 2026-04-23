@@ -1,0 +1,82 @@
+{
+  "id": "single-impossible-geometry-studies",
+  "type": "single",
+  "title": "Impossible Geometry Studies",
+  "description": "Eight independent black-and-white impossible-geometry studies: triangle, staircase, waterfall, relativity room, bridge, balcony library, cube lattice, and dual-gravity plaza.",
+  "creative_direction": "Each image is a self-contained mathematical illusion rendered as gallery-grade black-and-white engraving. The package stresses visible geometric rules, perspective contradiction, and clean optical readability without reference dependencies.",
+  "cover_image": "images/penrose-triangle-terrace/image.png",
+  "i18n": {
+    "en": {
+      "title": "Impossible Geometry Studies",
+      "description": "Eight independent black-and-white impossible-geometry studies for optical illusion and perspective reasoning."
+    },
+    "zh-CN": {
+      "title": "不可能几何单图研究",
+      "description": "八张独立黑白不可能几何研究，测试视觉错觉和透视推理。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "optical-illusion",
+      "reasoning-composition",
+      "grayscale"
+    ]
+  },
+  "images": [
+    {
+      "id": "penrose-triangle-terrace",
+      "title": "Penrose Triangle Terrace",
+      "image": "images/penrose-triangle-terrace/image.png",
+      "meta": "images/penrose-triangle-terrace/meta.json"
+    },
+    {
+      "id": "endless-stair-court",
+      "title": "Endless Stair Court",
+      "image": "images/endless-stair-court/image.png",
+      "meta": "images/endless-stair-court/meta.json"
+    },
+    {
+      "id": "waterfall-loop-mill",
+      "title": "Waterfall Loop Mill",
+      "image": "images/waterfall-loop-mill/image.png",
+      "meta": "images/waterfall-loop-mill/meta.json"
+    },
+    {
+      "id": "relativity-stair-room",
+      "title": "Relativity Stair Room",
+      "image": "images/relativity-stair-room/image.png",
+      "meta": "images/relativity-stair-room/meta.json"
+    },
+    {
+      "id": "impossible-bridge-archive",
+      "title": "Impossible Bridge Archive",
+      "image": "images/impossible-bridge-archive/image.png",
+      "meta": "images/impossible-bridge-archive/meta.json"
+    },
+    {
+      "id": "infinite-balcony-library",
+      "title": "Infinite Balcony Library",
+      "image": "images/infinite-balcony-library/image.png",
+      "meta": "images/infinite-balcony-library/meta.json"
+    },
+    {
+      "id": "cube-lattice-paradox",
+      "title": "Cube Lattice Paradox",
+      "image": "images/cube-lattice-paradox/image.png",
+      "meta": "images/cube-lattice-paradox/meta.json"
+    },
+    {
+      "id": "dual-gravity-plaza",
+      "title": "Dual Gravity Plaza",
+      "image": "images/dual-gravity-plaza/image.png",
+      "meta": "images/dual-gravity-plaza/meta.json"
+    }
+  ]
+}

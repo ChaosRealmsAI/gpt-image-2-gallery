@@ -1,0 +1,67 @@
+{
+  "id": "single-social-surface-studies",
+  "type": "single",
+  "title": "Social Surface Studies",
+  "description": "Five independent studies translating the same hero concept into profile, chat, wheel, lobby, and unlock-style UI-facing assets.",
+  "creative_direction": "These images do not rely on runtime references. Each one must independently restate the same heroine concept with enough clarity to survive sticker crops, radial UI, reward splashes, and social-share layouts.",
+  "cover_image": "images/profile-sticker-crop/image.png",
+  "i18n": {
+    "en": {
+      "title": "Social Surface Studies",
+      "description": "Five independent studies translating the same hero concept into profile, chat, wheel, lobby, and unlock-style UI-facing assets."
+    },
+    "zh-CN": {
+      "title": "社交界面研究图",
+      "description": "五张互不依赖的研究图，把同一角色概念分别落到头像、聊天、表情轮盘、大厅卡面和解锁奖励界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "profile-sticker-crop",
+      "title": "Profile Sticker Crop",
+      "image": "images/profile-sticker-crop/image.png",
+      "meta": "images/profile-sticker-crop/meta.json"
+    },
+    {
+      "id": "cheer-badge-icon",
+      "title": "Cheer Badge Icon",
+      "image": "images/cheer-badge-icon/image.png",
+      "meta": "images/cheer-badge-icon/meta.json"
+    },
+    {
+      "id": "taunt-wheel-preview",
+      "title": "Taunt Wheel Preview",
+      "image": "images/taunt-wheel-preview/image.png",
+      "meta": "images/taunt-wheel-preview/meta.json"
+    },
+    {
+      "id": "mvp-card-celebration",
+      "title": "MVP Card Celebration",
+      "image": "images/mvp-card-celebration/image.png",
+      "meta": "images/mvp-card-celebration/meta.json"
+    },
+    {
+      "id": "unlock-reward-splash",
+      "title": "Unlock Reward Splash",
+      "image": "images/unlock-reward-splash/image.png",
+      "meta": "images/unlock-reward-splash/meta.json"
+    }
+  ]
+}

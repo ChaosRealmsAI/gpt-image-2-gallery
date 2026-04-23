@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square emote-ready character image that feels like a polished social asset derived from an approved hero reference. Frame the shot as a lively bust crop with slightly closer camera distance than the anchor, bright studio lighting, and a soft radial background bloom in mint, coral, and pale gold. The overall mood should be upbeat and instantly readable on a chat wheel or profile reaction surface, with crisp contours and a clean separation between character, accessory shapes, and background glow.\n\nSubject:\nUse the same heroine from the reference model and preserve exact face, hair base, and body proportions from the reference model. Keep the warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, freckles, cropped off-white flight jacket, oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, and compact athletic build. Change the acting only: she is mid-laugh with a huge open smile, eyes bright, eyebrows lifted, one fist tucked near her cheek in a celebratory pump, and shoulders bouncing upward with contagious excitement. The crop should favor cheeks, eyes, and hand gesture clarity while still keeping signature costume markers visible.\n\nImportant details:\nThis image must prove identity consistency under emotional exaggeration. Preserve the same bone structure, nose shape, lip structure, ear placement, and hairstyle silhouette from the anchor while increasing energy through facial muscle movement and pose. Push the expression toward sticker-level readability without turning into parody or anatomy drift. Keep the materials game-polished, use subtle spark particles or confetti slivers as accent only, and ensure the smile remains charming, mischievous, and victorious rather than generic or childish. The asset should stay legible when reduced to a very small square icon.\n\nUse case:\nEmote Expression Victory Pose Pack series study 2/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face, hair base, and body proportions from the reference model, no duplicate hands, no warped teeth, no clownish exaggeration, no crowded props, no face occlusion.",
+  "id": "02-smile-emote-burst",
+  "title": "Smile Emote Burst",
+  "description": "A high-readability smile emote that keeps the same heroine identity while pushing cheerful expression and gesture energy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "multi-image-reference",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/02-smile-emote-burst/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-sheet",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference heroine while escalating to a smile emote asset.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Smile Emote Burst",
+      "description": "A high-readability smile emote that keeps the same heroine identity while pushing cheerful expression and gesture energy."
+    },
+    "zh-CN": {
+      "title": "笑容表情爆发",
+      "description": "在保持同一角色身份的前提下，强化开心笑容和庆祝手势。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "The same stylized heroine laughing brightly with a celebratory fist near her cheek.",
+      "zh-CN": "同一位女角色露出明亮大笑，并在脸旁举起庆祝拳头。"
+    }
+  }
+}

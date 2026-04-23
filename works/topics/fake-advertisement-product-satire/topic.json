@@ -1,0 +1,53 @@
+{
+  "id": "fake-advertisement-product-satire",
+  "slug": "fake-advertisement-product-satire",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Fake Advertisement Product Satire",
+  "short_title": "Fake Ads",
+  "description": "A Prompt Atlas theme for Fake Advertisement Product Satire, testing commercial-mockup, structured-layout, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fake Advertisement Product Satire",
+      "short_title": "Fake Ads",
+      "description": "Build fake advertisement systems for absurd products that still look professionally marketed."
+    },
+    "zh-CN": {
+      "title": "假广告商品讽刺",
+      "short_title": "假广告",
+      "description": "做假广告商品讽刺系统，让荒诞商品看起来像真的被认真营销。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

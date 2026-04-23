@@ -1,0 +1,74 @@
+{
+  "id": "series-hero-emote-lock",
+  "type": "series",
+  "title": "Hero Emote Lock",
+  "description": "A four-image reference-led character series establishing one recognizable hero and extending her into smile, taunt, and victory-pose assets.",
+  "creative_direction": "Image 01 locks the hero identity, costume silhouette, and render language. Images 02-04 must preserve the same face, hair base, body proportions, and personality while changing expression energy, gesture, and staging for emote and victory surfaces.",
+  "cover_image": "images/01-reference-character-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-character-sheet/meta.json",
+      "images/02-smile-emote-burst/meta.json",
+      "images/03-rage-taunt-flare/meta.json",
+      "images/04-mvp-victory-leap/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-character-sheet first. Use its runtime result URL as --ref for 02-04 so the later images preserve the same hero identity while exploring different micro-asset expressions.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Emote Lock",
+      "description": "A four-image reference-led character series establishing one recognizable hero and extending her into smile, taunt, and victory-pose assets."
+    },
+    "zh-CN": {
+      "title": "角色表情锁定组",
+      "description": "四张依赖同一角色基准图的系列，延展笑容、挑衅和胜利姿势资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "multi-image-reference",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-character-sheet",
+      "title": "Reference Character Sheet",
+      "image": "images/01-reference-character-sheet/image.png",
+      "meta": "images/01-reference-character-sheet/meta.json"
+    },
+    {
+      "id": "02-smile-emote-burst",
+      "title": "Smile Emote Burst",
+      "image": "images/02-smile-emote-burst/image.png",
+      "meta": "images/02-smile-emote-burst/meta.json"
+    },
+    {
+      "id": "03-rage-taunt-flare",
+      "title": "Rage Taunt Flare",
+      "image": "images/03-rage-taunt-flare/image.png",
+      "meta": "images/03-rage-taunt-flare/meta.json"
+    },
+    {
+      "id": "04-mvp-victory-leap",
+      "title": "MVP Victory Leap",
+      "image": "images/04-mvp-victory-leap/image.png",
+      "meta": "images/04-mvp-victory-leap/meta.json"
+    }
+  ]
+}

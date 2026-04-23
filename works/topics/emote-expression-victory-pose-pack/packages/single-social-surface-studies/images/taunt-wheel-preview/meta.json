@@ -1,0 +1,61 @@
+{
+  "prompt": "Scene:\nCreate a square UI-concept image for a taunt or emote wheel preview. Use a structured radial layout with a central hero portrait, blank segmented wedges, soft neon edge lighting, and a dark graphite interface panel floating over a blurred arena-like color field. The composition should feel like a polished in-game UI mockup prepared for a feature review. Keep every panel, slot, and icon area free of readable text while still communicating hierarchy and interaction logic.\n\nSubject:\nThe central figure is the same heroine concept rendered independently: warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, freckles, cropped off-white flight jacket with oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, and compact athletic build. She is performing a sly taunt expression with one eyebrow lowered, mouth curved into a confident half-smile, and one gloved hand snapping outward near the edge of the central frame. Around her, place abstract empty emote slots or monochrome expression silhouettes that support the wheel concept without becoming separate characters. The heroine must remain the focal point and the most detailed element.\n\nImportant details:\nThis study is about interface integration and personality clarity at once. The radial layout must be orderly, balanced, and legible at a glance, while the character keeps a sharp identity under UI framing. Preserve consistent face structure and costume landmarks, and avoid letting the surrounding wheel segments overpower the portrait. Use glowing accents sparingly, keep the panel language modern and game-like, and make sure the design could plausibly be shown in a product review deck for a hero-shooter or action-RPG social feature. The final image should feel actionable for interface discussions, not just decorative fan art.\n\nUse case:\nEmote Expression Victory Pose Pack single study 3/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra fully rendered characters, no cluttered UI, no tiny illegible widgets, no broken radial symmetry, no face drift, no overexposed neon haze.",
+  "id": "taunt-wheel-preview",
+  "title": "Taunt Wheel Preview",
+  "description": "A radial UI mockup that places the heroine inside an emote-wheel system without losing her recognizable attitude.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/single-social-surface-studies/images/taunt-wheel-preview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent UI-wheel preview study for the heroine concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Taunt Wheel Preview",
+      "description": "A radial UI mockup that places the heroine inside an emote-wheel system without losing her recognizable attitude."
+    },
+    "zh-CN": {
+      "title": "挑衅轮盘预览",
+      "description": "用结构化界面预览图来验证角色在表情轮盘中的可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "commercial-mockup",
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A game-like radial emote wheel interface with the heroine centered in a taunt pose.",
+      "zh-CN": "一张游戏化的表情轮盘界面预览，角色位于中央做出挑衅表情。"
+    }
+  }
+}

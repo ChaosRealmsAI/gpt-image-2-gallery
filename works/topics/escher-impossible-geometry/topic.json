@@ -1,0 +1,49 @@
+{
+  "id": "escher-impossible-geometry",
+  "slug": "escher-impossible-geometry",
+  "category": "illustration",
+  "style": [
+    "handdrawn",
+    "minimal"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Escher Impossible Geometry",
+  "short_title": "Escher Geometry",
+  "description": "A Prompt Atlas theme for impossible geometric illusions, testing optical illusion logic, perspective reasoning, and black-and-white mathematical engraving with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Escher Impossible Geometry",
+      "short_title": "Escher Geometry",
+      "description": "A Prompt Atlas theme for impossible geometric illusions, testing optical illusion logic, perspective reasoning, and black-and-white mathematical engraving with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Escher 不可能几何 · 永恒楼梯",
+      "short_title": "不可能几何",
+      "description": "Escher 不可能几何 · 永恒楼梯：彭罗斯三角、永恒上升楼梯、瀑布循环、相对性空间等数学视觉悖论。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 120,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "reasoning-composition",
+      "grayscale",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-impossible-geometry-studies",
+      "type": "single",
+      "title": "Impossible Geometry Studies",
+      "path": "packages/single-impossible-geometry-studies/package.json"
+    }
+  ]
+}

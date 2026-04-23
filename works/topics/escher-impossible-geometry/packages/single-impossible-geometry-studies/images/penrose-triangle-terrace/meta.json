@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white line engraving in the spirit of mathematical impossible-geometry prints, viewed as a gallery plate with crisp ink, ivory paper grain, and controlled cross-hatching. The camera is straight-on with no frame text. The composition is bright enough to inspect every line, but the shadows are precise and architectural.\n\nSubject:\nCreate a monumental Penrose triangle as an outdoor stone terrace. Three thick rectangular beams form a triangular loop that appears locally plausible at every corner but globally impossible. Tiny stairs, tiled paving, and low railings sit on the beams to emphasize scale. Each beam face should have consistent stone texture and engraved shadow, while the corners join in a way that tricks the eye into accepting an impossible loop.\n\nImportant details:\nThe illusion must be geometrically disciplined: each beam has believable thickness, clean parallel edges, consistent light direction, and precise corner overlaps. The viewer should be able to trace the triangle and discover that front, back, up, and down relationships contradict one another. Keep the scene austere and mathematical, with no decorative clutter masking the optical rule.\n\nUse case:\nEscher Impossible Geometry single study 1/8, testing a readable Penrose triangle terrace in black-and-white engraving.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no random fantasy architecture, no broken triangle loop, no soft painterly blur, no perspective noise, no hidden labels.",
+  "id": "penrose-triangle-terrace",
+  "title": "Penrose Triangle Terrace",
+  "description": "A black-and-white engraved Penrose triangle rendered as a monumental stone terrace.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/penrose-triangle-terrace/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent impossible-geometry single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Penrose Triangle Terrace",
+      "description": "A black-and-white engraved Penrose triangle rendered as a monumental stone terrace."
+    },
+    "zh-CN": {
+      "title": "彭罗斯三角露台",
+      "description": "一张黑白线雕风彭罗斯三角图，将其表现为巨型石质露台。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "grayscale",
+      "single"
+    ],
+    "alt": {
+      "en": "A monumental Penrose triangle stone terrace drawn as a black-and-white engraving.",
+      "zh-CN": "一座巨型彭罗斯三角石质露台，以黑白线雕方式绘制。"
+    }
+  }
+}

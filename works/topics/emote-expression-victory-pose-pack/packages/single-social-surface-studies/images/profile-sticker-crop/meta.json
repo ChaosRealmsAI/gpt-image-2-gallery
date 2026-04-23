@@ -1,0 +1,61 @@
+{
+  "prompt": "Scene:\nCreate a square social sticker asset with a tight portrait crop, glossy but controlled character rendering, and a clean luminous background that can survive aggressive app-sized reduction. Use a close framing around the head, shoulders, and raised hand, with soft mint and apricot lighting over a simple circular glow. The image should feel like a premium profile sticker or social reaction icon, not a poster, so clarity and silhouette simplicity matter more than environmental storytelling.\n\nSubject:\nRender the same original heroine concept independently, without runtime reference input: warm brown skin, amber eyes, short silver undercut with teal tips, small eyebrow notch, freckles across the nose bridge, compact athletic proportions, cropped off-white flight jacket, oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, and fingerless gloves. Give her an approachable grin and a playful peace sign beside the cheek, with eyes locked toward the viewer. Keep the expression confident, upbeat, and slightly mischievous. The face should dominate the frame, but at least two costume markers must remain visible so the character is still identifiable even when used as a tiny account badge.\n\nImportant details:\nPrioritize small-scale readability. Shapes around the jawline, fingers, hair tips, and scarf ribbon need to stay simple and distinct. Preserve believable facial anatomy and consistent age read while pushing the pose toward sticker charm. Use soft rim light to separate hair from background, keep the skin texture smooth but not plastic, and let the orange sleeve and teal scarf act as high-recognition color anchors. The image should feel production-ready for profile, sticker sheet, or reaction bubble use, with enough polish that it could sit beside other game-social assets in a live product.\n\nUse case:\nEmote Expression Victory Pose Pack single study 1/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra characters, no cluttered background, no tiny unreadable accessories, no finger distortion, no exaggerated fisheye effect, no facial drift.",
+  "id": "profile-sticker-crop",
+  "title": "Profile Sticker Crop",
+  "description": "A close social-sticker portrait proving the heroine remains recognizable in a tight profile-sized crop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/single-social-surface-studies/images/profile-sticker-crop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent profile-sticker study for the same heroine concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Sticker Crop",
+      "description": "A close social-sticker portrait proving the heroine remains recognizable in a tight profile-sized crop."
+    },
+    "zh-CN": {
+      "title": "头像贴纸裁切",
+      "description": "测试角色在超紧头像裁切中是否仍然清晰可辨。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "commercial-mockup",
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A tight square portrait sticker of the heroine smiling and making a peace sign.",
+      "zh-CN": "一张紧裁切的方形头像贴纸，女角色微笑并做出胜利手势。"
+    }
+  }
+}

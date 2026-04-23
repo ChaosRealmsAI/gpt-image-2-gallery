@@ -1,0 +1,106 @@
+{
+  "id": "series-character-emote-performance",
+  "type": "series",
+  "title": "Character Emote Performance Set",
+  "description": "A reference-locked performance pack that turns one game hero into emote, sticker, lobby, and victory-pose assets.",
+  "creative_direction": "Image 01 establishes a charismatic hero anchor. Images 02-09 preserve the same face read, costume logic, silhouette rhythm, and color hierarchy while shifting expression intensity, gesture language, and UI-facing crops for social and reward surfaces.",
+  "cover_image": "images/01-reference-hero-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Character Emote Performance Set",
+      "description": "A reference-locked performance pack that turns one game hero into emote, sticker, lobby, and victory-pose assets."
+    },
+    "zh-CN": {
+      "title": "角色表情演出套组",
+      "description": "以同一角色基准图为锚点，延展表情、贴纸、大厅姿势和胜利结算资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-hero-anchor",
+      "title": "Reference Hero Anchor",
+      "image": "images/01-reference-hero-anchor/image.png",
+      "meta": "images/01-reference-hero-anchor/meta.json"
+    },
+    {
+      "id": "02-smile-emote-burst",
+      "title": "Smile Emote Burst",
+      "image": "images/02-smile-emote-burst/image.png",
+      "meta": "images/02-smile-emote-burst/meta.json"
+    },
+    {
+      "id": "03-rage-emote-flare",
+      "title": "Rage Emote Flare",
+      "image": "images/03-rage-emote-flare/image.png",
+      "meta": "images/03-rage-emote-flare/meta.json"
+    },
+    {
+      "id": "04-taunt-pose-loop",
+      "title": "Taunt Pose Loop",
+      "image": "images/04-taunt-pose-loop/image.png",
+      "meta": "images/04-taunt-pose-loop/meta.json"
+    },
+    {
+      "id": "05-victory-podium-hero",
+      "title": "Victory Podium Hero",
+      "image": "images/05-victory-podium-hero/image.png",
+      "meta": "images/05-victory-podium-hero/meta.json"
+    },
+    {
+      "id": "06-supportive-cheer-sticker",
+      "title": "Supportive Cheer Sticker",
+      "image": "images/06-supportive-cheer-sticker/image.png",
+      "meta": "images/06-supportive-cheer-sticker/meta.json"
+    },
+    {
+      "id": "07-profile-sticker-crop",
+      "title": "Profile Sticker Crop",
+      "image": "images/07-profile-sticker-crop/image.png",
+      "meta": "images/07-profile-sticker-crop/meta.json"
+    },
+    {
+      "id": "08-mvp-card-pose",
+      "title": "MVP Card Pose",
+      "image": "images/08-mvp-card-pose/image.png",
+      "meta": "images/08-mvp-card-pose/meta.json"
+    },
+    {
+      "id": "09-emote-wheel-preview",
+      "title": "Emote Wheel Preview",
+      "image": "images/09-emote-wheel-preview/image.png",
+      "meta": "images/09-emote-wheel-preview/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-hero-anchor/meta.json",
+      "images/02-smile-emote-burst/meta.json",
+      "images/03-rage-emote-flare/meta.json",
+      "images/04-taunt-pose-loop/meta.json",
+      "images/05-victory-podium-hero/meta.json",
+      "images/06-supportive-cheer-sticker/meta.json",
+      "images/07-profile-sticker-crop/meta.json",
+      "images/08-mvp-card-pose/meta.json",
+      "images/09-emote-wheel-preview/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-hero-anchor first. Use its runtime result URL as --ref for 02-smile-emote-burst, 03-rage-emote-flare, 04-taunt-pose-loop, 05-victory-podium-hero, 06-supportive-cheer-sticker, 07-profile-sticker-crop, 08-mvp-card-pose, 09-emote-wheel-preview. Queue may run the dependent images concurrently after 01-reference-hero-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

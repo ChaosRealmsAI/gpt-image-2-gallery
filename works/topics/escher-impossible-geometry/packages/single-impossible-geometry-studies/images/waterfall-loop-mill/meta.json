@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white engraved landscape showing a stone watermill built into impossible geometry. The view is slightly elevated, with crisp river channels, dark hatch shadows, and pale open sky. The image should feel like a museum-quality mathematical print: calm, exact, and visually paradoxical.\n\nSubject:\nCreate a waterfall loop where water pours down from a high aqueduct into a wheel, then follows a channel that seems to rise step by step back to the same high point. The water path should form a closed visual circuit: wheel basin, stepped canal, overhead trough, falling stream, and back to the wheel. The stone channels are locally level or gently sloped, but globally impossible. The mill wheel should be turning in the only place where water visibly falls.\n\nImportant details:\nThe viewer must be able to trace the entire water route without confusion. Use consistent masonry texture, clean channel edges, and believable water reflections. The impossibility should come from perspective and height contradiction, not from magical floating water. Avoid excessive landscape detail; the loop, wheel, and aqueduct must dominate the composition.\n\nUse case:\nEscher Impossible Geometry single study 3/8, testing a waterfall cycle that returns uphill through impossible perspective.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no random river branches, no broken water loop, no fantasy glow, no messy foliage hiding geometry, no labels.",
+  "id": "waterfall-loop-mill",
+  "title": "Waterfall Loop Mill",
+  "description": "A black-and-white engraved impossible watermill where a waterfall cycles back uphill.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/waterfall-loop-mill/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent impossible waterfall loop image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Waterfall Loop Mill",
+      "description": "A black-and-white engraved impossible watermill where a waterfall cycles back uphill."
+    },
+    "zh-CN": {
+      "title": "瀑布循环水磨",
+      "description": "一张黑白线雕不可能水磨图，瀑布似乎循环回到高处。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "grayscale",
+      "single"
+    ],
+    "alt": {
+      "en": "An impossible watermill where the waterfall appears to power its own uphill return channel.",
+      "zh-CN": "一座不可能水磨，瀑布似乎驱动水流返回高处水渠。"
+    }
+  }
+}

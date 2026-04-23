@@ -1,0 +1,53 @@
+{
+  "id": "douyin-hook-cover-visuals",
+  "slug": "douyin-hook-cover-visuals",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Douyin Hook Cover Visuals",
+  "short_title": "Douyin Covers",
+  "description": "A Prompt Atlas theme for Douyin Hook Cover Visuals, testing structured-layout, commercial-mockup, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Douyin Hook Cover Visuals",
+      "short_title": "Douyin Covers",
+      "description": "Create high-stop-scroll covers for Douyin-style short videos with sharp hooks, character focus, and viral framing."
+    },
+    "zh-CN": {
+      "title": "抖音钩子封面视觉",
+      "short_title": "抖音封面",
+      "description": "做抖音式短视频封面，强调第一眼停留、钩子标题和人物聚焦。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

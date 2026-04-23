@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square full-body hero celebration image designed for an MVP card or post-match victory splash. Use a dynamic but readable low-mid camera angle, strong directional key light, and a luminous arena-adjacent backdrop with abstract light columns, floating confetti shards, and a subtle floor glow. The composition should feel triumphant and premium without turning into chaos. Keep enough negative space around the body to preserve silhouette and allow the pose to read instantly in a lobby card crop.\n\nSubject:\nUse the same heroine from the reference model and preserve exact face, hair base, and body proportions from the reference model. Keep the warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, freckles, cropped off-white flight jacket with oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, and compact athletic build. Stage her in a decisive mid-air landing or leap with one knee raised, one arm thrown upward, and the other arm bent back in celebration. Her expression should be victorious, breathless, and genuinely delighted, as if she just secured a match-winning play. The scarf ribbon and jacket hem can trail to emphasize motion, but the core body shape must remain unmistakable.\n\nImportant details:\nThis image tests whether identity survives a much larger change in pose, scale, and energy. Preserve the same facial structure, hair silhouette, limb proportions, and costume landmarks from the anchor. The body mechanics should feel athletic and balanced, not acrobatically impossible. Keep the face readable even at full-body scale by using strong expression, clean lighting, and a controlled focal hierarchy. The final asset should feel ready for a social share card, lobby MVP plate, or unlock celebration while remaining coherent with the smile and taunt emotes from the same character system.\n\nUse case:\nEmote Expression Victory Pose Pack series study 4/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face, hair base, and body proportions from the reference model, no anatomy breakage, no duplicate limbs, no cropped head, no weapon clutter, no unreadable confetti storm, no costume redesign.",
+  "id": "04-mvp-victory-leap",
+  "title": "MVP Victory Leap",
+  "description": "A full-body victory pose for an MVP surface that keeps the same heroine identity under maximum motion and celebration energy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "multi-image-reference",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/04-mvp-victory-leap/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-sheet",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference heroine while scaling up to a full-body MVP celebration.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "MVP Victory Leap",
+      "description": "A full-body victory pose for an MVP surface that keeps the same heroine identity under maximum motion and celebration energy."
+    },
+    "zh-CN": {
+      "title": "MVP 胜利跃起",
+      "description": "把同一位角色扩展到全身胜利姿势和结算卡视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "The same heroine in a dynamic full-body victory leap with scarf motion and celebratory lights.",
+      "zh-CN": "同一位女角色在灯光与彩片中做出充满动感的胜利跃起姿势。"
+    }
+  }
+}

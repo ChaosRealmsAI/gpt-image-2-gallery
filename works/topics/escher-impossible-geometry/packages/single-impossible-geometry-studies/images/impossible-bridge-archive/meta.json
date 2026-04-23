@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white engraving of a quiet archive hall crossed by an impossible bridge. The view is orthographic enough to read the structure but still has deep architectural space. Use ivory paper, crisp black ink, fine shelf textures, and disciplined shadow hatching. The setting is scholarly, silent, and mathematical.\n\nSubject:\nBuild a stone bridge that crosses the archive from left balcony to right balcony, but its underside becomes its top surface halfway across. The bridge appears to twist without twisting: handrails remain upright locally, walkway tiles stay flat underfoot, yet the near end and far end cannot connect in real three-dimensional space. Bookshelves, ladders, and columns provide a stable reference grid around the paradox.\n\nImportant details:\nThis illusion should be verifiable by tracing railings and floor tiles. The bridge must not look like a normal spiral ramp; it should be locally straight and rectangular, with impossible transitions hidden in perspective overlaps. Keep the surrounding archive realistic and consistent so the impossible bridge is the only contradiction. Avoid using text on book spines or signs.\n\nUse case:\nEscher Impossible Geometry single study 5/8, testing an impossible bridge inside a stable architectural reference grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no book-spine words, no ordinary spiral bridge, no broken railings, no excessive clutter, no labels.",
+  "id": "impossible-bridge-archive",
+  "title": "Impossible Bridge Archive",
+  "description": "A black-and-white engraved archive hall crossed by a bridge whose top and underside contradict each other.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/impossible-bridge-archive/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent impossible bridge image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Impossible Bridge Archive",
+      "description": "A black-and-white engraved archive hall crossed by a bridge whose top and underside contradict each other."
+    },
+    "zh-CN": {
+      "title": "不可能桥档案馆",
+      "description": "一张黑白线雕档案馆图，一座桥的上表面和下表面互相矛盾。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A silent archive hall crossed by an impossible bridge drawn in black-and-white engraving.",
+      "zh-CN": "一座安静档案馆被不可能桥穿过，以黑白线雕呈现。"
+    }
+  }
+}

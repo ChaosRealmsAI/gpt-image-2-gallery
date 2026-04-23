@@ -1,0 +1,50 @@
+{
+  "id": "emote-expression-victory-pose-pack",
+  "slug": "emote-expression-victory-pose-pack",
+  "category": "illustration",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "Emote Expression Victory Pose Pack",
+  "short_title": "Emote Pack",
+  "description": "Expand one character into expression, emote, and victory-pose assets that can feed social, profile, lobby, and unlock surfaces.",
+  "i18n": {
+    "en": {
+      "title": "Emote Expression Victory Pose Pack",
+      "short_title": "Emote Pack",
+      "description": "Expand one character into expression, emote, and victory-pose assets that can feed social, profile, lobby, and unlock surfaces."
+    },
+    "zh-CN": {
+      "title": "表情与胜利姿势包",
+      "short_title": "表情姿势",
+      "description": "围绕一个角色做表情包、动作姿势和胜利结算 pose，服务大厅、个人页、表情轮盘和解锁奖励。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-character-emote-performance",
+      "type": "series",
+      "title": "Character Emote Performance Set",
+      "path": "packages/series-character-emote-performance/package.json"
+    }
+  ]
+}

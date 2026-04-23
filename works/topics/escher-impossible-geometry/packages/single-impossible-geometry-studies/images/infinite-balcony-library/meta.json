@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white engraving of a tall interior library with balconies, ladders, shelves, and arched openings, seen from a precise central perspective. The lighting is calm and museum-like, with pale paper, dark ink, and layered cross-hatching. The image should feel like a mathematical architectural print rather than a fantasy illustration.\n\nSubject:\nCreate an impossible library where balconies repeat upward and downward but loop back into the same level. A ladder leaning upward reaches a balcony that also appears below the starting balcony. A reading table is seen from above on one plane and from below on another. Shelf rows create a grid that helps the viewer track the contradiction. The space should suggest infinity without relying on fog or blur.\n\nImportant details:\nThe illusion depends on architectural repetition and perspective continuity. Keep shelves, arches, balcony rails, and ladder rungs cleanly aligned. The loop should be visible: following one balcony around the room should lead to a level that cannot physically match the starting point. Do not fill shelves with readable titles; use abstract book textures only. Maintain clear negative space around the main loop.\n\nUse case:\nEscher Impossible Geometry single study 6/8, testing an infinite library balcony loop with clean black-and-white linework.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no readable book titles, no random maze corridors, no broken ladder geometry, no soft blur, no labels.",
+  "id": "infinite-balcony-library",
+  "title": "Infinite Balcony Library",
+  "description": "A black-and-white engraved library whose balcony levels loop into impossible vertical continuity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/infinite-balcony-library/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent infinite library illusion; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Infinite Balcony Library",
+      "description": "A black-and-white engraved library whose balcony levels loop into impossible vertical continuity."
+    },
+    "zh-CN": {
+      "title": "无限阳台图书馆",
+      "description": "一张黑白线雕图书馆图，阳台层级循环成不可能的垂直连续。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A black-and-white library where balconies loop into impossible vertical levels.",
+      "zh-CN": "一座黑白图书馆，阳台循环成不可能的垂直层级。"
+    }
+  }
+}

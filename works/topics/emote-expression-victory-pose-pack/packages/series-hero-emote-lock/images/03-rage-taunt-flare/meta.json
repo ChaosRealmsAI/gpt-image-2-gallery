@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square hero-emote frame with sharper contrast and more kinetic staging than the smile image, while still feeling like a studio-controlled game asset. Use a waist-up composition with slight diagonal body turn, electric magenta and ember rim lights, and a smoky dark slate backdrop broken by a few stylized motion streaks. The image should feel suitable for a taunt emote, reaction panel, or highlight thumbnail where the character attitude must be readable in an instant.\n\nSubject:\nUse the same heroine from the reference model and preserve exact face, hair base, and body proportions from the reference model. Keep the warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, freckles, cropped off-white flight jacket with oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, and athletic build. Shift the performance into mock anger and playful provocation: one eyebrow lowered, lips pulled into a sideways challenge grin, nose slightly scrunched, shoulders leaning forward, and one gloved hand making a bold come-at-me gesture toward camera. She should read as teasing and competitive, not cruel.\n\nImportant details:\nThe challenge here is emotional spread without identity collapse. Preserve the same jawline, eye proportions, nose bridge, lip shape, hairline, ear position, and costume proportions established by the anchor. The taunt must feel like the same person under stronger facial compression and sharper body language. Keep the silhouette clean, fingers anatomically coherent, and expression readable even at sticker size. Add only minimal energy accents such as tiny sparks, scarf motion, or background streaks; the character performance must carry the image more than effects. Maintain a premium game-render finish with controlled stylization and no muddy shadows.\n\nUse case:\nEmote Expression Victory Pose Pack series study 3/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face, hair base, and body proportions from the reference model, no villainous gore, no extra limbs, no hand deformation, no oversized props, no distorted jawline, no expression becoming unrecognizable.",
+  "id": "03-rage-taunt-flare",
+  "title": "Rage Taunt Flare",
+  "description": "A playful taunt emote that pushes competitive attitude while preserving the same heroine facial structure and costume identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "multi-image-reference",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/03-rage-taunt-flare/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-character-sheet",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference heroine while testing taunt-expression stability.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rage Taunt Flare",
+      "description": "A playful taunt emote that pushes competitive attitude while preserving the same heroine facial structure and costume identity."
+    },
+    "zh-CN": {
+      "title": "挑衅怒气表情",
+      "description": "通过更强的挑衅演出来测试角色在强情绪下的身份稳定性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "The same heroine leaning forward with a teasing challenge gesture and mock-angry grin.",
+      "zh-CN": "同一位女角色前倾做出挑衅手势，带着半怒半笑的表情。"
+    }
+  }
+}

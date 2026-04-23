@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA three-quarter performance frame staged like a game unlock pose, with directional lighting and enough floor to support a planted stance. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the same hero leaning into a teasing taunt pose, with confident eye contact, a crooked grin, and body language that invites a rival to engage. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThe taunt should feel playful and cocky rather than villainous, with strong torso twist and readable negative space around the limbs. Keep the hero immediately recognizable at both full-body and sticker scale, with expressive hand language, sharp silhouette control, and a clean commercial finish suited to game UI surfaces. Preserve the same hero identity, face structure, hair silhouette, costume construction, faction color logic, and prop details established by the reference image. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nEmote Expression Victory Pose Pack series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unreadable chat bubbles pretending to be text, no extra characters, no mutated hands, no costume redesign, no muddy silhouette.",
+  "id": "04-taunt-pose-loop",
+  "title": "Taunt Pose Loop",
+  "description": "Taunt Pose Loop turns Emote Expression Victory Pose Pack into a production-ready image study focused on the taunt should feel playful and cocky rather than villainous, with strong torso twist and readable negative space around the limbs..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/04-taunt-pose-loop/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Taunt Pose Loop",
+      "description": "Taunt Pose Loop turns Emote Expression Victory Pose Pack into a production-ready image study focused on the taunt should feel playful and cocky rather than villainous, with strong torso twist and readable negative space around the limbs.."
+    },
+    "zh-CN": {
+      "title": "挑衅姿势循环",
+      "description": "挑衅姿势循环：围绕表情与胜利姿势包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Taunt Pose Loop for Emote Expression Victory Pose Pack.",
+      "zh-CN": "表情与胜利姿势包主题中的挑衅姿势循环图像。"
+    }
+  }
+}

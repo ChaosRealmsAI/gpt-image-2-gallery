@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nCreate a square character-key-art frame that feels like the first approved reference asset in a game production pipeline. Use a centered three-quarter waist-up composition, neutral studio space, soft cyan and warm orange edge lighting, and a smooth graphite-to-teal gradient background with subtle floor reflection. The image should read like a premium stylized 3D render prepared for downstream emotes, lobby cards, and sticker crops, with clean silhouette separation and controlled contrast.\n\nSubject:\nDesign one instantly recognizable heroine with a compact athletic build and a bright competitive personality. She has warm brown skin, amber eyes, a short silver undercut with teal-dyed tips, a small eyebrow notch above the right eye, and fine freckles across the nose bridge. Her outfit language must be specific and repeatable: cropped off-white flight jacket with one oversized orange sleeve, charcoal fitted bodysuit, teal scarf ribbon trailing behind the neck, fingerless gloves, slim knee guards, and a belt with small geometric charms. Pose her with relaxed confidence, shoulders open, chin slightly lifted, one hand touching the jacket collar, expression calm and friendly.\n\nImportant details:\nThis image is the identity anchor for the entire theme. The face shape, eye spacing, nose line, lip fullness, hair base, skin tone, body proportions, and costume silhouette must be clear enough that later images can preserve them without ambiguity. Keep the rendering polished but not overly glossy, mixing stylized game-character materials with believable cloth, skin, and brushed metal accents. Make the costume readable at small size, avoid clutter around the cheeks and jawline, and keep the personality warm, agile, and mischievous rather than fierce.\n\nUse case:\nEmote Expression Victory Pose Pack series study 1/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra character, no face drift, no weapon covering the body, no busy background props, no extreme perspective distortion.",
+  "id": "01-reference-character-sheet",
+  "title": "Reference Character Sheet",
+  "description": "A clean hero anchor render that establishes the exact face, costume silhouette, and personality for the emote and victory-pose series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "multi-image-reference",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-hero-emote-lock/images/01-reference-character-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the hero emote series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Character Sheet",
+      "description": "A clean hero anchor render that establishes the exact face, costume silhouette, and personality for the emote and victory-pose series."
+    },
+    "zh-CN": {
+      "title": "角色基准图",
+      "description": "建立角色脸部、服装轮廓与气质基线的参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "editing-workflow",
+      "commercial-mockup",
+      "social-feed",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A stylized 3D heroine reference portrait with a white jacket, orange sleeve, teal scarf, and calm confident expression.",
+      "zh-CN": "一位穿白色短夹克和橙色袖子的游戏女角色基准肖像。"
+    }
+  }
+}

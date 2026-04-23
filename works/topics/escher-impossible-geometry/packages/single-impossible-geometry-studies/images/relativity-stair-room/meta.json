@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white engraving of an interior stone room with multiple staircases, balconies, doorways, and tiled planes, viewed in a carefully impossible perspective. The lighting is even and graphic, with cross-hatched shadows that define separate gravity directions. The room should be dense enough to reward inspection but not chaotic.\n\nSubject:\nCreate a relativity space where at least three gravity directions coexist. Staircases climb along walls that behave like floors, doors open onto sideways landings, and two stairways both appear to descend while meeting at the same landing. Simple robed figures may walk on different planes to clarify orientation, but they should be small and quiet, not narrative characters. Every architectural element should look locally stable while the total room contradicts normal gravity.\n\nImportant details:\nThe impossible geometry must be readable through floor tiles, stair risers, wall openings, and shadows. Keep linework precise and avoid random maze complexity. The viewer should be able to identify which plane is floor for each figure, then realize these floors cannot coexist in one physical room. Use black, white, and gray hatch only.\n\nUse case:\nEscher Impossible Geometry single study 4/8, testing a relativity room where multiple gravity directions share one coherent architecture.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no fantasy creatures, no floating stairs without support logic, no unreadable maze clutter, no labels, no distorted figures.",
+  "id": "relativity-stair-room",
+  "title": "Relativity Stair Room",
+  "description": "A black-and-white engraved relativity room with staircases and floors obeying conflicting gravity directions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/relativity-stair-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent relativity-space image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Relativity Stair Room",
+      "description": "A black-and-white engraved relativity room with staircases and floors obeying conflicting gravity directions."
+    },
+    "zh-CN": {
+      "title": "相对性楼梯房间",
+      "description": "一张黑白线雕相对性房间图，楼梯和地面服从互相冲突的重力方向。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "An impossible room where staircases and balconies follow several gravity directions.",
+      "zh-CN": "一个不可能房间，楼梯和阳台遵循多个重力方向。"
+    }
+  }
+}

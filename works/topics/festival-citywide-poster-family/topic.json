@@ -1,0 +1,53 @@
+{
+  "id": "festival-citywide-poster-family",
+  "slug": "festival-citywide-poster-family",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Festival Citywide Poster Family",
+  "short_title": "Festival Family",
+  "description": "A Prompt Atlas theme for Festival Citywide Poster Family, testing commercial-mockup, multi-image-reference, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Festival Citywide Poster Family",
+      "short_title": "Festival Family",
+      "description": "Create a citywide poster family for festivals or seasonal events with modular consistency and local excitement."
+    },
+    "zh-CN": {
+      "title": "节庆城市海报家族",
+      "short_title": "节庆海报",
+      "description": "做节庆或城市活动海报家族，适合整城铺放。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

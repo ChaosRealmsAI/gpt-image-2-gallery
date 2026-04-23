@@ -1,0 +1,61 @@
+{
+  "prompt": "Scene:\nCreate a square lobby-card concept image that feels like an MVP celebration panel ready for a post-match showcase. Use a layered card-within-card composition, bright stage lighting, diagonal light beams, and a premium mix of sharp UI framing plus cinematic character render. The layout should imply a featured player card, reward badge placement, and stat zones without any readable text. Keep the visual hierarchy clear enough that a product team could imagine dropping copy and numbers onto the existing design.\n\nSubject:\nRender the same heroine concept independently, now as the dominant full-body or three-quarter hero figure within the card. Preserve warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, freckles, cropped off-white flight jacket, oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, fingerless gloves, and compact athletic build. Show her finishing a triumphant stance with one hip cocked, one arm lifted in a celebratory point, and a satisfied grin that reads as match-winning confidence. Surround her with abstract medal shapes, blank panel blocks, and subtle confetti arcs, but keep the body silhouette and face as the anchor.\n\nImportant details:\nThis image should bridge character art and UI mockup. The heroine must remain unmistakable while the surrounding layout proves practical use for a results screen, social share card, or lobby spotlight. Preserve consistent anatomy, face structure, and costume proportion. Keep the panel geometry organized and realistic, avoid overcrowding the frame with pseudo-data, and let color accents echo the orange sleeve and teal scarf so the card feels built around the character rather than pasted behind her. The end result should feel polished, premium, and immediately useful for commercial asset review.\n\nUse case:\nEmote Expression Victory Pose Pack single study 4/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken card perspective, no anatomy glitches, no fake text blocks, no overpacked UI chrome, no extra characters, no muddy lighting.",
+  "id": "mvp-card-celebration",
+  "title": "MVP Card Celebration",
+  "description": "A results-screen style hero card showing the heroine as a polished MVP surface without relying on text overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/single-social-surface-studies/images/mvp-card-celebration/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent MVP-card surface study for the heroine concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "MVP Card Celebration",
+      "description": "A results-screen style hero card showing the heroine as a polished MVP surface without relying on text overlays."
+    },
+    "zh-CN": {
+      "title": "MVP 卡面庆祝图",
+      "description": "把角色包装成结算页主卡视觉，验证角色和界面层的结合。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "commercial-mockup",
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A premium MVP-style lobby card with the heroine standing in a celebratory match-winning pose.",
+      "zh-CN": "一张高级感的 MVP 大厅卡面，角色以胜利者姿态站立其中。"
+    }
+  }
+}

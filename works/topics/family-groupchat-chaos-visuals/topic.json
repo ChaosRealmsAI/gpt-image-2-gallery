@@ -1,0 +1,53 @@
+{
+  "id": "family-groupchat-chaos-visuals",
+  "slug": "family-groupchat-chaos-visuals",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Family Groupchat Chaos Visuals",
+  "short_title": "Family Chaos",
+  "description": "A Prompt Atlas theme for Family Groupchat Chaos Visuals, testing structured-layout, text-rendering, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Family Groupchat Chaos Visuals",
+      "short_title": "Family Chaos",
+      "description": "Build visuals around family-groupchat chaos with mismatched media, overreaction, and affectionate disorder."
+    },
+    "zh-CN": {
+      "title": "家庭群聊混乱视觉",
+      "short_title": "家庭群聊",
+      "description": "做家庭群聊混乱视觉，突出错位媒体、过度反应和混乱的爱。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

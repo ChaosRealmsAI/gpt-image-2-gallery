@@ -1,0 +1,61 @@
+{
+  "prompt": "Scene:\nCreate a square badge-like emote icon with a centered bust composition, a subtle circular frame motif, and energetic yet clean lighting. Use a bright coral, peach, and teal palette with a soft vignette, tiny floating spark shapes, and enough negative space to imply a collectible reaction badge without relying on text. The result should feel halfway between a polished game emote and a premium collectible UI icon.\n\nSubject:\nRender the same heroine concept independently: warm brown skin, amber eyes, short silver undercut with teal tips, eyebrow notch, nose freckles, cropped off-white flight jacket, oversized orange sleeve, charcoal bodysuit, teal scarf ribbon, fingerless gloves, and compact athletic build. This time stage her in a cheerful wink with one open eye, a wide grin, and both hands pulled inward in a celebratory squeeze close to the chest, as if she has just been selected or awarded. Keep the head slightly tilted and the body centered for icon symmetry. The costume markers should remain visible but secondary to the face and emotional clarity.\n\nImportant details:\nThe test here is whether the character can function as a badge icon instead of a narrative image. Preserve stable facial structure and age read, avoid plush-toy simplification, and keep the materials crisp enough to suggest a real production asset. The wink must not deform the eye line or break symmetry in an uncanny way. The orange sleeve, teal scarf, silver hair, and freckles should work together as identity anchors even at a reduced size. Let the circular framing language stay abstract and non-branded so the composition reads as a ready-to-drop UI asset rather than a logo.\n\nUse case:\nEmote Expression Victory Pose Pack single study 2/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no off-model face, no warped wink anatomy, no heavy border text ring, no duplicate hands, no messy spark clutter, no unrelated props.",
+  "id": "cheer-badge-icon",
+  "title": "Cheer Badge Icon",
+  "description": "A compact badge-style emote icon built to keep the heroine distinct in a centered celebratory bust layout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "identity-consistency",
+    "editing-workflow",
+    "commercial-mockup",
+    "social-feed",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/single-social-surface-studies/images/cheer-badge-icon/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent badge-emote study for the heroine concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cheer Badge Icon",
+      "description": "A compact badge-style emote icon built to keep the heroine distinct in a centered celebratory bust layout."
+    },
+    "zh-CN": {
+      "title": "欢呼徽章图标",
+      "description": "把同一角色压缩成适合徽章和聊天反应的中央式图标。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "commercial-mockup",
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A centered badge-like icon of the heroine winking and cheering with both hands near her chest.",
+      "zh-CN": "一张徽章式居中图标，女角色眨眼欢呼并双手收在胸前。"
+    }
+  }
+}

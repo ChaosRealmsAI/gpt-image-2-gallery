@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white mathematical engraving on ivory paper, centered on a floating lattice of interlocking cubes. The background is plain and bright so the optical structure is easy to inspect. Use precise ink outlines, clean hatch shading on cube faces, and no decorative environment except faint cast shadows that clarify depth.\n\nSubject:\nCreate a paradoxical cube lattice where several open cubes share edges in a way that is locally consistent but globally impossible. Some beams pass in front of each other at one junction and behind at the next, forming a closed impossible frame. The lattice should resemble a crystalline architectural puzzle with eight to twelve cube cells, each face shaded according to a single light source. The viewer should be able to follow one beam and find that depth order contradicts itself.\n\nImportant details:\nThis image is about pure geometry. Keep the cubes aligned to an isometric grid, with equal beam thickness, sharp corners, and consistent hatch density. Avoid organic shapes or decorative background. The impossibility should come from carefully selected over-under relationships, not from random broken perspective. Make the paradox legible at thumbnail size and rewarding in close inspection.\n\nUse case:\nEscher Impossible Geometry single study 7/8, testing an impossible cube lattice with strict isometric depth contradictions.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no warped cube faces, no random floating fragments, no messy shadows, no labels, no soft 3D render style.",
+  "id": "cube-lattice-paradox",
+  "title": "Cube Lattice Paradox",
+  "description": "A black-and-white engraved isometric cube lattice with impossible over-under depth relationships.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/cube-lattice-paradox/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent impossible cube lattice image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cube Lattice Paradox",
+      "description": "A black-and-white engraved isometric cube lattice with impossible over-under depth relationships."
+    },
+    "zh-CN": {
+      "title": "立方格架悖论",
+      "description": "一张黑白线雕等距立方格架图，前后遮挡关系形成不可能悖论。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "An isometric cube lattice with impossible depth ordering, drawn as a black-and-white engraving.",
+      "zh-CN": "一个具有不可能深度顺序的等距立方格架，以黑白线雕绘制。"
+    }
+  }
+}

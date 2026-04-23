@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square black-and-white architectural engraving of a silent courtyard, viewed from a high oblique angle. The paper is ivory, the ink is deep black, and all shadows are made with fine cross-hatching. The space should feel like a precise mathematical study rather than a fantasy castle, with clean stone walls and tiled landings.\n\nSubject:\nConstruct an endless ascending staircase loop around a square courtyard. Four flights of stairs connect four landings, and each flight appears to climb upward, yet the final landing returns to the starting height. Small identical archways, railings, and floor tiles repeat around the loop so the contradiction becomes visible. The viewer should feel that walking forward always goes upstairs but somehow arrives back at the same level.\n\nImportant details:\nThe illusion depends on disciplined perspective. Each staircase segment must be locally convincing, with equal step counts, consistent risers, and believable railing shadows. The global loop must be impossible, not merely circular. Use small human-scale objects like empty benches or planters only if they clarify scale, not as distractions. Keep the center courtyard open so the eye can trace the full loop.\n\nUse case:\nEscher Impossible Geometry single study 2/8, testing an eternal ascending stair loop with verifiable perspective contradiction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no color, no random spiral staircase, no broken step rhythm, no crowded figures, no labels, no blurred geometry.",
+  "id": "endless-stair-court",
+  "title": "Endless Stair Court",
+  "description": "A black-and-white engraved courtyard where every stair flight rises yet loops back to itself.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "optical-illusion",
+    "reasoning-composition",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/escher-impossible-geometry/packages/single-impossible-geometry-studies/images/endless-stair-court/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent impossible-stair geometry image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Endless Stair Court",
+      "description": "A black-and-white engraved courtyard where every stair flight rises yet loops back to itself."
+    },
+    "zh-CN": {
+      "title": "永恒楼梯庭院",
+      "description": "一张黑白线雕庭院图，每段楼梯都上升却循环回起点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "optical-illusion",
+      "grayscale",
+      "single"
+    ],
+    "alt": {
+      "en": "An impossible courtyard stair loop where every flight appears to climb upward.",
+      "zh-CN": "一个不可能庭院楼梯循环，每段楼梯看起来都在向上。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fantasy-megacity-meets-nature-vistas",
+  "slug": "fantasy-megacity-meets-nature-vistas",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Fantasy Megacity Meets Nature Vistas",
+  "short_title": "City-Nature Vistas",
+  "description": "A Prompt Atlas theme for Fantasy Megacity Meets Nature Vistas, testing reasoning-composition, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fantasy Megacity Meets Nature Vistas",
+      "short_title": "City-Nature Vistas",
+      "description": "Build vistas where megacities and sublime landscapes coexist in dramatic tension."
+    },
+    "zh-CN": {
+      "title": "自然与巨城并置奇景",
+      "short_title": "城自然奇景",
+      "description": "做自然与巨城并置奇景，强调文明和自然的冲突。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

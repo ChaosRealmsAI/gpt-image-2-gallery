@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA vertical-feeling square composition adapted for a versus-card style presentation, with layered depth and clean hero separation. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the same hero in a composed high-status winner pose, angled slightly toward camera, with one arm crossing the torso and the prop creating a second read line. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThe final image should feel suitable for a premium reward or highlight card without requiring readable interface text. Keep the hero immediately recognizable at both full-body and sticker scale, with expressive hand language, sharp silhouette control, and a clean commercial finish suited to game UI surfaces. Preserve the same hero identity, face structure, hair silhouette, costume construction, faction color logic, and prop details established by the reference image. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nEmote Expression Victory Pose Pack series study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unreadable chat bubbles pretending to be text, no extra characters, no mutated hands, no costume redesign, no muddy silhouette.",
+  "id": "08-mvp-card-pose",
+  "title": "MVP Card Pose",
+  "description": "MVP Card Pose turns Emote Expression Victory Pose Pack into a production-ready image study focused on the final image should feel suitable for a premium reward or highlight card without requiring readable interface text..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/08-mvp-card-pose/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "MVP Card Pose",
+      "description": "MVP Card Pose turns Emote Expression Victory Pose Pack into a production-ready image study focused on the final image should feel suitable for a premium reward or highlight card without requiring readable interface text.."
+    },
+    "zh-CN": {
+      "title": "MVP 卡姿势",
+      "description": "MVP 卡姿势：围绕表情与胜利姿势包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "MVP Card Pose for Emote Expression Victory Pose Pack.",
+      "zh-CN": "表情与胜利姿势包主题中的MVP 卡姿势图像。"
+    }
+  }
+}

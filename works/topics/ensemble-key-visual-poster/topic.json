@@ -1,0 +1,53 @@
+{
+  "id": "ensemble-key-visual-poster",
+  "slug": "ensemble-key-visual-poster",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Ensemble Key Visual Poster",
+  "short_title": "Ensemble KV",
+  "description": "A Prompt Atlas theme for Ensemble Key Visual Poster, testing multi-image-reference, commercial-mockup, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Ensemble Key Visual Poster",
+      "short_title": "Ensemble KV",
+      "description": "Build ensemble posters with clear cast hierarchy, relationship tension, and campaign-ready balance."
+    },
+    "zh-CN": {
+      "title": "群像主视觉海报",
+      "short_title": "群像KV",
+      "description": "做群像主视觉海报，重点看角色层级和关系张力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

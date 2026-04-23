@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA premium square hero reveal frame in a stylized game lobby, lit with a confident rim light and balanced neutral background glow. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nPresent one original arena champion in a neutral but charismatic stance, showing the full costume set, signature prop, footwear, gloves, and facial markings with production-sheet clarity. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThis image is the master visual anchor for every later emote, sticker, and victory variation in the set. Keep the hero immediately recognizable at both full-body and sticker scale, with expressive hand language, sharp silhouette control, and a clean commercial finish suited to game UI surfaces. Treat this image as the root visual anchor: it must be especially stable, complete, and easy for later variations to inherit from.\n\nUse case:\nEmote Expression Victory Pose Pack series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unreadable chat bubbles pretending to be text, no extra characters, no mutated hands, no costume redesign, no muddy silhouette.",
+  "id": "01-reference-hero-anchor",
+  "title": "Reference Hero Anchor",
+  "description": "Reference Hero Anchor turns Emote Expression Victory Pose Pack into a production-ready image study focused on this image is the master visual anchor for every later emote, sticker, and victory variation in the set..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for a reference-driven series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Hero Anchor",
+      "description": "Reference Hero Anchor turns Emote Expression Victory Pose Pack into a production-ready image study focused on this image is the master visual anchor for every later emote, sticker, and victory variation in the set.."
+    },
+    "zh-CN": {
+      "title": "参考角色锚点",
+      "description": "参考角色锚点：围绕表情与胜利姿势包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Reference Hero Anchor for Emote Expression Victory Pose Pack.",
+      "zh-CN": "表情与胜利姿势包主题中的参考角色锚点图像。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nA near-square bust crop optimized for profile and reward badge use, with centered framing and calm premium lighting. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the same hero delivering a confident neutral expression with slight attitude, allowing the face, collar line, and upper prop silhouette to dominate. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThis variation should prioritize identification and brand recall over theatrical motion. Keep the hero immediately recognizable at both full-body and sticker scale, with expressive hand language, sharp silhouette control, and a clean commercial finish suited to game UI surfaces. Preserve the same hero identity, face structure, hair silhouette, costume construction, faction color logic, and prop details established by the reference image. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nEmote Expression Victory Pose Pack series study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unreadable chat bubbles pretending to be text, no extra characters, no mutated hands, no costume redesign, no muddy silhouette.",
+  "id": "07-profile-sticker-crop",
+  "title": "Profile Sticker Crop",
+  "description": "Profile Sticker Crop turns Emote Expression Victory Pose Pack into a production-ready image study focused on this variation should prioritize identification and brand recall over theatrical motion..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/07-profile-sticker-crop/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/emote-expression-victory-pose-pack/packages/series-character-emote-performance/images/07-profile-sticker-crop/image.png",
+      "checked_at": "2026-04-23T09:55:58.132Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Sticker Crop",
+      "description": "Profile Sticker Crop turns Emote Expression Victory Pose Pack into a production-ready image study focused on this variation should prioritize identification and brand recall over theatrical motion.."
+    },
+    "zh-CN": {
+      "title": "头像贴纸裁切",
+      "description": "头像贴纸裁切：围绕表情与胜利姿势包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Profile Sticker Crop for Emote Expression Victory Pose Pack.",
+      "zh-CN": "表情与胜利姿势包主题中的头像贴纸裁切图像。"
+    }
+  }
+}
