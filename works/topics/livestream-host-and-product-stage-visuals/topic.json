@@ -1,0 +1,53 @@
+{
+  "id": "livestream-host-and-product-stage-visuals",
+  "slug": "livestream-host-and-product-stage-visuals",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Livestream Host and Product Stage Visuals",
+  "short_title": "Host Stage",
+  "description": "A Prompt Atlas theme for Livestream Host and Product Stage Visuals, testing photorealism, commercial-mockup, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Livestream Host and Product Stage Visuals",
+      "short_title": "Host Stage",
+      "description": "Design livestream host-product stage visuals that blend set design, category trust, and conversion energy."
+    },
+    "zh-CN": {
+      "title": "直播主播与产品舞台视觉",
+      "short_title": "主播舞台",
+      "description": "做直播主播与产品舞台视觉，结合布景、品类信任感和转化氛围。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

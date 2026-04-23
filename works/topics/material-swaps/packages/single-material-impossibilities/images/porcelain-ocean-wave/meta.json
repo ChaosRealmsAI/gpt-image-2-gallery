@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square fine-art product photograph of a frozen ocean wave sculpted from glazed porcelain, displayed on a simple ceramic plinth in a quiet white gallery. Soft daylight from above reveals glossy highlights, hairline cracks, and translucent thin crests. The camera is close enough to see glaze pooling and chipped edges.\n\nSubject:\nA curling ocean wave form, like a suspended breaker with foam, spray, and ridges, but every part is porcelain. The wave body is milky white with blue-gray celadon glaze in thicker valleys. Foam becomes clusters of tiny porcelain beads and lace-like glazed fragments. The crest is thin, brittle, and slightly translucent; a few chips and cracks expose matte ceramic underneath.\n\nImportant details:\nThe material behavior must contradict liquid motion while preserving wave anatomy. Porcelain should make the wave rigid, heavy, glossy, brittle, and fired, with glaze drips following gravity, pooled blue glaze in recesses, crazing cracks, and broken sharp rims. Keep the water shape recognizable through curl, lip, trough, and foam texture, but avoid real liquid transparency. Contact shadows on the plinth should make the ceramic weight believable.\n\nUse case:\nMaterial Swaps single study 5/8, testing whether dynamic water can be reinterpreted as brittle glazed porcelain.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real water splash, no plastic resin, no blue glass wave, no surfer, no beach scene, no fantasy glow, no flat decorative plate, no smooth featureless sculpture.",
+  "id": "porcelain-ocean-wave",
+  "title": "Porcelain Ocean Wave",
+  "description": "A curling ocean wave rebuilt as glazed porcelain, with brittle crests, glaze pooling, and ceramic cracks.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/porcelain-ocean-wave/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for porcelain brittleness applied to a water form."
+  },
+  "i18n": {
+    "en": {
+      "title": "Porcelain Ocean Wave",
+      "description": "A curling ocean wave rebuilt as glazed porcelain, with brittle crests, glaze pooling, and ceramic cracks."
+    },
+    "zh-CN": {
+      "title": "瓷质海浪",
+      "description": "一道卷起的海浪被重构为釉面瓷器,带脆薄浪尖、积釉和陶瓷裂纹。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A curling ocean wave sculpted from glossy porcelain with chipped thin crests.",
+      "zh-CN": "一道由光亮瓷器塑成的卷浪,浪尖薄脆且有崩口。"
+    }
+  }
+}

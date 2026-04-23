@@ -1,0 +1,53 @@
+{
+  "id": "livestream-product-pin-card-family",
+  "slug": "livestream-product-pin-card-family",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Livestream Product Pin Card Family",
+  "short_title": "Pin Cards",
+  "description": "A Prompt Atlas theme for Livestream Product Pin Card Family, testing structured-layout, commercial-mockup, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Livestream Product Pin Card Family",
+      "short_title": "Pin Cards",
+      "description": "Create product pin-card families for livestream commerce with thumbnail clarity, offer contrast, and bundle readability."
+    },
+    "zh-CN": {
+      "title": "直播挂车商品卡家族",
+      "short_title": "商品卡",
+      "description": "做直播挂车商品卡家族，强调缩略图清楚、价格对比和套餐可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

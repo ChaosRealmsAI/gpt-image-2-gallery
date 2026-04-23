@@ -1,0 +1,82 @@
+{
+  "id": "single-material-impossibilities",
+  "type": "single",
+  "title": "Material Impossibilities",
+  "description": "Eight independent studies of familiar objects rebuilt from physically surprising materials, with believable lighting, texture, stress, and contact behavior.",
+  "creative_direction": "Each image presents one iconic subject made from an unexpected material. The object must retain its recognizable form while the new material controls every physical detail: translucency, sagging, fracture, fibers, melt, reflection, compression, and scale.",
+  "cover_image": "images/butter-palace-gate/image.png",
+  "i18n": {
+    "en": {
+      "title": "Material Impossibilities",
+      "description": "Eight independent studies of familiar objects rebuilt from physically surprising materials, with believable lighting, texture, stress, and contact behavior."
+    },
+    "zh-CN": {
+      "title": "不可能材质研究",
+      "description": "八张独立材质错位研究,把熟悉物体用出人意料的材质重构,并保持可信光照、纹理、受力和接触关系。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "material-swap",
+      "physics-materials",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "butter-palace-gate",
+      "title": "Butter Palace Gate",
+      "image": "images/butter-palace-gate/image.png",
+      "meta": "images/butter-palace-gate/meta.json"
+    },
+    {
+      "id": "glass-rose-stem",
+      "title": "Glass Rose Stem",
+      "image": "images/glass-rose-stem/image.png",
+      "meta": "images/glass-rose-stem/meta.json"
+    },
+    {
+      "id": "knitted-townhouse",
+      "title": "Knitted Townhouse",
+      "image": "images/knitted-townhouse/image.png",
+      "meta": "images/knitted-townhouse/meta.json"
+    },
+    {
+      "id": "lace-cathedral",
+      "title": "Lace Cathedral",
+      "image": "images/lace-cathedral/image.png",
+      "meta": "images/lace-cathedral/meta.json"
+    },
+    {
+      "id": "porcelain-ocean-wave",
+      "title": "Porcelain Ocean Wave",
+      "image": "images/porcelain-ocean-wave/image.png",
+      "meta": "images/porcelain-ocean-wave/meta.json"
+    },
+    {
+      "id": "wax-library-chair",
+      "title": "Wax Library Chair",
+      "image": "images/wax-library-chair/image.png",
+      "meta": "images/wax-library-chair/meta.json"
+    },
+    {
+      "id": "rubber-bonsai-tree",
+      "title": "Rubber Bonsai Tree",
+      "image": "images/rubber-bonsai-tree/image.png",
+      "meta": "images/rubber-bonsai-tree/meta.json"
+    },
+    {
+      "id": "salt-crystal-sneaker",
+      "title": "Salt Crystal Sneaker",
+      "image": "images/salt-crystal-sneaker/image.png",
+      "meta": "images/salt-crystal-sneaker/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square top-down view of a ceremonial sand mandala in progress on a dark monastery floor, lit softly from above so colored sand grains, brass tools, and minute radial alignments remain visible. The composition should keep the whole mandala centered and nearly complete, while allowing a few ritual instruments at the edge to suggest process without breaking the geometric focus.\n\nSubject:\nA highly detailed sand mandala with concentric rings of turquoise, saffron, coral, white, ultramarine, and gold-toned dust. The structure includes repeated lotus petals, flame motifs, nested squares, tiny bead-like borders, and a radiant central seed form. At the margins, a few metal chakpur funnels and neat lines of poured pigment imply hand construction, but the dominant experience is the finished geometry itself. The image should feel reverent, exacting, and tactile, showing how an ephemeral medium can still achieve severe radial discipline.\n\nImportant details:\nSand texture is essential: granular, matte, delicate, and carefully placed. The geometry cannot drift just because the medium is loose. Keep every ring count consistent, cardinal axes clear, and spacing between motifs clean enough for the viewer to verify symmetry. Avoid theatrical clutter. The tools and floor are secondary; the mandala must remain the visual authority. The result should feel culturally grounded, painstaking, and difficult in a way that is obvious at a glance.\n\nUse case:\nMandala Precision Geometry single study 4/8, testing whether fragile ritual sand can still support razor-controlled concentric order.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no visible faces, no messy spilled pigment, no partial crop of the circle, no candles, no fantasy magic effects, no casual workshop chaos, no asymmetrical damage.",
+  "id": "04-sand-mandala-ritual",
+  "title": "Sand Mandala Ritual",
+  "description": "A nearly complete ceremonial sand mandala whose fragile granular medium still holds strict radial order and layered symbolic geometry.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/04-sand-mandala-ritual/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study focused on ritual sand texture and precise radial construction."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sand Mandala Ritual",
+      "description": "A nearly complete ceremonial sand mandala whose fragile granular medium still holds strict radial order and layered symbolic geometry."
+    },
+    "zh-CN": {
+      "title": "沙绘曼荼罗仪式",
+      "description": "一张接近完成的仪式性沙绘曼荼罗，脆弱的颗粒介质仍然维持严格的放射秩序与层级符号几何。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A top-down ceremonial sand mandala with vivid concentric rings and precise granular detail.",
+      "zh-CN": "一张俯视的仪式性沙绘曼荼罗，拥有鲜明同心环与精细颗粒细节。"
+    }
+  }
+}

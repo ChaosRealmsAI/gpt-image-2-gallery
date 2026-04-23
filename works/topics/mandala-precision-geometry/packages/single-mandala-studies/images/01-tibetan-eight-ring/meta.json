@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, straight-down view of an ornate mandala painting on a deep indigo ground, lit like a museum conservation photograph so every mineral pigment edge, gold outline, and concentric ring is crisp. The frame is perfectly centered, with calm luminous contrast, no perspective distortion, and enough visual breathing room to read the full circular structure from outer fire ring to inner palace.\n\nSubject:\nA Tibetan Buddhist inspired eight-layer mandala built from concentric circles, lotus petals, vajra gates, stepped palace walls, cloud bands, and a radiant central core. Each ring should feel hand-painted with discipline rather than machine printed: tiny gold lines, lapis blue fills, vermilion accents, malachite green borders, and chalky mineral texture. The geometry must lock precisely around the center, with four cardinal gateways, repeated petal counts, and mirrored motifs that stay consistent in every quadrant.\n\nImportant details:\nThe image must communicate real cultural geometry and meditative precision. Preserve strict radial symmetry, clear ring hierarchy, even spacing between ornamental bands, and fine gold filigree that never turns into random decoration. Keep the composition dense but legible, with the outer ring acting as a protective boundary and the inner square palace reading clearly inside the circle. The viewer should immediately sense ritual craftsmanship, visual stillness, and high-difficulty symmetry.\n\nUse case:\nMandala Precision Geometry single study 1/8, testing whether layered Tibetan mandala structure can stay exact, ornate, and instantly legible.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no off-center circle, no broken symmetry, no cartoon simplification, no deities or human figures, no modern poster layout, no messy paint splatter, no photographic frame or wall.",
+  "id": "01-tibetan-eight-ring",
+  "title": "Tibetan Eight Ring",
+  "description": "A dense Tibetan inspired mandala with eight concentric layers, cardinal gates, lotus petals, and precise mineral-gold symmetry.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "optical-illusion",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/01-tibetan-eight-ring/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study focused on Tibetan concentric ritual geometry."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tibetan Eight Ring",
+      "description": "A dense Tibetan inspired mandala with eight concentric layers, cardinal gates, lotus petals, and precise mineral-gold symmetry."
+    },
+    "zh-CN": {
+      "title": "藏式八环曼荼罗",
+      "description": "一张受藏传佛教启发的高密度曼荼罗，包含八层同心结构、四向门、莲瓣与精确的矿物金线对称。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A centered Tibetan style mandala with eight concentric rings and luminous gold detailing.",
+      "zh-CN": "一张居中的藏式曼荼罗，拥有八层同心环与发光般的金色细节。"
+    }
+  }
+}

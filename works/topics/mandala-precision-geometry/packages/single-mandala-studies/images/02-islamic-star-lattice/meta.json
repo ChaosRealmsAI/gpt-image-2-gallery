@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square overhead composition on warm ivory plaster and lapis tile, presented like a meticulously restored architectural panel photographed flat under soft neutral light. The image should feel quiet, balanced, and mathematical, with no camera angle and no visible room context, so the eye reads the entire circular design as one disciplined geometric field.\n\nSubject:\nAn Islamic geometry inspired mandala built from interlocking twelve-point stars, eight-point stars, rosettes, girih straps, and nested polygons radiating from a centered nucleus. The main circle is surrounded by repeating wedges that connect seamlessly into secondary rings, creating the sense that the design could continue outward forever while still remaining complete inside the square crop. Use a restrained palette of lapis, turquoise, ivory, terracotta, and aged gold. Lines should be razor clean yet slightly handcrafted, as if painted on glazed zellige and incised plaster.\n\nImportant details:\nNo figurative imagery. The power of the image comes from exact geometry, angle discipline, and hierarchical repetition. Every wedge and star arm should meet cleanly at the center and at ring transitions. The circular field must remain perfectly centered, with alternating dense and open bands so the design breathes instead of collapsing into noise. Surface texture should imply real craft materials such as tile glaze, fine plaster grain, and subtle wear, but the symmetry itself must remain uncompromised.\n\nUse case:\nMandala Precision Geometry single study 2/8, testing whether star-polygons and radial lattice logic can remain exact and culturally grounded.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no calligraphy, no human figures, no random mosaic fragments, no warped center, no uneven spokes, no fantasy symbols, no decorative border outside the main system.",
+  "id": "02-islamic-star-lattice",
+  "title": "Islamic Star Lattice",
+  "description": "A radial star mandala of interlocking Islamic geometric polygons rendered as tile and plaster with exact angular discipline.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "optical-illusion",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/02-islamic-star-lattice/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study centered on Islamic star polygons and girih lattice order."
+  },
+  "i18n": {
+    "en": {
+      "title": "Islamic Star Lattice",
+      "description": "A radial star mandala of interlocking Islamic geometric polygons rendered as tile and plaster with exact angular discipline."
+    },
+    "zh-CN": {
+      "title": "伊斯兰星形格网",
+      "description": "一张由伊斯兰几何多边形构成的放射星形曼荼罗，以瓷砖和灰泥呈现严格的角度秩序。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A centered radial lattice of Islamic stars in lapis, ivory, and terracotta tile.",
+      "zh-CN": "一张以青金、象牙白和陶土色瓷砖构成的伊斯兰星形放射格网。"
+    }
+  }
+}

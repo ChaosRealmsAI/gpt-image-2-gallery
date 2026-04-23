@@ -1,0 +1,64 @@
+{
+  "id": "single-context-studies",
+  "type": "single",
+  "title": "Context Studies",
+  "description": "Five independent companion studies extending Minoan Frescoes Living Again through excavation, artifacts, survey logic, light variation, and editorial reconstruction.",
+  "creative_direction": "Independent archaeology studies for Minoan Frescoes Living Again that stay in the same civilizational world while exploring excavation evidence, material culture, environmental light, site systems, and a polished hero interpretation.",
+  "cover_image": "images/excavation-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Context Studies",
+      "description": "Five independent companion studies extending Minoan Frescoes Living Again through excavation, artifacts, survey logic, light variation, and editorial reconstruction."
+    },
+    "zh-CN": {
+      "title": "语境研究",
+      "description": "五张独立研究图，从发掘、器物、测绘、光线与主视觉重建延展米诺斯壁画。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "excavation-overview",
+      "title": "Excavation Overview",
+      "image": "images/excavation-overview/image.png",
+      "meta": "images/excavation-overview/meta.json"
+    },
+    {
+      "id": "artifact-tableau",
+      "title": "Artifact Tableau",
+      "image": "images/artifact-tableau/image.png",
+      "meta": "images/artifact-tableau/meta.json"
+    },
+    {
+      "id": "light-shift-study",
+      "title": "Light Shift Study",
+      "image": "images/light-shift-study/image.png",
+      "meta": "images/light-shift-study/meta.json"
+    },
+    {
+      "id": "survey-perspective",
+      "title": "Survey Perspective",
+      "image": "images/survey-perspective/image.png",
+      "meta": "images/survey-perspective/meta.json"
+    },
+    {
+      "id": "editorial-reconstruction",
+      "title": "Editorial Reconstruction",
+      "image": "images/editorial-reconstruction/image.png",
+      "meta": "images/editorial-reconstruction/meta.json"
+    }
+  ]
+}

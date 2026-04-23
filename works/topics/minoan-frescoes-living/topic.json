@@ -1,0 +1,54 @@
+{
+  "id": "minoan-frescoes-living",
+  "slug": "minoan-frescoes-living",
+  "category": "illustration",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Minoan Frescoes Living Again",
+  "short_title": "Minoan Frescoes",
+  "description": "Knossos palace room with Minoan frescoes restored to life — the dolphin mural shimmering wet, bull-leaping figures mid-motion, original pigments unfaded by millennia.",
+  "i18n": {
+    "en": {
+      "title": "Minoan Frescoes Living Again",
+      "short_title": "Minoan Frescoes",
+      "description": "Knossos palace room with Minoan frescoes restored to life — the dolphin mural shimmering wet, bull-leaping figures mid-motion, original pigments unfaded by millennia."
+    },
+    "zh-CN": {
+      "title": "米诺斯壁画复活",
+      "short_title": "米诺斯壁画",
+      "description": "克诺索斯宫殿 · 米诺斯壁画复活 · 海豚壁画光泽如湿 · 跳牛者正在腾空 · 原色颜料未被千年褪色。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 470,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

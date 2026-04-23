@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square architectural photograph taken from directly above, showing an inlaid stone floor rose at the center of a historic courtyard. Light is soft and diffuse so marble color, carved joints, and tiny tessera edges remain visible without dramatic shadow. The camera is perfectly aligned to the floor plane, making the composition read like both a real space and a strict geometric diagram.\n\nSubject:\nA monumental floor mandala inspired by sacred architecture: concentric stone rings, petal rosettes, interlocking polygons, dark and pale marble wedges, and carefully repeated inlay lines radiating from a central medallion. The design should feel plausible as part of a temple, palace, or contemplative hall, with rich material evidence such as worn stone polish, slight carving depth, and meticulously fitted joints. Even with architectural realism, the main force of the image must remain the circular system itself and the precision with which every ring, spoke, and petal repeats.\n\nImportant details:\nMaintain direct overhead symmetry and a perfectly centered circle. Architectural context should be minimal and supportive, perhaps only a hint of surrounding stone border, because the floor rose is the subject. The image must balance world knowledge, construction realism, and optical order: the viewer should believe this could be built, while also feeling the mesmerizing pull of flawless radial repetition. Keep material variation subtle so geometry stays dominant.\n\nUse case:\nMandala Precision Geometry single study 8/8, testing whether monumental architectural inlay can preserve meditative mandala order at full built scale.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no oblique camera angle, no people walking through frame, no furniture, no cracked missing tiles, no excessive shadow bands, no modern signage, no fountain or statue interrupting the center.",
+  "id": "08-architectural-floor-rose",
+  "title": "Architectural Floor Rose",
+  "description": "A directly overhead architectural mandala where stone inlay, petals, and polygons form a believable monumental floor rose.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "world-knowledge",
+    "optical-illusion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/08-architectural-floor-rose/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study grounded in directly overhead architectural floor geometry."
+  },
+  "i18n": {
+    "en": {
+      "title": "Architectural Floor Rose",
+      "description": "A directly overhead architectural mandala where stone inlay, petals, and polygons form a believable monumental floor rose."
+    },
+    "zh-CN": {
+      "title": "建筑地坪玫瑰纹",
+      "description": "一张正上方视角的建筑曼荼罗，石材镶嵌、花瓣与多边形共同构成可信的纪念性地坪玫瑰纹。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A monumental stone floor rose photographed from directly above with precise concentric geometry.",
+      "zh-CN": "一张从正上方拍摄的纪念性石质地坪玫瑰纹，拥有精确的同心几何。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square close study framed within the same site established by the reference anchor. Use a tight crop, shallow but believable depth of field, and raking light that reveals tactile evidence in surface relief, pigment, tool marks, moisture, or marine wear. The image should feel like a museum conservation photograph elevated to gallery quality.\n\nSubject:\nFocus on a materially rich portion of the same site: carved edges, painted plaster, fitted stone, root-wrapped masonry, submerged paving, or quarry-cut facial planes depending on the civilization. The composition should remain anchored to the original location and show enough surrounding context that viewers still recognize the parent site rather than mistaking it for an unrelated artifact.\n\nImportant details:\nPreserve the exact site identity from the reference model while shifting emphasis to forensic surface evidence. Keep the room recognizably Minoan, with fluid marine motifs, elegant fresco cadence, red and blue pigment behavior, and Bronze Age architectural forms rather than later classical Greek systems. Make micro-texture, fracture lines, pigment retention, water wear, plant interaction, dust, or chisel traces visually persuasive. Avoid decorative clutter. Every mark should feel like evidence of making, weathering, excavation, or conservation. Keep any symbolic marks non-legible and historically appropriate, and make the light reveal depth without flattening the material richness.\n\nUse case:\nMinoan Frescoes Living Again series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact site identity from the reference image, no Roman statues, no Renaissance furniture, no fantasy palaces, no modern gallery labels, no isolated floating artifact, no studio backdrop, no fake macro abstraction.",
+  "id": "03-surface-close-study",
+  "title": "Surface Close Study",
+  "description": "A dependent close study of material evidence and surface detail from the same Minoan Frescoes anchor site.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/minoan-frescoes-living/packages/series-core-discovery/images/03-surface-close-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/minoan-frescoes-living/packages/series-core-discovery/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/minoan-frescoes-living/packages/series-core-discovery/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must preserve the anchor site identity.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Surface Close Study",
+      "description": "A dependent close study of material evidence and surface detail from the same Minoan Frescoes anchor site."
+    },
+    "zh-CN": {
+      "title": "表面特写研究",
+      "description": "聚焦材质、刻痕与表面证据的近景研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A close study isolates tactile evidence from the same Minoan Frescoes site.",
+      "zh-CN": "米诺斯壁画相关研究图像。"
+    }
+  }
+}

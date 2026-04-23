@@ -1,0 +1,50 @@
+{
+  "id": "loot-consumable-icon-family",
+  "slug": "loot-consumable-icon-family",
+  "category": "illustration",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Loot Consumable Icon Family",
+  "short_title": "Loot Icons",
+  "description": "Build a coherent loot and consumable family that works both as close-up collectible art and as compact readable UI icons.",
+  "i18n": {
+    "en": {
+      "title": "Loot Consumable Icon Family",
+      "short_title": "Loot Icons",
+      "description": "Build a coherent loot and consumable family that works both as close-up collectible art and as compact readable UI icons."
+    },
+    "zh-CN": {
+      "title": "战利品与消耗品图标家族",
+      "short_title": "战利品图标",
+      "description": "围绕药剂、材料、钥匙、货币和补给道具，做既能放大展示也能缩成 UI 图标的道具家族。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 911,
+    "tags": [
+      "structured-layout",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-loot-icon-family-studies",
+      "type": "single",
+      "title": "Loot Icon Family Studies",
+      "path": "packages/single-loot-icon-family-studies/package.json"
+    }
+  ]
+}

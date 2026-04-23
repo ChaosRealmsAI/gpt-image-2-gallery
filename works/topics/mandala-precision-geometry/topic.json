@@ -1,0 +1,50 @@
+{
+  "id": "mandala-precision-geometry",
+  "slug": "mandala-precision-geometry",
+  "category": "illustration",
+  "style": [
+    "handdrawn",
+    "minimal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "structured-layout"
+  ],
+  "title": "Mandala Precision Geometry",
+  "short_title": "Mandala",
+  "description": "A Prompt Atlas theme for high-precision mandala images where cultural geometry, radial symmetry, and optical balance must hold under close visual inspection.",
+  "i18n": {
+    "en": {
+      "title": "Mandala Precision Geometry",
+      "short_title": "Mandala",
+      "description": "A Prompt Atlas theme for high-precision mandala images where cultural geometry, radial symmetry, and optical balance must hold under close visual inspection."
+    },
+    "zh-CN": {
+      "title": "曼荼罗精密几何",
+      "short_title": "曼荼罗",
+      "description": "一个测试高精度曼荼罗图像的 Prompt Atlas 主题，要求文化几何、放射对称与视觉平衡都能经受近看检验。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 110,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "optical-illusion",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-mandala-studies",
+      "type": "single",
+      "title": "Mandala Studies",
+      "path": "packages/single-mandala-studies/package.json"
+    }
+  ]
+}

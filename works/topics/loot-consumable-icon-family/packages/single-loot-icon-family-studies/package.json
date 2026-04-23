@@ -1,0 +1,88 @@
+{
+  "id": "single-loot-icon-family-studies",
+  "type": "single",
+  "title": "Loot Icon Family Studies",
+  "description": "Nine independent icon-family studies proving readability from premium hero render down to tiny UI tile.",
+  "creative_direction": "Every image should preserve strong silhouette coding, material separation, and thumbnail readability while still feeling premium in a gallery-sized view.",
+  "cover_image": "images/healing-kit-hero/image.png",
+  "i18n": {
+    "en": {
+      "title": "Loot Icon Family Studies",
+      "description": "Nine independent icon-family studies proving readability from premium hero render down to tiny UI tile."
+    },
+    "zh-CN": {
+      "title": "道具图标系统研究",
+      "description": "九张独立图标系统研究，验证从主图到小图的可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "editing-workflow",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "healing-kit-hero",
+      "title": "Healing Kit Hero",
+      "image": "images/healing-kit-hero/image.png",
+      "meta": "images/healing-kit-hero/meta.json"
+    },
+    {
+      "id": "ammo-box-study",
+      "title": "Ammo Box Study",
+      "image": "images/ammo-box-study/image.png",
+      "meta": "images/ammo-box-study/meta.json"
+    },
+    {
+      "id": "artifact-shard-core",
+      "title": "Artifact Shard Core",
+      "image": "images/artifact-shard-core/image.png",
+      "meta": "images/artifact-shard-core/meta.json"
+    },
+    {
+      "id": "keycard-access-badge",
+      "title": "Keycard Access Badge",
+      "image": "images/keycard-access-badge/image.png",
+      "meta": "images/keycard-access-badge/meta.json"
+    },
+    {
+      "id": "currency-token-stack",
+      "title": "Currency Token Stack",
+      "image": "images/currency-token-stack/image.png",
+      "meta": "images/currency-token-stack/meta.json"
+    },
+    {
+      "id": "five-icon-overview-board",
+      "title": "Five Icon Overview Board",
+      "image": "images/five-icon-overview-board/image.png",
+      "meta": "images/five-icon-overview-board/meta.json"
+    },
+    {
+      "id": "rarity-color-pass",
+      "title": "Rarity Color Pass",
+      "image": "images/rarity-color-pass/image.png",
+      "meta": "images/rarity-color-pass/meta.json"
+    },
+    {
+      "id": "thumbnail-readability-grid",
+      "title": "Thumbnail Readability Grid",
+      "image": "images/thumbnail-readability-grid/image.png",
+      "meta": "images/thumbnail-readability-grid/meta.json"
+    },
+    {
+      "id": "drop-crate-promo-tile",
+      "title": "Drop Crate Promo Tile",
+      "image": "images/drop-crate-promo-tile/image.png",
+      "meta": "images/drop-crate-promo-tile/meta.json"
+    }
+  ]
+}

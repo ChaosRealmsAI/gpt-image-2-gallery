@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, front-facing image on matte black vellum, lit with careful raking light so engraved grooves and gold inlay catch a restrained metallic sheen. The mood is formal and high contrast, almost archival, with the circular composition centered precisely and the surrounding black field acting as a silent void.\n\nSubject:\nAn ultra-precise engraved mandala built from nested rings of filigree lines, tiny repeating triangles, optical rosettes, interlocked circles, and micro-etched bead borders. The dominant materials are black ground and warm gold, with perhaps a trace of ivory for depth, but the visual richness must come from line density rather than color variety. The center should feel like a luminous core, while the outer zones step through increasingly complex radial subdivisions that reward close inspection. Every spoke, ring, and mirrored wedge should lock into a mathematically convincing whole.\n\nImportant details:\nThis image is about refinement and visual authority. Preserve razor-sharp radial symmetry, extremely controlled spacing, and believable engraved texture. The gold should not become glitter or fantasy light; it should read as physically etched and inlaid metal catching real illumination. Maintain hierarchy so the viewer can parse center, intermediate bands, and outer perimeter even at very high detail density. The result should feel luxurious, disciplined, and immediately recognizable as a difficult precision object rather than generic ornament.\n\nUse case:\nMandala Precision Geometry single study 7/8, testing whether black-and-gold engraving can sustain optical density without losing geometric clarity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no neon glow, no gemstones, no fantasy emblem, no blurred metallic haze, no off-center disk, no chaotic baroque clutter, no embossed frame around the artwork.",
+  "id": "07-black-gold-engraved-mandala",
+  "title": "Black Gold Engraved Mandala",
+  "description": "A severe black-and-gold mandala of engraved filigree, nested rings, and micro-etched radial precision.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "optical-illusion",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/07-black-gold-engraved-mandala/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study emphasizing engraved black-and-gold line precision."
+  },
+  "i18n": {
+    "en": {
+      "title": "Black Gold Engraved Mandala",
+      "description": "A severe black-and-gold mandala of engraved filigree, nested rings, and micro-etched radial precision."
+    },
+    "zh-CN": {
+      "title": "黑金雕刻曼荼罗",
+      "description": "一张严整的黑金曼荼罗，以雕刻细丝纹、嵌套环带与微刻放射精度构成。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A centered engraved mandala in black vellum and gold with dense radial filigree.",
+      "zh-CN": "一张居中的黑底金刻曼荼罗，布满密集的放射细丝纹。"
+    }
+  }
+}

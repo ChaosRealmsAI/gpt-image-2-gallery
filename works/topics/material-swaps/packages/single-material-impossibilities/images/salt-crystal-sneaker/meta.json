@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square premium sneaker product shot on a dark wet basalt surface, lit with a cool overhead softbox and a low side highlight. The sneaker is displayed in three-quarter view like a commercial footwear hero image, but it is entirely grown from translucent white salt crystals. Tiny grains scatter around the sole and catch the light.\n\nSubject:\nA low-top sneaker silhouette with toe box, laces, eyelets, tongue, collar, side panels, midsole, and tread pattern, all made from salt. The upper is a crust of interlocking cubic crystals, the laces are chains of smaller salt formations, the sole is a dense compressed crystalline slab, and the tread edges crumble into granular powder. Some areas are translucent, while thicker parts look chalky white.\n\nImportant details:\nThe material swap must respect salt crystal behavior: cubic facets, brittle fractures, granular shedding, moisture-darkened contact points, translucent edges, powder residue, and uneven growth around seams. Keep the sneaker construction readable without fabric, leather, or rubber. The basalt surface should show a faint wet halo where salt draws moisture, but avoid dissolving the entire shoe. Product lighting should reveal crystal sparkle and roughness at multiple scales.\n\nUse case:\nMaterial Swaps single study 8/8, testing crystalline salt physics on a modern footwear form.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no normal fabric sneaker, no sugar candy look, no ice sculpture, no glowing crystals, no foot inside, no retail tag, no collapsed salt pile, no oversized logo shape.",
+  "id": "salt-crystal-sneaker",
+  "title": "Salt Crystal Sneaker",
+  "description": "A modern sneaker grown from salt crystals, with cubic facets, crumbly tread, and moisture halos.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/salt-crystal-sneaker/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for crystalline salt applied to a commercial product form."
+  },
+  "i18n": {
+    "en": {
+      "title": "Salt Crystal Sneaker",
+      "description": "A modern sneaker grown from salt crystals, with cubic facets, crumbly tread, and moisture halos."
+    },
+    "zh-CN": {
+      "title": "盐晶运动鞋",
+      "description": "一只由盐晶生长出的现代运动鞋,带立方晶面、易碎鞋底和潮湿晕痕。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A modern low-top sneaker made from translucent white salt crystals.",
+      "zh-CN": "一只由半透明白色盐晶构成的现代低帮运动鞋。"
+    }
+  }
+}

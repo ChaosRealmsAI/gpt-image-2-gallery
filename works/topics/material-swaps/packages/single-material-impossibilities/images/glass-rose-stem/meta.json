@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square macro product photograph on a charcoal velvet surface, lit with narrow studio strip lights that create sharp reflections and caustic glints. A single rose lies diagonally across the frame, but the entire flower is made from transparent blown glass. The background stays dark and quiet so the optical material behavior is easy to inspect.\n\nSubject:\nA delicate rose with curled petals, sepals, thorny stem, and two leaves, all formed from thin clear glass with faint pink and green tint only in the thickest areas. The petals have variable thickness, polished rims, trapped microbubbles, hairline stress marks, and subtle distortions where one petal overlaps another. The stem is cylindrical glass with tiny sharp thorns that catch bright highlights.\n\nImportant details:\nThe rose must not read as a normal flower covered in shine. Glass should define the object: refraction, internal reflection, transparent overlaps, caustic spots on velvet, brittle thin edges, slight optical magnification, and green-pink tint caused by thickness. Keep the botanical structure recognizable and elegant, but include a few tiny chips at petal tips to sell fragility. Shadows should be complex and transparent rather than opaque floral shadows.\n\nUse case:\nMaterial Swaps single study 2/8, testing transparent glass optics applied to an organic rose form.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic flower, no wet real petals, no neon glow, no gemstone rose, no metal stem, no extra bouquet, no impossible soft glass bending, no decorative label card.",
+  "id": "glass-rose-stem",
+  "title": "Glass Rose Stem",
+  "description": "A transparent blown-glass rose with believable refraction, caustics, chips, and brittle edges.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/glass-rose-stem/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for glass transparency and organic form."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Rose Stem",
+      "description": "A transparent blown-glass rose with believable refraction, caustics, chips, and brittle edges."
+    },
+    "zh-CN": {
+      "title": "玻璃玫瑰",
+      "description": "一朵透明吹制玻璃玫瑰,呈现可信折射、焦散、细小崩口和脆薄边缘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A transparent glass rose lying on dark velvet with crisp caustic highlights.",
+      "zh-CN": "一朵透明玻璃玫瑰躺在深色天鹅绒上,带清晰焦散高光。"
+    }
+  }
+}

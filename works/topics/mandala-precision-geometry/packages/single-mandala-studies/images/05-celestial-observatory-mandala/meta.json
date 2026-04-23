@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, centered composition that looks like a celestial chart transformed into a mandala, rendered on midnight-blue parchment with brass instrument precision. Lighting should be even and low-glare, like an archive photograph of a historical scientific artifact, so thin metal lines, star nodes, and circular engravings remain sharp all the way from center to border.\n\nSubject:\nA cosmological mandala where planetary orbits, astrolabe rings, zodiac-inspired divisions, eclipse arcs, and constellational dots resolve into one strict radial design. The central sun-like disk anchors several nested circles of orbital geometry, while fine brass tracery connects outer houses, angular measurement marks without numerals, and tiny starbursts. The design should feel halfway between sacred diagram and observatory instrument: intellectually exact, visually luxurious, and unmistakably circular in logic. Colors stay disciplined: midnight blue, antique brass, ivory, and restrained touches of crimson.\n\nImportant details:\nThe image must suggest real astronomical reasoning rather than fantasy decoration. Preserve ring hierarchy, measured spacing, and legible radial sectors. Constellation nodes and orbital paths should enhance the symmetry, not dissolve it. Fine engraved detail is welcome, but every line must serve the overall geometric order. The viewer should recognize a difficult fusion of scientific realism and meditative pattern, with enough authenticity to feel like a plausible historical object from an advanced celestial culture.\n\nUse case:\nMandala Precision Geometry single study 5/8, testing whether astronomical instrument logic can become a coherent mandala without losing precision.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sci-fi interface glow, no modern UI overlays, no random galaxy background, no human figures, no illegible labels, no broken circular tracks, no horoscope kitsch.",
+  "id": "05-celestial-observatory-mandala",
+  "title": "Celestial Observatory Mandala",
+  "description": "A midnight-blue radial diagram combining astrolabe logic, orbital geometry, and sacred symmetry into one precise celestial mandala.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "pattern",
+    "scientific-realism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mandala-precision-geometry/packages/single-mandala-studies/images/05-celestial-observatory-mandala/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mandala study fusing observatory chart structure with concentric sacred geometry."
+  },
+  "i18n": {
+    "en": {
+      "title": "Celestial Observatory Mandala",
+      "description": "A midnight-blue radial diagram combining astrolabe logic, orbital geometry, and sacred symmetry into one precise celestial mandala."
+    },
+    "zh-CN": {
+      "title": "天象观测曼荼罗",
+      "description": "一张午夜蓝放射图，将星盘逻辑、轨道几何与神圣对称融合成精密的天体曼荼罗。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A celestial mandala of brass orbital rings and star nodes on midnight-blue parchment.",
+      "zh-CN": "一张绘于午夜蓝底上的天体曼荼罗，由黄铜轨道环与星点节点构成。"
+    }
+  }
+}

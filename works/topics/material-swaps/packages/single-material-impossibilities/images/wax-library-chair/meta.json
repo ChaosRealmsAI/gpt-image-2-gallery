@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square cinematic interior photograph of an ornate reading chair in a quiet old library, but the entire chair is made from dark red sealing wax. Warm lamplight falls from one side, causing slight softening near the arms, while the background bookshelves remain blurred and contain no readable spines. The chair sits on a polished wooden floor with a heavy shadow.\n\nSubject:\nA high-backed tufted library chair with rolled arms, carved legs, nailhead-like details, cushion seams, and button depressions, all formed from glossy red wax. The seat has subtle sag, the arms show softened finger-like ridges, and carved leg details droop at the warmest points. Small cooled wax drips hang below the upholstery seams, and a few cracks reveal darker wax inside.\n\nImportant details:\nThe chair should remain usable-looking but visibly unstable under heat and weight. Wax must define the physics: glossy highlights, translucent thick edges, softened relief, slow drips, sagging cushions, fingerprints, cooled ripples, and brittle cracks in colder thin areas. Keep the library mood grounded and photoreal, with accurate contact shadows and reflections on the wood floor. Do not make the object look like red leather or polished plastic.\n\nUse case:\nMaterial Swaps single study 6/8, testing wax material behavior on an upholstered furniture form.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable book titles, no leather chair, no plastic toy, no open flame, no human figure, no melted puddle replacing the chair, no fantasy castle decor, no brand embossing.",
+  "id": "wax-library-chair",
+  "title": "Wax Library Chair",
+  "description": "A high-backed library chair made from dark red wax, with sagging upholstery, glossy drips, and heat-softened edges.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/wax-library-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for wax heat response and furniture shape."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wax Library Chair",
+      "description": "A high-backed library chair made from dark red wax, with sagging upholstery, glossy drips, and heat-softened edges."
+    },
+    "zh-CN": {
+      "title": "蜡制图书馆椅",
+      "description": "一把由暗红封蜡制成的高背图书馆椅,带下陷软包、光亮蜡滴和受热软化边缘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A dark red wax library chair softening under warm lamplight.",
+      "zh-CN": "一把暗红蜡制图书馆椅在暖灯下微微软化。"
+    }
+  }
+}

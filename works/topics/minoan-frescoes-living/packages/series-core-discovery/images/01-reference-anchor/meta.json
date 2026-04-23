@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary image composed like a premium archaeology magazine feature. Use sea blue, red ochre, chalk white, warm plaster cream, and sun-washed Mediterranean highlights. Frame a restored Minoan palace room with lively fresco bands, dolphin imagery, and painted architectural surfaces that feel newly uncovered with crisp depth layering, restrained contrast, and subtle atmospheric depth so the scene feels excavated, observed, and historically grounded rather than theatrical or game-like. Keep the light directional but believable, as if captured during a careful field visit.\n\nSubject:\nCenter the image on a restored Minoan palace room with lively fresco bands, dolphin imagery, and painted architectural surfaces that feel newly uncovered. Include culturally accurate surface logic, region-specific setting, and believable human-scale cues in stairs, doorways, cut blocks, relief edges, or water depth. Shapes, carvings, masonry joints, and site wear should feel studied from real archaeology, with no generic ancient-world mashup and no ornamental filler borrowed from another civilization.\n\nImportant details:\nKeep the room recognizably Minoan, with fluid marine motifs, elegant fresco cadence, red and blue pigment behavior, and Bronze Age architectural forms rather than later classical Greek systems. Emphasize painted plaster, smooth lime surfaces, mineral pigments, polished stone floors, column fragments, and salt-softened wall edges. Keep inscriptions, painted registers, symbolic motifs, or carved bands visually plausible but not readable. Preserve a museum-grade balance between beauty and evidence: light should reveal relief depth, edge wear, repairs, sediment traces, and excavation context without turning the site into fantasy spectacle. The composition should feel like a definitive reference frame that later variations can inherit exactly.\n\nUse case:\nMinoan Frescoes Living Again series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Roman statues, no Renaissance furniture, no fantasy palaces, no modern gallery labels, no tourists, no anachronistic props, no collage layout, no exaggerated fantasy lighting.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Minoan Frescoes.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/minoan-frescoes-living/packages/series-core-discovery/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the discovery fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Minoan Frescoes."
+    },
+    "zh-CN": {
+      "title": "参考锚点",
+      "description": "建立系列基准遗址身份与视觉规则的核心参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A restored Minoan room glows with dolphins, red ochre figures, and fresh plaster color.",
+      "zh-CN": "米诺斯壁画相关研究图像。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mexican-street-graphics-and-taqueria-language",
+  "slug": "mexican-street-graphics-and-taqueria-language",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Mexican Street Graphics and Taqueria Language",
+  "short_title": "Taqueria Style",
+  "description": "A Prompt Atlas theme for Mexican Street Graphics and Taqueria Language, testing style-transfer, commercial-mockup, world-knowledge with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Mexican Street Graphics and Taqueria Language",
+      "short_title": "Taqueria Style",
+      "description": "Translate Mexican street graphics and taqueria language into commercial systems with tile color and food-culture specificity."
+    },
+    "zh-CN": {
+      "title": "墨西哥街头图文与 taqueria 语汇",
+      "short_title": "墨西哥街头",
+      "description": "把墨西哥街头图文和 taqueria 语言转成商业系统，强调瓷砖色彩和餐饮文化 specificity。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

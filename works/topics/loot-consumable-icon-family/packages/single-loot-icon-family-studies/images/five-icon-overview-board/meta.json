@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame an overview board arranging the loot icon family into one polished system sheet with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on an overview board arranging the loot icon family into one polished system sheet. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Loot Consumable Icon Family. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nspacing, rarity cues, and category separation should make the family feel immediately usable by a UI team. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nLoot Consumable Icon Family single study 6/9, focused on five icon overview board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no placeholder text, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "five-icon-overview-board",
+  "title": "Five Icon Overview Board",
+  "description": "Five Icon Overview Board for Loot Consumable Icon Family, designed as part of the loot icon family studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/loot-consumable-icon-family/packages/single-loot-icon-family-studies/images/five-icon-overview-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Five Icon Overview Board",
+      "description": "Five Icon Overview Board for Loot Consumable Icon Family, designed as part of the loot icon family studies."
+    },
+    "zh-CN": {
+      "title": "五图标总览板",
+      "description": "五图标总览板，属于 战利品与消耗品图标家族 的 道具图标系统研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Five Icon Overview Board image from the Loot Consumable Icon Family package.",
+      "zh-CN": "战利品与消耗品图标家族 中的五图标总览板图像。"
+    }
+  }
+}

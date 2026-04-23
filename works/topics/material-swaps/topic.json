@@ -1,0 +1,49 @@
+{
+  "id": "material-swaps",
+  "slug": "material-swaps",
+  "category": "illustration",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Material Swaps",
+  "short_title": "Material Swap",
+  "description": "A Prompt Atlas theme for physically believable objects rebuilt from unexpected materials, testing light, weight, surface texture, and structural plausibility.",
+  "i18n": {
+    "en": {
+      "title": "Material Swaps",
+      "short_title": "Material Swap",
+      "description": "A Prompt Atlas theme for physically believable objects rebuilt from unexpected materials, testing light, weight, surface texture, and structural plausibility."
+    },
+    "zh-CN": {
+      "title": "材质错位",
+      "short_title": "材质错位",
+      "description": "测试把熟悉物体重构为异常材质时的物理可信度: 光照、重量、表面纹理、边缘和结构强度。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 105,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "physics-materials",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-material-impossibilities",
+      "type": "single",
+      "title": "Material Impossibilities",
+      "path": "packages/single-material-impossibilities/package.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square editorial craft photograph of a small townhouse facade built entirely from knitted yarn, standing on a pale tabletop against a soft daylight studio backdrop. The camera is straight-on with slight depth, like an architectural model portrait. Warm natural light from the left reveals loops, shadows, and fuzzy fiber edges.\n\nSubject:\nA three-story narrow townhouse with bay windows, front steps, cornice, chimney, shutters, brick-like wall pattern, and a tiny door, all knitted from thick wool yarn. The brick courses are represented by alternating knit rows, windows are soft dark stitched recesses, roof tiles are ribbed yarn bands, and the chimney leans slightly because the material is flexible. Loose threads and visible seams appear at corners.\n\nImportant details:\nThe material swap must affect structure. The townhouse should keep architectural readability while behaving like textile: rounded corners instead of hard masonry, sagging window frames, soft compressed base, fuzzy yarn halo, stitched seams, color variations between yarn strands, and small gaps where knit loops stretch. Avoid making it a toy house merely wrapped in fabric; every brick, roof ridge, and trim element should be knitted construction.\n\nUse case:\nMaterial Swaps single study 3/8, testing whether an architectural facade can become a physically plausible knitted object.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dollhouse plastic, no printed brick texture, no hard stone edges, no human hands, no sewing labels, no cartoon proportions, no impossible razor-sharp yarn details, no cluttered craft table.",
+  "id": "knitted-townhouse",
+  "title": "Knitted Townhouse",
+  "description": "A townhouse facade built from wool yarn, with knitted bricks, soft windows, seams, and sagging structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "running",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/knitted-townhouse/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for yarn microtexture and soft architecture."
+  },
+  "i18n": {
+    "en": {
+      "title": "Knitted Townhouse",
+      "description": "A townhouse facade built from wool yarn, with knitted bricks, soft windows, seams, and sagging structure."
+    },
+    "zh-CN": {
+      "title": "毛线洋房",
+      "description": "一座由毛线编成的联排小楼,带编织砖纹、柔软窗框、接缝和下垂结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A small townhouse facade knitted from wool yarn with soft brick-like rows.",
+      "zh-CN": "一座由羊毛线编织的小型联排房屋立面,带柔软砖纹行列。"
+    }
+  }
+}

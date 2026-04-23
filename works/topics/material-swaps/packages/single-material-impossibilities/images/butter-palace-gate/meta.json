@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal studio museum shot of a miniature imperial palace gate carved entirely from butter, placed on a chilled black stone plinth under soft overhead light. The camera is slightly low and close, so the gate feels monumental despite its tabletop scale. Cool condensation hangs near the base, and the background is a dark neutral gallery wall.\n\nSubject:\nThe subject is a recognizable ornate palace gate form with layered roofs, bracket sets, columns, stair edges, ridge ornaments, and carved panels, but every part is made from pale yellow butter. The roof corners sag slightly, thin decorative edges soften, and tiny knife marks, creamy ridges, and glossy melt highlights reveal the material. Small droplets collect where warm light touches sharp carvings.\n\nImportant details:\nThe swap must be physical, not just yellow architecture. Butter should control all behavior: softened corners, low structural stiffness, oily sheen, translucent thin edges, melt trails, fingerprints, and chilled support contact. Keep the architectural silhouette readable while showing that fine details are at the limit of what butter can hold. Lighting should reveal creamy subsurface scattering and soft contact shadows on the black plinth.\n\nUse case:\nMaterial Swaps single study 1/8, testing whether monumental architecture can remain recognizable while obeying butter material physics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real landmark label, no plastic model look, no golden metal, no dry stone texture, no fantasy glow, no extra people, no food plate styling, no collapsed unreadable blob.",
+  "id": "butter-palace-gate",
+  "title": "Butter Palace Gate",
+  "description": "A miniature palace gate carved from butter, with believable melting, softness, and oily highlights.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/butter-palace-gate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study focused on butter softness and architectural readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Butter Palace Gate",
+      "description": "A miniature palace gate carved from butter, with believable melting, softness, and oily highlights."
+    },
+    "zh-CN": {
+      "title": "黄油宫门",
+      "description": "一座由黄油雕成的微缩宫门,呈现可信的融化、柔软边缘和油润高光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A miniature ornate palace gate carved from pale butter on a black plinth.",
+      "zh-CN": "一座由淡黄色黄油雕成的精细微缩宫门,放在黑色台座上。"
+    }
+  }
+}

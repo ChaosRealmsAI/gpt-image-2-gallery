@@ -1,0 +1,53 @@
+{
+  "id": "marketplace-main-image-system",
+  "slug": "marketplace-main-image-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Marketplace Main Image System",
+  "short_title": "Main Images",
+  "description": "A Prompt Atlas theme for Marketplace Main Image System, testing commercial-mockup, photorealism, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Marketplace Main Image System",
+      "short_title": "Main Images",
+      "description": "Create high-conversion marketplace main images that clarify product, bundle contents, and instant appeal."
+    },
+    "zh-CN": {
+      "title": "电商主图系统",
+      "short_title": "电商主图",
+      "description": "做高转化电商主图，强调产品识别和首屏吸引力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

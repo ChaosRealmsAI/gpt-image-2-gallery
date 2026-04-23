@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square museum-style object photograph of a Gothic cathedral model made from ivory lace, suspended just above a dark slate base so its shadow reveals the openwork structure. The lighting is cool and directional, grazing across towers, arches, and lace threads. The background is deep gray with a slight vignette, keeping attention on the fragile architecture.\n\nSubject:\nA cathedral with twin spires, pointed arches, rose window, flying buttresses, ribbed nave roof, and carved doorway forms, all constructed from layered lace. The walls are open mesh, the windows are floral lace medallions, and buttresses are stiffened thread bands. Some towers curve slightly under tension, and tiny stitched knots replace stone details. The lace is off-white, with subtle translucency and thread shadows.\n\nImportant details:\nThe building must obey lace physics: tensile thread networks, delicate negative space, flexible edges, pinned or stiffened load-bearing lines, and soft sag between structural points. Keep Gothic silhouette readable without making it solid stone. Light should pass through lace holes and cast patterned shadows on the base. The material should feel handmade, with varied thread thickness, knots, uneven tension, and slight fraying at selected edges.\n\nUse case:\nMaterial Swaps single study 4/8, testing lace as a structural architectural material with believable translucency and tension.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no solid marble cathedral, no paper cutout, no wedding dress scene, no people, no stained glass colors, no fantasy glow, no perfectly rigid lace, no broken unreadable silhouette.",
+  "id": "lace-cathedral",
+  "title": "Lace Cathedral",
+  "description": "A Gothic cathedral model constructed from ivory lace, with openwork walls and patterned shadows.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "material-swap",
+    "physics-materials",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/material-swaps/packages/single-material-impossibilities/images/lace-cathedral/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent material-swap study for lace tension and architectural form."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lace Cathedral",
+      "description": "A Gothic cathedral model constructed from ivory lace, with openwork walls and patterned shadows."
+    },
+    "zh-CN": {
+      "title": "蕾丝教堂",
+      "description": "一座由象牙色蕾丝构成的哥特教堂模型,带镂空墙体和花纹投影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "An ivory lace Gothic cathedral model casting delicate patterned shadows.",
+      "zh-CN": "一座象牙色蕾丝哥特教堂模型,投下精细花纹阴影。"
+    }
+  }
+}

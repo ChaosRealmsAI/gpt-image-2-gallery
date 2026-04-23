@@ -1,0 +1,53 @@
+{
+  "id": "manga-cover-and-spread-system",
+  "slug": "manga-cover-and-spread-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Manga Cover and Spread System",
+  "short_title": "Cover Spread",
+  "description": "A Prompt Atlas theme for Manga Cover and Spread System, testing structured-layout, commercial-mockup, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Manga Cover and Spread System",
+      "short_title": "Cover Spread",
+      "description": "Create a cover plus interior spread system that sells genre, cast, and dramatic stakes at publication quality."
+    },
+    "zh-CN": {
+      "title": "漫画封面与跨页系统",
+      "short_title": "漫画封面",
+      "description": "做漫画封面加跨页系统，强调出版级完成度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}
