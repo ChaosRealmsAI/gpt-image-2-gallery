@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square information-board concept with clean vertical columns, stacked horizontal modules, and a subtle atmospheric color field behind the layout. It should feel like a schedule board designed by a festival art team, not a spreadsheet or transit timetable.\n\nSubject:\nThe subject is a modular board system where artist slots, stage lanes, and time bands are expressed as abstract non-readable blocks. The card should hint at genuine festival complexity while remaining visually inviting and campaign-consistent.\n\nImportant details:\nUse structure as the hero. Column rhythm, spacing, and color zoning should communicate logic even without words. The result needs to feel like a real operational surface that still belongs to the same glamorous festival identity, bridging utility and brand tone.\n\nUse case:\nFestival Lineup single study 9/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable timetable text, no sponsor strip, no corporate dashboard styling, no mobile app frame, no cluttered icon legend",
+  "id": "schedule-board-study",
+  "title": "Schedule Board Study",
+  "description": "A modular schedule-board concept that turns timetable logic into a polished non-readable festival information surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/single-festival-cutdowns/images/schedule-board-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent schedule-board study for the festival lineup theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Schedule Board Study",
+      "description": "A modular schedule-board concept that turns timetable logic into a polished non-readable festival information surface."
+    },
+    "zh-CN": {
+      "title": "日程板研究",
+      "description": "日程板研究，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A modular festival schedule board using clean abstract columns and atmospheric stage-light color.",
+      "zh-CN": "日程板研究视觉图。"
+    }
+  }
+}

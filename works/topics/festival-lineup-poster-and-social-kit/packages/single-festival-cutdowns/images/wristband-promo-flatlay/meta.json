@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square top-down product photograph of woven festival wristbands, laminated passes, and translucent pouches arranged on a dark textured surface with subtle reflected light. The materials should feel tactile and realistic, with weave detail, plastic gloss, and soft shadow.\n\nSubject:\nThe object family carries an invented festival identity through gradient color bands, stage-light cues, and abstract modular fields where dates or tiers could appear later. It should feel like true festival access collateral, but entirely non-branded and non-verbal.\n\nImportant details:\nThe goal is practical desirability. Use rich material response, disciplined spacing, and a clear campaign palette so the set reads as one event family. Avoid turning it into a generic merch photo; it should still belong to a premium lineup rollout and hint at music energy.\n\nUse case:\nFestival Lineup single study 6/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable barcodes, no sponsor names, no cheap novelty colors, no extra desk clutter, no unrelated apparel items",
+  "id": "wristband-promo-flatlay",
+  "title": "Wristband Promo Flatlay",
+  "description": "A wristband and pass flat lay translating festival identity into tactile event-access objects.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/single-festival-cutdowns/images/wristband-promo-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent wristband-object study for the festival lineup theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Wristband Promo Flatlay",
+      "description": "A wristband and pass flat lay translating festival identity into tactile event-access objects."
+    },
+    "zh-CN": {
+      "title": "腕带宣传平铺",
+      "description": "腕带宣传平铺，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A flat lay of festival wristbands and passes using atmospheric gradient color and abstract lineup modules.",
+      "zh-CN": "腕带宣传平铺视觉图。"
+    }
+  }
+}

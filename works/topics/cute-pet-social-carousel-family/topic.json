@@ -1,0 +1,50 @@
+{
+  "id": "cute-pet-social-carousel-family",
+  "slug": "cute-pet-social-carousel-family",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "title": "Cute Pet Social Carousel Family",
+  "short_title": "Pet Carousel",
+  "description": "Build cute-pet social carousels around routines, reactions, seasonal outfits, and daily rituals.",
+  "i18n": {
+    "en": {
+      "title": "Cute Pet Social Carousel Family",
+      "short_title": "Pet Carousel",
+      "description": "Build cute-pet social carousels around routines, reactions, seasonal outfits, and daily rituals."
+    },
+    "zh-CN": {
+      "title": "萌宠社媒轮播家族",
+      "short_title": "萌宠轮播",
+      "description": "做萌宠社媒轮播家族，围绕日常 ritual、反应和季节装扮。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 420,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-pet-social-carousel-studies",
+      "type": "single",
+      "title": "Pet Social Carousel Studies",
+      "path": "packages/single-pet-social-carousel-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-gacha-support-assets",
+  "type": "single",
+  "title": "Gacha Support Assets",
+  "description": "Five independent gacha support images for strip layouts, pool boards, and social surfaces.",
+  "creative_direction": "Extend the same summon event into support surfaces that still feel coherent, premium, and highly convertible.",
+  "cover_image": "images/pool-lineup-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Gacha Support Assets",
+      "description": "Five independent gacha support images for strip layouts, pool boards, and social surfaces."
+    },
+    "zh-CN": {
+      "title": "卡池运营延展",
+      "description": "五张独立卡池延展资产，用于卡条、总览板与社媒传播。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "pool-lineup-board",
+      "title": "Pool Lineup Board",
+      "image": "images/pool-lineup-board/image.png",
+      "meta": "images/pool-lineup-board/meta.json"
+    },
+    {
+      "id": "summon-portal-closeup",
+      "title": "Summon Portal Closeup",
+      "image": "images/summon-portal-closeup/image.png",
+      "meta": "images/summon-portal-closeup/meta.json"
+    },
+    {
+      "id": "featured-card-frame-study",
+      "title": "Featured Card Frame Study",
+      "image": "images/featured-card-frame-study/image.png",
+      "meta": "images/featured-card-frame-study/meta.json"
+    },
+    {
+      "id": "social-promo-square",
+      "title": "Social Promo Square",
+      "image": "images/social-promo-square/image.png",
+      "meta": "images/social-promo-square/meta.json"
+    },
+    {
+      "id": "reward-reveal-capsule",
+      "title": "Reward Reveal Capsule",
+      "image": "images/reward-reveal-capsule/image.png",
+      "meta": "images/reward-reveal-capsule/meta.json"
+    }
+  ]
+}

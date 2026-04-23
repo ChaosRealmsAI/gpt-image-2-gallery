@@ -1,0 +1,71 @@
+{
+  "id": "series-neon-railway-saga",
+  "type": "series",
+  "title": "Neon Railway Saga",
+  "description": "A reference-dependent fictional sci-fi poster campaign: one key art poster establishes title typography, hero, train, date, and studio mark, followed by three campaign variants.",
+  "creative_direction": "This package tests whether a fictional IP can retain release-campaign identity across multiple poster formats. Image 01 establishes the title lockup and hero world; images 02-04 reuse the same fictional brand language, protagonist, vehicle, and copy hierarchy.",
+  "cover_image": "images/01-key-art-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-key-art-poster/meta.json",
+      "images/02-teaser-poster/meta.json",
+      "images/03-character-one-sheet/meta.json",
+      "images/04-premiere-wall-poster/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Neon Railway Saga",
+      "description": "One fictional sci-fi key art poster expands into three campaign variants with consistent title, hero, and release copy."
+    },
+    "zh-CN": {
+      "title": "霓虹铁路传奇系列",
+      "description": "一张虚构科幻主视觉海报扩展成三张保持标题、主角和发布文案一致的系列海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-key-art-poster",
+      "title": "Key Art Poster",
+      "image": "images/01-key-art-poster/image.png",
+      "meta": "images/01-key-art-poster/meta.json"
+    },
+    {
+      "id": "02-teaser-poster",
+      "title": "Teaser Poster",
+      "image": "images/02-teaser-poster/image.png",
+      "meta": "images/02-teaser-poster/meta.json"
+    },
+    {
+      "id": "03-character-one-sheet",
+      "title": "Character One Sheet",
+      "image": "images/03-character-one-sheet/image.png",
+      "meta": "images/03-character-one-sheet/meta.json"
+    },
+    {
+      "id": "04-premiere-wall-poster",
+      "title": "Premiere Wall Poster",
+      "image": "images/04-premiere-wall-poster/image.png",
+      "meta": "images/04-premiere-wall-poster/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square gala-night poster set inside a modernist hall with towering amber windows, reflective marble, and soft black-tie lighting that mixes warm gold with pockets of deep graphite shadow. The composition should look like a premium closing-night variant from the same festival campaign: polished, spacious, slightly more luminous than the reference, and clearly designed for serious cinema packaging rather than celebrity-event photography.\n\nSubject:\nUsing the referenced image as the continuity anchor, preserve the same six characters, their hierarchy, silhouette rhythm, and tension map from image 01. They should occupy nearly the same relative positions, but now interact with window reflections and evening formalwear details such as satin lapels, long gloves, lacquered shoes, and dark jewel tones. The tired heir remains centered in emotional focus, the strategist still controls the upper register, the matriarch and bodyguard remain opposing pillars, the prodigy stays close to the lower edge, and the witness keeps her slight separation.\n\nImportant details:\nThis image should prove campaign-level consistency across lighting upgrades. Keep faces, hair shapes, costume motifs, and gaze directions stable enough that all four series posters feel like one awards push. Use reflected window geometry, controlled highlights, and reserved negative space to imply festival prestige. Avoid luxury-brand ad excess; the image should still feel like an austere competition film poster with fandom-coded characters translated into adult cinematic language.\n\nUse case:\nFestival Poster Fandom Crossover series study 4/9, testing whether the same ensemble can survive a warmer, more luminous gala-night packaging variant.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no red-carpet paparazzi chaos, no sparkling confetti, no cast rearrangement, no fashion-editorial flirtiness, no overexposed gold glare, no simplified faces, no blockbuster action props.",
+  "id": "04-gala-window",
+  "title": "Gala Window",
+  "description": "A gala-night variant preserving the same cast hierarchy with warmer reflective lighting.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/04-gala-window/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-velvet-reference",
+        "meta_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/meta.json",
+        "image_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference cast poster to keep identity and spacing stable in a warm gala-night variant."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gala Window",
+      "description": "A gala-night variant preserving the same cast hierarchy with warmer reflective lighting."
+    },
+    "zh-CN": {
+      "title": "晚宴橱窗版",
+      "description": "一张暖色反射光下的闭幕夜海报，延续同一组角色层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "The same six-character ensemble stands in front of towering amber windows for a gala-night festival poster.",
+      "zh-CN": "同一组六位角色站在高耸琥珀色窗前，形成一张闭幕夜影展海报。"
+    }
+  }
+}

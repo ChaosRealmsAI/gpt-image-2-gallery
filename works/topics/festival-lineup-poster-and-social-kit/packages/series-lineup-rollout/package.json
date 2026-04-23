@@ -1,0 +1,71 @@
+{
+  "id": "series-lineup-rollout",
+  "type": "series",
+  "title": "Lineup Rollout Sequence",
+  "description": "A festival lineup sequence that establishes one poster grammar and adapts it into square crops and social cutdowns without losing hierarchy.",
+  "creative_direction": "The root image defines a lineup-poster system with stacked performer tiers, stage-energy atmosphere, and non-readable headliner blocks. The following images preserve the same artist-stack logic and color system while adapting for different social surfaces.",
+  "cover_image": "images/01-reference-lineup-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-lineup-poster/meta.json",
+      "images/02-square-artist-stack/meta.json",
+      "images/03-day-split-card/meta.json",
+      "images/04-night-headliner-card/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-lineup-poster first. Use its runtime result URL as --ref for 02-square-artist-stack, 03-day-split-card, 04-night-headliner-card. Queue may run 02-square-artist-stack, 03-day-split-card, 04-night-headliner-card concurrently after 01-reference-lineup-poster is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lineup Rollout Sequence",
+      "description": "A festival lineup sequence that establishes one poster grammar and adapts it into square crops and social cutdowns without losing hierarchy."
+    },
+    "zh-CN": {
+      "title": "阵容发布序列",
+      "description": "建立音乐节 lineup 的主海报语法，再延展成社媒 cutdown。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-lineup-poster",
+      "title": "Reference Lineup Poster",
+      "image": "images/01-reference-lineup-poster/image.png",
+      "meta": "images/01-reference-lineup-poster/meta.json"
+    },
+    {
+      "id": "02-square-artist-stack",
+      "title": "Square Artist Stack",
+      "image": "images/02-square-artist-stack/image.png",
+      "meta": "images/02-square-artist-stack/meta.json"
+    },
+    {
+      "id": "03-day-split-card",
+      "title": "Day Split Card",
+      "image": "images/03-day-split-card/image.png",
+      "meta": "images/03-day-split-card/meta.json"
+    },
+    {
+      "id": "04-night-headliner-card",
+      "title": "Night Headliner Card",
+      "image": "images/04-night-headliner-card/image.png",
+      "meta": "images/04-night-headliner-card/meta.json"
+    }
+  ]
+}

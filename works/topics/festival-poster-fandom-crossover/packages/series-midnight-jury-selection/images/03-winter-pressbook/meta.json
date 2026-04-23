@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square winter festival poster photographed outside a historic cinema facade after light snowfall, with cold blue daylight, smoked-glass doors, damp stone steps, and a restrained black, ivory, steel, and muted crimson palette. The composition should feel like a pressbook cover or jury-screening key art: elegant, sparse, heavy with atmosphere, and disciplined enough that blank design zones emerge naturally without any real typography.\n\nSubject:\nUsing the referenced ensemble as the primary continuity source, preserve the same six characters, their height order, their dominant silhouettes, and their emotional geometry from image 01. Re-dress them in heavier winter layers, wool, leather gloves, dark coats, and one controlled crimson accent, but do not lose character identity. The central heir remains isolated yet important, the strategist still reads as the silent controller, the matriarch and bodyguard still form opposing vertical anchors, the prodigy stays low in frame, and the witness still adds ambiguity through a slight off-axis pose.\n\nImportant details:\nThe difficult part is maintaining cast continuity under a colder, more austere packaging system. Faces and costume signatures must remain recognizable even with winter styling and flatter daylight. Keep the festival-poster language premium and restrained: subtle reflective pavement, a few snow traces, precise negative space, and the feeling of serious awards-circuit marketing rather than fantasy concept art. The image must read as prestigious and human, not action-forward.\n\nUse case:\nFestival Poster Fandom Crossover series study 3/9, testing cast continuity and prestige packaging under a cold winter pressbook treatment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no action scene energy, no dramatic snowfall storm, no costume redesign that erases identities, no busy city traffic, no broad smiles, no shallow depth blur hiding faces, no posterized comic shading.",
+  "id": "03-winter-pressbook",
+  "title": "Winter Pressbook",
+  "description": "A cold pressbook-style ensemble poster that keeps the same cast geometry under winter styling.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/03-winter-pressbook/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-velvet-reference",
+        "meta_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/meta.json",
+        "image_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference ensemble while shifting the palette, weather, and wardrobe into a winter festival pressbook treatment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Winter Pressbook",
+      "description": "A cold pressbook-style ensemble poster that keeps the same cast geometry under winter styling."
+    },
+    "zh-CN": {
+      "title": "冬季场刊封面",
+      "description": "一张冬季影展场刊式群像海报，在冷调环境下保留同一角色结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "The same ensemble appears outside a historic cinema in winter, styled like a festival pressbook cover.",
+      "zh-CN": "同一组角色站在冬季老电影院前，构成一张影展场刊封面式海报。"
+    }
+  }
+}

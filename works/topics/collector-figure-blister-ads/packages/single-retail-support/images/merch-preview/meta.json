@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square retail-ready campaign visual for Collector Figure Blister Ads, combining cute character appeal with polished commercial presentation. The composition should feel like a high-finish launch board: crisp packaging edges, collectible object staging, clean shelf or poster context, and vivid but controlled color. It should be immediately legible from far away, but still dense with charming small details that reward closer inspection.\n\nSubject:\nBuild the image around Merch Preview, a frame that a merchandise-forward visual showing accessories, stickers, tags, or bonus items. Translate Build campaign-ready blister-pack and collector-toy advertisements featuring super-deformed characters, accessories, rarity cues, and retail-style packaging polish. into one lovable mascot, figure, or product system that feels ready for posters, boxes, stickers, inserts, or point-of-sale material. The result should feel like a fresh research image with clear commercial focus rather than random fan art. The main subject must remain unmistakable even when surrounded by accessories and display pieces.\n\nImportant details:\nCharm alone is not enough. Preserve clean silhouette recognition, convincing package construction, reliable prop scale, and structured layout logic so the image feels sellable. This theme studies commercial-mockup, style-transfer, structured-layout, photorealism through a production-ready visual system. Avoid noisy clutter; every secondary element should reinforce collectibility, retail desirability, or explainer clarity. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nCollector Figure Blister Ads single study 2/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no horror elements, no brand theft, no malformed packaging edges, no muddy mascot silhouette, no messy retail shelf, no chaotic prop overload.",
+  "id": "merch-preview",
+  "title": "Merch Preview",
+  "description": "Merch Preview for Collector Figure Blister Ads, a merchandise-forward visual showing accessories, stickers, tags, or bonus items.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer",
+    "single",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/collector-figure-blister-ads/packages/single-retail-support/images/merch-preview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Merch Preview",
+      "description": "Merch Preview for Collector Figure Blister Ads, a merchandise-forward visual showing accessories, stickers, tags, or bonus items."
+    },
+    "zh-CN": {
+      "title": "周边预览",
+      "description": "吸塑玩具广告 主题中的周边预览研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Merch Preview campaign image for Blister Ads.",
+      "zh-CN": "吸塑玩具广告 主题的周边预览画面。"
+    }
+  }
+}

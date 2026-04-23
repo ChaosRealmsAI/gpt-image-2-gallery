@@ -1,0 +1,58 @@
+{
+  "id": "single-fictional-release-posters",
+  "type": "single",
+  "title": "Fictional Release Posters",
+  "description": "Four independent fictional poster studies covering space drama, animated adventure, noir thriller, and family science-fantasy releases.",
+  "creative_direction": "Each poster is a self-contained fake IP campaign artifact with readable title, cast, date, and fictional studio system, stressing production-grade typography and release hierarchy without reference dependencies.",
+  "cover_image": "images/glass-orbit-poster/image.png",
+  "i18n": {
+    "en": {
+      "title": "Fictional Release Posters",
+      "description": "Four independent fictional poster studies covering space drama, animated adventure, noir thriller, and family science-fantasy releases."
+    },
+    "zh-CN": {
+      "title": "架空发布海报单图",
+      "description": "四张独立架空发布海报，覆盖太空剧情、动画冒险、黑色惊悚和家庭科幻奇想。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "glass-orbit-poster",
+      "title": "Glass Orbit Poster",
+      "image": "images/glass-orbit-poster/image.png",
+      "meta": "images/glass-orbit-poster/meta.json"
+    },
+    {
+      "id": "clockwork-harbor-poster",
+      "title": "Clockwork Harbor Poster",
+      "image": "images/clockwork-harbor-poster/image.png",
+      "meta": "images/clockwork-harbor-poster/meta.json"
+    },
+    {
+      "id": "salt-city-noir-poster",
+      "title": "Salt City Noir Poster",
+      "image": "images/salt-city-noir-poster/image.png",
+      "meta": "images/salt-city-noir-poster/meta.json"
+    },
+    {
+      "id": "moon-gardeners-poster",
+      "title": "Moon Gardeners Poster",
+      "image": "images/moon-gardeners-poster/image.png",
+      "meta": "images/moon-gardeners-poster/meta.json"
+    }
+  ]
+}

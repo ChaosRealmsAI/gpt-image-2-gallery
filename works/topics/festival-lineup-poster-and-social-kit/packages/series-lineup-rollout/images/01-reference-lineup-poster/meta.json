@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square festival lineup poster with a dramatic dusk-to-night atmosphere, layered haze, and broad stage-light color washing behind a stack of performer silhouettes. The composition should feel like a serious launch poster that can scale into social cutdowns, with clear tiering and modular zones for headliners, mid-tier acts, and support acts rendered as abstract non-readable bands.\n\nSubject:\nThe subject is the full lineup hierarchy itself: multiple performer silhouettes and portrait fragments arranged in tiers, one strong top line, then progressively smaller supporting layers, all anchored by a believable festival atmosphere. This root image must lock the exact hierarchy logic, color palette, panel spacing, and artist-stack behavior for the rest of the rollout.\n\nImportant details:\nTreat the festival as contemporary and premium rather than retro poster pastiche. Use layered depth, restrained glow, and subtle crowd-energy implication without showing a literal sea of people. The stacked lineup should feel instantly scannable and social-ready, with enough empty module space to support future day splits and crop changes.\n\nUse case:\nFestival Lineup series study 1/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable artist names, no sponsor logos, no giant beer branding, no literal schedule table, no crowd front row dominating the frame",
+  "id": "01-reference-lineup-poster",
+  "title": "Reference Lineup Poster",
+  "description": "A root lineup poster with tiered performer silhouettes, atmospheric stage energy, and a strong social-ready hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root lineup hierarchy for the festival social rollout sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Lineup Poster",
+      "description": "A root lineup poster with tiered performer silhouettes, atmospheric stage energy, and a strong social-ready hierarchy."
+    },
+    "zh-CN": {
+      "title": "基准阵容海报",
+      "description": "基准阵容海报，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A festival lineup poster with stacked artist tiers, stage-light haze, and abstract headliner blocks.",
+      "zh-CN": "基准阵容海报视觉图。"
+    }
+  }
+}

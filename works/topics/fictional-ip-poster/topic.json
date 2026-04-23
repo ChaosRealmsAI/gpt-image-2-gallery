@@ -1,0 +1,57 @@
+{
+  "id": "fictional-ip-poster",
+  "slug": "fictional-ip-poster",
+  "category": "design",
+  "style": [
+    "collage",
+    "photoreal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Fictional IP Poster",
+  "short_title": "IP Poster",
+  "description": "A Prompt Atlas theme for fictional release-grade movie and animation posters, testing text rendering, structured layout, and photorealistic poster design with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fictional IP Poster",
+      "short_title": "IP Poster",
+      "description": "A Prompt Atlas theme for fictional release-grade movie and animation posters, testing text rendering, structured layout, and photorealistic poster design with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "架空 IP 电影 / 动漫海报",
+      "short_title": "架空海报",
+      "description": "架空 IP 电影 / 动漫海报：虚构动漫或科幻片的发布级海报，测试标题字体、演员阵容、上映日期和虚构制片厂标识。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 110,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-neon-railway-saga",
+      "type": "series",
+      "title": "Neon Railway Saga",
+      "path": "packages/series-neon-railway-saga/package.json"
+    },
+    {
+      "id": "single-fictional-release-posters",
+      "type": "single",
+      "title": "Fictional Release Posters",
+      "path": "packages/single-fictional-release-posters/package.json"
+    }
+  ]
+}

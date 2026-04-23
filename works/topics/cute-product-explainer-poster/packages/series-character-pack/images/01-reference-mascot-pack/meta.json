@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square retail-ready campaign visual for Cute Product Explainer Poster, combining cute character appeal with polished commercial presentation. The composition should feel like a high-finish launch board: crisp packaging edges, collectible object staging, clean shelf or poster context, and vivid but controlled color. It should be immediately legible from far away, but still dense with charming small details that reward closer inspection.\n\nSubject:\nBuild the image around Reference Mascot Pack, a frame that defines the cute character silhouette, packaging shell, and retail color logic. Translate Use chibi or mascot characters to explain complex products, workflows, or features through playful yet commercially clear explainer posters. into one lovable mascot, figure, or product system that feels ready for posters, boxes, stickers, inserts, or point-of-sale material. The result should feel like a fresh research image with clear commercial focus rather than random fan art. The main subject must remain unmistakable even when surrounded by accessories and display pieces.\n\nImportant details:\nCharm alone is not enough. Preserve clean silhouette recognition, convincing package construction, reliable prop scale, and structured layout logic so the image feels sellable. This theme studies structured-layout, text-rendering, commercial-mockup, style-transfer through a production-ready visual system. Avoid noisy clutter; every secondary element should reinforce collectibility, retail desirability, or explainer clarity. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nCute Product Explainer Poster series study 1/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no horror elements, no brand theft, no malformed packaging edges, no muddy mascot silhouette, no messy retail shelf, no chaotic prop overload.",
+  "id": "01-reference-mascot-pack",
+  "title": "Reference Mascot Pack",
+  "description": "Reference Mascot Pack for Cute Product Explainer Poster, defines the cute character silhouette, packaging shell, and retail color logic.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer",
+    "series",
+    "text-rendering",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cute-product-explainer-poster/packages/series-character-pack/images/01-reference-mascot-pack/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series fanout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Mascot Pack",
+      "description": "Reference Mascot Pack for Cute Product Explainer Poster, defines the cute character silhouette, packaging shell, and retail color logic."
+    },
+    "zh-CN": {
+      "title": "基准角色包装",
+      "description": "Q版说明海报 主题中的基准角色包装研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "text-rendering",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Reference Mascot Pack campaign image for Cute Explainer.",
+      "zh-CN": "Q版说明海报 主题的基准角色包装画面。"
+    }
+  }
+}

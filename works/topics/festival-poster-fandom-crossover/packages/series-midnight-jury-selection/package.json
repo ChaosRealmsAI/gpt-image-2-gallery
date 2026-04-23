@@ -1,0 +1,72 @@
+{
+  "id": "series-midnight-jury-selection",
+  "type": "series",
+  "title": "Midnight Jury Selection",
+  "description": "A reference-dependent quartet that fixes one prestige ensemble arrangement, then reinterprets the same cast hierarchy through seaside, winter, and gala-window festival treatments.",
+  "creative_direction": "This package behaves like a true festival campaign system. Image 01 establishes the cast, spacing, gaze hierarchy, and luxury-poster grammar; images 02-04 must preserve those same identities and relationships while shifting location, season, and packaging tone.",
+  "cover_image": "images/01-velvet-reference/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-velvet-reference/meta.json",
+      "images/02-seaside-selection/meta.json",
+      "images/03-winter-pressbook/meta.json",
+      "images/04-gala-window/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Midnight Jury Selection",
+      "description": "A reference-dependent quartet that preserves one prestige ensemble arrangement across multiple festival-poster treatments."
+    },
+    "zh-CN": {
+      "title": "午夜评审团入围系列",
+      "description": "一组依赖参考图的影展海报系列，在不同包装版本中保留同一批角色的层级站位与关系张力。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "identity-consistency",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-velvet-reference",
+      "title": "Velvet Reference",
+      "image": "images/01-velvet-reference/image.png",
+      "meta": "images/01-velvet-reference/meta.json"
+    },
+    {
+      "id": "02-seaside-selection",
+      "title": "Seaside Selection",
+      "image": "images/02-seaside-selection/image.png",
+      "meta": "images/02-seaside-selection/meta.json"
+    },
+    {
+      "id": "03-winter-pressbook",
+      "title": "Winter Pressbook",
+      "image": "images/03-winter-pressbook/image.png",
+      "meta": "images/03-winter-pressbook/meta.json"
+    },
+    {
+      "id": "04-gala-window",
+      "title": "Gala Window",
+      "image": "images/04-gala-window/image.png",
+      "meta": "images/04-gala-window/meta.json"
+    }
+  ]
+}

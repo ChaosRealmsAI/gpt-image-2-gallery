@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square urban night photograph with one large illuminated billboard mounted above a street, glowing against dark buildings and light mist. The billboard should carry a premium festival lineup design language while the surrounding environment stays secondary and quiet.\n\nSubject:\nThe billboard displays stacked performer silhouettes, atmospheric beam light, and abstract lineup modules rather than readable names. It should feel like the large-scale public face of a festival campaign, translating social-card clarity into city-scale visibility.\n\nImportant details:\nUse billboard scale, wet air, and controlled city ambience to make the festival identity feel real and valuable. The image should capture both campaign prestige and music energy, but avoid brand clutter or unrelated advertising competition. One strong billboard is enough.\n\nUse case:\nFestival Lineup single study 8/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sponsor ads nearby, no readable billboard copy, no heavy traffic focal point, no crowd, no skyline spectacle that overpowers the billboard",
+  "id": "night-billboard-study",
+  "title": "Night Billboard Study",
+  "description": "A festival billboard deployment study showing lineup identity in a large-format nighttime city surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/single-festival-cutdowns/images/night-billboard-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent billboard-deployment study for the festival lineup theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Billboard Study",
+      "description": "A festival billboard deployment study showing lineup identity in a large-format nighttime city surface."
+    },
+    "zh-CN": {
+      "title": "夜间看板研究",
+      "description": "夜间看板研究，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A nighttime city billboard showing a premium festival lineup identity with atmospheric stage-light energy.",
+      "zh-CN": "夜间看板研究视觉图。"
+    }
+  }
+}

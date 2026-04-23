@@ -1,0 +1,74 @@
+{
+  "id": "series-character-pack",
+  "type": "series",
+  "title": "Character Pack",
+  "description": "A reference-led four-image series that keeps one cute character identity stable while packaging, props, and retail emphasis evolve.",
+  "creative_direction": "Use one anchor character package visual as the reference, then vary packaging scale, merchandising language, and supporting props while preserving silhouette and charm.",
+  "cover_image": "images/01-reference-mascot-pack/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-mascot-pack/meta.json",
+      "images/02-sticker-burst/meta.json",
+      "images/03-shelf-launch/meta.json",
+      "images/04-premium-collab-box/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-mascot-pack first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent images concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Character Pack",
+      "description": "A reference-led four-image series that keeps one cute character identity stable while packaging, props, and retail emphasis evolve."
+    },
+    "zh-CN": {
+      "title": "角色包装系列",
+      "description": "四张依赖同一角色基准图的系列研究，在身份稳定的前提下切换包装、道具和零售表达。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-mascot-pack",
+      "title": "Reference Mascot Pack",
+      "image": "images/01-reference-mascot-pack/image.png",
+      "meta": "images/01-reference-mascot-pack/meta.json"
+    },
+    {
+      "id": "02-sticker-burst",
+      "title": "Sticker Burst Variant",
+      "image": "images/02-sticker-burst/image.png",
+      "meta": "images/02-sticker-burst/meta.json"
+    },
+    {
+      "id": "03-shelf-launch",
+      "title": "Shelf Launch Variant",
+      "image": "images/03-shelf-launch/image.png",
+      "meta": "images/03-shelf-launch/meta.json"
+    },
+    {
+      "id": "04-premium-collab-box",
+      "title": "Premium Collab Box",
+      "image": "images/04-premium-collab-box/image.png",
+      "meta": "images/04-premium-collab-box/meta.json"
+    }
+  ]
+}

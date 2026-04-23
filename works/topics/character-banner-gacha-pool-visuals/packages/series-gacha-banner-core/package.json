@@ -1,0 +1,71 @@
+{
+  "id": "series-gacha-banner-core",
+  "type": "series",
+  "title": "Gacha Banner Core",
+  "description": "A four-image summon-banner system that keeps one pool identity consistent across featured conversion surfaces.",
+  "creative_direction": "Image 01 establishes the featured hero and pool mood. Images 02-04 preserve that same identity across banner, card strip, and splash surfaces.",
+  "cover_image": "images/01-reference-featured-banner/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-featured-banner/meta.json",
+      "images/02-rate-up-card-strip/meta.json",
+      "images/03-pity-explainer-crop/meta.json",
+      "images/04-summon-splash-poster/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-featured-banner first. Use its runtime result URL as --ref for 02-rate-up-card-strip, 03-pity-explainer-crop, 04-summon-splash-poster. Queue may run 02-rate-up-card-strip, 03-pity-explainer-crop, 04-summon-splash-poster concurrently after 01-reference-featured-banner is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gacha Banner Core",
+      "description": "A four-image summon-banner system that keeps one pool identity consistent across featured conversion surfaces."
+    },
+    "zh-CN": {
+      "title": "卡池横幅主线",
+      "description": "同一卡池在核心转化面上的四张召唤横幅系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-featured-banner",
+      "title": "Reference Featured Banner",
+      "image": "images/01-reference-featured-banner/image.png",
+      "meta": "images/01-reference-featured-banner/meta.json"
+    },
+    {
+      "id": "02-rate-up-card-strip",
+      "title": "Rate Up Card Strip",
+      "image": "images/02-rate-up-card-strip/image.png",
+      "meta": "images/02-rate-up-card-strip/meta.json"
+    },
+    {
+      "id": "03-pity-explainer-crop",
+      "title": "Pity Explainer Crop",
+      "image": "images/03-pity-explainer-crop/image.png",
+      "meta": "images/03-pity-explainer-crop/meta.json"
+    },
+    {
+      "id": "04-summon-splash-poster",
+      "title": "Summon Splash Poster",
+      "image": "images/04-summon-splash-poster/image.png",
+      "meta": "images/04-summon-splash-poster/meta.json"
+    }
+  ]
+}

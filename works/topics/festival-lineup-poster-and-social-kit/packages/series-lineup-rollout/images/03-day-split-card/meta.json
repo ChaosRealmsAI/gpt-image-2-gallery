@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square social card in the same festival world, now organized into clearer segmented blocks as if preparing a day split or format split. Atmospheric haze and stage lighting remain in the background, but the hierarchy is redistributed into cleaner compartments for a more structured communication surface.\n\nSubject:\nPreserve the same lineup identity, silhouette family, color palette, and non-readable artist-band language from the reference image. The act tiers are regrouped into structured modules that imply a day split without presenting a literal readable timetable.\n\nImportant details:\nThe challenge is to restructure without losing the main festival identity. Keep the same cinematic atmosphere, same performer-stack logic, and same premium social polish while introducing more explicit segmentation. It should feel like the same campaign team produced the root poster and this cutdown card in one coherent rollout.\n\nUse case:\nFestival Lineup series study 3/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the reference hierarchy cues; no readable day labels, no timetable grid, no sponsor logo strip, no ticket-button UI, no unrelated decorative stickers",
+  "id": "03-day-split-card",
+  "title": "Day Split Card",
+  "description": "A day-split social card preserving the lineup system while redistributing artist tiers into cleaner segmented modules.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/03-day-split-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-lineup-poster",
+        "meta_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/meta.json",
+        "image_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Day-split card depending on the root lineup poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Day Split Card",
+      "description": "A day-split social card preserving the lineup system while redistributing artist tiers into cleaner segmented modules."
+    },
+    "zh-CN": {
+      "title": "日程分组卡",
+      "description": "日程分组卡，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A festival day-split card preserving the lineup color system and modular artist hierarchy.",
+      "zh-CN": "日程分组卡视觉图。"
+    }
+  }
+}

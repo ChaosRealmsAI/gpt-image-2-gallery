@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square-framed premium website still designed for Cinematic Hardware Microsite. The image should feel like a cinematic hardware microsite captured at its most polished moment: controlled contrast, glossy but believable materials, deep atmosphere, and a disciplined web-art-direction rhythm. Use the square crop to show a complete webpage moment inside the frame, with clear zones for hero media, quiet non-legible interface rails, and elegant spacing rather than a flat generic UI.\n\nSubject:\nTranslate the same visual language into a scroll-like feature stack with alternating close product crops, supporting scene fragments, and restrained interface rails. Draw on this topic direction: Create cinematic microsite visuals for hardware launches, balancing immersive hero storytelling with readable spec sections and conversion modules. Use the theme focus \"电影感网页首屏 + 规格模块 + 场景演绎\" and the inspiration \"掌机、机械键盘、专业相机或桌面音箱新品的长页面网站首屏与内容区组合提案。\" as raw material, but render a fictional premium hardware launch rather than referencing any specific brand. Let the main object feel like a plausible camera, handheld console, keyboard, speaker, or audio device, depending on what best serves the composition. Preserve the reference product identity while shifting the composition into a modular narrative section with alternating hero crops and quieter feature reveals.\n\nImportant details:\nHonor the topic's core requirement: 比普通 landing page 更强调情绪化场景和硬件美学，但仍要有可读的网页结构。 Preserve premium product-photography realism, clean industrial design cues, layered web hierarchy, and the sense that the page could be sliced into multiple scroll sections. Reflect the frontier claim that ordinary models lose section rhythm and system cohesion in these complex commercial layouts; this image should instead keep the product silhouette, material finish, lighting logic, and module cadence unusually coherent. Success should feel aligned with these goals: 既有高级情绪图，也有真实网页 section 感; 产品外观、材质、配件和使用场景可信; 页面像可以切成多段长图或网页模块; 适合做科技品牌提案或 demo showcase.\n\nUse case:\nCinematic Hardware Microsite series study 2/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no random lorem ipsum, no cheap ecommerce clutter, no floating disconnected UI cards, no distorted product geometry, no extra hands unless the concept requires them.",
+  "id": "02-scroll-feature-rhythm",
+  "title": "Scroll Feature Rhythm",
+  "description": "A stacked feature section that translates the hero language into alternating product and lifestyle modules.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/02-scroll-feature-rhythm/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-scene",
+        "meta_path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/01-reference-hero-scene/meta.json",
+        "image_path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/01-reference-hero-scene/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series frame; wait for image 01 to finish and then inject its runtime result URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scroll Feature Rhythm",
+      "description": "A stacked feature section that translates the hero language into alternating product and lifestyle modules."
+    },
+    "zh-CN": {
+      "title": "滚动功能节奏",
+      "description": "把主视觉语言转成滚动功能段落的交替模块。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A stacked feature section that translates the hero language into alternating product and lifestyle modules.",
+      "zh-CN": "把主视觉语言转成滚动功能段落的交替模块。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square program-cover-style poster set on a quiet harbor seawall under overcast afternoon light, with enormous fog-softened silhouettes in the distance, wet concrete textures, gull-gray skies, and a refined palette of slate, rust, pearl, and sea green. The composition should feel like a printed festival program cover for a melancholy family drama, not like a disaster blockbuster. Reserve clean negative space and calm geometry suitable for invisible design treatment without readable text.\n\nSubject:\nCreate an original poster centered on a father and daughter from a giant-creature franchise world. The father, in a weatherproof municipal coat, stands near the seawall looking outward; the daughter, wearing headphones and carrying a model creature figurine in a paper bag, leans against the railing several feet away. Far behind them, colossal shoreline forms are visible only as distant ambiguous presences through fog. The emotional core is familial estrangement inside a city that has normalized monsters, not attack spectacle.\n\nImportant details:\nThe visual trick is to keep fandom-scale worldbuilding while maintaining festival restraint. The kaiju context should be communicated through scale, civic textures, and distant silhouettes rather than explosions. Human posture, weather realism, damp surfaces, and the awkward space between father and daughter must dominate. The result should feel like a believable Berlinale or Cannes program cover for a humane genre crossover.\n\nUse case:\nFestival Poster Fandom Crossover single study 8/9, testing whether a kaiju-family premise can read as restrained festival program packaging.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city destruction, no fireballs, no roaring monster close-up, no military vehicles, no comic-book chaos, no neon sci-fi glow, no tourist postcard harbor mood.",
+  "id": "kaiju-family-program-cover",
+  "title": "Kaiju Family Program Cover",
+  "description": "A restrained harbor poster turning a giant-creature family premise into a melancholy festival program cover.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/single-festival-poster-studies/images/kaiju-family-program-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent festival poster study translating a giant-creature family drama into a restrained program-cover image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Kaiju Family Program Cover",
+      "description": "A restrained harbor poster turning a giant-creature family premise into a melancholy festival program cover."
+    },
+    "zh-CN": {
+      "title": "怪兽家庭场刊封面",
+      "description": "一张克制的海港海报，把巨兽家庭题材转成忧郁的影展场刊封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A father and daughter stand on a foggy harbor seawall while distant colossal silhouettes loom softly behind them.",
+      "zh-CN": "父女站在雾气中的海港堤岸上，远处隐约浮现巨大生物的轮廓。"
+    }
+  }
+}

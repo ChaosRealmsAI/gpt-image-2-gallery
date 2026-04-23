@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square prestige-film poster staged inside a grand old theater lobby just after midnight, with velvet curtains, polished stone floors, deep plum shadows, and a controlled pool of amber light falling from above. The frame should feel like a real awards-season key art image: spacious, symmetrical enough to read as premium packaging, but with subtle asymmetry in pose and eye line. Leave natural zones where a designer could later place title blocks and laurel marks without needing actual readable text.\n\nSubject:\nPresent an original fictional ensemble of six fandom-coded characters arranged as if they are the cast of a serious competition drama. At center is a tired young heir in a black formal coat; behind him stands a silver-haired strategist; to one side a scarred matriarch in lacquered eveningwear; to the other side a masked bodyguard; below them a school-uniform prodigy seated on the stair edge; and slightly apart, a pearl-dressed witness looking away. Their spacing, height differences, and gaze directions must imply rivalry, loyalty, and hidden alliances rather than simple group portrait symmetry.\n\nImportant details:\nThis is the reference image for the series, so identity clarity and hierarchy matter more than spectacle. Faces, silhouettes, costume accents, and relative positions must be easy to preserve in later variants. The poster should feel festival-premium: restrained palette, expensive textures, faint ghosted laurel shapes, minimal prop count, dramatic negative space, and no fan-art chaos. The visual language must suggest prestige cinema packaging without any readable credits.\n\nUse case:\nFestival Poster Fandom Crossover series study 1/9, establishing the cast hierarchy and packaging grammar for a reference-dependent festival poster campaign.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no comic-book clutter, no floating character collage, no exaggerated action poses, no neon blockbuster lighting, no messy background extras, no duplicated faces, no broken anatomy.",
+  "id": "01-velvet-reference",
+  "title": "Velvet Reference",
+  "description": "A midnight theater ensemble poster that establishes the cast hierarchy for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference poster for the cast hierarchy, costume language, and festival packaging tone."
+  },
+  "i18n": {
+    "en": {
+      "title": "Velvet Reference",
+      "description": "A midnight theater ensemble poster that establishes the cast hierarchy for the series."
+    },
+    "zh-CN": {
+      "title": "天鹅绒基准海报",
+      "description": "一张午夜剧院群像海报，为整组系列建立角色层级与包装语法。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A serious six-character ensemble stands in a midnight theater lobby like an awards-season festival poster.",
+      "zh-CN": "六位角色站在午夜剧院大厅里，构成一张大奖季影展海报式群像。"
+    }
+  }
+}

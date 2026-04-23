@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square official-selection-style poster on the terrace of a faded seaside hotel at dawn, with pale mineral light, salt haze, stone balustrades, and a muted palette of sea gray, coral blush, cream, and charcoal. The frame should feel expensive and controlled, like a festival one-sheet photographed for the competition lineup, with enough empty breathing room for invisible branding blocks while remaining visually complete without text.\n\nSubject:\nUsing the referenced cast as the primary guide, preserve the same six characters, the same front-to-back hierarchy, the same approximate pose directions, and the same alliance tension from image 01. Move them onto the hotel terrace without scrambling their roles: the exhausted heir remains central, the strategist remains elevated, the matriarch and bodyguard still counterbalance each other, the prodigy still anchors the lower edge, and the witness still holds emotional distance. Their wardrobe should shift toward summer formal wear, wind-touched fabrics, and subtle coastal glamour while keeping the same identities.\n\nImportant details:\nThis image tests whether the model can keep commercial poster continuity while changing setting and seasonal mood. The premium festival grammar must stay intact: sparse layout, elegantly implied laurel areas, controlled reflections on stone and glass, disciplined facial continuity, and no crowding. The visual tone should feel like serious European festival packaging rather than beach fashion advertising or fan convention art.\n\nUse case:\nFestival Poster Fandom Crossover series study 2/9, preserving the reference cast arrangement while translating it into a pale seaside selection poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cast reshuffle, no extra characters, no sunny vacation vibe, no broad comedy expressions, no cheap travel-poster colors, no missing central heir, no broken costume continuity.",
+  "id": "02-seaside-selection",
+  "title": "Seaside Selection",
+  "description": "A dawn terrace selection poster preserving the reference ensemble hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/02-seaside-selection/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-velvet-reference",
+        "meta_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/meta.json",
+        "image_path": "works/topics/festival-poster-fandom-crossover/packages/series-midnight-jury-selection/images/01-velvet-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Keep the referenced ensemble identity and spacing while shifting the poster into a seaside official-selection mood."
+  },
+  "i18n": {
+    "en": {
+      "title": "Seaside Selection",
+      "description": "A dawn terrace selection poster preserving the reference ensemble hierarchy."
+    },
+    "zh-CN": {
+      "title": "海滨入围海报",
+      "description": "一张清晨海滨露台版影展海报，保留参考群像的层级与关系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "The same six-character festival ensemble stands on a pale seaside hotel terrace at dawn.",
+      "zh-CN": "同一组六位角色站在清晨海滨酒店露台上，形成一张克制的影展海报。"
+    }
+  }
+}

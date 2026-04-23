@@ -1,0 +1,56 @@
+{
+  "id": "festival-poster-fandom-crossover",
+  "slug": "festival-poster-fandom-crossover",
+  "category": "design",
+  "style": [
+    "collage",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Festival Poster Fandom Crossover",
+  "short_title": "Festival Crossover",
+  "description": "A Prompt Atlas theme for translating fandom-scale characters and ensemble drama into restrained award-festival poster systems with premium cinematic packaging.",
+  "i18n": {
+    "en": {
+      "title": "Festival Poster Fandom Crossover",
+      "short_title": "Festival Crossover",
+      "description": "A Prompt Atlas theme for translating fandom-scale characters and ensemble drama into restrained award-festival poster systems with premium cinematic packaging."
+    },
+    "zh-CN": {
+      "title": "影展海报式粉丝向跨界",
+      "short_title": "影展跨界海报",
+      "description": "测试把粉丝熟悉的角色关系和设定，压缩成真实影展海报的克制包装、层级站位和高级发行物料语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 140,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-midnight-jury-selection",
+      "type": "series",
+      "title": "Midnight Jury Selection",
+      "path": "packages/series-midnight-jury-selection/package.json"
+    },
+    {
+      "id": "single-festival-poster-studies",
+      "type": "single",
+      "title": "Festival Poster Studies",
+      "path": "packages/single-festival-poster-studies/package.json"
+    }
+  ]
+}

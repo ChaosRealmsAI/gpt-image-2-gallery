@@ -1,0 +1,64 @@
+{
+  "id": "single-matchday-support-assets",
+  "type": "single",
+  "title": "Matchday Support Assets",
+  "description": "Five independent broadcast and social assets extending the same esports matchday system.",
+  "creative_direction": "Use support assets to prove the matchday system can scale across lineups, recaps, and mobile-first tiles.",
+  "cover_image": "images/versus-banner-crop/image.png",
+  "i18n": {
+    "en": {
+      "title": "Matchday Support Assets",
+      "description": "Five independent broadcast and social assets extending the same esports matchday system."
+    },
+    "zh-CN": {
+      "title": "比赛日延展资产",
+      "description": "五张独立赛事转播与社媒延展资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "versus-banner-crop",
+      "title": "Versus Banner Crop",
+      "image": "images/versus-banner-crop/image.png",
+      "meta": "images/versus-banner-crop/meta.json"
+    },
+    {
+      "id": "broadcast-lower-third-board",
+      "title": "Broadcast Lower Third Board",
+      "image": "images/broadcast-lower-third-board/image.png",
+      "meta": "images/broadcast-lower-third-board/meta.json"
+    },
+    {
+      "id": "post-match-recap-poster",
+      "title": "Post Match Recap Poster",
+      "image": "images/post-match-recap-poster/image.png",
+      "meta": "images/post-match-recap-poster/meta.json"
+    },
+    {
+      "id": "social-highlight-tile",
+      "title": "Social Highlight Tile",
+      "image": "images/social-highlight-tile/image.png",
+      "meta": "images/social-highlight-tile/meta.json"
+    },
+    {
+      "id": "tournament-gallery-sheet",
+      "title": "Tournament Gallery Sheet",
+      "image": "images/tournament-gallery-sheet/image.png",
+      "meta": "images/tournament-gallery-sheet/meta.json"
+    }
+  ]
+}

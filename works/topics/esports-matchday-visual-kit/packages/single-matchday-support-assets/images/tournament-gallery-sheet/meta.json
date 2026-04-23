@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a gallery sheet that arranges the matchday asset family into one professional event toolkit overview with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a gallery sheet that arranges the matchday asset family into one professional event toolkit overview. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Esports Matchday Visual Kit. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nmake the kit feel flexible, fast, and cohesive across broadcast surfaces. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nEsports Matchday Visual Kit single study 5/5, focused on tournament gallery sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no sponsor grids, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "tournament-gallery-sheet",
+  "title": "Tournament Gallery Sheet",
+  "description": "Tournament Gallery Sheet for Esports Matchday Visual Kit, designed as part of the matchday support assets.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/esports-matchday-visual-kit/packages/single-matchday-support-assets/images/tournament-gallery-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Tournament Gallery Sheet",
+      "description": "Tournament Gallery Sheet for Esports Matchday Visual Kit, designed as part of the matchday support assets."
+    },
+    "zh-CN": {
+      "title": "赛事图库板",
+      "description": "赛事图库板，属于 赛事日视觉套件 的 比赛日延展资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "Tournament Gallery Sheet image from the Esports Matchday Visual Kit package.",
+      "zh-CN": "赛事日视觉套件 中的赛事图库板图像。"
+    }
+  }
+}

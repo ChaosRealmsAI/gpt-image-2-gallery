@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square-framed premium website still designed for Cinematic Hardware Microsite. The image should feel like a cinematic hardware microsite captured at its most polished moment: controlled contrast, glossy but believable materials, deep atmosphere, and a disciplined web-art-direction rhythm. Use the square crop to show a complete webpage moment inside the frame, with clear zones for hero media, quiet non-legible interface rails, and elegant spacing rather than a flat generic UI.\n\nSubject:\nFocus on tactile industrial detail, precision seams, and spec-zone rhythm so the page still feels cinematic while becoming more analytical and conversion-ready. Draw on this topic direction: Create cinematic microsite visuals for hardware launches, balancing immersive hero storytelling with readable spec sections and conversion modules. Use the theme focus \"电影感网页首屏 + 规格模块 + 场景演绎\" and the inspiration \"掌机、机械键盘、专业相机或桌面音箱新品的长页面网站首屏与内容区组合提案。\" as raw material, but render a fictional premium hardware launch rather than referencing any specific brand. Let the main object feel like a plausible camera, handheld console, keyboard, speaker, or audio device, depending on what best serves the composition. Preserve the reference hardware finish and lighting logic while compressing the scene into a detail-led section with disciplined spec panels and macro material drama.\n\nImportant details:\nHonor the topic's core requirement: 比普通 landing page 更强调情绪化场景和硬件美学，但仍要有可读的网页结构。 Preserve premium product-photography realism, clean industrial design cues, layered web hierarchy, and the sense that the page could be sliced into multiple scroll sections. Reflect the frontier claim that ordinary models lose section rhythm and system cohesion in these complex commercial layouts; this image should instead keep the product silhouette, material finish, lighting logic, and module cadence unusually coherent. Success should feel aligned with these goals: 既有高级情绪图，也有真实网页 section 感; 产品外观、材质、配件和使用场景可信; 页面像可以切成多段长图或网页模块; 适合做科技品牌提案或 demo showcase.\n\nUse case:\nCinematic Hardware Microsite series study 3/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no random lorem ipsum, no cheap ecommerce clutter, no floating disconnected UI cards, no distorted product geometry, no extra hands unless the concept requires them.",
+  "id": "03-material-spec-closeup",
+  "title": "Material Spec Closeup",
+  "description": "A high-clarity spec and material module for the same hardware launch, emphasizing tactile realism and controlled information zones.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/03-material-spec-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-scene",
+        "meta_path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/01-reference-hero-scene/meta.json",
+        "image_path": "works/topics/cinematic-hardware-microsite/packages/series-launch-narrative/images/01-reference-hero-scene/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series frame; wait for image 01 to finish and then inject its runtime result URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Material Spec Closeup",
+      "description": "A high-clarity spec and material module for the same hardware launch, emphasizing tactile realism and controlled information zones."
+    },
+    "zh-CN": {
+      "title": "材质规格特写",
+      "description": "同一硬件发布中的材质与规格特写模块，强调真实触感与受控信息区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A high-clarity spec and material module for the same hardware launch, emphasizing tactile realism and controlled information zones.",
+      "zh-CN": "同一硬件发布中的材质与规格特写模块，强调真实触感与受控信息区。"
+    }
+  }
+}

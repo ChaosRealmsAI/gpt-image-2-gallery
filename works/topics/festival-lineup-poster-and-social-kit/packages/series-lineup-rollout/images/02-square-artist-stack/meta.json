@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square social crop drawn from the same festival poster world, with a tighter frame around the top and middle tiers, richer edge lighting, and more compact stage haze. The image must remain clearly connected to the reference layout system rather than becoming a new poster.\n\nSubject:\nPreserve the same lineup stacking logic, silhouette family, panel spacing, and atmosphere from the reference image. The upper artist tiers should remain dominant, while the supporting acts compress into structured bands and portrait fragments suited for social-card use.\n\nImportant details:\nThis is a crop adaptation problem. Keep the same color system, non-readable lineup modules, and stage-energy mood while tightening the hierarchy for square distribution. The result should feel optimized for quick social recognition without losing the premium festival identity locked by the root poster.\n\nUse case:\nFestival Lineup series study 2/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the reference lineup hierarchy and palette; no readable names, no extra sponsor blocks, no random background fireworks, no crowd field, no flat graphic sticker look",
+  "id": "02-square-artist-stack",
+  "title": "Square Artist Stack",
+  "description": "A square social crop preserving the same lineup hierarchy while tightening the frame around artist tiers and mood.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/02-square-artist-stack/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-lineup-poster",
+        "meta_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/meta.json",
+        "image_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Square-crop variation depending on the root lineup poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Square Artist Stack",
+      "description": "A square social crop preserving the same lineup hierarchy while tightening the frame around artist tiers and mood."
+    },
+    "zh-CN": {
+      "title": "方形艺人堆栈",
+      "description": "方形艺人堆栈，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A square festival lineup crop preserving the same stacked hierarchy and stage-light palette as the reference poster.",
+      "zh-CN": "方形艺人堆栈视觉图。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference NEON RAILWAY key art as the campaign identity source. Create a square minimalist teaser poster photographed as a glossy printed poster in a theater lobby lightbox. Keep the same magenta-blue neon palette, angular title style, glowing suspended rail motif, rain reflections, and fictional LUMEN STUDIO mark, but use more negative space and a stronger mystery mood.\n\nSubject:\nShow only the rear silhouette of the same young conductor standing on an empty platform as the neon train approaches from a tunnel of light. The exact readable poster copy must be: NEON RAILWAY, BOARDING BEGINS, SUMMER 2027, LUMEN STUDIO. The title sits low and large in the same custom style as the reference, BOARDING BEGINS appears as a short teaser line above the train lights, and the date plus studio mark are small but readable near the bottom.\n\nImportant details:\nThis must feel like the same fictional IP campaign, not a new movie. Preserve the train silhouette, neon rail geometry, title letterform attitude, color palette, and premium poster hierarchy from image 01. Text should be crisp and sparse. Do not add cast names or billing blocks; this is a teaser release artifact.\n\nUse case:\nFictional IP Poster series study 2/8, creating a teaser variant while preserving the NEON RAILWAY campaign system.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no extra slogans, no misspelled title, no illegible date, no cluttered typography.",
+  "id": "02-teaser-poster",
+  "title": "Teaser Poster",
+  "description": "A reference-dependent minimalist teaser poster for the fictional NEON RAILWAY campaign.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/02-teaser-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-key-art-poster",
+        "meta_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/meta.json",
+        "image_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the key art as primary reference and preserve the fictional title and campaign identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Teaser Poster",
+      "description": "A reference-dependent minimalist teaser poster for the fictional NEON RAILWAY campaign."
+    },
+    "zh-CN": {
+      "title": "先导海报",
+      "description": "一张依赖参考图的 NEON RAILWAY 虚构先导海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "series"
+    ],
+    "alt": {
+      "en": "A minimalist NEON RAILWAY teaser poster with the line BOARDING BEGINS.",
+      "zh-CN": "一张极简 NEON RAILWAY 先导海报，带 BOARDING BEGINS 标语。"
+    }
+  }
+}

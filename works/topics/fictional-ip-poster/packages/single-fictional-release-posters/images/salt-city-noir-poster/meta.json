@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square neo-noir thriller poster presented as a slightly glossy print under a street kiosk light. Use monochrome salt-white streets, hard black shadows, one red neon accent, rain texture, and a strict vertical poster grid. The composition should feel like a premium fictional crime release with strong typographic hierarchy.\n\nSubject:\nCreate a poster for a fictional noir film titled SALT CITY NOIR. Show a detective in a pale coat walking through a city street dusted with salt crystals, reflected in a wet sidewalk while a red window glows above. The exact readable poster copy must be: SALT CITY NOIR, RHEA VOSS, MIKA DANE, ORIN CLAY, OCTOBER 2027, BLACK PIER RELEASE. Place cast names in a clean top line, title in bold condensed letters across the center, release date below, and fictional distributor mark at the bottom.\n\nImportant details:\nThis poster is about text discipline as much as mood. Make the title sharp, high contrast, and readable against the noir scene. Keep all names fictional and spelled exactly. Avoid long legal credits, random street signs, or extra slogans. The print should look physically real, with slight glare but no loss of legibility.\n\nUse case:\nFictional IP Poster single study 7/8, testing noir poster typography and photorealistic release design.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing crime franchise references, no weapon focus, no extra city signage, no misspelled names, no unreadable title.",
+  "id": "salt-city-noir-poster",
+  "title": "Salt City Noir Poster",
+  "description": "A fictional neo-noir thriller poster with strict typography and photorealistic print presentation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/single-fictional-release-posters/images/salt-city-noir-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional noir release poster with no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Salt City Noir Poster",
+      "description": "A fictional neo-noir thriller poster with strict typography and photorealistic print presentation."
+    },
+    "zh-CN": {
+      "title": "盐城黑色电影海报",
+      "description": "一张虚构新黑色惊悚海报，测试严格排版和写实印刷呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional SALT CITY NOIR poster with a detective on a rain-slick salt-white street.",
+      "zh-CN": "一张虚构 SALT CITY NOIR 海报，侦探走在雨湿的盐白街道上。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square jury-award poster set in the empty service corridor beneath a monumental sports arena, with concrete walls, fluorescent spill softened by haze, and a limited palette of chalk white, faded cobalt, bruised burgundy, and asphalt black. The frame should feel controlled and prestigious, turning a high-energy fandom premise into a solemn backstage drama with room for invisible festival laurels and title blocks.\n\nSubject:\nCreate an original poster about two estranged champion sisters from a combat-sport franchise world. One stands in a satin training robe with taped hands; the other sits on a folding chair in a tailored coat, holding a cracked mouthguard case. They are separated by a narrow corridor gap and an overturned equipment trunk, implying years of rivalry, injury, and shared history. A distant scoreboard glow may exist as abstract light only, never readable numbers. The image should feel like an awards contender about family and sacrifice rather than a hype poster about winning.\n\nImportant details:\nThe hard part is genre translation. Preserve the physical specificity of the arena world through tape, concrete dust, scuffed floor paint, and bruised knuckles, but wrap it in the sparse hierarchy of a jury-sheet poster. Avoid melodrama and spectacle; use posture, distance, and surface detail to carry the emotional charge. The composition should feel deliberate, premium, and painfully human.\n\nUse case:\nFestival Poster Fandom Crossover single study 7/9, testing whether a sports-anime-style sibling rivalry can become a serious jury-award poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ring action scene, no cheering crowd, no championship-belt glamour shot, no comic impact effects, no sweat-spray freeze frame, no propaganda sports branding, no exaggerated victory pose.",
+  "id": "arena-sisters-jury-sheet",
+  "title": "Arena Sisters Jury Sheet",
+  "description": "A backstage rivalry poster that translates sports-franchise energy into a solemn jury-award treatment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-poster-fandom-crossover/packages/single-festival-poster-studies/images/arena-sisters-jury-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent festival poster study translating a combat-sport sibling rivalry into a restrained jury-award one-sheet."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arena Sisters Jury Sheet",
+      "description": "A backstage rivalry poster that translates sports-franchise energy into a solemn jury-award treatment."
+    },
+    "zh-CN": {
+      "title": "竞技场姐妹评审单张",
+      "description": "把竞技题材姐妹对立关系翻译成庄重的评审奖项海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Two estranged champion sisters face each other in an empty arena corridor, styled as a serious festival poster.",
+      "zh-CN": "两位决裂的冠军姐妹在空荡竞技场走廊中对峙，构成一张严肃的影展海报。"
+    }
+  }
+}

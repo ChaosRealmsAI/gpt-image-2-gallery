@@ -1,0 +1,59 @@
+{
+  "id": "collector-figure-blister-ads",
+  "slug": "collector-figure-blister-ads",
+  "category": "design",
+  "style": [
+    "3d-render",
+    "flat-graphic"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Collector Figure Blister Ads",
+  "short_title": "Blister Ads",
+  "description": "Build campaign-ready blister-pack and collector-toy advertisements featuring super-deformed characters, accessories, rarity cues, and retail-style packaging polish.",
+  "i18n": {
+    "en": {
+      "title": "Collector Figure Blister Ads",
+      "short_title": "Blister Ads",
+      "description": "Build campaign-ready blister-pack and collector-toy advertisements featuring super-deformed characters, accessories, rarity cues, and retail-style packaging polish."
+    },
+    "zh-CN": {
+      "title": "收藏玩具吸塑广告",
+      "short_title": "吸塑玩具广告",
+      "description": "做带 Q版角色、配件、稀有度标识和零售包装细节的收藏玩具吸塑广告主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 713,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-character-pack",
+      "type": "series",
+      "title": "Character Pack",
+      "path": "packages/series-character-pack/package.json"
+    },
+    {
+      "id": "single-retail-support",
+      "type": "single",
+      "title": "Retail Support",
+      "path": "packages/single-retail-support/package.json"
+    }
+  ]
+}

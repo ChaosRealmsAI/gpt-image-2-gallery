@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square info-card composition with abstract stage nodes, connecting paths, color-coded zones, and a faint atmospheric festival backdrop. The image should feel like a navigation aid transformed into a premium campaign surface rather than a technical diagram or software screenshot.\n\nSubject:\nThe subject is the navigational system itself: stage icons rendered as abstract nodes, routes as glowing paths, and modular blocks for amenities or schedule information kept fully non-readable. The card should imply festival complexity while staying elegant and poster-like.\n\nImportant details:\nUse structured layout, soft festival atmosphere, and clear visual hierarchy to make the map intelligible even without words. This is a reasoning-heavy promo asset: it needs to feel useful, ownable, and music-specific at the same time. Avoid dry technical aesthetics.\n\nUse case:\nFestival Lineup single study 7/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no sponsor map legend, no app UI frame, no literal GPS marker icons, no flat corporate infographic look",
+  "id": "site-map-info-card",
+  "title": "Site Map Info Card",
+  "description": "A site-map style info card turning festival navigation into a controlled atmospheric graphic without readable labels.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/single-festival-cutdowns/images/site-map-info-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent site-map study for the festival lineup theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Site Map Info Card",
+      "description": "A site-map style info card turning festival navigation into a controlled atmospheric graphic without readable labels."
+    },
+    "zh-CN": {
+      "title": "场地图信息卡",
+      "description": "场地图信息卡，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A festival site-map card using abstract stage nodes, paths, and atmospheric color without readable labels.",
+      "zh-CN": "场地图信息卡视觉图。"
+    }
+  }
+}

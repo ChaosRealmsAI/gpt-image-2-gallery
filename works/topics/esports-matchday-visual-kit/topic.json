@@ -1,0 +1,58 @@
+{
+  "id": "esports-matchday-visual-kit",
+  "slug": "esports-matchday-visual-kit",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "multi-image-reference",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "title": "Esports Matchday Visual Kit",
+  "short_title": "Matchday Kit",
+  "description": "Build an esports matchday kit covering lineups, MVP cards, score updates, and livestream covers in a coherent tournament language.",
+  "i18n": {
+    "en": {
+      "title": "Esports Matchday Visual Kit",
+      "short_title": "Matchday Kit",
+      "description": "Build an esports matchday kit covering lineups, MVP cards, score updates, and livestream covers in a coherent tournament language."
+    },
+    "zh-CN": {
+      "title": "赛事日视觉套件",
+      "short_title": "赛事日",
+      "description": "围绕一场电竞比赛做赛事日视觉套件，包括首发阵容、直播封面、比分速报和 MVP 卡。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1011,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-matchday-core",
+      "type": "series",
+      "title": "Matchday Core",
+      "path": "packages/series-matchday-core/package.json"
+    },
+    {
+      "id": "single-matchday-support-assets",
+      "type": "single",
+      "title": "Matchday Support Assets",
+      "path": "packages/single-matchday-support-assets/package.json"
+    }
+  ]
+}

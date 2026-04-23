@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square fictional animated adventure poster, printed like a high-end theatrical campaign piece with warm paper texture and rich illustrated detail. Use golden harbor light, teal water, brass machinery, and whimsical but polished composition. The poster should feel like a real family animation release without copying any existing studio style or character design.\n\nSubject:\nCreate a poster for a fictional animated film titled CLOCKWORK HARBOR. Show a young inventor standing on a pier beside a giant brass tide machine, with small clockwork boats circling in the water and a lighthouse made of gears in the background. The exact readable poster copy must be: CLOCKWORK HARBOR, LILA MOR, BENN SAGE, AVERY QUILL, SPRING 2029, TIDELAMP ANIMATION. The title is large and playful at the top, cast names in a neat arc above the scene, release date below the character, and fictional studio mark at the bottom.\n\nImportant details:\nThe typography should look custom, dimensional, and integrated with the poster, but every word must be readable. Keep the character original, the world charming, and the fake studio mark simple. This is not a concept sketch; it should look like a finished launch poster with clear hierarchy and polished color grading.\n\nUse case:\nFictional IP Poster single study 6/8, testing readable animated-feature typography and fictional studio branding.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing animation franchise references, no extra tagline, no unreadable cast line, no copied mascot, no fake billing block.",
+  "id": "clockwork-harbor-poster",
+  "title": "Clockwork Harbor Poster",
+  "description": "A fictional animated adventure poster with readable title, cast, date, and fictional studio mark.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/single-fictional-release-posters/images/clockwork-harbor-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional animated release poster with no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Clockwork Harbor Poster",
+      "description": "A fictional animated adventure poster with readable title, cast, date, and fictional studio mark."
+    },
+    "zh-CN": {
+      "title": "发条港湾海报",
+      "description": "一张虚构动画冒险海报，带可读标题、演员、日期和虚构制片厂标识。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editorial-illustration",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional CLOCKWORK HARBOR animated adventure poster with a brass tide machine.",
+      "zh-CN": "一张虚构 CLOCKWORK HARBOR 动画冒险海报，画面中有黄铜潮汐机器。"
+    }
+  }
+}

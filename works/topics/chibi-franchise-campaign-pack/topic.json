@@ -1,0 +1,59 @@
+{
+  "id": "chibi-franchise-campaign-pack",
+  "slug": "chibi-franchise-campaign-pack",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Chibi Franchise Campaign Pack",
+  "short_title": "Chibi Campaign",
+  "description": "Convert larger fictional universes into tightly art-directed chibi campaign systems that can span posters, stickers, key visuals, and merch-ready layouts.",
+  "i18n": {
+    "en": {
+      "title": "Chibi Franchise Campaign Pack",
+      "short_title": "Chibi Campaign",
+      "description": "Convert larger fictional universes into tightly art-directed chibi campaign systems that can span posters, stickers, key visuals, and merch-ready layouts."
+    },
+    "zh-CN": {
+      "title": "Q版 IP 宣发资产包",
+      "short_title": "Q版资产包",
+      "description": "把成熟影视、动漫、游戏角色系统化做成 Q 版 campaign 资产，能延展到海报、贴纸、周边和社媒图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 740,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-character-pack",
+      "type": "series",
+      "title": "Character Pack",
+      "path": "packages/series-character-pack/package.json"
+    },
+    {
+      "id": "single-retail-support",
+      "type": "single",
+      "title": "Retail Support",
+      "path": "packages/single-retail-support/package.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference NEON RAILWAY key art as the source for title style, protagonist, train world, and campaign palette. Create a square character one-sheet poster mounted in a subway station advertising frame, with glass reflections, believable print texture, and strong cinematic portrait lighting. Keep the magenta-blue neon rail atmosphere but make the protagonist the dominant subject.\n\nSubject:\nShow the same young conductor from the reference in a three-quarter portrait, wearing a dark raincoat, conductor cap, glowing ticket punch, and wet neon highlights. A spectral train curves behind the shoulders. The exact readable poster copy must be: NEON RAILWAY, MARA VALE AS ELIAN, LAST STOP ABOVE THE CITY, SUMMER 2027, LUMEN STUDIO. The title should match the reference style, the actor-character line should be clear near the top, the tagline sits mid-poster, and date plus studio mark sit near the bottom.\n\nImportant details:\nThis is a character campaign poster, so preserve face, outfit language, title lockup, train icon, and color system from image 01. Text hierarchy must be professional and legible at poster scale. Make the typography feel designed, not randomly placed, and avoid overfilling the frame with fake credits.\n\nUse case:\nFictional IP Poster series study 3/8, creating a character one-sheet for the same fictional campaign.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no extra actor names, no misspelled character name, no generic billing block, no distorted face.",
+  "id": "03-character-one-sheet",
+  "title": "Character One Sheet",
+  "description": "A reference-dependent character poster for the fictional NEON RAILWAY campaign.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/03-character-one-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-key-art-poster",
+        "meta_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/meta.json",
+        "image_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the key art as primary reference and preserve protagonist and title identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Character One Sheet",
+      "description": "A reference-dependent character poster for the fictional NEON RAILWAY campaign."
+    },
+    "zh-CN": {
+      "title": "角色单人海报",
+      "description": "一张依赖参考图的 NEON RAILWAY 虚构角色海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "series"
+    ],
+    "alt": {
+      "en": "A NEON RAILWAY character poster featuring Mara Vale as Elian.",
+      "zh-CN": "一张 NEON RAILWAY 角色海报，主打 Mara Vale as Elian。"
+    }
+  }
+}

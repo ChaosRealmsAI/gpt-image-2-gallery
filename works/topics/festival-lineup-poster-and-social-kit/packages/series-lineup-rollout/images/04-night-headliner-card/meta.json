@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square nighttime social card in the same festival atmosphere, darker and more focused, with denser haze and stronger beam contrast around the upper artist tier. The frame should feel like a headliner spotlight card cut from the same broader lineup launch system.\n\nSubject:\nPreserve the same top-tier artist-stack behavior, silhouette family, modular non-readable lineup bands, and color palette from the reference poster. The upper headliner level becomes more dominant while lower tiers recede into subtle supporting strips.\n\nImportant details:\nThis should feel like the premium nighttime emphasis surface inside one festival campaign. Keep continuity absolute in palette and hierarchy logic, but adjust balance toward the top tier and deeper mood. The image must remain instantly linked to the main lineup poster even when focused on a smaller slice of the stack.\n\nUse case:\nFestival Lineup series study 4/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the reference hierarchy cues; no readable headliner names, no stage sponsor branding, no confetti blizzard, no literal crowd closeup, no unrelated scene change",
+  "id": "04-night-headliner-card",
+  "title": "Night Headliner Card",
+  "description": "A headliner-focused festival card preserving the same lineup language while centering top-bill energy and mood.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/04-night-headliner-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-lineup-poster",
+        "meta_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/meta.json",
+        "image_path": "works/topics/festival-lineup-poster-and-social-kit/packages/series-lineup-rollout/images/01-reference-lineup-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Headliner-card variation depending on the root lineup poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Headliner Card",
+      "description": "A headliner-focused festival card preserving the same lineup language while centering top-bill energy and mood."
+    },
+    "zh-CN": {
+      "title": "夜场头牌卡",
+      "description": "夜场头牌卡，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A headliner-focused festival card preserving the same lineup system with a darker nighttime mood.",
+      "zh-CN": "夜场头牌卡视觉图。"
+    }
+  }
+}

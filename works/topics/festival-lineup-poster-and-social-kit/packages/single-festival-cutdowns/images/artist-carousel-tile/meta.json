@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square social tile with a dark atmospheric field, stage-light haze, and a few artist silhouettes arranged in a premium layered composition. The tile should feel native to a festival rollout carousel, balancing clarity and mood in a shareable format.\n\nSubject:\nThe subject is a compact performer hierarchy: one larger silhouette or portrait fragment supported by smaller artist bands and modular abstract blocks that imply lineup information. The image must communicate festival energy and curation without displaying readable names.\n\nImportant details:\nUse layering, glow, and spacing to achieve a premium festival feel. Keep the tile immediately scannable and socially strong, but do not oversimplify into a generic event card. The silhouette hierarchy and atmospheric depth should carry the message.\n\nUse case:\nFestival Lineup single study 5/9 for the Festival Lineup Poster and Social Kit Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable artist names, no sponsor logos, no platform UI, no emoji treatment, no oversized crowd scene",
+  "id": "artist-carousel-tile",
+  "title": "Artist Carousel Tile",
+  "description": "A square artist-carousel tile with tiered silhouette framing and festival-grade mood for social rollout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festival-lineup-poster-and-social-kit/packages/single-festival-cutdowns/images/artist-carousel-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent artist-carousel study for the festival lineup theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Artist Carousel Tile",
+      "description": "A square artist-carousel tile with tiered silhouette framing and festival-grade mood for social rollout."
+    },
+    "zh-CN": {
+      "title": "艺人轮播卡",
+      "description": "艺人轮播卡，用于音乐节lineup主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A social carousel tile with artist-tier framing and moody festival stage atmosphere.",
+      "zh-CN": "艺人轮播卡视觉图。"
+    }
+  }
+}

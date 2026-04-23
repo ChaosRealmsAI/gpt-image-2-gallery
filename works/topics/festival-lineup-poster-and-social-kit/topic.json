@@ -1,0 +1,53 @@
+{
+  "id": "festival-lineup-poster-and-social-kit",
+  "slug": "festival-lineup-poster-and-social-kit",
+  "category": "design",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "title": "Festival Lineup Poster and Social Kit",
+  "short_title": "Festival Lineup",
+  "description": "Build music-festival lineup systems for posters, square crops, and social-ready artist stacks.",
+  "i18n": {
+    "en": {
+      "title": "Festival Lineup Poster and Social Kit",
+      "short_title": "Festival Lineup",
+      "description": "Build music-festival lineup systems for posters, square crops, and social-ready artist stacks."
+    },
+    "zh-CN": {
+      "title": "音乐节 lineup 海报与社媒套件",
+      "short_title": "音乐节lineup",
+      "description": "做音乐节 lineup 海报与社媒套件，适合海报、方图和社媒 artist stack。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 960,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-lineup-rollout",
+      "type": "series",
+      "title": "Lineup Rollout Sequence",
+      "path": "packages/series-lineup-rollout/package.json"
+    },
+    {
+      "id": "single-festival-cutdowns",
+      "type": "single",
+      "title": "Festival Cutdown Studies",
+      "path": "packages/single-festival-cutdowns/package.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cute-product-explainer-poster",
+  "slug": "cute-product-explainer-poster",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "text-rendering",
+    "multi-image-reference",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Cute Product Explainer Poster",
+  "short_title": "Cute Explainer",
+  "description": "Use chibi or mascot characters to explain complex products, workflows, or features through playful yet commercially clear explainer posters.",
+  "i18n": {
+    "en": {
+      "title": "Cute Product Explainer Poster",
+      "short_title": "Cute Explainer",
+      "description": "Use chibi or mascot characters to explain complex products, workflows, or features through playful yet commercially clear explainer posters."
+    },
+    "zh-CN": {
+      "title": "Q版产品说明海报",
+      "short_title": "Q版说明海报",
+      "description": "用 Q版角色或 mascot 把复杂产品功能讲清楚，像日本店头 POP、说明海报和活动物料的结合体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 874,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-character-pack",
+      "type": "series",
+      "title": "Character Pack",
+      "path": "packages/series-character-pack/package.json"
+    },
+    {
+      "id": "single-retail-support",
+      "type": "single",
+      "title": "Retail Support",
+      "path": "packages/single-retail-support/package.json"
+    }
+  ]
+}

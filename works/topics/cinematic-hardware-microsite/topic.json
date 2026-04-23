@@ -1,0 +1,57 @@
+{
+  "id": "cinematic-hardware-microsite",
+  "slug": "cinematic-hardware-microsite",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "title": "Cinematic Hardware Microsite",
+  "short_title": "Hardware Microsite",
+  "description": "Create cinematic microsite visuals for hardware launches, balancing immersive hero storytelling with readable spec sections and conversion modules.",
+  "i18n": {
+    "en": {
+      "title": "Cinematic Hardware Microsite",
+      "short_title": "Hardware Microsite",
+      "description": "Create cinematic microsite visuals for hardware launches, balancing immersive hero storytelling with readable spec sections and conversion modules."
+    },
+    "zh-CN": {
+      "title": "硬件新品微站视觉",
+      "short_title": "硬件微站",
+      "description": "为硬件新品发布做更有电影感的 microsite 静帧，既有情绪 hero，也有规格区、场景区和转化区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-launch-narrative",
+      "type": "series",
+      "title": "Launch Narrative Frames",
+      "path": "packages/series-launch-narrative/package.json"
+    },
+    {
+      "id": "single-module-studies",
+      "type": "single",
+      "title": "Module System Studies",
+      "path": "packages/single-module-studies/package.json"
+    }
+  ]
+}

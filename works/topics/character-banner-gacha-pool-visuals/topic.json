@@ -1,0 +1,58 @@
+{
+  "id": "character-banner-gacha-pool-visuals",
+  "slug": "character-banner-gacha-pool-visuals",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "multi-image-reference",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Character Banner Gacha Pool Visuals",
+  "short_title": "Banner Pool",
+  "description": "Design featured-character banner visuals that sell a summon window or pool rotation through rarity framing, cast hierarchy, and event urgency.",
+  "i18n": {
+    "en": {
+      "title": "Character Banner Gacha Pool Visuals",
+      "short_title": "Banner Pool",
+      "description": "Design featured-character banner visuals that sell a summon window or pool rotation through rarity framing, cast hierarchy, and event urgency."
+    },
+    "zh-CN": {
+      "title": "角色卡池与 Banner 视觉",
+      "short_title": "卡池视觉",
+      "description": "围绕一期角色卡池做 Banner 视觉，重点看主推角色层级、卡池稀有度和限时活动紧迫感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 961,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "style-transfer"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-gacha-banner-core",
+      "type": "series",
+      "title": "Gacha Banner Core",
+      "path": "packages/series-gacha-banner-core/package.json"
+    },
+    {
+      "id": "single-gacha-support-assets",
+      "type": "single",
+      "title": "Gacha Support Assets",
+      "path": "packages/single-gacha-support-assets/package.json"
+    }
+  ]
+}

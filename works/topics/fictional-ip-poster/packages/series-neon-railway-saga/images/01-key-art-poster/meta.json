@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square release-grade sci-fi anime film poster, photographed as a crisp printed one-sheet on a dark gallery wall with subtle paper texture and cinematic lighting. Use deep indigo sky, magenta neon, rain-slick reflections, and a vertical composition with a large title lockup at the lower third. The poster should look like a real premium theatrical campaign, not a generic concept art image.\n\nSubject:\nCreate the key art for a fictional IP called NEON RAILWAY. Show a young conductor standing on the roof of a glowing suspended train crossing a city at night, with luminous rails bending into the clouds. The exact readable poster copy must be: NEON RAILWAY, MARA VALE, JUN PIKE, THEO ASH, SUMMER 2027, LUMEN STUDIO. The title should have a custom angular neon font, cast names in a clean top line, release date beneath the title, and a small fictional studio mark near the bottom.\n\nImportant details:\nThis is the reference poster for a campaign series, so title typography, protagonist silhouette, train shape, magenta-blue palette, and fictional studio mark must be memorable and reusable. Keep the text hierarchy professional: cast small, title dominant, release date clear, studio secondary. Make all key text readable and aligned.\n\nUse case:\nFictional IP Poster series study 1/8, establishing the fictional NEON RAILWAY campaign identity.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no misspelled title, no extra cast names, no fake legal credits, no clutter over typography.",
+  "id": "01-key-art-poster",
+  "title": "Key Art Poster",
+  "description": "A fictional sci-fi anime key art poster establishing the NEON RAILWAY title, cast line, date, and studio mark.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root fictional IP key art poster for the NEON RAILWAY campaign series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Key Art Poster",
+      "description": "A fictional sci-fi anime key art poster establishing the NEON RAILWAY title, cast line, date, and studio mark."
+    },
+    "zh-CN": {
+      "title": "主视觉海报",
+      "description": "一张虚构科幻动漫主视觉海报，建立 NEON RAILWAY 的标题、演员行、日期和制片厂标识。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "series"
+    ],
+    "alt": {
+      "en": "A fictional NEON RAILWAY sci-fi anime key art poster with cast names and release date.",
+      "zh-CN": "一张虚构 NEON RAILWAY 科幻动漫主视觉海报，带演员名和上映日期。"
+    }
+  }
+}

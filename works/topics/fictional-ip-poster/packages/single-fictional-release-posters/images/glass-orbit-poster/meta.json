@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square premium science-fiction movie poster printed on satin paper, shown straight-on with faint edge shadow and realistic poster grain. Use black space, pale cyan planet light, white typography, and a single dramatic central object. The composition should look like a finished theatrical one-sheet for a serious fictional film.\n\nSubject:\nCreate a poster for a fictional space drama titled THE GLASS ORBIT. Show an astronaut standing inside a transparent broken orbital ring, with a blue planet reflected in the helmet and tiny shards of glass forming a circular halo. The exact readable poster copy must be: THE GLASS ORBIT, NIA ROTH, CAL VENN, AMOS LEE, DECEMBER 2028, ARCLIGHT FILMS. The title should be large and elegant near the lower third, cast names at the top, release date under the title, and a small fictional studio mark at bottom.\n\nImportant details:\nThis is a fake IP poster, not a real franchise. The image must balance photorealistic space suit materials with clean poster typography. Keep the title readable, spacing professional, and text aligned to a clear grid. Use no long billing block. The fictional studio mark can be a simple abstract arc symbol beside ARCLIGHT FILMS.\n\nUse case:\nFictional IP Poster single study 5/8, testing readable release typography on a photorealistic space drama poster.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no extra cast names, no misspelled title, no flag patches, no clutter over text.",
+  "id": "glass-orbit-poster",
+  "title": "Glass Orbit Poster",
+  "description": "A fictional photorealistic space drama poster with controlled title, cast, date, and studio text.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/single-fictional-release-posters/images/glass-orbit-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional release poster with no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Orbit Poster",
+      "description": "A fictional photorealistic space drama poster with controlled title, cast, date, and studio text."
+    },
+    "zh-CN": {
+      "title": "玻璃轨道海报",
+      "description": "一张虚构写实太空剧情海报，控制标题、演员、日期和制片厂文字。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional THE GLASS ORBIT space drama poster with an astronaut inside a broken ring.",
+      "zh-CN": "一张虚构 THE GLASS ORBIT 太空剧情海报，宇航员位于破碎圆环中。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-festival-cutdowns",
+  "type": "single",
+  "title": "Festival Cutdown Studies",
+  "description": "Five independent studies for square festival promo surfaces such as map cards, wristband promos, artist carousel tiles, and info boards.",
+  "creative_direction": "Independent assets should feel like real festival rollout surfaces: artist hierarchy, modular information placeholders, atmospheric stage energy, and social-share friendliness without readable names or sponsor marks.",
+  "cover_image": "images/artist-carousel-tile/image.png",
+  "i18n": {
+    "en": {
+      "title": "Festival Cutdown Studies",
+      "description": "Five independent studies for square festival promo surfaces such as map cards, wristband promos, artist carousel tiles, and info boards."
+    },
+    "zh-CN": {
+      "title": "音乐节切图研究",
+      "description": "面向音乐节社媒与现场物料的独立切图研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "artist-carousel-tile",
+      "title": "Artist Carousel Tile",
+      "image": "images/artist-carousel-tile/image.png",
+      "meta": "images/artist-carousel-tile/meta.json"
+    },
+    {
+      "id": "wristband-promo-flatlay",
+      "title": "Wristband Promo Flatlay",
+      "image": "images/wristband-promo-flatlay/image.png",
+      "meta": "images/wristband-promo-flatlay/meta.json"
+    },
+    {
+      "id": "site-map-info-card",
+      "title": "Site Map Info Card",
+      "image": "images/site-map-info-card/image.png",
+      "meta": "images/site-map-info-card/meta.json"
+    },
+    {
+      "id": "night-billboard-study",
+      "title": "Night Billboard Study",
+      "image": "images/night-billboard-study/image.png",
+      "meta": "images/night-billboard-study/meta.json"
+    },
+    {
+      "id": "schedule-board-study",
+      "title": "Schedule Board Study",
+      "image": "images/schedule-board-study/image.png",
+      "meta": "images/schedule-board-study/meta.json"
+    }
+  ]
+}

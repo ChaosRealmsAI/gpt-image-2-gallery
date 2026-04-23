@@ -1,0 +1,79 @@
+{
+  "id": "single-module-studies",
+  "type": "single",
+  "title": "Module System Studies",
+  "description": "Five independent stills exploring alternate module treatments for cinematic hardware microsites, from comparison grids to accessory callouts and campaign cutdowns.",
+  "creative_direction": "Each image is a self-contained hardware-web study rather than a direct continuation. The shared goal is to prove that cinematic hardware storytelling can survive across different website modules, mockup formats, and commercial crops without collapsing into generic ecommerce UI.",
+  "cover_image": "images/01-device-pairing-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/01-device-pairing-board/meta.json",
+      "images/02-lifestyle-usage-panel/meta.json",
+      "images/03-module-comparison-grid/meta.json",
+      "images/04-packaging-accessory-card/meta.json",
+      "images/05-campaign-cutdown-mockup/meta.json"
+    ],
+    "ref_strategy": "No references; each image is an independent microsite module study.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Module System Studies",
+      "description": "Five independent stills exploring alternate module treatments for cinematic hardware microsites, from comparison grids to accessory callouts and campaign cutdowns."
+    },
+    "zh-CN": {
+      "title": "模块系统研究",
+      "description": "五张独立静帧，研究硬件微站的不同模块处理方式，包括对比网格、配件说明与 campaign 裁切图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-device-pairing-board",
+      "title": "Device Pairing Board",
+      "image": "images/01-device-pairing-board/image.png",
+      "meta": "images/01-device-pairing-board/meta.json"
+    },
+    {
+      "id": "02-lifestyle-usage-panel",
+      "title": "Lifestyle Usage Panel",
+      "image": "images/02-lifestyle-usage-panel/image.png",
+      "meta": "images/02-lifestyle-usage-panel/meta.json"
+    },
+    {
+      "id": "03-module-comparison-grid",
+      "title": "Module Comparison Grid",
+      "image": "images/03-module-comparison-grid/image.png",
+      "meta": "images/03-module-comparison-grid/meta.json"
+    },
+    {
+      "id": "04-packaging-accessory-card",
+      "title": "Packaging Accessory Card",
+      "image": "images/04-packaging-accessory-card/image.png",
+      "meta": "images/04-packaging-accessory-card/meta.json"
+    },
+    {
+      "id": "05-campaign-cutdown-mockup",
+      "title": "Campaign Cutdown Mockup",
+      "image": "images/05-campaign-cutdown-mockup/image.png",
+      "meta": "images/05-campaign-cutdown-mockup/meta.json"
+    }
+  ]
+}

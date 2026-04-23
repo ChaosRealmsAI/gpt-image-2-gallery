@@ -1,0 +1,65 @@
+{
+  "id": "single-festival-poster-studies",
+  "type": "single",
+  "title": "Festival Poster Studies",
+  "description": "Five independent prestige-poster studies translating fandom-scale worlds into restrained competition, selection, and awards-season packaging.",
+  "creative_direction": "This package broadens the topic beyond one cast. Each image is a standalone festival-poster treatment with its own fictional franchise premise, but every study must retain the sparse hierarchy, premium spacing, and restrained branding grammar of serious award-circuit key art.",
+  "cover_image": "images/orbit-royalty-competition/image.png",
+  "i18n": {
+    "en": {
+      "title": "Festival Poster Studies",
+      "description": "Five independent prestige-poster studies translating fandom-scale worlds into restrained competition, selection, and awards-season packaging."
+    },
+    "zh-CN": {
+      "title": "影展海报单图研究",
+      "description": "五张独立的高级影展海报研究图，把粉丝向世界观翻译成克制、正式、可发行的竞赛片包装。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "orbit-royalty-competition",
+      "title": "Orbit Royalty Competition",
+      "image": "images/orbit-royalty-competition/image.png",
+      "meta": "images/orbit-royalty-competition/meta.json"
+    },
+    {
+      "id": "folklore-detective-selection",
+      "title": "Folklore Detective Selection",
+      "image": "images/folklore-detective-selection/image.png",
+      "meta": "images/folklore-detective-selection/meta.json"
+    },
+    {
+      "id": "arena-sisters-jury-sheet",
+      "title": "Arena Sisters Jury Sheet",
+      "image": "images/arena-sisters-jury-sheet/image.png",
+      "meta": "images/arena-sisters-jury-sheet/meta.json"
+    },
+    {
+      "id": "kaiju-family-program-cover",
+      "title": "Kaiju Family Program Cover",
+      "image": "images/kaiju-family-program-cover/image.png",
+      "meta": "images/kaiju-family-program-cover/meta.json"
+    },
+    {
+      "id": "clockwork-lovers-palme-variant",
+      "title": "Clockwork Lovers Palme Variant",
+      "image": "images/clockwork-lovers-palme-variant/image.png",
+      "meta": "images/clockwork-lovers-palme-variant/meta.json"
+    }
+  ]
+}

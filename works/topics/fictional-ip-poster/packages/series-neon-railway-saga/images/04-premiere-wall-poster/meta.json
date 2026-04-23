@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference NEON RAILWAY key art as the source for fictional IP identity. Create a square photo-realistic scene of three printed campaign posters pasted on a rainy city wall near an elevated track, all for the same fictional film. The main center poster should dominate, with two partial side posters visible, wet paper edges, streetlight glare, and realistic urban texture.\n\nSubject:\nThe center poster shows the young conductor and glowing train from the reference in a wide heroic composition. The exact readable poster copy on the center poster must be: NEON RAILWAY, MARA VALE, JUN PIKE, THEO ASH, OPENS JULY 18, LUMEN STUDIO. Side posters may show cropped versions of the same title lockup but should not introduce new readable words. The campaign should look like a real outdoor release rollout for a fictional sci-fi anime film.\n\nImportant details:\nPreserve title style, palette, protagonist identity, train silhouette, and fictional studio mark from image 01. This image tests poster realism and typography under environmental conditions: wet paper, folds, and glare must not make the key copy unreadable. Keep visual hierarchy clear despite street texture and reflections.\n\nUse case:\nFictional IP Poster series study 4/8, showing the fictional campaign as a realistic outdoor premiere wall poster.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no extra release dates, no real city ads, no torn title letters, no illegible cast line.",
+  "id": "04-premiere-wall-poster",
+  "title": "Premiere Wall Poster",
+  "description": "A reference-dependent outdoor campaign wall poster for the fictional NEON RAILWAY release.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "photorealism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/04-premiere-wall-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-key-art-poster",
+        "meta_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/meta.json",
+        "image_path": "works/topics/fictional-ip-poster/packages/series-neon-railway-saga/images/01-key-art-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the key art as primary reference and place the campaign on a realistic rainy wall."
+  },
+  "i18n": {
+    "en": {
+      "title": "Premiere Wall Poster",
+      "description": "A reference-dependent outdoor campaign wall poster for the fictional NEON RAILWAY release."
+    },
+    "zh-CN": {
+      "title": "首映墙面海报",
+      "description": "一张依赖参考图的 NEON RAILWAY 虚构户外首映墙面海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A rainy city wall covered with fictional NEON RAILWAY premiere posters.",
+      "zh-CN": "一面雨夜城市墙贴着虚构 NEON RAILWAY 首映海报。"
+    }
+  }
+}

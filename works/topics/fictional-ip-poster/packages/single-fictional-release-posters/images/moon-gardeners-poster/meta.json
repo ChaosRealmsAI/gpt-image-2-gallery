@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square family science-fantasy poster printed on a bright theater display, with clean edge lighting and slightly glossy paper. Use lunar silver, leafy green, warm yellow, and deep midnight blue. The layout is optimistic and theatrical: a large title at the top, character group in the center, moon garden environment behind them, and release information at the bottom.\n\nSubject:\nCreate a poster for a fictional film titled MOON GARDENERS. Show two children and an elderly botanist tending glowing plants in glass domes on the moon, with Earth rising in the background and gentle dust floating in low gravity. The exact readable poster copy must be: MOON GARDENERS, TARA FINCH, LEO MOSS, IDA REN, JULY 2029, GREEN COMET PICTURES. The title should be rounded and luminous, cast names cleanly set above the characters, date below the title or near the bottom, and fictional studio mark small but readable.\n\nImportant details:\nThe poster must feel like a real family release campaign while staying entirely fictional. Keep the title readable against the moon sky, make the cast line orderly, and avoid random extra labels on the domes. The scene can be magical, but the poster layout should remain professional and commercial.\n\nUse case:\nFictional IP Poster single study 8/8, testing readable family science-fantasy poster typography and structured release hierarchy.\n\nConstraints:\nNo readable text except the specified fictional poster copy, no watermark, no real logos, preserve exact 1:1 aspect ratio, no existing franchise references, no extra tagline, no illegible cast names, no real space agency marks, no cluttered title area.",
+  "id": "moon-gardeners-poster",
+  "title": "Moon Gardeners Poster",
+  "description": "A fictional family science-fantasy poster with readable title, cast, date, and studio hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-ip-poster/packages/single-fictional-release-posters/images/moon-gardeners-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional family science-fantasy release poster with no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moon Gardeners Poster",
+      "description": "A fictional family science-fantasy poster with readable title, cast, date, and studio hierarchy."
+    },
+    "zh-CN": {
+      "title": "月球园丁海报",
+      "description": "一张虚构家庭科幻奇想海报，带可读标题、演员、日期和制片厂层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional MOON GARDENERS poster showing gardeners tending glowing plants on the moon.",
+      "zh-CN": "一张虚构 MOON GARDENERS 海报，园丁在月球照料发光植物。"
+    }
+  }
+}
