@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square top-down product shot of stacked laminates, satin lanyards, clipped cards, and translucent sleeves on a dark tabletop. Light should skim the plastic and satin surfaces so the materials feel real and tactile, while the layout remains clean and premium.\n\nSubject:\nThe access objects carry the tour’s visual system through performer crops, beam graphics, and modular bar fields reserved for future event data. They should feel like genuine backstage or VIP credentials, yet free of any readable names, dates, or brand marks.\n\nImportant details:\nFocus on material realism and campaign continuity. The badge family should clearly belong to a live-music rollout, not to a conference or corporate event. Use a tight palette, controlled spacing, and consistent abstract hierarchy so the identity survives across small practical objects.\n\nUse case:\nTour Posters single study 7/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no barcodes, no readable names, no corporate event styling, no extra office supplies, no bright plastic toy colors",
+  "id": "vip-laminate-flatlay",
+  "title": "VIP Laminate Flatlay",
+  "description": "A laminate and lanyard flat lay translating tour-poster identity into practical access objects.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/single-tour-assets/images/vip-laminate-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent credential study for the tour poster theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "VIP Laminate Flatlay",
+      "description": "A laminate and lanyard flat lay translating tour-poster identity into practical access objects."
+    },
+    "zh-CN": {
+      "title": "VIP挂证平铺",
+      "description": "VIP挂证平铺，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A flat lay of VIP laminates and lanyards using tour campaign graphics and abstract date blocks.",
+      "zh-CN": "VIP挂证平铺视觉图。"
+    }
+  }
+}

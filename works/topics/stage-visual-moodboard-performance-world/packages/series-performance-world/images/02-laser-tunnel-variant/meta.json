@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square creative-direction image in the same stage universe, now emphasizing a laser tunnel depth effect built from parallel red beams and stronger perspective pull. The obsidian floor, haze density, and red moon motif must remain intact so the world still feels like the same production language.\n\nSubject:\nPreserve the same central performer silhouette scale, stage proportions, floor finish, and lunar screen symbol from the reference image. The performer remains minimal, while the laser tunnel becomes the active scenic extension, creating a more aggressive live-energy interpretation of the same world.\n\nImportant details:\nThe point is not to rebuild the stage but to stress one facet of it. Keep the same materials, same symbolic anchor, and same ceremonial emptiness while letting the beam geometry intensify. This should read like an alternate scenic rendering from the same show bible, not a different concert concept.\n\nUse case:\nStage Moodboard series study 2/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the obsidian floor and red-moon motif from the reference; no audience, no extra dancers, no moving-head fixture clutter, no rainbow lasers, no brand logos",
+  "id": "02-laser-tunnel-variant",
+  "title": "Laser Tunnel Variant",
+  "description": "A stage-world variant preserving the obsidian and moon grammar while shifting emphasis to laser tunnel depth and sharper beams.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "style-transfer",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/02-laser-tunnel-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-obsidian-stage",
+        "meta_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/meta.json",
+        "image_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Laser-tunnel variation depending on the root stage-world image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Laser Tunnel Variant",
+      "description": "A stage-world variant preserving the obsidian and moon grammar while shifting emphasis to laser tunnel depth and sharper beams."
+    },
+    "zh-CN": {
+      "title": "激光通道变体",
+      "description": "激光通道变体，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A stage-world variant with laser tunnel depth, preserving the same obsidian floor and red-moon motif as the reference.",
+      "zh-CN": "激光通道变体视觉图。"
+    }
+  }
+}

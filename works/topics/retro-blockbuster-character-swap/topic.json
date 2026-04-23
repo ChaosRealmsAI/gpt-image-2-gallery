@@ -1,0 +1,58 @@
+{
+  "id": "retro-blockbuster-character-swap",
+  "slug": "retro-blockbuster-character-swap",
+  "category": "design",
+  "style": [
+    "retro",
+    "collage"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Retro Blockbuster Character Swap",
+  "short_title": "Retro Swap",
+  "description": "Recreate painted blockbuster poster language from the 1980s and 1990s with alternate IP casts, preserving airbrushed energy, montage structure, and theatrical hype.",
+  "i18n": {
+    "en": {
+      "title": "Retro Blockbuster Character Swap",
+      "short_title": "Retro Swap",
+      "description": "Recreate painted blockbuster poster language from the 1980s and 1990s with alternate IP casts, preserving airbrushed energy, montage structure, and theatrical hype."
+    },
+    "zh-CN": {
+      "title": "复古大片海报角色互换",
+      "short_title": "复古大片换角",
+      "description": "重做 80s / 90s 手绘大片海报的爆炸云、人物 montage 和夸张标题，但把角色世界换成别的影视或动漫 IP。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 859,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-key-art-pivot",
+      "type": "series",
+      "title": "Key Art Pivot",
+      "path": "packages/series-key-art-pivot/package.json"
+    },
+    {
+      "id": "single-rollout-assets",
+      "type": "single",
+      "title": "Rollout Assets",
+      "path": "packages/single-rollout-assets/package.json"
+    }
+  ]
+}

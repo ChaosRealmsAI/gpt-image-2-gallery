@@ -1,0 +1,59 @@
+{
+  "id": "social-teaser-promo-carousel",
+  "slug": "social-teaser-promo-carousel",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Social Teaser Promo Carousel",
+  "short_title": "Promo Carousel",
+  "description": "Design teaser carousels and social promo grids that work as standalone posts but also lock together into a larger release narrative.",
+  "i18n": {
+    "en": {
+      "title": "Social Teaser Promo Carousel",
+      "short_title": "Promo Carousel",
+      "description": "Design teaser carousels and social promo grids that work as standalone posts but also lock together into a larger release narrative."
+    },
+    "zh-CN": {
+      "title": "社媒预热轮播系统",
+      "short_title": "社媒轮播",
+      "description": "为新品、活动、剧集或角色发布做社媒轮播和九宫格系统，单张能发，连起来又能讲完整故事。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 733,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "editing-workflow",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-key-art-pivot",
+      "type": "series",
+      "title": "Key Art Pivot",
+      "path": "packages/series-key-art-pivot/package.json"
+    },
+    {
+      "id": "single-rollout-assets",
+      "type": "single",
+      "title": "Rollout Assets",
+      "path": "packages/single-rollout-assets/package.json"
+    }
+  ]
+}

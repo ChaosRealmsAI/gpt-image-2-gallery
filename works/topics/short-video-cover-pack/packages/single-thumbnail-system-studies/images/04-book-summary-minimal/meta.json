@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square minimalist book-summary thumbnail built around calm editorial order. The composition uses a presenter portrait on the left, a single oversized book object in the center-right, and a pale neutral background with one colored spine stripe for category coding. A strong empty hook block sits in the upper right, and the whole design should feel clean, smart, and highly reusable.\n\nSubject:\nA thoughtful male presenter in a simple knit sweater holds a closed book near the chest while looking directly at camera with a clear, calm expression. Behind him, one oversized floating book shape and a few paper tabs create the category signal. The image should feel more disciplined and intellectual than the other thumbnails, with clean edges and restrained color.\n\nImportant details:\nThis cover tests whether a low-energy, knowledge-first thumbnail can still click. Keep the face large, the book cue unmistakable, and the layout extremely simple. Use beige, dark teal, and one accent mustard stripe. The hook zone must remain bold but unreadable. Avoid cluttered library backgrounds or stacks of many books.\n\nUse case:\nShort Video Cover Pack single study 8/9, focused on minimalist knowledge-channel cover logic and calm intellectual branding.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowded bookshelf, no multiple presenters, no noisy sticky notes everywhere, no weak low-contrast face crop.",
+  "id": "04-book-summary-minimal",
+  "title": "Book Summary Minimal",
+  "description": "A clean knowledge-channel thumbnail using one presenter, one oversized book cue, and an uncluttered hook area.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/single-thumbnail-system-studies/images/04-book-summary-minimal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent book-summary thumbnail study prioritizing clean knowledge branding and small-size clarity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Book Summary Minimal",
+      "description": "A clean knowledge-channel thumbnail using one presenter, one oversized book cue, and an uncluttered hook area."
+    },
+    "zh-CN": {
+      "title": "极简读书摘要",
+      "description": "干净的知识频道封面，用一位讲书人、一本放大的书和清爽钩子区完成缩略图逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A minimalist knowledge thumbnail with one calm presenter, one oversized book, and a crisp empty headline area.",
+      "zh-CN": "一张极简知识类缩略图：冷静的讲书人、一本放大的书和清晰的空白标题区。"
+    }
+  }
+}

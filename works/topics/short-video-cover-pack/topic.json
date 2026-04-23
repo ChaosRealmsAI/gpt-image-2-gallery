@@ -1,0 +1,57 @@
+{
+  "id": "short-video-cover-pack",
+  "slug": "short-video-cover-pack",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "title": "Short Video Cover Pack",
+  "short_title": "Video Covers",
+  "description": "A Prompt Atlas theme for reusable short-video thumbnail systems that balance face crop, hook zone, category signal, and account-level visual consistency.",
+  "i18n": {
+    "en": {
+      "title": "Short Video Cover Pack",
+      "short_title": "Video Covers",
+      "description": "A Prompt Atlas theme for reusable short-video thumbnail systems that balance face crop, hook zone, category signal, and account-level visual consistency."
+    },
+    "zh-CN": {
+      "title": "短视频封面系统",
+      "short_title": "短视频封面",
+      "description": "为短视频频道构建可复用缩略图系统，测试人物抓点、标题钩子区、栏目识别和账号统一性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 140,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-creator-channel-system",
+      "type": "series",
+      "title": "Creator Channel System",
+      "path": "packages/series-creator-channel-system/package.json"
+    },
+    {
+      "id": "single-thumbnail-system-studies",
+      "type": "single",
+      "title": "Thumbnail System Studies",
+      "path": "packages/single-thumbnail-system-studies/package.json"
+    }
+  ]
+}

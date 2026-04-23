@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square poster using the same hierarchy as the reference tour image, but now framed by dark velvet curtains, narrower spotlights, and warmer side light that suggest a more intimate theater environment. The composition must stay modular and campaign-consistent, not drift into costume-drama poster language.\n\nSubject:\nPreserve the exact same headlining musician from the reference image, with identical face shape, hair base, body proportions, and long-coat silhouette. The performer remains centered and dominant, while the environment shifts into theater warmth and ceremonial framing around them.\n\nImportant details:\nUse velvet texture and warmer highlights to imply venue scale change while keeping the poster system intact. Date and venue information should still exist only as abstract graphic bands and stacked blocks. The emotional shift is intimacy, not identity replacement. It should still read as the same tour campaign at a glance.\n\nUse case:\nTour Posters series study 3/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable marquee text, no orchestra crowd, no costume swap, no decorative gold ornament excess, no sponsor marks",
+  "id": "03-theater-velvet-variant",
+  "title": "Theater Velvet Variant",
+  "description": "A theater-stop poster preserving the same tour identity while introducing velvet drapery and more intimate stage warmth.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/03-theater-velvet-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-main-tour-poster",
+        "meta_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/meta.json",
+        "image_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Theater-stop poster depending on the root tour poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Theater Velvet Variant",
+      "description": "A theater-stop poster preserving the same tour identity while introducing velvet drapery and more intimate stage warmth."
+    },
+    "zh-CN": {
+      "title": "剧院天鹅绒变体",
+      "description": "剧院天鹅绒变体，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A theater-stop tour poster with velvet warmth, preserving the same performer and modular information blocks.",
+      "zh-CN": "剧院天鹅绒变体视觉图。"
+    }
+  }
+}

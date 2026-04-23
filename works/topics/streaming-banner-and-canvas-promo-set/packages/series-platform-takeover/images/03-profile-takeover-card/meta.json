@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square streaming promo card in the same atmospheric world, with the performer shifted slightly off center so the frame carries more negative space and cleaner silhouette edges. Mist, distant architecture, and the floating bridge remain present, but the composition is calmer and more interface-ready.\n\nSubject:\nPreserve the exact same performer from the reference image with identical face, hair base, body proportions, and coat silhouette. The artist stands in the same world and same mood, now framed to allow more breathing room and profile-surface adaptability while retaining the strong release identity established by the root image.\n\nImportant details:\nThe key is adaptability without dilution. Keep the same signature bridge cue, the same midnight palette, and the same atmospheric layering while simplifying the composition for profile-centric placement. It should feel like a streaming profile takeover asset that clearly belongs to one release campaign and one specific artist identity.\n\nUse case:\nStreaming Promo series study 3/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no interface icons, no notification symbols, no crowd, no large props, no busy skyline detail",
+  "id": "03-profile-takeover-card",
+  "title": "Profile Takeover Card",
+  "description": "A profile-takeover variant that preserves the same artist and floating world while emphasizing clean negative space for platform surfaces.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/03-profile-takeover-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-header-world",
+        "meta_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/meta.json",
+        "image_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Profile-surface variation depending on the root streaming promo image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Takeover Card",
+      "description": "A profile-takeover variant that preserves the same artist and floating world while emphasizing clean negative space for platform surfaces."
+    },
+    "zh-CN": {
+      "title": "主页接管卡片",
+      "description": "主页接管卡片，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A profile-takeover promo frame with the same performer and world, designed around clean negative space.",
+      "zh-CN": "主页接管卡片视觉图。"
+    }
+  }
+}

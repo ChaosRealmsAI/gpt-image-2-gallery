@@ -1,0 +1,64 @@
+{
+  "id": "single-merch-object-studies",
+  "type": "single",
+  "title": "Merch Object Studies",
+  "description": "Five independent studies of merch-drop surfaces such as tote mockups, sticker packs, package inserts, display boards, and bundled object flat lays.",
+  "creative_direction": "Independent assets should feel like genuine tour commerce surfaces: collector-grade objects, tactile materials, controlled graphics, and launch-week presentation without readable pricing or branding.",
+  "cover_image": "images/tote-bag-display/image.png",
+  "i18n": {
+    "en": {
+      "title": "Merch Object Studies",
+      "description": "Five independent studies of merch-drop surfaces such as tote mockups, sticker packs, package inserts, display boards, and bundled object flat lays."
+    },
+    "zh-CN": {
+      "title": "周边物件研究",
+      "description": "围绕 merch drop 的独立物件与展示研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "style-transfer",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "tote-bag-display",
+      "title": "Tote Bag Display",
+      "image": "images/tote-bag-display/image.png",
+      "meta": "images/tote-bag-display/meta.json"
+    },
+    {
+      "id": "sticker-pack-flatlay",
+      "title": "Sticker Pack Flatlay",
+      "image": "images/sticker-pack-flatlay/image.png",
+      "meta": "images/sticker-pack-flatlay/meta.json"
+    },
+    {
+      "id": "bundle-box-insert",
+      "title": "Bundle Box Insert",
+      "image": "images/bundle-box-insert/image.png",
+      "meta": "images/bundle-box-insert/meta.json"
+    },
+    {
+      "id": "merch-table-display",
+      "title": "Merch Table Display",
+      "image": "images/merch-table-display/image.png",
+      "meta": "images/merch-table-display/meta.json"
+    },
+    {
+      "id": "ticket-wallet-pack",
+      "title": "Ticket Wallet Pack",
+      "image": "images/ticket-wallet-pack/image.png",
+      "meta": "images/ticket-wallet-pack/meta.json"
+    }
+  ]
+}

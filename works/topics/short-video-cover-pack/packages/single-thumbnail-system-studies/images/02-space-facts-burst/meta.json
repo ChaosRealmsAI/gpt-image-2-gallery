@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square science-facts thumbnail built for instant small-size recognition. The composition uses a bright astronaut helmet or presenter face on the left, a large glowing planet behind, and a clean hook zone on the right made of thick non-readable bars. Background is deep space purple-black with cyan highlights, but the overall layout stays simple and graphic.\n\nSubject:\nA youthful science presenter in a silver space jacket points upward with excitement while a stylized Saturn-like planet and orbit ring fill the upper background. A simple star map grid and one rocket icon appear as large clean forms only. The presenter expression should be energetic and friendly. The thumbnail must feel like a repeatable educational channel cover, not a movie poster.\n\nImportant details:\nPrioritize silhouette, contrast, and category signal. Keep the face or helmet large, the planet unmistakable, and the text area bold yet unreadable. Use a strong color split between the presenter and background so the image survives heavy downscaling. Avoid too many stars or tiny science props.\n\nUse case:\nShort Video Cover Pack single study 6/9, focused on science-channel readability and bright category coding.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cluttered galaxy wallpaper, no multiple competing planets, no tiny labels, no low-contrast composition.",
+  "id": "02-space-facts-burst",
+  "title": "Space Facts Burst",
+  "description": "A bright science-channel thumbnail with one energetic presenter, a giant planet cue, and a clean educational hook zone.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/single-thumbnail-system-studies/images/02-space-facts-burst/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent science thumbnail study tuned for strong category cues and high-energy presenter framing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Space Facts Burst",
+      "description": "A bright science-channel thumbnail with one energetic presenter, a giant planet cue, and a clean educational hook zone."
+    },
+    "zh-CN": {
+      "title": "太空冷知识",
+      "description": "明亮的科普频道封面，一位高能主持人、巨大的行星线索和清晰的知识钩子区构成核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A science thumbnail with an excited presenter, a giant planet, and bold unreadable headline bars.",
+      "zh-CN": "一张科普缩略图：兴奋的主持人、巨大的行星和粗体不可读标题条。"
+    }
+  }
+}

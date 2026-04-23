@@ -1,0 +1,76 @@
+{
+  "prompt": "Scene:\nA square entertainment marketing key visual for Streaming Thumbnail Campaign, designed like a polished campaign asset ready for posters, covers, feeds, or street placement. The composition should have immediate impact from a distance while still carrying layered detail up close. Keep the lighting dramatic, the hierarchy bold, and the framing tight enough to feel like real promotional art instead of a casual illustration.\n\nSubject:\nCenter the piece on Finale Ensemble, a frame that expands the same layout into a climax-heavy ensemble poster without losing readability. Translate Develop thumbnail sets for streaming platforms that hold up at tiny sizes while staying cohesive across rows, genres, and recommendation surfaces. into a concrete campaign image with clear protagonist hierarchy, supporting world-building cues, and unmistakable promotional intent. The viewer should understand the genre, the ensemble relationships, and the commercial purpose at a glance without relying on readable text or existing brand marks.\n\nImportant details:\nThe challenge is disciplined hype. Preserve focal hierarchy, readable silhouette separation, strong foreground-background layering, and a convincing balance between character energy and structured layout. This theme studies structured-layout, commercial-mockup, reasoning-composition, editing-workflow through a production-ready visual system. Even if typography is unreadable, space for title blocks, badges, or platform framing should feel intentionally designed. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nStreaming Thumbnail Campaign series study 4/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken anatomy, no unreadable hierarchy collapse, no muddy montage, no accidental real movie logos, no random filler characters, no off-topic props.",
+  "id": "04-finale-ensemble",
+  "title": "Finale Ensemble",
+  "description": "Finale Ensemble for Streaming Thumbnail Campaign, expands the same layout into a climax-heavy ensemble poster without losing readability.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer",
+    "series",
+    "reasoning-composition",
+    "editing-workflow",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-thumbnail-campaign/packages/series-key-art-pivot/images/04-finale-ensemble/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-key-art",
+        "meta_path": "works/topics/streaming-thumbnail-campaign/packages/series-key-art-pivot/images/01-reference-key-art/meta.json",
+        "image_path": "works/topics/streaming-thumbnail-campaign/packages/series-key-art-pivot/images/01-reference-key-art/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the anchor image identity while varying the requested campaign angle.",
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/streaming-thumbnail-campaign/packages/series-key-art-pivot/images/04-finale-ensemble/image.png",
+      "checked_at": "2026-04-23T09:15:01.858Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Finale Ensemble",
+      "description": "Finale Ensemble for Streaming Thumbnail Campaign, expands the same layout into a climax-heavy ensemble poster without losing readability."
+    },
+    "zh-CN": {
+      "title": "终局群像版",
+      "description": "缩略图战役 主题中的终局群像版研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "editing-workflow",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Finale Ensemble campaign image for Streaming Thumbs.",
+      "zh-CN": "缩略图战役 主题的终局群像版画面。"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nUsing the referenced host identity and the same thumbnail template, create a square short-video cover for an urgent AI breakthrough story. Preserve the close face crop on the left, the empty hook block on the right, and the narrow category strip at the top. Background should remain dark navy and white, but introduce a bright electric-cyan neural diagram glow behind the host to signal AI without making the frame messy.\n\nSubject:\nThe same recurring female host from the reference image appears with matching haircut, blazer, skin tone, lighting direction, and camera angle. Her expression shifts to alert concentration, with one hand slightly raised near the chin as if reacting to breaking news. On the right side, abstract non-readable headline bars sit above a simple chip icon and a glowing circuit motif. The design must look like a second episode in the same channel system, not a different brand.\n\nImportant details:\nIdentity consistency is mandatory: same host face, same overall crop, same channel styling, same clean geometry. The only major changes should be the cyan accent, the AI iconography, and a stronger sense of urgency in the expression. Keep the design optimized for mobile-size scanning with clear contrast and minimal clutter. All text areas must remain unreadable placeholder shapes, never actual words.\n\nUse case:\nShort Video Cover Pack series study 2/9, using the reference host to test AI-news category variation within one stable thumbnail system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no different host identity, no extra panel collage, no overcomplicated tech background, no soft low-contrast thumbnail.",
+  "id": "02-ai-breakthrough-alert",
+  "title": "AI Breakthrough Alert",
+  "description": "A reference-locked creator thumbnail that swaps in urgent AI iconography while preserving the same host and channel system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/02-ai-breakthrough-alert/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-host",
+        "meta_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/meta.json",
+        "image_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference host to preserve creator identity while switching the story cue to AI breaking news."
+  },
+  "i18n": {
+    "en": {
+      "title": "AI Breakthrough Alert",
+      "description": "A reference-locked creator thumbnail that swaps in urgent AI iconography while preserving the same host and channel system."
+    },
+    "zh-CN": {
+      "title": "AI 突破速报",
+      "description": "依赖基准主持人的频道封面，在保持同一系统的同时切换为 AI 速报视觉语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "The same recurring host appears in a tech-news thumbnail with cyan AI graphics and a bold empty headline block.",
+      "zh-CN": "同一位固定主持人出现在科技新闻封面中，配有青色 AI 图形和醒目的空白标题块。"
+    }
+  }
+}

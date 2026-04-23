@@ -1,0 +1,74 @@
+{
+  "id": "series-key-art-pivot",
+  "type": "series",
+  "title": "Key Art Pivot",
+  "description": "A reference-led four-image series that keeps one cast hierarchy and poster grammar intact while changing genre emphasis and campaign mood.",
+  "creative_direction": "Establish one anchor poster with clear hierarchy, then fan out into three variations that preserve the same cast logic, spatial rhythm, and theatrical sales energy.",
+  "cover_image": "images/01-reference-key-art/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-key-art/meta.json",
+      "images/02-character-surge/meta.json",
+      "images/03-genre-pivot/meta.json",
+      "images/04-finale-ensemble/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-key-art first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent images concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Key Art Pivot",
+      "description": "A reference-led four-image series that keeps one cast hierarchy and poster grammar intact while changing genre emphasis and campaign mood."
+    },
+    "zh-CN": {
+      "title": "主海报变体",
+      "description": "四张依赖同一基准海报的系列图，在保持人物层级与海报语法不变的前提下切换类型与情绪。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "editing-workflow",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-key-art",
+      "title": "Reference Key Art",
+      "image": "images/01-reference-key-art/image.png",
+      "meta": "images/01-reference-key-art/meta.json"
+    },
+    {
+      "id": "02-character-surge",
+      "title": "Character Surge",
+      "image": "images/02-character-surge/image.png",
+      "meta": "images/02-character-surge/meta.json"
+    },
+    {
+      "id": "03-genre-pivot",
+      "title": "Genre Pivot",
+      "image": "images/03-genre-pivot/image.png",
+      "meta": "images/03-genre-pivot/meta.json"
+    },
+    {
+      "id": "04-finale-ensemble",
+      "title": "Finale Ensemble",
+      "image": "images/04-finale-ensemble/image.png",
+      "meta": "images/04-finale-ensemble/meta.json"
+    }
+  ]
+}

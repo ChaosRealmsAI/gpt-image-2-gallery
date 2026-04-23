@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square short-video thumbnail for a true-crime channel, designed for maximum mobile-size readability. The composition uses a dark blue-black background, one flashlight beam, one close human face on the left, and a stark empty hook zone on the right. A narrow red top strip signals the category. The overall layout should feel clean, urgent, and highly clickable without becoming a messy poster.\n\nSubject:\nAn investigative female host in a dark coat leans into frame holding a flashlight upward, her expression tense but controlled. Behind her, a crime-scene wall and evidence board appear only as large abstract shapes, not detailed clutter. The right side contains bold non-readable headline bars and one simple caution-tape diagonal. The frame must read instantly at thumbnail scale.\n\nImportant details:\nKeep the face large, the lighting dramatic, and the design extremely simple. Use red only as a category accent so the face remains the focal point. The hook zone should feel intentional and strong even with no real words. This is a channel cover system, not a cinematic key art poster.\n\nUse case:\nShort Video Cover Pack single study 5/9, focused on true-crime thumbnail clarity and bold hook-zone placement.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cluttered evidence collage, no multiple faces competing, no muddy darkness, no tiny props everywhere.",
+  "id": "01-true-crime-nightcase",
+  "title": "True Crime Nightcase",
+  "description": "A high-contrast true-crime thumbnail with one flashlight-lit host and a clean urgent hook zone.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/single-thumbnail-system-studies/images/01-true-crime-nightcase/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent true-crime thumbnail study prioritizing face, contrast, and hook placement."
+  },
+  "i18n": {
+    "en": {
+      "title": "True Crime Nightcase",
+      "description": "A high-contrast true-crime thumbnail with one flashlight-lit host and a clean urgent hook zone."
+    },
+    "zh-CN": {
+      "title": "夜案真相",
+      "description": "高对比罪案封面，一位手持手电的主持人与干净紧迫的钩子区构成核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A true-crime thumbnail with a flashlight-lit host, dark evidence shapes, and a bold empty headline block.",
+      "zh-CN": "一张罪案类缩略图：手电照亮的主持人、深色证据板轮廓和醒目的空白标题块。"
+    }
+  }
+}

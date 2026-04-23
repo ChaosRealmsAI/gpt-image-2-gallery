@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square collector-style tour drop poster photographed or rendered as a premium printed surface pinned against a dark wall, lit with soft raking light so paper texture, ink richness, and metallic accents show clearly. The composition should feel like the master graphic source for an entire merch and ticket launch.\n\nSubject:\nThe subject is a single owned graphic system: an invented portrait cue or symbolic character fragment, one abstract emblem shape, modular bars for future information, and a deep premium palette of black, silver, and one ember accent. This first image must lock the exact emblem geometry, portrait cue, palette, and spacing logic that later product surfaces preserve.\n\nImportant details:\nThink like a limited tour merch drop with design discipline. The poster should feel collectible, contemporary, and music-specific, with enough shape clarity to migrate onto apparel, tickets, and accessories. Avoid literal readable tour names; the system ownership should come from symbols, material feel, and composition.\n\nUse case:\nTour Merch series study 1/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates, no sponsor logos, no cheap clip-art mascot, no crowded collage, no product clutter around the poster",
+  "id": "01-reference-drop-poster",
+  "title": "Reference Drop Poster",
+  "description": "A root drop poster establishing one tour emblem, one collector-grade palette, and one merch-ready graphic language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/01-reference-drop-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root graphic identity for the tour merch and ticket sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Drop Poster",
+      "description": "A root drop poster establishing one tour emblem, one collector-grade palette, and one merch-ready graphic language."
+    },
+    "zh-CN": {
+      "title": "基准发售海报",
+      "description": "基准发售海报，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A collector-grade tour drop poster with one strong emblem, portrait cue, and premium dark palette.",
+      "zh-CN": "基准发售海报视觉图。"
+    }
+  }
+}

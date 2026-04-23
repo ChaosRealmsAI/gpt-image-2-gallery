@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square promo header concept with broad negative space, one strong performer silhouette, and modular stacked information zones built as non-readable bars. The image should feel like it could sit atop a ticket page or sales landing surface while retaining the drama of a tour poster.\n\nSubject:\nThe subject is a controlled combination of live-performance identity and modular information hierarchy: one headliner figure, spotlight architecture, and placeholder blocks for dates, city, and venue. It should look musical and commercial, not like a generic event website header.\n\nImportant details:\nUse shape contrast, beam geometry, and carefully spaced modules to make the surface instantly scannable. Keep the live-show energy present, but do not let the layout collapse into a noisy flyer. The image should suggest ticketing clarity without rendering any actual readable information.\n\nUse case:\nTour Posters single study 5/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates, no sponsor logos, no browser UI, no crowd photo background, no fake QR code",
+  "id": "ticket-header-study",
+  "title": "Ticket Header Study",
+  "description": "A square header-concept study translating ticket-page hierarchy into a poster-like promo surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/single-tour-assets/images/ticket-header-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent ticket-header study for the tour poster theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Ticket Header Study",
+      "description": "A square header-concept study translating ticket-page hierarchy into a poster-like promo surface."
+    },
+    "zh-CN": {
+      "title": "票务头图区",
+      "description": "票务头图区，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "A ticket-page header concept with performer silhouette, modular date zones, and stage-light hierarchy.",
+      "zh-CN": "票务头图区视觉图。"
+    }
+  }
+}

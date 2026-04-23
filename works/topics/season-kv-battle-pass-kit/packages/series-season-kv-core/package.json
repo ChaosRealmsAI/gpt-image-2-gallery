@@ -1,0 +1,71 @@
+{
+  "id": "series-season-kv-core",
+  "type": "series",
+  "title": "Season KV Core",
+  "description": "A four-image season visual system that keeps one live-ops theme coherent across hero art and battle-pass surfaces.",
+  "creative_direction": "Image 01 establishes the season theme, color script, and featured hero identity. Images 02-04 pivot that same visual system into battle pass and store surfaces.",
+  "cover_image": "images/01-reference-season-hero-kv/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-season-hero-kv/meta.json",
+      "images/02-battle-pass-cover/meta.json",
+      "images/03-reward-track-header/meta.json",
+      "images/04-store-takeover-crop/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-season-hero-kv first. Use its runtime result URL as --ref for 02-battle-pass-cover, 03-reward-track-header, 04-store-takeover-crop. Queue may run 02-battle-pass-cover, 03-reward-track-header, 04-store-takeover-crop concurrently after 01-reference-season-hero-kv is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Season KV Core",
+      "description": "A four-image season visual system that keeps one live-ops theme coherent across hero art and battle-pass surfaces."
+    },
+    "zh-CN": {
+      "title": "赛季 KV 主线",
+      "description": "同一 live-ops 主题下的四张赛季 KV 与通行证核心资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-season-hero-kv",
+      "title": "Reference Season Hero KV",
+      "image": "images/01-reference-season-hero-kv/image.png",
+      "meta": "images/01-reference-season-hero-kv/meta.json"
+    },
+    {
+      "id": "02-battle-pass-cover",
+      "title": "Battle Pass Cover",
+      "image": "images/02-battle-pass-cover/image.png",
+      "meta": "images/02-battle-pass-cover/meta.json"
+    },
+    {
+      "id": "03-reward-track-header",
+      "title": "Reward Track Header",
+      "image": "images/03-reward-track-header/image.png",
+      "meta": "images/03-reward-track-header/meta.json"
+    },
+    {
+      "id": "04-store-takeover-crop",
+      "title": "Store Takeover Crop",
+      "image": "images/04-store-takeover-crop/image.png",
+      "meta": "images/04-store-takeover-crop/meta.json"
+    }
+  ]
+}

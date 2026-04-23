@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square promotional hero frame designed to scale into streaming banner crops, with an invented performer standing on a narrow floating light bridge inside a deep atmospheric world of mist, soft spotlights, and layered distant architecture. The composition should feel cinematic and adaptable, with strong focal center and clear negative zones for later surface changes.\n\nSubject:\nThe performer is an invented musician in a long dark coat with subtle metallic trim, shoulder-length straight hair, and a poised stance facing slightly toward camera. This reference image must lock the exact face, hair base, body proportions, coat silhouette, and floating-light environment so later promo images can preserve the same identity across different streaming surfaces.\n\nImportant details:\nThink like a release-week platform takeover. The world should feel premium, atmospheric, and immediately ownable at both full size and reduced crops. Use one coherent palette of midnight blue, soft silver, and ember accents; keep the light bridge as a signature cue; and preserve enough empty edges to support future surface adaptation without adding readable platform UI or text.\n\nUse case:\nStreaming Promo series study 1/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no handheld microphone, no giant stage screens, no brand interface, no overloaded fantasy skyline, no extra performers",
+  "id": "01-reference-header-world",
+  "title": "Reference Header World",
+  "description": "A root streaming-promo frame defining one performer, one floating-light environment, and one scalable crop language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root release world for the streaming promo sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Header World",
+      "description": "A root streaming-promo frame defining one performer, one floating-light environment, and one scalable crop language."
+    },
+    "zh-CN": {
+      "title": "基准头图世界",
+      "description": "基准头图世界，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A streaming-promo hero frame with one performer standing on a floating light bridge in a deep atmospheric world.",
+      "zh-CN": "基准头图世界视觉图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square reminder-style card with a dark field, one centered musician silhouette, and a modular stack of non-readable bars and abstract countdown shapes. The design should feel crisp and repostable, built for release anticipation rather than narrative complexity.\n\nSubject:\nThe subject is a clear promotional hierarchy: one portrait or silhouette, one strong ambient light cue, and a disciplined field of abstract modules where release information would eventually live. The image must feel native to music marketing while staying entirely non-branded and non-verbal.\n\nImportant details:\nKeep the composition tight, easy to scan, and emotionally direct. Use large tonal contrast, one accent color, and carefully controlled spacing so the card can survive tiny crops. It should feel like a reminder surface for a streaming release, but not like a software notification or generic event flyer.\n\nUse case:\nStreaming Promo single study 8/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable countdown numerals, no app interface, no bright busy gradient mesh, no extra props, no fake device mockup frames",
+  "id": "release-reminder-card",
+  "title": "Release Reminder Card",
+  "description": "A clean release-reminder card emphasizing anticipation, silhouette clarity, and modular promo hierarchy without readable text.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/single-promo-surfaces/images/release-reminder-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent reminder-card study for the streaming promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Release Reminder Card",
+      "description": "A clean release-reminder card emphasizing anticipation, silhouette clarity, and modular promo hierarchy without readable text."
+    },
+    "zh-CN": {
+      "title": "上线提醒卡",
+      "description": "上线提醒卡，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A clean music release-reminder card with strong silhouette, negative space, and modular promo hierarchy.",
+      "zh-CN": "上线提醒卡视觉图。"
+    }
+  }
+}

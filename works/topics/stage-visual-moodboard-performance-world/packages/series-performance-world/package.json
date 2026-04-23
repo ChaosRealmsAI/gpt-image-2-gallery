@@ -1,0 +1,71 @@
+{
+  "id": "series-performance-world",
+  "type": "series",
+  "title": "Performance World Sequence",
+  "description": "A reference-led stage-world sequence that locks one performance universe and then explores lighting, screen, and material variations within it.",
+  "creative_direction": "The root image establishes a complete stage world with floor material, screen motif, atmospheric palette, and performer silhouette. The following images preserve that world-building grammar while shifting emphasis to alternate lighting and scenic treatments.",
+  "cover_image": "images/01-reference-obsidian-stage/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-obsidian-stage/meta.json",
+      "images/02-laser-tunnel-variant/meta.json",
+      "images/03-fog-curtain-variant/meta.json",
+      "images/04-mirror-riser-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-obsidian-stage first. Use its runtime result URL as --ref for 02-laser-tunnel-variant, 03-fog-curtain-variant, 04-mirror-riser-variant. Queue may run 02-laser-tunnel-variant, 03-fog-curtain-variant, 04-mirror-riser-variant concurrently after 01-reference-obsidian-stage is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Performance World Sequence",
+      "description": "A reference-led stage-world sequence that locks one performance universe and then explores lighting, screen, and material variations within it."
+    },
+    "zh-CN": {
+      "title": "演出世界序列",
+      "description": "先锁定一个演出世界，再探索其灯光、屏幕与材质变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-obsidian-stage",
+      "title": "Reference Obsidian Stage",
+      "image": "images/01-reference-obsidian-stage/image.png",
+      "meta": "images/01-reference-obsidian-stage/meta.json"
+    },
+    {
+      "id": "02-laser-tunnel-variant",
+      "title": "Laser Tunnel Variant",
+      "image": "images/02-laser-tunnel-variant/image.png",
+      "meta": "images/02-laser-tunnel-variant/meta.json"
+    },
+    {
+      "id": "03-fog-curtain-variant",
+      "title": "Fog Curtain Variant",
+      "image": "images/03-fog-curtain-variant/image.png",
+      "meta": "images/03-fog-curtain-variant/meta.json"
+    },
+    {
+      "id": "04-mirror-riser-variant",
+      "title": "Mirror Riser Variant",
+      "image": "images/04-mirror-riser-variant/image.png",
+      "meta": "images/04-mirror-riser-variant/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square material board arranged with swatches of reflective black acrylic, smoked mirror, matte charcoal, textured rubber, and haze-lit sample panels. The presentation should feel like a serious stage-scenic material study rather than an interior-design moodboard.\n\nSubject:\nThe subject is the tactile palette of a performance floor and its neighboring surfaces. Each swatch should imply how stage light, reflection, and movement would behave during a live show, creating a credible scenic language from materials alone.\n\nImportant details:\nUse disciplined spacing, subtle labels implied only as empty blocks, and careful lighting to show surface response. The board should communicate production intelligence and world-building ownership. Material realism matters more than decorative beauty here.\n\nUse case:\nStage Moodboard single study 9/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable notes, no interior-design magazine props, no wood furniture mood, no home-decor palette, no unrelated lifestyle items",
+  "id": "material-floor-board",
+  "title": "Material Floor Board",
+  "description": "A material board focused on floor finishes, reflections, and scenic surfaces for a stage-world identity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/single-stage-language-studies/images/material-floor-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent floor-material study for the stage-world theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Material Floor Board",
+      "description": "A material board focused on floor finishes, reflections, and scenic surfaces for a stage-world identity."
+    },
+    "zh-CN": {
+      "title": "地面材质板",
+      "description": "地面材质板，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "commercial-mockup",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A board of reflective floor materials, dark scenic finishes, and haze-lit surfaces for stage design.",
+      "zh-CN": "地面材质板视觉图。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "single-rollout-assets",
+  "type": "single",
+  "title": "Rollout Assets",
+  "description": "Five independent campaign studies translating the same entertainment launch into square promo assets, preview crops, and public rollout moments.",
+  "creative_direction": "Keep every image self-contained, but let the pack feel like one finished campaign toolkit spanning teaser cards, countdown assets, crop boards, and public proofs.",
+  "cover_image": "images/teaser-card/image.png",
+  "i18n": {
+    "en": {
+      "title": "Rollout Assets",
+      "description": "Five independent campaign studies translating the same entertainment launch into square promo assets, preview crops, and public rollout moments."
+    },
+    "zh-CN": {
+      "title": "宣发资产",
+      "description": "五张互不依赖的宣发研究图，把同一娱乐营销主题扩展为方形预热物料、裁切预览和投放场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "editing-workflow",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "teaser-card",
+      "title": "Teaser Card",
+      "image": "images/teaser-card/image.png",
+      "meta": "images/teaser-card/meta.json"
+    },
+    {
+      "id": "countdown-poster",
+      "title": "Countdown Poster",
+      "image": "images/countdown-poster/image.png",
+      "meta": "images/countdown-poster/meta.json"
+    },
+    {
+      "id": "platform-crop-board",
+      "title": "Platform Crop Board",
+      "image": "images/platform-crop-board/image.png",
+      "meta": "images/platform-crop-board/meta.json"
+    },
+    {
+      "id": "street-proof",
+      "title": "Street Proof",
+      "image": "images/street-proof/image.png",
+      "meta": "images/street-proof/meta.json"
+    },
+    {
+      "id": "merch-sell-sheet",
+      "title": "Merch Sell Sheet",
+      "image": "images/merch-sell-sheet/image.png",
+      "meta": "images/merch-sell-sheet/meta.json"
+    }
+  ]
+}

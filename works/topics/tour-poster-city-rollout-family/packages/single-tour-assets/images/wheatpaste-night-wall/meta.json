@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square straight-on street photograph of a damp city wall pasted with multiple copies of the same tour poster, lit by sodium street spill and reflected rain on the pavement below. The scene should feel urban and tactile, but still composed enough to show poster hierarchy clearly.\n\nSubject:\nThe poster family features one performer, spotlight beams, and abstract modular information fields repeated across the wall. Tears, overlaps, and wrinkles are allowed, but the campaign must remain legible as one owned live-tour identity rather than anonymous street clutter.\n\nImportant details:\nUse repetition, wet texture, and poster wear to suggest real-world rollout. Keep other environmental elements quiet so the posters dominate. The mood should be urgent and live, but the design system must still read as professional, coherent, and adaptable to ticketing culture.\n\nUse case:\nTour Posters single study 8/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable graffiti, no brand billboards nearby, no passing crowd, no daylight, no unrelated posters breaking the campaign repetition",
+  "id": "wheatpaste-night-wall",
+  "title": "Wheatpaste Night Wall",
+  "description": "A night wall of repeated tour posters showing gritty but controlled street deployment of a campaign family.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/single-tour-assets/images/wheatpaste-night-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent street-rollout study for the tour poster theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Wheatpaste Night Wall",
+      "description": "A night wall of repeated tour posters showing gritty but controlled street deployment of a campaign family."
+    },
+    "zh-CN": {
+      "title": "夜间糊贴墙",
+      "description": "夜间糊贴墙，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A nighttime wall layered with matching tour posters under wet street reflections and controlled grit.",
+      "zh-CN": "夜间糊贴墙视觉图。"
+    }
+  }
+}

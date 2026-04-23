@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square product shot of a folded shirt on a dark textured surface with controlled top light and faint shadow, photographed like a premium merch release asset. The print area should be visible enough to carry the master graphic while the surrounding styling stays minimal.\n\nSubject:\nPreserve the exact same emblem geometry, portrait cue, palette, and spacing logic from the reference image. The design must migrate naturally onto the shirt fold, proving that the root drop identity can survive on apparel without needing readable typography.\n\nImportant details:\nThe garment should feel premium and believable: thick cotton, subtle fabric texture, and restrained styling. The point is system transfer, not fashion editorial excess. Keep the visual identity consistent and the product shot clean enough to feel ready for launch-week merchandising.\n\nUse case:\nTour Merch series study 3/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the same emblem and palette from the reference; no model wearing the shirt, no brand tags, no price sticker, no bright packaging, no retail shelf environment",
+  "id": "03-shirt-fold-variant",
+  "title": "Shirt Fold Variant",
+  "description": "An apparel variation preserving the same drop identity while testing how the master graphic lands on folded tour merchandise.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/03-shirt-fold-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-drop-poster",
+        "meta_path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/01-reference-drop-poster/meta.json",
+        "image_path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/01-reference-drop-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Apparel variation depending on the root drop-poster identity.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Shirt Fold Variant",
+      "description": "An apparel variation preserving the same drop identity while testing how the master graphic lands on folded tour merchandise."
+    },
+    "zh-CN": {
+      "title": "T恤折叠变体",
+      "description": "T恤折叠变体，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A folded tour shirt preserving the same emblem and portrait cue from the reference merch-drop poster.",
+      "zh-CN": "T恤折叠变体视觉图。"
+    }
+  }
+}

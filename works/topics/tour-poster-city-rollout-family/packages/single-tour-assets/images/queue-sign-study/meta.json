@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square product-environment shot of a freestanding sign board inside a dim entry corridor, lit with clean practical light and slight floor reflections. The board should look real and usable, but it also needs enough visual drama to feel like part of the main tour campaign.\n\nSubject:\nThe sign board carries the same performer-led graphic identity, spotlight cues, and modular non-readable information blocks that define the larger tour poster system. It should feel like a crowd-flow object that still belongs inside a serious live-music rollout, not generic venue signage.\n\nImportant details:\nBalance utility and campaign character. Use a clean frame, believable material build, and restrained environmental context so the sign board reads clearly. The live-show energy should come from lighting and poster cues, not from crowd chaos or literal readable instructions.\n\nUse case:\nTour Posters single study 9/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no arrows with readable labels, no venue logo, no crowd queue, no emergency signage, no cheap plastic retail look",
+  "id": "queue-sign-study",
+  "title": "Queue Sign Study",
+  "description": "A freestanding queue-sign concept showing how tour identity can guide physical flow without losing poster-grade style.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/single-tour-assets/images/queue-sign-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent queue-sign study for the tour poster theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Queue Sign Study",
+      "description": "A freestanding queue-sign concept showing how tour identity can guide physical flow without losing poster-grade style."
+    },
+    "zh-CN": {
+      "title": "排队指示牌研究",
+      "description": "排队指示牌研究，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A freestanding queue-sign concept with tour identity graphics, beam cues, and modular non-readable information blocks.",
+      "zh-CN": "排队指示牌研究视觉图。"
+    }
+  }
+}

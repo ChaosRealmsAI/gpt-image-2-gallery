@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square stage-world rendering in the same obsidian universe, now featuring a central mirrored riser and slightly more sculptural platform geometry beneath the performer. The red moon motif, haze, and vertical light slits remain the defining anchors of the composition.\n\nSubject:\nPreserve the same performer silhouette scale, red lunar screen, obsidian floor language, and ceremonial emptiness from the reference image. The only major shift is the introduction of a mirror-like riser that elevates the performer and gives the scene a stronger ritual center.\n\nImportant details:\nThe riser should feel like a logical scenic extension inside the same show package. Use reflection, material realism, and symmetry to create focus, but avoid making the stage ornate or overbuilt. This must still read as one coherent performance world that could support lighting plots, wardrobe choices, and promo imagery.\n\nUse case:\nStage Moodboard series study 4/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the obsidian floor and red-moon motif from the reference; no audience, no pyrotechnics, no extra props, no architectural set pieces unrelated to the world, no brand marks",
+  "id": "04-mirror-riser-variant",
+  "title": "Mirror Riser Variant",
+  "description": "A mirror-riser stage variant preserving the same world while introducing sculptural platform geometry and heightened ceremonial focus.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "style-transfer",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/04-mirror-riser-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-obsidian-stage",
+        "meta_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/meta.json",
+        "image_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Mirror-riser variation depending on the root stage-world image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Mirror Riser Variant",
+      "description": "A mirror-riser stage variant preserving the same world while introducing sculptural platform geometry and heightened ceremonial focus."
+    },
+    "zh-CN": {
+      "title": "镜面升台变体",
+      "description": "镜面升台变体，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A mirror-riser stage variant preserving the same obsidian and lunar-world grammar from the reference.",
+      "zh-CN": "镜面升台变体视觉图。"
+    }
+  }
+}

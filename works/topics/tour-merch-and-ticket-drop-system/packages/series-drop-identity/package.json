@@ -1,0 +1,71 @@
+{
+  "id": "series-drop-identity",
+  "type": "series",
+  "title": "Drop Identity Sequence",
+  "description": "A reference-led merch-and-ticket sequence establishing one tour graphic language and propagating it across poster, ticket, apparel, and wristband surfaces.",
+  "creative_direction": "The root image establishes an owned graphic identity for a tour drop: one emblem, one color system, one portrait or mascot cue, and one collector-grade mood. Subsequent images preserve that language across different physical products and ticket surfaces.",
+  "cover_image": "images/01-reference-drop-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-drop-poster/meta.json",
+      "images/02-ticket-pack-variant/meta.json",
+      "images/03-shirt-fold-variant/meta.json",
+      "images/04-wristband-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-drop-poster first. Use its runtime result URL as --ref for 02-ticket-pack-variant, 03-shirt-fold-variant, 04-wristband-variant. Queue may run 02-ticket-pack-variant, 03-shirt-fold-variant, 04-wristband-variant concurrently after 01-reference-drop-poster is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Drop Identity Sequence",
+      "description": "A reference-led merch-and-ticket sequence establishing one tour graphic language and propagating it across poster, ticket, apparel, and wristband surfaces."
+    },
+    "zh-CN": {
+      "title": "发售身份序列",
+      "description": "先建立巡演 merch 与 ticket 的统一图形语法，再扩展到多种物料。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-drop-poster",
+      "title": "Reference Drop Poster",
+      "image": "images/01-reference-drop-poster/image.png",
+      "meta": "images/01-reference-drop-poster/meta.json"
+    },
+    {
+      "id": "02-ticket-pack-variant",
+      "title": "Ticket Pack Variant",
+      "image": "images/02-ticket-pack-variant/image.png",
+      "meta": "images/02-ticket-pack-variant/meta.json"
+    },
+    {
+      "id": "03-shirt-fold-variant",
+      "title": "Shirt Fold Variant",
+      "image": "images/03-shirt-fold-variant/image.png",
+      "meta": "images/03-shirt-fold-variant/meta.json"
+    },
+    {
+      "id": "04-wristband-variant",
+      "title": "Wristband Variant",
+      "image": "images/04-wristband-variant/image.png",
+      "meta": "images/04-wristband-variant/meta.json"
+    }
+  ]
+}

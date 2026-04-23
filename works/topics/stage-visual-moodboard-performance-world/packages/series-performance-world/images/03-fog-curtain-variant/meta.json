@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square moodboard image from the same stage universe, now layered with drifting fog curtains and more diffused side light that partially veils the red lunar screen. The overall architecture must remain identical, but the atmosphere becomes softer and more dreamlike.\n\nSubject:\nPreserve the same central performer silhouette scale, obsidian floor reflections, red moon screen motif, and stage proportions from the reference image. The performer stays small and ceremonial, while the fog becomes a new scenic medium that turns the world into a softer, suspended environment.\n\nImportant details:\nThis variant should feel like the same performance world viewed through an alternate atmospheric treatment. Do not change the world language; enrich it through diffusion, layered haze, and softened reflections. The stage should still feel buildable, practical, and translatable into a real show creative direction deck.\n\nUse case:\nStage Moodboard series study 3/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the obsidian floor and red-moon motif from the reference; no audience, no extra scenic objects, no heavy rain effect, no decorative starscape, no venue branding",
+  "id": "03-fog-curtain-variant",
+  "title": "Fog Curtain Variant",
+  "description": "A softer stage-world variant preserving the same scenic grammar while transforming the world through drifting fog curtains and diffused light.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "style-transfer",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/03-fog-curtain-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-obsidian-stage",
+        "meta_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/meta.json",
+        "image_path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fog-curtain variation depending on the root stage-world image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Fog Curtain Variant",
+      "description": "A softer stage-world variant preserving the same scenic grammar while transforming the world through drifting fog curtains and diffused light."
+    },
+    "zh-CN": {
+      "title": "雾幕变体",
+      "description": "雾幕变体，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A diffused fog-curtain stage-world variant preserving the same obsidian floor and red-moon motif.",
+      "zh-CN": "雾幕变体视觉图。"
+    }
+  }
+}

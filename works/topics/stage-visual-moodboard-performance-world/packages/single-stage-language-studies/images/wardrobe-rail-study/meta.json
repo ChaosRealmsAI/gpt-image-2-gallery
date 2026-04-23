@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square studio moodboard image showing a wardrobe rail with several dark garments, metallic trims, boots, gloves, and folded fabric swatches under dramatic side light. The shot should feel like a presentation slide for a tour costume direction rather than a retail fashion rack.\n\nSubject:\nThe subject is the wardrobe language itself: long silhouettes, matte black textiles, brushed metal accents, and disciplined color control that could belong to a live performance world. No literal brand labels or readable tags should appear; the rail should communicate stage identity through material and silhouette.\n\nImportant details:\nKeep the styling serious, modern, and show-ready. Use selective props such as a belt, earpiece, or glove only if they reinforce the live-performance world. The image should bridge fashion and staging without feeling like a store display or editorial shopping spread.\n\nUse case:\nStage Moodboard single study 5/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no retail signage, no readable clothing labels, no bright casual garments, no mannequins, no audience or stage in the background",
+  "id": "wardrobe-rail-study",
+  "title": "Wardrobe Rail Study",
+  "description": "A stage-wardrobe moodboard with dark tailored garments, metallic accents, and lighting references tied to a performance world.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/single-stage-language-studies/images/wardrobe-rail-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent wardrobe study for the stage-world theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Wardrobe Rail Study",
+      "description": "A stage-wardrobe moodboard with dark tailored garments, metallic accents, and lighting references tied to a performance world."
+    },
+    "zh-CN": {
+      "title": "服装轨道研究",
+      "description": "服装轨道研究，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "fashion",
+      "single"
+    ],
+    "alt": {
+      "en": "A stage wardrobe rail of dark garments and metallic accents presented like a tour creative-direction moodboard.",
+      "zh-CN": "服装轨道研究视觉图。"
+    }
+  }
+}

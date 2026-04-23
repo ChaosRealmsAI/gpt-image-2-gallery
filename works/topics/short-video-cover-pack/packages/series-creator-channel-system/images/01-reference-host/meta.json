@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square short-video thumbnail master template for a tech-business creator channel. The composition should be loud enough to read at phone size but still clean and system-driven: a close face crop on the left two-thirds, a bold rectangular hook zone on the right, and a narrow top category strip. Background uses a dark navy gradient with lime and white accent blocks, like a modern YouTube Shorts or Bilibili cover system.\n\nSubject:\nA confident East Asian female host in her early thirties with a sharp bob haircut, charcoal blazer, and small in-ear mic leans slightly toward camera with one raised eyebrow and a half-smile. She should feel like a recognizable recurring creator rather than a generic stock portrait. Behind her are abstract shapes suggesting dashboards, charts, and studio light reflections, but kept blurred and secondary. The cover must establish one host identity, one lighting setup, and one template structure that later series images can preserve.\n\nImportant details:\nDesign for thumbnail legibility first: oversized face, simple background, one bright accent color, and a clean empty block where hook text would normally sit, but rendered as non-readable bars and geometric placeholders only. Keep the host's face, hair, blazer, and lighting highly stable because follow-up covers will depend on this image as the identity reference. The whole frame should feel like a premium recurring channel pack, not a random poster.\n\nUse case:\nShort Video Cover Pack series study 1/9, establishing the recurring host identity and reusable cover template for a creator channel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cluttered background, no extra people, no tiny unreadable details everywhere, no poster-like empty dead space.",
+  "id": "01-reference-host",
+  "title": "Reference Host",
+  "description": "The root creator-channel thumbnail establishing the recurring host, left-heavy face crop, and reusable hook-zone template.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference for the host identity and reusable thumbnail system."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Host",
+      "description": "The root creator-channel thumbnail establishing the recurring host, left-heavy face crop, and reusable hook-zone template."
+    },
+    "zh-CN": {
+      "title": "主持人基准图",
+      "description": "频道封面系统的基准图，建立固定主持人、左侧大脸裁切和可复用钩子区模板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A creator-channel thumbnail template with a recurring female host on the left and a bold empty hook zone on the right.",
+      "zh-CN": "一张频道封面模板：左侧是固定女主持人大脸，右侧是醒目的空白钩子区。"
+    }
+  }
+}

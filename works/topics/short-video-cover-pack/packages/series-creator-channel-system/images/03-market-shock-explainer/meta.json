@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nUsing the referenced host identity and the same square thumbnail layout, create a market-volatility explainer cover. Keep the host face crop on the left, the blank hook zone on the right, and the thin top strip, but shift the accent palette to warning orange and crisp white against the same dark navy base. Add a single falling-chart diagonal and one coin or candlestick symbol as simplified background cues.\n\nSubject:\nThe same recurring female host from the reference image must remain clearly identical in face, hairstyle, wardrobe, and framing. Her expression is sharper and more analytical, with lips slightly parted as if saying something surprising. The right-side hook zone uses stacked non-readable bars and a downward arrow motif. The overall thumbnail should feel like another episode from the same account, tuned for financial urgency and high click-through recognition.\n\nImportant details:\nPreserve identity consistency and channel-system discipline above all else. The host cannot drift into a different person or a different lighting setup. Keep background elements large and simple enough to read when reduced to a tiny thumbnail. Use orange sparingly so the face remains dominant. The empty text zone must look intentional and bold even without any readable lettering.\n\nUse case:\nShort Video Cover Pack series study 3/9, testing a finance-news variation while preserving the same creator-channel visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra hosts, no dense stock-market clutter, no low-energy expression, no deviation from the reference face and crop.",
+  "id": "03-market-shock-explainer",
+  "title": "Market Shock Explainer",
+  "description": "A finance-angle creator thumbnail that keeps the same recurring host while shifting the category accents to market volatility.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/03-market-shock-explainer/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-host",
+        "meta_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/meta.json",
+        "image_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference host to preserve identity while shifting the system to market-shock coverage."
+  },
+  "i18n": {
+    "en": {
+      "title": "Market Shock Explainer",
+      "description": "A finance-angle creator thumbnail that keeps the same recurring host while shifting the category accents to market volatility."
+    },
+    "zh-CN": {
+      "title": "市场震荡解析",
+      "description": "财经向频道封面，在保持同一主持人的前提下切换为市场波动栏目视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "The recurring channel host appears beside orange market-drop graphics and a bold blank hook area.",
+      "zh-CN": "固定频道主持人旁边是橙色下跌图形和醒目的空白钩子区。"
+    }
+  }
+}

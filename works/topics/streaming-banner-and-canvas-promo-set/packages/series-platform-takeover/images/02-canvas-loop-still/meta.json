@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square promo still in the same floating-bridge world, now cropped tighter and energized by drifting haze ribbons, faint motion blur in fabric edges, and stronger light pulses under the performer’s feet. The environment must remain unmistakably tied to the reference hero frame, just optimized for a looping surface mood.\n\nSubject:\nPreserve the exact same performer from the reference image, including face shape, hair base, body proportions, and long coat silhouette. The musician now turns slightly within the frame as if caught mid-loop, while the light bridge and mist layers remain the signature spatial anchors of the streaming campaign.\n\nImportant details:\nThis should feel like a believable canvas still from the same release system. Keep the color world, bridge geometry, and crop discipline consistent, but introduce subtle motion implication through fabric, haze, and light sweep. The image must remain clean enough for platform use and recognizably identical to the reference release identity.\n\nUse case:\nStreaming Promo series study 2/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no extra characters, no fake playback controls, no chaotic particles, no lens warping, no bright daylight",
+  "id": "02-canvas-loop-still",
+  "title": "Canvas Loop Still",
+  "description": "A canvas-style still that preserves the same performer and floating-bridge world while adding motion implication and tighter crop energy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/02-canvas-loop-still/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-header-world",
+        "meta_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/meta.json",
+        "image_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Canvas-still variation depending on the root streaming promo image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Canvas Loop Still",
+      "description": "A canvas-style still that preserves the same performer and floating-bridge world while adding motion implication and tighter crop energy."
+    },
+    "zh-CN": {
+      "title": "Canvas循环帧",
+      "description": "Canvas循环帧，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A streaming canvas still preserving the same performer and floating bridge, with added motion and atmospheric drift.",
+      "zh-CN": "Canvas循环帧视觉图。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-promo-surfaces",
+  "type": "single",
+  "title": "Promo Surface Studies",
+  "description": "Five independent studies for streaming-adjacent promo surfaces such as announcement cards, listener milestones, playlist tiles, and ambient motion stills.",
+  "creative_direction": "Independent assets should feel natively built for streaming-era campaigns: square crops, clear hierarchy, platform-safe framing, and emotional readability without brand marks or readable interface text.",
+  "cover_image": "images/playlist-cover-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Promo Surface Studies",
+      "description": "Five independent studies for streaming-adjacent promo surfaces such as announcement cards, listener milestones, playlist tiles, and ambient motion stills."
+    },
+    "zh-CN": {
+      "title": "宣传表面研究",
+      "description": "围绕流媒体发行的独立宣传表面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "playlist-cover-board",
+      "title": "Playlist Cover Board",
+      "image": "images/playlist-cover-board/image.png",
+      "meta": "images/playlist-cover-board/meta.json"
+    },
+    {
+      "id": "listener-milestone-card",
+      "title": "Listener Milestone Card",
+      "image": "images/listener-milestone-card/image.png",
+      "meta": "images/listener-milestone-card/meta.json"
+    },
+    {
+      "id": "ambient-canvas-room",
+      "title": "Ambient Canvas Room",
+      "image": "images/ambient-canvas-room/image.png",
+      "meta": "images/ambient-canvas-room/meta.json"
+    },
+    {
+      "id": "release-reminder-card",
+      "title": "Release Reminder Card",
+      "image": "images/release-reminder-card/image.png",
+      "meta": "images/release-reminder-card/meta.json"
+    },
+    {
+      "id": "artist-channel-header-study",
+      "title": "Artist Channel Header Study",
+      "image": "images/artist-channel-header-study/image.png",
+      "meta": "images/artist-channel-header-study/meta.json"
+    }
+  ]
+}

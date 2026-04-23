@@ -1,0 +1,71 @@
+{
+  "id": "series-platform-takeover",
+  "type": "series",
+  "title": "Platform Takeover Sequence",
+  "description": "A reference-led streaming promo sequence spanning header banner, canvas still, and profile takeover surfaces within one campaign world.",
+  "creative_direction": "The first image establishes a streaming-ready release world with one performer, one color environment, and one recognizably ownable crop logic. Subsequent images preserve that same subject and visual grammar while adapting the mood to adjacent promo surfaces.",
+  "cover_image": "images/01-reference-header-world/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-header-world/meta.json",
+      "images/02-canvas-loop-still/meta.json",
+      "images/03-profile-takeover-card/meta.json",
+      "images/04-discovery-promo-still/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-header-world first. Use its runtime result URL as --ref for 02-canvas-loop-still, 03-profile-takeover-card, 04-discovery-promo-still. Queue may run 02-canvas-loop-still, 03-profile-takeover-card, 04-discovery-promo-still concurrently after 01-reference-header-world is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Platform Takeover Sequence",
+      "description": "A reference-led streaming promo sequence spanning header banner, canvas still, and profile takeover surfaces within one campaign world."
+    },
+    "zh-CN": {
+      "title": "平台接管序列",
+      "description": "同一流媒体活动世界被拆成 banner、canvas 与 profile takeover 序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-header-world",
+      "title": "Reference Header World",
+      "image": "images/01-reference-header-world/image.png",
+      "meta": "images/01-reference-header-world/meta.json"
+    },
+    {
+      "id": "02-canvas-loop-still",
+      "title": "Canvas Loop Still",
+      "image": "images/02-canvas-loop-still/image.png",
+      "meta": "images/02-canvas-loop-still/meta.json"
+    },
+    {
+      "id": "03-profile-takeover-card",
+      "title": "Profile Takeover Card",
+      "image": "images/03-profile-takeover-card/image.png",
+      "meta": "images/03-profile-takeover-card/meta.json"
+    },
+    {
+      "id": "04-discovery-promo-still",
+      "title": "Discovery Promo Still",
+      "image": "images/04-discovery-promo-still/image.png",
+      "meta": "images/04-discovery-promo-still/meta.json"
+    }
+  ]
+}

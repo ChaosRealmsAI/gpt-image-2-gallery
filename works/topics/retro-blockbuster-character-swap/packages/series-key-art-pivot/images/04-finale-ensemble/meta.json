@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nA square entertainment marketing key visual for Retro Blockbuster Character Swap, designed like a polished campaign asset ready for posters, covers, feeds, or street placement. The composition should have immediate impact from a distance while still carrying layered detail up close. Keep the lighting dramatic, the hierarchy bold, and the framing tight enough to feel like real promotional art instead of a casual illustration.\n\nSubject:\nCenter the piece on Finale Ensemble, a frame that expands the same layout into a climax-heavy ensemble poster without losing readability. Translate Recreate painted blockbuster poster language from the 1980s and 1990s with alternate IP casts, preserving airbrushed energy, montage structure, and theatrical hype. into a concrete campaign image with clear protagonist hierarchy, supporting world-building cues, and unmistakable promotional intent. The viewer should understand the genre, the ensemble relationships, and the commercial purpose at a glance without relying on readable text or existing brand marks.\n\nImportant details:\nThe challenge is disciplined hype. Preserve focal hierarchy, readable silhouette separation, strong foreground-background layering, and a convincing balance between character energy and structured layout. This theme studies style-transfer, structured-layout, commercial-mockup, reasoning-composition through a production-ready visual system. Even if typography is unreadable, space for title blocks, badges, or platform framing should feel intentionally designed. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nRetro Blockbuster Character Swap series study 4/4.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no broken anatomy, no unreadable hierarchy collapse, no muddy montage, no accidental real movie logos, no random filler characters, no off-topic props.",
+  "id": "04-finale-ensemble",
+  "title": "Finale Ensemble",
+  "description": "Finale Ensemble for Retro Blockbuster Character Swap, expands the same layout into a climax-heavy ensemble poster without losing readability.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer",
+    "series",
+    "reasoning-composition",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-blockbuster-character-swap/packages/series-key-art-pivot/images/04-finale-ensemble/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-key-art",
+        "meta_path": "works/topics/retro-blockbuster-character-swap/packages/series-key-art-pivot/images/01-reference-key-art/meta.json",
+        "image_path": "works/topics/retro-blockbuster-character-swap/packages/series-key-art-pivot/images/01-reference-key-art/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the anchor image identity while varying the requested campaign angle."
+  },
+  "i18n": {
+    "en": {
+      "title": "Finale Ensemble",
+      "description": "Finale Ensemble for Retro Blockbuster Character Swap, expands the same layout into a climax-heavy ensemble poster without losing readability."
+    },
+    "zh-CN": {
+      "title": "终局群像版",
+      "description": "复古大片换角 主题中的终局群像版研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Finale Ensemble campaign image for Retro Swap.",
+      "zh-CN": "复古大片换角 主题的终局群像版画面。"
+    }
+  }
+}

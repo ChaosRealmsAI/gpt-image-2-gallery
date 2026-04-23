@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square stage-world moodboard showing a large performance environment with an obsidian reflective floor, hanging haze, a giant red moon-like screen graphic, and narrow vertical light slits framing the space. The camera is front-facing and slightly elevated so the entire world reads like a creative-direction board for a tour stage rather than a documentary photo.\n\nSubject:\nA solitary performer silhouette stands at center stage, small relative to the environment, while the true subject is the world itself: reflective black floor, red lunar screen motif, vertical light architecture, and ceremonial empty space. This first image must lock the exact scenic language that later variants preserve: floor finish, screen symbol, scale relationship, and atmospheric density.\n\nImportant details:\nThink like a stage creative deck image. Every element should feel intentional and translatable into screens, lighting, wardrobe, and promo materials. The stage world should be dramatic yet minimal, with a strong symbolic motif and enough clean geometry to support coherent expansion. Avoid readable show titles or brand marks; the ownership comes from environmental grammar.\n\nUse case:\nStage Moodboard series study 1/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no audience visible, no visible truss clutter, no sponsor logo, no fireworks, no random props, no realistic venue seating dominating the frame",
+  "id": "01-reference-obsidian-stage",
+  "title": "Reference Obsidian Stage",
+  "description": "A root stage-world moodboard image defining an obsidian floor, red moon screen motif, and ceremonial performer silhouette.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "style-transfer",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/series-performance-world/images/01-reference-obsidian-stage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root stage-world reference for the performance moodboard sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Obsidian Stage",
+      "description": "A root stage-world moodboard image defining an obsidian floor, red moon screen motif, and ceremonial performer silhouette."
+    },
+    "zh-CN": {
+      "title": "基准黑曜舞台",
+      "description": "基准黑曜舞台，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A stage-world moodboard with obsidian floor reflections, a red moon screen motif, and a solitary performer silhouette.",
+      "zh-CN": "基准黑曜舞台视觉图。"
+    }
+  }
+}

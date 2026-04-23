@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nUsing the referenced host identity and the same thumbnail system, create a founder-debate spotlight cover. Preserve the left-heavy host crop, the right-side hook block, and the narrow top category strip. Keep the dark navy base, but switch the accent to vivid magenta and white with one split-circle or versus shape faintly behind the placeholder headline zone.\n\nSubject:\nThe same recurring female host from the reference image appears unchanged in identity, hair, face, blazer, and lighting. She now points slightly toward the right-side hook area with a more skeptical expression, as if framing a debate between two public figures. The background should include only simplified silhouette medallions or abstract profile shapes, not full extra faces. The cover must read immediately as part of the same creator channel while signaling a debate or opinion segment.\n\nImportant details:\nIdentity preservation and template consistency are the main tasks. Keep the same overall camera distance and layout rhythm so all four covers look like one system when viewed side by side. The magenta accent should be decisive but limited. Use bold unreadable line blocks for the hook zone and clean graphic separators for a premium short-video feel. Do not let the supporting graphics compete with the host's face.\n\nUse case:\nShort Video Cover Pack series study 4/9, testing opinion-segment variation while maintaining one host-led cover system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra realistic portrait collage, no different host styling, no overcrowded debate graphics, no muddy low-contrast layout.",
+  "id": "04-founder-debate-spotlight",
+  "title": "Founder Debate Spotlight",
+  "description": "A host-led creator thumbnail that preserves the same system while introducing magenta debate-segment signaling.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/04-founder-debate-spotlight/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-host",
+        "meta_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/meta.json",
+        "image_path": "works/topics/short-video-cover-pack/packages/series-creator-channel-system/images/01-reference-host/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference host to preserve creator identity while switching the cover to a debate segment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Founder Debate Spotlight",
+      "description": "A host-led creator thumbnail that preserves the same system while introducing magenta debate-segment signaling."
+    },
+    "zh-CN": {
+      "title": "创始人争议聚焦",
+      "description": "保持同一主持人与模板的频道封面，通过洋红色争议栏目视觉做区分。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "The same recurring host points toward a magenta debate-style hook zone in a consistent creator thumbnail layout.",
+      "zh-CN": "同一位固定主持人在一致的频道封面布局中指向洋红色争议栏目钩子区。"
+    }
+  }
+}

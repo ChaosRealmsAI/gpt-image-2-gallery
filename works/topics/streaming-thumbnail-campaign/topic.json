@@ -1,0 +1,58 @@
+{
+  "id": "streaming-thumbnail-campaign",
+  "slug": "streaming-thumbnail-campaign",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Streaming Thumbnail Campaign",
+  "short_title": "Streaming Thumbs",
+  "description": "Develop thumbnail sets for streaming platforms that hold up at tiny sizes while staying cohesive across rows, genres, and recommendation surfaces.",
+  "i18n": {
+    "en": {
+      "title": "Streaming Thumbnail Campaign",
+      "short_title": "Streaming Thumbs",
+      "description": "Develop thumbnail sets for streaming platforms that hold up at tiny sizes while staying cohesive across rows, genres, and recommendation surfaces."
+    },
+    "zh-CN": {
+      "title": "流媒体缩略图战役",
+      "short_title": "缩略图战役",
+      "description": "做 Netflix、Disney+、B站或游戏商店首页那种并排缩略图系统，小尺寸下也要清晰、有类型感、有系列统一性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 756,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-key-art-pivot",
+      "type": "series",
+      "title": "Key Art Pivot",
+      "path": "packages/series-key-art-pivot/package.json"
+    },
+    {
+      "id": "single-rollout-assets",
+      "type": "single",
+      "title": "Rollout Assets",
+      "path": "packages/single-rollout-assets/package.json"
+    }
+  ]
+}

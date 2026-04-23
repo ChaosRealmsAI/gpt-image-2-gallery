@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square city-rollout poster in the same tour design language, now pushed toward deeper night atmosphere, denser haze, and a wider beam spread that implies a large arena setting. The frame must remain recognizably based on the reference poster, with the same modular block hierarchy and subject scale.\n\nSubject:\nPreserve the exact same headlining musician from the reference image, including face shape, hair base, body proportions, and long-coat silhouette. The performer stands with the same core stage authority, now surrounded by larger light cones and faint architectural depth that suggest a bigger live environment without adding a literal crowd.\n\nImportant details:\nThe city rollout should feel like a variation inside one ticketing campaign, not a new visual system. Keep the same non-readable date-block logic, same spotlight architecture, and same performer lock while deepening the mood and scale. This should feel usable for an arena-stop announcement where identity clarity matters more than decorative complexity.\n\nUse case:\nTour Posters series study 2/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable city name, no crowd sea, no sponsor logos, no fireworks, no random color palette shift",
+  "id": "02-arena-night-variant",
+  "title": "Arena Night Variant",
+  "description": "A city-rollout poster variant preserving the reference performer and hierarchy while intensifying the arena-night atmosphere.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/02-arena-night-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-main-tour-poster",
+        "meta_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/meta.json",
+        "image_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Arena-night city poster depending on the root tour poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Arena Night Variant",
+      "description": "A city-rollout poster variant preserving the reference performer and hierarchy while intensifying the arena-night atmosphere."
+    },
+    "zh-CN": {
+      "title": "夜场馆变体",
+      "description": "夜场馆变体，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A tour-poster variant with arena-night energy while preserving the same performer and abstract date-block system.",
+      "zh-CN": "夜场馆变体视觉图。"
+    }
+  }
+}

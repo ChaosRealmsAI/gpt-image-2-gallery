@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square overhead unboxing-style composition showing tissue paper, layered inserts, a small accessory, and folded soft goods inside a dark collector box. The shot should feel tactile and premium, with careful light on paper folds and textured surfaces.\n\nSubject:\nThe subject is the bundle reveal itself: coordinated printed surfaces, accessory hints, and a coherent graphic language tying the whole box together. The objects should feel music-specific and limited-edition without showing readable SKU text or commercial branding.\n\nImportant details:\nFocus on material layering and launch desirability. Tissue, card stock, soft goods, and small objects should all reinforce one collector system. The scene should feel curated and musical, not like generic beauty or lifestyle subscription packaging.\n\nUse case:\nTour Merch single study 7/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no shipping labels, no brand boxes, no price tags, no packing peanuts, no extra unrelated consumer products",
+  "id": "bundle-box-insert",
+  "title": "Bundle Box Insert",
+  "description": "A bundled package insert study showing how a tour drop feels when unboxed as a collector system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/single-merch-object-studies/images/bundle-box-insert/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent bundle-insert study for the merch drop theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Bundle Box Insert",
+      "description": "A bundled package insert study showing how a tour drop feels when unboxed as a collector system."
+    },
+    "zh-CN": {
+      "title": "礼包盒内页",
+      "description": "礼包盒内页，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A collector bundle insert with layered merch objects, tissue, and premium dark-palette graphics.",
+      "zh-CN": "礼包盒内页视觉图。"
+    }
+  }
+}

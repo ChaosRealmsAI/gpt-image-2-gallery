@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square tour-poster variation in the same overall design system, now opening toward a dusky outdoor horizon with softer haze, wider light beams, and a faint sense of wind moving through the scene. The poster should still behave like part of the same ticketing rollout, not like a disconnected landscape poster.\n\nSubject:\nPreserve the exact same headlining musician from the reference image, including face shape, hair base, body proportions, and long-coat silhouette. The performer remains the anchor while the environment shifts to a more open-air atmosphere, with stage-light geometry reaching into the dusk sky behind them.\n\nImportant details:\nKeep the same block hierarchy, same abstract date fields, and same subject placement logic. The novelty comes from venue mood, not from new branding. This should feel like a believable outdoor stop variation inside the same tour rollout family, balancing openness with controlled poster clarity.\n\nUse case:\nTour Posters series study 4/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable festival names, no crowd field, no fireworks, no giant stage screens, no sunset postcard look",
+  "id": "04-open-air-dusk-variant",
+  "title": "Open Air Dusk Variant",
+  "description": "An open-air poster variant preserving the same tour identity while opening the frame toward dusk sky and festival-scale air.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/04-open-air-dusk-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-main-tour-poster",
+        "meta_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/meta.json",
+        "image_path": "works/topics/tour-poster-city-rollout-family/packages/series-city-rollout/images/01-reference-main-tour-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Open-air stop poster depending on the root tour poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Open Air Dusk Variant",
+      "description": "An open-air poster variant preserving the same tour identity while opening the frame toward dusk sky and festival-scale air."
+    },
+    "zh-CN": {
+      "title": "露天黄昏变体",
+      "description": "露天黄昏变体，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "An open-air dusk tour poster preserving the same performer and campaign hierarchy from the reference image.",
+      "zh-CN": "露天黄昏变体视觉图。"
+    }
+  }
+}

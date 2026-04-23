@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square environmental photograph of a dim venue lobby lined with backlit poster lightboxes. The lightboxes should display a coherent headliner campaign language across multiple panels, creating the sense of a full tour rollout environment before doors open.\n\nSubject:\nThe subject is the wall of campaign surfaces itself: repeated performer imagery, spotlight geometry, and non-readable date modules translated into illuminated display panels. The hallway should feel real, with polished floor reflections and practical lighting, but the posters remain the unmistakable focal point.\n\nImportant details:\nThis is a deployment study. Keep the environment believable and minimal, and let repetition sell ownership. The lightboxes should feel like a real tour promotion occupying physical space, not a trade-show booth. Strong poster hierarchy and atmospheric light are more important than environmental decoration.\n\nUse case:\nTour Posters single study 6/9 for the Tour Poster City Rollout Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no venue logos, no audience queue, no readable directional signage, no branded concessions, no random ads sharing the wall",
+  "id": "lobby-lightbox-wall",
+  "title": "Lobby Lightbox Wall",
+  "description": "A venue-lobby lightbox installation showing how a tour identity scales into environmental campaign surfaces.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-poster-city-rollout-family/packages/single-tour-assets/images/lobby-lightbox-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent environmental rollout study for the tour poster theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Lobby Lightbox Wall",
+      "description": "A venue-lobby lightbox installation showing how a tour identity scales into environmental campaign surfaces."
+    },
+    "zh-CN": {
+      "title": "大厅灯箱墙",
+      "description": "大厅灯箱墙，用于巡演海报主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A venue lobby lined with illuminated tour campaign posters and modular abstract info panels.",
+      "zh-CN": "大厅灯箱墙视觉图。"
+    }
+  }
+}

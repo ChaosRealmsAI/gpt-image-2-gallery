@@ -1,0 +1,71 @@
+{
+  "id": "series-city-rollout",
+  "type": "series",
+  "title": "City Rollout Sequence",
+  "description": "A master tour-poster sequence that establishes one performer-led poster grammar and adapts it into city-specific rollout variants.",
+  "creative_direction": "The first image defines a hero tour-poster composition with one performer, one spotlight architecture, and one date-block language rendered as non-readable graphic modules. The following images preserve the same identity and hierarchy while shifting venue mood and environmental cues.",
+  "cover_image": "images/01-reference-main-tour-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-main-tour-poster/meta.json",
+      "images/02-arena-night-variant/meta.json",
+      "images/03-theater-velvet-variant/meta.json",
+      "images/04-open-air-dusk-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-main-tour-poster first. Use its runtime result URL as --ref for 02-arena-night-variant, 03-theater-velvet-variant, 04-open-air-dusk-variant. Queue may run 02-arena-night-variant, 03-theater-velvet-variant, 04-open-air-dusk-variant concurrently after 01-reference-main-tour-poster is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "City Rollout Sequence",
+      "description": "A master tour-poster sequence that establishes one performer-led poster grammar and adapts it into city-specific rollout variants."
+    },
+    "zh-CN": {
+      "title": "城市巡演序列",
+      "description": "先建立主巡演海报语法，再延展成不同城市的 rollout 变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-main-tour-poster",
+      "title": "Reference Main Tour Poster",
+      "image": "images/01-reference-main-tour-poster/image.png",
+      "meta": "images/01-reference-main-tour-poster/meta.json"
+    },
+    {
+      "id": "02-arena-night-variant",
+      "title": "Arena Night Variant",
+      "image": "images/02-arena-night-variant/image.png",
+      "meta": "images/02-arena-night-variant/meta.json"
+    },
+    {
+      "id": "03-theater-velvet-variant",
+      "title": "Theater Velvet Variant",
+      "image": "images/03-theater-velvet-variant/image.png",
+      "meta": "images/03-theater-velvet-variant/meta.json"
+    },
+    {
+      "id": "04-open-air-dusk-variant",
+      "title": "Open Air Dusk Variant",
+      "image": "images/04-open-air-dusk-variant/image.png",
+      "meta": "images/04-open-air-dusk-variant/meta.json"
+    }
+  ]
+}

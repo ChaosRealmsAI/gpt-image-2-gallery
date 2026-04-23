@@ -1,0 +1,53 @@
+{
+  "id": "tour-poster-city-rollout-family",
+  "slug": "tour-poster-city-rollout-family",
+  "category": "design",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Tour Poster City Rollout Family",
+  "short_title": "Tour Posters",
+  "description": "Create tour-poster families for city-by-city rollouts with date blocks, venue hierarchy, and live energy.",
+  "i18n": {
+    "en": {
+      "title": "Tour Poster City Rollout Family",
+      "short_title": "Tour Posters",
+      "description": "Create tour-poster families for city-by-city rollouts with date blocks, venue hierarchy, and live energy."
+    },
+    "zh-CN": {
+      "title": "巡演海报城市 rollout 家族",
+      "short_title": "巡演海报",
+      "description": "做巡演海报城市 rollout 家族，强调日期块、场地方位和 live energy。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 950,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-city-rollout",
+      "type": "series",
+      "title": "City Rollout Sequence",
+      "path": "packages/series-city-rollout/package.json"
+    },
+    {
+      "id": "single-tour-assets",
+      "type": "single",
+      "title": "Tour Asset Studies",
+      "path": "packages/single-tour-assets/package.json"
+    }
+  ]
+}

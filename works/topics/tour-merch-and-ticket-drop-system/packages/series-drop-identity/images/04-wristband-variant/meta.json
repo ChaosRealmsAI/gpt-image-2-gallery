@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nA square close product shot of woven wristbands, small accessories, and translucent sleeves arranged under soft raking light on a dark tabletop. The objects should feel crisp, tactile, and collector-oriented, with enough scale variation to show how the graphic system behaves on compact surfaces.\n\nSubject:\nPreserve the exact same emblem geometry, portrait cue, palette, and spacing logic from the reference image. The smaller objects should still unmistakably belong to the same tour drop family, proving the identity works beyond posters and shirts.\n\nImportant details:\nUse weave texture, edge finish, subtle metallic highlights, and disciplined spacing to make the accessory family feel premium. Do not add readable labels or novelty motifs. The visual success comes from system consistency and tactile realism across small objects.\n\nUse case:\nTour Merch series study 4/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the same emblem and palette from the reference; no barcode, no sponsor logo, no crowded tabletop, no bright festival trinkets, no unrelated merch items",
+  "id": "04-wristband-variant",
+  "title": "Wristband Variant",
+  "description": "A wristband and accessory variation preserving the same drop identity across smaller tactile objects.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/04-wristband-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-drop-poster",
+        "meta_path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/01-reference-drop-poster/meta.json",
+        "image_path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/01-reference-drop-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Accessory variation depending on the root drop-poster identity.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/tour-merch-and-ticket-drop-system/packages/series-drop-identity/images/04-wristband-variant/image.png",
+      "checked_at": "2026-04-23T12:56:28.856Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Wristband Variant",
+      "description": "A wristband and accessory variation preserving the same drop identity across smaller tactile objects."
+    },
+    "zh-CN": {
+      "title": "腕带变体",
+      "description": "腕带变体，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A wristband and accessory variation carrying the same emblem and palette from the tour drop reference poster.",
+      "zh-CN": "腕带变体视觉图。"
+    }
+  }
+}

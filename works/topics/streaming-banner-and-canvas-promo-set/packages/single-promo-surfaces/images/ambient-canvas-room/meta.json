@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square ambient room with shallow water reflections, floating light strips, and low mist, photographed as a still that could anchor a looping canvas mood. The environment should feel musical and platform-safe, with strong emotional atmosphere but no cluttered narrative action.\n\nSubject:\nThe subject is the release environment itself rather than a person: light bridge fragments, fog, reflection, and architectural depth arranged into a calm but ownable promo surface. It should read instantly as part of a music campaign and leave clean space for later adaptation.\n\nImportant details:\nThis image tests environmental world-building for streaming surfaces. Keep geometry simple, reflections believable, and color disciplined. The mood should be immersive enough to feel tied to a specific release, but abstract enough to adapt across banners, loop stills, and profile takeovers.\n\nUse case:\nStreaming Promo single study 7/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no furniture, no visible venue branding, no crowd, no bright rainbow color, no surreal objects breaking the calm world",
+  "id": "ambient-canvas-room",
+  "title": "Ambient Canvas Room",
+  "description": "A room-scale ambient still showing how a streaming canvas mood can extend into environment-led promo imagery.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/single-promo-surfaces/images/ambient-canvas-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent ambient-canvas study for the streaming promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Ambient Canvas Room",
+      "description": "A room-scale ambient still showing how a streaming canvas mood can extend into environment-led promo imagery."
+    },
+    "zh-CN": {
+      "title": "氛围Canvas房间",
+      "description": "氛围Canvas房间，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "An ambient room still built from floating lights, mist, and release-world color for streaming promo use.",
+      "zh-CN": "氛围Canvas房间视觉图。"
+    }
+  }
+}

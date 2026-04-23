@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square celebratory announcement card set against a deep atmospheric field with controlled sparks of light, portrait fragments, and soft metallic gradients. The frame should feel like a streaming milestone celebration surface while staying generic and platform-neutral.\n\nSubject:\nOne invented musician appears through cropped portrait panels and silhouette fragments, surrounded by rings of light, confetti-like particles, and clean zones where future milestone numbers could sit. The card should communicate achievement and momentum without literal stats or readable copy.\n\nImportant details:\nKeep it elegant rather than noisy. Use small bursts of light, subtle metallic edges, and a calm but optimistic palette shift within the established release mood. The composition should feel like a premium music announcement card intended for reposting across artist channels and profile surfaces.\n\nUse case:\nStreaming Promo single study 6/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable numbers, no social app UI, no emoji language, no cheap party styling, no brand icons",
+  "id": "listener-milestone-card",
+  "title": "Listener Milestone Card",
+  "description": "A celebratory promo card translating streaming momentum into a polished non-branded square announcement surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/single-promo-surfaces/images/listener-milestone-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent milestone-card study for the streaming promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Listener Milestone Card",
+      "description": "A celebratory promo card translating streaming momentum into a polished non-branded square announcement surface."
+    },
+    "zh-CN": {
+      "title": "里程碑卡片",
+      "description": "里程碑卡片，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A polished milestone promo card using portrait fragments, atmospheric light, and abstract celebratory cues.",
+      "zh-CN": "里程碑卡片视觉图。"
+    }
+  }
+}

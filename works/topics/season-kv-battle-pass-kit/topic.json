@@ -1,0 +1,57 @@
+{
+  "id": "season-kv-battle-pass-kit",
+  "slug": "season-kv-battle-pass-kit",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "title": "Season KV Battle Pass Kit",
+  "short_title": "Season KV",
+  "description": "Build a seasonal key visual kit that extends cleanly into battle pass covers, reward-track headers, and promo crops without losing the seasonal thesis.",
+  "i18n": {
+    "en": {
+      "title": "Season KV Battle Pass Kit",
+      "short_title": "Season KV",
+      "description": "Build a seasonal key visual kit that extends cleanly into battle pass covers, reward-track headers, and promo crops without losing the seasonal thesis."
+    },
+    "zh-CN": {
+      "title": "赛季 KV 与通行证套组",
+      "short_title": "赛季 KV",
+      "description": "围绕一个赛季主题做主 KV 套组，同时覆盖通行证封面、奖励页页首和宣传裁切。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 951,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-season-kv-core",
+      "type": "series",
+      "title": "Season KV Core",
+      "path": "packages/series-season-kv-core/package.json"
+    },
+    {
+      "id": "single-season-support-assets",
+      "type": "single",
+      "title": "Season Support Assets",
+      "path": "packages/single-season-support-assets/package.json"
+    }
+  ]
+}

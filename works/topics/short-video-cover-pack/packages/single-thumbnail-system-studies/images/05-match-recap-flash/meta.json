@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square sports-recap thumbnail optimized for instant feed impact. The composition uses a dynamic athlete cutout on the right, a presenter or commentator face on the left, and a bold central slash separating the two. Background is deep stadium blue with one hot yellow accent and a wide top strip for category coding. The empty hook zone should sit across the upper center as thick non-readable bars.\n\nSubject:\nA commentator host reacts with open-mouth excitement while a football or basketball player in motion occupies the opposite side, frozen at the decisive highlight moment. Use only one athlete and one host so the frame remains clean. Add one scoreboard-like block and one heat-trail graphic as simple visual cues. The thumbnail should feel like a repeatable sports recap system for a short-video account.\n\nImportant details:\nClarity beats realism. Keep expressions big, silhouettes bold, and the central slash graphic simple. Make sure the athlete and host stay readable at tiny scale. Use color contrast aggressively but avoid cluttered stadium detail. The empty hook block must feel loud and clickable without any actual words.\n\nUse case:\nShort Video Cover Pack single study 9/9, focused on sports-recap thumbnail energy and two-subject layout discipline.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no full team crowd, no messy scoreboard clutter, no multiple athletes, no muddy motion blur covering faces.",
+  "id": "05-match-recap-flash",
+  "title": "Match Recap Flash",
+  "description": "A high-energy sports-recap thumbnail pairing one host reaction, one athlete highlight, and a loud central hook zone.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/single-thumbnail-system-studies/images/05-match-recap-flash/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent sports-thumbnail study emphasizing dual-subject balance and strong feed impact."
+  },
+  "i18n": {
+    "en": {
+      "title": "Match Recap Flash",
+      "description": "A high-energy sports-recap thumbnail pairing one host reaction, one athlete highlight, and a loud central hook zone."
+    },
+    "zh-CN": {
+      "title": "比赛复盘闪电版",
+      "description": "高能体育复盘封面，把主持人反应、运动员高光和醒目中心钩子区并置。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A sports recap thumbnail with a reacting host, one athlete in motion, and bold unreadable headline bars.",
+      "zh-CN": "一张体育复盘缩略图：激动的主持人、一个运动员高光动作和粗体不可读标题条。"
+    }
+  }
+}

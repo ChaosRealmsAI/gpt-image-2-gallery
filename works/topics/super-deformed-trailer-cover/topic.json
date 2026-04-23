@@ -1,0 +1,58 @@
+{
+  "id": "super-deformed-trailer-cover",
+  "slug": "super-deformed-trailer-cover",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Super-Deformed Trailer Cover",
+  "short_title": "SD Trailer",
+  "description": "Create high-click trailer covers and promo posters using exaggerated super-deformed character styling, strong expressions, and clean headline zones.",
+  "i18n": {
+    "en": {
+      "title": "Super-Deformed Trailer Cover",
+      "short_title": "SD Trailer",
+      "description": "Create high-click trailer covers and promo posters using exaggerated super-deformed character styling, strong expressions, and clean headline zones."
+    },
+    "zh-CN": {
+      "title": "超变形预告封面",
+      "short_title": "SD封面",
+      "description": "做适合预告片、短视频和活动预热的超变形 Q版封面，强调夸张表情、强点击和干净标题区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 730,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "editing-workflow",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-key-art-pivot",
+      "type": "series",
+      "title": "Key Art Pivot",
+      "path": "packages/series-key-art-pivot/package.json"
+    },
+    {
+      "id": "single-rollout-assets",
+      "type": "single",
+      "title": "Rollout Assets",
+      "path": "packages/single-rollout-assets/package.json"
+    }
+  ]
+}

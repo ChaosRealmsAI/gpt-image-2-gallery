@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square design board presenting several playlist-cover style tiles arranged on a dark neutral ground, each using a related mood, portrait fragment, or atmospheric field. The board should look like a streaming-campaign workbench rather than an app screenshot, with careful spacing and premium visual polish.\n\nSubject:\nThe subject is a family of compact promo tiles built around one imagined music release atmosphere: partial performer crops, environmental stills, light-bridge fragments, and abstract shape cues meant for browse surfaces. No tile needs readable text, but the family should feel coherent enough to belong to one release period.\n\nImportant details:\nPrioritize small-format legibility, tone control, and system variation. The board should demonstrate how one release world can populate playlist and discovery surfaces without flattening into sameness. Use distinct but compatible crops, disciplined spacing, and enough atmospheric depth to preserve the music mood.\n\nUse case:\nStreaming Promo single study 5/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no platform logos, no readable playlist titles, no software chrome, no extra lifestyle props, no crowded collage look",
+  "id": "playlist-cover-board",
+  "title": "Playlist Cover Board",
+  "description": "A square board of playlist-cover style variations sharing one release atmosphere and browse-surface clarity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/single-promo-surfaces/images/playlist-cover-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent playlist-cover study for the streaming promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Playlist Cover Board",
+      "description": "A square board of playlist-cover style variations sharing one release atmosphere and browse-surface clarity."
+    },
+    "zh-CN": {
+      "title": "歌单封面板",
+      "description": "歌单封面板，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A board of square playlist-cover concepts sharing one moody release atmosphere and thumbnail clarity.",
+      "zh-CN": "歌单封面板视觉图。"
+    }
+  }
+}

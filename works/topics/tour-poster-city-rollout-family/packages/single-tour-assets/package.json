@@ -1,0 +1,64 @@
+{
+  "id": "single-tour-assets",
+  "type": "single",
+  "title": "Tour Asset Studies",
+  "description": "Five independent studies of adjacent tour-campaign assets such as ticket-page headers, lobby lightboxes, laminates, wheatpaste walls, and queue signage.",
+  "creative_direction": "Independent tour assets should preserve the live-music campaign feeling through light, hierarchy, and modular date-block placeholders while avoiding readable dates, sponsor marks, or platform branding.",
+  "cover_image": "images/ticket-header-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Tour Asset Studies",
+      "description": "Five independent studies of adjacent tour-campaign assets such as ticket-page headers, lobby lightboxes, laminates, wheatpaste walls, and queue signage."
+    },
+    "zh-CN": {
+      "title": "巡演资产研究",
+      "description": "补充巡演 campaign 的多种独立资产研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "ticket-header-study",
+      "title": "Ticket Header Study",
+      "image": "images/ticket-header-study/image.png",
+      "meta": "images/ticket-header-study/meta.json"
+    },
+    {
+      "id": "lobby-lightbox-wall",
+      "title": "Lobby Lightbox Wall",
+      "image": "images/lobby-lightbox-wall/image.png",
+      "meta": "images/lobby-lightbox-wall/meta.json"
+    },
+    {
+      "id": "vip-laminate-flatlay",
+      "title": "VIP Laminate Flatlay",
+      "image": "images/vip-laminate-flatlay/image.png",
+      "meta": "images/vip-laminate-flatlay/meta.json"
+    },
+    {
+      "id": "wheatpaste-night-wall",
+      "title": "Wheatpaste Night Wall",
+      "image": "images/wheatpaste-night-wall/image.png",
+      "meta": "images/wheatpaste-night-wall/meta.json"
+    },
+    {
+      "id": "queue-sign-study",
+      "title": "Queue Sign Study",
+      "image": "images/queue-sign-study/image.png",
+      "meta": "images/queue-sign-study/meta.json"
+    }
+  ]
+}

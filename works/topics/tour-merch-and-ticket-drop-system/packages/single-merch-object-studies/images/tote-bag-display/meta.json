@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square studio product shot of a tote bag hanging from a simple hook or leaning against a dark wall under soft directional light. The bag should feel premium and design-led, with enough surface visibility to communicate the tour identity clearly.\n\nSubject:\nThe subject is the soft-good translation of a music merch drop: one strong graphic cue, controlled palette, and collector-grade mood carried onto a tote bag with minimal styling. The bag should feel like part of a limited live-tour bundle, not generic retail fashion.\n\nImportant details:\nUse fabric texture, print finish, and negative space carefully. The image should feel ready for release-week commerce and social promo, with no readable branding or price information. Keep styling restrained so the design system stays central.\n\nUse case:\nTour Merch single study 5/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no model, no fashion lookbook scene, no bright retail packaging, no brand tags, no busy environment",
+  "id": "tote-bag-display",
+  "title": "Tote Bag Display",
+  "description": "A premium tote-display image showing how a tour drop graphic identity can live on soft goods.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/single-merch-object-studies/images/tote-bag-display/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent soft-goods study for the merch drop theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tote Bag Display",
+      "description": "A premium tote-display image showing how a tour drop graphic identity can live on soft goods."
+    },
+    "zh-CN": {
+      "title": "托特包展示",
+      "description": "托特包展示，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "fashion",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium tote bag display using a dark collector-grade graphic language for a tour merch drop.",
+      "zh-CN": "托特包展示视觉图。"
+    }
+  }
+}

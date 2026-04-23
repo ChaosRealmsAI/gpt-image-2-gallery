@@ -1,0 +1,72 @@
+{
+  "id": "series-creator-channel-system",
+  "type": "series",
+  "title": "Creator Channel System",
+  "description": "A reference-dependent four-cover system built around one recurring host, one thumbnail template, and modular category accents for a tech-business short-video channel.",
+  "creative_direction": "Image 01 establishes the host identity and the reusable cover template: oversized face crop, bold hook zone, clean category stripe, and high-contrast thumbnail readability. Images 02-04 preserve the same host and system while swapping the story cue, accent graphic, and category signal.",
+  "cover_image": "images/01-reference-host/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-host/meta.json",
+      "images/02-ai-breakthrough-alert/meta.json",
+      "images/03-market-shock-explainer/meta.json",
+      "images/04-founder-debate-spotlight/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04 so the same host identity, framing logic, and channel styling are preserved while the story angle changes.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Creator Channel System",
+      "description": "A reference-dependent four-cover system built around one recurring host, one thumbnail template, and modular category accents for a tech-business short-video channel."
+    },
+    "zh-CN": {
+      "title": "创作者频道系列",
+      "description": "四张依赖参考图的频道封面系统，以同一主持人、统一模板和可切换栏目标签构成科技商业短视频频道。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-host",
+      "title": "Reference Host",
+      "image": "images/01-reference-host/image.png",
+      "meta": "images/01-reference-host/meta.json"
+    },
+    {
+      "id": "02-ai-breakthrough-alert",
+      "title": "AI Breakthrough Alert",
+      "image": "images/02-ai-breakthrough-alert/image.png",
+      "meta": "images/02-ai-breakthrough-alert/meta.json"
+    },
+    {
+      "id": "03-market-shock-explainer",
+      "title": "Market Shock Explainer",
+      "image": "images/03-market-shock-explainer/image.png",
+      "meta": "images/03-market-shock-explainer/meta.json"
+    },
+    {
+      "id": "04-founder-debate-spotlight",
+      "title": "Founder Debate Spotlight",
+      "image": "images/04-founder-debate-spotlight/image.png",
+      "meta": "images/04-founder-debate-spotlight/meta.json"
+    }
+  ]
+}

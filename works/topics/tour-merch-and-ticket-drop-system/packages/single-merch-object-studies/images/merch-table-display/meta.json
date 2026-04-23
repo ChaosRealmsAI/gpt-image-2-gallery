@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square environmental shot of a tidy merch table before doors open, with folded shirts, poster tubes, accessory trays, and one sign board arranged under dim practical venue light. The scene should feel real and music-specific, not like a generic retail checkout counter.\n\nSubject:\nThe table carries a coherent drop identity through repeated graphic cues, dark palette, and controlled presentation. It should communicate the excitement of live-show commerce while keeping every object part of one curated launch family.\n\nImportant details:\nUse practical realism and layout discipline. The table must feel functional, but also photogenic enough for promo use. Keep the environment subdued so the merch family dominates, and avoid readable pricing or visible sponsor marks.\n\nUse case:\nTour Merch single study 8/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd hands, no readable price lists, no sponsor signage, no venue branding, no cluttered cash-register focus",
+  "id": "merch-table-display",
+  "title": "Merch Table Display",
+  "description": "A merch-table display study showing how a tour-drop identity looks in a live venue commerce environment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/single-merch-object-studies/images/merch-table-display/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent merch-table study for the merch drop theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Merch Table Display",
+      "description": "A merch-table display study showing how a tour-drop identity looks in a live venue commerce environment."
+    },
+    "zh-CN": {
+      "title": "周边桌展示",
+      "description": "周边桌展示，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A live-venue merch table display using one dark, collector-grade tour graphic language.",
+      "zh-CN": "周边桌展示视觉图。"
+    }
+  }
+}

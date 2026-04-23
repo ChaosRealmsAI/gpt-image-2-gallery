@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square tabletop flat lay of die-cut stickers, small backing cards, and translucent sleeves on a matte dark surface under soft light. The arrangement should feel collectible and intentionally merch-like rather than playful or childish.\n\nSubject:\nThe sticker family should carry fragments of a tour graphic language: emblems, portrait crops, abstract bars, and atmospheric shapes arranged into a premium pack. The set should suggest real commerce packaging without any readable product names.\n\nImportant details:\nUse cut contours, satin finishes, and disciplined spacing to present the sticker pack as a serious launch asset. The image should feel like part of a merch release toolkit that could appear on a ticketing page or social drop card.\n\nUse case:\nTour Merch single study 6/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon mascot style, no notebook props, no readable labels, no retail price sticker, no rainbow novelty palette",
+  "id": "sticker-pack-flatlay",
+  "title": "Sticker Pack Flatlay",
+  "description": "A sticker-pack flat lay translating tour drop symbolism into collectible small-format merch.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/single-merch-object-studies/images/sticker-pack-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent sticker-pack study for the merch drop theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Sticker Pack Flatlay",
+      "description": "A sticker-pack flat lay translating tour drop symbolism into collectible small-format merch."
+    },
+    "zh-CN": {
+      "title": "贴纸包平铺",
+      "description": "贴纸包平铺，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A flat lay of collectible tour stickers using emblem fragments and premium dark-palette graphics.",
+      "zh-CN": "贴纸包平铺视觉图。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "single-thumbnail-system-studies",
+  "type": "single",
+  "title": "Thumbnail System Studies",
+  "description": "Five independent short-video cover concepts spanning true crime, science, cooking, books, and sports, each optimized for thumbnail clarity and category signal.",
+  "creative_direction": "Each image acts like a channel-ready thumbnail system rather than a poster: one clear focal face or object, one decisive hook zone, simplified category coding, and strong shrink-to-small readability. The set intentionally spans different content verticals to test reusable cover logic across formats.",
+  "cover_image": "images/01-true-crime-nightcase/image.png",
+  "i18n": {
+    "en": {
+      "title": "Thumbnail System Studies",
+      "description": "Five independent short-video cover concepts spanning true crime, science, cooking, books, and sports, each optimized for thumbnail clarity and category signal."
+    },
+    "zh-CN": {
+      "title": "封面系统单图研究",
+      "description": "五张独立短视频封面概念，覆盖罪案、科普、美食、读书和体育，重点测试缩略图清晰度与栏目识别。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-true-crime-nightcase",
+      "title": "True Crime Nightcase",
+      "image": "images/01-true-crime-nightcase/image.png",
+      "meta": "images/01-true-crime-nightcase/meta.json"
+    },
+    {
+      "id": "02-space-facts-burst",
+      "title": "Space Facts Burst",
+      "image": "images/02-space-facts-burst/image.png",
+      "meta": "images/02-space-facts-burst/meta.json"
+    },
+    {
+      "id": "03-kitchen-hack-sizzle",
+      "title": "Kitchen Hack Sizzle",
+      "image": "images/03-kitchen-hack-sizzle/image.png",
+      "meta": "images/03-kitchen-hack-sizzle/meta.json"
+    },
+    {
+      "id": "04-book-summary-minimal",
+      "title": "Book Summary Minimal",
+      "image": "images/04-book-summary-minimal/image.png",
+      "meta": "images/04-book-summary-minimal/meta.json"
+    },
+    {
+      "id": "05-match-recap-flash",
+      "title": "Match Recap Flash",
+      "image": "images/05-match-recap-flash/image.png",
+      "meta": "images/05-match-recap-flash/meta.json"
+    }
+  ]
+}

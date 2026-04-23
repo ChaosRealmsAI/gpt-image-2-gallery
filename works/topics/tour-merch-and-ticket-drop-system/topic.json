@@ -1,0 +1,53 @@
+{
+  "id": "tour-merch-and-ticket-drop-system",
+  "slug": "tour-merch-and-ticket-drop-system",
+  "category": "design",
+  "capability": [
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "title": "Tour Merch and Ticket Drop System",
+  "short_title": "Tour Merch",
+  "description": "Create tour merch and ticket-drop systems where posters, shirts, wristbands, and ticket art feel like one launch.",
+  "i18n": {
+    "en": {
+      "title": "Tour Merch and Ticket Drop System",
+      "short_title": "Tour Merch",
+      "description": "Create tour merch and ticket-drop systems where posters, shirts, wristbands, and ticket art feel like one launch."
+    },
+    "zh-CN": {
+      "title": "巡演 merch 与票务 drop 系统",
+      "short_title": "巡演周边",
+      "description": "做巡演 merch 与票务 drop 系统，让海报、T 恤、手环和票面属于同一主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 990,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-drop-identity",
+      "type": "series",
+      "title": "Drop Identity Sequence",
+      "path": "packages/series-drop-identity/package.json"
+    },
+    {
+      "id": "single-merch-object-studies",
+      "type": "single",
+      "title": "Merch Object Studies",
+      "path": "packages/single-merch-object-studies/package.json"
+    }
+  ]
+}

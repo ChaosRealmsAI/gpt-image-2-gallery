@@ -1,0 +1,53 @@
+{
+  "id": "stage-visual-moodboard-performance-world",
+  "slug": "stage-visual-moodboard-performance-world",
+  "category": "design",
+  "capability": [
+    "style-transfer",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "title": "Stage Visual Moodboard Performance World",
+  "short_title": "Stage Moodboard",
+  "description": "Create stage-visual moodboards for tours and performances that connect screen content, lighting, and wardrobe mood.",
+  "i18n": {
+    "en": {
+      "title": "Stage Visual Moodboard Performance World",
+      "short_title": "Stage Moodboard",
+      "description": "Create stage-visual moodboards for tours and performances that connect screen content, lighting, and wardrobe mood."
+    },
+    "zh-CN": {
+      "title": "舞台视觉 moodboard 与演出世界",
+      "short_title": "舞台moodboard",
+      "description": "做舞台视觉 moodboard 与演出世界，连接屏幕内容、灯光和服装情绪。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 970,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-performance-world",
+      "type": "series",
+      "title": "Performance World Sequence",
+      "path": "packages/series-performance-world/package.json"
+    },
+    {
+      "id": "single-stage-language-studies",
+      "type": "single",
+      "title": "Stage Language Studies",
+      "path": "packages/single-stage-language-studies/package.json"
+    }
+  ]
+}

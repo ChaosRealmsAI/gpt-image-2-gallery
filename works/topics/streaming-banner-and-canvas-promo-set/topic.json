@@ -1,0 +1,53 @@
+{
+  "id": "streaming-banner-and-canvas-promo-set",
+  "slug": "streaming-banner-and-canvas-promo-set",
+  "category": "design",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "title": "Streaming Banner and Canvas Promo Set",
+  "short_title": "Streaming Promo",
+  "description": "Build streaming-platform promo sets including banners, canvas loops, and profile-takeover surfaces.",
+  "i18n": {
+    "en": {
+      "title": "Streaming Banner and Canvas Promo Set",
+      "short_title": "Streaming Promo",
+      "description": "Build streaming-platform promo sets including banners, canvas loops, and profile-takeover surfaces."
+    },
+    "zh-CN": {
+      "title": "流媒体 banner 与 canvas 宣传组",
+      "short_title": "流媒体宣传",
+      "description": "做流媒体 banner 与 canvas 宣传组，适合平台 banner、canvas 和 profile takeover。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 940,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-platform-takeover",
+      "type": "series",
+      "title": "Platform Takeover Sequence",
+      "path": "packages/series-platform-takeover/package.json"
+    },
+    {
+      "id": "single-promo-surfaces",
+      "type": "single",
+      "title": "Promo Surface Studies",
+      "path": "packages/single-promo-surfaces/package.json"
+    }
+  ]
+}

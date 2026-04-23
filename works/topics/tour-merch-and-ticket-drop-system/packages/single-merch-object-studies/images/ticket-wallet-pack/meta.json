@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square close product photograph of a ticket wallet, passes, translucent sleeves, and small paper inserts spread on black velvet with low directional light. The materials should feel luxurious and collectible without crossing into fashion-accessory branding.\n\nSubject:\nThe subject is the set of entry objects themselves, designed with one premium music-drop language of emblems, dark color, and subtle metallic cues. The composition should feel like high-value tour collateral meant to be photographed and shared.\n\nImportant details:\nKeep it tactile, minimal, and coherent. The wallet, passes, and inserts should look like parts of one system. Use shadow, texture, and spacing to suggest exclusivity while avoiding literal seat numbers or readable ticket data.\n\nUse case:\nTour Merch single study 9/9 for the Tour Merch and Ticket Drop System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable seat info, no barcode, no brand logo, no wallet brand styling, no extra jewelry or lifestyle props",
+  "id": "ticket-wallet-pack",
+  "title": "Ticket Wallet Pack",
+  "description": "A ticket-wallet pack study showing how collector-style entry objects can become launch-week promo content.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "physics-materials",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tour-merch-and-ticket-drop-system/packages/single-merch-object-studies/images/ticket-wallet-pack/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent ticket-wallet study for the merch drop theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Ticket Wallet Pack",
+      "description": "A ticket-wallet pack study showing how collector-style entry objects can become launch-week promo content."
+    },
+    "zh-CN": {
+      "title": "票夹组合",
+      "description": "票夹组合，用于巡演周边主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A collector ticket-wallet pack with layered passes, sleeves, and premium tour-drop materials.",
+      "zh-CN": "票夹组合视觉图。"
+    }
+  }
+}

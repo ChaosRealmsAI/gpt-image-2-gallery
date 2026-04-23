@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square design board of layered texture panels, circular red gradients, black reflective fields, and grainy atmospheric surfaces arranged with clean spacing. The board should look like a stage visual concept sheet for massive LED content rather than a random abstract-art collage.\n\nSubject:\nThe subject is a family of visual motifs for stage screens: lunar discs, fog-softened gradients, vertical slit textures, and reflective shadow fields. Each panel should feel like a usable scenic content ingredient that belongs to a larger performance universe.\n\nImportant details:\nKeep the board disciplined and production-minded. The motifs should read clearly, feel scalable to large screens, and suggest a coherent show identity. Use texture and layout to sell professionalism, not novelty. Avoid any readable labels or software annotation.\n\nUse case:\nStage Moodboard single study 6/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no UI software panels, no readable notes, no rainbow glitch effects, no unrelated photography, no decorative scrapbook style",
+  "id": "screen-texture-board",
+  "title": "Screen Texture Board",
+  "description": "A screen-language board combining abstract lunar textures, gradients, and LED-ready scenic motifs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/single-stage-language-studies/images/screen-texture-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent screen-language study for the stage-world theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Screen Texture Board",
+      "description": "A screen-language board combining abstract lunar textures, gradients, and LED-ready scenic motifs."
+    },
+    "zh-CN": {
+      "title": "屏幕纹理板",
+      "description": "屏幕纹理板，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A moodboard of lunar screen textures, gradients, and LED-ready scenic motifs for stage visuals.",
+      "zh-CN": "屏幕纹理板视觉图。"
+    }
+  }
+}

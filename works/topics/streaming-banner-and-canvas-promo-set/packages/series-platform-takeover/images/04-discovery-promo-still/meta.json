@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square discovery-page promo still in the same floating-bridge world, now brighter in edge contrast and more graphic in silhouette so it reads immediately in a crowded browsing surface. The environment should remain familiar but slightly simplified, with signature light and mist cues supporting fast identification.\n\nSubject:\nPreserve the exact same performer from the reference image, maintaining the identical face shape, hair base, body proportions, and coat silhouette. The artist stays isolated against a slightly brighter atmospheric field, helping the profile and bridge motif read quickly without breaking the shared campaign world.\n\nImportant details:\nThis is the glance-speed adaptation of the same release language. Keep the world coherent, the silhouette legible, and the mood cinematic. The challenge is to simplify for discoverability without turning the image into a generic thumbnail. Signature cues from the reference must remain visible: floating bridge, cool mist, metallic trims, and disciplined negative space.\n\nUse case:\nStreaming Promo series study 4/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no platform UI, no cluttered environment, no extra performers, no heavy effects fog, no random color shifts",
+  "id": "04-discovery-promo-still",
+  "title": "Discovery Promo Still",
+  "description": "A discovery-surface still preserving the same campaign world while heightening contrast and instant recognizability at glance speed.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/04-discovery-promo-still/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-header-world",
+        "meta_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/meta.json",
+        "image_path": "works/topics/streaming-banner-and-canvas-promo-set/packages/series-platform-takeover/images/01-reference-header-world/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Discovery-surface variation depending on the root streaming promo image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Discovery Promo Still",
+      "description": "A discovery-surface still preserving the same campaign world while heightening contrast and instant recognizability at glance speed."
+    },
+    "zh-CN": {
+      "title": "发现页宣传图",
+      "description": "发现页宣传图，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "series"
+    ],
+    "alt": {
+      "en": "A discovery-surface promo still using the same performer and floating bridge, optimized for quick recognition.",
+      "zh-CN": "发现页宣传图视觉图。"
+    }
+  }
+}

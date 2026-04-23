@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square cooking-hack thumbnail for mobile feeds, using a split composition: sizzling pan close-up on the right and expressive chef face on the left. The background is warm cream with orange and green accents, plus a clear top category bar and a bold empty hook block overlapping the pan edge. The overall look should be bright, simple, and instantly edible.\n\nSubject:\nA charismatic home-cook creator in an apron reacts with delight while lifting chopsticks above a pan where steam and one dramatic cheese or sauce pull creates a single irresistible food cue. The ingredients should stay large and recognizable: one pan, one bright garnish, one utensil. The right-side hook area uses non-readable blocks and one badge-like circle to imply the platform template.\n\nImportant details:\nThumbnail logic comes first. Keep the cook's face large and expressive, keep the food cue singular and obvious, and avoid restaurant-menu clutter. Use strong warm contrast so the frame survives downscaling. This should look like a repeatable short-video cover system for kitchen hacks rather than a plated-food advertisement.\n\nUse case:\nShort Video Cover Pack single study 7/9, focused on split-screen cooking-cover logic with face-plus-food clarity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowded ingredient spread, no multiple dishes, no greasy mess, no fine-print labels or recipe cards.",
+  "id": "03-kitchen-hack-sizzle",
+  "title": "Kitchen Hack Sizzle",
+  "description": "A warm cooking thumbnail pairing one expressive creator face with one clear sizzling food cue and a strong hook block.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "social-feed",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/short-video-cover-pack/packages/single-thumbnail-system-studies/images/03-kitchen-hack-sizzle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cooking-thumbnail study emphasizing split composition and appetizing clarity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Hack Sizzle",
+      "description": "A warm cooking thumbnail pairing one expressive creator face with one clear sizzling food cue and a strong hook block."
+    },
+    "zh-CN": {
+      "title": "厨房技巧一秒会",
+      "description": "温暖的美食封面，把创作者表情、 sizzling 食物线索和强钩子区结合在一起。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A cooking thumbnail with a smiling creator, a sizzling pan, and a bold empty hook zone.",
+      "zh-CN": "一张美食缩略图：微笑的创作者、滋滋作响的平底锅和醒目的空白钩子区。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square stage-concept still with a black reflective floor and a disciplined lattice of red and white beams cutting through haze. The camera faces the grid head-on so the geometry reads clearly, like a concept rendering inside a production deck.\n\nSubject:\nThe subject is the beam system itself: intersecting lines, reflective floor echoes, and an implied performer zone left open in the center. The image should demonstrate how lighting alone can create an ownable performance space.\n\nImportant details:\nKeep the beams clean, the floor believable, and the empty center powerful. This should feel technical enough to inform a show, but stylish enough to function as a moodboard image. Avoid making it a generic club-laser wallpaper by preserving strong composition and negative space.\n\nUse case:\nStage Moodboard single study 8/9 for the Stage Visual Moodboard Performance World Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no audience, no DJ booth, no rainbow colors, no visible truss clutter, no readable control screens",
+  "id": "laser-grid-study",
+  "title": "Laser Grid Study",
+  "description": "A laser-grid concept still exploring how beam geometry can define a live-performance environment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stage-visual-moodboard-performance-world/packages/single-stage-language-studies/images/laser-grid-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent laser-geometry study for the stage-world theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Laser Grid Study",
+      "description": "A laser-grid concept still exploring how beam geometry can define a live-performance environment."
+    },
+    "zh-CN": {
+      "title": "激光网格研究",
+      "description": "激光网格研究，用于舞台moodboard主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A laser-grid stage concept with clean beam geometry and reflective floor logic.",
+      "zh-CN": "激光网格研究视觉图。"
+    }
+  }
+}

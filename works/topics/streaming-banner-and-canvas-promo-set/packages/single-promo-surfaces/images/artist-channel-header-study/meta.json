@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square composition derived from banner logic: broad negative space, one clear performer presence, atmospheric depth, and subtle horizon layers compressed into a centered tile. The frame should behave like a design study for an artist-channel header reimagined inside a square crop.\n\nSubject:\nOne invented musician stands within a spacious atmospheric field while abstract header bands, distant architecture, and soft light gradients create the sense of a larger panoramic world. The composition should test whether banner logic can still feel elegant when compressed into a square.\n\nImportant details:\nUse negative space and silhouette discipline as the main storytelling devices. The subject must remain immediately legible while the environment hints at a larger campaign world. This should feel like professional streaming promo design exploration rather than a literal software interface mockup.\n\nUse case:\nStreaming Promo single study 9/9 for the Streaming Banner and Canvas Promo Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no platform icons, no readable header text, no crowd, no over-detailed skyline, no collage fragments",
+  "id": "artist-channel-header-study",
+  "title": "Artist Channel Header Study",
+  "description": "A square header-concept study translating wide banner logic into a centered promo tile for identity exploration.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streaming-banner-and-canvas-promo-set/packages/single-promo-surfaces/images/artist-channel-header-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent header-logic study for the streaming promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Artist Channel Header Study",
+      "description": "A square header-concept study translating wide banner logic into a centered promo tile for identity exploration."
+    },
+    "zh-CN": {
+      "title": "艺人频道头图研究",
+      "description": "艺人频道头图研究，用于流媒体宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "single"
+    ],
+    "alt": {
+      "en": "A centered promo tile exploring artist-channel header logic with atmospheric negative space and one clear subject.",
+      "zh-CN": "艺人频道头图研究视觉图。"
+    }
+  }
+}
