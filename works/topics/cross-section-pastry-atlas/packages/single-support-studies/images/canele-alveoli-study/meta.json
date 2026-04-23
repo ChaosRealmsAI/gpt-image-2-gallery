@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square pastry documentation image on a seamless pale gray or warm ivory studio background with soft catalog lighting and almost no cast-shadow drama. The camera should feel orthographic or gently frontal so cross-sections remain easy to compare. Everything must read like a pastry atlas: clean, measured, and highly legible, with crumbs controlled and edges crisp. Create a square specimen photograph on warm ivory with soft side light that catches both the ridged dark exterior and the pale open crumb inside. The frame should feel austere and archival.\n\nSubject:\nShow one canele cut perfectly in half from top to base, with the interior facing forward and the exterior retaining its dark caramelized ridges. The crumb should show irregular alveoli and a moist custard-like core, while the shell remains thin, glossy, and deeply browned. The pastry must feel honest and tactile, not idealized into plastic perfection.\n\nImportant details:\nTreat every cut face as the hero: laminated layers, cream density, air pockets, fruit cavities, glaze thickness, and crumb structure all need to be countable and believable. The studio language should stay consistent and understated so structural detail does the work. No element should feel collapsed, smeared, or over-stylized. The key contrast is between lacquered shell and tender interior: make both equally believable. Tiny pores, subtle moisture, and crisp outer ridges should all remain visible without making the dessert look wet or underbaked.\n\nUse case:\nPastry cross-section atlas single study 9/9, capturing canele crust and crumb as one structural contrast.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bakery counter background, no casual napkins, no readable labels, no powdered sugar mess, no rustic knife marks, no syrup puddles, no cafe props, no over-dark burnt shell.",
+  "id": "canele-alveoli-study",
+  "title": "Canele Alveoli Study",
+  "description": "A cut canele specimen highlighting the contrast between dark lacquered crust and airy custard interior.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cross-section-pastry-atlas/packages/single-support-studies/images/canele-alveoli-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Canele Alveoli Study",
+      "description": "A cut canele specimen highlighting the contrast between dark lacquered crust and airy custard interior."
+    },
+    "zh-CN": {
+      "title": "Canele Alveoli Study",
+      "description": "A cut canele specimen highlighting the contrast between dark lacquered crust and airy custard interior."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A canele cut in half to reveal airy custard crumb inside a dark caramelized ridged crust.",
+      "zh-CN": "A canele cut in half to reveal airy custard crumb inside a dark caramelized ridged crust."
+    }
+  }
+}

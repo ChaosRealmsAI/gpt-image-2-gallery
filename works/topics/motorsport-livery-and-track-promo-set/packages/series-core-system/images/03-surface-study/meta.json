@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square nighttime pit-lane setup with mixed LED and sodium light, hard reflections, compressed depth, and charged atmosphere. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original closed-cockpit endurance race car with a low canopy, wide fenders, center-fin tail, exposed aero surfaces, and a geometric red-white-charcoal livery with no sponsor marks. Make the subject feel original, production-aware, and clearly grounded in Motorsport Livery and Track Promo Set. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse crew silhouettes, equipment hints, and lighting contrast as support, while the car remains the unmistakable center of the frame. The scene should feel elite and focused, not cluttered. Preserve exact car body shape, livery geometry, panel placement, wheel design, and lamp signature across the series. Motion must feel dangerous and precise, yet still readable as campaign imagery rather than chaotic race reportage. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMotorsport Promo series study 3/9 for Motorsport Livery and Track Promo Set, built as image 03-surface-study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sponsor logos, no readable numbers, no real team branding, no crash damage, no podium champagne, no crowd clutter.",
+  "id": "03-surface-study",
+  "title": "Night Pit Energy",
+  "description": "The same car staged in a high-pressure night pit environment for promo drama.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "high-speed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/03-surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Pit Energy",
+      "description": "The same car staged in a high-pressure night pit environment for promo drama."
+    },
+    "zh-CN": {
+      "title": "夜间维修区能量",
+      "description": "同一赛车置于高压夜间维修区的宣传场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "high-speed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The reference race car in a dramatic night pit-lane atmosphere.",
+      "zh-CN": "同一赛车在夜间维修区的戏剧化主视觉。"
+    }
+  }
+}

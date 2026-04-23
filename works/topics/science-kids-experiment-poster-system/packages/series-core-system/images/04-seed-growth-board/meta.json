@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the exact same square poster mockup composition and classroom wall context established by the reference poster. It should feel like a calm observational companion piece in the same STEM poster line, ready for both classroom display and curriculum packaging. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFocus on a seed-in-jar or cotton-pad growth experiment with materials, daily observation steps, root and sprout stages, and comparison icons organized into the familiar poster grid. Use blank note panels and timeline-like visual slots without any actual writing. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep the poster architecture locked to the reference image while shifting the experiment mood toward slow observation and care. The result should prove that the template can handle high-energy reaction experiments and gentle life-science studies equally well. Preserve the same poster grid, step-panel proportions, icon weight, blank instruction bars, and safety-callout rhythm from the reference poster. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nScience Kids Experiment Poster System series study 4/4, seed growth board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable copy, no chemical formulas, no logos, no dangerous realism, no lab-brand signage, no chaotic clutter.",
+  "id": "04-seed-growth-board",
+  "title": "Seed Growth Board",
+  "description": "A seed-growth observation poster that completes the reference-dependent experiment family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/04-seed-growth-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-experiment-poster",
+        "meta_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/meta.json",
+        "image_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-experiment-poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Seed Growth Board",
+      "description": "A seed-growth observation poster that completes the reference-dependent experiment family."
+    },
+    "zh-CN": {
+      "title": "种子生长海报",
+      "description": "完成整组参考依赖实验海报家族的种子生长观察版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A seed-growth observation poster that completes the reference-dependent experiment family.",
+      "zh-CN": "完成整组参考依赖实验海报家族的种子生长观察版。"
+    }
+  }
+}

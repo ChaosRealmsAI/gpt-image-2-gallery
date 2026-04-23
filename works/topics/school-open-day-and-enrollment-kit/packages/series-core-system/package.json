@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Enrollment Kit",
+  "description": "Four reference-dependent images define a school open-day enrollment system across poster, prospectus, wayfinding, and admissions booth surfaces.",
+  "creative_direction": "Image 01 establishes the campus visual identity, photography tone, information-panel rhythm, and color system. Images 02-04 preserve the same enrollment brand language while changing the deliverable surface.",
+  "cover_image": "images/01-reference-open-day-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-open-day-poster/meta.json",
+      "images/02-prospectus-cover/meta.json",
+      "images/03-campus-wayfinding-board/meta.json",
+      "images/04-admissions-booth-hero/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-open-day-poster first. Use its runtime result URL as --ref for 02-prospectus-cover, 03-campus-wayfinding-board, 04-admissions-booth-hero. Queue may run those images concurrently after 01-reference-open-day-poster is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Enrollment Kit",
+      "description": "Four reference-dependent images define a school open-day enrollment system across poster, prospectus, wayfinding, and admissions booth surfaces."
+    },
+    "zh-CN": {
+      "title": "核心招生套件",
+      "description": "四张依赖参考图的画面建立统一学校招生系统，覆盖海报、手册封面、导视和咨询台场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-open-day-poster",
+      "title": "Reference Open Day Poster",
+      "image": "images/01-reference-open-day-poster/image.png",
+      "meta": "images/01-reference-open-day-poster/meta.json"
+    },
+    {
+      "id": "02-prospectus-cover",
+      "title": "Prospectus Cover",
+      "image": "images/02-prospectus-cover/image.png",
+      "meta": "images/02-prospectus-cover/meta.json"
+    },
+    {
+      "id": "03-campus-wayfinding-board",
+      "title": "Campus Wayfinding Board",
+      "image": "images/03-campus-wayfinding-board/image.png",
+      "meta": "images/03-campus-wayfinding-board/meta.json"
+    },
+    {
+      "id": "04-admissions-booth-hero",
+      "title": "Admissions Booth Hero",
+      "image": "images/04-admissions-booth-hero/image.png",
+      "meta": "images/04-admissions-booth-hero/meta.json"
+    }
+  ]
+}

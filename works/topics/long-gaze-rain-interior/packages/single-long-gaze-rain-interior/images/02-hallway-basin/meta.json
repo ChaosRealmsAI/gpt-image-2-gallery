@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. Use a long dim hallway with a wash basin on a stool, wet boots near the door, and gray rain visible through a distant window.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A figure stands halfway down the hall holding a towel, paused in the middle of an ordinary task.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. The perspective should be calm and unforced, with the basin, door, and window quietly balancing each other.\n\nUse case:\nLong Gaze Through Rain Interior single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-hallway-basin",
+  "title": "Hallway Basin",
+  "description": "A damp hallway interior where rain, a wash basin, and one paused figure create stretched quiet time.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/02-hallway-basin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on hallway basin.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Hallway Basin",
+      "description": "A damp hallway interior where rain, a wash basin, and one paused figure create stretched quiet time."
+    },
+    "zh-CN": {
+      "title": "Hallway Basin",
+      "description": "围绕长凝视的第2张独立研究图，聚焦 Hallway Basin。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A dim hallway with wet boots, a wash basin, and one still figure framed by rainy window light.",
+      "zh-CN": "长凝视主题图：Hallway Basin。"
+    }
+  }
+}

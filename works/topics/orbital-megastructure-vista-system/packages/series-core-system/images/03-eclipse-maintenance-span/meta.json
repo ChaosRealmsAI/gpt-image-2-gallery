@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic concept-poster view of an orbital engineering landscape suspended above a luminous planet. The camera should feel slightly distant but still specific enough to read docking logic, structural depth, and scale cues from tiny service craft and maintenance windows. Use hard vacuum clarity, disciplined reflections on alloy surfaces, and the planet glow as the main light source. Stage the ring against a partial eclipse so one side falls into crisp shadow while maintenance lights trace along the service span in the foreground.\n\nSubject:\nCenter the composition on a coherent orbital megastructure language: a monumental ring habitat, tethered port geometry, segmented truss bands, docking petals, and believable traffic lanes for cargo shuttles. The architecture should read as designed by one civilization with clear engineering priorities rather than a random collage of science-fiction shapes. Show repair platforms, articulated cranes, and tiny suited workers on an exterior span while the same ring and spoke geometry remains unmistakable in the background.\n\nImportant details:\nKeep engineering plausibility ahead of pure fantasy. Module spacing, rotational logic, light hierarchy, and human scale cues must all feel intentional. Use restrained graphite, silver, pale cyan, amber signal lights, and planetary blues so the set feels reusable across posters, key art, and worldbuilding decks. The scene should feel operational rather than catastrophic, using shadow and work lights to expose engineering layers without inventing new architecture unrelated to the reference. Preserve the exact structural language established by the reference image, especially the dominant ring silhouette, spoke spacing, dock petal rhythm, and cool-metal lighting hierarchy.\n\nUse case:\nOrbital Vistas series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy throne shapes, no impossible gravity waterfalls, no chaotic ship clutter, no battle damage spectacle, no explosion debris, no warfare mood.",
+  "id": "03-eclipse-maintenance-span",
+  "title": "Eclipse Maintenance Span",
+  "description": "Eclipse Maintenance Span presents the reference megastructure during a partial eclipse with maintenance activity emphasizing scale and service logic.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/03-eclipse-maintenance-span/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-planet-ring-anchor",
+        "meta_path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/01-planet-ring-anchor/meta.json",
+        "image_path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/01-planet-ring-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Orbital Vistas core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Eclipse Maintenance Span",
+      "description": "Eclipse Maintenance Span presents the reference megastructure during a partial eclipse with maintenance activity emphasizing scale and service logic."
+    },
+    "zh-CN": {
+      "title": "Eclipse Maintenance Span",
+      "description": "轨道巨构主题中的Eclipse Maintenance Span图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Eclipse Maintenance Span presents the reference megastructure during a partial eclipse with maintenance activity emphasizing scale and service logic.",
+      "zh-CN": "轨道巨构主题中的Eclipse Maintenance Span图像。"
+    }
+  }
+}

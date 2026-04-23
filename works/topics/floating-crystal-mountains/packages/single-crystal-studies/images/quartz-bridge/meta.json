@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at late morning with a 35mm full-frame camera, positioned on a cliff edge looking across a vast canyon. Warm sunlight, deep shadows in the canyon walls, visible atmospheric dust suggesting 2000-meter depth.\n\nSubject:\nA massive natural arch formed entirely of translucent smoky quartz spans from one cliff to another, roughly 1500 meters across. The arch is a single crystal body, twisted slightly as if grown rather than cut, with visible growth striations running along its length. Sunlight passes through the crystal and projects amber caustic patterns onto the canyon walls below.\n\nImportant details:\nAuthentic smoky quartz color graduation: darker in the thickest section, lighter at the tapered ends. Real surface micro-texture — crystal faces combined with partially conchoidal fractures at contact points. Two tiny climbers in bright yellow gear traverse the midpoint on ropes for scale. Hot air rising from the canyon floor creates subtle heat shimmer distorting the view of the bridge's underside.\n\nUse case:\nCrystal-studies single 2/5 — impossible monolithic crystal arch as landscape feature.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible supports or cables, no contemporary brand gear (generic mountaineering only), no fantasy overlay, no cartoon.",
+  "id": "quartz-bridge",
+  "title": "Quartz Bridge",
+  "description": "A single colossal smoky-quartz natural bridge spanning a desert canyon.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/single-crystal-studies/images/quartz-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — quartz canyon-spanning arch."
+  },
+  "i18n": {
+    "en": {
+      "title": "Quartz Bridge",
+      "description": "A single colossal smoky-quartz natural bridge spanning a desert canyon."
+    },
+    "zh-CN": {
+      "title": "石英天桥",
+      "description": "横跨沙漠峡谷的巨型烟晶天然拱桥。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A single smoky quartz arch spanning a 1500m desert canyon with climbers for scale.",
+      "zh-CN": "1500 米烟晶拱桥横跨沙漠峡谷 · 攀登者作比例。"
+    }
+  }
+}

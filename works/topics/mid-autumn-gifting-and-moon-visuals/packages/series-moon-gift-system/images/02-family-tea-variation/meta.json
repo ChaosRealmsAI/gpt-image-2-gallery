@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Mid-Autumn campaign visual in the exact same evening-lit world, preserving the same moon-window cues, lacquer palette, gold warmth, and calm premium atmosphere from the reference image, but widen the composition into a refined family tea-table setting. The image should feel like part of the same production rollout, with continuity obvious in materials, color, and light direction.\n\nSubject:\nShow a family-oriented tea and pastry table with gift boxes, plated mooncakes, tea vessels, and subtle shared-place cues while keeping people minimal or absent. Preserve the exact packaging language, circular motif, and evening warmth from the reference model while shifting emphasis toward reunion and hosting. The composition should remain premium, respectful, and commercially useful for hospitality or gifting campaigns.\n\nImportant details:\nPreserve exact campaign identity from the reference image: same lacquer finish, same tea-material language, same circular framing logic, and the same measured festive calm. Use hosting cues and shared table rhythm to express reunion rather than crowd scenes. The result should feel culturally grounded, tactile, and immediately part of one Mid-Autumn visual system.\n\nUse case:\nMid-Autumn series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable place cards, no loud dragon imagery, no cartoon moon faces, no family portrait posing, no logo boxes, no banquet chaos, no stage-performance feel.",
+  "id": "02-family-tea-variation",
+  "title": "Family Tea Variation",
+  "description": "A family-table Mid-Autumn variation preserving the same premium moon-gifting system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/02-family-tea-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-mooncake-lacquer-anchor",
+        "meta_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/meta.json",
+        "image_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent family-tea variation for the Mid-Autumn system. Preserve the exact campaign language from 01-mooncake-lacquer-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Tea Variation",
+      "description": "A family-table Mid-Autumn variation preserving the same premium moon-gifting system."
+    },
+    "zh-CN": {
+      "title": "团圆茶席变体",
+      "description": "保持同一高级月礼系统的团圆茶席变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A Mid-Autumn family tea-table scene derived from the same premium gifting system.",
+      "zh-CN": "沿用同一高端礼赠系统的中秋团圆茶席场景。"
+    }
+  }
+}

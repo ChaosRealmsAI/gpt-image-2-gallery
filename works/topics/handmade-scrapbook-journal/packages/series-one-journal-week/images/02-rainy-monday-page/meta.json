@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the same open cream-paper journal from the reference, now on a rainy Monday afternoon. Cool grey light spills from the left, and one faint water droplet has landed on the lower corner of the right page. The wooden desk surface beneath is the same warm tone but slightly dimmer.\n\nSubject:\nThe same journal keeper continues the week. The left page shows a damp bus ticket taped down with a fresh strip of terracotta washi tape, a pencil-shaded sketch of rain falling on a window, and a blurred watercolor wash in cool grey. The right page has a long slanted handwritten entry in the same uneven ballpoint cursive, a small arrow pointing to a tucked-in piece of damp cardboard, and a doodle of a small umbrella.\n\nImportant details:\nPreserve exact face of the journal from the reference: same cream paper tone, same A5 proportions, same binding curve, same handwriting cadence (letters lean right, looped lowercase g, uneven word spacing), same terracotta washi tape, same navy ballpoint pen. Only the mood, light, and pasted ephemera change. The water droplet must look physical, not digital. The watercolor wash must have a real pigment pooling edge.\n\nUse case:\nSeries image 2 of 4 · the same journal one day later, emphasizing weather and mood continuity of the same physical notebook.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no clean vector edges, no perfectly flat page, no over-sharpened detail, no color-shifted palette, preserve exact 1:1 aspect ratio.",
+  "id": "02-rainy-monday-page",
+  "title": "Rainy Monday Page",
+  "description": "The same journal one rainy Monday — damp bus ticket, watercolor sky wash, and a doodled umbrella.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/02-rainy-monday-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-journal-foundation",
+        "meta_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/meta.json",
+        "image_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01-journal-foundation for identity continuity of paper, handwriting, and kit."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rainy Monday Page",
+      "description": "The same journal one rainy Monday — damp bus ticket, watercolor sky wash, and a doodled umbrella."
+    },
+    "zh-CN": {
+      "title": "下雨的周一",
+      "description": "同一本手账在一个雨天周一 · 被雨打湿的公交票 · 水彩云天 · 手绘小伞。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Open cream journal on a rainy Monday with a taped bus ticket, watercolor rain sketch, and an umbrella doodle.",
+      "zh-CN": "雨天周一的手账跨页 · 胶带粘住的公交票 · 水彩雨天草图和小伞涂鸦。"
+    }
+  }
+}

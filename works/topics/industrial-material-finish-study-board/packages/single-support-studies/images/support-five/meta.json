@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square presentation sheet with clean zoning, refined board aesthetics, and premium studio illumination across every fragment. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original industrial finish assets organized into a persuasive review-ready layout with no readable copy. Make the subject feel original, production-aware, and clearly grounded in Industrial Material Finish Study Board. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the sheet non-readable but highly convincing as a design-review artifact. The hierarchy should feel mature, persuasive, and grounded in real CMF workflows. The visual language should still feel native to Industrial Material Finish Study Board, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMaterial Study single study 9/9 for Industrial Material Finish Study Board, built as image support-five.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no decorative lifestyle props, no fantasy texture, no chaotic palettes, no distressed damage.",
+  "id": "support-five",
+  "title": "Design Review Sheet",
+  "description": "A design-review presentation sheet mixing material fragments, detail windows, and one anchor product crop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "micro-texture",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-material-finish-study-board/packages/single-support-studies/images/support-five/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Design Review Sheet",
+      "description": "A design-review presentation sheet mixing material fragments, detail windows, and one anchor product crop."
+    },
+    "zh-CN": {
+      "title": "设计评审页",
+      "description": "混合材质碎片、细节窗口与产品裁切的设计评审页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "micro-texture",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A design-review sheet for original industrial material studies.",
+      "zh-CN": "原创工业材质研究的设计评审页。"
+    }
+  }
+}

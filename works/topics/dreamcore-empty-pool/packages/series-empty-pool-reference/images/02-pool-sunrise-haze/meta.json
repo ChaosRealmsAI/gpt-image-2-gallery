@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same drained municipal indoor pool as the reference image, now at roughly 5:30 a.m. Weak sunrise light seeps through high clerestory windows, producing a low-contrast cyan-cream haze that fills the entire natatorium. The camera still uses a direct on-camera flash, which now acts as a fill against the ambient dawn rather than the only source. Mild 35mm film grain and a slightly greenish color cast persist.\n\nSubject:\nThe identical six-lane empty basin seen from the exact same standing eye-level vantage. The same metal ladder is bolted at the near wall. The same cream deck tile surrounds the basin. The same ceramic wall tiles line the pool. Chlorine vapor hangs in the air as faint haze rising from the drain puddle. Dust motes are visible in the shaft of cold window light falling on the far deck.\n\nImportant details:\nThe tile pattern, lane painted stripes, ladder position, and camera viewpoint must exactly match the reference image — this is the same room rephotographed. Color temperature shifts from reference: add cool cyan ambient and reduce the flash dominance. Clerestory windows should read as high and narrow. Humidity must feel real. No swimmers, no staff, no photographer reflection. The uncanny note is that the space is full of morning light but nobody is using it.\n\nUse case:\nSeries image 2 of 4. Preserves the reference basin under dawn ambient light with flash fill.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no swimmers, no staff, no added props, no warped tile perspective, no lens flare.",
+  "id": "02-pool-sunrise-haze",
+  "title": "Pool · Sunrise Haze",
+  "description": "Same reference pool photographed at dawn with clerestory light and flash fill, preserving tile layout and camera vantage.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/02-pool-sunrise-haze/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-pool-night",
+        "meta_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/meta.json",
+        "image_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01 as primary reference. Relights same basin under dawn ambient."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pool · Sunrise Haze",
+      "description": "Same reference pool photographed at dawn with clerestory light and flash fill, preserving tile layout and camera vantage."
+    },
+    "zh-CN": {
+      "title": "泳池 · 晨雾",
+      "description": "与基准同一水池,在清晨高窗冷光加直闪补光下拍摄,保留瓷砖结构与机位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "The same drained municipal pool at dawn, filled with cold cyan haze and flash fill.",
+      "zh-CN": "同一座抽干市政泳池在清晨冷蓝雾气中,带直闪补光。"
+    }
+  }
+}

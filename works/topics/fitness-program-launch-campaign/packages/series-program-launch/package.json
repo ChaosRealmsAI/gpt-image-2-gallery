@@ -1,0 +1,72 @@
+{
+  "id": "series-program-launch",
+  "type": "series",
+  "title": "Program Launch System",
+  "description": "A four-image reference-dependent campaign that locks one fitness-program launch language across coach-led hero, plan, and conversion surfaces.",
+  "creative_direction": "Image 01 establishes the coach authority, transformation-oriented palette, and sign-up-ready layout. Images 02-04 depend on that anchor while extending the same system to promise, weekly-plan, and mobile-conversion use cases.",
+  "cover_image": "images/01-reference-coach-hero/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-coach-hero/meta.json",
+      "images/02-transformation-promise-board/meta.json",
+      "images/03-weekly-plan-poster/meta.json",
+      "images/04-mobile-signup-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-transformation-promise-board, 03-weekly-plan-poster, 04-mobile-signup-variant. Queue may run 02-transformation-promise-board, 03-weekly-plan-poster, 04-mobile-signup-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Program Launch System",
+      "description": "A four-image reference-dependent campaign that locks one fitness-program launch language across coach-led hero, plan, and conversion surfaces."
+    },
+    "zh-CN": {
+      "title": "Program Launch System",
+      "description": "A four-image reference-dependent campaign that locks one fitness-program launch language across coach-led hero, plan, and conversion surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-coach-hero",
+      "title": "Reference Coach Hero",
+      "image": "images/01-reference-coach-hero/image.png",
+      "meta": "images/01-reference-coach-hero/meta.json"
+    },
+    {
+      "id": "02-transformation-promise-board",
+      "title": "Transformation Promise Board",
+      "image": "images/02-transformation-promise-board/image.png",
+      "meta": "images/02-transformation-promise-board/meta.json"
+    },
+    {
+      "id": "03-weekly-plan-poster",
+      "title": "Weekly Plan Poster",
+      "image": "images/03-weekly-plan-poster/image.png",
+      "meta": "images/03-weekly-plan-poster/meta.json"
+    },
+    {
+      "id": "04-mobile-signup-variant",
+      "title": "Mobile Signup Variant",
+      "image": "images/04-mobile-signup-variant/image.png",
+      "meta": "images/04-mobile-signup-variant/meta.json"
+    }
+  ]
+}

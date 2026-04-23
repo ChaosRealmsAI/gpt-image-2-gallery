@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square widescale desert image centered on a massive geometric object descending, hovering, or emerging against sand, dust, and low sun. The atmosphere should feel physically dense, with suspended grit, long shadows, and distant heat haze describing the air around the event. Use a giant geometric beacon made of sparse intersecting planes descending into a canyon basin, its interior voids catching dusty sunset light.\n\nSubject:\nThe main subject is an immense ship, ring, slab, wedge, or monolith whose scale dwarfs all human observers. People should appear as tiny clustered witnesses in the foreground or along ridgelines, included only to prove size and emotional awe. Two observers stand at a high overlook while a distant camp below appears microscopic beside the structure.\n\nImportant details:\nThe signature is monumental restraint. Preserve simple geometry, huge negative space, believable dust behavior, and the quiet terror of proportion. Avoid flashy weapons, decorative alien ornament, bright science-fiction colors, or busy action hero staging. The open lattice must still feel monumental, with real shadow complexity and believable sand haze.\n\nUse case:\nMonumental Desert Arrival single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable markings on the object, no laser beams, no explosion fireballs, no crowded military hardware, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-lattice-beacon",
+  "title": "Lattice Beacon",
+  "description": "A canyon-scale lattice beacon arrives in sunset dust, dwarfing the camp and watchers around it.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "frontier-creative-composition",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/monumental-desert-arrival/packages/single-monumental-desert-arrival/images/06-lattice-beacon/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent monumental arrival study focused on lattice beacon.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lattice Beacon",
+      "description": "A canyon-scale lattice beacon arrives in sunset dust, dwarfing the camp and watchers around it."
+    },
+    "zh-CN": {
+      "title": "Lattice Beacon",
+      "description": "围绕纪念碑到来的第6张独立研究图，聚焦 Lattice Beacon。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "frontier-creative-composition",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A huge geometric lattice beacon descends into a canyon with tiny camps and observers nearby.",
+      "zh-CN": "纪念碑到来主题图：Lattice Beacon。"
+    }
+  }
+}

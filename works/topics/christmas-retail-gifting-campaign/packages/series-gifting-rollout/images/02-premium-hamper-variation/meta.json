@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign visual inside the same flagship holiday retail world, but frame it slightly closer and lower so the hamper reads as the hero deliverable. Keep the same amber store light, spruce-and-brass palette, frosted window glow, and premium merchandising calm established by the reference image. The camera should feel physically related to the anchor rather than like a different brand or a different store.\n\nSubject:\nFeature a structured premium hamper with layered compartments, wrapped jars, folded linens, candles, confectionery tins, and evergreen sprigs gathered into one impressive Christmas gift bundle. Preserve the exact wrapping materials, ribbon character, ornament language, and display logic from the reference model while changing the assortment and scale emphasis. The hamper must feel giftable, tactile, and sellable rather than decorative only.\n\nImportant details:\nPreserve exact palette blocking, material hierarchy, lighting direction, prop grammar, and retail warmth from the reference image. Only change the gifting tier and composition emphasis. Keep the hamper architecture disciplined, with visible premium surfaces, believable packing logic, and enough negative space that the bundle can function as a hero ad image. The final result should look like a high-conversion seasonal merchandising asset, not a random holiday still life.\n\nUse case:\nChristmas Retail series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no unrelated toy props, no chaotic confetti, no crowd, no readable tags, no brand marks, no exaggerated fantasy snow, no color drift into neon.",
+  "id": "02-premium-hamper-variation",
+  "title": "Premium Hamper Variation",
+  "description": "A premium hamper-focused variation that preserves the same Christmas retail system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/02-premium-hamper-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evergreen-window-anchor",
+        "meta_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/meta.json",
+        "image_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hamper variation for the Christmas rollout. Preserve the exact campaign language from 01-evergreen-window-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Premium Hamper Variation",
+      "description": "A premium hamper-focused variation that preserves the same Christmas retail system."
+    },
+    "zh-CN": {
+      "title": "高端礼篮变体",
+      "description": "保持同一圣诞零售系统的高端礼篮变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A premium Christmas hamper campaign visual derived from the same core retail language.",
+      "zh-CN": "沿用同一圣诞零售语言的高端礼篮 campaign 画面。"
+    }
+  }
+}

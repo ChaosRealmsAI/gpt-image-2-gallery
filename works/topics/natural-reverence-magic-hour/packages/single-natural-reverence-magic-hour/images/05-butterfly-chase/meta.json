@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square naturalistic frame captured at the exact edge of magic hour, when the sun sits low and turns grass, dust, skin, and hair into luminous gold. Use wide lenses, open air, gentle motion, and a lived-in landscape such as tall wheat, meadow, creek bank, orchard, or open prairie. Set the scene in a meadow seeded with tiny white flowers and drifting insects under a low amber sky.\n\nSubject:\nCenter on a child or small human figure moving through the landscape with curiosity, wonder, or private joy. The body should feel small inside the world, with the environment carrying as much emotional meaning as the person. A child reaches forward chasing a single bright butterfly through the grass, feet barely visible in the stems.\n\nImportant details:\nThe visual rule is reverence through natural light, wind, and tactile surface detail. Preserve lens flare, translucent grasses, skin warmed by sun, and humble earth textures without commercial polish. Avoid heavy stylization, urban intrusions, or artificial studio neatness. The butterfly should remain small and plausible, with the true spectacle coming from light catching flowers, dust, and motion.\n\nUse case:\nNatural Reverence Magic Hour single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no modern billboards, no synthetic neon color, no posed fashion styling, no fantasy creatures, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-butterfly-chase",
+  "title": "Butterfly Chase",
+  "description": "A sunlit meadow where a child chases a butterfly through flowers and glowing grass.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/natural-reverence-magic-hour/packages/single-natural-reverence-magic-hour/images/05-butterfly-chase/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent natural reverence study focused on butterfly chase.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Butterfly Chase",
+      "description": "A sunlit meadow where a child chases a butterfly through flowers and glowing grass."
+    },
+    "zh-CN": {
+      "title": "Butterfly Chase",
+      "description": "围绕自然崇敬的第5张独立研究图，聚焦 Butterfly Chase。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A child reaches after a butterfly in a flowered meadow lit by low golden sun.",
+      "zh-CN": "自然崇敬主题图：Butterfly Chase。"
+    }
+  }
+}

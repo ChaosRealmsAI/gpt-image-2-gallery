@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square product-catalog image for one near-future consumer category, keeping industrial design clarity and marketing hierarchy equally strong. The board should feel commercial and ready to publish, not like a random object render. Compose a product board with one countertop fermenter, accessory jars, measuring tools, and soft kitchen-context props arranged in a premium catalog style.\n\nSubject:\nShow one coherent product or micro-family with believable consumer positioning, accessory logic, and lifestyle relevance. Hints of packaging, use context, or display systems can appear if they support the category read. The family should feel culinary and trustworthy, with interface logic and modular accessories clearly tied to food workflow.\n\nImportant details:\nUse restrained props, clear product spacing, and material realism to sell a plausible near-future product direction. The concept should feel like something a real company could market within a few years. Keep the board clean and appetizing without turning it into a food photograph. Preserve category-specific marketing logic so the product, accessories, and staged context all support the same consumer story.\n\nUse case:\nSpec Product Catalog single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no price-tag text, no glossy ad cliché overload, no cartoon gadgets, no fake logos, no chef-brand cues.",
+  "id": "01-kitchen-fermentation-assistant",
+  "title": "Kitchen Fermentation Assistant",
+  "description": "Kitchen Fermentation Assistant presents a consumer appliance family for guided home fermentation and ingredient care.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-product-catalogue-family/packages/single-support-studies/images/01-kitchen-fermentation-assistant/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Spec Product Catalog support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Fermentation Assistant",
+      "description": "Kitchen Fermentation Assistant presents a consumer appliance family for guided home fermentation and ingredient care."
+    },
+    "zh-CN": {
+      "title": "Kitchen Fermentation Assistant",
+      "description": "未来产品目录主题中的Kitchen Fermentation Assistant图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Kitchen Fermentation Assistant presents a consumer appliance family for guided home fermentation and ingredient care.",
+      "zh-CN": "未来产品目录主题中的Kitchen Fermentation Assistant图像。"
+    }
+  }
+}

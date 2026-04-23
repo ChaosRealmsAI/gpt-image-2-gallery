@@ -1,0 +1,47 @@
+{
+  "id": "fitness-program-launch-campaign",
+  "slug": "fitness-program-launch-campaign",
+  "title": "Fitness Program Launch Campaign",
+  "short_title": "Program Launch",
+  "description": "Create launch campaigns for fitness programs with coach authority, workout identity, and transformation promise.",
+  "i18n": {
+    "en": {
+      "title": "Fitness Program Launch Campaign",
+      "short_title": "Program Launch",
+      "description": "Create launch campaigns for fitness programs with coach authority, workout identity, and transformation promise."
+    },
+    "zh-CN": {
+      "title": "健身课程发布 campaign",
+      "short_title": "课程发布",
+      "description": "做健身课程发布 campaign，强调教练 authority 和结果感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-program-launch",
+      "type": "series",
+      "title": "Program Launch System",
+      "path": "packages/series-program-launch/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Program Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

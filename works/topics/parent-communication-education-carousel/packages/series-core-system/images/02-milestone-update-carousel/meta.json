@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square carousel-card presentation, straight-on viewpoint, and polished social-media mockup style from the reference image. The set should look like another post from the same school communications calendar, maintaining visual trust and brand continuity. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse progress icons, child activity photos, calm data-like shapes, and blank insight panels to suggest developmental milestones or learning moments without displaying any readable copy. The cards should balance warmth with professional clarity. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the reference system precisely: same card structure, palette, image crop logic, and icon weight. Variation should come from the message topic and supporting imagery, not from a new visual language. Preserve the same square carousel-card frame, photo crop style, icon rhythm, blank headline areas, and family-trust color system from the reference card set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nParent Communication Education Carousel series study 2/4, milestone update carousel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable social captions, no logos, no app-interface clutter, no influencer styling, no chaotic sticker overload, no celebrity likeness.",
+  "id": "02-milestone-update-carousel",
+  "title": "Milestone Update Carousel",
+  "description": "A milestone-focused carousel variation preserving the same parent-education system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "social-feed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/02-milestone-update-carousel/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-welcome-carousel",
+        "meta_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/meta.json",
+        "image_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-welcome-carousel.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Milestone Update Carousel",
+      "description": "A milestone-focused carousel variation preserving the same parent-education system."
+    },
+    "zh-CN": {
+      "title": "成长里程碑轮播",
+      "description": "保持同一家长教育系统的成长里程碑轮播变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "social-feed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A milestone-focused carousel variation preserving the same parent-education system.",
+      "zh-CN": "保持同一家长教育系统的成长里程碑轮播变体。"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "single-scrapbook-variations",
+  "type": "single",
+  "title": "Scrapbook Variations",
+  "description": "Five independent scrapbook journal spreads, each made by a different imagined journal keeper, showing diverse handmade voices and ephemera traditions.",
+  "creative_direction": "Independent studies for the Handmade Scrapbook Journal theme: each page belongs to a different real-feeling person with their own handwriting, taste in tape, and ephemera — together they map the diversity of imperfect-by-design journaling.",
+  "cover_image": "images/travel-ticket-diary/image.png",
+  "i18n": {
+    "en": {
+      "title": "Scrapbook Variations",
+      "description": "Five independent scrapbook journal spreads, each made by a different imagined journal keeper, showing diverse handmade voices and ephemera traditions."
+    },
+    "zh-CN": {
+      "title": "剪贴手账变奏",
+      "description": "五张独立的手账跨页 · 来自不同想象的记录者 · 展示各异的手写声音与拼贴传统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "editorial-illustration", "structured-layout", "pattern"]
+  },
+  "images": [
+    { "id": "travel-ticket-diary", "title": "Travel Ticket Diary", "image": "images/travel-ticket-diary/image.png", "meta": "images/travel-ticket-diary/meta.json" },
+    { "id": "concert-stub-collage", "title": "Concert Stub Collage", "image": "images/concert-stub-collage/image.png", "meta": "images/concert-stub-collage/meta.json" },
+    { "id": "autumn-botanical-page", "title": "Autumn Botanical Page", "image": "images/autumn-botanical-page/image.png", "meta": "images/autumn-botanical-page/meta.json" },
+    { "id": "birthday-memory-sheet", "title": "Birthday Memory Sheet", "image": "images/birthday-memory-sheet/image.png", "meta": "images/birthday-memory-sheet/meta.json" },
+    { "id": "coffee-shop-afternoon", "title": "Coffee Shop Afternoon", "image": "images/coffee-shop-afternoon/image.png", "meta": "images/coffee-shop-afternoon/meta.json" }
+  ]
+}

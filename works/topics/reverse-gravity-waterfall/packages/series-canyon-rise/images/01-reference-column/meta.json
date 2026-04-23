@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at late afternoon with a 28mm full-frame camera, standing at the rim of a red sandstone canyon looking across. Warm directional sun rakes the canyon walls from upper-left; deep shadows pool at the canyon floor; clear high-altitude atmosphere with thin cirrus streaks.\n\nSubject:\nA broad river snakes along the canyon floor, and from the center of the widest bend a continuous cylindrical column of water, six meters in diameter, rises vertically 600 meters into the air in complete defiance of gravity. The column is crisp and coherent near its base, gradually blooms into a softer plume of spray around the 400-meter mark, and dissolves into a fine vapor halo at the top. Evening sunlight catches the ascending droplets and produces a warm golden glow along the column's sunlit side; a faint rainbow arcs through the spray at mid-height.\n\nImportant details:\nPhysically plausible flow behavior at every height: laminar core near the bottom, turbulent breakup in the middle, aerosol dispersion at the top. Splash pattern at the base, where river water bends 90 degrees from horizontal to vertical, shows believable surface tension and droplet separation. Canyon sandstone texture fully resolved — bedding lines, patina, talus fans. A tiny helicopter hovers 30 meters from the column at mid-height as a clear scale anchor. Subtle color temperature shift: warm sunlit side ~3500K, shadowed river below ~5600K.\n\nUse case:\nReference image for a four-part canyon reverse-gravity series. Later images must preserve this exact canyon geometry, river course, column profile, and helicopter position while changing time of day and weather.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible pump or machinery, no floating debris, no cartoon or stylized rendering, no brand helicopters (generic silhouette only).",
+  "id": "01-reference-column",
+  "title": "Reference Column",
+  "description": "The hero red-rock canyon and 600m vertical rising water column that anchors the cycle.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the canyon-rise fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Column",
+      "description": "The hero red-rock canyon and 600m vertical rising water column that anchors the cycle."
+    },
+    "zh-CN": {
+      "title": "基准水柱",
+      "description": "红岩峡谷与 600 米垂直升腾水柱 · 为循环建立基准。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A red-rock canyon with a 600m water column rising vertically from the river.",
+      "zh-CN": "红岩峡谷中一根 600 米垂直升腾水柱。"
+    }
+  }
+}

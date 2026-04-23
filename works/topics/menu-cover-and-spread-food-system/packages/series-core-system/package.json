@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Menu Layout Continuity",
+  "description": "Four reference-linked menu mockups establishing a consistent cover-and-spread food system.",
+  "creative_direction": "Image 01 establishes the cover geometry, print materials, placeholder text grammar, and food-image cadence. Images 02-04 preserve that exact menu system while rotating section emphasis and spread structure.",
+  "cover_image": "images/01-cover-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-cover-anchor/meta.json",
+      "images/02-breakfast-spread/meta.json",
+      "images/03-chef-special-spread/meta.json",
+      "images/04-drinks-insert-layout/meta.json"
+    ],
+    "ref_strategy": "Run 01-cover-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Menu Layout Continuity",
+      "description": "Four reference-linked menu mockups establishing a consistent cover-and-spread food system."
+    },
+    "zh-CN": {
+      "title": "菜单版式连续主视觉",
+      "description": "四张参考联动的菜单 mockup，建立统一的封面与跨页视觉系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-cover-anchor",
+      "title": "Cover Anchor",
+      "image": "images/01-cover-anchor/image.png",
+      "meta": "images/01-cover-anchor/meta.json"
+    },
+    {
+      "id": "02-breakfast-spread",
+      "title": "Breakfast Spread",
+      "image": "images/02-breakfast-spread/image.png",
+      "meta": "images/02-breakfast-spread/meta.json"
+    },
+    {
+      "id": "03-chef-special-spread",
+      "title": "Chef Special Spread",
+      "image": "images/03-chef-special-spread/image.png",
+      "meta": "images/03-chef-special-spread/meta.json"
+    },
+    {
+      "id": "04-drinks-insert-layout",
+      "title": "Drinks Insert Layout",
+      "image": "images/04-drinks-insert-layout/image.png",
+      "meta": "images/04-drinks-insert-layout/meta.json"
+    }
+  ]
+}

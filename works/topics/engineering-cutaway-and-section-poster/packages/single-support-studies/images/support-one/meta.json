@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square studio technical plate with crisp neutral lighting and strong object-legibility against a calm background. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original speaker-like engineered object split to reveal driver, chamber, bracing, and damping layers. Make the subject feel original, production-aware, and clearly grounded in Engineering Cutaway and Section Poster. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the acoustic logic believable and the section precise. The image should read as engineering communication, not stylized gadget art. The visual language should still feel native to Engineering Cutaway and Section Poster, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCutaway Poster single study 5/9 for Engineering Cutaway and Section Poster, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no impossible internals, no chaotic arrows, no random infographic decoration, no fantasy glow.",
+  "id": "support-one",
+  "title": "Speaker Cutaway",
+  "description": "A clean cutaway study of an original speaker-like object revealing acoustic architecture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/engineering-cutaway-and-section-poster/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Speaker Cutaway",
+      "description": "A clean cutaway study of an original speaker-like object revealing acoustic architecture."
+    },
+    "zh-CN": {
+      "title": "扬声器剖面研究",
+      "description": "展示原创扬声器类对象声学结构的干净剖面图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A clean cutaway study of an original speaker-like engineered object.",
+      "zh-CN": "原创扬声器类工程对象的干净剖面研究图。"
+    }
+  }
+}

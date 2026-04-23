@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square morning transit image with crisp early light, cool air, and a feeling of purposeful movement into the day. The setting can suggest a bus stop, school entry path, or pickup zone, but it should remain polished and campaign-ready rather than documentary. Use strong directional light, grounded architecture, and a clear sense of readiness.\n\nSubject:\nShow a bag, jacket or outer layer, bottle, lunch form, notebook or folder silhouettes, and a few transit cues arranged into a scene of departure for school. Human presence can be implied but should not dominate. The subject should communicate routine, confidence, and the start of a new academic rhythm.\n\nImportant details:\nLight and object texture carry the image. Fabric, asphalt or paving, metal rail, paper edges, and cool morning air should all feel real. The result should support transport, school, apparel, or retail campaign surfaces during back-to-school season. Keep the mood optimistic, structured, and forward-moving. Keep the frame precise enough for gallery, research, and campaign reuse, with believable materials and a strong thumbnail read.\n\nUse case:\nBack to School single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable route signs, no school logos, no crowd, no mascot graphics, no traffic chaos, no graduation cues, no branded bus, no chalkboard props.",
+  "id": "bus-stop-morning-kit",
+  "title": "Bus Stop Morning Kit",
+  "description": "A morning-transit back-to-school study focused on readiness, commute cues, and fresh-term momentum.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/single-campus-support-studies/images/bus-stop-morning-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent morning-transit study for back-to-school campaigns.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bus Stop Morning Kit",
+      "description": "A morning-transit back-to-school study focused on readiness, commute cues, and fresh-term momentum."
+    },
+    "zh-CN": {
+      "title": "晨间通勤套装",
+      "description": "聚焦准备状态、通勤线索与新学期动能的晨间开学季研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A back-to-school morning transit scene with bag, supplies, and early-day readiness.",
+      "zh-CN": "带有书包、用品与晨间准备状态的开学季通勤场景。"
+    }
+  }
+}

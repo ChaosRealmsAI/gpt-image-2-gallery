@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Use a square dark tabletop or neutral studio background with controlled light and enough breathing room for multiple components to float or rest in separated order. The composition should feel analytical and premium.\n\nSubject:\nLay out or suspend the components of a showpiece in exploded order: curved chocolate arcs, slender supports, a base, amber sugar inserts, and a few metallic accents. The parts should feel engineered for assembly, like a pastry equivalent of an exploded product diagram but without text. The image must remain elegant and tactile.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. Every component needs a credible structural purpose and a distinct material role. Reflection lines and cast shadows should help explain assembly logic without any labels.\n\nUse case:\nChocolate lacquer sculpture single study 8/9, revealing the structural logic behind a competition showpiece.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no technical text callouts, no workshop mess, no plastic support rods.",
+  "id": "exploded-structural-maquette",
+  "title": "Exploded Structural Maquette",
+  "description": "An exploded view of chocolate sculpture components showing how arcs, supports, and sugar accents would assemble.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/single-support-studies/images/exploded-structural-maquette/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Exploded Structural Maquette",
+      "description": "An exploded view of chocolate sculpture components showing how arcs, supports, and sugar accents would assemble."
+    },
+    "zh-CN": {
+      "title": "Exploded Structural Maquette",
+      "description": "An exploded view of chocolate sculpture components showing how arcs, supports, and sugar accents would assemble."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "An exploded layout of chocolate showpiece components arranged like a premium structural diagram without text.",
+      "zh-CN": "An exploded layout of chocolate showpiece components arranged like a premium structural diagram without text."
+    }
+  }
+}

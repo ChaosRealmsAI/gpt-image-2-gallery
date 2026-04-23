@@ -1,0 +1,46 @@
+{
+  "id": "cocktail-anatomy-editorial",
+  "slug": "cocktail-anatomy-editorial",
+  "title": "Cocktail Anatomy Editorial",
+  "short_title": "Cocktail Anatomy",
+  "description": "High-end cocktail magazine editorial showing cocktails with their anatomy labelled — liquor layers, ice sculpting, garnish mechanics, smoke dome — in a clean Scandinavian studio aesthetic.",
+  "i18n": {
+    "en": {
+      "title": "Cocktail Anatomy Editorial",
+      "short_title": "Cocktail Anatomy",
+      "description": "High-end cocktail magazine editorial showing cocktails with their anatomy labelled — liquor layers, ice sculpting, garnish mechanics, smoke dome — in a clean Scandinavian studio aesthetic."
+    },
+    "zh-CN": {
+      "title": "鸡尾酒解剖刊物",
+      "short_title": "鸡尾酒解剖",
+      "description": "高端鸡尾酒杂志刊物 · 标注酒体分层、冰雕、装饰机制、烟幕 · 斯堪的纳维亚棚拍美学。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2030,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "data-visualization",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Editorial Anatomy Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Bar Mechanic Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

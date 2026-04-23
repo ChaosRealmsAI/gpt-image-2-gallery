@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square menu-design mockup that combines printed surfaces, structured page hierarchy, and appetizing food photography into one coherent brand-authored system. The page layouts should feel intentional and premium, with strong margins, modular blocks, and realistic print or board materials even though all textual zones remain unreadable. Shoot a square overhead or slight-angle view of a printed insert on a clean table, emphasizing crisp print edges and repeated image modules.\n\nSubject:\nThe menu should communicate category structure, hero dish placement, and brand tone through composition, image framing, typographic blocks, and page rhythm rather than through readable copy. Food imagery must stay believable and publication-ready. Show several dessert images organized into a structured grid with abstract text zones and refined color blocks.\n\nImportant details:\nThis topic tests layout reasoning as much as food styling. Preserve clean grids, realistic paper behavior, credible shadows, and strong focal hierarchy between cover, spreads, dish photos, and placeholder text zones. Text-like marks can exist only as abstract or unreadable forms; clarity must come from design structure. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. The image should feel like a polished editorial page: evenly spaced, premium, and clearly organized without relying on readable language.\n\nUse case:\nMenu System single study 9/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake menu prices, no warped paper errors, no amateur flyer clutter, no chaotic collage, no obvious software UI chrome, no magazine masthead, no visible software crop marks, no chaotic collage.",
+  "id": "dessert-insert-grid",
+  "title": "Dessert Insert Grid",
+  "description": "A dessert insert built around a strict grid of pastry photos and placeholder blocks.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/menu-cover-and-spread-food-system/packages/single-support-studies/images/dessert-insert-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Dessert Insert Grid",
+      "description": "A dessert insert built around a strict grid of pastry photos and placeholder blocks."
+    },
+    "zh-CN": {
+      "title": "甜点插页网格",
+      "description": "甜点插页网格：菜单系统主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A dessert insert built around a strict grid of pastry photos and placeholder blocks.",
+      "zh-CN": "甜点插页网格，用于菜单系统主题。"
+    }
+  }
+}

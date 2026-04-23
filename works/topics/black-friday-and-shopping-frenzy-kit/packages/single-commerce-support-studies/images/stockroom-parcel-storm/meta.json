@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square logistics image inside a premium stockroom with dark industrial tones, hard white strip light, yellow safety accents, and orderly parcel density. The frame should feel intense and time-sensitive, but still structured enough for a commercial campaign. Use strong perspective lines, stacked parcels, rolling cages, and controlled motion blur so the image communicates volume and fulfillment pressure without collapsing into chaos.\n\nSubject:\nCenter a sorting zone with parcel stacks, carts, taped boxes, gloves, conveyors, and geometric routing surfaces, all brand-neutral and free of readable labels. The scene should tell a fulfillment story: demand is high, the operation is moving fast, and the retailer is under pressure. Keep people minimal or blurred so the logistics environment stays dominant and reusable.\n\nImportant details:\nMaterial realism matters. Cardboard wear, tape sheen, metal rack reflections, concrete floor marks, and directional light should all feel persuasive. Avoid warehouse sloppiness. This is a campaign-ready logistics visual for shipping cutoffs, demand surges, and order-volume storytelling. The composition should read instantly and strongly at both full size and small promo-tile scale.\n\nUse case:\nBlack Friday single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no delivery company logos, no forklift hazard scene, no messy trash, no visible invoice text, no brand tape, no random holiday decorations, no crowding that destroys hierarchy.",
+  "id": "stockroom-parcel-storm",
+  "title": "Stockroom Parcel Storm",
+  "description": "A logistics-heavy Black Friday study focused on parcel volume and fulfillment stress.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/single-commerce-support-studies/images/stockroom-parcel-storm/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent stockroom logistics study for Black Friday support.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stockroom Parcel Storm",
+      "description": "A logistics-heavy Black Friday study focused on parcel volume and fulfillment stress."
+    },
+    "zh-CN": {
+      "title": "仓储包裹风暴",
+      "description": "聚焦包裹量与履约压力的物流向黑五研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A high-pressure Black Friday stockroom scene with parcels, sorting energy, and controlled logistics tension.",
+      "zh-CN": "带有包裹、分拣动势与受控物流张力的高压黑五仓储场景。"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square near-future catalogue board that feels like a premium consumer-product launch sheet without using readable copy. The composition should combine one hero product or family grouping with secondary modules, packaging-like shapes, and abstract information zones arranged in a clean commercial hierarchy. Lighting should be photographic, precise, and product-friendly. Keep the same industrial design language but stage the family around compact units, wall-adjacent footprints, and tight-space accessories in the same catalog format.\n\nSubject:\nCenter the image on a coherent consumer product family whose forms, finishes, interface surfaces, and accessory logic all belong together. The products can be speculative, but they must still feel market-positioned, manufacturable, and suited to a believable household or urban use case. Preserve the reference forms, vent logic, and material palette while emphasizing urban apartment suitability and modular storage.\n\nImportant details:\nThink like a product marketer and industrial designer at once. Material choices, scale relationships, accessory combinations, and staged use cues should imply a clear category, audience, and feature set even though no readable text appears. The image should be strong enough for catalog, launch-page, or retail poster use. The board should feel like a real line extension rather than a total redesign, with compactness expressed through packaging and scale decisions. Preserve the exact structural language established by the reference image, especially the industrial design language, material palette, module family proportions, and catalog layout hierarchy.\n\nUse case:\nSpec Product Catalog series study 2/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real-world brand marks, no readable product copy, no random luxury nonsense props, no inconsistent industrial design, no tiny gadget novelty feel.",
+  "id": "02-compact-apartment-variant",
+  "title": "Compact Apartment Variant",
+  "description": "Compact Apartment Variant presents the same product family adapted for smaller homes and denser living conditions.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/02-compact-apartment-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-catalogue-family-anchor",
+        "meta_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/meta.json",
+        "image_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Spec Product Catalog core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Compact Apartment Variant",
+      "description": "Compact Apartment Variant presents the same product family adapted for smaller homes and denser living conditions."
+    },
+    "zh-CN": {
+      "title": "Compact Apartment Variant",
+      "description": "未来产品目录主题中的Compact Apartment Variant图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Compact Apartment Variant presents the same product family adapted for smaller homes and denser living conditions.",
+      "zh-CN": "未来产品目录主题中的Compact Apartment Variant图像。"
+    }
+  }
+}

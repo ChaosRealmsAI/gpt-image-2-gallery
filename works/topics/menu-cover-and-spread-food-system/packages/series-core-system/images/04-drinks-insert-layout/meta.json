@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square menu-design mockup that combines printed surfaces, structured page hierarchy, and appetizing food photography into one coherent brand-authored system. The page layouts should feel intentional and premium, with strong margins, modular blocks, and realistic print or board materials even though all textual zones remain unreadable. Retain the same print stock, margin system, and tabletop context, but introduce brighter beverage imagery, glass reflections, and smaller modular blocks.\n\nSubject:\nThe menu should communicate category structure, hero dish placement, and brand tone through composition, image framing, typographic blocks, and page rhythm rather than through readable copy. Food imagery must stay believable and publication-ready. Show a drinks-focused insert layout with one or two beverage images and clean placeholder typographic zones that feel like a premium sub-menu.\n\nImportant details:\nThis topic tests layout reasoning as much as food styling. Preserve clean grids, realistic paper behavior, credible shadows, and strong focal hierarchy between cover, spreads, dish photos, and placeholder text zones. Text-like marks can exist only as abstract or unreadable forms; clarity must come from design structure. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-cover-anchor. The goal is continuity with the anchor cover and spreads, not a new design. Preserve grid discipline, color restraint, and material realism while shifting category emphasis.\n\nUse case:\nMenu System series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake menu prices, no warped paper errors, no amateur flyer clutter, no chaotic collage, no obvious software UI chrome, no cocktail recipe copy, no readable drink names, no nightclub flyer energy.",
+  "id": "04-drinks-insert-layout",
+  "title": "Drinks Insert Layout",
+  "description": "A drinks insert that preserves the reference menu language while adapting it to beverage imagery and lighter pacing.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/04-drinks-insert-layout/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-cover-anchor",
+        "meta_path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/01-cover-anchor/meta.json",
+        "image_path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/01-cover-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-cover-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Drinks Insert Layout",
+      "description": "A drinks insert that preserves the reference menu language while adapting it to beverage imagery and lighter pacing."
+    },
+    "zh-CN": {
+      "title": "饮品插页版式",
+      "description": "饮品插页版式：菜单系统主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A drinks insert that preserves the reference menu language while adapting it to beverage imagery and lighter pacing.",
+      "zh-CN": "饮品插页版式，用于菜单系统主题。"
+    }
+  }
+}

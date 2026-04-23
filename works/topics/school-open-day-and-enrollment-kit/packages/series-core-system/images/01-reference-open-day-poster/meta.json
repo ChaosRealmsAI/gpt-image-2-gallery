@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square straight-on poster mockup displayed on a clean campus notice board, with soft daylight and believable print texture. The poster should combine welcoming campus photography, blank headline bands, and modular information zones in a way that feels immediately usable for a real preschool or primary-school open day campaign. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFeature a warm campus scene with children and caregivers arriving, greenery, bright classrooms visible through windows, and a clear admissions-oriented hierarchy built from panels, icons, and photo blocks. The overall impression should be inclusive, aspirational, and operationally credible. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nThe asset must balance polished marketing appeal with genuine school trust. Use restrained color coding, obvious whitespace for future copy, and realistic institutional photography rather than generic lifestyle gloss. Preserve the same campus color system, photography tone, panel hierarchy, family-friendly admissions mood, and blank information-band rhythm from the reference asset. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nSchool Open Day and Enrollment Kit series study 1/4, reference open day poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no celebrity faces, no unrealistic campus luxury, no crowded chaos, no distorted architecture.",
+  "id": "01-reference-open-day-poster",
+  "title": "Reference Open Day Poster",
+  "description": "Reference enrollment poster that locks the campus tone and promotional layout system for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Open Day Poster",
+      "description": "Reference enrollment poster that locks the campus tone and promotional layout system for the series."
+    },
+    "zh-CN": {
+      "title": "基准开放日海报",
+      "description": "锁定校园气质与招生版式系统的开放日海报基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Reference enrollment poster that locks the campus tone and promotional layout system for the series.",
+      "zh-CN": "锁定校园气质与招生版式系统的开放日海报基准版。"
+    }
+  }
+}

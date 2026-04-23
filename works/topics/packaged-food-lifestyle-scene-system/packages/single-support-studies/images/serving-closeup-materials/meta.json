@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Move in close on a served portion with just enough of the package visible to connect the prepared food back to the product.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Use texture as the hero: sauce sheen, grain, crunch, ceramic glaze, and package finish should all feel tactile and believable.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. This is a material-credibility study. The image must sell the product through the physical truth of the serving moment rather than through copy.\n\nUse case:\nFood Package Scenes single study 9/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no macro abstraction that hides the food, no fake CGI shine, no readable package panel.",
+  "id": "serving-closeup-materials",
+  "title": "Serving Closeup Materials",
+  "description": "A close-up product scene focused on bowl, spoon, surface texture, and pack materials.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/single-support-studies/images/serving-closeup-materials/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Serving Closeup Materials",
+      "description": "A close-up product scene focused on bowl, spoon, surface texture, and pack materials."
+    },
+    "zh-CN": {
+      "title": "盛装近景材质",
+      "description": "盛装近景材质：食品包装场景主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A close-up product scene focused on bowl, spoon, surface texture, and pack materials.",
+      "zh-CN": "盛装近景材质，用于食品包装场景主题。"
+    }
+  }
+}

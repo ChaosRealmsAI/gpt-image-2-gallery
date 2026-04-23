@@ -1,0 +1,48 @@
+{
+  "id": "athlete-spotlight-and-profile-card-family",
+  "slug": "athlete-spotlight-and-profile-card-family",
+  "title": "Athlete Spotlight and Profile Card Family",
+  "short_title": "Athlete Cards",
+  "description": "Build athlete-card families combining portrait drama, stat zones, and team-brand consistency.",
+  "i18n": {
+    "en": {
+      "title": "Athlete Spotlight and Profile Card Family",
+      "short_title": "Athlete Cards",
+      "description": "Build athlete-card families combining portrait drama, stat zones, and team-brand consistency."
+    },
+    "zh-CN": {
+      "title": "运动员 spotlight 与人物卡家族",
+      "short_title": "运动员卡",
+      "description": "做运动员人物卡家族，结合肖像、数据区域和球队品牌一致性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "identity-consistency",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-profile-system",
+      "type": "series",
+      "title": "Athlete Profile System",
+      "path": "packages/series-profile-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Profile Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

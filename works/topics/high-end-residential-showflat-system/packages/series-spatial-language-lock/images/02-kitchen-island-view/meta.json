@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for High-End Residential Showflat System. Use a camera angle pivoted toward the stone island and tall storage wall while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep pale oak, soft taupe, creamy travertine, smoke gray glass, and gentle daylight silver as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a high-end residential showflat with full-height glazing, pale oak wall panels, creamy stone flooring, sculptural furniture, restrained art objects, and polished property-marketing clarity. Focus on the exact same showflat from the reference image, now emphasizing the kitchen material language and apartment planning logic. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the glazing rhythm, oak panel detailing, stone floor tone, furniture silhouettes, softly styled decor, and real-estate presentation polish. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nHigh-End Residential Showflat System series study 2/9, extending kitchen polish while preserving the same home identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no family photos, no clutter, no toy-like decor, no messy cables, no cheap staging tricks, no visible appliances clutter.",
+  "id": "02-kitchen-island-view",
+  "title": "Kitchen Island View",
+  "description": "A reference-dependent architectural variation for showflat system focused on kitchen island view.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/high-end-residential-showflat-system/packages/series-spatial-language-lock/images/02-kitchen-island-view/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-living-dining-anchor",
+        "meta_path": "works/topics/high-end-residential-showflat-system/packages/series-spatial-language-lock/images/01-living-dining-anchor/meta.json",
+        "image_path": "works/topics/high-end-residential-showflat-system/packages/series-spatial-language-lock/images/01-living-dining-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Island View",
+      "description": "A reference-dependent architectural variation for showflat system focused on kitchen island view."
+    },
+    "zh-CN": {
+      "title": "厨房岛台视角",
+      "description": "围绕样板间的厨房岛台视角研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Kitchen Island View for High-End Residential Showflat System.",
+      "zh-CN": "样板间主题中的厨房岛台视角。"
+    }
+  }
+}

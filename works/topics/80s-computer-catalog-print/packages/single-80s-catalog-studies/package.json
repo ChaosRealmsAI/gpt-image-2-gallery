@@ -1,0 +1,44 @@
+{
+  "id": "single-80s-catalog-studies",
+  "type": "single",
+  "title": "80s Catalog Studies",
+  "description": "Nine independent 80s computer catalog page studies — each page tests a different corner of early desktop-publishing print (rainbow stripe headers, dot-matrix headlines, isometric wireframes, dense monospace body, order forms) at modern scan fidelity.",
+  "creative_direction": "Each image is a 1:1 catalog page crop for a different module (workstation cover, printer page, network diagram, software grid, accessories grid, support plan table, keyboard schematic, monitor specs, order form). Shared palette: tech-blue plus beige plus neutral gray plus rainbow stripe highlights. Shared treatments: punch-hole margin, rainbow stripe header bar, dot-matrix headline, isometric wireframe drawings, dense monospace body copy, cold fluorescent office mood.",
+  "cover_image": "images/workstation-catalog-cover/image.png",
+  "i18n": {
+    "en": {
+      "title": "80s Catalog Studies",
+      "description": "Nine independent 80s computer catalog page studies — each page tests a different corner of early desktop-publishing print (rainbow stripe headers, dot-matrix headlines, isometric wireframes, dense monospace body, order forms) at modern scan fidelity."
+    },
+    "zh-CN": {
+      "title": "80 年代目录单图研究",
+      "description": "九张独立的 80 年代电脑目录页研究 · 每张测试早期桌面出版印刷的不同模块(彩虹条纹 / 点阵标题 / 等距线框 / 密排等宽正文 / 订购表)· 以现代扫描精度呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    { "id": "workstation-catalog-cover", "title": "Workstation Catalog Cover", "image": "images/workstation-catalog-cover/image.png", "meta": "images/workstation-catalog-cover/meta.json" },
+    { "id": "printer-product-page", "title": "Printer Product Page", "image": "images/printer-product-page/image.png", "meta": "images/printer-product-page/meta.json" },
+    { "id": "network-diagram-spread", "title": "Network Diagram Spread", "image": "images/network-diagram-spread/image.png", "meta": "images/network-diagram-spread/meta.json" },
+    { "id": "software-box-grid", "title": "Software Box Grid", "image": "images/software-box-grid/image.png", "meta": "images/software-box-grid/meta.json" },
+    { "id": "accessories-page-grid", "title": "Accessories Page Grid", "image": "images/accessories-page-grid/image.png", "meta": "images/accessories-page-grid/meta.json" },
+    { "id": "support-plan-table", "title": "Support Plan Table", "image": "images/support-plan-table/image.png", "meta": "images/support-plan-table/meta.json" },
+    { "id": "keyboard-schematic-page", "title": "Keyboard Schematic Page", "image": "images/keyboard-schematic-page/image.png", "meta": "images/keyboard-schematic-page/meta.json" },
+    { "id": "monitor-specs-page", "title": "Monitor Specs Page", "image": "images/monitor-specs-page/image.png", "meta": "images/monitor-specs-page/meta.json" },
+    { "id": "order-form-back-matter", "title": "Order Form Back Matter", "image": "images/order-form-back-matter/image.png", "meta": "images/order-form-back-matter/meta.json" }
+  ]
+}

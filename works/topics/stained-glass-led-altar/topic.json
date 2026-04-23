@@ -1,0 +1,56 @@
+{
+  "id": "stained-glass-led-altar",
+  "slug": "stained-glass-led-altar",
+  "category": "illustration",
+  "style": [
+    "photorealism",
+    "cinematic"
+  ],
+  "capability": [
+    "fusion",
+    "structured-layout",
+    "physics-materials"
+  ],
+  "title": "Stained Glass LED Altar",
+  "short_title": "LED Altar",
+  "description": "A Prompt Atlas theme where triptych altar panels are rebuilt from LED matrix backlighting behind colored-glass cells, fusing medieval iconography with pixel-lit circuit devotion.",
+  "i18n": {
+    "en": {
+      "title": "Stained Glass LED Altar",
+      "short_title": "LED Altar",
+      "description": "A Prompt Atlas theme where triptych altar panels are rebuilt from LED matrix backlighting behind colored-glass cells, fusing medieval iconography with pixel-lit circuit devotion."
+    },
+    "zh-CN": {
+      "title": "彩色玻璃 LED 祭坛",
+      "short_title": "LED 祭坛",
+      "description": "三联祭坛画的彩色玻璃格点由 LED 矩阵背光驱动，融合中世纪圣像学与像素点亮的电路虔敬。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 25,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fusion",
+      "structured-layout",
+      "physics-materials"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-led-triptych-saints",
+      "type": "series",
+      "title": "LED Triptych Saints",
+      "path": "packages/series-led-triptych-saints/package.json"
+    },
+    {
+      "id": "single-led-altar-studies",
+      "type": "single",
+      "title": "LED Altar Studies",
+      "path": "packages/single-led-altar-studies/package.json"
+    }
+  ]
+}

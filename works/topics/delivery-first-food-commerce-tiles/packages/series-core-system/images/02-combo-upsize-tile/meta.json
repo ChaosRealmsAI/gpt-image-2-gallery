@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Preserve the same card geometry and high-key commerce lighting, but add one extra side or beverage cue to imply a bigger offer.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. Feature a main dish with one clearly visible add-on and organized packaging so the tile communicates a more substantial combo without crowding the frame.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-app-tile-anchor. The anchor hierarchy must remain intact: hero food first, support item second, abstract badges third. Keep everything crisp enough for mobile browsing.\n\nUse case:\nDelivery Tiles series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no readable promo text, no huge feast pile, no delivery driver props.",
+  "id": "02-combo-upsize-tile",
+  "title": "Combo Upsize Tile",
+  "description": "A combo-upsize card that keeps the reference tile system while emphasizing add-ons and value perception.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/02-combo-upsize-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-app-tile-anchor",
+        "meta_path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/01-app-tile-anchor/meta.json",
+        "image_path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/01-app-tile-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-app-tile-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Combo Upsize Tile",
+      "description": "A combo-upsize card that keeps the reference tile system while emphasizing add-ons and value perception."
+    },
+    "zh-CN": {
+      "title": "升级套餐卡片",
+      "description": "升级套餐卡片：外卖tiles主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A combo-upsize card that keeps the reference tile system while emphasizing add-ons and value perception.",
+      "zh-CN": "升级套餐卡片，用于外卖tiles主题。"
+    }
+  }
+}

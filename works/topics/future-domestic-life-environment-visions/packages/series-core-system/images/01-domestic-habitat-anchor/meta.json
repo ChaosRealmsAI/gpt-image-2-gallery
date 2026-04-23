@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square near-future domestic interior that feels photographed for an editorial concept spread rather than a sterile showroom. Light should feel natural and inhabitable, with enough softness to imply routine use while preserving product and spatial clarity. The framing should reveal both room layout and the material relationship between furniture, appliances, storage, and circulation. Frame a combined kitchen and living zone with morning light, adaptable counters, soft seating, and an organized entry shelf visible in the same square composition.\n\nSubject:\nCenter the image on a believable domestic system where appliances, furnishings, utilities, and personal habits have evolved slightly into the future without losing everyday realism. The space should feel occupied by real people with routines, maintenance, and storage needs, even if those people are only implied through objects and traces. Establish the reference domestic language through one coherent appliance family, modular cabinetry, quiet robotics, and everyday traces such as cups, produce, and folded textiles.\n\nImportant details:\nPrioritize near-future plausibility over flashy gimmicks. Small workflow clues, quiet automation, adaptable surfaces, and durable materials should explain how the room supports daily life. Use refined but grounded color, tactile surfaces, and careful object hierarchy so the results remain useful for brand inspiration and editorial concept work. The anchor image should define the palette, spatial density, and degree of futurism so later variants can stay within the same believable household world. Resolve the anchor rules that later reference-dependent variants must inherit, especially the cabinetry geometry, appliance language, soft material palette, and lived-in storage logic.\n\nUse case:\nFuture Domestic series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no luxury showroom emptiness, no perfect sterile sci-fi lab look, no floating hologram clutter, no unreadable brand marks, no empty luxury penthouse feel.",
+  "id": "01-domestic-habitat-anchor",
+  "title": "Domestic Habitat Anchor",
+  "description": "Domestic Habitat Anchor presents a kitchen-living hybrid anchor image establishing the packages near-future material and routine language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-domestic-life-environment-visions/packages/series-core-system/images/01-domestic-habitat-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Future Domestic core system.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Domestic Habitat Anchor",
+      "description": "Domestic Habitat Anchor presents a kitchen-living hybrid anchor image establishing the packages near-future material and routine language."
+    },
+    "zh-CN": {
+      "title": "Domestic Habitat Anchor",
+      "description": "未来日常主题中的Domestic Habitat Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Domestic Habitat Anchor presents a kitchen-living hybrid anchor image establishing the packages near-future material and routine language.",
+      "zh-CN": "未来日常主题中的Domestic Habitat Anchor图像。"
+    }
+  }
+}

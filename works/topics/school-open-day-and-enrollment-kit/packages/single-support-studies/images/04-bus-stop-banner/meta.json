@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square environmental mockup of a bus-stop lightbox featuring a school campaign visual, photographed at eye level in clean daytime conditions. The surroundings should remain minimal so the media surface and campus image stay dominant. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse one strong campus photo, blank headline space, a simple icon row, and a calm admissions hierarchy adapted for quick public viewing. The banner must feel professional, civic, and realistic for a school located in a neighborhood. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the composition concise and credible. The outdoor placement should expand the enrollment system into public communication without turning into a loud consumer-ad cliche. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nSchool Open Day and Enrollment Kit single study 4/5, bus stop banner.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no luxury-hotel exaggeration, no chaotic crowds, no celebrity faces, no fake brand signage.",
+  "id": "04-bus-stop-banner",
+  "title": "Bus Stop Banner",
+  "description": "An outdoor-media adaptation of the school enrollment campaign.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/single-support-studies/images/04-bus-stop-banner/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 4 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Bus Stop Banner",
+      "description": "An outdoor-media adaptation of the school enrollment campaign."
+    },
+    "zh-CN": {
+      "title": "公交站灯箱",
+      "description": "学校招生 campaign 的户外媒体改编研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An outdoor-media adaptation of the school enrollment campaign.",
+      "zh-CN": "学校招生 campaign 的户外媒体改编研究。"
+    }
+  }
+}

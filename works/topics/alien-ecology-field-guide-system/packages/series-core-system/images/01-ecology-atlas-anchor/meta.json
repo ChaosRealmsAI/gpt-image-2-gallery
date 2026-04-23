@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square field-guide plate for an alien ecosystem, mixing specimen staging, habitat fragments, and diagrammatic order into one clean composition. The image should feel like a premium scientific editorial board with careful spacing, controlled backgrounds, and enough environmental cues to imply a larger biosphere. Keep the camera or layout disciplined so the viewer can study relationships between species, organs, and habitat layers. Arrange a central habitat panel with specimen insets, root structures, glider organisms, and membrane pools all tied to one teal-violet wetland palette.\n\nSubject:\nCenter the image on a strange but internally patterned ecology: organisms, growth forms, spores, membranes, roots, shells, or flying bodies that clearly belong to the same world. Their silhouettes and textures should feel novel, yet their anatomical logic, habitat relationship, and life-cycle clues should read as coherent rather than random fantasy. Establish the reference guide language through one primary flora form, one mid-scale fauna type, one micro-detail window, and one habitat cross-section.\n\nImportant details:\nUse scientific realism without readable text. Unlabeled callout lines, scale markers, specimen windows, and sectional insets may appear, but the hierarchy must remain visual. Preserve a disciplined palette tied to one habitat so the package reads as a reusable guide system rather than a collection of unrelated creature paintings. The first image must define spacing, callout style, specimen framing, and the ecosystem color logic for the series. Resolve the anchor rules that later reference-dependent variants must inherit, especially the plate layout, habitat palette, anatomical callout grammar, and specimen scale cues.\n\nUse case:\nAlien Ecology series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no humanoid monsters, no fantasy dragons, no horror gore, no readable labels, no text labels, no museum taxidermy staging.",
+  "id": "01-ecology-atlas-anchor",
+  "title": "Ecology Atlas Anchor",
+  "description": "Ecology Atlas Anchor presents a field-guide anchor plate establishing one alien wetland biome and its specimen hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "scientific-realism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/alien-ecology-field-guide-system/packages/series-core-system/images/01-ecology-atlas-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Alien Ecology core system.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ecology Atlas Anchor",
+      "description": "Ecology Atlas Anchor presents a field-guide anchor plate establishing one alien wetland biome and its specimen hierarchy."
+    },
+    "zh-CN": {
+      "title": "Ecology Atlas Anchor",
+      "description": "异星生态主题中的Ecology Atlas Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Ecology Atlas Anchor presents a field-guide anchor plate establishing one alien wetland biome and its specimen hierarchy.",
+      "zh-CN": "异星生态主题中的Ecology Atlas Anchor图像。"
+    }
+  }
+}

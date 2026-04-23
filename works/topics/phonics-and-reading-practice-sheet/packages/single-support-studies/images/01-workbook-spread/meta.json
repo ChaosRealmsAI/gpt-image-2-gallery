@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square top-down view of an open literacy workbook on a pale oak desk, with rounded page corners, tidy binding, and crisp studio-classroom lighting. The spread should feel like a premium retail workbook preview, balanced between usability and polished presentation. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse two facing pages filled with picture-based phonics exercises, blank tracing lines, icon-led directions, and empty progress markers. Add a pencil, a soft eraser, and a few counters as supporting props, but keep the workbook pages dominant and highly legible. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nThe design must communicate developmental pacing through spacing, color-coded modules, and obvious response zones instead of real words. It should look like something a teacher would recognize as production-ready for young learners and parents alike. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nPhonics and Reading Practice Sheet single study 1/5, workbook spread.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no real letters, no logos, no teacher scribbles, no chaotic classroom mess, no broken magnets.",
+  "id": "01-workbook-spread",
+  "title": "Workbook Spread",
+  "description": "A literacy workbook spread adapting the worksheet language into a bound practice book.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/single-support-studies/images/01-workbook-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 1 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Workbook Spread",
+      "description": "A literacy workbook spread adapting the worksheet language into a bound practice book."
+    },
+    "zh-CN": {
+      "title": "练习册跨页",
+      "description": "把练习页视觉语言延展为装订练习册跨页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A literacy workbook spread adapting the worksheet language into a bound practice book.",
+      "zh-CN": "把练习页视觉语言延展为装订练习册跨页。"
+    }
+  }
+}

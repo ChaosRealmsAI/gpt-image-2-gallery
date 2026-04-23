@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Create a square dark-stage action image with crisp flash and a shallow glossy floor, keeping the overall mood scientific and severe. The background should stay deep black so the pale frozen fragments stand out with maximum clarity.\n\nSubject:\nShow a compact scoop or quenelle of sorbet impacting the surface and breaking into brittle shards, icy dust, and small faceted chunks. A little cold vapor should spread outward along the floor plane as the impact occurs. The fragments must remain clearly readable as sorbet, not generic ice.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. Focus on granular frozen texture, fracture edge sharpness, and how the impact converts a smooth scoop into angular crystalline debris. The scene should feel physically inevitable rather than stylized for spectacle.\n\nUse case:\nLiquid nitrogen frozen moment single study 5/9, testing brittle impact in frozen sorbet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no colorful sprinkles, no gelatin bounce look, no blurred motion.",
+  "id": "sorbet-impact-study",
+  "title": "Sorbet Impact Study",
+  "description": "A high-speed capture of frozen sorbet striking a cold surface and breaking into crystalline fragments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/single-support-studies/images/sorbet-impact-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sorbet Impact Study",
+      "description": "A high-speed capture of frozen sorbet striking a cold surface and breaking into crystalline fragments."
+    },
+    "zh-CN": {
+      "title": "Sorbet Impact Study",
+      "description": "A high-speed capture of frozen sorbet striking a cold surface and breaking into crystalline fragments."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A frozen sorbet scoop shattering into crisp crystalline fragments on a dark stage.",
+      "zh-CN": "A frozen sorbet scoop shattering into crisp crystalline fragments on a dark stage."
+    }
+  }
+}

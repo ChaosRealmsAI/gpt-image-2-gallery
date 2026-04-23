@@ -1,0 +1,47 @@
+{
+  "id": "team-brand-and-fan-social-rollout",
+  "slug": "team-brand-and-fan-social-rollout",
+  "title": "Team Brand and Fan Social Rollout",
+  "short_title": "Team Rollout",
+  "description": "Build team-brand social rollouts around fan identity, rivalry, and merchandise-ready visual energy.",
+  "i18n": {
+    "en": {
+      "title": "Team Brand and Fan Social Rollout",
+      "short_title": "Team Rollout",
+      "description": "Build team-brand social rollouts around fan identity, rivalry, and merchandise-ready visual energy."
+    },
+    "zh-CN": {
+      "title": "球队品牌与球迷社媒 rollout",
+      "short_title": "球队rollout",
+      "description": "做球队品牌与球迷社媒 rollout，强调 fan identity 和 rivalry。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "social-feed",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-fan-energy-system",
+      "type": "series",
+      "title": "Fan Energy System",
+      "path": "packages/series-fan-energy-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Rollout Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

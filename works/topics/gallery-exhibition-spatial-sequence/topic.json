@@ -1,0 +1,47 @@
+{
+  "id": "gallery-exhibition-spatial-sequence",
+  "slug": "gallery-exhibition-spatial-sequence",
+  "title": "Gallery Exhibition Spatial Sequence",
+  "short_title": "Gallery Sequence",
+  "description": "Build gallery and exhibition-space sequences with wall text, pacing, and spatial rhythm rather than generic white rooms.",
+  "i18n": {
+    "en": {
+      "title": "Gallery Exhibition Spatial Sequence",
+      "short_title": "Gallery Sequence",
+      "description": "Build gallery and exhibition-space sequences with wall text, pacing, and spatial rhythm rather than generic white rooms."
+    },
+    "zh-CN": {
+      "title": "画廊展陈空间序列",
+      "short_title": "展陈空间",
+      "description": "做画廊展陈空间序列，强调墙面文字、动线和留白节奏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 890,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Exhibition Sequence Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Exhibition Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

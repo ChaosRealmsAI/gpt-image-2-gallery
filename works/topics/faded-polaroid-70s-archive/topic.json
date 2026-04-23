@@ -1,0 +1,50 @@
+{
+  "id": "faded-polaroid-70s-archive",
+  "slug": "faded-polaroid-70s-archive",
+  "category": "photography",
+  "style": [
+    "retro",
+    "photorealism"
+  ],
+  "capability": [
+    "photorealism",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "title": "Faded Polaroid 70s Archive",
+  "short_title": "Faded Polaroid 70s",
+  "description": "Neo-retro archive mood — sun-bleached 70s instant-film squares with thick white borders, handwritten ballpoint captions, chemistry color shift, and tape marks, photographed at modern sensor precision.",
+  "i18n": {
+    "en": {
+      "title": "Faded Polaroid 70s Archive",
+      "short_title": "Faded Polaroid 70s",
+      "description": "Neo-retro archive mood — sun-bleached 70s instant-film squares with thick white borders, handwritten ballpoint captions, chemistry color shift, and tape marks, photographed at modern sensor precision."
+    },
+    "zh-CN": {
+      "title": "70 年代褪色宝丽来档案",
+      "short_title": "褪色宝丽来",
+      "description": "新复古档案氛围 · 日晒褪色的 70 年代即显胶片方形照片 · 厚白边 · 圆珠笔手写标注 · 化学色偏 · 胶带痕迹 · 以现代传感器精度重拍。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-polaroid-archive-studies",
+      "type": "single",
+      "title": "Polaroid Archive Studies",
+      "path": "packages/single-polaroid-archive-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square brunch tabletop image with layered tableware, generous daylight, and a sense of weekend abundance that still feels organized enough for real hospitality and publishing use. The scene should balance multiple objects without losing the hero focal point, making table choreography and dish relationships a core part of the image. Use natural weekend daylight from the side, with a large table partially visible in square crop and soft shadows that keep the surface lively and dimensional.\n\nSubject:\nThe food must look fresh, warm, and genuinely shareable: eggs, breads, fruit, spreads, juices, and plated brunch mains should feel cooked and plated for service, not arranged as fake prop food. Center one hero brunch plate surrounded by secondary glasses, bread, and fruit cues that suggest a shareable table without turning the frame into a buffet.\n\nImportant details:\nTable logic matters. Plates, glasses, linens, and serving utensils need believable spacing, overlap, and hierarchy so the image can support menus, social assets, and campaign layouts. Make the abundance feel intentional rather than chaotic, with appetizing textures and natural daylight carrying the mood. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This image must establish the brunch system for the series: mixed ceramics, warm bread texture, polished cutlery restraint, and easy but intentional weekend hospitality.\n\nUse case:\nBrunch Tabletop series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no buffet chaos, no greasy diner styling unless specifically implied, no visible phone screens, no plastic takeaway packaging, no fake stock-family posing, no unreadable signage, no crowded people, no buffet hotel trays, no greasy fast-food look.",
+  "id": "01-weekend-table-anchor",
+  "title": "Weekend Table Anchor",
+  "description": "A bright brunch hero that establishes the full tabletop system with layered plates, juice, linen, and one central brunch dish.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/01-weekend-table-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Weekend Table Anchor",
+      "description": "A bright brunch hero that establishes the full tabletop system with layered plates, juice, linen, and one central brunch dish."
+    },
+    "zh-CN": {
+      "title": "周末餐桌锚点",
+      "description": "周末餐桌锚点：早餐桌面主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A bright brunch hero that establishes the full tabletop system with layered plates, juice, linen, and one central brunch dish.",
+      "zh-CN": "周末餐桌锚点，用于早餐桌面主题。"
+    }
+  }
+}

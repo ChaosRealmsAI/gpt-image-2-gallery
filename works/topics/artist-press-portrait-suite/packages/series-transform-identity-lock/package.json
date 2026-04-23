@@ -1,0 +1,109 @@
+{
+  "id": "series-transform-identity-lock",
+  "type": "series",
+  "title": "Identity-Locked Transformation Sequence",
+  "description": "A nine-image identity-locked portrait sequence for Artist Press Portrait Suite: one reference frame followed by eight dependent variations that preserve the same subject while changing lighting, scene, styling, or mood.",
+  "creative_direction": "Image 01 is the required identity reference for Artist Press Portrait Suite. Images 02-09 must all depend on that reference and preserve the same face, hair base, skin-tone family, and body proportions while exploring the media-use, styling, and mood range suggested by the backlog brief.",
+  "cover_image": "images/01-reference-identity-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-identity-sheet/meta.json",
+      "images/02-press-hero-portrait/meta.json",
+      "images/03-interview-three-quarter/meta.json",
+      "images/04-monochrome-close-crop/meta.json",
+      "images/05-cover-crop-portrait/meta.json",
+      "images/06-prop-supported-editorial/meta.json",
+      "images/07-lighting-mood-shift/meta.json",
+      "images/08-off-duty-candid-portrait/meta.json",
+      "images/09-campaign-finale-portrait/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-identity-sheet first. Use its runtime result URL as --ref for 02-press-hero-portrait, 03-interview-three-quarter, 04-monochrome-close-crop, 05-cover-crop-portrait, 06-prop-supported-editorial, 07-lighting-mood-shift, 08-off-duty-candid-portrait, 09-campaign-finale-portrait. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Transformation Sequence",
+      "description": "A nine-image identity-locked portrait sequence for Artist Press Portrait Suite that turns one stable subject into a usable publicity, editorial, or transformation system."
+    },
+    "zh-CN": {
+      "title": "锁脸变体系列",
+      "description": "围绕 艺人宣传照套组 生成 1 张身份基准图加 8 张依赖变体，始终保持同一人物身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition",
+      "editing-workflow",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-identity-sheet",
+      "title": "Reference Identity Sheet",
+      "image": "images/01-reference-identity-sheet/image.png",
+      "meta": "images/01-reference-identity-sheet/meta.json"
+    },
+    {
+      "id": "02-press-hero-portrait",
+      "title": "Press Hero Portrait",
+      "image": "images/02-press-hero-portrait/image.png",
+      "meta": "images/02-press-hero-portrait/meta.json"
+    },
+    {
+      "id": "03-interview-three-quarter",
+      "title": "Interview Three-Quarter",
+      "image": "images/03-interview-three-quarter/image.png",
+      "meta": "images/03-interview-three-quarter/meta.json"
+    },
+    {
+      "id": "04-monochrome-close-crop",
+      "title": "Monochrome Close Crop",
+      "image": "images/04-monochrome-close-crop/image.png",
+      "meta": "images/04-monochrome-close-crop/meta.json"
+    },
+    {
+      "id": "05-cover-crop-portrait",
+      "title": "Cover Crop Portrait",
+      "image": "images/05-cover-crop-portrait/image.png",
+      "meta": "images/05-cover-crop-portrait/meta.json"
+    },
+    {
+      "id": "06-prop-supported-editorial",
+      "title": "Prop-Supported Editorial",
+      "image": "images/06-prop-supported-editorial/image.png",
+      "meta": "images/06-prop-supported-editorial/meta.json"
+    },
+    {
+      "id": "07-lighting-mood-shift",
+      "title": "Lighting Mood Shift",
+      "image": "images/07-lighting-mood-shift/image.png",
+      "meta": "images/07-lighting-mood-shift/meta.json"
+    },
+    {
+      "id": "08-off-duty-candid-portrait",
+      "title": "Off-Duty Candid Portrait",
+      "image": "images/08-off-duty-candid-portrait/image.png",
+      "meta": "images/08-off-duty-candid-portrait/meta.json"
+    },
+    {
+      "id": "09-campaign-finale-portrait",
+      "title": "Campaign Finale Portrait",
+      "image": "images/09-campaign-finale-portrait/image.png",
+      "meta": "images/09-campaign-finale-portrait/meta.json"
+    }
+  ]
+}

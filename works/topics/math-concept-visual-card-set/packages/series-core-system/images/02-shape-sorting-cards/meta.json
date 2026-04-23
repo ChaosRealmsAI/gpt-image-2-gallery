@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the identical square overhead product-shot setup, card scale, and tactile lighting from the reference board. The composition should read as the next approved module in the same math deck, with equal margins, matching paper finish, and the same calm classroom-commercial mood. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nReplace the counting focus with shape logic using circles, triangles, rectangles, hexagons, and composite forms sorted into clear comparison zones. Include blank label spaces, grouping trays, and visual cues for matching, rotating, and classifying without ever relying on text. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the same reference layout rules exactly, including border thickness, diagram density, spacing, and color-coding hierarchy. Variation should come from the logic tasks and silhouette contrasts, while the deck still feels manufacturable as one unified product family. Preserve the same card format, diagram density, block spacing, icon size, and color-coding hierarchy from the reference math board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nMath Concept Visual Card Set series study 2/4, shape sorting cards.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable equations, no numerals, no logos, no abstract adult infographic styling, no clutter, no warped cards.",
+  "id": "02-shape-sorting-cards",
+  "title": "Shape Sorting Cards",
+  "description": "A shape-sorting variation that preserves the same mathematical card system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/02-shape-sorting-cards/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-counting-cards",
+        "meta_path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/01-reference-counting-cards/meta.json",
+        "image_path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/01-reference-counting-cards/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-counting-cards.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Shape Sorting Cards",
+      "description": "A shape-sorting variation that preserves the same mathematical card system."
+    },
+    "zh-CN": {
+      "title": "图形分类卡",
+      "description": "在同一数学卡系统内切换为图形分类主题的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A shape-sorting variation that preserves the same mathematical card system.",
+      "zh-CN": "在同一数学卡系统内切换为图形分类主题的变体。"
+    }
+  }
+}

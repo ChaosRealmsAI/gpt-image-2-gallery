@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square concept board for one biomechanical entity, balancing orthographic clarity, material close-ups, and enough dramatic lighting to feel like a finished poster. The layout should feel structured, with a dominant hero view supported by sections, parts, or alternate poses rather than scattered fragments. Compose the same board around a restrained maintenance setting with opened service plates, soft examination light, and tissue-meets-machine access points.\n\nSubject:\nCenter the image on a coherent organism-machine fusion where anatomy, exoskeletal plating, powered joints, sensors, and functional appendages belong to one design family. The being should feel purposeful, with visible load paths, movement logic, and enough biological cues to avoid looking like a plain robot. Keep the base silhouette intact while making repair logic, modular organs, cable bundles, and regenerative material interfaces more explicit.\n\nImportant details:\nControl noise aggressively. Use clear mass hierarchy, disciplined materials, and selective cross-section or inset views to explain how organic tissue and mechanical systems cooperate. The board should remain commercially useful for design review, poster, or worldbuilding deck surfaces. The tone should feel technical and compassionate rather than gruesome, using careful cutaway logic instead of exposed violence. Preserve the exact structural language established by the reference image, especially the torso silhouette, joint language, plated musculature, and board hierarchy.\n\nUse case:\nBiomech Board series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore splatter, no random wires everywhere, no superhero costume cues, no readable labels, no surgery gore.",
+  "id": "03-medical-repair-access",
+  "title": "Medical Repair Access",
+  "description": "Medical Repair Access presents the reference biomechanical entity shown in a clinical maintenance and healing state.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/03-medical-repair-access/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sentinel-frame-anchor",
+        "meta_path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/01-sentinel-frame-anchor/meta.json",
+        "image_path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/01-sentinel-frame-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Biomech Board core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Medical Repair Access",
+      "description": "Medical Repair Access presents the reference biomechanical entity shown in a clinical maintenance and healing state."
+    },
+    "zh-CN": {
+      "title": "Medical Repair Access",
+      "description": "生物机械主题中的Medical Repair Access图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Medical Repair Access presents the reference biomechanical entity shown in a clinical maintenance and healing state.",
+      "zh-CN": "生物机械主题中的Medical Repair Access图像。"
+    }
+  }
+}

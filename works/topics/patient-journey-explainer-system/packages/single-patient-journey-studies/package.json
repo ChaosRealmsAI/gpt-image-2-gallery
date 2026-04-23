@@ -1,0 +1,88 @@
+{
+  "id": "single-patient-journey-studies",
+  "type": "single",
+  "title": "Patient Journey Studies",
+  "description": "Nine independent studies for Patient Journey Explainer System, each translating the theme into a concrete healthcare communication surface or asset.",
+  "creative_direction": "Nine independent explainers translate care journeys into maps, checklists, touchpoint boards, and comfort-oriented process visuals that could work across web, print, and clinic screens.",
+  "cover_image": "images/first-visit-pathway-map/image.png",
+  "i18n": {
+    "en": {
+      "title": "Patient Journey Studies",
+      "description": "Nine independent studies for Patient Journey Explainer System, each translating the theme into a concrete healthcare communication surface or asset."
+    },
+    "zh-CN": {
+      "title": "患者旅程研究",
+      "description": "围绕患者旅程说明系统生成九张彼此独立的研究图，每张对应真实医疗传播中的一种交付面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "first-visit-pathway-map",
+      "title": "First Visit Pathway Map",
+      "image": "images/first-visit-pathway-map/image.png",
+      "meta": "images/first-visit-pathway-map/meta.json"
+    },
+    {
+      "id": "diagnostic-day-sequence",
+      "title": "Diagnostic Day Sequence",
+      "image": "images/diagnostic-day-sequence/image.png",
+      "meta": "images/diagnostic-day-sequence/meta.json"
+    },
+    {
+      "id": "surgery-prep-checklist-board",
+      "title": "Surgery Prep Checklist Board",
+      "image": "images/surgery-prep-checklist-board/image.png",
+      "meta": "images/surgery-prep-checklist-board/meta.json"
+    },
+    {
+      "id": "discharge-and-homecare-flow",
+      "title": "Discharge and Homecare Flow",
+      "image": "images/discharge-and-homecare-flow/image.png",
+      "meta": "images/discharge-and-homecare-flow/meta.json"
+    },
+    {
+      "id": "rehab-milestone-card-set",
+      "title": "Rehab Milestone Card Set",
+      "image": "images/rehab-milestone-card-set/image.png",
+      "meta": "images/rehab-milestone-card-set/meta.json"
+    },
+    {
+      "id": "pediatric-visit-comfort-guide",
+      "title": "Pediatric Visit Comfort Guide",
+      "image": "images/pediatric-visit-comfort-guide/image.png",
+      "meta": "images/pediatric-visit-comfort-guide/meta.json"
+    },
+    {
+      "id": "maternity-care-journey-wheel",
+      "title": "Maternity Care Journey Wheel",
+      "image": "images/maternity-care-journey-wheel/image.png",
+      "meta": "images/maternity-care-journey-wheel/meta.json"
+    },
+    {
+      "id": "chronic-care-touchpoint-map",
+      "title": "Chronic Care Touchpoint Map",
+      "image": "images/chronic-care-touchpoint-map/image.png",
+      "meta": "images/chronic-care-touchpoint-map/meta.json"
+    },
+    {
+      "id": "omnichannel-care-board",
+      "title": "Omnichannel Care Board",
+      "image": "images/omnichannel-care-board/image.png",
+      "meta": "images/omnichannel-care-board/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square comparison setup with repeated product fragments under identical light and strict alignment across finish variants. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter one original industrial form repeated in several finish executions with disciplined color and reflectance differences. Make the subject feel original, production-aware, and clearly grounded in Industrial Material Finish Study Board. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse comparison logic, not spectacle. The interest should come from subtle but meaningful changes in finish behavior and tactile implication. The visual language should still feel native to Industrial Material Finish Study Board, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMaterial Study single study 8/9 for Industrial Material Finish Study Board, built as image support-four.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no decorative lifestyle props, no fantasy texture, no chaotic palettes, no distressed damage.",
+  "id": "support-four",
+  "title": "Finish Comparison Pillar",
+  "description": "A comparison image showing one industrial form in multiple finish executions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "micro-texture",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-material-finish-study-board/packages/single-support-studies/images/support-four/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Finish Comparison Pillar",
+      "description": "A comparison image showing one industrial form in multiple finish executions."
+    },
+    "zh-CN": {
+      "title": "finish 对比柱",
+      "description": "展示同一工业形体在多种 finish 执行下的对比图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "micro-texture",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A comparison study of multiple original industrial finish executions.",
+      "zh-CN": "多种原创工业 finish 执行方式的对比研究图。"
+    }
+  }
+}

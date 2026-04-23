@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square brand presentation, campus photography tone, and print realism established by the reference poster, but shift the asset into a prospectus-cover mockup resting on a reception desk. The composition should feel like the next approved deliverable in one admissions toolkit. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a neatly printed brochure cover with one strong campus image, blank title bars, simple icon clusters, and edge details that feel premium but practical. The school environment and warm welcome cues should remain central, even though the asset is now a handheld printed piece. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the reference system exactly: the same color family, admissions mood, photo treatment, and modular panel rhythm. Variation should come from scale and deliverable format, not from a new visual language. Preserve the same campus color system, photography tone, panel hierarchy, family-friendly admissions mood, and blank information-band rhythm from the reference asset. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nSchool Open Day and Enrollment Kit series study 2/4, prospectus cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no celebrity faces, no unrealistic campus luxury, no crowded chaos, no distorted architecture.",
+  "id": "02-prospectus-cover",
+  "title": "Prospectus Cover",
+  "description": "A prospectus-cover variation that preserves the same enrollment identity system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/02-prospectus-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-open-day-poster",
+        "meta_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/meta.json",
+        "image_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-open-day-poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Prospectus Cover",
+      "description": "A prospectus-cover variation that preserves the same enrollment identity system."
+    },
+    "zh-CN": {
+      "title": "招生手册封面",
+      "description": "保持同一招生识别系统的手册封面变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A prospectus-cover variation that preserves the same enrollment identity system.",
+      "zh-CN": "保持同一招生识别系统的手册封面变体。"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format 90s direct-flash snapshot looking down the length of an empty community pool toward a vending machine alcove recessed into the far wall, taken at standing eye level. The near deck is dark; the alcove glows as the only ambient light source, its fluorescent interior bathing the adjacent tile in cold blue. Flash hits the near floor and fades over the distance. Visible grain, slight magenta cast.\n\nSubject:\nIn the foreground, the empty four-lane basin bottom curves away downward, dry and painted with depth markings. In the middle distance, the wall tile turns the corner into a small recessed alcove containing one cold-drink vending machine, one snack vending machine, and a trash bin. The drink machine's front panel glows internally with a pale cyan light behind abstracted, unreadable product mockups. No person in the alcove.\n\nImportant details:\nThe alcove must read as 'open 24 hours in a place that is closed'. Vending machine panels should not display any real brand or readable product names — use blurred solid color blocks in place of labels. Maintain strong depth layering from dark foreground basin, through mid-field deck, to brightly lit alcove. No person. No reflections of a photographer on machine glass. Keep flash character consumer-snapshot, not studio.\n\nUse case:\nEmpty Pool single study 4/5, deep-space study of a lit vending alcove across an empty basin.\n\nConstraints:\nNo readable text, no watermark, no logos, no visible brand names, preserve exact 1:1 aspect ratio, no person, no reflection of photographer in glass, no cinematic grade.",
+  "id": "vending-alcove",
+  "title": "Vending Alcove at Pool End",
+  "description": "A lit vending alcove at the far wall of an empty community pool under direct flash.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/single-empty-pool-studies/images/vending-alcove/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the empty-pool theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Vending Alcove at Pool End",
+      "description": "A lit vending alcove at the far wall of an empty community pool under direct flash."
+    },
+    "zh-CN": {
+      "title": "泳池尽头的自动贩卖凹龛",
+      "description": "空泳池尽头墙龛里亮着的自动贩卖机,在直闪中保留昏暗前景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "Across an empty pool, a small vending alcove glows cold blue.",
+      "zh-CN": "隔着空泳池,远处的自动贩卖凹龛泛出冷蓝光。"
+    }
+  }
+}

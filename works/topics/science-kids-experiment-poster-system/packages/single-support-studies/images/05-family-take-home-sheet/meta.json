@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial mockup of a family take-home sheet clipped to a board with a few experiment supplies and a pencil nearby. The composition should look like a polished parent-resource cover image from a school or after-school science program. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nThe sheet should show a home-safe experiment sequence through pictures, material clusters, and simple progress blocks, with large blank regions where instructions could later be typeset. Everything should feel friendly enough for families and structured enough for formal programs. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nUse calm colors, clear modular spacing, and obvious visual hierarchy. The image should prove that the science poster system can stretch beyond classroom walls into home-learning communication. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nScience Kids Experiment Poster System single study 5/5, family take-home sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no brand logos, no unsafe flames, no dangerous chemicals, no crowded lab realism, no cluttered props.",
+  "id": "05-family-take-home-sheet",
+  "title": "Family Take-Home Sheet",
+  "description": "A parent-facing take-home experiment sheet with icons, supply visuals, and blank note areas.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/science-kids-experiment-poster-system/packages/single-support-studies/images/05-family-take-home-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 5 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Take-Home Sheet",
+      "description": "A parent-facing take-home experiment sheet with icons, supply visuals, and blank note areas."
+    },
+    "zh-CN": {
+      "title": "家庭带回页",
+      "description": "带有图标、材料图和空白备注区的家长向实验带回页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A parent-facing take-home experiment sheet with icons, supply visuals, and blank note areas.",
+      "zh-CN": "带有图标、材料图和空白备注区的家长向实验带回页。"
+    }
+  }
+}

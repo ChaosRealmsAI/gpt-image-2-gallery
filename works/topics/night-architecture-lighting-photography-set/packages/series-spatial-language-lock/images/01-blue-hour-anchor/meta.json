@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Night Architecture Lighting Photography Set. Use a square blue-hour hero view with the full building reflected in wet paving or water and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so facade lighting, reflections, and civic nighttime atmosphere feel immediate, using deep blue-black night, warm gold light, cool silver reflections, and restrained amber interior spill as the governing tonal range. The composition must read as a high-end commercial image that could sit inside hospitality night campaigns, architecture editorials, lighting-design decks, and city-brand presentations.\n\nSubject:\nShow a night-architecture photography subject with layered facade lighting, wet pavement reflections, atmospheric civic calm, controlled interior glow, and a clearly recognizable silhouette. Center the project’s overall night identity, facade glow hierarchy, and calm civic setting. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the building silhouette, lighting hierarchy, reflection logic, civic atmosphere, and disciplined night-photography realism. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nNight Architecture Lighting Photography Set series study 1/9, establishing the canonical night-photography identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fireworks, no traffic light streak overload, no readable signage, no festival screens, no people crowding the foreground, no giant moon effect.",
+  "id": "01-blue-hour-anchor",
+  "title": "Blue Hour Anchor",
+  "description": "A reference-setting architectural still for night architecture that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "cinematic",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/01-blue-hour-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Blue Hour Anchor",
+      "description": "A reference-setting architectural still for night architecture that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "蓝调时刻锚点",
+      "description": "围绕建筑夜景的蓝调时刻锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Blue Hour Anchor for Night Architecture Lighting Photography Set.",
+      "zh-CN": "建筑夜景主题中的蓝调时刻锚点。"
+    }
+  }
+}

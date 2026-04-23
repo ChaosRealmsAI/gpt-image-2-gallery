@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Atlas Board Series",
+  "description": "Four reference-linked pastry boards documenting internal structure with consistent catalog rigor.",
+  "creative_direction": "Image 01 establishes the neutral background, specimen spacing, and cut-face lighting. Images 02-04 preserve that atlas board system while swapping pastry families from laminated dough to choux and glazed entremets.",
+  "cover_image": "images/01-atlas-board-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-atlas-board-anchor/meta.json",
+      "images/02-laminated-quartet/meta.json",
+      "images/03-choux-cavity-grid/meta.json",
+      "images/04-entremet-geometry-board/meta.json"
+    ],
+    "ref_strategy": "Run 01-atlas-board-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Atlas Board Series",
+      "description": "Four reference-linked pastry boards documenting internal structure with consistent catalog rigor."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "点心图鉴相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-atlas-board-anchor",
+      "title": "Atlas Board Anchor",
+      "image": "images/01-atlas-board-anchor/image.png",
+      "meta": "images/01-atlas-board-anchor/meta.json"
+    },
+    {
+      "id": "02-laminated-quartet",
+      "title": "Laminated Quartet",
+      "image": "images/02-laminated-quartet/image.png",
+      "meta": "images/02-laminated-quartet/meta.json"
+    },
+    {
+      "id": "03-choux-cavity-grid",
+      "title": "Choux Cavity Grid",
+      "image": "images/03-choux-cavity-grid/image.png",
+      "meta": "images/03-choux-cavity-grid/meta.json"
+    },
+    {
+      "id": "04-entremet-geometry-board",
+      "title": "Entremet Geometry Board",
+      "image": "images/04-entremet-geometry-board/image.png",
+      "meta": "images/04-entremet-geometry-board/meta.json"
+    }
+  ]
+}

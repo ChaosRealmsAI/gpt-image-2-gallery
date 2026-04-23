@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Living Culture Studies",
+  "description": "Five independent fermentation studies extending the archival atlas into cheese, sourdough, preserved citrus, koji, and vinegar mother.",
+  "creative_direction": "These singles widen the biological atlas beyond jars into wheels, crocks, trays, and dense microbial membranes while keeping natural-history realism.",
+  "cover_image": "images/cheese-cave-wheel-core/image.png",
+  "i18n": {
+    "en": {
+      "title": "Living Culture Studies",
+      "description": "Five independent fermentation studies extending the archival atlas into cheese, sourdough, preserved citrus, koji, and vinegar mother."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "发酵图鉴相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ]
+  },
+  "images": [
+    {
+      "id": "cheese-cave-wheel-core",
+      "title": "Cheese Cave Wheel Core",
+      "image": "images/cheese-cave-wheel-core/image.png",
+      "meta": "images/cheese-cave-wheel-core/meta.json"
+    },
+    {
+      "id": "sourdough-starter-bloom",
+      "title": "Sourdough Starter Bloom",
+      "image": "images/sourdough-starter-bloom/image.png",
+      "meta": "images/sourdough-starter-bloom/meta.json"
+    },
+    {
+      "id": "pickled-citrus-amber-jar",
+      "title": "Pickled Citrus Amber Jar",
+      "image": "images/pickled-citrus-amber-jar/image.png",
+      "meta": "images/pickled-citrus-amber-jar/meta.json"
+    },
+    {
+      "id": "koji-rice-topography",
+      "title": "Koji Rice Topography",
+      "image": "images/koji-rice-topography/image.png",
+      "meta": "images/koji-rice-topography/meta.json"
+    },
+    {
+      "id": "vinegar-mother-medallion",
+      "title": "Vinegar Mother Medallion",
+      "image": "images/vinegar-mother-medallion/image.png",
+      "meta": "images/vinegar-mother-medallion/meta.json"
+    }
+  ]
+}

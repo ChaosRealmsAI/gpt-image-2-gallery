@@ -1,0 +1,52 @@
+{
+  "id": "christmas-retail-gifting-campaign",
+  "slug": "christmas-retail-gifting-campaign",
+  "capability": [
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "title": "Christmas Retail Gifting Campaign",
+  "short_title": "Christmas Retail",
+  "description": "Create Christmas retail gifting campaigns with wrapping cues, warm light, and high-conversion seasonal merchandising.",
+  "i18n": {
+    "en": {
+      "title": "Christmas Retail Gifting Campaign",
+      "short_title": "Christmas Retail",
+      "description": "Create Christmas retail gifting campaigns with wrapping cues, warm light, and high-conversion seasonal merchandising."
+    },
+    "zh-CN": {
+      "title": "圣诞零售礼赠 campaign",
+      "short_title": "圣诞礼赠",
+      "description": "做圣诞零售礼赠 campaign，强调包装、暖光和节日 retail merchandising。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 410,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-gifting-rollout",
+      "type": "series",
+      "title": "Gifting Rollout Series",
+      "path": "packages/series-gifting-rollout/package.json"
+    },
+    {
+      "id": "single-retail-support-studies",
+      "type": "single",
+      "title": "Retail Support Studies",
+      "path": "packages/single-retail-support-studies/package.json"
+    }
+  ]
+}

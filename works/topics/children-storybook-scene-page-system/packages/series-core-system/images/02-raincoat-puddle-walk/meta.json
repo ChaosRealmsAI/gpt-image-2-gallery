@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square open-book presentation, page framing, painted texture, and gutter proportions from the reference spread, but move the story into a rainy outdoor walk under silver morning light. The image should look like the next page of the same published picture book, not a separate illustration style. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow the same child and fox companion in rain gear splashing through puddles beside low houses, umbrellas, and reflective sidewalks. Their faces, body scale, and core visual identity must remain identical to the bedtime spread, even though the environment, weather, and motion become more active. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the same brush behavior, color-family logic, and page design system from the reference image. Let change come through weather, movement, and environmental storytelling, while the relationship and illustration language remain stable enough for seamless page-turn continuity. Preserve the same child protagonist, fox companion, brush texture, page framing, color family, and storybook page proportions from the reference spread. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nChildren Storybook Scene Page System series study 2/4, raincoat puddle walk.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable story text, no logos, no celebrity resemblance, no harsh horror mood, no hyper-detailed realism, no extra main characters replacing the leads.",
+  "id": "02-raincoat-puddle-walk",
+  "title": "Raincoat Puddle Walk",
+  "description": "A rainy outdoor spread that preserves the same storybook characters and painted page system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/02-raincoat-puddle-walk/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bedtime-spread",
+        "meta_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/meta.json",
+        "image_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-bedtime-spread.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Raincoat Puddle Walk",
+      "description": "A rainy outdoor spread that preserves the same storybook characters and painted page system."
+    },
+    "zh-CN": {
+      "title": "雨衣水坑散步",
+      "description": "保持同一绘本角色和页面系统的雨天外出跨页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A rainy outdoor spread that preserves the same storybook characters and painted page system.",
+      "zh-CN": "保持同一绘本角色和页面系统的雨天外出跨页。"
+    }
+  }
+}

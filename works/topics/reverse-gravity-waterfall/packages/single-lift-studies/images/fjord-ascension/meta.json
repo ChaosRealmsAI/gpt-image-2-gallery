@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at early morning with a 35mm full-frame camera, positioned on a fjord cliff. Wet Nordic atmosphere, low cloud ceiling hanging just above the 1000-meter cliff tops, diffuse overcast light tinted cold grey-green.\n\nSubject:\nA fjord where a traditional waterfall used to fall from the cliff edge is now completely inverted: the river above the cliff turns and rises as a 200-meter column straight into the low clouds. At the base, water arrives from the fjord surface and climbs the cliff face, leaving wet streaks on the dark granite. A lone fishing trawler sits directly beneath, its deck workers visibly staring upward.\n\nImportant details:\nCold oceanic palette: slate green water, black-grey granite, white mist. Wet cliff surfaces have believable water paths showing the reverse flow. The trawler has realistic proportion against a 1000-meter cliff — a toy on the water. Seabirds circle the base of the rising column. Atmospheric moisture softens distant cliffs into pale silhouettes.\n\nUse case:\nLift-studies single 1/5 — reverse-gravity event in a Nordic fjord.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cruise ships with branding, no oil platforms, no cartoon, no fantasy creatures.",
+  "id": "fjord-ascension",
+  "title": "Fjord Ascension",
+  "description": "A Nordic fjord where the waterfall has inverted, climbing 200m into a low cloud ceiling.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/single-lift-studies/images/fjord-ascension/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — fjord reverse-gravity study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fjord Ascension",
+      "description": "A Nordic fjord where the waterfall has inverted, climbing 200m into a low cloud ceiling."
+    },
+    "zh-CN": {
+      "title": "峡湾升腾",
+      "description": "北欧峡湾中瀑布反向升腾 200 米 · 直冲低云。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A fjord where the river climbs 200m up the cliff into a low cloud ceiling.",
+      "zh-CN": "峡湾中河水沿悬崖反向上升 200 米入低云。"
+    }
+  }
+}

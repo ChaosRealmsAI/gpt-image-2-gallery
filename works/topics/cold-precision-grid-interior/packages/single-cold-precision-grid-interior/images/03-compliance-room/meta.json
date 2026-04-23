@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Construct a compliance review room with modular desks, rolling task chairs, file trays, and frosted partitions arranged in perfect lanes.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. Two people stand at opposite ends of the room reviewing screens, their separation reinforcing the procedural atmosphere.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. Let the frosted glass, aluminum edges, and muted amber light make the space feel monitored and exact.\n\nUse case:\nCold Precision Grid Interior single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "03-compliance-room",
+  "title": "Compliance Room",
+  "description": "A procedural office room where partition lanes and restrained light create a careful forensic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/03-compliance-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on compliance room.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Compliance Room",
+      "description": "A procedural office room where partition lanes and restrained light create a careful forensic atmosphere."
+    },
+    "zh-CN": {
+      "title": "Compliance Room",
+      "description": "围绕冷精准的第3张独立研究图，聚焦 Compliance Room。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A muted office room with frosted partitions, aligned desks, and two distant figures reviewing screens.",
+      "zh-CN": "冷精准主题图：Compliance Room。"
+    }
+  }
+}

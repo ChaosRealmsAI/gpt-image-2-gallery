@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCompose a square restaurant editorial food photograph with a controlled three-quarter camera angle, tactile linen, brushed metal cutlery used sparingly at the edge of frame, and lighting that feels like a real dining room service captured by a magazine photographer. Keep the tonal range warm, dimensional, and refined, with enough negative space around the plate for the image to function as a hero asset rather than a crowded snapshot. Keep the same table height, lens feel, and restaurant lighting while cooling the palette slightly through pearl glaze, pale greens, and a faint reflection in the sauce.\n\nSubject:\nThe food must read as a true signature dish developed by a serious kitchen: precise portions, believable sauce behavior, carefully considered garnish, and a table context that suggests a coherent restaurant identity instead of generic luxury styling. Show a butter-poached halibut portion resting over spring vegetables with translucent onion petals and a velvety shellfish emulsion.\n\nImportant details:\nRestaurant credibility matters more than spectacle. Preserve appetizing moisture, plausible ingredient hierarchy, and disciplined prop styling. Every crumb, herb leaf, ceramic reflection, and fold in the table linen should support the editorial story while keeping the dish unmistakably central. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-chef-table-anchor. Preserve the exact tabletop scale, linen family, and editorial restraint from the reference image while making the fish flakes, glaze, and herb placement physically credible.\n\nUse case:\nSignature Dishes series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic-looking food, no overloaded garnish, no sloppy sauce smears, no cartoon color saturation, no stock-photo posing, no messy background clutter, no lemon wedges, no beach styling, no rustic wooden board.",
+  "id": "02-butter-poached-halibut",
+  "title": "Butter-Poached Halibut",
+  "description": "A halibut composition that keeps the reference table language while shifting the hero dish toward delicate seafood precision.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/02-butter-poached-halibut/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-chef-table-anchor",
+        "meta_path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/01-chef-table-anchor/meta.json",
+        "image_path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/01-chef-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-chef-table-anchor as the primary reference.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/02-butter-poached-halibut/image.png",
+      "checked_at": "2026-04-23T12:34:58.826Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Butter-Poached Halibut",
+      "description": "A halibut composition that keeps the reference table language while shifting the hero dish toward delicate seafood precision."
+    },
+    "zh-CN": {
+      "title": "奶油水煮比目鱼",
+      "description": "奶油水煮比目鱼：招牌菜主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A halibut composition that keeps the reference table language while shifting the hero dish toward delicate seafood precision.",
+      "zh-CN": "奶油水煮比目鱼，用于招牌菜主题。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square beverage campaign image built around ritual, vessel, light, and atmosphere. The frame should feel like it belongs to a premium drink brand that understands daily habits: ceramic warmth, glass condensation, steam behavior, and tactile surfaces all need to read as observed and real rather than generic lifestyle filler. Keep the same tabletop geometry and campaign polish, but shift to twilight tones, reflective glass, and a crisp rim light that catches bubbles and ice edges.\n\nSubject:\nThe hero beverage must feel consumable and culturally grounded, with believable proportions, realistic liquid behavior, and supporting tools or props that reinforce the ritual without overwhelming the drink itself. Show a tonic-style coffee, tea, or nonalcoholic evening drink being poured over clear ice in a premium glass, supported by one minimal garnish.\n\nImportant details:\nCredibility comes from timing and materials: crema density, ice clarity, tea translucency, condensation trails, and the way a hand or vessel sits in space. Keep the mood intentional and campaign-ready, with enough atmosphere to suggest a lived routine while preserving product focus. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-morning-bar-anchor. Preserve the reference composition and prop restraint while letting carbonation, condensation, and glass reflections carry the new time-of-day story.\n\nUse case:\nCoffee Rituals series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic café props, no latte-art gimmick overload, no fake steam clouds, no unreadable cup slogans, no random breakfast clutter, no artificial neon excess, no nightclub scene, no cocktail umbrellas, no bar-label branding.",
+  "id": "04-evening-tonic-pour",
+  "title": "Evening Tonic Pour",
+  "description": "An evening beverage variation that preserves the ritual system while introducing glass, ice, and cooler after-work energy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/04-evening-tonic-pour/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-morning-bar-anchor",
+        "meta_path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/01-morning-bar-anchor/meta.json",
+        "image_path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/01-morning-bar-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-morning-bar-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Evening Tonic Pour",
+      "description": "An evening beverage variation that preserves the ritual system while introducing glass, ice, and cooler after-work energy."
+    },
+    "zh-CN": {
+      "title": "夜晚气泡倒入",
+      "description": "夜晚气泡倒入：咖啡饮品主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "An evening beverage variation that preserves the ritual system while introducing glass, ice, and cooler after-work energy.",
+      "zh-CN": "夜晚气泡倒入，用于咖啡饮品主题。"
+    }
+  }
+}

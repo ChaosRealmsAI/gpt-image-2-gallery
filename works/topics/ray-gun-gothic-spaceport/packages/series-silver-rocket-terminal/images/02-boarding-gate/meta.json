@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square cinematic matte-painting style illustration, medium shot at the base of the same silver finned rocket from the reference. Camera eye-level, just to the left of the gantry stair. Warm afternoon sun, long cinematic shadows, powder-blue sky matching the reference. Subtle film grain, gentle vintage travel-short color grading.\n\nSubject:\nAt the bottom of the gantry, three stylized passengers in pastel flight suits (powder pink, turquoise, ivory) and clear fishbowl bubble helmets are boarding up the chrome steps toward an oval pressure hatch in the rocket flank. A chrome-trimmed hostess in a cadmium-red flight uniform stands on the pad holding a flight manifest clipboard, smiling and gesturing them upward. A single yellow-striped ground cart with soft round luggage sits to the side. The rocket body and its three red horizontal stripes from the reference are visible overhead.\n\nImportant details:\nRocket body proportions, red-stripe placement, and chrome color must match the reference exactly. The gantry spiral from the reference should be partially visible to tie the shot. Bubble helmets are transparent fishbowls. Uniforms are pastel flight-suit style. Crowd is a small group of stylized figures, not photoreal. Keep matte-painting illustration feel.\n\nUse case:\nSilver Rocket Terminal series shot 2 of 4, a boarding detail inside the same scene as the reference.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern spacesuits, no SpaceX branding, no photoreal faces, preserve exact 1:1 aspect ratio, preserve the reference rocket.",
+  "id": "02-boarding-gate",
+  "title": "Boarding Gate",
+  "description": "Boarding detail at the base of the reference rocket with passengers in pastel flight suits and bubble helmets.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "cinematic", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/02-boarding-gate/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-terminal-hero",
+        "meta_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/meta.json",
+        "image_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on terminal-hero. Use its runtime URL as --ref to preserve rocket form and palette."
+  },
+  "i18n": {
+    "en": {
+      "title": "Boarding Gate",
+      "description": "Boarding detail at the base of the reference rocket with passengers in pastel flight suits and bubble helmets."
+    },
+    "zh-CN": {
+      "title": "登船闸口",
+      "description": "参考火箭底部的登船细节, 乘客穿粉彩飞行服戴气泡头盔。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "cinematic"],
+    "alt": {
+      "en": "Passengers in bubble helmets walking up chrome steps into the side of a silver finned rocket.",
+      "zh-CN": "乘客戴着气泡头盔沿镀铬楼梯登上银色带鳍火箭的舱门。"
+    }
+  }
+}

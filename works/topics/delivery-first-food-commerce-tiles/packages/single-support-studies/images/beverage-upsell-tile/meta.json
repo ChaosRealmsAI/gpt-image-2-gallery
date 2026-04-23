@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Frame one chilled or hot drink beside a food item in a bright modular card layout with room for abstract promotion shapes.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. The drink must read immediately through glass or cup silhouette, liquid color, and condensation or steam.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Keep the packaging premium and clean, with enough context to show pairing value while preserving a simple tile-safe structure.\n\nUse case:\nDelivery Tiles single study 8/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no readable cup copy, no barista portrait, no app screenshot overlay.",
+  "id": "beverage-upsell-tile",
+  "title": "Beverage Upsell Tile",
+  "description": "A beverage-focused commerce tile showing how drinks integrate into delivery promos.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/single-support-studies/images/beverage-upsell-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Beverage Upsell Tile",
+      "description": "A beverage-focused commerce tile showing how drinks integrate into delivery promos."
+    },
+    "zh-CN": {
+      "title": "饮品加购卡片",
+      "description": "饮品加购卡片：外卖tiles主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A beverage-focused commerce tile showing how drinks integrate into delivery promos.",
+      "zh-CN": "饮品加购卡片，用于外卖tiles主题。"
+    }
+  }
+}

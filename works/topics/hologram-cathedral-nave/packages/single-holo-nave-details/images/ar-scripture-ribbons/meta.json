@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA low-angle looking up between two rib-vault stone ribs in a gothic ceiling. Deep shadow in the stone, cyan and violet mid-air, a sense of calm weight.\n\nSubject:\nTwo slow translucent ribbons of AR scripture text drift between the ribs. Each ribbon is a soft semi-transparent band with faint latinate-glyph shapes printed on its surface (the glyphs must stay unreadable). The ribbons curve in slow S-shapes and cast faint moving light onto the stone beside them. Tiny particles drift off the ribbon edges.\n\nImportant details:\nStone ribs must look like real limestone with subtle chisel marks. Ribbons must look physically volumetric — they have thickness, very slight folding, and scatter light from their glyph surface. They are not stickers on a flat plane. Color palette: deep indigo stone, cool cyan ribbon core, warm amber accent on the glyph edges. The glyph shapes must be visually consistent but not form real words.\n\nUse case:\nHologram Cathedral Nave single study 2/5, focusing on AR scripture ribbons between rib-vaults.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no actual Latin or English words, no readable chapter numbers, no religious insignia brands, no banners, no people.",
+  "id": "ar-scripture-ribbons",
+  "title": "AR Scripture Ribbons",
+  "description": "Two translucent AR ribbons printed with unreadable latinate glyph shapes drift between the ribs of a gothic vault.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/single-holo-nave-details/images/ar-scripture-ribbons/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent shot of AR scripture ribbons between rib-vaults."
+  },
+  "i18n": {
+    "en": {
+      "title": "AR Scripture Ribbons",
+      "description": "Two translucent AR ribbons printed with unreadable latinate glyph shapes drift between the ribs of a gothic vault."
+    },
+    "zh-CN": {
+      "title": "AR 经文彩带",
+      "description": "两条半透明 AR 彩带在哥特肋拱之间飘动，上有不可读的拉丁字形图案。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Two translucent glowing ribbons with abstract glyph patterns floating between stone rib vaults.",
+      "zh-CN": "两条带抽象字形图案的半透明发光彩带飘动在石肋拱之间。"
+    }
+  }
+}

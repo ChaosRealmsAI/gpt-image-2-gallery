@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nRender a square parent-facing flatlay of a take-home phonics kit on a soft neutral background, styled like an educational ecommerce bundle. Include a tidy folder, clipped sheets, a small pouch of tokens, and picture cards arranged with catalog precision. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nThe kit should clearly communicate repeatable home practice through blank instruction inserts, color-coded sections, and tactile components that align with early-reading pedagogy. Everything should feel durable, family-friendly, and easy to understand at a glance. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nAvoid the look of office supplies or generic school clutter. The hierarchy should be crisp, the palette supportive, and the components specific enough that a buyer could immediately imagine nightly reading practice without seeing any written directions. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nPhonics and Reading Practice Sheet single study 3/5, homework folder kit.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no real letters, no logos, no teacher scribbles, no chaotic classroom mess, no broken magnets.",
+  "id": "03-homework-folder-kit",
+  "title": "Homework Folder Kit",
+  "description": "A take-home literacy kit that packages worksheets, manipulatives, and visual supports for families.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/single-support-studies/images/03-homework-folder-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 3 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Homework Folder Kit",
+      "description": "A take-home literacy kit that packages worksheets, manipulatives, and visual supports for families."
+    },
+    "zh-CN": {
+      "title": "家庭作业文件夹套件",
+      "description": "将练习页、教具和视觉支持打包成家庭学习套件。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A take-home literacy kit that packages worksheets, manipulatives, and visual supports for families.",
+      "zh-CN": "将练习页、教具和视觉支持打包成家庭学习套件。"
+    }
+  }
+}

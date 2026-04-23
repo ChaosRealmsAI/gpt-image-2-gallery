@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square macro board with grazing light, tight crop, and highly controlled reflections across metallic surfaces. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original industrial product finish family featuring anodized aluminum, bead-blasted magnesium, textured polymer, molded rubber, and satin ceramic coating applied to one coherent device platform. Make the subject feel original, production-aware, and clearly grounded in Industrial Material Finish Study Board. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPreserve the same finish family while highlighting brushed grain, pore structure, chamfers, coating consistency, and precise edge quality. Keep the result analytical, not abstract. Preserve exact finish palette, substrate relationships, edge treatments, and micro-texture logic across the series. The work should feel like an industrial-design materials deck, not a random mood board. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMaterial Study series study 2/9 for Industrial Material Finish Study Board, built as image 02-context-shift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no paint drips, no decorative clutter, no fabric swatches, no unrealistic CGI glow.",
+  "id": "02-context-shift",
+  "title": "Macro Metal Study",
+  "description": "The same finish system zoomed into anodized and metallic micro behavior.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "micro-texture",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-material-finish-study-board/packages/series-core-system/images/02-context-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/industrial-material-finish-study-board/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/industrial-material-finish-study-board/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Macro Metal Study",
+      "description": "The same finish system zoomed into anodized and metallic micro behavior."
+    },
+    "zh-CN": {
+      "title": "金属微观研究",
+      "description": "聚焦同一 finish 系统中的阳极与金属微观表现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "micro-texture",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A macro continuation of the reference finish system focused on anodized metals.",
+      "zh-CN": "聚焦阳极金属的同一 finish 系统微观画面。"
+    }
+  }
+}

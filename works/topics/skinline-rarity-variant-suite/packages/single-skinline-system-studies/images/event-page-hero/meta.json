@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nBuild a square crop from a wider campaign composition, with strong foreground figure placement, decorative environment motifs, and clean negative space for imaginary copy zones. Build a polished game-art presentation for one original playable hero skinline, with premium lighting, clean silhouette read, and merchandising clarity. Keep the image square, polished, and intentionally staged like a production-ready game asset review or campaign module. The camera, lighting, and tonal range should help the subject stay readable at both thumbnail and full resolution, with clear hierarchy and no dependence on readable on-screen copy.\n\nSubject:\nLead with the same hero in the event branch while hinting at the wider skinline through background silhouettes, reward props, and a premium seasonal atmosphere. The recurring hero is a swift storm duelist with warm brown skin, a sharp oval face, close-cropped dark hair with one longer braided strand, teal eyes, and a lean athletic build. The subject should feel original, specific, and part of one coherent product system rather than a generic fantasy or sci-fi mashup. Preserve stable design anchors, clean shape language, and believable scale relationships across every visible object, character, card, or environment layer.\n\nImportant details:\nThe result should feel campaign-ready, not just another poster. Keep the hero dominant, maintain continuity, and leave orderly compositional zones where product teams could place messaging later. The design language should show a believable rarity ladder instead of random costume swaps, keeping the same role fantasy while materials, trim density, glow treatment, and ceremonial value scale upward. Favor disciplined composition, premium material rendering, and obvious internal logic so the result feels useful for art direction, live-ops rollout, or product review. Abstract interface blocks, symbolic markers, or decorative framing are fine, but they must remain non-readable and subordinate to the main visual message.\n\nUse case:\nSkinline Suite single study 9/9, the landing-page hero expansion image.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no weapon copied from known franchises, no floating price text, no random extra characters, no unreadable clutter, no readable title text, no busy collage overload, no unrelated secondary protagonist.",
+  "id": "event-page-hero",
+  "title": "Event Page Hero",
+  "description": "A banner-like campaign hero that extends the skinline into a limited event landing surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fashion",
+    "commercial-mockup",
+    "identity-consistency",
+    "virtual-try-on",
+    "style-transfer",
+    "multi-image-reference",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/skinline-rarity-variant-suite/packages/single-skinline-system-studies/images/event-page-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study 9 for skinline-rarity-variant-suite.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Event Page Hero",
+      "description": "A banner-like campaign hero that extends the skinline into a limited event landing surface."
+    },
+    "zh-CN": {
+      "title": "Event Page Hero",
+      "description": "A banner-like campaign hero that extends the skinline into a limited event landing surface."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "commercial-mockup",
+      "identity-consistency",
+      "virtual-try-on",
+      "style-transfer",
+      "multi-image-reference",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A banner-like campaign hero that extends the skinline into a limited event landing surface.",
+      "zh-CN": "A banner-like campaign hero that extends the skinline into a limited event landing surface."
+    }
+  }
+}

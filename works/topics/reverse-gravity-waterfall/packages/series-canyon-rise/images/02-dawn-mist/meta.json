@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same canyon, same camera position and lens as the reference. Time is now pre-dawn blue hour — cool cyan sky with a pale warm band rising on the left horizon. Cold temperature suggested by condensation haze filling the lower canyon.\n\nSubject:\nThe identical rising water column from the reference (same base position, same 600-meter height, same plume profile, same bloom height). Because of the cold pre-dawn air, the column now sheds a dense white mist that rolls sideways off its surface and descends slowly back into the canyon, pooling as fog along the river below. The helicopter scale anchor remains in the same mid-height position.\n\nImportant details:\nPreserve the column base location, diameter, and overall silhouette. Cool palette: indigo canyon shadows, silver mist, hints of warm peach near the horizon. The mist obscures some canyon wall detail but the rising column must remain clearly readable. Condensation halo at the top becomes a wide diffuse aurora-like cloud from mixed vapor and cold. Sandstone stays identifiable in the sunlit upper rim.\n\nUse case:\nSecond image in the cycle. Confirms the queue can treat 01 as --ref while swapping time of day and atmospheric moisture.\n\nConstraints:\nPRESERVE the reference image canyon geometry, column base and silhouette, river course, and helicopter position. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rain, no wind-tilted column, no stylized illustration.",
+  "id": "02-dawn-mist",
+  "title": "Dawn Mist",
+  "description": "The reference column in pre-dawn blue hour with dense cold-condensation mist rolling down into the canyon.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-column"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/02-dawn-mist/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-column",
+        "meta_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/meta.json",
+        "image_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Dawn Mist",
+      "description": "The reference column in pre-dawn blue hour with dense cold-condensation mist rolling down into the canyon."
+    },
+    "zh-CN": {
+      "title": "黎明雾幕",
+      "description": "基准水柱在黎明蓝时与冷凝雾幕中的版本。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same canyon and rising water column in cold blue pre-dawn mist.",
+      "zh-CN": "同一峡谷与水柱 · 黎明冷蓝冷凝雾。"
+    }
+  }
+}

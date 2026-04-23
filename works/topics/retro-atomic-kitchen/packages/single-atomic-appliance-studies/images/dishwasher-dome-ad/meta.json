@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement page in the style of 1959 American kitchenware print ads. Full product-hero layout: appliance centered on a gradient studio backdrop, clear top headline banner area, bottom tagline area. Halftone grain, slight CMYK offset on edges, matte coated-paper feel.\n\nSubject:\nAn imaginary atomic-age countertop dishwasher shaped like a clear acrylic glass dome on an ivory porcelain base trimmed with chrome and a single cadmium-red foot pedal. Inside the dome a rack of colorful mid-century dinnerware is bathed in arcing jets of bubbly water, frozen mid-spray. The dome is lit from inside with a warm amber light. A brass nameplate on the base and a small round analog timer dial are visible. Backdrop is a soft ivory-to-powder-pink gradient. Small stylized starburst motifs decorate top corners.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. Dome must feel like imagined future dishwasher of 1959: transparent bubble, chrome trim, big red pedal, analog timer. Rendering must feel like printed illustration, not photo: halftone grain, flat highlights, slight sketch-style outline on chrome edges.\n\nUse case:\nAtomic Appliance Studies single study 3 of 5, independent product ad mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern stainless steel dishwasher, no LCD display, no touchscreen, no photoreal depth-of-field, preserve exact 1:1 aspect ratio.",
+  "id": "dishwasher-dome-ad",
+  "title": "Dishwasher Dome Ad",
+  "description": "Magazine-ad mockup of an imaginary atomic-age countertop dome dishwasher with visible mid-century dinnerware inside.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/single-atomic-appliance-studies/images/dishwasher-dome-ad/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single. No reference image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Dishwasher Dome Ad",
+      "description": "Magazine-ad mockup of an imaginary atomic-age countertop dome dishwasher with visible mid-century dinnerware inside."
+    },
+    "zh-CN": {
+      "title": "圆顶洗碗机广告",
+      "description": "想象中原子时代台式圆顶洗碗机的杂志广告样稿, 内部可见 50s 餐具。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "An atomic-age magazine ad of a clear glass dome dishwasher with mid-century plates and water spray inside.",
+      "zh-CN": "原子时代杂志广告风的透明玻璃圆顶洗碗机, 内有 50s 餐具和水喷雾。"
+    }
+  }
+}

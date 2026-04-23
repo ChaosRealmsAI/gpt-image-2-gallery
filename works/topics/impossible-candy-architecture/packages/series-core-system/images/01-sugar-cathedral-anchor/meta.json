@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Frame the city like a serious twilight architectural photograph, with the hero structure occupying the central skyline and secondary streets receding around it. Warm internal glow should pass through translucent sugar walls and rose-window-like crystal geometry, while the surrounding ground plane remains dark and dignified.\n\nSubject:\nConstruct a miniature cathedral from blown sugar buttresses, spun-sugar tracery, and rock-candy window insets, all rising above tiny confectionary streets. Bridges of pulled caramel may connect adjacent annexes, and dark chocolate paving can define the plaza below. The city should feel majestic and meticulously engineered, not merely decorative.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. This first image establishes the architectural camera height, dusk atmosphere, and edible-material logic for the series, so scale cues, skyline rhythm, and glow behavior must feel stable and repeatable. Sugar translucency should read as fragile yet structural, and no single element should betray gravity entirely.\n\nUse case:\nCandy architecture series study 1/9, establishing the skyline anchor for the edible city.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no gingerbread ornaments, no rainbow candy canes, no fantasy text banners.",
+  "id": "01-sugar-cathedral-anchor",
+  "title": "Sugar Cathedral Anchor",
+  "description": "A blown-sugar cathedral district establishes the edible-city architecture for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sugar Cathedral Anchor",
+      "description": "A blown-sugar cathedral district establishes the edible-city architecture for the series."
+    },
+    "zh-CN": {
+      "title": "Sugar Cathedral Anchor",
+      "description": "A blown-sugar cathedral district establishes the edible-city architecture for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A miniature cathedral city built from blown sugar, rock candy, caramel bridges, and dark chocolate streets.",
+      "zh-CN": "A miniature cathedral city built from blown sugar, rock candy, caramel bridges, and dark chocolate streets."
+    }
+  }
+}

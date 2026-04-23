@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same plaza, same cathedral silhouette and camera. Time is pre-dawn ultra-dark blue hour. Plaza is covered in thin dry fog hugging the ground.\n\nSubject:\nThe identical green-glass cathedral. Interior is now populated by a visible dense swarm of candle points — not diffuse glow, but thousands of individual flame points visible through the translucent walls. The cathedral reads as a giant green glass jar filled with a galaxy of warm pinpricks. Crypt-level windows at the base glow strongest.\n\nImportant details:\nPreserve cathedral silhouette and pedestrian positions (pedestrians carry lanterns now, adding small warm practical points on the plaza). Real glass behavior: candle points visible through thinner tracery read sharper than points behind the thick nave walls, which diffuse into glowing clusters. Fog at ground level interacts with the lamplight, producing soft halos around the lanterns and the cathedral base.\n\nUse case:\nFourth and final image in the cycle. Most atmospheric treatment — thousands of distinct interior light points seen through a single translucent building.\n\nConstraints:\nPRESERVE the reference image cathedral silhouette, camera angle, plaza, and pedestrian positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire outside the building, no stylized illustration.",
+  "id": "04-candle-crypt",
+  "title": "Candle Crypt",
+  "description": "The reference cathedral pre-dawn filled with thousands of individual candle points seen through the glass.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-nave"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/04-candle-crypt/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Candle Crypt",
+      "description": "The reference cathedral pre-dawn filled with thousands of individual candle points seen through the glass."
+    },
+    "zh-CN": {
+      "title": "烛光地宫",
+      "description": "基准大教堂黎明前 · 透过绿玻璃可见万千烛火点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same glass cathedral filled with thousands of candle points seen through translucent walls.",
+      "zh-CN": "同一玻璃大教堂 · 内部万千烛点透墙可见。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Use the same counter framing, camera height, spacing rhythm, and raking light established by the reference image, allowing the darker nori and brighter roe tones to create the primary contrast. The wood surface should remain calm and pale.\n\nSubject:\nShow a compact uni gunkan alongside a matching sashimi or supplemental shellfish piece, with the sea urchin tongues appearing soft, glossy, and clearly segmented. The nori collar should look crisp and thin, and the rice beneath must remain structured. A tiny wasabi dome can complete the set.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. Preserve exact counter geometry, light direction, and spacing from the reference model while changing the material vocabulary toward soft roe, crisp nori, and marine gloss. The uni must avoid looking like generic orange puree and instead show delicate lobed texture.\n\nUse case:\nSushi and sashimi precision series study 4/9, concluding the anchor lineup with uni and nori precision.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no overloaded roe decorations, no sauce painting, no casual izakaya clutter.",
+  "id": "04-uni-gunkan-vector",
+  "title": "Uni Gunkan Vector",
+  "description": "A uni-focused variation preserving the anchor counter language while shifting into roe and sea textures.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/series-core-system/images/04-uni-gunkan-vector/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-hinoki-counter-anchor",
+        "meta_path": "works/topics/sushi-sashimi-surgical-precision/packages/series-core-system/images/01-hinoki-counter-anchor/meta.json",
+        "image_path": "works/topics/sushi-sashimi-surgical-precision/packages/series-core-system/images/01-hinoki-counter-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Uni Gunkan Vector",
+      "description": "A uni-focused variation preserving the anchor counter language while shifting into roe and sea textures."
+    },
+    "zh-CN": {
+      "title": "Uni Gunkan Vector",
+      "description": "A uni-focused variation preserving the anchor counter language while shifting into roe and sea textures."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A precise uni gunkan and companion seafood piece on hinoki with crisp nori and structured rice beneath.",
+      "zh-CN": "A precise uni gunkan and companion seafood piece on hinoki with crisp nori and structured rice beneath."
+    }
+  }
+}

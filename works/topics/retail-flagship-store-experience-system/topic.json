@@ -1,0 +1,47 @@
+{
+  "id": "retail-flagship-store-experience-system",
+  "slug": "retail-flagship-store-experience-system",
+  "title": "Retail Flagship Store Experience System",
+  "short_title": "Flagship Store",
+  "description": "Create flagship-store visuals with circulation logic, hero fixtures, and immersive brand storytelling.",
+  "i18n": {
+    "en": {
+      "title": "Retail Flagship Store Experience System",
+      "short_title": "Flagship Store",
+      "description": "Create flagship-store visuals with circulation logic, hero fixtures, and immersive brand storytelling."
+    },
+    "zh-CN": {
+      "title": "零售旗舰店体验系统",
+      "short_title": "旗舰店",
+      "description": "做零售旗舰店体验系统，强调动线、主陈列和品牌叙事。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 860,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Flagship Language Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Flagship Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

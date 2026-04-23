@@ -1,0 +1,46 @@
+{
+  "id": "industrial-catalog-cover-and-spread-system",
+  "slug": "industrial-catalog-cover-and-spread-system",
+  "title": "Industrial Catalog Cover and Spread System",
+  "short_title": "Catalog System",
+  "description": "Create industrial catalog systems where covers, spreads, lineups, and feature pages feel premium and readable.",
+  "i18n": {
+    "en": {
+      "title": "Industrial Catalog Cover and Spread System",
+      "short_title": "Catalog System",
+      "description": "Create industrial catalog systems where covers, spreads, lineups, and feature pages feel premium and readable."
+    },
+    "zh-CN": {
+      "title": "工业 catalog 封面与内页系统",
+      "short_title": "工业目录",
+      "description": "做工业 catalog 封面与内页系统，让封面、spread 和产品线都高级可读。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Catalog Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Catalog Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

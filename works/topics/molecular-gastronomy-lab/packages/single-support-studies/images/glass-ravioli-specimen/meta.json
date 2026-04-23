@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Create a square museum-like specimen photograph on a white neutral field with crisp side light and a shadow gentle enough to show the shell thickness. The environment should feel quiet, controlled, and analytical, as though the dish is being documented before service.\n\nSubject:\nShow one translucent ravioli-like shell containing suspended herbs, pale broth gel, and a delicate edible flower fragment. Place a second cut-open shell beside it to reveal the internal layering and the thinness of the outer membrane. A minimal stainless tasting fork can sit off to one side as scale, but the shells remain the undisputed focus.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. The shell must feel edible and fragile, not plastic, with believable thickness variation, slight wrinkles, and optical distortion where it bends around the filling. Internal layers need to stay crisp enough to reward close study.\n\nUse case:\nMolecular gastronomy lab single study 9/9, documenting a transparent pasta specimen with scientific restraint.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no gummy candy look, no opaque dough texture, no decorative text panels.",
+  "id": "glass-ravioli-specimen",
+  "title": "Glass Ravioli Specimen",
+  "description": "A transparent pasta-like shell displayed as a specimen of edible engineering.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/single-support-studies/images/glass-ravioli-specimen/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Ravioli Specimen",
+      "description": "A transparent pasta-like shell displayed as a specimen of edible engineering."
+    },
+    "zh-CN": {
+      "title": "Glass Ravioli Specimen",
+      "description": "A transparent pasta-like shell displayed as a specimen of edible engineering."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A transparent ravioli-like shell cut open to reveal delicate suspended filling and thin edible walls.",
+      "zh-CN": "A transparent ravioli-like shell cut open to reveal delicate suspended filling and thin edible walls."
+    }
+  }
+}

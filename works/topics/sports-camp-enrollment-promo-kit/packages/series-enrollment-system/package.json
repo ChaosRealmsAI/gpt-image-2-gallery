@@ -1,0 +1,72 @@
+{
+  "id": "series-enrollment-system",
+  "type": "series",
+  "title": "Enrollment Promo System",
+  "description": "A four-image reference-dependent kit that locks one sports-camp enrollment language across hero, program, coach, and deadline surfaces.",
+  "creative_direction": "Image 01 establishes the camp mood, age-band clarity, coach-led trust, and enrollment-ready visual grammar. Images 02-04 depend on that anchor while extending the same system to program board, coach credibility, and deadline reminder surfaces.",
+  "cover_image": "images/01-reference-camp-hero/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-camp-hero/meta.json",
+      "images/02-age-band-program-board/meta.json",
+      "images/03-coach-credibility-card/meta.json",
+      "images/04-enrollment-deadline-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-age-band-program-board, 03-coach-credibility-card, 04-enrollment-deadline-variant. Queue may run 02-age-band-program-board, 03-coach-credibility-card, 04-enrollment-deadline-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Enrollment Promo System",
+      "description": "A four-image reference-dependent kit that locks one sports-camp enrollment language across hero, program, coach, and deadline surfaces."
+    },
+    "zh-CN": {
+      "title": "Enrollment Promo System",
+      "description": "A four-image reference-dependent kit that locks one sports-camp enrollment language across hero, program, coach, and deadline surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-camp-hero",
+      "title": "Reference Camp Hero",
+      "image": "images/01-reference-camp-hero/image.png",
+      "meta": "images/01-reference-camp-hero/meta.json"
+    },
+    {
+      "id": "02-age-band-program-board",
+      "title": "Age-band Program Board",
+      "image": "images/02-age-band-program-board/image.png",
+      "meta": "images/02-age-band-program-board/meta.json"
+    },
+    {
+      "id": "03-coach-credibility-card",
+      "title": "Coach Credibility Card",
+      "image": "images/03-coach-credibility-card/image.png",
+      "meta": "images/03-coach-credibility-card/meta.json"
+    },
+    {
+      "id": "04-enrollment-deadline-variant",
+      "title": "Enrollment Deadline Variant",
+      "image": "images/04-enrollment-deadline-variant/image.png",
+      "meta": "images/04-enrollment-deadline-variant/meta.json"
+    }
+  ]
+}

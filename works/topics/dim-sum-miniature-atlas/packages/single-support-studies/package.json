@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Cantonese Specimen Studies",
+  "description": "Five independent dim sum studies extending the museum-atlas idea across less uniform forms and serving contexts.",
+  "creative_direction": "These singles broaden the atlas into chicken feet, lotus-leaf parcels, turnip cake cross-sections, sesame-ball rupture, and steamer constellations while keeping archival calm.",
+  "cover_image": "images/phoenix-claw-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Cantonese Specimen Studies",
+      "description": "Five independent dim sum studies extending the museum-atlas idea across less uniform forms and serving contexts."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "点心图鉴相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "phoenix-claw-study",
+      "title": "Phoenix Claw Study",
+      "image": "images/phoenix-claw-study/image.png",
+      "meta": "images/phoenix-claw-study/meta.json"
+    },
+    {
+      "id": "lotus-leaf-rice-bundle",
+      "title": "Lotus Leaf Rice Bundle",
+      "image": "images/lotus-leaf-rice-bundle/image.png",
+      "meta": "images/lotus-leaf-rice-bundle/meta.json"
+    },
+    {
+      "id": "turnip-cake-cross-section",
+      "title": "Turnip Cake Cross-Section",
+      "image": "images/turnip-cake-cross-section/image.png",
+      "meta": "images/turnip-cake-cross-section/meta.json"
+    },
+    {
+      "id": "sesame-ball-tearaway",
+      "title": "Sesame Ball Tearaway",
+      "image": "images/sesame-ball-tearaway/image.png",
+      "meta": "images/sesame-ball-tearaway/meta.json"
+    },
+    {
+      "id": "bamboo-steamer-constellation",
+      "title": "Bamboo Steamer Constellation",
+      "image": "images/bamboo-steamer-constellation/image.png",
+      "meta": "images/bamboo-steamer-constellation/meta.json"
+    }
+  ]
+}

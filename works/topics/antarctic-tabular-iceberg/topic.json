@@ -1,0 +1,40 @@
+{
+  "id": "antarctic-tabular-iceberg",
+  "slug": "antarctic-tabular-iceberg",
+  "title": "Antarctic Tabular Iceberg",
+  "short_title": "Tabular Iceberg",
+  "description": "A Manhattan-sized tabular iceberg adrift in Antarctic sea, 80m vertical cliff on one side, penguin colony on top visible as tiny dots, aerial drone perspective.",
+  "i18n": {
+    "en": {
+      "title": "Antarctic Tabular Iceberg",
+      "short_title": "Tabular Iceberg",
+      "description": "A Manhattan-sized tabular iceberg adrift in Antarctic sea, 80m vertical cliff on one side, penguin colony on top visible as tiny dots, aerial drone perspective."
+    },
+    "zh-CN": {
+      "title": "南极桌状冰山",
+      "short_title": "桌状冰山",
+      "description": "曼哈顿大小的南极桌状冰山漂浮海中 · 一侧 80 米垂直崖 · 顶部企鹅群若隐若现 · 无人机航拍视角。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1260,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Tabular Iceberg Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square overhead proof-shot setup, identical paper stock, lighting softness, and desk styling from the reference worksheet. The image should look like the next page in a tightly art-directed literacy pack, maintaining precise margins, print realism, and the same calm elementary-classroom mood. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nSwap the exercise logic to blending practice using illustrated mouth shapes, picture cues, segmented sound chips, blank blend strips, and simple guided arrows that imply left-to-right reading without any actual alphabet characters. The worksheet should feel active and teachable, not abstract. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the structural system from the reference page exactly: same header band, module spacing, answer-box size, icon style, and empty prompt panels. Variation should come from the sound-building visuals and sequencing cues, while the worksheet still feels like part of one commercially viable phonics line. Preserve the same worksheet margins, answer-box scale, icon cadence, divider rhythm, and blank title bars from the reference sheet. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nPhonics and Reading Practice Sheet series study 2/4, vowel blend sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable letters, no real words, no teacher handwriting, no messy desk clutter, no adult branding, no distorted paper edges.",
+  "id": "02-vowel-blend-sheet",
+  "title": "Vowel Blend Sheet",
+  "description": "A worksheet variation focused on vowel blending while preserving the same page system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/02-vowel-blend-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-sound-sheet",
+        "meta_path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/01-reference-sound-sheet/meta.json",
+        "image_path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/01-reference-sound-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-sound-sheet.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Vowel Blend Sheet",
+      "description": "A worksheet variation focused on vowel blending while preserving the same page system."
+    },
+    "zh-CN": {
+      "title": "元音拼合练习页",
+      "description": "在同一页面系统中聚焦元音拼合的练习页变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A worksheet variation focused on vowel blending while preserving the same page system.",
+      "zh-CN": "在同一页面系统中聚焦元音拼合的练习页变体。"
+    }
+  }
+}

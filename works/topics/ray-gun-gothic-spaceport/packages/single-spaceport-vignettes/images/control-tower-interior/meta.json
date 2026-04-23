@@ -1,0 +1,32 @@
+{
+  "prompt": "Scene:\nA square cinematic illustration of the interior of an imagined 1958 spaceport control tower, camera at eye-level looking across the circular room through the curving wraparound windows. Dusk sky outside, warm amber interior lighting. Slight film grain, matte-painting feel.\n\nSubject:\nThe inside of a round glass-domed control tower: curving banks of analog instrument panels with dozens of round dials, chrome switches, and rows of warm-amber indicator lights; a large central radar scope glowing soft green; a tall brass-trimmed chart pedestal with a rolled paper flight-plan. Two stylized controllers in ivory shirtsleeves with skinny black ties lean over the radar, headsets with chrome mouthpieces. Through the windows, distant silver finned rockets stand on lit launch pads under a powder-pink-to-indigo dusk sky.\n\nImportant details:\nAll instruments must read as 1958 analog: round dials, needle gauges, toggle switches, punched-card consoles, chunky brass nameplates. No LCD screens. Palette: ivory, chrome, cadmium red accents, amber indicator glow, soft green radar glow, powder-pink-indigo sky. Illustration style is painted mid-century technical editorial, not photorealistic.\n\nUse case:\nSpaceport Vignettes single study 2 of 5, standalone editorial scene.\n\nConstraints:\nNo readable text, no watermark, no logos, no LCD screens, no modern flat panel displays, no photoreal faces, preserve exact 1:1 aspect ratio.",
+  "id": "control-tower-interior",
+  "title": "Control Tower Interior",
+  "description": "Editorial interior of a round glass-domed 1958-imagined spaceport control tower with analog instruments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "cinematic", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {"path": "works/topics/ray-gun-gothic-spaceport/packages/single-spaceport-vignettes/images/control-tower-interior/image.png", "name": "image"},
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single."
+  },
+  "i18n": {
+    "en": {"title": "Control Tower Interior", "description": "Editorial interior of a round glass-domed 1958-imagined spaceport control tower with analog instruments."},
+    "zh-CN": {"title": "控制塔内景", "description": "1958 年想象中的圆顶太空港控制塔内景编辑画, 全是模拟仪表。"}
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "cinematic"],
+    "alt": {"en": "Interior of a round glass-domed spaceport control tower with analog dials and two controllers at a radar scope.", "zh-CN": "圆顶太空港控制塔内部, 全是模拟仪表盘, 两名控制员在绿色雷达屏前。"}
+  }
+}

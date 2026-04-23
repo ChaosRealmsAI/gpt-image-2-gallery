@@ -1,0 +1,72 @@
+{
+  "id": "series-season-system",
+  "type": "series",
+  "title": "Season Launch System",
+  "description": "A four-image reference-dependent kit that establishes one season-opening campaign language for a fictional league or tournament.",
+  "creative_direction": "Image 01 defines the opening-season visual universe, cast hierarchy, neutral league branding grammar, and schedule-ready layout. Images 02-04 depend on that anchor while adapting the same system to schedule, star-cast, and trophy-countdown surfaces.",
+  "cover_image": "images/01-reference-league-launch/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-league-launch/meta.json",
+      "images/02-division-schedule-board/meta.json",
+      "images/03-star-cast-poster/meta.json",
+      "images/04-trophy-countdown-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-division-schedule-board, 03-star-cast-poster, 04-trophy-countdown-variant. Queue may run 02-division-schedule-board, 03-star-cast-poster, 04-trophy-countdown-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Season Launch System",
+      "description": "A four-image reference-dependent kit that establishes one season-opening campaign language for a fictional league or tournament."
+    },
+    "zh-CN": {
+      "title": "Season Launch System",
+      "description": "A four-image reference-dependent kit that establishes one season-opening campaign language for a fictional league or tournament."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-league-launch",
+      "title": "Reference League Launch",
+      "image": "images/01-reference-league-launch/image.png",
+      "meta": "images/01-reference-league-launch/meta.json"
+    },
+    {
+      "id": "02-division-schedule-board",
+      "title": "Division Schedule Board",
+      "image": "images/02-division-schedule-board/image.png",
+      "meta": "images/02-division-schedule-board/meta.json"
+    },
+    {
+      "id": "03-star-cast-poster",
+      "title": "Star Cast Poster",
+      "image": "images/03-star-cast-poster/image.png",
+      "meta": "images/03-star-cast-poster/meta.json"
+    },
+    {
+      "id": "04-trophy-countdown-variant",
+      "title": "Trophy Countdown Variant",
+      "image": "images/04-trophy-countdown-variant/image.png",
+      "meta": "images/04-trophy-countdown-variant/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "single-collage-moods",
+  "type": "single",
+  "title": "Collage Moods",
+  "description": "Five independent zine-collage pages, each a different emotional register — manifesto, poetic cut-up, protest, anti-fashion, and DIY map.",
+  "creative_direction": "Independent studies of different collage voices. Each page feels made by a different zinemaker with a different emotional pitch, mapping the diversity of imperfect-by-design collage sensibilities.",
+  "cover_image": "images/punk-manifesto-sheet/image.png",
+  "i18n": {
+    "en": {
+      "title": "Collage Moods",
+      "description": "Five independent zine-collage pages, each a different emotional register — manifesto, poetic cut-up, protest, anti-fashion, and DIY map."
+    },
+    "zh-CN": {
+      "title": "拼贴情绪",
+      "description": "五张独立的 zine 拼贴页 · 各种情绪(宣言 / 诗意剪切 / 抗议 / 反时尚 / DIY 地图)。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "editorial-illustration", "structured-layout", "pattern"]
+  },
+  "images": [
+    { "id": "punk-manifesto-sheet", "title": "Punk Manifesto Sheet", "image": "images/punk-manifesto-sheet/image.png", "meta": "images/punk-manifesto-sheet/meta.json" },
+    { "id": "poetry-cutup-page", "title": "Poetry Cut-up Page", "image": "images/poetry-cutup-page/image.png", "meta": "images/poetry-cutup-page/meta.json" },
+    { "id": "protest-graphic-page", "title": "Protest Graphic Page", "image": "images/protest-graphic-page/image.png", "meta": "images/protest-graphic-page/meta.json" },
+    { "id": "anti-fashion-layout", "title": "Anti-Fashion Layout", "image": "images/anti-fashion-layout/image.png", "meta": "images/anti-fashion-layout/meta.json" },
+    { "id": "diy-map-page", "title": "DIY Map Page", "image": "images/diy-map-page/image.png", "meta": "images/diy-map-page/meta.json" }
+  ]
+}

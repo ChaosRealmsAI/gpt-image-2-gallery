@@ -1,0 +1,47 @@
+{
+  "id": "sports-equipment-advertising-set",
+  "slug": "sports-equipment-advertising-set",
+  "title": "Sports Equipment Advertising Set",
+  "short_title": "Equipment Ads",
+  "description": "Create advertising sets for sports equipment with motion energy, material read, and athlete-product pairing.",
+  "i18n": {
+    "en": {
+      "title": "Sports Equipment Advertising Set",
+      "short_title": "Equipment Ads",
+      "description": "Create advertising sets for sports equipment with motion energy, material read, and athlete-product pairing."
+    },
+    "zh-CN": {
+      "title": "运动装备广告组",
+      "short_title": "装备广告",
+      "description": "做运动装备广告组，强调动态、材质和人物产品 pairing。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "reasoning-composition",
+      "high-speed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-performance-ad-system",
+      "type": "series",
+      "title": "Performance Ad System",
+      "path": "packages/series-performance-ad-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Equipment Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

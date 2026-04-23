@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Use the same city-scale viewpoint, dusk lighting, and urban framing established by the reference image, but center the composition around a broad station-like hall and converging edible streets. The atmosphere should remain cinematic and architectural rather than playful.\n\nSubject:\nBuild a transit hall from sugar-glass vaults, rock-candy columns, and dark chocolate platforms linked by caramel canopies. The hall should feel like a public infrastructure node within the edible city, with clear circulation paths, layered entrances, and believable roof spans. Tiny glowing interiors can hint at life without introducing figures.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. Preserve exact city perspective, skyline rhythm, and dusk material behavior from the reference model while moving the focus toward circulation space and crystalline interiors. Rock-candy columns should sparkle with faceted realism, and the roof spans must feel engineered, not arbitrary.\n\nUse case:\nCandy architecture series study 4/9, completing the anchor city with a crystal transit hall district.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no toy train props, no fairground mood, no signage text.",
+  "id": "04-rock-candy-transit-hall",
+  "title": "Rock Candy Transit Hall",
+  "description": "A transit-hall variation that preserves the anchor city perspective while emphasizing crystal and circulation spaces.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/04-rock-candy-transit-hall/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sugar-cathedral-anchor",
+        "meta_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/meta.json",
+        "image_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rock Candy Transit Hall",
+      "description": "A transit-hall variation that preserves the anchor city perspective while emphasizing crystal and circulation spaces."
+    },
+    "zh-CN": {
+      "title": "Rock Candy Transit Hall",
+      "description": "A transit-hall variation that preserves the anchor city perspective while emphasizing crystal and circulation spaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "An edible transit hall made from sugar-glass vaults, rock-candy columns, and caramel canopies.",
+      "zh-CN": "An edible transit hall made from sugar-glass vaults, rock-candy columns, and caramel canopies."
+    }
+  }
+}

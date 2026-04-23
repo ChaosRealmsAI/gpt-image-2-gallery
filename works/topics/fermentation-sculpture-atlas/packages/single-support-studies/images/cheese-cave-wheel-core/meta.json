@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Create a square specimen photograph on a dark museum-like pedestal with soft raking light and controlled cave-like atmosphere. The background should imply cool stone darkness without distracting from the cheese.\n\nSubject:\nShow a large cheese wheel with one wedge removed so the rind, paste, internal openings, and age patterns become readable. The rind should carry subtle bloom and cave wear, while the interior shows density variation and possible tunnels or crystals. The wheel must feel mature, heavy, and alive with time.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. Focus on the contrast between rugged outer rind and complex interior body. Crystals, moisture gradients, and micro cavities should feel naturally formed, not stylized.\n\nUse case:\nFermentation sculpture atlas single study 5/9, documenting a cave-aged cheese wheel as a living specimen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no grocery wrapper, no cheese-board lifestyle props, no readable cave labels.",
+  "id": "cheese-cave-wheel-core",
+  "title": "Cheese Cave Wheel Core",
+  "description": "A cave-aged cheese wheel section shown like a cross between geology sample and culinary artifact.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/single-support-studies/images/cheese-cave-wheel-core/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cheese Cave Wheel Core",
+      "description": "A cave-aged cheese wheel section shown like a cross between geology sample and culinary artifact."
+    },
+    "zh-CN": {
+      "title": "Cheese Cave Wheel Core",
+      "description": "A cave-aged cheese wheel section shown like a cross between geology sample and culinary artifact."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A cave-aged cheese wheel with a wedge removed, revealing crystals, tunnels, and a textured natural rind.",
+      "zh-CN": "A cave-aged cheese wheel with a wedge removed, revealing crystals, tunnels, and a textured natural rind."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hologram-cathedral-nave",
+  "slug": "hologram-cathedral-nave",
+  "category": "architecture",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "fusion",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "title": "Hologram Cathedral Nave",
+  "short_title": "Holo Cathedral",
+  "description": "A Prompt Atlas theme fusing gothic cathedral nave architecture with holographic rose windows, volumetric projection liturgy and drifting AR scripture ribbons.",
+  "i18n": {
+    "en": {
+      "title": "Hologram Cathedral Nave",
+      "short_title": "Holo Cathedral",
+      "description": "A Prompt Atlas theme fusing gothic cathedral nave architecture with holographic rose windows, volumetric projection liturgy and drifting AR scripture ribbons."
+    },
+    "zh-CN": {
+      "title": "全息大教堂中殿",
+      "short_title": "全息大教堂",
+      "description": "融合哥特大教堂中殿结构与全息玫瑰窗、体积光礼拜与 AR 经文彩带的主题。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fusion",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-holo-nave-liturgy",
+      "type": "series",
+      "title": "Holo Nave Liturgy",
+      "path": "packages/series-holo-nave-liturgy/package.json"
+    },
+    {
+      "id": "single-holo-nave-details",
+      "type": "single",
+      "title": "Holo Nave Details",
+      "path": "packages/single-holo-nave-details/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nDesign a square app-preview composition featuring a smartphone on a soft gradient background, viewed straight-on with subtle depth and polished device lighting. The overall image should look like a premium education-app marketing tile, pairing crisp interface cards with a cheerful but restrained preschool palette. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nThe screen shows large swipeable flashcards with the same rounded geometry, illustration density, and blank caption zones seen in the physical deck. Use one hero card and a few stacked previews to suggest letter, number, and animal lessons without showing any readable interface copy. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the interface extremely clear: oversized tap targets, progress dots without labels, empty title bars, and playful reward icons that never become generic game clutter. The image should prove that the flashcard system can migrate from print to digital while preserving teaching clarity and brand continuity. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nEarly Learning Flashcard Family single study 3/5, learning app card screen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no numerals, no brand mascots, no logos, no chaotic shelf clutter, no broken packaging.",
+  "id": "03-learning-app-card-screen",
+  "title": "Learning App Card Screen",
+  "description": "A mobile adaptation of the flashcard family for a preschool learning app.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/single-support-studies/images/03-learning-app-card-screen/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 3 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Learning App Card Screen",
+      "description": "A mobile adaptation of the flashcard family for a preschool learning app."
+    },
+    "zh-CN": {
+      "title": "学习应用卡片页",
+      "description": "把启蒙卡片家族改编成移动端学习 App 的界面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A mobile adaptation of the flashcard family for a preschool learning app.",
+      "zh-CN": "把启蒙卡片家族改编成移动端学习 App 的界面研究。"
+    }
+  }
+}

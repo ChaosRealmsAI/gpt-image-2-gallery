@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nSame gothic nave as the reference, same single-point perspective, same camera height and lens. Cold blue advent procession: a long column of pilgrim silhouettes moves down the aisle toward the apse, with a deep teal mist replacing the warm haze.\n\nSubject:\nThe identical rib-vaulted nave with the identical rose-window hologram, but the rose is now a slow rotating azure diagram of a compass-star pattern. A deep procession of hooded pilgrims carries tall cool-light staffs; the staffs emit narrow vertical cyan rays that punch upward through the AR scripture ribbons above, splitting them into short segments. Breath fog is visible near the floor.\n\nImportant details:\nKeep the exact column spacing, rib-vault cadence, rose window location and symmetry from the reference. The light source has rotated: the ambient glow is now cold cyan from staffs and rose; the only warm spots are tiny amber halos trailing behind each pilgrim. Scripture ribbons must react visibly to the staff beams — bending, scattering, fragmenting around the rays. Pilgrim silhouettes stay simplified, no facial detail.\n\nUse case:\nHologram Cathedral Nave series image 3/4, depends on the reference nave; demonstrates the same architecture during a cold advent procession.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible faces, no modern flashlights, no flags, no crosses carried as props, no commercial torch designs, keep the same nave identity as the reference.",
+  "id": "03-advent-procession",
+  "title": "Advent Procession",
+  "description": "A cold cyan advent procession moving through the reference nave, with staff beams splitting the overhead AR scripture ribbons.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "reasoning-composition",
+    "cinematic",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/03-advent-procession/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 nave geometry; cold procession with staff beams."
+  },
+  "i18n": {
+    "en": {
+      "title": "Advent Procession",
+      "description": "A cold cyan advent procession moving through the reference nave, with staff beams splitting the overhead AR scripture ribbons."
+    },
+    "zh-CN": {
+      "title": "将临游行",
+      "description": "冷蓝光的将临游行穿过基准中殿，杖头光束切割头顶 AR 经文彩带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "reasoning-composition",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A cold cyan advent procession in the gothic cathedral nave with vertical staff beams.",
+      "zh-CN": "哥特中殿里冷蓝光的将临游行，杖头垂直光束向上。"
+    }
+  }
+}

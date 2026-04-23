@@ -1,0 +1,43 @@
+{
+  "id": "series-turquoise-kitchen-set",
+  "type": "series",
+  "title": "Turquoise Kitchen Set",
+  "description": "A reference-dependent series: one hero shot of a 1958-imagined future kitchen, followed by three angle and moment variations preserving the same room, appliances, and color palette.",
+  "creative_direction": "Image 01 establishes the full turquoise atomic kitchen wide shot. Images 02-04 depend on 01 as --ref and reinterpret the same room from different angles and micro-moments: close-up push-button oven, breakfast bar scene with housewife, and detail of teardrop refrigerator.",
+  "cover_image": "images/01-kitchen-wide/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-kitchen-wide/meta.json",
+      "images/02-pushbutton-oven/meta.json",
+      "images/03-breakfast-bar-moment/meta.json",
+      "images/04-teardrop-fridge-detail/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Turquoise Kitchen Set",
+      "description": "A reference-dependent series: one hero shot of a 1958-imagined future kitchen, followed by three angle and moment variations preserving the same room, appliances, and color palette."
+    },
+    "zh-CN": {
+      "title": "松石色厨房全家福",
+      "description": "引用依赖系列: 一张 1958 年想象未来厨房的主镜头, 然后三张保持同一房间、家电和配色的角度和瞬间变体。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["series", "commercial-mockup", "editorial-illustration", "structured-layout"]
+  },
+  "images": [
+    {"id": "01-kitchen-wide", "title": "Kitchen Wide Shot", "image": "images/01-kitchen-wide/image.png", "meta": "images/01-kitchen-wide/meta.json"},
+    {"id": "02-pushbutton-oven", "title": "Push-Button Oven", "image": "images/02-pushbutton-oven/image.png", "meta": "images/02-pushbutton-oven/meta.json"},
+    {"id": "03-breakfast-bar-moment", "title": "Breakfast Bar Moment", "image": "images/03-breakfast-bar-moment/image.png", "meta": "images/03-breakfast-bar-moment/meta.json"},
+    {"id": "04-teardrop-fridge-detail", "title": "Teardrop Fridge Detail", "image": "images/04-teardrop-fridge-detail/image.png", "meta": "images/04-teardrop-fridge-detail/meta.json"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "phonics-and-reading-practice-sheet",
+  "title": "Phonics and Reading Practice Sheet",
+  "short_title": "Phonics Sheets",
+  "description": "Build phonics and reading-practice sheets with clear exercises, approachable graphics, and age-appropriate pacing.",
+  "i18n": {
+    "en": {
+      "title": "Phonics and Reading Practice Sheet",
+      "short_title": "Phonics Sheets",
+      "description": "Build phonics and reading-practice sheets with clear exercises, approachable graphics, and age-appropriate pacing."
+    },
+    "zh-CN": {
+      "title": "自然拼读与阅读练习页",
+      "short_title": "阅读练习",
+      "description": "做自然拼读与阅读练习页，强调练习结构和儿童可读性。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Practice Sheet System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Practice Sheet Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

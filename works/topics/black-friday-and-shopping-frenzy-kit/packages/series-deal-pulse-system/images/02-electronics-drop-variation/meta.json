@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent sale image in the exact same midnight retail world, with the same black field, white hierarchy, yellow urgency accents, and aggressive edge lighting from the reference. Adjust the camera slightly to favor stacked devices and cleaner shelving geometry, but preserve the same visual pressure and campaign polish. The viewer should feel obvious continuity with the anchor image at first glance.\n\nSubject:\nFeature electronics-like product silhouettes, carton structures, charging accessories, and abstract price-chip panels arranged into a powerful deal-drop composition. Preserve the exact sale-chip grammar, panel spacing, light direction, and reflective material logic from the reference image while shifting the category emphasis toward tech. Everything should remain brand-neutral and original while still reading as a major high-demand sale moment.\n\nImportant details:\nPreserve exact campaign identity from the reference image: same contrast ratio, same accent placement, same motion diagonals, and the same clean-aggressive digital-retail logic. Product clarity must come from shape and hierarchy, not labels. Keep the scene premium and tightly art-directed, avoiding discount-chaos cliché. The final result should feel like a conversion-focused hero asset for a serious marketplace or electronics retailer.\n\nUse case:\nBlack Friday series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable product screens, no brand marks, no currency signs, no explosion effects, no crowd, no random cyberpunk elements, no broken device anatomy.",
+  "id": "02-electronics-drop-variation",
+  "title": "Electronics Drop Variation",
+  "description": "An electronics-led Black Friday variation preserving the same urgent sale system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/02-electronics-drop-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-deal-anchor",
+        "meta_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/meta.json",
+        "image_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent electronics variation for the Black Friday system. Preserve the exact campaign language from 01-midnight-deal-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Electronics Drop Variation",
+      "description": "An electronics-led Black Friday variation preserving the same urgent sale system."
+    },
+    "zh-CN": {
+      "title": "电子爆款变体",
+      "description": "保持同一促销系统的电子品类黑五变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A Black Friday electronics sale visual matching the same core urgency system.",
+      "zh-CN": "与同一核心紧迫系统一致的黑五电子促销画面。"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "festive-feast-and-banquet-campaign-visuals",
+  "slug": "festive-feast-and-banquet-campaign-visuals",
+  "title": "Festive Feast and Banquet Campaign Visuals",
+  "short_title": "Festive Feast",
+  "description": "Create feast and banquet campaign visuals for holidays and celebratory dining with abundance and table choreography.",
+  "i18n": {
+    "en": {
+      "title": "Festive Feast and Banquet Campaign Visuals",
+      "short_title": "Festive Feast",
+      "description": "Create feast and banquet campaign visuals for holidays and celebratory dining with abundance and table choreography."
+    },
+    "zh-CN": {
+      "title": "节庆盛宴与宴席 campaign",
+      "short_title": "节庆宴席",
+      "description": "做节庆盛宴与宴席 campaign，强调丰盛感和桌面调度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2490,
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Banquet Table Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Feast Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

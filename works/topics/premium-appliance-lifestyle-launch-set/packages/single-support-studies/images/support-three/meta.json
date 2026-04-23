@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square design board with interior materials, cropped appliance views, warm daylight, and organized domestic samples. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original appliance and complementary kitchen finishes arranged into a persuasive domestic concept sheet. Make the subject feel original, production-aware, and clearly grounded in Premium Appliance Lifestyle Launch Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the board premium and non-readable, avoiding generic catalog tropes. It should feel like a serious home-product direction study. The visual language should still feel native to Premium Appliance Lifestyle Launch Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nAppliance Launch single study 7/9 for Premium Appliance Lifestyle Launch Set, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable labels, no food-brand packaging, no influencer clutter, no unrealistic steam, no decorative overload.",
+  "id": "support-three",
+  "title": "Kitchen Style Board",
+  "description": "A lifestyle board matching one appliance with countertop, cabinetry, and material context.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-appliance-lifestyle-launch-set/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Style Board",
+      "description": "A lifestyle board matching one appliance with countertop, cabinetry, and material context."
+    },
+    "zh-CN": {
+      "title": "厨房风格板",
+      "description": "把家电与台面、橱柜和材质语境配套的生活方式板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A premium kitchen-style board centered on an original appliance.",
+      "zh-CN": "围绕原创家电构建的高级厨房风格板。"
+    }
+  }
+}

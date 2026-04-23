@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame and canyon as the reference. The weather is now a heavy monsoon afternoon: storm clouds filling the upper sky, rain visibly falling outside the column's airspace, sporadic lightning back-lighting the clouds, wet sandstone darkened by saturation.\n\nSubject:\nThe identical rising water column, now visibly twisted by strong side-wind into a lazy helical spiral that still ascends to the same 600-meter height. Rain from the clouds falls normally, but the column's ascending water refuses to obey gravity and instead merges with the clouds where it dissipates. The reference helicopter holds position but is buffeted, rotor blur slightly exaggerated.\n\nImportant details:\nPreserve the column base position, reference rise height, and helicopter placement. Wet-sandstone color: deep burgundy in shadows, nearly black where saturated. Rain streaks are directional and visible as fine silver lines, but the column itself remains coherent and upward-flowing. A lightning flash rim-lights the spiral from behind, highlighting individual droplet breakup at the column edge.\n\nUse case:\nThird image in the cycle. Demonstrates the rising column under extreme weather stress while preserving the reference composition.\n\nConstraints:\nPRESERVE the reference image canyon, column base, rise height, and helicopter position. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no funnel cloud forming around the column, no fantasy elements, no cartoon rendering.",
+  "id": "03-monsoon-spiral",
+  "title": "Monsoon Spiral",
+  "description": "The reference column twisted into a lazy helical spiral by a monsoon with rain and lightning.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-column"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/03-monsoon-spiral/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-column",
+        "meta_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/meta.json",
+        "image_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Monsoon Spiral",
+      "description": "The reference column twisted into a lazy helical spiral by a monsoon with rain and lightning."
+    },
+    "zh-CN": {
+      "title": "季风螺旋",
+      "description": "基准水柱在季风中被侧风扭成螺旋的版本。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same canyon column spiraling upward in a monsoon with lightning behind.",
+      "zh-CN": "同一峡谷水柱 · 季风螺旋升腾 · 背后雷电。"
+    }
+  }
+}

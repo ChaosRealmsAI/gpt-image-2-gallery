@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Use a square macro frame on pale wood with shallow depth of field that still keeps the rice structure readable across the main bite. Soft side light should emphasize individual grains.\n\nSubject:\nShow one piece of nigiri close enough that the rice architecture becomes the main subject beneath a thin slice of fish. Individual grains should remain visible and lightly adhered, showing the precise compression needed to support the topping without becoming dense paste. The fish should provide context and contrast, not dominate.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. The success depends on grain-by-grain clarity, slight gloss from seasoned rice, and the pressure relationship between topping and rice bed. The bite should feel disciplined, airy, and expertly formed.\n\nUse case:\nSushi and sashimi precision single study 6/9, making rice architecture the true hero of the frame.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no sticky clumped rice, no sauce glossing everything, no garnish clutter.",
+  "id": "rice-density-macro",
+  "title": "Rice Density Macro",
+  "description": "A macro study of nigiri rice showing grain separation, compression, and surface sheen under one slice of fish.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/single-support-studies/images/rice-density-macro/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rice Density Macro",
+      "description": "A macro study of nigiri rice showing grain separation, compression, and surface sheen under one slice of fish."
+    },
+    "zh-CN": {
+      "title": "Rice Density Macro",
+      "description": "A macro study of nigiri rice showing grain separation, compression, and surface sheen under one slice of fish."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A macro nigiri study where individually visible rice grains support a thin slice of fish with perfect compression.",
+      "zh-CN": "A macro nigiri study where individually visible rice grains support a thin slice of fish with perfect compression."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Maintain the exact pedestal height, camera distance, black studio depth, and softbox reflection structure from the reference image so the showpieces feel photographed under one competition setup. The mood should remain severe and elegant.\n\nSubject:\nShow a tall central spire of dark tempered chocolate surrounded by thinner feather-like blades and suspended circular elements that imply orbital motion. The sculpture should feel lighter and more vertical than the ribbon variation, with a disciplined mix of mirror-dark lacquer and selective gold leaf. Structural balance must remain convincing.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. Preserve exact studio system and reflection logic from the reference model while shifting the geometry toward thin blades, slender spans, and vertical lift. Edge sharpness and support points are especially important so the sculpture does not feel digitally impossible.\n\nUse case:\nChocolate lacquer sculpture series study 3/9, adapting the anchor showpiece into a slender spire and orbit structure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no broken thin elements, no decorative sugar confetti, no text signage.",
+  "id": "03-feather-spire-orbit",
+  "title": "Feather Spire Orbit",
+  "description": "A spire-like variation preserving the anchor studio while emphasizing thin blade elements and orbital balance.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/03-feather-spire-orbit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lacquer-pedestal-anchor",
+        "meta_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/meta.json",
+        "image_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Feather Spire Orbit",
+      "description": "A spire-like variation preserving the anchor studio while emphasizing thin blade elements and orbital balance."
+    },
+    "zh-CN": {
+      "title": "Feather Spire Orbit",
+      "description": "A spire-like variation preserving the anchor studio while emphasizing thin blade elements and orbital balance."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A tall chocolate spire with thin blade-like elements and orbiting forms, finished with mirror-dark temper.",
+      "zh-CN": "A tall chocolate spire with thin blade-like elements and orbiting forms, finished with mirror-dark temper."
+    }
+  }
+}

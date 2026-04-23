@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square season launch hero visual for League Launch, using a fictional major-tournament launch world with arena haze, graphite and silver materials, and prestige-oriented lighting. The frame should feel commercial, polished, and immediately useful for a real client deliverable rather than a one-off art experiment. Keep the composition readable at thumbnail scale while still rewarding a closer look with layered depth, clean negative space, and strong directional light. Build the image so it clearly supports sports communication, with enough modular structure to imply information architecture without relying on literal words.\n\nSubject:\nCenter the image on a cast of original athletes organized into a clear hero hierarchy with one lead figure and supporting contenders, arranged as hero athlete plus supporting cast. Treat the subject as original and brandless, with believable apparel construction, realistic body proportions, and strong emotional legibility. Surround the subject with supporting environmental cues that reinforce the category but never overpower the main figure. All secondary objects, props, and background elements should strengthen the same professional sports or fitness context.\n\nImportant details:\nThis first image must establish the full reference system for later derivatives: neutral league-like geometry, non-readable schedule blocks, and event-scale campaign framing. The emotional tone should read as official anticipation. Make the visual language reusable, disciplined, and commercially credible, with clean edges, coherent light behavior, and obvious hierarchy. Abstract panels, diagram bands, or stat-like modules are welcome, but they must remain non-readable and subordinate to the main visual message. The result should feel original, specific, and ready to anchor a larger package.\n\nUse case:\nLeague Launch series study 1/9, the reference image for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no copied famous team or product identity, no generic stock-photo stiffness, no cluttered background noise, no celebrity likenesses.",
+  "id": "01-reference-league-launch",
+  "title": "Reference League Launch",
+  "description": "A season-opening hero visual that defines cast hierarchy, event scale, and league-brand grammar.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "multi-image-reference",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/league-season-launch-visual-kit/packages/series-season-system/images/01-reference-league-launch/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the league-season-launch-visual-kit series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference League Launch",
+      "description": "A season-opening hero visual that defines cast hierarchy, event scale, and league-brand grammar."
+    },
+    "zh-CN": {
+      "title": "Reference League Launch",
+      "description": "A season-opening hero visual that defines cast hierarchy, event scale, and league-brand grammar."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A season-opening hero visual that defines cast hierarchy, event scale, and league-brand grammar.",
+      "zh-CN": "A season-opening hero visual that defines cast hierarchy, event scale, and league-brand grammar."
+    }
+  }
+}

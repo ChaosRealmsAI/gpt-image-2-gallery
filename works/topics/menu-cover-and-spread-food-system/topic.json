@@ -1,0 +1,47 @@
+{
+  "id": "menu-cover-and-spread-food-system",
+  "slug": "menu-cover-and-spread-food-system",
+  "title": "Menu Cover and Spread Food System",
+  "short_title": "Menu System",
+  "description": "Create menu systems where covers, spreads, dish photography, and category structure all feel brand-authored.",
+  "i18n": {
+    "en": {
+      "title": "Menu Cover and Spread Food System",
+      "short_title": "Menu System",
+      "description": "Create menu systems where covers, spreads, dish photography, and category structure all feel brand-authored."
+    },
+    "zh-CN": {
+      "title": "菜单封面与内页食物系统",
+      "short_title": "菜单系统",
+      "description": "做菜单封面与内页食物系统，让封面、spread 和菜品层级统一。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2440,
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Menu Layout Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Menu Surface Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

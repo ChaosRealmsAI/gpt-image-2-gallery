@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square menu-design mockup that combines printed surfaces, structured page hierarchy, and appetizing food photography into one coherent brand-authored system. The page layouts should feel intentional and premium, with strong margins, modular blocks, and realistic print or board materials even though all textual zones remain unreadable. Frame a square crop of a counter board under controlled indoor light, with subtle glow and nearby food cues to show retail context.\n\nSubject:\nThe menu should communicate category structure, hero dish placement, and brand tone through composition, image framing, typographic blocks, and page rhythm rather than through readable copy. Food imagery must stay believable and publication-ready. Use a structured layout with image modules and unreadable typographic zones that feel like a quick-glance ordering surface.\n\nImportant details:\nThis topic tests layout reasoning as much as food styling. Preserve clean grids, realistic paper behavior, credible shadows, and strong focal hierarchy between cover, spreads, dish photos, and placeholder text zones. Text-like marks can exist only as abstract or unreadable forms; clarity must come from design structure. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Glow control, edge sharpness, and hierarchy are critical. The board must look professionally produced, not like a cluttered fast-food ad.\n\nUse case:\nMenu System single study 8/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake menu prices, no warped paper errors, no amateur flyer clutter, no chaotic collage, no obvious software UI chrome, no legible lettering, no LED glare blowout, no cashier screen UI.",
+  "id": "counter-lightbox-board",
+  "title": "Counter Lightbox Board",
+  "description": "A counter-mounted lightbox or menu board mockup that prioritizes layout clarity and food hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/menu-cover-and-spread-food-system/packages/single-support-studies/images/counter-lightbox-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Counter Lightbox Board",
+      "description": "A counter-mounted lightbox or menu board mockup that prioritizes layout clarity and food hierarchy."
+    },
+    "zh-CN": {
+      "title": "柜台灯箱板",
+      "description": "柜台灯箱板：菜单系统主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A counter-mounted lightbox or menu board mockup that prioritizes layout clarity and food hierarchy.",
+      "zh-CN": "柜台灯箱板，用于菜单系统主题。"
+    }
+  }
+}

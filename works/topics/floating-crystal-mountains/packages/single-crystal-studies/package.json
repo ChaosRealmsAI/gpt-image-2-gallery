@@ -1,0 +1,64 @@
+{
+  "id": "single-crystal-studies",
+  "type": "single",
+  "title": "Crystal Studies",
+  "description": "Five independent hyper-surreal portraits of different crystal-material mountain structures suspended over water, each standing on its own.",
+  "creative_direction": "Each single image explores a different crystal species and composition language: amethyst column, quartz natural bridge, obsidian spire, topaz glacier, and diamond plateau. All feel like 35mm large-format field photographs of impossible geology.",
+  "cover_image": "images/amethyst-column/image.png",
+  "i18n": {
+    "en": {
+      "title": "Crystal Studies",
+      "description": "Five independent hyper-surreal portraits of different crystal-material mountain structures suspended over water, each standing on its own."
+    },
+    "zh-CN": {
+      "title": "水晶单图研究",
+      "description": "五张独立的超现实悬浮水晶山体研究 · 各自呈现不同晶体种类与构图语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "amethyst-column",
+      "title": "Amethyst Column",
+      "image": "images/amethyst-column/image.png",
+      "meta": "images/amethyst-column/meta.json"
+    },
+    {
+      "id": "quartz-bridge",
+      "title": "Quartz Bridge",
+      "image": "images/quartz-bridge/image.png",
+      "meta": "images/quartz-bridge/meta.json"
+    },
+    {
+      "id": "obsidian-spire",
+      "title": "Obsidian Spire",
+      "image": "images/obsidian-spire/image.png",
+      "meta": "images/obsidian-spire/meta.json"
+    },
+    {
+      "id": "topaz-glacier",
+      "title": "Topaz Glacier",
+      "image": "images/topaz-glacier/image.png",
+      "meta": "images/topaz-glacier/meta.json"
+    },
+    {
+      "id": "diamond-plateau",
+      "title": "Diamond Plateau",
+      "image": "images/diamond-plateau/image.png",
+      "meta": "images/diamond-plateau/meta.json"
+    }
+  ]
+}

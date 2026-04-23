@@ -1,0 +1,44 @@
+{
+  "id": "single-miami-deco-studies",
+  "type": "single",
+  "title": "Miami Deco Studies",
+  "description": "Nine independent 80s Miami-deco poster studies — each is a resort-era announcement crop testing flamingo pink, tropical teal, mustard gold, palm silhouettes, and speedline triangles at modern print fidelity.",
+  "creative_direction": "Each image is a 1:1 poster crop for a different resort-era announcement (palm poster, speedline announcement, standalone flamingo, mustard swoosh cover, pool deck, convertible dusk, boardwalk sign, cocktail kiosk, tennis club). Shared palette: flamingo pink plus tropical teal plus mustard gold. Shared treatments: angular speedline triangles, pastel stucco texture, condensed sans titles with curved underline swoosh.",
+  "cover_image": "images/pink-palm-poster/image.png",
+  "i18n": {
+    "en": {
+      "title": "Miami Deco Studies",
+      "description": "Nine independent 80s Miami-deco poster studies — each is a resort-era announcement crop testing flamingo pink, tropical teal, mustard gold, palm silhouettes, and speedline triangles at modern print fidelity."
+    },
+    "zh-CN": {
+      "title": "迈阿密装饰单图研究",
+      "description": "九张独立的 80 年代迈阿密装饰海报研究 · 每张是度假时代公告裁切 · 测试火烈鸟粉 / 热带青 / 芥末金 / 棕榈剪影 / 速度线三角以现代印刷精度。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering",
+      "pattern"
+    ]
+  },
+  "images": [
+    { "id": "pink-palm-poster", "title": "Pink Palm Poster", "image": "images/pink-palm-poster/image.png", "meta": "images/pink-palm-poster/meta.json" },
+    { "id": "teal-speedline-announcement", "title": "Teal Speedline Announcement", "image": "images/teal-speedline-announcement/image.png", "meta": "images/teal-speedline-announcement/meta.json" },
+    { "id": "flamingo-standalone", "title": "Flamingo Standalone", "image": "images/flamingo-standalone/image.png", "meta": "images/flamingo-standalone/meta.json" },
+    { "id": "mustard-swoosh-cover", "title": "Mustard Swoosh Cover", "image": "images/mustard-swoosh-cover/image.png", "meta": "images/mustard-swoosh-cover/meta.json" },
+    { "id": "pool-resort-deck", "title": "Pool Resort Deck", "image": "images/pool-resort-deck/image.png", "meta": "images/pool-resort-deck/meta.json" },
+    { "id": "convertible-dusk-cruise", "title": "Convertible Dusk Cruise", "image": "images/convertible-dusk-cruise/image.png", "meta": "images/convertible-dusk-cruise/meta.json" },
+    { "id": "boardwalk-sign-poster", "title": "Boardwalk Sign Poster", "image": "images/boardwalk-sign-poster/image.png", "meta": "images/boardwalk-sign-poster/meta.json" },
+    { "id": "cocktail-kiosk-menu", "title": "Cocktail Kiosk Menu", "image": "images/cocktail-kiosk-menu/image.png", "meta": "images/cocktail-kiosk-menu/meta.json" },
+    { "id": "tennis-club-announcement", "title": "Tennis Club Announcement", "image": "images/tennis-club-announcement/image.png", "meta": "images/tennis-club-announcement/meta.json" }
+  ]
+}

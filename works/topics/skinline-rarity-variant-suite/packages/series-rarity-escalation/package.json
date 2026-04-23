@@ -1,0 +1,72 @@
+{
+  "id": "series-rarity-escalation",
+  "type": "series",
+  "title": "Rarity Escalation Series",
+  "description": "A reference-driven skinline series that escalates one heroine from base look to increasingly premium rarity tiers.",
+  "creative_direction": "Image 01 establishes the core heroine and base cosmetic logic. Images 02-04 preserve the exact same identity while amplifying rarity, materials, VFX restraint, and commercial presentation.",
+  "cover_image": "images/01-reference-base-skin/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-base-skin/meta.json",
+      "images/02-rare-prism-upfit/meta.json",
+      "images/03-epic-storm-upfit/meta.json",
+      "images/04-legendary-solar-upfit/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-base-skin first. Use its runtime result URL as --ref for 02-rare-prism-upfit, 03-epic-storm-upfit, 04-legendary-solar-upfit. Queue may run the dependent images concurrently after 01-reference-base-skin is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rarity Escalation Series",
+      "description": "A reference-driven skinline series that escalates one heroine from base look to increasingly premium rarity tiers."
+    },
+    "zh-CN": {
+      "title": "稀有度升级系列",
+      "description": "围绕同一个角色做皮肤线，从基础款到高稀有度和活动变体，重点看身份保持和升级逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-base-skin",
+      "title": "Reference Base Skin",
+      "image": "images/01-reference-base-skin/image.png",
+      "meta": "images/01-reference-base-skin/meta.json"
+    },
+    {
+      "id": "02-rare-prism-upfit",
+      "title": "Rare Prism Upfit",
+      "image": "images/02-rare-prism-upfit/image.png",
+      "meta": "images/02-rare-prism-upfit/meta.json"
+    },
+    {
+      "id": "03-epic-storm-upfit",
+      "title": "Epic Storm Upfit",
+      "image": "images/03-epic-storm-upfit/image.png",
+      "meta": "images/03-epic-storm-upfit/meta.json"
+    },
+    {
+      "id": "04-legendary-solar-upfit",
+      "title": "Legendary Solar Upfit",
+      "image": "images/04-legendary-solar-upfit/image.png",
+      "meta": "images/04-legendary-solar-upfit/meta.json"
+    }
+  ]
+}

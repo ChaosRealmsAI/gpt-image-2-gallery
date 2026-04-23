@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System",
+  "description": "Four reference-dependent images establishing a reusable spec tech cutaway visual system.",
+  "creative_direction": "Image 01 establishes the reusable Spec Tech Cutaway anchor. Images 02-04 preserve the outer shell silhouette, internal chamber sequencing, conduit routing, and diagram hierarchy while changing scene context and deliverable emphasis.",
+  "cover_image": "images/01-jump-core-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-jump-core-anchor/meta.json",
+      "images/02-field-expanded-mode/meta.json",
+      "images/03-maintenance-open-mode/meta.json",
+      "images/04-industrial-scale-version/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System",
+      "description": "Four reference-dependent images establishing a reusable spec tech cutaway visual system."
+    },
+    "zh-CN": {
+      "title": "核心系统",
+      "description": "围绕技术剖面建立四张参考依赖的核心系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-jump-core-anchor",
+      "title": "Jump Core Anchor",
+      "image": "images/01-jump-core-anchor/image.png",
+      "meta": "images/01-jump-core-anchor/meta.json"
+    },
+    {
+      "id": "02-field-expanded-mode",
+      "title": "Field Expanded Mode",
+      "image": "images/02-field-expanded-mode/image.png",
+      "meta": "images/02-field-expanded-mode/meta.json"
+    },
+    {
+      "id": "03-maintenance-open-mode",
+      "title": "Maintenance Open Mode",
+      "image": "images/03-maintenance-open-mode/image.png",
+      "meta": "images/03-maintenance-open-mode/meta.json"
+    },
+    {
+      "id": "04-industrial-scale-version",
+      "title": "Industrial Scale Version",
+      "image": "images/04-industrial-scale-version/image.png",
+      "meta": "images/04-industrial-scale-version/meta.json"
+    }
+  ]
+}

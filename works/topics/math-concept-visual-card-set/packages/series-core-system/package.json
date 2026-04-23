@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Math Card System",
+  "description": "Four reference-dependent images define a visual math-card system across counting, shape sorting, fractions, and patterns.",
+  "creative_direction": "Image 01 locks the card format, manipulable diagram style, and child-friendly mathematical clarity. Images 02-04 preserve the same proportions and visual grammar while shifting the concept being taught.",
+  "cover_image": "images/01-reference-counting-cards/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-counting-cards/meta.json",
+      "images/02-shape-sorting-cards/meta.json",
+      "images/03-fraction-snack-cards/meta.json",
+      "images/04-pattern-sequence-cards/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-counting-cards first. Use its runtime result URL as --ref for 02-shape-sorting-cards, 03-fraction-snack-cards, 04-pattern-sequence-cards. Queue may run those images concurrently after 01-reference-counting-cards is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Math Card System",
+      "description": "Four reference-dependent images define a visual math-card system across counting, shape sorting, fractions, and patterns."
+    },
+    "zh-CN": {
+      "title": "核心数学卡系统",
+      "description": "四张依赖参考图的画面建立统一数学卡系统，覆盖计数、图形分类、分数和规律。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-counting-cards",
+      "title": "Reference Counting Cards",
+      "image": "images/01-reference-counting-cards/image.png",
+      "meta": "images/01-reference-counting-cards/meta.json"
+    },
+    {
+      "id": "02-shape-sorting-cards",
+      "title": "Shape Sorting Cards",
+      "image": "images/02-shape-sorting-cards/image.png",
+      "meta": "images/02-shape-sorting-cards/meta.json"
+    },
+    {
+      "id": "03-fraction-snack-cards",
+      "title": "Fraction Snack Cards",
+      "image": "images/03-fraction-snack-cards/image.png",
+      "meta": "images/03-fraction-snack-cards/meta.json"
+    },
+    {
+      "id": "04-pattern-sequence-cards",
+      "title": "Pattern Sequence Cards",
+      "image": "images/04-pattern-sequence-cards/image.png",
+      "meta": "images/04-pattern-sequence-cards/meta.json"
+    }
+  ]
+}

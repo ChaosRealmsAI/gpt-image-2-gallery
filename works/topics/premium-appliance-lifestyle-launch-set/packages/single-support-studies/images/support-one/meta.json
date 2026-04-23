@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square macro product shot with soft grazing light, restrained reflections, and a calm luxury tonal range. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original appliance detail zone showing a control knob, spout, seam, touch surface, and surrounding finish transitions. Make the subject feel original, production-aware, and clearly grounded in Premium Appliance Lifestyle Launch Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nStress tactile quality, manufacturable detailing, and subtle use precision. The crop should feel rich and useful, not merely decorative. The visual language should still feel native to Premium Appliance Lifestyle Launch Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nAppliance Launch single study 5/9 for Premium Appliance Lifestyle Launch Set, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable labels, no food-brand packaging, no influencer clutter, no unrealistic steam, no decorative overload.",
+  "id": "support-one",
+  "title": "Detail Finish Closeup",
+  "description": "A close study of premium appliance finish transitions and tactile controls.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-appliance-lifestyle-launch-set/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Detail Finish Closeup",
+      "description": "A close study of premium appliance finish transitions and tactile controls."
+    },
+    "zh-CN": {
+      "title": "材质细节特写",
+      "description": "高端家电材质过渡与触感控制的细节研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A tactile closeup of an original premium appliance detail.",
+      "zh-CN": "原创高端家电细节的触感特写。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square close top-down product shot of a magnetic literacy tray resting on a classroom table, with clean side light revealing soft plastic texture and tidy compartments. The image should feel like a new teaching tool launch visual rather than a casual desktop snapshot. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFeature colored magnetic chips, picture tokens, empty sound slots, and movable divider bars that suggest phoneme sequencing and blending. The tray must look intuitive for children and clearly part of an educational tool ecosystem, even without actual letters. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nUse a restrained palette and very controlled object spacing so the product reads clearly. The modular compartments, rounded corners, and pictorial cues should do the instructional work that text would normally handle. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nPhonics and Reading Practice Sheet single study 4/5, magnetic phoneme tray.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no real letters, no logos, no teacher scribbles, no chaotic classroom mess, no broken magnets.",
+  "id": "04-magnetic-phoneme-tray",
+  "title": "Magnetic Phoneme Tray",
+  "description": "A tactile magnetic tray that translates phonics sequencing into physical play.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/single-support-studies/images/04-magnetic-phoneme-tray/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 4 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Magnetic Phoneme Tray",
+      "description": "A tactile magnetic tray that translates phonics sequencing into physical play."
+    },
+    "zh-CN": {
+      "title": "磁吸音素托盘",
+      "description": "把自然拼读排序转化为实体操作体验的磁吸托盘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A tactile magnetic tray that translates phonics sequencing into physical play.",
+      "zh-CN": "把自然拼读排序转化为实体操作体验的磁吸托盘。"
+    }
+  }
+}

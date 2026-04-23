@@ -1,0 +1,40 @@
+{
+  "id": "supercell-plains-storm",
+  "slug": "supercell-plains-storm",
+  "title": "Supercell Plains Storm",
+  "short_title": "Supercell Storm",
+  "description": "A supercell thunderstorm spiraling over American Great Plains, mesocyclone visible, green-tinted sky below, wheat fields golden in foreground, a single farm house with lit porch.",
+  "i18n": {
+    "en": {
+      "title": "Supercell Plains Storm",
+      "short_title": "Supercell Storm",
+      "description": "A supercell thunderstorm spiraling over American Great Plains, mesocyclone visible, green-tinted sky below, wheat fields golden in foreground, a single farm house with lit porch."
+    },
+    "zh-CN": {
+      "title": "大平原超级单体风暴",
+      "short_title": "超级风暴",
+      "description": "美国大平原超级单体雷暴盘旋 · 可见中气旋 · 下方青色天 · 金黄麦田 · 农舍廊灯点亮。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1300,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Supercell Storm Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

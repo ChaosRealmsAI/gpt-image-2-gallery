@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square celestial chart as if it were a carefully restored historical plate viewed perfectly flat to the viewer. The image should combine parchment authority, measured circular layout, and precise star placement with enough visual richness to feel like a collector-grade cosmological artifact rather than a generic map graphic. Use deep indigo, silver, and old parchment browns, keeping the camera flat and the mood quiet. Keep the square crop exact, the camera flat, and the tonal design disciplined enough that structure stays clear at poster scale and under close inspection.\n\nSubject:\nUse a zodiac wheel, star field, coordinate arcs, and astrolabe-like structures to organize mythic constellation figures across the page. The figures should arise from the constellations with graceful economy, while the astronomical scaffolding remains clear enough that the image still feels like serious cartography instead of fantasy painting. Focus this variation on a darker chart with silver stars, pale figures, and a hushed observatory mood built on exact geometry. The composition should feel complete and singular, as though one finished artifact has been resolved with full conviction rather than one fragment pulled from a larger sheet.\n\nImportant details:\nHierarchy is critical. Keep the star field ordered, the circular bands centered, and the corner instruments disciplined. Use gold, sepia, lapis, and faded ivory in controlled balance, reserving the strongest accents for major constellations, cardinal axes, and instrument joints. Annotation-like marks must remain abstract and unreadable. Night atmosphere should heighten focus, not obscure the relationship between star positions, circular bands, and corner instruments. Preserve crisp edge behavior, stable hierarchy, and enough fine information that the image rewards slow viewing without losing the main read from a distance.\n\nUse case:\nCelestial Chart single study 4/9, designed as a self-contained sacred-geometry image with a distinct material and compositional emphasis.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no random modern infographic styling, no readable labels, no distorted zodiac wheel, no cartoon myth figures, no scattered stars without logic, no theatrical cloud wallpaper, no telescope room scene, no cinematic moon glow, no fuzzy star clusters.",
+  "id": "04-midnight-observatory-map",
+  "title": "Midnight Observatory Map",
+  "description": "Midnight Observatory Map interprets Celestial Chart as an independent image study focused on a darker chart with silver stars, pale figures, and a hushed observatory mood built on exact geometry.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "structured-layout",
+    "technical-diagram"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/celestial-chart-renaissance/packages/single-celestial-chart-studies/images/04-midnight-observatory-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Celestial Chart single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Midnight Observatory Map",
+      "description": "Midnight Observatory Map interprets Celestial Chart as an independent image study focused on a darker chart with silver stars, pale figures, and a hushed observatory mood built on exact geometry."
+    },
+    "zh-CN": {
+      "title": "午夜观象图",
+      "description": "午夜观象图：天象图 的独立单图研究，强调银星与浅色神话形象的深夜图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "structured-layout",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "Midnight Observatory Map study for Celestial Chart.",
+      "zh-CN": "天象图主题中的午夜观象图图像研究。"
+    }
+  }
+}

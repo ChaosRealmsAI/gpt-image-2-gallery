@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same drained municipal indoor pool, now lit only by a handful of battery-backed emergency fixtures. The main fluorescent grid is dead. Two wall-mounted emergency bulbs at the far end glow chilly green-white, while a red EXIT-style fixture casts a faint warm halo on the adjacent ceiling panel. The photographer still fires a direct on-camera flash, which now dominates the near half of the image with a hard cone of light. 35mm grain and slight green color cast.\n\nSubject:\nThe identical six-lane empty basin from the reference, same standing vantage, same tile geometry. The metal ladder, cream deck tile, aqua wall tile, and lane stripes all match. The emergency light pools leave large sections of the basin in true black, so the flash is the main source that reveals nearby drain, puddle sheen, and floor grout. Far end of the hall fades into ambiguity.\n\nImportant details:\nLayer three discrete light sources: harsh near-camera flash, distant cold emergency bulbs, and a warm accent from an emergency exit fixture. Keep tile and ladder alignment identical to the reference image — this is the same room re-lit. Shadows must fall away from the camera. The feeling is 'power went out but the building is still standing'. No figure, no staff, no photographer reflection in any puddle.\n\nUse case:\nSeries image 3 of 4. Preserves reference basin under emergency-only lighting.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no swimmers, no staff, no fictional creature, no lens flare, no tile perspective distortion.",
+  "id": "03-pool-emergency-light",
+  "title": "Pool · Emergency Light Only",
+  "description": "Same reference pool lit only by emergency fixtures plus direct camera flash, preserving tile geometry and vantage.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/03-pool-emergency-light/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-pool-night",
+        "meta_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/meta.json",
+        "image_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01. Same basin under emergency fixtures + flash."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pool · Emergency Light Only",
+      "description": "Same reference pool lit only by emergency fixtures plus direct camera flash, preserving tile geometry and vantage."
+    },
+    "zh-CN": {
+      "title": "泳池 · 应急灯",
+      "description": "与基准同一水池,仅靠应急灯加直闪照明,瓷砖结构与机位保留。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "The same empty pool with main lights off, only emergency bulbs and camera flash active.",
+      "zh-CN": "同一座空泳池主灯熄灭,只剩应急灯与相机闪光灯工作。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square seamless studio with charcoal gradients, soft floor reflection, disciplined top light, and razor-clean premium contrast. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original premium electric grand tourer with a long wheelbase, flush glazing, crisp shoulder line, turbine wheels, disciplined metallic paint, and an abstract brandless lamp signature. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nTurn the same car into a master campaign plate with meticulous paint behavior, glass control, wheel clarity, and a polished sense of final approved artwork. Preserve the same exact vehicle silhouette, wheel design, greenhouse proportions, body-color family, and lamp signature across the series. Reflections must explain the surfacing cleanly. The images should feel like real launch-campaign assets rather than anonymous stock renders. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch series study 4/9 for New Car Launch Key Visual System, built as image 04-presentation-master.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no dealership clutter, no race decals, no readable plate, no badge lettering, no cheap showroom props.",
+  "id": "04-presentation-master",
+  "title": "Presentation Master",
+  "description": "The same vehicle resolved into a controlled studio master for rollout use.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/04-presentation-master/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Presentation Master",
+      "description": "The same vehicle resolved into a controlled studio master for rollout use."
+    },
+    "zh-CN": {
+      "title": "母版主图",
+      "description": "将同一车型转化为受控棚拍的 rollout 母版主图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "The reference launch car photographed in a dramatic charcoal studio.",
+      "zh-CN": "同一发布车型在炭黑棚拍中的最终母版主视觉。"
+    }
+  }
+}

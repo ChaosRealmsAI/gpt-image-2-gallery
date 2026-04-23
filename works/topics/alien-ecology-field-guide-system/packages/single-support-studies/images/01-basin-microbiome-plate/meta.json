@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square alien-naturalist board that could live inside a field guide, exhibition panel, or worldbuilding deck. Treat the background and layout as part of the scientific storytelling, not as empty filler. Compose a board where one mineral basin is shown at macro scale and linked visually to translucent microbial colonies, membrane foams, and sediment lattices.\n\nSubject:\nShow one ecosystem component clearly enough to study: species, colony, migration route, terrain patch, or microbiome structure. The organisms should feel biologically integrated with their environment and each other. The main read should be about pattern, growth, and chemical exchange across scales rather than one heroic creature.\n\nImportant details:\nFavor specimen clarity, habitat context, and pattern logic over spectacle. Even the strangest form should imply believable growth, feeding, protection, or movement strategies. Use precise textures and disciplined callout hierarchy so the image feels scientific and surprising at once. Preserve biological cause and effect so each ecology study reads as a system rather than an arbitrary monster illustration.\n\nUse case:\nAlien Ecology single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no encyclopedic text blocks, no cute cartoon mascots, no violent attack poses, no generic Earth animals with minor edits, no horror petri-dish look.",
+  "id": "01-basin-microbiome-plate",
+  "title": "Basin Microbiome Plate",
+  "description": "Basin Microbiome Plate presents a dense microscopic-to-landscape board mapping the microbial life of an alien basin.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "scientific-realism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/alien-ecology-field-guide-system/packages/single-support-studies/images/01-basin-microbiome-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Alien Ecology support study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Basin Microbiome Plate",
+      "description": "Basin Microbiome Plate presents a dense microscopic-to-landscape board mapping the microbial life of an alien basin."
+    },
+    "zh-CN": {
+      "title": "Basin Microbiome Plate",
+      "description": "异星生态主题中的Basin Microbiome Plate图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Basin Microbiome Plate presents a dense microscopic-to-landscape board mapping the microbial life of an alien basin.",
+      "zh-CN": "异星生态主题中的Basin Microbiome Plate图像。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nSame straight-on catalog shot of the reference triptych, same lighting, same frame, same velvet backdrop. The central panel has been re-imaged.\n\nSubject:\nThe identical triptych frame, grid density, bead lines and copper moulding are preserved. The central panel now shows a Saint of Data — a standing robed figure whose chest is an open compartment revealing a cluster of backlit colored glass cells arranged as a tidy bar-chart pattern. In both hands the saint holds small ribbon-like ledgers of stitched light, each ribbon depicting an abstract line chart in the colored-glass cells. Side panels unchanged but with small chart-reading attendants.\n\nImportant details:\nPreserve exact frame proportions, bead cadence and copper moulding from the reference. Chart shapes must look like proper data visualizations — bar heights varied, line chart has monotonic slopes — but no numeric labels, no axis text. The chest compartment must read as a deliberate design element, framed by its own smaller copper arch. Color palette: saint robe in cool ultramarine, charts in amber / coral / teal cells.\n\nUse case:\nStained Glass LED Altar series image 3/4, depends on reference altar; showcases Saint of Data variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no numerals on charts, no brand visualization logos, no modern interface icons, no monetary symbols, keep triptych frame identity from reference.",
+  "id": "03-saint-of-data",
+  "title": "Saint of Data",
+  "description": "The reference triptych with a Saint of Data whose chest compartment shows backlit colored-glass bar charts and who holds ribbon ledgers of stitched light.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "data-visualization",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/03-saint-of-data/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-altar",
+        "meta_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/meta.json",
+        "image_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 triptych frame; central panel becomes Saint of Data."
+  },
+  "i18n": {
+    "en": {
+      "title": "Saint of Data",
+      "description": "The reference triptych with a Saint of Data whose chest compartment shows backlit colored-glass bar charts and who holds ribbon ledgers of stitched light."
+    },
+    "zh-CN": {
+      "title": "数据之圣人",
+      "description": "基准三联画中央替换为数据之圣人，胸腔舱室显示彩色玻璃柱状图，双手持光线织成的账卷。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "The triptych with a Saint of Data whose chest is an open chart compartment and who holds ribbon ledgers.",
+      "zh-CN": "三联画中央的数据之圣人，胸腔开仓显示柱状图，双手持光账卷。"
+    }
+  }
+}

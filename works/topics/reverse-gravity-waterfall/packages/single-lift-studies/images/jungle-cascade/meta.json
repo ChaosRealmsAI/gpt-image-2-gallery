@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at humid late afternoon, 28mm full-frame camera deep inside a tropical rainforest. Dense canopy layers filter sunlight into moving green shafts; high humidity visible as thick air haze between the trees.\n\nSubject:\nA three-tiered jungle waterfall where every tier has reversed. Water leaves a pool at the forest floor, climbs over the first ledge in a 15-meter reverse cascade, then the second, then the third, before disappearing into the canopy above and resurfacing as mist between leaves. Ferns and moss-covered rocks around the pool are saturated with the upward splash-back.\n\nImportant details:\nTropical photorealism: glossy wet leaves, rich moss, occasional tropical flower. The reverse cascades retain real fluid detail — foam at each ledge, individual droplet trails rising. A small parrot lands on a moss-covered branch; a tree frog sits on a reverse-dripping leaf. Moisture haze catches light shafts vertically, reinforcing the upward read.\n\nUse case:\nLift-studies single 5/5 — tropical biome reverse-cascade three-tier study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no branded tourist gear, no Mayan ruins, no cartoon, no stylized illustration.",
+  "id": "jungle-cascade",
+  "title": "Jungle Cascade",
+  "description": "A three-tiered rainforest waterfall climbing upward tier by tier into the canopy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/single-lift-studies/images/jungle-cascade/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — jungle reverse-cascade."
+  },
+  "i18n": {
+    "en": {
+      "title": "Jungle Cascade",
+      "description": "A three-tiered rainforest waterfall climbing upward tier by tier into the canopy."
+    },
+    "zh-CN": {
+      "title": "雨林反瀑",
+      "description": "热带雨林中三级反向瀑布 · 逐级向上攀升入林冠。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A three-tier rainforest waterfall climbing upward into the canopy.",
+      "zh-CN": "雨林三级反瀑布 · 逐级向上入林冠。"
+    }
+  }
+}

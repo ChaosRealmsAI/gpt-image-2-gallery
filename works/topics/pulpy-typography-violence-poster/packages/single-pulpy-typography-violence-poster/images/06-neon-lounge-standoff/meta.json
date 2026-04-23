@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square poster-like composition with loud red, tobacco yellow, nicotine cream, and deep black arranged in flat graphic blocks over a staged crime tableau. The lighting should feel hard and directional, but the overall image should still read as a designed print object rather than a literal movie still. Create a low-lit cocktail lounge with ruby banquettes, mirrored wall strips, and hard rectangular overlays that feel like printed typography stripped of letters.\n\nSubject:\nFocus on an implied act of violence or aftermath through frozen props, bodies held in stiff poses, diner booths, cheap motel details, briefcases, dashboard reflections, or nightclub furniture. The people should feel iconic and deadpan, with tension communicated through placement and color rather than explicit gore. Two sharply dressed figures face each other across a table with one untouched drink and one scarlet lipstick smear on the rim.\n\nImportant details:\nThe crucial visual rule is the collision of graphic poster language and static pulp staging. Use oversized non-readable letterform-like shapes, caption bars, drop-shadow slabs, and paper-print textures without introducing actual words. Preserve bold silhouette hierarchy, cropped tension, and cynical cool. Use the overlays to punch the image into poster space while the lounge remains tactile, cynical, and still.\n\nUse case:\nPulpy Typography Over Violent Tableau single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no explicit gore, no dismemberment, no recognizable brand packaging, no comic speech balloons, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-neon-lounge-standoff",
+  "title": "Neon Lounge Standoff",
+  "description": "A lounge standoff translated into a print-heavy pulp composition with non-readable typographic shapes.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "style-transfer",
+    "structured-layout",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pulpy-typography-violence-poster/packages/single-pulpy-typography-violence-poster/images/06-neon-lounge-standoff/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pulpy typography study focused on neon lounge standoff.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Neon Lounge Standoff",
+      "description": "A lounge standoff translated into a print-heavy pulp composition with non-readable typographic shapes."
+    },
+    "zh-CN": {
+      "title": "Neon Lounge Standoff",
+      "description": "围绕低俗印刷的第6张独立研究图，聚焦 Neon Lounge Standoff。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A ruby lounge scene with two posed figures and abstract poster blocks replacing readable typography.",
+      "zh-CN": "低俗印刷主题图：Neon Lounge Standoff。"
+    }
+  }
+}

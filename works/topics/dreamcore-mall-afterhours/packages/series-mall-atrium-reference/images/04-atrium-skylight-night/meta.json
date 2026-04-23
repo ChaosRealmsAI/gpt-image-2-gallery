@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same mall atrium, camera vantage identical to the reference, now implicitly including the high ceiling: a pyramidal glass skylight in the atrium roof, black with night outside. 90s direct camera flash hits the ground floor while the skylight overhead reads as a cold black aperture with faint parking-lot lamp glow leaking in. 35mm grain, magenta cast.\n\nSubject:\nSame atrium footprint: cream-pink terrazzo, central planter with faux ficus, wooden benches, escalator pair at back, balcony railings above. Now the framing tilts slightly to capture the overhead pyramidal skylight structure — steel trusses crisscrossed above the balcony, glass panels between, showing night sky beyond. Some overhead fixtures are off, leaving harsh spot shadows around the trusses. Storefronts along both floors remain shuttered.\n\nImportant details:\nSkylight must read as structural glass pyramid or faceted dome, not flat window. Night outside must be inky, with a single distant yellow-orange lamp glow leaking through one pane. Preserve atrium footprint, planter position, and escalator geometry from reference. The vertical dimension becomes emphatic. No moon, no star, no bird. No shopper, no photographer reflection on polished floor.\n\nUse case:\nSeries image 4 of 4. Same atrium, skylight at night visible overhead.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no people, no moon, no stars, no lens flare, no cinematic grade.",
+  "id": "04-atrium-skylight-night",
+  "title": "Atrium · Skylight at Night",
+  "description": "Same reference atrium now tilted up to reveal the overhead glass-truss skylight at night, preserving ground-floor footprint.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/04-atrium-skylight-night/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-atrium-after-close",
+        "meta_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/meta.json",
+        "image_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01. Same atrium with skylight overhead at night."
+  },
+  "i18n": {
+    "en": {
+      "title": "Atrium · Skylight at Night",
+      "description": "Same reference atrium now tilted up to reveal the overhead glass-truss skylight at night, preserving ground-floor footprint."
+    },
+    "zh-CN": {
+      "title": "中庭 · 夜晚天窗",
+      "description": "同一中庭镜头上抬,露出头顶钢桁架玻璃金字塔天窗,夜色一片漆黑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "Same mall atrium tilted up, revealing a black glass-truss skylight at night above.",
+      "zh-CN": "同一商场中庭上望,头顶是夜色中黑沉的玻璃桁架天窗。"
+    }
+  }
+}

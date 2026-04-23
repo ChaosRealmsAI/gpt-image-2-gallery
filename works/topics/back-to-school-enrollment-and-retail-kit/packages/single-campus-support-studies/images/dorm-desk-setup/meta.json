@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square student-room or dorm-desk image with soft daylight, practical furniture, and a polished lived-in feel. The frame should feel contemporary and premium enough for campaign use while still grounded in real student life. Keep the composition clean and structured, with a balance of productivity, comfort, and compact space efficiency.\n\nSubject:\nShow a desk setup with laptop-like form, notebooks, lamp, bedding edge or textile, storage units, and one or two personal objects that suggest a new term beginning. The subject should communicate readiness, self-direction, and manageable independence. Keep everything brand-neutral and free of readable notes or posters.\n\nImportant details:\nTexture and spatial logic are key. Fabric, wood, plastic, metal, and daylight should all feel believable. Avoid aspirational luxury that erases student reality, but keep enough polish that the scene works for education, furniture, tech, or retail campaigns tied to the school season. Keep the frame precise enough for gallery, research, and campaign reuse, with believable materials and a strong thumbnail read.\n\nUse case:\nBack to School single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable posters, no logo laptop, no messy laundry pile, no mascot décor, no gaming neon, no food clutter, no chalkboard text, no graduation items.",
+  "id": "dorm-desk-setup",
+  "title": "Dorm Desk Setup",
+  "description": "A student-living back-to-school study focused on compact productivity and personal comfort.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/single-campus-support-studies/images/dorm-desk-setup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent dorm-setup study for back-to-school campaigns.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dorm Desk Setup",
+      "description": "A student-living back-to-school study focused on compact productivity and personal comfort."
+    },
+    "zh-CN": {
+      "title": "宿舍桌面布置",
+      "description": "聚焦紧凑效率与个人舒适感的学生宿舍开学季研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A dorm desk back-to-school scene with compact productivity tools and fresh student energy.",
+      "zh-CN": "带有紧凑效率工具与清新学生活力的宿舍桌面场景。"
+    }
+  }
+}

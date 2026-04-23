@@ -1,0 +1,46 @@
+{
+  "id": "classroom-routine-and-rule-visual-set",
+  "title": "Classroom Routine and Rule Visual Set",
+  "short_title": "Classroom Rules",
+  "description": "Create classroom routine and rule visuals that are calm, friendly, and easy for children to follow.",
+  "i18n": {
+    "en": {
+      "title": "Classroom Routine and Rule Visual Set",
+      "short_title": "Classroom Rules",
+      "description": "Create classroom routine and rule visuals that are calm, friendly, and easy for children to follow."
+    },
+    "zh-CN": {
+      "title": "课堂流程与规则视觉组",
+      "short_title": "课堂规则",
+      "description": "做课堂流程与规则视觉组，让儿童容易理解和执行。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Routine Poster System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Routine Visual Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

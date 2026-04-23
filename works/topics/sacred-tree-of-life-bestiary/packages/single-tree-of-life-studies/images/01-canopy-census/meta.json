@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nBuild a square image around one towering tree-of-life composition seen straight on, with the trunk, roots, and branch architecture organizing every creature placement. Even when the image becomes crowded, the tree should remain the structural anchor and the viewer should be able to understand the vertical hierarchy from roots to canopy at a glance. Present it like an illuminated natural history plate with calm frontal symmetry and soft dawn light. Keep the square crop exact, the camera flat, and the tonal design disciplined enough that structure stays clear at poster scale and under close inspection.\n\nSubject:\nPopulate the tree with a broad, respectful census of mythic creatures from different sacred traditions: luminous birds, antlered guardians, scaled sky-serpents, leonine protectors, river spirits, horned deer, long-tailed phoenix forms, and other symbolic beings. They should feel related by one illustration language and one ecosystem of reverence rather than like a collage of unrelated references. Focus this variation on a balanced full-tree census with many creatures distributed across four clear canopy strata and one commanding trunk. The composition should feel complete and singular, as though one finished artifact has been resolved with full conviction rather than one fragment pulled from a larger sheet.\n\nImportant details:\nCreature variety is important, but unity matters more. Keep silhouettes distinct, branch placements intentional, and the trunk texture richly developed. Use light, fruit, leaves, bark patterns, and root geometry to connect the inhabitants into one ordered cosmology with clear zones and no empty dead layers. Keep each layer legible, using branch rhythm and subtle color zoning so multiple creatures can coexist without visual collision. Preserve crisp edge behavior, stable hierarchy, and enough fine information that the image rewards slow viewing without losing the main read from a distance.\n\nUse case:\nTree of Life Bestiary single study 1/9, designed as a self-contained sacred-geometry image with a distinct material and compositional emphasis.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no comedic fantasy creatures, no modern mascot styling, no random landscape background stealing focus, no readable labels, no chaotic overlap between animals, no broken tree anatomy, no tangled branches hiding forms, no sentimental fairy-tale mood, no empty lower trunk.",
+  "id": "01-canopy-census",
+  "title": "Canopy Census",
+  "description": "Canopy Census interprets Tree of Life Bestiary as an independent image study focused on a balanced full-tree census with many creatures distributed across four clear canopy strata and one commanding trunk.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sacred-tree-of-life-bestiary/packages/single-tree-of-life-studies/images/01-canopy-census/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Tree of Life Bestiary single-image study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Canopy Census",
+      "description": "Canopy Census interprets Tree of Life Bestiary as an independent image study focused on a balanced full-tree census with many creatures distributed across four clear canopy strata and one commanding trunk."
+    },
+    "zh-CN": {
+      "title": "树冠群像",
+      "description": "树冠群像：生命树神兽谱 的独立单图研究，强调四层树冠中的神兽群像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Canopy Census study for Tree of Life Bestiary.",
+      "zh-CN": "生命树神兽谱主题中的树冠群像图像研究。"
+    }
+  }
+}

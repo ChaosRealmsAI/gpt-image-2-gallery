@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement illustration, medium close-up on the front of the teardrop turquoise refrigerator from the reference kitchen, with the door open. Camera is head-on, eye-level. Warm ad-lit studio lighting matches the reference, with halftone grain and gentle offset print feel.\n\nSubject:\nThe same teardrop-shaped turquoise refrigerator established in the reference, shown with its single rounded chrome spaceship-style handle pulled wide open. Inside: chrome wire shelves, a glass bottle of whole milk with a pleated foil cap, a bowl of plump red cherries, a block of bright-yellow cheese, a jar of green olives, a small turquoise plate of cold cuts, and at the top shelf a round glass bowl of bright-red jello with cream on top. The interior is softly lit with a warm incandescent glow and a small amber interior light is visible. A sliver of ivory laminate counter and boomerang wallpaper remain at frame edges to tie back to the reference.\n\nImportant details:\nPreserve the exact teardrop body shape, turquoise enamel shade, chrome handle form, and side profile proportions from the reference. Fridge interior must feel like a 1958 ad of a well-stocked modern icebox: glass bottles not plastic, foil-capped milk, primary-color food items. Keep halftone grain and slight CMYK offset on red items. Overall palette locked to ivory, turquoise, cadmium red, bright yellow, powder pink, chrome.\n\nUse case:\nTurquoise Kitchen Set series shot 4 of 4, a product-detail moment showing the hero appliance from the reference in an open-door beauty shot.\n\nConstraints:\nNo readable text, no watermark, no logos, no plastic milk jugs, no modern barcodes, no LCD display, no photoreal skin, no modern minimalist fridge design, preserve exact 1:1 aspect ratio, preserve the reference fridge form.",
+  "id": "04-teardrop-fridge-detail",
+  "title": "Teardrop Fridge Detail",
+  "description": "Open-door beauty shot of the turquoise teardrop refrigerator from the reference kitchen, filled with mid-century foods.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/04-teardrop-fridge-detail/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-kitchen-wide",
+        "meta_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/meta.json",
+        "image_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on kitchen-wide. Use its runtime URL as --ref to preserve the exact teardrop fridge form and palette."
+  },
+  "i18n": {
+    "en": {
+      "title": "Teardrop Fridge Detail",
+      "description": "Open-door beauty shot of the turquoise teardrop refrigerator from the reference kitchen, filled with mid-century foods."
+    },
+    "zh-CN": {
+      "title": "水滴冰箱开门特写",
+      "description": "参考厨房里水滴形松石色冰箱开门的产品特写, 塞满 50s 食品。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A turquoise teardrop refrigerator with the door wide open revealing chrome shelves, foil-cap milk, and red jello.",
+      "zh-CN": "水滴形松石色冰箱门大开, 露出镀铬层架、铝箔盖牛奶和红色果冻。"
+    }
+  }
+}

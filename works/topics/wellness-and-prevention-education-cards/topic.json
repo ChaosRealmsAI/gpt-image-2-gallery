@@ -1,0 +1,40 @@
+{
+  "id": "wellness-and-prevention-education-cards",
+  "slug": "wellness-and-prevention-education-cards",
+  "title": "Wellness and Prevention Education Cards",
+  "short_title": "Wellness Cards",
+  "description": "Create wellness and prevention cards for lifestyle education, seasonal care, and habit support.",
+  "i18n": {
+    "en": {
+      "title": "Wellness and Prevention Education Cards",
+      "short_title": "Wellness Cards",
+      "description": "Create wellness and prevention cards for lifestyle education, seasonal care, and habit support."
+    },
+    "zh-CN": {
+      "title": "健康预防教育卡组",
+      "short_title": "健康教育卡",
+      "description": "做健康预防教育卡组，适合生活方式科普、季节护理和习惯支持。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2050,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "social-feed",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-wellness-card-studies",
+      "type": "single",
+      "title": "Wellness Card Studies",
+      "path": "packages/single-wellness-card-studies/package.json"
+    }
+  ]
+}

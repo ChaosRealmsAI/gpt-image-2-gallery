@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Build a square macro food photograph on a dark plate with shallow depth of field that still keeps the primary garnish field readable. Lighting should be soft and directional, turning droplets, fine stems, and tiny leaves into crisp sculptural elements against a subdued black ground.\n\nSubject:\nCenter one very small bite-sized piece of glazed vegetable terrine, then surround it with a micro meadow of chervil tips, bronze fennel, minute flower petals, tiny pickled onion cubes, and translucent gel pearls. Every element should feel hand placed one at a time, with slight natural irregularity but unmistakable intent. The composition should be lush at macro scale while remaining minimal at plate scale.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Prioritize freshness cues such as subtle moisture, crisp leaf edges, and minute color variation across the greens. The garnish field must feel luxurious and alive rather than decorative filler, and the center bite should remain the quiet anchor that keeps the image from turning into chaos.\n\nUse case:\nThree-star plate art single study 7/9, testing how much life can exist inside a tiny garnish field.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no bouquet-like bunches, no muddy greens, no casual scattering.",
+  "id": "garnish-micro-meadow",
+  "title": "Garnish Micro Meadow",
+  "description": "An extreme close-up study of tweezed herbs, petals, and micro vegetables placed around a tiny center bite.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/single-support-studies/images/garnish-micro-meadow/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Garnish Micro Meadow",
+      "description": "An extreme close-up study of tweezed herbs, petals, and micro vegetables placed around a tiny center bite."
+    },
+    "zh-CN": {
+      "title": "Garnish Micro Meadow",
+      "description": "An extreme close-up study of tweezed herbs, petals, and micro vegetables placed around a tiny center bite."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A macro black-plate study of tiny herbs and petals surrounding one small glazed bite.",
+      "zh-CN": "A macro black-plate study of tiny herbs and petals surrounding one small glazed bite."
+    }
+  }
+}

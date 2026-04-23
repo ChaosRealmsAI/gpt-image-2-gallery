@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square booth-corner environment with one printed wall panel, controlled fair lighting, and believable modular construction. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original industrial product visuals shown across a premium booth wall in a logo-free exhibition context. Make the subject feel original, production-aware, and clearly grounded in Industrial Catalog Cover and Spread System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nGraphics must stay abstract and text-free while the booth feels real and commercially useful. The wall should read as exhibition-ready, not as a speculative concept drawing. The visual language should still feel native to Industrial Catalog Cover and Spread System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCatalog System single study 7/9 for Industrial Catalog Cover and Spread System, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no lorem ipsum, no random office clutter, no unrelated consumer props, no fake brand marks.",
+  "id": "support-three",
+  "title": "Trade Show Wall",
+  "description": "A trade-show wall mockup adapting catalog visual language into a physical exhibition surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-catalog-cover-and-spread-system/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Trade Show Wall",
+      "description": "A trade-show wall mockup adapting catalog visual language into a physical exhibition surface."
+    },
+    "zh-CN": {
+      "title": "展会墙面模拟",
+      "description": "把目录视觉语言适配到实体展会墙面的模拟图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A trade-show wall mockup using original industrial catalog visuals.",
+      "zh-CN": "使用原创工业目录视觉的展会墙面模拟图。"
+    }
+  }
+}

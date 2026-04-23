@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Mid-Autumn campaign image in the same premium moon-gift world, with identical warm evening light, lacquer surfaces, soft gold accents, and moon-window logic from the reference image, but frame the composition closer around a premium hamper arrangement. The visual continuity should feel exact, as though the same brand world has simply shifted to a higher gifting tier.\n\nSubject:\nCenter a luxurious hamper containing mooncake boxes, tea, ceramic serviceware, fruit or floral seasonal accents, and finely packed supporting items arranged into one coherent gift bundle. Preserve exact color balance, material language, and circular motif from the reference image while emphasizing gifting abundance and presentation quality. The hamper should feel commercially real, premium, and suitable for seasonal gifting campaigns.\n\nImportant details:\nThe dependent image must inherit the anchor precisely: same lighting direction, same moon symbolism level, same lacquer and metal textures, and the same modern-calm festive tone. Only the gifting tier and composition density should change. Keep the hamper disciplined and high-end, with believable packing logic and enough breathing room to remain elegant at hero scale.\n\nUse case:\nMid-Autumn series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable gift cards, no mascot figures, no crowd, no logo tins, no cheap wicker picnic vibe, no excessive gold glitter, no fantasy architecture.",
+  "id": "04-premium-hamper-variation",
+  "title": "Premium Hamper Variation",
+  "description": "A premium Mid-Autumn hamper variation staying inside the same moon-gift campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/04-premium-hamper-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-mooncake-lacquer-anchor",
+        "meta_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/meta.json",
+        "image_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent premium-hamper variation for the Mid-Autumn system. Preserve the exact campaign language from 01-mooncake-lacquer-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Premium Hamper Variation",
+      "description": "A premium Mid-Autumn hamper variation staying inside the same moon-gift campaign system."
+    },
+    "zh-CN": {
+      "title": "高端礼篮变体",
+      "description": "保持同一月礼 campaign 系统的中秋高端礼篮变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A premium Mid-Autumn hamper scene derived from the same moon-led gifting campaign.",
+      "zh-CN": "源自同一月相礼赠 campaign 的中秋高端礼篮场景。"
+    }
+  }
+}

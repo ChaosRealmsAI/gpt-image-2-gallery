@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. End with an open doorway framing silver rain outside, while the interior remains dim except for one weak lamp and wet boards near the threshold.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A figure stands just inside the door in stocking feet, looking out as if measuring whether to step into the rain.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. The doorway should operate as a spiritual border between weather and shelter, with no dramatic gesture required.\n\nUse case:\nLong Gaze Through Rain Interior single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-doorway-to-rain",
+  "title": "Doorway To Rain",
+  "description": "A threshold scene where one quiet figure stands before open rain and a dim interior lamp.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/09-doorway-to-rain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on doorway to rain.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Doorway To Rain",
+      "description": "A threshold scene where one quiet figure stands before open rain and a dim interior lamp."
+    },
+    "zh-CN": {
+      "title": "Doorway To Rain",
+      "description": "围绕长凝视的第9张独立研究图，聚焦 Doorway To Rain。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A barefoot figure stands just inside an open doorway, looking out into steady rain.",
+      "zh-CN": "长凝视主题图：Doorway To Rain。"
+    }
+  }
+}

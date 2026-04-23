@@ -1,0 +1,32 @@
+{
+  "id": "torn-paper-zine-collage",
+  "slug": "torn-paper-zine-collage",
+  "category": "illustration",
+  "style": ["handmade", "collage"],
+  "capability": ["editorial-illustration", "structured-layout", "pattern"],
+  "title": "Torn Paper Zine Collage",
+  "short_title": "Zine Collage",
+  "description": "DIY small-press zine collage aesthetic — torn magazine scraps, cut-out letters, rubber cement halos, marker underlines, and scissor-frayed edges that refuse to be straight.",
+  "i18n": {
+    "en": {
+      "title": "Torn Paper Zine Collage",
+      "short_title": "Zine Collage",
+      "description": "DIY small-press zine collage aesthetic — torn magazine scraps, cut-out letters, rubber cement halos, marker underlines, and scissor-frayed edges that refuse to be straight."
+    },
+    "zh-CN": {
+      "title": "撕纸 zine 拼贴",
+      "short_title": "撕纸拼贴",
+      "description": "DIY 小志拼贴美学 · 撕下的杂志残片 · 剪字 · 胶水晕边 · 荧光笔下划线 · 拒绝平直的剪刀毛边。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "structured-layout", "pattern"]
+  },
+  "packages": [
+    { "id": "series-one-zine-issue", "type": "series", "title": "One Zine Issue", "path": "packages/series-one-zine-issue/package.json" },
+    { "id": "single-collage-moods", "type": "single", "title": "Collage Moods", "path": "packages/single-collage-moods/package.json" }
+  ]
+}

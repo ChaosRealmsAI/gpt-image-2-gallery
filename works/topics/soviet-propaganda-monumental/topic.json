@@ -1,0 +1,39 @@
+{
+  "id": "soviet-propaganda-monumental",
+  "title": "Soviet Monumental Propaganda Poster",
+  "short_title": "Soviet Monumental",
+  "description": "Idealized Soviet propaganda poster — workers looking upward heroically, socialist realism lighting, red banners, industrial backdrop, bold Cyrillic text.",
+  "i18n": {
+    "en": {
+      "title": "Soviet Monumental Propaganda Poster",
+      "short_title": "Soviet Monumental",
+      "description": "Idealized Soviet propaganda poster — workers looking upward heroically, socialist realism lighting, red banners, industrial backdrop, bold Cyrillic text."
+    },
+    "zh-CN": {
+      "title": "苏联纪念碑式宣传海报",
+      "short_title": "苏联宣传",
+      "description": "理想化苏联宣传 · 工人仰望英雄姿态 · 社会主义现实主义光 · 红旗 · 工业背景 · 重磅西里尔字。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 580,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

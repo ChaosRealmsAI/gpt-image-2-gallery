@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Compose a loft apartment where one wall has been replaced by server racks and cable management channels, balanced by calm residential furnishings on the opposite side.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. A resident in dark clothing sits at a minimalist sofa facing the racks, small against the machine wall.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. Keep the electronics elegant and believable, with amber status lights punctuating a largely teal, charcoal, and smoke palette.\n\nUse case:\nCold Precision Grid Interior single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "07-server-apartment",
+  "title": "Server Apartment",
+  "description": "A loft interior balancing residential calm against a disciplined wall of server hardware and muted light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/07-server-apartment/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on server apartment.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Server Apartment",
+      "description": "A loft interior balancing residential calm against a disciplined wall of server hardware and muted light."
+    },
+    "zh-CN": {
+      "title": "Server Apartment",
+      "description": "围绕冷精准的第7张独立研究图，聚焦 Server Apartment。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A loft apartment with one wall of servers and a lone seated resident facing the machine grid.",
+      "zh-CN": "冷精准主题图：Server Apartment。"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dreamcore-empty-pool",
+  "slug": "dreamcore-empty-pool",
+  "category": "atmosphere",
+  "style": ["liminal", "flash-photography", "dreamcore"],
+  "capability": ["photorealism", "structured-layout", "world-knowledge"],
+  "title": "Dreamcore Empty Pool",
+  "short_title": "Empty Pool",
+  "description": "Drained or unlit indoor swimming pools captured with 90s direct-flash photography. Familiar ceramic-tile architecture rendered quietly wrong by the complete absence of swimmers.",
+  "i18n": {
+    "en": {
+      "title": "Dreamcore Empty Pool",
+      "short_title": "Empty Pool",
+      "description": "Drained or unlit indoor swimming pools captured with 90s direct-flash photography. Familiar ceramic-tile architecture rendered quietly wrong by the complete absence of swimmers."
+    },
+    "zh-CN": {
+      "title": "梦核空泳池",
+      "short_title": "空泳池",
+      "description": "用 90 年代直闪胶片风格拍摄的抽干或熄灯室内泳池。熟悉的瓷砖建筑因完全无人而变得悄然不对劲。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout", "editorial-illustration"]
+  },
+  "packages": [
+    {
+      "id": "series-empty-pool-reference",
+      "type": "series",
+      "title": "Empty Pool Reference Series",
+      "path": "packages/series-empty-pool-reference/package.json"
+    },
+    {
+      "id": "single-empty-pool-studies",
+      "type": "single",
+      "title": "Empty Pool Studies",
+      "path": "packages/single-empty-pool-studies/package.json"
+    }
+  ]
+}

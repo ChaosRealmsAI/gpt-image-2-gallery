@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the identical square product-shot arrangement one more time, preserving the reference board grid, tabletop warmth, and balanced daylight. It should feel like a third extension in a tightly art-directed line of flashcards prepared for nursery classrooms, e-commerce listing images, and teacher catalog spreads. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nSwap in common daily objects such as a toothbrush, lunchbox, rain boots, cup, backpack, umbrella, and scissors with child-safe simplified form. Each object belongs to one isolated card and sits above a blank caption area so educators could imagine multiple languages or curriculum variations later. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep every structural cue from the reference image intact: the card size, rounded corners, border rhythm, print finish, blank naming space, and palette balance. Let the variation come from object silhouettes and classroom relevance, not from layout changes or new brand behavior. Preserve the same rounded card frame, corner radius, soft shadow depth, illustration scale, and empty caption panel rhythm from the reference board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nEarly Learning Flashcard Family series study 4/4, daily object board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real letters, no readable numerals, no handwriting, no crowded toy-store clutter, no adult hands, no broken card edges.",
+  "id": "04-daily-object-board",
+  "title": "Daily Object Board",
+  "description": "A daily-object recognition board that completes the reference-dependent flashcard family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/04-daily-object-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alphabet-board",
+        "meta_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/meta.json",
+        "image_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-alphabet-board.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Daily Object Board",
+      "description": "A daily-object recognition board that completes the reference-dependent flashcard family."
+    },
+    "zh-CN": {
+      "title": "日常物件卡版",
+      "description": "完成整组参考依赖 flashcard 家族的日常物件认知版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A daily-object recognition board that completes the reference-dependent flashcard family.",
+      "zh-CN": "完成整组参考依赖 flashcard 家族的日常物件认知版。"
+    }
+  }
+}

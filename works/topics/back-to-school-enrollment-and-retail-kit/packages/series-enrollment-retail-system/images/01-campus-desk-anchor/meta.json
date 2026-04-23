@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium back-to-school campaign image with bright morning classroom-like light, crisp shadows, clean desk surfaces, and a palette of notebook neutrals, muted blue, warm yellow, and fresh green accents. The environment should feel energetic and organized, suitable for both education enrollment and retail campaign use. Build the scene as a polished academic reset world, not a generic stock classroom.\n\nSubject:\nCenter an organized desk or campus-ready setup with stationery, backpack or bag, device-like object, planner forms without readable text, and one or two educational or family-retail cues integrated into a clear hierarchy. The subject should communicate readiness, momentum, and practical optimism. Keep it broad enough to support schools, electronics, stationery, or parent-facing retail campaigns under one coherent visual system.\n\nImportant details:\nLock the school-reset grammar here: crisp organization, bright functional light, clean product grouping, campus energy, and a balance between youthful optimism and practical structure. The anchor should feel reusable across enrollment, retail, and orientation materials while remaining clearly back-to-school and commercially useful.\n\nUse case:\nBack to School series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable notebook text, no school logos, no visible grades or report cards, no mascot imagery, no chaotic messy desk, no brand device marks, no classroom chalkboard writing, no graduation cues.",
+  "id": "01-campus-desk-anchor",
+  "title": "Campus Desk Anchor",
+  "description": "A bright back-to-school hero scene establishing the enrollment-and-retail campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the back-to-school system.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Campus Desk Anchor",
+      "description": "A bright back-to-school hero scene establishing the enrollment-and-retail campaign system."
+    },
+    "zh-CN": {
+      "title": "校园桌面锚点",
+      "description": "建立开学季招生与零售 campaign 系统的明亮主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A back-to-school hero scene with organized stationery, tech, and fresh academic energy.",
+      "zh-CN": "带有有序文具、科技设备与开学新鲜活力的开学季主视觉。"
+    }
+  }
+}

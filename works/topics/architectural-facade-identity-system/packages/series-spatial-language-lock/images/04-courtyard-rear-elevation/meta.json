@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Architectural Facade Identity System. Use a composed rear or courtyard elevation view that still belongs clearly to the same project while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep earthy terracotta, bronze brown, pale stone, smoked glass, and soft sky gray as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow an architectural facade system with terracotta fins, bronze mesh, deep window reveals, sculpted canopies, and a civic-commercial identity that feels recognizable from multiple distances. Focus on the exact same building from the reference image, now emphasizing secondary facade language and landscaped adjacency. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the fin spacing, bronze mesh logic, canopy silhouette, reveal depth, and urban recognizability of the building. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nArchitectural Facade Identity System series study 4/9, extending back-of-house dignity within the same facade system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no giant logos, no construction cranes, no crowds, no random neighboring ads, no impossible geometry, no service clutter.",
+  "id": "04-courtyard-rear-elevation",
+  "title": "Courtyard Rear Elevation",
+  "description": "A reference-dependent architectural variation for facade identity focused on courtyard rear elevation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/architectural-facade-identity-system/packages/series-spatial-language-lock/images/04-courtyard-rear-elevation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-street-corner-anchor",
+        "meta_path": "works/topics/architectural-facade-identity-system/packages/series-spatial-language-lock/images/01-street-corner-anchor/meta.json",
+        "image_path": "works/topics/architectural-facade-identity-system/packages/series-spatial-language-lock/images/01-street-corner-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Courtyard Rear Elevation",
+      "description": "A reference-dependent architectural variation for facade identity focused on courtyard rear elevation."
+    },
+    "zh-CN": {
+      "title": "庭院背立面",
+      "description": "围绕外立面的庭院背立面研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Courtyard Rear Elevation for Architectural Facade Identity System.",
+      "zh-CN": "外立面主题中的庭院背立面。"
+    }
+  }
+}

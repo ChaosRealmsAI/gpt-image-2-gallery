@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format photograph of an empty municipal indoor swimming pool taken at roughly 1 a.m. with a 90s consumer point-and-shoot camera using built-in direct flash. The room is otherwise unlit, so the flash carves out the near pool deck in hard light while the far end sinks into soft shadow. Slight magenta color cast and visible film grain give the image a 35mm drugstore-print feel. The camera is held at standing eye level, centered on the long axis of the pool.\n\nSubject:\nA full-size rectangular six-lane pool, basin completely drained to the concrete bottom except for a residual puddle near the deepest drain. Light aqua ceramic tiles line the walls and waterline, with darker navy lane stripes painted on the bottom. A metal ladder is bolted at the near wall; a pool deck of non-slip cream tile surrounds the basin. Fluorescent ceiling fixtures are dark except for one distant emergency bulb glowing faintly green.\n\nImportant details:\nDirect-flash character is essential: harsh falloff, specular hotspot on the wet puddle, tile grout visible, red-eye-era light temperature. The pool must read as real architecture, not a rendered toy. Tile grid must maintain perspective integrity. The air should feel humid and chemical, implied by slight haze at the far end. No person, no reflection of photographer, no pool toys. Camera vantage, tile pattern, and lane count must be unmistakable — this image is the reference for a four-image series.\n\nUse case:\nReference image for the Empty Pool series. Images 02-04 will re-light the same basin while preserving tile geometry and camera vantage.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no swimmers, no lifeguard, no reflection of photographer in water, no modern cinematic color grade, no lens flare.",
+  "id": "01-reference-pool-night",
+  "title": "Reference Pool · Midnight Flash",
+  "description": "Drained indoor municipal pool at 1 a.m. photographed with direct flash, establishing tile geometry and camera vantage for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the empty-pool fanout series. Run first."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Pool · Midnight Flash",
+      "description": "Drained indoor municipal pool at 1 a.m. photographed with direct flash, establishing tile geometry and camera vantage for the series."
+    },
+    "zh-CN": {
+      "title": "基准泳池 · 午夜直闪",
+      "description": "凌晨一点抽干的室内市政泳池直闪照,建立整组系列的瓷砖结构和拍摄机位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "A drained six-lane municipal indoor pool lit only by a direct camera flash at night.",
+      "zh-CN": "抽干水的六道市政室内泳池,只由夜里直闪相机照亮。"
+    }
+  }
+}

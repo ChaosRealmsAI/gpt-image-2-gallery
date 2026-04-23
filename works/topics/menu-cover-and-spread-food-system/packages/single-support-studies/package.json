@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Menu Surface Support Studies",
+  "description": "Five independent menu-system studies extending the topic into table mockups, boards, inserts, and folds.",
+  "creative_direction": "These independent studies widen the same menu-system theme into adjacent hospitality surfaces while staying self-contained.",
+  "cover_image": "images/tasting-menu-fold/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/tasting-menu-fold/meta.json",
+      "images/tabletop-menu-mockup/meta.json",
+      "images/takeaway-trifold/meta.json",
+      "images/counter-lightbox-board/meta.json",
+      "images/dessert-insert-grid/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Menu Surface Support Studies",
+      "description": "Five independent menu-system studies extending the topic into table mockups, boards, inserts, and folds."
+    },
+    "zh-CN": {
+      "title": "菜单载体补充研究",
+      "description": "五张独立补充图，把主题延展到桌面 mockup、灯箱板、插页与折页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "tasting-menu-fold",
+      "title": "Tasting Menu Fold",
+      "image": "images/tasting-menu-fold/image.png",
+      "meta": "images/tasting-menu-fold/meta.json"
+    },
+    {
+      "id": "tabletop-menu-mockup",
+      "title": "Tabletop Menu Mockup",
+      "image": "images/tabletop-menu-mockup/image.png",
+      "meta": "images/tabletop-menu-mockup/meta.json"
+    },
+    {
+      "id": "takeaway-trifold",
+      "title": "Takeaway Trifold",
+      "image": "images/takeaway-trifold/image.png",
+      "meta": "images/takeaway-trifold/meta.json"
+    },
+    {
+      "id": "counter-lightbox-board",
+      "title": "Counter Lightbox Board",
+      "image": "images/counter-lightbox-board/image.png",
+      "meta": "images/counter-lightbox-board/meta.json"
+    },
+    {
+      "id": "dessert-insert-grid",
+      "title": "Dessert Insert Grid",
+      "image": "images/dessert-insert-grid/image.png",
+      "meta": "images/dessert-insert-grid/meta.json"
+    }
+  ]
+}

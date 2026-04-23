@@ -1,0 +1,39 @@
+{
+  "id": "italian-futurism-velocity",
+  "title": "Italian Futurism Velocity Poster",
+  "short_title": "Italian Futurism",
+  "description": "Italian Futurist aesthetic — mechanical velocity, chopped typography, metallic color with speed lines, train/airplane/automobile celebrated as sublime, early 20th-c art-movement feel.",
+  "i18n": {
+    "en": {
+      "title": "Italian Futurism Velocity Poster",
+      "short_title": "Italian Futurism",
+      "description": "Italian Futurist aesthetic — mechanical velocity, chopped typography, metallic color with speed lines, train/airplane/automobile celebrated as sublime, early 20th-c art-movement feel."
+    },
+    "zh-CN": {
+      "title": "意大利未来主义速度海报",
+      "short_title": "未来主义",
+      "description": "意大利未来主义 · 机械速度 · 切割字体 · 金属色 + 速度线 · 颂扬火车飞机汽车 · 20 世纪初艺术运动感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 640,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "high-speed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

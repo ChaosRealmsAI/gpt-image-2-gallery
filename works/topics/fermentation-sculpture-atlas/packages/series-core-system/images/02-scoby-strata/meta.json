@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Keep the exact pedestal height, vitrine mood, side-light angle, and reflection restraint from the reference image so the specimen system stays continuous. The background should remain dark and gentle, almost archival.\n\nSubject:\nShow a broad glass vessel filled with amber tea ferment and multiple layered microbial sheets suspended near the surface and drifting downward in uneven folds. Tiny bubbles and subtle color gradations should make the liquid feel active. The scene should turn fermentation into geology and biology at once.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. Preserve exact pedestal framing, glass behavior, and side-light logic from the reference model while focusing on translucent layered sheets and small bubble trails. The microbial strata should feel wet, elastic, and biologically plausible rather than decorative.\n\nUse case:\nFermentation sculpture atlas series study 2/9, translating the anchor vitrine into layered kombucha strata.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no trendy wellness-product cues, no readable kombucha label, no cartoon slime look.",
+  "id": "02-scoby-strata",
+  "title": "SCOBY Strata",
+  "description": "A kombucha vessel variation preserving the anchor vitrine language while emphasizing layered microbial sheets.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/02-scoby-strata/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-vitrine-jar-anchor",
+        "meta_path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/01-vitrine-jar-anchor/meta.json",
+        "image_path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/01-vitrine-jar-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "SCOBY Strata",
+      "description": "A kombucha vessel variation preserving the anchor vitrine language while emphasizing layered microbial sheets."
+    },
+    "zh-CN": {
+      "title": "SCOBY Strata",
+      "description": "A kombucha vessel variation preserving the anchor vitrine language while emphasizing layered microbial sheets."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A broad kombucha vessel with layered translucent microbial sheets and tiny trapped bubbles in amber liquid.",
+      "zh-CN": "A broad kombucha vessel with layered translucent microbial sheets and tiny trapped bubbles in amber liquid."
+    }
+  }
+}

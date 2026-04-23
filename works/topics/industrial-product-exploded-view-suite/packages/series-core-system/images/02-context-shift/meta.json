@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square straight-on technical plate with neutral light, crisp spacing, and strong part hierarchy over a clean background. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original industrial handheld measurement device with magnesium shell, rubberized grips, gasket seams, vent slots, internal battery bay, and dense but plausible fastener logic. Make the subject feel original, production-aware, and clearly grounded in Industrial Product Exploded View Suite. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPreserve the exact device identity while separating shell, battery door, display module, and core housing in a disciplined engineering rhythm that is easy to scan. Preserve exact external form, part hierarchy, material palette, and engineering plausibility across the series. Separation distances must stay clean and readable. Internal parts should feel manufacturable rather than ornamental. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nExploded Views series study 2/9 for Industrial Product Exploded View Suite, built as image 02-context-shift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no impossible levitation clutter, no magic components, no random colorful wires, no messy arrows.",
+  "id": "02-context-shift",
+  "title": "Primary Explosion",
+  "description": "The same device opened into a readable first-stage exploded arrangement.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-product-exploded-view-suite/packages/series-core-system/images/02-context-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/industrial-product-exploded-view-suite/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/industrial-product-exploded-view-suite/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Primary Explosion",
+      "description": "The same device opened into a readable first-stage exploded arrangement."
+    },
+    "zh-CN": {
+      "title": "一级拆解",
+      "description": "将同一设备展开成清晰可读的一级爆炸图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "The reference industrial device opened into a first-stage exploded view.",
+      "zh-CN": "同一工业设备的一阶爆炸视图。"
+    }
+  }
+}

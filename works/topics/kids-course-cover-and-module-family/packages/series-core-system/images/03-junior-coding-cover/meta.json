@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square cover mockup again with identical lighting, shadow depth, and presentation style from the reference image. It should clearly belong to the same curriculum line while speaking to a different learning domain. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse visual cues such as block commands, robots, pathways, logic tiles, and friendly screens inside the same modular cover frame. The scene should feel smart and child-accessible rather than tech-corporate or game-like. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nHold the reference system tightly: same cover structure, blank title area, badge behavior, and browsing clarity. The variation should come from the learning metaphors and supporting icons, not from redesigning the entire package. Preserve the same cover frame, subject badge placement, illustration ratio, color hierarchy, and blank title-zone architecture from the reference cover. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nKids Course Cover and Module Family series study 3/4, junior coding cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course titles, no logos, no brand mascots from existing IP, no cluttered marketplace graphics, no fake awards, no generic stock-book covers.",
+  "id": "03-junior-coding-cover",
+  "title": "Junior Coding Cover",
+  "description": "A coding-module cover using the same educational brand system with a more logical visual vocabulary.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/03-junior-coding-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-master-cover",
+        "meta_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/meta.json",
+        "image_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-master-cover.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Junior Coding Cover",
+      "description": "A coding-module cover using the same educational brand system with a more logical visual vocabulary."
+    },
+    "zh-CN": {
+      "title": "少儿编程封面",
+      "description": "使用同一教育品牌系统、但转向逻辑化视觉语言的少儿编程模块封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A coding-module cover using the same educational brand system with a more logical visual vocabulary.",
+      "zh-CN": "使用同一教育品牌系统、但转向逻辑化视觉语言的少儿编程模块封面。"
+    }
+  }
+}

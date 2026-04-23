@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Create a square overhead photograph of a cedar presentation box with compartments or clear spacing logic, lit by soft natural-looking light. The wood should feel fragrant, pale, and finely crafted.\n\nSubject:\nArrange a small omakase assortment inside the box: several nigiri, a sashimi piece, one garnish compartment, and a precise wasabi element, all spaced with near-architectural control. The box should feel like an extension of the chef's discipline rather than packaging. The food must remain the hero.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. Balance order and appetite by making every compartment and spacing decision feel deliberate. Wood grain, rice separation, fish sheen, and the exact edges of each piece should all stay visible from above.\n\nUse case:\nSushi and sashimi precision single study 9/9, broadening the topic into a cedar-box tasting grid.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no disposable takeout cues, no soy packets, no printed branding.",
+  "id": "cedar-box-omakase-grid",
+  "title": "Cedar Box Omakase Grid",
+  "description": "A curated cedar-box assortment arranged with the same surgical spacing as a formal tasting progression.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/single-support-studies/images/cedar-box-omakase-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cedar Box Omakase Grid",
+      "description": "A curated cedar-box assortment arranged with the same surgical spacing as a formal tasting progression."
+    },
+    "zh-CN": {
+      "title": "Cedar Box Omakase Grid",
+      "description": "A curated cedar-box assortment arranged with the same surgical spacing as a formal tasting progression."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An overhead cedar box with a surgically arranged omakase assortment of nigiri, sashimi, and precise garnishes.",
+      "zh-CN": "An overhead cedar box with a surgically arranged omakase assortment of nigiri, sashimi, and precise garnishes."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Use a square close still life on warm neutral fabric with soft side light that makes the sesame crust read clearly without harsh glare. The composition should feel intimate and archival.\n\nSubject:\nShow one intact sesame ball beside another gently torn open, exposing the thin chewy shell, airy cavity, and dense sweet filling at the center. Loose sesame seeds may appear near the tear line, but the scene should remain disciplined and quiet. The food must look warm, tactile, and freshly handled.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Capture the contrast between toasted seed crust, elastic dough, and dense filling. The tear should feel natural and hand-made, not violently ripped for effect.\n\nUse case:\nDim sum miniature atlas single study 8/9, documenting interior elasticity in a torn sesame ball.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no dessert-shop styling, no powdered sugar, no tea-service clutter.",
+  "id": "sesame-ball-tearaway",
+  "title": "Sesame Ball Tearaway",
+  "description": "A sesame ball torn open to reveal elastic interior structure and filling in a calm specimen composition.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/single-support-studies/images/sesame-ball-tearaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sesame Ball Tearaway",
+      "description": "A sesame ball torn open to reveal elastic interior structure and filling in a calm specimen composition."
+    },
+    "zh-CN": {
+      "title": "Sesame Ball Tearaway",
+      "description": "A sesame ball torn open to reveal elastic interior structure and filling in a calm specimen composition."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A sesame ball shown intact and torn open to reveal a chewy shell, airy cavity, and dense filling.",
+      "zh-CN": "A sesame ball shown intact and torn open to reveal a chewy shell, airy cavity, and dense filling."
+    }
+  }
+}

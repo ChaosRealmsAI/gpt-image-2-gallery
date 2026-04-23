@@ -1,0 +1,39 @@
+{
+  "id": "bauhaus-poster-textbook",
+  "title": "Bauhaus Poster · Textbook Level",
+  "short_title": "Bauhaus Poster",
+  "description": "Pure Bauhaus geometric abstraction — three primary colours, sans-serif Futura-style typography, circles/squares/triangles at rigid mathematical proportions, red/yellow/blue plus black.",
+  "i18n": {
+    "en": {
+      "title": "Bauhaus Poster · Textbook Level",
+      "short_title": "Bauhaus Poster",
+      "description": "Pure Bauhaus geometric abstraction — three primary colours, sans-serif Futura-style typography, circles/squares/triangles at rigid mathematical proportions, red/yellow/blue plus black."
+    },
+    "zh-CN": {
+      "title": "包豪斯海报 · 教科书级",
+      "short_title": "包豪斯海报",
+      "description": "纯粹包豪斯几何抽象 · 三原色 · Futura 式无衬线字体 · 圆方三角严格数学比例 · 红黄蓝 + 黑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 500,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "artist-press-portrait-suite",
+  "slug": "artist-press-portrait-suite",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Artist Press Portrait Suite",
+  "short_title": "Press Portraits",
+  "description": "Generate music, film, or creator press portraits that feel magazine-ready, mood-driven, and cohesive across multiple publicity crops.",
+  "i18n": {
+    "en": {
+      "title": "Artist Press Portrait Suite",
+      "short_title": "Press Portraits",
+      "description": "Generate music, film, or creator press portraits that feel magazine-ready, mood-driven, and cohesive across multiple publicity crops."
+    },
+    "zh-CN": {
+      "title": "艺人宣传照套组",
+      "short_title": "宣传照",
+      "description": "做像歌手、演员或内容创作者会发给媒体的宣传照套组，要求有气质、有辨识度，也能裁成不同宣传物料。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 824,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition",
+      "editing-workflow",
+      "reasoning-composition"
+    ],
+    "featured_reason": "portrait-backlog"
+  },
+  "packages": [
+    {
+      "id": "series-transform-identity-lock",
+      "type": "series",
+      "title": "Identity-Locked Transformation Sequence",
+      "path": "packages/series-transform-identity-lock/package.json"
+    }
+  ]
+}

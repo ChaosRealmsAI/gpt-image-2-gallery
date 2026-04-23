@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square technical-poster composition for an impossible but convincing device, using cutaway views, section windows, and disciplined layout. The background should stay clean and poster-ready so internal chambers, conduits, shells, and field zones remain readable at a glance. Use lighting and color sparingly to clarify hierarchy rather than to decorate the page. Scale the familiar shell language up into a larger industrial module with the cutaway still occupying the square frame clearly and cleanly.\n\nSubject:\nCenter the image on one speculative machine whose internal logic feels thought through: shell, core, coolant path, field chamber, maintenance access, and energy routing should all relate coherently. The device can be fantastical, but it must read like it could be explained by an engineering team. Preserve the reference chamber order and outer-shell identity while adding service walkways, larger coolant trunks, and more robust containment walls.\n\nImportant details:\nTreat the poster as a visual explanation system without readable text. Use arrows, callout lines, index dots, section blocks, and sectional contrast only as abstract diagram grammar. The result should feel credible for a concept deck, patent-style board, or advanced product explanation poster. Scale must feel like a real engineering escalation rather than a total redesign into a different machine. Preserve the exact structural language established by the reference image, especially the outer shell silhouette, internal chamber sequencing, conduit routing, and diagram hierarchy.\n\nUse case:\nSpec Tech Cutaway series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no exploded parts floating without logic, no cartoon simplification, no generic spaceship dashboard noise, no giant hangar scenery taking over the poster.",
+  "id": "04-industrial-scale-version",
+  "title": "Industrial Scale Version",
+  "description": "Industrial Scale Version presents the same jump-core logic translated into a larger industrial installation while preserving the device family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "patent-diagram",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/04-industrial-scale-version/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-jump-core-anchor",
+        "meta_path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/01-jump-core-anchor/meta.json",
+        "image_path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/01-jump-core-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Spec Tech Cutaway core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Industrial Scale Version",
+      "description": "Industrial Scale Version presents the same jump-core logic translated into a larger industrial installation while preserving the device family."
+    },
+    "zh-CN": {
+      "title": "Industrial Scale Version",
+      "description": "技术剖面主题中的Industrial Scale Version图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Industrial Scale Version presents the same jump-core logic translated into a larger industrial installation while preserving the device family.",
+      "zh-CN": "技术剖面主题中的Industrial Scale Version图像。"
+    }
+  }
+}

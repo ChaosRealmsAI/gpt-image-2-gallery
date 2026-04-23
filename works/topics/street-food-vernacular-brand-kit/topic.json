@@ -1,0 +1,47 @@
+{
+  "id": "street-food-vernacular-brand-kit",
+  "slug": "street-food-vernacular-brand-kit",
+  "title": "Street Food Vernacular Brand Kit",
+  "short_title": "Street Food Kit",
+  "description": "Create brand kits for street-food concepts using vernacular signage, handheld food shots, and high-energy local density.",
+  "i18n": {
+    "en": {
+      "title": "Street Food Vernacular Brand Kit",
+      "short_title": "Street Food Kit",
+      "description": "Create brand kits for street-food concepts using vernacular signage, handheld food shots, and high-energy local density."
+    },
+    "zh-CN": {
+      "title": "街头餐饮 vernacular 品牌套件",
+      "short_title": "街头餐饮",
+      "description": "做街头餐饮 vernacular 品牌套件，强调招牌、手拿食物和高密度地方气。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2460,
+    "tags": [
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Street Stall Identity Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Street Brand Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

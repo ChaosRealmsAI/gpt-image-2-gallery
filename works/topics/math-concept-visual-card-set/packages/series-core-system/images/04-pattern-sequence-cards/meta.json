@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the identical square product-shot arrangement with the same tabletop warmth and layout discipline established by the reference board. The image should look like a fourth approved board in a coherent math-learning line sold to schools and parents. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nBuild the card set around repeating sequences, visual rhythms, and fill-the-gap logic using shapes, animals, beads, and block colors. Include blank completion spaces and subtle directional hints that make sequence reasoning obvious without readable instructions. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nThe deck must still obey the reference system completely: matching border treatment, spacing, card proportions, and object scale. Use pattern variation and pacing as the only major change, proving that multiple foundational math concepts can live under one stable educational design system. Preserve the same card format, diagram density, block spacing, icon size, and color-coding hierarchy from the reference math board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nMath Concept Visual Card Set series study 4/4, pattern sequence cards.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable equations, no numerals, no logos, no abstract adult infographic styling, no clutter, no warped cards.",
+  "id": "04-pattern-sequence-cards",
+  "title": "Pattern Sequence Cards",
+  "description": "A pattern-and-sequence variation that completes the reference-dependent math card family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/04-pattern-sequence-cards/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-counting-cards",
+        "meta_path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/01-reference-counting-cards/meta.json",
+        "image_path": "works/topics/math-concept-visual-card-set/packages/series-core-system/images/01-reference-counting-cards/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-counting-cards.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pattern Sequence Cards",
+      "description": "A pattern-and-sequence variation that completes the reference-dependent math card family."
+    },
+    "zh-CN": {
+      "title": "规律序列卡",
+      "description": "完成整组参考依赖数学卡家族的规律序列变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A pattern-and-sequence variation that completes the reference-dependent math card family.",
+      "zh-CN": "完成整组参考依赖数学卡家族的规律序列变体。"
+    }
+  }
+}

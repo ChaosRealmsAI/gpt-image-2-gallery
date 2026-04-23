@@ -1,0 +1,52 @@
+{
+  "id": "mid-autumn-gifting-and-moon-visuals",
+  "slug": "mid-autumn-gifting-and-moon-visuals",
+  "capability": [
+    "commercial-mockup",
+    "style-transfer",
+    "photorealism"
+  ],
+  "title": "Mid-Autumn Gifting and Moon Visuals",
+  "short_title": "Mid-Autumn",
+  "description": "Create Mid-Autumn campaign systems around moon imagery, gifting, family warmth, and premium packaging.",
+  "i18n": {
+    "en": {
+      "title": "Mid-Autumn Gifting and Moon Visuals",
+      "short_title": "Mid-Autumn",
+      "description": "Create Mid-Autumn campaign systems around moon imagery, gifting, family warmth, and premium packaging."
+    },
+    "zh-CN": {
+      "title": "中秋礼赠与月相视觉",
+      "short_title": "中秋礼赠",
+      "description": "做中秋礼赠与月相视觉系统，强调月相、礼赠和团圆感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 450,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-moon-gift-system",
+      "type": "series",
+      "title": "Moon Gift Series",
+      "path": "packages/series-moon-gift-system/package.json"
+    },
+    {
+      "id": "single-festival-context-studies",
+      "type": "single",
+      "title": "Festival Context Studies",
+      "path": "packages/single-festival-context-studies/package.json"
+    }
+  ]
+}

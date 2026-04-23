@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square rear-passenger composition with calm daylight, gentle tonal range, and clear spatial depth from seat to glazing. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original premium rear seating zone with integrated armrest, climate vents, subtle ambient light, and soft-touch materials. Make the subject feel original, production-aware, and clearly grounded in Automotive Interior Cockpit UI Hero. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the image credible, spacious, and restrained rather than limousine fantasy. It should communicate everyday luxury and believable interior packaging. The visual language should still feel native to Automotive Interior Cockpit UI Hero, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCockpit UI single study 7/9 for Automotive Interior Cockpit UI Hero, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app-store iconography, no fantasy holograms, no navigation labels, no brand marks.",
+  "id": "support-three",
+  "title": "Rear Cabin Comfort",
+  "description": "A premium rear-cabin image selling space, comfort, and lighting logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/automotive-interior-cockpit-ui-hero/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rear Cabin Comfort",
+      "description": "A premium rear-cabin image selling space, comfort, and lighting logic."
+    },
+    "zh-CN": {
+      "title": "后排舒适视图",
+      "description": "展示空间、舒适度与灯光逻辑的高级后排画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A premium rear-cabin comfort image for an original vehicle interior.",
+      "zh-CN": "原创车型后排舒适性的高级展示图。"
+    }
+  }
+}

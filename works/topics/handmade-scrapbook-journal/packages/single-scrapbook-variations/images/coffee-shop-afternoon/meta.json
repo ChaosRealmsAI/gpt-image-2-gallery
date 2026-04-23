@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of an open sketch journal on a small round café table, morning sun slanting across from the upper right. A saucer with a half-drunk espresso sits just beside the right page casting a warm ring shadow. The journal has oat-colored paper and a linen-wrapped spine.\n\nSubject:\nA café observational diary spread. The left page has a quick ink drawing of two strangers reading books, surrounded by shorthand marks about light and clothing, and a pencil gesture drawing of the café counter. The right page contains a slow handwritten text block with occasional crossed-out lines, a taped-in coaster with a coffee ring on it, and a small palette swatch of ivory, espresso brown, rust, and butter yellow painted with a travel watercolor kit.\n\nImportant details:\nThe quick ink sketches must feel confident but unfinished — some lines break mid-stroke, some figures lose a leg. The coffee ring on the coaster must be a real stain edge. Crossed-out handwriting must show pen-pressure marks through to the back side as a faint ghost. The palette swatch carries physical pigment pooling. The warm ambient light must feel like morning café, not studio flash.\n\nUse case:\nIndependent single image in the Scrapbook Variations package, representing the observational illustrator voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no over-finished sketches, no vector gesture lines, no flat gradient, preserve exact 1:1 aspect ratio.",
+  "id": "coffee-shop-afternoon",
+  "title": "Coffee Shop Afternoon",
+  "description": "An observational sketch-journal spread with quick ink figures, a taped coffee-stained coaster, and a travel-kit watercolor swatch.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/single-scrapbook-variations/images/coffee-shop-afternoon/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coffee Shop Afternoon",
+      "description": "An observational sketch-journal spread with quick ink figures, a taped coffee-stained coaster, and a travel-kit watercolor swatch."
+    },
+    "zh-CN": {
+      "title": "咖啡馆午后",
+      "description": "观察速写手账跨页 · 钢笔人物速写 · 粘着的咖啡渍杯垫 · 旅行水彩色条。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Sketch journal on a café table with ink figure drawings, a coffee-stained coaster, and a painted color swatch.",
+      "zh-CN": "咖啡桌上的速写手账 · 钢笔人物速写 · 咖啡渍杯垫和水彩色条。"
+    }
+  }
+}

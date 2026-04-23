@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Arrange the composition as a square overhead specimen tray on warm linen, with four dim sum pieces spaced evenly and photographed under soft morning-like daylight. Small bamboo or ceramic supports may appear at the edges, but the overall frame should remain quiet and archival.\n\nSubject:\nShow four iconic pieces as a starter atlas set: one translucent shrimp dumpling, one open-topped shumai, one steamed bun, and one wrapped glutinous parcel. Each item should be complete, carefully spaced, and slightly elevated by the fabric texture beneath it. A couple of blank specimen tabs with brush-like abstract marks may sit nearby without forming readable text.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. This first image establishes the linen tone, top-down geometry, steam softness, and specimen spacing for the series, so the atmosphere must feel stable and repeatable. Wrapper translucency, pleat accuracy, and moisture should all feel believable at close inspection.\n\nUse case:\nDim sum miniature atlas series study 1/9, defining the archive-like specimen tray for later variations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no soy sauce dishes, no chopsticks, no banquet platters.",
+  "id": "01-linen-specimen-anchor",
+  "title": "Linen Specimen Anchor",
+  "description": "A museum-like tray of classic dim sum establishes the atlas language for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Linen Specimen Anchor",
+      "description": "A museum-like tray of classic dim sum establishes the atlas language for the series."
+    },
+    "zh-CN": {
+      "title": "Linen Specimen Anchor",
+      "description": "A museum-like tray of classic dim sum establishes the atlas language for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An overhead linen specimen tray with four classic dim sum pieces arranged like museum samples.",
+      "zh-CN": "An overhead linen specimen tray with four classic dim sum pieces arranged like museum samples."
+    }
+  }
+}

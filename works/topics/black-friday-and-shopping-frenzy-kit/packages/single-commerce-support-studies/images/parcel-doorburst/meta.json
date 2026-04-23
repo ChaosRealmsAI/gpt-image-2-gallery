@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square doorstep delivery image at dawn or dusk with crisp exterior light, stacked parcel volume, and a strong sense of recent motion. The frame should feel like a campaign visual for shipping success during peak sale season. Use architecture, package placement, and directional shadow to make the image organized and credible, not comedic or messy.\n\nSubject:\nShow a residential or apartment threshold where multiple parcels have just been placed in a tidy but high-volume arrangement. Use varied box sizes, tape, soft weather cues, and subtle motion traces, but keep labels blank and brand-neutral. The subject should communicate the scale of demand and the excitement of arrival without showing faces or readable shipping details.\n\nImportant details:\nThe story is volume under control. Make cardboard, tape, stone, metal, and ambient light feel real. Keep the scene visually simple enough for campaign use while still conveying a flood of deals arriving at home. Avoid sentimentality. This is about the aftershock of a major sale and the physical evidence of successful fulfillment.\n\nUse case:\nBlack Friday single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no courier logos, no house-number text, no holiday gift wrapping, no comedic overspill of boxes, no vehicles, no people posing, no damaged parcels.",
+  "id": "parcel-doorburst",
+  "title": "Parcel Doorburst",
+  "description": "A doorstep and parcel-arrival study focused on Black Friday delivery volume.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/single-commerce-support-studies/images/parcel-doorburst/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent parcel-arrival study for Black Friday delivery messaging.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Parcel Doorburst",
+      "description": "A doorstep and parcel-arrival study focused on Black Friday delivery volume."
+    },
+    "zh-CN": {
+      "title": "门前包裹爆发",
+      "description": "聚焦黑五配送体量的门前包裹抵达研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A Black Friday doorstep scene packed with parcels and controlled delivery urgency.",
+      "zh-CN": "带有大量包裹与受控配送紧迫感的黑五门前场景。"
+    }
+  }
+}

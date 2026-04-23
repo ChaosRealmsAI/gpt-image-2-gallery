@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square sequence board with repeated product states, subtle arrows, even lighting, and carefully staged hierarchy. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original device states progressing from frame to electronics to shell closure in a coherent assembly order. Make the subject feel original, production-aware, and clearly grounded in Industrial Product Exploded View Suite. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep graphics abstract and non-readable while the process order remains obvious. The board should feel like an approved manufacturing communication aid. The visual language should still feel native to Industrial Product Exploded View Suite, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nExploded Views single study 7/9 for Industrial Product Exploded View Suite, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no fantasy glowing cores, no chaotic wire nests, no meaningless arrows, no decorative clutter.",
+  "id": "support-three",
+  "title": "Assembly Sequence",
+  "description": "A structured board visualizing the assembly rhythm of an industrial product.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-product-exploded-view-suite/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Assembly Sequence",
+      "description": "A structured board visualizing the assembly rhythm of an industrial product."
+    },
+    "zh-CN": {
+      "title": "装配流程板",
+      "description": "可视化工业产品装配节奏的结构化研究板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A structured assembly-sequence board for an original industrial device.",
+      "zh-CN": "原创工业设备的装配流程研究板。"
+    }
+  }
+}

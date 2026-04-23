@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Hold the exact reference plate geometry, camera height, and negative-space balance, but let the lighting become slightly glossier so sugar, glaze, and cold cream textures catch more sparkle. The environment should remain otherwise identical, like the dessert course photographed at the same table under the same campaign setup.\n\nSubject:\nBuild a tiny dessert orbit from a plum mousse quenelle, a thin chocolate arc, one halved roasted plum, and a restrained ring of vanilla cream. Scatter a few cocoa nibs and microscopic violet petals near the sauce path so the image keeps the same asymmetrical logic while clearly becoming dessert. The portion should feel refined, jewel-like, and tightly edited rather than playful.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Preserve exact plate diameter, lens height, and empty-space discipline from the reference model while only shifting temperature, texture, and ingredient family. The fruit glaze should look taut and reflective, the cream should hold fine piping ridges, and the chocolate piece should cast a crisp believable shadow.\n\nUse case:\nThree-star plate art series study 4/9, concluding the anchor system with a tightly controlled dessert plate.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no sugar dust everywhere, no oversized pastry elements, no cafe-style decoration.",
+  "id": "04-plum-dessert-orbit",
+  "title": "Plum Dessert Orbit",
+  "description": "A dessert finale variation preserving the same black-plate choreography in a sweeter register.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/04-plum-dessert-orbit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-black-plate-anchor",
+        "meta_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/meta.json",
+        "image_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Plum Dessert Orbit",
+      "description": "A dessert finale variation preserving the same black-plate choreography in a sweeter register."
+    },
+    "zh-CN": {
+      "title": "Plum Dessert Orbit",
+      "description": "A dessert finale variation preserving the same black-plate choreography in a sweeter register."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A black plate dessert with plum mousse, a thin chocolate arc, and a ring of vanilla cream.",
+      "zh-CN": "A black plate dessert with plum mousse, a thin chocolate arc, and a ring of vanilla cream."
+    }
+  }
+}

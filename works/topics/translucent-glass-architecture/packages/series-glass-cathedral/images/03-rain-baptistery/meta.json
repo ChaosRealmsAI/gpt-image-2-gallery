@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same plaza, same cathedral silhouette and camera position as the reference. Weather: heavy rain at twilight, visible rain streaks in-frame, distant thunderhead with soft diffuse lightning glow.\n\nSubject:\nThe identical green-glass cathedral. Interior is lit by warm hundreds-of-candles amber now. Thick rain falls on the glass, running down every surface in sheets and enhancing the subsurface scattering — the cathedral reads wetter, glossier, and more saturated. Reflections in the plaza are dynamic with ripples from rain impacts.\n\nImportant details:\nPreserve cathedral silhouette and pedestrian positions; pedestrians now hold umbrellas (same positions). Rain refraction on the glass surface adds fine caustic twinkles; sheets of water flowing down the walls look like liquid skin. Distant thunderhead provides soft background glow. Palette: saturated green plus warm interior amber plus cold grey-blue ambient from the storm.\n\nUse case:\nThird image in the cycle. Demonstrates wet-surface behavior and dynamic reflections on the same reference building.\n\nConstraints:\nPRESERVE the reference image cathedral silhouette, camera angle, plaza, and pedestrian positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no snow, no hail visual, no stylized illustration.",
+  "id": "03-rain-baptistery",
+  "title": "Rain Baptistery",
+  "description": "The reference cathedral in heavy twilight rain with warm amber interior glow.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-nave"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/03-rain-baptistery/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Baptistery",
+      "description": "The reference cathedral in heavy twilight rain with warm amber interior glow."
+    },
+    "zh-CN": {
+      "title": "雨中洗礼",
+      "description": "基准大教堂在黄昏暴雨中 · 温黄内光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same glass cathedral in heavy rain with warm interior lamps.",
+      "zh-CN": "同一玻璃大教堂 · 暴雨中温暖内灯。"
+    }
+  }
+}

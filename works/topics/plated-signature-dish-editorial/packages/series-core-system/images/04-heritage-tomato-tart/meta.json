@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square restaurant editorial food photograph with a controlled three-quarter camera angle, tactile linen, brushed metal cutlery used sparingly at the edge of frame, and lighting that feels like a real dining room service captured by a magazine photographer. Keep the tonal range warm, dimensional, and refined, with enough negative space around the plate for the image to function as a hero asset rather than a crowded snapshot. Retain the same tabletop and lens relationship while increasing daylight freshness through tomato reds, pale pastry gold, and a cleaner summer brightness.\n\nSubject:\nThe food must read as a true signature dish developed by a serious kitchen: precise portions, believable sauce behavior, carefully considered garnish, and a table context that suggests a coherent restaurant identity instead of generic luxury styling. Center a delicate savory tart with layered heritage tomato slices, whipped cheese, basil oil droplets, and tiny herb blossoms arranged with fine-dining control.\n\nImportant details:\nRestaurant credibility matters more than spectacle. Preserve appetizing moisture, plausible ingredient hierarchy, and disciplined prop styling. Every crumb, herb leaf, ceramic reflection, and fold in the table linen should support the editorial story while keeping the dish unmistakably central. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-chef-table-anchor. The reference system must remain visible in the spacing, plate diameter, and calm restaurant context, even as the ingredients move toward a lighter seasonal register.\n\nUse case:\nSignature Dishes series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic-looking food, no overloaded garnish, no sloppy sauce smears, no cartoon color saturation, no stock-photo posing, no messy background clutter, no picnic cues, no pizza resemblance, no oversized salad garnish.",
+  "id": "04-heritage-tomato-tart",
+  "title": "Heritage Tomato Tart",
+  "description": "A vivid plated tart that keeps the reference layout while introducing brighter produce and pastry precision.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/04-heritage-tomato-tart/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-chef-table-anchor",
+        "meta_path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/01-chef-table-anchor/meta.json",
+        "image_path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/01-chef-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-chef-table-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Heritage Tomato Tart",
+      "description": "A vivid plated tart that keeps the reference layout while introducing brighter produce and pastry precision."
+    },
+    "zh-CN": {
+      "title": "传承番茄塔",
+      "description": "传承番茄塔：招牌菜主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A vivid plated tart that keeps the reference layout while introducing brighter produce and pastry precision.",
+      "zh-CN": "传承番茄塔，用于招牌菜主题。"
+    }
+  }
+}

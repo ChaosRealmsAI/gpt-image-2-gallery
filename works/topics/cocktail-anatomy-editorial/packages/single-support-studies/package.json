@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Bar Mechanic Studies",
+  "description": "Five independent editorial studies expanding the cocktail anatomy theme into isolated mechanisms and materials.",
+  "creative_direction": "These singles isolate ice cores, garnish engineering, layered coupes, stirring vortices, and curated flights while keeping the same no-text editorial sophistication.",
+  "cover_image": "images/ice-sphere-core-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Bar Mechanic Studies",
+      "description": "Five independent editorial studies expanding the cocktail anatomy theme into isolated mechanisms and materials."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "鸡尾酒解剖相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ]
+  },
+  "images": [
+    {
+      "id": "ice-sphere-core-study",
+      "title": "Ice Sphere Core Study",
+      "image": "images/ice-sphere-core-study/image.png",
+      "meta": "images/ice-sphere-core-study/meta.json"
+    },
+    {
+      "id": "citrus-peel-mechanics",
+      "title": "Citrus Peel Mechanics",
+      "image": "images/citrus-peel-mechanics/image.png",
+      "meta": "images/citrus-peel-mechanics/meta.json"
+    },
+    {
+      "id": "layered-coupe-section",
+      "title": "Layered Coupe Section",
+      "image": "images/layered-coupe-section/image.png",
+      "meta": "images/layered-coupe-section/meta.json"
+    },
+    {
+      "id": "bar-spoon-vortex",
+      "title": "Bar Spoon Vortex",
+      "image": "images/bar-spoon-vortex/image.png",
+      "meta": "images/bar-spoon-vortex/meta.json"
+    },
+    {
+      "id": "frosted-cocktail-flight",
+      "title": "Frosted Cocktail Flight",
+      "image": "images/frosted-cocktail-flight/image.png",
+      "meta": "images/frosted-cocktail-flight/meta.json"
+    }
+  ]
+}

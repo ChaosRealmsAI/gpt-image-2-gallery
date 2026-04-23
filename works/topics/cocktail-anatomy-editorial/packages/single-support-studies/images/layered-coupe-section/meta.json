@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Create a square front-facing studio composition with a coupe glass centered against a soft dark-to-light gradient background. Fine leader lines and blank tabs may bracket the glass, but the main impression should remain elegant and photographic.\n\nSubject:\nFill the coupe with visibly stratified liquid bands in closely related jewel tones, crowned by a thin foam or perfumed mist and a restrained garnish. The liquid layers should remain sharply separated, with the meniscus and stem rendered crisply. The drink should feel like a controlled visual experiment in density and light.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. Make the layer boundaries believable, not posterized, with subtle transitions at the edges and proper distortion through the curvature of the glass. The editorial annotations should suggest explanation while staying entirely unreadable.\n\nUse case:\nCocktail anatomy editorial single study 7/9, documenting liquid stratification inside a coupe.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no candy-bright rainbow layers, no nightclub neon, no recipe text.",
+  "id": "layered-coupe-section",
+  "title": "Layered Coupe Section",
+  "description": "A coupe glass with clear liquid stratification photographed like a no-text cutaway diagram.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/single-support-studies/images/layered-coupe-section/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Layered Coupe Section",
+      "description": "A coupe glass with clear liquid stratification photographed like a no-text cutaway diagram."
+    },
+    "zh-CN": {
+      "title": "Layered Coupe Section",
+      "description": "A coupe glass with clear liquid stratification photographed like a no-text cutaway diagram."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A coupe glass with carefully stratified liquid bands and minimal abstract anatomy callouts.",
+      "zh-CN": "A coupe glass with carefully stratified liquid bands and minimal abstract anatomy callouts."
+    }
+  }
+}

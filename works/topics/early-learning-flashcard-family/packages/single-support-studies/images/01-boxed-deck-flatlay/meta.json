@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square top-down retail flatlay on a pale playroom floor with one boxed flashcard deck, a few fanned cards, soft fabric pouches, and color-coded dividers arranged with catalog clarity. Use warm morning light and gentle shadows so the image feels commercial, trustworthy, and ready for an online learning-store product page. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nThe hero product is a compact preschool flashcard deck with matte lamination, rounded edges, and animal, object, and counting illustrations peeking from the stack. Surround it with a few tactile add-ons such as a carrying strap, sorting ring, and corner tabs, all designed in the same child-friendly visual language. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the layout highly structured and retail-aware: clear spacing, controlled props, soft pastel accents, and obvious product hierarchy. The card art should stay simple and educational, with blank label fields instead of real words, so the deck can imply multilingual packaging without showing any readable copy. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nEarly Learning Flashcard Family single study 1/5, boxed deck flatlay.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no numerals, no brand mascots, no logos, no chaotic shelf clutter, no broken packaging.",
+  "id": "01-boxed-deck-flatlay",
+  "title": "Boxed Deck Flatlay",
+  "description": "A flatlay showing the flashcard deck, storage box, and sorting bands as a retail-ready learning product.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/single-support-studies/images/01-boxed-deck-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 1 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Boxed Deck Flatlay",
+      "description": "A flatlay showing the flashcard deck, storage box, and sorting bands as a retail-ready learning product."
+    },
+    "zh-CN": {
+      "title": "盒装卡组平铺",
+      "description": "以零售产品视角展示卡组、收纳盒和分类束带的平铺图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A flatlay showing the flashcard deck, storage box, and sorting bands as a retail-ready learning product.",
+      "zh-CN": "以零售产品视角展示卡组、收纳盒和分类束带的平铺图。"
+    }
+  }
+}

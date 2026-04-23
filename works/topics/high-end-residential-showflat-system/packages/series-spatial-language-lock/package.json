@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Showflat Language Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of high-end residential showflat system before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Showflat System. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-living-dining-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Showflat Language Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of high-end residential showflat system before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "样板间语言锁定",
+      "description": "四张参考依赖图，用来锁定样板间的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-living-dining-anchor",
+      "title": "Living Dining Anchor",
+      "image": "images/01-living-dining-anchor/image.png",
+      "meta": "images/01-living-dining-anchor/meta.json"
+    },
+    {
+      "id": "02-kitchen-island-view",
+      "title": "Kitchen Island View",
+      "image": "images/02-kitchen-island-view/image.png",
+      "meta": "images/02-kitchen-island-view/meta.json"
+    },
+    {
+      "id": "03-primary-bedroom-suite",
+      "title": "Primary Bedroom Suite",
+      "image": "images/03-primary-bedroom-suite/image.png",
+      "meta": "images/03-primary-bedroom-suite/meta.json"
+    },
+    {
+      "id": "04-terrace-lounge-extension",
+      "title": "Terrace Lounge Extension",
+      "image": "images/04-terrace-lounge-extension/image.png",
+      "meta": "images/04-terrace-lounge-extension/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-living-dining-anchor/meta.json",
+      "images/02-kitchen-island-view/meta.json",
+      "images/03-primary-bedroom-suite/meta.json",
+      "images/04-terrace-lounge-extension/meta.json"
+    ],
+    "ref_strategy": "Run 01-living-dining-anchor first. Use its runtime result URL as --ref for 02-kitchen-island-view, 03-primary-bedroom-suite, 04-terrace-lounge-extension. Queue may run 02-kitchen-island-view, 03-primary-bedroom-suite, 04-terrace-lounge-extension concurrently after 01-living-dining-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

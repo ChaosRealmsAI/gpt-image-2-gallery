@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. The plate should sit slightly low in frame so the upper half becomes a field of dark negative space, with a gentle falloff that feels like a fine-dining campaign image. A trace of condensation on the plate edge and a soft reflected highlight in the glaze should make the ceramic feel real without distracting from the food.\n\nSubject:\nPlace a small medallion of lightly seared pink tuna just off center, with one curved streak of shellfish reduction sweeping across the plate like a brush stroke. Add three micro herb sprigs, a pair of tiny edible blossoms, and a few translucent citrus gel dots clustered with deliberate asymmetry. The portion must feel exacting and intentionally modest, as if a chef stopped plating the instant balance was achieved.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. This first image is the visual reference for the entire package, so the plate diameter, lens height, shadow softness, and negative-space geometry must feel stable and repeatable. The sauce should show believable viscosity with slightly tapered edges, and every garnish should feel individually intentional rather than scattered.\n\nUse case:\nThree-star plate art series study 1/9, establishing the anchor plating language for later variations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no visible fingerprints, no smeared rim, no extra side dishes.",
+  "id": "01-black-plate-anchor",
+  "title": "Black Plate Anchor",
+  "description": "A restrained tuna composition that establishes the black-plate geometry for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Black Plate Anchor",
+      "description": "A restrained tuna composition that establishes the black-plate geometry for the series."
+    },
+    "zh-CN": {
+      "title": "Black Plate Anchor",
+      "description": "A restrained tuna composition that establishes the black-plate geometry for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A matte black fine-dining plate with seared tuna, a curved sauce stroke, and tiny floral garnishes.",
+      "zh-CN": "A matte black fine-dining plate with seared tuna, a curved sauce stroke, and tiny floral garnishes."
+    }
+  }
+}

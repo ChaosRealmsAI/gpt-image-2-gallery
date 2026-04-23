@@ -1,0 +1,43 @@
+{
+  "id": "single-polaroid-archive-studies",
+  "type": "single",
+  "title": "Polaroid Archive Studies",
+  "description": "Nine independent faded 70s instant-film squares — each a different moment captured on sun-bleached chemistry with thick white borders, tape marks, and handwritten ballpoint notes, re-photographed at modern precision.",
+  "creative_direction": "Every image is a single 70s instant-film square photographed face-up on a warm surface. Shared grammar: thick white bottom border with handwriting, chemistry color shift, soft focus drift, fingerprints and tape residue. Subjects vary widely — beach, kitchen, motel, party — but never the same person twice.",
+  "cover_image": "images/summer-beach-square/image.png",
+  "i18n": {
+    "en": {
+      "title": "Polaroid Archive Studies",
+      "description": "Nine independent faded 70s instant-film squares — each a different moment captured on sun-bleached chemistry with thick white borders, tape marks, and handwritten ballpoint notes, re-photographed at modern precision."
+    },
+    "zh-CN": {
+      "title": "宝丽来档案研究",
+      "description": "九张独立的褪色 70 年代即显胶片方形照片 · 日晒化学褪色 · 厚白边 · 胶带痕 · 圆珠笔手写 · 以现代精度重拍。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    { "id": "summer-beach-square", "title": "Summer Beach Square", "image": "images/summer-beach-square/image.png", "meta": "images/summer-beach-square/meta.json" },
+    { "id": "kitchen-window-morning", "title": "Kitchen Window Morning", "image": "images/kitchen-window-morning/image.png", "meta": "images/kitchen-window-morning/meta.json" },
+    { "id": "roadside-motel-sign", "title": "Roadside Motel Sign", "image": "images/roadside-motel-sign/image.png", "meta": "images/roadside-motel-sign/meta.json" },
+    { "id": "rooftop-party-dusk", "title": "Rooftop Party Dusk", "image": "images/rooftop-party-dusk/image.png", "meta": "images/rooftop-party-dusk/meta.json" },
+    { "id": "living-room-tv-glow", "title": "Living Room TV Glow", "image": "images/living-room-tv-glow/image.png", "meta": "images/living-room-tv-glow/meta.json" },
+    { "id": "backyard-pool-haze", "title": "Backyard Pool Haze", "image": "images/backyard-pool-haze/image.png", "meta": "images/backyard-pool-haze/meta.json" },
+    { "id": "diner-booth-noon", "title": "Diner Booth Noon", "image": "images/diner-booth-noon/image.png", "meta": "images/diner-booth-noon/meta.json" },
+    { "id": "car-interior-drive", "title": "Car Interior Drive", "image": "images/car-interior-drive/image.png", "meta": "images/car-interior-drive/meta.json" },
+    { "id": "garden-porch-evening", "title": "Garden Porch Evening", "image": "images/garden-porch-evening/image.png", "meta": "images/garden-porch-evening/meta.json" }
+  ]
+}

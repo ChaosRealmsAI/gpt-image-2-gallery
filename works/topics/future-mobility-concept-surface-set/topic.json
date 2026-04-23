@@ -1,0 +1,46 @@
+{
+  "id": "future-mobility-concept-surface-set",
+  "slug": "future-mobility-concept-surface-set",
+  "title": "Future Mobility Concept Surface Set",
+  "short_title": "Mobility Concept",
+  "description": "Build future-mobility concept sets for autonomous pods, e-bikes, and urban transport with grounded speculation.",
+  "i18n": {
+    "en": {
+      "title": "Future Mobility Concept Surface Set",
+      "short_title": "Mobility Concept",
+      "description": "Build future-mobility concept sets for autonomous pods, e-bikes, and urban transport with grounded speculation."
+    },
+    "zh-CN": {
+      "title": "未来 mobility concept 表面组",
+      "short_title": "未来出行",
+      "description": "做未来 mobility concept 表面组，围绕自动驾驶舱、电助力和城市交通概念。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "frontier-creative-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Concept Mobility Core",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Concept Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

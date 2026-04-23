@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square tabletop shot of several poster prints stacked and slightly fanned, with curled corners, offset edges, and soft directional light revealing paper thickness and ink behavior. The poster should express DIY risograph poster language with fluorescent layers, halftone dots, soy-ink soak, copier artifacts, and handmade zine rhythm, using fluorescent pink, teal, ultramarine, black, and fibrous cream paper and a tactile surface appropriate to the medium.\n\nSubject:\nDesign the top poster to dominate while nearby duplicate sheets echo the same composition, creating a tactile print-run scene rather than a single isolated sheet. Use club-flyer stars, bicycles, cats, plants, arrows, sticker bursts, notebook doodles, and photocopy shadows as the main visual ingredients, and organize them with xerox-like title blocks, stickers, and captions treated as energetic but non-readable print texture. For the contemporary-subject axis, thread in community workshops, late-night print studios, and messenger bikes folded into a zine-launch poster system. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nUse the stack to emphasize production character: edge shadows, repeated motifs peeking from beneath, and subtle misalignment should enrich the material reading without changing the core design. Preserve plate drift, dot grain, bleed-through, paper curl, and independent-publisher roughness. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no full-CMYK smoothness, no perfect vector edges, no glossy magazine finish, no sterile product polish.\n\nUse case:\nRisograph Zine single study 7/9, testing print-run tactility and repeat presence.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "07-stacked-print-bundle",
+  "title": "Stacked Print Bundle",
+  "description": "Risograph Zine rendered as a stacked print bundle study, emphasizing testing print-run tactility and repeat presence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "physics-materials",
+    "pattern"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-zine-handmade/packages/single-poster-studies/images/07-stacked-print-bundle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Risograph Zine poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stacked Print Bundle",
+      "description": "Risograph Zine rendered as a stacked print bundle study, emphasizing testing print-run tactility and repeat presence."
+    },
+    "zh-CN": {
+      "title": "成叠印张",
+      "description": "Risograph 海报主题下的成叠印张研究，重点是测试批量印刷触感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "physics-materials",
+      "pattern"
+    ],
+    "alt": {
+      "en": "Risograph Zine poster study shown as stacked print bundle with non-readable lettering and style-accurate materials.",
+      "zh-CN": "Risograph 海报风格海报，以成叠印张形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

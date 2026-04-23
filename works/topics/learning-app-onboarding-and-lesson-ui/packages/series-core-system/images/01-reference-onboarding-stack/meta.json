@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square product-shot composition featuring a smartphone and two floating companion screens on a soft atmospheric backdrop, with polished device reflections and bright friendly lighting. The image should feel like a premium mobile-app campaign visual for parents, teachers, and product teams reviewing the initial onboarding flow. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow an onboarding sequence with a cheerful mascot, illustrated skill categories, large tappable cards, progress dots, and empty headline bars. The UI must be unmistakably made for children but disciplined enough for a real shipping product, balancing delight with clarity and accessible spacing. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nLock a repeatable visual system: rounded modules, confident hierarchy, soft but not sugary palette, supportive iconography, and precise mobile spacing. The screens should imply pedagogy, encouragement, and frictionless first use without relying on any readable interface text. Preserve the same mobile device framing, card radius, mascot style, color system, icon weight, and spacing rhythm from the reference screen set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nLearning App Onboarding and Lesson UI series study 1/4, reference onboarding stack.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable UI copy, no app-store branding, no logos, no generic gaming clutter, no impossible device anatomy, no notification spam.",
+  "id": "01-reference-onboarding-stack",
+  "title": "Reference Onboarding Stack",
+  "description": "Reference mobile onboarding screens that lock the visual language for a kids learning app.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/01-reference-onboarding-stack/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Onboarding Stack",
+      "description": "Reference mobile onboarding screens that lock the visual language for a kids learning app."
+    },
+    "zh-CN": {
+      "title": "基准引导页组",
+      "description": "锁定儿童学习 App 视觉语言的基准 onboarding 屏组。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Reference mobile onboarding screens that lock the visual language for a kids learning app.",
+      "zh-CN": "锁定儿童学习 App 视觉语言的基准 onboarding 屏组。"
+    }
+  }
+}

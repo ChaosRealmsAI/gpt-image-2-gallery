@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Use a square three-quarter close view on a pale cutting board or hinoki block under calm raking light, keeping the environment clean enough to feel almost ceremonial. The board texture should remain visible but restrained.\n\nSubject:\nShow a few freshly cut sashimi slices arranged beside the zone where they were just portioned, with subtle knife traces in the moisture and grain direction of the fish. A long knife may rest softly out of focus at the edge of frame, never dominating the composition. The image should suggest mastery without showing hands.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. Emphasize cut planes, residual moisture, and the relationship between blade discipline and final slice geometry. The prep context should enrich the story while staying as immaculate as the service counter.\n\nUse case:\nSushi and sashimi precision single study 8/9, shifting from finished service to the knife-work behind it.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no fish market mess, no blood or offcuts, no readable knife branding.",
+  "id": "knife-cut-board",
+  "title": "Knife Cut Board",
+  "description": "A quiet prep-board image where fresh slices and blade marks communicate the discipline behind the counter.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/single-support-studies/images/knife-cut-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Knife Cut Board",
+      "description": "A quiet prep-board image where fresh slices and blade marks communicate the discipline behind the counter."
+    },
+    "zh-CN": {
+      "title": "Knife Cut Board",
+      "description": "A quiet prep-board image where fresh slices and blade marks communicate the discipline behind the counter."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Fresh sashimi slices on a pale prep board with subtle knife traces and immaculate cutting discipline.",
+      "zh-CN": "Fresh sashimi slices on a pale prep board with subtle knife traces and immaculate cutting discipline."
+    }
+  }
+}

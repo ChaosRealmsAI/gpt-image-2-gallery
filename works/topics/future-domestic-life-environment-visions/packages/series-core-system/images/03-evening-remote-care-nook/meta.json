@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square near-future domestic interior that feels photographed for an editorial concept spread rather than a sterile showroom. Light should feel natural and inhabitable, with enough softness to imply routine use while preserving product and spatial clarity. The framing should reveal both room layout and the material relationship between furniture, appliances, storage, and circulation. Render the same material family in an evening setting where a quiet care nook, warm side lighting, and integrated communication surfaces sit beside the living zone.\n\nSubject:\nCenter the image on a believable domestic system where appliances, furnishings, utilities, and personal habits have evolved slightly into the future without losing everyday realism. The space should feel occupied by real people with routines, maintenance, and storage needs, even if those people are only implied through objects and traces. Keep the reference furniture and cabinetry language intact while highlighting remote-care tools, medication storage, and comfortable seating for longer use.\n\nImportant details:\nPrioritize near-future plausibility over flashy gimmicks. Small workflow clues, quiet automation, adaptable surfaces, and durable materials should explain how the room supports daily life. Use refined but grounded color, tactile surfaces, and careful object hierarchy so the results remain useful for brand inspiration and editorial concept work. This should read as domestic support infrastructure, not futuristic medical theater, with care routines embedded gently into the home. Preserve the exact structural language established by the reference image, especially the cabinetry geometry, appliance language, soft material palette, and lived-in storage logic.\n\nUse case:\nFuture Domestic series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no luxury showroom emptiness, no perfect sterile sci-fi lab look, no floating hologram clutter, no unreadable brand marks, no hospital aesthetic, no glowing sci-fi panels.",
+  "id": "03-evening-remote-care-nook",
+  "title": "Evening Remote Care Nook",
+  "description": "Evening Remote Care Nook presents the reference household language extended into an evening care and communication corner.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-domestic-life-environment-visions/packages/series-core-system/images/03-evening-remote-care-nook/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-domestic-habitat-anchor",
+        "meta_path": "works/topics/future-domestic-life-environment-visions/packages/series-core-system/images/01-domestic-habitat-anchor/meta.json",
+        "image_path": "works/topics/future-domestic-life-environment-visions/packages/series-core-system/images/01-domestic-habitat-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Future Domestic core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Evening Remote Care Nook",
+      "description": "Evening Remote Care Nook presents the reference household language extended into an evening care and communication corner."
+    },
+    "zh-CN": {
+      "title": "Evening Remote Care Nook",
+      "description": "未来日常主题中的Evening Remote Care Nook图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Evening Remote Care Nook presents the reference household language extended into an evening care and communication corner.",
+      "zh-CN": "未来日常主题中的Evening Remote Care Nook图像。"
+    }
+  }
+}

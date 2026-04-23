@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Create a square overhead or gently angled specimen photograph on warm linen with soft daylight and very controlled shadow. The mood should be serious, tactile, and archival rather than sensational.\n\nSubject:\nShow a small arranged set of braised chicken feet with lacquered skin, visible joints, and a rich mahogany glaze, presented as part of the dim sum world rather than an oddity. A tiny blank specimen tab and a small porcelain rest may appear nearby. The subject should feel intricate, crafted, and fully edible.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Focus on skin texture, folds, claws, and glaze sheen without exaggeration. The image should demonstrate that difficult anatomy-like forms can still be documented with elegance and warmth.\n\nUse case:\nDim sum miniature atlas single study 5/9, treating braised chicken feet as an archival culinary specimen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no horror framing, no sauce pooling, no banquet clutter.",
+  "id": "phoenix-claw-study",
+  "title": "Phoenix Claw Study",
+  "description": "A carefully lit specimen view of braised chicken feet treated with museum precision and culinary respect.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/single-support-studies/images/phoenix-claw-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Phoenix Claw Study",
+      "description": "A carefully lit specimen view of braised chicken feet treated with museum precision and culinary respect."
+    },
+    "zh-CN": {
+      "title": "Phoenix Claw Study",
+      "description": "A carefully lit specimen view of braised chicken feet treated with museum precision and culinary respect."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Braised chicken feet photographed on linen like a careful museum specimen with rich lacquered texture.",
+      "zh-CN": "Braised chicken feet photographed on linen like a careful museum specimen with rich lacquered texture."
+    }
+  }
+}

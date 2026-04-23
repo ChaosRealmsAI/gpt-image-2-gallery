@@ -1,0 +1,40 @@
+{
+  "id": "cold-precision-grid-interior",
+  "slug": "cold-precision-grid-interior",
+  "title": "Cold Precision Grid Interior",
+  "short_title": "Cold Precision",
+  "description": "Desaturated teal-and-amber office or apartment interior with clinical precision — backlit silhouettes at long desks, monitors glowing, empty chairs arranged with mathematical care.",
+  "i18n": {
+    "en": {
+      "title": "Cold Precision Grid Interior",
+      "short_title": "Cold Precision",
+      "description": "Desaturated teal-and-amber office or apartment interior with clinical precision — backlit silhouettes at long desks, monitors glowing, empty chairs arranged with mathematical care."
+    },
+    "zh-CN": {
+      "title": "冷精准网格室内",
+      "short_title": "冷精准",
+      "description": "去饱和青橙办公室/公寓 · 临床般精度 · 背光剪影在长桌 · 显示器发光 · 椅子数学精度摆放。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 660,
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-cold-precision-grid-interior",
+      "type": "single",
+      "title": "Cold Precision Studies",
+      "path": "packages/single-cold-precision-grid-interior/package.json"
+    }
+  ]
+}

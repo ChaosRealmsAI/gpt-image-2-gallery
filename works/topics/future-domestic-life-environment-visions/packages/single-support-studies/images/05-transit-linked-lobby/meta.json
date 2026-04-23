@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square near-future living environment study that feels immediately usable as a brand-inspiration image or speculative editorial visual. The scene should show one complete routine surface, not just decorative furniture styling. Show a midrise residential lobby connected directly to a transit node, with lockers, seating, stroller parking, and digital access surfaces embedded cleanly into the architecture.\n\nSubject:\nFocus on a believable room or shared domestic node where human habits, object placement, and light all imply how the space is used every day. Technology should feel embedded in materials, fixtures, and workflows instead of floating as abstract holograms. The space should feel like the first domestic room of the building, balancing security, movement, waiting, and casual neighbor contact.\n\nImportant details:\nKeep the design humane, tactile, and slightly imperfect so it reads as lived-in. Surfaces, storage, and appliance behavior should all support a credible near-future domestic routine. Keep the environment calm and plausible, with material durability and daily flow carrying more weight than flashy interfaces. Preserve habitual realism in object placement, cleaning, storage, and circulation so every room feels actually inhabited.\n\nUse case:\nFuture Domestic single study 5/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no generic smart-home wallpaper, no unrealistic levitating furniture, no fashion-shoot posing, no readable packaging copy, no corporate office lobby feel.",
+  "id": "05-transit-linked-lobby",
+  "title": "Transit Linked Lobby",
+  "description": "Transit Linked Lobby presents a residential lobby where parcel flow, mobility storage, and neighborhood services form a future domestic threshold.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-domestic-life-environment-visions/packages/single-support-studies/images/05-transit-linked-lobby/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Future Domestic support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Transit Linked Lobby",
+      "description": "Transit Linked Lobby presents a residential lobby where parcel flow, mobility storage, and neighborhood services form a future domestic threshold."
+    },
+    "zh-CN": {
+      "title": "Transit Linked Lobby",
+      "description": "未来日常主题中的Transit Linked Lobby图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Transit Linked Lobby presents a residential lobby where parcel flow, mobility storage, and neighborhood services form a future domestic threshold.",
+      "zh-CN": "未来日常主题中的Transit Linked Lobby图像。"
+    }
+  }
+}

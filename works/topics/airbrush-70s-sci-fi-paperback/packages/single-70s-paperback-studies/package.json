@@ -1,0 +1,44 @@
+{
+  "id": "single-70s-paperback-studies",
+  "type": "single",
+  "title": "70s Paperback Studies",
+  "description": "Nine independent 70s-era science-fiction paperback covers — each a different imagined title exploring airbrush planets, chrome-foil cursive lettering, and matte paperstock flatness, rendered at modern display precision.",
+  "creative_direction": "Each cover is a standalone title in a fictional 70s sci-fi paperback line. Shared grammar: airbrush gradient skies, glossy planetary objects, chrome or foil title lettering, thin sans author line, slab-serif series tag, matte paper edge. No recurring character or planet between covers.",
+  "cover_image": "images/planet-drift-cover/image.png",
+  "i18n": {
+    "en": {
+      "title": "70s Paperback Studies",
+      "description": "Nine independent 70s-era science-fiction paperback covers — each a different imagined title exploring airbrush planets, chrome-foil cursive lettering, and matte paperstock flatness, rendered at modern display precision."
+    },
+    "zh-CN": {
+      "title": "70 年代平装书研究",
+      "description": "九张独立的 70 年代科幻平装封面 · 各自虚构书名 · 探索喷绘行星 / 铬金箔草书 / 哑光纸平面 · 以现代显示精度重现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "editorial-illustration",
+      "text-rendering",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    { "id": "planet-drift-cover", "title": "Planet Drift Cover", "image": "images/planet-drift-cover/image.png", "meta": "images/planet-drift-cover/meta.json" },
+    { "id": "mothership-encounter", "title": "Mothership Encounter", "image": "images/mothership-encounter/image.png", "meta": "images/mothership-encounter/meta.json" },
+    { "id": "cosmic-cathedral", "title": "Cosmic Cathedral", "image": "images/cosmic-cathedral/image.png", "meta": "images/cosmic-cathedral/meta.json" },
+    { "id": "twin-moons-ocean", "title": "Twin Moons Ocean", "image": "images/twin-moons-ocean/image.png", "meta": "images/twin-moons-ocean/meta.json" },
+    { "id": "desert-explorer-cover", "title": "Desert Explorer Cover", "image": "images/desert-explorer-cover/image.png", "meta": "images/desert-explorer-cover/meta.json" },
+    { "id": "hyperspace-tunnel", "title": "Hyperspace Tunnel", "image": "images/hyperspace-tunnel/image.png", "meta": "images/hyperspace-tunnel/meta.json" },
+    { "id": "crystal-city-cover", "title": "Crystal City Cover", "image": "images/crystal-city-cover/image.png", "meta": "images/crystal-city-cover/meta.json" },
+    { "id": "robot-silhouette-cover", "title": "Robot Silhouette Cover", "image": "images/robot-silhouette-cover/image.png", "meta": "images/robot-silhouette-cover/meta.json" },
+    { "id": "nebula-portrait-cover", "title": "Nebula Portrait Cover", "image": "images/nebula-portrait-cover/image.png", "meta": "images/nebula-portrait-cover/meta.json" }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent summer image within the same bright escape world, preserving the exact high-sun clarity, water reflections, pale surfaces, and citrus accents from the reference image, but widen the composition into a polished travel-set or room-arrival arrangement. The continuity should feel exact, with the same premium leisure language applied to a more tactile textile and packing story.\n\nSubject:\nFeature folded linen garments or textiles, travel accessories, bag, sunglasses-like form, and a few bright seasonal cues arranged into a calm premium summer composition. Preserve exact visual identity from the reference model while shifting emphasis toward wardrobe and travel preparation. The result should feel aspirational, brand-neutral, and useful for fashion, hotel, or lifestyle summer rollout.\n\nImportant details:\nFabric realism matters. Linen weave, leather trim, glass, stone, and sunlit shadow edges should all feel tactile and convincing. Keep the space breathable and refined. The image should read as one more polished deliverable from the same summer campaign, not a different aesthetic or a generic flatlay.\n\nUse case:\nSummer Escape series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable garment labels, no logos, no crowd, no suitcase airport tags, no tropical cliché props, no messy packing, no cheap beach souvenirs.",
+  "id": "04-linen-travel-variation",
+  "title": "Linen Travel Variation",
+  "description": "A linen-and-travel-set variation continuing the same premium summer escape system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/04-linen-travel-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-resort-arrival-anchor",
+        "meta_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/meta.json",
+        "image_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent linen-travel variation for the Summer Escape rollout. Preserve the exact campaign language from 01-resort-arrival-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Linen Travel Variation",
+      "description": "A linen-and-travel-set variation continuing the same premium summer escape system."
+    },
+    "zh-CN": {
+      "title": "亚麻旅行变体",
+      "description": "延续同一高端夏季逃离系统的亚麻旅行套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A linen travel-set summer scene derived from the same premium escape campaign system.",
+      "zh-CN": "源自同一高端逃离感 campaign 系统的亚麻旅行套装夏季场景。"
+    }
+  }
+}

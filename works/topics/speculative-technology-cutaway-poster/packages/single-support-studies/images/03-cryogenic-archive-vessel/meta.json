@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square explanatory board for one speculative machine, making the image useful for a presentation, poster, or worldbuilding manual page. The composition should have one dominant cutaway read supported by controlled secondary views. Compose a cylindrical or ovoid archive vessel with shell layers, cooling veins, suspension chambers, and controlled access hatches visible in section.\n\nSubject:\nShow a complete device with clear internal zones and believable maintenance or operational structure. The machine should look impossible only in ambition, not in the clarity of its construction logic. The internal zones should explain preservation, inspection, and retrieval without requiring text or actors.\n\nImportant details:\nPrioritize visual explanation, clean sectional hierarchy, and disciplined materials. Every chamber, conduit, shell break, and inset should help the viewer infer what the machine does. Use cold color discipline and precise shell breaks to keep the machine elegant and technical. Preserve internal cause and effect so the viewer can follow how material, energy, pressure, heat, or flow moves through the device.\n\nUse case:\nSpec Tech Cutaway single study 3/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no text blocks, no comic-book speed effects, no pure abstract geometry without function, no brand logos, no horror cryo-pod trope.",
+  "id": "03-cryogenic-archive-vessel",
+  "title": "Cryogenic Archive Vessel",
+  "description": "Cryogenic Archive Vessel presents a poster dissecting a vessel designed to preserve delicate biological or cultural materials in deep cold.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "patent-diagram",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-technology-cutaway-poster/packages/single-support-studies/images/03-cryogenic-archive-vessel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Spec Tech Cutaway support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Cryogenic Archive Vessel",
+      "description": "Cryogenic Archive Vessel presents a poster dissecting a vessel designed to preserve delicate biological or cultural materials in deep cold."
+    },
+    "zh-CN": {
+      "title": "Cryogenic Archive Vessel",
+      "description": "技术剖面主题中的Cryogenic Archive Vessel图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Cryogenic Archive Vessel presents a poster dissecting a vessel designed to preserve delicate biological or cultural materials in deep cold.",
+      "zh-CN": "技术剖面主题中的Cryogenic Archive Vessel图像。"
+    }
+  }
+}

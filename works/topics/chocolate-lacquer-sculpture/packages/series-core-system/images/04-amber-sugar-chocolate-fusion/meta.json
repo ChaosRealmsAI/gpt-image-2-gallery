@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Use the same pedestal, camera distance, and softbox reflection system from the reference image, but allow warm amber highlights to travel through translucent sugar components intertwined with dark chocolate. The black background should stay otherwise unchanged.\n\nSubject:\nCreate a competition showpiece where dark lacquered chocolate arcs support or intersect with translucent amber sugar sails and a few tiny gold-leaf accents. The fusion should feel technically ambitious and balanced, with each material visibly performing a different structural role. The sculpture must remain elegant rather than decorative.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. Preserve exact studio language and tempered reflection logic from the reference model while introducing translucent sugar that catches light in a different way from chocolate. The contrast between opaque lacquer and glowing amber should feel intentional and premium.\n\nUse case:\nChocolate lacquer sculpture series study 4/9, concluding the anchor system with a chocolate-and-amber fusion showpiece.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no candy-store colors, no sticky caramel drip look, no festive cake decorations.",
+  "id": "04-amber-sugar-chocolate-fusion",
+  "title": "Amber Sugar Chocolate Fusion",
+  "description": "A chocolate-and-sugar fusion variation preserving the anchor studio while increasing translucency and contrast.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/04-amber-sugar-chocolate-fusion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lacquer-pedestal-anchor",
+        "meta_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/meta.json",
+        "image_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Amber Sugar Chocolate Fusion",
+      "description": "A chocolate-and-sugar fusion variation preserving the anchor studio while increasing translucency and contrast."
+    },
+    "zh-CN": {
+      "title": "Amber Sugar Chocolate Fusion",
+      "description": "A chocolate-and-sugar fusion variation preserving the anchor studio while increasing translucency and contrast."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A dark lacquered chocolate sculpture fused with glowing amber sugar sails on a competition pedestal.",
+      "zh-CN": "A dark lacquered chocolate sculpture fused with glowing amber sugar sails on a competition pedestal."
+    }
+  }
+}

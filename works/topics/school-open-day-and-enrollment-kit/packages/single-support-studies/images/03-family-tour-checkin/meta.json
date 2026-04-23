@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nRender a square front-desk scene at a school open day, with bright natural light, clear circulation, and a tidy welcome atmosphere. The image should feel documentary-photoreal yet art-directed enough for marketing use. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a reception desk with blank badges, brochures, small floral details, and staff-like figures greeting families in a warm but orderly way. The visual story should emphasize calm organization and emotional reassurance. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nAvoid event-chaos energy. The admissions moment should feel human, specific, and trustworthy, proving that enrollment marketing can be centered on experience rather than abstract claims. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nSchool Open Day and Enrollment Kit single study 3/5, family tour check-in.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no luxury-hotel exaggeration, no chaotic crowds, no celebrity faces, no fake brand signage.",
+  "id": "03-family-tour-checkin",
+  "title": "Family Tour Check-In",
+  "description": "A school tour check-in scene showing the hospitality side of an enrollment experience.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/single-support-studies/images/03-family-tour-checkin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 3 for the topic.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Tour Check-In",
+      "description": "A school tour check-in scene showing the hospitality side of an enrollment experience."
+    },
+    "zh-CN": {
+      "title": "家庭签到场景",
+      "description": "展示招生体验中接待与签到环节的校园参观场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A school tour check-in scene showing the hospitality side of an enrollment experience.",
+      "zh-CN": "展示招生体验中接待与签到环节的校园参观场景。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Gallery Exhibition Spatial Sequence. Use a final-room composition with reflective surfaces and one seating element near the exit while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep chalk white, charcoal gray, pale concrete, soft shadow black, and controlled spotlight warmth as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a gallery and exhibition environment with disciplined white and charcoal volumes, precise spotlighting, plinths, archival display furniture, abstract wall-label zones, and carefully paced emptiness. Focus on the exact same exhibition from the reference image, now emphasizing decompression and end-of-route mood. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the wall-label rhythm, plinth geometry, spotlight language, floor material, and slow exhibition pacing. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nGallery Exhibition Spatial Sequence series study 4/9, extending the closing spatial beat inside the same exhibition identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no crowds, no readable wall text, no security barriers, no colorful trade-show clutter, no random gifts-shop products, no gift shop merchandise.",
+  "id": "04-exit-reflection-chamber",
+  "title": "Exit Reflection Chamber",
+  "description": "A reference-dependent architectural variation for gallery sequence focused on exit reflection chamber.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gallery-exhibition-spatial-sequence/packages/series-spatial-language-lock/images/04-exit-reflection-chamber/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-threshold-room-anchor",
+        "meta_path": "works/topics/gallery-exhibition-spatial-sequence/packages/series-spatial-language-lock/images/01-threshold-room-anchor/meta.json",
+        "image_path": "works/topics/gallery-exhibition-spatial-sequence/packages/series-spatial-language-lock/images/01-threshold-room-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Exit Reflection Chamber",
+      "description": "A reference-dependent architectural variation for gallery sequence focused on exit reflection chamber."
+    },
+    "zh-CN": {
+      "title": "出口沉思厅",
+      "description": "围绕展陈空间的出口沉思厅研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Exit Reflection Chamber for Gallery Exhibition Spatial Sequence.",
+      "zh-CN": "展陈空间主题中的出口沉思厅。"
+    }
+  }
+}

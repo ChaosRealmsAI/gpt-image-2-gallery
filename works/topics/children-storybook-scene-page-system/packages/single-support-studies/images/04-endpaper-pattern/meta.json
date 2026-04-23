@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nRender a square pattern-board presentation as if pinned in a publishing design review, with printed swatches, folded corner samples, and soft neutral lighting. The composition should feel like an editorial materials board for a picture-book package. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse repeating motifs from a gentle story world such as fox tails, leaves, stars, boots, flowers, books, and lanterns, arranged into a seamless but characterful pattern. Include a few larger sample patches and one open book showing how the pattern could live on endpapers. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the pattern sophisticated enough for real publishing design while remaining friendly for children. The system should feel like a companion surface to story pages, not a separate decorative style. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nChildren Storybook Scene Page System single study 4/5, endpaper pattern.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no harsh realism, no licensed character resemblance, no cluttered scrapbook styling, no horror elements.",
+  "id": "04-endpaper-pattern",
+  "title": "Endpaper Pattern",
+  "description": "A decorative endpaper or pattern board derived from a children storybook world.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/single-support-studies/images/04-endpaper-pattern/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 4 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Endpaper Pattern",
+      "description": "A decorative endpaper or pattern board derived from a children storybook world."
+    },
+    "zh-CN": {
+      "title": "环衬纹样页",
+      "description": "源自儿童故事世界的环衬或图案板研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A decorative endpaper or pattern board derived from a children storybook world.",
+      "zh-CN": "源自儿童故事世界的环衬或图案板研究。"
+    }
+  }
+}

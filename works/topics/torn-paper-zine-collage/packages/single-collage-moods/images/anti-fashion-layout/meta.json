@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of an anti-fashion zine page on cream photocopier paper, moody desk lamp from the left. Light falls unevenly and the photocopy drum streaks are softer.\n\nSubject:\nAn anti-fashion layout page: three cut-out editorial fashion photographs re-composed with deliberately wrong crops — one shows only legs with a torn top, another only a shoulder, another a cropped torso. Taped over each figure is a ballpoint drawn alternate outfit in sketchy lines. A grid of tiny cut-out patches of fabric magazine pages is pasted along the right margin. Scissor-scribbled scribbles connect them.\n\nImportant details:\nEvery cut is deliberately crude, cropping faces off at weird angles. Ballpoint over-drawings must feel confident but unpolished, with some hesitant double-lines. Fabric-texture patch collage must show actual photo-print grain from different source pages. Tape ends must curl up.\n\nUse case:\nIndependent single image in the Collage Moods package, representing the anti-fashion deconstructionist voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no recognizable model faces, no clean fashion photography, no vector drawings, preserve exact 1:1 aspect ratio.",
+  "id": "anti-fashion-layout",
+  "title": "Anti-Fashion Layout",
+  "description": "A cut-up anti-fashion zine page with wrongly-cropped editorial photos, ballpoint over-drawings, and fabric-patch margin.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/single-collage-moods/images/anti-fashion-layout/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Anti-Fashion Layout",
+      "description": "A cut-up anti-fashion zine page with wrongly-cropped editorial photos, ballpoint over-drawings, and fabric-patch margin."
+    },
+    "zh-CN": {
+      "title": "反时尚版面",
+      "description": "反时尚 zine 页 · 故意错切的时尚图 / 圆珠笔再绘衣服 / 布纹图块边栏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Anti-fashion zine page with cut editorial figures, ballpoint over-drawings, and fabric patches.",
+      "zh-CN": "反时尚 zine 页 · 剪切的时尚图形体 · 圆珠笔再画衣服和布纹图块。"
+    }
+  }
+}

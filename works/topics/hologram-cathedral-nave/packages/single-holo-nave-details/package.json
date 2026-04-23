@@ -1,0 +1,64 @@
+{
+  "id": "single-holo-nave-details",
+  "type": "single",
+  "title": "Holo Nave Details",
+  "description": "Five independent detail studies inside the hologram cathedral nave theme, each focusing on one interplay between stone architecture and digital light.",
+  "creative_direction": "Five standalone close-up compositions that each explore a different detail of the fused language: volumetric rose window, drifting AR scripture, hovering choir hologram, data-driven candle array, and the projected cross at the crossing. No reference dependency.",
+  "cover_image": "images/volumetric-rose-window/image.png",
+  "i18n": {
+    "en": {
+      "title": "Holo Nave Details",
+      "description": "Five independent detail studies inside the hologram cathedral nave theme, each focusing on one interplay between stone architecture and digital light."
+    },
+    "zh-CN": {
+      "title": "全息中殿细部",
+      "description": "五张独立细部研究，分别聚焦石构件与数字光不同交互点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "photorealism",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "volumetric-rose-window",
+      "title": "Volumetric Rose Window",
+      "image": "images/volumetric-rose-window/image.png",
+      "meta": "images/volumetric-rose-window/meta.json"
+    },
+    {
+      "id": "ar-scripture-ribbons",
+      "title": "AR Scripture Ribbons",
+      "image": "images/ar-scripture-ribbons/image.png",
+      "meta": "images/ar-scripture-ribbons/meta.json"
+    },
+    {
+      "id": "hovering-choir-hologram",
+      "title": "Hovering Choir Hologram",
+      "image": "images/hovering-choir-hologram/image.png",
+      "meta": "images/hovering-choir-hologram/meta.json"
+    },
+    {
+      "id": "data-candle-array",
+      "title": "Data Candle Array",
+      "image": "images/data-candle-array/image.png",
+      "meta": "images/data-candle-array/meta.json"
+    },
+    {
+      "id": "projected-cross-crossing",
+      "title": "Projected Cross at the Crossing",
+      "image": "images/projected-cross-crossing/image.png",
+      "meta": "images/projected-cross-crossing/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "new-wave-french-film-poster",
+  "title": "French New Wave Film Poster",
+  "short_title": "French New Wave",
+  "description": "60s French new-wave film poster — bold handlettering mixed with typography, photograph cropped radically, blue-red contrast, cigarette-smoke mood, visible screen-print texture.",
+  "i18n": {
+    "en": {
+      "title": "French New Wave Film Poster",
+      "short_title": "French New Wave",
+      "description": "60s French new-wave film poster — bold handlettering mixed with typography, photograph cropped radically, blue-red contrast, cigarette-smoke mood, visible screen-print texture."
+    },
+    "zh-CN": {
+      "title": "法国新浪潮电影海报",
+      "short_title": "法国新浪潮",
+      "description": "60 年代法国新浪潮电影海报 · 手写与字体混排 · 照片激进裁切 · 蓝红对比 · 香烟氛围 · 可见丝网印刷质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 550,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square motorsport surface macro with harsh directional light, crisp texture, and dark surrounding falloff. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original race-car body fragment showing livery bands, carbon weave, fasteners, vents, and subtle heat discoloration. Make the subject feel original, production-aware, and clearly grounded in Motorsport Livery and Track Promo Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nStress tactile realism, graphic discipline, and high-end fabrication quality without any readable branding or exaggerated battle damage. The visual language should still feel native to Motorsport Livery and Track Promo Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMotorsport Promo single study 5/9 for Motorsport Livery and Track Promo Set, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sponsor logos, no readable digits, no copyrighted circuit signage, no real team branding, no crowd chaos.",
+  "id": "support-one",
+  "title": "Livery Detail Study",
+  "description": "A macro study of race livery interacting with carbon fiber, venting, and heat wear.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "high-speed",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/motorsport-livery-and-track-promo-set/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Livery Detail Study",
+      "description": "A macro study of race livery interacting with carbon fiber, venting, and heat wear."
+    },
+    "zh-CN": {
+      "title": "涂装细节研究",
+      "description": "观察赛车涂装如何与碳纤维、开孔和热痕相互作用的微观研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "high-speed",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A macro detail study of an original motorsport livery surface.",
+      "zh-CN": "原创赛车涂装表面的微观细节研究。"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same mall atrium, same camera vantage as the reference. Now the image implicitly foregrounds the central planter's lower basin, which has been revealed to be a shallow fountain currently turned off. 90s direct on-camera flash hits the empty fountain basin. Ambient is a low warm glow from security lights above. 35mm grain, slight warm cast.\n\nSubject:\nThe same atrium footprint: terrazzo floor, planter with faux ficus, wooden benches around, escalator pair in the back, balcony railings above. The planter centerpiece is reframed so the viewer sees that its base is a round shallow fountain basin, drained of water, with scattered coins settled on the tile bottom and a small pump nozzle sticking up dry. The wooden benches and ficus remain in place. Storefronts along the sides remain shuttered.\n\nImportant details:\nFountain basin must read as dry — no residual water sheen except trace puddles around coins. Coins must be generic currency-blob shapes, not identifiable denominations. Preserve everything else from the reference: camera height, planter location, balcony geometry, storefront spacing. The mood is 'wish-coins with no active fountain to receive them'. No shopper, no security, no photographer reflection in any trace water.\n\nUse case:\nSeries image 3 of 4. Same atrium, fountain turned off.\n\nConstraints:\nNo readable text, no watermark, no logos, no identifiable currency design, preserve exact 1:1 aspect ratio, no people, no active water, no cinematic grade.",
+  "id": "03-atrium-fountain-off",
+  "title": "Atrium · Fountain Off",
+  "description": "Same reference atrium with the central planter's fountain basin drained, preserving all architecture from 01.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/03-atrium-fountain-off/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-atrium-after-close",
+        "meta_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/meta.json",
+        "image_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01. Same atrium, central fountain drained."
+  },
+  "i18n": {
+    "en": {
+      "title": "Atrium · Fountain Off",
+      "description": "Same reference atrium with the central planter's fountain basin drained, preserving all architecture from 01."
+    },
+    "zh-CN": {
+      "title": "中庭 · 喷泉熄火",
+      "description": "同一中庭,中央花坛底部喷泉抽干,建筑元素保留。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "Same mall atrium, central planter fountain revealed as drained with coins on the bottom.",
+      "zh-CN": "同一商场中庭,中心花坛底部的喷泉已抽干,池底散落硬币。"
+    }
+  }
+}

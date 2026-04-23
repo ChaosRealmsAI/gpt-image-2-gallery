@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square overhead tabletop photograph of a fresh poster proof on neutral worktable paper, lit by cool daylight, with crop marks, tape tabs, and slight paper bow visible around the sheet. The poster should express mid-century minimalist paper-cut poster language driven by torn shapes, narrative negative space, and three-color restraint, using matte black, rust orange, cream, and a very limited dark teal accent and a tactile surface appropriate to the medium.\n\nSubject:\nDesign the poster as a print-shop proof, preserving the same poster language while allowing production clues such as edge trims, registration targets, and process marks to frame the composition. Use single silhouettes, staircases, hands, knives, eyes, circles, doorways, and dramatic shadows as the main visual ingredients, and organize them with simple cut-paper title bars and glyph fragments kept abstract and unreadable. For the contemporary-subject axis, thread in ride-share lanes, phone glare, and elevator doors converted into severe paper-cut suspense. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nThe image must still read as a finished poster concept, but it should carry believable print-process evidence and material tactility instead of gallery-wall perfection. Preserve deliberate imbalance, clean cut contours, visible paper fibers, and story told through absence as much as presence. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no glossy gradients, no tiny fiddly detail, no photoreal rendering, no ornamental clutter.\n\nUse case:\nPaper-Cut Film single study 2/9, testing production realism and process evidence.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "02-print-proof-flatlay",
+  "title": "Print Proof Flatlay",
+  "description": "Paper-Cut Film rendered as a print proof flatlay study, emphasizing testing production realism and process evidence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/saul-bass-minimalist-cut/packages/single-poster-studies/images/02-print-proof-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Paper-Cut Film poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Print Proof Flatlay",
+      "description": "Paper-Cut Film rendered as a print proof flatlay study, emphasizing testing production realism and process evidence."
+    },
+    "zh-CN": {
+      "title": "印刷校样平铺",
+      "description": "剪纸海报主题下的印刷校样平铺研究，重点是测试印刷过程感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Paper-Cut Film poster study shown as print proof flatlay with non-readable lettering and style-accurate materials.",
+      "zh-CN": "剪纸海报风格海报，以印刷校样平铺形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Halloween campaign image inside the same moody event world, preserving the exact ember-orange highlights, charcoal depth, and refined sense of danger from the reference image, but orient the composition toward an entertainment-gate or fairground entry. The scene should remain premium and suspenseful rather than childish, with clear continuity to the anchor image.\n\nSubject:\nFeature a stylized gate, ticketing threshold without readable text, lantern light, sculptural props, and controlled seasonal detail that suggests a premium Halloween carnival or immersive event. Preserve exact campaign identity from the reference model while changing the venue emphasis. The subject must feel original, promotional, and suitable for nightlife or entertainment rollout.\n\nImportant details:\nKeep the same high-end Halloween language: suspense first, novelty second. Metalwork, wood, haze, and lighting rigs should all feel believable. The gate should imply event access and anticipation, not a theme-park parody. The final image should work as campaign key art for entertainment venues and seasonal event promotions.\n\nUse case:\nHalloween Promo series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable ticket text, no gore, no clown-horror cliché, no logo banners, no theme-park mascots, no circus overload, no rainbow carnival lights, no crowd crush.",
+  "id": "04-carnival-gate-variation",
+  "title": "Carnival Gate Variation",
+  "description": "A carnival-entry Halloween variation extending the same polished event-promo language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/04-carnival-gate-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-entry-anchor",
+        "meta_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/meta.json",
+        "image_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent carnival-gate variation for the Halloween promo system. Preserve the exact campaign language from 01-midnight-entry-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Carnival Gate Variation",
+      "description": "A carnival-entry Halloween variation extending the same polished event-promo language."
+    },
+    "zh-CN": {
+      "title": "游乐入口变体",
+      "description": "延续同一精致活动宣传语言的万圣游乐入口变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A Halloween carnival-entry campaign scene derived from the same premium night promo system.",
+      "zh-CN": "源自同一高端夜场宣传系统的万圣游乐入口画面。"
+    }
+  }
+}

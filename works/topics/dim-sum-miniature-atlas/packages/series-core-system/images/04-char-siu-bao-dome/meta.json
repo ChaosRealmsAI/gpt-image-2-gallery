@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Use the same overhead specimen framing, warm linen, and quiet daylight as the reference image, allowing the buns to sit with more breathing room so their rounded forms read clearly. The shadows should remain soft and minimal.\n\nSubject:\nPresent several small steamed buns with soft matte dough and natural crown splits revealing a glimpse of the filling inside. One bun may be opened to show the interior meat texture and the layered softness of the bread. The arrangement should feel intimate and archival rather than commercial.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Preserve exact spacing, linen field, and daylight calm from the reference model while shifting the material emphasis toward soft fermented dough and gentle structural cracking at the top. The buns should appear warm, plush, and edible, not like toy bread.\n\nUse case:\nDim sum miniature atlas series study 4/9, completing the anchor tray with soft steamed bun specimens.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no bakery paper liners, no sugary dessert-bun styling, no crowded steam basket.",
+  "id": "04-char-siu-bao-dome",
+  "title": "Char Siu Bao Dome",
+  "description": "A steamed bun variation preserving the atlas language while focusing on soft dough and split tops.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/04-char-siu-bao-dome/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-linen-specimen-anchor",
+        "meta_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/meta.json",
+        "image_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Char Siu Bao Dome",
+      "description": "A steamed bun variation preserving the atlas language while focusing on soft dough and split tops."
+    },
+    "zh-CN": {
+      "title": "Char Siu Bao Dome",
+      "description": "A steamed bun variation preserving the atlas language while focusing on soft dough and split tops."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Soft steamed buns on linen with natural top splits and a glimpse of savory filling.",
+      "zh-CN": "Soft steamed buns on linen with natural top splits and a glimpse of savory filling."
+    }
+  }
+}

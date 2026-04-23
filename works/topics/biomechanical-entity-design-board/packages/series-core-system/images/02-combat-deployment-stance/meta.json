@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square concept board for one biomechanical entity, balancing orthographic clarity, material close-ups, and enough dramatic lighting to feel like a finished poster. The layout should feel structured, with a dominant hero view supported by sections, parts, or alternate poses rather than scattered fragments. Keep the same board language but rotate the main pose into a dynamic deployment stance with one limb extended and panel articulation exposed.\n\nSubject:\nCenter the image on a coherent organism-machine fusion where anatomy, exoskeletal plating, powered joints, sensors, and functional appendages belong to one design family. The being should feel purposeful, with visible load paths, movement logic, and enough biological cues to avoid looking like a plain robot. Preserve the reference torso, limb proportions, and joint design while revealing protective shutters, bracing behavior, and threat posture.\n\nImportant details:\nControl noise aggressively. Use clear mass hierarchy, disciplined materials, and selective cross-section or inset views to explain how organic tissue and mechanical systems cooperate. The board should remain commercially useful for design review, poster, or worldbuilding deck surfaces. Action should never overwhelm clarity; the viewer must still read the same original body family immediately. Preserve the exact structural language established by the reference image, especially the torso silhouette, joint language, plated musculature, and board hierarchy.\n\nUse case:\nBiomech Board series study 2/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore splatter, no random wires everywhere, no superhero costume cues, no readable labels, no superhero jump pose.",
+  "id": "02-combat-deployment-stance",
+  "title": "Combat Deployment Stance",
+  "description": "Combat Deployment Stance presents the same sentinel entity reconfigured for active deployment without losing its core anatomy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/02-combat-deployment-stance/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sentinel-frame-anchor",
+        "meta_path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/01-sentinel-frame-anchor/meta.json",
+        "image_path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/01-sentinel-frame-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Biomech Board core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Combat Deployment Stance",
+      "description": "Combat Deployment Stance presents the same sentinel entity reconfigured for active deployment without losing its core anatomy."
+    },
+    "zh-CN": {
+      "title": "Combat Deployment Stance",
+      "description": "生物机械主题中的Combat Deployment Stance图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Combat Deployment Stance presents the same sentinel entity reconfigured for active deployment without losing its core anatomy.",
+      "zh-CN": "生物机械主题中的Combat Deployment Stance图像。"
+    }
+  }
+}

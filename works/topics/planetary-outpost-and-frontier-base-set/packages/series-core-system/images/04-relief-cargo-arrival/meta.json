@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square planetary-outpost image with harsh environment readability and grounded survival engineering. The frame should capture both the base architecture and the environmental pressure around it, using dust, ice, darkness, or glare only as support for spatial clarity. Keep the camera near enough to read pipes, locks, and utility surfaces, but far enough to show how the base organizes itself against the landscape. Stage the habitat cluster during a controlled cargo arrival with one lander settling near the same pad and containers moving toward the service corridor.\n\nSubject:\nCenter the composition on a coherent frontier base language: pressure habitats, greenhouses, landing pads, drills, storage berms, utility corridors, rover access, and sheltered work zones. The base should feel assembled by necessity and maintained daily by real crews, not staged as a decorative movie backdrop. Keep the original module family unchanged while foregrounding unloading cranes, transfer vehicles, and staged supply stacks.\n\nImportant details:\nPrioritize survivability, logistics, and modular continuity. Material weathering, suit-scale doors, thermal lighting, and utility routing should all help explain how the installation stays alive in a hostile world. Use disciplined industrial colors with one environmental accent so the package remains reusable across concept posters and design sheets. The emphasis should be on calm logistical competence and believable infrastructure throughput instead of dramatic action. Preserve the exact structural language established by the reference image, especially the habitat module proportions, airlock language, utility pipe routing, and survival-first lighting hierarchy.\n\nUse case:\nFrontier Base series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy ruins, no military battle explosions, no giant heroic poses, no magical sky anomalies, no combat dropship mood, no giant crowd.",
+  "id": "04-relief-cargo-arrival",
+  "title": "Relief Cargo Arrival",
+  "description": "Relief Cargo Arrival presents the same base during a cargo delivery sequence that reveals landing logic and resource handling.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/04-relief-cargo-arrival/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-frontier-habitat-anchor",
+        "meta_path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/01-frontier-habitat-anchor/meta.json",
+        "image_path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/01-frontier-habitat-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Frontier Base core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Relief Cargo Arrival",
+      "description": "Relief Cargo Arrival presents the same base during a cargo delivery sequence that reveals landing logic and resource handling."
+    },
+    "zh-CN": {
+      "title": "Relief Cargo Arrival",
+      "description": "边疆基地主题中的Relief Cargo Arrival图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Relief Cargo Arrival presents the same base during a cargo delivery sequence that reveals landing logic and resource handling.",
+      "zh-CN": "边疆基地主题中的Relief Cargo Arrival图像。"
+    }
+  }
+}

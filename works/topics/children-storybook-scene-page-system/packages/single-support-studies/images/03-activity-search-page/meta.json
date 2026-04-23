@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square open-page activity spread seen from above, printed on matte paper and lit like a premium workbook preview. The layout should feel playful but controlled, with one busy story scene balanced by blank instruction zones and small target-icon panels. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nBuild a rich illustrated environment full of story objects, animals, and repeated motifs that children could search for visually. Use empty target boxes and pictorial cue circles instead of readable instructions, making the page useful across languages. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nThe illustration should stay warm, child-friendly, and narratively coherent rather than random. The page must communicate focused play, observation, and gentle learning through composition alone. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nChildren Storybook Scene Page System single study 3/5, activity search page.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no harsh realism, no licensed character resemblance, no cluttered scrapbook styling, no horror elements.",
+  "id": "03-activity-search-page",
+  "title": "Activity Search Page",
+  "description": "A search-and-find activity page that converts the story world into an interactive learning surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/single-support-studies/images/03-activity-search-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 3 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Activity Search Page",
+      "description": "A search-and-find activity page that converts the story world into an interactive learning surface."
+    },
+    "zh-CN": {
+      "title": "寻找活动页",
+      "description": "将故事世界转成互动学习页面的找一找活动页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A search-and-find activity page that converts the story world into an interactive learning surface.",
+      "zh-CN": "将故事世界转成互动学习页面的找一找活动页。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square tabletop shot of several poster prints stacked and slightly fanned, with curled corners, offset edges, and soft directional light revealing paper thickness and ink behavior. The poster should express mid-century minimalist paper-cut poster language driven by torn shapes, narrative negative space, and three-color restraint, using matte black, rust orange, cream, and a very limited dark teal accent and a tactile surface appropriate to the medium.\n\nSubject:\nDesign the top poster to dominate while nearby duplicate sheets echo the same composition, creating a tactile print-run scene rather than a single isolated sheet. Use single silhouettes, staircases, hands, knives, eyes, circles, doorways, and dramatic shadows as the main visual ingredients, and organize them with simple cut-paper title bars and glyph fragments kept abstract and unreadable. For the contemporary-subject axis, thread in ride-share lanes, phone glare, and elevator doors converted into severe paper-cut suspense. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nUse the stack to emphasize production character: edge shadows, repeated motifs peeking from beneath, and subtle misalignment should enrich the material reading without changing the core design. Preserve deliberate imbalance, clean cut contours, visible paper fibers, and story told through absence as much as presence. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no glossy gradients, no tiny fiddly detail, no photoreal rendering, no ornamental clutter.\n\nUse case:\nPaper-Cut Film single study 7/9, testing print-run tactility and repeat presence.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "07-stacked-print-bundle",
+  "title": "Stacked Print Bundle",
+  "description": "Paper-Cut Film rendered as a stacked print bundle study, emphasizing testing print-run tactility and repeat presence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/saul-bass-minimalist-cut/packages/single-poster-studies/images/07-stacked-print-bundle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Paper-Cut Film poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stacked Print Bundle",
+      "description": "Paper-Cut Film rendered as a stacked print bundle study, emphasizing testing print-run tactility and repeat presence."
+    },
+    "zh-CN": {
+      "title": "成叠印张",
+      "description": "剪纸海报主题下的成叠印张研究，重点是测试批量印刷触感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Paper-Cut Film poster study shown as stacked print bundle with non-readable lettering and style-accurate materials.",
+      "zh-CN": "剪纸海报风格海报，以成叠印张形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

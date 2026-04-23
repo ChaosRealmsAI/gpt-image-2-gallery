@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square, photoreal landscape study of icelandic black beach basalt. Compose it as the clearest monument-scale establishing view, using a wide, level camera position with deep atmospheric recession and a calm, authoritative horizon. Let broad, sculpting natural light describe the major masses before it picks out the smaller details Keep the frame cinematic but disciplined, with a clear foreground, middle distance, and far mass so the viewer can measure real depth. The image should feel like a field photograph made with patience, precision, and sublime restraint rather than a fantasy matte painting.\n\nSubject:\nShow an Icelandic black sand beach with hexagonal basalt column cliffs, white Atlantic surf breaking against the columns, wet volcanic sand, and a single puffin perched on a ledge. This variation should emphasize hero panorama. The main landform must dominate the composition, but secondary elements should quietly explain how the place works: water paths, sediment lines, snow bands, surf, ash, wind streaks, stars, or human traces where appropriate. Everything in the image should support the same idea of scale and climate, so the scene reads as one coherent environment rather than a stack of spectacular details.\n\nImportant details:\nPreserve basalt hexagon rhythm, wet black mineral surfaces, cold gray weather, convincing surf impact, and the precise natural geometry that makes the coast feel both severe and elegant. Keep one dominant landform, one secondary supporting rhythm, and a restrained scale witness so the scene reads immediately. Keep geology, weather, and atmosphere physically believable. Use subtle micro-texture, tonal separation, and air perspective to reinforce distance. If a human, vehicle, tent, caravan, bird, or boat appears, it must remain tiny and subordinate to the landscape, functioning only as a scale witness. The composition should feel original, severe, and elegant, with no decorative filler and no imitation of any copyrighted visual property.\n\nUse case:\nIcelandic Black Beach Basalt single study 1/9, exploring the hero panorama variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no tourists, no colorful umbrellas, no seaside town, no tropical blue water, no split-screen layout, no collage fragments, no exaggerated fisheye distortion, no kitsch color grading, no artificial border, no split-panel treatment.",
+  "id": "01-main-panorama",
+  "title": "Main Panorama",
+  "description": "Main Panorama interprets Icelandic Black Beach Basalt as a self-contained sublime landscape study with a distinct compositional emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "pattern",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/volcanic-iceland-black-beach/packages/single-landscape-studies/images/01-main-panorama/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent landscape single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Main Panorama",
+      "description": "Main Panorama interprets Icelandic Black Beach Basalt as a self-contained sublime landscape study with a distinct compositional emphasis."
+    },
+    "zh-CN": {
+      "title": "主全景",
+      "description": "主全景：围绕冰岛黑沙滩玄武岩的独立单图研究，强调这一构图切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "pattern",
+      "single"
+    ],
+    "alt": {
+      "en": "Main Panorama study for Icelandic Black Beach Basalt.",
+      "zh-CN": "冰岛黑沙滩玄武岩主题中的主全景研究图。"
+    }
+  }
+}

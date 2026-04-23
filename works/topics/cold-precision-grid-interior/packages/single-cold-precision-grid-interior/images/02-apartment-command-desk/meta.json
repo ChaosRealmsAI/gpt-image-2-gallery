@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Use a luxury apartment living room converted into a command desk arrangement, with floor-to-ceiling windows, low shelving, and one long table centered under pendant lights.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. A single resident works alone at the table, reduced to a dark outline against the glass and screen reflections.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. The interior should feel curated and severe, with almost no personal objects except those necessary to support the system logic.\n\nUse case:\nCold Precision Grid Interior single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-apartment-command-desk",
+  "title": "Apartment Command Desk",
+  "description": "A refined apartment interior treated like a control room, with one lone worker centered in a disciplined grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/02-apartment-command-desk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on apartment command desk.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Apartment Command Desk",
+      "description": "A refined apartment interior treated like a control room, with one lone worker centered in a disciplined grid."
+    },
+    "zh-CN": {
+      "title": "Apartment Command Desk",
+      "description": "围绕冷精准的第2张独立研究图，聚焦 Apartment Command Desk。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A luxury apartment with a long worktable, city windows, and one backlit figure at a command desk.",
+      "zh-CN": "冷精准主题图：Apartment Command Desk。"
+    }
+  }
+}

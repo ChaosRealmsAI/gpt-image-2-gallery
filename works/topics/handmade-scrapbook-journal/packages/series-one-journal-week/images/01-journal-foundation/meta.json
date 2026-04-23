@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of an open cream-paper journal resting on a warm wooden desk, soft morning window light from the upper left casting a gentle diagonal shadow across the right page. The journal is A5 proportions, both pages visible, with a slight binding curve in the middle where the pages do not lie perfectly flat. The palette is muted — oat cream paper, ballpoint navy ink, terracotta washi tape, sage green pressed leaf, faded ochre ticket stub.\n\nSubject:\nA handmade scrapbook journal spread on a single calm Sunday. The left page shows three small instant-film style photographs attached by small corner tabs — not glued — each at a slightly different angle, plus a pasted ticket stub at the bottom. The right page is mostly handwriting in uneven ballpoint cursive that gently slopes downward line by line, a small doodled arrow, a pressed maple leaf taped with one strip of terracotta washi tape that has a visible air bubble, and a round coffee ring in the lower right corner.\n\nImportant details:\nThis image is the reference foundation for a four-image series. The handwriting cadence must be clearly personal: letters lean right, the lowercase 'g' has a looped descender, spacing between words is inconsistent. The washi tape edges are scissor-cut with tiny fibre frays. The photos have slightly yellowed borders. The coffee ring is perfectly circular only on the inside; the outside is broken. Paper texture is visible — fine grain, one small fingerprint smudge near the binding. The color palette stays soft earth-tones. Leave obvious empty cream paper space so the viewer feels this is the beginning of the week.\n\nUse case:\nReference image 1 of 4 for the One Journal · A Week series. Later images will preserve this exact journal, paper tone, handwriting style, and the owner's kit of pens, tape, and photo-corners while showing different days and pasted ephemera.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names on any ticket or photo, no perfectly straight edges, no digital gradient, no HDR, no glossy varnish, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "01-journal-foundation",
+  "title": "Journal Foundation",
+  "description": "The reference spread of a handmade Sunday journal, establishing paper tone, handwriting cadence, and the owner's kit of tape, pen, and photo corners.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image establishing journal identity for the series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Journal Foundation",
+      "description": "The reference spread of a handmade Sunday journal, establishing paper tone, handwriting cadence, and the owner's kit of tape, pen, and photo corners."
+    },
+    "zh-CN": {
+      "title": "手账基底",
+      "description": "系列参考图 · 一个周日手账跨页 · 奠定纸张色调 · 手写节奏 · 主人的胶带、笔与照片角贴。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Open cream-paper scrapbook journal with three instant-film photos, handwriting, a pressed leaf under washi tape, and a coffee ring.",
+      "zh-CN": "翻开的米白纸手账跨页 · 三张即时成像照片 · 手写文字 · 胶带压着的枫叶和咖啡圈印。"
+    }
+  }
+}

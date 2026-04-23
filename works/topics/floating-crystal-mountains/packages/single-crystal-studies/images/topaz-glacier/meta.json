@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at golden hour in arctic conditions, 85mm medium-format camera on a helicopter mount looking down-angle at a glacier field. Crisp low-angle sun, sharp shadows, clear visibility.\n\nSubject:\nA kilometers-wide glacier made entirely of golden topaz rather than ice. Enormous honey-colored crystal slabs, fractured into chunks the size of apartment buildings, drift slowly through a fjord. Sunlight enters each slab and emerges as warm amber beams that project sharp-edged golden shapes onto the fjord water and the far cliff wall.\n\nImportant details:\nRealistic topaz optical properties: strong dispersion, visible internal cleavage planes, surface sheen. Crystal slabs show realistic calving fractures at their edges, as if broken off a larger parent mass. Scale anchors: a small expedition helicopter hovering above one slab, and two kayaks threading between crystal chunks. Atmosphere: cold air shimmer, thin steam rising from the water where sunlight concentrates.\n\nUse case:\nCrystal-studies single 4/5 — the glacier itself is the impossible crystal material.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ice (topaz replaces ice entirely), no polar bears, no branded outdoor gear, no stylized painting.",
+  "id": "topaz-glacier",
+  "title": "Topaz Glacier",
+  "description": "A fjord full of building-sized topaz crystal slabs acting as an impossible golden glacier.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/single-crystal-studies/images/topaz-glacier/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — topaz glacier study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Topaz Glacier",
+      "description": "A fjord full of building-sized topaz crystal slabs acting as an impossible golden glacier."
+    },
+    "zh-CN": {
+      "title": "黄玉冰川",
+      "description": "峡湾内漂浮建筑大小黄玉晶块的不可能金色冰川。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A fjord of building-sized topaz crystals drifting with kayaks and a helicopter for scale.",
+      "zh-CN": "峡湾漂浮建筑大小黄玉 · 皮划艇与直升机作比例。"
+    }
+  }
+}

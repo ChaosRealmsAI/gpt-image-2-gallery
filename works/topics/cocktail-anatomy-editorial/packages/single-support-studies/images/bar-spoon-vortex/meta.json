@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Use a square close studio crop on a mixing glass under moody directional light, leaving enough surrounding space for the spiral motion to remain legible. The background should stay quiet and neutral, with no bar clutter.\n\nSubject:\nShow a long bar spoon inside a mixing glass as the drink rotates into a visible vortex, with stacked ice facets and subtle reflections in the liquid. A couple of abstract callout marks can point toward the vortex center and spoon spiral, but the scene should remain photographic first. The motion must feel refined and controlled, not splashy.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. Focus on circular liquid behavior, reflection distortion, and the elegant geometry of the spoon stem. The viewer should sense technique and choreography rather than speed for its own sake.\n\nUse case:\nCocktail anatomy editorial single study 8/9, emphasizing the stirring vortex as a diagrammable cocktail mechanism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no splash explosion, no visible bartender hands, no branded mixing glass.",
+  "id": "bar-spoon-vortex",
+  "title": "Bar Spoon Vortex",
+  "description": "A controlled stirring scene that captures the spiral motion of a cocktail around a bar spoon.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/single-support-studies/images/bar-spoon-vortex/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bar Spoon Vortex",
+      "description": "A controlled stirring scene that captures the spiral motion of a cocktail around a bar spoon."
+    },
+    "zh-CN": {
+      "title": "Bar Spoon Vortex",
+      "description": "A controlled stirring scene that captures the spiral motion of a cocktail around a bar spoon."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A mixing glass with a bar spoon forming a clean liquid vortex under moody editorial light.",
+      "zh-CN": "A mixing glass with a bar spoon forming a clean liquid vortex under moody editorial light."
+    }
+  }
+}

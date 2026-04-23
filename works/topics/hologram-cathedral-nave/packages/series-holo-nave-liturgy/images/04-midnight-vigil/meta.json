@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nSame gothic nave as the reference, same single-point perspective, same camera height and lens. Midnight vigil: almost no ambient light in the stone; the only illumination is the holographic rose window, which has dimmed to a slow-pulsing deep magenta, and one floating amber candle at the crossing.\n\nSubject:\nThe identical rib-vaulted nave and identical rose-window hologram, now in near-black stillness. A single kneeling silhouette sits at the crossing, facing the apse, with one large hovering amber candle halo right above them. The AR scripture ribbons above have contracted into tight coiled spirals like resting fish. Faint bioluminescent dust drifts along the floor.\n\nImportant details:\nPreserve exact nave geometry, column spacing, rib-vault cadence, rose window position, left/right symmetry, vanishing point. Contrast is extreme: deep black stone versus saturated magenta-pink glow. Candle halo casts a real, finite pool of warm light on the floor that is visibly different from the cold rose projection. No added figures beyond the single kneeler. Keep the mood utterly quiet.\n\nUse case:\nHologram Cathedral Nave series image 4/4, depends on the reference nave; demonstrates the same architecture during a midnight vigil.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible face, no printed cloth, no flames with brand-like shapes, no modern electronics on the floor, keep the same nave identity as the reference.",
+  "id": "04-midnight-vigil",
+  "title": "Midnight Vigil",
+  "description": "The reference nave near midnight, lit only by a dim magenta rose hologram and a single hovering amber candle halo above a lone kneeler.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/04-midnight-vigil/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 nave geometry; midnight vigil with single kneeler and magenta rose."
+  },
+  "i18n": {
+    "en": {
+      "title": "Midnight Vigil",
+      "description": "The reference nave near midnight, lit only by a dim magenta rose hologram and a single hovering amber candle halo above a lone kneeler."
+    },
+    "zh-CN": {
+      "title": "子夜守夜",
+      "description": "临近子夜的基准中殿，只有暗玫红色全息玫瑰窗与一盏悬浮琥珀烛光环照亮独自跪拜的身影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A gothic cathedral nave at midnight, almost black, lit by a magenta rose hologram and a single amber candle halo over a kneeler.",
+      "zh-CN": "接近黑色的子夜中殿，玫红全息玫瑰窗与一盏琥珀烛光环笼罩独自跪拜者。"
+    }
+  }
+}

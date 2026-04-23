@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square restaurant editorial food photograph with a controlled three-quarter camera angle, tactile linen, brushed metal cutlery used sparingly at the edge of frame, and lighting that feels like a real dining room service captured by a magazine photographer. Keep the tonal range warm, dimensional, and refined, with enough negative space around the plate for the image to function as a hero asset rather than a crowded snapshot. Open the crop slightly to include one elegant wine glass and a folded napkin while keeping the dish dominant and the dining room atmospheric.\n\nSubject:\nThe food must read as a true signature dish developed by a serious kitchen: precise portions, believable sauce behavior, carefully considered garnish, and a table context that suggests a coherent restaurant identity instead of generic luxury styling. Pair a composed main course with a partially poured glass of red wine and subtle service cues that suggest hospitality without showing staff.\n\nImportant details:\nRestaurant credibility matters more than spectacle. Preserve appetizing moisture, plausible ingredient hierarchy, and disciplined prop styling. Every crumb, herb leaf, ceramic reflection, and fold in the table linen should support the editorial story while keeping the dish unmistakably central. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Balance the composition so the wine supports the dish instead of stealing the frame; stemware reflections, liquid level, and table etiquette all need to feel credible.\n\nUse case:\nSignature Dishes single study 9/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic-looking food, no overloaded garnish, no sloppy sauce smears, no cartoon color saturation, no stock-photo posing, no messy background clutter, no visible bottle label, no toast gesture, no crowded table setting.",
+  "id": "wine-pairing-table-story",
+  "title": "Wine Pairing Table Story",
+  "description": "A table story image pairing a plated course with a restrained wine service moment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/plated-signature-dish-editorial/packages/single-support-studies/images/wine-pairing-table-story/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Wine Pairing Table Story",
+      "description": "A table story image pairing a plated course with a restrained wine service moment."
+    },
+    "zh-CN": {
+      "title": "配酒餐桌故事",
+      "description": "配酒餐桌故事：招牌菜主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A table story image pairing a plated course with a restrained wine service moment.",
+      "zh-CN": "配酒餐桌故事，用于招牌菜主题。"
+    }
+  }
+}

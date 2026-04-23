@@ -1,0 +1,52 @@
+{
+  "id": "black-friday-and-shopping-frenzy-kit",
+  "slug": "black-friday-and-shopping-frenzy-kit",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Black Friday and Shopping Frenzy Kit",
+  "short_title": "Black Friday",
+  "description": "Create Black Friday and shopping-frenzy kits with urgency, discount readability, and digital-retail aggression.",
+  "i18n": {
+    "en": {
+      "title": "Black Friday and Shopping Frenzy Kit",
+      "short_title": "Black Friday",
+      "description": "Create Black Friday and shopping-frenzy kits with urgency, discount readability, and digital-retail aggression."
+    },
+    "zh-CN": {
+      "title": "黑五与大促狂欢套件",
+      "short_title": "黑五大促",
+      "description": "做黑五与大促狂欢套件，强调紧迫感、折扣可读性和 retail aggression。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 430,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-deal-pulse-system",
+      "type": "series",
+      "title": "Deal Pulse Series",
+      "path": "packages/series-deal-pulse-system/package.json"
+    },
+    {
+      "id": "single-commerce-support-studies",
+      "type": "single",
+      "title": "Commerce Support Studies",
+      "path": "packages/single-commerce-support-studies/package.json"
+    }
+  ]
+}

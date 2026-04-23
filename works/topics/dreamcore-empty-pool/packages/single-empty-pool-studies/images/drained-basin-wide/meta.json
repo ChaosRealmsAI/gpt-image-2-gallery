@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format 90s consumer snapshot of a drained hotel-basement swimming pool at night, taken with direct on-camera flash. The flash is the only light in the room. The basin is completely dry and scraped back to pale concrete. Deep green-and-cream ceramic tile lines the walls, with a painted black stripe at the old waterline. Slight magenta color cast and visible film grain.\n\nSubject:\nA rectangular three-lane basement pool viewed from a raised deck corner, slightly above the rim. The bottom is dry, with a single circular drain cover at the lowest point and a small puddle around it. Two tile wall steps on the far end descend into the basin. A metal handrail runs along the near deck. The tiled walls reflect the flash as small specular hits, and the air feels enclosed and humid.\n\nImportant details:\nHard flash falloff is essential. Tile geometry must be crisp and regular. The absence of water must be unambiguous — viewer sees the basin bottom clearly. The feeling should be 'nobody has been down here for months'. No swimmers, no staff, no towels. Tile color palette: pale ivory deck, chlorine-faded green wall, warmer ceramic underfoot.\n\nUse case:\nEmpty Pool single study 1/5, wide view of a drained basement basin.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no people, no reflection of photographer, no cinematic color grade, no dramatic fog.",
+  "id": "drained-basin-wide",
+  "title": "Drained Basin · Wide Angle",
+  "description": "Wide view of a drained hotel-basement three-lane pool at night under direct flash.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "single", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/single-empty-pool-studies/images/drained-basin-wide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the empty-pool theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Drained Basin · Wide Angle",
+      "description": "Wide view of a drained hotel-basement three-lane pool at night under direct flash."
+    },
+    "zh-CN": {
+      "title": "抽干池底 · 广角",
+      "description": "夜里直闪下抽干的酒店地下三道泳池广角视图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "A drained basement swimming pool viewed wide, basin bottom dry under flash.",
+      "zh-CN": "直闪下抽干的地下室泳池广角,池底干燥。"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement page in the style of 1962 American futurist home print ads. Full product-hero layout: appliance centered on a gradient studio backdrop, top banner area, bottom tagline area. Halftone grain, slight CMYK offset on edges, matte coated-paper feel.\n\nSubject:\nAn imaginary atomic-age countertop food-pill dispenser: a chrome torpedo-shaped tabletop unit with two bulbous glass hoppers on top filled with colorful round pills (cadmium red, bright yellow, turquoise, powder pink). A chrome chute at the front has just deposited four assorted pills onto a small ivory porcelain plate. A cadmium-red dial selector is on the side. A stylized mid-century father figure in an ivory shirt and thin black tie smiles at the viewer while holding the plate, clearly pleased that dinner is ready. Backdrop is a soft turquoise-to-powder-pink gradient.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. The dispenser must feel like 1962 imagined-future kitchen tech: chrome torpedo body, glass hoppers, analog dial. Pills look like colorful candy, not medicine capsules. Illustration style is halftone print ad, not photo. Father is a stylized cartoon figure with a magazine-ad smile.\n\nUse case:\nAtomic Appliance Studies single study 4 of 5, independent product ad mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, no pharmacy bottles, no medical imagery, no LCD display, no photoreal skin, preserve exact 1:1 aspect ratio.",
+  "id": "food-pill-dispenser-ad",
+  "title": "Food Pill Dispenser Ad",
+  "description": "Magazine-ad mockup of an imaginary future food-pill dispenser with a smiling father holding his pill dinner.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/single-atomic-appliance-studies/images/food-pill-dispenser-ad/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single. No reference image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Food Pill Dispenser Ad",
+      "description": "Magazine-ad mockup of an imaginary future food-pill dispenser with a smiling father holding his pill dinner."
+    },
+    "zh-CN": {
+      "title": "食品药丸分发器广告",
+      "description": "想象中未来食品药丸分发器的杂志广告样稿, 一位微笑的父亲手持自己的药丸晚餐。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A chrome torpedo food-pill dispenser with colorful pills dropping onto a plate held by a smiling retro father.",
+      "zh-CN": "镀铬鱼雷形食品药丸分发器正把彩色药丸掉落在一个复古父亲手中的盘子里。"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "single-cold-precision-grid-interior",
+  "type": "single",
+  "title": "Cold Precision Studies",
+  "description": "Nine independent square studies exploring the Cold Precision visual language across distinct scenes without reference dependencies.",
+  "creative_direction": "Nine independent images translate Cold Precision Grid Interior into distinct square scenes while preserving the same signature visual grammar. Each study stands alone, stays free of reference dependencies, and emphasizes controlled composition, safe original styling, and queue-ready prompt structure.",
+  "cover_image": "images/01-analyst-bullpen/image.png",
+  "i18n": {
+    "en": {
+      "title": "Cold Precision Studies",
+      "description": "Nine independent square studies exploring the Cold Precision visual language across distinct scenes without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "冷精准单图研究",
+      "description": "围绕冷精准生成九张彼此独立的方图研究，每张都保持同一视觉语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-analyst-bullpen",
+      "title": "Analyst Bullpen",
+      "image": "images/01-analyst-bullpen/image.png",
+      "meta": "images/01-analyst-bullpen/meta.json"
+    },
+    {
+      "id": "02-apartment-command-desk",
+      "title": "Apartment Command Desk",
+      "image": "images/02-apartment-command-desk/image.png",
+      "meta": "images/02-apartment-command-desk/meta.json"
+    },
+    {
+      "id": "03-compliance-room",
+      "title": "Compliance Room",
+      "image": "images/03-compliance-room/image.png",
+      "meta": "images/03-compliance-room/meta.json"
+    },
+    {
+      "id": "04-surveillance-kitchen",
+      "title": "Surveillance Kitchen",
+      "image": "images/04-surveillance-kitchen/image.png",
+      "meta": "images/04-surveillance-kitchen/meta.json"
+    },
+    {
+      "id": "05-legal-boardroom",
+      "title": "Legal Boardroom",
+      "image": "images/05-legal-boardroom/image.png",
+      "meta": "images/05-legal-boardroom/meta.json"
+    },
+    {
+      "id": "06-copy-room-grid",
+      "title": "Copy Room Grid",
+      "image": "images/06-copy-room-grid/image.png",
+      "meta": "images/06-copy-room-grid/meta.json"
+    },
+    {
+      "id": "07-server-apartment",
+      "title": "Server Apartment",
+      "image": "images/07-server-apartment/image.png",
+      "meta": "images/07-server-apartment/meta.json"
+    },
+    {
+      "id": "08-night-audit-pods",
+      "title": "Night Audit Pods",
+      "image": "images/08-night-audit-pods/image.png",
+      "meta": "images/08-night-audit-pods/meta.json"
+    },
+    {
+      "id": "09-sleep-pod-office",
+      "title": "Sleep Pod Office",
+      "image": "images/09-sleep-pod-office/image.png",
+      "meta": "images/09-sleep-pod-office/meta.json"
+    }
+  ]
+}

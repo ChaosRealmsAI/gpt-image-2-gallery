@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square outdoor battlefield image shaped by violent weather: slanting rain, flattened reeds, mud spray, charcoal clouds, and wind carving motion through fabric and grass. The palette should stay restrained in charcoal, wet brown, muted steel, and deep moss, with nature overpowering the people within it. Capture the first instant of motion on a muddy field where both fighters surge forward and the rain explodes off the ground in dark spray.\n\nSubject:\nThe subject is two lone armored duelists facing each other across open ground, bamboo edges, flooded fields, or broken terrain. Their poses should feel precise and ritualized, with tension coming from stance, distance, and weather rather than from explicit impact. The bodies remain readable and disciplined, not acrobatic, with one committed forward step from each side.\n\nImportant details:\nThe core language is discipline against elemental force. Preserve historically inspired layered armor, soaked cloth, muddy terrain, reeds bent by wind, and the sense that rain itself is a character. Avoid fantasy powers, impossible weapons, or decorative heroic posing. The energy should still feel heavy and real, driven by footing, rain, and cloth weight rather than fantasy speed.\n\nUse case:\nRain Wind Samurai Duel Field single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable banners, no bright saturated armor, no fantasy monsters, no gore splatter, no stylized comic effects, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "07-mud-splash-charge",
+  "title": "Mud Splash Charge",
+  "description": "A brutal first charge through rain and mud, keeping the duel grounded in weight and elemental force.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "high-speed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-wind-samurai-duel/packages/single-rain-wind-samurai-duel/images/07-mud-splash-charge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rain wind duel study focused on mud splash charge.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Mud Splash Charge",
+      "description": "A brutal first charge through rain and mud, keeping the duel grounded in weight and elemental force."
+    },
+    "zh-CN": {
+      "title": "Mud Splash Charge",
+      "description": "围绕雨风决斗的第7张独立研究图，聚焦 Mud Splash Charge。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "Two armored fighters surge forward through rain and mud with heavy realistic motion.",
+      "zh-CN": "雨风决斗主题图：Mud Splash Charge。"
+    }
+  }
+}

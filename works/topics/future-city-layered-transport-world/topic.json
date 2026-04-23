@@ -1,0 +1,47 @@
+{
+  "id": "future-city-layered-transport-world",
+  "slug": "future-city-layered-transport-world",
+  "title": "Future City Layered Transport World",
+  "short_title": "Future City",
+  "description": "Build future-city worlds where transport layers, housing density, and skyline logic feel coherent.",
+  "i18n": {
+    "en": {
+      "title": "Future City Layered Transport World",
+      "short_title": "Future City",
+      "description": "Build future-city worlds where transport layers, housing density, and skyline logic feel coherent."
+    },
+    "zh-CN": {
+      "title": "未来城市分层交通世界",
+      "short_title": "未来城市",
+      "description": "做未来城市分层交通世界，强调交通层级、居住密度和 skyline logic。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

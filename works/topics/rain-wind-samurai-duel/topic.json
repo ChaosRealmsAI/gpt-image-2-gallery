@@ -1,0 +1,40 @@
+{
+  "id": "rain-wind-samurai-duel",
+  "slug": "rain-wind-samurai-duel",
+  "title": "Rain Wind Samurai Duel Field",
+  "short_title": "Rain Wind Duel",
+  "description": "Two lone figures in traditional armor facing each other across a muddy field in torrential rain and bending reeds, a crow watching from a dead branch, charcoal palette.",
+  "i18n": {
+    "en": {
+      "title": "Rain Wind Samurai Duel Field",
+      "short_title": "Rain Wind Duel",
+      "description": "Two lone figures in traditional armor facing each other across a muddy field in torrential rain and bending reeds, a crow watching from a dead branch, charcoal palette."
+    },
+    "zh-CN": {
+      "title": "雨风武士决斗场",
+      "short_title": "雨风决斗",
+      "description": "两个传统甲胄孤影在泥泞田中对峙 · 暴雨 + 倒伏芦苇 · 枯枝上一只乌鸦 · 炭色调。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 710,
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-rain-wind-samurai-duel",
+      "type": "single",
+      "title": "Rain Wind Duel Studies",
+      "path": "packages/single-rain-wind-samurai-duel/package.json"
+    }
+  ]
+}

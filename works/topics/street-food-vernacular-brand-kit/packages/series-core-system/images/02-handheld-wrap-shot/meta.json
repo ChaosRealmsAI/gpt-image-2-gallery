@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Preserve the same lighting mood, paper palette, and street counter materials, but crop closer so the wrapped food dominates the square frame.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Show one handheld wrap, taco, sandwich, or skewer bundle being held or presented, with vivid filling structure and wrapper realism.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-stall-anchor. Keep the series anchor visible through paper treatment, condiment hints, and stall color language while making the food feel immediate and genuinely hot.\n\nUse case:\nStreet Food Kit series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no full face, no influencer selfie angle, no franchise packaging.",
+  "id": "02-handheld-wrap-shot",
+  "title": "Handheld Wrap Shot",
+  "description": "A handheld food hero that keeps the reference stall identity while focusing tightly on wrapper, filling, and heat.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "world-knowledge",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/02-handheld-wrap-shot/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-stall-anchor",
+        "meta_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/meta.json",
+        "image_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-stall-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Handheld Wrap Shot",
+      "description": "A handheld food hero that keeps the reference stall identity while focusing tightly on wrapper, filling, and heat."
+    },
+    "zh-CN": {
+      "title": "手持卷饼镜头",
+      "description": "手持卷饼镜头：街头餐饮主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A handheld food hero that keeps the reference stall identity while focusing tightly on wrapper, filling, and heat.",
+      "zh-CN": "手持卷饼镜头，用于街头餐饮主题。"
+    }
+  }
+}

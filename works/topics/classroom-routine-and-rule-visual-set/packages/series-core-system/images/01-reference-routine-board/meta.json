@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square straight-on classroom wall poster with clean daylight, matte print texture, and a few soft environmental cues from shelves and cubbies. The asset should feel like a real behavior-support board designed for young children, combining instructional clarity with emotional calm. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nBuild the poster around a simple daily sequence shown through large pictograms, illustrated children, blank headline zones, and modular step panels. The system should signal transitions, expectations, and order through icons and spacing rather than through strict text rules. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep the tone warm, respectful, and easy to follow. Use rounded blocks, reassuring colors, generous whitespace, and a visual hierarchy that helps children know what comes next at a glance. Preserve the same poster modules, icon scale, blank headline bands, classroom color coding, and pacing rhythm from the reference routine board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nClassroom Routine and Rule Visual Set series study 1/4, reference routine board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no teacher handwriting, no logos, no cluttered classroom walls, no harsh warning tone, no chaotic sticker overload.",
+  "id": "01-reference-routine-board",
+  "title": "Reference Routine Board",
+  "description": "Reference routine board that locks the visual system for a calm child-friendly classroom-management set.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/01-reference-routine-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Routine Board",
+      "description": "Reference routine board that locks the visual system for a calm child-friendly classroom-management set."
+    },
+    "zh-CN": {
+      "title": "基准流程总览板",
+      "description": "锁定儿童友好课堂管理视觉系统的流程总览板基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Reference routine board that locks the visual system for a calm child-friendly classroom-management set.",
+      "zh-CN": "锁定儿童友好课堂管理视觉系统的流程总览板基准版。"
+    }
+  }
+}

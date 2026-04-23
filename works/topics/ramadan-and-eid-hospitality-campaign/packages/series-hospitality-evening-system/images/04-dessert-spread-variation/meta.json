@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent hospitality image in the same evening-lit environment, preserving the exact warm lantern glow, blue ambient depth, and refined textile-material language from the reference image, but organize the composition around a dessert and serving spread. The scene should still feel clearly connected to the anchor while becoming more table-rich and abundance-focused.\n\nSubject:\nShow a composed spread of sweets, dates, tea or coffee service, serving vessels, and one subtle gift element arranged into a premium hosting image. Preserve exact campaign identity from the reference model while changing the emphasis toward celebratory food and hospitality. The spread should look real, respectful, and suitable for hospitality or retail communication during the season.\n\nImportant details:\nKeep the mood generous but measured. Surface realism matters: glaze, metal, pastry texture, fabric weave, and lantern light should all feel persuasive. The image should behave like a premium seasonal asset for restaurants, hotels, or gifting brands. It must remain calm, culturally informed, and free of spectacle-heavy distraction.\n\nUse case:\nRamadan/Eid series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable menu cards, no alcohol, no crowd, no logo plates, no fantasy palace, no overdecorated stage set, no stereotype props.",
+  "id": "04-dessert-spread-variation",
+  "title": "Dessert Spread Variation",
+  "description": "A dessert-and-hosting variation continuing the same Ramadan and Eid hospitality system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/04-dessert-spread-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evening-table-anchor",
+        "meta_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/meta.json",
+        "image_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent dessert-spread variation for the Ramadan and Eid system. Preserve the exact campaign language from 01-evening-table-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dessert Spread Variation",
+      "description": "A dessert-and-hosting variation continuing the same Ramadan and Eid hospitality system."
+    },
+    "zh-CN": {
+      "title": "甜点待客变体",
+      "description": "延续同一斋月与开斋节待客系统的甜点与招待变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A dessert-led Ramadan and Eid campaign visual matching the same evening hospitality world.",
+      "zh-CN": "与同一夜间待客世界观一致的斋月与开斋节甜点主视觉。"
+    }
+  }
+}

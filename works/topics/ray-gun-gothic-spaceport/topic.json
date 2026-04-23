@@ -1,0 +1,32 @@
+{
+  "id": "ray-gun-gothic-spaceport",
+  "slug": "ray-gun-gothic-spaceport",
+  "category": "cinematic",
+  "style": ["retro-futurism", "atomic-age"],
+  "capability": ["commercial-mockup", "editorial-illustration", "cinematic"],
+  "title": "Ray-Gun Gothic Spaceport",
+  "short_title": "Ray-Gun Spaceport",
+  "description": "A Prompt Atlas theme for finned silver rockets, glass-domed control towers, and art-deco spire terminals in the style of a 1956-imagined 21st-century spaceport.",
+  "i18n": {
+    "en": {
+      "title": "Ray-Gun Gothic Spaceport",
+      "short_title": "Ray-Gun Spaceport",
+      "description": "A Prompt Atlas theme for finned silver rockets, glass-domed control towers, and art-deco spire terminals in the style of a 1956-imagined 21st-century spaceport."
+    },
+    "zh-CN": {
+      "title": "光线枪哥特太空港",
+      "short_title": "复古太空港",
+      "description": "1956 年想象的 21 世纪太空港主题: 银色带鳍火箭、玻璃圆顶塔、装饰艺术尖顶航站楼。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "cinematic"]
+  },
+  "packages": [
+    {"id": "series-silver-rocket-terminal", "type": "series", "title": "Silver Rocket Terminal", "path": "packages/series-silver-rocket-terminal/package.json"},
+    {"id": "single-spaceport-vignettes", "type": "single", "title": "Spaceport Vignettes", "path": "packages/single-spaceport-vignettes/package.json"}
+  ]
+}

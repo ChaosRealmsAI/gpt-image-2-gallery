@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square urban concept image that sells one future-city mobility idea clearly enough for an editorial spread, launch visual, or worldbuilding board. The framing should always reveal at least two transport layers and one strong lived-in density cue. Compose a neighborhood from above where a green mobility loop threads through midrise housing, tram stops, and civic terraces.\n\nSubject:\nShow a complete district-scale mobility ecosystem with believable housing, transit, commerce, and utility access. Human presence can appear as tiny commuters, riders, or maintenance workers, but the main protagonist is the city system itself. Show how transit, public planting, and everyday amenities coexist without surrendering density or efficiency.\n\nImportant details:\nUse depth layering, disciplined architecture families, and just enough weather or atmosphere to create mood without erasing the logic of roads, bridges, lines, and occupancy. The result should feel specific to a place and function, not like an all-purpose neon metropolis. The district should feel plausible for a real planning board, with readable circulation, believable public space, and minimal decorative excess. Preserve credible circulation between transport levels so every district reads as somewhere people could actually move through and inhabit.\n\nUse case:\nFuture City single study 5/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no superhero chase scenes, no floating random platforms without support, no unreadable giant signage, no sterile empty plazas, no suburban emptiness, no giant sculptural gimmicks.",
+  "id": "05-civic-green-loop",
+  "title": "Civic Green Loop",
+  "description": "Civic Green Loop presents a future district where public green space and transit loops are organized into one civic-scale urban system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-city-layered-transport-world/packages/single-support-studies/images/05-civic-green-loop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Future City support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Civic Green Loop",
+      "description": "Civic Green Loop presents a future district where public green space and transit loops are organized into one civic-scale urban system."
+    },
+    "zh-CN": {
+      "title": "Civic Green Loop",
+      "description": "未来城市主题中的Civic Green Loop图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Civic Green Loop presents a future district where public green space and transit loops are organized into one civic-scale urban system.",
+      "zh-CN": "未来城市主题中的Civic Green Loop图像。"
+    }
+  }
+}

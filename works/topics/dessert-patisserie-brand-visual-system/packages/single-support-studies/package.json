@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Sweet Shop Support Studies",
+  "description": "Five independent patisserie studies extending the theme into packaging, display-case, and tea-time deliverables.",
+  "creative_direction": "These self-contained studies extend the same polished patisserie identity into adjacent retail and lifestyle contexts without depending on the series anchor.",
+  "cover_image": "images/cake-box-flatlay/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/cake-box-flatlay/meta.json",
+      "images/pastry-case-twilight/meta.json",
+      "images/ribbon-bag-counter/meta.json",
+      "images/petit-four-grid/meta.json",
+      "images/afternoon-tea-window/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sweet Shop Support Studies",
+      "description": "Five independent patisserie studies extending the theme into packaging, display-case, and tea-time deliverables."
+    },
+    "zh-CN": {
+      "title": "甜品店补充研究",
+      "description": "五张独立甜品补充图，把主题延展到包装、陈列柜和下午茶交付面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "cake-box-flatlay",
+      "title": "Cake Box Flatlay",
+      "image": "images/cake-box-flatlay/image.png",
+      "meta": "images/cake-box-flatlay/meta.json"
+    },
+    {
+      "id": "pastry-case-twilight",
+      "title": "Pastry Case Twilight",
+      "image": "images/pastry-case-twilight/image.png",
+      "meta": "images/pastry-case-twilight/meta.json"
+    },
+    {
+      "id": "ribbon-bag-counter",
+      "title": "Ribbon Bag Counter",
+      "image": "images/ribbon-bag-counter/image.png",
+      "meta": "images/ribbon-bag-counter/meta.json"
+    },
+    {
+      "id": "petit-four-grid",
+      "title": "Petit Four Grid",
+      "image": "images/petit-four-grid/image.png",
+      "meta": "images/petit-four-grid/meta.json"
+    },
+    {
+      "id": "afternoon-tea-window",
+      "title": "Afternoon Tea Window",
+      "image": "images/afternoon-tea-window/image.png",
+      "meta": "images/afternoon-tea-window/meta.json"
+    }
+  ]
+}

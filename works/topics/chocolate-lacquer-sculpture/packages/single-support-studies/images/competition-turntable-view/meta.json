@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Create a square studio shot of a chocolate sculpture on a rotating-display style base, with black surroundings and balanced front lighting. The base should feel professional and understated, never theatrical.\n\nSubject:\nPresent one ambitious chocolate sculpture with clear front-facing symmetry and a few delicate outstretched elements, as if positioned for judging or documentation. Gold leaf, lacquer, and precise supports may accent the form. The work should feel like a competition finalist captured in a moment of stillness.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. The image should balance pedestal presence with sculptural dominance. Lighting must flatter the temper while preserving enough shadow to keep the object dramatic and dimensional.\n\nUse case:\nChocolate lacquer sculpture single study 7/9, documenting a judged showpiece on a quiet competition base.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no trophy text, no audience background, no confetti celebration.",
+  "id": "competition-turntable-view",
+  "title": "Competition Turntable View",
+  "description": "A showpiece displayed on a turntable-like base, photographed as if being judged under quiet competition lighting.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/single-support-studies/images/competition-turntable-view/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Competition Turntable View",
+      "description": "A showpiece displayed on a turntable-like base, photographed as if being judged under quiet competition lighting."
+    },
+    "zh-CN": {
+      "title": "Competition Turntable View",
+      "description": "A showpiece displayed on a turntable-like base, photographed as if being judged under quiet competition lighting."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A grand chocolate showpiece on a restrained turntable-like base under quiet competition lighting.",
+      "zh-CN": "A grand chocolate showpiece on a restrained turntable-like base under quiet competition lighting."
+    }
+  }
+}

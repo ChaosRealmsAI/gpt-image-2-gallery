@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square poster-like composition with loud red, tobacco yellow, nicotine cream, and deep black arranged in flat graphic blocks over a staged crime tableau. The lighting should feel hard and directional, but the overall image should still read as a designed print object rather than a literal movie still. Place the action in a diner booth with laminated tabletop reflections, a yellow banquette, and a vertical red block slicing the frame like a fake headline column.\n\nSubject:\nFocus on an implied act of violence or aftermath through frozen props, bodies held in stiff poses, diner booths, cheap motel details, briefcases, dashboard reflections, or nightclub furniture. The people should feel iconic and deadpan, with tension communicated through placement and color rather than explicit gore. A woman in a cream jacket sits motionless beside an overturned coffee cup while a crimson spill crawls across the table edge toward the floor.\n\nImportant details:\nThe crucial visual rule is the collision of graphic poster language and static pulp staging. Use oversized non-readable letterform-like shapes, caption bars, drop-shadow slabs, and paper-print textures without introducing actual words. Preserve bold silhouette hierarchy, cropped tension, and cynical cool. Treat the spill as a graphic shape, not a medical detail, and let chrome napkin holders and blinds reinforce the print-like composition.\n\nUse case:\nPulpy Typography Over Violent Tableau single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no explicit gore, no dismemberment, no recognizable brand packaging, no comic speech balloons, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-diner-booth-aftermath",
+  "title": "Diner Booth Aftermath",
+  "description": "A pulp poster study where a diner booth, hard color blocks, and implied aftermath create deadpan tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "style-transfer",
+    "structured-layout",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pulpy-typography-violence-poster/packages/single-pulpy-typography-violence-poster/images/01-diner-booth-aftermath/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pulpy typography study focused on diner booth aftermath.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Diner Booth Aftermath",
+      "description": "A pulp poster study where a diner booth, hard color blocks, and implied aftermath create deadpan tension."
+    },
+    "zh-CN": {
+      "title": "Diner Booth Aftermath",
+      "description": "围绕低俗印刷的第1张独立研究图，聚焦 Diner Booth Aftermath。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A diner booth scene with bold red and yellow poster blocks and an implied violent aftermath.",
+      "zh-CN": "低俗印刷主题图：Diner Booth Aftermath。"
+    }
+  }
+}

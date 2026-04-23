@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square alien-naturalist board that could live inside a field guide, exhibition panel, or worldbuilding deck. Treat the background and layout as part of the scientific storytelling, not as empty filler. Compose a dim cave system with brood chambers, reflective mineral walls, and structured light organs punctuating the darkness.\n\nSubject:\nShow one ecosystem component clearly enough to study: species, colony, migration route, terrain patch, or microbiome structure. The organisms should feel biologically integrated with their environment and each other. Focus on colony behavior, protective anatomy, and habitat adaptation rather than monster menace.\n\nImportant details:\nFavor specimen clarity, habitat context, and pattern logic over spectacle. Even the strangest form should imply believable growth, feeding, protection, or movement strategies. Keep all glow functional and measured so the image remains field-guide clear. Preserve biological cause and effect so each ecology study reads as a system rather than an arbitrary monster illustration.\n\nUse case:\nAlien Ecology single study 4/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no encyclopedic text blocks, no cute cartoon mascots, no violent attack poses, no generic Earth animals with minor edits, no horror cave crawler mood.",
+  "id": "04-cave-bioluminescent-brood",
+  "title": "Cave Bioluminescent Brood",
+  "description": "Cave Bioluminescent Brood presents a subterranean ecology board describing brood structures and light-based communication in a cave species.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "scientific-realism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/alien-ecology-field-guide-system/packages/single-support-studies/images/04-cave-bioluminescent-brood/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Alien Ecology support study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cave Bioluminescent Brood",
+      "description": "Cave Bioluminescent Brood presents a subterranean ecology board describing brood structures and light-based communication in a cave species."
+    },
+    "zh-CN": {
+      "title": "Cave Bioluminescent Brood",
+      "description": "异星生态主题中的Cave Bioluminescent Brood图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Cave Bioluminescent Brood presents a subterranean ecology board describing brood structures and light-based communication in a cave species.",
+      "zh-CN": "异星生态主题中的Cave Bioluminescent Brood图像。"
+    }
+  }
+}

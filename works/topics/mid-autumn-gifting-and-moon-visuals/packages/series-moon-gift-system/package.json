@@ -1,0 +1,71 @@
+{
+  "id": "series-moon-gift-system",
+  "type": "series",
+  "title": "Moon Gift Series",
+  "description": "A reference-driven Mid-Autumn campaign system that locks a premium moon-gifting world and extends it across family and retail surfaces.",
+  "creative_direction": "Image 01 establishes a moon-led premium gifting language built from lacquer, brushed metal, osmanthus tones, moon windows, and tea-gift refinement; images 02-04 preserve that identity while moving through family table, lantern retail, and premium hamper expressions.",
+  "cover_image": "images/01-mooncake-lacquer-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-mooncake-lacquer-anchor/meta.json",
+      "images/02-family-tea-variation/meta.json",
+      "images/03-lantern-retail-variation/meta.json",
+      "images/04-premium-hamper-variation/meta.json"
+    ],
+    "ref_strategy": "Run 01-mooncake-lacquer-anchor first. Use its runtime result URL as --ref for 02-family-tea-variation, 03-lantern-retail-variation, 04-premium-hamper-variation. Queue may run the dependent images concurrently after 01-mooncake-lacquer-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moon Gift Series",
+      "description": "A reference-driven Mid-Autumn campaign system that locks a premium moon-gifting world and extends it across family and retail surfaces."
+    },
+    "zh-CN": {
+      "title": "月礼系列",
+      "description": "以基准画面锁定高级中秋月礼世界观，再延展到团圆与零售场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-mooncake-lacquer-anchor",
+      "title": "Mooncake Lacquer Anchor",
+      "image": "images/01-mooncake-lacquer-anchor/image.png",
+      "meta": "images/01-mooncake-lacquer-anchor/meta.json"
+    },
+    {
+      "id": "02-family-tea-variation",
+      "title": "Family Tea Variation",
+      "image": "images/02-family-tea-variation/image.png",
+      "meta": "images/02-family-tea-variation/meta.json"
+    },
+    {
+      "id": "03-lantern-retail-variation",
+      "title": "Lantern Retail Variation",
+      "image": "images/03-lantern-retail-variation/image.png",
+      "meta": "images/03-lantern-retail-variation/meta.json"
+    },
+    {
+      "id": "04-premium-hamper-variation",
+      "title": "Premium Hamper Variation",
+      "image": "images/04-premium-hamper-variation/image.png",
+      "meta": "images/04-premium-hamper-variation/meta.json"
+    }
+  ]
+}

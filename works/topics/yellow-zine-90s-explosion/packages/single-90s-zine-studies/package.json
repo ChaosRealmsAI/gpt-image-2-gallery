@@ -1,0 +1,44 @@
+{
+  "id": "single-90s-zine-studies",
+  "type": "single",
+  "title": "90s Zine Studies",
+  "description": "Nine independent 90s yellow-zine studies — each spread tests explosive typography collisions, rough scissor photo cutouts, xerox-grain halftones, and rebel editorial energy at modern print precision.",
+  "creative_direction": "Each image is a 1:1 magazine spread crop for a different section (cover, interview, photo essay, manifesto, fashion, music, classifieds, review, back cover). Shared palette: dominant hot yellow plus deep black plus a single accent red. Shared treatments: angled typography collisions, rough scissor-cut photo edges, xerox-grain halftones, scribble doodles, rebel attitude.",
+  "cover_image": "images/cover-shouting-headline/image.png",
+  "i18n": {
+    "en": {
+      "title": "90s Zine Studies",
+      "description": "Nine independent 90s yellow-zine studies — each spread tests explosive typography collisions, rough scissor photo cutouts, xerox-grain halftones, and rebel editorial energy at modern print precision."
+    },
+    "zh-CN": {
+      "title": "90 年代 zine 单图研究",
+      "description": "九张独立的 90 年代黄 zine 研究 · 每张跨页测试爆炸式字体碰撞、剪刀粗边照片拼贴、复印颗粒半调、反叛编辑能量 · 以现代印刷精度呈现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    { "id": "cover-shouting-headline", "title": "Cover Shouting Headline", "image": "images/cover-shouting-headline/image.png", "meta": "images/cover-shouting-headline/meta.json" },
+    { "id": "interview-spread-collision", "title": "Interview Spread Collision", "image": "images/interview-spread-collision/image.png", "meta": "images/interview-spread-collision/meta.json" },
+    { "id": "photo-essay-cutout", "title": "Photo Essay Cutout", "image": "images/photo-essay-cutout/image.png", "meta": "images/photo-essay-cutout/meta.json" },
+    { "id": "manifesto-page", "title": "Manifesto Page", "image": "images/manifesto-page/image.png", "meta": "images/manifesto-page/meta.json" },
+    { "id": "fashion-chaos-spread", "title": "Fashion Chaos Spread", "image": "images/fashion-chaos-spread/image.png", "meta": "images/fashion-chaos-spread/meta.json" },
+    { "id": "music-feature-spread", "title": "Music Feature Spread", "image": "images/music-feature-spread/image.png", "meta": "images/music-feature-spread/meta.json" },
+    { "id": "classifieds-riot", "title": "Classifieds Riot", "image": "images/classifieds-riot/image.png", "meta": "images/classifieds-riot/meta.json" },
+    { "id": "review-column-page", "title": "Review Column Page", "image": "images/review-column-page/image.png", "meta": "images/review-column-page/meta.json" },
+    { "id": "back-cover-ad", "title": "Back Cover Ad", "image": "images/back-cover-ad/image.png", "meta": "images/back-cover-ad/meta.json" }
+  ]
+}

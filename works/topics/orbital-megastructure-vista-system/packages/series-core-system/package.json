@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System",
+  "description": "Four reference-dependent images establishing a reusable orbital vistas visual system.",
+  "creative_direction": "Image 01 establishes the reusable Orbital Vistas anchor. Images 02-04 preserve the dominant ring silhouette, spoke spacing, dock petal rhythm, and cool-metal lighting hierarchy while changing scene context and deliverable emphasis.",
+  "cover_image": "images/01-planet-ring-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-planet-ring-anchor/meta.json",
+      "images/02-tether-port-dawn/meta.json",
+      "images/03-eclipse-maintenance-span/meta.json",
+      "images/04-cargo-orbit-approach/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System",
+      "description": "Four reference-dependent images establishing a reusable orbital vistas visual system."
+    },
+    "zh-CN": {
+      "title": "核心系统",
+      "description": "围绕轨道巨构建立四张参考依赖的核心系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-planet-ring-anchor",
+      "title": "Planet Ring Anchor",
+      "image": "images/01-planet-ring-anchor/image.png",
+      "meta": "images/01-planet-ring-anchor/meta.json"
+    },
+    {
+      "id": "02-tether-port-dawn",
+      "title": "Tether Port Dawn",
+      "image": "images/02-tether-port-dawn/image.png",
+      "meta": "images/02-tether-port-dawn/meta.json"
+    },
+    {
+      "id": "03-eclipse-maintenance-span",
+      "title": "Eclipse Maintenance Span",
+      "image": "images/03-eclipse-maintenance-span/image.png",
+      "meta": "images/03-eclipse-maintenance-span/meta.json"
+    },
+    {
+      "id": "04-cargo-orbit-approach",
+      "title": "Cargo Orbit Approach",
+      "image": "images/04-cargo-orbit-approach/image.png",
+      "meta": "images/04-cargo-orbit-approach/meta.json"
+    }
+  ]
+}

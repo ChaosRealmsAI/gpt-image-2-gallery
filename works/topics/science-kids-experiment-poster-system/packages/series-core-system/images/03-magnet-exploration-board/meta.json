@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square straight-on poster on the classroom wall, with the same soft daylight, print realism, and supporting science-corner props held in the background. The image should read as another approved poster in the same school-ready series. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nBuild the experiment around horseshoe magnets, metal and non-metal test objects, sorting trays, and attraction paths shown through friendly diagrams and step panels. Make the poster instantly understandable through imagery and sequence rather than text, while staying visually rich enough to feel like a real published classroom asset. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nEvery structural rule from the reference poster must remain intact, especially the module grid, safety cue placement, blank headline zones, and pictogram weight. Variation should come from object behavior and discovery energy, not from a new graphic system. Preserve the same poster grid, step-panel proportions, icon weight, blank instruction bars, and safety-callout rhythm from the reference poster. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nScience Kids Experiment Poster System series study 3/4, magnet exploration board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable copy, no chemical formulas, no logos, no dangerous realism, no lab-brand signage, no chaotic clutter.",
+  "id": "03-magnet-exploration-board",
+  "title": "Magnet Exploration Board",
+  "description": "A magnet-based experiment poster using the same structured educational system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/03-magnet-exploration-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-experiment-poster",
+        "meta_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/meta.json",
+        "image_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-experiment-poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Magnet Exploration Board",
+      "description": "A magnet-based experiment poster using the same structured educational system."
+    },
+    "zh-CN": {
+      "title": "磁力探索海报",
+      "description": "使用同一结构化教育系统的磁力实验海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A magnet-based experiment poster using the same structured educational system.",
+      "zh-CN": "使用同一结构化教育系统的磁力实验海报。"
+    }
+  }
+}

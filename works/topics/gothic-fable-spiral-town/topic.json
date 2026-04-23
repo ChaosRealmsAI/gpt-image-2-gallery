@@ -1,0 +1,40 @@
+{
+  "id": "gothic-fable-spiral-town",
+  "slug": "gothic-fable-spiral-town",
+  "title": "Gothic Fable Spiral Town",
+  "short_title": "Gothic Fable",
+  "description": "A crooked-fence storybook town on a moonlit hill, every tree a twisted spiral, pumpkin-orange light from windows, one wide-eyed figure with oversized head silhouetted.",
+  "i18n": {
+    "en": {
+      "title": "Gothic Fable Spiral Town",
+      "short_title": "Gothic Fable",
+      "description": "A crooked-fence storybook town on a moonlit hill, every tree a twisted spiral, pumpkin-orange light from windows, one wide-eyed figure with oversized head silhouetted."
+    },
+    "zh-CN": {
+      "title": "哥特童话螺旋镇",
+      "short_title": "哥特童话",
+      "description": "月光山坡歪栅栏童话镇 · 每棵树都是螺旋 · 南瓜橙窗光 · 一个大眼大头角色剪影。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 670,
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-gothic-fable-spiral-town",
+      "type": "single",
+      "title": "Gothic Fable Studies",
+      "path": "packages/single-gothic-fable-spiral-town/package.json"
+    }
+  ]
+}

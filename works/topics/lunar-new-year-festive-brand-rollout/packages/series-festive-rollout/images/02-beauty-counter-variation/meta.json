@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the exact same festive environment, preserving the same lacquer red, warm gold, floral freshness, and premium depth from the reference image, but make the composition cleaner and more retail-counter oriented. The frame should feel obviously related to the anchor while shifting toward a polished beauty or lifestyle merchandising surface suitable for campaign rollout, storefront crops, and social reuse.\n\nSubject:\nFeature premium beauty-like products, trays, gift boxes, blossom accents, and celebratory forms arranged into one coherent Lunar New Year display. Preserve exact palette, lighting direction, packaging geometry, and festive energy from the reference model while changing the assortment emphasis toward counter merchandising. The result should remain luxurious, brand-neutral, and useful for retail hero imagery or high-frequency seasonal tiles.\n\nImportant details:\nPreserve exact campaign identity from the reference image. The celebratory energy should come from rich materials, spacing, and color rather than readable slogans. Use product silhouettes, reflective surfaces, and gifting logic to show category specificity. Keep the balance between abundance and elegance disciplined enough that the image reads premium rather than noisy or mass-market generic.\n\nUse case:\nLNY Rollout series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no mascot dolls, no glitter explosion, no fashion model, no logo embossing, no fireworks, no theme-park saturation.",
+  "id": "02-beauty-counter-variation",
+  "title": "Beauty Counter Variation",
+  "description": "A beauty-retail Lunar New Year variation preserving the same festive campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/02-beauty-counter-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-festive-tray-anchor",
+        "meta_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/meta.json",
+        "image_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beauty-counter variation for the Lunar New Year rollout. Preserve the exact campaign language from 01-festive-tray-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beauty Counter Variation",
+      "description": "A beauty-retail Lunar New Year variation preserving the same festive campaign system."
+    },
+    "zh-CN": {
+      "title": "美妆柜台变体",
+      "description": "保持同一节庆 campaign 系统的农历新年美妆零售变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A beauty-retail Lunar New Year scene derived from the same festive rollout system.",
+      "zh-CN": "沿用同一节庆套发系统的农历新年美妆零售场景。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Use a square studio setup with one chilled bottle or can emerging from a cold atmosphere, supported by seasonal ingredient fragments.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Let the container and liquid state do the storytelling through frost, droplets, and believable package geometry without readable labeling.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Condensation, packaging material, and ingredient placement must look premium and crisp enough for launch advertising.\n\nUse case:\nSeasonal Drinks single study 8/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no readable label copy, no exploding glass danger, no sports-drink cliché.",
+  "id": "chilled-bottle-burst",
+  "title": "Chilled Bottle Burst",
+  "description": "A bottle-focused support image built around frost, droplets, and seasonal impact.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/single-support-studies/images/chilled-bottle-burst/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Chilled Bottle Burst",
+      "description": "A bottle-focused support image built around frost, droplets, and seasonal impact."
+    },
+    "zh-CN": {
+      "title": "冰镇瓶装爆发",
+      "description": "冰镇瓶装爆发：季节饮品主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A bottle-focused support image built around frost, droplets, and seasonal impact.",
+      "zh-CN": "冰镇瓶装爆发，用于季节饮品主题。"
+    }
+  }
+}

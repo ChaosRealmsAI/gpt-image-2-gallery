@@ -1,0 +1,71 @@
+{
+  "id": "series-aurora-refraction",
+  "type": "series",
+  "title": "Aurora Refraction Cycle",
+  "description": "A four-image cycle showing the same suspended amethyst peak under four aurora color regimes, each dependent on the reference for shape and composition.",
+  "creative_direction": "Image 01 establishes the hero floating amethyst peak above a mirror sea with a green aurora overhead; 02-04 preserve the exact silhouette and camera angle while changing aurora color temperature and atmospheric mood.",
+  "cover_image": "images/01-reference-peak/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-peak/meta.json",
+      "images/02-lavender-mist/meta.json",
+      "images/03-emerald-lake/meta.json",
+      "images/04-scarlet-dusk/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Aurora Refraction Cycle",
+      "description": "A four-image cycle showing the same suspended amethyst peak under four aurora color regimes, each dependent on the reference for shape and composition."
+    },
+    "zh-CN": {
+      "title": "极光折射循环",
+      "description": "同一座悬浮紫水晶山峰在四种极光色调下的四图循环 · 每张都依赖基准图保留形态与构图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-peak",
+      "title": "Reference Peak",
+      "image": "images/01-reference-peak/image.png",
+      "meta": "images/01-reference-peak/meta.json"
+    },
+    {
+      "id": "02-lavender-mist",
+      "title": "Lavender Mist",
+      "image": "images/02-lavender-mist/image.png",
+      "meta": "images/02-lavender-mist/meta.json"
+    },
+    {
+      "id": "03-emerald-lake",
+      "title": "Emerald Lake",
+      "image": "images/03-emerald-lake/image.png",
+      "meta": "images/03-emerald-lake/meta.json"
+    },
+    {
+      "id": "04-scarlet-dusk",
+      "title": "Scarlet Dusk",
+      "image": "images/04-scarlet-dusk/image.png",
+      "meta": "images/04-scarlet-dusk/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Home Use Support Studies",
+  "description": "Five independent packaged-food studies extending the theme into shelf, lunchbox, prep, and material-detail scenes.",
+  "creative_direction": "These independent studies widen the same packaged-food lifestyle theme into adjacent domestic use cases and retail surfaces.",
+  "cover_image": "images/pantry-shelf-hero/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/pantry-shelf-hero/meta.json",
+      "images/lunchbox-flatlay/meta.json",
+      "images/ingredient-spill-study/meta.json",
+      "images/weeknight-cooking-scene/meta.json",
+      "images/serving-closeup-materials/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Home Use Support Studies",
+      "description": "Five independent packaged-food studies extending the theme into shelf, lunchbox, prep, and material-detail scenes."
+    },
+    "zh-CN": {
+      "title": "家用补充研究",
+      "description": "五张独立补充图，把主题延展到货架、便当、备餐与材质细节场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "pantry-shelf-hero",
+      "title": "Pantry Shelf Hero",
+      "image": "images/pantry-shelf-hero/image.png",
+      "meta": "images/pantry-shelf-hero/meta.json"
+    },
+    {
+      "id": "lunchbox-flatlay",
+      "title": "Lunchbox Flatlay",
+      "image": "images/lunchbox-flatlay/image.png",
+      "meta": "images/lunchbox-flatlay/meta.json"
+    },
+    {
+      "id": "ingredient-spill-study",
+      "title": "Ingredient Spill Study",
+      "image": "images/ingredient-spill-study/image.png",
+      "meta": "images/ingredient-spill-study/meta.json"
+    },
+    {
+      "id": "weeknight-cooking-scene",
+      "title": "Weeknight Cooking Scene",
+      "image": "images/weeknight-cooking-scene/image.png",
+      "meta": "images/weeknight-cooking-scene/meta.json"
+    },
+    {
+      "id": "serving-closeup-materials",
+      "title": "Serving Closeup Materials",
+      "image": "images/serving-closeup-materials/image.png",
+      "meta": "images/serving-closeup-materials/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement illustration, three-quarter view of the breakfast bar corner of the reference kitchen. The viewpoint is slightly higher than in the reference, letting us see the pink stool, the counter, and the turquoise fridge's teardrop side. Warm ad-lit studio lighting matches the reference, with halftone grain and subtle offset printing feel.\n\nSubject:\nA stylized mid-century housewife character in a cadmium-red polka-dot apron over a powder-pink shirtwaist dress sits perched on the chrome-legged pink vinyl stool at the ivory laminate breakfast bar. She is cheerfully pouring bright-orange juice from a bulbous clear pitcher into a turquoise-rimmed drinking glass. A plate of neatly stacked pancakes with a perfect yellow butter pat sits in front of her. The teardrop turquoise refrigerator from the reference is visible behind her shoulder; the yellow round wall clock and boomerang wallpaper also tie to the reference.\n\nImportant details:\nThe fridge handle, shape, and color must match the reference exactly. The boomerang wallpaper repeat and clock style must also match. Character is drawn as a stylized mid-century illustration figure, not photorealistic. Face has a friendly magazine-ad smile with rouged cheeks. Skin and fabric are rendered with flat matte halftone print feel, not photographic gloss. Overall palette locked to ivory, turquoise, cadmium red, bright yellow, powder pink, chrome.\n\nUse case:\nTurquoise Kitchen Set series shot 3 of 4, an inhabited moment inside the same kitchen room as the reference.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern appliances, no smartphones, no photoreal skin or hair, no sharp rectangular minimalist design, preserve exact 1:1 aspect ratio, preserve the reference kitchen.",
+  "id": "03-breakfast-bar-moment",
+  "title": "Breakfast Bar Moment",
+  "description": "A cheerful housewife pouring orange juice at the breakfast bar inside the reference atomic kitchen.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/03-breakfast-bar-moment/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-kitchen-wide",
+        "meta_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/meta.json",
+        "image_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on kitchen-wide. Use its runtime URL as --ref to preserve fridge form, wallpaper and palette."
+  },
+  "i18n": {
+    "en": {
+      "title": "Breakfast Bar Moment",
+      "description": "A cheerful housewife pouring orange juice at the breakfast bar inside the reference atomic kitchen."
+    },
+    "zh-CN": {
+      "title": "早餐吧台瞬间",
+      "description": "一位愉快的家庭主妇在参考原子厨房的早餐吧台上倒橙汁。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A mid-century housewife in a red polka-dot apron pours juice at a pink breakfast bar, with a turquoise fridge behind.",
+      "zh-CN": "穿红色波点围裙的复古家庭主妇在粉色早餐吧台倒果汁, 身后是松石色冰箱。"
+    }
+  }
+}

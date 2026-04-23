@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square black-and-white thriller frame with hard contrast, deep blacks, silvery highlights, and geometric shadow patterns cast by railings, blinds, or stained glass. The camera should feel deliberate and predatory, often high above or pinned to an anxious architectural angle. Look down a stairwell toward a mirror at the bottom landing that catches a second view of the upper steps.\n\nSubject:\nBuild the image around stairs, shadows, landings, banisters, and one isolated figure whose presence is defined as much by silhouette as by body. Fear should come from spacing, emptiness, and the logic of light rather than from explicit violence. A descending woman appears both directly and as reflection, creating uncertainty about distance and timing.\n\nImportant details:\nThe governing grammar is suspense through architecture. Preserve crisp edges between light and shadow, polished floor reflections, severe stair geometry, and a sense of silent movement just before or after an event. Avoid modern clutter, color accents, or loose handheld energy. Keep the mirror clean and believable, using duplication to sharpen suspense rather than create fantasy.\n\nUse case:\nSuspense Staircase Shadow single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no monsters, no readable signage, no casual daylight realism, no fog machine effect, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-mirror-below",
+  "title": "Mirror Below",
+  "description": "A reflective stairwell composition where one descending figure appears twice in a tense monochrome geometry.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "grayscale",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/suspense-staircase-shadow/packages/single-suspense-staircase-shadow/images/08-mirror-below/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent suspense staircase study focused on mirror below.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Mirror Below",
+      "description": "A reflective stairwell composition where one descending figure appears twice in a tense monochrome geometry."
+    },
+    "zh-CN": {
+      "title": "Mirror Below",
+      "description": "围绕悬疑旋梯的第8张独立研究图，聚焦 Mirror Below。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "grayscale",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A stairwell seen from above where a mirror on the landing duplicates a descending figure.",
+      "zh-CN": "悬疑旋梯主题图：Mirror Below。"
+    }
+  }
+}

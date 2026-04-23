@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nPresent the same square overhead studio board, maintaining the identical card grid, light direction, and tactile print finish established by the reference image. The composition should feel like the second SKU in the same preschool product line, precise enough for catalog approval and consistent enough to be mistaken for the same shoot. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nReplace the alphabet-like assortment with counting cards that show grouped objects such as one moon, two pears, three ducks, four buttons, and five paper boats. Each card should pair the object cluster with a strong empty number zone, making quantity the star without requiring any actual characters. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nThe set must still read as the same brand system: matching border thickness, rounded geometry, illustration density, blank caption placement, and palette anchors. Variation should come from quantity grouping, object rhythm, and a slightly more playful arrangement inside each card while the overall board remains locked. Preserve the same rounded card frame, corner radius, soft shadow depth, illustration scale, and empty caption panel rhythm from the reference board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nEarly Learning Flashcard Family series study 2/4, number counting board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real letters, no readable numerals, no handwriting, no crowded toy-store clutter, no adult hands, no broken card edges.",
+  "id": "02-number-counting-board",
+  "title": "Number Counting Board",
+  "description": "A counting-focused variation that keeps the same flashcard system while changing the visual subject to quantity groups.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/02-number-counting-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alphabet-board",
+        "meta_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/meta.json",
+        "image_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-alphabet-board.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Number Counting Board",
+      "description": "A counting-focused variation that keeps the same flashcard system while changing the visual subject to quantity groups."
+    },
+    "zh-CN": {
+      "title": "数字计数卡版",
+      "description": "在同一启蒙卡片系统内切换为计数主题的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A counting-focused variation that keeps the same flashcard system while changing the visual subject to quantity groups.",
+      "zh-CN": "在同一启蒙卡片系统内切换为计数主题的变体。"
+    }
+  }
+}

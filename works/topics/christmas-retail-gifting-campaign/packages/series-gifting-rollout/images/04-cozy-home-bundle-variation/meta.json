@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent holiday retail visual within the same flagship Christmas environment, but let the framing widen enough to include folded knit textures, candle glow, and tabletop warmth without losing the original store-window discipline. Keep the same amber illumination, spruce shadows, cream paper, brass accents, and tactile winter atmosphere from the reference image so the campaign world stays exact.\n\nSubject:\nFeature a cozy home gifting bundle composed of folded throws, ceramic mugs, candles, tea tins, small boxes, and wrapped comfort items presented as a premium seasonal set. Preserve exact wrapping logic, prop styling, and retail hierarchy from the reference image while shifting the category toward home comfort. The arrangement should feel curated, layered, and ready for catalog, gifting guide, or storefront reuse.\n\nImportant details:\nThe dependent image must inherit the anchor precisely: same palette balance, same lighting angle, same ribbon behavior, same evergreen usage, and the same calm commercial finish. Only the item mix and emotional register should move toward home warmth. Keep material realism persuasive, with believable knit texture, wax translucency, ceramic glaze, and paper folds. Nothing should read like a generic winter moodboard; it needs to feel like one coherent Christmas retail campaign extension.\n\nUse case:\nChristmas Retail series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no people, no fireplace cliché, no branded mugs, no readable packaging, no plush toy mascot, no excess faux snow, no random rustic clutter.",
+  "id": "04-cozy-home-bundle-variation",
+  "title": "Cozy Home Bundle Variation",
+  "description": "A home-comfort bundle variation that stays inside the same Christmas merchandising world.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/04-cozy-home-bundle-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evergreen-window-anchor",
+        "meta_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/meta.json",
+        "image_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent home-bundle variation for the Christmas rollout. Preserve the exact campaign language from 01-evergreen-window-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cozy Home Bundle Variation",
+      "description": "A home-comfort bundle variation that stays inside the same Christmas merchandising world."
+    },
+    "zh-CN": {
+      "title": "居家暖意变体",
+      "description": "保持同一圣诞陈列世界观的居家暖意套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A cozy home-gifting Christmas visual that matches the same premium retail language.",
+      "zh-CN": "与同一高端零售语言一致的圣诞居家礼赠画面。"
+    }
+  }
+}

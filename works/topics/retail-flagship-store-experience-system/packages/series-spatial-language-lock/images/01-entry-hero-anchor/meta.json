@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Retail Flagship Store Experience System. Use a wide view from the entrance that reveals the main display axis and stair or volume changes and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so circulation, hero display, and immersive branded retail feel immediate, using soft concrete gray, brushed silver, warm white light, muted sand stone, and one restrained accent tone as the governing tonal range. The composition must read as a high-end commercial image that could sit inside retail launch decks, store-design reviews, campaign stills, and experiential pitch boards.\n\nSubject:\nShow a premium flagship retail interior with sculpted display fixtures, integrated light bands, neutral stone floors, brushed aluminum rails, translucent resin accents, and an immersive circulation plan. Center the flagship’s spatial hook, hero product fixture, and overall customer journey. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the hero fixture shapes, integrated lighting bands, resin accents, circulation loop, and premium product-display grammar. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nRetail Flagship Store Experience System series study 1/9, establishing the canonical store identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowds, no cash-register clutter, no readable price tags, no seasonal sale props, no random mannequins everywhere, no giant storefront text.",
+  "id": "01-entry-hero-anchor",
+  "title": "Entry Hero Anchor",
+  "description": "A reference-setting architectural still for flagship store that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retail-flagship-store-experience-system/packages/series-spatial-language-lock/images/01-entry-hero-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Entry Hero Anchor",
+      "description": "A reference-setting architectural still for flagship store that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "入口英雄锚点",
+      "description": "围绕旗舰店的入口英雄锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Entry Hero Anchor for Retail Flagship Store Experience System.",
+      "zh-CN": "旗舰店主题中的入口英雄锚点。"
+    }
+  }
+}

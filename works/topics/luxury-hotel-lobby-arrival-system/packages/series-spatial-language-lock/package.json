@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Arrival Language Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of luxury hotel lobby arrival system before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Hotel Lobby. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-arrival-portal-wide/image.png",
+  "i18n": {
+    "en": {
+      "title": "Arrival Language Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of luxury hotel lobby arrival system before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "到达语言锁定",
+      "description": "四张参考依赖图，用来锁定酒店大堂的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-arrival-portal-wide",
+      "title": "Arrival Portal Wide",
+      "image": "images/01-arrival-portal-wide/image.png",
+      "meta": "images/01-arrival-portal-wide/meta.json"
+    },
+    {
+      "id": "02-reception-axis",
+      "title": "Reception Axis",
+      "image": "images/02-reception-axis/image.png",
+      "meta": "images/02-reception-axis/meta.json"
+    },
+    {
+      "id": "03-lounge-threshold-dusk",
+      "title": "Lounge Threshold at Dusk",
+      "image": "images/03-lounge-threshold-dusk/image.png",
+      "meta": "images/03-lounge-threshold-dusk/meta.json"
+    },
+    {
+      "id": "04-elevator-vault-corner",
+      "title": "Elevator Vault Corner",
+      "image": "images/04-elevator-vault-corner/image.png",
+      "meta": "images/04-elevator-vault-corner/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-arrival-portal-wide/meta.json",
+      "images/02-reception-axis/meta.json",
+      "images/03-lounge-threshold-dusk/meta.json",
+      "images/04-elevator-vault-corner/meta.json"
+    ],
+    "ref_strategy": "Run 01-arrival-portal-wide first. Use its runtime result URL as --ref for 02-reception-axis, 03-lounge-threshold-dusk, 04-elevator-vault-corner. Queue may run 02-reception-axis, 03-lounge-threshold-dusk, 04-elevator-vault-corner concurrently after 01-arrival-portal-wide is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

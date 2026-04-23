@@ -1,0 +1,40 @@
+{
+  "id": "waiting-room-screen-and-patient-info-loop",
+  "slug": "waiting-room-screen-and-patient-info-loop",
+  "title": "Waiting Room Screen and Patient Info Loop",
+  "short_title": "Waiting Room Loop",
+  "description": "Create waiting-room info loops that feel calm, useful, and brand-consistent rather than generic TV slides.",
+  "i18n": {
+    "en": {
+      "title": "Waiting Room Screen and Patient Info Loop",
+      "short_title": "Waiting Room Loop",
+      "description": "Create waiting-room info loops that feel calm, useful, and brand-consistent rather than generic TV slides."
+    },
+    "zh-CN": {
+      "title": "候诊屏与患者信息循环",
+      "short_title": "候诊屏",
+      "description": "做候诊屏与患者信息循环，让内容 calm、实用且品牌一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2090,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-waiting-room-loop-studies",
+      "type": "single",
+      "title": "Waiting Room Loop Studies",
+      "path": "packages/single-waiting-room-loop-studies/package.json"
+    }
+  ]
+}

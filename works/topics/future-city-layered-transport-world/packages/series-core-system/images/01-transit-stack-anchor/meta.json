@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square future-city key visual where transport layers, housing density, and skyline depth are all legible in one controlled composition. The camera should sit at mid-to-high elevation so the viewer can read arterial rails, pedestrian decks, service lanes, and the inhabited mass of the city at once. Favor rainy or hazy atmospheric perspective that enhances depth without hiding structural logic. Frame several transport levels at once: a fast rail cutting across mid-frame, pedestrian decks below, and dense housing towers rising behind in damp morning light.\n\nSubject:\nCenter the image on a dense but coherent urban stack: rail viaducts, skybridges, delivery lanes, tower podiums, residential blocks, and public circulation surfaces all working together. The city should feel designed around movement, commerce, and real occupancy rather than as a pile of disconnected towers. Establish the reference city language with one primary transit viaduct, one secondary skywalk web, mixed residential density, and compact commercial podiums.\n\nImportant details:\nHierarchy is critical. Distinguish fast transit, local walking, freight access, and private shelter zones through lighting, material changes, and depth organization. Use disciplined steel, concrete, glass, and muted light accents so the city feels like a credible urban product surface rather than generic cyberpunk spectacle. The first image must lock the proportions between transit infrastructure and housing mass so later variants can preserve the same urban DNA. Resolve the anchor rules that later reference-dependent variants must inherit, especially the stacked transit decks, bridge proportions, mixed residential density, and cool rain-surface lighting.\n\nUse case:\nFuture City series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no empty streets, no retro cars, no generic neon gibberish billboards, no impossible lane geometry, no giant hologram clutter.",
+  "id": "01-transit-stack-anchor",
+  "title": "Transit Stack Anchor",
+  "description": "Transit Stack Anchor presents a dense urban anchor view establishing the citys layered transport grammar and skyline logic.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-city-layered-transport-world/packages/series-core-system/images/01-transit-stack-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Future City core system.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Transit Stack Anchor",
+      "description": "Transit Stack Anchor presents a dense urban anchor view establishing the citys layered transport grammar and skyline logic."
+    },
+    "zh-CN": {
+      "title": "Transit Stack Anchor",
+      "description": "未来城市主题中的Transit Stack Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Transit Stack Anchor presents a dense urban anchor view establishing the citys layered transport grammar and skyline logic.",
+      "zh-CN": "未来城市主题中的Transit Stack Anchor图像。"
+    }
+  }
+}

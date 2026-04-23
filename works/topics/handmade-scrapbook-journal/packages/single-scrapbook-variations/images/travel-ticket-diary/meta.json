@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of an open travel diary on a linen tablecloth under soft café window light. The pages are slightly tinted warm cream with a faint age yellowing on the outer edges. A brass pen and a small glass of water sit just outside the left frame edge casting subtle shadows.\n\nSubject:\nA travel diary spread after a long train journey. The left page carries three overlapping train tickets fastened with tiny gold paper corners, a faded foreign map scrap torn with a ragged edge, and a small pressed flower in the margin. The right page is an angled handwritten passage in blue-black ink with several strike-throughs and one ink blot, interspersed with a small watercolor sketch of a countryside station and arrows drawn in orange pencil.\n\nImportant details:\nEvery torn edge must be physical, not vector. Paper corners must show real air bubbles under them. The ink blot must spread into paper fibers. Ticket perforations should be physically pulled, uneven. Handwriting shows this person's personal cadence — slightly backward slant, looped ascenders, occasional capital letters mid-sentence.\n\nUse case:\nIndependent single image in the Scrapbook Variations package, representing the traveler voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names on tickets or maps, no vector edges, no digital gradient, no oversaturation, preserve exact 1:1 aspect ratio.",
+  "id": "travel-ticket-diary",
+  "title": "Travel Ticket Diary",
+  "description": "An independent travel diary spread with pasted train tickets, a torn map scrap, and slanted handwritten passages with ink blots.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/single-scrapbook-variations/images/travel-ticket-diary/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Travel Ticket Diary",
+      "description": "An independent travel diary spread with pasted train tickets, a torn map scrap, and slanted handwritten passages with ink blots."
+    },
+    "zh-CN": {
+      "title": "旅行票根日记",
+      "description": "独立的旅行日记跨页 · 火车票 · 撕下的地图片段 · 斜体手写段落与墨迹。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Open travel diary with pasted train tickets, a torn map scrap, a pressed flower, and handwritten entries with ink blots.",
+      "zh-CN": "旅行日记跨页 · 粘着的火车票 · 撕下的地图片段 · 压花与带墨迹的手写文字。"
+    }
+  }
+}

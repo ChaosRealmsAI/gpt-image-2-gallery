@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square premium patisserie image with polished but believable boutique lighting, elegant marble or lacquer surfaces, and a sweet-shop atmosphere that feels brand-authored rather than generic. The camera should preserve product clarity, shape definition, and shelf or counter context while leaving enough breathing room for campaign placement. Retain the same polished boutique setting and quiet reflections, with a slightly brighter tonal lift to support berry gloss and pastry precision.\n\nSubject:\nThe desserts must look crafted by a high-end pastry kitchen: clean lamination, glossy glaze, stable cream structure, crisp edges, and packaging or display surfaces that reinforce a coherent dessert identity. Present a berry tart with mirror-finish fruit, clean cream piping, and one minimal secondary pastry so the frame reads like a luxury display edit.\n\nImportant details:\nSweetness should come from color control, finish quality, and material nuance, not from visual clutter. Preserve believable pastry engineering, boutique display logic, and refined merchandising cues so the images can support brand storytelling across retail, packaging, and editorial use. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-salon-display-anchor. The display cadence, surface finish, and package language should stay locked to the anchor image, even as color intensity and fruit texture become more vibrant.\n\nUse case:\nDessert Brand series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-color overload, no plastic frosting, no supermarket clutter, no cartoon decorations, no melted textures that break realism, no childish party props, no farmhouse styling, no dripping fruit syrup, no picnic props.",
+  "id": "03-berry-tart-salon",
+  "title": "Berry Tart Salon",
+  "description": "A fruit-forward tart hero that keeps the reference brand system while shifting the palette toward jewel-toned freshness.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/03-berry-tart-salon/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-salon-display-anchor",
+        "meta_path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/01-salon-display-anchor/meta.json",
+        "image_path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/01-salon-display-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-salon-display-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Berry Tart Salon",
+      "description": "A fruit-forward tart hero that keeps the reference brand system while shifting the palette toward jewel-toned freshness."
+    },
+    "zh-CN": {
+      "title": "莓果塔沙龙",
+      "description": "莓果塔沙龙：甜品品牌主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A fruit-forward tart hero that keeps the reference brand system while shifting the palette toward jewel-toned freshness.",
+      "zh-CN": "莓果塔沙龙，用于甜品品牌主题。"
+    }
+  }
+}

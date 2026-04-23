@@ -1,0 +1,71 @@
+{
+  "id": "series-enrollment-retail-system",
+  "type": "series",
+  "title": "Enrollment and Retail Series",
+  "description": "A reference-driven back-to-school campaign system that locks school-reset energy and extends it across retail and enrollment variations.",
+  "creative_direction": "Image 01 establishes a bright academic-retail world built from stationery order, locker or desk cues, campus energy, and family-ready retail polish; images 02-04 preserve that exact language while moving through age tiers, tech bundles, and enrollment-fair display.",
+  "cover_image": "images/01-campus-desk-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-campus-desk-anchor/meta.json",
+      "images/02-starter-kit-variation/meta.json",
+      "images/03-tech-bundle-variation/meta.json",
+      "images/04-enrollment-fair-variation/meta.json"
+    ],
+    "ref_strategy": "Run 01-campus-desk-anchor first. Use its runtime result URL as --ref for 02-starter-kit-variation, 03-tech-bundle-variation, 04-enrollment-fair-variation. Queue may run the dependent images concurrently after 01-campus-desk-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Enrollment and Retail Series",
+      "description": "A reference-driven back-to-school campaign system that locks school-reset energy and extends it across retail and enrollment variations."
+    },
+    "zh-CN": {
+      "title": "招生零售系列",
+      "description": "以基准图锁定开学季重启感，并延展到招生与零售多种传播面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-campus-desk-anchor",
+      "title": "Campus Desk Anchor",
+      "image": "images/01-campus-desk-anchor/image.png",
+      "meta": "images/01-campus-desk-anchor/meta.json"
+    },
+    {
+      "id": "02-starter-kit-variation",
+      "title": "Starter Kit Variation",
+      "image": "images/02-starter-kit-variation/image.png",
+      "meta": "images/02-starter-kit-variation/meta.json"
+    },
+    {
+      "id": "03-tech-bundle-variation",
+      "title": "Tech Bundle Variation",
+      "image": "images/03-tech-bundle-variation/image.png",
+      "meta": "images/03-tech-bundle-variation/meta.json"
+    },
+    {
+      "id": "04-enrollment-fair-variation",
+      "title": "Enrollment Fair Variation",
+      "image": "images/04-enrollment-fair-variation/image.png",
+      "meta": "images/04-enrollment-fair-variation/meta.json"
+    }
+  ]
+}

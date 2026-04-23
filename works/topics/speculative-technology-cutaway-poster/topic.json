@@ -1,0 +1,47 @@
+{
+  "id": "speculative-technology-cutaway-poster",
+  "slug": "speculative-technology-cutaway-poster",
+  "title": "Speculative Technology Cutaway Poster",
+  "short_title": "Spec Tech Cutaway",
+  "description": "Create speculative-technology cutaway posters that explain impossible devices with enough internal logic to feel convincing.",
+  "i18n": {
+    "en": {
+      "title": "Speculative Technology Cutaway Poster",
+      "short_title": "Spec Tech Cutaway",
+      "description": "Create speculative-technology cutaway posters that explain impossible devices with enough internal logic to feel convincing."
+    },
+    "zh-CN": {
+      "title": "未来技术剖面海报",
+      "short_title": "技术剖面",
+      "description": "做未来技术剖面海报，让不可能装置也有内部逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

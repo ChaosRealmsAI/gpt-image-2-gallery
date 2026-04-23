@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Luxury Hotel Lobby Arrival System. Use a dusk angle from the lounge threshold toward the lobby core while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep warm limestone, honey amber, muted bronze, deep olive planting, and soft charcoal shadows as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a grand luxury hotel lobby with limestone slabs, smoked bronze screens, amber onyx accents, sculpted concierge islands, mirror-still water details, and a calm hospitality atmosphere. Focus on the exact same lobby from the reference image, now emphasizing evening glow, lounge grouping, and the transition from arrival to waiting. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the portal proportions, stone-and-bronze palette, concierge desk geometry, lantern rhythm, seating family, and abstract wayfinding zones. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nLuxury Hotel Lobby Arrival System series study 3/9, extending the evening hospitality mood without changing the architecture.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no guests, no staff, no suitcases scattered everywhere, no casino mood, no festive balloons, no nightclub neon.",
+  "id": "03-lounge-threshold-dusk",
+  "title": "Lounge Threshold at Dusk",
+  "description": "A reference-dependent architectural variation for hotel lobby focused on lounge threshold at dusk.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-hotel-lobby-arrival-system/packages/series-spatial-language-lock/images/03-lounge-threshold-dusk/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-arrival-portal-wide",
+        "meta_path": "works/topics/luxury-hotel-lobby-arrival-system/packages/series-spatial-language-lock/images/01-arrival-portal-wide/meta.json",
+        "image_path": "works/topics/luxury-hotel-lobby-arrival-system/packages/series-spatial-language-lock/images/01-arrival-portal-wide/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lounge Threshold at Dusk",
+      "description": "A reference-dependent architectural variation for hotel lobby focused on lounge threshold at dusk."
+    },
+    "zh-CN": {
+      "title": "暮色会客区",
+      "description": "围绕酒店大堂的暮色会客区研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Lounge Threshold at Dusk for Luxury Hotel Lobby Arrival System.",
+      "zh-CN": "酒店大堂主题中的暮色会客区。"
+    }
+  }
+}

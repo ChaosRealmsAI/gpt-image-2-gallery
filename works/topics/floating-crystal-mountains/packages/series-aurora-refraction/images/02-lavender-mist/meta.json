@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same 24mm large-format composition, same low horizon and mirror ocean as the reference image. The overall atmosphere is now a cool lavender twilight haze, slightly higher relative humidity suggested by soft atmospheric bloom around bright edges.\n\nSubject:\nThe identical floating amethyst crystal mountain from the reference, preserving its exact silhouette, scale, altitude above water, and internal fracture pattern. The aurora overhead is now a wide lavender-to-magenta ribbon with thin white highlights. Refracted beams striking the mirror ocean are pale pink, silver, and soft violet, gentler than in the reference.\n\nImportant details:\nPreserve crystal facet geometry, peak count, and internal inclusion map from the reference. Color palette shifts toward low-saturation lavender, dusty rose, and pearl white. The refracted light columns should feel like soft silk curtains rather than hard lasers. Scale anchor helicopters remain in the same two relative positions. Mist rolls low over the mirror ocean, partially dissolving the reflection at the frame edges.\n\nUse case:\nSecond image in the aurora refraction cycle. Demonstrates that the queue can treat image 01 as --ref while swapping only the aurora color, atmospheric humidity, and beam quality.\n\nConstraints:\nPRESERVE the reference image peak silhouette, camera angle, horizon line, and helicopter positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no added peaks, no second mountain, no stylized painterly rendering.",
+  "id": "02-lavender-mist",
+  "title": "Lavender Mist",
+  "description": "The reference peak under a lavender-magenta aurora with soft humid atmospheric bloom.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-peak"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/02-lavender-mist/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-peak",
+        "meta_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/meta.json",
+        "image_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lavender Mist",
+      "description": "The reference peak under a lavender-magenta aurora with soft humid atmospheric bloom."
+    },
+    "zh-CN": {
+      "title": "薰衣草雾",
+      "description": "基准山峰在薰衣草-品红极光与湿润光雾下的版本。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same amethyst peak under a lavender aurora with pink and silver refracted beams.",
+      "zh-CN": "同一紫水晶山峰 · 薰衣草极光下粉与银色折射光束。"
+    }
+  }
+}

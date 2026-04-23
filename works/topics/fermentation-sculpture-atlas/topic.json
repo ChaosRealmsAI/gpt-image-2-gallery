@@ -1,0 +1,46 @@
+{
+  "id": "fermentation-sculpture-atlas",
+  "slug": "fermentation-sculpture-atlas",
+  "title": "Fermentation Sculpture Atlas",
+  "short_title": "Fermentation Atlas",
+  "description": "Cross-section jars of fermenting kombucha SCOBY, kimchi, miso, cheese cave caves, sourdough starters — all photographed as sculptures in natural history museum vitrines with dates and species labels.",
+  "i18n": {
+    "en": {
+      "title": "Fermentation Sculpture Atlas",
+      "short_title": "Fermentation Atlas",
+      "description": "Cross-section jars of fermenting kombucha SCOBY, kimchi, miso, cheese cave caves, sourdough starters — all photographed as sculptures in natural history museum vitrines with dates and species labels."
+    },
+    "zh-CN": {
+      "title": "发酵雕塑图鉴",
+      "short_title": "发酵图鉴",
+      "description": "发酵体横截面罐 · SCOBY、泡菜、味噌、奶酪洞、酸面团起子 · 拍成自然史博物馆展柜雕塑 · 附日期与物种标签。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2070,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Vitrine Jar Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Living Culture Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

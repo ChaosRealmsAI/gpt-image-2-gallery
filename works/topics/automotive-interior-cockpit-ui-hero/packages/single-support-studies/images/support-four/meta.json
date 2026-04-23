@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square slightly top-down composition with soft studio lighting, crisp shadows, and carefully managed depth across the console plane. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original center console showing cupholders, storage lid, wireless charging tray, armrest, and compact drive controls. Make the subject feel original, production-aware, and clearly grounded in Automotive Interior Cockpit UI Hero. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nThe layout should feel production-ready, spatially clear, and elegantly resolved. Every element must serve ergonomic logic, not visual novelty for its own sake. The visual language should still feel native to Automotive Interior Cockpit UI Hero, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCockpit UI single study 8/9 for Automotive Interior Cockpit UI Hero, built as image support-four.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app-store iconography, no fantasy holograms, no navigation labels, no brand marks.",
+  "id": "support-four",
+  "title": "Center Console Layout",
+  "description": "A structured layout study of center-console storage, controls, and charging surfaces.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/automotive-interior-cockpit-ui-hero/packages/single-support-studies/images/support-four/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Center Console Layout",
+      "description": "A structured layout study of center-console storage, controls, and charging surfaces."
+    },
+    "zh-CN": {
+      "title": "中控台布局",
+      "description": "中控储物、控制与充电面的结构化研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A structured study of an original automotive center-console layout.",
+      "zh-CN": "原创汽车中控台布局研究图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square close-up food-and-packaging image with soft raking evening light, warm tonal contrast, and shallow but believable depth of field. The composition should feel like a premium editorial crop from a luxury gift campaign, not a recipe photo. Keep the crop intimate while preserving context through one or two supporting packaging and tea elements around the pastry.\n\nSubject:\nFocus on one or two mooncakes showing carefully carved surface patterns, rich pastry texture, and part of a refined gift-box or serving setup nearby. The scene should celebrate craft, quality, and generosity through edible detail and packaging refinement. Keep the food original and elegant, with no readable embossing or overt branding.\n\nImportant details:\nMicro-texture is essential here: pastry sheen, crumb structure, filling edge, lacquer reflection, ceramic glaze, and ambient evening warmth should all feel precise. The image should support packaging pages, gift-guide crops, or seasonal food marketing. Keep the tone premium and restrained, avoiding sticky dessert glamour or excessive food-styling clutter.\n\nUse case:\nMid-Autumn single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable embossing, no brand logos, no cutlery clutter, no unrealistic glossy syrup, no cartoon bunny motifs, no giant crumbs, no hands, no recipe-card styling.",
+  "id": "carved-mooncake-closeup",
+  "title": "Carved Mooncake Closeup",
+  "description": "A close-up Mid-Autumn food study focused on pastry craft and premium packaging detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/single-festival-context-studies/images/carved-mooncake-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pastry-detail study for Mid-Autumn campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Carved Mooncake Closeup",
+      "description": "A close-up Mid-Autumn food study focused on pastry craft and premium packaging detail."
+    },
+    "zh-CN": {
+      "title": "月饼雕纹近景",
+      "description": "聚焦点心工艺与高端包装细节的中秋近景研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A close-up Mid-Autumn pastry study with carved surface detail and elegant packaging cues.",
+      "zh-CN": "带有表面雕纹细节与精致包装线索的中秋点心近景研究。"
+    }
+  }
+}

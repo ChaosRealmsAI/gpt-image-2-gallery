@@ -1,0 +1,40 @@
+{
+  "id": "sahara-dune-wave-sunrise",
+  "slug": "sahara-dune-wave-sunrise",
+  "title": "Sahara Dune Wave at Sunrise",
+  "short_title": "Sahara Wave",
+  "description": "Sunrise over the Namib/Sahara dune field, dunes carved by wind into wave-like crescents hundreds of meters tall, warm-to-cool gradient sky, lone camel caravan crossing the valley.",
+  "i18n": {
+    "en": {
+      "title": "Sahara Dune Wave at Sunrise",
+      "short_title": "Sahara Wave",
+      "description": "Sunrise over the Namib/Sahara dune field, dunes carved by wind into wave-like crescents hundreds of meters tall, warm-to-cool gradient sky, lone camel caravan crossing the valley."
+    },
+    "zh-CN": {
+      "title": "撒哈拉沙丘浪朝阳",
+      "short_title": "沙丘浪",
+      "description": "撒哈拉/纳米布沙丘 · 朝阳下 · 风蚀成百米高新月形浪 · 天空暖冷渐变 · 孤驼队穿越谷底。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1230,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Sahara Wave Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

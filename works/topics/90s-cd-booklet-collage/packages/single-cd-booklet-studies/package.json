@@ -1,0 +1,44 @@
+{
+  "id": "single-cd-booklet-studies",
+  "type": "single",
+  "title": "CD Booklet Studies",
+  "description": "Nine independent 90s CD-booklet studies — each spread tests silver jewel-case reflections, grainy high-contrast photography, distorted stretched letterforms, and photocopied toner speckle at modern capture fidelity.",
+  "creative_direction": "Each image is a 1:1 booklet spread crop for a different component (front cover, lyrics spread, photo collage, tracklist, credits, inner sleeve art, silver disc, cassette insert, back cover). Shared palette: silver plus crushed blacks plus one faded accent color per spread. Shared treatments: jewel-case reflection, fine photocopy noise, distorted stretched serifs overlapping small-caps columns.",
+  "cover_image": "images/front-cover-band-portrait/image.png",
+  "i18n": {
+    "en": {
+      "title": "CD Booklet Studies",
+      "description": "Nine independent 90s CD-booklet studies — each spread tests silver jewel-case reflections, grainy high-contrast photography, distorted stretched letterforms, and photocopied toner speckle at modern capture fidelity."
+    },
+    "zh-CN": {
+      "title": "CD 内页单图研究",
+      "description": "九张独立的 90 年代 CD 内页研究 · 每张跨页测试银色塑料盒反光、颗粒高对比摄影、失真拉伸字母、复印墨斑 · 以现代捕捉精度呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "editorial-illustration",
+      "photorealism",
+      "text-rendering",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    { "id": "front-cover-band-portrait", "title": "Front Cover Band Portrait", "image": "images/front-cover-band-portrait/image.png", "meta": "images/front-cover-band-portrait/meta.json" },
+    { "id": "liner-notes-lyrics-spread", "title": "Liner Notes Lyrics Spread", "image": "images/liner-notes-lyrics-spread/image.png", "meta": "images/liner-notes-lyrics-spread/meta.json" },
+    { "id": "photo-collage-spread", "title": "Photo Collage Spread", "image": "images/photo-collage-spread/image.png", "meta": "images/photo-collage-spread/meta.json" },
+    { "id": "tracklist-page", "title": "Tracklist Page", "image": "images/tracklist-page/image.png", "meta": "images/tracklist-page/meta.json" },
+    { "id": "credits-columns-page", "title": "Credits Columns Page", "image": "images/credits-columns-page/image.png", "meta": "images/credits-columns-page/meta.json" },
+    { "id": "inner-sleeve-artwork", "title": "Inner Sleeve Artwork", "image": "images/inner-sleeve-artwork/image.png", "meta": "images/inner-sleeve-artwork/meta.json" },
+    { "id": "silver-disc-artwork", "title": "Silver Disc Artwork", "image": "images/silver-disc-artwork/image.png", "meta": "images/silver-disc-artwork/meta.json" },
+    { "id": "cassette-insert-spread", "title": "Cassette Insert Spread", "image": "images/cassette-insert-spread/image.png", "meta": "images/cassette-insert-spread/meta.json" },
+    { "id": "back-cover-retail", "title": "Back Cover Retail", "image": "images/back-cover-retail/image.png", "meta": "images/back-cover-retail/meta.json" }
+  ]
+}

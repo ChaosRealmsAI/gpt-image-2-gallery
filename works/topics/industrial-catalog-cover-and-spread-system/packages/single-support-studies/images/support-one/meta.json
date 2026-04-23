@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square tabletop mockup with stacked binders, soft daylight, and refined paper texture across multiple printed objects. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original industrial catalog covers represented as non-readable abstract editorial surfaces. Make the subject feel original, production-aware, and clearly grounded in Industrial Catalog Cover and Spread System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nSell material quality, print finish, and presentation polish. The image should feel like a real industrial sales kit prepared for a client meeting. The visual language should still feel native to Industrial Catalog Cover and Spread System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCatalog System single study 5/9 for Industrial Catalog Cover and Spread System, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no lorem ipsum, no random office clutter, no unrelated consumer props, no fake brand marks.",
+  "id": "support-one",
+  "title": "Binder Cover Stack",
+  "description": "A binder-stack mockup showing industrial catalog cover variants as physical objects.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-catalog-cover-and-spread-system/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Binder Cover Stack",
+      "description": "A binder-stack mockup showing industrial catalog cover variants as physical objects."
+    },
+    "zh-CN": {
+      "title": "目录封套堆叠",
+      "description": "把工业目录封面变成实体封套堆叠模拟图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A stack of premium industrial catalog binders in a tabletop mockup.",
+      "zh-CN": "高级工业目录封套堆叠的桌面模拟图。"
+    }
+  }
+}

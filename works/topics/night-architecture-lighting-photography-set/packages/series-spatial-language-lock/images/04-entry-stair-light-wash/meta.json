@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Night Architecture Lighting Photography Set. Use a lower-angle composition toward the entry stair and illuminated wall surfaces while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep deep blue-black night, warm gold light, cool silver reflections, and restrained amber interior spill as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a night-architecture photography subject with layered facade lighting, wet pavement reflections, atmospheric civic calm, controlled interior glow, and a clearly recognizable silhouette. Focus on the exact same building from the reference image, now emphasizing pedestrian-scale lighting and threshold drama. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the building silhouette, lighting hierarchy, reflection logic, civic atmosphere, and disciplined night-photography realism. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nNight Architecture Lighting Photography Set series study 4/9, extending arrival lighting within the same nighttime system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no fireworks, no traffic light streak overload, no readable signage, no festival screens, no people crowding the foreground, no people on the steps.",
+  "id": "04-entry-stair-light-wash",
+  "title": "Entry Stair Light Wash",
+  "description": "A reference-dependent architectural variation for night architecture focused on entry stair light wash.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "cinematic",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/04-entry-stair-light-wash/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-blue-hour-anchor",
+        "meta_path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/01-blue-hour-anchor/meta.json",
+        "image_path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/01-blue-hour-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Entry Stair Light Wash",
+      "description": "A reference-dependent architectural variation for night architecture focused on entry stair light wash."
+    },
+    "zh-CN": {
+      "title": "入口台阶洗墙",
+      "description": "围绕建筑夜景的入口台阶洗墙研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Entry Stair Light Wash for Night Architecture Lighting Photography Set.",
+      "zh-CN": "建筑夜景主题中的入口台阶洗墙。"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square cinematic matte-painting style illustration of an imagined 21st-century spaceport as envisioned in 1956, wide establishing shot, camera slightly low three-quarter angle. Powder-blue daytime sky with a few wispy clouds. Warm afternoon sun gives long cinematic shadows across the concrete launch apron. Subtle film-grain texture and the gentle color grading of a vintage Cinerama travel short.\n\nSubject:\nIn center-frame a massive silver finned passenger rocket stands upright on a polished concrete pad, held by a spiral latticework gantry. Its body is polished chrome with three horizontal cadmium-red stripes and a large cockpit porthole halfway up. To the left rises an art-deco spire terminal building in ivory stone with chrome fluting, crowned by a glass observation dome ringed with bright yellow neon piping. A curving pedestrian skybridge connects the spire to the gantry. Small stylized figures in pastel flight suits and bubble helmets wait in a neat line at the base. Parked chrome-finned family ground-cars sit beyond a yellow railing. A small control tower with a rotating beacon stands off to the right.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome, powder blue sky. Rocket body must read as an exaggerated 1959-Cadillac-fin-style passenger ship, not a modern spacecraft. Terminal must read as art-deco meets Googie: fluted spire, curving canopies, neon trim, ornamental finials. Keep painted-matte-painting feel, slight brush texture, soft atmospheric haze toward the horizon. People are stylized figures, not photoreal.\n\nUse case:\nRoot reference image for the Silver Rocket Terminal series. Later images will reuse this rocket and terminal silhouette.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern SpaceX-style rockets, no photorealistic crowd, no drab industrial steel, no glass-box minimalist architecture, no smartphones, preserve exact 1:1 aspect ratio.",
+  "id": "01-terminal-hero",
+  "title": "Terminal Hero",
+  "description": "Wide hero of the silver finned rocket and art-deco spaceport terminal that anchors the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "cinematic", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference establishing the rocket and terminal for the fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Terminal Hero",
+      "description": "Wide hero of the silver finned rocket and art-deco spaceport terminal that anchors the series."
+    },
+    "zh-CN": {
+      "title": "航站楼主镜头",
+      "description": "银色带鳍火箭和装饰艺术太空港航站楼的主参考镜头。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "cinematic"],
+    "alt": {
+      "en": "A silver finned rocket on a launch pad beside an art-deco spire terminal with a glass dome under a powder-blue sky.",
+      "zh-CN": "银色带鳍火箭停在发射台旁, 装饰艺术尖顶航站楼顶着玻璃圆顶, 下方粉蓝天空。"
+    }
+  }
+}

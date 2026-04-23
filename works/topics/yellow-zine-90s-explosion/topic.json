@@ -1,0 +1,52 @@
+{
+  "id": "yellow-zine-90s-explosion",
+  "slug": "yellow-zine-90s-explosion",
+  "category": "editorial",
+  "style": [
+    "retro",
+    "editorial"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "editorial-illustration",
+    "style-transfer"
+  ],
+  "title": "Yellow Zine 90s Explosion",
+  "short_title": "90s Yellow Zine",
+  "description": "90s yellow-background magazine spreads — explosive typography collisions, rough scissor photo cutouts, hot black sans shouting titles, accent red circles, and xerox-grain halftones at modern print precision.",
+  "i18n": {
+    "en": {
+      "title": "Yellow Zine 90s Explosion",
+      "short_title": "90s Yellow Zine",
+      "description": "90s yellow-background magazine spreads — explosive typography collisions, rough scissor photo cutouts, hot black sans shouting titles, accent red circles, and xerox-grain halftones at modern print precision."
+    },
+    "zh-CN": {
+      "title": "90 年代黄杂志爆炸跨页",
+      "short_title": "90 年代黄杂志",
+      "description": "90 年代黄底杂志跨页 · 爆炸式文字碰撞 · 剪刀粗边照片拼贴 · 黑色无衬线大喊标题 · 强调红圈 · 复印颗粒半调以现代印刷精度重现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-90s-zine-studies",
+      "type": "single",
+      "title": "90s Zine Studies",
+      "path": "packages/single-90s-zine-studies/package.json"
+    }
+  ]
+}

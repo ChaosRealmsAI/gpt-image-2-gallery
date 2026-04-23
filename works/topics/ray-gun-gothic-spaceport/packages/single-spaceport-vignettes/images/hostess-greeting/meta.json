@@ -1,0 +1,32 @@
+{
+  "prompt": "Scene:\nA square stylized vintage travel-poster illustration of an atomic-age space-flight hostess at the boarding ramp. Front three-quarter portrait composition on a bright pastel gradient background. Slight halftone print grain, matte coated-paper feel.\n\nSubject:\nA cheerful hostess in a tailored cadmium-red uniform with chrome-piped shoulders and a small pillbox cap accented with a tiny silver rocket pin. She carries a clipboard and gives a welcoming open-palm gesture. A clear fishbowl bubble helmet clipped to her belt on a chrome clip. Behind her, stylized in soft flat shapes, a silver finned rocket tail and a glass-dome terminal spire evoke the spaceport setting without taking focus. Backdrop is a powder-blue-to-ivory gradient with small stylized starbursts.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome, powder blue. Figure rendered in stylized mid-century travel-poster style (flat color shapes, hand-drawn outlines, limited shading). Friendly magazine-ad smile, rouged cheeks, no photoreal skin. Keep halftone grain and slight print offset.\n\nUse case:\nSpaceport Vignettes single study 1 of 5, standalone travel-poster style illustration.\n\nConstraints:\nNo readable text, no watermark, no logos, no photoreal skin, no modern flight attendant uniform, no corporate airline branding, preserve exact 1:1 aspect ratio.",
+  "id": "hostess-greeting",
+  "title": "Hostess Greeting",
+  "description": "Travel-poster style portrait of a cadmium-red-uniformed atomic-age space-flight hostess welcoming passengers.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "commercial-mockup", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {"path": "works/topics/ray-gun-gothic-spaceport/packages/single-spaceport-vignettes/images/hostess-greeting/image.png", "name": "image"},
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single."
+  },
+  "i18n": {
+    "en": {"title": "Hostess Greeting", "description": "Travel-poster style portrait of a cadmium-red-uniformed atomic-age space-flight hostess welcoming passengers."},
+    "zh-CN": {"title": "空乘欢迎", "description": "旅行海报风格的原子时代太空航班空乘肖像, 穿镉红制服欢迎旅客。"}
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "commercial-mockup"],
+    "alt": {"en": "A cheerful mid-century space hostess in a red uniform welcoming passengers with a clipboard.", "zh-CN": "一位复古风格的太空空乘, 穿红色制服, 笑容欢迎并手持记事板。"}
+  }
+}

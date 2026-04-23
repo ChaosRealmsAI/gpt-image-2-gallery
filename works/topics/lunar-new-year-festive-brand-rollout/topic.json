@@ -1,0 +1,52 @@
+{
+  "id": "lunar-new-year-festive-brand-rollout",
+  "slug": "lunar-new-year-festive-brand-rollout",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Lunar New Year Festive Brand Rollout",
+  "short_title": "LNY Rollout",
+  "description": "Build Lunar New Year brand rollouts with festive energy, gifting logic, and multi-format campaign consistency.",
+  "i18n": {
+    "en": {
+      "title": "Lunar New Year Festive Brand Rollout",
+      "short_title": "LNY Rollout",
+      "description": "Build Lunar New Year brand rollouts with festive energy, gifting logic, and multi-format campaign consistency."
+    },
+    "zh-CN": {
+      "title": "农历新年品牌套发",
+      "short_title": "农历新年",
+      "description": "做农历新年品牌套发，强调节庆活力和礼赠逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 460,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-festive-rollout",
+      "type": "series",
+      "title": "Festive Rollout Series",
+      "path": "packages/series-festive-rollout/package.json"
+    },
+    {
+      "id": "single-channel-expansion-studies",
+      "type": "single",
+      "title": "Channel Expansion Studies",
+      "path": "packages/single-channel-expansion-studies/package.json"
+    }
+  ]
+}

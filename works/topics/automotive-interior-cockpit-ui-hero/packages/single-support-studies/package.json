@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Cockpit Support Studies",
+  "description": "Five independent studies exploring adjacent interior and interface communication surfaces.",
+  "creative_direction": "Independent interior and interface studies that support the cockpit theme without direct identity continuity.",
+  "cover_image": "images/support-one/image.png",
+  "i18n": {
+    "en": {
+      "title": "Cockpit Support Studies",
+      "description": "Five independent studies exploring adjacent interior and interface communication surfaces."
+    },
+    "zh-CN": {
+      "title": "座舱支持研究",
+      "description": "五张独立研究图，探索座舱传播中的相邻视觉面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "support-one",
+      "title": "UI State Board",
+      "image": "images/support-one/image.png",
+      "meta": "images/support-one/meta.json"
+    },
+    {
+      "id": "support-two",
+      "title": "Steering Control Macro",
+      "image": "images/support-two/image.png",
+      "meta": "images/support-two/meta.json"
+    },
+    {
+      "id": "support-three",
+      "title": "Rear Cabin Comfort",
+      "image": "images/support-three/image.png",
+      "meta": "images/support-three/meta.json"
+    },
+    {
+      "id": "support-four",
+      "title": "Center Console Layout",
+      "image": "images/support-four/image.png",
+      "meta": "images/support-four/meta.json"
+    },
+    {
+      "id": "support-five",
+      "title": "Dealer Screen Mockup",
+      "image": "images/support-five/image.png",
+      "meta": "images/support-five/meta.json"
+    }
+  ]
+}

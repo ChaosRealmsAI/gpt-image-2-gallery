@@ -1,0 +1,41 @@
+{
+  "id": "baroque-bestiary-candlelight",
+  "slug": "baroque-bestiary-candlelight",
+  "title": "Baroque Bestiary Candlelight",
+  "short_title": "Baroque Bestiary",
+  "description": "Dark-room candlelight portrait of fantastical bestiary creatures rendered like Flemish oil paintings — rich ochre and blood red, ornate fabric, humanoid monsters with ceremonial gravity.",
+  "i18n": {
+    "en": {
+      "title": "Baroque Bestiary Candlelight",
+      "short_title": "Baroque Bestiary",
+      "description": "Dark-room candlelight portrait of fantastical bestiary creatures rendered like Flemish oil paintings — rich ochre and blood red, ornate fabric, humanoid monsters with ceremonial gravity."
+    },
+    "zh-CN": {
+      "title": "巴洛克神兽烛光",
+      "short_title": "巴洛克神兽",
+      "description": "烛光暗室 · 奇幻神兽像弗拉芒油画 · 浓赭 + 血红 · 华丽织物 · 类人怪物的仪式感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 640,
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-baroque-bestiary-candlelight",
+      "type": "single",
+      "title": "Baroque Bestiary Studies",
+      "path": "packages/single-baroque-bestiary-candlelight/package.json"
+    }
+  ]
+}

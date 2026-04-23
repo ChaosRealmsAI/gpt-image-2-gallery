@@ -1,0 +1,43 @@
+{
+  "id": "series-one-journal-week",
+  "type": "series",
+  "title": "One Journal · A Week",
+  "description": "A reference-dependent four-image series: the same cream-paper journal photographed on four different days, preserving the handwriting style, page proportions, and the journal keeper's personal kit of pens and tapes.",
+  "creative_direction": "Image 01 establishes the open journal with handwriting style and physical kit (pens, tape, stickers). Images 02-04 depend on 01 to preserve the exact same paper tone, handwriting cadence, and journal format while showing different days of pasted memories — seasons, weather, and collected ephemera evolve, but the human hand is identical.",
+  "cover_image": "images/01-journal-foundation/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-journal-foundation/meta.json",
+      "images/02-rainy-monday-page/meta.json",
+      "images/03-garden-walk-page/meta.json",
+      "images/04-late-night-page/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "One Journal · A Week",
+      "description": "A reference-dependent four-image series: the same cream-paper journal photographed on four different days, preserving the handwriting style, page proportions, and the journal keeper's personal kit of pens and tapes."
+    },
+    "zh-CN": {
+      "title": "同一本手账 · 一周",
+      "description": "依赖参考的四图系列 · 同一本米白纸手账在一周四天的照片 · 保留同一手写风格 / 纸张比例 / 同一主人的笔和胶带。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["series", "editorial-illustration", "structured-layout", "pattern"]
+  },
+  "images": [
+    { "id": "01-journal-foundation", "title": "Journal Foundation", "image": "images/01-journal-foundation/image.png", "meta": "images/01-journal-foundation/meta.json" },
+    { "id": "02-rainy-monday-page", "title": "Rainy Monday Page", "image": "images/02-rainy-monday-page/image.png", "meta": "images/02-rainy-monday-page/meta.json" },
+    { "id": "03-garden-walk-page", "title": "Garden Walk Page", "image": "images/03-garden-walk-page/image.png", "meta": "images/03-garden-walk-page/meta.json" },
+    { "id": "04-late-night-page", "title": "Late Night Page", "image": "images/04-late-night-page/image.png", "meta": "images/04-late-night-page/meta.json" }
+  ]
+}

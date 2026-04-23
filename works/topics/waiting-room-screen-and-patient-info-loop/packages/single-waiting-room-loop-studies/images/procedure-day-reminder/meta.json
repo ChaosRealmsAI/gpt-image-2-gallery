@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square procedure-day reminder screen for Waiting Room Screen and Patient Info Loop. Compose it as a concise instruction board with large object cues, staging photos, and sequential modules. Use a palette of cool white, muted blue, soft green, warm gray, and occasional coral guidance accents, bright public-space lighting with clean screen glow, and a mood of useful, calm, and brand-consistent. The frame should feel like a real healthcare communication asset art-directed for professional delivery, not a stock photo, speculative concept render, or generic corporate template. Keep the camera distance, negative space, and depth cues disciplined so the image reads immediately even at thumbnail size.\n\nSubject:\nCenter on a public-facing reminder slide for procedure-day logistics such as fasting, transport, belongings, and recovery pickup planning. Show enough surrounding context that the viewer understands the intended service surface, user situation, and institutional setting. Every object, person, diagram, device crop, or spatial cue should support clarity, trust, and practical use. If people appear, keep them anonymous, natural, privacy-safe, and grounded in believable body language rather than promotional posing.\n\nImportant details:\nMaintain waiting-room communication built from screen-safe hierarchy, ambient public display design, and reassuring information architecture that works from a distance. The design should calm uncertainty through structured essentials rather than through dense warnings. Use abstract icon shapes, color blocks, chart bars, interface modules, or non-legible placeholder microcopy whenever information structure is needed, but never readable text. Materials, spacing, lighting, and hierarchy should feel production-ready and healthcare-specific. Avoid generic lifestyle filler, decorative noise, or design gestures that do not reinforce the communication goal.\n\nUse case:\nWaiting Room Loop single study 5/9 for a day-of-procedure waiting-room screen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no TV-news chaos, no overbright advertising palette, no crowded ticker aesthetics, no unreadable micro-detail, no stern warning-board tone, no dense policy blocks.",
+  "id": "procedure-day-reminder",
+  "title": "Procedure Day Reminder",
+  "description": "Procedure Day Reminder translates Waiting Room Screen and Patient Info Loop into a healthcare communication study focused on a day-of-procedure waiting-room screen.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/waiting-room-screen-and-patient-info-loop/packages/single-waiting-room-loop-studies/images/procedure-day-reminder/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Waiting Room Loop study for a day-of-procedure waiting-room screen.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Procedure Day Reminder",
+      "description": "Procedure Day Reminder translates Waiting Room Screen and Patient Info Loop into a healthcare communication study focused on a day-of-procedure waiting-room screen."
+    },
+    "zh-CN": {
+      "title": "Procedure Day Reminder",
+      "description": "候诊屏主题中的Procedure Day Reminder图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "Procedure Day Reminder for Waiting Room Screen and Patient Info Loop.",
+      "zh-CN": "候诊屏主题中的Procedure Day Reminder图像。"
+    }
+  }
+}

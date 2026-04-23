@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Frame a square crop at a service window with warm lights, partial hands, and a narrow counter zone that feels busy but controlled.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Keep the hero food, wrapper, and service gesture central so the image communicates quick turnover and human immediacy.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. The mood should feel crowded in implication, not in clutter. Counter wear, wrapper folds, and light reflections should do the storytelling.\n\nUse case:\nStreet Food Kit single study 9/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no readable queue numbers, no visible cash register screen, no identifiable faces.",
+  "id": "rush-hour-service-window",
+  "title": "Rush Hour Service Window",
+  "description": "A service-window image capturing quick exchange and dense local energy without showing full faces.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/single-support-studies/images/rush-hour-service-window/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Rush Hour Service Window",
+      "description": "A service-window image capturing quick exchange and dense local energy without showing full faces."
+    },
+    "zh-CN": {
+      "title": "高峰服务窗口",
+      "description": "高峰服务窗口：街头餐饮主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A service-window image capturing quick exchange and dense local energy without showing full faces.",
+      "zh-CN": "高峰服务窗口，用于街头餐饮主题。"
+    }
+  }
+}

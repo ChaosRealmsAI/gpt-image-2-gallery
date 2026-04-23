@@ -1,0 +1,46 @@
+{
+  "id": "sushi-sashimi-surgical-precision",
+  "slug": "sushi-sashimi-surgical-precision",
+  "title": "Sushi & Sashimi · Surgical Precision",
+  "short_title": "Sushi Surgical",
+  "description": "Sushi and sashimi presented at Tokyo three-star omakase level — each slice's grain, rice density, wasabi dome, and shiso leaf curl rendered with surgical precision on hinoki wood plating.",
+  "i18n": {
+    "en": {
+      "title": "Sushi & Sashimi · Surgical Precision",
+      "short_title": "Sushi Surgical",
+      "description": "Sushi and sashimi presented at Tokyo three-star omakase level — each slice's grain, rice density, wasabi dome, and shiso leaf curl rendered with surgical precision on hinoki wood plating."
+    },
+    "zh-CN": {
+      "title": "寿司刺身 · 外科级精度",
+      "short_title": "寿司精度",
+      "description": "东京三星 omakase 级寿司刺身 · 每片鱼纹、米饭密度、山葵圆顶、紫苏卷边 · 外科级精度 · 桧木盛台。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2080,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Omakase Counter Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Knife and Grain Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

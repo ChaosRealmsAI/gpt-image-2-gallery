@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square single-cover mockup against a soft studio backdrop with crisp print texture and clean shelf-lighting logic. The asset should feel like an ecommerce-ready course tile for a language club or reading program. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse friendly speech bubbles, books, listening icons, and conversation scenes inside a disciplined course-cover frame with blank title space. The cover should feel inviting, educational, and easy to classify within a larger catalog. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the structure highly intentional, with strong hierarchy and clear modularity. The goal is a believable product-shelf asset, not a generic poster. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nKids Course Cover and Module Family single study 1/5, language club cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course names, no logos, no fake ratings, no crowded marketplace clutter, no generic stock templates, no IP likeness.",
+  "id": "01-language-club-cover",
+  "title": "Language Club Cover",
+  "description": "An additional language-learning course cover designed as part of a broader kids curriculum shelf.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/single-support-studies/images/01-language-club-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 1 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Language Club Cover",
+      "description": "An additional language-learning course cover designed as part of a broader kids curriculum shelf."
+    },
+    "zh-CN": {
+      "title": "语言俱乐部封面",
+      "description": "作为更大课程货架一部分的语言学习模块封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "An additional language-learning course cover designed as part of a broader kids curriculum shelf.",
+      "zh-CN": "作为更大课程货架一部分的语言学习模块封面。"
+    }
+  }
+}

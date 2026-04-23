@@ -1,0 +1,40 @@
+{
+  "id": "doctor-profile-and-service-page-kit",
+  "slug": "doctor-profile-and-service-page-kit",
+  "title": "Doctor Profile and Service Page Kit",
+  "short_title": "Doctor Profile",
+  "description": "Build doctor-profile kits that combine portraits, expertise cues, and service-page clarity.",
+  "i18n": {
+    "en": {
+      "title": "Doctor Profile and Service Page Kit",
+      "short_title": "Doctor Profile",
+      "description": "Build doctor-profile kits that combine portraits, expertise cues, and service-page clarity."
+    },
+    "zh-CN": {
+      "title": "医生个人页与服务页套件",
+      "short_title": "医生个人页",
+      "description": "做医生个人页与服务页套件，结合肖像、专业线索和服务页清晰度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2010,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-doctor-profile-studies",
+      "type": "single",
+      "title": "Doctor Profile Studies",
+      "path": "packages/single-doctor-profile-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent image that remains in the same clean morning-lit environment, with the same pale palette, green accents, and polished organization from the reference image, but widen the composition to suggest a home-reset surface. The frame should still read as part of one campaign family while becoming more domestic and storage-oriented through subtle environmental cues.\n\nSubject:\nShow tidy storage vessels, folded textiles, a tray, plant or ceramic accents, and a few abstract planning or checklist cues with no readable language. Preserve exact visual identity from the reference image while changing the emphasis toward decluttering and home refresh. The scene should feel elevated, practical, and commercially applicable to home goods, organizational products, or wellness-adjacent brands.\n\nImportant details:\nContinuity matters more than novelty. Keep the same calm optimism, the same light temperature, the same spacing discipline, and the same refined material palette from the reference model. Make storage and reset feel aspirational through order and texture rather than through staged perfection or unrealistic emptiness. The final image should behave like a reusable New Year home-refresh hero asset.\n\nUse case:\nNew Year Renewal series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no moving-box chaos, no family photo frames, no logos, no maximalist décor, no dark moody lighting, no party debris.",
+  "id": "03-home-reset-variation",
+  "title": "Home Reset Variation",
+  "description": "A home-organization variation built from the same New Year campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/03-home-reset-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-fresh-desk-anchor",
+        "meta_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/meta.json",
+        "image_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent home-reset variation for the New Year system. Preserve the exact campaign language from 01-fresh-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Home Reset Variation",
+      "description": "A home-organization variation built from the same New Year campaign system."
+    },
+    "zh-CN": {
+      "title": "居家整理变体",
+      "description": "沿用同一新年 campaign 系统的居家整理变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A home reset campaign visual matching the same New Year renewal world.",
+      "zh-CN": "与同一新年焕新世界观一致的居家整理 campaign 图。"
+    }
+  }
+}

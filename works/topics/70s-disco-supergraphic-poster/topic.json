@@ -1,0 +1,52 @@
+{
+  "id": "70s-disco-supergraphic-poster",
+  "slug": "70s-disco-supergraphic-poster",
+  "category": "poster",
+  "style": [
+    "retro",
+    "poster"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "style-transfer",
+    "pattern"
+  ],
+  "title": "70s Disco Supergraphic Poster",
+  "short_title": "70s Disco Poster",
+  "description": "70s disco-era supergraphic posters — oversized single letters or numerals cropped to the frame edge, hot pink plus deep purple plus gold, rainbow speed stripes, and mirrorball nightlife energy.",
+  "i18n": {
+    "en": {
+      "title": "70s Disco Supergraphic Poster",
+      "short_title": "70s Disco Poster",
+      "description": "70s disco-era supergraphic posters — oversized single letters or numerals cropped to the frame edge, hot pink plus deep purple plus gold, rainbow speed stripes, and mirrorball nightlife energy."
+    },
+    "zh-CN": {
+      "title": "70 年代迪斯科超级图形海报",
+      "short_title": "迪斯科海报",
+      "description": "70 年代迪斯科超级图形海报 · 超大单字母或数字裁切到画面边缘 · 亮粉 + 深紫 + 金 · 彩虹速度条纹 · 镜面球夜店能量。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "style-transfer",
+      "pattern"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-disco-poster-studies",
+      "type": "single",
+      "title": "Disco Poster Studies",
+      "path": "packages/single-disco-poster-studies/package.json"
+    }
+  ]
+}

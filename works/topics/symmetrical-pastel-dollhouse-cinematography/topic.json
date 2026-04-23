@@ -1,0 +1,41 @@
+{
+  "id": "symmetrical-pastel-dollhouse-cinematography",
+  "slug": "symmetrical-pastel-dollhouse-cinematography",
+  "title": "Symmetrical Pastel Dollhouse Cinematography",
+  "short_title": "Pastel Symmetry",
+  "description": "Cinematic frame language with rigorous central symmetry, pastel palette, dollhouse miniature staging — characters facing camera head-on against color-coded sets.",
+  "i18n": {
+    "en": {
+      "title": "Symmetrical Pastel Dollhouse Cinematography",
+      "short_title": "Pastel Symmetry",
+      "description": "Cinematic frame language with rigorous central symmetry, pastel palette, dollhouse miniature staging — characters facing camera head-on against color-coded sets."
+    },
+    "zh-CN": {
+      "title": "对称粉彩玩偶屋影像",
+      "short_title": "对称粉彩",
+      "description": "严格中轴对称 + 粉彩色调 + 玩偶屋布景 · 角色正对镜头 · 每个场景有明确主题色。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 600,
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "style-transfer",
+      "miniature-world"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-symmetrical-pastel-dollhouse-cinematography",
+      "type": "single",
+      "title": "Pastel Symmetry Studies",
+      "path": "packages/single-symmetrical-pastel-dollhouse-cinematography/package.json"
+    }
+  ]
+}

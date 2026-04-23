@@ -1,0 +1,47 @@
+{
+  "id": "speculative-product-catalogue-family",
+  "slug": "speculative-product-catalogue-family",
+  "title": "Speculative Product Catalogue Family",
+  "short_title": "Spec Product Catalog",
+  "description": "Build speculative product-catalogue families for near-future consumer goods with believable marketing logic.",
+  "i18n": {
+    "en": {
+      "title": "Speculative Product Catalogue Family",
+      "short_title": "Spec Product Catalog",
+      "description": "Build speculative product-catalogue families for near-future consumer goods with believable marketing logic."
+    },
+    "zh-CN": {
+      "title": "未来产品目录家族",
+      "short_title": "未来产品目录",
+      "description": "做未来消费产品目录家族，强调近未来可信度和 marketing logic。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 110,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

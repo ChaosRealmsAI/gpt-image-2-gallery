@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Use a glossy red restroom antechamber with repeating stall doors, fluorescent strips, and pale floor tiles driving the eye into a central sink mirror.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A janitor cart is parked exactly in the middle of the room, turning an ordinary service space into a formal perspective exercise.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. Let the red surfaces feel lacquered and severe, with no text labels and no casual mess breaking the geometry.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-red-restroom-threshold",
+  "title": "Red Restroom Threshold",
+  "description": "A clinical red restroom interior rendered as a one-point composition with immaculate symmetry and tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/02-red-restroom-threshold/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on red restroom threshold.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Red Restroom Threshold",
+      "description": "A clinical red restroom interior rendered as a one-point composition with immaculate symmetry and tension."
+    },
+    "zh-CN": {
+      "title": "Red Restroom Threshold",
+      "description": "围绕单点透视的第2张独立研究图，聚焦 Red Restroom Threshold。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A red tiled interior with a janitor cart placed at the center of a one-point perspective room.",
+      "zh-CN": "单点透视主题图：Red Restroom Threshold。"
+    }
+  }
+}

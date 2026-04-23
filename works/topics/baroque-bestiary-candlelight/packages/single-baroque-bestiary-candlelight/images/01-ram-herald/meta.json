@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Stage the portrait against a near-black tapestry with two low candles and a table edge holding a wax seal dish.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. A ram-headed herald in brocade coat and tarnished chain rests one hand on a rolled parchment tube, looking toward the viewer with ceremonial patience.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. Let the horns carry subtle weathering and the velvet sleeves absorb light so the face remains the true focal point.\n\nUse case:\nBaroque Bestiary Candlelight single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-ram-herald",
+  "title": "Ram Herald",
+  "description": "A candlelit ram-headed court portrait rendered with solemn baroque richness and tactile fabric detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/01-ram-herald/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on ram herald.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ram Herald",
+      "description": "A candlelit ram-headed court portrait rendered with solemn baroque richness and tactile fabric detail."
+    },
+    "zh-CN": {
+      "title": "Ram Herald",
+      "description": "围绕巴洛克神兽的第1张独立研究图，聚焦 Ram Herald。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A horned herald in ornate clothing posed in warm candlelight against a dark background.",
+      "zh-CN": "巴洛克神兽主题图：Ram Herald。"
+    }
+  }
+}

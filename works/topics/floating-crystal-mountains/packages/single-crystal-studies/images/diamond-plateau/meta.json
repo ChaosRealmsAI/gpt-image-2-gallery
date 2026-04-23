@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at pre-dawn blue hour, drone-height aerial view looking down at a 45-degree angle, 24mm cinema lens, deep blue ambient with first warm light on the horizon.\n\nSubject:\nA perfectly flat plateau one kilometer across, made of a single diamond crystal, hovering 300 meters above a dark forested valley. The top surface has natural crystalline facets forming a shallow mosaic. Because it is real diamond, every facet captures the pre-dawn sky above and the dark forest below and performs total internal reflection, resulting in a dazzling scatter of pinpoint highlights and bounced sky fragments across its surface.\n\nImportant details:\nDiamond fire — strong spectral dispersion from the first warm horizon sun punches rainbow pinpoints across the upper surface. The underside of the plateau is completely clear, showing the forest directly beneath through the crystal. A fine mist of fog swirls around the edge, making the plateau read as both solid and ghostly. Four tiny helicopters in formation for scale at the far edge.\n\nUse case:\nCrystal-studies single 5/5 — the final and most extreme study: a floating plateau of pure diamond.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Ayn-Rand-style monolith towers, no buildings on top, no sci-fi force field lines, no painterly stylization.",
+  "id": "diamond-plateau",
+  "title": "Diamond Plateau",
+  "description": "A floating diamond plateau one kilometer wide, scattering pre-dawn dispersion fire.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/single-crystal-studies/images/diamond-plateau/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — floating diamond plateau study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Diamond Plateau",
+      "description": "A floating diamond plateau one kilometer wide, scattering pre-dawn dispersion fire."
+    },
+    "zh-CN": {
+      "title": "钻石高台",
+      "description": "悬浮于森林上方一公里宽的钻石高台 · 黎明散光如火。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A floating 1km diamond plateau hovering above forest with dispersion rainbows at dawn.",
+      "zh-CN": "悬浮于森林上方 1 公里钻石高台 · 黎明色散彩虹。"
+    }
+  }
+}

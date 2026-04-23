@@ -1,0 +1,72 @@
+{
+  "id": "series-performance-ad-system",
+  "type": "series",
+  "title": "Performance Ad System",
+  "description": "A four-image reference-dependent set that establishes one sports-equipment ad language across product hero, motion, materials, and athlete-pairing surfaces.",
+  "creative_direction": "Image 01 defines the hero product, performance palette, material realism, and advertising grammar. Images 02-04 depend on that anchor while proving the same system across motion, cutaway, and athlete-pairing use cases.",
+  "cover_image": "images/01-reference-product-hero/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-product-hero/meta.json",
+      "images/02-motion-surge-ad/meta.json",
+      "images/03-material-cutaway-board/meta.json",
+      "images/04-athlete-pairing-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-motion-surge-ad, 03-material-cutaway-board, 04-athlete-pairing-variant. Queue may run 02-motion-surge-ad, 03-material-cutaway-board, 04-athlete-pairing-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Performance Ad System",
+      "description": "A four-image reference-dependent set that establishes one sports-equipment ad language across product hero, motion, materials, and athlete-pairing surfaces."
+    },
+    "zh-CN": {
+      "title": "Performance Ad System",
+      "description": "A four-image reference-dependent set that establishes one sports-equipment ad language across product hero, motion, materials, and athlete-pairing surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "reasoning-composition",
+      "high-speed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-product-hero",
+      "title": "Reference Product Hero",
+      "image": "images/01-reference-product-hero/image.png",
+      "meta": "images/01-reference-product-hero/meta.json"
+    },
+    {
+      "id": "02-motion-surge-ad",
+      "title": "Motion Surge Ad",
+      "image": "images/02-motion-surge-ad/image.png",
+      "meta": "images/02-motion-surge-ad/meta.json"
+    },
+    {
+      "id": "03-material-cutaway-board",
+      "title": "Material Cutaway Board",
+      "image": "images/03-material-cutaway-board/image.png",
+      "meta": "images/03-material-cutaway-board/meta.json"
+    },
+    {
+      "id": "04-athlete-pairing-variant",
+      "title": "Athlete Pairing Variant",
+      "image": "images/04-athlete-pairing-variant/image.png",
+      "meta": "images/04-athlete-pairing-variant/meta.json"
+    }
+  ]
+}

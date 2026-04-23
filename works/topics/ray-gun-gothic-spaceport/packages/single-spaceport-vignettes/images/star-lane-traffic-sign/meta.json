@@ -1,0 +1,32 @@
+{
+  "prompt": "Scene:\nA square graphic editorial illustration of an imagined atomic-age star-lane traffic-direction sign standing beside an orbital highway ramp, camera front three-quarter view. Dusk sky in powder-pink-to-indigo gradient. Subtle halftone print grain.\n\nSubject:\nA tall ivory metal pole planted into a concrete base, topped with three stacked arrow-shaped direction panels. Each panel is a different cheerful atomic-age color: top panel cadmium red with a stylized rocket pictogram and a round enameled disc pointing toward a large planet; middle panel bright yellow with a starburst pictogram and an arrow pointing to a ringed planet; bottom panel turquoise with a satellite pictogram and an arrow toward a crescent moon. Each pictogram is a simple flat mid-century icon, not a realistic illustration. Small chrome collars join each panel to the pole. Behind the sign, stylized orbital roadway ribbons curve into the sky where silver finned rockets trail short exhaust arcs.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome, indigo sky. All pictograms are simple silhouette icons, no readable text, no words, no numerals. Edges crisp, slight screenprint feel, subtle paper grain.\n\nUse case:\nSpaceport Vignettes single study 4 of 5, standalone graphic-design-style illustration.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern highway signage, no LCD display, preserve exact 1:1 aspect ratio.",
+  "id": "star-lane-traffic-sign",
+  "title": "Star Lane Traffic Sign",
+  "description": "Mid-century graphic illustration of a stacked atomic-age star-lane direction sign with pictogram arrows.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {"path": "works/topics/ray-gun-gothic-spaceport/packages/single-spaceport-vignettes/images/star-lane-traffic-sign/image.png", "name": "image"},
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single."
+  },
+  "i18n": {
+    "en": {"title": "Star Lane Traffic Sign", "description": "Mid-century graphic illustration of a stacked atomic-age star-lane direction sign with pictogram arrows."},
+    "zh-CN": {"title": "星际车道路标", "description": "原子时代星际车道方向标志的复古图形插画, 三块箭头形指示板用象形图标。"}
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "structured-layout"],
+    "alt": {"en": "A stacked three-panel atomic-age traffic sign with rocket, starburst, and satellite pictograms against a dusk sky.", "zh-CN": "三块堆叠的原子时代交通指示标, 画着火箭、星爆和卫星象形图标, 衬着暮色天空。"}
+  }
+}

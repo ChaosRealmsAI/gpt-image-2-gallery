@@ -1,0 +1,72 @@
+{
+  "id": "series-progress-card-system",
+  "type": "series",
+  "title": "Progress Card System",
+  "description": "A four-image reference-dependent set that locks one fitness progress-share language across achievements, streaks, PBs, and community challenges.",
+  "creative_direction": "Image 01 establishes the share-card palette, celebratory geometry, and mobile-native progress language. Images 02-04 depend on that anchor while adapting the same system to streaks, personal-best moments, and community challenge cards.",
+  "cover_image": "images/01-reference-achievement-card/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-achievement-card/meta.json",
+      "images/02-streak-celebration-card/meta.json",
+      "images/03-personal-best-card/meta.json",
+      "images/04-community-challenge-card/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-streak-celebration-card, 03-personal-best-card, 04-community-challenge-card. Queue may run 02-streak-celebration-card, 03-personal-best-card, 04-community-challenge-card concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Progress Card System",
+      "description": "A four-image reference-dependent set that locks one fitness progress-share language across achievements, streaks, PBs, and community challenges."
+    },
+    "zh-CN": {
+      "title": "Progress Card System",
+      "description": "A four-image reference-dependent set that locks one fitness progress-share language across achievements, streaks, PBs, and community challenges."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "data-visualization",
+      "social-feed",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-achievement-card",
+      "title": "Reference Achievement Card",
+      "image": "images/01-reference-achievement-card/image.png",
+      "meta": "images/01-reference-achievement-card/meta.json"
+    },
+    {
+      "id": "02-streak-celebration-card",
+      "title": "Streak Celebration Card",
+      "image": "images/02-streak-celebration-card/image.png",
+      "meta": "images/02-streak-celebration-card/meta.json"
+    },
+    {
+      "id": "03-personal-best-card",
+      "title": "Personal Best Card",
+      "image": "images/03-personal-best-card/image.png",
+      "meta": "images/03-personal-best-card/meta.json"
+    },
+    {
+      "id": "04-community-challenge-card",
+      "title": "Community Challenge Card",
+      "image": "images/04-community-challenge-card/image.png",
+      "meta": "images/04-community-challenge-card/meta.json"
+    }
+  ]
+}

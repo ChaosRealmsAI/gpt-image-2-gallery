@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square large-format city spectacle where architecture bends, folds, loops, or stacks while remaining physically convincing enough to feel like a photographed event. Use broad daylight or clear night atmosphere, dense urban material detail, and a sense of immense scale achieved through believable streets, facades, traffic patterns, and tiny witnesses. Build an open civic plaza where subway entrances spiral into a visible loop of platforms and staircases above ground, like a transit knot turned inside out.\n\nSubject:\nThe subject is the city itself as a time-distorted machine, with roads, bridges, towers, or plazas curling into impossible but coherent formations. Human figures should remain small, secondary, and practical, acting only as scale markers for the urban transformation. Commuters with umbrellas and satchels remain tiny around the edges while the looped infrastructure dominates the center.\n\nImportant details:\nThe signature rule is to make the impossible read as engineered reality rather than fantasy painting. Preserve concrete, glass, asphalt, railings, shadows, and structural rhythm with enough discipline that the folded geometry feels like a captured phenomenon. Avoid cartoon simplification, magical particles, or decorative sci-fi ornament. Keep the railings, escalator housings, and stone paving plausible so the spectacle feels architectural rather than abstract.\n\nUse case:\nTime-Folded Urban Spectacle single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy castle shapes, no random levitating debris without structure, no superhero cues, no branded billboards, no unreadable poster text, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-subway-loop-plaza",
+  "title": "Subway Loop Plaza",
+  "description": "A public plaza transformed by a visible looping subway system that rises into view above the ground plane.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "frontier-creative-composition",
+    "reasoning-composition",
+    "time-split",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/time-folded-urban-spectacle/packages/single-time-folded-urban-spectacle/images/02-subway-loop-plaza/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent time-folded study focused on subway loop plaza.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Loop Plaza",
+      "description": "A public plaza transformed by a visible looping subway system that rises into view above the ground plane."
+    },
+    "zh-CN": {
+      "title": "Subway Loop Plaza",
+      "description": "围绕时空折叠的第2张独立研究图，聚焦 Subway Loop Plaza。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "frontier-creative-composition",
+      "reasoning-composition",
+      "time-split"
+    ],
+    "alt": {
+      "en": "A city plaza where subway stairs and platforms loop into a giant visible spiral over the square.",
+      "zh-CN": "时空折叠主题图：Subway Loop Plaza。"
+    }
+  }
+}

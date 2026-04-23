@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Maintain the same bench height, negative-space rhythm, and clean reflection structure from the anchor image, but let a glass cloche become the hero object. The light should stay cool and surgical, with the smoke visible as a delicate semi-transparent volume rather than a dense opaque cloud.\n\nSubject:\nShow a compact amber cocktail under a lifted glass dome, with one large faceted ice piece inside the drink and a measured twist of citrus poised on the rim. Nearby, place a steel smoking wand tip and a tiny dish of aromatic wood chips as secondary cues, both arranged with laboratory precision. The scene should feel part bar program, part controlled experiment.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Preserve exact bench geometry, camera height, and cold studio language from the reference model while shifting the hero vessel from spoon to cloche. The ice should show trapped bubbles and fine clarity, and the smoke needs believable gradation from dense core to transparent edge.\n\nUse case:\nMolecular gastronomy lab series study 3/9, extending the anchor system into smoke and glass mechanics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no rustic cocktail bar clutter, no readable labels on wood chips, no orange neon mood.",
+  "id": "03-smoke-dome-cocktail",
+  "title": "Smoke Dome Cocktail",
+  "description": "A smoked cocktail experiment preserving the same lab-bench control and transparent-material realism.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/03-smoke-dome-cocktail/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lab-spoon-anchor",
+        "meta_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/meta.json",
+        "image_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Smoke Dome Cocktail",
+      "description": "A smoked cocktail experiment preserving the same lab-bench control and transparent-material realism."
+    },
+    "zh-CN": {
+      "title": "Smoke Dome Cocktail",
+      "description": "A smoked cocktail experiment preserving the same lab-bench control and transparent-material realism."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A smoked amber cocktail under a glass dome on a pristine cool-toned laboratory bench.",
+      "zh-CN": "A smoked amber cocktail under a glass dome on a pristine cool-toned laboratory bench."
+    }
+  }
+}

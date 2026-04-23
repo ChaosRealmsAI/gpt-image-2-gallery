@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent gifting image within the same respectful evening campaign world, keeping the exact warm lantern light, blue shadow balance, gold accents, and premium calm from the reference image, but tighten the composition around a gift hamper or tray. The visual continuity should feel exact, as if the same brand world has simply focused on gifting for Eid or evening hospitality.\n\nSubject:\nCenter an elegant hamper or tray containing fragrance-like bottles, textiles, dates or sweets, serving pieces, and premium gift packaging arranged into a cohesive offering. Preserve exact hospitality mood, palette, and material language from the reference model while shifting toward gifting. The result should remain brand-neutral, respectful, and commercially plausible for upscale seasonal gifting.\n\nImportant details:\nMaintain the reference identity precisely. The gifting tier can rise, but the tone must stay calm and dignified. Make glass, metal, paper, fabric, and ambient light highly believable. Avoid logo dependence or luxury clichés that feel disconnected from hospitality. The scene should work for retail, hotel gifting, or premium seasonal commerce.\n\nUse case:\nRamadan/Eid series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no logo boxes, no alcohol bottles, no crowd, no fantasy palace, no gaudy gold overload, no stereotype props.",
+  "id": "03-perfume-hamper-variation",
+  "title": "Perfume Hamper Variation",
+  "description": "A gifting-led variation extending the same respectful Ramadan and Eid campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/03-perfume-hamper-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evening-table-anchor",
+        "meta_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/meta.json",
+        "image_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent perfume-hamper variation for the Ramadan and Eid system. Preserve the exact campaign language from 01-evening-table-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Perfume Hamper Variation",
+      "description": "A gifting-led variation extending the same respectful Ramadan and Eid campaign language."
+    },
+    "zh-CN": {
+      "title": "香礼套装变体",
+      "description": "延续同一尊重型节庆语言的香礼与礼赠套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A Ramadan and Eid gift hamper scene with premium fragrance silhouettes and evening hospitality warmth.",
+      "zh-CN": "带有高级香氛轮廓与夜间待客暖意的斋月与开斋节礼赠套装场景。"
+    }
+  }
+}

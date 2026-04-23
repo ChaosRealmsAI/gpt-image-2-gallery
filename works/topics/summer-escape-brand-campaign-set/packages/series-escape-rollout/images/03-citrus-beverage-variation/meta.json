@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent summer campaign image in the same resort-lit environment, preserving the exact sun, water reflections, pale mineral surfaces, and citrus-linen palette from the reference image, but tighten the composition around a premium cold beverage story. The image should still feel obviously part of the anchor world while becoming more appetite-driven and product-centered.\n\nSubject:\nShow chilled beverage vessels, citrus slices, condensation, tray or tabletop support, linen, and one or two travel or leisure accents integrated into a premium summer setting. Preserve exact campaign identity from the reference model while changing emphasis toward thirst, refreshment, and appetite. Keep the objects original, non-branded, and commercially persuasive.\n\nImportant details:\nCondensation, glass, ice, citrus texture, stone heat, and reflected water light must all feel convincing. Keep the composition clean and aspirational. This should function as a summer beverage campaign hero while still living inside the same broader escape system established by the reference image.\n\nUse case:\nSummer Escape series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no soda-brand cues, no party clutter, no cocktail-menu text, no crowd, no cheap beach-bar décor, no overly tropical fruit pile.",
+  "id": "03-citrus-beverage-variation",
+  "title": "Citrus Beverage Variation",
+  "description": "A beverage-led summer variation built from the same bright escape campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/03-citrus-beverage-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-resort-arrival-anchor",
+        "meta_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/meta.json",
+        "image_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beverage variation for the Summer Escape rollout. Preserve the exact campaign language from 01-resort-arrival-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Citrus Beverage Variation",
+      "description": "A beverage-led summer variation built from the same bright escape campaign language."
+    },
+    "zh-CN": {
+      "title": "柑橘饮品变体",
+      "description": "基于同一明亮逃离感 campaign 语言的夏季饮品变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A citrus beverage summer visual matching the same premium escape campaign world.",
+      "zh-CN": "与同一高端逃离感 campaign 世界一致的柑橘饮品夏季画面。"
+    }
+  }
+}

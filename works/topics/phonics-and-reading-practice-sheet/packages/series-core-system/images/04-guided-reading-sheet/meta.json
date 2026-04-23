@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square overhead page proof and classroom desktop environment, with restrained props and meticulous spacing that mirror the reference sheet. The visual should feel like a polished handout cover image for a reading-intervention toolkit, practical enough for print and attractive enough for catalog display. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFocus on short-sequence reading support using picture panels, empty sentence frames, direction arrows, listening icons, and response boxes for retelling order. The layout should encourage progression from image cue to spoken response to reading confidence, even though all textual areas stay intentionally blank. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMaintain the exact worksheet architecture from the reference page while changing only the pedagogical content. The shared header rhythm, module shapes, color coding, and answer-zone scale should make the four-page series feel ready for a real classroom literacy product line. Preserve the same worksheet margins, answer-box scale, icon cadence, divider rhythm, and blank title bars from the reference sheet. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nPhonics and Reading Practice Sheet series study 4/4, guided reading sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable letters, no real words, no teacher handwriting, no messy desk clutter, no adult branding, no distorted paper edges.",
+  "id": "04-guided-reading-sheet",
+  "title": "Guided Reading Sheet",
+  "description": "A guided-reading worksheet that completes the reference-dependent literacy sheet family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/04-guided-reading-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-sound-sheet",
+        "meta_path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/01-reference-sound-sheet/meta.json",
+        "image_path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/01-reference-sound-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-sound-sheet.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Guided Reading Sheet",
+      "description": "A guided-reading worksheet that completes the reference-dependent literacy sheet family."
+    },
+    "zh-CN": {
+      "title": "引导阅读练习页",
+      "description": "完成整组参考依赖阅读练习页家族的引导阅读变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A guided-reading worksheet that completes the reference-dependent literacy sheet family.",
+      "zh-CN": "完成整组参考依赖阅读练习页家族的引导阅读变体。"
+    }
+  }
+}

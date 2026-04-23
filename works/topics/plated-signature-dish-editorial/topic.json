@@ -1,0 +1,47 @@
+{
+  "id": "plated-signature-dish-editorial",
+  "slug": "plated-signature-dish-editorial",
+  "title": "Plated Signature Dish Editorial",
+  "short_title": "Signature Dishes",
+  "description": "Create plated-editorial systems for signature dishes with restaurant-grade styling and story-rich table context.",
+  "i18n": {
+    "en": {
+      "title": "Plated Signature Dish Editorial",
+      "short_title": "Signature Dishes",
+      "description": "Create plated-editorial systems for signature dishes with restaurant-grade styling and story-rich table context."
+    },
+    "zh-CN": {
+      "title": "招牌菜 plated editorial",
+      "short_title": "招牌菜",
+      "description": "做招牌菜 plated editorial，强调餐厅级摆盘和餐桌故事感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2400,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Signature Plate Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Restaurant Table Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

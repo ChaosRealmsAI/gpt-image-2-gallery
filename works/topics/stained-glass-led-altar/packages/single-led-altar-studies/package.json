@@ -1,0 +1,64 @@
+{
+  "id": "single-led-altar-studies",
+  "type": "single",
+  "title": "LED Altar Studies",
+  "description": "Five independent studies orbiting the LED-backed stained-glass altar theme, each focusing on one material or structural detail.",
+  "creative_direction": "Five standalone close-ups: a single glass cell with LED pixel backing, the copper circuit frame, a donor-panel data readout, a candelabrum as an LED forest, and a rear diagnostic view of the altar. No reference dependency.",
+  "cover_image": "images/glass-cell-pixel-closeup/image.png",
+  "i18n": {
+    "en": {
+      "title": "LED Altar Studies",
+      "description": "Five independent studies orbiting the LED-backed stained-glass altar theme, each focusing on one material or structural detail."
+    },
+    "zh-CN": {
+      "title": "LED 祭坛细部",
+      "description": "五张独立研究，各自聚焦 LED 背光祭坛的一个材料或结构细节。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "physics-materials",
+      "micro-texture"
+    ]
+  },
+  "images": [
+    {
+      "id": "glass-cell-pixel-closeup",
+      "title": "Glass Cell Pixel Closeup",
+      "image": "images/glass-cell-pixel-closeup/image.png",
+      "meta": "images/glass-cell-pixel-closeup/meta.json"
+    },
+    {
+      "id": "copper-circuit-frame",
+      "title": "Copper Circuit Frame",
+      "image": "images/copper-circuit-frame/image.png",
+      "meta": "images/copper-circuit-frame/meta.json"
+    },
+    {
+      "id": "donor-panel-data",
+      "title": "Donor Panel Data",
+      "image": "images/donor-panel-data/image.png",
+      "meta": "images/donor-panel-data/meta.json"
+    },
+    {
+      "id": "candelabrum-led-forest",
+      "title": "Candelabrum LED Forest",
+      "image": "images/candelabrum-led-forest/image.png",
+      "meta": "images/candelabrum-led-forest/meta.json"
+    },
+    {
+      "id": "altar-diagnostic-view",
+      "title": "Altar Diagnostic View",
+      "image": "images/altar-diagnostic-view/image.png",
+      "meta": "images/altar-diagnostic-view/meta.json"
+    }
+  ]
+}

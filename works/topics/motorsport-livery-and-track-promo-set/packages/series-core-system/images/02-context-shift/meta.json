@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square rain-soaked circuit at speed with backlit spray, darker contrast, wet curbing, and disciplined shutter feeling. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original closed-cockpit endurance race car with a low canopy, wide fenders, center-fin tail, exposed aero surfaces, and a geometric red-white-charcoal livery with no sponsor marks. Make the subject feel original, production-aware, and clearly grounded in Motorsport Livery and Track Promo Set. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the exact car identity clear while emphasizing tire contact, water dispersion, and the contrast between precision body graphics and unstable track conditions. Preserve exact car body shape, livery geometry, panel placement, wheel design, and lamp signature across the series. Motion must feel dangerous and precise, yet still readable as campaign imagery rather than chaotic race reportage. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMotorsport Promo series study 2/9 for Motorsport Livery and Track Promo Set, built as image 02-context-shift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sponsor logos, no readable numbers, no real team branding, no crash damage, no podium champagne, no crowd clutter.",
+  "id": "02-context-shift",
+  "title": "Rain Sprint",
+  "description": "The same race car under wet racing conditions with controlled spray and urgency.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "high-speed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/02-context-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/motorsport-livery-and-track-promo-set/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Sprint",
+      "description": "The same race car under wet racing conditions with controlled spray and urgency."
+    },
+    "zh-CN": {
+      "title": "雨战冲刺",
+      "description": "同一赛车在湿地赛况中的动势宣传图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "high-speed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The reference race car slicing through a wet track at speed.",
+      "zh-CN": "同一赛车在湿赛道高速冲刺的画面。"
+    }
+  }
+}

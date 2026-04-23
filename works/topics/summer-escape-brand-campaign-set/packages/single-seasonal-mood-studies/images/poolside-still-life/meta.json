@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square poolside still life under sharp summer sun with crisp shadows, reflected water caustics, pale stone, and controlled color pops from citrus or textiles. The frame should feel polished and aspirational rather than casual vacation photography. Keep the composition art-directed and commercially clean, with enough negative space and surface definition that the image can work across hospitality, beverage, fashion, or travel brand campaigns.\n\nSubject:\nShow a towel, beverage glass, fruit, accessory forms, and pool edge arranged into a coherent premium leisure scene. The subject should communicate heat relief, comfort, and escape through object relationships and light rather than through visible people. Focus on tactile materials and the subtle discipline of a high-end summer setup.\n\nImportant details:\nSurface realism is crucial. Stone heat, water shimmer, citrus texture, fabric weave, condensation, and shadow geometry should all feel convincing. Keep the palette bright but tasteful. The image should behave like a versatile campaign asset for summer escape messaging without slipping into generic influencer beach content.\n\nUse case:\nSummer Escape single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no inflatable toy cliché, no crowd, no messy sunscreen clutter, no cruise-ship vibe, no neon party colors, no text on towels.",
+  "id": "poolside-still-life",
+  "title": "Poolside Still Life",
+  "description": "A poolside summer study focused on texture, refreshment, and premium leisure styling.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/summer-escape-brand-campaign-set/packages/single-seasonal-mood-studies/images/poolside-still-life/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poolside study for Summer Escape campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Poolside Still Life",
+      "description": "A poolside summer study focused on texture, refreshment, and premium leisure styling."
+    },
+    "zh-CN": {
+      "title": "池畔静物",
+      "description": "聚焦材质、清凉感与高端休闲布置的池畔夏季研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A premium poolside still life with towel, drink, fruit, and sharp summer light.",
+      "zh-CN": "带有毛巾、饮品、水果与锐利夏日光线的高端池畔静物。"
+    }
+  }
+}

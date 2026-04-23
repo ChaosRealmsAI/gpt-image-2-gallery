@@ -1,0 +1,40 @@
+{
+  "id": "celestial-chart-renaissance",
+  "slug": "celestial-chart-renaissance",
+  "title": "Celestial Chart · Renaissance Revival",
+  "short_title": "Celestial Chart",
+  "description": "Full-page Renaissance-style celestial chart with constellations drawn as mythological figures, star positions astronomically correct, and corner compendia of astrolabe diagrams.",
+  "i18n": {
+    "en": {
+      "title": "Celestial Chart · Renaissance Revival",
+      "short_title": "Celestial Chart",
+      "description": "Full-page Renaissance-style celestial chart with constellations drawn as mythological figures, star positions astronomically correct, and corner compendia of astrolabe diagrams."
+    },
+    "zh-CN": {
+      "title": "文艺复兴天象图",
+      "short_title": "天象图",
+      "description": "文艺复兴风格整页天象图 · 星座以神话人物绘制 · 星位天文精确 · 四角附星盘图鉴。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4070,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "structured-layout",
+      "technical-diagram"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-celestial-chart-studies",
+      "type": "single",
+      "title": "Celestial Chart Studies",
+      "path": "packages/single-celestial-chart-studies/package.json"
+    }
+  ]
+}

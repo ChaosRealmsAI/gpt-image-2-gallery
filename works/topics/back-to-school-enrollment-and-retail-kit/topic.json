@@ -1,0 +1,52 @@
+{
+  "id": "back-to-school-enrollment-and-retail-kit",
+  "slug": "back-to-school-enrollment-and-retail-kit",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Back to School Enrollment and Retail Kit",
+  "short_title": "Back to School",
+  "description": "Build back-to-school kits for education and retail with stationery, schedule reset, and student energy.",
+  "i18n": {
+    "en": {
+      "title": "Back to School Enrollment and Retail Kit",
+      "short_title": "Back to School",
+      "description": "Build back-to-school kits for education and retail with stationery, schedule reset, and student energy."
+    },
+    "zh-CN": {
+      "title": "开学季招生与零售套件",
+      "short_title": "开学季",
+      "description": "做开学季招生与零售套件，强调文具、重启节奏和校园活力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 500,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-enrollment-retail-system",
+      "type": "series",
+      "title": "Enrollment and Retail Series",
+      "path": "packages/series-enrollment-retail-system/package.json"
+    },
+    {
+      "id": "single-campus-support-studies",
+      "type": "single",
+      "title": "Campus Support Studies",
+      "path": "packages/single-campus-support-studies/package.json"
+    }
+  ]
+}

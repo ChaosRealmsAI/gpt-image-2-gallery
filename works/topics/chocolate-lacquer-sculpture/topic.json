@@ -1,0 +1,46 @@
+{
+  "id": "chocolate-lacquer-sculpture",
+  "slug": "chocolate-lacquer-sculpture",
+  "title": "Chocolate Lacquer Sculpture",
+  "short_title": "Chocolate Lacquer",
+  "description": "Showpiece chocolate sculptures with glass-like tempered surfaces reflecting studio softboxes, gold leaf accents, and impossible balanced shapes — pastry competition grand-prix aesthetic.",
+  "i18n": {
+    "en": {
+      "title": "Chocolate Lacquer Sculpture",
+      "short_title": "Chocolate Lacquer",
+      "description": "Showpiece chocolate sculptures with glass-like tempered surfaces reflecting studio softboxes, gold leaf accents, and impossible balanced shapes — pastry competition grand-prix aesthetic."
+    },
+    "zh-CN": {
+      "title": "巧克力漆面雕塑",
+      "short_title": "巧克力雕塑",
+      "description": "甜点大赛级巧克力雕塑 · 调温到玻璃般镜面 · 倒映柔光箱 · 金箔点缀 · 不可能的平衡造型。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2090,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Competition Sculpture Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Tempering and Structure Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

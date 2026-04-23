@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at dusk with a 50mm full-frame camera, positioned on a ridge looking across an active volcanic caldera. Warm twilight with visible heat shimmer over the crater.\n\nSubject:\nInstead of lava flowing down the volcano's flanks, rivers of molten lava climb upward from the caldera rim, forming glowing vertical tendrils that rise 400 meters and slowly cool into dark igneous strands at the top. Steam rises alongside the lava in the normal direction, creating a strange upward-upward dual system.\n\nImportant details:\nPhysically believable lava appearance: orange-yellow hot interior, darker skin forming at the surface, small detachment drips behaving in the inverted direction (dripping upward). Strong thermal gradient in the air distorts the background mountains into wavering silhouettes. A vulcanologist in reflective suit stands at the rim as a 1.8-meter scale anchor. Sulfur-tinted sky fades from peach to deep indigo.\n\nUse case:\nLift-studies single 2/5 — reverse gravity applied to molten material in a volcanic context.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no branded safety suits, no helicopters, no dragons, no cartoon stylization, no CGI polygon edges on the lava.",
+  "id": "volcano-inverse",
+  "title": "Volcano Inverse",
+  "description": "Lava rivers climbing 400m upward from a caldera rim, cooling into dark strands at altitude.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/single-lift-studies/images/volcano-inverse/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — volcano reverse-lava study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Volcano Inverse",
+      "description": "Lava rivers climbing 400m upward from a caldera rim, cooling into dark strands at altitude."
+    },
+    "zh-CN": {
+      "title": "火山倒流",
+      "description": "熔岩河自火山口向上腾起 400 米 · 高空冷却成黑色矿索。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Lava rivers flowing upward from a volcano rim, cooling into dark strands mid-air.",
+      "zh-CN": "熔岩河从火山口向上流淌 · 空中冷却成黑矿索。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square urban poster-site mockup with one illuminated panel, wet pavement reflections, and a sharp night-event atmosphere. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original race-car artwork adapted into an event-promo poster surface placed in a believable public setting. Make the subject feel original, production-aware, and clearly grounded in Motorsport Livery and Track Promo Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPoster content must remain non-readable and logo-free while still feeling bold, kinetic, and useful for event communications planning. The visual language should still feel native to Motorsport Livery and Track Promo Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMotorsport Promo single study 7/9 for Motorsport Livery and Track Promo Set, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sponsor logos, no readable digits, no copyrighted circuit signage, no real team branding, no crowd chaos.",
+  "id": "support-three",
+  "title": "Track Poster Mockup",
+  "description": "A public poster mockup showing how motorsport energy translates into event graphics.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "high-speed",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/motorsport-livery-and-track-promo-set/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Track Poster Mockup",
+      "description": "A public poster mockup showing how motorsport energy translates into event graphics."
+    },
+    "zh-CN": {
+      "title": "赛道海报模拟",
+      "description": "展示赛车能量如何转化为公共活动海报面的模拟图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "high-speed",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A public poster mockup built around an original race-car promo image.",
+      "zh-CN": "围绕原创赛车宣传图的公共海报模拟图。"
+    }
+  }
+}

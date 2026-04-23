@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Create an ice-blue laboratory chamber with floor drains, cable trays, and illuminated wall niches all converging toward a central sealed hatch.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A scientist in a simple protective suit stands in front of the hatch with hands behind their back, reduced to a small silhouette by the architecture.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. Favor frozen color temperature, crisp edges, and a sense of monitored stillness rather than futuristic spectacle.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-ice-blue-lab",
+  "title": "Ice Blue Lab",
+  "description": "An ice-blue lab corridor built around a central hatch and tiny figure in exact perspective control.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/08-ice-blue-lab/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on ice blue lab.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ice Blue Lab",
+      "description": "An ice-blue lab corridor built around a central hatch and tiny figure in exact perspective control."
+    },
+    "zh-CN": {
+      "title": "Ice Blue Lab",
+      "description": "围绕单点透视的第8张独立研究图，聚焦 Ice Blue Lab。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A cold laboratory chamber with a small suited figure standing before a centered hatch.",
+      "zh-CN": "单点透视主题图：Ice Blue Lab。"
+    }
+  }
+}

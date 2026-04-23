@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square boutique display image with refined evening light, premium shelving or plinths, and a calm sense of generosity. The frame should feel like a campaign visual for upscale retail during Ramadan and Eid, not a mall snapshot. Use composed architecture, elegant packaging density, and a palette that supports warmth and respect without becoming flashy.\n\nSubject:\nShow a display of gift boxes, fragrance or care silhouettes, textile accents, serving pieces, and lantern-adjacent light arranged into a curated retail story. The subject should communicate thoughtful gifting and hospitality through presentation quality. Keep everything non-branded, original, and free of readable script or overt religious text.\n\nImportant details:\nDisplay logic matters: spacing, height variation, material contrast, and lighting should all feel intentional and premium. The image should work for retail, hotel boutique, or lifestyle-brand campaigns during the season. Preserve dignity and specificity through object choice and atmosphere rather than through cliché decoration. Keep the frame precise enough for gallery, research, and campaign reuse, with believable materials and a strong thumbnail read.\n\nUse case:\nRamadan/Eid single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable script, no logo packaging, no alcohol, no crowd, no glitter overload, no fantasy palace, no mascot décor, no generic luxury clutter.",
+  "id": "boutique-gift-display",
+  "title": "Boutique Gift Display",
+  "description": "A retail gifting study focused on respectful premium display for Ramadan and Eid season.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/single-respectful-context-studies/images/boutique-gift-display/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent boutique-gifting study for Ramadan and Eid campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Boutique Gift Display",
+      "description": "A retail gifting study focused on respectful premium display for Ramadan and Eid season."
+    },
+    "zh-CN": {
+      "title": "精品礼赠陈列",
+      "description": "聚焦斋月与开斋节时期尊重型高端礼赠陈列的零售研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A boutique Ramadan and Eid gift display with premium packaging and evening warmth.",
+      "zh-CN": "带有高端包装与夜间暖意的精品斋月与开斋节礼赠陈列。"
+    }
+  }
+}

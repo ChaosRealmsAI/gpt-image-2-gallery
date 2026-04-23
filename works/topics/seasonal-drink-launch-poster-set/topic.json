@@ -1,0 +1,47 @@
+{
+  "id": "seasonal-drink-launch-poster-set",
+  "slug": "seasonal-drink-launch-poster-set",
+  "title": "Seasonal Drink Launch Poster Set",
+  "short_title": "Seasonal Drinks",
+  "description": "Create seasonal beverage launch sets for limited drinks with color shifts, ingredients, and campaign timing.",
+  "i18n": {
+    "en": {
+      "title": "Seasonal Drink Launch Poster Set",
+      "short_title": "Seasonal Drinks",
+      "description": "Create seasonal beverage launch sets for limited drinks with color shifts, ingredients, and campaign timing."
+    },
+    "zh-CN": {
+      "title": "季节饮品发布海报组",
+      "short_title": "季节饮品",
+      "description": "做季节饮品发布海报组，强调颜色变化、原料线索和时令感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2470,
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Seasonal Poster Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Launch Asset Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

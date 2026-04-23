@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph shot at high noon on an overcast volcanic plain, 24mm medium-format camera, low-contrast flat grey sky. Black basalt ground strewn with loose scoria.\n\nSubject:\nA single obsidian spire, roughly 800 meters tall, rises from the plain and curves slightly like a black glass claw. The surface is mirror-polished volcanic glass reflecting the overcast sky; fresh chipped edges reveal deep charcoal interior. Near the tip, the spire tapers to a razor edge that catches a single pinprick of sun breaking through clouds.\n\nImportant details:\nHyper-realistic obsidian — specular highlight rolls along the curved surface; conchoidal fracture patches show rainbow oil-slick sheen. Tiny science-expedition drone in the sky for scale, one-to-one-hundred-thousandth the spire height. The overcast sky diffuses shadows almost completely, but the spire casts a long soft grey band across the basalt plain due to its sheer height. Ground texture: sharp volcanic glass shards and fine ash.\n\nUse case:\nCrystal-studies single 3/5 — impossible monolithic obsidian spire emphasizing scale and mirror-surface material.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dragons or creatures, no stylized illustration, no heavy color grading, no visible brand on the drone.",
+  "id": "obsidian-spire",
+  "title": "Obsidian Spire",
+  "description": "A curved obsidian glass spire rising from a volcanic plain under overcast light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/single-crystal-studies/images/obsidian-spire/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — obsidian spire on volcanic plain."
+  },
+  "i18n": {
+    "en": {
+      "title": "Obsidian Spire",
+      "description": "A curved obsidian glass spire rising from a volcanic plain under overcast light."
+    },
+    "zh-CN": {
+      "title": "黑曜尖塔",
+      "description": "火山平原上一根微弯曲的黑曜玻璃尖塔 · 阴天平光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "An 800m obsidian glass spire on a volcanic plain reflecting an overcast sky.",
+      "zh-CN": "火山平原上的 800 米黑曜石尖塔 · 镜面映阴天。"
+    }
+  }
+}

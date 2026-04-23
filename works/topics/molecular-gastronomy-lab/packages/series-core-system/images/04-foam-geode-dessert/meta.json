@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Use the same clean bench, cool reflections, and measured backlight from the reference image, with a shallow platform plate placed where the spoon previously established the composition. The white environment should remain pristine so the dessert can read as a designed scientific specimen rather than casual pastry.\n\nSubject:\nBuild a small plated dessert from a glossy gel cube, a pale aerated foam ridge, scattered sugar crystals, and a thin transparent tuile that feels almost engineered. Add one clear pipette containing a vivid reduction resting beside the plate, ready to dispense but not yet used. The dessert should feel fragile, technical, and highly controlled.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Preserve exact bench geometry, camera height, negative-space ratio, and color temperature from the reference model while shifting into a plated dessert vocabulary. Foam must hold microscopic bubbles, crystals should catch the backlight with sharp edges, and the transparent tuile should have believable thickness and optical distortion.\n\nUse case:\nMolecular gastronomy lab series study 4/9, concluding the anchor system with a foam-and-crystal dessert.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no bakery coziness, no rainbow candy palette, no dripping sauces everywhere.",
+  "id": "04-foam-geode-dessert",
+  "title": "Foam Geode Dessert",
+  "description": "A foam-and-crystal dessert variation that keeps the anchor lab system but increases textural complexity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/04-foam-geode-dessert/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lab-spoon-anchor",
+        "meta_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/meta.json",
+        "image_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Foam Geode Dessert",
+      "description": "A foam-and-crystal dessert variation that keeps the anchor lab system but increases textural complexity."
+    },
+    "zh-CN": {
+      "title": "Foam Geode Dessert",
+      "description": "A foam-and-crystal dessert variation that keeps the anchor lab system but increases textural complexity."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A technical dessert with foam, crystals, and a clear pipette staged on a pristine lab bench.",
+      "zh-CN": "A technical dessert with foam, crystals, and a clear pipette staged on a pristine lab bench."
+    }
+  }
+}

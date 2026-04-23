@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square near-future catalogue board that feels like a premium consumer-product launch sheet without using readable copy. The composition should combine one hero product or family grouping with secondary modules, packaging-like shapes, and abstract information zones arranged in a clean commercial hierarchy. Lighting should be photographic, precise, and product-friendly. Present several near-future air-care devices on a clean catalogue grid with one hero unit centered, smaller companions nearby, and abstract information blocks balancing the frame.\n\nSubject:\nCenter the image on a coherent consumer product family whose forms, finishes, interface surfaces, and accessory logic all belong together. The products can be speculative, but they must still feel market-positioned, manufacturable, and suited to a believable household or urban use case. Establish the reference family through matched finishes, vent geometry, touch surfaces, accessory docks, and calm household use cues.\n\nImportant details:\nThink like a product marketer and industrial designer at once. Material choices, scale relationships, accessory combinations, and staged use cues should imply a clear category, audience, and feature set even though no readable text appears. The image should be strong enough for catalog, launch-page, or retail poster use. The anchor image should define how product hierarchy, family resemblance, and catalog balance work for later series variants. Resolve the anchor rules that later reference-dependent variants must inherit, especially the industrial design language, material palette, module family proportions, and catalog layout hierarchy.\n\nUse case:\nSpec Product Catalog series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real-world brand marks, no readable product copy, no random luxury nonsense props, no inconsistent industrial design, no smartphone-app screenshots with readable text.",
+  "id": "01-catalogue-family-anchor",
+  "title": "Catalogue Family Anchor",
+  "description": "Catalogue Family Anchor presents a home-climate appliance family anchor board establishing the products industrial design and merchandising grammar.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Spec Product Catalog core system.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Catalogue Family Anchor",
+      "description": "Catalogue Family Anchor presents a home-climate appliance family anchor board establishing the products industrial design and merchandising grammar."
+    },
+    "zh-CN": {
+      "title": "Catalogue Family Anchor",
+      "description": "未来产品目录主题中的Catalogue Family Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Catalogue Family Anchor presents a home-climate appliance family anchor board establishing the products industrial design and merchandising grammar.",
+      "zh-CN": "未来产品目录主题中的Catalogue Family Anchor图像。"
+    }
+  }
+}

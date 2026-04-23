@@ -1,0 +1,46 @@
+{
+  "id": "children-storybook-scene-page-system",
+  "title": "Children Storybook Scene Page System",
+  "short_title": "Story Pages",
+  "description": "Build children storybook page systems with scene continuity, emotional warmth, and read-aloud friendliness.",
+  "i18n": {
+    "en": {
+      "title": "Children Storybook Scene Page System",
+      "short_title": "Story Pages",
+      "description": "Build children storybook page systems with scene continuity, emotional warmth, and read-aloud friendliness."
+    },
+    "zh-CN": {
+      "title": "儿童故事绘本场景页系统",
+      "short_title": "故事页",
+      "description": "做儿童故事绘本场景页系统，强调场景连续和亲子阅读温度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Story Scene Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Storybook Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement illustration, medium close-up on the cadmium-red built-in push-button wall oven from the reference kitchen. Camera slightly angled from the right side, eye-level, same warm studio lighting as the reference. Halftone print grain and slight CMYK offset match the reference.\n\nSubject:\nThe same red push-button wall oven established in the reference shot, now shown in detail: five amber glowing buttons labeled with tiny icons of sunbursts and clock faces, a chrome analog timer dial, a porthole window showing a golden-brown roast chicken on a turquoise platter inside, and a small chrome nameplate on the top edge. A woman's slender hand with red nail polish and a thin gold wedding band is just touching the third button. Edge of the ivory laminate counter and a sliver of boomerang-pattern wallpaper remain visible at frame edges to tie the shot to the kitchen.\n\nImportant details:\nPreserve the exact oven form, button layout, chrome trim, and red enamel shade from the reference image. The boomerang wallpaper pattern peeking at the edge must match in motif and color. Keep halftone grain and offset printing feel. The hand must be a stylized mid-century illustration hand, not photorealistic. The amber button glow is a warm incandescent orange, not LED blue.\n\nUse case:\nTurquoise Kitchen Set series shot 2 of 4, a detail moment that must live inside the same room established by the reference.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern LCD display, no touchscreen, no photoreal skin, no depth-of-field blur, no modern flat minimalist design, preserve exact 1:1 aspect ratio, preserve the reference oven and wallpaper.",
+  "id": "02-pushbutton-oven",
+  "title": "Push-Button Oven",
+  "description": "Close detail of the cadmium-red push-button wall oven from the reference kitchen, with a hand about to push a button.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/02-pushbutton-oven/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-kitchen-wide",
+        "meta_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/meta.json",
+        "image_path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on kitchen-wide. Use its runtime URL as --ref to carry appliance color, wallpaper pattern and palette into this close detail."
+  },
+  "i18n": {
+    "en": {
+      "title": "Push-Button Oven",
+      "description": "Close detail of the cadmium-red push-button wall oven from the reference kitchen, with a hand about to push a button."
+    },
+    "zh-CN": {
+      "title": "按钮式烤箱特写",
+      "description": "参考厨房里镉红色按钮式壁挂烤箱的特写, 一只手正要按下按钮。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A close view of a red push-button wall oven with amber glowing buttons and a roast chicken visible inside.",
+      "zh-CN": "红色按钮式壁挂烤箱特写, 琥珀色按钮发光, 内部能看到一只烤鸡。"
+    }
+  }
+}

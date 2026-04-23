@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Valentines image within the same romantic visual universe, keeping the identical candle-warm palette, satin surfaces, floral accents, and polished evening depth, but shift the staging toward a boutique beauty or spa-experience offer. Preserve the same cinematic softness from the anchor while making the arrangement cleaner and more object-centered, suitable for a premium service campaign or gifting package visual.\n\nSubject:\nFeature a refined arrangement of wrapped beauty items, folded towels or satin cloth, petals, candle vessels, and one premium gift box or tray that signals a shared romantic experience. Preserve the exact palette, material behavior, and floral-light grammar from the reference image while changing only the service category emphasis. The composition should feel intimate, elegant, and viable for a Valentines campaign aimed at beauty, wellness, or experiential gifting.\n\nImportant details:\nHold continuity tightly: same atmosphere, same luxurious restraint, same tactile standards, and same tasteful romance tone. Make cosmetics or treatment items read through silhouette and packaging form rather than through brand names or readable labels. The image should stay premium and sensual without crossing into lingerie cliché, nightclub excess, or generic pink-stock-photo territory. It should feel like one more precise surface in a unified romance system.\n\nUse case:\nValentines series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no lipstick marks, no human model, no lingerie styling, no giant heart props, no glitter explosion, no logo embossing.",
+  "id": "04-beauty-escape-variation",
+  "title": "Beauty Escape Variation",
+  "description": "A beauty-and-experience variation that keeps the same Valentines romance language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/04-beauty-escape-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rose-dinner-anchor",
+        "meta_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/meta.json",
+        "image_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beauty-experience variation for the Valentines rollout. Preserve the exact campaign language from 01-rose-dinner-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beauty Escape Variation",
+      "description": "A beauty-and-experience variation that keeps the same Valentines romance language."
+    },
+    "zh-CN": {
+      "title": "美妆体验变体",
+      "description": "保持同一情人节浪漫系统的美妆与体验向变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A beauty and experience themed Valentines visual derived from the same romance campaign system.",
+      "zh-CN": "源自同一浪漫 campaign 系统的美妆与体验主题情人节视觉。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "patagonian-spire-granite",
+  "slug": "patagonian-spire-granite",
+  "title": "Patagonian Spire Granite",
+  "short_title": "Patagonian Spire",
+  "description": "Fitz Roy-like granite spires piercing Patagonian storm clouds, dramatic light on rose-colored dawn rock, glacier lake reflecting the mountain, lone climber silhouette on approach.",
+  "i18n": {
+    "en": {
+      "title": "Patagonian Spire Granite",
+      "short_title": "Patagonian Spire",
+      "description": "Fitz Roy-like granite spires piercing Patagonian storm clouds, dramatic light on rose-colored dawn rock, glacier lake reflecting the mountain, lone climber silhouette on approach."
+    },
+    "zh-CN": {
+      "title": "巴塔哥尼亚花岗岩尖峰",
+      "short_title": "尖峰",
+      "description": "类菲茨罗伊花岗岩尖峰刺穿风暴云 · 拂晓玫瑰红岩石 · 冰川湖倒映 · 攀登者孤影接近。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1250,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Patagonian Spire Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

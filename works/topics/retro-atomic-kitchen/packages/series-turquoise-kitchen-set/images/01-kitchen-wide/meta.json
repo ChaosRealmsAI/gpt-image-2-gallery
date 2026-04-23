@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement illustration showing a wide-angle view of an imagined-future 1958 home kitchen, camera roughly eye-level, slightly low angle to include the rounded ceiling cove. The lighting is the warm soft studio lighting of an idealized mid-century print ad, with no harsh shadows. Paper has subtle halftone grain and very slight offset color misregistration along crisp edges.\n\nSubject:\nAn optimistic atomic-age suburban kitchen: a large teardrop-shaped refrigerator in polished turquoise enamel with a single chrome spaceship-style handle; a built-in cadmium-red push-button wall oven with five glowing amber buttons; ivory laminate counters edged in chrome; a boomerang-pattern wallpaper above the counter in muted mustard and powder pink; a round bright-yellow clock with thin brass hands on the wall; a single chrome-legged breakfast bar stool in pink vinyl; a glass bowl of plump red tomatoes on the counter. The room is empty of people but feels inhabited and cheerful.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome accents. All appliance forms must be bulbous and curved with no sharp modern corners. The wallpaper boomerang motif must repeat cleanly. Keep the vintage magazine-ad feel: halftone print grain, very slight CMYK offset on red outlines, matte paper texture over the whole image, no photographic depth-of-field blur. The room must feel like what 1958 imagined the year 2000 kitchen would look like, not like a real 1958 kitchen and not like a modern retro-styled kitchen.\n\nUse case:\nRoot reference image for the Turquoise Kitchen Set series. Later images in this series will depend on this room and reuse the same appliances, wallpaper, clock, and palette.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern stainless steel appliances, no LCD screens, no smartphones, no photorealistic skin, no depth-of-field blur, no sharp minimalist modern lines, preserve exact 1:1 aspect ratio.",
+  "id": "01-kitchen-wide",
+  "title": "Kitchen Wide Shot",
+  "description": "Reference shot establishing the turquoise atomic kitchen room, appliances, and palette for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "structured-layout", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/series-turquoise-kitchen-set/images/01-kitchen-wide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image establishing the turquoise atomic kitchen room for the fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Kitchen Wide Shot",
+      "description": "Reference shot establishing the turquoise atomic kitchen room, appliances, and palette for the series."
+    },
+    "zh-CN": {
+      "title": "厨房全景主镜头",
+      "description": "系列参考图, 建立松石色原子厨房的房间、家电和配色。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A wide magazine-ad view of an imagined 1958 future kitchen with a teardrop turquoise fridge and a red push-button oven.",
+      "zh-CN": "杂志广告风的 1958 年想象未来厨房全景, 有水滴形松石色冰箱和红色按钮烤箱。"
+    }
+  }
+}

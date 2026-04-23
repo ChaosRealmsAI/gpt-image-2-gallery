@@ -1,0 +1,74 @@
+{
+  "prompt": "Scene:\nCreate a square atlas plate for a speculative world, combining map readability, legend structure, and environmental storytelling in one disciplined layout. The image can use parchment, print, vellum, or technical drafting textures, but the map itself must remain crisp and intentionally organized. Use borders, inset frames, line weights, and abstract symbols as hierarchy tools rather than decoration. Present the familiar map language with stronger route emphasis, depot markers, hazard zones, and infrastructure chokepoints occupying the same plate structure.\n\nSubject:\nCenter the image on one coherent worldbuilding map system: coasts, terrain bands, faction territories, routes, hazard zones, inset diagrams, and legend compartments should all belong to the same cartographic language. The map should feel ready for a worldbook, poster, or campaign deck, not like a generic fantasy prop. Preserve geography and core symbols while shifting the narrative toward constrained movement, protected corridors, and strategic resource flow.\n\nImportant details:\nMaintain the authority of cartography without readable text. Symbol sets, route patterns, scale bars, seals, and legend blocks may appear as abstract information shapes. The image should reward close inspection through landform logic, political structure, and clear information hierarchy. The board should feel like a real planning artifact without readable language or military propaganda graphics. Preserve the exact structural language established by the reference image, especially the coastline shape language, legend placement, faction color hierarchy, and route symbol grammar.\n\nUse case:\nAtlas Set series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern satellite UI, no readable text, no generic fantasy parchment stains overwhelming the map, no compass-logo branding, no blood-red poster drama.",
+  "id": "04-war-era-supply-redraw",
+  "title": "War Era Supply Redraw",
+  "description": "War Era Supply Redraw presents the same atlas plate redrawn as a wartime logistics board with supply emphasis and strategic overlays.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/04-war-era-supply-redraw/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-atlas-plate-anchor",
+        "meta_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/01-atlas-plate-anchor/meta.json",
+        "image_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/01-atlas-plate-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Atlas Set core system variant preserving image 01.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/04-war-era-supply-redraw/image.png",
+      "checked_at": "2026-04-23T13:20:10.337Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "War Era Supply Redraw",
+      "description": "War Era Supply Redraw presents the same atlas plate redrawn as a wartime logistics board with supply emphasis and strategic overlays."
+    },
+    "zh-CN": {
+      "title": "War Era Supply Redraw",
+      "description": "世界观地图主题中的War Era Supply Redraw图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "War Era Supply Redraw presents the same atlas plate redrawn as a wartime logistics board with supply emphasis and strategic overlays.",
+      "zh-CN": "世界观地图主题中的War Era Supply Redraw图像。"
+    }
+  }
+}

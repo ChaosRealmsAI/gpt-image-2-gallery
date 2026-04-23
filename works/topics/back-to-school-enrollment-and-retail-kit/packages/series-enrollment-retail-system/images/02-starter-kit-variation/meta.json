@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the exact same bright academic world, preserving the same morning light, desk materials, and crisp organization from the reference image, but shift the composition toward a starter kit or younger-school bundle. The scene should still feel obviously part of the same system while becoming slightly more object-forward and retail-kit oriented.\n\nSubject:\nFeature a starter bundle with notebooks, pencils, lunch or storage forms, backpack elements, and abstract planning cues arranged into a clear school-readiness composition. Preserve exact palette, light direction, and organizational language from the reference model while changing the age and bundle emphasis. The result should remain premium, original, and useful for retail or school promotion.\n\nImportant details:\nPreserve exact campaign identity from the reference image. Readiness should come from grouping, cleanliness, and scale rather than readable labels. Make materials believable and tactile, from paper edges to zipper pulls and molded plastics. Avoid childish cartoon energy and keep the scene commercially sharp enough for modern education and retail rollout.\n\nUse case:\nBack to School series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no mascot graphics, no cluttered stickers, no school logo, no messy art-room chaos, no cartoon lunchbox characters, no chalkboard text.",
+  "id": "02-starter-kit-variation",
+  "title": "Starter Kit Variation",
+  "description": "An entry-level back-to-school kit variation preserving the same academic-retail system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/02-starter-kit-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-campus-desk-anchor",
+        "meta_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/meta.json",
+        "image_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent starter-kit variation for the back-to-school system. Preserve the exact campaign language from 01-campus-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Starter Kit Variation",
+      "description": "An entry-level back-to-school kit variation preserving the same academic-retail system."
+    },
+    "zh-CN": {
+      "title": "新生套装变体",
+      "description": "保持同一学业零售系统的新生开学套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A starter-kit back-to-school visual derived from the same enrollment and retail campaign system.",
+      "zh-CN": "沿用同一招生零售 campaign 系统的新生开学套装场景。"
+    }
+  }
+}

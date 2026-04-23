@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square menu-design mockup that combines printed surfaces, structured page hierarchy, and appetizing food photography into one coherent brand-authored system. The page layouts should feel intentional and premium, with strong margins, modular blocks, and realistic print or board materials even though all textual zones remain unreadable. Compose a square three-quarter restaurant-table shot where a menu object lies beside plate and glass elements under quiet evening light.\n\nSubject:\nThe menu should communicate category structure, hero dish placement, and brand tone through composition, image framing, typographic blocks, and page rhythm rather than through readable copy. Food imagery must stay believable and publication-ready. Let the menu remain primary while the restaurant setting proves scale, use, and hospitality context.\n\nImportant details:\nThis topic tests layout reasoning as much as food styling. Preserve clean grids, realistic paper behavior, credible shadows, and strong focal hierarchy between cover, spreads, dish photos, and placeholder text zones. Text-like marks can exist only as abstract or unreadable forms; clarity must come from design structure. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. The interaction between paper, ceramic, and glass needs to feel physically coherent, with clean edges and strong hierarchy between object and environment.\n\nUse case:\nMenu System single study 6/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake menu prices, no warped paper errors, no amateur flyer clutter, no chaotic collage, no obvious software UI chrome, no readable copy, no cluttered bill folder, no visible diner faces.",
+  "id": "tabletop-menu-mockup",
+  "title": "Tabletop Menu Mockup",
+  "description": "A tabletop menu scene showing how the menu coexists with cutlery, glasses, and plateware in service.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/menu-cover-and-spread-food-system/packages/single-support-studies/images/tabletop-menu-mockup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tabletop Menu Mockup",
+      "description": "A tabletop menu scene showing how the menu coexists with cutlery, glasses, and plateware in service."
+    },
+    "zh-CN": {
+      "title": "桌面菜单样机",
+      "description": "桌面菜单样机：菜单系统主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A tabletop menu scene showing how the menu coexists with cutlery, glasses, and plateware in service.",
+      "zh-CN": "桌面菜单样机，用于菜单系统主题。"
+    }
+  }
+}

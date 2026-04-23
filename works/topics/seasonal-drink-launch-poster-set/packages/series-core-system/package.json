@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Seasonal Poster Continuity",
+  "description": "Four reference-linked beverage posters establishing a coherent limited-time launch language.",
+  "creative_direction": "Image 01 establishes the poster-safe composition, ingredient halo, color-block system, and vessel styling. Images 02-04 preserve that launch framework while rotating seasonal flavor cues and mood.",
+  "cover_image": "images/01-launch-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-launch-anchor/meta.json",
+      "images/02-citrus-splash-poster/meta.json",
+      "images/03-spice-cream-poster/meta.json",
+      "images/04-iced-berry-dusk-poster/meta.json"
+    ],
+    "ref_strategy": "Run 01-launch-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Seasonal Poster Continuity",
+      "description": "Four reference-linked beverage posters establishing a coherent limited-time launch language."
+    },
+    "zh-CN": {
+      "title": "季节饮品海报连续主视觉",
+      "description": "四张参考联动的季节饮品海报，建立统一的限时上新语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-launch-anchor",
+      "title": "Launch Anchor",
+      "image": "images/01-launch-anchor/image.png",
+      "meta": "images/01-launch-anchor/meta.json"
+    },
+    {
+      "id": "02-citrus-splash-poster",
+      "title": "Citrus Splash Poster",
+      "image": "images/02-citrus-splash-poster/image.png",
+      "meta": "images/02-citrus-splash-poster/meta.json"
+    },
+    {
+      "id": "03-spice-cream-poster",
+      "title": "Spice Cream Poster",
+      "image": "images/03-spice-cream-poster/image.png",
+      "meta": "images/03-spice-cream-poster/meta.json"
+    },
+    {
+      "id": "04-iced-berry-dusk-poster",
+      "title": "Iced Berry Dusk Poster",
+      "image": "images/04-iced-berry-dusk-poster/image.png",
+      "meta": "images/04-iced-berry-dusk-poster/meta.json"
+    }
+  ]
+}

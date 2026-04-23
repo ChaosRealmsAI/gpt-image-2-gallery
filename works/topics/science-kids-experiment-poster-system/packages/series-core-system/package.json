@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Experiment Poster System",
+  "description": "Four reference-dependent images define a kids science-poster system across general setup, volcano chemistry, magnet exploration, and plant growth observation.",
+  "creative_direction": "Image 01 establishes the poster grid, pictogram style, safety icon logic, and blank instruction panels. Images 02-04 preserve the same educational poster architecture while shifting the experiment topic.",
+  "cover_image": "images/01-reference-experiment-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-experiment-poster/meta.json",
+      "images/02-volcano-reaction-board/meta.json",
+      "images/03-magnet-exploration-board/meta.json",
+      "images/04-seed-growth-board/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-experiment-poster first. Use its runtime result URL as --ref for 02-volcano-reaction-board, 03-magnet-exploration-board, 04-seed-growth-board. Queue may run those images concurrently after 01-reference-experiment-poster is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Experiment Poster System",
+      "description": "Four reference-dependent images define a kids science-poster system across general setup, volcano chemistry, magnet exploration, and plant growth observation."
+    },
+    "zh-CN": {
+      "title": "核心实验海报系统",
+      "description": "四张依赖参考图的画面建立统一儿童实验海报系统，覆盖通用版、火山实验、磁力探索和植物生长观察。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-experiment-poster",
+      "title": "Reference Experiment Poster",
+      "image": "images/01-reference-experiment-poster/image.png",
+      "meta": "images/01-reference-experiment-poster/meta.json"
+    },
+    {
+      "id": "02-volcano-reaction-board",
+      "title": "Volcano Reaction Board",
+      "image": "images/02-volcano-reaction-board/image.png",
+      "meta": "images/02-volcano-reaction-board/meta.json"
+    },
+    {
+      "id": "03-magnet-exploration-board",
+      "title": "Magnet Exploration Board",
+      "image": "images/03-magnet-exploration-board/image.png",
+      "meta": "images/03-magnet-exploration-board/meta.json"
+    },
+    {
+      "id": "04-seed-growth-board",
+      "title": "Seed Growth Board",
+      "image": "images/04-seed-growth-board/image.png",
+      "meta": "images/04-seed-growth-board/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Use a square crop of one enamel or painted sign board leaning near a street-food counter, lit with warm directional light that reveals scratches and age.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Pair the sign surface with a small hero food cue or wrapper so the board feels part of a living brand kit instead of a disconnected prop.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Texture is essential: chipped enamel, brushed paint, taped corners, and metal fasteners should all feel believable and useful for campaign storytelling.\n\nUse case:\nStreet Food Kit single study 5/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no readable slogans, no famous transit iconography, no souvenir-shop vibe.",
+  "id": "enamel-sign-board",
+  "title": "Enamel Sign Board",
+  "description": "A sign-led still life showing enamel board texture, food cue, and vernacular color system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/single-support-studies/images/enamel-sign-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Enamel Sign Board",
+      "description": "A sign-led still life showing enamel board texture, food cue, and vernacular color system."
+    },
+    "zh-CN": {
+      "title": "搪瓷招牌板",
+      "description": "搪瓷招牌板：街头餐饮主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A sign-led still life showing enamel board texture, food cue, and vernacular color system.",
+      "zh-CN": "搪瓷招牌板，用于街头餐饮主题。"
+    }
+  }
+}

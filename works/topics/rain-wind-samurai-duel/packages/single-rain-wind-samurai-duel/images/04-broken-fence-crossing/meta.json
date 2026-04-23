@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square outdoor battlefield image shaped by violent weather: slanting rain, flattened reeds, mud spray, charcoal clouds, and wind carving motion through fabric and grass. The palette should stay restrained in charcoal, wet brown, muted steel, and deep moss, with nature overpowering the people within it. Show a field cut by a broken fence line and puddled track, with heavy rain turning the soil black and reflective.\n\nSubject:\nThe subject is two lone armored duelists facing each other across open ground, bamboo edges, flooded fields, or broken terrain. Their poses should feel precise and ritualized, with tension coming from stance, distance, and weather rather than from explicit impact. The duelists stand on opposite sides of the broken fence opening, sharing one invisible line of movement through the gap.\n\nImportant details:\nThe core language is discipline against elemental force. Preserve historically inspired layered armor, soaked cloth, muddy terrain, reeds bent by wind, and the sense that rain itself is a character. Avoid fantasy powers, impossible weapons, or decorative heroic posing. Let the fence fragments and puddles deepen the composition without distracting from the poised bodies.\n\nUse case:\nRain Wind Samurai Duel Field single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable banners, no bright saturated armor, no fantasy monsters, no gore splatter, no stylized comic effects, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "04-broken-fence-crossing",
+  "title": "Broken Fence Crossing",
+  "description": "A broken fence opening becomes the exact line of tension between two duelists in a rain-soaked field.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "high-speed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-wind-samurai-duel/packages/single-rain-wind-samurai-duel/images/04-broken-fence-crossing/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rain wind duel study focused on broken fence crossing.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Broken Fence Crossing",
+      "description": "A broken fence opening becomes the exact line of tension between two duelists in a rain-soaked field."
+    },
+    "zh-CN": {
+      "title": "Broken Fence Crossing",
+      "description": "围绕雨风决斗的第4张独立研究图，聚焦 Broken Fence Crossing。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "A broken fence divides two armored duelists facing each other across rain-blackened mud.",
+      "zh-CN": "雨风决斗主题图：Broken Fence Crossing。"
+    }
+  }
+}

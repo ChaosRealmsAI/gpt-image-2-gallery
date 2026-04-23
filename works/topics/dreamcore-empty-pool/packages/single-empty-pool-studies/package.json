@@ -1,0 +1,31 @@
+{
+  "id": "single-empty-pool-studies",
+  "type": "single",
+  "title": "Empty Pool Studies",
+  "description": "Five independent empty-pool details that do not share a basin: each image isolates one liminal artifact (drained basin, deep-end ladder, coiled lane rope, vending alcove, return vent) to expand the vocabulary of the theme.",
+  "creative_direction": "Each image is a standalone study with its own pool environment and props. No shared geometry across images. All use the same 90s direct-flash tonal treatment, grainy consumer snapshot character, and explicit absence of swimmers.",
+  "cover_image": "images/drained-basin-wide/image.png",
+  "i18n": {
+    "en": {
+      "title": "Empty Pool Studies",
+      "description": "Five independent empty-pool details that do not share a basin: each image isolates one liminal artifact (drained basin, deep-end ladder, coiled lane rope, vending alcove, return vent) to expand the vocabulary of the theme."
+    },
+    "zh-CN": {
+      "title": "空泳池单图研究",
+      "description": "五张独立的空泳池细节:抽干池底、深水区扶梯、盘绕的泳道绳、自动贩卖机凹龛、回水通风口,各自独立一池。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "photorealism", "editorial-illustration"]
+  },
+  "images": [
+    { "id": "drained-basin-wide", "title": "Drained Basin · Wide Angle", "image": "images/drained-basin-wide/image.png", "meta": "images/drained-basin-wide/meta.json" },
+    { "id": "deep-end-ladder", "title": "Deep End Ladder", "image": "images/deep-end-ladder/image.png", "meta": "images/deep-end-ladder/meta.json" },
+    { "id": "lane-rope-coil", "title": "Lane Rope Coil on Deck", "image": "images/lane-rope-coil/image.png", "meta": "images/lane-rope-coil/meta.json" },
+    { "id": "vending-alcove", "title": "Vending Alcove at Pool End", "image": "images/vending-alcove/image.png", "meta": "images/vending-alcove/meta.json" },
+    { "id": "return-vent-close", "title": "Return Vent Close-Up", "image": "images/return-vent-close/image.png", "meta": "images/return-vent-close/meta.json" }
+  ]
+}

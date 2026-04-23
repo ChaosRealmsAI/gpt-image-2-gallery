@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same low horizon, same mirror ocean and camera position as the reference. The sky is now deep teal-blue with a powerful emerald aurora forming a vertical curtain directly behind the peak, filling the upper two thirds of the frame.\n\nSubject:\nThe identical floating amethyst crystal mountain from the reference, preserving silhouette and fractures. Because the aurora source is now nearly behind the peak, the crystal acts as a gigantic lens: a focused emerald beam emerges from the front face and lands as a luminous elliptical pool on the mirror ocean directly beneath the center of the mountain.\n\nImportant details:\nAccurate lensing behavior — the emerald beam narrows as it exits the crystal and widens again as it approaches the water. Internal caustics on the facets glow chartreuse and deep teal. The scale anchor helicopters (same positions) are now silhouetted against the green aurora and read as tiny black specks. Water ripple-free; reflection near-perfect.\n\nUse case:\nThird image in the aurora refraction cycle. Shows the same reference peak behaving as a lens under back-lit emerald aurora.\n\nConstraints:\nPRESERVE the reference image peak silhouette, camera angle, horizon, and helicopter positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon treatment, no extra floating debris, no second light source, no stars (aurora dominates).",
+  "id": "03-emerald-lake",
+  "title": "Emerald Lake",
+  "description": "The reference peak lensing a back-lit emerald aurora into a focused pool on the ocean.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-peak"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/03-emerald-lake/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-peak",
+        "meta_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/meta.json",
+        "image_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Emerald Lake",
+      "description": "The reference peak lensing a back-lit emerald aurora into a focused pool on the ocean."
+    },
+    "zh-CN": {
+      "title": "翠绿光湖",
+      "description": "基准山峰把身后翠绿极光折射聚焦成水面光湖的一张。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same amethyst peak lensing emerald aurora into a concentrated pool on the ocean.",
+      "zh-CN": "同一紫水晶山峰 · 将翠绿极光聚焦成水面光湖。"
+    }
+  }
+}

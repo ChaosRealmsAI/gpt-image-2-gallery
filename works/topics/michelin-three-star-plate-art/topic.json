@@ -1,0 +1,46 @@
+{
+  "id": "michelin-three-star-plate-art",
+  "slug": "michelin-three-star-plate-art",
+  "title": "Michelin Three-Star Plate Art",
+  "short_title": "Michelin Plate Art",
+  "description": "Minimalist black-plate compositions at three-star fine-dining precision, each plate designed as sculptural art with negative space, tweezer-level garnish, and signature sauce calligraphy.",
+  "i18n": {
+    "en": {
+      "title": "Michelin Three-Star Plate Art",
+      "short_title": "Michelin Plate Art",
+      "description": "Minimalist black-plate compositions at three-star fine-dining precision, each plate designed as sculptural art with negative space, tweezer-level garnish, and signature sauce calligraphy."
+    },
+    "zh-CN": {
+      "title": "米其林三星盘艺",
+      "short_title": "米其林盘艺",
+      "description": "黑盘极简构图 · 三星级精度 · 每盘一件雕塑艺术 · 留白考究 · 镊子级装饰 · 招牌酱汁书法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2000,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Plate Continuity Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Kitchen Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

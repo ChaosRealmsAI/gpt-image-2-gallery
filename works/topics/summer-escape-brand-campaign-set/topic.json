@@ -1,0 +1,52 @@
+{
+  "id": "summer-escape-brand-campaign-set",
+  "slug": "summer-escape-brand-campaign-set",
+  "capability": [
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "title": "Summer Escape Brand Campaign Set",
+  "short_title": "Summer Escape",
+  "description": "Create summer-escape campaign sets with leisure energy, travel cues, and bright seasonal appetite.",
+  "i18n": {
+    "en": {
+      "title": "Summer Escape Brand Campaign Set",
+      "short_title": "Summer Escape",
+      "description": "Create summer-escape campaign sets with leisure energy, travel cues, and bright seasonal appetite."
+    },
+    "zh-CN": {
+      "title": "夏季逃离感品牌 campaign",
+      "short_title": "夏季campaign",
+      "description": "做夏季逃离感品牌 campaign，强调 leisure energy 和轻度假。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 490,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-escape-rollout",
+      "type": "series",
+      "title": "Escape Rollout Series",
+      "path": "packages/series-escape-rollout/package.json"
+    },
+    {
+      "id": "single-seasonal-mood-studies",
+      "type": "single",
+      "title": "Seasonal Mood Studies",
+      "path": "packages/single-seasonal-mood-studies/package.json"
+    }
+  ]
+}

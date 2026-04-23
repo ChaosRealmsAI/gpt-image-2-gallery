@@ -1,0 +1,46 @@
+{
+  "id": "cross-section-pastry-atlas",
+  "slug": "cross-section-pastry-atlas",
+  "title": "Cross-Section Pastry Atlas",
+  "short_title": "Pastry Atlas",
+  "description": "Ten classic pastries sliced cleanly in half photographed against seamless background to expose perfect internal structure — layers, cream piping, fruit cavities, caramel crystals.",
+  "i18n": {
+    "en": {
+      "title": "Cross-Section Pastry Atlas",
+      "short_title": "Pastry Atlas",
+      "description": "Ten classic pastries sliced cleanly in half photographed against seamless background to expose perfect internal structure — layers, cream piping, fruit cavities, caramel crystals."
+    },
+    "zh-CN": {
+      "title": "点心横截面图鉴",
+      "short_title": "点心图鉴",
+      "description": "十款经典点心切半横截面 · 无缝背景棚拍 · 暴露层次、奶油挤花、水果空腔、焦糖结晶。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2020,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Atlas Board Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Pastry Specimen Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

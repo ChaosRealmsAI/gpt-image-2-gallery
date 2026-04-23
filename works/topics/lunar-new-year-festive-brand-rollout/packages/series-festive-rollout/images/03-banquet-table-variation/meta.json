@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent image within the same festive campaign world, with the identical lacquer-red warmth, gold highlights, and fresh floral energy from the reference image, but widen the frame into a premium dining table composition. The scene should still look like a rollout asset rather than a candid dinner photograph, with strong hierarchy, polished serving surfaces, and enough atmosphere to support hospitality promotion and event-season storytelling.\n\nSubject:\nShow an elegant New Year dining setup with plated food cues, serving pieces, gift elements, citrus, and floral accents integrated into one celebratory table. Preserve exact color balance, lighting, and premium material language from the reference model while changing the category focus toward hospitality and feasting. Keep the setting original, brand-neutral, and free of readable menus or decorative copy.\n\nImportant details:\nMaintain the same campaign identity precisely. Let abundance come through depth, serving rhythm, and glowing materials, not through crowding or spectacle. The table should feel hospitable, aspirational, and useful for hotels, restaurants, and brand-event communication under one unified New Year rollout system.\n\nUse case:\nLNY Rollout series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable menus, no family portrait pose, no fireworks, no mascot costume, no logo plates, no overcrowded banquet, no red-envelope text.",
+  "id": "03-banquet-table-variation",
+  "title": "Banquet Table Variation",
+  "description": "A dining-led Lunar New Year variation built from the same festive rollout language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/03-banquet-table-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-festive-tray-anchor",
+        "meta_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/meta.json",
+        "image_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent banquet-table variation for the Lunar New Year rollout. Preserve the exact campaign language from 01-festive-tray-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Banquet Table Variation",
+      "description": "A dining-led Lunar New Year variation built from the same festive rollout language."
+    },
+    "zh-CN": {
+      "title": "宴席餐桌变体",
+      "description": "基于同一节庆套发语言的农历新年餐饮宴席变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A dining-forward Lunar New Year campaign visual that matches the same festive brand system.",
+      "zh-CN": "与同一节庆品牌系统一致的农历新年餐饮主视觉。"
+    }
+  }
+}

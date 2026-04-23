@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Center a low heavy glass on a dark matte pedestal with generous negative space around it, using cool neutral studio light and a faint warm edge highlight to model the liquid. Thin annotation leaders and blank callout tabs should orbit the glass with clean spacing, like a high-end editorial layout.\n\nSubject:\nShow an amber stirred cocktail with one large clear ice cube, a restrained citrus twist, and a lifted smoke dome or lingering smoke veil. The glass should feel expensive and weighty, with clear optical distortion through the liquid and ice. The anatomy-callout system must point toward liquid layer, ice core, garnish twist, and smoke volume without using any readable words.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. This first image establishes the editorial anatomy grammar for the series, so callout spacing, leader-line weight, glass scale, and lighting family must feel precise and repeatable. Smoke should remain semi-transparent, the ice should show subtle internal bubbles, and the callouts must stay elegant rather than technical or crowded.\n\nUse case:\nCocktail anatomy editorial series study 1/9, defining the anchor layout for diagrammed bar photography.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no bottle in frame, no readable magazine masthead, no heavy infographic clutter.",
+  "id": "01-editorial-old-fashioned-anchor",
+  "title": "Editorial Old Fashioned Anchor",
+  "description": "A smoked old-fashioned style hero glass with blank anatomy callouts establishing the editorial system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Editorial Old Fashioned Anchor",
+      "description": "A smoked old-fashioned style hero glass with blank anatomy callouts establishing the editorial system."
+    },
+    "zh-CN": {
+      "title": "Editorial Old Fashioned Anchor",
+      "description": "A smoked old-fashioned style hero glass with blank anatomy callouts establishing the editorial system."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A smoked amber cocktail with a large clear ice cube and abstract blank anatomy callouts around the glass.",
+      "zh-CN": "A smoked amber cocktail with a large clear ice cube and abstract blank anatomy callouts around the glass."
+    }
+  }
+}

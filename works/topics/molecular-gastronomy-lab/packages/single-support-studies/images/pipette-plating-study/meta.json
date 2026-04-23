@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Use a square three-quarter studio setup on a white bench with one shallow plate, cool directional light, and room for the tool to become a strong diagonal element. The atmosphere should feel sterile and premium rather than instructional.\n\nSubject:\nPlace a minimalist plated dessert or savory bite on a small white dish, with a clear pipette hovering or resting beside it containing a deep jewel-toned reduction. Small gel cubes, one crisp tuile shard, and a faint vapor trace should complete the composition. The pipette should feel like an exact finishing instrument, not a gimmick.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Make the liquid inside the pipette optically believable with meniscus, refraction, and slight tint variation. The supporting plate elements must remain disciplined so the viewer reads the relationship between tool, ingredient, and final plated precision.\n\nUse case:\nMolecular gastronomy lab single study 8/9, examining pipette-assisted plating as a hero device.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no readable markings on the pipette, no educational poster layout, no messy drips.",
+  "id": "pipette-plating-study",
+  "title": "Pipette Plating Study",
+  "description": "A composed plating scene where a pipette becomes the precise delivery tool for a vivid reduction.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/single-support-studies/images/pipette-plating-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pipette Plating Study",
+      "description": "A composed plating scene where a pipette becomes the precise delivery tool for a vivid reduction."
+    },
+    "zh-CN": {
+      "title": "Pipette Plating Study",
+      "description": "A composed plating scene where a pipette becomes the precise delivery tool for a vivid reduction."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A precise plating setup with a clear pipette delivering a jewel-toned reduction beside a minimal dish.",
+      "zh-CN": "A precise plating setup with a clear pipette delivering a jewel-toned reduction beside a minimal dish."
+    }
+  }
+}

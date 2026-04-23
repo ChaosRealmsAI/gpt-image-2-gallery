@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Retain the same kitchen-to-dining-room material palette, but open the crop to include a larger serving vessel and a modest table context.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Present the packaged product alongside a finished family-style serving, showing how the item scales from pantry object to shared meal centerpiece.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-pantry-anchor. Continuity with the anchor image matters: package scale, home realism, and serving credibility should stay locked while the meal becomes more communal.\n\nUse case:\nFood Package Scenes series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no banquet excess, no visible brand text, no party decorations.",
+  "id": "04-family-style-finish",
+  "title": "Family Style Finish",
+  "description": "A family-style serving variation preserving the reference home system while broadening into a shared meal moment.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/04-family-style-finish/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pantry-anchor",
+        "meta_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/meta.json",
+        "image_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-pantry-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Style Finish",
+      "description": "A family-style serving variation preserving the reference home system while broadening into a shared meal moment."
+    },
+    "zh-CN": {
+      "title": "家庭分享完成图",
+      "description": "家庭分享完成图：食品包装场景主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A family-style serving variation preserving the reference home system while broadening into a shared meal moment.",
+      "zh-CN": "家庭分享完成图，用于食品包装场景主题。"
+    }
+  }
+}

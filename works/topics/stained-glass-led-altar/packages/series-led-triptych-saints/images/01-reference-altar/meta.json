@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA straight-on studio catalog photograph of a medieval-scale triptych altarpiece, centered in the frame, softly lit from above as if in a museum case. Dark velvet backdrop, crisp edges, no depth distortion.\n\nSubject:\nA three-panel altarpiece with gothic pointed-arch tops. The central panel is taller; the two side panels are hinged open. Each panel's surface is a grid of small colored glass cells separated by dark lead bead lines, each cell clearly backed by a glowing LED pixel. The glass cells form a pictorial field of clustered geometric saints rendered in a bead-style mosaic; the central panel shows a symmetric haloed figure in robe, the two side panels show donor-like attendants. A copper-circuit moulding runs around every panel edge, with tiny soldered nodes.\n\nImportant details:\nEach glass cell must feel thick and slightly uneven, with a visible bead line between cells. The LED backing behind each cell must be a clean, discrete pixel — you should read both the glass thickness and the pixel through it. Copper circuit moulding must look real: oxidised patina, hand-laid traces, small solder dots. Color palette: deep indigo cell fields, gold and ruby accents, warm copper frame, cool white LED backing. Keep the three panels identically proportioned.\n\nUse case:\nReference image for a fanout series. Later images must preserve the exact triptych frame, glass-cell grid density, copper moulding pattern and panel symmetry.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gospel verses printed, no brand corporate saints, no modern HDMI ports visible, no church donor name plaques, no people in front of the altar.",
+  "id": "01-reference-altar",
+  "title": "Reference Altar",
+  "description": "Master reference establishing the LED-backed triptych altarpiece with colored-glass cells, copper circuit moulding and a symmetric central saint.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "structured-layout",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference for the LED triptych altar fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Altar",
+      "description": "Master reference establishing the LED-backed triptych altarpiece with colored-glass cells, copper circuit moulding and a symmetric central saint."
+    },
+    "zh-CN": {
+      "title": "基准祭坛",
+      "description": "确立 LED 背光三联祭坛框架、彩色玻璃格点与铜电路花边的主参考图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A gothic triptych altarpiece with LED-backed colored glass cells and copper circuit moulding around each panel.",
+      "zh-CN": "带 LED 背光彩色玻璃格点的哥特三联祭坛，每块面板包铜电路花边。"
+    }
+  }
+}

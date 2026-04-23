@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Compose a square still life on a counter with the package partly opened and a controlled spill or arranged reveal of key ingredients.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Keep the package visible while ingredients or product pieces form a small, carefully art-directed spread beside it.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. The result should feel premium and informative without becoming an exploded technical diagram. Material realism, shadows, and packaging folds should carry the story.\n\nUse case:\nFood Package Scenes single study 7/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no messy dump, no readable ingredient list, no sterile lab vibe.",
+  "id": "ingredient-spill-study",
+  "title": "Ingredient Spill Study",
+  "description": "A close product-lifestyle still life emphasizing the ingredients implied by the packaged food.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/single-support-studies/images/ingredient-spill-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Ingredient Spill Study",
+      "description": "A close product-lifestyle still life emphasizing the ingredients implied by the packaged food."
+    },
+    "zh-CN": {
+      "title": "原料散落研究",
+      "description": "原料散落研究：食品包装场景主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A close product-lifestyle still life emphasizing the ingredients implied by the packaged food.",
+      "zh-CN": "原料散落研究，用于食品包装场景主题。"
+    }
+  }
+}

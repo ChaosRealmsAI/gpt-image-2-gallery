@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square pastry documentation image on a seamless pale gray or warm ivory studio background with soft catalog lighting and almost no cast-shadow drama. The camera should feel orthographic or gently frontal so cross-sections remain easy to compare. Everything must read like a pastry atlas: clean, measured, and highly legible, with crumbs controlled and edges crisp. Arrange the scene as a square 2x2 board on a seamless pale background, with enough breathing room around each pastry half that the viewer can read structure immediately. The light should be clean and even, revealing layers and fillings without turning the pastries flat or overexposed.\n\nSubject:\nShow four pastry halves aligned on the same plane: one croissant section, one eclair section, one fruit tartlet section, and one opera slice section. Each specimen should be cut cleanly in half and placed with the cut face turned directly toward the camera. The four pieces must feel diverse yet unified by the same photographic discipline and scale logic.\n\nImportant details:\nTreat every cut face as the hero: laminated layers, cream density, air pockets, fruit cavities, glaze thickness, and crumb structure all need to be countable and believable. The studio language should stay consistent and understated so structural detail does the work. No element should feel collapsed, smeared, or over-stylized. This image establishes the atlas board system for the series, so spacing, background tone, cut-face angle, and shadow softness must be stable enough for later variations to inherit. Countable layers, precise cream volumes, and controlled crumb falloff are more important than decorative garnish.\n\nUse case:\nPastry cross-section atlas series study 1/9, defining the reference board for later specimen families.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bakery counter background, no casual napkins, no readable labels, no powdered sugar mess, no rustic knife marks, no serving plates, no forks, no handwritten bakery notes.",
+  "id": "01-atlas-board-anchor",
+  "title": "Atlas Board Anchor",
+  "description": "A neutral four-specimen pastry board that establishes the atlas framing and cut-face discipline.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "structured-layout",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cross-section-pastry-atlas/packages/series-core-system/images/01-atlas-board-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Atlas Board Anchor",
+      "description": "A neutral four-specimen pastry board that establishes the atlas framing and cut-face discipline."
+    },
+    "zh-CN": {
+      "title": "Atlas Board Anchor",
+      "description": "A neutral four-specimen pastry board that establishes the atlas framing and cut-face discipline."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A four-piece pastry atlas board showing clean cross-sections of laminated dough, choux, tart, and opera cake.",
+      "zh-CN": "A four-piece pastry atlas board showing clean cross-sections of laminated dough, choux, tart, and opera cake."
+    }
+  }
+}

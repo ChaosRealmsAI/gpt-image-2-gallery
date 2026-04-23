@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square image that feels like a rare manuscript folio, archive plate, or sacred study sheet viewed head on under conservation lighting. The surface should show believable vellum, paper, pigment, or metal behavior, while the central fractal structure remains sharp enough to suggest true recursive depth rather than ornamental swirling. Render it like a scholarly close study on vellum with deep blacks, dried crimson washes, and careful spotlighting. Keep the square crop exact, the camera flat, and the tonal design disciplined enough that structure stays clear at poster scale and under close inspection.\n\nSubject:\nUse a Mandelbrot-like fractal form as the main visual intelligence of the piece, preserving nested bulb logic, recursive echo, and progressive detail bands. Surround it with borders, illumination, heraldic framing, or scholarly layout devices only when they support the sense that the fractal is being reverently studied as a sacred visual phenomenon. Focus this variation on a close-study page emphasizing black-red ink transitions and the recursive bloom of the central set. The composition should feel complete and singular, as though one finished artifact has been resolved with full conviction rather than one fragment pulled from a larger sheet.\n\nImportant details:\nRecursive structure must stay convincing at multiple scales. The image can feel historical, but it should not become naive fantasy illustration. Use gold accents, cochineal reds, lapis blues, smoke shadows, and parchment wear with restraint so the mathematical body of the fractal remains the hero of the composition. The zoomed region should still retain recognizable self-similar logic, with edge precision stronger than painterly texture. Preserve crisp edge behavior, stable hierarchy, and enough fine information that the image rewards slow viewing without losing the main read from a distance.\n\nUse case:\nMandelbrot Manuscript single study 4/9, designed as a self-contained sacred-geometry image with a distinct material and compositional emphasis.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable script, no random fantasy monsters, no muddy fractal edge, no cheap clip-art border, no torn parchment dominating the frame, no ornamental clutter that hides recursion, no watercolor mush, no abstract stain without structure, no unreadable center.",
+  "id": "04-ink-bloom-zoom",
+  "title": "Ink Bloom Zoom",
+  "description": "Ink Bloom Zoom interprets Mandelbrot Manuscript as an independent image study focused on a close-study page emphasizing black-red ink transitions and the recursive bloom of the central set.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "pattern",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fractal-mandelbrot-manuscript/packages/single-fractal-manuscript-studies/images/04-ink-bloom-zoom/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Mandelbrot Manuscript single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ink Bloom Zoom",
+      "description": "Ink Bloom Zoom interprets Mandelbrot Manuscript as an independent image study focused on a close-study page emphasizing black-red ink transitions and the recursive bloom of the central set."
+    },
+    "zh-CN": {
+      "title": "墨晕放大图",
+      "description": "墨晕放大图：分形手稿 的独立单图研究，强调黑红墨色与递归绽放。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "pattern",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Ink Bloom Zoom study for Mandelbrot Manuscript.",
+      "zh-CN": "分形手稿主题中的墨晕放大图图像研究。"
+    }
+  }
+}

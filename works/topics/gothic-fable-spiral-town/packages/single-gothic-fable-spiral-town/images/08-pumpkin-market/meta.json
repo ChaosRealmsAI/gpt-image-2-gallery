@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. Create a moonlit market lane lined with carved pumpkins, tilted awnings, and strings of dim lanterns between crooked houses.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. A child figure in a stitched coat stands amid the pumpkins, face lit from below by one glowing lantern gourd.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. Use orange glows as punctuation in a blue-black world, keeping the market sparse and theatrical rather than festive crowd chaos.\n\nUse case:\nGothic Fable Spiral Town single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-pumpkin-market",
+  "title": "Pumpkin Market",
+  "description": "A sparse pumpkin market lane where glowing gourds and warped stalls support a haunted storybook mood.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/08-pumpkin-market/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on pumpkin market.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pumpkin Market",
+      "description": "A sparse pumpkin market lane where glowing gourds and warped stalls support a haunted storybook mood."
+    },
+    "zh-CN": {
+      "title": "Pumpkin Market",
+      "description": "围绕哥特童话的第8张独立研究图，聚焦 Pumpkin Market。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A crooked market lane with glowing pumpkins and one child figure lit from below in moonlight.",
+      "zh-CN": "哥特童话主题图：Pumpkin Market。"
+    }
+  }
+}

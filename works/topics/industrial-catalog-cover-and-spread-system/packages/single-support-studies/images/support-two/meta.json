@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square editorial board with image windows, product fragments, soft studio light, and consistent page-development structure. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original industrial detail photography arranged into a persuasive page-development board with no readable copy. Make the subject feel original, production-aware, and clearly grounded in Industrial Catalog Cover and Spread System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep every block intentional and non-readable. The board should feel like a real working surface used to refine catalog hierarchy and emphasis. The visual language should still feel native to Industrial Catalog Cover and Spread System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCatalog System single study 6/9 for Industrial Catalog Cover and Spread System, built as image support-two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no lorem ipsum, no random office clutter, no unrelated consumer props, no fake brand marks.",
+  "id": "support-two",
+  "title": "Detail Page Board",
+  "description": "A design board showing how detail photography and product fragments support a catalog system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-catalog-cover-and-spread-system/packages/single-support-studies/images/support-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Detail Page Board",
+      "description": "A design board showing how detail photography and product fragments support a catalog system."
+    },
+    "zh-CN": {
+      "title": "细节页板",
+      "description": "展示细节摄影与产品碎片如何支撑目录系统的设计板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A catalog-development board built from original industrial detail photography.",
+      "zh-CN": "由原创工业细节摄影构成的目录开发板。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square technical poster plate with neutral light, clean background, and an exact cut plane through the object shell. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original compact turbine-assisted industrial air purifier with a cylindrical shell, layered filtration stack, structural ribs, motor chamber, and clean service-access geometry. Make the subject feel original, production-aware, and clearly grounded in Engineering Cutaway and Section Poster. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPreserve the same object identity while exposing filtration layers, motor chamber, ducts, and supports. The cut should feel deliberate and fully engineered. Preserve exact exterior silhouette, key internal architecture, material logic, and scale cues across the series. Cross-sections must feel engineered, crisp, and physically coherent rather than decorative slices. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCutaway Poster series study 2/9 for Engineering Cutaway and Section Poster, built as image 02-context-shift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no fantasy energy cores, no decorative arrow overload, no exploded chaos, no science-fiction internals.",
+  "id": "02-context-shift",
+  "title": "Half Section",
+  "description": "The same object cut open to reveal the primary internal stack and flow path.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "scientific-realism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/engineering-cutaway-and-section-poster/packages/series-core-system/images/02-context-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/engineering-cutaway-and-section-poster/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/engineering-cutaway-and-section-poster/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Half Section",
+      "description": "The same object cut open to reveal the primary internal stack and flow path."
+    },
+    "zh-CN": {
+      "title": "半剖视图",
+      "description": "剖开同一对象以展示主要内部层级与流动路径。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "scientific-realism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "The same original object shown in a clean half-section technical view.",
+      "zh-CN": "同一原创对象的干净半剖技术视图。"
+    }
+  }
+}

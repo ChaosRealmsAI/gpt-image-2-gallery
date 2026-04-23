@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Use a narrow crimson drape backdrop and a side candle that carves the neck and beak from darkness.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. A long-necked heron-like cleric in layered red robes holds a rosary-like string of carved seeds, projecting austere spiritual authority.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. Keep the beak elegant, the robe folds weighty, and the candle edge light thin enough to preserve mystery.\n\nUse case:\nBaroque Bestiary Candlelight single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-heron-cardinal",
+  "title": "Heron Cardinal",
+  "description": "A heron-faced ceremonial portrait built from deep crimson cloth, sharp profile light, and sacred stillness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/02-heron-cardinal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on heron cardinal.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Heron Cardinal",
+      "description": "A heron-faced ceremonial portrait built from deep crimson cloth, sharp profile light, and sacred stillness."
+    },
+    "zh-CN": {
+      "title": "Heron Cardinal",
+      "description": "围绕巴洛克神兽的第2张独立研究图，聚焦 Heron Cardinal。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A bird-headed cleric in dark red robes lit by a single candle in a baroque chamber.",
+      "zh-CN": "巴洛克神兽主题图：Heron Cardinal。"
+    }
+  }
+}

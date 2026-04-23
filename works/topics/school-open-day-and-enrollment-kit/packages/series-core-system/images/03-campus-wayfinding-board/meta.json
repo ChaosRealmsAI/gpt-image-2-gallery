@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square branded presentation in a campus courtyard with one freestanding directional board photographed straight-on in soft daylight. The image should look like a real event-day guidance asset designed to help visiting families navigate the school smoothly. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse campus map shapes, directional arrows, icon markers, and blank information strips to suggest open-classroom tours, registration points, and family waiting areas without any readable names. The signage should feel friendly, legible, and institutionally credible. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMaintain the reference system in photography tone, color palette, and panel logic. The board should prove the enrollment identity can extend beyond posters into real operational surfaces for an open day. Preserve the same campus color system, photography tone, panel hierarchy, family-friendly admissions mood, and blank information-band rhythm from the reference asset. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nSchool Open Day and Enrollment Kit series study 3/4, campus wayfinding board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no celebrity faces, no unrealistic campus luxury, no crowded chaos, no distorted architecture.",
+  "id": "03-campus-wayfinding-board",
+  "title": "Campus Wayfinding Board",
+  "description": "A wayfinding and event-routing board using the same school enrollment brand language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/03-campus-wayfinding-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-open-day-poster",
+        "meta_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/meta.json",
+        "image_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-open-day-poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Campus Wayfinding Board",
+      "description": "A wayfinding and event-routing board using the same school enrollment brand language."
+    },
+    "zh-CN": {
+      "title": "校园导视板",
+      "description": "使用同一招生品牌语言的校园导视与活动流线板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A wayfinding and event-routing board using the same school enrollment brand language.",
+      "zh-CN": "使用同一招生品牌语言的校园导视与活动流线板。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Kitchen Support Studies",
+  "description": "Five independent fine-dining studies extending the same luxury plating language into adjacent compositions.",
+  "creative_direction": "These independent images widen the topic beyond one anchor plate and test sauce behavior, garnish discipline, overhead service views, and tiny plated desserts without reference dependencies.",
+  "cover_image": "images/amuse-bouche-constellation/image.png",
+  "i18n": {
+    "en": {
+      "title": "Kitchen Support Studies",
+      "description": "Five independent fine-dining studies extending the same luxury plating language into adjacent compositions."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "米其林盘艺相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "amuse-bouche-constellation",
+      "title": "Amuse-Bouche Constellation",
+      "image": "images/amuse-bouche-constellation/image.png",
+      "meta": "images/amuse-bouche-constellation/meta.json"
+    },
+    {
+      "id": "sauce-calligraphy-study",
+      "title": "Sauce Calligraphy Study",
+      "image": "images/sauce-calligraphy-study/image.png",
+      "meta": "images/sauce-calligraphy-study/meta.json"
+    },
+    {
+      "id": "garnish-micro-meadow",
+      "title": "Garnish Micro Meadow",
+      "image": "images/garnish-micro-meadow/image.png",
+      "meta": "images/garnish-micro-meadow/meta.json"
+    },
+    {
+      "id": "chef-pass-overhead",
+      "title": "Chef Pass Overhead",
+      "image": "images/chef-pass-overhead/image.png",
+      "meta": "images/chef-pass-overhead/meta.json"
+    },
+    {
+      "id": "petit-four-void",
+      "title": "Petit Four Void",
+      "image": "images/petit-four-void/image.png",
+      "meta": "images/petit-four-void/meta.json"
+    }
+  ]
+}

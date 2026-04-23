@@ -1,0 +1,32 @@
+{
+  "id": "dreamcore-mall-afterhours",
+  "slug": "dreamcore-mall-afterhours",
+  "category": "atmosphere",
+  "style": ["liminal", "flash-photography", "dreamcore"],
+  "capability": ["photorealism", "structured-layout", "world-knowledge"],
+  "title": "Dreamcore Mall Afterhours",
+  "short_title": "Mall Afterhours",
+  "description": "Shuttered shopping malls after closing, photographed with 90s direct consumer flash — half-lowered metal gates, dead kiosk signage, empty benches, stopped fountains — the familiar weekend cathedral rendered hollow.",
+  "i18n": {
+    "en": {
+      "title": "Dreamcore Mall Afterhours",
+      "short_title": "Mall Afterhours",
+      "description": "Shuttered shopping malls after closing, photographed with 90s direct consumer flash — half-lowered metal gates, dead kiosk signage, empty benches, stopped fountains — the familiar weekend cathedral rendered hollow."
+    },
+    "zh-CN": {
+      "title": "梦核打烊商场",
+      "short_title": "打烊商场",
+      "description": "打烊后的购物中心:半落下的卷帘门、熄灭的店招、空长椅和停掉的喷泉,用直闪消费级相机记录熟悉空间被抽空后的怪异感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout", "editorial-illustration"]
+  },
+  "packages": [
+    { "id": "series-mall-atrium-reference", "type": "series", "title": "Mall Atrium Reference Series", "path": "packages/series-mall-atrium-reference/package.json" },
+    { "id": "single-mall-afterhours-studies", "type": "single", "title": "Mall Afterhours Studies", "path": "packages/single-mall-afterhours-studies/package.json" }
+  ]
+}

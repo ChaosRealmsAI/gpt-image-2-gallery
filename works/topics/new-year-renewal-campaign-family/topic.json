@@ -1,0 +1,52 @@
+{
+  "id": "new-year-renewal-campaign-family",
+  "slug": "new-year-renewal-campaign-family",
+  "capability": [
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "title": "New Year Renewal Campaign Family",
+  "short_title": "New Year Renewal",
+  "description": "Build New Year campaign families around renewal, reset, ambition, and fresh-cycle branding.",
+  "i18n": {
+    "en": {
+      "title": "New Year Renewal Campaign Family",
+      "short_title": "New Year Renewal",
+      "description": "Build New Year campaign families around renewal, reset, ambition, and fresh-cycle branding."
+    },
+    "zh-CN": {
+      "title": "新年焕新 campaign 家族",
+      "short_title": "新年焕新",
+      "description": "做新年焕新 campaign 家族，强调 renewal、reset 和新周期 branding。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 440,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-renewal-rollout",
+      "type": "series",
+      "title": "Renewal Rollout Series",
+      "path": "packages/series-renewal-rollout/package.json"
+    },
+    {
+      "id": "single-fresh-cycle-studies",
+      "type": "single",
+      "title": "Fresh Cycle Studies",
+      "path": "packages/single-fresh-cycle-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square top-down workbench board with neutral ground, soft precision light, and crisp part spacing. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original industrial-device components grouped by system, material, and size with highly controlled organization. Make the subject feel original, production-aware, and clearly grounded in Industrial Product Exploded View Suite. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse clean spacing and believable engineering categories without readable part numbers. The board should feel fit for catalog or teardown communication. The visual language should still feel native to Industrial Product Exploded View Suite, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nExploded Views single study 5/9 for Industrial Product Exploded View Suite, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no fantasy glowing cores, no chaotic wire nests, no meaningless arrows, no decorative clutter.",
+  "id": "support-one",
+  "title": "Parts Kit Flatlay",
+  "description": "A flatlay parts board studying industrial component grouping with premium discipline.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-product-exploded-view-suite/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Parts Kit Flatlay",
+      "description": "A flatlay parts board studying industrial component grouping with premium discipline."
+    },
+    "zh-CN": {
+      "title": "零件套件平铺",
+      "description": "以高级秩序感研究工业零件分组的平铺板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A premium flatlay board of original industrial product components.",
+      "zh-CN": "原创工业产品零件的高级平铺板。"
+    }
+  }
+}

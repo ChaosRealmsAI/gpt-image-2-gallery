@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the exact same bright morning environment, with identical fresh neutrals, soft green accents, and disciplined surface styling from the reference image, but reframe slightly to introduce a wellness or movement emphasis. The image should still feel like part of the same campaign shoot, preserving the calm optimism of the anchor while shifting toward a more active reset story.\n\nSubject:\nFeature clean fitness-adjacent objects such as a towel, bottle, mat edge, neatly arranged essentials, and abstract planning or progress cues without readable text. Preserve the exact material language, light direction, and organized optimism from the reference model while changing the category focus to fitness renewal. The objects should feel premium, realistic, and highly reusable for a New Year wellness campaign.\n\nImportant details:\nPreserve exact campaign identity from the reference image: same lighting, same palette, same surface cleanliness, and the same balance between aspiration and practicality. The scene should signal movement and habit formation through object choice and composition, not through slogans. Keep everything believable, minimal, and commercially sharp, with no generic gym clichés or overcharged sports styling.\n\nUse case:\nNew Year Renewal series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable app screens, no visible people, no dumbbells dominating frame, no neon gym light, no logos, no sweat drama, no party leftovers.",
+  "id": "02-fitness-reset-variation",
+  "title": "Fitness Reset Variation",
+  "description": "A fitness-oriented New Year variation preserving the same fresh reset campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/02-fitness-reset-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-fresh-desk-anchor",
+        "meta_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/meta.json",
+        "image_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent fitness-reset variation for the New Year system. Preserve the exact campaign language from 01-fresh-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Fitness Reset Variation",
+      "description": "A fitness-oriented New Year variation preserving the same fresh reset campaign language."
+    },
+    "zh-CN": {
+      "title": "健身重启变体",
+      "description": "保持同一清新重启系统的健身向新年变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A fitness reset campaign visual derived from the same New Year renewal system.",
+      "zh-CN": "由同一新年焕新系统延展出的健身重启 campaign 画面。"
+    }
+  }
+}

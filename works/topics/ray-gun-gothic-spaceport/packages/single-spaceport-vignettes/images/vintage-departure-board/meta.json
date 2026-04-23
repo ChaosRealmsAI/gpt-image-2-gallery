@@ -1,0 +1,32 @@
+{
+  "prompt": "Scene:\nA square editorial illustration of a vintage 1960-imagined spaceport split-flap departure board mounted on a fluted ivory stone wall, camera straight on, slightly low angle. Soft warm terminal lighting, gentle halftone print grain.\n\nSubject:\nA large split-flap mechanical departure board framed in chrome. Its surface is divided into an organized grid of small rectangular slats with solid colored blocks and simple abstract pictogram shapes instead of letters and numbers: rows of tiny rocket icons, starburst icons, ringed planet icons, and colored blocks in cadmium red, bright yellow, turquoise, powder pink, chrome, ivory. A chrome clock with big stylized hands is mounted above the board. An ornamental Googie canopy with yellow neon piping curves over the top. Small stylized travelers in pastel flight suits and bubble helmets stand below looking up, luggage around them.\n\nImportant details:\nStrict atomic-age palette. No readable letters or numbers of any kind, only pictogram silhouettes and colored blocks. Board must feel mechanical, with visible slat edges and tiny chrome hinges. The scene is a stylized mid-century editorial painting, not a photo. Figures are stylized, not photoreal.\n\nUse case:\nSpaceport Vignettes single study 5 of 5, standalone editorial scene.\n\nConstraints:\nNo readable text, no letters, no numerals, no watermark, no logos, no LCD display, no modern flight information display, preserve exact 1:1 aspect ratio.",
+  "id": "vintage-departure-board",
+  "title": "Vintage Departure Board",
+  "description": "Editorial scene of a pictogram-only split-flap departure board in a 1960-imagined spaceport.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {"path": "works/topics/ray-gun-gothic-spaceport/packages/single-spaceport-vignettes/images/vintage-departure-board/image.png", "name": "image"},
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single."
+  },
+  "i18n": {
+    "en": {"title": "Vintage Departure Board", "description": "Editorial scene of a pictogram-only split-flap departure board in a 1960-imagined spaceport."},
+    "zh-CN": {"title": "复古航班公告板", "description": "1960 年想象中太空港的象形图翻页航班公告板编辑场景。"}
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "structured-layout"],
+    "alt": {"en": "A large chrome-framed split-flap departure board with only icons and color blocks, travelers below.", "zh-CN": "大型镀铬框翻页公告板, 只有图标和色块, 下方是旅客。"}
+  }
+}

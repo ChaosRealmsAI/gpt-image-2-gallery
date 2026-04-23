@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Create a square vitrine-like close portrait of a clear glass vessel under cool side light, with the background dark enough to make the floating membrane visible. Reflections should remain minimal and museum-like.\n\nSubject:\nShow a pale translucent vinegar mother floating or folding within a liquid-filled vessel, with delicate layers, wrinkles, and suspended depth. Tiny bubbles and subtle turbidity can add realism, but the membrane should remain the main sculptural event. The image should feel biological and unexpectedly elegant.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. The membrane needs believable translucency, thickness variation, and soft folded geometry, almost like a marine organism. The liquid should support the form without turning cloudy or opaque.\n\nUse case:\nFermentation sculpture atlas single study 9/9, documenting a floating vinegar mother as a translucent living sculpture.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no wellness-brand styling, no readable bottle marks, no aquarium gimmick.",
+  "id": "vinegar-mother-medallion",
+  "title": "Vinegar Mother Medallion",
+  "description": "A translucent vinegar mother floating in liquid, documented like a marine specimen in glass.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/single-support-studies/images/vinegar-mother-medallion/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Vinegar Mother Medallion",
+      "description": "A translucent vinegar mother floating in liquid, documented like a marine specimen in glass."
+    },
+    "zh-CN": {
+      "title": "Vinegar Mother Medallion",
+      "description": "A translucent vinegar mother floating in liquid, documented like a marine specimen in glass."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A translucent vinegar mother floating in glass like a delicate biological specimen.",
+      "zh-CN": "A translucent vinegar mother floating in glass like a delicate biological specimen."
+    }
+  }
+}

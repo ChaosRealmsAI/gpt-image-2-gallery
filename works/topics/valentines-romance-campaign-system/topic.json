@@ -1,0 +1,52 @@
+{
+  "id": "valentines-romance-campaign-system",
+  "slug": "valentines-romance-campaign-system",
+  "capability": [
+    "commercial-mockup",
+    "style-transfer",
+    "photorealism"
+  ],
+  "title": "Valentines Romance Campaign System",
+  "short_title": "Valentines",
+  "description": "Build Valentines campaign systems for gifting, dining, and experiential brands with romance cues that stay tasteful.",
+  "i18n": {
+    "en": {
+      "title": "Valentines Romance Campaign System",
+      "short_title": "Valentines",
+      "description": "Build Valentines campaign systems for gifting, dining, and experiential brands with romance cues that stay tasteful."
+    },
+    "zh-CN": {
+      "title": "情人节 romance campaign 系统",
+      "short_title": "情人节",
+      "description": "做情人节 romance campaign 系统，适合礼赠、餐饮和体验品牌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 420,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-romance-rollout",
+      "type": "series",
+      "title": "Romance Rollout Series",
+      "path": "packages/series-romance-rollout/package.json"
+    },
+    {
+      "id": "single-activation-studies",
+      "type": "single",
+      "title": "Activation Studies",
+      "path": "packages/single-activation-studies/package.json"
+    }
+  ]
+}

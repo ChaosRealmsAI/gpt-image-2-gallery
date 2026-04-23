@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Build a corporate copy room with printers, supply cabinets, and utility counters arranged as a perfect service matrix under flat overhead light.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. An employee in shirtsleeves stands alone feeding paper into one machine, the smallest human event inside an exact equipment grid.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. The printers should feel heavy, matte, and practical, with every edge parallel or perpendicular to the frame.\n\nUse case:\nCold Precision Grid Interior single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-copy-room-grid",
+  "title": "Copy Room Grid",
+  "description": "A tightly ordered copy room where everyday office machinery becomes a study in clinical spatial precision.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/06-copy-room-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on copy room grid.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Copy Room Grid",
+      "description": "A tightly ordered copy room where everyday office machinery becomes a study in clinical spatial precision."
+    },
+    "zh-CN": {
+      "title": "Copy Room Grid",
+      "description": "围绕冷精准的第6张独立研究图，聚焦 Copy Room Grid。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "An office copy room arranged like a grid with printers, cabinets, and one lone employee.",
+      "zh-CN": "冷精准主题图：Copy Room Grid。"
+    }
+  }
+}

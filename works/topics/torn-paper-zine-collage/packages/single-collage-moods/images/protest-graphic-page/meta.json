@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a single zine protest page on cheap red-tinted copier paper under overhead fluorescent light. Drum-line streaks visible. Paper slightly wrinkled from hurry.\n\nSubject:\nA protest graphic page featuring a bold torn-paper hand silhouette in black, three cut-out slogan blocks made of mismatched letterforms, a crude marker star, and a photocopied crowd-silhouette enlarged beyond photocopy resolution so the pixels are visibly grainy blocks. Scissor-trim corner, scribbled ballpoint marginalia in dark blue.\n\nImportant details:\nThe red paper must be slightly pink from age, not digital red. The black hand silhouette must be actually torn, not cut — fibrous tear line. The pixel-grainy crowd silhouette must look like over-enlarged photocopy, not digital rasterization. Marker star shows uneven wet edges.\n\nUse case:\nIndependent single image in the Collage Moods package, representing the activist protest voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no political party symbols, no actual political slogans, no vector shapes, no clean edges, preserve exact 1:1 aspect ratio.",
+  "id": "protest-graphic-page",
+  "title": "Protest Graphic Page",
+  "description": "A red-tinted zine protest page with torn-paper hand silhouette, cut-out slogan blocks, and over-enlarged photocopy grain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/single-collage-moods/images/protest-graphic-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Protest Graphic Page",
+      "description": "A red-tinted zine protest page with torn-paper hand silhouette, cut-out slogan blocks, and over-enlarged photocopy grain."
+    },
+    "zh-CN": {
+      "title": "抗议图形页",
+      "description": "红色 zine 抗议页 · 撕下的手掌剪影 · 剪字口号块 · 过度放大的复印颗粒。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Red-tinted zine protest page with torn hand silhouette, cut-out slogan blocks, and grainy crowd image.",
+      "zh-CN": "红色 zine 抗议页 · 撕下的手掌剪影 · 剪字口号块和颗粒人群。"
+    }
+  }
+}

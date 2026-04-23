@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format 90s flash close-up photograph of a rectangular pool return vent set into the side wall of a drained basin, shot from within the basin itself at shoulder height. Direct flash fully illuminates the vent; the surrounding tile glows from the reflected light. Background recedes into darker basin shadow. Fine 35mm film grain, slight warm yellow cast.\n\nSubject:\nA stainless-steel return vent approximately 15 centimeters wide, with horizontal slats, mounted into the aqua-tiled wall of the pool. Mineral deposits have left faint white streaks on the tile directly below the vent. Around the vent, tile grout is discolored chlorine-yellow. The basin floor is visible at the bottom edge of frame: dry concrete, small drain grate.\n\nImportant details:\nClose-up realism is essential: steel slats must show minor scratches, tile grout must be specific, mineral streak must feel decade-old. The flash hotspot should concentrate on the vent center with clear falloff toward corners. The image must feel like a maintenance-inspection snapshot, not art photography. No water flowing. No reflection of photographer on steel.\n\nUse case:\nEmpty Pool single study 5/5, tight material study of a return vent inside a drained basin.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no water, no reflection of photographer, no dramatic framing, no cinematic grade.",
+  "id": "return-vent-close",
+  "title": "Return Vent Close-Up",
+  "description": "Close-up of a stainless-steel pool return vent inside a drained basin under direct flash.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "micro-texture", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/single-empty-pool-studies/images/return-vent-close/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the empty-pool theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Return Vent Close-Up",
+      "description": "Close-up of a stainless-steel pool return vent inside a drained basin under direct flash."
+    },
+    "zh-CN": {
+      "title": "回水口特写",
+      "description": "抽干池体里的不锈钢回水口近景,直闪打光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "micro-texture"],
+    "alt": {
+      "en": "A stainless-steel return vent set in aqua tile with chlorine-yellowed grout.",
+      "zh-CN": "浅绿瓷砖墙上的不锈钢回水通风口,瓷砖缝隙被氯水染黄。"
+    }
+  }
+}

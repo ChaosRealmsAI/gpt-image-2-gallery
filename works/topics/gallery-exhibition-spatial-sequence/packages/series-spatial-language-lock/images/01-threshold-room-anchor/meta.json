@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Gallery Exhibition Spatial Sequence. Use a square entry view into the first exhibition room with one major work and caption zones and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so spatial pacing, wall-label logic, and non-generic exhibition atmosphere feel immediate, using chalk white, charcoal gray, pale concrete, soft shadow black, and controlled spotlight warmth as the governing tonal range. The composition must read as a high-end commercial image that could sit inside museum campaigns, exhibition proposals, cultural editorials, and spatial storytelling decks.\n\nSubject:\nShow a gallery and exhibition environment with disciplined white and charcoal volumes, precise spotlighting, plinths, archival display furniture, abstract wall-label zones, and carefully paced emptiness. Center the exhibition’s threshold pacing, light gradient, and curatorial calm. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the wall-label rhythm, plinth geometry, spotlight language, floor material, and slow exhibition pacing. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nGallery Exhibition Spatial Sequence series study 1/9, establishing the canonical sequence identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowds, no readable wall text, no security barriers, no colorful trade-show clutter, no random gifts-shop products, no readable title wall.",
+  "id": "01-threshold-room-anchor",
+  "title": "Threshold Room Anchor",
+  "description": "A reference-setting architectural still for gallery sequence that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gallery-exhibition-spatial-sequence/packages/series-spatial-language-lock/images/01-threshold-room-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Threshold Room Anchor",
+      "description": "A reference-setting architectural still for gallery sequence that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "入口前室锚点",
+      "description": "围绕展陈空间的入口前室锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Threshold Room Anchor for Gallery Exhibition Spatial Sequence.",
+      "zh-CN": "展陈空间主题中的入口前室锚点。"
+    }
+  }
+}

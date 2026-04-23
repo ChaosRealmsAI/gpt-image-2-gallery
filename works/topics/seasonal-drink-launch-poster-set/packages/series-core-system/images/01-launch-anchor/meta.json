@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Use a polished studio campaign setup with one hero cup centered against a color field and atmospheric gradient, leaving clear negative space for abstract layout zones.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Feature a premium seasonal beverage with realistic ice, foam, garnish, or swirl, supported by floating or arranged ingredients that define the seasonal story.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This anchor image must lock the poster system for the series: disciplined central hero, ingredient choreography, abstract unreadable type zones, and commercial clarity.\n\nUse case:\nSeasonal Drinks series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no readable launch copy, no holiday mascot, no generic fireworks.",
+  "id": "01-launch-anchor",
+  "title": "Launch Anchor",
+  "description": "A hero poster image that establishes the seasonal drink system through one beverage, ingredient orbit, and campaign-safe layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/01-launch-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Anchor",
+      "description": "A hero poster image that establishes the seasonal drink system through one beverage, ingredient orbit, and campaign-safe layout."
+    },
+    "zh-CN": {
+      "title": "上新锚点",
+      "description": "上新锚点：季节饮品主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A hero poster image that establishes the seasonal drink system through one beverage, ingredient orbit, and campaign-safe layout.",
+      "zh-CN": "上新锚点，用于季节饮品主题。"
+    }
+  }
+}

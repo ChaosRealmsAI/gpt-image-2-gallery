@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square still-life image on a calm tabletop with warm evening light, moon-adjacent cool shadows, and refined negative space. The frame should feel like a premium tea or gifting campaign visual, with a mature sense of calm and balance. Use a restrained palette of warm gold, muted cream, dark wood or lacquer, and one or two floral accents that suggest seasonality without turning decorative.\n\nSubject:\nShow a tea service with cup, pot, tray, small pastry, gift box edge, and osmanthus-like floral detail arranged into a poised Mid-Autumn still life. The composition should communicate fragrance, hospitality, and premium gifting readiness through object relationships. Keep everything original and brand-neutral, free of readable script and heavy ornament overload.\n\nImportant details:\nFocus on tactile precision: ceramic glaze, tea translucency, lacquer sheen, floral softness, and subtle atmospheric depth. The image should be calm enough for premium tea branding but still unmistakably seasonal through its moonlit warmth and gifting context. Avoid generic zen clichés; this should feel festive, specific, and commercially ready.\n\nUse case:\nMid-Autumn single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable tea labels, no logo cups, no incense smoke overload, no fantasy temple set, no mascot animals, no bright red saturation, no cluttered table, no calligraphy scrolls.",
+  "id": "tea-and-osmanthus-still-life",
+  "title": "Tea and Osmanthus Still Life",
+  "description": "A tea-led Mid-Autumn still life built around quiet gifting and scent-rich atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/single-festival-context-studies/images/tea-and-osmanthus-still-life/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent tea-still-life study for Mid-Autumn campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tea and Osmanthus Still Life",
+      "description": "A tea-led Mid-Autumn still life built around quiet gifting and scent-rich atmosphere."
+    },
+    "zh-CN": {
+      "title": "桂香茶礼静物",
+      "description": "围绕静谧礼赠与香气氛围的中秋茶礼静物研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A Mid-Autumn still life with tea service, osmanthus accents, and premium calm.",
+      "zh-CN": "带有茶器、桂花点缀与高级静谧感的中秋静物。"
+    }
+  }
+}

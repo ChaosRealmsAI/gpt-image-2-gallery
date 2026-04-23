@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square front-facing promo board with dark UI-like panels, bright white product cards, yellow accent badges, and crisp spacing. The image should look like a premium app campaign translated into a physical concept board, with strong grid logic and a direct thumbnail read. Keep everything non-legible but obviously optimized for discounts, bundles, and rapid browsing behavior.\n\nSubject:\nBuild a layered system of cards, chips, tiles, product silhouettes, and checkout cues arranged into one coherent Black Friday visual board. The subject should feel like a high-pressure app surface for major promotions, but rendered as a refined campaign mockup without actual interface text. Use clear hierarchy, card grouping, and a confident retail rhythm that signals urgency and value.\n\nImportant details:\nStructured layout is the main challenge. Keep spacing disciplined, contrast strong, and abstract text blocks consistent enough that the eye reads sale information even though nothing is readable. Materials can be semi-gloss panels, matte cards, and subtle reflections. The final frame should be suitable for promo strategy decks, sale-landing hero images, or social countdown creatives.\n\nUse case:\nBlack Friday single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable app text, no currency symbols, no logo icons, no random 3D emoji elements, no broken grid, no pastel drift, no fake screenshots, no cluttered background.",
+  "id": "app-card-promo-board",
+  "title": "App Card Promo Board",
+  "description": "A structured promo-board study translating Black Friday energy into app-like cards and tiles.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/single-commerce-support-studies/images/app-card-promo-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent promo-board study for Black Friday app surfaces.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "App Card Promo Board",
+      "description": "A structured promo-board study translating Black Friday energy into app-like cards and tiles."
+    },
+    "zh-CN": {
+      "title": "应用促销卡板",
+      "description": "将黑五能量转译为应用卡片与拼贴板的结构化研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A Black Friday promo board made from app-like cards, sale chips, and product tiles.",
+      "zh-CN": "由应用卡片、促销芯片与商品拼块组成的黑五促销板。"
+    }
+  }
+}

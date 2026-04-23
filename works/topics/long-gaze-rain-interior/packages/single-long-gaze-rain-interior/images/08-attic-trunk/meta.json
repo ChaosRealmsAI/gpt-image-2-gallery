@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. Set the scene in an attic room with sloped ceiling, one trunk, and a narrow rain-streaked window carrying pale gray light over rough boards.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A figure kneels beside the trunk without opening it, absorbed in memory or hesitation rather than action.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. Keep the room spare and tactile, with the tension held inside posture, weather, and withheld motion.\n\nUse case:\nLong Gaze Through Rain Interior single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-attic-trunk",
+  "title": "Attic Trunk",
+  "description": "An attic rain interior where one kneeling figure and an unopened trunk sustain a long, contemplative gaze.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/08-attic-trunk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on attic trunk.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Attic Trunk",
+      "description": "An attic rain interior where one kneeling figure and an unopened trunk sustain a long, contemplative gaze."
+    },
+    "zh-CN": {
+      "title": "Attic Trunk",
+      "description": "围绕长凝视的第8张独立研究图，聚焦 Attic Trunk。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A figure kneels beside a trunk in a dim attic room with rain marking the narrow window.",
+      "zh-CN": "长凝视主题图：Attic Trunk。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Keep the same kitchen palette and household realism, but brighten the mood with early daylight, ceramic breakfast ware, and a calmer morning counter setup.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Pair the packaged product with a freshly served breakfast bowl, cereal, granola, oats, or another relevant use case that feels natural for the pack type.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-pantry-anchor. Preserve the anchor relationship between packaging and prepared food while emphasizing spoonable texture, bowl warmth, and morning ease.\n\nUse case:\nFood Package Scenes series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no cereal-box mascot, no readable box copy, no kid-targeted cartoon styling.",
+  "id": "02-breakfast-serve-bowl",
+  "title": "Breakfast Serve Bowl",
+  "description": "A breakfast-oriented usage scene that preserves the reference home system while shifting toward morning serving cues.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/02-breakfast-serve-bowl/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pantry-anchor",
+        "meta_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/meta.json",
+        "image_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-pantry-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Breakfast Serve Bowl",
+      "description": "A breakfast-oriented usage scene that preserves the reference home system while shifting toward morning serving cues."
+    },
+    "zh-CN": {
+      "title": "早餐盛碗",
+      "description": "早餐盛碗：食品包装场景主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A breakfast-oriented usage scene that preserves the reference home system while shifting toward morning serving cues.",
+      "zh-CN": "早餐盛碗，用于食品包装场景主题。"
+    }
+  }
+}

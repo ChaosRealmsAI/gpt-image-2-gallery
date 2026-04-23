@@ -1,0 +1,43 @@
+{
+  "id": "series-empty-pool-reference",
+  "type": "series",
+  "title": "Empty Pool Reference Series",
+  "description": "One indoor municipal pool re-photographed under four lighting conditions: mid-night flash, dawn haze, emergency-only lighting, and stripped maintenance state. All four must read as the same basin.",
+  "creative_direction": "Image 01 establishes the pool's tile geometry, lane markings, deck boundary and vantage point. Images 02-04 depend on 01 as --ref and re-light or re-state the same basin while preserving tile pattern, lane count, and camera vantage.",
+  "cover_image": "images/01-reference-pool-night/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-pool-night/meta.json",
+      "images/02-pool-sunrise-haze/meta.json",
+      "images/03-pool-emergency-light/meta.json",
+      "images/04-pool-stripped-tiles/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Empty Pool Reference Series",
+      "description": "One indoor municipal pool re-photographed under four lighting conditions: mid-night flash, dawn haze, emergency-only lighting, and stripped maintenance state. All four must read as the same basin."
+    },
+    "zh-CN": {
+      "title": "空泳池基准组",
+      "description": "同一座室内市政泳池在四种光照状态下被重复拍摄:午夜直闪、晨雾、应急灯、维护抽水裸砖。四张必须可辨认为同一水池。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["series", "photorealism", "structured-layout"]
+  },
+  "images": [
+    { "id": "01-reference-pool-night", "title": "Reference Pool · Midnight Flash", "image": "images/01-reference-pool-night/image.png", "meta": "images/01-reference-pool-night/meta.json" },
+    { "id": "02-pool-sunrise-haze", "title": "Pool · Sunrise Haze", "image": "images/02-pool-sunrise-haze/image.png", "meta": "images/02-pool-sunrise-haze/meta.json" },
+    { "id": "03-pool-emergency-light", "title": "Pool · Emergency Light Only", "image": "images/03-pool-emergency-light/image.png", "meta": "images/03-pool-emergency-light/meta.json" },
+    { "id": "04-pool-stripped-tiles", "title": "Pool · Stripped Maintenance", "image": "images/04-pool-stripped-tiles/image.png", "meta": "images/04-pool-stripped-tiles/meta.json" }
+  ]
+}

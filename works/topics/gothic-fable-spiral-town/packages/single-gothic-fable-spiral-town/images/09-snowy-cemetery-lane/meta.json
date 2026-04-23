@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. End on a thin lane dusted with snow, running between bent fences toward clustered hill houses with ember-like windows.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. A small figure with umbrella walks alone down the lane while spiral bare trees twist overhead.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. The snow should remain graphic and light, preserving the clean silhouette language of the town.\n\nUse case:\nGothic Fable Spiral Town single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-snowy-cemetery-lane",
+  "title": "Snowy Cemetery Lane",
+  "description": "A wintry lane through the spiral town, where snow, bent fences, and one umbrella figure sustain the gothic fable atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/09-snowy-cemetery-lane/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on snowy cemetery lane.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Snowy Cemetery Lane",
+      "description": "A wintry lane through the spiral town, where snow, bent fences, and one umbrella figure sustain the gothic fable atmosphere."
+    },
+    "zh-CN": {
+      "title": "Snowy Cemetery Lane",
+      "description": "围绕哥特童话的第9张独立研究图，聚焦 Snowy Cemetery Lane。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A snowy lane with bent fences, spiral trees, and one umbrella figure walking toward glowing houses.",
+      "zh-CN": "哥特童话主题图：Snowy Cemetery Lane。"
+    }
+  }
+}

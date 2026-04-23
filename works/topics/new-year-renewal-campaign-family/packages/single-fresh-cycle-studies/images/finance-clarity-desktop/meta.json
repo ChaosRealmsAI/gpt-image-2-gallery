@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square desktop campaign image with calm morning light, pale gray and green accents, subtle metallic detail, and a precise high-trust layout. The environment should feel like a premium personal-finance or planning brand surface, but with no readable interface content. Keep the composition uncluttered, thoughtful, and quietly confident rather than aggressive or tech-bro flashy.\n\nSubject:\nShow a device-like screen with abstract chart shapes, notebook forms, pen, glass, card-like objects, and small organizing tools arranged into a financial reset scene. The subject should communicate budgeting, clarity, and controlled ambition through hierarchy and object choice. Everything must remain non-branded and free of readable numbers while still feeling like a genuine finance-adjacent campaign surface.\n\nImportant details:\nTrust comes from control. Use soft light, crisp edges, believable reflections, and restrained data-like geometry. The image should feel useful for banking, fintech, or planning brands that want New Year momentum without shouting. Keep materials premium and familiar. The board should imply measurable progress without any actual ledger text or dashboard labels.\n\nUse case:\nNew Year Renewal single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable charts, no currency symbols, no logo cards, no crypto cliché, no neon tech glow, no messy receipts, no calculator with readable display, no office cubicle vibe.",
+  "id": "finance-clarity-desktop",
+  "title": "Finance Clarity Desktop",
+  "description": "A finance-adjacent New Year study focused on calm control, planning, and abstract dashboard clarity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-year-renewal-campaign-family/packages/single-fresh-cycle-studies/images/finance-clarity-desktop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent finance-clarity study for New Year campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Finance Clarity Desktop",
+      "description": "A finance-adjacent New Year study focused on calm control, planning, and abstract dashboard clarity."
+    },
+    "zh-CN": {
+      "title": "财务清晰桌面",
+      "description": "聚焦冷静掌控、规划与抽象仪表清晰感的财务向新年研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A calm finance-planning desktop with abstract dashboard cues and New Year clarity.",
+      "zh-CN": "带有抽象仪表线索与新年清晰感的冷静财务规划桌面。"
+    }
+  }
+}

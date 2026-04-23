@@ -1,0 +1,64 @@
+{
+  "id": "single-commerce-support-studies",
+  "type": "single",
+  "title": "Commerce Support Studies",
+  "description": "Five independent Black Friday studies covering checkout logic, stockroom pressure, product stacks, app-like cards, and parcel movement.",
+  "creative_direction": "Independent Black Friday studies stay high-pressure and conversion-oriented while exploring distinct supporting campaign surfaces for commerce, logistics, and promo rollout.",
+  "cover_image": "images/checkout-chaos-flatlay/image.png",
+  "i18n": {
+    "en": {
+      "title": "Commerce Support Studies",
+      "description": "Five independent Black Friday studies covering checkout logic, stockroom pressure, product stacks, app-like cards, and parcel movement."
+    },
+    "zh-CN": {
+      "title": "商业支持研究",
+      "description": "五张独立黑五研究图，补充结算逻辑、库存压力、商品堆叠、应用卡片与包裹流动场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "checkout-chaos-flatlay",
+      "title": "Checkout Chaos Flatlay",
+      "image": "images/checkout-chaos-flatlay/image.png",
+      "meta": "images/checkout-chaos-flatlay/meta.json"
+    },
+    {
+      "id": "midnight-queue-entry",
+      "title": "Midnight Queue Entry",
+      "image": "images/midnight-queue-entry/image.png",
+      "meta": "images/midnight-queue-entry/meta.json"
+    },
+    {
+      "id": "stockroom-parcel-storm",
+      "title": "Stockroom Parcel Storm",
+      "image": "images/stockroom-parcel-storm/image.png",
+      "meta": "images/stockroom-parcel-storm/meta.json"
+    },
+    {
+      "id": "app-card-promo-board",
+      "title": "App Card Promo Board",
+      "image": "images/app-card-promo-board/image.png",
+      "meta": "images/app-card-promo-board/meta.json"
+    },
+    {
+      "id": "parcel-doorburst",
+      "title": "Parcel Doorburst",
+      "image": "images/parcel-doorburst/image.png",
+      "meta": "images/parcel-doorburst/meta.json"
+    }
+  ]
+}

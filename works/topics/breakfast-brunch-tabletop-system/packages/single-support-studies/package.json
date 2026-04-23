@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Weekend Table Support Studies",
+  "description": "Five independent brunch studies extending the theme into baskets, flatlays, toasts, and skillet centerpieces.",
+  "creative_direction": "These independent studies broaden the same brunch tabletop theme into adjacent hospitality and social-use surfaces.",
+  "cover_image": "images/pastry-basket-spread/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/pastry-basket-spread/meta.json",
+      "images/juice-carafe-board/meta.json",
+      "images/skillet-hash-centerpiece/meta.json",
+      "images/group-toast-moment/meta.json",
+      "images/jam-butter-flatlay/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Weekend Table Support Studies",
+      "description": "Five independent brunch studies extending the theme into baskets, flatlays, toasts, and skillet centerpieces."
+    },
+    "zh-CN": {
+      "title": "周末餐桌补充研究",
+      "description": "五张独立补充图，把主题延展到面包篮、平铺、碰杯与铁锅中心菜。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "pastry-basket-spread",
+      "title": "Pastry Basket Spread",
+      "image": "images/pastry-basket-spread/image.png",
+      "meta": "images/pastry-basket-spread/meta.json"
+    },
+    {
+      "id": "juice-carafe-board",
+      "title": "Juice Carafe Board",
+      "image": "images/juice-carafe-board/image.png",
+      "meta": "images/juice-carafe-board/meta.json"
+    },
+    {
+      "id": "skillet-hash-centerpiece",
+      "title": "Skillet Hash Centerpiece",
+      "image": "images/skillet-hash-centerpiece/image.png",
+      "meta": "images/skillet-hash-centerpiece/meta.json"
+    },
+    {
+      "id": "group-toast-moment",
+      "title": "Group Toast Moment",
+      "image": "images/group-toast-moment/image.png",
+      "meta": "images/group-toast-moment/meta.json"
+    },
+    {
+      "id": "jam-butter-flatlay",
+      "title": "Jam Butter Flatlay",
+      "image": "images/jam-butter-flatlay/image.png",
+      "meta": "images/jam-butter-flatlay/meta.json"
+    }
+  ]
+}

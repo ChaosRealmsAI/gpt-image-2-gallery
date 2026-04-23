@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square close-up hospitality image with warm evening light, shallow but believable depth of field, and strong tactile focus. The crop should feel like a premium editorial detail from a larger campaign, not a random macro shot. Keep the tray and surrounding surfaces legible enough that the hospitality context remains clear and usable for campaign support.\n\nSubject:\nFocus on a serving tray with dates, cups, small sweets, textile edge, and one gift-ready packaging or fragrance silhouette nearby. The arrangement should communicate care, hosting, and refinement through a small number of objects. Emphasize craftsmanship, table discipline, and the dignity of presentation rather than decorative excess.\n\nImportant details:\nMicro-texture carries the frame. Metal, ceramic, woven fabric, food surfaces, and warm light must all feel real. The image should support premium hospitality, gifting, or editorial campaign use during Ramadan and Eid season. Keep it respectful and elevated, avoiding stereotype overload or generic luxury noise. Keep the frame precise enough for gallery, research, and campaign reuse, with believable materials and a strong thumbnail read.\n\nUse case:\nRamadan/Eid single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logo cups, no alcohol, no crowded buffet, no fantasy props, no stage-lit glamour, no hands dominating frame, no exaggerated ornament overload.",
+  "id": "serving-tray-closeup",
+  "title": "Serving Tray Closeup",
+  "description": "A close-up hospitality study centered on tray service, texture, and gifting refinement.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/single-respectful-context-studies/images/serving-tray-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent tray-detail study for Ramadan and Eid campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Serving Tray Closeup",
+      "description": "A close-up hospitality study centered on tray service, texture, and gifting refinement."
+    },
+    "zh-CN": {
+      "title": "托盘细节近景",
+      "description": "以托盘服务、材质与礼赠精致度为核心的近景待客研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A close-up Ramadan and Eid serving tray with premium textures and warm evening light.",
+      "zh-CN": "带有高级材质与暖夜光线的斋月与开斋节托盘近景。"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square field-guide plate for an alien ecosystem, mixing specimen staging, habitat fragments, and diagrammatic order into one clean composition. The image should feel like a premium scientific editorial board with careful spacing, controlled backgrounds, and enough environmental cues to imply a larger biosphere. Keep the camera or layout disciplined so the viewer can study relationships between species, organs, and habitat layers. Keep the same board structure but shift the palette into low-light blues and bioluminescent accents as blooms open across a night version of the habitat.\n\nSubject:\nCenter the image on a strange but internally patterned ecology: organisms, growth forms, spores, membranes, roots, shells, or flying bodies that clearly belong to the same world. Their silhouettes and textures should feel novel, yet their anatomical logic, habitat relationship, and life-cycle clues should read as coherent rather than random fantasy. Preserve the reference specimen layout while replacing the central protagonist with winged pollinators, bloom organs, and reproductive transfer paths.\n\nImportant details:\nUse scientific realism without readable text. Unlabeled callout lines, scale markers, specimen windows, and sectional insets may appear, but the hierarchy must remain visual. Preserve a disciplined palette tied to one habitat so the package reads as a reusable guide system rather than a collection of unrelated creature paintings. Night lighting should remain analytical and readable, using glow only to explain ecological function rather than create fantasy fireworks. Preserve the exact structural language established by the reference image, especially the plate layout, habitat palette, anatomical callout grammar, and specimen scale cues.\n\nUse case:\nAlien Ecology series study 2/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no humanoid monsters, no fantasy dragons, no horror gore, no readable labels, no magical fairy swarm.",
+  "id": "02-nocturnal-pollinator-cycle",
+  "title": "Nocturnal Pollinator Cycle",
+  "description": "Nocturnal Pollinator Cycle presents the same guide system focused on night-active pollinators and bloom behavior within the anchor biome.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "scientific-realism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/alien-ecology-field-guide-system/packages/series-core-system/images/02-nocturnal-pollinator-cycle/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-ecology-atlas-anchor",
+        "meta_path": "works/topics/alien-ecology-field-guide-system/packages/series-core-system/images/01-ecology-atlas-anchor/meta.json",
+        "image_path": "works/topics/alien-ecology-field-guide-system/packages/series-core-system/images/01-ecology-atlas-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Alien Ecology core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Nocturnal Pollinator Cycle",
+      "description": "Nocturnal Pollinator Cycle presents the same guide system focused on night-active pollinators and bloom behavior within the anchor biome."
+    },
+    "zh-CN": {
+      "title": "Nocturnal Pollinator Cycle",
+      "description": "异星生态主题中的Nocturnal Pollinator Cycle图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Nocturnal Pollinator Cycle presents the same guide system focused on night-active pollinators and bloom behavior within the anchor biome.",
+      "zh-CN": "异星生态主题中的Nocturnal Pollinator Cycle图像。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph taken at dawn with a 50mm full-frame camera, eye-level view across a glassy alpine lake at 4000 meters. Cold blue pre-sunrise light fills the sky; crisp mountain air, shallow fog rolling over distant water.\n\nSubject:\nA single colossal amethyst hexagonal prism, roughly 600 meters tall and 120 meters wide, suspended vertically above the lake with its point just above the water surface. The crystal is deeply transparent violet with sharp edges, containing cloud-like inclusions and a radiant internal core that glows soft lilac. Dawn light catches the top, splitting into a visible column of pink and teal that descends through the crystal and reaches the lake.\n\nImportant details:\nHyper-realistic mineral surface — tiny chips, natural cleavage lines, fine dust in the inner fractures. Correct physical refraction: the lake directly under the prism shows a refracted color pool; the surrounding water is still dark and mirror-like. A lone figure in a red parka stands on the shore, scale-anchor proving the prism is skyscraper-sized. Atmospheric haze behind the prism disappears the far shoreline into soft blue gradient.\n\nUse case:\nCrystal-studies single 1/5 exploring a vertical amethyst column as an impossible freestanding monolith.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible supports, no cables, no cartoon rendering, no painterly brushwork, no aurora (this image uses only natural dawn light).",
+  "id": "amethyst-column",
+  "title": "Amethyst Column",
+  "description": "A single vertical amethyst prism floating above an alpine mirror lake at dawn.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/single-crystal-studies/images/amethyst-column/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — vertical amethyst prism study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Amethyst Column",
+      "description": "A single vertical amethyst prism floating above an alpine mirror lake at dawn."
+    },
+    "zh-CN": {
+      "title": "紫水晶立柱",
+      "description": "一根垂直紫水晶方柱悬浮于高原镜面湖 · 黎明光。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A skyscraper-sized amethyst prism floating point-down over a dawn alpine lake.",
+      "zh-CN": "摩天楼大小的紫水晶柱 · 尖朝下悬浮于黎明高原湖。"
+    }
+  }
+}

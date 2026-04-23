@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Practice Sheet System",
+  "description": "Four reference-dependent images define a child-friendly worksheet system and extend it across sound sorting, blending, syllable pacing, and guided-reading practice.",
+  "creative_direction": "Image 01 establishes the worksheet grid, icon language, answer zones, and color-coding rhythm. Images 02-04 preserve the same page structure and classroom print realism while changing the exercise logic.",
+  "cover_image": "images/01-reference-sound-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-sound-sheet/meta.json",
+      "images/02-vowel-blend-sheet/meta.json",
+      "images/03-syllable-clap-sheet/meta.json",
+      "images/04-guided-reading-sheet/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-sound-sheet first. Use its runtime result URL as --ref for 02-vowel-blend-sheet, 03-syllable-clap-sheet, 04-guided-reading-sheet. Queue may run those images concurrently after 01-reference-sound-sheet is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Practice Sheet System",
+      "description": "Four reference-dependent images define a child-friendly worksheet system and extend it across sound sorting, blending, syllable pacing, and guided-reading practice."
+    },
+    "zh-CN": {
+      "title": "核心练习页系统",
+      "description": "四张依赖参考图的画面建立统一练习页系统，并扩展到音素分类、拼读、音节节奏和阅读练习。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-sound-sheet",
+      "title": "Reference Sound Sheet",
+      "image": "images/01-reference-sound-sheet/image.png",
+      "meta": "images/01-reference-sound-sheet/meta.json"
+    },
+    {
+      "id": "02-vowel-blend-sheet",
+      "title": "Vowel Blend Sheet",
+      "image": "images/02-vowel-blend-sheet/image.png",
+      "meta": "images/02-vowel-blend-sheet/meta.json"
+    },
+    {
+      "id": "03-syllable-clap-sheet",
+      "title": "Syllable Clap Sheet",
+      "image": "images/03-syllable-clap-sheet/image.png",
+      "meta": "images/03-syllable-clap-sheet/meta.json"
+    },
+    {
+      "id": "04-guided-reading-sheet",
+      "title": "Guided Reading Sheet",
+      "image": "images/04-guided-reading-sheet/image.png",
+      "meta": "images/04-guided-reading-sheet/meta.json"
+    }
+  ]
+}

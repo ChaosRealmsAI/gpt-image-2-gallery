@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Use the same centered editorial stage, blank callout bars, and restrained lighting family from the reference image, but allow a lifted glass dome or drifting smoke volume to create a second large form around the drink. The backdrop must remain clean so the transparent layers stay readable.\n\nSubject:\nPresent a ruby-toned stirred cocktail in a low glass with one large clear cube and a curled peel, partially wrapped by a glass dome and a fading smoke plume. Callout leaders should point toward the smoke edge, the ice core, the citrus oil zone, and the liquid body. The whole scene should feel like an upscale spirits magazine cutaway translated into abstract visual language.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. Preserve exact layout spacing, callout grammar, and camera height from the reference model while increasing atmospheric complexity. Smoke must feel semi-transparent and volumetric, not opaque fog, and the ruby liquid should remain luminous around the ice.\n\nUse case:\nCocktail anatomy editorial series study 4/9, closing the anchor system with a smoked ruby cocktail.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no brand bottle hero, no busy back bar reflections, no readable callout text.",
+  "id": "04-smoke-dome-negroni",
+  "title": "Smoke Dome Negroni",
+  "description": "A bold smoked variation preserving the same editorial anatomy layout while foregrounding the smoke volume.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/04-smoke-dome-negroni/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-editorial-old-fashioned-anchor",
+        "meta_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/meta.json",
+        "image_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Smoke Dome Negroni",
+      "description": "A bold smoked variation preserving the same editorial anatomy layout while foregrounding the smoke volume."
+    },
+    "zh-CN": {
+      "title": "Smoke Dome Negroni",
+      "description": "A bold smoked variation preserving the same editorial anatomy layout while foregrounding the smoke volume."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A ruby cocktail under a glass dome with blank anatomy callouts pointing to smoke, ice, and garnish.",
+      "zh-CN": "A ruby cocktail under a glass dome with blank anatomy callouts pointing to smoke, ice, and garnish."
+    }
+  }
+}

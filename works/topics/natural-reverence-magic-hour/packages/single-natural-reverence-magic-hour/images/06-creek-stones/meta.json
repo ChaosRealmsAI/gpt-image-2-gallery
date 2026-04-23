@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square naturalistic frame captured at the exact edge of magic hour, when the sun sits low and turns grass, dust, skin, and hair into luminous gold. Use wide lenses, open air, gentle motion, and a lived-in landscape such as tall wheat, meadow, creek bank, orchard, or open prairie. Use a shallow creek crossing with rounded stones, wet reflections, and tall grasses on both banks turning amber at day’s end.\n\nSubject:\nCenter on a child or small human figure moving through the landscape with curiosity, wonder, or private joy. The body should feel small inside the world, with the environment carrying as much emotional meaning as the person. A child steps carefully from stone to stone carrying shoes in one hand, balancing between play and concentration.\n\nImportant details:\nThe visual rule is reverence through natural light, wind, and tactile surface detail. Preserve lens flare, translucent grasses, skin warmed by sun, and humble earth textures without commercial polish. Avoid heavy stylization, urban intrusions, or artificial studio neatness. Preserve water sparkle, wet fabric edges, and the small human effort required to move through the landscape.\n\nUse case:\nNatural Reverence Magic Hour single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no modern billboards, no synthetic neon color, no posed fashion styling, no fantasy creatures, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-creek-stones",
+  "title": "Creek Stones",
+  "description": "A creek crossing at sunset where one child balances over stones in gentle golden light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/natural-reverence-magic-hour/packages/single-natural-reverence-magic-hour/images/06-creek-stones/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent natural reverence study focused on creek stones.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Creek Stones",
+      "description": "A creek crossing at sunset where one child balances over stones in gentle golden light."
+    },
+    "zh-CN": {
+      "title": "Creek Stones",
+      "description": "围绕自然崇敬的第6张独立研究图，聚焦 Creek Stones。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A child carrying shoes steps across creek stones through golden evening grass.",
+      "zh-CN": "自然崇敬主题图：Creek Stones。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square restaurant editorial food photograph with a controlled three-quarter camera angle, tactile linen, brushed metal cutlery used sparingly at the edge of frame, and lighting that feels like a real dining room service captured by a magazine photographer. Keep the tonal range warm, dimensional, and refined, with enough negative space around the plate for the image to function as a hero asset rather than a crowded snapshot. Use amber side light and a dark walnut tabletop with a soft bokeh falloff so the image feels intimate, premium, and ready for a menu hero or campaign cover.\n\nSubject:\nThe food must read as a true signature dish developed by a serious kitchen: precise portions, believable sauce behavior, carefully considered garnish, and a table context that suggests a coherent restaurant identity instead of generic luxury styling. Feature a composed butter-glazed poultry dish with a silky puree, one crisp vegetable accent, and a clean arc of sauce placed with chef-level intent.\n\nImportant details:\nRestaurant credibility matters more than spectacle. Preserve appetizing moisture, plausible ingredient hierarchy, and disciplined prop styling. Every crumb, herb leaf, ceramic reflection, and fold in the table linen should support the editorial story while keeping the dish unmistakably central. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. The plate should introduce the full visual grammar for the series: generous margin, elegant asymmetry, crisp rim cleanliness, and service-level polish without feeling sterile.\n\nUse case:\nSignature Dishes series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic-looking food, no overloaded garnish, no sloppy sauce smears, no cartoon color saturation, no stock-photo posing, no messy background clutter, no extra diners, no handheld utensils, no scattered crumbs.",
+  "id": "01-chef-table-anchor",
+  "title": "Chef Table Anchor",
+  "description": "A refined hero plate that establishes the signature-dish editorial language with linen, ceramic, and restrained dining-room atmosphere.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/plated-signature-dish-editorial/packages/series-core-system/images/01-chef-table-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Chef Table Anchor",
+      "description": "A refined hero plate that establishes the signature-dish editorial language with linen, ceramic, and restrained dining-room atmosphere."
+    },
+    "zh-CN": {
+      "title": "主厨餐桌锚点",
+      "description": "主厨餐桌锚点：招牌菜主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A refined hero plate that establishes the signature-dish editorial language with linen, ceramic, and restrained dining-room atmosphere.",
+      "zh-CN": "主厨餐桌锚点，用于招牌菜主题。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Activation Kit Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of pop-up shop and event installation kit before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Pop-up Kit. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-streetfront-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Activation Kit Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of pop-up shop and event installation kit before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "活动套件锁定",
+      "description": "四张参考依赖图，用来锁定快闪装置的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-streetfront-anchor",
+      "title": "Streetfront Anchor",
+      "image": "images/01-streetfront-anchor/image.png",
+      "meta": "images/01-streetfront-anchor/meta.json"
+    },
+    {
+      "id": "02-hero-photo-zone",
+      "title": "Hero Photo Zone",
+      "image": "images/02-hero-photo-zone/image.png",
+      "meta": "images/02-hero-photo-zone/meta.json"
+    },
+    {
+      "id": "03-retail-counter-module",
+      "title": "Retail Counter Module",
+      "image": "images/03-retail-counter-module/image.png",
+      "meta": "images/03-retail-counter-module/meta.json"
+    },
+    {
+      "id": "04-exit-gift-sequence",
+      "title": "Exit Gift Sequence",
+      "image": "images/04-exit-gift-sequence/image.png",
+      "meta": "images/04-exit-gift-sequence/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-streetfront-anchor/meta.json",
+      "images/02-hero-photo-zone/meta.json",
+      "images/03-retail-counter-module/meta.json",
+      "images/04-exit-gift-sequence/meta.json"
+    ],
+    "ref_strategy": "Run 01-streetfront-anchor first. Use its runtime result URL as --ref for 02-hero-photo-zone, 03-retail-counter-module, 04-exit-gift-sequence. Queue may run 02-hero-photo-zone, 03-retail-counter-module, 04-exit-gift-sequence concurrently after 01-streetfront-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

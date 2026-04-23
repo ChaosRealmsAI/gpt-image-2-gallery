@@ -1,0 +1,47 @@
+{
+  "id": "future-equipment-and-suitline-system",
+  "slug": "future-equipment-and-suitline-system",
+  "title": "Future Equipment and Suitline System",
+  "short_title": "Suitline System",
+  "description": "Create future equipment and suitline systems where wearable gear reads as coherent product families.",
+  "i18n": {
+    "en": {
+      "title": "Future Equipment and Suitline System",
+      "short_title": "Suitline System",
+      "description": "Create future equipment and suitline systems where wearable gear reads as coherent product families."
+    },
+    "zh-CN": {
+      "title": "未来装备与服饰系统",
+      "short_title": "装备系统",
+      "description": "做未来装备与服饰系统，让 wearable gear 成为统一产品家族。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "multi-image-reference",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

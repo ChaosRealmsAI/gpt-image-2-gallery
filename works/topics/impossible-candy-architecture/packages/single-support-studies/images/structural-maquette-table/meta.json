@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Create a square tabletop studio image inside a quiet model workshop, using neutral light and a dark worktable that makes the confection structures feel precious. The framing should resemble an architect documenting maquettes before presentation.\n\nSubject:\nShow several edible structural models arranged across the table: one sugar vault, one caramel truss, one chocolate lattice wall, one crystal column cluster, and a partially assembled bridge segment. The pieces should feel like serious studies of span, enclosure, and material behavior rather than dessert decorations. Small metal drafting tools may appear as quiet context.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. Highlight differences in material purpose: sugar for enclosure and glow, caramel for tension, chocolate for frame and skin. The image should communicate iterative design thinking inside the same impossible culinary architecture world.\n\nUse case:\nCandy architecture single study 9/9, reducing the edible city to a table of structural maquettes.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no blueprint text, no pastry shop trays, no random candy scatter.",
+  "id": "structural-maquette-table",
+  "title": "Structural Maquette Table",
+  "description": "A tabletop architecture-studio view of edible maquettes showing failed and successful structural experiments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/single-support-studies/images/structural-maquette-table/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Structural Maquette Table",
+      "description": "A tabletop architecture-studio view of edible maquettes showing failed and successful structural experiments."
+    },
+    "zh-CN": {
+      "title": "Structural Maquette Table",
+      "description": "A tabletop architecture-studio view of edible maquettes showing failed and successful structural experiments."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A dark tabletop covered with edible architectural maquettes in sugar, caramel, and chocolate.",
+      "zh-CN": "A dark tabletop covered with edible architectural maquettes in sugar, caramel, and chocolate."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "biomechanical-entity-design-board",
+  "slug": "biomechanical-entity-design-board",
+  "title": "Biomechanical Entity Design Board",
+  "short_title": "Biomech Board",
+  "description": "Build biomechanical entity boards that merge anatomy and machinery without collapsing into noise.",
+  "i18n": {
+    "en": {
+      "title": "Biomechanical Entity Design Board",
+      "short_title": "Biomech Board",
+      "description": "Build biomechanical entity boards that merge anatomy and machinery without collapsing into noise."
+    },
+    "zh-CN": {
+      "title": "生物机械实体设计板",
+      "short_title": "生物机械",
+      "description": "做生物机械实体设计板，融合 anatomy 和 machinery 而不变噪声。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fusion",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

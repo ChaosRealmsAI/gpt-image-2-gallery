@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nUse a character-poster frame with centered full-body readability, soft studio fog, restrained cyan-and-charcoal palette, and premium storefront polish. Build a polished game-art presentation for one original playable hero skinline, with premium lighting, clean silhouette read, and merchandising clarity. Keep the image square, polished, and intentionally staged like a production-ready game asset review or campaign module. The camera, lighting, and tonal range should help the subject stay readable at both thumbnail and full resolution, with clear hierarchy and no dependence on readable on-screen copy.\n\nSubject:\nPresent the base rarity version with practical armor panels, matte fabric, compact energy blades at rest, and a calm ready stance that sells identity before spectacle. The recurring hero is a swift storm duelist with warm brown skin, a sharp oval face, close-cropped dark hair with one longer braided strand, teal eyes, and a lean athletic build. The subject should feel original, specific, and part of one coherent product system rather than a generic fantasy or sci-fi mashup. Preserve stable design anchors, clean shape language, and believable scale relationships across every visible object, character, card, or environment layer.\n\nImportant details:\nKeep the face, haircut, proportions, and duelist silhouette unmistakable. Materials should feel entry-tier but still desirable, with limited glow accents and disciplined trim placement. The design language should show a believable rarity ladder instead of random costume swaps, keeping the same role fantasy while materials, trim density, glow treatment, and ceremonial value scale upward. Favor disciplined composition, premium material rendering, and obvious internal logic so the result feels useful for art direction, live-ops rollout, or product review. Abstract interface blocks, symbolic markers, or decorative framing are fine, but they must remain non-readable and subordinate to the main visual message.\n\nUse case:\nSkinline Suite single study 1/9, the baseline store-facing key visual.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no weapon copied from known franchises, no floating price text, no random extra characters, no unreadable clutter, no excessive particle burst, no giant cape, no exaggerated rarity effects.",
+  "id": "base-hero-skin",
+  "title": "Base Hero Skin",
+  "description": "A baseline skin poster that defines the hero silhouette, materials, and color grammar for the whole cosmetic line.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fashion",
+    "commercial-mockup",
+    "identity-consistency",
+    "virtual-try-on",
+    "style-transfer",
+    "multi-image-reference",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/skinline-rarity-variant-suite/packages/single-skinline-system-studies/images/base-hero-skin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study 1 for skinline-rarity-variant-suite.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Base Hero Skin",
+      "description": "A baseline skin poster that defines the hero silhouette, materials, and color grammar for the whole cosmetic line."
+    },
+    "zh-CN": {
+      "title": "Base Hero Skin",
+      "description": "A baseline skin poster that defines the hero silhouette, materials, and color grammar for the whole cosmetic line."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "commercial-mockup",
+      "identity-consistency",
+      "virtual-try-on",
+      "style-transfer",
+      "multi-image-reference",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A baseline skin poster that defines the hero silhouette, materials, and color grammar for the whole cosmetic line.",
+      "zh-CN": "A baseline skin poster that defines the hero silhouette, materials, and color grammar for the whole cosmetic line."
+    }
+  }
+}

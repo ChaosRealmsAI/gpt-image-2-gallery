@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square launch-stage composition at blue hour with a low camera, sculptural rim light, controlled haze, and monumental architectural planes reduced to abstract forms. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original premium electric grand tourer with a long wheelbase, flush glazing, crisp shoulder line, turbine wheels, disciplined metallic paint, and an abstract brandless lamp signature. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nShow the full vehicle in a front three-quarter hero stance with planted proportions, mirror-clean glazing, sharp surface transitions, disciplined shadow control, and a sense of quiet authority instead of theatrical excess. Preserve the same exact vehicle silhouette, wheel design, greenhouse proportions, body-color family, and lamp signature across the series. Reflections must explain the surfacing cleanly. The images should feel like real launch-campaign assets rather than anonymous stock renders. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch series study 1/9 for New Car Launch Key Visual System, built as image 01-reference-anchor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no dealership clutter, no race decals, no readable plate, no badge lettering, no cheap showroom props.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The canonical hero frame that defines the launch vehicle and its premium lighting language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series fanout.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The canonical hero frame that defines the launch vehicle and its premium lighting language."
+    },
+    "zh-CN": {
+      "title": "基准主视觉",
+      "description": "定义车型与高级光线语言的基准英雄画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A launch-stage hero image of an original premium electric grand tourer.",
+      "zh-CN": "原创高端电动 GT 车型的发布主视觉。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Place the hero setup on a spotless white bench with one clear glass spoon centered over a subtle brushed-steel insert, while thin vapor drifts low across the surface. The light should create crisp edges in the glass and a luminous halo through the translucent sphere without flattening the whites.\n\nSubject:\nCenter one deep red liquid sphere resting in a clear spoon, with a small scatter of colorless gel pearls nearby and a restrained plume of cold vapor wrapping behind it. Include one elegant beaker and one slender pipette out of focus in the rear plane purely as environmental context. The result should feel like a plated experiment reduced to its most iconic form.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. This first image establishes the studio logic for later variations, so the bench height, reflection pattern, color temperature, and vapor behavior must feel precise and repeatable. The sphere membrane should look thin yet intact, with believable surface tension and internal refraction rather than a generic glossy ball.\n\nUse case:\nMolecular gastronomy lab series study 1/9, establishing the laboratory plating anchor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no readable measurement markings, no colored plastic tools, no bubbling soda look.",
+  "id": "01-lab-spoon-anchor",
+  "title": "Lab Spoon Anchor",
+  "description": "A red spherified orb in a glass spoon establishes the molecular lab look for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lab Spoon Anchor",
+      "description": "A red spherified orb in a glass spoon establishes the molecular lab look for the series."
+    },
+    "zh-CN": {
+      "title": "Lab Spoon Anchor",
+      "description": "A red spherified orb in a glass spoon establishes the molecular lab look for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A red liquid sphere in a clear spoon on a pristine lab bench with low drifting vapor.",
+      "zh-CN": "A red liquid sphere in a clear spoon on a pristine lab bench with low drifting vapor."
+    }
+  }
+}

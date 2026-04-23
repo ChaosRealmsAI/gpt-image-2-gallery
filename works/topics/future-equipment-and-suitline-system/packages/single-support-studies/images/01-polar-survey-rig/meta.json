@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square equipment concept board for one wearable product family or suit configuration, keeping silhouette clarity and material realism at the center. The board may use a full-body subject, cropped details, or organized accessories as long as the system stays legible. Compose a square board with one full-body cold-weather suit, thermal layering details, sensor modules, and anti-slip boot close-ups.\n\nSubject:\nShow a complete gear identity with clear task cues such as rescue, survey, reef work, cargo handling, agriculture, or courier transit. The suit should feel worn and usable, not merely styled. The system should feel built for prolonged field work through insulation, weather sealing, and instrument access.\n\nImportant details:\nFavor seam logic, hardware placement, and believable material transitions over surface decoration. Each image should feel like part of a wider product ecosystem even when it stands alone. Use restrained color and realistic bulk so the rig feels professional and ergonomic. Preserve ergonomic realism so weight, protection, mobility, and access all make sense on the body.\n\nUse case:\nSuitline System single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cosplay costume styling, no giant weapons, no fashion runway theatrics, no real-world brand marks, no expedition costume nostalgia.",
+  "id": "01-polar-survey-rig",
+  "title": "Polar Survey Rig",
+  "description": "Polar Survey Rig presents a cold-climate equipment board designed for survey work across extreme ice and wind.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fashion",
+    "multi-image-reference",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-equipment-and-suitline-system/packages/single-support-studies/images/01-polar-survey-rig/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Suitline System support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Polar Survey Rig",
+      "description": "Polar Survey Rig presents a cold-climate equipment board designed for survey work across extreme ice and wind."
+    },
+    "zh-CN": {
+      "title": "Polar Survey Rig",
+      "description": "装备系统主题中的Polar Survey Rig图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "multi-image-reference",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Polar Survey Rig presents a cold-climate equipment board designed for survey work across extreme ice and wind.",
+      "zh-CN": "装备系统主题中的Polar Survey Rig图像。"
+    }
+  }
+}

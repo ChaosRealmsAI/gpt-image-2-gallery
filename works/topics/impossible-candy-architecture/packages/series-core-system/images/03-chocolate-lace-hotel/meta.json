@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Maintain the same architectural camera height, dusk exposure, and disciplined urban framing from the reference image so the district reads as part of the same city. Let the light skim across intricate chocolate lace facades and reveal hollow depth behind the pattern.\n\nSubject:\nShow a grand hotel block built from dark and milk chocolate lattice panels, supported by glossy ganache columns and sugar-glass atrium roofs. Fine chocolate filigree balconies, edible-metallic trim, and crystalline awnings can add richness, but the building must remain structurally legible. The district should feel luxurious and slightly surreal, not whimsical.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. Preserve exact skyline discipline, twilight color family, and street-scale logic from the reference model while shifting the hero material toward chocolate lace and ganache surfaces. The lacework needs enough thickness and support points to feel believable even in fantasy.\n\nUse case:\nCandy architecture series study 3/9, adapting the anchor metropolis into a chocolate-lace hotel district.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no molded candy figurines, no pastry-shop display tray vibe, no readable marquee.",
+  "id": "03-chocolate-lace-hotel",
+  "title": "Chocolate Lace Hotel",
+  "description": "A hotel-district variation that keeps the anchor city language while foregrounding chocolate lattice craft.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/03-chocolate-lace-hotel/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sugar-cathedral-anchor",
+        "meta_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/meta.json",
+        "image_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Chocolate Lace Hotel",
+      "description": "A hotel-district variation that keeps the anchor city language while foregrounding chocolate lattice craft."
+    },
+    "zh-CN": {
+      "title": "Chocolate Lace Hotel",
+      "description": "A hotel-district variation that keeps the anchor city language while foregrounding chocolate lattice craft."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A luxury hotel block built from dark chocolate lattice, sugar-glass roofs, and ganache columns.",
+      "zh-CN": "A luxury hotel block built from dark chocolate lattice, sugar-glass roofs, and ganache columns."
+    }
+  }
+}

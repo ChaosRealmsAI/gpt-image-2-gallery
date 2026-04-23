@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square premium studio scene with subtle floor reflection, soft shadow, and controlled key light over a dark neutral gradient. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original cordless precision drill-driver with a magnesium frame, rubber grip overmold, satin metal chuck, compact battery base, and carefully resolved vent geometry. Make the subject feel original, production-aware, and clearly grounded in Tool and Device Hero Render System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nShow the full tool clearly with precise grip, chuck, battery, metallic finish, and ergonomically believable proportions. The result should feel like a catalog hero approved for launch use. Preserve exact tool silhouette, grip shape, chuck design, battery geometry, vent pattern, and color blocking across the series. Materials must look tactile and production-ready rather than toy-like or over-stylized. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nTool Renders series study 1/9 for Tool and Device Hero Render System, built as image 01-reference-anchor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand logos, no readable labels, no workshop mess, no sparks, no impossible tool bits, no sci-fi glow.",
+  "id": "01-reference-anchor",
+  "title": "Tool Hero",
+  "description": "The assembled hero render defining the product identity and material quality.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series fanout.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tool Hero",
+      "description": "The assembled hero render defining the product identity and material quality."
+    },
+    "zh-CN": {
+      "title": "工具英雄图",
+      "description": "定义产品身份与材质品质的完整英雄渲染。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A premium studio hero render of an original cordless industrial tool.",
+      "zh-CN": "原创无绳工业工具的高级棚拍英雄图。"
+    }
+  }
+}

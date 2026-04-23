@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Exhibition Sequence Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of gallery exhibition spatial sequence before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Gallery Sequence. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-threshold-room-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Exhibition Sequence Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of gallery exhibition spatial sequence before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "展陈序列锁定",
+      "description": "四张参考依赖图，用来锁定展陈空间的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-threshold-room-anchor",
+      "title": "Threshold Room Anchor",
+      "image": "images/01-threshold-room-anchor/image.png",
+      "meta": "images/01-threshold-room-anchor/meta.json"
+    },
+    {
+      "id": "02-main-hall-sequence",
+      "title": "Main Hall Sequence",
+      "image": "images/02-main-hall-sequence/image.png",
+      "meta": "images/02-main-hall-sequence/meta.json"
+    },
+    {
+      "id": "03-side-gallery-intimacy",
+      "title": "Side Gallery Intimacy",
+      "image": "images/03-side-gallery-intimacy/image.png",
+      "meta": "images/03-side-gallery-intimacy/meta.json"
+    },
+    {
+      "id": "04-exit-reflection-chamber",
+      "title": "Exit Reflection Chamber",
+      "image": "images/04-exit-reflection-chamber/image.png",
+      "meta": "images/04-exit-reflection-chamber/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-threshold-room-anchor/meta.json",
+      "images/02-main-hall-sequence/meta.json",
+      "images/03-side-gallery-intimacy/meta.json",
+      "images/04-exit-reflection-chamber/meta.json"
+    ],
+    "ref_strategy": "Run 01-threshold-room-anchor first. Use its runtime result URL as --ref for 02-main-hall-sequence, 03-side-gallery-intimacy, 04-exit-reflection-chamber. Queue may run 02-main-hall-sequence, 03-side-gallery-intimacy, 04-exit-reflection-chamber concurrently after 01-threshold-room-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

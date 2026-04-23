@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square campaign style and campus-brand atmosphere, now centered on an admissions booth or welcome desk photographed from a slightly frontal angle under natural daylight. The scene should feel live enough for a real event and clean enough for use in a school marketing deck. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a tidy welcome station with brochures, tote bags, blank badges, floral accents, and one or two photorealistic campus-brand panels behind it. The environment should suggest organized hospitality, family trust, and educational warmth rather than commercial hard-selling. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the same admissions identity system from the reference poster, especially the color family, photo treatment, and blank information panels. The result should feel like a complete enrollment-kit world, not four unrelated marketing assets. Preserve the same campus color system, photography tone, panel hierarchy, family-friendly admissions mood, and blank information-band rhythm from the reference asset. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nSchool Open Day and Enrollment Kit series study 4/4, admissions booth hero.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no celebrity faces, no unrealistic campus luxury, no crowded chaos, no distorted architecture.",
+  "id": "04-admissions-booth-hero",
+  "title": "Admissions Booth Hero",
+  "description": "An admissions booth scene that completes the reference-dependent school enrollment family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/04-admissions-booth-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-open-day-poster",
+        "meta_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/meta.json",
+        "image_path": "works/topics/school-open-day-and-enrollment-kit/packages/series-core-system/images/01-reference-open-day-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-open-day-poster.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Admissions Booth Hero",
+      "description": "An admissions booth scene that completes the reference-dependent school enrollment family."
+    },
+    "zh-CN": {
+      "title": "招生咨询台主视觉",
+      "description": "完成整组参考依赖学校招生家族的咨询台主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "An admissions booth scene that completes the reference-dependent school enrollment family.",
+      "zh-CN": "完成整组参考依赖学校招生家族的咨询台主视觉。"
+    }
+  }
+}

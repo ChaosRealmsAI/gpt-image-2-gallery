@@ -1,0 +1,88 @@
+{
+  "id": "single-platonic-cathedral-studies",
+  "type": "single",
+  "title": "Platonic Cathedral Studies",
+  "description": "Nine independent stained-glass and stone-tracery studies translating Platonic solids into cathedral-grade geometric compositions.",
+  "creative_direction": "The package treats Platonic solids as sacred architectural protagonists, combining projection discipline, traceries, and stained-light atmosphere without sacrificing geometric correctness.",
+  "cover_image": "images/01-rose-window-choir/image.png",
+  "i18n": {
+    "en": {
+      "title": "Platonic Cathedral Studies",
+      "description": "Nine independent stained-glass and stone-tracery studies translating Platonic solids into cathedral-grade geometric compositions."
+    },
+    "zh-CN": {
+      "title": "多面体教堂研究",
+      "description": "围绕多面体教堂生成九张彼此独立的单图研究，分别测试不同材料、版式密度与视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-rose-window-choir",
+      "title": "Rose Window Choir",
+      "image": "images/01-rose-window-choir/image.png",
+      "meta": "images/01-rose-window-choir/meta.json"
+    },
+    {
+      "id": "02-dodecahedron-apse",
+      "title": "Dodecahedron Apse",
+      "image": "images/02-dodecahedron-apse/image.png",
+      "meta": "images/02-dodecahedron-apse/meta.json"
+    },
+    {
+      "id": "03-cube-transept",
+      "title": "Cube Transept",
+      "image": "images/03-cube-transept/image.png",
+      "meta": "images/03-cube-transept/meta.json"
+    },
+    {
+      "id": "04-tetrahedral-lantern",
+      "title": "Tetrahedral Lantern",
+      "image": "images/04-tetrahedral-lantern/image.png",
+      "meta": "images/04-tetrahedral-lantern/meta.json"
+    },
+    {
+      "id": "05-octahedral-nave",
+      "title": "Octahedral Nave",
+      "image": "images/05-octahedral-nave/image.png",
+      "meta": "images/05-octahedral-nave/meta.json"
+    },
+    {
+      "id": "06-icosahedral-rose",
+      "title": "Icosahedral Rose",
+      "image": "images/06-icosahedral-rose/image.png",
+      "meta": "images/06-icosahedral-rose/meta.json"
+    },
+    {
+      "id": "07-midnight-clerestory",
+      "title": "Midnight Clerestory",
+      "image": "images/07-midnight-clerestory/image.png",
+      "meta": "images/07-midnight-clerestory/meta.json"
+    },
+    {
+      "id": "08-stone-tracery-blueprint",
+      "title": "Stone Tracery Blueprint",
+      "image": "images/08-stone-tracery-blueprint/image.png",
+      "meta": "images/08-stone-tracery-blueprint/meta.json"
+    },
+    {
+      "id": "09-candlelit-processional",
+      "title": "Candlelit Processional",
+      "image": "images/09-candlelit-processional/image.png",
+      "meta": "images/09-candlelit-processional/meta.json"
+    }
+  ]
+}

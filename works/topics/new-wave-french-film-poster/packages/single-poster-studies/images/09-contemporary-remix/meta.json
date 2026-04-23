@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square front-facing poster presentation on a clean neutral wall, lit like a premium print test, with crisp edges and a polished but still tactile finish appropriate to the style. The poster should express 1960s art-house poster grammar with radical photo crop, offset grain, hand-painted marks, and emotional empty space, using inky blue, carmine red, warm cream, charcoal, and cigarette-smoke gray and a tactile surface appropriate to the medium.\n\nSubject:\nApply the historical poster language to a contemporary urban subject so the old visual grammar proves it can carry present-day themes without losing authenticity or formal discipline. Use street couples, scooter mirrors, apartment windows, rain-slick pavement, camera flash, and cafe tables as the main visual ingredients, and organize them with handwritten sweeps and sans blocks that feel gestural but stay non-readable. For the contemporary-subject axis, thread in a late-night metro ride and smartphone glow transformed into a melancholic art-house romance surface. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nThis is not parody. The contemporary subject should feel genuinely absorbed into the style through palette, composition, symbolic compression, and non-readable lettering treatment. Preserve abrupt crop decisions, mood ambiguity, rough screen-print texture, and tension between photo and mark-making. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no blockbuster gloss, no readable credits, no hyper-polished skin retouching, no superhero spectacle.\n\nUse case:\nFrench New Wave single study 9/9, testing historical grammar on a present-day subject.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "09-contemporary-remix",
+  "title": "Contemporary Remix",
+  "description": "French New Wave rendered as a contemporary remix study, emphasizing testing historical grammar on a present-day subject.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-wave-french-film-poster/packages/single-poster-studies/images/09-contemporary-remix/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent French New Wave poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Contemporary Remix",
+      "description": "French New Wave rendered as a contemporary remix study, emphasizing testing historical grammar on a present-day subject."
+    },
+    "zh-CN": {
+      "title": "当代题材混搭",
+      "description": "法国新浪潮主题下的当代题材混搭研究，重点是测试历史风格对当代题材的吸收能力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "French New Wave poster study shown as contemporary remix with non-readable lettering and style-accurate materials.",
+      "zh-CN": "法国新浪潮风格海报，以当代题材混搭形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

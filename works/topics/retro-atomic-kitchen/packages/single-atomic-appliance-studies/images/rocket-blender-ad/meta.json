@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement page rendering in the style of 1958 American kitchenware print ads. Full product-hero layout: appliance centered on a bright gradient studio backdrop, headline area across the top, small tagline area at the bottom. Halftone print grain, slight CMYK offset on edges, matte coated-paper feel.\n\nSubject:\nAn imaginary atomic-age countertop blender shaped like a chrome tabletop rocket: bulbous clear glass vessel for the pitcher, housed inside a polished chrome base with three tail fins at the bottom, an amber pilot light, and a big red bakelite dial knob on the side. Inside the glass vessel a strawberry milkshake swirls in a slow vortex. The backdrop is a bright turquoise-to-ivory radial gradient. Small stylized starburst motifs decorate the top corners above the appliance. Empty banner areas at top and bottom suggest ad copy but remain blank.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. Appliance form must read as 'what 1958 thought a futuristic blender would look like': bulbous vessel, chrome fins, big analog knob. Rendering must feel like printed illustration, not photo: halftone grain, flat highlights, slight sketch-style outline on chrome edges.\n\nUse case:\nAtomic Appliance Studies single study 1 of 5, independent product ad mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern stainless steel appliance, no LCD display, no touchscreen, no photoreal depth-of-field, no sharp rectangular minimalist design, preserve exact 1:1 aspect ratio.",
+  "id": "rocket-blender-ad",
+  "title": "Rocket Blender Ad",
+  "description": "Magazine-ad mockup of an imaginary atomic-age rocket-shaped countertop blender with chrome tail fins.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/single-atomic-appliance-studies/images/rocket-blender-ad/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single. No reference image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rocket Blender Ad",
+      "description": "Magazine-ad mockup of an imaginary atomic-age rocket-shaped countertop blender with chrome tail fins."
+    },
+    "zh-CN": {
+      "title": "火箭搅拌机广告",
+      "description": "想象中原子时代火箭造型台式搅拌机的杂志广告样稿, 带镀铬尾鳍。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "An atomic-age magazine ad rendering of a chrome rocket-shaped blender with a strawberry shake inside.",
+      "zh-CN": "原子时代杂志广告风的火箭造型搅拌机渲染, 内有草莓奶昔。"
+    }
+  }
+}

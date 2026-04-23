@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Course Cover Extensions",
+  "description": "Five independent studies extend the course-cover theme into extra subject covers, badge boards, homepage shelves, and workbook stacks.",
+  "creative_direction": "Independent studies test adjacent catalog and curriculum-browsing surfaces for the same children-course brand without needing the main series reference.",
+  "cover_image": "images/01-language-club-cover/image.png",
+  "i18n": {
+    "en": {
+      "title": "Course Cover Extensions",
+      "description": "Five independent studies extend the course-cover theme into extra subject covers, badge boards, homepage shelves, and workbook stacks."
+    },
+    "zh-CN": {
+      "title": "课程封面延展研究",
+      "description": "五张独立画面把课程封面主题扩展到更多学科封面、徽章板、首页陈列和练习册堆叠。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-language-club-cover",
+      "title": "Language Club Cover",
+      "image": "images/01-language-club-cover/image.png",
+      "meta": "images/01-language-club-cover/meta.json"
+    },
+    {
+      "id": "02-music-rhythm-cover",
+      "title": "Music Rhythm Cover",
+      "image": "images/02-music-rhythm-cover/image.png",
+      "meta": "images/02-music-rhythm-cover/meta.json"
+    },
+    {
+      "id": "03-credential-badge-board",
+      "title": "Credential Badge Board",
+      "image": "images/03-credential-badge-board/image.png",
+      "meta": "images/03-credential-badge-board/meta.json"
+    },
+    {
+      "id": "04-homepage-course-shelf",
+      "title": "Homepage Course Shelf",
+      "image": "images/04-homepage-course-shelf/image.png",
+      "meta": "images/04-homepage-course-shelf/meta.json"
+    },
+    {
+      "id": "05-workbook-stack",
+      "title": "Workbook Stack",
+      "image": "images/05-workbook-stack/image.png",
+      "meta": "images/05-workbook-stack/meta.json"
+    }
+  ]
+}

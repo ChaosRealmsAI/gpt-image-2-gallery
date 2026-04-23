@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square cinematic matte-painting style illustration of the interior of the same spaceport's waiting lounge, view from the near end looking toward a curved panoramic window. Warm afternoon light comes through the window from the same powder-blue sky as the reference. Matte painting texture, light film grain.\n\nSubject:\nAn atomic-age passenger lounge inside the art-deco spire terminal: chrome-trimmed teardrop armchairs in powder pink and turquoise, low chrome-legged tables with ivory tops, a curving sunken conversation pit in mustard-gold carpet, and a decorative starburst chandelier hanging from the rounded ceiling cove. Through the large curving window the silver finned rocket from the reference stands majestically on its gantry against the same terminal spire and observation dome. Two stylized passengers in pastel flight suits chat in the pit; a chrome-trimmed hostess in cadmium-red uniform walks past with a tray of martini-style pressurized drinks.\n\nImportant details:\nThe rocket silhouette in the window must match the reference exactly (three red stripes, same fin layout, same gantry). Furniture forms are bulbous, curved, ray-gun-gothic. Palette stays strict atomic-age: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. Illustration is matte painting, not photo. Figures stylized, not photoreal.\n\nUse case:\nSilver Rocket Terminal series shot 3 of 4, an interior moment tied to the reference via the window view.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern glass-box airport lounge, no smartphones, no photoreal faces, preserve exact 1:1 aspect ratio, preserve the reference rocket visible through the window.",
+  "id": "03-waiting-lounge",
+  "title": "Waiting Lounge",
+  "description": "Interior of the spaceport lounge with the reference rocket visible through the curving window.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "cinematic", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/03-waiting-lounge/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-terminal-hero",
+        "meta_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/meta.json",
+        "image_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on terminal-hero. Use its runtime URL as --ref to preserve the rocket visible through the lounge window."
+  },
+  "i18n": {
+    "en": {
+      "title": "Waiting Lounge",
+      "description": "Interior of the spaceport lounge with the reference rocket visible through the curving window."
+    },
+    "zh-CN": {
+      "title": "候机休息室",
+      "description": "太空港候机休息室内部, 弧形落地窗外能看到参考火箭。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "cinematic"],
+    "alt": {
+      "en": "A mid-century atomic-age airport lounge with teardrop armchairs and a silver rocket visible through the window.",
+      "zh-CN": "原子时代风格的候机休息室, 有水滴形扶手椅, 窗外可见银色火箭。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "single-point-perspective-clinical-corridor",
+  "slug": "single-point-perspective-clinical-corridor",
+  "title": "Single-Point Perspective Clinical Corridor",
+  "short_title": "One-Point Clinical",
+  "description": "Strict one-point perspective cinematography, corridor or symmetrical interior stretching to a vanishing point, cold red/white palette, monumental scale.",
+  "i18n": {
+    "en": {
+      "title": "Single-Point Perspective Clinical Corridor",
+      "short_title": "One-Point Clinical",
+      "description": "Strict one-point perspective cinematography, corridor or symmetrical interior stretching to a vanishing point, cold red/white palette, monumental scale."
+    },
+    "zh-CN": {
+      "title": "单点透视临床走廊",
+      "short_title": "单点透视",
+      "description": "严格单点透视 · 走廊或对称室内延伸至消失点 · 冷红/白色调 · 纪念碑式尺度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 610,
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-single-point-perspective-clinical-corridor",
+      "type": "single",
+      "title": "One-Point Clinical Studies",
+      "path": "packages/single-single-point-perspective-clinical-corridor/package.json"
+    }
+  ]
+}

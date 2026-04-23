@@ -1,0 +1,74 @@
+{
+  "prompt": "Scene:\nCreate a square atlas plate for a speculative world, combining map readability, legend structure, and environmental storytelling in one disciplined layout. The image can use parchment, print, vellum, or technical drafting textures, but the map itself must remain crisp and intentionally organized. Use borders, inset frames, line weights, and abstract symbols as hierarchy tools rather than decoration. Keep the same base map but spotlight maritime corridors, harbor symbols, archipelagos, and current diagrams within the existing atlas layout.\n\nSubject:\nCenter the image on one coherent worldbuilding map system: coasts, terrain bands, faction territories, routes, hazard zones, inset diagrams, and legend compartments should all belong to the same cartographic language. The map should feel ready for a worldbook, poster, or campaign deck, not like a generic fantasy prop. Preserve the anchor coastline and faction colors while pushing port systems, convoy paths, and sea hazards to the front.\n\nImportant details:\nMaintain the authority of cartography without readable text. Symbol sets, route patterns, scale bars, seals, and legend blocks may appear as abstract information shapes. The image should reward close inspection through landform logic, political structure, and clear information hierarchy. Trade logic should feel economically grounded and geographically plausible, not decorative. Preserve the exact structural language established by the reference image, especially the coastline shape language, legend placement, faction color hierarchy, and route symbol grammar.\n\nUse case:\nAtlas Set series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern satellite UI, no readable text, no generic fantasy parchment stains overwhelming the map, no compass-logo branding, no pirate treasure-map clichés.",
+  "id": "03-maritime-trade-expansion",
+  "title": "Maritime Trade Expansion",
+  "description": "Maritime Trade Expansion presents the reference world map reinterpreted around sea routes, port networks, and shipping hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/03-maritime-trade-expansion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-atlas-plate-anchor",
+        "meta_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/01-atlas-plate-anchor/meta.json",
+        "image_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/01-atlas-plate-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Atlas Set core system variant preserving image 01.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/series-core-system/images/03-maritime-trade-expansion/image.png",
+      "checked_at": "2026-04-23T13:22:54.996Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Maritime Trade Expansion",
+      "description": "Maritime Trade Expansion presents the reference world map reinterpreted around sea routes, port networks, and shipping hierarchy."
+    },
+    "zh-CN": {
+      "title": "Maritime Trade Expansion",
+      "description": "世界观地图主题中的Maritime Trade Expansion图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Maritime Trade Expansion presents the reference world map reinterpreted around sea routes, port networks, and shipping hierarchy.",
+      "zh-CN": "世界观地图主题中的Maritime Trade Expansion图像。"
+    }
+  }
+}

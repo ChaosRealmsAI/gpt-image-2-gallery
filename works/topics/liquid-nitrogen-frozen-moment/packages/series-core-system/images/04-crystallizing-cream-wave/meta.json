@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Use the same black-stage camera angle, flash clarity, and sinking vapor layer from the reference image, but let the subject spread wider across the frame so texture transformation becomes the star. The lighting should emphasize ridges, peaks, and crystal formation on a pale surface.\n\nSubject:\nShow a soft ribbon of whipped cream or semifreddo mixture at the exact instant it hardens under a cryogenic hit, with the outer edges crisping into frost while the center still reads creamy. Tiny shards and cold mist can lift from the surface, but the wave form must remain elegant and sculptural. The image should turn softness into architecture.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. Preserve exact stage logic, flash character, and vapor behavior from the reference model while foregrounding the phase change from soft cream to brittle crystalline crust. The contrast between glossy softness and icy opacity must feel especially convincing.\n\nUse case:\nLiquid nitrogen frozen moment series study 4/9, closing the anchor system with a cream-to-crystal transition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no milk splash tropes, no overexposed white clipping, no abstract smoke cloud.",
+  "id": "04-crystallizing-cream-wave",
+  "title": "Crystallizing Cream Wave",
+  "description": "A cream-focused variation preserving the anchor stage while showing cold shock turning softness crystalline.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/04-crystallizing-cream-wave/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-frozen-pour-anchor",
+        "meta_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/meta.json",
+        "image_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Crystallizing Cream Wave",
+      "description": "A cream-focused variation preserving the anchor stage while showing cold shock turning softness crystalline."
+    },
+    "zh-CN": {
+      "title": "Crystallizing Cream Wave",
+      "description": "A cream-focused variation preserving the anchor stage while showing cold shock turning softness crystalline."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A ribbon of cream freezing into crystalline edges as cold vapor spreads across a dark stage.",
+      "zh-CN": "A ribbon of cream freezing into crystalline edges as cold vapor spreads across a dark stage."
+    }
+  }
+}

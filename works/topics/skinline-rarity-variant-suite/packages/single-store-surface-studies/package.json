@@ -1,0 +1,65 @@
+{
+  "id": "single-store-surface-studies",
+  "type": "single",
+  "title": "Store Surface Studies",
+  "description": "Independent support studies translating the same skinline language into store, banner, and reward surfaces.",
+  "creative_direction": "Independent support surfaces for the same skinline, focusing on marketing crops, shop modules, and collectible presentation without direct reference dependencies.",
+  "cover_image": "images/holiday-event-banner/image.png",
+  "i18n": {
+    "en": {
+      "title": "Store Surface Studies",
+      "description": "Independent support studies translating the same skinline language into store, banner, and reward surfaces."
+    },
+    "zh-CN": {
+      "title": "商店表面研究",
+      "description": "围绕同一个角色做皮肤线，从基础款到高稀有度和活动变体，重点看身份保持和升级逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "holiday-event-banner",
+      "title": "Holiday Event Banner",
+      "image": "images/holiday-event-banner/image.png",
+      "meta": "images/holiday-event-banner/meta.json"
+    },
+    {
+      "id": "shop-feature-tile",
+      "title": "Shop Feature Tile",
+      "image": "images/shop-feature-tile/image.png",
+      "meta": "images/shop-feature-tile/meta.json"
+    },
+    {
+      "id": "icon-frame-preview",
+      "title": "Icon Frame Preview",
+      "image": "images/icon-frame-preview/image.png",
+      "meta": "images/icon-frame-preview/meta.json"
+    },
+    {
+      "id": "profile-card-crop",
+      "title": "Profile Card Crop",
+      "image": "images/profile-card-crop/image.png",
+      "meta": "images/profile-card-crop/meta.json"
+    },
+    {
+      "id": "unlock-splash-display",
+      "title": "Unlock Splash Display",
+      "image": "images/unlock-splash-display/image.png",
+      "meta": "images/unlock-splash-display/meta.json"
+    }
+  ]
+}

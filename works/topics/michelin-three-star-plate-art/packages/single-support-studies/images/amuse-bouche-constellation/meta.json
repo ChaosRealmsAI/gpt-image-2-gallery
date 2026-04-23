@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Create a square top-down photograph of a dark stone slab under soft theatrical light, with generous empty margins and a quiet restaurant-table atmosphere stripped of everything except the food. The slab should feel expensive and minimally reflective, with enough micro texture to separate it from a flat black background.\n\nSubject:\nArrange five tiny amuse-bouche pieces in a loose constellation: one tart shell, one smoked fish rosette, one gel dome, one miniature croustade, and one herb-topped custard spoon. Each bite must be visibly distinct in shape and texture, yet the spacing between them should feel as carefully composed as the bites themselves. The result should look like a progression of ideas rather than a crowded sampler platter.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Emphasize disciplined spacing, micro garnish control, and believable differences in crisp, creamy, and glossy textures. Each bite should feel executable by a top tasting-menu kitchen, with rims clean, ingredients proportionate, and tiny details sharp enough to reward close inspection.\n\nUse case:\nThree-star plate art single study 5/9, exploring a constellation-style amuse-bouche layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no menu cards, no glassware, no crumbs scattered randomly.",
+  "id": "amuse-bouche-constellation",
+  "title": "Amuse-Bouche Constellation",
+  "description": "A black-stone field of tiny bites arranged with astronomical spacing and tasting-menu precision.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/single-support-studies/images/amuse-bouche-constellation/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Amuse-Bouche Constellation",
+      "description": "A black-stone field of tiny bites arranged with astronomical spacing and tasting-menu precision."
+    },
+    "zh-CN": {
+      "title": "Amuse-Bouche Constellation",
+      "description": "A black-stone field of tiny bites arranged with astronomical spacing and tasting-menu precision."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Five tiny fine-dining bites spaced across a dark slab like a carefully composed constellation.",
+      "zh-CN": "Five tiny fine-dining bites spaced across a dark slab like a carefully composed constellation."
+    }
+  }
+}

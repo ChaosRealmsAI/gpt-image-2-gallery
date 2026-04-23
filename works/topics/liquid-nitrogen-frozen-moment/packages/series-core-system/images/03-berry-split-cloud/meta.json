@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Maintain the exact black-stage angle, flash discipline, and low vapor sheet from the reference image so the series continuity remains unmistakable. The reflections should stay subtle, allowing the fruit fragments and frost to dominate the frame.\n\nSubject:\nCapture several ripe berries at the instant they split under cryogenic stress, with skins peeling back, frozen juice crystals scattering, and tiny seeds suspended around the rupture. The cluster should remain centered enough to read as one event rather than random debris. The image must feel brutally precise.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. Preserve exact stage geometry, flash character, and gravity-aware vapor from the reference model while emphasizing skin tension, wet crystal breakup, and seed detail. The fracture pattern should suggest real berry structure and moisture content.\n\nUse case:\nLiquid nitrogen frozen moment series study 3/9, using the anchor stage to study berry rupture and ice spray.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no syrup splash aesthetics, no candy-like seed colors, no chaotic particle field.",
+  "id": "03-berry-split-cloud",
+  "title": "Berry Split Cloud",
+  "description": "A berry-fracture variation preserving the anchor stage while focusing on skin rupture and icy seed spray.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/03-berry-split-cloud/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-frozen-pour-anchor",
+        "meta_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/meta.json",
+        "image_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Berry Split Cloud",
+      "description": "A berry-fracture variation preserving the anchor stage while focusing on skin rupture and icy seed spray."
+    },
+    "zh-CN": {
+      "title": "Berry Split Cloud",
+      "description": "A berry-fracture variation preserving the anchor stage while focusing on skin rupture and icy seed spray."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Cryogenically split berries with icy fragments and seeds suspended over a dark stage.",
+      "zh-CN": "Cryogenically split berries with icy fragments and seeds suspended over a dark stage."
+    }
+  }
+}

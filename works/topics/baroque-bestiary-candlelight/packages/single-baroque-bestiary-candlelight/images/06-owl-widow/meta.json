@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Stage the portrait near a curtained window where candlelight and a sliver of moonlight barely separate the figure from the room.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. An owl-faced widow in layered black lace holds a small ring box closed in both hands, staring with exhausted intelligence.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. Favor quiet textures such as lace, feather edge, dried tears of wax, and dusty wood over theatrical action.\n\nUse case:\nBaroque Bestiary Candlelight single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-owl-widow",
+  "title": "Owl Widow",
+  "description": "An owl-faced widow portrait defined by black lace, hushed grief, and layered low light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/06-owl-widow/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on owl widow.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Owl Widow",
+      "description": "An owl-faced widow portrait defined by black lace, hushed grief, and layered low light."
+    },
+    "zh-CN": {
+      "title": "Owl Widow",
+      "description": "围绕巴洛克神兽的第6张独立研究图，聚焦 Owl Widow。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "An owl-faced widow in black lace holding a ring box in dim candlelight.",
+      "zh-CN": "巴洛克神兽主题图：Owl Widow。"
+    }
+  }
+}

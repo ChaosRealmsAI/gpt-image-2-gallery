@@ -1,0 +1,47 @@
+{
+  "id": "alien-ecology-field-guide-system",
+  "slug": "alien-ecology-field-guide-system",
+  "title": "Alien Ecology Field Guide System",
+  "short_title": "Alien Ecology",
+  "description": "Create alien-ecology field-guide systems that feel biologically strange but internally patterned.",
+  "i18n": {
+    "en": {
+      "title": "Alien Ecology Field Guide System",
+      "short_title": "Alien Ecology",
+      "description": "Create alien-ecology field-guide systems that feel biologically strange but internally patterned."
+    },
+    "zh-CN": {
+      "title": "异星生态 field guide 系统",
+      "short_title": "异星生态",
+      "description": "做异星生态 field guide 系统，让生物陌生却内部有规律。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

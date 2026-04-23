@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square, photoreal landscape study of norwegian fjord deep cut. Compose it as directional light carving sharp separation between illuminated and shadowed forms, using a composition built around light falloff, shadow shape, and reflective control rather than camera gimmicks. Let one strong light source create crisp hierarchy and believable color temperature shifts Keep the frame cinematic but disciplined, with a clear foreground, middle distance, and far mass so the viewer can measure real depth. The image should feel like a field photograph made with patience, precision, and sublime restraint rather than a fantasy matte painting.\n\nSubject:\nShow a Norwegian fjord in afternoon light, with thousand-meter cliffs dropping into mirror-still dark water, waterfall ribbons descending the rock faces, and a small fishing boat leaving a white wake. This variation should emphasize light-structure study. The main landform must dominate the composition, but secondary elements should quietly explain how the place works: water paths, sediment lines, snow bands, surf, ash, wind streaks, stars, or human traces where appropriate. Everything in the image should support the same idea of scale and climate, so the scene reads as one coherent environment rather than a stack of spectacular details.\n\nImportant details:\nPreserve sheer vertical drop, dark reflective water, wet rock detail, mist from waterfalls, and the sensation of glacial erosion cutting a deep, precise corridor through the mountains. Surface brightness, shadow depth, and reflected light should all agree with the material and weather conditions. Keep geology, weather, and atmosphere physically believable. Use subtle micro-texture, tonal separation, and air perspective to reinforce distance. If a human, vehicle, tent, caravan, bird, or boat appears, it must remain tiny and subordinate to the landscape, functioning only as a scale witness. The composition should feel original, severe, and elegant, with no decorative filler and no imitation of any copyrighted visual property.\n\nUse case:\nNorwegian Fjord Deep Cut single study 5/9, exploring the light-structure study variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cruise ship, no town skyline, no suspension bridge, no tropical water color, no blown highlights, no muddy blacks, no theatrical stage lighting, no kitsch color grading, no artificial border, no split-panel treatment.",
+  "id": "05-light-contrast",
+  "title": "Light Contrast",
+  "description": "Light Contrast interprets Norwegian Fjord Deep Cut as a self-contained sublime landscape study with a distinct compositional emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fjord-norway-deep-cut/packages/single-landscape-studies/images/05-light-contrast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent landscape single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Light Contrast",
+      "description": "Light Contrast interprets Norwegian Fjord Deep Cut as a self-contained sublime landscape study with a distinct compositional emphasis."
+    },
+    "zh-CN": {
+      "title": "光线反差",
+      "description": "光线反差：围绕挪威峡湾深切的独立单图研究，强调这一构图切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism",
+      "single"
+    ],
+    "alt": {
+      "en": "Light Contrast study for Norwegian Fjord Deep Cut.",
+      "zh-CN": "挪威峡湾深切主题中的光线反差研究图。"
+    }
+  }
+}

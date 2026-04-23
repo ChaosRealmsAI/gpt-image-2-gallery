@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent event image in the exact same Halloween night world, preserving the same ember lighting, charcoal depth, restrained fog, and premium suspense from the reference image, but open the scene toward a rooftop party environment. The frame should still feel like the same campaign family, with continuity obvious in light, materials, and threat level, while shifting into a more social nightlife surface.\n\nSubject:\nFeature a rooftop setup with candlelit tables, elegant drinks, pumpkins or seasonal props used with restraint, and city-night depth in the background. Preserve exact campaign identity from the reference model while changing the venue emphasis toward elevated nightlife. The scene should feel polished, seductive, and event-promotional, never comedic or bargain-party themed.\n\nImportant details:\nKeep the same premium Halloween grammar: controlled menace, sharp pools of light, dark surfaces, and one coherent invitation to the night. The rooftop setting should add exclusivity, not spectacle overload. Glass, metal, smoke, and weather cues should all feel real. The result should work as a hero asset for rooftop events, hospitality activations, or nightlife campaign rollout.\n\nUse case:\nHalloween Promo series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable menu signs, no costume crowd, no gore, no giant spider-web cliché, no logo glassware, no fireworks, no cheesy neon, no copyrighted creatures.",
+  "id": "02-rooftop-party-variation",
+  "title": "Rooftop Party Variation",
+  "description": "A rooftop-nightlife Halloween variation preserving the same moody event system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/02-rooftop-party-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-entry-anchor",
+        "meta_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/meta.json",
+        "image_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent rooftop-party variation for the Halloween promo system. Preserve the exact campaign language from 01-midnight-entry-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Party Variation",
+      "description": "A rooftop-nightlife Halloween variation preserving the same moody event system."
+    },
+    "zh-CN": {
+      "title": "露台派对变体",
+      "description": "保持同一阴郁夜场系统的万圣露台派对变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A Halloween rooftop party campaign scene derived from the same premium night promo system.",
+      "zh-CN": "沿用同一高端夜场宣传系统的万圣夜露台派对场景。"
+    }
+  }
+}

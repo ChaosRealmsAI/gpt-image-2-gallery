@@ -1,0 +1,44 @@
+{
+  "id": "single-70s-editorial-studies",
+  "type": "single",
+  "title": "70s Editorial Studies",
+  "description": "Nine independent pages from a neo-retro 70s magazine — each study isolates one facet of the decade's editorial visual grammar (halftone dots, sunburst rays, slab-serif titles, tombstone photography) at modern print precision.",
+  "creative_direction": "Every study is a different page type from a fictional 70s-style magazine rebuilt at modern resolution. Warm orange-brown-mustard palette stays consistent; halftone dot density and slab-serif weight vary by page role. Images are independent — no cross-page character continuity.",
+  "cover_image": "images/cover-feature-portrait/image.png",
+  "i18n": {
+    "en": {
+      "title": "70s Editorial Studies",
+      "description": "Nine independent pages from a neo-retro 70s magazine — each study isolates one facet of the decade's editorial visual grammar (halftone dots, sunburst rays, slab-serif titles, tombstone photography) at modern print precision."
+    },
+    "zh-CN": {
+      "title": "70 年代编辑研究",
+      "description": "九张虚构 70 年代杂志的独立页面 · 每张聚焦一种 70 年代编辑语法(半调网点 / 旭日光线 / 粗衬线标题 / 墓碑式摄影)· 以现代印刷精度重现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "editorial-illustration",
+      "structured-layout",
+      "pattern",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    { "id": "cover-feature-portrait", "title": "Cover Feature Portrait", "image": "images/cover-feature-portrait/image.png", "meta": "images/cover-feature-portrait/meta.json" },
+    { "id": "opener-headline-spread", "title": "Opener Headline Spread", "image": "images/opener-headline-spread/image.png", "meta": "images/opener-headline-spread/meta.json" },
+    { "id": "pull-quote-spread", "title": "Pull Quote Spread", "image": "images/pull-quote-spread/image.png", "meta": "images/pull-quote-spread/meta.json" },
+    { "id": "diagram-supergraphic-essay", "title": "Diagram Supergraphic Essay", "image": "images/diagram-supergraphic-essay/image.png", "meta": "images/diagram-supergraphic-essay/meta.json" },
+    { "id": "photo-essay-tombstone", "title": "Photo Essay Tombstone", "image": "images/photo-essay-tombstone/image.png", "meta": "images/photo-essay-tombstone/meta.json" },
+    { "id": "contents-page-grid", "title": "Contents Page Grid", "image": "images/contents-page-grid/image.png", "meta": "images/contents-page-grid/meta.json" },
+    { "id": "classifieds-back-matter", "title": "Classifieds Back Matter", "image": "images/classifieds-back-matter/image.png", "meta": "images/classifieds-back-matter/meta.json" },
+    { "id": "ad-wedge-halftone", "title": "Ad Wedge Halftone", "image": "images/ad-wedge-halftone/image.png", "meta": "images/ad-wedge-halftone/meta.json" },
+    { "id": "closing-full-bleed-portrait", "title": "Closing Full Bleed Portrait", "image": "images/closing-full-bleed-portrait/image.png", "meta": "images/closing-full-bleed-portrait/meta.json" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Use a square kitchen-counter composition with soft natural light, visible pantry shelving blur, and a balanced relationship between packaged product and plated food.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Show one packaged food item beside a prepared serving in a bowl or plate, with ingredients or utensils suggesting real household use.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This anchor image must define the domestic visual system for the series: package readability without legible text, believable kitchen order, and appetite appeal grounded in everyday use.\n\nUse case:\nFood Package Scenes series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no readable nutrition panel, no giant family spread, no messy sink or appliances.",
+  "id": "01-pantry-anchor",
+  "title": "Pantry Anchor",
+  "description": "A home-kitchen hero image that establishes the package-to-table lifestyle system with pantry cues and one prepared serving.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Pantry Anchor",
+      "description": "A home-kitchen hero image that establishes the package-to-table lifestyle system with pantry cues and one prepared serving."
+    },
+    "zh-CN": {
+      "title": "储藏柜锚点",
+      "description": "储藏柜锚点：食品包装场景主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A home-kitchen hero image that establishes the package-to-table lifestyle system with pantry cues and one prepared serving.",
+      "zh-CN": "储藏柜锚点，用于食品包装场景主题。"
+    }
+  }
+}

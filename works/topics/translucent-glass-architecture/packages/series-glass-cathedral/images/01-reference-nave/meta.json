@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square architectural photograph at late afternoon with a 35mm tilt-shift lens, eye level at the far end of a wet cobblestone plaza. Golden warm light rakes the front facade from camera-right; the sky is a clean gradient from pale peach at the horizon to deep teal overhead.\n\nSubject:\nA full-scale gothic cathedral, 90 meters tall, entirely carved from a single uninterrupted slab of translucent bottle-green glass. Flying buttresses, rose window, pointed arches, and twin bell towers all read as continuous glass mass with no seams, no stained-glass inserts, no metal frames. Because the walls are translucent, the warm interior lighting (visible as diffused amber glow) is clearly seen through the entire building, turning the cathedral into a green lantern.\n\nImportant details:\nRealistic thick-glass behavior: edges read darker green due to increased optical path; thinner detailed flourishes (pinnacles, tracery) read almost clear. Subsurface scattering softens all shadow boundaries. The wet plaza is a faithful reflection showing the inverted cathedral in near-perfect mirror. Scale anchor: three pedestrians with long coats crossing at lower left, 1.8 meters tall, human figures reading as tiny silhouettes against the glass wall.\n\nUse case:\nReference image for the Glass Cathedral cycle. Later images must preserve this exact cathedral silhouette, camera angle, plaza, and pedestrian positions while changing interior lighting and weather.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real-world cathedral names, no crosses with visible branded iconography, no stylized painterly rendering, no polygonal CGI facets visible on the glass.",
+  "id": "01-reference-nave",
+  "title": "Reference Nave",
+  "description": "The hero translucent green-glass gothic cathedral at late afternoon glowing from within.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the glass cathedral fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Nave",
+      "description": "The hero translucent green-glass gothic cathedral at late afternoon glowing from within."
+    },
+    "zh-CN": {
+      "title": "基准中殿",
+      "description": "基准绿玻璃哥特大教堂 · 午后内透温黄光。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A gothic cathedral carved from a single slab of translucent green glass at late afternoon.",
+      "zh-CN": "整块绿玻璃雕成的哥特大教堂 · 午后内透光。"
+    }
+  }
+}

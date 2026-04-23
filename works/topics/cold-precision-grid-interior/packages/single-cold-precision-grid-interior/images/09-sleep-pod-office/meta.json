@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. End with an after-hours office lounge containing built-in sleep pods, low amber strips, and neatly parked ergonomic chairs under teal window reflections.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. A single exhausted worker sits upright at the edge of a pod, silhouetted against the controlled ambient light.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. The image should feel quietly troubling because of its orderliness, not because of visible drama.\n\nUse case:\nCold Precision Grid Interior single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-sleep-pod-office",
+  "title": "Sleep Pod Office",
+  "description": "An ultra-ordered office rest area where muted light and one tired silhouette define the cold precision aesthetic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/09-sleep-pod-office/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on sleep pod office.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sleep Pod Office",
+      "description": "An ultra-ordered office rest area where muted light and one tired silhouette define the cold precision aesthetic."
+    },
+    "zh-CN": {
+      "title": "Sleep Pod Office",
+      "description": "围绕冷精准的第9张独立研究图，聚焦 Sleep Pod Office。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "An after-hours office lounge with built-in sleep pods and one silhouetted worker in muted teal-amber light.",
+      "zh-CN": "冷精准主题图：Sleep Pod Office。"
+    }
+  }
+}

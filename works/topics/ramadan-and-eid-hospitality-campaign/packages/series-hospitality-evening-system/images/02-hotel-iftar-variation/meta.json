@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent hospitality image in the exact same evening-lit world, preserving the same warm lantern glow, blue shadow depth, gold accents, and calm respect from the reference image, but widen the composition into a polished hotel iftar setting. The frame should remain unmistakably part of the same campaign family while becoming more architectural and table-service oriented.\n\nSubject:\nShow an elegant iftar table or lounge setup with serving pieces, dates, glassware, textiles, and subtle gift-ready elements. Preserve exact lighting, palette, and hospitality identity from the reference model while shifting emphasis toward hotel service and evening gathering. The scene should feel welcoming, premium, and suitable for real hospitality marketing.\n\nImportant details:\nPreserve exact campaign identity from the reference image. The variation should deepen the hosting context without changing the visual language. Make stone, metal, glass, woven fabric, and ambient light all feel convincing. Avoid generic luxury clichés and keep the mood respectful, serene, and commercially useful for seasonal hospitality rollout.\n\nUse case:\nRamadan/Eid series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable menus, no crowd, no logo tableware, no alcohol, no palace fantasy, no overdecorated stage feel, no stereotype caricature.",
+  "id": "02-hotel-iftar-variation",
+  "title": "Hotel Iftar Variation",
+  "description": "A hospitality-led iftar variation preserving the same respectful evening campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/02-hotel-iftar-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evening-table-anchor",
+        "meta_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/meta.json",
+        "image_path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hotel-iftar variation for the Ramadan and Eid system. Preserve the exact campaign language from 01-evening-table-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Hotel Iftar Variation",
+      "description": "A hospitality-led iftar variation preserving the same respectful evening campaign system."
+    },
+    "zh-CN": {
+      "title": "酒店开斋变体",
+      "description": "保持同一尊重型夜间系统的酒店开斋场景变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A hotel iftar campaign scene derived from the same Ramadan and Eid hospitality system.",
+      "zh-CN": "沿用同一斋月与开斋节待客系统的酒店开斋 campaign 场景。"
+    }
+  }
+}

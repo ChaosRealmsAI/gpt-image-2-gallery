@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Keep the exact stage angle, black reflective base, flash crispness, and sinking vapor behavior from the reference image so the cryogenic system remains consistent. The light should catch thin petal edges and ice crystals without turning them metallic.\n\nSubject:\nShow a deep red edible rose at the instant it shatters after freezing, with petals splintering into crisp fragments and frost radiating along each vein. A faint remnant of the cryogenic pour may still appear at the edge of frame, but the flower is the hero event. The motion should feel brittle and directional, not like a generic explosion.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. Preserve exact stage geometry, flash timing feel, and vapor logic from the reference model while shifting the subject from plated dish to botanical garnish. Petal fragments should vary in size and thickness, and frost must accumulate along real structural lines.\n\nUse case:\nLiquid nitrogen frozen moment series study 2/9, translating the anchor stage into a rose-shatter event.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no fireworks spark effect, no floral confetti randomness, no upward smoke plume.",
+  "id": "02-rose-shatter-burst",
+  "title": "Rose Shatter Burst",
+  "description": "A frozen rose variation preserving the anchor stage while emphasizing brittle petal fracture.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/02-rose-shatter-burst/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-frozen-pour-anchor",
+        "meta_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/meta.json",
+        "image_path": "works/topics/liquid-nitrogen-frozen-moment/packages/series-core-system/images/01-frozen-pour-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rose Shatter Burst",
+      "description": "A frozen rose variation preserving the anchor stage while emphasizing brittle petal fracture."
+    },
+    "zh-CN": {
+      "title": "Rose Shatter Burst",
+      "description": "A frozen rose variation preserving the anchor stage while emphasizing brittle petal fracture."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A frozen red edible rose shattering into crisp icy fragments above a dark stage with low vapor.",
+      "zh-CN": "A frozen red edible rose shattering into crisp icy fragments above a dark stage with low vapor."
+    }
+  }
+}

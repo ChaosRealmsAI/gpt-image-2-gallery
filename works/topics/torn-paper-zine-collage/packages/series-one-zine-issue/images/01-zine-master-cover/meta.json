@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a handmade zine cover sitting on a cheap plywood table under a single overhead fluorescent light, long faint drum-line streaks visible across the paper. The background outside the zine is dim and irrelevant. The zine is photocopied onto grey newsprint-like paper with a thin center staple that is slightly off-center.\n\nSubject:\nThe master cover sets the identity of this zine: a single large torn-magazine strip forming the main subject, three cut-out magazine letters at wildly different sizes making a wordlike shape, a scissor-fray border along the entire perimeter, a yellow highlighter circle around a hand-drawn asterisk, and a cement-glue halo around the biggest torn piece.\n\nImportant details:\nThis image defines the zine's palette (grey newsprint, highlighter yellow, ballpoint blue, tomato red marker) and every subsequent spread must reuse the same stock and the same cut-out letter aesthetic. Every torn edge must be physically irregular. Glue halos must be translucent yellow-brown, not digital. The composition should read as a cover without being symmetrical.\n\nUse case:\nReference image 1 of 4 for the One Zine Issue series. Later spreads will preserve the exact paper stock, glue halos, marker palette, and cut-out letter style.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names on any torn scrap, no vector edges, no sharp digital crispness, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "01-zine-master-cover",
+  "title": "Zine Master Cover",
+  "description": "The reference cover of a handmade photocopy zine, establishing paper stock, glue halos, cut-out letter style, and marker palette.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference cover establishing zine identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Zine Master Cover",
+      "description": "The reference cover of a handmade photocopy zine, establishing paper stock, glue halos, cut-out letter style, and marker palette."
+    },
+    "zh-CN": {
+      "title": "Zine 主封面",
+      "description": "手工复印 zine 的主封面 · 奠定纸张 / 胶水晕 / 剪字风格 / 马克笔色。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Handmade zine cover with torn magazine strip, mismatched cut-out letters, glue halos, and highlighter marks.",
+      "zh-CN": "手工 zine 封面 · 撕下的杂志带 · 大小不一的剪字 · 胶水晕和荧光笔标记。"
+    }
+  }
+}

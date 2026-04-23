@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCompose a square brunch tabletop image with layered tableware, generous daylight, and a sense of weekend abundance that still feels organized enough for real hospitality and publishing use. The scene should balance multiple objects without losing the hero focal point, making table choreography and dish relationships a core part of the image. Maintain the same table, daylight orientation, and social brunch mood, but use a slightly closer framing to catch the syrup stream and stack texture.\n\nSubject:\nThe food must look fresh, warm, and genuinely shareable: eggs, breads, fruit, spreads, juices, and plated brunch mains should feel cooked and plated for service, not arranged as fake prop food. Present a pancake or French-toast stack with fresh fruit, cultured butter, and one measured syrup pour entering the frame.\n\nImportant details:\nTable logic matters. Plates, glasses, linens, and serving utensils need believable spacing, overlap, and hierarchy so the image can support menus, social assets, and campaign layouts. Make the abundance feel intentional rather than chaotic, with appetizing textures and natural daylight carrying the mood. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-weekend-table-anchor. The anchor table language should remain stable through ceramics, linen, and glass placement, while motion, gloss, and softness create the new focal drama.\n\nUse case:\nBrunch Tabletop series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no buffet chaos, no greasy diner styling unless specifically implied, no visible phone screens, no plastic takeaway packaging, no fake stock-family posing, no unreadable signage, no candy overload, no cartoon syrup waterfall, no diner signage.",
+  "id": "03-pancake-syrup-fall",
+  "title": "Pancake Syrup Fall",
+  "description": "A sweeter brunch hero preserving the reference tabletop system while introducing motion through a controlled syrup pour.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/03-pancake-syrup-fall/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-weekend-table-anchor",
+        "meta_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/01-weekend-table-anchor/meta.json",
+        "image_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/01-weekend-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-weekend-table-anchor as the primary reference.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ submit 失败 [] [sk-5BQ***xKZ] insufficient balance (current: 0.002000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260423192657110297529EPNrD1uT)",
+      "retryable": true,
+      "output_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/03-pancake-syrup-fall/image.png",
+      "checked_at": "2026-04-23T11:26:56.452Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Pancake Syrup Fall",
+      "description": "A sweeter brunch hero preserving the reference tabletop system while introducing motion through a controlled syrup pour."
+    },
+    "zh-CN": {
+      "title": "松饼糖浆下落",
+      "description": "松饼糖浆下落：早餐桌面主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A sweeter brunch hero preserving the reference tabletop system while introducing motion through a controlled syrup pour.",
+      "zh-CN": "松饼糖浆下落，用于早餐桌面主题。"
+    }
+  }
+}

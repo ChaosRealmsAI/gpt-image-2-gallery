@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent sale image with the identical midnight-black world, white structural bars, yellow accents, and sharp luminous edges from the reference image, but organize the space into a cleaner product tableau suited to beauty-bundle promotion. Keep the composition clearly connected to the anchor, with the same urgency and conversion pressure, while letting packaging rhythm and repetition create a more curated sale presentation.\n\nSubject:\nShow a bundle of premium beauty-like products, trays, cartons, and abstract promotion chips layered into a dense but disciplined Black Friday layout. Preserve exact spacing logic, high-contrast panel behavior, and lighting direction from the reference model while changing the category emphasis. The viewer should read this as the same sale campaign translated to a different assortment, not a new campaign language.\n\nImportant details:\nKeep hierarchy and urgency intact. Sale-readability must come from bold shape contrast, placement, and scale, never from actual words. Product forms should be original, polished, and plausible, with reflective packaging and sharp edges that support the premium-aggressive tone. The overall effect should feel fit for beauty retail, social promo tiles, and e-commerce hero banners under the same Black Friday system.\n\nUse case:\nBlack Friday series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no soft pastel drift, no luxury magazine glamour, no logos, no random confetti, no broken packaging, no beauty model.",
+  "id": "03-beauty-bundle-variation",
+  "title": "Beauty Bundle Variation",
+  "description": "A beauty-bundle sale variation built from the same Black Friday urgency framework.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/03-beauty-bundle-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-deal-anchor",
+        "meta_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/meta.json",
+        "image_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beauty-bundle variation for the Black Friday system. Preserve the exact campaign language from 01-midnight-deal-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beauty Bundle Variation",
+      "description": "A beauty-bundle sale variation built from the same Black Friday urgency framework."
+    },
+    "zh-CN": {
+      "title": "美妆套装变体",
+      "description": "沿用同一黑五紧迫框架的美妆套装促销变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A Black Friday beauty bundle visual derived from the same sale hierarchy system.",
+      "zh-CN": "从同一促销层级系统延展出的黑五美妆套装画面。"
+    }
+  }
+}

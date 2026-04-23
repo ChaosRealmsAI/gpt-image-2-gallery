@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. Use a small room lined with shelves, a lamp pool on the floor, and rain making vertical tracks down the window beyond the books.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A figure sits in a simple chair facing away from the shelves toward the rain, as if listening instead of reading.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. Books should feel used and ordinary, with the emotional focus staying on posture, weather, and room tone.\n\nUse case:\nLong Gaze Through Rain Interior single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "04-library-chair",
+  "title": "Library Chair",
+  "description": "A quiet library corner where one turned-away figure watches rain instead of reading.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/04-library-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on library chair.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Library Chair",
+      "description": "A quiet library corner where one turned-away figure watches rain instead of reading."
+    },
+    "zh-CN": {
+      "title": "Library Chair",
+      "description": "围绕长凝视的第4张独立研究图，聚焦 Library Chair。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A modest room of books with one seated figure turned toward a rain-streaked window and warm lamp pool.",
+      "zh-CN": "长凝视主题图：Library Chair。"
+    }
+  }
+}

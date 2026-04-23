@@ -1,0 +1,44 @@
+{
+  "id": "single-vaporwave-studies",
+  "type": "single",
+  "title": "Vaporwave Studies",
+  "description": "Nine independent 80s-vaporwave compositions — liquid-chrome extruded type, magenta-cyan split neon, pink gridded horizons, oversized setting suns, and wireframe peaks rendered at modern precision.",
+  "creative_direction": "Every image is a standalone vaporwave composition exploring one axis — typography, horizon, architecture, sunset — with consistent chromatic grammar: magenta + cyan + pink grid + chrome reflections + VHS scanline shimmer. No shared scenes between images.",
+  "cover_image": "images/chrome-title-horizon/image.png",
+  "i18n": {
+    "en": {
+      "title": "Vaporwave Studies",
+      "description": "Nine independent 80s-vaporwave compositions — liquid-chrome extruded type, magenta-cyan split neon, pink gridded horizons, oversized setting suns, and wireframe peaks rendered at modern precision."
+    },
+    "zh-CN": {
+      "title": "蒸汽波研究",
+      "description": "九张独立的 80 年代蒸汽波构图 · 液态铬金挤压字 · 品红青分色霓虹 · 粉色网格地平 · 超大落日 · 线框山峰 · 以现代精度呈现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "text-rendering",
+      "frontier-creative-composition",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    { "id": "chrome-title-horizon", "title": "Chrome Title Horizon", "image": "images/chrome-title-horizon/image.png", "meta": "images/chrome-title-horizon/meta.json" },
+    { "id": "pink-grid-sunset", "title": "Pink Grid Sunset", "image": "images/pink-grid-sunset/image.png", "meta": "images/pink-grid-sunset/meta.json" },
+    { "id": "wireframe-peaks-sky", "title": "Wireframe Peaks Sky", "image": "images/wireframe-peaks-sky/image.png", "meta": "images/wireframe-peaks-sky/meta.json" },
+    { "id": "scanline-palace", "title": "Scanline Palace", "image": "images/scanline-palace/image.png", "meta": "images/scanline-palace/meta.json" },
+    { "id": "liquid-type-drift", "title": "Liquid Type Drift", "image": "images/liquid-type-drift/image.png", "meta": "images/liquid-type-drift/meta.json" },
+    { "id": "arcade-temple-night", "title": "Arcade Temple Night", "image": "images/arcade-temple-night/image.png", "meta": "images/arcade-temple-night/meta.json" },
+    { "id": "miami-afterglow-highway", "title": "Miami Afterglow Highway", "image": "images/miami-afterglow-highway/image.png", "meta": "images/miami-afterglow-highway/meta.json" },
+    { "id": "satellite-fall-over-grid", "title": "Satellite Fall Over Grid", "image": "images/satellite-fall-over-grid/image.png", "meta": "images/satellite-fall-over-grid/meta.json" },
+    { "id": "chrome-dolphin-leap", "title": "Chrome Dolphin Leap", "image": "images/chrome-dolphin-leap/image.png", "meta": "images/chrome-dolphin-leap/meta.json" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square conservation-table view of a vintage poster laid on gray felt under raking light, with visible fold lines, softened corners, and subtle aging that still preserves the integrity of the image. The poster should express heroic monumental realism with low-angle figures, sunrise shafts, sculptural drapery, and industrial optimism, using red, ochre, cream, steel blue, and warm industrial smoke gray and a tactile surface appropriate to the medium.\n\nSubject:\nPresent the poster as an archive copy that has been stored, unfolded, and carefully documented, letting age and handling reveal how the design holds up across time. Use workers, engineers, turbines, wheat, chimneys, steel beams, and raised-arm silhouettes as the main visual ingredients, and organize them with bold banner-like glyph panels used as abstract propaganda blocks without readable wording. For the contemporary-subject axis, thread in renewable-energy towers, metro construction, and logistics workers recast through monumental heroic framing. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nAging must stay believable rather than theatrical: slight yellowing, fold memory, edge wear, and pigment variation should support the historical or crafted feeling of the style. Preserve upward gaze, idealized anatomy, broad light geometry, and poster clarity at large scale. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no specific leaders, no state emblems, no satire, no gritty collapse imagery.\n\nUse case:\nSoviet Monumental single study 5/9, testing archival endurance and age character.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "05-folded-archive-copy",
+  "title": "Folded Archive Copy",
+  "description": "Soviet Monumental rendered as a folded archive copy study, emphasizing testing archival endurance and age character.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/soviet-propaganda-monumental/packages/single-poster-studies/images/05-folded-archive-copy/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Soviet Monumental poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Folded Archive Copy",
+      "description": "Soviet Monumental rendered as a folded archive copy study, emphasizing testing archival endurance and age character."
+    },
+    "zh-CN": {
+      "title": "折痕档案版",
+      "description": "苏联宣传主题下的折痕档案版研究，重点是测试档案保存后的时间感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Soviet Monumental poster study shown as folded archive copy with non-readable lettering and style-accurate materials.",
+      "zh-CN": "苏联宣传风格海报，以折痕档案版形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

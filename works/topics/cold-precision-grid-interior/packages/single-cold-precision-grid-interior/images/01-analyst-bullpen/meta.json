@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Build a late-night analyst bullpen with long shared desks, evenly spaced task lamps, and a wall of dark windows holding faint city reflections.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. Three workers appear as distant silhouettes at separate stations, each reduced to a small node within the larger desk grid.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. The glow from monitors should be cool and controlled, with chairs, notebooks, and cables all aligned into quiet order.\n\nUse case:\nCold Precision Grid Interior single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-analyst-bullpen",
+  "title": "Analyst Bullpen",
+  "description": "A desaturated bullpen where long desks, monitor glow, and tiny silhouettes establish a regime of cold precision.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/01-analyst-bullpen/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on analyst bullpen.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Analyst Bullpen",
+      "description": "A desaturated bullpen where long desks, monitor glow, and tiny silhouettes establish a regime of cold precision."
+    },
+    "zh-CN": {
+      "title": "Analyst Bullpen",
+      "description": "围绕冷精准的第1张独立研究图，聚焦 Analyst Bullpen。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A teal-amber office bullpen with long desks, glowing monitors, and small worker silhouettes.",
+      "zh-CN": "冷精准主题图：Analyst Bullpen。"
+    }
+  }
+}

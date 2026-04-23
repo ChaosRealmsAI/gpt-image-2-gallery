@@ -1,0 +1,52 @@
+{
+  "id": "ramadan-and-eid-hospitality-campaign",
+  "slug": "ramadan-and-eid-hospitality-campaign",
+  "capability": [
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "title": "Ramadan and Eid Hospitality Campaign",
+  "short_title": "Ramadan/Eid",
+  "description": "Build Ramadan and Eid campaigns around hospitality, evening light, table setting, and gifting respect.",
+  "i18n": {
+    "en": {
+      "title": "Ramadan and Eid Hospitality Campaign",
+      "short_title": "Ramadan/Eid",
+      "description": "Build Ramadan and Eid campaigns around hospitality, evening light, table setting, and gifting respect."
+    },
+    "zh-CN": {
+      "title": "斋月与开斋节 hospitality campaign",
+      "short_title": "斋月开斋",
+      "description": "做斋月与开斋节 hospitality campaign，强调夜间灯光、餐桌和礼赠尊重感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 480,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-hospitality-evening-system",
+      "type": "series",
+      "title": "Hospitality Evening Series",
+      "path": "packages/series-hospitality-evening-system/package.json"
+    },
+    {
+      "id": "single-respectful-context-studies",
+      "type": "single",
+      "title": "Respectful Context Studies",
+      "path": "packages/single-respectful-context-studies/package.json"
+    }
+  ]
+}

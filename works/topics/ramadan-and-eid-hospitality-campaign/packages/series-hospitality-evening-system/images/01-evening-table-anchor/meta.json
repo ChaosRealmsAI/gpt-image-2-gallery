@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium hospitality campaign image at evening with warm lantern light, deep blue twilight shadows, gold accents, and refined architectural calm. The environment should feel respectful, welcoming, and commercially polished, suitable for hotels, dining brands, or gifting campaigns around Ramadan and Eid. Use a table or hosting surface with believable spatial depth and a serene atmosphere rather than spectacle.\n\nSubject:\nCenter a carefully arranged hospitality scene with dates, tableware, textiles, lantern-adjacent lighting, elegant serving pieces, and one or two gift elements. The objects should communicate generosity, evening gathering, and thoughtful presentation. Keep the composition grounded in hospitality and care, with no readable script and no generic luxury clichés that erase cultural specificity.\n\nImportant details:\nLock the campaign grammar here: warm evening glow, calm blue depth, refined geometry, rich but respectful textiles, hospitality-first composition, and premium material realism. The anchor should feel culturally aware and operationally flexible across hotel, retail, dining, or gifting campaign surfaces. Avoid decorative excess. Let dignity, warmth, and generosity carry the image.\n\nUse case:\nRamadan/Eid series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable calligraphy, no logo packaging, no crowd, no fantasy palace set, no stereotype overload, no stage-performance lighting, no visible alcohol, no kitsch lantern tunnel.",
+  "id": "01-evening-table-anchor",
+  "title": "Evening Table Anchor",
+  "description": "A respectful Ramadan and Eid hero scene establishing the hospitality system for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/series-hospitality-evening-system/images/01-evening-table-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Ramadan and Eid hospitality system.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Evening Table Anchor",
+      "description": "A respectful Ramadan and Eid hero scene establishing the hospitality system for the series."
+    },
+    "zh-CN": {
+      "title": "夜间餐桌锚点",
+      "description": "建立斋月与开斋节待客 campaign 系统的尊重型主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A Ramadan and Eid hospitality hero with lantern light, table setting, dates, and premium gifting cues.",
+      "zh-CN": "带有灯光、餐桌、椰枣与高端礼赠线索的斋月与开斋节主视觉。"
+    }
+  }
+}

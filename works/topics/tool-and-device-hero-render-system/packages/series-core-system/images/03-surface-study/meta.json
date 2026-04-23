@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square close product shot with grazing light, high tactile realism, and careful specular control across multiple materials. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original cordless precision drill-driver with a magnesium frame, rubber grip overmold, satin metal chuck, compact battery base, and carefully resolved vent geometry. Make the subject feel original, production-aware, and clearly grounded in Tool and Device Hero Render System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPush rubber, metal, plastic, seams, and tolerances without losing the recognizable object identity. The crop should sell physical quality and manufacturing maturity. Preserve exact tool silhouette, grip shape, chuck design, battery geometry, vent pattern, and color blocking across the series. Materials must look tactile and production-ready rather than toy-like or over-stylized. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nTool Renders series study 3/9 for Tool and Device Hero Render System, built as image 03-surface-study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand logos, no readable labels, no workshop mess, no sparks, no impossible tool bits, no sci-fi glow.",
+  "id": "03-surface-study",
+  "title": "Material Pass",
+  "description": "The same tool resolved into a close hero focused on material transitions and touchpoints.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/03-surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Material Pass",
+      "description": "The same tool resolved into a close hero focused on material transitions and touchpoints."
+    },
+    "zh-CN": {
+      "title": "材质表现",
+      "description": "聚焦材质过渡与触点区域的近景主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The same original tool shown in a material-focused close hero shot.",
+      "zh-CN": "同一原创工具的材质细节近景图。"
+    }
+  }
+}

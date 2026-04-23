@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the back cover of the same zine from the reference, paper stock identical, a little more creased than earlier spreads from handling. A small smear of rubber cement sits on the plywood table beside it.\n\nSubject:\nThe back cover features a large hand-drawn marker illustration filling two-thirds of the page, a credits block in tiny ballpoint handwriting in the bottom corner, a torn collaged mailing label with no readable characters, and a circular rubber-stamp mark in tomato red off to the side. A scissor-cut corner trim shows a few missing paper flakes.\n\nImportant details:\nPreserve exact identity established by the reference: same grey newsprint, same photocopy grain, same highlighter yellow, ballpoint blue, tomato red marker, same scissor-fray edges, same glue halo style. The rubber stamp must show uneven ink pressure. The marker illustration must be bold, black, and confident — shaky but not hesitant. Creases on the paper should look like handled, not manufactured.\n\nUse case:\nSeries image 4 of 4 · the back cover closing the zine issue.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no clean vector illustration, no digital rubber-stamp stroke, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "04-zine-back-cover",
+  "title": "Zine Back Cover",
+  "description": "The back cover of the same zine with a bold marker illustration, tiny handwritten credits, a collaged label, and a red rubber stamp.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/04-zine-back-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-zine-master-cover",
+        "meta_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/meta.json",
+        "image_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on cover for paper and palette continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Zine Back Cover",
+      "description": "The back cover of the same zine with a bold marker illustration, tiny handwritten credits, a collaged label, and a red rubber stamp."
+    },
+    "zh-CN": {
+      "title": "Zine 封底",
+      "description": "同一本 zine 的封底 · 大马克笔插画 · 小字手写署名 · 拼贴邮寄标签 · 红色橡皮章。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Zine back cover with bold black marker illustration, small handwritten credits, collaged label, and a red rubber stamp.",
+      "zh-CN": "Zine 封底 · 粗黑马克笔插画 · 小字手写署名 · 拼贴标签和红色橡皮章。"
+    }
+  }
+}

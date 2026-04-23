@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Luxury Hotel Lobby Arrival System. Use a frontal wide view from the drop-off threshold into the full lobby and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so arrival drama, tactile materials, and premium circulation feel immediate, using warm limestone, honey amber, muted bronze, deep olive planting, and soft charcoal shadows as the governing tonal range. The composition must read as a high-end commercial image that could sit inside campaign stills, hospitality editorials, investor decks, and operator handoff boards.\n\nSubject:\nShow a grand luxury hotel lobby with limestone slabs, smoked bronze screens, amber onyx accents, sculpted concierge islands, mirror-still water details, and a calm hospitality atmosphere. Center the first impression of the porte cochere threshold, the long sightline to reception, and the layered lighting depth. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the portal proportions, stone-and-bronze palette, concierge desk geometry, lantern rhythm, seating family, and abstract wayfinding zones. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nLuxury Hotel Lobby Arrival System series study 1/9, establishing the canonical arrival composition for the whole package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no guests, no staff, no suitcases scattered everywhere, no casino mood, no festive balloons, no parked cars blocking the portal.",
+  "id": "01-arrival-portal-wide",
+  "title": "Arrival Portal Wide",
+  "description": "A reference-setting architectural still for hotel lobby that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-hotel-lobby-arrival-system/packages/series-spatial-language-lock/images/01-arrival-portal-wide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Arrival Portal Wide",
+      "description": "A reference-setting architectural still for hotel lobby that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "到达门厅全景",
+      "description": "围绕酒店大堂的到达门厅全景研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Arrival Portal Wide for Luxury Hotel Lobby Arrival System.",
+      "zh-CN": "酒店大堂主题中的到达门厅全景。"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Daily Ritual Support Studies",
+  "description": "Five independent drink studies extending the topic into tools, takeaway, tea service, and condensation-focused shots.",
+  "creative_direction": "These independent studies widen the same drink-ritual theme into adjacent campaign surfaces without reference dependencies.",
+  "cover_image": "images/beans-and-tools-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/beans-and-tools-board/meta.json",
+      "images/iced-condensation-study/meta.json",
+      "images/tea-ritual-tray/meta.json",
+      "images/cafe-counter-rush/meta.json",
+      "images/commuter-takeaway-cup/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Daily Ritual Support Studies",
+      "description": "Five independent drink studies extending the topic into tools, takeaway, tea service, and condensation-focused shots."
+    },
+    "zh-CN": {
+      "title": "日常仪式补充研究",
+      "description": "五张独立饮品补充图，把主题延展到器具、外带、茶席与冷凝细节。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "beans-and-tools-board",
+      "title": "Beans and Tools Board",
+      "image": "images/beans-and-tools-board/image.png",
+      "meta": "images/beans-and-tools-board/meta.json"
+    },
+    {
+      "id": "iced-condensation-study",
+      "title": "Iced Condensation Study",
+      "image": "images/iced-condensation-study/image.png",
+      "meta": "images/iced-condensation-study/meta.json"
+    },
+    {
+      "id": "tea-ritual-tray",
+      "title": "Tea Ritual Tray",
+      "image": "images/tea-ritual-tray/image.png",
+      "meta": "images/tea-ritual-tray/meta.json"
+    },
+    {
+      "id": "cafe-counter-rush",
+      "title": "Cafe Counter Rush",
+      "image": "images/cafe-counter-rush/image.png",
+      "meta": "images/cafe-counter-rush/meta.json"
+    },
+    {
+      "id": "commuter-takeaway-cup",
+      "title": "Commuter Takeaway Cup",
+      "image": "images/commuter-takeaway-cup/image.png",
+      "meta": "images/commuter-takeaway-cup/meta.json"
+    }
+  ]
+}

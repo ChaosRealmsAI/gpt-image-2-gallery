@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Feast Support Studies",
+  "description": "Five independent feast studies extending the theme into toasts, carving moments, sideboards, and dessert abundance.",
+  "creative_direction": "These independent studies widen the same celebratory dining theme into adjacent campaign frames and service moments.",
+  "cover_image": "images/candle-place-setting/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/candle-place-setting/meta.json",
+      "images/family-toast-wide/meta.json",
+      "images/carving-station-detail/meta.json",
+      "images/sweets-fruit-overhead/meta.json",
+      "images/gift-basket-sideboard/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Feast Support Studies",
+      "description": "Five independent feast studies extending the theme into toasts, carving moments, sideboards, and dessert abundance."
+    },
+    "zh-CN": {
+      "title": "宴席补充研究",
+      "description": "五张独立补充图，把主题延展到碰杯、切肉、边柜与甜点丰盛场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "candle-place-setting",
+      "title": "Candle Place Setting",
+      "image": "images/candle-place-setting/image.png",
+      "meta": "images/candle-place-setting/meta.json"
+    },
+    {
+      "id": "family-toast-wide",
+      "title": "Family Toast Wide",
+      "image": "images/family-toast-wide/image.png",
+      "meta": "images/family-toast-wide/meta.json"
+    },
+    {
+      "id": "carving-station-detail",
+      "title": "Carving Station Detail",
+      "image": "images/carving-station-detail/image.png",
+      "meta": "images/carving-station-detail/meta.json"
+    },
+    {
+      "id": "sweets-fruit-overhead",
+      "title": "Sweets Fruit Overhead",
+      "image": "images/sweets-fruit-overhead/image.png",
+      "meta": "images/sweets-fruit-overhead/meta.json"
+    },
+    {
+      "id": "gift-basket-sideboard",
+      "title": "Gift Basket Sideboard",
+      "image": "images/gift-basket-sideboard/image.png",
+      "meta": "images/gift-basket-sideboard/meta.json"
+    }
+  ]
+}

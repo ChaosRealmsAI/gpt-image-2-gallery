@@ -1,0 +1,43 @@
+{
+  "id": "series-one-zine-issue",
+  "type": "series",
+  "title": "One Zine Issue",
+  "description": "A four-image series showing four spreads of the same handmade zine issue, preserving paper stock, glue aesthetic, marker color, and the unmistakable hand of the same zinemaker.",
+  "creative_direction": "Image 01 establishes the zine's master cover — newsprint stock, type of torn scraps, glue halos, marker palette. Images 02-04 depend on 01 so that every subsequent spread keeps the same photocopied paper tone, cut-out letter sources, glue stain aesthetic, and the zinemaker's consistent marker pens.",
+  "cover_image": "images/01-zine-master-cover/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-zine-master-cover/meta.json",
+      "images/02-zine-editorial-spread/meta.json",
+      "images/03-zine-photo-spread/meta.json",
+      "images/04-zine-back-cover/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "One Zine Issue",
+      "description": "A four-image series showing four spreads of the same handmade zine issue, preserving paper stock, glue aesthetic, marker color, and the unmistakable hand of the same zinemaker."
+    },
+    "zh-CN": {
+      "title": "同一本 zine",
+      "description": "四图系列 · 同一期手工 zine 的四个跨页 · 保留同纸张 / 胶水风格 / 马克笔色 / 同一制作者的手。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["series", "editorial-illustration", "structured-layout", "pattern"]
+  },
+  "images": [
+    { "id": "01-zine-master-cover", "title": "Zine Master Cover", "image": "images/01-zine-master-cover/image.png", "meta": "images/01-zine-master-cover/meta.json" },
+    { "id": "02-zine-editorial-spread", "title": "Zine Editorial Spread", "image": "images/02-zine-editorial-spread/image.png", "meta": "images/02-zine-editorial-spread/meta.json" },
+    { "id": "03-zine-photo-spread", "title": "Zine Photo Spread", "image": "images/03-zine-photo-spread/image.png", "meta": "images/03-zine-photo-spread/meta.json" },
+    { "id": "04-zine-back-cover", "title": "Zine Back Cover", "image": "images/04-zine-back-cover/image.png", "meta": "images/04-zine-back-cover/meta.json" }
+  ]
+}

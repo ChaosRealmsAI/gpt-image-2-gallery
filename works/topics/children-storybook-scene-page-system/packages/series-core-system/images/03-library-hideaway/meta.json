@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square open-book view with matching page margins, soft paper texture, and storybook paint handling, now set inside a cozy children library under honey-colored lamp light. The spread should feel like a calm middle chapter that deepens the world without breaking style continuity. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nPlace the same child and fox companion in a reading nook surrounded by shelves, cushions, low tables, and borrowed picture books. Their facial features, clothing base, and emotional bond must match the reference spread exactly, while the setting shifts to quiet discovery and concentration. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMaintain the established illustration logic from the reference image: gentle brushwork, rounded staging, warm educational atmosphere, and clear page composition. The library scene should feel narratively rich yet still leave visual breathing room for eventual typesetting outside the main art. Preserve the same child protagonist, fox companion, brush texture, page framing, color family, and storybook page proportions from the reference spread. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nChildren Storybook Scene Page System series study 3/4, library hideaway.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable story text, no logos, no celebrity resemblance, no harsh horror mood, no hyper-detailed realism, no extra main characters replacing the leads.",
+  "id": "03-library-hideaway",
+  "title": "Library Hideaway",
+  "description": "A quiet library scene continuing the same child and fox through the reference-locked storybook language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/03-library-hideaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bedtime-spread",
+        "meta_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/meta.json",
+        "image_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-bedtime-spread.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Library Hideaway",
+      "description": "A quiet library scene continuing the same child and fox through the reference-locked storybook language."
+    },
+    "zh-CN": {
+      "title": "图书馆藏身处",
+      "description": "在参考锁定的绘本语言中延续同一对主角的图书馆场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A quiet library scene continuing the same child and fox through the reference-locked storybook language.",
+      "zh-CN": "在参考锁定的绘本语言中延续同一对主角的图书馆场景。"
+    }
+  }
+}

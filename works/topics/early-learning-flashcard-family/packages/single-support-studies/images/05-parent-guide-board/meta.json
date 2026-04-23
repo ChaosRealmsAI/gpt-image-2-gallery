@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial board with pinned flashcards, routine icons, soft arrows, and blank note panels on a cork surface photographed straight-on. The image should feel like a polished support asset from an early-education brand, somewhere between a teaching board and a parent handout cover. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nMix a few hero flashcards with visual routine cues such as tidy-up, point-and-name, sort-by-color, and count-together activities shown only through pictograms and mini scenes. Leave generous blank rectangles where copy could later be typeset by a design team. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nUse a measured visual hierarchy so the board reads as informative and brand-ready rather than scrapbook-like. The blank text areas, color coding, and card integration should suggest a real family-resource product while still respecting the no-readable-text constraint. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nEarly Learning Flashcard Family single study 5/5, parent guide board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no numerals, no brand mascots, no logos, no chaotic shelf clutter, no broken packaging.",
+  "id": "05-parent-guide-board",
+  "title": "Parent Guide Board",
+  "description": "A parent-facing support board that packages the flashcards with usage tips and routine cues, without readable copy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/single-support-studies/images/05-parent-guide-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 5 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Parent Guide Board",
+      "description": "A parent-facing support board that packages the flashcards with usage tips and routine cues, without readable copy."
+    },
+    "zh-CN": {
+      "title": "家长指引板",
+      "description": "面向家长的支持板，结合使用提示和日常练习线索但不出现可读文字。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A parent-facing support board that packages the flashcards with usage tips and routine cues, without readable copy.",
+      "zh-CN": "面向家长的支持板，结合使用提示和日常练习线索但不出现可读文字。"
+    }
+  }
+}

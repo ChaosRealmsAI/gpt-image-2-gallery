@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nShow a square classroom poster mockup straight-on against a reading-corner wall with soft sunlight, low shelves, and cushions just out of focus. The poster should feel like a school literacy-culture asset built from the visual language of a beloved contemporary picture book. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nCenter warm painted characters, a blank headline band, a few supporting spot illustrations, and an inviting group-reading mood. The composition should be bold enough to work on a wall but still intimate enough to suggest shared reading time. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the poster visually calm and publisher-quality, with strong hierarchy and no printed copy. It should prove the storybook system can extend into literacy promotion and classroom culture surfaces. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nChildren Storybook Scene Page System single study 5/5, read-aloud poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no harsh realism, no licensed character resemblance, no cluttered scrapbook styling, no horror elements.",
+  "id": "05-read-aloud-poster",
+  "title": "Read-Aloud Poster",
+  "description": "A classroom read-aloud poster adapting storybook warmth into a group-reading promotional asset.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/single-support-studies/images/05-read-aloud-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 5 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Read-Aloud Poster",
+      "description": "A classroom read-aloud poster adapting storybook warmth into a group-reading promotional asset."
+    },
+    "zh-CN": {
+      "title": "共读海报",
+      "description": "把绘本温度改编成课堂共读宣传物料的海报研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A classroom read-aloud poster adapting storybook warmth into a group-reading promotional asset.",
+      "zh-CN": "把绘本温度改编成课堂共读宣传物料的海报研究。"
+    }
+  }
+}

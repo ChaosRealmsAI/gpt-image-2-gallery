@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Maintain the exact centered composition, annotation grammar, and premium restraint from the reference image, but use a taller glass and slightly brighter side light so carbonation remains visible. The background should stay minimal and soft enough that the bubbles and ice become the active visual detail.\n\nSubject:\nShow a clear or lightly tinted highball in a tall glass packed with stacked ice and a slim citrus garnish. Tiny streams of carbonation should rise through the liquid, while leader lines point toward bubble columns, ice faces, garnish bend, and condensation paths. The scene should feel refreshing, exact, and diagrammed without becoming corporate.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. Preserve exact layout rhythm, callout weight, and studio tone from the reference model while shifting the hero to sparkle and verticality. Carbonation needs believable scale variation, the ice should feel cold and transparent, and every diagram accent must stay abstract and label-free.\n\nUse case:\nCocktail anatomy editorial series study 3/9, converting the anchor system into a carbonation-focused highball page.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no soda-ad cliche styling, no readable bottle labels, no fruit pile garnish.",
+  "id": "03-highball-carbonation-diagram",
+  "title": "Highball Carbonation Diagram",
+  "description": "A sparkling highball variation that keeps the editorial anatomy system and emphasizes bubbles and ice geometry.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/03-highball-carbonation-diagram/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-editorial-old-fashioned-anchor",
+        "meta_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/meta.json",
+        "image_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Highball Carbonation Diagram",
+      "description": "A sparkling highball variation that keeps the editorial anatomy system and emphasizes bubbles and ice geometry."
+    },
+    "zh-CN": {
+      "title": "Highball Carbonation Diagram",
+      "description": "A sparkling highball variation that keeps the editorial anatomy system and emphasizes bubbles and ice geometry."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A tall carbonated highball with stacked ice and abstract callouts indicating bubbles, condensation, and garnish.",
+      "zh-CN": "A tall carbonated highball with stacked ice and abstract callouts indicating bubbles, condensation, and garnish."
+    }
+  }
+}

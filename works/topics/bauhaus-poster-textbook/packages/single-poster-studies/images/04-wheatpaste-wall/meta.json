@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square urban wall study with the poster pasted onto rough plaster among torn edges and older paper remnants, photographed in soft overcast light so texture, glue bubbles, and surface scars stay visible. The poster should express strict geometric modernism built from circles, bars, triangles, squares, and measured negative space, using cobalt blue, mustard yellow, cadmium red, black, and warm paper white and a tactile surface appropriate to the medium.\n\nSubject:\nCreate a version that feels made for the street, with the poster carrying enough formal force to survive abrasion, layering, and imperfect placement without losing its visual identity. Use modular furniture silhouettes, workshop tools, compass arcs, ruler lines, and architecture-school diagrams as the main visual ingredients, and organize them with geometric sans-serif blocks and numerals treated purely as non-readable forms. For the contemporary-subject axis, thread in a bike-share docking station and urban wayfinding elements reduced into pure geometry. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nKeep the main design intact but let the environment add grit: lifted corners, tiny tears, wrinkled paper, and older color fragments around the perimeter should amplify the style rather than dilute it. Preserve mathematical spacing, flat planes, hard edges, exact weight distribution, and clean asymmetry. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no decorative flourishes, no gradients, no photoreal portraits, no soft painterly blending.\n\nUse case:\nBauhaus Poster single study 4/9, testing street-life durability and layered context.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "04-wheatpaste-wall",
+  "title": "Wheatpaste Wall Layer",
+  "description": "Bauhaus Poster rendered as a wheatpaste wall layer study, emphasizing testing street-life durability and layered context.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/bauhaus-poster-textbook/packages/single-poster-studies/images/04-wheatpaste-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Bauhaus Poster poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wheatpaste Wall Layer",
+      "description": "Bauhaus Poster rendered as a wheatpaste wall layer study, emphasizing testing street-life durability and layered context."
+    },
+    "zh-CN": {
+      "title": "街墙贴纸层",
+      "description": "包豪斯海报主题下的街墙贴纸层研究，重点是测试街头环境中的成立度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Bauhaus Poster poster study shown as wheatpaste wall layer with non-readable lettering and style-accurate materials.",
+      "zh-CN": "包豪斯海报风格海报，以街墙贴纸层形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

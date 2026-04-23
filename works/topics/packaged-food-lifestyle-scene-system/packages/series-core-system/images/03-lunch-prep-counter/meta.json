@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square packaged-food lifestyle image that connects shelf-ready packaging with actual household use, serving, and meal preparation. The frame should feel commercially precise but lived in, showing how the package belongs inside a believable kitchen, pantry, or dining context rather than isolated white-background product photography. Maintain the same domestic counter and natural light feel, but introduce one board, one lunch container, and partial ingredient prep elements.\n\nSubject:\nThe package must stay clearly visible and physically plausible, while the prepared food, ingredients, bowls, or serving scene demonstrate real usage and appetite appeal. Show the packaged food in the context of assembling a practical lunch or quick meal, with the prepared result clearly visible nearby.\n\nImportant details:\nThis topic tests bridge-building between package design and lived food context. Preserve realistic kitchen materials, pantry organization, serving logic, and package handling so the brand feels trustworthy and useful. If abstract label areas appear, they must remain unreadable; trust should come from materials, cooking cues, and scene credibility rather than literal copy. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-pantry-anchor. The reference kitchen language should remain stable through surfaces, utensils, and palette, while the scene gains more task-oriented energy.\n\nUse case:\nFood Package Scenes series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no sterile white studio void, no messy family chaos, no unrealistic packaging scale, no cluttered supermarket shelf wall, no full human face, no chaotic meal prep mess, no readable stickers.",
+  "id": "03-lunch-prep-counter",
+  "title": "Lunch Prep Counter",
+  "description": "A prep-focused lifestyle image that keeps the reference package system while moving into active meal assembly.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/03-lunch-prep-counter/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pantry-anchor",
+        "meta_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/meta.json",
+        "image_path": "works/topics/packaged-food-lifestyle-scene-system/packages/series-core-system/images/01-pantry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-pantry-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lunch Prep Counter",
+      "description": "A prep-focused lifestyle image that keeps the reference package system while moving into active meal assembly."
+    },
+    "zh-CN": {
+      "title": "午餐备餐台",
+      "description": "午餐备餐台：食品包装场景主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A prep-focused lifestyle image that keeps the reference package system while moving into active meal assembly.",
+      "zh-CN": "午餐备餐台，用于食品包装场景主题。"
+    }
+  }
+}

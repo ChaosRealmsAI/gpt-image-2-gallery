@@ -1,0 +1,71 @@
+{
+  "id": "series-canyon-rise",
+  "type": "series",
+  "title": "Canyon Rise Cycle",
+  "description": "Four images of the same red-rock canyon with a column of water rising from its floor, photographed under different atmospheric conditions.",
+  "creative_direction": "Image 01 establishes the canyon, the vertical rising water column, and a helicopter scale anchor. 02-04 preserve geometry and column profile while changing time of day, weather, and atmospheric haze.",
+  "cover_image": "images/01-reference-column/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-column/meta.json",
+      "images/02-dawn-mist/meta.json",
+      "images/03-monsoon-spiral/meta.json",
+      "images/04-moonlit-arc/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Canyon Rise Cycle",
+      "description": "Four images of the same red-rock canyon with a column of water rising from its floor, photographed under different atmospheric conditions."
+    },
+    "zh-CN": {
+      "title": "峡谷升腾循环",
+      "description": "同一红岩峡谷中一根向上腾起的水柱 · 在不同时间与天气下的四张循环。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-column",
+      "title": "Reference Column",
+      "image": "images/01-reference-column/image.png",
+      "meta": "images/01-reference-column/meta.json"
+    },
+    {
+      "id": "02-dawn-mist",
+      "title": "Dawn Mist",
+      "image": "images/02-dawn-mist/image.png",
+      "meta": "images/02-dawn-mist/meta.json"
+    },
+    {
+      "id": "03-monsoon-spiral",
+      "title": "Monsoon Spiral",
+      "image": "images/03-monsoon-spiral/image.png",
+      "meta": "images/03-monsoon-spiral/meta.json"
+    },
+    {
+      "id": "04-moonlit-arc",
+      "title": "Moonlit Arc",
+      "image": "images/04-moonlit-arc/image.png",
+      "meta": "images/04-moonlit-arc/meta.json"
+    }
+  ]
+}

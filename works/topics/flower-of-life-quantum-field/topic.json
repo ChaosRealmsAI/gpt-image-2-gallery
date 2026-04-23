@@ -1,0 +1,40 @@
+{
+  "id": "flower-of-life-quantum-field",
+  "slug": "flower-of-life-quantum-field",
+  "title": "Flower of Life × Quantum Field",
+  "short_title": "Quantum Flower of Life",
+  "description": "The Flower of Life expanded into a quantum field diagram with particle trails, wave interference, and sacred ratio annotations.",
+  "i18n": {
+    "en": {
+      "title": "Flower of Life × Quantum Field",
+      "short_title": "Quantum Flower of Life",
+      "description": "The Flower of Life expanded into a quantum field diagram with particle trails, wave interference, and sacred ratio annotations."
+    },
+    "zh-CN": {
+      "title": "生命之花 × 量子场",
+      "short_title": "量子生命之花",
+      "description": "生命之花几何扩展成量子场图 · 叠加粒子轨迹、波干涉条纹、神圣比例标注。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4010,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "data-visualization",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-quantum-flower-studies",
+      "type": "single",
+      "title": "Quantum Flower Studies",
+      "path": "packages/single-quantum-flower-studies/package.json"
+    }
+  ]
+}

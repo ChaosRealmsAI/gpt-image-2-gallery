@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Enrollment Support Studies",
+  "description": "Five independent studies extend the enrollment theme into hero photography, brochure spreads, family check-in scenes, street media, and document-flatlay assets.",
+  "creative_direction": "Independent studies test adjacent admissions deliverables while preserving the same trustworthy school-marketing tone without depending on the series reference.",
+  "cover_image": "images/01-campus-hero-photo/image.png",
+  "i18n": {
+    "en": {
+      "title": "Enrollment Support Studies",
+      "description": "Five independent studies extend the enrollment theme into hero photography, brochure spreads, family check-in scenes, street media, and document-flatlay assets."
+    },
+    "zh-CN": {
+      "title": "招生延展研究",
+      "description": "五张独立画面把招生主题扩展到校园主视觉、手册内页、家庭签到、户外物料和文件平铺。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-campus-hero-photo",
+      "title": "Campus Hero Photo",
+      "image": "images/01-campus-hero-photo/image.png",
+      "meta": "images/01-campus-hero-photo/meta.json"
+    },
+    {
+      "id": "02-brochure-spread",
+      "title": "Brochure Spread",
+      "image": "images/02-brochure-spread/image.png",
+      "meta": "images/02-brochure-spread/meta.json"
+    },
+    {
+      "id": "03-family-tour-checkin",
+      "title": "Family Tour Check-In",
+      "image": "images/03-family-tour-checkin/image.png",
+      "meta": "images/03-family-tour-checkin/meta.json"
+    },
+    {
+      "id": "04-bus-stop-banner",
+      "title": "Bus Stop Banner",
+      "image": "images/04-bus-stop-banner/image.png",
+      "meta": "images/04-bus-stop-banner/meta.json"
+    },
+    {
+      "id": "05-enrollment-folder-flatlay",
+      "title": "Enrollment Folder Flatlay",
+      "image": "images/05-enrollment-folder-flatlay/image.png",
+      "meta": "images/05-enrollment-folder-flatlay/meta.json"
+    }
+  ]
+}

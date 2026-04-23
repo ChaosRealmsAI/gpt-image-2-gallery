@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square card-system presentation, straight-on mockup angle, and family-trust design language from the reference carousel. The set should feel like a coordinated reminder post for an upcoming school event or open classroom moment. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse calendar icons, photo snippets of classrooms and families, location markers, simple schedule blocks, and blank callout panels arranged for quick scanning. The communication should feel organized and reassuring, with no sense of commercial pressure. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the entire reference framework while shifting the content toward logistics and reminder cues. The final set should confirm that one disciplined carousel system can cover multiple high-frequency school-home communication needs. Preserve the same square carousel-card frame, photo crop style, icon rhythm, blank headline areas, and family-trust color system from the reference card set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nParent Communication Education Carousel series study 4/4, event reminder carousel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable social captions, no logos, no app-interface clutter, no influencer styling, no chaotic sticker overload, no celebrity likeness.",
+  "id": "04-event-reminder-carousel",
+  "title": "Event Reminder Carousel",
+  "description": "An event-reminder card set completing the reference-dependent parent communication family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "social-feed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/04-event-reminder-carousel/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-welcome-carousel",
+        "meta_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/meta.json",
+        "image_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-welcome-carousel.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Event Reminder Carousel",
+      "description": "An event-reminder card set completing the reference-dependent parent communication family."
+    },
+    "zh-CN": {
+      "title": "活动提醒轮播",
+      "description": "完成整组参考依赖家长沟通家族的活动提醒轮播卡组。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "social-feed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An event-reminder card set completing the reference-dependent parent communication family.",
+      "zh-CN": "完成整组参考依赖家长沟通家族的活动提醒轮播卡组。"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "retro-atomic-kitchen",
+  "slug": "retro-atomic-kitchen",
+  "category": "commercial",
+  "style": ["retro-futurism", "atomic-age"],
+  "capability": ["commercial-mockup", "editorial-illustration", "structured-layout"],
+  "title": "Retro Atomic Kitchen",
+  "short_title": "Atomic Kitchen",
+  "description": "A Prompt Atlas theme for 1950s-60s imagined-future kitchens: teardrop appliances, turquoise and cadmium-red surfaces, push-button ovens, and the optimistic promise of push-button cooking.",
+  "i18n": {
+    "en": {
+      "title": "Retro Atomic Kitchen",
+      "short_title": "Atomic Kitchen",
+      "description": "A Prompt Atlas theme for 1950s-60s imagined-future kitchens: teardrop appliances, turquoise and cadmium-red surfaces, push-button ovens, and the optimistic promise of push-button cooking."
+    },
+    "zh-CN": {
+      "title": "原子时代复古厨房",
+      "short_title": "原子厨房",
+      "description": "50s-60s 想象中的未来厨房主题: 水滴形家电、松石色和镉红表面、按钮式烤箱、按一下就能做饭的乐观承诺。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "structured-layout"]
+  },
+  "packages": [
+    {
+      "id": "series-turquoise-kitchen-set",
+      "type": "series",
+      "title": "Turquoise Kitchen Set",
+      "path": "packages/series-turquoise-kitchen-set/package.json"
+    },
+    {
+      "id": "single-atomic-appliance-studies",
+      "type": "single",
+      "title": "Atomic Appliance Studies",
+      "path": "packages/single-atomic-appliance-studies/package.json"
+    }
+  ]
+}

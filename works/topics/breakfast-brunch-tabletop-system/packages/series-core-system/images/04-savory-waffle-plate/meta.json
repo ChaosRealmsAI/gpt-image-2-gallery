@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCompose a square brunch tabletop image with layered tableware, generous daylight, and a sense of weekend abundance that still feels organized enough for real hospitality and publishing use. The scene should balance multiple objects without losing the hero focal point, making table choreography and dish relationships a core part of the image. Retain the same weekend daylight and tabletop breadth, but introduce slightly cooler greens and crisp shadows to support a more savory brunch register.\n\nSubject:\nThe food must look fresh, warm, and genuinely shareable: eggs, breads, fruit, spreads, juices, and plated brunch mains should feel cooked and plated for service, not arranged as fake prop food. Show a savory waffle or toast plate with eggs, herbs, smoked elements, and a tidy side salad arranged as a polished brunch hero.\n\nImportant details:\nTable logic matters. Plates, glasses, linens, and serving utensils need believable spacing, overlap, and hierarchy so the image can support menus, social assets, and campaign layouts. Make the abundance feel intentional rather than chaotic, with appetizing textures and natural daylight carrying the mood. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-weekend-table-anchor. Preserve the anchor image scale, table styling, and service feel while making crisp edges, herb freshness, and plate layering fully believable.\n\nUse case:\nBrunch Tabletop series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no buffet chaos, no greasy diner styling unless specifically implied, no visible phone screens, no plastic takeaway packaging, no fake stock-family posing, no unreadable signage, no fast-food chicken and waffles trope, no dripping grease, no picnic paper plates.",
+  "id": "04-savory-waffle-plate",
+  "title": "Savory Waffle Plate",
+  "description": "A savory waffle or toast plate that keeps the reference brunch system while shifting toward herbs, greens, and sharper textures.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/04-savory-waffle-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-weekend-table-anchor",
+        "meta_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/01-weekend-table-anchor/meta.json",
+        "image_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/01-weekend-table-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-weekend-table-anchor as the primary reference.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ submit 失败 [] [sk-5BQ***xKZ] insufficient balance (current: 0.002000 USD, required: 0.050000 USD). Please top up to continue (request id: 202604231926586737297621TVleUm5)",
+      "retryable": true,
+      "output_path": "works/topics/breakfast-brunch-tabletop-system/packages/series-core-system/images/04-savory-waffle-plate/image.png",
+      "checked_at": "2026-04-23T11:26:58.604Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Savory Waffle Plate",
+      "description": "A savory waffle or toast plate that keeps the reference brunch system while shifting toward herbs, greens, and sharper textures."
+    },
+    "zh-CN": {
+      "title": "咸味华夫盘",
+      "description": "咸味华夫盘：早餐桌面主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A savory waffle or toast plate that keeps the reference brunch system while shifting toward herbs, greens, and sharper textures.",
+      "zh-CN": "咸味华夫盘，用于早餐桌面主题。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image within the same bright reset environment, preserving the exact morning light, pale neutrals, and quietly optimistic styling from the reference image, while shifting the composition toward learning and goal setting. Keep the space airy and precise, as if it were another deliverable from the same production day, with strong commercial polish and a clear premium-stationery feel.\n\nSubject:\nFeature notebooks without readable text, tidy pens, a device-like object, clean desk tools, and small ritual cues such as tea, glass, or plant life that support a learning reset story. Preserve exact palette blocking, material behavior, and compositional discipline from the reference image while changing the category emphasis. The arrangement should feel useful for education, productivity, or planning-led New Year campaigns.\n\nImportant details:\nHold continuity tightly. The difference should come from the tools of intention, not from a new aesthetic. Keep paper stock, pen finishes, ceramic texture, glass reflections, and soft daylight highly believable. The final result should communicate focus, structure, and fresh momentum without relying on readable resolutions, calendars, or motivational text.\n\nUse case:\nNew Year Renewal series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable notes, no visible year numerals, no party décor, no logo laptop, no messy desk, no dramatic night light, no academic classroom setting.",
+  "id": "04-learning-planner-variation",
+  "title": "Learning Planner Variation",
+  "description": "A learning-and-goal-setting variation that extends the same New Year renewal language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/04-learning-planner-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-fresh-desk-anchor",
+        "meta_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/meta.json",
+        "image_path": "works/topics/new-year-renewal-campaign-family/packages/series-renewal-rollout/images/01-fresh-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent learning-planner variation for the New Year system. Preserve the exact campaign language from 01-fresh-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Learning Planner Variation",
+      "description": "A learning-and-goal-setting variation that extends the same New Year renewal language."
+    },
+    "zh-CN": {
+      "title": "学习计划变体",
+      "description": "延展同一新年焕新语言的学习与计划变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A learning planner New Year visual derived from the same fresh-cycle campaign system.",
+      "zh-CN": "源自同一新周期 campaign 系统的新年学习计划视觉。"
+    }
+  }
+}

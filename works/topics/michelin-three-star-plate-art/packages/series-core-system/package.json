@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Plate Continuity Series",
+  "description": "Four reference-linked fine-dining plates establishing a disciplined black-plate language.",
+  "creative_direction": "Image 01 establishes the plate diameter, camera height, negative-space ratio, and light discipline. Images 02-04 keep that exact plating system while shifting the hero ingredient, sauce choreography, and garnish logic.",
+  "cover_image": "images/01-black-plate-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-black-plate-anchor/meta.json",
+      "images/02-scallop-crescent/meta.json",
+      "images/03-duck-breast-ribbon/meta.json",
+      "images/04-plum-dessert-orbit/meta.json"
+    ],
+    "ref_strategy": "Run 01-black-plate-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Plate Continuity Series",
+      "description": "Four reference-linked fine-dining plates establishing a disciplined black-plate language."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "米其林盘艺相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-black-plate-anchor",
+      "title": "Black Plate Anchor",
+      "image": "images/01-black-plate-anchor/image.png",
+      "meta": "images/01-black-plate-anchor/meta.json"
+    },
+    {
+      "id": "02-scallop-crescent",
+      "title": "Scallop Crescent",
+      "image": "images/02-scallop-crescent/image.png",
+      "meta": "images/02-scallop-crescent/meta.json"
+    },
+    {
+      "id": "03-duck-breast-ribbon",
+      "title": "Duck Breast Ribbon",
+      "image": "images/03-duck-breast-ribbon/image.png",
+      "meta": "images/03-duck-breast-ribbon/meta.json"
+    },
+    {
+      "id": "04-plum-dessert-orbit",
+      "title": "Plum Dessert Orbit",
+      "image": "images/04-plum-dessert-orbit/image.png",
+      "meta": "images/04-plum-dessert-orbit/meta.json"
+    }
+  ]
+}

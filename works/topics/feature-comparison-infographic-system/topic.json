@@ -1,0 +1,53 @@
+{
+  "id": "feature-comparison-infographic-system",
+  "slug": "feature-comparison-infographic-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Feature Comparison Infographic System",
+  "short_title": "Infographic Set",
+  "description": "A Prompt Atlas theme for Feature Comparison Infographic System, testing structured-layout, text-rendering, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Feature Comparison Infographic System",
+      "short_title": "Infographic Set",
+      "description": "Create comparison infographics for categories, products, plans, or choices with strong hierarchy and scanability."
+    },
+    "zh-CN": {
+      "title": "功能对比信息图系统",
+      "short_title": "功能对比",
+      "description": "做功能或方案对比信息图系统，强调可扫性和层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Night Lighting Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of night architecture lighting photography set before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Night Architecture. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-blue-hour-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Night Lighting Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of night architecture lighting photography set before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "夜景灯光锁定",
+      "description": "四张参考依赖图，用来锁定建筑夜景的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "cinematic",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-blue-hour-anchor",
+      "title": "Blue Hour Anchor",
+      "image": "images/01-blue-hour-anchor/image.png",
+      "meta": "images/01-blue-hour-anchor/meta.json"
+    },
+    {
+      "id": "02-facade-glow-close",
+      "title": "Facade Glow Close",
+      "image": "images/02-facade-glow-close/image.png",
+      "meta": "images/02-facade-glow-close/meta.json"
+    },
+    {
+      "id": "03-bridge-reflection-view",
+      "title": "Bridge Reflection View",
+      "image": "images/03-bridge-reflection-view/image.png",
+      "meta": "images/03-bridge-reflection-view/meta.json"
+    },
+    {
+      "id": "04-entry-stair-light-wash",
+      "title": "Entry Stair Light Wash",
+      "image": "images/04-entry-stair-light-wash/image.png",
+      "meta": "images/04-entry-stair-light-wash/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-blue-hour-anchor/meta.json",
+      "images/02-facade-glow-close/meta.json",
+      "images/03-bridge-reflection-view/meta.json",
+      "images/04-entry-stair-light-wash/meta.json"
+    ],
+    "ref_strategy": "Run 01-blue-hour-anchor first. Use its runtime result URL as --ref for 02-facade-glow-close, 03-bridge-reflection-view, 04-entry-stair-light-wash. Queue may run 02-facade-glow-close, 03-bridge-reflection-view, 04-entry-stair-light-wash concurrently after 01-blue-hour-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

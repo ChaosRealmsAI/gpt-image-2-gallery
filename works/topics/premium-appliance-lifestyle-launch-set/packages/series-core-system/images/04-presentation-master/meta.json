@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square boutique-appliance display corner with clean shelving, focused spotlights, premium stone and wood surfaces, and precise negative space. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original premium countertop coffee system with a brushed metal body, matte ceramic touch surfaces, precise spout, compact water reservoir, and subtle warm status lighting. Make the subject feel original, production-aware, and clearly grounded in Premium Appliance Lifestyle Launch Set. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the same appliance exact while turning the scene into sellable retail communication. The image should balance domestic familiarity with aspirational presentation polish. Preserve exact appliance silhouette, control placement, finish palette, and countertop footprint across the series. Domestic context should feel real, calm, and aspirational without becoming generic lifestyle advertising. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nAppliance Launch series study 4/9 for Premium Appliance Lifestyle Launch Set, built as image 04-presentation-master.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand logos, no readable labels, no visible trademarks, no messy kitchen clutter, no food-brand packaging, no exaggerated steam.",
+  "id": "04-presentation-master",
+  "title": "Retail Display Corner",
+  "description": "The same appliance adapted into a premium retail display environment.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-appliance-lifestyle-launch-set/packages/series-core-system/images/04-presentation-master/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/premium-appliance-lifestyle-launch-set/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/premium-appliance-lifestyle-launch-set/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Retail Display Corner",
+      "description": "The same appliance adapted into a premium retail display environment."
+    },
+    "zh-CN": {
+      "title": "零售展示角",
+      "description": "把同一设备转化为高端零售展示环境中的图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "The same original appliance integrated into a premium retail display scene.",
+      "zh-CN": "同一原创家电融入高端零售展示角的画面。"
+    }
+  }
+}

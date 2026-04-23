@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square dependent image for Skinline Rarity Variant Suite. Build a legendary-tier finish with ceremonial polish and controlled high-end spectacle with a premium, production-ready finish. Use premium stylized key-art lighting, clean atmosphere, and enough negative space for campaign reuse. The composition should feel intentional, clean, and reusable for gallery, research, campaign, or internal handoff contexts. Lighting must support readability first, with the main forms clearly separated from the background and enough breathing room for the system to stay legible at both hero scale and thumbnail scale.\n\nSubject:\nCenter the same original arena heroine with copper-brown skin, a sharp oval face, a silver undercut braid, amber eyes, and a compact athletic silhouette with a teal tactical mantle. For this image, focus on legendary tier hero skin. Keep the same character identity stable across pose and crop changes. Preserve exact identity or system logic from the reference image while changing only the intended variation axis. The viewer should immediately understand what role this surface plays inside a cohesive game-production asset pack.\n\nImportant details:\nLock face, hair base, body proportions, costume logic, and palette with game-marketing polish. Preserve exact face, hair base, body proportions, and role fantasy from the reference model while the cosmetic tier scales upward. Keep materials believable, edge hierarchy disciplined, and the visual language consistent with Skinline Suite. Use abstract interface blocks or diagram accents when helpful, but avoid any readable language. The final result should feel like a deliberate production asset rather than a random illustration.\n\nUse case:\nSkinline Rarity Variant Suite series study 4/9, designed as legendary solar upfit within a cohesive asset pack.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra characters, no brand marks, no off-model face, no random colorway outside the chosen tier logic, no malformed anatomy or broken perspective, no random decorative clutter.",
+  "id": "04-legendary-solar-upfit",
+  "title": "Legendary Solar Upfit",
+  "description": "Legendary Solar Upfit for Skinline Rarity Variant Suite, preserving the same core system while emphasizing a legendary-tier finish with ceremonial polish and controlled high-end spectacle.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/skinline-rarity-variant-suite/packages/series-rarity-escalation/images/04-legendary-solar-upfit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-base-skin",
+        "meta_path": "works/topics/skinline-rarity-variant-suite/packages/series-rarity-escalation/images/01-reference-base-skin/meta.json",
+        "image_path": "works/topics/skinline-rarity-variant-suite/packages/series-rarity-escalation/images/01-reference-base-skin/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the established core system from the series reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Legendary Solar Upfit",
+      "description": "Legendary Solar Upfit for Skinline Rarity Variant Suite, preserving the same core system while emphasizing a legendary-tier finish with ceremonial polish and controlled high-end spectacle."
+    },
+    "zh-CN": {
+      "title": "传说日耀升级",
+      "description": "皮肤线相关的传说日耀升级图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Legendary Solar Upfit from Skinline Rarity Variant Suite.",
+      "zh-CN": "皮肤线的传说日耀升级图像。"
+    }
+  }
+}

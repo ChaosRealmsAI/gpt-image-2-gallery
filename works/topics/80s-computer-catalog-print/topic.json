@@ -1,0 +1,52 @@
+{
+  "id": "80s-computer-catalog-print",
+  "slug": "80s-computer-catalog-print",
+  "category": "editorial",
+  "style": [
+    "retro",
+    "editorial"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "editorial-illustration",
+    "style-transfer"
+  ],
+  "title": "80s Computer Catalog Print",
+  "short_title": "80s Computer Catalog",
+  "description": "80s early-desktop-publishing computer catalog pages — rainbow stripe headers, dot-matrix headlines, isometric wireframe product drawings, dense monospace body, tech-blue and beige, reproduced at modern scan fidelity.",
+  "i18n": {
+    "en": {
+      "title": "80s Computer Catalog Print",
+      "short_title": "80s Computer Catalog",
+      "description": "80s early-desktop-publishing computer catalog pages — rainbow stripe headers, dot-matrix headlines, isometric wireframe product drawings, dense monospace body, tech-blue and beige, reproduced at modern scan fidelity."
+    },
+    "zh-CN": {
+      "title": "80 年代计算机产品目录",
+      "short_title": "80 年代电脑目录",
+      "description": "80 年代早期桌面出版电脑目录页 · 彩虹条纹顶栏 · 点阵打印标题 · 等距线框产品图 · 密排等宽字体 · 科技蓝与米色 · 以现代扫描精度复现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-80s-catalog-studies",
+      "type": "single",
+      "title": "80s Catalog Studies",
+      "path": "packages/single-80s-catalog-studies/package.json"
+    }
+  ]
+}

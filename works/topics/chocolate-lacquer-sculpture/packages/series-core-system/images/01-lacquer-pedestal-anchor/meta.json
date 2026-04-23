@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Center one tall showpiece on a matte dark pedestal in a black studio, with large softboxes creating crisp controlled reflection bands across the tempered chocolate. The backdrop should remain quiet and deep so the sculpture reads as monumental.\n\nSubject:\nBuild an abstract chocolate sculpture from sweeping arcs, a central mass, a few thin balancing elements, and restrained gold-leaf accents. The surfaces should vary from mirror-dark to satin brown, showing the complexity of temper and material thickness. The piece must feel poised between elegance and collapse without actually looking unstable.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. This first image establishes the pedestal height, camera distance, reflection pattern, and competition-showpiece scale for the series. Every reflection line should confirm a clean tempered surface, and the balance of the sculpture should feel engineered even when visually daring.\n\nUse case:\nChocolate lacquer sculpture series study 1/9, defining the anchor showpiece and studio reflection system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no pastry-shop counter, no wrapper fragments, no readable award plaque.",
+  "id": "01-lacquer-pedestal-anchor",
+  "title": "Lacquer Pedestal Anchor",
+  "description": "A towering lacquered chocolate sculpture establishes the studio reflection and balance logic for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lacquer Pedestal Anchor",
+      "description": "A towering lacquered chocolate sculpture establishes the studio reflection and balance logic for the series."
+    },
+    "zh-CN": {
+      "title": "Lacquer Pedestal Anchor",
+      "description": "A towering lacquered chocolate sculpture establishes the studio reflection and balance logic for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A towering lacquered chocolate sculpture on a dark pedestal with crisp softbox reflections and gold accents.",
+      "zh-CN": "A towering lacquered chocolate sculpture on a dark pedestal with crisp softbox reflections and gold accents."
+    }
+  }
+}

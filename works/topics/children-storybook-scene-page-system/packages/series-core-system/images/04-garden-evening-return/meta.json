@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square open-spread presentation and page-design proportions, but move the final scene into a dusky garden path leading home with lantern glow and gentle twilight colors. The image should feel like a soft closing spread from the same published story sequence. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow the same child and fox companion carrying gathered flowers and small discoveries back toward a warmly lit doorway. Their identities, proportions, clothing logic, and tenderness must remain fully consistent with the reference spread so the sequence reads as one continuous picture book. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep the painted style, page framing, and atmosphere anchored to the reference image while letting light, color temperature, and environmental closure create the sense of ending. The series should read as a coherent story-world ready for real book development. Preserve the same child protagonist, fox companion, brush texture, page framing, color family, and storybook page proportions from the reference spread. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nChildren Storybook Scene Page System series study 4/4, garden evening return.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable story text, no logos, no celebrity resemblance, no harsh horror mood, no hyper-detailed realism, no extra main characters replacing the leads.",
+  "id": "04-garden-evening-return",
+  "title": "Garden Evening Return",
+  "description": "An evening garden spread that completes the reference-dependent storybook scene family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/04-garden-evening-return/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bedtime-spread",
+        "meta_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/meta.json",
+        "image_path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-bedtime-spread.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Garden Evening Return",
+      "description": "An evening garden spread that completes the reference-dependent storybook scene family."
+    },
+    "zh-CN": {
+      "title": "花园傍晚归家",
+      "description": "完成整组参考依赖绘本场景家族的花园傍晚归家跨页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An evening garden spread that completes the reference-dependent storybook scene family.",
+      "zh-CN": "完成整组参考依赖绘本场景家族的花园傍晚归家跨页。"
+    }
+  }
+}

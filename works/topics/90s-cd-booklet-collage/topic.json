@@ -1,0 +1,52 @@
+{
+  "id": "90s-cd-booklet-collage",
+  "slug": "90s-cd-booklet-collage",
+  "category": "editorial",
+  "style": [
+    "retro",
+    "editorial"
+  ],
+  "capability": [
+    "editorial-illustration",
+    "photorealism",
+    "text-rendering",
+    "style-transfer"
+  ],
+  "title": "90s CD Booklet Collage",
+  "short_title": "90s CD Booklet",
+  "description": "90s CD-album booklet spreads — silver jewel-case backings, grainy high-contrast photography, distorted stretched letterforms overlapping lyrics, photocopied toner speckle, independent-scene intimacy at modern capture fidelity.",
+  "i18n": {
+    "en": {
+      "title": "90s CD Booklet Collage",
+      "short_title": "90s CD Booklet",
+      "description": "90s CD-album booklet spreads — silver jewel-case backings, grainy high-contrast photography, distorted stretched letterforms overlapping lyrics, photocopied toner speckle, independent-scene intimacy at modern capture fidelity."
+    },
+    "zh-CN": {
+      "title": "90 年代 CD 内页拼贴",
+      "short_title": "90 年代 CD 内页",
+      "description": "90 年代 CD 专辑内页跨页 · 银色塑料盒底 · 颗粒高对比摄影 · 失真拉伸字母覆盖歌词 · 复印调色墨斑 · 独立音乐亲密感以现代捕捉精度重现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "photorealism",
+      "text-rendering",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-cd-booklet-studies",
+      "type": "single",
+      "title": "CD Booklet Studies",
+      "path": "packages/single-cd-booklet-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Device Support Studies",
+  "description": "Five independent hard-surface product studies supporting the hero-render theme.",
+  "creative_direction": "Independent product-render studies across devices, accessories, lineups, docks, and ecosystem boards without dependency on the locked tool identity.",
+  "cover_image": "images/support-one/image.png",
+  "i18n": {
+    "en": {
+      "title": "Device Support Studies",
+      "description": "Five independent hard-surface product studies supporting the hero-render theme."
+    },
+    "zh-CN": {
+      "title": "设备支持研究",
+      "description": "五张独立硬表面产品研究图，支持 hero render 主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "support-one",
+      "title": "Camera Device Hero",
+      "image": "images/support-one/image.png",
+      "meta": "images/support-one/meta.json"
+    },
+    {
+      "id": "support-two",
+      "title": "Speaker Material Study",
+      "image": "images/support-two/image.png",
+      "meta": "images/support-two/meta.json"
+    },
+    {
+      "id": "support-three",
+      "title": "Tool Family Lineup",
+      "image": "images/support-three/image.png",
+      "meta": "images/support-three/meta.json"
+    },
+    {
+      "id": "support-four",
+      "title": "Charging Dock Mockup",
+      "image": "images/support-four/image.png",
+      "meta": "images/support-four/meta.json"
+    },
+    {
+      "id": "support-five",
+      "title": "Accessory Breakdown Board",
+      "image": "images/support-five/image.png",
+      "meta": "images/support-five/meta.json"
+    }
+  ]
+}

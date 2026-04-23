@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Frame a square crop of a shop window with one beverage visual, abstract shape overlays, and interior blur behind the glass.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. The beverage should appear as a large storefront hero supported by non-legible campaign graphics and seasonal ingredient cues.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Glass reflection, opacity layers, and storefront depth should feel real, with the applied graphic still reading cleanly and commercially.\n\nUse case:\nSeasonal Drinks single study 7/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no readable store hours, no street brand names, no busy pedestrian crowd.",
+  "id": "window-cling-mockup",
+  "title": "Window Cling Mockup",
+  "description": "A storefront-facing campaign mockup adapting the seasonal visual into glass-applied promotion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/single-support-studies/images/window-cling-mockup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Window Cling Mockup",
+      "description": "A storefront-facing campaign mockup adapting the seasonal visual into glass-applied promotion."
+    },
+    "zh-CN": {
+      "title": "橱窗贴样机",
+      "description": "橱窗贴样机：季节饮品主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A storefront-facing campaign mockup adapting the seasonal visual into glass-applied promotion.",
+      "zh-CN": "橱窗贴样机，用于季节饮品主题。"
+    }
+  }
+}

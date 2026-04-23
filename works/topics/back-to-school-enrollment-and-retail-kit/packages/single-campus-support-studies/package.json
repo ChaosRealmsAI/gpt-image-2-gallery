@@ -1,0 +1,64 @@
+{
+  "id": "single-campus-support-studies",
+  "type": "single",
+  "title": "Campus Support Studies",
+  "description": "Five independent back-to-school studies covering locker flatlays, classroom welcome surfaces, parent checkout, dorm setup, and transit-ready morning cues.",
+  "creative_direction": "Independent back-to-school studies extend the topic through retail, education, and lifestyle touchpoints while staying structured, bright, and commercially credible.",
+  "cover_image": "images/locker-flatlay-organizer/image.png",
+  "i18n": {
+    "en": {
+      "title": "Campus Support Studies",
+      "description": "Five independent back-to-school studies covering locker flatlays, classroom welcome surfaces, parent checkout, dorm setup, and transit-ready morning cues."
+    },
+    "zh-CN": {
+      "title": "校园支持研究",
+      "description": "五张独立开学季研究图，补充储物柜平铺、教室欢迎面、家长结算、宿舍布置与晨间通勤场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "locker-flatlay-organizer",
+      "title": "Locker Flatlay Organizer",
+      "image": "images/locker-flatlay-organizer/image.png",
+      "meta": "images/locker-flatlay-organizer/meta.json"
+    },
+    {
+      "id": "classroom-welcome-surface",
+      "title": "Classroom Welcome Surface",
+      "image": "images/classroom-welcome-surface/image.png",
+      "meta": "images/classroom-welcome-surface/meta.json"
+    },
+    {
+      "id": "parent-checkout-cart",
+      "title": "Parent Checkout Cart",
+      "image": "images/parent-checkout-cart/image.png",
+      "meta": "images/parent-checkout-cart/meta.json"
+    },
+    {
+      "id": "dorm-desk-setup",
+      "title": "Dorm Desk Setup",
+      "image": "images/dorm-desk-setup/image.png",
+      "meta": "images/dorm-desk-setup/meta.json"
+    },
+    {
+      "id": "bus-stop-morning-kit",
+      "title": "Bus Stop Morning Kit",
+      "image": "images/bus-stop-morning-kit/image.png",
+      "meta": "images/bus-stop-morning-kit/meta.json"
+    }
+  ]
+}

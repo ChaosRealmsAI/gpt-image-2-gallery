@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Keep the exact centered layout, leader-line grammar, negative-space balance, and restrained studio lighting from the reference image so the editorial system stays instantly recognizable. The background should remain minimal and dark-neutral, with only soft gradients separating the glass from the field.\n\nSubject:\nFeature a chilled martini-style stemmed glass with pale transparent liquid, a long olive or citrus garnish, and a visible frost ring near the upper bowl. Hairline annotation leaders should point toward the glass lip, chill haze, garnish suspension, and the meniscus of the drink. The glass should read as razor-clean and architectural.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. Preserve exact layout, callout spacing, and camera height from the reference model while only changing the vessel family and the material cues of chill and clarity. The stem, rim, and liquid meniscus must feel crisp, and the abstract callout shapes should stay elegant and unreadable.\n\nUse case:\nCocktail anatomy editorial series study 2/9, translating the anchor layout into a chilled martini profile.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no olive-brine mess, no nightclub blue lighting, no readable etched glass text.",
+  "id": "02-martini-cutaway",
+  "title": "Martini Cutaway",
+  "description": "A martini variation preserving the editorial callout system while emphasizing clarity, chill, and garnish mechanics.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/02-martini-cutaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-editorial-old-fashioned-anchor",
+        "meta_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/meta.json",
+        "image_path": "works/topics/cocktail-anatomy-editorial/packages/series-core-system/images/01-editorial-old-fashioned-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Martini Cutaway",
+      "description": "A martini variation preserving the editorial callout system while emphasizing clarity, chill, and garnish mechanics."
+    },
+    "zh-CN": {
+      "title": "Martini Cutaway",
+      "description": "A martini variation preserving the editorial callout system while emphasizing clarity, chill, and garnish mechanics."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A pale martini-style drink with abstract anatomy callouts highlighting the glass, chill, and garnish.",
+      "zh-CN": "A pale martini-style drink with abstract anatomy callouts highlighting the glass, chill, and garnish."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Maintain the exact pedestal framing, vitrine darkness, and side-light behavior from the reference image so the series still reads as one archive display. Reflections should stay minimal and directional.\n\nSubject:\nPresent a tall jar packed with napa cabbage folds, radish pieces, chili-bright brine, seeds, and fine trapped gas, creating a dense vertical column of fermenting vegetable matter. The compression of the ingredients should feel real, with pressure, weight, and irregular gaps. The vessel should read like a preserved specimen with life still inside it.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. Preserve exact display language, glass thickness, and light angle from the reference model while shifting the emphasis toward particulate density, folded leaves, and sediment suspended in brine. The red-orange color should feel organic and not oversaturated.\n\nUse case:\nFermentation sculpture atlas series study 3/9, adapting the anchor vitrine to a dense kimchi sediment column.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no kitchen countertop context, no branded jar lid, no food-styling glamour gloss.",
+  "id": "03-kimchi-sediment-column",
+  "title": "Kimchi Sediment Column",
+  "description": "A kimchi vessel variation preserving the anchor display while foregrounding packed vegetable strata and active brine.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/03-kimchi-sediment-column/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-vitrine-jar-anchor",
+        "meta_path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/01-vitrine-jar-anchor/meta.json",
+        "image_path": "works/topics/fermentation-sculpture-atlas/packages/series-core-system/images/01-vitrine-jar-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Kimchi Sediment Column",
+      "description": "A kimchi vessel variation preserving the anchor display while foregrounding packed vegetable strata and active brine."
+    },
+    "zh-CN": {
+      "title": "Kimchi Sediment Column",
+      "description": "A kimchi vessel variation preserving the anchor display while foregrounding packed vegetable strata and active brine."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A tall kimchi jar showing compressed cabbage folds, active brine, and dense fermentation sediment.",
+      "zh-CN": "A tall kimchi jar showing compressed cabbage folds, active brine, and dense fermentation sediment."
+    }
+  }
+}

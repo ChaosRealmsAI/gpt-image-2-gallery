@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Use a square three-quarter dark-stage composition with backlight strong enough to make citrus flesh glow through the rind and segments. Low cold vapor should cascade around the fruit like a dense waterfall across the surface.\n\nSubject:\nPresent one or two thick citrus slices as a cryogenic stream passes over them, freezing surface moisture and lifting fine icy droplets from the exposed pulp. Segment membranes, rind pores, and tiny frost crystals must remain visible. The event should feel luminous, acidic, and sharply physical.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. Translucent pulp, wet membranes, and newly forming frost need to coexist convincingly. The vapor should feel heavy and downward-moving, framing the fruit rather than hiding it.\n\nUse case:\nLiquid nitrogen frozen moment single study 8/9, contrasting glowing citrus translucency with heavy cold vapor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no juice splash cliches, no tropical cocktail styling, no fake blue freeze tint.",
+  "id": "citrus-vapor-cascade",
+  "title": "Citrus Vapor Cascade",
+  "description": "A sliced citrus specimen meeting cryogenic liquid and producing layered vapor, frost, and translucent pulp detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/single-support-studies/images/citrus-vapor-cascade/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Citrus Vapor Cascade",
+      "description": "A sliced citrus specimen meeting cryogenic liquid and producing layered vapor, frost, and translucent pulp detail."
+    },
+    "zh-CN": {
+      "title": "Citrus Vapor Cascade",
+      "description": "A sliced citrus specimen meeting cryogenic liquid and producing layered vapor, frost, and translucent pulp detail."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Cryogenic liquid freezing translucent citrus slices as dense cold vapor cascades across a dark stage.",
+      "zh-CN": "Cryogenic liquid freezing translucent citrus slices as dense cold vapor cascades across a dark stage."
+    }
+  }
+}

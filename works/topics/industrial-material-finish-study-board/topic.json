@@ -1,0 +1,46 @@
+{
+  "id": "industrial-material-finish-study-board",
+  "slug": "industrial-material-finish-study-board",
+  "title": "Industrial Material Finish Study Board",
+  "short_title": "Material Study",
+  "description": "Create material-finish study boards for industrial products, showing anodized metal, textured plastic, rubber, and brushed surfaces.",
+  "i18n": {
+    "en": {
+      "title": "Industrial Material Finish Study Board",
+      "short_title": "Material Study",
+      "description": "Create material-finish study boards for industrial products, showing anodized metal, textured plastic, rubber, and brushed surfaces."
+    },
+    "zh-CN": {
+      "title": "工业材料与表面 finish 研究板",
+      "short_title": "材料研究",
+      "description": "做工业材料与表面 finish 研究板，展示阳极金属、纹理塑料、橡胶和拉丝表面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "micro-texture",
+      "physics-materials",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Finish Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Material Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

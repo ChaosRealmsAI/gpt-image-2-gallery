@@ -1,0 +1,40 @@
+{
+  "id": "salt-flat-mirror-bolivia",
+  "slug": "salt-flat-mirror-bolivia",
+  "title": "Bolivian Salt Flat Mirror",
+  "short_title": "Salt Flat Mirror",
+  "description": "Uyuni salt flat at wet season, perfect mirror reflecting clouds so the horizon disappears, one jeep creating a small ripple, sunset reflected top and bottom.",
+  "i18n": {
+    "en": {
+      "title": "Bolivian Salt Flat Mirror",
+      "short_title": "Salt Flat Mirror",
+      "description": "Uyuni salt flat at wet season, perfect mirror reflecting clouds so the horizon disappears, one jeep creating a small ripple, sunset reflected top and bottom."
+    },
+    "zh-CN": {
+      "title": "玻利维亚盐湖镜面",
+      "short_title": "盐湖镜面",
+      "description": "乌尤尼盐沼雨季 · 完美镜面映云 · 地平线消失 · 一辆吉普制造微涟漪 · 夕阳上下映照。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1270,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "physics-materials"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Salt Flat Mirror Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

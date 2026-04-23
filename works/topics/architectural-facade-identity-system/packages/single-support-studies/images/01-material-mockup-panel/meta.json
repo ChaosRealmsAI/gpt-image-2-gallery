@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square standalone support study for Architectural Facade Identity System. Use a close architectural mockup panel showing terracotta fins, bronze mesh, stone edge, and glazing sample and frame it like a premium commercial still or design-editorial crop with clear focal hierarchy, disciplined perspective, and enough breathing room for the materials and objects to read at both thumbnail and full size. Keep earthy terracotta, bronze brown, pale stone, smoked glass, and soft sky gray as the tonal guide so the image still belongs to the same theme family, and light the scene in a controlled way that emphasizes texture, edge quality, and authored atmosphere over spectacle.\n\nSubject:\nShow an architectural facade system with terracotta fins, bronze mesh, deep window reveals, sculpted canopies, and a civic-commercial identity that feels recognizable from multiple distances. In this support study, focus on construction realism, joint discipline, and tactile weathering. The image should work independently, yet it must still feel like it belongs to the same broader world of Facade Identity. Make the space, props, and detailing useful for real campaign, editorial, or design-review contexts rather than moodboard abstraction.\n\nImportant details:\nCarry forward the broader language of the fin spacing, bronze mesh logic, canopy silhouette, reveal depth, and urban recognizability of the building, but let this image prove a new support surface or secondary deliverable. Material realism is essential: wood grain, metal sheen, glass edges, textiles, and stone should feel physically plausible and carefully art directed. Any graphic panels, labels, menus, packaging, or captions must stay abstract and unreadable. The overall result should feel reusable for architecture competitions, developer decks, city-brand editorials, and facade-design presentations, with enough structure that a creative or operations team could build on it.\n\nUse case:\nArchitectural Facade Identity System single study 5/9, exploring support image for facade material reviews.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no giant logos, no construction cranes, no crowds, no random neighboring ads, no impossible geometry, no specification text.",
+  "id": "01-material-mockup-panel",
+  "title": "Material Mockup Panel",
+  "description": "An independent support study for facade identity focused on material mockup panel.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/architectural-facade-identity-system/packages/single-support-studies/images/01-material-mockup-panel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study; no references required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Material Mockup Panel",
+      "description": "An independent support study for facade identity focused on material mockup panel."
+    },
+    "zh-CN": {
+      "title": "材料样段板",
+      "description": "围绕外立面的材料样段板研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Material Mockup Panel for Architectural Facade Identity System.",
+      "zh-CN": "外立面主题中的材料样段板。"
+    }
+  }
+}

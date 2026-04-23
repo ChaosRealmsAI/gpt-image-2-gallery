@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square reference image for Skinline Rarity Variant Suite. Build a clean hero skin anchor on a neutral launch surface with a premium, production-ready finish. Use premium stylized key-art lighting, clean atmosphere, and enough negative space for campaign reuse. The composition should feel intentional, clean, and reusable for gallery, research, campaign, or internal handoff contexts. Lighting must support readability first, with the main forms clearly separated from the background and enough breathing room for the system to stay legible at both hero scale and thumbnail scale.\n\nSubject:\nCenter the same original arena heroine with copper-brown skin, a sharp oval face, a silver undercut braid, amber eyes, and a compact athletic silhouette with a teal tactical mantle. For this image, focus on base skin anchor. Keep the same character identity stable across pose and crop changes. This image is the canonical anchor that later series images must follow. The viewer should immediately understand what role this surface plays inside a cohesive game-production asset pack.\n\nImportant details:\nLock face, hair base, body proportions, costume logic, and palette with game-marketing polish. Preserve exact face, hair base, body proportions, and role fantasy from the reference model while the cosmetic tier scales upward. Keep materials believable, edge hierarchy disciplined, and the visual language consistent with Skinline Suite. Use abstract interface blocks or diagram accents when helpful, but avoid any readable language. The final result should feel like a deliberate production asset rather than a random illustration.\n\nUse case:\nSkinline Rarity Variant Suite series study 1/9, designed as reference base skin within a cohesive asset pack.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra characters, no brand marks, no off-model face, no random colorway outside the chosen tier logic, no malformed anatomy or broken perspective, no random decorative clutter.",
+  "id": "01-reference-base-skin",
+  "title": "Reference Base Skin",
+  "description": "Reference Base Skin for Skinline Rarity Variant Suite, preserving the same core system while emphasizing a clean hero skin anchor on a neutral launch surface.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/skinline-rarity-variant-suite/packages/series-rarity-escalation/images/01-reference-base-skin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Base Skin",
+      "description": "Reference Base Skin for Skinline Rarity Variant Suite, preserving the same core system while emphasizing a clean hero skin anchor on a neutral launch surface."
+    },
+    "zh-CN": {
+      "title": "基准基础皮肤",
+      "description": "皮肤线相关的基准基础皮肤图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Reference Base Skin from Skinline Rarity Variant Suite.",
+      "zh-CN": "皮肤线的基准基础皮肤图像。"
+    }
+  }
+}

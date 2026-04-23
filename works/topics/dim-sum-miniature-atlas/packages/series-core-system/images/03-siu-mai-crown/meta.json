@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Maintain the exact overhead museum framing, linen tone, and calm daylight established by the reference image so the series still reads as one archive sheet. Subtle steam and tiny shadows should keep the dumplings dimensional without breaking the quiet tone.\n\nSubject:\nShow several carefully formed open-crown dumplings with yellow wrappers, textured minced filling, and tiny decorative tops such as roe or mushroom dice. The forms should feel hand-made and consistent, with slight natural irregularity that proves they are real food. The image should celebrate repetition and craftsmanship.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Preserve exact spacing, fabric atmosphere, and specimen-tab language from the reference model while shifting the focus to open wrapper structure and textured tops. Wrapper folds, filling granularity, and moisture need to remain highly believable.\n\nUse case:\nDim sum miniature atlas series study 3/9, translating the anchor atlas into structured open-crown dumplings.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no buffet tray context, no plastic shine on wrappers, no readable tags.",
+  "id": "03-siu-mai-crown",
+  "title": "Siu Mai Crown",
+  "description": "An open-crown dumpling variation preserving the anchor tray while foregrounding texture and structured tops.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/03-siu-mai-crown/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-linen-specimen-anchor",
+        "meta_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/meta.json",
+        "image_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Siu Mai Crown",
+      "description": "An open-crown dumpling variation preserving the anchor tray while foregrounding texture and structured tops."
+    },
+    "zh-CN": {
+      "title": "Siu Mai Crown",
+      "description": "An open-crown dumpling variation preserving the anchor tray while foregrounding texture and structured tops."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Open-crown dumplings arranged on linen like curated specimens, each showing textured filling and folded wrappers.",
+      "zh-CN": "Open-crown dumplings arranged on linen like curated specimens, each showing textured filling and folded wrappers."
+    }
+  }
+}

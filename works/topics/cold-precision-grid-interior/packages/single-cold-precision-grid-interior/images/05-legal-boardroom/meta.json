@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square interior image defined by desaturated teal, nicotine amber, matte charcoal, and polished glass, with every desk, chair, monitor, and light source positioned with mathematical restraint. The room should feel contemporary and expensive, but emotionally distant, as if every element has been audited for balance and control. Use a boardroom with elongated table, identical leather chairs, concealed lighting coves, and dark glass panels reflecting the room back into itself.\n\nSubject:\nUse office floors, apartments, control rooms, or meeting spaces where human figures appear small, backlit, and subordinate to the grid of furniture and screens. The subject is not one person so much as the cold system of objects, reflections, and intervals between them. A solitary folder and water glass sit at the midpoint of the table while one attorney silhouette lingers at the far end.\n\nImportant details:\nThe signature depends on exact spacing, subdued color, restrained contrast, and a polished investigative mood. Preserve orderly cable paths, clean desk surfaces, sensible monitor glow, and strong negative space. Avoid colorful personality clutter, playful decor, or casual lived-in mess. The composition should communicate power through stillness and expensive restraint rather than grand decoration.\n\nUse case:\nCold Precision Grid Interior single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible logos on screens, no colorful sticky notes, no comic exaggeration, no warm family-home coziness, no random clutter piles, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-legal-boardroom",
+  "title": "Legal Boardroom",
+  "description": "A polished boardroom where a single silhouette and perfectly aligned furniture imply procedural pressure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cold-precision-grid-interior/packages/single-cold-precision-grid-interior/images/05-legal-boardroom/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cold precision study focused on legal boardroom.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Legal Boardroom",
+      "description": "A polished boardroom where a single silhouette and perfectly aligned furniture imply procedural pressure."
+    },
+    "zh-CN": {
+      "title": "Legal Boardroom",
+      "description": "围绕冷精准的第5张独立研究图，聚焦 Legal Boardroom。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A dark glass boardroom with an elongated table, empty chairs, and one distant attorney silhouette.",
+      "zh-CN": "冷精准主题图：Legal Boardroom。"
+    }
+  }
+}

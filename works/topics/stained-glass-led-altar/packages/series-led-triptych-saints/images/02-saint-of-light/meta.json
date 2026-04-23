@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nSame straight-on catalog shot of the reference triptych, same lighting, same frame, same velvet backdrop. The central panel has been re-imaged.\n\nSubject:\nThe identical triptych frame, grid density, bead lines and copper moulding are preserved. The central panel now shows a Saint of Light — a standing robed figure whose halo is made from brighter LED pixel clusters, and whose robes emit a soft outward glow across the colored glass cells. The figure holds a small radiant disc in the right hand. Side panels still hold their bead-mosaic attendants, now dimmer, turning slightly toward the brighter center.\n\nImportant details:\nPreserve exact frame proportions, bead-line cadence, copper moulding pattern and side-panel composition from the reference. Only the central figure and its LED brightness map changes. The halo pixels must look genuinely brighter on the LED layer, not painted brighter on the glass — you should perceive the LEDs pushing extra light out through the glass. Color palette shifts warmer toward amber-gold in the halo field only.\n\nUse case:\nStained Glass LED Altar series image 2/4, depends on reference altar; showcases Saint of Light variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crucifix marks, no saint nimbus with name plate, no brand insignias, no modern logos on the disc, keep triptych frame identity from reference.",
+  "id": "02-saint-of-light",
+  "title": "Saint of Light",
+  "description": "The reference triptych with a Saint of Light in the central panel, LED halo clusters pushing extra brightness through the colored glass.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/02-saint-of-light/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-altar",
+        "meta_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/meta.json",
+        "image_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 triptych frame; central panel becomes Saint of Light."
+  },
+  "i18n": {
+    "en": {
+      "title": "Saint of Light",
+      "description": "The reference triptych with a Saint of Light in the central panel, LED halo clusters pushing extra brightness through the colored glass."
+    },
+    "zh-CN": {
+      "title": "光之圣人",
+      "description": "基准三联画中央替换为光之圣人，LED 光晕像素簇透过彩色玻璃发散额外亮度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "The triptych with a Saint of Light figure glowing from the central panel via clustered LED pixels.",
+      "zh-CN": "三联画中央的光之圣人，由成簇 LED 像素经彩色玻璃发光。"
+    }
+  }
+}

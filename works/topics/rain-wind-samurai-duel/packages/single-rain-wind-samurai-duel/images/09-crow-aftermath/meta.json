@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square outdoor battlefield image shaped by violent weather: slanting rain, flattened reeds, mud spray, charcoal clouds, and wind carving motion through fabric and grass. The palette should stay restrained in charcoal, wet brown, muted steel, and deep moss, with nature overpowering the people within it. End on the muddy field moments after the clash, with rain still falling hard, one crow dropping from a dead branch, and the ground showing fresh slide marks.\n\nSubject:\nThe subject is two lone armored duelists facing each other across open ground, bamboo edges, flooded fields, or broken terrain. Their poses should feel precise and ritualized, with tension coming from stance, distance, and weather rather than from explicit impact. The two duelists stand separated again, one slightly bowed, the other holding still, leaving the outcome unresolved.\n\nImportant details:\nThe core language is discipline against elemental force. Preserve historically inspired layered armor, soaked cloth, muddy terrain, reeds bent by wind, and the sense that rain itself is a character. Avoid fantasy powers, impossible weapons, or decorative heroic posing. Keep the ambiguity and weather stronger than any triumph, so the final image feels tragic and elemental.\n\nUse case:\nRain Wind Samurai Duel Field single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable banners, no bright saturated armor, no fantasy monsters, no gore splatter, no stylized comic effects, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-crow-aftermath",
+  "title": "Crow Aftermath",
+  "description": "An unresolved aftermath in hard rain where two duelists stand apart again under the witness of a crow.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "high-speed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-wind-samurai-duel/packages/single-rain-wind-samurai-duel/images/09-crow-aftermath/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rain wind duel study focused on crow aftermath.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Crow Aftermath",
+      "description": "An unresolved aftermath in hard rain where two duelists stand apart again under the witness of a crow."
+    },
+    "zh-CN": {
+      "title": "Crow Aftermath",
+      "description": "围绕雨风决斗的第9张独立研究图，聚焦 Crow Aftermath。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "Two duelists stand apart in the rain after a clash while a crow drops from a dead branch.",
+      "zh-CN": "雨风决斗主题图：Crow Aftermath。"
+    }
+  }
+}

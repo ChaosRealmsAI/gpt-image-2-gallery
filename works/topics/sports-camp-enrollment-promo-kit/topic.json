@@ -1,0 +1,47 @@
+{
+  "id": "sports-camp-enrollment-promo-kit",
+  "slug": "sports-camp-enrollment-promo-kit",
+  "title": "Sports Camp Enrollment Promo Kit",
+  "short_title": "Camp Promo",
+  "description": "Build promo kits for sports camps and clinics with age-band clarity, coaching energy, and enrollment conversion.",
+  "i18n": {
+    "en": {
+      "title": "Sports Camp Enrollment Promo Kit",
+      "short_title": "Camp Promo",
+      "description": "Build promo kits for sports camps and clinics with age-band clarity, coaching energy, and enrollment conversion."
+    },
+    "zh-CN": {
+      "title": "训练营招生宣传套件",
+      "short_title": "训练营招生",
+      "description": "做训练营招生宣传套件，强调年龄段、教练能量和报名转化。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-enrollment-system",
+      "type": "series",
+      "title": "Enrollment Promo System",
+      "path": "packages/series-enrollment-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Camp Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

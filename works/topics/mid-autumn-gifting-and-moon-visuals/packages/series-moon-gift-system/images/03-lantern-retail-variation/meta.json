@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the same refined Mid-Autumn environment, with the exact warm evening light, midnight-blue depth, lacquer and brass accents, and circular moon cues from the reference image, but turn the frame toward a premium retail display. The scene should stay calm and luxurious while making the merchandising logic more visible and architectural.\n\nSubject:\nFeature a curated retail display with mooncake boxes, tea gifts, lantern-like light forms, display plinths, and circular framing elements arranged into a premium seasonal storefront composition. Preserve exact packaging identity, palette, and material logic from the reference model while changing the setting toward retail and presentation. Everything should feel original, elegant, and ready for upscale seasonal merchandising.\n\nImportant details:\nHold continuity tightly. The lantern cue should enrich atmosphere, not turn the image into generic festival décor. Keep packaging surfaces, metallic trim, ceramic elements, and ambient light highly believable. The final image should feel fit for luxury retail rollouts, boutique windows, and campaign key art under the same Mid-Autumn brand world.\n\nUse case:\nMid-Autumn series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable signage, no giant lantern theme-park spectacle, no mascot rabbit, no logo packaging, no crowd, no fireworks, no fantasy palace architecture.",
+  "id": "03-lantern-retail-variation",
+  "title": "Lantern Retail Variation",
+  "description": "A retail-window Mid-Autumn variation extending the same moon-led campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/03-lantern-retail-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-mooncake-lacquer-anchor",
+        "meta_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/meta.json",
+        "image_path": "works/topics/mid-autumn-gifting-and-moon-visuals/packages/series-moon-gift-system/images/01-mooncake-lacquer-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent lantern-retail variation for the Mid-Autumn system. Preserve the exact campaign language from 01-mooncake-lacquer-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lantern Retail Variation",
+      "description": "A retail-window Mid-Autumn variation extending the same moon-led campaign language."
+    },
+    "zh-CN": {
+      "title": "灯影零售变体",
+      "description": "延续同一月相主导 campaign 语言的中秋零售橱窗变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A lantern-led Mid-Autumn retail visual matching the same premium moon-gift system.",
+      "zh-CN": "与同一高端月礼系统一致的中秋灯影零售画面。"
+    }
+  }
+}

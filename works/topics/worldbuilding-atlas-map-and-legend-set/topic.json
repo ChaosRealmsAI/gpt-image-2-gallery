@@ -1,0 +1,47 @@
+{
+  "id": "worldbuilding-atlas-map-and-legend-set",
+  "slug": "worldbuilding-atlas-map-and-legend-set",
+  "title": "Worldbuilding Atlas Map and Legend Set",
+  "short_title": "Atlas Set",
+  "description": "Build atlas-style maps and legend sheets for speculative worlds with factions, routes, and environmental lore.",
+  "i18n": {
+    "en": {
+      "title": "Worldbuilding Atlas Map and Legend Set",
+      "short_title": "Atlas Set",
+      "description": "Build atlas-style maps and legend sheets for speculative worlds with factions, routes, and environmental lore."
+    },
+    "zh-CN": {
+      "title": "世界观 atlas 地图与图例组",
+      "short_title": "世界观地图",
+      "description": "做世界观 atlas 地图与图例组，强调阵营、路线和环境 lore。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

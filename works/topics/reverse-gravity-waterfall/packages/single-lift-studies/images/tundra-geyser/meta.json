@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at deep winter twilight in subarctic tundra, 35mm medium-format camera at ground level. Snow-covered flats stretching to a distant mountain silhouette; violet sky overhead.\n\nSubject:\nA frozen tundra pond has erupted with a vertical geyser of liquid water that refuses to return. The column ascends 80 meters and continues rising at visible speed, its surface partially freezing into glittering ice crystals that float upward with the flow. At the top, a cloud of slowly rising ice flakes disperses into the cold sky like a negative snowfall.\n\nImportant details:\nHyper-cold aesthetics: every surface ice-rimed, fine hoarfrost on tundra vegetation. Steam billows immediately where hot geyser water meets minus-twenty air. A scientist in a red arctic parka stands at 30 meters' distance as scale anchor. Moon visible at upper-right. Footprints in snow lead toward the geyser and stop.\n\nUse case:\nLift-studies single 4/5 — reverse gravity in frozen biome with partial-freeze physics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no aurora (reserve for other topic), no brand gear, no polar bears, no stylized illustration.",
+  "id": "tundra-geyser",
+  "title": "Tundra Geyser",
+  "description": "A subarctic geyser rising 80m while water partially freezes into floating crystals.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/single-lift-studies/images/tundra-geyser/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — tundra reverse geyser."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tundra Geyser",
+      "description": "A subarctic geyser rising 80m while water partially freezes into floating crystals."
+    },
+    "zh-CN": {
+      "title": "苔原间歇泉",
+      "description": "苔原反向间歇泉升腾 80 米 · 部分结冰化为漂浮晶体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A subarctic geyser rising 80m with water partially freezing into rising crystals.",
+      "zh-CN": "苔原反向间歇泉 80 米 · 水半冻成升腾晶体。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nShow a square product photograph of several stacked workbooks on a light studio surface, with clean daylight and subtle shadows emphasizing thickness, binding, and cover finish. The image should feel retail-ready and plausible for an education publisher or course platform. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse a small stack of subject-varied workbooks, each with one disciplined cover design from the same product family. Add one slightly opened book to reveal interior activity pages with blank module zones and gentle supporting graphics. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the composition orderly and commercially sharp. The stack should communicate depth of curriculum and real product value, not just visual style. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nKids Course Cover and Module Family single study 5/5, workbook stack.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course names, no logos, no fake ratings, no crowded marketplace clutter, no generic stock templates, no IP likeness.",
+  "id": "05-workbook-stack",
+  "title": "Workbook Stack",
+  "description": "A stack of printed workbooks extending the course-cover system into physical curriculum products.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/single-support-studies/images/05-workbook-stack/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 5 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Workbook Stack",
+      "description": "A stack of printed workbooks extending the course-cover system into physical curriculum products."
+    },
+    "zh-CN": {
+      "title": "练习册堆叠",
+      "description": "把课程封面系统延展到实体课程产品的练习册堆叠图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A stack of printed workbooks extending the course-cover system into physical curriculum products.",
+      "zh-CN": "把课程封面系统延展到实体课程产品的练习册堆叠图。"
+    }
+  }
+}

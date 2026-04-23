@@ -1,0 +1,46 @@
+{
+  "id": "motorsport-livery-and-track-promo-set",
+  "slug": "motorsport-livery-and-track-promo-set",
+  "title": "Motorsport Livery and Track Promo Set",
+  "short_title": "Motorsport Promo",
+  "description": "Create motorsport promo sets around liveries, track speed, and sponsor-ready hero moments.",
+  "i18n": {
+    "en": {
+      "title": "Motorsport Livery and Track Promo Set",
+      "short_title": "Motorsport Promo",
+      "description": "Create motorsport promo sets around liveries, track speed, and sponsor-ready hero moments."
+    },
+    "zh-CN": {
+      "title": "赛车涂装与赛道宣传组",
+      "short_title": "赛车宣传",
+      "description": "做赛车涂装与赛道宣传组，强调速度感和 sponsor-ready hero 瞬间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "high-speed",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Track Campaign Core",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Motorsport Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

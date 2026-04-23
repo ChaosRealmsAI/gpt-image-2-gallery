@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nA polished square portrait photograph for Artist Press Portrait Suite. A centered but lively lighting design with balanced headroom and clean shoulder geometry. The overall image should feel production-ready rather than casual, with deliberate framing, stable tonal contrast, and enough visual breathing room for publicity, gallery, or research use. Let the lighting language reflect 人物宣传照 + 棚拍氛围 + 多裁切兼容, and make the background simple enough that the face, pose, and styling hierarchy stay dominant.\n\nSubject:\nPhotograph one clearly identifiable person and make this frame specifically create a crop-flexible square portrait that can survive cover, thumbnail, and pull-quote uses without losing the subject's charisma. The image should honor the brief Generate music, film, or creator press portraits that feel magazine-ready, mood-driven, and cohesive across multiple publicity crops. while staying grounded in believable studio or controlled-location photography. Use wardrobe, pose, grooming, and scene support to signal the intended variation, but keep the viewer convinced that every frame belongs to the same real assignment and the same real person.\n\nImportant details:\nTreat the subject as one locked identity: the same bone structure, same skin-tone family, same haircut base, same eye spacing, and the same body-proportion read from the reference. This frame is reference-dependent. preserve exact face / hair base / body proportions from the reference model. Keep the identity lock stricter than the styling change. Use 同一位艺人输出 press hero、cover crop、landscape banner 和 monochrome alt portrait 四种宣传照方向。 as inspiration for media usefulness rather than literal copying. The hard promise of this topic is 重点不是好看的人像，而是像真的 press kit，能同时服务封面、横幅和采访配图。 Success means 有正式艺人宣传照的完成度和人设感; 横竖裁切都成立，主视觉稳定; 不是简单棚拍，而是能服务媒体发布; 人物魅力和摄影语言同时成立. Protect realistic skin texture, accurate hairline behavior, believable fabric or makeup rendering, and a composition that can survive both tight and loose crops. Avoid readable text even when the image implies a contact sheet, campaign board, or poster proof.\n\nUse case:\nArtist Press Portrait Suite series study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, avoid dead symmetry, avoid empty corners, avoid awkward hand placement, no duplicate people, no extra fingers, no warped facial symmetry, no broken anatomy, no plastic skin, no stock-photo blandness.",
+  "id": "05-cover-crop-portrait",
+  "title": "Cover Crop Portrait",
+  "description": "Cover Crop Portrait for Artist Press Portrait Suite, preserving the locked identity while shifting the portrait use case toward create a crop-flexible square portrait that can survive cover, thumbnail, and pull-quote uses without losing the subject's charisma.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "editing-workflow",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/artist-press-portrait-suite/packages/series-transform-identity-lock/images/05-cover-crop-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-identity-sheet",
+        "meta_path": "works/topics/artist-press-portrait-suite/packages/series-transform-identity-lock/images/01-reference-identity-sheet/meta.json",
+        "image_path": "works/topics/artist-press-portrait-suite/packages/series-transform-identity-lock/images/01-reference-identity-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the runtime result of the reference image to preserve identity while varying the requested portrait angle."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cover Crop Portrait",
+      "description": "Cover Crop Portrait for Artist Press Portrait Suite, preserving the locked identity while shifting the portrait use case toward create a crop-flexible square portrait that can survive cover, thumbnail, and pull-quote uses without losing the subject's charisma."
+    },
+    "zh-CN": {
+      "title": "封面裁切版",
+      "description": "艺人宣传照套组 的封面裁切版，在保持同一人物身份的前提下切换画面用途。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition",
+      "editing-workflow",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Cover Crop Portrait from the Artist Press Portrait Suite identity-locked portrait sequence.",
+      "zh-CN": "艺人宣传照套组 系列中的封面裁切版。"
+    }
+  }
+}

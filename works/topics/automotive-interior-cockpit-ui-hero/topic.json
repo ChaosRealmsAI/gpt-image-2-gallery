@@ -1,0 +1,46 @@
+{
+  "id": "automotive-interior-cockpit-ui-hero",
+  "slug": "automotive-interior-cockpit-ui-hero",
+  "title": "Automotive Interior Cockpit UI Hero",
+  "short_title": "Cockpit UI",
+  "description": "Build cockpit hero systems combining steering geometry, seat materials, and in-car UI with believable premium integration.",
+  "i18n": {
+    "en": {
+      "title": "Automotive Interior Cockpit UI Hero",
+      "short_title": "Cockpit UI",
+      "description": "Build cockpit hero systems combining steering geometry, seat materials, and in-car UI with believable premium integration."
+    },
+    "zh-CN": {
+      "title": "汽车内饰与 cockpit UI hero",
+      "short_title": "车内UI",
+      "description": "做汽车内饰与 cockpit UI hero，结合方向盘、材质和车机界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Cockpit Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Cockpit Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Valentines campaign visual in the same evening environment, keeping the same candle warmth, blush-and-burgundy palette, and polished hospitality depth, but move the framing slightly closer so the gifting moment reads as more concentrated and precious. The composition should still feel clearly connected to the reference image, as if it were another asset from the same campaign shoot rather than a different brand universe.\n\nSubject:\nFeature a refined jewelry presentation with a gift box, satin ribbon, petals, glass accents, and a small dessert or drink cue that ties the scene back to the dining context. Preserve the exact romance language, lighting angle, floral density, and material finish from the reference model while changing the product hierarchy toward intimate gifting. The result should feel premium, restrained, and highly reusable.\n\nImportant details:\nPreserve exact campaign identity from the reference image: same light temperature, same petal logic, same textile richness, and the same balanced mix of desire and polish. Let jewelry be signaled through form and luxury presentation, not through logos or readable packaging. Surfaces should stay realistic and elegant, with believable reflections, clean box construction, and an atmosphere that supports gifting without becoming melodramatic.\n\nUse case:\nValentines series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable jewelry certificates, no ring-box clichés with giant diamonds, no cheap glitter, no visible brand marks, no oversaturated hot pink, no extra hands, no scattered confetti.",
+  "id": "02-jewelry-gift-variation",
+  "title": "Jewelry Gift Variation",
+  "description": "A jewelry-led Valentines gifting variation preserving the same romance campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/02-jewelry-gift-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rose-dinner-anchor",
+        "meta_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/meta.json",
+        "image_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent jewelry variation for the Valentines rollout. Preserve the exact campaign language from 01-rose-dinner-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Jewelry Gift Variation",
+      "description": "A jewelry-led Valentines gifting variation preserving the same romance campaign language."
+    },
+    "zh-CN": {
+      "title": "珠宝礼赠变体",
+      "description": "保持同一浪漫视觉系统的珠宝礼赠变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A jewelry-focused Valentines gifting scene derived from the same core romance system.",
+      "zh-CN": "沿用同一情人节核心系统的珠宝礼赠场景。"
+    }
+  }
+}

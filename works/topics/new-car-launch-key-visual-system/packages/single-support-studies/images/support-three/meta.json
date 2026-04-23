@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square macro studio composition with controlled grazing light, shallow depth, and restrained metallic sparkle kept believable. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter one original vehicle detail zone such as the headlamp edge, flush handle, fender crease, wheel face, and adjacent painted surfaces. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nThe image must feel tactile and engineered, with subtle micro-scratches, realistic paint flake, clean seals, and highly controlled specular flow. Avoid turning the crop into an abstract texture exercise. The visual language should still feel native to New Car Launch Key Visual System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch single study 7/9 for New Car Launch Key Visual System, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no badge lettering, no license plate numbers, no unrelated consumer clutter.",
+  "id": "support-three",
+  "title": "Hero Detail Macro",
+  "description": "A macro campaign crop focused on signature detailing and material transitions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Detail Macro",
+      "description": "A macro campaign crop focused on signature detailing and material transitions."
+    },
+    "zh-CN": {
+      "title": "英雄细节特写",
+      "description": "聚焦标志性细节与材质过渡的 campaign 特写。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A tactile macro view of an original launch car detail.",
+      "zh-CN": "原创发布车型的细节触感特写。"
+    }
+  }
+}

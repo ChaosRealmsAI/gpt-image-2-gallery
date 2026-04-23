@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square naturalistic frame captured at the exact edge of magic hour, when the sun sits low and turns grass, dust, skin, and hair into luminous gold. Use wide lenses, open air, gentle motion, and a lived-in landscape such as tall wheat, meadow, creek bank, orchard, or open prairie. Show a small orchard with low branches, floating dust, and sunbeams filtering sideways between trunks at the end of the day.\n\nSubject:\nCenter on a child or small human figure moving through the landscape with curiosity, wonder, or private joy. The body should feel small inside the world, with the environment carrying as much emotional meaning as the person. A child spins once beneath the trees with arms open, hair and dress edge lit by the low sun.\n\nImportant details:\nThe visual rule is reverence through natural light, wind, and tactile surface detail. Preserve lens flare, translucent grasses, skin warmed by sun, and humble earth textures without commercial polish. Avoid heavy stylization, urban intrusions, or artificial studio neatness. The orchard should feel ordinary and holy at the same time, with dust and leaves turning the light into something tactile.\n\nUse case:\nNatural Reverence Magic Hour single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no modern billboards, no synthetic neon color, no posed fashion styling, no fantasy creatures, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "07-orchard-spin",
+  "title": "Orchard Spin",
+  "description": "An orchard at magic hour where one spinning child turns dust and leaves into a luminous field of motion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/natural-reverence-magic-hour/packages/single-natural-reverence-magic-hour/images/07-orchard-spin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent natural reverence study focused on orchard spin.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Orchard Spin",
+      "description": "An orchard at magic hour where one spinning child turns dust and leaves into a luminous field of motion."
+    },
+    "zh-CN": {
+      "title": "Orchard Spin",
+      "description": "围绕自然崇敬的第7张独立研究图，聚焦 Orchard Spin。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A child spins beneath orchard trees as dust and leaves glow in low sunset light.",
+      "zh-CN": "自然崇敬主题图：Orchard Spin。"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the same open cream-paper journal from the reference, now on a sunny Wednesday. Golden hour light from the upper right slants across the pages, warming the paper tone. The same warm wooden desk holds a few loose flower petals and a small pair of embroidery scissors beside the spine.\n\nSubject:\nThe same journal keeper, one garden walk later. The left page holds three pressed wildflowers — a small daisy, a sprig of lavender, and a ragged yellow blossom — each taped with short crisscrossed strips of terracotta washi tape that show air bubbles. Below them a small pencil sketch of a garden gate. The right page is a dense block of slanted ballpoint handwriting, a smudge of pollen, and a colored-pencil swatch strip of green-ochre-pink mixed by hand.\n\nImportant details:\nPreserve exact identity of the journal from the reference: same cream paper tone, same A5 proportions, same binding curve, same handwriting cadence, same terracotta washi tape, same navy ballpoint. Only the day's ephemera and lighting change. Pressed flowers must have believable botanical flattening — darker pigment where the stem pressed hardest, natural veining. The pollen smudge is a real stain, not a digital gradient.\n\nUse case:\nSeries image 3 of 4 · the same journal after a garden walk, emphasizing botanical ephemera and continuity with the reference page.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector-perfect flowers, no HDR, no symmetric composition, no sterile studio look, preserve exact 1:1 aspect ratio.",
+  "id": "03-garden-walk-page",
+  "title": "Garden Walk Page",
+  "description": "The same journal after a garden walk — pressed wildflowers taped crisscross, pencil gate sketch, and a handmade color swatch.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/03-garden-walk-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-journal-foundation",
+        "meta_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/meta.json",
+        "image_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01-journal-foundation for identity continuity of paper, handwriting, and kit."
+  },
+  "i18n": {
+    "en": {
+      "title": "Garden Walk Page",
+      "description": "The same journal after a garden walk — pressed wildflowers taped crisscross, pencil gate sketch, and a handmade color swatch."
+    },
+    "zh-CN": {
+      "title": "花园散步那页",
+      "description": "同一本手账 · 花园散步后 · 压花交叉胶带 · 铅笔花园门速写 · 手调色条。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Journal spread with pressed flowers taped down, a pencil sketch of a garden gate, and a hand-mixed pencil color swatch.",
+      "zh-CN": "手账跨页 · 胶带粘住的压花 · 铅笔花园门速写和手调铅笔色条。"
+    }
+  }
+}

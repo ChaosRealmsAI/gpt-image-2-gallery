@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square dark garage threshold with narrow strips of cool rim light, deep negative space, and subtle airborne dust controlled by a single back source. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original launch vehicle held mostly in silhouette, with only surfacing edges, wheel arcs, and lamp traces visible. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse disciplined darkness and high-recognition outline logic to create desire without collapsing into a generic black box. The frame should feel intentional, premium, and unmistakably automotive. The visual language should still feel native to New Car Launch Key Visual System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch single study 5/9 for New Car Launch Key Visual System, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no badge lettering, no license plate numbers, no unrelated consumer clutter.",
+  "id": "support-one",
+  "title": "Silhouette Teaser",
+  "description": "A teaser frame using darkness and edge light to build anticipation before reveal.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Silhouette Teaser",
+      "description": "A teaser frame using darkness and edge light to build anticipation before reveal."
+    },
+    "zh-CN": {
+      "title": "剪影预热",
+      "description": "用暗部和轮廓光在正式发布前建立期待感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A teaser silhouette of an original car in a dark garage.",
+      "zh-CN": "原创车型在暗色车库中的预热剪影。"
+    }
+  }
+}

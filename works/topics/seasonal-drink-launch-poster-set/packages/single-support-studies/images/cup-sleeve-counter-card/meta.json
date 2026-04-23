@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Use a square counter setup with one drink, one sleeve or wrap, and one small standing card under soft retail light.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Show how the seasonal campaign translates from hero beverage into tactile point-of-sale materials without readable words.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Paper stock, cup texture, and material alignment need to feel intentional and commercially credible. The drink should remain the clear focal point.\n\nUse case:\nSeasonal Drinks single study 6/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no readable POS copy, no barcode sticker, no cashier hardware.",
+  "id": "cup-sleeve-counter-card",
+  "title": "Cup Sleeve Counter Card",
+  "description": "A retail counter image linking cup sleeve, counter card, and beverage hero within one seasonal campaign moment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/single-support-studies/images/cup-sleeve-counter-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Cup Sleeve Counter Card",
+      "description": "A retail counter image linking cup sleeve, counter card, and beverage hero within one seasonal campaign moment."
+    },
+    "zh-CN": {
+      "title": "杯套台卡",
+      "description": "杯套台卡：季节饮品主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A retail counter image linking cup sleeve, counter card, and beverage hero within one seasonal campaign moment.",
+      "zh-CN": "杯套台卡，用于季节饮品主题。"
+    }
+  }
+}

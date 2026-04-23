@@ -1,0 +1,39 @@
+{
+  "id": "japanese-ukiyoe-modern-remix",
+  "title": "Japanese Ukiyo-e Modern Remix Poster",
+  "short_title": "Ukiyo-e Remix",
+  "description": "Ukiyo-e-block-print aesthetic applied to a modern subject — same flat planes, nori-red and Prussian blue palette, wave patterns and cloud voids, crisp Edo-style linework.",
+  "i18n": {
+    "en": {
+      "title": "Japanese Ukiyo-e Modern Remix Poster",
+      "short_title": "Ukiyo-e Remix",
+      "description": "Ukiyo-e-block-print aesthetic applied to a modern subject — same flat planes, nori-red and Prussian blue palette, wave patterns and cloud voids, crisp Edo-style linework."
+    },
+    "zh-CN": {
+      "title": "浮世绘现代混搭海报",
+      "short_title": "浮世绘混搭",
+      "description": "浮世绘木版印刷美学 + 现代题材 · 平面色块 · 紫苏红 + 普鲁士蓝 · 波浪纹与云空 · 锐利江户线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 530,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "pattern"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Maintain the reference camera angle and negative-space geometry so the dish reads as another movement within one tasting-menu sequence. The background should stay dark and quiet, while the controlled spotlight pulls a subtle shine from the sauce and leaves the outer rim in soft shadow.\n\nSubject:\nSet three narrow slices of rosy duck breast along the same visual path used by the reference dish, with a dark cherry jus ribbon crossing beneath them. Add a compressed beet cylinder, two lacquered berry halves, and a few near-black leaves that echo the plate without disappearing into it. The arrangement should feel like a warmer savory course, more autumnal and dense, yet still severely edited.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Preserve exact plate diameter, camera height, light placement, and breathing room from the reference model while only changing the protein family and accent colors. The duck fat sheen, fine slicing edges, and glossy jus must feel real at macro distance, and the garnish count must stay disciplined.\n\nUse case:\nThree-star plate art series study 3/9, shifting the anchor system into a richer duck course.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no rustic carving board cues, no thick gravy, no crowded vegetable pile.",
+  "id": "03-duck-breast-ribbon",
+  "title": "Duck Breast Ribbon",
+  "description": "A duck course variation keeping the same plate architecture with warmer tones and sharper glaze.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/03-duck-breast-ribbon/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-black-plate-anchor",
+        "meta_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/meta.json",
+        "image_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Duck Breast Ribbon",
+      "description": "A duck course variation keeping the same plate architecture with warmer tones and sharper glaze."
+    },
+    "zh-CN": {
+      "title": "Duck Breast Ribbon",
+      "description": "A duck course variation keeping the same plate architecture with warmer tones and sharper glaze."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A black plate carrying sliced duck breast, cherry jus, and a few sculpted beet and berry accents.",
+      "zh-CN": "A black plate carrying sliced duck breast, cherry jus, and a few sculpted beet and berry accents."
+    }
+  }
+}

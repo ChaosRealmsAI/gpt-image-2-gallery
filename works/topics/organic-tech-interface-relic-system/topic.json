@@ -1,0 +1,47 @@
+{
+  "id": "organic-tech-interface-relic-system",
+  "slug": "organic-tech-interface-relic-system",
+  "title": "Organic Tech Interface Relic System",
+  "short_title": "Organic Tech",
+  "description": "Create relic-interface systems where ancient-seeming biotech devices imply lost civilizations and organic UI logic.",
+  "i18n": {
+    "en": {
+      "title": "Organic Tech Interface Relic System",
+      "short_title": "Organic Tech",
+      "description": "Create relic-interface systems where ancient-seeming biotech devices imply lost civilizations and organic UI logic."
+    },
+    "zh-CN": {
+      "title": "有机科技界面遗物系统",
+      "short_title": "有机科技",
+      "description": "做有机科技界面遗物系统，强调失落文明和有机 UI 逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fusion",
+      "editorial-illustration",
+      "frontier-creative-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

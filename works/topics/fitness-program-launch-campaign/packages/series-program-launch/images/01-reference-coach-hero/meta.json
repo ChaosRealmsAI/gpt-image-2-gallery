@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square coach-led launch hero for Program Launch, using a clean premium training-studio world with matte blacks, warm whites, one bright accent color, and landing-page polish. The frame should feel commercial, polished, and immediately useful for a real client deliverable rather than a one-off art experiment. Keep the composition readable at thumbnail scale while still rewarding a closer look with layered depth, clean negative space, and strong directional light. Build the image so it clearly supports sports communication, with enough modular structure to imply information architecture without relying on literal words.\n\nSubject:\nCenter the image on one original coach with a believable athletic build, calm authority, and brandless premium workout apparel, arranged as coach centered in studio. Treat the subject as original and brandless, with believable apparel construction, realistic body proportions, and strong emotional legibility. Surround the subject with supporting environmental cues that reinforce the category but never overpower the main figure. All secondary objects, props, and background elements should strengthen the same professional sports or fitness context.\n\nImportant details:\nThis first image must establish the full reference system for later derivatives: conversion-minded panel layout, progress arcs, and non-readable benefit blocks. The emotional tone should read as trustworthy authority. Make the visual language reusable, disciplined, and commercially credible, with clean edges, coherent light behavior, and obvious hierarchy. Abstract panels, diagram bands, or stat-like modules are welcome, but they must remain non-readable and subordinate to the main visual message. The result should feel original, specific, and ready to anchor a larger package.\n\nUse case:\nProgram Launch series study 1/9, the reference image for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no copied famous team or product identity, no generic stock-photo stiffness, no cluttered background noise, no celebrity likenesses.",
+  "id": "01-reference-coach-hero",
+  "title": "Reference Coach Hero",
+  "description": "A coach-led hero visual that defines the launch language for a premium fitness program campaign.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fitness-program-launch-campaign/packages/series-program-launch/images/01-reference-coach-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the fitness-program-launch-campaign series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Coach Hero",
+      "description": "A coach-led hero visual that defines the launch language for a premium fitness program campaign."
+    },
+    "zh-CN": {
+      "title": "Reference Coach Hero",
+      "description": "A coach-led hero visual that defines the launch language for a premium fitness program campaign."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A coach-led hero visual that defines the launch language for a premium fitness program campaign.",
+      "zh-CN": "A coach-led hero visual that defines the launch language for a premium fitness program campaign."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square diagram board with one object state closed, one state opened, and clear spatial relationships between access parts. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original industrial enclosure showing hinge, latch, seal, and interior modules during a service-open sequence. Make the subject feel original, production-aware, and clearly grounded in Engineering Cutaway and Section Poster. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the process readable without literal labels or text. The value should come from sequence logic, part relationships, and believable maintenance design. The visual language should still feel native to Engineering Cutaway and Section Poster, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCutaway Poster single study 7/9 for Engineering Cutaway and Section Poster, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no impossible internals, no chaotic arrows, no random infographic decoration, no fantasy glow.",
+  "id": "support-three",
+  "title": "Service Door Diagram",
+  "description": "A support diagram visualizing how service access exposes an engineered interior.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/engineering-cutaway-and-section-poster/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Service Door Diagram",
+      "description": "A support diagram visualizing how service access exposes an engineered interior."
+    },
+    "zh-CN": {
+      "title": "维护开门示意",
+      "description": "可视化维护开门如何暴露工程内部结构的支持图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A service-access diagram for an original engineered enclosure.",
+      "zh-CN": "原创工程外壳的维护开门示意图。"
+    }
+  }
+}

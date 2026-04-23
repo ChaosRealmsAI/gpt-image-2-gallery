@@ -1,0 +1,71 @@
+{
+  "id": "series-led-triptych-saints",
+  "type": "series",
+  "title": "LED Triptych Saints",
+  "description": "A reference-dependent series: one master LED-backed triptych altarpiece, followed by three saint-panel variations reusing the same frame, glass-cell grid and copper circuitry.",
+  "creative_direction": "Reference image 01 establishes the triptych frame, copper-circuit moulding, bead-lead partition of the colored glass and LED matrix layout. Images 02-04 depend on 01 as --ref and rebuild three different saint figures inside the central panel while preserving the frame identity.",
+  "cover_image": "images/01-reference-altar/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-altar/meta.json",
+      "images/02-saint-of-light/meta.json",
+      "images/03-saint-of-data/meta.json",
+      "images/04-saint-of-circuits/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "LED Triptych Saints",
+      "description": "A reference-dependent series: one master LED-backed triptych altarpiece, followed by three saint-panel variations reusing the same frame, glass-cell grid and copper circuitry."
+    },
+    "zh-CN": {
+      "title": "LED 三联画圣人",
+      "description": "参考依赖系列：一张主图确立 LED 背光三联祭坛画的框架、玻璃格点与铜路，随后三张在同一画框内替换不同圣人。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "physics-materials"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-altar",
+      "title": "Reference Altar",
+      "image": "images/01-reference-altar/image.png",
+      "meta": "images/01-reference-altar/meta.json"
+    },
+    {
+      "id": "02-saint-of-light",
+      "title": "Saint of Light",
+      "image": "images/02-saint-of-light/image.png",
+      "meta": "images/02-saint-of-light/meta.json"
+    },
+    {
+      "id": "03-saint-of-data",
+      "title": "Saint of Data",
+      "image": "images/03-saint-of-data/image.png",
+      "meta": "images/03-saint-of-data/meta.json"
+    },
+    {
+      "id": "04-saint-of-circuits",
+      "title": "Saint of Circuits",
+      "image": "images/04-saint-of-circuits/image.png",
+      "meta": "images/04-saint-of-circuits/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square pastry documentation image on a seamless pale gray or warm ivory studio background with soft catalog lighting and almost no cast-shadow drama. The camera should feel orthographic or gently frontal so cross-sections remain easy to compare. Everything must read like a pastry atlas: clean, measured, and highly legible, with crumbs controlled and edges crisp. Create a square specimen-style photograph on a seamless warm gray background with a frontal view and restrained shadow. The frame should be tight enough that the croissant dominates, but generous enough to leave a quiet field around it.\n\nSubject:\nShow one large croissant cut cleanly down its center line, with the interior facing forward and the exterior shell still visibly crisp and flaky. The lamination should step outward in dense, countable leaves, with a hollow core tapering toward the tips. The specimen should look freshly cut, not dried out or crushed.\n\nImportant details:\nTreat every cut face as the hero: laminated layers, cream density, air pockets, fruit cavities, glaze thickness, and crumb structure all need to be countable and believable. The studio language should stay consistent and understated so structural detail does the work. No element should feel collapsed, smeared, or over-stylized. Focus on the relationship between crisp exterior, honeycombed inner void, and laminated leaf structure. A few tiny flakes near the base are acceptable if controlled, but the image must remain as clean as a museum plate.\n\nUse case:\nPastry cross-section atlas single study 5/9, isolating croissant lamination as a specimen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bakery counter background, no casual napkins, no readable labels, no powdered sugar mess, no rustic knife marks, no coffee cups, no butter pats, no torn ragged cut.",
+  "id": "croissant-spinal-cut",
+  "title": "Croissant Spinal Cut",
+  "description": "A singular croissant section photographed like a biological specimen to emphasize lamination depth.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cross-section-pastry-atlas/packages/single-support-studies/images/croissant-spinal-cut/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Croissant Spinal Cut",
+      "description": "A singular croissant section photographed like a biological specimen to emphasize lamination depth."
+    },
+    "zh-CN": {
+      "title": "Croissant Spinal Cut",
+      "description": "A singular croissant section photographed like a biological specimen to emphasize lamination depth."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A single croissant cut open cleanly to reveal countable laminated layers and a hollow center.",
+      "zh-CN": "A single croissant cut open cleanly to reveal countable laminated layers and a hollow center."
+    }
+  }
+}

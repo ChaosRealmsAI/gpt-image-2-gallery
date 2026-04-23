@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square technical-poster composition for an impossible but convincing device, using cutaway views, section windows, and disciplined layout. The background should stay clean and poster-ready so internal chambers, conduits, shells, and field zones remain readable at a glance. Use lighting and color sparingly to clarify hierarchy rather than to decorate the page. Center a dense engine core on a clean poster field with one main shell cutaway, two supporting sectional windows, and cool industrial light.\n\nSubject:\nCenter the image on one speculative machine whose internal logic feels thought through: shell, core, coolant path, field chamber, maintenance access, and energy routing should all relate coherently. The device can be fantastical, but it must read like it could be explained by an engineering team. Establish the reference device through a protected outer shell, concentric field chamber, coolant spine, maintenance ports, and emission throat arranged in clear sequence.\n\nImportant details:\nTreat the poster as a visual explanation system without readable text. Use arrows, callout lines, index dots, section blocks, and sectional contrast only as abstract diagram grammar. The result should feel credible for a concept deck, patent-style board, or advanced product explanation poster. The anchor image should define how cutaway color, section depth, and callout geometry work for the rest of the series. Resolve the anchor rules that later reference-dependent variants must inherit, especially the outer shell silhouette, internal chamber sequencing, conduit routing, and diagram hierarchy.\n\nUse case:\nSpec Tech Cutaway series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no exploded parts floating without logic, no cartoon simplification, no generic spaceship dashboard noise, no rainbow energy blast effects.",
+  "id": "01-jump-core-anchor",
+  "title": "Jump Core Anchor",
+  "description": "Jump Core Anchor presents a compact jump-core poster establishing the packages shell language and internal system hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "patent-diagram",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/01-jump-core-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Spec Tech Cutaway core system.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Jump Core Anchor",
+      "description": "Jump Core Anchor presents a compact jump-core poster establishing the packages shell language and internal system hierarchy."
+    },
+    "zh-CN": {
+      "title": "Jump Core Anchor",
+      "description": "技术剖面主题中的Jump Core Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Jump Core Anchor presents a compact jump-core poster establishing the packages shell language and internal system hierarchy.",
+      "zh-CN": "技术剖面主题中的Jump Core Anchor图像。"
+    }
+  }
+}

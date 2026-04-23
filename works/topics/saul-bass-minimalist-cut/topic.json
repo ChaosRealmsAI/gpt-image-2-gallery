@@ -1,0 +1,39 @@
+{
+  "id": "saul-bass-minimalist-cut",
+  "title": "Minimalist Paper-Cut Film Poster",
+  "short_title": "Paper-Cut Film",
+  "description": "Minimalist film-poster style with paper-cut silhouettes, limited 3-color palette, negative space telling the story, elegantly hand-cut edges.",
+  "i18n": {
+    "en": {
+      "title": "Minimalist Paper-Cut Film Poster",
+      "short_title": "Paper-Cut Film",
+      "description": "Minimalist film-poster style with paper-cut silhouettes, limited 3-color palette, negative space telling the story, elegantly hand-cut edges."
+    },
+    "zh-CN": {
+      "title": "极简剪纸电影海报",
+      "short_title": "剪纸海报",
+      "description": "极简电影海报 · 剪纸剪影 · 3 色 · 负空间讲故事 · 优雅手工剪边。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 600,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

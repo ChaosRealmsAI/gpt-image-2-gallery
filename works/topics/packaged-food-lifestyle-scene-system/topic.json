@@ -1,0 +1,47 @@
+{
+  "id": "packaged-food-lifestyle-scene-system",
+  "slug": "packaged-food-lifestyle-scene-system",
+  "title": "Packaged Food Lifestyle Scene System",
+  "short_title": "Food Package Scenes",
+  "description": "Build packaged-food lifestyle scenes that connect shelf packaging with actual use, serving, and household context.",
+  "i18n": {
+    "en": {
+      "title": "Packaged Food Lifestyle Scene System",
+      "short_title": "Food Package Scenes",
+      "description": "Build packaged-food lifestyle scenes that connect shelf packaging with actual use, serving, and household context."
+    },
+    "zh-CN": {
+      "title": "食品包装生活场景系统",
+      "short_title": "食品包装场景",
+      "description": "做食品包装生活场景系统，把货架包装和真实食用场景连起来。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2480,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "structured-layout"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Package to Table Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Home Use Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

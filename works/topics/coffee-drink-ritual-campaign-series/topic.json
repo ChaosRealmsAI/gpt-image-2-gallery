@@ -1,0 +1,47 @@
+{
+  "id": "coffee-drink-ritual-campaign-series",
+  "slug": "coffee-drink-ritual-campaign-series",
+  "title": "Coffee Drink Ritual Campaign Series",
+  "short_title": "Coffee Rituals",
+  "description": "Create coffee and beverage campaigns centered on ritual, vessels, texture, and daily consumption mood.",
+  "i18n": {
+    "en": {
+      "title": "Coffee Drink Ritual Campaign Series",
+      "short_title": "Coffee Rituals",
+      "description": "Create coffee and beverage campaigns centered on ritual, vessels, texture, and daily consumption mood."
+    },
+    "zh-CN": {
+      "title": "咖啡与饮品 ritual campaign",
+      "short_title": "咖啡饮品",
+      "description": "做咖啡与饮品 ritual campaign，强调杯具、质地和日常消费 mood。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2420,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "editing-workflow"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Ritual Beverage Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Daily Ritual Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "suspense-staircase-shadow",
+  "slug": "suspense-staircase-shadow",
+  "title": "Suspense Staircase Shadow",
+  "short_title": "Suspense Staircase",
+  "description": "Black-and-white thriller cinematography of a spiral staircase shot from above, a single long shadow climbing, Venetian blind slats painting bars across the floor.",
+  "i18n": {
+    "en": {
+      "title": "Suspense Staircase Shadow",
+      "short_title": "Suspense Staircase",
+      "description": "Black-and-white thriller cinematography of a spiral staircase shot from above, a single long shadow climbing, Venetian blind slats painting bars across the floor."
+    },
+    "zh-CN": {
+      "title": "悬疑旋梯阴影",
+      "short_title": "悬疑旋梯",
+      "description": "黑白悬疑片 · 旋梯俯拍 · 一个长影攀登 · 百叶窗条纹打在地板上。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 650,
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "grayscale",
+      "photorealism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-suspense-staircase-shadow",
+      "type": "single",
+      "title": "Suspense Staircase Studies",
+      "path": "packages/single-suspense-staircase-shadow/package.json"
+    }
+  ]
+}

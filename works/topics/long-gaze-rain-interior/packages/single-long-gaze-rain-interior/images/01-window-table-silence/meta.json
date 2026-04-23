@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. Show a wooden table pushed close to a rain-streaked window, with blue exterior light softening the edges of a ceramic cup and folded hands.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A solitary figure sits at the table in profile, not doing anything except watching rain collect and slide down the pane.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. Keep the room modest and tactile, with moisture and wood grain carrying the emotional tone.\n\nUse case:\nLong Gaze Through Rain Interior single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-window-table-silence",
+  "title": "Window Table Silence",
+  "description": "A rain-facing table scene where stillness, wet glass, and one seated figure define the mood.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/01-window-table-silence/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on window table silence.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Window Table Silence",
+      "description": "A rain-facing table scene where stillness, wet glass, and one seated figure define the mood."
+    },
+    "zh-CN": {
+      "title": "Window Table Silence",
+      "description": "围绕长凝视的第1张独立研究图，聚焦 Window Table Silence。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A lone figure sits beside a rain-streaked window at a wooden table in muted interior light.",
+      "zh-CN": "长凝视主题图：Window Table Silence。"
+    }
+  }
+}

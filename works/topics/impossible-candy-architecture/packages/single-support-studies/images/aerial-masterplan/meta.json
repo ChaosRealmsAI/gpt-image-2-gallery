@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Create a square aerial photograph looking down over an edible city on a dark neutral base, lit like a professional architecture model rather than a dessert table. Distinct districts should be readable through massing, color temperature, and material family.\n\nSubject:\nShow cathedrals of sugar, caramel bridge corridors, chocolate hotel blocks, and crystalline plazas all connected by precise street grids and water channels. The layout should feel intentional enough to function as a masterplan, with different edible materials assigned to specific urban roles. The city must remain confectionary in material detail while reading clearly as urban form.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. Prioritize zoning clarity, street hierarchy, and believable transitions between material districts. The image should feel like an atlas plate for an impossible edible metropolis, not a random candy pile seen from above.\n\nUse case:\nCandy architecture single study 5/9, documenting the edible city as a coherent aerial masterplan.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no board-game tokens, no paper labels, no rainbow chaos.",
+  "id": "aerial-masterplan",
+  "title": "Aerial Masterplan",
+  "description": "An overhead edible city plan revealing street logic, districts, and material zoning at once.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/single-support-studies/images/aerial-masterplan/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Aerial Masterplan",
+      "description": "An overhead edible city plan revealing street logic, districts, and material zoning at once."
+    },
+    "zh-CN": {
+      "title": "Aerial Masterplan",
+      "description": "An overhead edible city plan revealing street logic, districts, and material zoning at once."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "An overhead edible city masterplan showing sugar districts, caramel bridges, and chocolate urban blocks.",
+      "zh-CN": "An overhead edible city masterplan showing sugar districts, caramel bridges, and chocolate urban blocks."
+    }
+  }
+}

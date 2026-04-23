@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Matchday System",
+  "description": "A four-image reference-dependent set that locks one broadcast-ready matchday visual grammar across pre-match, live, and post-match surfaces.",
+  "creative_direction": "Image 01 defines the club-neutral stadium mood, panel hierarchy, number-first layout logic, and kinetic lighting language. Images 02-04 depend on that anchor while adapting the same system to live score, final-result, and countdown use cases.",
+  "cover_image": "images/01-reference-match-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-match-poster/meta.json",
+      "images/02-live-score-flash/meta.json",
+      "images/03-postmatch-result-board/meta.json",
+      "images/04-rivalry-countdown-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-live-score-flash, 03-postmatch-result-board, 04-rivalry-countdown-variant. Queue may run 02-live-score-flash, 03-postmatch-result-board, 04-rivalry-countdown-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Matchday System",
+      "description": "A four-image reference-dependent set that locks one broadcast-ready matchday visual grammar across pre-match, live, and post-match surfaces."
+    },
+    "zh-CN": {
+      "title": "Core Matchday System",
+      "description": "A four-image reference-dependent set that locks one broadcast-ready matchday visual grammar across pre-match, live, and post-match surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-match-poster",
+      "title": "Reference Match Poster",
+      "image": "images/01-reference-match-poster/image.png",
+      "meta": "images/01-reference-match-poster/meta.json"
+    },
+    {
+      "id": "02-live-score-flash",
+      "title": "Live Score Flash",
+      "image": "images/02-live-score-flash/image.png",
+      "meta": "images/02-live-score-flash/meta.json"
+    },
+    {
+      "id": "03-postmatch-result-board",
+      "title": "Post-match Result Board",
+      "image": "images/03-postmatch-result-board/image.png",
+      "meta": "images/03-postmatch-result-board/meta.json"
+    },
+    {
+      "id": "04-rivalry-countdown-variant",
+      "title": "Rivalry Countdown Variant",
+      "image": "images/04-rivalry-countdown-variant/image.png",
+      "meta": "images/04-rivalry-countdown-variant/meta.json"
+    }
+  ]
+}

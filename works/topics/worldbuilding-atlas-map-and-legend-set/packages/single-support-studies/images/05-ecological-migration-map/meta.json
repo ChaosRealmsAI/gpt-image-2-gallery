@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nDesign a square atlas or legend sheet that stands alone as a worldbuilding artifact. The layout should feel publishable, with clear map priority, supporting insets, and believable information density. Build a layered board where migration arrows, breeding grounds, climate bands, and territorial overlays share the same controlled atlas space.\n\nSubject:\nShow a map-driven system such as district boundaries, migration routes, underground rails, climate zones, pilgrimage paths, or maritime networks. The cartography should imply social, political, or environmental logic beyond pure decoration. The main read should be the negotiation between ecology and civilization, with routes crossing multiple governance zones and terrains.\n\nImportant details:\nFavor disciplined line work, restrained palette coding, and coherent terrain abstraction. The board should communicate world structure even though no readable labels are present. Keep every symbol purposeful so the board feels like a real environmental planning artifact. Preserve cartographic causality so routes, borders, resources, and environmental features all make sense together.\n\nUse case:\nAtlas Set single study 5/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no game-minimap UI, no random decorative monsters, no travel-brochure icons, no infographic clip-art style.",
+  "id": "05-ecological-migration-map",
+  "title": "Ecological Migration Map",
+  "description": "Ecological Migration Map presents a map sheet connecting seasonal animal movement, habitat zones, and political borders across one world region.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/single-support-studies/images/05-ecological-migration-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Atlas Set support study; no reference URL required.",
+    "attempt_count": 5,
+    "last_error": {
+      "reason": "poll 超时 240s",
+      "retryable": true,
+      "output_path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/single-support-studies/images/05-ecological-migration-map/image.png",
+      "checked_at": "2026-04-23T13:19:09.946Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Ecological Migration Map",
+      "description": "Ecological Migration Map presents a map sheet connecting seasonal animal movement, habitat zones, and political borders across one world region."
+    },
+    "zh-CN": {
+      "title": "Ecological Migration Map",
+      "description": "世界观地图主题中的Ecological Migration Map图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Ecological Migration Map presents a map sheet connecting seasonal animal movement, habitat zones, and political borders across one world region.",
+      "zh-CN": "世界观地图主题中的Ecological Migration Map图像。"
+    }
+  }
+}

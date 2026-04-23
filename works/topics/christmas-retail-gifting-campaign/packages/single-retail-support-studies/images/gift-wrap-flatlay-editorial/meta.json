@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square overhead editorial flatlay on a warm ivory tabletop with soft winter daylight and subtle directional shadow. Use a polished premium-stationery feeling rather than craft-store mess. The arrangement should feel intentionally art-directed for a holiday gift guide, with enough empty space between objects that every material reads clearly and the composition can work as a social tile, e-commerce story card, or editorial insert.\n\nSubject:\nArrange premium wrapping paper, velvet ribbon spools, wax seals without letters, blank gift tags, brass scissors, evergreen clippings, matte ornaments, and folded tissue into a coherent Christmas preparation scene. The objects should feel used by a tasteful retailer preparing orders rather than by a hobbyist. Emphasize tactile surfaces, clean geometry, and the relationship between wrapping tools and premium gift presentation.\n\nImportant details:\nKeep the styling elegant and commercially useful: cream, pine green, muted cranberry, and brushed brass only. Make every edge crisp enough for catalog reuse, with believable paper grain, ribbon sheen, scissor reflections, and soft evergreen needles. Avoid crowded scrapbook behavior. The image should communicate gift-prep professionalism and seasonal warmth while remaining calm, premium, and highly reusable across campaign support surfaces.\n\nUse case:\nChristmas Retail single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten notes, no readable tags, no logos, no glitter spill, no cheap novelty ornaments, no human hands entering frame, no messy tape scraps, no random bright plastic colors.",
+  "id": "gift-wrap-flatlay-editorial",
+  "title": "Gift Wrap Flatlay Editorial",
+  "description": "An overhead flatlay study of premium holiday wrapping materials and gifting components.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/christmas-retail-gifting-campaign/packages/single-retail-support-studies/images/gift-wrap-flatlay-editorial/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent flatlay support image for Christmas merchandising.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Gift Wrap Flatlay Editorial",
+      "description": "An overhead flatlay study of premium holiday wrapping materials and gifting components."
+    },
+    "zh-CN": {
+      "title": "礼品包装平铺",
+      "description": "一张高端节日包装材料与礼赠组件的俯拍平铺研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An overhead Christmas flatlay of ribbons, paper, ornaments, and wrapping accessories.",
+      "zh-CN": "俯拍的圣诞礼品包装平铺，包含丝带、纸张与饰品。"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "early-learning-flashcard-family",
+  "title": "Early Learning Flashcard Family",
+  "short_title": "Flashcards",
+  "description": "Create early-learning flashcard families for letters, numbers, animals, and objects with clear pedagogy and friendly form.",
+  "i18n": {
+    "en": {
+      "title": "Early Learning Flashcard Family",
+      "short_title": "Flashcards",
+      "description": "Create early-learning flashcard families for letters, numbers, animals, and objects with clear pedagogy and friendly form."
+    },
+    "zh-CN": {
+      "title": "早教 flashcard 家族",
+      "short_title": "启蒙卡片",
+      "description": "做早教 flashcard 家族，适合字母、数字、动物和物件启蒙。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Flashcard System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Flashcard Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

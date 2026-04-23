@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square atlas or legend sheet that stands alone as a worldbuilding artifact. The layout should feel publishable, with clear map priority, supporting insets, and believable information density. Compose an inset-style district atlas where radial roads, civic precincts, water systems, and neighborhood fabrics are mapped within one square board.\n\nSubject:\nShow a map-driven system such as district boundaries, migration routes, underground rails, climate zones, pilgrimage paths, or maritime networks. The cartography should imply social, political, or environmental logic beyond pure decoration. The map should read as a functioning capital region, revealing hierarchy between ceremonial center, service zones, and dense urban edges.\n\nImportant details:\nFavor disciplined line work, restrained palette coding, and coherent terrain abstraction. The board should communicate world structure even though no readable labels are present. Let line discipline and inset logic do the storytelling instead of decorative icon overload. Preserve cartographic causality so routes, borders, resources, and environmental features all make sense together.\n\nUse case:\nAtlas Set single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no game-minimap UI, no random decorative monsters, no travel-brochure icons, no fantasy castle postcard framing.",
+  "id": "01-capital-district-inset",
+  "title": "Capital District Inset",
+  "description": "Capital District Inset presents a detailed capital-region map sheet with civic, defensive, and infrastructural layering.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/single-support-studies/images/01-capital-district-inset/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Atlas Set support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Capital District Inset",
+      "description": "Capital District Inset presents a detailed capital-region map sheet with civic, defensive, and infrastructural layering."
+    },
+    "zh-CN": {
+      "title": "Capital District Inset",
+      "description": "世界观地图主题中的Capital District Inset图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Capital District Inset presents a detailed capital-region map sheet with civic, defensive, and infrastructural layering.",
+      "zh-CN": "世界观地图主题中的Capital District Inset图像。"
+    }
+  }
+}

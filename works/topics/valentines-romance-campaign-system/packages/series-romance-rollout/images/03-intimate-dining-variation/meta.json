@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign visual inside the same romantic environment, with the same soft candle glow, blush-burgundy palette, and layered restaurant depth, but widen the framing to prioritize the table setting and atmosphere. The camera should still feel tied to the anchor scene, preserving the same lens behavior and visual polish while turning the composition into a hospitality hero suitable for reservations, social rollout, or event promotion.\n\nSubject:\nShow an elegant two-place dinner setting with florals, dessert plating, glassware, folded napkins, and one discreet wrapped gift or premium token that keeps gifting logic alive. Preserve the exact color balance, floral character, satin accents, and light direction from the reference model while emphasizing the dining experience. The scene must remain tasteful, premium, and free of any readable restaurant materials.\n\nImportant details:\nMaintain the exact campaign grammar from the reference image. Only shift the hierarchy toward tablescape and mood. Make plate glaze, linen folds, candle wax, glass refraction, and petal texture feel physically convincing. Avoid generic wedding vibes; this should read as a refined Valentines campaign for restaurants or experiential brands. The viewer should see unmistakable continuity with the anchor image while still getting a distinct deliverable surface.\n\nUse case:\nValentines series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable menus, no visible people dining, no wedding rings, no bouquet excess, no cheesy red neon, no logo glassware, no banquet-hall clutter.",
+  "id": "03-intimate-dining-variation",
+  "title": "Intimate Dining Variation",
+  "description": "A dining-forward Valentines variation built from the same tasteful romance system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/03-intimate-dining-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rose-dinner-anchor",
+        "meta_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/meta.json",
+        "image_path": "works/topics/valentines-romance-campaign-system/packages/series-romance-rollout/images/01-rose-dinner-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent dining variation for the Valentines rollout. Preserve the exact campaign language from 01-rose-dinner-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Intimate Dining Variation",
+      "description": "A dining-forward Valentines variation built from the same tasteful romance system."
+    },
+    "zh-CN": {
+      "title": "私享晚餐变体",
+      "description": "沿用同一高级浪漫系统的晚餐场景变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A dining-led Valentines campaign image that matches the core romance visual language.",
+      "zh-CN": "与核心浪漫视觉语言一致的情人节晚餐 campaign 图。"
+    }
+  }
+}

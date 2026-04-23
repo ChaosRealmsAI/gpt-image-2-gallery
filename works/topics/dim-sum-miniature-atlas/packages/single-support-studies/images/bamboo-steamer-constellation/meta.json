@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Create a square overhead composition of open bamboo steamers resting on linen, lit by soft daylight and arranged with generous spacing so each steamer becomes one module in a larger layout. The atmosphere should remain museum-like rather than banquet-like.\n\nSubject:\nPlace a small selection of steamers containing different dim sum forms: translucent dumplings, buns, open-crown dumplings, and rolls. Each basket should feel intentionally curated, with steam rising lightly and no sauces or utensils competing for attention. The larger composition should read like a constellation of handcrafted forms.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. The image must balance overview clarity with close-up texture: bamboo grain, wrapper translucency, dough softness, and steam all need to remain legible. The spacing between baskets is as important as the food inside them.\n\nUse case:\nDim sum miniature atlas single study 9/9, expanding the atlas into an overhead constellation of steamers.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no crowded banquet table, no readable menu slips, no plastic dim sum cart cues.",
+  "id": "bamboo-steamer-constellation",
+  "title": "Bamboo Steamer Constellation",
+  "description": "An overhead steamer arrangement of multiple dim sum forms treated like a curated atlas page.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/single-support-studies/images/bamboo-steamer-constellation/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bamboo Steamer Constellation",
+      "description": "An overhead steamer arrangement of multiple dim sum forms treated like a curated atlas page."
+    },
+    "zh-CN": {
+      "title": "Bamboo Steamer Constellation",
+      "description": "An overhead steamer arrangement of multiple dim sum forms treated like a curated atlas page."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An overhead constellation of bamboo steamers holding different dim sum forms on warm linen.",
+      "zh-CN": "An overhead constellation of bamboo steamers holding different dim sum forms on warm linen."
+    }
+  }
+}

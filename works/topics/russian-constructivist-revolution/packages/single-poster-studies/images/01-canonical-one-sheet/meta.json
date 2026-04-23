@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square straight-on studio view of a pristine poster mounted on a matte wall with even museum lighting, crisp corners, and enough breathing room around the sheet for the full composition to read as an intentional object. The poster should express agitated constructivist geometry driven by diagonals, wedges, ray bursts, and halftone photomontage fragments, using revolutionary red, bone white, black, and steel gray with sharp contrast and a tactile surface appropriate to the medium.\n\nSubject:\nBuild the flagship poster statement for this style, with the strongest hierarchy, the clearest subject silhouette, and the most disciplined balance between image field, pseudo-typography, and empty space. Use megaphones, gears, worker profiles, factory towers, flags, and industrial beams as the main visual ingredients, and organize them with heavy angular pseudo-Cyrillic slogan blocks kept abstract and non-readable. For the contemporary-subject axis, thread in public transit megaphones, cranes, and modular housing blocks pushed into militant diagonal rhythm. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nTreat this as the cleanest thesis image in the set: the paper should look fresh, the inks or paint should feel deliberate, and every formal rule of the style should be easy to study at a glance. Preserve diagonal force, abrupt scale shifts, posterized cutout shadows, and coarse print grain. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no soft curves, no pastel palette, no decorative nostalgia, no polished luxury finish.\n\nUse case:\nConstructivist single study 1/9, establishing the cleanest museum-grade poster reading.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "01-canonical-one-sheet",
+  "title": "Canonical One-Sheet",
+  "description": "Constructivist rendered as a canonical one-sheet study, emphasizing establishing the cleanest museum-grade poster reading.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/russian-constructivist-revolution/packages/single-poster-studies/images/01-canonical-one-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Constructivist poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Canonical One-Sheet",
+      "description": "Constructivist rendered as a canonical one-sheet study, emphasizing establishing the cleanest museum-grade poster reading."
+    },
+    "zh-CN": {
+      "title": "标准主海报",
+      "description": "建构主义主题下的标准主海报研究，重点是建立最标准的风格读法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Constructivist poster study shown as canonical one-sheet with non-readable lettering and style-accurate materials.",
+      "zh-CN": "建构主义风格海报，以标准主海报形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

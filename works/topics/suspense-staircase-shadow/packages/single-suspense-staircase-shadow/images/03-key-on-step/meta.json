@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square black-and-white thriller frame with hard contrast, deep blacks, silvery highlights, and geometric shadow patterns cast by railings, blinds, or stained glass. The camera should feel deliberate and predatory, often high above or pinned to an anxious architectural angle. Use a narrow stair run with polished wood risers and a bright overhead beam that isolates the middle three steps.\n\nSubject:\nBuild the image around stairs, shadows, landings, banisters, and one isolated figure whose presence is defined as much by silhouette as by body. Fear should come from spacing, emptiness, and the logic of light rather than from explicit violence. A single metal key lies on one illuminated step while the lower portion of a descending figure enters only as shadow.\n\nImportant details:\nThe governing grammar is suspense through architecture. Preserve crisp edges between light and shadow, polished floor reflections, severe stair geometry, and a sense of silent movement just before or after an event. Avoid modern clutter, color accents, or loose handheld energy. The image should feel almost absurdly simple, with suspense created by scale, emptiness, and the importance of a small object.\n\nUse case:\nSuspense Staircase Shadow single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no monsters, no readable signage, no casual daylight realism, no fog machine effect, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "03-key-on-step",
+  "title": "Key On Step",
+  "description": "A stark staircase close view where one key and an approaching shadow imply imminent danger.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "grayscale",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/suspense-staircase-shadow/packages/single-suspense-staircase-shadow/images/03-key-on-step/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent suspense staircase study focused on key on step.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Key On Step",
+      "description": "A stark staircase close view where one key and an approaching shadow imply imminent danger."
+    },
+    "zh-CN": {
+      "title": "Key On Step",
+      "description": "围绕悬疑旋梯的第3张独立研究图，聚焦 Key On Step。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "grayscale",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A lone key on a lit stair step with a descending shadow approaching in a monochrome thriller frame.",
+      "zh-CN": "悬疑旋梯主题图：Key On Step。"
+    }
+  }
+}

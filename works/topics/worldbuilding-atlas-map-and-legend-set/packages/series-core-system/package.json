@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System",
+  "description": "Four reference-dependent images establishing a reusable atlas set visual system.",
+  "creative_direction": "Image 01 establishes the reusable Atlas Set anchor. Images 02-04 preserve the coastline shape language, legend placement, faction color hierarchy, and route symbol grammar while changing scene context and deliverable emphasis.",
+  "cover_image": "images/01-atlas-plate-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-atlas-plate-anchor/meta.json",
+      "images/02-frontier-march-overlay/meta.json",
+      "images/03-maritime-trade-expansion/meta.json",
+      "images/04-war-era-supply-redraw/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System",
+      "description": "Four reference-dependent images establishing a reusable atlas set visual system."
+    },
+    "zh-CN": {
+      "title": "核心系统",
+      "description": "围绕世界观地图建立四张参考依赖的核心系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-atlas-plate-anchor",
+      "title": "Atlas Plate Anchor",
+      "image": "images/01-atlas-plate-anchor/image.png",
+      "meta": "images/01-atlas-plate-anchor/meta.json"
+    },
+    {
+      "id": "02-frontier-march-overlay",
+      "title": "Frontier March Overlay",
+      "image": "images/02-frontier-march-overlay/image.png",
+      "meta": "images/02-frontier-march-overlay/meta.json"
+    },
+    {
+      "id": "03-maritime-trade-expansion",
+      "title": "Maritime Trade Expansion",
+      "image": "images/03-maritime-trade-expansion/image.png",
+      "meta": "images/03-maritime-trade-expansion/meta.json"
+    },
+    {
+      "id": "04-war-era-supply-redraw",
+      "title": "War Era Supply Redraw",
+      "image": "images/04-war-era-supply-redraw/image.png",
+      "meta": "images/04-war-era-supply-redraw/meta.json"
+    }
+  ]
+}

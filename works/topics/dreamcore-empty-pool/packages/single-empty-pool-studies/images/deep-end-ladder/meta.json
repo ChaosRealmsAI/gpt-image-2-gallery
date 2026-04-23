@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format vertical-subject photograph of a chrome pool ladder descending into an empty deep end, shot with 90s direct flash at night. The room is a community recreation pool with high painted ceiling. Only the flash lights the ladder; beyond the ladder, the deep-end basin falls into soft darkness. 35mm film grain and a slight green-yellow cast.\n\nSubject:\nA four-rung stainless steel pool ladder bolted to the deck with two anchor plates, rungs curving into the basin. The basin bottom beneath the ladder is dry concrete with faded navy depth markings stenciled nearby. Wall tile near the ladder is cobalt blue at the waterline and pale ivory above. One spent rubber cap lies on the deck beside a drain grate.\n\nImportant details:\nThe ladder must catch the flash cleanly with hot specular highlights on polished chrome. The drop below the last rung must read as deeper than the near deck, implying this is the deep end. Faint condensation should be visible on the tile. The feeling is 'ladder waiting for a swimmer who never returns'. No person, no splash, no water.\n\nUse case:\nEmpty Pool single study 2/5, close study of a deep-end ladder.\n\nConstraints:\nNo readable text (depth number is only partially legible as stencil strokes), no watermark, no logos, preserve exact 1:1 aspect ratio, no person, no reflection of photographer in chrome, no cinematic lens flare.",
+  "id": "deep-end-ladder",
+  "title": "Deep End Ladder",
+  "description": "A chrome pool ladder descending into the dry deep end under direct flash.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/single-empty-pool-studies/images/deep-end-ladder/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the empty-pool theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Deep End Ladder",
+      "description": "A chrome pool ladder descending into the dry deep end under direct flash."
+    },
+    "zh-CN": {
+      "title": "深水区扶梯",
+      "description": "直闪照下的镀铬泳池扶梯,向干燥深水区下探。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "A chrome pool ladder entering the dry deep-end basin.",
+      "zh-CN": "镀铬泳池扶梯进入干燥的深水区。"
+    }
+  }
+}

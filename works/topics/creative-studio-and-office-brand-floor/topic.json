@@ -1,0 +1,47 @@
+{
+  "id": "creative-studio-and-office-brand-floor",
+  "slug": "creative-studio-and-office-brand-floor",
+  "title": "Creative Studio and Office Brand Floor",
+  "short_title": "Studio Office",
+  "description": "Create branded office and creative-studio floors with collaboration zones, material calm, and company personality.",
+  "i18n": {
+    "en": {
+      "title": "Creative Studio and Office Brand Floor",
+      "short_title": "Studio Office",
+      "description": "Create branded office and creative-studio floors with collaboration zones, material calm, and company personality."
+    },
+    "zh-CN": {
+      "title": "创意 studio 与办公室品牌层",
+      "short_title": "创意办公室",
+      "description": "做创意 studio 与办公室品牌层，强调协作区、材质克制和公司个性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 880,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Office Brand Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Office Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

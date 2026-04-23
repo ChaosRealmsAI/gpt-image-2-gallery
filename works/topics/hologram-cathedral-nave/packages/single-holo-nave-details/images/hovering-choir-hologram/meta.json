@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA medium shot of a cathedral choir loft at night, viewed from the nave floor looking up at a 30-degree angle. The wooden choir stalls below are empty but the space above them is full of light.\n\nSubject:\nA hovering choir of simplified human-shaped holograms stands in two rising tiers above the wooden stalls, each figure made of thin cyan volumetric lines outlining a robed silhouette. Their mouths are faint amber circles of light, implying song. Between them float small staff-line ribbons of light that wrap around the group like a soft cage.\n\nImportant details:\nThe wooden stalls below are warm brown and carry real physical detail: carved end-caps, polished seat wood, candle drippings. Above them, the holograms are clearly non-physical — cyan wireframe with soft scattering. Amber mouth glows must cast real light onto the top of the stall edges, proving the holograms are emissive. No figure has a real face or detailed features.\n\nUse case:\nHologram Cathedral Nave single study 3/5, focusing on a hologram choir above empty stalls.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real human faces, no printed hymnals, no anachronistic modern microphones, no brand stage gear, no projected name tags.",
+  "id": "hovering-choir-hologram",
+  "title": "Hovering Choir Hologram",
+  "description": "Wireframe-cyan hologram figures float in two tiers above wooden choir stalls, their amber mouth glows casting real light on the wood.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "photorealism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/single-holo-nave-details/images/hovering-choir-hologram/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent shot of the hologram choir above wooden stalls."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hovering Choir Hologram",
+      "description": "Wireframe-cyan hologram figures float in two tiers above wooden choir stalls, their amber mouth glows casting real light on the wood."
+    },
+    "zh-CN": {
+      "title": "悬浮全息唱诗班",
+      "description": "青色线框全息人形分两排飘浮在木制唱诗席上方，琥珀色口光映照在木边。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Two tiers of cyan wireframe hologram choir figures floating above empty wooden stalls at night.",
+      "zh-CN": "两排青色线框全息唱诗人飘浮在木制空唱诗席上。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "reverse-gravity-waterfall",
+  "slug": "reverse-gravity-waterfall",
+  "category": "illustration",
+  "style": [
+    "photoreal",
+    "cinematic"
+  ],
+  "capability": [
+    "photorealism",
+    "physics-materials",
+    "cinematic"
+  ],
+  "title": "Reverse Gravity Waterfall from Desert Canyon",
+  "short_title": "Reverse Waterfall",
+  "description": "A hyper-surreal collection of rivers, waterfalls, and fountains that rise upward instead of falling, photographed as real documentary landscape work.",
+  "i18n": {
+    "en": {
+      "title": "Reverse Gravity Waterfall from Desert Canyon",
+      "short_title": "Reverse Waterfall",
+      "description": "A hyper-surreal collection of rivers, waterfalls, and fountains that rise upward instead of falling, photographed as real documentary landscape work."
+    },
+    "zh-CN": {
+      "title": "沙漠峡谷反重力瀑布",
+      "short_title": "反向瀑布",
+      "description": "河流、瀑布与喷泉不落反升的超现实集合 · 以纪实风景摄影方式呈现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 31,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-canyon-rise",
+      "type": "series",
+      "title": "Canyon Rise Cycle",
+      "path": "packages/series-canyon-rise/package.json"
+    },
+    {
+      "id": "single-lift-studies",
+      "type": "single",
+      "title": "Lift Studies",
+      "path": "packages/single-lift-studies/package.json"
+    }
+  ]
+}

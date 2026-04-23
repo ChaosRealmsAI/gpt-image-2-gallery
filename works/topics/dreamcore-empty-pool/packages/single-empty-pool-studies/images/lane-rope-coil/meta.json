@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format ground-level 90s flash photograph of a coiled pool lane rope resting on wet deck tile at night, inside an indoor pool facility. The camera is held low, about 40 centimeters off the ground. Direct on-camera flash hits the rope as the primary light. Distant overhead fluorescents glow faintly in the background. 35mm grain, mild green cast.\n\nSubject:\nA polyethylene pool lane rope coiled into two overlapping loops on the cream-white deck tile. The rope consists of alternating blue and white floating discs around a central cable. Beside the coil sits a puddle the size of a dinner plate reflecting the flash as a bright hotspot. Beyond the coil, the edge of the pool basin drops away into shadow, and a portion of the aqua tile wall is visible across the void.\n\nImportant details:\nLane rope floats must show as molded plastic, not photorealistic gemstone. Deck tile grout must be visible. Puddle should read as chlorinated — slightly bluish. The absence of a swimmer is emphasized by how neatly the rope is coiled, as if put away at closing time. No person, no flip-flops, no gym bag.\n\nUse case:\nEmpty Pool single study 3/5, low-angle isolated study of lane rope on deck.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no person, no reflection of photographer in puddle, no cinematic grade, no dramatic shadow shapes.",
+  "id": "lane-rope-coil",
+  "title": "Lane Rope Coil on Deck",
+  "description": "A coiled pool lane rope on wet deck tile under a low-angle direct flash.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "single", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/single-empty-pool-studies/images/lane-rope-coil/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the empty-pool theme."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lane Rope Coil on Deck",
+      "description": "A coiled pool lane rope on wet deck tile under a low-angle direct flash."
+    },
+    "zh-CN": {
+      "title": "盘绕的泳道绳",
+      "description": "低机位直闪下盘绕在湿瓷砖上的泳池泳道绳。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "single"],
+    "alt": {
+      "en": "A blue-and-white polyethylene lane rope coiled on the wet deck of an empty pool.",
+      "zh-CN": "蓝白相间的聚乙烯泳道绳,盘绕在空泳池湿滑的瓷砖上。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Maintain the same stall materials and warm practical lighting, but widen just enough to show sauce bottles, chopped garnishes, and prep containers in a disciplined layout.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Feature the signature food alongside an organized condiment station that feels authentic to a fast-moving street-food setup.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-stall-anchor. The identity system from the anchor image must stay intact through packaging color, counter texture, and painted-surface cues, even as prep tools and sauces become more visible.\n\nUse case:\nStreet Food Kit series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no ingredient chaos, no readable labels, no sterile studio emptiness.",
+  "id": "03-counter-condiment-array",
+  "title": "Counter Condiment Array",
+  "description": "A condiment-led brand image preserving the reference identity while revealing counter details and service rhythm.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "world-knowledge",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/03-counter-condiment-array/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-stall-anchor",
+        "meta_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/meta.json",
+        "image_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-stall-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Counter Condiment Array",
+      "description": "A condiment-led brand image preserving the reference identity while revealing counter details and service rhythm."
+    },
+    "zh-CN": {
+      "title": "柜台酱料阵列",
+      "description": "柜台酱料阵列：街头餐饮主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A condiment-led brand image preserving the reference identity while revealing counter details and service rhythm.",
+      "zh-CN": "柜台酱料阵列，用于街头餐饮主题。"
+    }
+  }
+}

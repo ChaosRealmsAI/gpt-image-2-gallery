@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square top-down CMF board with neat spacing, soft edge shadows, and neutral daylight-balanced illumination. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original material chips for anodized metal, matte polymer, rubber, and ceramic coating organized with industrial precision. Make the subject feel original, production-aware, and clearly grounded in Industrial Material Finish Study Board. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nStress sample precision and product relevance instead of decorative craft mood. The board should feel native to an industrial design studio. The visual language should still feel native to Industrial Material Finish Study Board, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMaterial Study single study 5/9 for Industrial Material Finish Study Board, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no decorative lifestyle props, no fantasy texture, no chaotic palettes, no distressed damage.",
+  "id": "support-one",
+  "title": "CMF Swatch Array",
+  "description": "A disciplined CMF board of industrial swatches arranged with premium clarity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "micro-texture",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-material-finish-study-board/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "CMF Swatch Array",
+      "description": "A disciplined CMF board of industrial swatches arranged with premium clarity."
+    },
+    "zh-CN": {
+      "title": "CMF 样本阵列",
+      "description": "以高级秩序排布工业 CMF 样本的研究板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "micro-texture",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A premium CMF swatch board for original industrial finishes.",
+      "zh-CN": "原创工业 finish 的高级 CMF 样本板。"
+    }
+  }
+}

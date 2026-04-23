@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square feature-page board with one dominant product crop, multiple detail windows, and premium editorial lighting over a neutral paper ground. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original industrial equipment family consisting of compact pumps, valve modules, and control boxes with consistent material language and premium hard-surface detailing. Make the subject feel original, production-aware, and clearly grounded in Industrial Catalog Cover and Spread System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nPreserve the exact same product family and turn the layout into a sellable, non-readable, feature-driven catalog communication surface. Preserve exact product-family language, material palette, industrial category, and editorial hierarchy across the series. Layouts must feel catalog-realistic while containing no readable text. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCatalog System series study 4/9 for Industrial Catalog Cover and Spread System, built as image 04-presentation-master.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no lorem ipsum, no cheap stock props, no unrelated products, no fake brand typography.",
+  "id": "04-presentation-master",
+  "title": "Feature Page",
+  "description": "The same catalog system resolved into a feature-led page composition.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-catalog-cover-and-spread-system/packages/series-core-system/images/04-presentation-master/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/industrial-catalog-cover-and-spread-system/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/industrial-catalog-cover-and-spread-system/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Feature Page",
+      "description": "The same catalog system resolved into a feature-led page composition."
+    },
+    "zh-CN": {
+      "title": "功能页整合",
+      "description": "把同一目录系统整合成功能导向的页面构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A feature-led industrial catalog page for the same original product family.",
+      "zh-CN": "同一原创产品家族的功能导向目录页。"
+    }
+  }
+}

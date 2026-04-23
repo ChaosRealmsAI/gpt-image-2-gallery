@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Use a bright, clean square card composition with one hero meal in delivery packaging, a secondary side item, and structured placeholder zones around the food.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. Show a craveable meal combo arranged so the hero item dominates, the side clarifies the offer, and the overall tile reads instantly at small size.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This image must define the tile system for the series: generous margin, bold silhouette separation, clean packaging edges, and unreadable but designed commerce shapes.\n\nUse case:\nDelivery Tiles series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no readable labels, no checkout UI, no courier person.",
+  "id": "01-app-tile-anchor",
+  "title": "App Tile Anchor",
+  "description": "A reference delivery tile establishing card-safe crop, appetizing food hierarchy, and abstract offer modules.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/01-app-tile-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "App Tile Anchor",
+      "description": "A reference delivery tile establishing card-safe crop, appetizing food hierarchy, and abstract offer modules."
+    },
+    "zh-CN": {
+      "title": "应用卡片锚点",
+      "description": "应用卡片锚点：外卖tiles主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A reference delivery tile establishing card-safe crop, appetizing food hierarchy, and abstract offer modules.",
+      "zh-CN": "应用卡片锚点，用于外卖tiles主题。"
+    }
+  }
+}

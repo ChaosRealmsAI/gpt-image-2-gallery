@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square clean studio lineup with a warm neutral background, disciplined spacing, and even premium lighting across multiple products. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original appliance family including a coffee system, kettle, grinder, purifier, and related domestic devices. Make the subject feel original, production-aware, and clearly grounded in Premium Appliance Lifestyle Launch Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nFocus on coherent brandless design language, premium proportion control, and quiet domestic sophistication. The lineup should feel platform-driven and intentional. The visual language should still feel native to Premium Appliance Lifestyle Launch Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nAppliance Launch single study 6/9 for Premium Appliance Lifestyle Launch Set, built as image support-two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable labels, no food-brand packaging, no influencer clutter, no unrealistic steam, no decorative overload.",
+  "id": "support-two",
+  "title": "Appliance Family Lineup",
+  "description": "A lineup of original home-appliance products sharing one coherent premium language.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/premium-appliance-lifestyle-launch-set/packages/single-support-studies/images/support-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Appliance Family Lineup",
+      "description": "A lineup of original home-appliance products sharing one coherent premium language."
+    },
+    "zh-CN": {
+      "title": "家电子系列阵列",
+      "description": "多件原创家电共享同一高级语言的阵列图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A lineup of original premium home appliances sharing one design language.",
+      "zh-CN": "共享同一设计语言的原创高端家电子系列阵列。"
+    }
+  }
+}

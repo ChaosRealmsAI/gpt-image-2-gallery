@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Keep the exact pedestal, camera distance, black backdrop, and softbox reflection bands from the reference image so the sculpture series remains coherent. The light should travel clearly along long curved surfaces.\n\nSubject:\nConstruct the showpiece from broad tempered chocolate ribbons looping into an arching form, punctuated by a few thin supports and delicate gold accents. The sculpture should feel aerodynamic and precise, with open negative space between the curved members. The balance must look improbable but still defensible.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. Preserve exact pedestal scale, studio lighting, and reflection logic from the reference model while changing the geometry toward long continuous chocolate ribbons. Reflection lines should reveal perfect temper and clean curvature with no waviness.\n\nUse case:\nChocolate lacquer sculpture series study 2/9, translating the anchor system into arched ribbon geometry.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no melted edge softness, no bakery dessert props, no colorful candy garnish.",
+  "id": "02-ribbon-arch-balance",
+  "title": "Ribbon Arch Balance",
+  "description": "A ribbon-arch variation preserving the anchor studio while foregrounding stretched chocolate curvature.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/02-ribbon-arch-balance/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lacquer-pedestal-anchor",
+        "meta_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/meta.json",
+        "image_path": "works/topics/chocolate-lacquer-sculpture/packages/series-core-system/images/01-lacquer-pedestal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ribbon Arch Balance",
+      "description": "A ribbon-arch variation preserving the anchor studio while foregrounding stretched chocolate curvature."
+    },
+    "zh-CN": {
+      "title": "Ribbon Arch Balance",
+      "description": "A ribbon-arch variation preserving the anchor studio while foregrounding stretched chocolate curvature."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "Looping tempered chocolate ribbons forming an arched sculpture with crisp studio reflections.",
+      "zh-CN": "Looping tempered chocolate ribbons forming an arched sculpture with crisp studio reflections."
+    }
+  }
+}

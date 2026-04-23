@@ -1,0 +1,41 @@
+{
+  "id": "time-folded-urban-spectacle",
+  "slug": "time-folded-urban-spectacle",
+  "title": "Time-Folded Urban Spectacle",
+  "short_title": "Time-Folded",
+  "description": "Cityscape bending and folding on itself like Escher meets blockbuster IMAX, massive practical VFX feel, IMAX-format composition with concentric time-loops visible.",
+  "i18n": {
+    "en": {
+      "title": "Time-Folded Urban Spectacle",
+      "short_title": "Time-Folded",
+      "description": "Cityscape bending and folding on itself like Escher meets blockbuster IMAX, massive practical VFX feel, IMAX-format composition with concentric time-loops visible."
+    },
+    "zh-CN": {
+      "title": "时空折叠都市奇观",
+      "short_title": "时空折叠",
+      "description": "城市如 Escher 遇 IMAX 巨制般折叠 · 实体特效感 · IMAX 构图 · 可见同心时间环。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 620,
+    "tags": [
+      "cinematic",
+      "frontier-creative-composition",
+      "reasoning-composition",
+      "time-split"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-time-folded-urban-spectacle",
+      "type": "single",
+      "title": "Time-Folded Studies",
+      "path": "packages/single-time-folded-urban-spectacle/package.json"
+    }
+  ]
+}

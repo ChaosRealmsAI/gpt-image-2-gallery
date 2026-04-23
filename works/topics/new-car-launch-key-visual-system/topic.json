@@ -1,0 +1,46 @@
+{
+  "id": "new-car-launch-key-visual-system",
+  "slug": "new-car-launch-key-visual-system",
+  "title": "New Car Launch Key Visual System",
+  "short_title": "Car Launch",
+  "description": "Create launch-ready key visuals for new vehicle releases with silhouette authority, finish quality, and brand-scale drama.",
+  "i18n": {
+    "en": {
+      "title": "New Car Launch Key Visual System",
+      "short_title": "Car Launch",
+      "description": "Create launch-ready key visuals for new vehicle releases with silhouette authority, finish quality, and brand-scale drama."
+    },
+    "zh-CN": {
+      "title": "新车发布主视觉系统",
+      "short_title": "新车发布",
+      "description": "做新车发布主视觉系统，强调轮廓识别、漆面品质和品牌级戏剧性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Launch Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Launch Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

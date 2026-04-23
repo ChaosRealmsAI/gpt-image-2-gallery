@@ -1,0 +1,40 @@
+{
+  "id": "himalayan-base-camp-night",
+  "slug": "himalayan-base-camp-night",
+  "title": "Himalayan Base Camp Starscape",
+  "short_title": "Base Camp Night",
+  "description": "Mount Everest base camp at night, Milky Way core arching directly over the summit, warm tent lights in the foreground, no light pollution.",
+  "i18n": {
+    "en": {
+      "title": "Himalayan Base Camp Starscape",
+      "short_title": "Base Camp Night",
+      "description": "Mount Everest base camp at night, Milky Way core arching directly over the summit, warm tent lights in the foreground, no light pollution."
+    },
+    "zh-CN": {
+      "title": "喜马拉雅大本营星空",
+      "short_title": "大本营星空",
+      "description": "珠峰大本营夜空 · 银河核心正跨峰顶 · 前景暖色帐篷灯 · 零光污染。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1280,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "extreme-aspect-ratio"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Base Camp Night Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

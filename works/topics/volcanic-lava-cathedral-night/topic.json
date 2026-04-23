@@ -1,0 +1,40 @@
+{
+  "id": "volcanic-lava-cathedral-night",
+  "slug": "volcanic-lava-cathedral-night",
+  "title": "Volcanic Lava Cathedral at Night",
+  "short_title": "Lava Cathedral",
+  "description": "Active volcano crater at night, lava lake glowing orange-red, black basalt walls rising like Gothic buttresses, a helicopter silhouette in the far distance for scale.",
+  "i18n": {
+    "en": {
+      "title": "Volcanic Lava Cathedral at Night",
+      "short_title": "Lava Cathedral",
+      "description": "Active volcano crater at night, lava lake glowing orange-red, black basalt walls rising like Gothic buttresses, a helicopter silhouette in the far distance for scale."
+    },
+    "zh-CN": {
+      "title": "夜间熔岩大教堂",
+      "short_title": "熔岩教堂",
+      "description": "夜间活火山口 · 熔岩湖橙红发光 · 黑色玄武岩墙如哥特飞扶壁 · 远方直升机剪影作比例。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1220,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "physics-materials"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Lava Cathedral Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

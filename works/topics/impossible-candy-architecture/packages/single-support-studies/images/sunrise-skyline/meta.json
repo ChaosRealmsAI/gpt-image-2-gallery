@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Use a square panoramic-feeling skyline composition at sunrise, with low warm light passing through sugar towers and catching the edges of chocolate masses. The frame should feel serene, monumental, and professionally photographed.\n\nSubject:\nPresent a layered skyline of cathedral spires, crystalline halls, caramel bridges, and darker chocolate blocks receding into atmospheric haze. The materials should remain clearly edible, but the city silhouette must read as coherent urban design rather than novelty sculpture. The sunrise should feel calm and expensive, not fantastical in a cartoon way.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. The key is silhouette discipline: each edible tower and span needs a readable role in the skyline. Warm light through sugar and cool shadow on chocolate should create believable material contrast across the city.\n\nUse case:\nCandy architecture single study 8/9, turning the edible metropolis into a sunrise skyline photograph.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no flying candy pieces, no fireworks, no theme-park mood.",
+  "id": "sunrise-skyline",
+  "title": "Sunrise Skyline",
+  "description": "A broad skyline hero shot of the edible city at sunrise, emphasizing translucency and silhouette order.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/single-support-studies/images/sunrise-skyline/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sunrise Skyline",
+      "description": "A broad skyline hero shot of the edible city at sunrise, emphasizing translucency and silhouette order."
+    },
+    "zh-CN": {
+      "title": "Sunrise Skyline",
+      "description": "A broad skyline hero shot of the edible city at sunrise, emphasizing translucency and silhouette order."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A sunrise skyline of an edible city made from glowing sugar towers, caramel spans, and chocolate blocks.",
+      "zh-CN": "A sunrise skyline of an edible city made from glowing sugar towers, caramel spans, and chocolate blocks."
+    }
+  }
+}

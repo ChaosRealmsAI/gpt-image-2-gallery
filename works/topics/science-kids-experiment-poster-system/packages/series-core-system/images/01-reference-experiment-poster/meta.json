@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square straight-on poster mockup pinned on a classroom science wall, lit with bright but soft daylight. The poster should feel like a real educational deliverable, with crisp print texture, clean margins, and enough context from nearby shelves and jars to suggest a science corner without competing for attention. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nDesign the poster around one simple classroom experiment shown through picture-led setup, step panels, safety icons, material trays, and outcome illustrations. Use a clear visual progression with generous blank title and note areas so the poster feels genuinely teachable and easy to localize later. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nThe system should feel safe, lively, and methodical at once: rounded modules, playful but not silly color coding, obvious sequence logic, and illustration cues that children can follow with minimal adult translation. It must read as a scalable poster template for many experiments. Preserve the same poster grid, step-panel proportions, icon weight, blank instruction bars, and safety-callout rhythm from the reference poster. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nScience Kids Experiment Poster System series study 1/4, reference experiment poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable copy, no chemical formulas, no logos, no dangerous realism, no lab-brand signage, no chaotic clutter.",
+  "id": "01-reference-experiment-poster",
+  "title": "Reference Experiment Poster",
+  "description": "Reference poster that establishes the visual architecture for a child-safe science experiment system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Experiment Poster",
+      "description": "Reference poster that establishes the visual architecture for a child-safe science experiment system."
+    },
+    "zh-CN": {
+      "title": "基准实验海报",
+      "description": "建立儿童友好实验海报视觉结构的基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Reference poster that establishes the visual architecture for a child-safe science experiment system.",
+      "zh-CN": "建立儿童友好实验海报视觉结构的基准版。"
+    }
+  }
+}

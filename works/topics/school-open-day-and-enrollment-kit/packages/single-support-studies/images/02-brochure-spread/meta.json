@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nShow a square top-down mockup of an open admissions brochure on a reception desk, lit cleanly with subtle shadows and believable coated-paper texture. The spread should feel publication-ready and suitable for a real school communications team. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse campus photos, icon-led info blocks, blank pull-quote bands, and carefully paced panels that communicate program breadth, safety, and community without readable copy. The brochure should feel spacious, modern, and parent-trust oriented. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the layout modular and restrained, avoiding generic corporate brochure stiffness. The balance between imagery and empty copy zones should signal serious admissions intent and design maturity. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nSchool Open Day and Enrollment Kit single study 2/5, brochure spread.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable school names, no logos, no luxury-hotel exaggeration, no chaotic crowds, no celebrity faces, no fake brand signage.",
+  "id": "02-brochure-spread",
+  "title": "Brochure Spread",
+  "description": "A printed brochure spread translating school atmosphere into a modular admissions layout.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/school-open-day-and-enrollment-kit/packages/single-support-studies/images/02-brochure-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 2 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Brochure Spread",
+      "description": "A printed brochure spread translating school atmosphere into a modular admissions layout."
+    },
+    "zh-CN": {
+      "title": "手册内页跨页",
+      "description": "把校园气质转成模块化招生版式的手册跨页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A printed brochure spread translating school atmosphere into a modular admissions layout.",
+      "zh-CN": "把校园气质转成模块化招生版式的手册跨页。"
+    }
+  }
+}

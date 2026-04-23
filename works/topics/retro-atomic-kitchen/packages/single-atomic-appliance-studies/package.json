@@ -1,0 +1,31 @@
+{
+  "id": "single-atomic-appliance-studies",
+  "type": "single",
+  "title": "Atomic Appliance Studies",
+  "description": "Five independent advertisement-style studies of imagined 1950s-60s future kitchen appliances, each a standalone magazine ad rendering.",
+  "creative_direction": "Independent product ad studies. Each image is a single-page color magazine ad for a different imaginary atomic-era appliance: rocket blender, auto-pantry, dishwasher dome, food-pill dispenser, and bubble-top coffee maker. No reference dependencies between images.",
+  "cover_image": "images/rocket-blender-ad/image.png",
+  "i18n": {
+    "en": {
+      "title": "Atomic Appliance Studies",
+      "description": "Five independent advertisement-style studies of imagined 1950s-60s future kitchen appliances, each a standalone magazine ad rendering."
+    },
+    "zh-CN": {
+      "title": "原子家电广告研究",
+      "description": "五张独立的 50s-60s 想象未来厨房家电广告研究, 每张都是单页彩色杂志广告渲染。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "commercial-mockup", "editorial-illustration"]
+  },
+  "images": [
+    {"id": "rocket-blender-ad", "title": "Rocket Blender Ad", "image": "images/rocket-blender-ad/image.png", "meta": "images/rocket-blender-ad/meta.json"},
+    {"id": "auto-pantry-ad", "title": "Auto-Pantry Ad", "image": "images/auto-pantry-ad/image.png", "meta": "images/auto-pantry-ad/meta.json"},
+    {"id": "dishwasher-dome-ad", "title": "Dishwasher Dome Ad", "image": "images/dishwasher-dome-ad/image.png", "meta": "images/dishwasher-dome-ad/meta.json"},
+    {"id": "food-pill-dispenser-ad", "title": "Food Pill Dispenser Ad", "image": "images/food-pill-dispenser-ad/image.png", "meta": "images/food-pill-dispenser-ad/meta.json"},
+    {"id": "bubble-coffee-maker-ad", "title": "Bubble Coffee Maker Ad", "image": "images/bubble-coffee-maker-ad/image.png", "meta": "images/bubble-coffee-maker-ad/meta.json"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "learning-app-onboarding-and-lesson-ui",
+  "title": "Learning App Onboarding and Lesson UI",
+  "short_title": "Learning App UI",
+  "description": "Create learning-app onboarding and lesson flows that balance pedagogy, delight, and mobile clarity.",
+  "i18n": {
+    "en": {
+      "title": "Learning App Onboarding and Lesson UI",
+      "short_title": "Learning App UI",
+      "description": "Create learning-app onboarding and lesson flows that balance pedagogy, delight, and mobile clarity."
+    },
+    "zh-CN": {
+      "title": "学习 App 引导与课程 UI",
+      "short_title": "学习App",
+      "description": "做学习 App 引导与课程 UI，平衡教学逻辑和移动端清晰度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition",
+      "editing-workflow"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Learning Flow System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Learning App Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

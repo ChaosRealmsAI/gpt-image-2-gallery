@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a single black-and-white zine manifesto sheet on a scratched wooden table. The lighting is harsh overhead fluorescent, creating faint drum-line photocopy streaks. The paper is cheap A5 photocopier stock, slightly creased.\n\nSubject:\nA single-page manifesto page covered in jagged ransom-note style cut-out letters at explosively different sizes and rotations, forming block paragraphs of wordlike shapes. A torn silhouette of a raised fist is glued toward the lower-left with rubber cement halo. Scratched marker lines underline random fragments. A small sheet-corner has been torn clean off and left on the table beside.\n\nImportant details:\nEvery cut-out letter must be physically scissor-trimmed with ragged edges and a faint shadow. Some letters must be pasted upside down. Glue halos are yellow-brown translucent, not digital. Marker scratches must show pen pressure variance. The torn-off corner piece on the table should cast its own small shadow separate from the main sheet.\n\nUse case:\nIndependent single image in the Collage Moods package, representing the punk manifesto voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector type, no clean alignment, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "punk-manifesto-sheet",
+  "title": "Punk Manifesto Sheet",
+  "description": "A single zine manifesto sheet of jagged ransom-note cut-out letters, torn fist silhouette, and marker underlines.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/single-collage-moods/images/punk-manifesto-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Punk Manifesto Sheet",
+      "description": "A single zine manifesto sheet of jagged ransom-note cut-out letters, torn fist silhouette, and marker underlines."
+    },
+    "zh-CN": {
+      "title": "朋克宣言页",
+      "description": "单页 zine 宣言 · 锯齿状剪字 / 撕下的拳头剪影 / 马克笔下划线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Single zine page of ransom-note cut-out letters, torn fist silhouette, and marker underlines.",
+      "zh-CN": "一张 zine 单页 · 锯齿状剪字 · 撕下的拳头剪影和马克笔下划线。"
+    }
+  }
+}

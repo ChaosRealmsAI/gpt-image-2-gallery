@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square four-card carousel arrangement with identical spacing and polished presentation, now centered on home-learning support. The image should feel like a practical social post parents would save, though all copy areas remain blank. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse tabletop activity photos, gentle icon diagrams, visual routine steps, and blank checklist bars to suggest short at-home learning rituals. The content should feel specific, calm, and truly educational rather than like lifestyle fluff. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep the reference structure locked, especially the card framing, color hierarchy, and space for future typography. The carousel should prove the same template can handle instructional advice while staying highly approachable. Preserve the same square carousel-card frame, photo crop style, icon rhythm, blank headline areas, and family-trust color system from the reference card set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nParent Communication Education Carousel series study 3/4, home practice carousel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable social captions, no logos, no app-interface clutter, no influencer styling, no chaotic sticker overload, no celebrity likeness.",
+  "id": "03-home-practice-carousel",
+  "title": "Home Practice Carousel",
+  "description": "A home-practice tip carousel using the same parent-facing card system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "social-feed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/03-home-practice-carousel/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-welcome-carousel",
+        "meta_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/meta.json",
+        "image_path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-welcome-carousel.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Home Practice Carousel",
+      "description": "A home-practice tip carousel using the same parent-facing card system."
+    },
+    "zh-CN": {
+      "title": "家庭练习轮播",
+      "description": "使用同一家长向卡片系统的家庭练习提示轮播。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "social-feed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A home-practice tip carousel using the same parent-facing card system.",
+      "zh-CN": "使用同一家长向卡片系统的家庭练习提示轮播。"
+    }
+  }
+}

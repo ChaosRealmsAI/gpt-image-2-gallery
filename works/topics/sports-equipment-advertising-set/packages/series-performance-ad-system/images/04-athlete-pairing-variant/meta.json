@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nBuild a square athlete-pairing ad derived from the reference image for Equipment Ads. Preserve the exact world established by the reference image, including the same palette family, lighting direction, environmental logic, and surface finish. The new frame should feel like a deliberate extension of one campaign system, not a separate concept. Shift the hierarchy to suit this use case, but keep the overall composition commercial, polished, and ready for real rollout.\n\nSubject:\nUse the same original subject identity and anchor cues introduced by the reference image, now organized as same product with one athlete. Keep faces, hair logic, body proportions, apparel or product construction, and major supporting forms consistent with the reference. Allow only the layout emphasis, pose, crop, and contextual energy to change so the result clearly belongs to the same package.\n\nImportant details:\nContinuity is the main challenge. Preserve the exact reference language for color, materials, framing rhythm, and overall brandless campaign grammar while steering the tone toward humanized performance context. Keep any stat blocks, schedule modules, arrows, badges, or callout panels non-readable. The derivative should prove that the same art direction can handle a different communication task without losing identity or utility. Make it credible for production use, with clean edges, intentional spacing, and no random decorative elements.\n\nUse case:\nEquipment Ads series study 4/9, a derivative surface linked to 01-reference-product-hero.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no new subject identity, no brand marks, no palette drift, no unrelated props, no collage chaos, no copied public-figure styling.",
+  "id": "04-athlete-pairing-variant",
+  "title": "Athlete Pairing Variant",
+  "description": "An athlete-product derivative that proves the same equipment campaign can support lifestyle and performance pairing.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "reasoning-composition",
+    "high-speed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sports-equipment-advertising-set/packages/series-performance-ad-system/images/04-athlete-pairing-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-product-hero",
+        "meta_path": "works/topics/sports-equipment-advertising-set/packages/series-performance-ad-system/images/01-reference-product-hero/meta.json",
+        "image_path": "works/topics/sports-equipment-advertising-set/packages/series-performance-ad-system/images/01-reference-product-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference image from 01-reference-product-hero to preserve continuity for this derivative.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Athlete Pairing Variant",
+      "description": "An athlete-product derivative that proves the same equipment campaign can support lifestyle and performance pairing."
+    },
+    "zh-CN": {
+      "title": "Athlete Pairing Variant",
+      "description": "An athlete-product derivative that proves the same equipment campaign can support lifestyle and performance pairing."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "reasoning-composition",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "An athlete-product derivative that proves the same equipment campaign can support lifestyle and performance pairing.",
+      "zh-CN": "An athlete-product derivative that proves the same equipment campaign can support lifestyle and performance pairing."
+    }
+  }
+}

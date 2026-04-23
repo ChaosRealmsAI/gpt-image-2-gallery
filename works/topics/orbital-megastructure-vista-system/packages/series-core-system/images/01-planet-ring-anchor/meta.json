@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic concept-poster view of an orbital engineering landscape suspended above a luminous planet. The camera should feel slightly distant but still specific enough to read docking logic, structural depth, and scale cues from tiny service craft and maintenance windows. Use hard vacuum clarity, disciplined reflections on alloy surfaces, and the planet glow as the main light source. Frame the ring three-quarters across the square with a bright planet limb below and a tether port drifting in the near foreground.\n\nSubject:\nCenter the composition on a coherent orbital megastructure language: a monumental ring habitat, tethered port geometry, segmented truss bands, docking petals, and believable traffic lanes for cargo shuttles. The architecture should read as designed by one civilization with clear engineering priorities rather than a random collage of science-fiction shapes. Establish one dominant habitable ring, one spoke cluster, one cargo docking crown, and a few tiny inspection craft so the infrastructure hierarchy resolves immediately.\n\nImportant details:\nKeep engineering plausibility ahead of pure fantasy. Module spacing, rotational logic, light hierarchy, and human scale cues must all feel intentional. Use restrained graphite, silver, pale cyan, amber signal lights, and planetary blues so the set feels reusable across posters, key art, and worldbuilding decks. This is the anchor image for the fanout package, so the ring proportion, spoke cadence, and docking family must read cleanly at a glance and under close inspection. Resolve the anchor rules that later reference-dependent variants must inherit, especially the dominant ring silhouette, spoke spacing, dock petal rhythm, and cool-metal lighting hierarchy.\n\nUse case:\nOrbital Vistas series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy throne shapes, no impossible gravity waterfalls, no chaotic ship clutter, no battle damage spectacle, no exaggerated lens flare.",
+  "id": "01-planet-ring-anchor",
+  "title": "Planet Ring Anchor",
+  "description": "Planet Ring Anchor presents an orbital ring habitat anchor image establishing the primary silhouette and lighting grammar for the system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/01-planet-ring-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Orbital Vistas core system.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Planet Ring Anchor",
+      "description": "Planet Ring Anchor presents an orbital ring habitat anchor image establishing the primary silhouette and lighting grammar for the system."
+    },
+    "zh-CN": {
+      "title": "Planet Ring Anchor",
+      "description": "轨道巨构主题中的Planet Ring Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Planet Ring Anchor presents an orbital ring habitat anchor image establishing the primary silhouette and lighting grammar for the system.",
+      "zh-CN": "轨道巨构主题中的Planet Ring Anchor图像。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square premium patisserie image with polished but believable boutique lighting, elegant marble or lacquer surfaces, and a sweet-shop atmosphere that feels brand-authored rather than generic. The camera should preserve product clarity, shape definition, and shelf or counter context while leaving enough breathing room for campaign placement. Maintain the same dessert-brand framing and counter logic, but cool the light slightly to support frosted glass, pale cream tones, and a window-side shimmer.\n\nSubject:\nThe desserts must look crafted by a high-end pastry kitchen: clean lamination, glossy glaze, stable cream structure, crisp edges, and packaging or display surfaces that reinforce a coherent dessert identity. Show a premium gelato or parfait cup with layered textures, fruit accent, and refined packaging cues integrated into the patisserie environment.\n\nImportant details:\nSweetness should come from color control, finish quality, and material nuance, not from visual clutter. Preserve believable pastry engineering, boutique display logic, and refined merchandising cues so the images can support brand storytelling across retail, packaging, and editorial use. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-salon-display-anchor. Keep the reference display discipline and material hierarchy intact while making cold condensation, spoon reflections, and layered dessert structure fully believable.\n\nUse case:\nDessert Brand series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-color overload, no plastic frosting, no supermarket clutter, no cartoon decorations, no melted textures that break realism, no childish party props, no plastic spoon, no amusement-park styling, no oversized sundae build.",
+  "id": "04-gelato-window-cup",
+  "title": "Gelato Window Cup",
+  "description": "A chilled dessert variation that preserves the reference boutique system while introducing glass, frost, and airy color.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/04-gelato-window-cup/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-salon-display-anchor",
+        "meta_path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/01-salon-display-anchor/meta.json",
+        "image_path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/01-salon-display-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-salon-display-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Gelato Window Cup",
+      "description": "A chilled dessert variation that preserves the reference boutique system while introducing glass, frost, and airy color."
+    },
+    "zh-CN": {
+      "title": "橱窗冰淇淋杯",
+      "description": "橱窗冰淇淋杯：甜品品牌主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A chilled dessert variation that preserves the reference boutique system while introducing glass, frost, and airy color.",
+      "zh-CN": "橱窗冰淇淋杯，用于甜品品牌主题。"
+    }
+  }
+}

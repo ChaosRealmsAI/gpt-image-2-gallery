@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square course-cover mockup centered on one hero cover card or workbook front against a clean studio background with soft shadows and premium print realism. The cover should feel suitable for a real education platform, with blank title zones, category markers, and a clear visual hierarchy that can repeat across a product family. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse a cheerful but structured illustration featuring children, learning tools, and a modular subject world arranged inside a disciplined frame. The visual must feel specific enough for curriculum branding and flexible enough to branch into many subjects and age bands. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nLock a repeatable system: cover frame, badge placement, illustration window, color accents, and whitespace proportions. The design should communicate quality, consistency, and easy browsing across a curriculum shelf. Preserve the same cover frame, subject badge placement, illustration ratio, color hierarchy, and blank title-zone architecture from the reference cover. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nKids Course Cover and Module Family series study 1/4, reference master cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course titles, no logos, no brand mascots from existing IP, no cluttered marketplace graphics, no fake awards, no generic stock-book covers.",
+  "id": "01-reference-master-cover",
+  "title": "Reference Master Cover",
+  "description": "Reference course cover that locks the educational brand language for a modular kids curriculum family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Master Cover",
+      "description": "Reference course cover that locks the educational brand language for a modular kids curriculum family."
+    },
+    "zh-CN": {
+      "title": "基准主封面",
+      "description": "锁定模块化儿童课程品牌语言的主封面基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Reference course cover that locks the educational brand language for a modular kids curriculum family.",
+      "zh-CN": "锁定模块化儿童课程品牌语言的主封面基准版。"
+    }
+  }
+}

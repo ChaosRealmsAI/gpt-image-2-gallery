@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square relic-device poster with enough atmosphere to imply archaeology, ritual, and lost interface logic while remaining visually precise. The scene can be staged on stone, resin, mineral, or ceremonial supports, but the framing should keep the device as the clear protagonist. Use directional light that reveals surface relief, embedded channels, and translucent organic layers without obscuring object structure. Embed the familiar core silhouette into a weathered architectural niche where root-like channels spread through stone and preserved translucent organs remain active.\n\nSubject:\nCenter the composition on one biotech relic that fuses grown matter, carved mineral, membrane layers, luminous vessels, and interface surfaces into a coherent artifact. It should feel older than the viewer can fully understand, but still legible as a tool, console, or control core created by a sophisticated civilization. Preserve the anchor material grammar while translating it into architectural scale, with the interface becoming a shrine-like control installation.\n\nImportant details:\nPrioritize object logic over mythology. Vein-like channels, tactile contact areas, hidden mechanisms, soft emissions, and material transitions should all suggest an organic user interface. The poster must feel commercially useful for prop design, worldbuilding boards, or key visual surfaces rather than as generic fantasy treasure. The room can feel old and quiet, but the primary read must remain the coherent device family and its functional relationship to the space. Preserve the exact structural language established by the reference image, especially the ovoid core silhouette, vein-like circuitry, mineral-bone materials, and sacred device hierarchy.\n\nUse case:\nOrganic Tech series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy spell circles, no steampunk brass clutter, no readable glyph text, no obvious modern screens, no temple idol worship framing.",
+  "id": "04-ruined-sanctum-installation",
+  "title": "Ruined Sanctum Installation",
+  "description": "Ruined Sanctum Installation presents the same relic language scaled into a fixed wall or chamber installation inside a ruined sanctum.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "editorial-illustration",
+    "frontier-creative-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/organic-tech-interface-relic-system/packages/series-core-system/images/04-ruined-sanctum-installation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-relic-core-anchor",
+        "meta_path": "works/topics/organic-tech-interface-relic-system/packages/series-core-system/images/01-relic-core-anchor/meta.json",
+        "image_path": "works/topics/organic-tech-interface-relic-system/packages/series-core-system/images/01-relic-core-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Organic Tech core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ruined Sanctum Installation",
+      "description": "Ruined Sanctum Installation presents the same relic language scaled into a fixed wall or chamber installation inside a ruined sanctum."
+    },
+    "zh-CN": {
+      "title": "Ruined Sanctum Installation",
+      "description": "有机科技主题中的Ruined Sanctum Installation图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "editorial-illustration",
+      "frontier-creative-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Ruined Sanctum Installation presents the same relic language scaled into a fixed wall or chamber installation inside a ruined sanctum.",
+      "zh-CN": "有机科技主题中的Ruined Sanctum Installation图像。"
+    }
+  }
+}

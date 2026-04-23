@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the same open cream-paper journal from the reference, now very late at night under a warm yellow desk lamp. The surrounding desk fades into soft shadow, and the right page is brighter than the left because the lamp sits off to the right. A half-empty mug sits just outside the frame casting a small warm reflection on the page corner.\n\nSubject:\nThe same journal keeper's closing page of the week. The left page has a dreamy charcoal smudge of a night sky, a ticket stub from a late-night cinema taped down, and a few stars drawn in small off-center marks. The right page is a long, tired block of slanted ballpoint writing that drifts more than earlier pages, a bleeding fountain-pen underline, and a single long strip of terracotta washi tape running diagonally across one corner with a visible fingerprint smudge from pressing it down.\n\nImportant details:\nPreserve exact identity of the journal from the reference: same cream paper tone, same A5 proportions, same binding curve, same handwriting cadence (even more uneven now due to tiredness — one letter genuinely wobbles mid-line), same terracotta washi tape, same navy ballpoint, plus a new fountain-pen ink bleed that hints the writer switched pens late in the night. Only the mood, light, and pasted ephemera change. The lamp glow falls off realistically, not as a vignette filter.\n\nUse case:\nSeries image 4 of 4 · the final page of the week, closing the emotional arc of the same physical notebook.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vignette filter, no clean symmetry, no glossy surface, no sharp digital glow, preserve exact 1:1 aspect ratio.",
+  "id": "04-late-night-page",
+  "title": "Late Night Page",
+  "description": "The same journal late at night under a desk lamp — charcoal night-sky smudge, cinema stub, and a drifting fountain-pen underline.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/04-late-night-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-journal-foundation",
+        "meta_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/meta.json",
+        "image_path": "works/topics/handmade-scrapbook-journal/packages/series-one-journal-week/images/01-journal-foundation/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01-journal-foundation for identity continuity of paper, handwriting, and kit."
+  },
+  "i18n": {
+    "en": {
+      "title": "Late Night Page",
+      "description": "The same journal late at night under a desk lamp — charcoal night-sky smudge, cinema stub, and a drifting fountain-pen underline."
+    },
+    "zh-CN": {
+      "title": "深夜那页",
+      "description": "同一本手账 · 深夜台灯下 · 木炭夜空晕染 · 电影票根 · 飘忽的钢笔下划线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Journal spread at night with charcoal sky smudge, a cinema ticket taped down, and tired drifting handwriting.",
+      "zh-CN": "夜晚手账跨页 · 木炭夜空晕染 · 粘着的电影票和疲倦飘忽的手写。"
+    }
+  }
+}

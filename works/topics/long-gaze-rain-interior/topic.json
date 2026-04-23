@@ -1,0 +1,39 @@
+{
+  "id": "long-gaze-rain-interior",
+  "slug": "long-gaze-rain-interior",
+  "title": "Long Gaze Through Rain Interior",
+  "short_title": "Long Gaze Rain",
+  "description": "Slow-burning melancholy — a Russian dacha interior with rain streaking outside the window, a single figure seated motionless, warm lamp pool, wet dog sleeping.",
+  "i18n": {
+    "en": {
+      "title": "Long Gaze Through Rain Interior",
+      "short_title": "Long Gaze Rain",
+      "description": "Slow-burning melancholy — a Russian dacha interior with rain streaking outside the window, a single figure seated motionless, warm lamp pool, wet dog sleeping."
+    },
+    "zh-CN": {
+      "title": "雨中长凝视内景",
+      "short_title": "长凝视",
+      "description": "俄式别墅内景 · 窗外雨痕 · 一人静坐不动 · 暖灯光池 · 湿狗入睡。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 700,
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-long-gaze-rain-interior",
+      "type": "single",
+      "title": "Long Gaze Rain Studies",
+      "path": "packages/single-long-gaze-rain-interior/package.json"
+    }
+  ]
+}

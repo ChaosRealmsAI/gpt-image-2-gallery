@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square cinematic frame built with absolute left-right symmetry and a straight-on camera at human height. The palette is powder pink, mint, butter yellow, pale blue, and faded coral, with soft daylight and a miniature dollhouse clarity. The architecture should feel handcrafted, tidy, slightly theatrical, and emotionally precise rather than casual or naturalistic. Use a tiled pastel bathroom cut open like a display box, with twin sinks, twin mirrors, matching towels, and a mint bathtub centered beneath a frosted window.\n\nSubject:\nPlace one or two front-facing figures exactly on the central axis, with costumes, props, and furnishings arranged like curated museum pieces. The people should feel composed and deadpan, never candid, and the room must read as a cutaway stage set where every shelf, lamp, chair, and curtain participates in the symmetry. A caretaker in a coral uniform stands centered between the sinks holding white gloves, while a child in a pale yellow raincoat looks directly at the viewer from the tub edge.\n\nImportant details:\nThe signature rules are central balance, flat frontal staging, pastel temperature control, crisp prop spacing, and a charming handmade scale. Preserve clean rectangles, color-coded rooms, disciplined eye-line, and the sense that the camera is respectfully observing an invented world. Avoid messy realism, loose camera motion, asymmetrical clutter, and dramatic lens distortion. Keep every bottle, soap dish, washcloth, and chrome fixture paired and evenly spaced so the room feels diagrammed but still tender.\n\nUse case:\nSymmetrical Pastel Dollhouse Cinematography single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dutch angle, no chaotic crowd, no gritty grime, no harsh neon, no visible brand packaging, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-bathroom-inspection",
+  "title": "Bathroom Inspection",
+  "description": "A pastel bathroom study where paired fixtures and centered figures turn a private room into a precise theatrical set.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "style-transfer",
+    "miniature-world",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/symmetrical-pastel-dollhouse-cinematography/packages/single-symmetrical-pastel-dollhouse-cinematography/images/02-bathroom-inspection/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pastel symmetry study focused on bathroom inspection.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bathroom Inspection",
+      "description": "A pastel bathroom study where paired fixtures and centered figures turn a private room into a precise theatrical set."
+    },
+    "zh-CN": {
+      "title": "Bathroom Inspection",
+      "description": "围绕对称粉彩的第2张独立研究图，聚焦 Bathroom Inspection。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "style-transfer",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A mint and coral bathroom shown straight on with twin sinks and two centered figures.",
+      "zh-CN": "对称粉彩主题图：Bathroom Inspection。"
+    }
+  }
+}

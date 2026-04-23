@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a hand-bound botanical journal resting on aged oak floorboards. Cool afternoon light filters through lace curtains, scattering soft dappled shapes across the spread. The paper is a thick, tooth-heavy watercolor sheet with deckled edges.\n\nSubject:\nA solitary autumn botanical study. The left page presents three carefully pressed autumn leaves — a rusty maple, a yellow ginkgo, and a dried fern — each fastened with tiny strips of waxed paper tape. A small graphite sketch of a seed pod sits beneath them. The right page is a slow, careful block of handwritten notes in sepia ink with the pen pressure softening line to line, a hand-drawn leaf-vein diagram labeled with abstract symbols, and a small swatch of watercolor color tests in bronze, olive, and plum.\n\nImportant details:\nThe deckled paper edge must be real, with tiny fibers. Waxed-paper tape should be translucent with visible wax gloss over the leaves. Sepia ink must feather into the paper tooth in places. The leaf veins must show believable natural asymmetry. The dappled curtain light on the spread should fall with actual lace shape, not a uniform haze.\n\nUse case:\nIndependent single image in the Scrapbook Variations package, representing the quiet naturalist voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector leaves, no HDR pigment, no symmetrical flower arrangement, preserve exact 1:1 aspect ratio.",
+  "id": "autumn-botanical-page",
+  "title": "Autumn Botanical Page",
+  "description": "A quiet botanical journal spread with pressed autumn leaves, sepia notes, and a hand-mixed watercolor swatch.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/single-scrapbook-variations/images/autumn-botanical-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Autumn Botanical Page",
+      "description": "A quiet botanical journal spread with pressed autumn leaves, sepia notes, and a hand-mixed watercolor swatch."
+    },
+    "zh-CN": {
+      "title": "秋日植物那页",
+      "description": "安静的植物手账跨页 · 压秋叶 · 棕褐墨笔记 · 手调水彩色条。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Botanical journal with pressed autumn leaves, sepia handwriting, and a small watercolor swatch.",
+      "zh-CN": "植物手账跨页 · 压着的秋叶 · 棕褐色手写和一小块水彩色条。"
+    }
+  }
+}

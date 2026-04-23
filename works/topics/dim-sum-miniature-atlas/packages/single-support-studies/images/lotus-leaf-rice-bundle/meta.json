@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Use a square archival setup on linen with soft top light, allowing the wrapped leaf form and opened interior to share the frame without crowding. The background should stay calm and tactile.\n\nSubject:\nPresent one tied lotus-leaf sticky-rice bundle beside another opened parcel revealing glistening rice, mushroom, and savory filling. The leaf should show natural veins, folds, and moisture from steaming. The scene should feel quiet and documentarian.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Balance outer leaf texture with the richer interior ingredients, making both the wrapping logic and the filling structure immediately understandable. Steam must remain subtle and believable.\n\nUse case:\nDim sum miniature atlas single study 6/9, documenting the outer and inner logic of a lotus-leaf parcel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no plastic wrappers, no heavy sauce spill, no readable paper labels.",
+  "id": "lotus-leaf-rice-bundle",
+  "title": "Lotus Leaf Rice Bundle",
+  "description": "A wrapped sticky-rice parcel shown closed and opened to reveal inner layering, steam, and leaf texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/single-support-studies/images/lotus-leaf-rice-bundle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lotus Leaf Rice Bundle",
+      "description": "A wrapped sticky-rice parcel shown closed and opened to reveal inner layering, steam, and leaf texture."
+    },
+    "zh-CN": {
+      "title": "Lotus Leaf Rice Bundle",
+      "description": "A wrapped sticky-rice parcel shown closed and opened to reveal inner layering, steam, and leaf texture."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A lotus-leaf sticky-rice parcel shown wrapped and opened on linen with gentle steam and clear filling texture.",
+      "zh-CN": "A lotus-leaf sticky-rice parcel shown wrapped and opened on linen with gentle steam and clear filling texture."
+    }
+  }
+}

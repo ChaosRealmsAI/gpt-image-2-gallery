@@ -1,0 +1,71 @@
+{
+  "id": "series-night-promo-system",
+  "type": "series",
+  "title": "Night Promo Series",
+  "description": "A reference-driven Halloween event campaign system that locks nightlife tension, atmospheric darkness, and playful threat across variations.",
+  "creative_direction": "Image 01 establishes a polished Halloween event world built from midnight shadows, ember-orange glow, smoky violet restraint, and theatrical set dressing; images 02-04 preserve that exact language while moving through rooftop party, haunted corridor, and carnival-entry expressions.",
+  "cover_image": "images/01-midnight-entry-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-midnight-entry-anchor/meta.json",
+      "images/02-rooftop-party-variation/meta.json",
+      "images/03-haunted-hotel-variation/meta.json",
+      "images/04-carnival-gate-variation/meta.json"
+    ],
+    "ref_strategy": "Run 01-midnight-entry-anchor first. Use its runtime result URL as --ref for 02-rooftop-party-variation, 03-haunted-hotel-variation, 04-carnival-gate-variation. Queue may run the dependent images concurrently after 01-midnight-entry-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Promo Series",
+      "description": "A reference-driven Halloween event campaign system that locks nightlife tension, atmospheric darkness, and playful threat across variations."
+    },
+    "zh-CN": {
+      "title": "夜场宣传系列",
+      "description": "以基准图锁定万圣夜场张力、黑暗氛围与玩乐威胁感，再延展到不同活动面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-midnight-entry-anchor",
+      "title": "Midnight Entry Anchor",
+      "image": "images/01-midnight-entry-anchor/image.png",
+      "meta": "images/01-midnight-entry-anchor/meta.json"
+    },
+    {
+      "id": "02-rooftop-party-variation",
+      "title": "Rooftop Party Variation",
+      "image": "images/02-rooftop-party-variation/image.png",
+      "meta": "images/02-rooftop-party-variation/meta.json"
+    },
+    {
+      "id": "03-haunted-hotel-variation",
+      "title": "Haunted Hotel Variation",
+      "image": "images/03-haunted-hotel-variation/image.png",
+      "meta": "images/03-haunted-hotel-variation/meta.json"
+    },
+    {
+      "id": "04-carnival-gate-variation",
+      "title": "Carnival Gate Variation",
+      "image": "images/04-carnival-gate-variation/image.png",
+      "meta": "images/04-carnival-gate-variation/meta.json"
+    }
+  ]
+}

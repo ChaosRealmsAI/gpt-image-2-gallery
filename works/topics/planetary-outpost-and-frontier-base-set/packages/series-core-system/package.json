@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System",
+  "description": "Four reference-dependent images establishing a reusable frontier base visual system.",
+  "creative_direction": "Image 01 establishes the reusable Frontier Base anchor. Images 02-04 preserve the habitat module proportions, airlock language, utility pipe routing, and survival-first lighting hierarchy while changing scene context and deliverable emphasis.",
+  "cover_image": "images/01-frontier-habitat-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-frontier-habitat-anchor/meta.json",
+      "images/02-dust-storm-shield-mode/meta.json",
+      "images/03-night-reactor-watch/meta.json",
+      "images/04-relief-cargo-arrival/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System",
+      "description": "Four reference-dependent images establishing a reusable frontier base visual system."
+    },
+    "zh-CN": {
+      "title": "核心系统",
+      "description": "围绕边疆基地建立四张参考依赖的核心系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-frontier-habitat-anchor",
+      "title": "Frontier Habitat Anchor",
+      "image": "images/01-frontier-habitat-anchor/image.png",
+      "meta": "images/01-frontier-habitat-anchor/meta.json"
+    },
+    {
+      "id": "02-dust-storm-shield-mode",
+      "title": "Dust Storm Shield Mode",
+      "image": "images/02-dust-storm-shield-mode/image.png",
+      "meta": "images/02-dust-storm-shield-mode/meta.json"
+    },
+    {
+      "id": "03-night-reactor-watch",
+      "title": "Night Reactor Watch",
+      "image": "images/03-night-reactor-watch/image.png",
+      "meta": "images/03-night-reactor-watch/meta.json"
+    },
+    {
+      "id": "04-relief-cargo-arrival",
+      "title": "Relief Cargo Arrival",
+      "image": "images/04-relief-cargo-arrival/image.png",
+      "meta": "images/04-relief-cargo-arrival/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Create a square frontal specimen setup on pale linen or light ceramic under soft daylight, keeping the frame simple and almost taxonomic. Shadows should be minimal so the cut face stays fully readable.\n\nSubject:\nShow several thick slices of turnip cake, one lying flat and one standing on its cut face to reveal the internal matrix of radish strands, rice batter, and savory inclusions. The top surfaces should carry a crisp browned crust while the interior remains pale and tender. The arrangement should feel clean and deliberate.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. The success depends on clear contrast between seared crust and soft interior, with inclusions visible but not exaggerated. The cross-section should feel as legible as a pastry atlas specimen while staying recognizably savory.\n\nUse case:\nDim sum miniature atlas single study 7/9, applying archive-style documentation to turnip cake structure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no frying-pan context, no greasy tabletop, no garnish confetti.",
+  "id": "turnip-cake-cross-section",
+  "title": "Turnip Cake Cross-Section",
+  "description": "A precise cross-section study of pan-fried turnip cake emphasizing inclusions, browning, and layered softness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/single-support-studies/images/turnip-cake-cross-section/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Turnip Cake Cross-Section",
+      "description": "A precise cross-section study of pan-fried turnip cake emphasizing inclusions, browning, and layered softness."
+    },
+    "zh-CN": {
+      "title": "Turnip Cake Cross-Section",
+      "description": "A precise cross-section study of pan-fried turnip cake emphasizing inclusions, browning, and layered softness."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Turnip cake slices on a pale surface showing browned crust outside and tender savory inclusions inside.",
+      "zh-CN": "Turnip cake slices on a pale surface showing browned crust outside and tender savory inclusions inside."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "glacier-cathedral-ice-blue",
+  "slug": "glacier-cathedral-ice-blue",
+  "title": "Glacier Cathedral in Ice Blue",
+  "short_title": "Glacier Cathedral",
+  "description": "A colossal natural glacier cavern the size of a cathedral, crystalline blue ice walls, a thin stream carved through the floor, tiny human figure with red gear for scale at far entrance.",
+  "i18n": {
+    "en": {
+      "title": "Glacier Cathedral in Ice Blue",
+      "short_title": "Glacier Cathedral",
+      "description": "A colossal natural glacier cavern the size of a cathedral, crystalline blue ice walls, a thin stream carved through the floor, tiny human figure with red gear for scale at far entrance."
+    },
+    "zh-CN": {
+      "title": "冰蓝冰川大教堂",
+      "short_title": "冰川教堂",
+      "description": "大教堂大小的自然冰川洞穴 · 结晶冰蓝墙 · 地面细流切割 · 远端入口处一个红装备小人作比例。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1210,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Glacier Cathedral Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

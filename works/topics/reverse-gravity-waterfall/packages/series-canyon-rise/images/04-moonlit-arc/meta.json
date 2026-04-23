@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame and canyon. Clear night with a full moon high in the sky on the right. Cool silver-blue ambient, sharp moon-cast shadows, zero artificial light pollution, mild starfield visible between clouds.\n\nSubject:\nThe identical rising water column from the reference, same base and height, now reading as a pale silver ribbon under moonlight. A very faint moonbow (lunar rainbow) arcs through the rising mist at mid-height, almost invisible but clearly present to the trained eye. The helicopter's position is preserved and its navigation strobes are visible as small red and green pinpoints.\n\nImportant details:\nPreserve column geometry and helicopter position. Moonlight palette: silver, cobalt, charcoal. Stars readable where the sky is clear. Canyon walls lose color and become tonal forms. The column itself should feel nearly translucent against the sky, with droplets catching moonlight as pale sparkles. A long moon-cast shadow of the column stretches across the canyon floor toward the left.\n\nUse case:\nFourth and final image in the cycle. Closes the series with a silent, near-monochrome night atmosphere while preserving every structural element.\n\nConstraints:\nPRESERVE the reference image canyon, column base, rise height, and helicopter position. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no artificial city light, no sci-fi beams, no stylized illustration.",
+  "id": "04-moonlit-arc",
+  "title": "Moonlit Arc",
+  "description": "The reference column under a full moon with a faint moonbow at mid-height.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-column"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/04-moonlit-arc/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-column",
+        "meta_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/meta.json",
+        "image_path": "works/topics/reverse-gravity-waterfall/packages/series-canyon-rise/images/01-reference-column/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moonlit Arc",
+      "description": "The reference column under a full moon with a faint moonbow at mid-height."
+    },
+    "zh-CN": {
+      "title": "月下银弧",
+      "description": "基准水柱在满月下的银色版本 · 中段可见淡淡月虹。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same canyon column rising as silver ribbon under a full moon with faint moonbow.",
+      "zh-CN": "同一峡谷水柱 · 满月下银色丝带 · 淡月虹。"
+    }
+  }
+}

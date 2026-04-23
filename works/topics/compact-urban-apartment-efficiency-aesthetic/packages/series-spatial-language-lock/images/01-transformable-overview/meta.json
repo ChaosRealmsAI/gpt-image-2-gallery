@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Compact Urban Apartment Efficiency Aesthetic. Use a wide daylight overview that reveals living, dining, work, and sleep zones in one frame and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so space efficiency, hidden storage, and calm urban living feel immediate, using light ash wood, warm white plaster, soft graphite accents, pale stone, and muted sage textiles as the governing tonal range. The composition must read as a high-end commercial image that could sit inside rental campaigns, design editorials, developer micro-unit decks, and small-space planning references.\n\nSubject:\nShow a compact urban apartment with ash wood millwork, sliding partitions, hidden storage walls, a built-in platform bed, compact stone kitchen surfaces, and calm metropolitan daylight. Center the apartment’s transformable plan logic, storage walls, and quiet urban elegance. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the sliding partition system, integrated storage geometry, ash wood detailing, compact kitchen language, and quiet city-apartment restraint. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nCompact Urban Apartment Efficiency Aesthetic series study 1/9, establishing the canonical compact apartment system for the series.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no clutter piles, no messy shoes, no novelty gadgets, no colorful toy furniture, no cramped distortion, no fisheye distortion.",
+  "id": "01-transformable-overview",
+  "title": "Transformable Overview",
+  "description": "A reference-setting architectural still for urban apartment that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/compact-urban-apartment-efficiency-aesthetic/packages/series-spatial-language-lock/images/01-transformable-overview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Transformable Overview",
+      "description": "A reference-setting architectural still for urban apartment that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "可变总览",
+      "description": "围绕小户型的可变总览研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Transformable Overview for Compact Urban Apartment Efficiency Aesthetic.",
+      "zh-CN": "小户型主题中的可变总览。"
+    }
+  }
+}

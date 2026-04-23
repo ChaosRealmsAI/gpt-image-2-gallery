@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Shoot from overhead on a work-worn counter or tile surface, arranging wrappers, food, and sauce cups into a tight square composition.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Make the paper wrap treatment central, with folds, grease marks, and color accents that feel used and practical while still photogenic.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. The image should communicate speed and authenticity through materials, not mess. Grease, paper grain, and folded corners must look real but controlled.\n\nUse case:\nStreet Food Kit single study 6/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no full meal clutter, no readable stamps, no pristine untouched prop styling.",
+  "id": "paper-wrap-flatlay",
+  "title": "Paper Wrap Flatlay",
+  "description": "A packaging flatlay showing wrappers, napkins, and handheld food components as a brand system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/single-support-studies/images/paper-wrap-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Paper Wrap Flatlay",
+      "description": "A packaging flatlay showing wrappers, napkins, and handheld food components as a brand system."
+    },
+    "zh-CN": {
+      "title": "纸包平铺",
+      "description": "纸包平铺：街头餐饮主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A packaging flatlay showing wrappers, napkins, and handheld food components as a brand system.",
+      "zh-CN": "纸包平铺，用于街头餐饮主题。"
+    }
+  }
+}

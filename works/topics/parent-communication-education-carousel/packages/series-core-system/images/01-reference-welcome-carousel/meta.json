@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square social-carousel presentation showing four coordinated cards on a clean neutral backdrop, viewed straight-on with crisp print-and-screen realism. The cards should feel like polished parent-communication assets for a school or education brand, blending calm photography, icons, and blank editorial text zones. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFocus the first set on a welcome or orientation message, using caring family imagery, classroom detail photos, routine icons, and modular content panels. The system should feel supportive and informative, not promotional or flashy. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nLock a repeatable communication design: stable margins, card corners, image-to-panel ratio, and a reassuring palette of soft navy, sage, peach, and cream. The carousel must look truly reusable across many school-home communication topics. Preserve the same square carousel-card frame, photo crop style, icon rhythm, blank headline areas, and family-trust color system from the reference card set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nParent Communication Education Carousel series study 1/4, reference welcome carousel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable social captions, no logos, no app-interface clutter, no influencer styling, no chaotic sticker overload, no celebrity likeness.",
+  "id": "01-reference-welcome-carousel",
+  "title": "Reference Welcome Carousel",
+  "description": "Reference carousel card set that locks the visual language for parent communication.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "social-feed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parent-communication-education-carousel/packages/series-core-system/images/01-reference-welcome-carousel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Welcome Carousel",
+      "description": "Reference carousel card set that locks the visual language for parent communication."
+    },
+    "zh-CN": {
+      "title": "基准欢迎轮播",
+      "description": "锁定家长沟通视觉语言的轮播卡组基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "social-feed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Reference carousel card set that locks the visual language for parent communication.",
+      "zh-CN": "锁定家长沟通视觉语言的轮播卡组基准版。"
+    }
+  }
+}

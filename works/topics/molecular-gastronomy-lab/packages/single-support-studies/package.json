@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Experiment Support Studies",
+  "description": "Five independent molecular food studies extending the same laboratory realism into broader scenarios.",
+  "creative_direction": "These independent images test flights of glass vessels, hydrocolloid pearls, frozen fracture, pipette finishing, and transparent pasta-like shells without relying on the core reference frame.",
+  "cover_image": "images/beaker-flight-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Experiment Support Studies",
+      "description": "Five independent molecular food studies extending the same laboratory realism into broader scenarios."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "分子料理相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "beaker-flight-board",
+      "title": "Beaker Flight Board",
+      "image": "images/beaker-flight-board/image.png",
+      "meta": "images/beaker-flight-board/meta.json"
+    },
+    {
+      "id": "hydrocolloid-pearl-array",
+      "title": "Hydrocolloid Pearl Array",
+      "image": "images/hydrocolloid-pearl-array/image.png",
+      "meta": "images/hydrocolloid-pearl-array/meta.json"
+    },
+    {
+      "id": "cryogenic-berry-shatter",
+      "title": "Cryogenic Berry Shatter",
+      "image": "images/cryogenic-berry-shatter/image.png",
+      "meta": "images/cryogenic-berry-shatter/meta.json"
+    },
+    {
+      "id": "pipette-plating-study",
+      "title": "Pipette Plating Study",
+      "image": "images/pipette-plating-study/image.png",
+      "meta": "images/pipette-plating-study/meta.json"
+    },
+    {
+      "id": "glass-ravioli-specimen",
+      "title": "Glass Ravioli Specimen",
+      "image": "images/glass-ravioli-specimen/image.png",
+      "meta": "images/glass-ravioli-specimen/meta.json"
+    }
+  ]
+}

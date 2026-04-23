@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Create a square overhead image of a stainless chef pass under warm service lights, but keep the crop disciplined so the scene still feels elegant and editorial. The metal should show restrained reflections and slight use, while the plates create a rhythmic dark pattern against the brighter pass surface.\n\nSubject:\nShow four completed black plates in a precise diagonal line, each with a different minimalist course already finished and ready to leave the kitchen. Include only the faintest clues of service such as one pair of tweezers placed aside and a subtle reflection from a heat lamp, without introducing people or disorder. The scene should communicate high-pressure refinement rather than bustling chaos.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Keep every plate distinct yet clearly part of one house style through negative space, restrained garnish, and sauce discipline. The stainless surface must feel real, but the plates remain the heroes, and the image should suggest process and perfection at the same time.\n\nUse case:\nThree-star plate art single study 8/9, extending the topic into the service-pass environment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no chefs in frame, no ticket printer paper, no dirty towels.",
+  "id": "chef-pass-overhead",
+  "title": "Chef Pass Overhead",
+  "description": "A service-pass overhead view with several finished black plates aligned like a tasting-menu sequence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/single-support-studies/images/chef-pass-overhead/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Chef Pass Overhead",
+      "description": "A service-pass overhead view with several finished black plates aligned like a tasting-menu sequence."
+    },
+    "zh-CN": {
+      "title": "Chef Pass Overhead",
+      "description": "A service-pass overhead view with several finished black plates aligned like a tasting-menu sequence."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Several minimalist black plates aligned on a stainless chef pass under warm service light.",
+      "zh-CN": "Several minimalist black plates aligned on a stainless chef pass under warm service light."
+    }
+  }
+}

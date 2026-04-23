@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nCreate a square product photograph of a math manipulative tray viewed from above on a clean table, with soft side light emphasizing wood, silicone, and card-stock textures. The image should feel premium enough for an education catalog yet approachable enough for classroom use. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nInclude counters, pattern blocks, fraction circles, sorting bowls, and a few companion concept cards arranged in a clear hierarchy. Each object should communicate a specific learning purpose through shape and grouping rather than through printed symbols. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the presentation disciplined and highly legible. The assortment should feel intentionally curated for concept transfer across counting, sorting, and patterning, showing that the card system can extend into tactile learning tools. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nMath Concept Visual Card Set single study 1/5, manipulative tray.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable equations, no numerals, no logos, no messy classroom clutter, no generic stock-photo styling, no broken manipulatives.",
+  "id": "01-manipulative-tray",
+  "title": "Manipulative Tray",
+  "description": "A tactile tray of early-math manipulatives styled as a retail-ready education product.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/math-concept-visual-card-set/packages/single-support-studies/images/01-manipulative-tray/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 1 for the topic.",
+    "attempt_count": 5,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/math-concept-visual-card-set/packages/single-support-studies/images/01-manipulative-tray/image.png",
+      "checked_at": "2026-04-23T13:15:53.190Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Manipulative Tray",
+      "description": "A tactile tray of early-math manipulatives styled as a retail-ready education product."
+    },
+    "zh-CN": {
+      "title": "数学教具托盘",
+      "description": "以教育产品视角呈现的幼儿数学教具托盘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A tactile tray of early-math manipulatives styled as a retail-ready education product.",
+      "zh-CN": "以教育产品视角呈现的幼儿数学教具托盘。"
+    }
+  }
+}

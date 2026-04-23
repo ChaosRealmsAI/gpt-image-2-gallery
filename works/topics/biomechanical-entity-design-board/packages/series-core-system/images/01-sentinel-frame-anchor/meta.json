@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square concept board for one biomechanical entity, balancing orthographic clarity, material close-ups, and enough dramatic lighting to feel like a finished poster. The layout should feel structured, with a dominant hero view supported by sections, parts, or alternate poses rather than scattered fragments. Build the board around a frontal sentinel stance with support views for the spine, shoulder assemblies, and lower-limb loading points.\n\nSubject:\nCenter the image on a coherent organism-machine fusion where anatomy, exoskeletal plating, powered joints, sensors, and functional appendages belong to one design family. The being should feel purposeful, with visible load paths, movement logic, and enough biological cues to avoid looking like a plain robot. Establish one tall guardian-type body with plated musculature, optic nodes, joint sleeves, and a clearly readable chest core.\n\nImportant details:\nControl noise aggressively. Use clear mass hierarchy, disciplined materials, and selective cross-section or inset views to explain how organic tissue and mechanical systems cooperate. The board should remain commercially useful for design review, poster, or worldbuilding deck surfaces. The anchor board should lock silhouette, material balance, and inset hierarchy so later variants can preserve the same entity family. Resolve the anchor rules that later reference-dependent variants must inherit, especially the torso silhouette, joint language, plated musculature, and board hierarchy.\n\nUse case:\nBiomech Board series study 1/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore splatter, no random wires everywhere, no superhero costume cues, no readable labels, no weapon fetish clutter.",
+  "id": "01-sentinel-frame-anchor",
+  "title": "Sentinel Frame Anchor",
+  "description": "Sentinel Frame Anchor presents a standing sentinel board that establishes the core anatomy-machine fusion language for the package.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biomechanical-entity-design-board/packages/series-core-system/images/01-sentinel-frame-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for Biomech Board core system.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sentinel Frame Anchor",
+      "description": "Sentinel Frame Anchor presents a standing sentinel board that establishes the core anatomy-machine fusion language for the package."
+    },
+    "zh-CN": {
+      "title": "Sentinel Frame Anchor",
+      "description": "生物机械主题中的Sentinel Frame Anchor图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Sentinel Frame Anchor presents a standing sentinel board that establishes the core anatomy-machine fusion language for the package.",
+      "zh-CN": "生物机械主题中的Sentinel Frame Anchor图像。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the same bright school-reset environment, preserving the exact morning light, clean materials, and optimistic academic polish from the reference image, but widen the composition toward an enrollment-fair or orientation-display setting. The scene should remain visually continuous with the anchor while leaning more toward institutional promotion and wayfinding atmosphere.\n\nSubject:\nFeature a booth or display-like setup with boards that contain no readable text, organized stationery, welcome-pack objects, device support, and directional elements arranged into a premium enrollment presentation. Preserve exact campaign identity from the reference model while changing the use case toward student recruitment and orientation. The result should feel clean, inviting, and operationally useful.\n\nImportant details:\nKeep the same visual grammar: bright clarity, youthfully optimistic energy, disciplined structure, and tactile credibility. The orientation-display cue should come from layout and object grouping rather than actual signage. Make it suitable for schools, education brands, or family-focused campaign surfaces during back-to-school season.\n\nUse case:\nBack to School series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable signage, no school logos, no mascot banners, no crowded fair chaos, no graduation caps, no chalkboard text, no corporate tradeshow mood.",
+  "id": "04-enrollment-fair-variation",
+  "title": "Enrollment Fair Variation",
+  "description": "An enrollment-focused variation extending the same back-to-school campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/04-enrollment-fair-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-campus-desk-anchor",
+        "meta_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/meta.json",
+        "image_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent enrollment-fair variation for the back-to-school system. Preserve the exact campaign language from 01-campus-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Enrollment Fair Variation",
+      "description": "An enrollment-focused variation extending the same back-to-school campaign system."
+    },
+    "zh-CN": {
+      "title": "招生展位变体",
+      "description": "延续同一开学季 campaign 系统的招生展位变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "An enrollment-fair back-to-school visual derived from the same academic retail system.",
+      "zh-CN": "源自同一学业零售系统的开学季招生展位画面。"
+    }
+  }
+}

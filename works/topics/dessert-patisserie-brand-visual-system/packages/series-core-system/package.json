@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Patisserie Brand Continuity",
+  "description": "Four reference-linked dessert brand heroes establishing a consistent pastry-boutique language.",
+  "creative_direction": "Image 01 establishes the palette, surface finish, display rhythm, and boutique camera treatment. Images 02-04 preserve that same dessert-brand system while rotating the hero pastry, package accent, and merchandising cue.",
+  "cover_image": "images/01-salon-display-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-salon-display-anchor/meta.json",
+      "images/02-croissant-ribbon/meta.json",
+      "images/03-berry-tart-salon/meta.json",
+      "images/04-gelato-window-cup/meta.json"
+    ],
+    "ref_strategy": "Run 01-salon-display-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Patisserie Brand Continuity",
+      "description": "Four reference-linked dessert brand heroes establishing a consistent pastry-boutique language."
+    },
+    "zh-CN": {
+      "title": "甜点品牌连续主视觉",
+      "description": "四张参考联动的甜点品牌主视觉，建立统一的精品甜品店视觉语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-salon-display-anchor",
+      "title": "Salon Display Anchor",
+      "image": "images/01-salon-display-anchor/image.png",
+      "meta": "images/01-salon-display-anchor/meta.json"
+    },
+    {
+      "id": "02-croissant-ribbon",
+      "title": "Croissant Ribbon",
+      "image": "images/02-croissant-ribbon/image.png",
+      "meta": "images/02-croissant-ribbon/meta.json"
+    },
+    {
+      "id": "03-berry-tart-salon",
+      "title": "Berry Tart Salon",
+      "image": "images/03-berry-tart-salon/image.png",
+      "meta": "images/03-berry-tart-salon/meta.json"
+    },
+    {
+      "id": "04-gelato-window-cup",
+      "title": "Gelato Window Cup",
+      "image": "images/04-gelato-window-cup/image.png",
+      "meta": "images/04-gelato-window-cup/meta.json"
+    }
+  ]
+}

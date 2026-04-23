@@ -1,0 +1,39 @@
+{
+  "id": "art-deco-gatsby-theatre",
+  "title": "Art Deco Gatsby Theatre Poster",
+  "short_title": "Art Deco Theatre",
+  "description": "Symmetric Art Deco theatre poster with gold/black/emerald palette, sunburst motifs, stylised skyscraper silhouettes, 1920s Jazz Age elegance, fan-shaped ornamental borders.",
+  "i18n": {
+    "en": {
+      "title": "Art Deco Gatsby Theatre Poster",
+      "short_title": "Art Deco Theatre",
+      "description": "Symmetric Art Deco theatre poster with gold/black/emerald palette, sunburst motifs, stylised skyscraper silhouettes, 1920s Jazz Age elegance, fan-shaped ornamental borders."
+    },
+    "zh-CN": {
+      "title": "装饰艺术大盖茨比剧场海报",
+      "short_title": "装饰艺术",
+      "description": "对称装饰艺术剧场海报 · 金黑翠绿 · 旭日纹样 · 风格化摩天楼剪影 · 1920 爵士时代优雅 · 扇形饰边。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 510,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "pattern",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

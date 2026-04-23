@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square planetary-outpost image with harsh environment readability and grounded survival engineering. The frame should capture both the base architecture and the environmental pressure around it, using dust, ice, darkness, or glare only as support for spatial clarity. Keep the camera near enough to read pipes, locks, and utility surfaces, but far enough to show how the base organizes itself against the landscape. Keep the same habitat cluster but cover the scene with disciplined blowing dust and storm light so the shields and route markers become more visible.\n\nSubject:\nCenter the composition on a coherent frontier base language: pressure habitats, greenhouses, landing pads, drills, storage berms, utility corridors, rover access, and sheltered work zones. The base should feel assembled by necessity and maintained daily by real crews, not staged as a decorative movie backdrop. Retain the exact module arrangement from the reference while showing storm shutters, tethered equipment, and emergency circulation paths in operation.\n\nImportant details:\nPrioritize survivability, logistics, and modular continuity. Material weathering, suit-scale doors, thermal lighting, and utility routing should all help explain how the installation stays alive in a hostile world. Use disciplined industrial colors with one environmental accent so the package remains reusable across concept posters and design sheets. This should feel like a prepared survival system under stress, not a disaster image, with visibility managed through lighting and structural continuity. Preserve the exact structural language established by the reference image, especially the habitat module proportions, airlock language, utility pipe routing, and survival-first lighting hierarchy.\n\nUse case:\nFrontier Base series study 2/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy ruins, no military battle explosions, no giant heroic poses, no magical sky anomalies, no collapsing structures, no panic crowd scene.",
+  "id": "02-dust-storm-shield-mode",
+  "title": "Dust Storm Shield Mode",
+  "description": "Dust Storm Shield Mode presents the same outpost locked into a storm-ready posture with shutters, lights, and service barriers engaged.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/02-dust-storm-shield-mode/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-frontier-habitat-anchor",
+        "meta_path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/01-frontier-habitat-anchor/meta.json",
+        "image_path": "works/topics/planetary-outpost-and-frontier-base-set/packages/series-core-system/images/01-frontier-habitat-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Frontier Base core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dust Storm Shield Mode",
+      "description": "Dust Storm Shield Mode presents the same outpost locked into a storm-ready posture with shutters, lights, and service barriers engaged."
+    },
+    "zh-CN": {
+      "title": "Dust Storm Shield Mode",
+      "description": "边疆基地主题中的Dust Storm Shield Mode图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Dust Storm Shield Mode presents the same outpost locked into a storm-ready posture with shutters, lights, and service barriers engaged.",
+      "zh-CN": "边疆基地主题中的Dust Storm Shield Mode图像。"
+    }
+  }
+}

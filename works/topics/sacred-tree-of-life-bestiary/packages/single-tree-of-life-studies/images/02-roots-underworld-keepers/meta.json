@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nBuild a square image around one towering tree-of-life composition seen straight on, with the trunk, roots, and branch architecture organizing every creature placement. Even when the image becomes crowded, the tree should remain the structural anchor and the viewer should be able to understand the vertical hierarchy from roots to canopy at a glance. Use earthy low light and a strong vertical axis, keeping the camera square to the tree. Keep the square crop exact, the camera flat, and the tonal design disciplined enough that structure stays clear at poster scale and under close inspection.\n\nSubject:\nPopulate the tree with a broad, respectful census of mythic creatures from different sacred traditions: luminous birds, antlered guardians, scaled sky-serpents, leonine protectors, river spirits, horned deer, long-tailed phoenix forms, and other symbolic beings. They should feel related by one illustration language and one ecosystem of reverence rather than like a collage of unrelated references. Focus this variation on a root-heavy composition emphasizing subterranean guardians, serpentine spirits, and ancient bark geometry below the central trunk. The composition should feel complete and singular, as though one finished artifact has been resolved with full conviction rather than one fragment pulled from a larger sheet.\n\nImportant details:\nCreature variety is important, but unity matters more. Keep silhouettes distinct, branch placements intentional, and the trunk texture richly developed. Use light, fruit, leaves, bark patterns, and root geometry to connect the inhabitants into one ordered cosmology with clear zones and no empty dead layers. The root system must feel as carefully designed as the canopy, with creatures nested into its logic rather than pasted around it. Preserve crisp edge behavior, stable hierarchy, and enough fine information that the image rewards slow viewing without losing the main read from a distance.\n\nUse case:\nTree of Life Bestiary single study 2/9, designed as a self-contained sacred-geometry image with a distinct material and compositional emphasis.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no comedic fantasy creatures, no modern mascot styling, no random landscape background stealing focus, no readable labels, no chaotic overlap between animals, no broken tree anatomy, no horror aesthetic, no muddy soil blur, no broken root symmetry.",
+  "id": "02-roots-underworld-keepers",
+  "title": "Roots and Underworld Keepers",
+  "description": "Roots and Underworld Keepers interprets Tree of Life Bestiary as an independent image study focused on a root-heavy composition emphasizing subterranean guardians, serpentine spirits, and ancient bark geometry below the central trunk.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sacred-tree-of-life-bestiary/packages/single-tree-of-life-studies/images/02-roots-underworld-keepers/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Tree of Life Bestiary single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Roots and Underworld Keepers",
+      "description": "Roots and Underworld Keepers interprets Tree of Life Bestiary as an independent image study focused on a root-heavy composition emphasizing subterranean guardians, serpentine spirits, and ancient bark geometry below the central trunk."
+    },
+    "zh-CN": {
+      "title": "根系守护者",
+      "description": "根系守护者：生命树神兽谱 的独立单图研究，强调根系与地下守护灵的构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Roots and Underworld Keepers study for Tree of Life Bestiary.",
+      "zh-CN": "生命树神兽谱主题中的根系守护者图像研究。"
+    }
+  }
+}

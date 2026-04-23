@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Keep the exact bench perspective, spoon placement family, reflection discipline, and cool color temperature from the reference image so the scene clearly belongs to the same lab series. The low vapor should stay controlled and gravity-aware, sliding across the bench instead of billowing upward like stage fog.\n\nSubject:\nPresent a pale rose-colored sphere resting in a chilled spoon, surrounded by frozen edible petals and tiny translucent ice shards. A narrow ribbon of vapor should wrap around the spoon bowl, while a clear flask with colorless liquid sits softly blurred in the background. The dish should feel floral and delicate, yet still clinically engineered.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Preserve exact bench geometry, lens height, and lighting family from the reference model while only changing the sphere color, garnish family, and cryogenic accents. Frozen petals must look fragile and crisp, and the vapor should read as cold dense gas sinking along the surface.\n\nUse case:\nMolecular gastronomy lab series study 2/9, translating the anchor setup into a floral cryogenic experiment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no theatrical dry-ice cloud explosion, no warm candlelight, no messy petal pile.",
+  "id": "02-nitrogen-petal-sphere",
+  "title": "Nitrogen Petal Sphere",
+  "description": "A cold floral variation preserving the anchor setup while emphasizing cryogenic vapor and translucency.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/02-nitrogen-petal-sphere/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lab-spoon-anchor",
+        "meta_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/meta.json",
+        "image_path": "works/topics/molecular-gastronomy-lab/packages/series-core-system/images/01-lab-spoon-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Nitrogen Petal Sphere",
+      "description": "A cold floral variation preserving the anchor setup while emphasizing cryogenic vapor and translucency."
+    },
+    "zh-CN": {
+      "title": "Nitrogen Petal Sphere",
+      "description": "A cold floral variation preserving the anchor setup while emphasizing cryogenic vapor and translucency."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A pale sphere with frozen petals and cold vapor arranged in the same laboratory spoon setup.",
+      "zh-CN": "A pale sphere with frozen petals and cold vapor arranged in the same laboratory spoon setup."
+    }
+  }
+}

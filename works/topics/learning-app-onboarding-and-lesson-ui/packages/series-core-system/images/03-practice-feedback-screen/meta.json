@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nRender the same square hero composition with a smartphone front and center, subtle layered depth, and studio-grade reflections that match the reference screen set. The image should look like a polished product-marketing tile focused on one feedback moment in the learning journey. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a practice screen with picture choices, gesture-friendly controls, celebratory but controlled feedback icons, and a gentle correction state that still feels positive. Avoid text entirely and communicate meaning through color, motion cues, and a very obvious answer-feedback hierarchy. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nHold the reference system tightly: identical module shapes, mascot styling, palette anchors, and UI spacing. The scene should prove that the app can handle instruction and response with clarity, not just onboarding charm. Preserve the same mobile device framing, card radius, mascot style, color system, icon weight, and spacing rhythm from the reference screen set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nLearning App Onboarding and Lesson UI series study 3/4, practice feedback screen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable UI copy, no app-store branding, no logos, no generic gaming clutter, no impossible device anatomy, no notification spam.",
+  "id": "03-practice-feedback-screen",
+  "title": "Practice Feedback Screen",
+  "description": "A feedback-focused screen using the same app language to communicate encouragement and correction.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/03-practice-feedback-screen/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-onboarding-stack",
+        "meta_path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/01-reference-onboarding-stack/meta.json",
+        "image_path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/01-reference-onboarding-stack/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-onboarding-stack.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Practice Feedback Screen",
+      "description": "A feedback-focused screen using the same app language to communicate encouragement and correction."
+    },
+    "zh-CN": {
+      "title": "练习反馈页",
+      "description": "使用同一 App 语言表达鼓励与纠正的练习反馈界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A feedback-focused screen using the same app language to communicate encouragement and correction.",
+      "zh-CN": "使用同一 App 语言表达鼓励与纠正的练习反馈界面。"
+    }
+  }
+}

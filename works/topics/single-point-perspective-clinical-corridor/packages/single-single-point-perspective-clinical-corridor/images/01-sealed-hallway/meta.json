@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Build a sealed research corridor with identical doors, recessed ceiling strips, and a waxed floor that reflects the central light path like a ruler.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A lone technician in a pale gown stands at the vanishing point carrying a metal case, dwarfed by the long passage behind and in front of them.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. Use tiny red safety accents at door handles and floor markers, but keep the overall sensation controlled and austere.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-sealed-hallway",
+  "title": "Sealed Hallway",
+  "description": "A sterile corridor study where a single central figure is overwhelmed by exact one-point architecture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/01-sealed-hallway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on sealed hallway.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sealed Hallway",
+      "description": "A sterile corridor study where a single central figure is overwhelmed by exact one-point architecture."
+    },
+    "zh-CN": {
+      "title": "Sealed Hallway",
+      "description": "围绕单点透视的第1张独立研究图，聚焦 Sealed Hallway。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A long white corridor with a single centered technician and strict one-point perspective.",
+      "zh-CN": "单点透视主题图：Sealed Hallway。"
+    }
+  }
+}

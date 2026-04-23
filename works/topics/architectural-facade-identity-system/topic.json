@@ -1,0 +1,47 @@
+{
+  "id": "architectural-facade-identity-system",
+  "slug": "architectural-facade-identity-system",
+  "title": "Architectural Facade Identity System",
+  "short_title": "Facade Identity",
+  "description": "Create facade identity systems that emphasize materials, silhouette, and urban recognizability.",
+  "i18n": {
+    "en": {
+      "title": "Architectural Facade Identity System",
+      "short_title": "Facade Identity",
+      "description": "Create facade identity systems that emphasize materials, silhouette, and urban recognizability."
+    },
+    "zh-CN": {
+      "title": "建筑外立面识别系统",
+      "short_title": "外立面",
+      "description": "做建筑外立面识别系统，强调材料纹理、轮廓和城市识别度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 910,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Facade Identity Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Facade Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

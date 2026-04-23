@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA tight symmetric close-up of a gothic rose window opening, framed by tracery stone and lit from behind. The shot is almost flat-on but with a faint downward tilt that shows the thickness of the stone tracery. Deep indigo stone, cyan projection glow, micro volumetric haze.\n\nSubject:\nWhere the stained glass would normally sit, there is instead a layered volumetric hologram: concentric geometric rings, rotating slowly in different directions, each ring made of crisp light particles. The hologram is not flat — it has visible depth through the window aperture, with inner rings receding into the wall and outer rings protruding forward. Small motes of light drift around the rim.\n\nImportant details:\nThe stone tracery must look weathered, with chisel marks and slight erosion at the edges. The hologram must feel physically volumetric: particles cluster more densely toward the center, and the rings cast faint concentric light onto the tracery stone. Color is locked to cool cyan with a single warm amber accent at the very center point. Symmetry is strict — the window is radially perfect.\n\nUse case:\nHologram Cathedral Nave single study 1/5, focusing on the volumetric rose window as a standalone subject.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no pictorial saints inside the rose, no crucifix shape, no lens starbursts, no human figures, no banners or cords hanging across the window.",
+  "id": "volumetric-rose-window",
+  "title": "Volumetric Rose Window",
+  "description": "A close-up study of a gothic rose window replaced by a layered volumetric hologram of rotating concentric geometric rings.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "photorealism",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/single-holo-nave-details/images/volumetric-rose-window/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent close-up of the volumetric rose window."
+  },
+  "i18n": {
+    "en": {
+      "title": "Volumetric Rose Window",
+      "description": "A close-up study of a gothic rose window replaced by a layered volumetric hologram of rotating concentric geometric rings."
+    },
+    "zh-CN": {
+      "title": "体积玫瑰窗",
+      "description": "以分层体积全息同心几何环替换彩色玻璃的哥特玫瑰窗特写。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A gothic rose window tracery filled with a layered volumetric hologram of concentric rings.",
+      "zh-CN": "哥特玫瑰窗花饰内装有分层体积全息同心环。"
+    }
+  }
+}

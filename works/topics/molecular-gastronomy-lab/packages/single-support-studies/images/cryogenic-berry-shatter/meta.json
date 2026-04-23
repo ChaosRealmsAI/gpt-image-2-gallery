@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Create a square high-detail close-up on a dark neutral background with a cold backlight and precise flash that freezes fragments in midair. Low vapor should creep along the surface below, giving the scene a laboratory chill without obscuring the fracture details.\n\nSubject:\nShow several mixed berries at the instant of cracking after cryogenic treatment: skins splitting, icy sugar crystals lifting, and tiny seeds suspended in the break. Include one stainless pour lip at the frame edge to imply the source of the cold medium without showing a full container. The moment should feel scientifically exact, not explosive for spectacle alone.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Prioritize brittle fracture patterns, cold vapor density, frost bloom, and wet-ice transitions where thaw has barely begun. The image should communicate both violence and precision, with every fragment still reading as edible fruit.\n\nUse case:\nMolecular gastronomy lab single study 7/9, focusing on cryogenic fracture behavior in fruit.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no fire effects, no generic splash shape, no syrupy jam texture.",
+  "id": "cryogenic-berry-shatter",
+  "title": "Cryogenic Berry Shatter",
+  "description": "An ultra-detailed cold-fracture study of frozen berries breaking under cryogenic stress.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/single-support-studies/images/cryogenic-berry-shatter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cryogenic Berry Shatter",
+      "description": "An ultra-detailed cold-fracture study of frozen berries breaking under cryogenic stress."
+    },
+    "zh-CN": {
+      "title": "Cryogenic Berry Shatter",
+      "description": "An ultra-detailed cold-fracture study of frozen berries breaking under cryogenic stress."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Frozen berries cracking midair with ice crystals and low cold vapor around them.",
+      "zh-CN": "Frozen berries cracking midair with ice crystals and low cold vapor around them."
+    }
+  }
+}

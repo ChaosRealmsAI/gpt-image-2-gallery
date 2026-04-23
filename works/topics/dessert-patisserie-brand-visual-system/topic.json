@@ -1,0 +1,47 @@
+{
+  "id": "dessert-patisserie-brand-visual-system",
+  "slug": "dessert-patisserie-brand-visual-system",
+  "title": "Dessert Patisserie Brand Visual System",
+  "short_title": "Dessert Brand",
+  "description": "Build dessert-brand visuals around pastries, display cases, packaging, and sweet-shop mood.",
+  "i18n": {
+    "en": {
+      "title": "Dessert Patisserie Brand Visual System",
+      "short_title": "Dessert Brand",
+      "description": "Build dessert-brand visuals around pastries, display cases, packaging, and sweet-shop mood."
+    },
+    "zh-CN": {
+      "title": "甜品与 patisserie 品牌视觉系统",
+      "short_title": "甜品品牌",
+      "description": "做甜品与 patisserie 品牌视觉系统，强调陈列柜、包装和甜品店情绪。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2410,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Patisserie Brand Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Sweet Shop Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

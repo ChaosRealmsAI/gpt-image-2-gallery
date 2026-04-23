@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Keep the same square poster structure, but shift the palette toward warm cream, cinnamon, amber, or toasted spice tones with soft seasonal atmosphere.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Present a creamy seasonal beverage with foam, spice dusting, and one or two ingredient elements that communicate warmth and indulgence.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-launch-anchor. Preserve the anchor layout grammar and commercial polish while making spice granules, foam structure, and cup material feel physically convincing.\n\nUse case:\nSeasonal Drinks series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no holiday ornaments, no readable winter slogans, no cartoon marshmallow overload.",
+  "id": "03-spice-cream-poster",
+  "title": "Spice Cream Poster",
+  "description": "A richer seasonal poster preserving the launch system while moving toward creamy textures and warm spice cues.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/03-spice-cream-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-launch-anchor",
+        "meta_path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/01-launch-anchor/meta.json",
+        "image_path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/01-launch-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-launch-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spice Cream Poster",
+      "description": "A richer seasonal poster preserving the launch system while moving toward creamy textures and warm spice cues."
+    },
+    "zh-CN": {
+      "title": "香料奶霜海报",
+      "description": "香料奶霜海报：季节饮品主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A richer seasonal poster preserving the launch system while moving toward creamy textures and warm spice cues.",
+      "zh-CN": "香料奶霜海报，用于季节饮品主题。"
+    }
+  }
+}

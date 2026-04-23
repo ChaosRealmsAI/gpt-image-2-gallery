@@ -1,0 +1,65 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Progress Support Studies",
+  "description": "Five independent studies that extend the share-card language to weekly summaries, recovery insights, habit boards, and long-cycle training milestones.",
+  "creative_direction": "Independent rollout studies for Workout Progress Share Card System. Each image explores a realistic progress-sharing surface for apps or communities while keeping the visuals clean, non-readable, and emotionally rewarding.",
+  "cover_image": "images/weekly-ring-summary/image.png",
+  "i18n": {
+    "en": {
+      "title": "Progress Support Studies",
+      "description": "Five independent studies that extend the share-card language to weekly summaries, recovery insights, habit boards, and long-cycle training milestones."
+    },
+    "zh-CN": {
+      "title": "Progress Support Studies",
+      "description": "Five independent studies that extend the share-card language to weekly summaries, recovery insights, habit boards, and long-cycle training milestones."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "data-visualization",
+      "social-feed",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "weekly-ring-summary",
+      "title": "Weekly Ring Summary",
+      "image": "images/weekly-ring-summary/image.png",
+      "meta": "images/weekly-ring-summary/meta.json"
+    },
+    {
+      "id": "heart-rate-recovery-share",
+      "title": "Heart-rate Recovery Share",
+      "image": "images/heart-rate-recovery-share/image.png",
+      "meta": "images/heart-rate-recovery-share/meta.json"
+    },
+    {
+      "id": "before-after-training-grid",
+      "title": "Before and After Training Grid",
+      "image": "images/before-after-training-grid/image.png",
+      "meta": "images/before-after-training-grid/meta.json"
+    },
+    {
+      "id": "marathon-build-phase-card",
+      "title": "Marathon Build Phase Card",
+      "image": "images/marathon-build-phase-card/image.png",
+      "meta": "images/marathon-build-phase-card/meta.json"
+    },
+    {
+      "id": "habit-consistency-badge-board",
+      "title": "Habit Consistency Badge Board",
+      "image": "images/habit-consistency-badge-board/image.png",
+      "meta": "images/habit-consistency-badge-board/meta.json"
+    }
+  ]
+}

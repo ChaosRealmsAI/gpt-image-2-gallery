@@ -1,0 +1,72 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core System",
+  "description": "Four reference-dependent images establishing a reusable spec product catalog visual system.",
+  "creative_direction": "Image 01 establishes the reusable Spec Product Catalog anchor. Images 02-04 preserve the industrial design language, material palette, module family proportions, and catalog layout hierarchy while changing scene context and deliverable emphasis.",
+  "cover_image": "images/01-catalogue-family-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-catalogue-family-anchor/meta.json",
+      "images/02-compact-apartment-variant/meta.json",
+      "images/03-premium-family-bundle/meta.json",
+      "images/04-retail-shelf-campaign/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core System",
+      "description": "Four reference-dependent images establishing a reusable spec product catalog visual system."
+    },
+    "zh-CN": {
+      "title": "核心系统",
+      "description": "围绕未来产品目录建立四张参考依赖的核心系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-catalogue-family-anchor",
+      "title": "Catalogue Family Anchor",
+      "image": "images/01-catalogue-family-anchor/image.png",
+      "meta": "images/01-catalogue-family-anchor/meta.json"
+    },
+    {
+      "id": "02-compact-apartment-variant",
+      "title": "Compact Apartment Variant",
+      "image": "images/02-compact-apartment-variant/image.png",
+      "meta": "images/02-compact-apartment-variant/meta.json"
+    },
+    {
+      "id": "03-premium-family-bundle",
+      "title": "Premium Family Bundle",
+      "image": "images/03-premium-family-bundle/image.png",
+      "meta": "images/03-premium-family-bundle/meta.json"
+    },
+    {
+      "id": "04-retail-shelf-campaign",
+      "title": "Retail Shelf Campaign",
+      "image": "images/04-retail-shelf-campaign/image.png",
+      "meta": "images/04-retail-shelf-campaign/meta.json"
+    }
+  ]
+}

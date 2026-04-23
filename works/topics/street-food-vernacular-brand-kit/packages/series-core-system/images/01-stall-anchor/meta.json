@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Use a square evening or late-afternoon crop of a compact food stall with warm practical lights, metal surfaces, and layered materials that feel genuinely used.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Center one signature handheld food item at the counter while the stall surfaces, paper wraps, and non-legible sign-painted textures define the brand world around it.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This anchor image must establish the identity kit for the series: wrapper palette, condiment organization, counter wear, and a fast-service mood that still feels curated.\n\nUse case:\nStreet Food Kit series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no readable stall name, no giant tourist crowd, no celebrity chef portrait.",
+  "id": "01-stall-anchor",
+  "title": "Stall Anchor",
+  "description": "A stall hero image that establishes the full street-food identity through wrapper color, enamel surfaces, and abstract painted signage.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "world-knowledge",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Stall Anchor",
+      "description": "A stall hero image that establishes the full street-food identity through wrapper color, enamel surfaces, and abstract painted signage."
+    },
+    "zh-CN": {
+      "title": "摊位锚点",
+      "description": "摊位锚点：街头餐饮主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A stall hero image that establishes the full street-food identity through wrapper color, enamel surfaces, and abstract painted signage.",
+      "zh-CN": "摊位锚点，用于街头餐饮主题。"
+    }
+  }
+}

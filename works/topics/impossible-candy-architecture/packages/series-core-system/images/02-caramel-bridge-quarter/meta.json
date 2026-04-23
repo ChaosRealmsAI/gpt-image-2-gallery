@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square architectural photograph of an edible miniature city built from sugar and chocolate, lit like a serious built-environment hero shot rather than a whimsical craft display. The composition should imply scale through streets, openings, and tiny pathways while keeping the material identity unmistakably confectionary. Light must reveal translucency, lacework, caramel tension, and crystal sparkle without flattening the forms. Keep the exact camera height, twilight mood, and city-scale framing from the reference image so the edible metropolis still feels like one coherent place. The light should rake across stretched caramel members and make them glow amber against the darker urban base.\n\nSubject:\nFeature a district dominated by elegant pulled-caramel suspension bridges spanning dark chocolate canals, with sugar towers and crystal pylons anchoring the structure. Small confectionary streets and glazed courtyards should support the bridge network without stealing focus. The whole quarter should feel plausible enough to imagine walking through, despite the impossible materials.\n\nImportant details:\nTreat the city as structurally plausible even when the materials are fantastical. Blown sugar should refract like fragile glass, pulled caramel should show tension and stretch, and dark chocolate should carry matte-to-satin variation where appropriate. The image should balance wonder with discipline, as if photographed for an architecture journal about impossible edible construction. Preserve exact skyline rhythm, camera logic, and dusk lighting family from the reference model while shifting the structural emphasis toward tension members and span design. Caramel should look stretched, glossy, and load-bearing, with believable thickness changes near anchor points.\n\nUse case:\nCandy architecture series study 2/9, translating the anchor skyline into a bridge-heavy caramel quarter.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy wrappers, no toy-town props, no gingerbread-house cliches, no cartoon palette overload, no readable signage, no gummy-bear motifs, no carnival lighting, no random candy sprinkles.",
+  "id": "02-caramel-bridge-quarter",
+  "title": "Caramel Bridge Quarter",
+  "description": "A bridge-district variation preserving the anchor skyline language while emphasizing pulled caramel tension.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "physics-materials",
+    "material-swap",
+    "miniature-world"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/02-caramel-bridge-quarter/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sugar-cathedral-anchor",
+        "meta_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/meta.json",
+        "image_path": "works/topics/impossible-candy-architecture/packages/series-core-system/images/01-sugar-cathedral-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Caramel Bridge Quarter",
+      "description": "A bridge-district variation preserving the anchor skyline language while emphasizing pulled caramel tension."
+    },
+    "zh-CN": {
+      "title": "Caramel Bridge Quarter",
+      "description": "A bridge-district variation preserving the anchor skyline language while emphasizing pulled caramel tension."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "An edible city quarter of glowing caramel bridges anchored by sugar towers above dark chocolate canals.",
+      "zh-CN": "An edible city quarter of glowing caramel bridges anchored by sugar towers above dark chocolate canals."
+    }
+  }
+}

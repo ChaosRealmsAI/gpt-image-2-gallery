@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square view of an open storybook spread seen almost straight-on, as if photographed for a publisher presentation. The page should contain a warm painted bedroom scene with moonlit window light, soft gouache texture, rounded shapes, and calm negative space where short text could later be placed outside the illustration. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nIntroduce one young child in striped pajamas and a small fox companion sharing a bedtime ritual among books, blankets, and quiet room objects. Their faces, proportions, clothing base, and emotional connection must be extremely clear, because every later spread in the series depends on recognizing the same pair immediately. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nKeep the illustration style gentle and editorially controlled: layered watercolor-gouache surfaces, warm navy and apricot night tones, clean page gutters, and a balance between narrative detail and page readability. The spread should feel publishable for a contemporary children storybook, with emotional warmth and stable character identity. Preserve the same child protagonist, fox companion, brush texture, page framing, color family, and storybook page proportions from the reference spread. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nChildren Storybook Scene Page System series study 1/4, reference bedtime spread.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable story text, no logos, no celebrity resemblance, no harsh horror mood, no hyper-detailed realism, no extra main characters replacing the leads.",
+  "id": "01-reference-bedtime-spread",
+  "title": "Reference Bedtime Spread",
+  "description": "Reference storybook spread that locks the main child, fox companion, and painted page language for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/series-core-system/images/01-reference-bedtime-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Bedtime Spread",
+      "description": "Reference storybook spread that locks the main child, fox companion, and painted page language for the series."
+    },
+    "zh-CN": {
+      "title": "基准睡前跨页",
+      "description": "锁定主角小孩、狐狸伙伴与绘本页面语言的基准跨页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Reference storybook spread that locks the main child, fox companion, and painted page language for the series.",
+      "zh-CN": "锁定主角小孩、狐狸伙伴与绘本页面语言的基准跨页。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square menu-design mockup that combines printed surfaces, structured page hierarchy, and appetizing food photography into one coherent brand-authored system. The page layouts should feel intentional and premium, with strong margins, modular blocks, and realistic print or board materials even though all textual zones remain unreadable. Preserve the same paper stock, print lighting, and layout language, but open the spread wider so multiple food images, dividers, and modular text blocks can coexist.\n\nSubject:\nThe menu should communicate category structure, hero dish placement, and brand tone through composition, image framing, typographic blocks, and page rhythm rather than through readable copy. Food imagery must stay believable and publication-ready. Show a breakfast menu spread with one large dish photo, several smaller supporting photos, and clearly separated but unreadable content areas.\n\nImportant details:\nThis topic tests layout reasoning as much as food styling. Preserve clean grids, realistic paper behavior, credible shadows, and strong focal hierarchy between cover, spreads, dish photos, and placeholder text zones. Text-like marks can exist only as abstract or unreadable forms; clarity must come from design structure. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-cover-anchor. The anchor system must remain visible in spacing, page ratio, and typographic rhythm, while the breakfast imagery adds warmth and hospitality cues.\n\nUse case:\nMenu System series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake menu prices, no warped paper errors, no amateur flyer clutter, no chaotic collage, no obvious software UI chrome, no readable headings, no fake prices, no sloppy page curl.",
+  "id": "02-breakfast-spread",
+  "title": "Breakfast Spread",
+  "description": "A breakfast-section spread that keeps the reference menu system while expanding into a richer page layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/02-breakfast-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-cover-anchor",
+        "meta_path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/01-cover-anchor/meta.json",
+        "image_path": "works/topics/menu-cover-and-spread-food-system/packages/series-core-system/images/01-cover-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-cover-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Breakfast Spread",
+      "description": "A breakfast-section spread that keeps the reference menu system while expanding into a richer page layout."
+    },
+    "zh-CN": {
+      "title": "早餐跨页",
+      "description": "早餐跨页：菜单系统主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A breakfast-section spread that keeps the reference menu system while expanding into a richer page layout.",
+      "zh-CN": "早餐跨页，用于菜单系统主题。"
+    }
+  }
+}

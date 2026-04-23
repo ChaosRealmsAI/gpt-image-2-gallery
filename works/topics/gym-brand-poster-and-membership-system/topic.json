@@ -1,0 +1,47 @@
+{
+  "id": "gym-brand-poster-and-membership-system",
+  "slug": "gym-brand-poster-and-membership-system",
+  "title": "Gym Brand Poster and Membership System",
+  "short_title": "Gym Brand",
+  "description": "Build gym-brand systems spanning posters, membership cards, wall graphics, and challenge visuals.",
+  "i18n": {
+    "en": {
+      "title": "Gym Brand Poster and Membership System",
+      "short_title": "Gym Brand",
+      "description": "Build gym-brand systems spanning posters, membership cards, wall graphics, and challenge visuals."
+    },
+    "zh-CN": {
+      "title": "健身房品牌海报与会员系统",
+      "short_title": "健身房品牌",
+      "description": "做健身房品牌海报与会员系统，覆盖海报、会员卡、墙面和挑战赛。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-membership-system",
+      "type": "series",
+      "title": "Membership Brand System",
+      "path": "packages/series-membership-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Brand Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Launch Asset Support Studies",
+  "description": "Five independent drink-launch studies extending the theme into boards, window clings, crop tiles, and bottle bursts.",
+  "creative_direction": "These independent studies extend the same seasonal-launch visual language into adjacent campaign surfaces and retail assets.",
+  "cover_image": "images/ingredient-orbit-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/ingredient-orbit-board/meta.json",
+      "images/cup-sleeve-counter-card/meta.json",
+      "images/window-cling-mockup/meta.json",
+      "images/chilled-bottle-burst/meta.json",
+      "images/carousel-crop-tiles/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Asset Support Studies",
+      "description": "Five independent drink-launch studies extending the theme into boards, window clings, crop tiles, and bottle bursts."
+    },
+    "zh-CN": {
+      "title": "上新资产补充研究",
+      "description": "五张独立补充图，把主题延展到物料板、橱窗贴、裁切卡片与瓶装爆发图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "ingredient-orbit-board",
+      "title": "Ingredient Orbit Board",
+      "image": "images/ingredient-orbit-board/image.png",
+      "meta": "images/ingredient-orbit-board/meta.json"
+    },
+    {
+      "id": "cup-sleeve-counter-card",
+      "title": "Cup Sleeve Counter Card",
+      "image": "images/cup-sleeve-counter-card/image.png",
+      "meta": "images/cup-sleeve-counter-card/meta.json"
+    },
+    {
+      "id": "window-cling-mockup",
+      "title": "Window Cling Mockup",
+      "image": "images/window-cling-mockup/image.png",
+      "meta": "images/window-cling-mockup/meta.json"
+    },
+    {
+      "id": "chilled-bottle-burst",
+      "title": "Chilled Bottle Burst",
+      "image": "images/chilled-bottle-burst/image.png",
+      "meta": "images/chilled-bottle-burst/meta.json"
+    },
+    {
+      "id": "carousel-crop-tiles",
+      "title": "Carousel Crop Tiles",
+      "image": "images/carousel-crop-tiles/image.png",
+      "meta": "images/carousel-crop-tiles/meta.json"
+    }
+  ]
+}

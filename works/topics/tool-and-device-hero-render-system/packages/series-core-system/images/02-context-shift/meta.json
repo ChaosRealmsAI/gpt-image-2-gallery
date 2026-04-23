@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square clean workbench setup with directional industrial light, shallow contextual depth, and highly controlled supporting objects. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original cordless precision drill-driver with a magnesium frame, rubber grip overmold, satin metal chuck, compact battery base, and carefully resolved vent geometry. Make the subject feel original, production-aware, and clearly grounded in Tool and Device Hero Render System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the exact same tool identity while using bench materials and accessory hints to add use context. The image should stay polished and market-ready, not gritty or documentary. Preserve exact tool silhouette, grip shape, chuck design, battery geometry, vent pattern, and color blocking across the series. Materials must look tactile and production-ready rather than toy-like or over-stylized. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nTool Renders series study 2/9 for Tool and Device Hero Render System, built as image 02-context-shift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand logos, no readable labels, no workshop mess, no sparks, no impossible tool bits, no sci-fi glow.",
+  "id": "02-context-shift",
+  "title": "Bench Context",
+  "description": "The same tool placed into a clean workshop context without losing premium clarity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/02-context-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/tool-and-device-hero-render-system/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bench Context",
+      "description": "The same tool placed into a clean workshop context without losing premium clarity."
+    },
+    "zh-CN": {
+      "title": "工作台语境",
+      "description": "把同一工具放入受控工作台场景，同时保持高级清晰度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "The same original tool staged on a clean workbench.",
+      "zh-CN": "同一原创工具置于干净工作台上的画面。"
+    }
+  }
+}

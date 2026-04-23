@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square black-and-white thriller frame with hard contrast, deep blacks, silvery highlights, and geometric shadow patterns cast by railings, blinds, or stained glass. The camera should feel deliberate and predatory, often high above or pinned to an anxious architectural angle. Stage a half-lit landing with a curved banister, patterned runner, and a bright sliver of door light cutting in from off frame.\n\nSubject:\nBuild the image around stairs, shadows, landings, banisters, and one isolated figure whose presence is defined as much by silhouette as by body. Fear should come from spacing, emptiness, and the logic of light rather than from explicit violence. A woman in a dark coat freezes near the banister, listening toward the unseen doorway while her shadow doubles along the wall.\n\nImportant details:\nThe governing grammar is suspense through architecture. Preserve crisp edges between light and shadow, polished floor reflections, severe stair geometry, and a sense of silent movement just before or after an event. Avoid modern clutter, color accents, or loose handheld energy. Use silence and clean tonal separation so the moment feels suspended between curiosity and dread.\n\nUse case:\nSuspense Staircase Shadow single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no monsters, no readable signage, no casual daylight realism, no fog machine effect, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-landing-listener",
+  "title": "Landing Listener",
+  "description": "A half-lit landing where a listening figure and doubled shadow create classic thriller tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "grayscale",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/suspense-staircase-shadow/packages/single-suspense-staircase-shadow/images/02-landing-listener/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent suspense staircase study focused on landing listener.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Landing Listener",
+      "description": "A half-lit landing where a listening figure and doubled shadow create classic thriller tension."
+    },
+    "zh-CN": {
+      "title": "Landing Listener",
+      "description": "围绕悬疑旋梯的第2张独立研究图，聚焦 Landing Listener。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "grayscale",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A black-and-white stair landing with a woman pausing beside a banister and a doubled shadow on the wall.",
+      "zh-CN": "悬疑旋梯主题图：Landing Listener。"
+    }
+  }
+}

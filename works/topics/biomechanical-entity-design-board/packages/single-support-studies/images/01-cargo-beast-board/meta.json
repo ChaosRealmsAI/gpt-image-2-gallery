@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square biomechanical concept plate that reads clearly from a distance and rewards close inspection. Use one strong main pose or view supported by carefully placed detail windows, component callouts, or environment cues. Compose a concept plate around a quadruped cargo carrier with load racks, tendon-driven pistons, and terrain attachments.\n\nSubject:\nShow a complete biomechanical entity or subsystem with clear task identity: guard, carrier, swimmer, scout, ritual host, or similar. The fusion between body logic and engineering should feel intentional and load-bearing. The being should feel bred or engineered for logistics, with anatomy optimized for weight transfer, endurance, and field maintenance.\n\nImportant details:\nFavor anatomical structure, movement plausibility, and material discipline over surface noise. The result should feel buildable within its fictional world, not like a random accumulation of tubes and spikes. Use board hierarchy to explain how organic power and mechanical support cooperate under freight load. Preserve readable biomechanics so joints, muscles, shells, and machines all seem to cooperate under one functional design logic.\n\nUse case:\nBiomech Board single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no horror torture imagery, no generic robot soldier clichés, no comic-book posing, no logo insignia, no fantasy war beast armor.",
+  "id": "01-cargo-beast-board",
+  "title": "Cargo Beast Board",
+  "description": "Cargo Beast Board presents a heavy transport organism-machine hybrid designed for carrying loads across severe terrain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "structured-layout",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/biomechanical-entity-design-board/packages/single-support-studies/images/01-cargo-beast-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Biomech Board support study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cargo Beast Board",
+      "description": "Cargo Beast Board presents a heavy transport organism-machine hybrid designed for carrying loads across severe terrain."
+    },
+    "zh-CN": {
+      "title": "Cargo Beast Board",
+      "description": "生物机械主题中的Cargo Beast Board图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Cargo Beast Board presents a heavy transport organism-machine hybrid designed for carrying loads across severe terrain.",
+      "zh-CN": "生物机械主题中的Cargo Beast Board图像。"
+    }
+  }
+}

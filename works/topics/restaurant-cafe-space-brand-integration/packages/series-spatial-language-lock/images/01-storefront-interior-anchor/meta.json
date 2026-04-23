@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Restaurant Cafe Space Brand Integration. Use a square hero view from near the storefront into the full dining room and bar and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so menu atmosphere, furniture authorship, and cohesive food-space branding feel immediate, using toasted oak, espresso brown, muted cream, oxidized brass, and warm tungsten amber as the governing tonal range. The composition must read as a high-end commercial image that could sit inside restaurant launches, cafe campaigns, hospitality editorials, and concept pitch boards.\n\nSubject:\nShow a restaurant and cafe interior where oak, oxidized metal, patterned tile, leather banquettes, softly glowing pendants, and abstract menu surfaces feel authored as one brand system. Center the restaurant’s overall brand atmosphere, seating hierarchy, and bar glow. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the tile language, oak-and-metal pairings, banquette shapes, bar geometry, pendant rhythm, and abstract menu-display zones. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nRestaurant Cafe Space Brand Integration series study 1/9, establishing the canonical hospitality identity for the series.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowded diners, no readable menus, no food-delivery branding, no messy plates, no random neon slogans, no exterior logos dominating.",
+  "id": "01-storefront-interior-anchor",
+  "title": "Storefront Interior Anchor",
+  "description": "A reference-setting architectural still for cafe space that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/restaurant-cafe-space-brand-integration/packages/series-spatial-language-lock/images/01-storefront-interior-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Storefront Interior Anchor",
+      "description": "A reference-setting architectural still for cafe space that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "门店内景锚点",
+      "description": "围绕餐饮空间的门店内景锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "Storefront Interior Anchor for Restaurant Cafe Space Brand Integration.",
+      "zh-CN": "餐饮空间主题中的门店内景锚点。"
+    }
+  }
+}

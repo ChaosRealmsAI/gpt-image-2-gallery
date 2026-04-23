@@ -1,0 +1,40 @@
+{
+  "id": "volcanic-iceland-black-beach",
+  "slug": "volcanic-iceland-black-beach",
+  "title": "Icelandic Black Beach Basalt",
+  "short_title": "Black Beach Basalt",
+  "description": "Reynisfjara black sand beach with hexagonal basalt column cliffs, white Atlantic waves crashing against the columns, a single puffin on a ledge, cold grey sky.",
+  "i18n": {
+    "en": {
+      "title": "Icelandic Black Beach Basalt",
+      "short_title": "Black Beach Basalt",
+      "description": "Reynisfjara black sand beach with hexagonal basalt column cliffs, white Atlantic waves crashing against the columns, a single puffin on a ledge, cold grey sky."
+    },
+    "zh-CN": {
+      "title": "冰岛黑沙滩玄武岩",
+      "short_title": "黑沙滩",
+      "description": "雷尼斯黑沙滩 · 六边形玄武岩柱悬崖 · 白色大西洋浪拍打石柱 · 一只海鹦立于岩台 · 冷灰天。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1290,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "pattern"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Black Beach Basalt Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

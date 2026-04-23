@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square ultra-high-speed food photograph on a dark stage with precise flash freezing every crystal, fragment, and droplet. Cold vapor should sink and spread along the surface rather than billow upward like theatrical smoke. The scene must feel like a controlled scientific capture of an extreme thermal event, with deep blacks, disciplined highlights, and severe physical clarity. Use a square macro setup on a dark neutral stage with side flash and low vapor hugging the surface. The framing should be tight enough to make the herb structure feel monumental.\n\nSubject:\nShow several thin herb sprigs or edible leaves at the instant they snap and splinter after cryogenic treatment, with frost tracing the veins and tiny shards lifting away. Moisture crystals should cling to edges and stems. The image should feel botanical and culinary at once.\n\nImportant details:\nThe key challenge is believable thermal physics: frost bloom, brittle fracture, vapor density, wet-to-frozen transitions, and the texture of suddenly shocked food all need to feel accurate. Motion can be violent, but the image should remain legible and elegant. Every fragment must still read as part of a real food object. The success of the image depends on scale clarity: veins, frost grains, stem fibers, and brittle break lines all need to remain visible. The herb must still look edible, not dry or dead.\n\nUse case:\nLiquid nitrogen frozen moment single study 6/9, magnifying the brittle fracture of frozen herbs.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire effects, no sci-fi blue laser glow, no generic splash stock-photo look, no readable gauges, no dramatic stage props, no flower-petal confetti aesthetic, no fake snow, no smoky blur.",
+  "id": "herb-fracture-macro",
+  "title": "Herb Fracture Macro",
+  "description": "A macro view of delicate frozen herbs snapping under cold stress with visible frost crystals on the veins.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "high-speed",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/liquid-nitrogen-frozen-moment/packages/single-support-studies/images/herb-fracture-macro/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Herb Fracture Macro",
+      "description": "A macro view of delicate frozen herbs snapping under cold stress with visible frost crystals on the veins."
+    },
+    "zh-CN": {
+      "title": "Herb Fracture Macro",
+      "description": "A macro view of delicate frozen herbs snapping under cold stress with visible frost crystals on the veins."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Frozen herb leaves snapping in macro view with frost crystals tracing each vein.",
+      "zh-CN": "Frozen herb leaves snapping in macro view with frost crystals tracing each vein."
+    }
+  }
+}

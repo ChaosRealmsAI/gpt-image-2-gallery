@@ -1,0 +1,64 @@
+{
+  "id": "single-seasonal-mood-studies",
+  "type": "single",
+  "title": "Seasonal Mood Studies",
+  "description": "Five independent summer studies covering poolside still life, roadside motel leisure, fruit-led refreshment, room-arrival mood, and travel-detail support.",
+  "creative_direction": "Independent summer studies extend the topic through premium seasonal mood surfaces that stay bright, tactile, and commercially useful for travel and lifestyle campaigns.",
+  "cover_image": "images/poolside-still-life/image.png",
+  "i18n": {
+    "en": {
+      "title": "Seasonal Mood Studies",
+      "description": "Five independent summer studies covering poolside still life, roadside motel leisure, fruit-led refreshment, room-arrival mood, and travel-detail support."
+    },
+    "zh-CN": {
+      "title": "季节情绪研究",
+      "description": "五张独立夏季研究图，补充池畔静物、路旅氛围、水果清凉、房间抵达与出行细节支持图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "poolside-still-life",
+      "title": "Poolside Still Life",
+      "image": "images/poolside-still-life/image.png",
+      "meta": "images/poolside-still-life/meta.json"
+    },
+    {
+      "id": "roadside-motel-leisure",
+      "title": "Roadside Motel Leisure",
+      "image": "images/roadside-motel-leisure/image.png",
+      "meta": "images/roadside-motel-leisure/meta.json"
+    },
+    {
+      "id": "fruit-market-refreshment",
+      "title": "Fruit Market Refreshment",
+      "image": "images/fruit-market-refreshment/image.png",
+      "meta": "images/fruit-market-refreshment/meta.json"
+    },
+    {
+      "id": "room-arrival-cooldown",
+      "title": "Room Arrival Cooldown",
+      "image": "images/room-arrival-cooldown/image.png",
+      "meta": "images/room-arrival-cooldown/meta.json"
+    },
+    {
+      "id": "travel-detail-seat-study",
+      "title": "Travel Detail Seat Study",
+      "image": "images/travel-detail-seat-study/image.png",
+      "meta": "images/travel-detail-seat-study/meta.json"
+    }
+  ]
+}

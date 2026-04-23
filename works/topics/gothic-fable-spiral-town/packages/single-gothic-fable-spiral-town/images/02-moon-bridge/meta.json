@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. Use a narrow arched bridge over dark water, with twisted reeds, reflected orange windows, and houses climbing both banks in zigzag tiers.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. A wide-eyed child figure pauses at the bridge crest carrying a stitched satchel beneath a thin blue moon.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. Keep the water glossy and simple so the bridge curve and window reflections dominate the design.\n\nUse case:\nGothic Fable Spiral Town single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-moon-bridge",
+  "title": "Moon Bridge",
+  "description": "A bridge crossing into a gothic fable town, where reflection and crooked architecture sharpen the moonlit mood.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/02-moon-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on moon bridge.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Moon Bridge",
+      "description": "A bridge crossing into a gothic fable town, where reflection and crooked architecture sharpen the moonlit mood."
+    },
+    "zh-CN": {
+      "title": "Moon Bridge",
+      "description": "围绕哥特童话的第2张独立研究图，聚焦 Moon Bridge。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A small figure pauses on a curved bridge between crooked moonlit houses and glowing windows.",
+      "zh-CN": "哥特童话主题图：Moon Bridge。"
+    }
+  }
+}

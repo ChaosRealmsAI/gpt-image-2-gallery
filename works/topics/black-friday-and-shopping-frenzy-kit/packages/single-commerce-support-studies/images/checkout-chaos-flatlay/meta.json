@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square overhead commerce flatlay on a deep charcoal surface with hard directional light, sharp shadows, and intense contrast. The arrangement should feel strategic and high-pressure rather than messy. Use abstract sale chips, card-like shapes, carts, parcel tools, and product silhouettes laid out with editorial precision so the frame can work as a campaign support image for checkout pushes and cart-building reminders.\n\nSubject:\nArrange a compact shopping toolkit made from generic products, cart handles, card-like forms, sticker blocks, packing tools, and parcel components. The viewer should immediately read purchase momentum, bundle logic, and checkout readiness without any readable interface text. The scene must feel digital-retail adjacent while remaining physically staged and photographically believable.\n\nImportant details:\nHierarchy and edge clarity matter more than spectacle. Use strong black, white, and yellow structure with maybe one metallic accent. Keep shapes crisp and conversion-minded, with every object contributing to urgency. The final image should feel like a campaign asset for cart reminders, flash-sale pushes, or deal countdown support rather than a random desk still life.\n\nUse case:\nBlack Friday single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable checkout text, no brand cards, no currency symbols, no rainbow palette, no cluttered receipts, no human hands, no broken shadows, no generic office stationery.",
+  "id": "checkout-chaos-flatlay",
+  "title": "Checkout Chaos Flatlay",
+  "description": "An overhead Black Friday flatlay showing shopping, checkout, and bundled purchase urgency.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/single-commerce-support-studies/images/checkout-chaos-flatlay/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent checkout flatlay for Black Friday support.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Checkout Chaos Flatlay",
+      "description": "An overhead Black Friday flatlay showing shopping, checkout, and bundled purchase urgency."
+    },
+    "zh-CN": {
+      "title": "结算狂欢平铺",
+      "description": "俯拍展示购物、结算与拼单紧迫感的黑五平铺场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "An overhead Black Friday flatlay of carts, products, abstract sale chips, and checkout tools.",
+      "zh-CN": "俯拍的黑五平铺，包含购物车、商品、抽象促销牌与结算元素。"
+    }
+  }
+}

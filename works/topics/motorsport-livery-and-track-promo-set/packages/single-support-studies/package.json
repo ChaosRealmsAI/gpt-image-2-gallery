@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Motorsport Support Studies",
+  "description": "Five independent motorsport communication studies expanding beyond the locked hero series.",
+  "creative_direction": "Independent race-promo studies covering livery detail, poster surfaces, paddock tools, lineup, and data-inspired communication boards.",
+  "cover_image": "images/support-one/image.png",
+  "i18n": {
+    "en": {
+      "title": "Motorsport Support Studies",
+      "description": "Five independent motorsport communication studies expanding beyond the locked hero series."
+    },
+    "zh-CN": {
+      "title": "赛车支持研究",
+      "description": "五张独立研究图，把赛车宣传扩展到更多传播面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "high-speed",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "support-one",
+      "title": "Livery Detail Study",
+      "image": "images/support-one/image.png",
+      "meta": "images/support-one/meta.json"
+    },
+    {
+      "id": "support-two",
+      "title": "Helmet Flatlay",
+      "image": "images/support-two/image.png",
+      "meta": "images/support-two/meta.json"
+    },
+    {
+      "id": "support-three",
+      "title": "Track Poster Mockup",
+      "image": "images/support-three/image.png",
+      "meta": "images/support-three/meta.json"
+    },
+    {
+      "id": "support-four",
+      "title": "Garage Lineup",
+      "image": "images/support-four/image.png",
+      "meta": "images/support-four/meta.json"
+    },
+    {
+      "id": "support-five",
+      "title": "Telemetry Style Board",
+      "image": "images/support-five/image.png",
+      "meta": "images/support-five/meta.json"
+    }
+  ]
+}

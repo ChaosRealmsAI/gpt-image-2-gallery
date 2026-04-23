@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Commerce Tile Support Studies",
+  "description": "Five independent delivery-commerce studies extending the topic into bundles, upsells, and comparison boards.",
+  "creative_direction": "These independent studies expand the same delivery-first visual system into adjacent commerce surfaces and card formats.",
+  "cover_image": "images/lunch-box-hero-card/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/lunch-box-hero-card/meta.json",
+      "images/soup-and-side-tile/meta.json",
+      "images/dessert-add-on-tile/meta.json",
+      "images/beverage-upsell-tile/meta.json",
+      "images/multi-tile-comparison-board/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Commerce Tile Support Studies",
+      "description": "Five independent delivery-commerce studies extending the topic into bundles, upsells, and comparison boards."
+    },
+    "zh-CN": {
+      "title": "电商卡片补充研究",
+      "description": "五张独立补充图，把主题延展到套餐、加购与多卡对比场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "lunch-box-hero-card",
+      "title": "Lunch Box Hero Card",
+      "image": "images/lunch-box-hero-card/image.png",
+      "meta": "images/lunch-box-hero-card/meta.json"
+    },
+    {
+      "id": "soup-and-side-tile",
+      "title": "Soup and Side Tile",
+      "image": "images/soup-and-side-tile/image.png",
+      "meta": "images/soup-and-side-tile/meta.json"
+    },
+    {
+      "id": "dessert-add-on-tile",
+      "title": "Dessert Add-On Tile",
+      "image": "images/dessert-add-on-tile/image.png",
+      "meta": "images/dessert-add-on-tile/meta.json"
+    },
+    {
+      "id": "beverage-upsell-tile",
+      "title": "Beverage Upsell Tile",
+      "image": "images/beverage-upsell-tile/image.png",
+      "meta": "images/beverage-upsell-tile/meta.json"
+    },
+    {
+      "id": "multi-tile-comparison-board",
+      "title": "Multi Tile Comparison Board",
+      "image": "images/multi-tile-comparison-board/image.png",
+      "meta": "images/multi-tile-comparison-board/meta.json"
+    }
+  ]
+}

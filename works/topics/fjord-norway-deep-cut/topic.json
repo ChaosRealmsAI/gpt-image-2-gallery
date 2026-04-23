@@ -1,0 +1,40 @@
+{
+  "id": "fjord-norway-deep-cut",
+  "slug": "fjord-norway-deep-cut",
+  "title": "Norwegian Fjord Deep Cut",
+  "short_title": "Fjord Deep Cut",
+  "description": "Norwegian fjord at afternoon, 1000m vertical cliffs dropping into mirror-still black water, a tiny fishing boat creating a white wake, waterfall ribbons descending cliff faces.",
+  "i18n": {
+    "en": {
+      "title": "Norwegian Fjord Deep Cut",
+      "short_title": "Fjord Deep Cut",
+      "description": "Norwegian fjord at afternoon, 1000m vertical cliffs dropping into mirror-still black water, a tiny fishing boat creating a white wake, waterfall ribbons descending cliff faces."
+    },
+    "zh-CN": {
+      "title": "挪威峡湾深切",
+      "short_title": "峡湾深切",
+      "description": "挪威峡湾午后 · 千米垂直悬崖入镜面静黑水 · 一艘小渔船拖白尾迹 · 瀑布丝带沿崖面而下。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1240,
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-landscape-studies",
+      "type": "single",
+      "title": "Fjord Deep Cut Studies",
+      "path": "packages/single-landscape-studies/package.json"
+    }
+  ]
+}

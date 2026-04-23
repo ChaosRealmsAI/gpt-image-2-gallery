@@ -1,0 +1,47 @@
+{
+  "id": "pop-up-shop-and-event-installation-kit",
+  "slug": "pop-up-shop-and-event-installation-kit",
+  "title": "Pop-up Shop and Event Installation Kit",
+  "short_title": "Pop-up Kit",
+  "description": "Create pop-up retail and event-installation kits built for photos, circulation, and brand recall.",
+  "i18n": {
+    "en": {
+      "title": "Pop-up Shop and Event Installation Kit",
+      "short_title": "Pop-up Kit",
+      "description": "Create pop-up retail and event-installation kits built for photos, circulation, and brand recall."
+    },
+    "zh-CN": {
+      "title": "快闪店与活动装置套件",
+      "short_title": "快闪装置",
+      "description": "做快闪店与活动装置套件，强调打卡传播、动线和品牌记忆点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 900,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Activation Kit Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Activation Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

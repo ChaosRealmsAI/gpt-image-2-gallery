@@ -1,0 +1,39 @@
+{
+  "id": "polish-poster-surrealist",
+  "title": "Polish Surrealist Theatre Poster",
+  "short_title": "Polish Surrealist",
+  "description": "Polish school of poster design — surrealist symbolic imagery, muted palette with one neon accent, hand-rendered texture, intellectual deadpan composition.",
+  "i18n": {
+    "en": {
+      "title": "Polish Surrealist Theatre Poster",
+      "short_title": "Polish Surrealist",
+      "description": "Polish school of poster design — surrealist symbolic imagery, muted palette with one neon accent, hand-rendered texture, intellectual deadpan composition."
+    },
+    "zh-CN": {
+      "title": "波兰超现实剧场海报",
+      "short_title": "波兰超现实",
+      "description": "波兰海报学派 · 超现实象征图像 · 哑色调 + 一个霓虹强调 · 手绘质感 · 知识分子面瘫构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 570,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

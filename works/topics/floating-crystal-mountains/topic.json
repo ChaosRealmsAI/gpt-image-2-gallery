@@ -1,0 +1,56 @@
+{
+  "id": "floating-crystal-mountains",
+  "slug": "floating-crystal-mountains",
+  "category": "illustration",
+  "style": [
+    "photoreal",
+    "cinematic"
+  ],
+  "capability": [
+    "photorealism",
+    "physics-materials",
+    "cinematic"
+  ],
+  "title": "Floating Crystal Mountains Mirroring Aurora",
+  "short_title": "Crystal Mountains",
+  "description": "A hyper-surreal atlas of transparent quartz and amethyst mountain ranges suspended above a mirror ocean, each facet refracting aurora ribbons into colored beams.",
+  "i18n": {
+    "en": {
+      "title": "Floating Crystal Mountains Mirroring Aurora",
+      "short_title": "Crystal Mountains",
+      "description": "A hyper-surreal atlas of transparent quartz and amethyst mountain ranges suspended above a mirror ocean, each facet refracting aurora ribbons into colored beams."
+    },
+    "zh-CN": {
+      "title": "倒映极光的悬浮水晶山",
+      "short_title": "水晶山",
+      "description": "悬浮于镜面海洋之上的巨型透明水晶山脉图集 · 每一个晶面都把极光折射成彩色光束。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-aurora-refraction",
+      "type": "series",
+      "title": "Aurora Refraction Cycle",
+      "path": "packages/series-aurora-refraction/package.json"
+    },
+    {
+      "id": "single-crystal-studies",
+      "type": "single",
+      "title": "Crystal Studies",
+      "path": "packages/single-crystal-studies/package.json"
+    }
+  ]
+}

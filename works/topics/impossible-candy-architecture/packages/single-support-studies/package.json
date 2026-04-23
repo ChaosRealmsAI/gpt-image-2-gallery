@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Architectural Confection Studies",
+  "description": "Five independent edible-architecture studies ranging from aerial plans to interiors and weathered street scenes.",
+  "creative_direction": "These singles broaden the impossible city into masterplans, cross-sections, rain-soaked streets, sunrise skylines, and tabletop maquettes while preserving serious architectural photography language.",
+  "cover_image": "images/aerial-masterplan/image.png",
+  "i18n": {
+    "en": {
+      "title": "Architectural Confection Studies",
+      "description": "Five independent edible-architecture studies ranging from aerial plans to interiors and weathered street scenes."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "糖艺建筑相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ]
+  },
+  "images": [
+    {
+      "id": "aerial-masterplan",
+      "title": "Aerial Masterplan",
+      "image": "images/aerial-masterplan/image.png",
+      "meta": "images/aerial-masterplan/meta.json"
+    },
+    {
+      "id": "atrium-cross-section",
+      "title": "Atrium Cross-Section",
+      "image": "images/atrium-cross-section/image.png",
+      "meta": "images/atrium-cross-section/meta.json"
+    },
+    {
+      "id": "night-rain-street",
+      "title": "Night Rain Street",
+      "image": "images/night-rain-street/image.png",
+      "meta": "images/night-rain-street/meta.json"
+    },
+    {
+      "id": "sunrise-skyline",
+      "title": "Sunrise Skyline",
+      "image": "images/sunrise-skyline/image.png",
+      "meta": "images/sunrise-skyline/meta.json"
+    },
+    {
+      "id": "structural-maquette-table",
+      "title": "Structural Maquette Table",
+      "image": "images/structural-maquette-table/image.png",
+      "meta": "images/structural-maquette-table/meta.json"
+    }
+  ]
+}

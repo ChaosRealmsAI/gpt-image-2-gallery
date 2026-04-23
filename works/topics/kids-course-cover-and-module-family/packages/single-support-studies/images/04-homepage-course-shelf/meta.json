@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nRender a square digital-product mockup showing a course homepage on a tablet or desktop crop with a clean backdrop and polished reflections. The layout should feel like a real education-platform storefront, organized and inviting for parents. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nDisplay multiple course covers in a structured shelf, with filter chips, category icons, and preview cards that remain blank where text would go. The browsing experience should feel curated and easy to understand without any readable labels. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nFavor clear information architecture and strong card hierarchy. The scene should prove that the course-cover system works not only as individual covers but also as a scalable browsing environment. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nKids Course Cover and Module Family single study 4/5, homepage course shelf.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course names, no logos, no fake ratings, no crowded marketplace clutter, no generic stock templates, no IP likeness.",
+  "id": "04-homepage-course-shelf",
+  "title": "Homepage Course Shelf",
+  "description": "A homepage shelf layout presenting multiple kids courses through covers, filters, and modular browsing cards.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/single-support-studies/images/04-homepage-course-shelf/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 4 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Homepage Course Shelf",
+      "description": "A homepage shelf layout presenting multiple kids courses through covers, filters, and modular browsing cards."
+    },
+    "zh-CN": {
+      "title": "首页课程货架",
+      "description": "通过封面、筛选和模块浏览卡呈现多门儿童课程的首页货架布局。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A homepage shelf layout presenting multiple kids courses through covers, filters, and modular browsing cards.",
+      "zh-CN": "通过封面、筛选和模块浏览卡呈现多门儿童课程的首页货架布局。"
+    }
+  }
+}

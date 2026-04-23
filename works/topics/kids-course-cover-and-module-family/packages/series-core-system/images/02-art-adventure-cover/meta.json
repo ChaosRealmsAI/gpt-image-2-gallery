@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square cover presentation, studio backdrop, and print realism established by the reference cover. The asset should look like the second module in the same educational series, maintaining identical proportions, framing, and packaging discipline. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShift the illustration content toward painting tools, collage shapes, clay, easels, and joyful making gestures, all staged inside the same cover architecture and blank labeling zones. The cover should feel energetic but still tightly controlled. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the full reference system, including frame, badge placement, illustration ratio, and palette hierarchy. Let the subject matter provide the variation while the product identity remains unmistakably stable. Preserve the same cover frame, subject badge placement, illustration ratio, color hierarchy, and blank title-zone architecture from the reference cover. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nKids Course Cover and Module Family series study 2/4, art adventure cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course titles, no logos, no brand mascots from existing IP, no cluttered marketplace graphics, no fake awards, no generic stock-book covers.",
+  "id": "02-art-adventure-cover",
+  "title": "Art Adventure Cover",
+  "description": "An art-module cover that preserves the same course-cover system while shifting into creative making.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/02-art-adventure-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-master-cover",
+        "meta_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/meta.json",
+        "image_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-master-cover.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Art Adventure Cover",
+      "description": "An art-module cover that preserves the same course-cover system while shifting into creative making."
+    },
+    "zh-CN": {
+      "title": "美术探险封面",
+      "description": "在同一课程封面系统内切换到美术主题的模块封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "An art-module cover that preserves the same course-cover system while shifting into creative making.",
+      "zh-CN": "在同一课程封面系统内切换到美术主题的模块封面。"
+    }
+  }
+}

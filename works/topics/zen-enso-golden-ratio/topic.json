@@ -1,0 +1,40 @@
+{
+  "id": "zen-enso-golden-ratio",
+  "slug": "zen-enso-golden-ratio",
+  "title": "Zen Enso × Golden Ratio Composition",
+  "short_title": "Zen Enso Ratio",
+  "description": "A single brushstroke zen enso circle placed in a golden-ratio composition with empty space meticulously calibrated against Fibonacci grid and rice-paper texture.",
+  "i18n": {
+    "en": {
+      "title": "Zen Enso × Golden Ratio Composition",
+      "short_title": "Zen Enso Ratio",
+      "description": "A single brushstroke zen enso circle placed in a golden-ratio composition with empty space meticulously calibrated against Fibonacci grid and rice-paper texture."
+    },
+    "zh-CN": {
+      "title": "禅宗圆相 × 黄金比例",
+      "short_title": "禅圆 × 黄金比例",
+      "description": "一笔禅宗圆相(enso)置于黄金比例构图 · 留白按 Fibonacci 网格精确校准 · 宣纸肌理。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4080,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "grayscale",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-enso-ratio-studies",
+      "type": "single",
+      "title": "Enso Ratio Studies",
+      "path": "packages/single-enso-ratio-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "sunburst-halftone-70s-editorial",
+  "slug": "sunburst-halftone-70s-editorial",
+  "category": "editorial",
+  "style": [
+    "retro",
+    "editorial"
+  ],
+  "capability": [
+    "editorial-illustration",
+    "structured-layout",
+    "pattern",
+    "text-rendering",
+    "style-transfer"
+  ],
+  "title": "Sunburst Halftone 70s Editorial",
+  "short_title": "70s Editorial",
+  "description": "Neo-retro 70s editorial system resurrected at modern print precision — warm orange-brown-mustard palette, thick slab-serif wordmarks, visible halftone dots, sunburst rays, and large tombstone photography.",
+  "i18n": {
+    "en": {
+      "title": "Sunburst Halftone 70s Editorial",
+      "short_title": "70s Editorial",
+      "description": "Neo-retro 70s editorial system resurrected at modern print precision — warm orange-brown-mustard palette, thick slab-serif wordmarks, visible halftone dots, sunburst rays, and large tombstone photography."
+    },
+    "zh-CN": {
+      "title": "70 年代旭日半调编辑",
+      "short_title": "70 年代编辑",
+      "description": "以现代印刷精度复活的 70 年代编辑体系 · 暖橘棕芥末配色 · 粗衬线标题 · 可见半调网点 · 旭日放射光线 · 大幅墓碑式摄影。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "structured-layout",
+      "pattern",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-70s-editorial-studies",
+      "type": "single",
+      "title": "70s Editorial Studies",
+      "path": "packages/single-70s-editorial-studies/package.json"
+    }
+  ]
+}

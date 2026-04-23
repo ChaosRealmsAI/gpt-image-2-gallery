@@ -1,0 +1,43 @@
+{
+  "id": "series-mall-atrium-reference",
+  "type": "series",
+  "title": "Mall Atrium Reference Series",
+  "description": "One two-story mall atrium re-photographed across four states: after-close overview, escalator frozen mid-step, central fountain off, and skylight at night. All must read as the same atrium.",
+  "creative_direction": "Image 01 establishes atrium footprint, balcony layout, escalator position, fountain basin, and camera vantage. Images 02-04 depend on 01 as --ref and re-stage the same atrium under different partial-state conditions while keeping tile pattern, balcony railings, and camera viewpoint identical.",
+  "cover_image": "images/01-reference-atrium-after-close/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-atrium-after-close/meta.json",
+      "images/02-atrium-escalator-frozen/meta.json",
+      "images/03-atrium-fountain-off/meta.json",
+      "images/04-atrium-skylight-night/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mall Atrium Reference Series",
+      "description": "One two-story mall atrium re-photographed across four states: after-close overview, escalator frozen mid-step, central fountain off, and skylight at night. All must read as the same atrium."
+    },
+    "zh-CN": {
+      "title": "商场中庭基准组",
+      "description": "同一座两层中庭在四种打烊状态下被重拍:整体概览、扶梯冻结、喷泉熄火、夜间天窗。四张必须可辨认为同一处中庭。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["series", "photorealism", "structured-layout"]
+  },
+  "images": [
+    { "id": "01-reference-atrium-after-close", "title": "Reference Atrium · After Close", "image": "images/01-reference-atrium-after-close/image.png", "meta": "images/01-reference-atrium-after-close/meta.json" },
+    { "id": "02-atrium-escalator-frozen", "title": "Atrium · Escalator Frozen", "image": "images/02-atrium-escalator-frozen/image.png", "meta": "images/02-atrium-escalator-frozen/meta.json" },
+    { "id": "03-atrium-fountain-off", "title": "Atrium · Fountain Off", "image": "images/03-atrium-fountain-off/image.png", "meta": "images/03-atrium-fountain-off/meta.json" },
+    { "id": "04-atrium-skylight-night", "title": "Atrium · Skylight at Night", "image": "images/04-atrium-skylight-night/image.png", "meta": "images/04-atrium-skylight-night/meta.json" }
+  ]
+}

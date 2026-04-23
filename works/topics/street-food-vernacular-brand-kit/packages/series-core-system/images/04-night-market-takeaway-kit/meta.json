@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Retain the exact stall palette and materials but pivot into a dusk or night-market mood with stronger highlights, reflective wrappers, and compact takeaway grouping.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. Show the hero street-food item packaged for takeaway with one side sauce, napkin, and branded-feeling paper treatment that remains non-legible.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-stall-anchor. Preserve the reference system through wrapper design, stall color, and lighting temperature while making portability and night ordering the new story.\n\nUse case:\nStreet Food Kit series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no motorbike delivery gear, no readable receipts, no festival fireworks.",
+  "id": "04-night-market-takeaway-kit",
+  "title": "Night Market Takeaway Kit",
+  "description": "A takeaway-oriented variation that keeps the reference stall identity while shifting toward portable packaging and nighttime energy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "world-knowledge",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/04-night-market-takeaway-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-stall-anchor",
+        "meta_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/meta.json",
+        "image_path": "works/topics/street-food-vernacular-brand-kit/packages/series-core-system/images/01-stall-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-stall-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Market Takeaway Kit",
+      "description": "A takeaway-oriented variation that keeps the reference stall identity while shifting toward portable packaging and nighttime energy."
+    },
+    "zh-CN": {
+      "title": "夜市外带套件",
+      "description": "夜市外带套件：街头餐饮主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A takeaway-oriented variation that keeps the reference stall identity while shifting toward portable packaging and nighttime energy.",
+      "zh-CN": "夜市外带套件，用于街头餐饮主题。"
+    }
+  }
+}

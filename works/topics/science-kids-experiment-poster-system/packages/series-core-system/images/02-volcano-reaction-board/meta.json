@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nKeep the same square wall-poster mockup, camera angle, print finish, and classroom science-corner environment from the reference image. The design should look like the second poster in a coordinated STEM wall series, maintaining identical spacing, hierarchy, and safety-first tone. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a child-friendly volcano setup with a paper cone, tray, colored liquid bottles, spoon, and bubbly eruption outcome, all organized into the same step-by-step poster structure. Include blank headings and simple pictograms for preparation, action, and observation, but no readable labels. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the exact reference system: same panel proportions, icon style, color hierarchy, and blank instructional bars. Let the excitement come from the experiment visuals, not from layout changes or loud effects that would reduce classroom credibility. Preserve the same poster grid, step-panel proportions, icon weight, blank instruction bars, and safety-callout rhythm from the reference poster. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nScience Kids Experiment Poster System series study 2/4, volcano reaction board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable copy, no chemical formulas, no logos, no dangerous realism, no lab-brand signage, no chaotic clutter.",
+  "id": "02-volcano-reaction-board",
+  "title": "Volcano Reaction Board",
+  "description": "A volcano-reaction variation that preserves the same science poster architecture.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/02-volcano-reaction-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-experiment-poster",
+        "meta_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/meta.json",
+        "image_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/01-reference-experiment-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-experiment-poster.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/science-kids-experiment-poster-system/packages/series-core-system/images/02-volcano-reaction-board/image.png",
+      "checked_at": "2026-04-23T12:43:48.731Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Volcano Reaction Board",
+      "description": "A volcano-reaction variation that preserves the same science poster architecture."
+    },
+    "zh-CN": {
+      "title": "火山反应海报",
+      "description": "在同一科学海报结构内切换为火山反应主题的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A volcano-reaction variation that preserves the same science poster architecture.",
+      "zh-CN": "在同一科学海报结构内切换为火山反应主题的变体。"
+    }
+  }
+}

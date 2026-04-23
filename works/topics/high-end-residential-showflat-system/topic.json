@@ -1,0 +1,47 @@
+{
+  "id": "high-end-residential-showflat-system",
+  "slug": "high-end-residential-showflat-system",
+  "title": "High-End Residential Showflat System",
+  "short_title": "Showflat System",
+  "description": "Create high-end residential showflat visuals with furniture harmony, daylight flow, and property-marketing polish.",
+  "i18n": {
+    "en": {
+      "title": "High-End Residential Showflat System",
+      "short_title": "Showflat System",
+      "description": "Create high-end residential showflat visuals with furniture harmony, daylight flow, and property-marketing polish."
+    },
+    "zh-CN": {
+      "title": "高端住宅样板间系统",
+      "short_title": "样板间",
+      "description": "做高端住宅样板间系统，强调家具协调、日光流动和地产营销质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 830,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Showflat Language Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Showflat Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

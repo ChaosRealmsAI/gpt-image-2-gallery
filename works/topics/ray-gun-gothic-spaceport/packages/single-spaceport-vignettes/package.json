@@ -1,0 +1,31 @@
+{
+  "id": "single-spaceport-vignettes",
+  "type": "single",
+  "title": "Spaceport Vignettes",
+  "description": "Five independent vignette illustrations from imagined atomic-age spaceports, each a standalone travel-poster or editorial-style scene.",
+  "creative_direction": "Independent vignettes. Each image is a different ray-gun-gothic spaceport moment: air hostess greeting, control tower interior, luggage conveyor, star-lane traffic sign, and vintage departure board. No reference dependencies.",
+  "cover_image": "images/hostess-greeting/image.png",
+  "i18n": {
+    "en": {
+      "title": "Spaceport Vignettes",
+      "description": "Five independent vignette illustrations from imagined atomic-age spaceports, each a standalone travel-poster or editorial-style scene."
+    },
+    "zh-CN": {
+      "title": "太空港小景",
+      "description": "五张独立的想象原子时代太空港场景插画, 每张都是一幅独立旅行海报或编辑风小景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "commercial-mockup", "editorial-illustration"]
+  },
+  "images": [
+    {"id": "hostess-greeting", "title": "Hostess Greeting", "image": "images/hostess-greeting/image.png", "meta": "images/hostess-greeting/meta.json"},
+    {"id": "control-tower-interior", "title": "Control Tower Interior", "image": "images/control-tower-interior/image.png", "meta": "images/control-tower-interior/meta.json"},
+    {"id": "luggage-conveyor", "title": "Luggage Conveyor", "image": "images/luggage-conveyor/image.png", "meta": "images/luggage-conveyor/meta.json"},
+    {"id": "star-lane-traffic-sign", "title": "Star Lane Traffic Sign", "image": "images/star-lane-traffic-sign/image.png", "meta": "images/star-lane-traffic-sign/meta.json"},
+    {"id": "vintage-departure-board", "title": "Vintage Departure Board", "image": "images/vintage-departure-board/image.png", "meta": "images/vintage-departure-board/meta.json"}
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Design a long boarding-house dormitory aisle with identical bed alcoves, overhead pipes, and alternating red blanket folds repeating toward the center.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A child in slippers stands far away at the vanishing point holding a toy ball, making the scale feel uncanny and formal.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. The bedding, lockers, and floor pattern must obey the perspective grid with absolute obedience, avoiding sentimental clutter.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-dormitory-aisle",
+  "title": "Dormitory Aisle",
+  "description": "A disciplined dormitory corridor with repeated bed bays and one distant child centered in the depth axis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/05-dormitory-aisle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on dormitory aisle.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dormitory Aisle",
+      "description": "A disciplined dormitory corridor with repeated bed bays and one distant child centered in the depth axis."
+    },
+    "zh-CN": {
+      "title": "Dormitory Aisle",
+      "description": "围绕单点透视的第5张独立研究图，聚焦 Dormitory Aisle。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A long dormitory aisle converging on a small child at the vanishing point.",
+      "zh-CN": "单点透视主题图：Dormitory Aisle。"
+    }
+  }
+}

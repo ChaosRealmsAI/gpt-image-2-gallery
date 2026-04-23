@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nBuild a square mistake-correction board derived from the reference image for Training Explainer. Preserve the exact world established by the reference image, including the same palette family, lighting direction, environmental logic, and surface finish. The new frame should feel like a deliberate extension of one campaign system, not a separate concept. Shift the hierarchy to suit this use case, but keep the overall composition commercial, polished, and ready for real rollout.\n\nSubject:\nUse the same original subject identity and anchor cues introduced by the reference image, now organized as same athlete shown in correct and flawed posture. Keep faces, hair logic, body proportions, apparel or product construction, and major supporting forms consistent with the reference. Allow only the layout emphasis, pose, crop, and contextual energy to change so the result clearly belongs to the same package.\n\nImportant details:\nContinuity is the main challenge. Preserve the exact reference language for color, materials, framing rhythm, and overall brandless campaign grammar while steering the tone toward constructive comparison. Keep any stat blocks, schedule modules, arrows, badges, or callout panels non-readable. The derivative should prove that the same art direction can handle a different communication task without losing identity or utility. Make it credible for production use, with clean edges, intentional spacing, and no random decorative elements.\n\nUse case:\nTraining Explainer series study 3/9, a derivative surface linked to 01-reference-drill-board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no new subject identity, no brand marks, no palette drift, no unrelated props, no collage chaos, no copied public-figure styling.",
+  "id": "03-common-mistake-correction",
+  "title": "Common Mistake Correction",
+  "description": "A corrective derivative that uses the same system to compare ideal form and common errors.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "reasoning-composition",
+    "technical-diagram",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/training-drill-and-coaching-explainer-kit/packages/series-coaching-sequence/images/03-common-mistake-correction/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-drill-board",
+        "meta_path": "works/topics/training-drill-and-coaching-explainer-kit/packages/series-coaching-sequence/images/01-reference-drill-board/meta.json",
+        "image_path": "works/topics/training-drill-and-coaching-explainer-kit/packages/series-coaching-sequence/images/01-reference-drill-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference image from 01-reference-drill-board to preserve continuity for this derivative.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Common Mistake Correction",
+      "description": "A corrective derivative that uses the same system to compare ideal form and common errors."
+    },
+    "zh-CN": {
+      "title": "Common Mistake Correction",
+      "description": "A corrective derivative that uses the same system to compare ideal form and common errors."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "technical-diagram",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A corrective derivative that uses the same system to compare ideal form and common errors.",
+      "zh-CN": "A corrective derivative that uses the same system to compare ideal form and common errors."
+    }
+  }
+}

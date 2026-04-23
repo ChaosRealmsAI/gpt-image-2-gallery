@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Brunch Table Continuity",
+  "description": "Four reference-linked brunch heroes establishing a bright, layered weekend tabletop language.",
+  "creative_direction": "Image 01 establishes the tableware family, daylight behavior, linen palette, and social brunch rhythm. Images 02-04 preserve that tabletop system while rotating hero dishes and service emphasis.",
+  "cover_image": "images/01-weekend-table-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-weekend-table-anchor/meta.json",
+      "images/02-eggs-benedict-corner/meta.json",
+      "images/03-pancake-syrup-fall/meta.json",
+      "images/04-savory-waffle-plate/meta.json"
+    ],
+    "ref_strategy": "Run 01-weekend-table-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Brunch Table Continuity",
+      "description": "Four reference-linked brunch heroes establishing a bright, layered weekend tabletop language."
+    },
+    "zh-CN": {
+      "title": "早午餐餐桌连续主视觉",
+      "description": "四张参考联动的早午餐主视觉，建立明亮层次化的周末餐桌语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-weekend-table-anchor",
+      "title": "Weekend Table Anchor",
+      "image": "images/01-weekend-table-anchor/image.png",
+      "meta": "images/01-weekend-table-anchor/meta.json"
+    },
+    {
+      "id": "02-eggs-benedict-corner",
+      "title": "Eggs Benedict Corner",
+      "image": "images/02-eggs-benedict-corner/image.png",
+      "meta": "images/02-eggs-benedict-corner/meta.json"
+    },
+    {
+      "id": "03-pancake-syrup-fall",
+      "title": "Pancake Syrup Fall",
+      "image": "images/03-pancake-syrup-fall/image.png",
+      "meta": "images/03-pancake-syrup-fall/meta.json"
+    },
+    {
+      "id": "04-savory-waffle-plate",
+      "title": "Savory Waffle Plate",
+      "image": "images/04-savory-waffle-plate/image.png",
+      "meta": "images/04-savory-waffle-plate/meta.json"
+    }
+  ]
+}

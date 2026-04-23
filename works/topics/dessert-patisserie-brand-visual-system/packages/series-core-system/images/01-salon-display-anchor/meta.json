@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square premium patisserie image with polished but believable boutique lighting, elegant marble or lacquer surfaces, and a sweet-shop atmosphere that feels brand-authored rather than generic. The camera should preserve product clarity, shape definition, and shelf or counter context while leaving enough breathing room for campaign placement. Use soft daylight mixed with warm case lighting so the image feels like an upscale pastry salon at opening hour, with clean reflections and controlled highlights.\n\nSubject:\nThe desserts must look crafted by a high-end pastry kitchen: clean lamination, glossy glaze, stable cream structure, crisp edges, and packaging or display surfaces that reinforce a coherent dessert identity. Feature an elegant entremet cake on a pedestal with two supporting pastries and one subtle packaging accent in the background.\n\nImportant details:\nSweetness should come from color control, finish quality, and material nuance, not from visual clutter. Preserve believable pastry engineering, boutique display logic, and refined merchandising cues so the images can support brand storytelling across retail, packaging, and editorial use. This image establishes the reference system for the series, including camera height, tabletop discipline, prop family, and color control that later images must inherit. This image must define the full visual system for the series: restrained pastel palette, premium materials, clear merchandising rhythm, and high-fidelity pastry finish.\n\nUse case:\nDessert Brand series study 1/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-color overload, no plastic frosting, no supermarket clutter, no cartoon decorations, no melted textures that break realism, no childish party props, no birthday candles, no cartoon toppers, no supermarket bakery trays.",
+  "id": "01-salon-display-anchor",
+  "title": "Salon Display Anchor",
+  "description": "A pastry-salon hero image that establishes the boutique brand language with marble, glass, and a precise dessert centerpiece.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dessert-patisserie-brand-visual-system/packages/series-core-system/images/01-salon-display-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Salon Display Anchor",
+      "description": "A pastry-salon hero image that establishes the boutique brand language with marble, glass, and a precise dessert centerpiece."
+    },
+    "zh-CN": {
+      "title": "沙龙陈列锚点",
+      "description": "沙龙陈列锚点：甜品品牌主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A pastry-salon hero image that establishes the boutique brand language with marble, glass, and a precise dessert centerpiece.",
+      "zh-CN": "沙龙陈列锚点，用于甜品品牌主题。"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "prompt": "Scene:\nCreate a square near-future catalogue board that feels like a premium consumer-product launch sheet without using readable copy. The composition should combine one hero product or family grouping with secondary modules, packaging-like shapes, and abstract information zones arranged in a clean commercial hierarchy. Lighting should be photographic, precise, and product-friendly. Use the same catalog structure to present a wider family grouping with refined materials, accessory bundles, and a more premium home staging accent.\n\nSubject:\nCenter the image on a coherent consumer product family whose forms, finishes, interface surfaces, and accessory logic all belong together. The products can be speculative, but they must still feel market-positioned, manufacturable, and suited to a believable household or urban use case. Keep the core product silhouettes and interface zones intact while adding higher-tier modules and coordinated companion devices.\n\nImportant details:\nThink like a product marketer and industrial designer at once. Material choices, scale relationships, accessory combinations, and staged use cues should imply a clear category, audience, and feature set even though no readable text appears. The image should be strong enough for catalog, launch-page, or retail poster use. Premium cues should come from finish, bundle logic, and careful hierarchy rather than from gold-plated excess. Preserve the exact structural language established by the reference image, especially the industrial design language, material palette, module family proportions, and catalog layout hierarchy.\n\nUse case:\nSpec Product Catalog series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real-world brand marks, no readable product copy, no random luxury nonsense props, no inconsistent industrial design, no luxury perfume ad styling.",
+  "id": "03-premium-family-bundle",
+  "title": "Premium Family Bundle",
+  "description": "Premium Family Bundle presents the reference appliance family expanded into a premium household bundle with richer accessories and finish options.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/03-premium-family-bundle/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-catalogue-family-anchor",
+        "meta_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/meta.json",
+        "image_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Spec Product Catalog core system variant preserving image 01.",
+    "attempt_count": 1,
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/03-premium-family-bundle/image.png",
+      "checked_at": "2026-04-23T13:14:50.524Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Premium Family Bundle",
+      "description": "Premium Family Bundle presents the reference appliance family expanded into a premium household bundle with richer accessories and finish options."
+    },
+    "zh-CN": {
+      "title": "Premium Family Bundle",
+      "description": "未来产品目录主题中的Premium Family Bundle图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Premium Family Bundle presents the reference appliance family expanded into a premium household bundle with richer accessories and finish options.",
+      "zh-CN": "未来产品目录主题中的Premium Family Bundle图像。"
+    }
+  }
+}

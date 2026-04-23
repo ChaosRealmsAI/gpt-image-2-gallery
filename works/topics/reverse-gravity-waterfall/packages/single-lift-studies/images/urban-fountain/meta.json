@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photograph at blue hour with a 24mm full-frame camera, eye level in a wide European plaza surrounded by historic stone architecture. Mixed ambient: cool sky above, warm tungsten from streetlamps, reflective wet cobblestone.\n\nSubject:\nA classical tiered public fountain whose entire water column has inverted — water flows upward out of the basin, through the upper tiers in reverse, and launches into a 60-meter clean vertical jet that terminates cleanly in mid-air with a fine atomized halo. Bystanders with umbrellas and evening coats watch from the plaza edge, clearly reading the impossibility.\n\nImportant details:\nPhotojournalism composition: slightly off-center fountain, passers-by blocked in silhouette, a single child pointing up. Accurate architectural stone with weathering and damp. Street reflections catch the fountain's upward jet and appear as an equally vertical streak on the wet cobble. Streetlamps create warm practical glows that rim-light the fine spray.\n\nUse case:\nLift-studies single 3/5 — reverse gravity in everyday urban context.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no recognizable landmark buildings (generic European plaza), no brand signage, no cartoon rendering, no visible mechanical pumps.",
+  "id": "urban-fountain",
+  "title": "Urban Fountain",
+  "description": "A classical plaza fountain whose water shoots cleanly upward 60m and terminates in mid-air.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/reverse-gravity-waterfall/packages/single-lift-studies/images/urban-fountain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image — urban plaza reverse fountain."
+  },
+  "i18n": {
+    "en": {
+      "title": "Urban Fountain",
+      "description": "A classical plaza fountain whose water shoots cleanly upward 60m and terminates in mid-air."
+    },
+    "zh-CN": {
+      "title": "都市喷泉",
+      "description": "欧式广场古典喷泉向上喷射 60 米 · 空中收束成气雾。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A plaza fountain spraying 60m straight up, watched by passers-by with umbrellas.",
+      "zh-CN": "广场喷泉直喷 60 米 · 路人举伞围观。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Retain the exact campaign composition and layout-safe space, but move into berry tones, dusk gradients, and reflective chilled surfaces.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Show an iced berry beverage with glass clarity, fruit accent, and a mood that feels like a seasonal evening launch moment.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-launch-anchor. The poster should still read as part of the same campaign family through vessel scale, ingredient orbit logic, and abstract layout blocks even as the palette cools.\n\nUse case:\nSeasonal Drinks series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no neon nightclub vibe, no readable berry callouts, no candy-shop styling.",
+  "id": "04-iced-berry-dusk-poster",
+  "title": "Iced Berry Dusk Poster",
+  "description": "A dusk-toned seasonal poster that keeps the reference system while shifting toward berries, ice, and evening launch mood.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/04-iced-berry-dusk-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-launch-anchor",
+        "meta_path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/01-launch-anchor/meta.json",
+        "image_path": "works/topics/seasonal-drink-launch-poster-set/packages/series-core-system/images/01-launch-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-launch-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Iced Berry Dusk Poster",
+      "description": "A dusk-toned seasonal poster that keeps the reference system while shifting toward berries, ice, and evening launch mood."
+    },
+    "zh-CN": {
+      "title": "莓果暮色海报",
+      "description": "莓果暮色海报：季节饮品主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A dusk-toned seasonal poster that keeps the reference system while shifting toward berries, ice, and evening launch mood.",
+      "zh-CN": "莓果暮色海报，用于季节饮品主题。"
+    }
+  }
+}

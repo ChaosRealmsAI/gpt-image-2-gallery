@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. Stage a tilted village square with spiral lampposts, warped paving stones, and clustered market stalls now closed for the night.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. One resident with exaggerated eyes stands in the center holding a lantern that echoes the warm windows surrounding the plaza.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. The square should feel quiet rather than busy, with each stall and post warped just enough to feel enchanted.\n\nUse case:\nGothic Fable Spiral Town single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "03-lantern-square",
+  "title": "Lantern Square",
+  "description": "A nighttime village square where one lantern-bearing resident anchors a warped gothic marketplace.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/03-lantern-square/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on lantern square.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Lantern Square",
+      "description": "A nighttime village square where one lantern-bearing resident anchors a warped gothic marketplace."
+    },
+    "zh-CN": {
+      "title": "Lantern Square",
+      "description": "围绕哥特童话的第3张独立研究图，聚焦 Lantern Square。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A tilted moonlit square with spiral lampposts and one lantern-bearing resident at the center.",
+      "zh-CN": "哥特童话主题图：Lantern Square。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square beverage campaign image built around ritual, vessel, light, and atmosphere. The frame should feel like it belongs to a premium drink brand that understands daily habits: ceramic warmth, glass condensation, steam behavior, and tactile surfaces all need to read as observed and real rather than generic lifestyle filler. Retain the same bar counter, vessel family, and morning tonal warmth, but add a precise pouring gesture and gentle bloom rising from the grounds.\n\nSubject:\nThe hero beverage must feel consumable and culturally grounded, with believable proportions, realistic liquid behavior, and supporting tools or props that reinforce the ritual without overwhelming the drink itself. Show a pour-over setup with kettle stream, dripper, and cup in alignment, making the brew moment feel accurate and sensory-rich without becoming tutorial-like.\n\nImportant details:\nCredibility comes from timing and materials: crema density, ice clarity, tea translucency, condensation trails, and the way a hand or vessel sits in space. Keep the mood intentional and campaign-ready, with enough atmosphere to suggest a lived routine while preserving product focus. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-morning-bar-anchor. Preserve the reference lens feel, table scale, and premium quietness while making water flow, filter geometry, and steam behavior physically convincing.\n\nUse case:\nCoffee Rituals series study 2/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no plastic café props, no latte-art gimmick overload, no fake steam clouds, no unreadable cup slogans, no random breakfast clutter, no artificial neon excess, no dramatic splash chaos, no gadget overload, no café menu boards.",
+  "id": "02-pour-over-bloom",
+  "title": "Pour-Over Bloom",
+  "description": "A brewing-action image that keeps the reference system while introducing active extraction and aromatic steam.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/02-pour-over-bloom/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-morning-bar-anchor",
+        "meta_path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/01-morning-bar-anchor/meta.json",
+        "image_path": "works/topics/coffee-drink-ritual-campaign-series/packages/series-core-system/images/01-morning-bar-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-morning-bar-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pour-Over Bloom",
+      "description": "A brewing-action image that keeps the reference system while introducing active extraction and aromatic steam."
+    },
+    "zh-CN": {
+      "title": "手冲绽放",
+      "description": "手冲绽放：咖啡饮品主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A brewing-action image that keeps the reference system while introducing active extraction and aromatic steam.",
+      "zh-CN": "手冲绽放，用于咖啡饮品主题。"
+    }
+  }
+}

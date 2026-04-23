@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the same Halloween world, with the identical charcoal shadow, ember glow, and polished threat from the reference image, but shift the setting into a dramatic hotel corridor or lobby threshold. Preserve the same light behavior and material identity while increasing spatial mystery and hospitality cues, as though the same campaign has expanded into a haunted-luxury venue activation.\n\nSubject:\nShow an elegant corridor or lobby with moody lamps, shadows, controlled fog, a few carefully placed seasonal props, and an implied invitation deeper into the space. Preserve exact campaign identity from the reference model while making the hospitality environment central. The scene should feel cinematic and event-ready, but still physically plausible and premium.\n\nImportant details:\nContinuity must remain exact. Keep the same color discipline, same suspense level, and same upscale production value. Let the haunted quality come from architecture, light falloff, and silence rather than from monsters or gore. The final image should fit hotel activations, event venues, or premium Halloween poster systems.\n\nUse case:\nHalloween Promo series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable room numbers, no gore, no ghost cliché, no logo signage, no cheap cobweb decor, no zombie references, no bright carnival colors, no jump-scare figure.",
+  "id": "03-haunted-hotel-variation",
+  "title": "Haunted Hotel Variation",
+  "description": "A haunted-hospitality variation built from the same premium Halloween campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/03-haunted-hotel-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-entry-anchor",
+        "meta_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/meta.json",
+        "image_path": "works/topics/halloween-night-event-promo-set/packages/series-night-promo-system/images/01-midnight-entry-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent haunted-hotel variation for the Halloween promo system. Preserve the exact campaign language from 01-midnight-entry-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Haunted Hotel Variation",
+      "description": "A haunted-hospitality variation built from the same premium Halloween campaign language."
+    },
+    "zh-CN": {
+      "title": "鬼魅酒店变体",
+      "description": "基于同一高端万圣 campaign 语言的鬼魅酒店变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A haunted hotel Halloween scene matching the same premium night promo system.",
+      "zh-CN": "与同一高端夜场宣传系统一致的鬼魅酒店万圣场景。"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same municipal indoor pool mid-maintenance: the basin has been fully drained and scraped back to raw concrete. Scaffolding props lean against the near wall, a coiled orange extension cord snakes across the deck, a single worklamp on a tripod points into the basin. Ceiling fluorescents are partially on, giving a flat sickly green ambient. The photographer fires a direct flash. 35mm grain, yellowish cast typical of over-exposed consumer film.\n\nSubject:\nSame pool footprint and lane count as the reference, same camera vantage. But here the wall tiles have been partly removed, showing exposed cementitious backer and rust streaks on rebar hints. The lane painted stripes at the bottom are scuffed and faded. The metal ladder is unbolted and lying on the deck. A polyethylene construction sheet hangs along one wall. The air reads as concrete dust, not chlorine.\n\nImportant details:\nPreserve the basin's overall shape, lane count, and camera viewpoint from the reference. Only the finish material and activity state differ: finishes stripped, maintenance gear introduced, ladder displaced. No worker present in frame. The uncanny beat: midway between 'functional pool' and 'forgotten pool'. Flash hotspot should land on the scraped wall, revealing material layers. No lens flare, no cinematic grade.\n\nUse case:\nSeries image 4 of 4. Preserves reference basin in stripped maintenance state.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no worker or person, no power tools in active use, no photographer reflection on plastic sheet, no warped tile geometry.",
+  "id": "04-pool-stripped-tiles",
+  "title": "Pool · Stripped Maintenance",
+  "description": "Same reference pool mid-renovation, tiles partially removed and scaffolding introduced, preserving basin footprint and vantage.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/04-pool-stripped-tiles/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-pool-night",
+        "meta_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/meta.json",
+        "image_path": "works/topics/dreamcore-empty-pool/packages/series-empty-pool-reference/images/01-reference-pool-night/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01. Same basin mid-maintenance."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pool · Stripped Maintenance",
+      "description": "Same reference pool mid-renovation, tiles partially removed and scaffolding introduced, preserving basin footprint and vantage."
+    },
+    "zh-CN": {
+      "title": "泳池 · 维修剥砖",
+      "description": "同一水池处于维护期:部分瓷砖已被铲除、脚手架架起,但池体形状与机位保留。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "The same municipal pool mid-renovation, tiles stripped and scaffold nearby.",
+      "zh-CN": "同一市政泳池维修期,墙砖剥离、脚手架在旁。"
+    }
+  }
+}

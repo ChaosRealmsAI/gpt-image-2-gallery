@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Edible City Series",
+  "description": "Four reference-linked architectural scenes translating city-scale photography into sugar and chocolate construction.",
+  "creative_direction": "Image 01 establishes the skyline axis, dusk lighting, and edible-material realism. Images 02-04 preserve that architectural camera logic while rotating the district from cathedral to bridge, hotel, and transit hall.",
+  "cover_image": "images/01-sugar-cathedral-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-sugar-cathedral-anchor/meta.json",
+      "images/02-caramel-bridge-quarter/meta.json",
+      "images/03-chocolate-lace-hotel/meta.json",
+      "images/04-rock-candy-transit-hall/meta.json"
+    ],
+    "ref_strategy": "Run 01-sugar-cathedral-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Edible City Series",
+      "description": "Four reference-linked architectural scenes translating city-scale photography into sugar and chocolate construction."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "糖艺建筑相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "physics-materials",
+      "material-swap",
+      "miniature-world"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-sugar-cathedral-anchor",
+      "title": "Sugar Cathedral Anchor",
+      "image": "images/01-sugar-cathedral-anchor/image.png",
+      "meta": "images/01-sugar-cathedral-anchor/meta.json"
+    },
+    {
+      "id": "02-caramel-bridge-quarter",
+      "title": "Caramel Bridge Quarter",
+      "image": "images/02-caramel-bridge-quarter/image.png",
+      "meta": "images/02-caramel-bridge-quarter/meta.json"
+    },
+    {
+      "id": "03-chocolate-lace-hotel",
+      "title": "Chocolate Lace Hotel",
+      "image": "images/03-chocolate-lace-hotel/image.png",
+      "meta": "images/03-chocolate-lace-hotel/meta.json"
+    },
+    {
+      "id": "04-rock-candy-transit-hall",
+      "title": "Rock Candy Transit Hall",
+      "image": "images/04-rock-candy-transit-hall/image.png",
+      "meta": "images/04-rock-candy-transit-hall/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same plaza, same cathedral silhouette, same camera position and lens as the reference. Time is midnight under a clear sky; stars faintly visible in the gap above the building. Plaza is dry.\n\nSubject:\nThe identical green-glass cathedral from the reference. All interior lighting has been changed to cool blue — as if a full choir of blue candles fills every chapel. The cathedral reads as a deep glacial lantern against the black sky. Outside, a single pool of warm tungsten streetlamp light in the lower left provides warm-cool contrast and rim-lights the nearest buttress.\n\nImportant details:\nPreserve exact cathedral silhouette, plaza geometry, and pedestrian positions from the reference (pedestrians now read as silhouettes against the glowing building). Cool interior light color temperature ~6500K, reflected through green glass biases toward teal. Thin cold mist hugs the plaza floor, catching the base of the cathedral in a pale halo. No rain.\n\nUse case:\nSecond image in the glass cathedral cycle. Demonstrates cold interior lighting through the same translucent building.\n\nConstraints:\nPRESERVE the reference image cathedral silhouette, camera angle, plaza, and pedestrian positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no lightning, no moon, no stylized illustration.",
+  "id": "02-midnight-choir",
+  "title": "Midnight Choir",
+  "description": "The reference cathedral at midnight with glacial blue interior lighting.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-nave"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/02-midnight-choir/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/translucent-glass-architecture/packages/series-glass-cathedral/images/01-reference-nave/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Midnight Choir",
+      "description": "The reference cathedral at midnight with glacial blue interior lighting."
+    },
+    "zh-CN": {
+      "title": "午夜圣咏",
+      "description": "基准大教堂午夜冷蓝内光版本。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same glass cathedral at midnight glowing glacier-blue from within.",
+      "zh-CN": "同一玻璃大教堂 · 午夜内透冰蓝光。"
+    }
+  }
+}

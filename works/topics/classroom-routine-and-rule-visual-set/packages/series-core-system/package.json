@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Core Routine Poster System",
+  "description": "Four reference-dependent images define a classroom routine and rules system across daily overview, handwashing, lining up, and reading-corner expectations.",
+  "creative_direction": "Image 01 sets the icon language, poster modules, color coding, and blank headline logic. Images 02-04 preserve the same classroom-management system while changing the routine focus.",
+  "cover_image": "images/01-reference-routine-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-routine-board/meta.json",
+      "images/02-handwashing-sequence-board/meta.json",
+      "images/03-line-up-transition-board/meta.json",
+      "images/04-reading-corner-board/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-routine-board first. Use its runtime result URL as --ref for 02-handwashing-sequence-board, 03-line-up-transition-board, 04-reading-corner-board. Queue may run those images concurrently after 01-reference-routine-board is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Routine Poster System",
+      "description": "Four reference-dependent images define a classroom routine and rules system across daily overview, handwashing, lining up, and reading-corner expectations."
+    },
+    "zh-CN": {
+      "title": "核心流程海报系统",
+      "description": "四张依赖参考图的画面建立统一课堂流程与规则系统，覆盖日常总览、洗手、排队和阅读角规则。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-routine-board",
+      "title": "Reference Routine Board",
+      "image": "images/01-reference-routine-board/image.png",
+      "meta": "images/01-reference-routine-board/meta.json"
+    },
+    {
+      "id": "02-handwashing-sequence-board",
+      "title": "Handwashing Sequence Board",
+      "image": "images/02-handwashing-sequence-board/image.png",
+      "meta": "images/02-handwashing-sequence-board/meta.json"
+    },
+    {
+      "id": "03-line-up-transition-board",
+      "title": "Line-Up Transition Board",
+      "image": "images/03-line-up-transition-board/image.png",
+      "meta": "images/03-line-up-transition-board/meta.json"
+    },
+    {
+      "id": "04-reading-corner-board",
+      "title": "Reading Corner Board",
+      "image": "images/04-reading-corner-board/image.png",
+      "meta": "images/04-reading-corner-board/meta.json"
+    }
+  ]
+}

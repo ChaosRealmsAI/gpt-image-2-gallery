@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square wall-poster presentation and environmental realism from the reference board, but place the asset near a soft reading nook with cushions and low shelves in the background. The poster should feel like a quiet, literacy-friendly rule board for young readers. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow expectations for choosing a book, sitting gently, sharing space, returning materials, and quiet reflection through icons, mini scenes, and blank title panels. The visual language should feel consistent with the earlier routine posters while adapting to a calmer reading mood. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the full system from the reference board: same panel proportions, icon style, color palette, and whitespace logic. The complete set should read as one coherent classroom-management toolkit. Preserve the same poster modules, icon scale, blank headline bands, classroom color coding, and pacing rhythm from the reference routine board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nClassroom Routine and Rule Visual Set series study 4/4, reading corner board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no teacher handwriting, no logos, no cluttered classroom walls, no harsh warning tone, no chaotic sticker overload.",
+  "id": "04-reading-corner-board",
+  "title": "Reading Corner Board",
+  "description": "A reading-corner expectations board completing the reference-dependent classroom routine family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/04-reading-corner-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-routine-board",
+        "meta_path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/01-reference-routine-board/meta.json",
+        "image_path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/01-reference-routine-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-routine-board.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reading Corner Board",
+      "description": "A reading-corner expectations board completing the reference-dependent classroom routine family."
+    },
+    "zh-CN": {
+      "title": "阅读角规则板",
+      "description": "完成整组参考依赖课堂流程家族的阅读角规则板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A reading-corner expectations board completing the reference-dependent classroom routine family.",
+      "zh-CN": "完成整组参考依赖课堂流程家族的阅读角规则板。"
+    }
+  }
+}

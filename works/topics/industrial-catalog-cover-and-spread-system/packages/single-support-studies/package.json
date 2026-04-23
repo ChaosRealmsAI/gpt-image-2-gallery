@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Catalog Support Studies",
+  "description": "Five independent industrial editorial studies that broaden the catalog theme.",
+  "creative_direction": "Independent catalog-adjacent studies across binders, detail-page boards, trade-show walls, product-card grids, and printed sample spreads.",
+  "cover_image": "images/support-one/image.png",
+  "i18n": {
+    "en": {
+      "title": "Catalog Support Studies",
+      "description": "Five independent industrial editorial studies that broaden the catalog theme."
+    },
+    "zh-CN": {
+      "title": "目录支持研究",
+      "description": "五张独立工业编辑研究图，扩展目录主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "support-one",
+      "title": "Binder Cover Stack",
+      "image": "images/support-one/image.png",
+      "meta": "images/support-one/meta.json"
+    },
+    {
+      "id": "support-two",
+      "title": "Detail Page Board",
+      "image": "images/support-two/image.png",
+      "meta": "images/support-two/meta.json"
+    },
+    {
+      "id": "support-three",
+      "title": "Trade Show Wall",
+      "image": "images/support-three/image.png",
+      "meta": "images/support-three/meta.json"
+    },
+    {
+      "id": "support-four",
+      "title": "Product Card Grid",
+      "image": "images/support-four/image.png",
+      "meta": "images/support-four/meta.json"
+    },
+    {
+      "id": "support-five",
+      "title": "Sample Book Spread",
+      "image": "images/support-five/image.png",
+      "meta": "images/support-five/meta.json"
+    }
+  ]
+}

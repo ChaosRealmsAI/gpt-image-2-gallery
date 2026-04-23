@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square camp enrollment hero for Camp Promo, using a trustworthy youth-sports camp world with bright clean facilities, family-friendly daylight, and polished enrollment layouts. The frame should feel commercial, polished, and immediately useful for a real client deliverable rather than a one-off art experiment. Keep the composition readable at thumbnail scale while still rewarding a closer look with layered depth, clean negative space, and strong directional light. Build the image so it clearly supports sports communication, with enough modular structure to imply information architecture without relying on literal words.\n\nSubject:\nCenter the image on one original coach and a small group of original young athletes in supervised brandless training activity, arranged as coach guiding small athlete group. Treat the subject as original and brandless, with believable apparel construction, realistic body proportions, and strong emotional legibility. Surround the subject with supporting environmental cues that reinforce the category but never overpower the main figure. All secondary objects, props, and background elements should strengthen the same professional sports or fitness context.\n\nImportant details:\nThis first image must establish the full reference system for later derivatives: enrollment-ready card modules, non-readable schedule zones, and organized family-friendly campaign structure. The emotional tone should read as safe optimistic energy. Make the visual language reusable, disciplined, and commercially credible, with clean edges, coherent light behavior, and obvious hierarchy. Abstract panels, diagram bands, or stat-like modules are welcome, but they must remain non-readable and subordinate to the main visual message. The result should feel original, specific, and ready to anchor a larger package.\n\nUse case:\nCamp Promo series study 1/9, the reference image for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no copied famous team or product identity, no generic stock-photo stiffness, no cluttered background noise, no celebrity likenesses.",
+  "id": "01-reference-camp-hero",
+  "title": "Reference Camp Hero",
+  "description": "A flagship camp-enrollment hero visual that establishes trust, energy, and age-friendly athletic identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sports-camp-enrollment-promo-kit/packages/series-enrollment-system/images/01-reference-camp-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the sports-camp-enrollment-promo-kit series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Camp Hero",
+      "description": "A flagship camp-enrollment hero visual that establishes trust, energy, and age-friendly athletic identity."
+    },
+    "zh-CN": {
+      "title": "Reference Camp Hero",
+      "description": "A flagship camp-enrollment hero visual that establishes trust, energy, and age-friendly athletic identity."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A flagship camp-enrollment hero visual that establishes trust, energy, and age-friendly athletic identity.",
+      "zh-CN": "A flagship camp-enrollment hero visual that establishes trust, energy, and age-friendly athletic identity."
+    }
+  }
+}

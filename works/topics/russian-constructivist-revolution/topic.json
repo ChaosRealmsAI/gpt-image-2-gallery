@@ -1,0 +1,39 @@
+{
+  "id": "russian-constructivist-revolution",
+  "title": "Russian Constructivist Revolution Poster",
+  "short_title": "Constructivist",
+  "description": "Diagonal Russian constructivist composition — red/black/white, heavy Cyrillic-style sans-serif, photomontage halftones, dynamic geometric rays, 1920s Soviet avant-garde energy.",
+  "i18n": {
+    "en": {
+      "title": "Russian Constructivist Revolution Poster",
+      "short_title": "Constructivist",
+      "description": "Diagonal Russian constructivist composition — red/black/white, heavy Cyrillic-style sans-serif, photomontage halftones, dynamic geometric rays, 1920s Soviet avant-garde energy."
+    },
+    "zh-CN": {
+      "title": "俄国建构主义革命海报",
+      "short_title": "建构主义",
+      "description": "俄国建构主义对角构图 · 红黑白 · 重磅西里尔风无衬线 · 摄影蒙太奇网点 · 动态几何光线 · 1920 苏联先锋能量。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 540,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

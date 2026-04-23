@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nBuild a square post-match result card derived from the reference image for Matchday System. Preserve the exact world established by the reference image, including the same palette family, lighting direction, environmental logic, and surface finish. The new frame should feel like a deliberate extension of one campaign system, not a separate concept. Shift the hierarchy to suit this use case, but keep the overall composition commercial, polished, and ready for real rollout.\n\nSubject:\nUse the same original subject identity and anchor cues introduced by the reference image, now organized as winning-athlete calm. Keep faces, hair logic, body proportions, apparel or product construction, and major supporting forms consistent with the reference. Allow only the layout emphasis, pose, crop, and contextual energy to change so the result clearly belongs to the same package.\n\nImportant details:\nContinuity is the main challenge. Preserve the exact reference language for color, materials, framing rhythm, and overall brandless campaign grammar while steering the tone toward settled authority. Keep any stat blocks, schedule modules, arrows, badges, or callout panels non-readable. The derivative should prove that the same art direction can handle a different communication task without losing identity or utility. Make it credible for production use, with clean edges, intentional spacing, and no random decorative elements.\n\nUse case:\nMatchday System series study 3/9, a derivative surface linked to 01-reference-match-poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no new subject identity, no brand marks, no palette drift, no unrelated props, no collage chaos, no copied public-figure styling.",
+  "id": "03-postmatch-result-board",
+  "title": "Post-match Result Board",
+  "description": "A final-result graphic that keeps the matchday system coherent while shifting the emotional tone toward closure and authority.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/matchday-poster-and-score-update-system/packages/series-core-system/images/03-postmatch-result-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-match-poster",
+        "meta_path": "works/topics/matchday-poster-and-score-update-system/packages/series-core-system/images/01-reference-match-poster/meta.json",
+        "image_path": "works/topics/matchday-poster-and-score-update-system/packages/series-core-system/images/01-reference-match-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference image from 01-reference-match-poster to preserve continuity for this derivative.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Post-match Result Board",
+      "description": "A final-result graphic that keeps the matchday system coherent while shifting the emotional tone toward closure and authority."
+    },
+    "zh-CN": {
+      "title": "Post-match Result Board",
+      "description": "A final-result graphic that keeps the matchday system coherent while shifting the emotional tone toward closure and authority."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A final-result graphic that keeps the matchday system coherent while shifting the emotional tone toward closure and authority.",
+      "zh-CN": "A final-result graphic that keeps the matchday system coherent while shifting the emotional tone toward closure and authority."
+    }
+  }
+}

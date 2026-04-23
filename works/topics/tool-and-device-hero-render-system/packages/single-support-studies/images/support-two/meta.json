@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square product-table scene with soft side light, deep tactile contrast, and tightly controlled negative space. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original desktop speaker object with perforated grille, anodized shell, rubber base, and discreet interface elements. Make the subject feel original, production-aware, and clearly grounded in Tool and Device Hero Render System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nMake the object feel premium, quiet, and precisely manufactured. The image should read as industrial product communication, not home decor styling. The visual language should still feel native to Tool and Device Hero Render System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nTool Renders single study 6/9 for Tool and Device Hero Render System, built as image support-two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable labels, no workshop clutter, no toy aesthetics, no fake interface text, no cartoon gloss.",
+  "id": "support-two",
+  "title": "Speaker Material Study",
+  "description": "A product study focused on grille, shell, and base materials of an original speaker-like device.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tool-and-device-hero-render-system/packages/single-support-studies/images/support-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Speaker Material Study",
+      "description": "A product study focused on grille, shell, and base materials of an original speaker-like device."
+    },
+    "zh-CN": {
+      "title": "音箱材质研究",
+      "description": "聚焦原创音箱类设备网罩、外壳和底座材质的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A tactile material study of an original speaker-like device.",
+      "zh-CN": "原创音箱类设备的触感材质研究图。"
+    }
+  }
+}

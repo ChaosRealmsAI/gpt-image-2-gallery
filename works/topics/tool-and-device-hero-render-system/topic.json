@@ -1,0 +1,46 @@
+{
+  "id": "tool-and-device-hero-render-system",
+  "slug": "tool-and-device-hero-render-system",
+  "title": "Tool and Device Hero Render System",
+  "short_title": "Tool Renders",
+  "description": "Build hero-render systems for tools and industrial devices with believable materials, grip logic, and market-ready polish.",
+  "i18n": {
+    "en": {
+      "title": "Tool and Device Hero Render System",
+      "short_title": "Tool Renders",
+      "description": "Build hero-render systems for tools and industrial devices with believable materials, grip logic, and market-ready polish."
+    },
+    "zh-CN": {
+      "title": "工具与设备 hero render 系统",
+      "short_title": "工具hero",
+      "description": "做工具与设备 hero render 系统，强调材料、握持逻辑和市场级 polish。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Hero Object Core",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Device Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

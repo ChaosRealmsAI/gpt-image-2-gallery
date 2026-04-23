@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nRender a square device-screen hero shot with a central character preview and side option cards floating on a soft studio background. The composition should look like a polished feature announcement tile for a new profile-customization capability. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow a friendly child avatar with selectable hair, glasses, outfits, and companion accessories indicated through pictorial swatches and taps. The interface must stay simple and emotionally safe, avoiding clutter while still feeling expressive and delightful. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nUse the same clean geometry and product polish expected of a real app. The image should communicate ownership and personalization without drifting into generic game UI excess. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nLearning App Onboarding and Lesson UI single study 3/5, avatar customizer panel.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable UI copy, no logos, no generic game loot clutter, no brand watermarks, no impossible screen perspective, no app-store badges.",
+  "id": "03-avatar-customizer-panel",
+  "title": "Avatar Customizer Panel",
+  "description": "An avatar customization panel built for a child learning app, using visual options and clean controls.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/single-support-studies/images/03-avatar-customizer-panel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 3 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Avatar Customizer Panel",
+      "description": "An avatar customization panel built for a child learning app, using visual options and clean controls."
+    },
+    "zh-CN": {
+      "title": "头像定制面板",
+      "description": "为儿童学习 App 设计、通过纯视觉选项和清晰控件表达的头像定制面板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "An avatar customization panel built for a child learning app, using visual options and clean controls.",
+      "zh-CN": "为儿童学习 App 设计、通过纯视觉选项和清晰控件表达的头像定制面板。"
+    }
+  }
+}

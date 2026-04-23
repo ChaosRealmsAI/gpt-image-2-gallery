@@ -1,0 +1,47 @@
+{
+  "id": "future-domestic-life-environment-visions",
+  "slug": "future-domestic-life-environment-visions",
+  "title": "Future Domestic Life Environment Visions",
+  "short_title": "Future Domestic",
+  "description": "Build future-domestic visions showing near-future kitchens, bedrooms, transport hubs, and lived-in speculative routines.",
+  "i18n": {
+    "en": {
+      "title": "Future Domestic Life Environment Visions",
+      "short_title": "Future Domestic",
+      "description": "Build future-domestic visions showing near-future kitchens, bedrooms, transport hubs, and lived-in speculative routines."
+    },
+    "zh-CN": {
+      "title": "未来日常生活环境愿景",
+      "short_title": "未来日常",
+      "description": "做未来日常生活环境愿景，强调近未来真实感和生活化细节。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

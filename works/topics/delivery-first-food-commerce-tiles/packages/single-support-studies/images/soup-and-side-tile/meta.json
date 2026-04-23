@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Compose a square commerce card around one soup bowl or container, one side item, and a clean support surface with soft light.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. Keep the liquid surface, toppings, and side-item relationship clear so the image communicates warmth, comfort, and completeness.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Steam, container rims, and side textures must feel real, while the layout remains modular and card-safe for delivery platforms.\n\nUse case:\nDelivery Tiles single study 6/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no spill chaos, no spoonful action, no readable labels.",
+  "id": "soup-and-side-tile",
+  "title": "Soup and Side Tile",
+  "description": "A delivery tile built around soup, side, and container realism.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/single-support-studies/images/soup-and-side-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Soup and Side Tile",
+      "description": "A delivery tile built around soup, side, and container realism."
+    },
+    "zh-CN": {
+      "title": "汤加配菜卡片",
+      "description": "汤加配菜卡片：外卖tiles主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A delivery tile built around soup, side, and container realism.",
+      "zh-CN": "汤加配菜卡片，用于外卖tiles主题。"
+    }
+  }
+}

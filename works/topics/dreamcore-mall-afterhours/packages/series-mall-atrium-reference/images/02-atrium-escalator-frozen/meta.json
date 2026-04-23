@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square-format photograph of the same two-story mall atrium, camera vantage identical to the reference image, shot with 90s direct flash. The frame now tightens implicitly on the back of the atrium where the escalator pair stands frozen mid-step. Ambient lighting is further reduced; most overheads dead, a few emergency spots glow. Slight green color cast, 35mm grain.\n\nSubject:\nThe same pair of escalators rising to the second-floor balcony, with brushed-steel treads unmoving. The steel lines between treads catch the flash as parallel hotspots. The rubber handrails sit motionless. Beyond the escalators, the balcony railing and shuttered storefronts visible from the reference angle remain, but deeper in shadow. The ground floor foreground shows the edge of the terrazzo and part of the planter matching the reference vantage.\n\nImportant details:\nEscalator must unambiguously read as stopped — no motion blur, no moving-step vagueness. Preserve atrium footprint, balcony rail geometry, planter location, and terrazzo pattern from the reference. Darker ambient; flash now carries more of the image. No shopper, no security, no photographer reflection on steel treads. The uncanny beat: moving-stair infrastructure that is currently not moving.\n\nUse case:\nSeries image 2 of 4. Same atrium, escalator highlighted as stopped.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no people, no motion blur, no lens flare, no cinematic grade.",
+  "id": "02-atrium-escalator-frozen",
+  "title": "Atrium · Escalator Frozen",
+  "description": "Same reference atrium with the back-wall escalator pair frozen mid-step under dimmer ambient and flash.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/02-atrium-escalator-frozen/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-atrium-after-close",
+        "meta_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/meta.json",
+        "image_path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on 01. Same atrium with escalator emphasized as stopped."
+  },
+  "i18n": {
+    "en": {
+      "title": "Atrium · Escalator Frozen",
+      "description": "Same reference atrium with the back-wall escalator pair frozen mid-step under dimmer ambient and flash."
+    },
+    "zh-CN": {
+      "title": "中庭 · 扶梯冻结",
+      "description": "同一中庭后壁扶梯静止于某一级,环境变暗,直闪为主光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "Same mall atrium, a pair of escalators at the back stands frozen in the dim light.",
+      "zh-CN": "同一商场中庭,后面的两座扶梯在昏暗灯光下静止。"
+    }
+  }
+}

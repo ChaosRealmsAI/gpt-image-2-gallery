@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square poster-like composition with loud red, tobacco yellow, nicotine cream, and deep black arranged in flat graphic blocks over a staged crime tableau. The lighting should feel hard and directional, but the overall image should still read as a designed print object rather than a literal movie still. Set the image in a narrow back alley with wet asphalt, one fire stair, and a huge red vertical panel that crops the space like pasted print stock.\n\nSubject:\nFocus on an implied act of violence or aftermath through frozen props, bodies held in stiff poses, diner booths, cheap motel details, briefcases, dashboard reflections, or nightclub furniture. The people should feel iconic and deadpan, with tension communicated through placement and color rather than explicit gore. An exploded briefcase spills casino chips, photos, and a red-stained handkerchief while two figures hold a silent standoff at opposite edges.\n\nImportant details:\nThe crucial visual rule is the collision of graphic poster language and static pulp staging. Use oversized non-readable letterform-like shapes, caption bars, drop-shadow slabs, and paper-print textures without introducing actual words. Preserve bold silhouette hierarchy, cropped tension, and cynical cool. The props should read crisply enough for narrative, yet the composition must stay closer to editorial design than documentary realism.\n\nUse case:\nPulpy Typography Over Violent Tableau single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no explicit gore, no dismemberment, no recognizable brand packaging, no comic speech balloons, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "04-alley-briefcase-spill",
+  "title": "Alley Briefcase Spill",
+  "description": "A wet alley poster study built from a briefcase spill, still figures, and stark graphic interruption.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "style-transfer",
+    "structured-layout",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pulpy-typography-violence-poster/packages/single-pulpy-typography-violence-poster/images/04-alley-briefcase-spill/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pulpy typography study focused on alley briefcase spill.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Alley Briefcase Spill",
+      "description": "A wet alley poster study built from a briefcase spill, still figures, and stark graphic interruption."
+    },
+    "zh-CN": {
+      "title": "Alley Briefcase Spill",
+      "description": "围绕低俗印刷的第4张独立研究图，聚焦 Alley Briefcase Spill。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A wet alley with a burst-open briefcase and flat red poster blocks creating a pulp tableau.",
+      "zh-CN": "低俗印刷主题图：Alley Briefcase Spill。"
+    }
+  }
+}

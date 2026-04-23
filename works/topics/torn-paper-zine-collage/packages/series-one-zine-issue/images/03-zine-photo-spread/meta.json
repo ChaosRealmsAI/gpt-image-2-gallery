@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the photo-feature spread of the same zine from the reference. The grey newsprint paper tone, drum-line streaks, and photocopy grain are identical. A marker pen rolls off the lower-left edge just in frame.\n\nSubject:\nThe photo-feature spread showcases four photocopied black-and-white photographs at jumbled sizes — two pasted slightly over the center seam, one rotated 8 degrees, one half-cut with scissor-frays. Around them, handwritten ballpoint blue captions cluster at angles, a highlighter-yellow box frames a detail, and a strip of black electrical tape runs down the inside gutter with air bubbles along the edge.\n\nImportant details:\nPreserve exact identity established by the reference: same grey newsprint, same photocopy grain, same highlighter yellow, ballpoint blue, tomato red marker, same scissor-fray edges, same glue halo style. The black electrical tape must have rubbery texture and realistic air bubbles, not painted-on look. Photographs must be photocopied — high contrast, pure-black shadows, crushed mid-tones.\n\nUse case:\nSeries image 3 of 4 · the photo spread of the same zine, continuing the paper and hand.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no color photos (must be photocopy-grade B&W), no symmetry, no flat digital tape, preserve exact 1:1 aspect ratio.",
+  "id": "03-zine-photo-spread",
+  "title": "Zine Photo Spread",
+  "description": "The interior photo-feature spread of the same zine, four photocopied portraits with handwritten captions and electrical tape gutter.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/03-zine-photo-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-zine-master-cover",
+        "meta_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/meta.json",
+        "image_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on cover for paper and palette continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Zine Photo Spread",
+      "description": "The interior photo-feature spread of the same zine, four photocopied portraits with handwritten captions and electrical tape gutter."
+    },
+    "zh-CN": {
+      "title": "Zine 图片专栏",
+      "description": "同一本 zine 的图片专栏 · 四张复印肖像 / 手写说明 / 中线一条电工胶带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Zine photo spread with four photocopied portraits, handwritten captions, a yellow highlighter box, and black tape down the gutter.",
+      "zh-CN": "Zine 图片跨页 · 四张复印肖像 · 手写说明 · 黄色荧光框和中线黑胶带。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, ultra-wide landscape photograph captured just after sunset. The horizon sits low in the lower third; above it, a vast black-indigo sky carries a broad green aurora ribbon curling from left to right. Below the horizon, a perfectly still black mirror ocean reflects everything with near-zero distortion. Photographed on a large-format camera with a 24mm lens, shallow depth cues only from atmospheric perspective.\n\nSubject:\nA colossal floating amethyst crystal mountain suspended about 200 meters above the water surface, its footprint roughly one kilometer wide. The body is translucent violet quartz with visible internal fractures and bubble inclusions, topped by sharp geometric peaks catching rim light. Every crystal facet acts as a prism: the overhead green aurora is captured, split into violet, teal, and warm amber beams, and projected downward, striking the mirror ocean in crisp colored columns.\n\nImportant details:\nTrue physical refraction behavior — larger facets produce wider, softer color bands; smaller facets produce sharp narrow beams. Subtle subsurface scattering gives the crystal interior a glowing lavender core. The mountain casts a soft complementary shadow zone on the water directly beneath it while the refracted beams remain bright around the shadow. Scale anchor: two microscopic helicopter silhouettes circling the peak at mid-height, 1/1000 the mountain size. Atmospheric haze obscures the far end so the mountain fades into the aurora, suggesting hundreds of kilometers of depth.\n\nUse case:\nReference image for a four-part aurora refraction series. Later images must preserve this exact peak silhouette, camera angle, and water horizon while changing aurora color and mood.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon rendering, no painterly brushwork, no visible CGI polygon edges, no second moon, no floating rocks outside the main peak, no airplanes or brands.",
+  "id": "01-reference-peak",
+  "title": "Reference Peak",
+  "description": "The hero amethyst peak above a mirror ocean that establishes composition for the aurora refraction cycle.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the aurora refraction fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Peak",
+      "description": "The hero amethyst peak above a mirror ocean that establishes composition for the aurora refraction cycle."
+    },
+    "zh-CN": {
+      "title": "基准山峰",
+      "description": "悬浮于镜面海洋之上的紫水晶山峰,为整组极光折射循环建立构图基准。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A translucent amethyst mountain floating above a mirror ocean with green aurora refracting into colored beams.",
+      "zh-CN": "悬浮于镜面海上的紫水晶山 · 绿色极光被晶面折射成彩色光束。"
+    }
+  }
+}

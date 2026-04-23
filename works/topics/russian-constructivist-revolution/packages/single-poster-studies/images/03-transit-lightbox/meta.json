@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square dusk street photograph of a backlit transit poster glowing inside glass, with faint rain reflections, soft city blur in the distance, and the poster remaining fully legible as a composition. The poster should express agitated constructivist geometry driven by diagonals, wedges, ray bursts, and halftone photomontage fragments, using revolutionary red, bone white, black, and steel gray with sharp contrast and a tactile surface appropriate to the medium.\n\nSubject:\nAdapt the poster into a public-facing lightbox version that still honors the original style grammar while feeling bold enough to stop a passerby from several meters away. Use megaphones, gears, worker profiles, factory towers, flags, and industrial beams as the main visual ingredients, and organize them with heavy angular pseudo-Cyrillic slogan blocks kept abstract and non-readable. For the contemporary-subject axis, thread in public transit megaphones, cranes, and modular housing blocks pushed into militant diagonal rhythm. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nLet the style survive the illumination test: color blocking, silhouette contrast, and abstract lettering should stay controlled under bright internal light and reflective glass. Preserve diagonal force, abrupt scale shifts, posterized cutout shadows, and coarse print grain. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no soft curves, no pastel palette, no decorative nostalgia, no polished luxury finish.\n\nUse case:\nConstructivist single study 3/9, testing distance readability in public display.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "03-transit-lightbox",
+  "title": "Transit Lightbox",
+  "description": "Constructivist rendered as a transit lightbox study, emphasizing testing distance readability in public display.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/russian-constructivist-revolution/packages/single-poster-studies/images/03-transit-lightbox/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Constructivist poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Transit Lightbox",
+      "description": "Constructivist rendered as a transit lightbox study, emphasizing testing distance readability in public display."
+    },
+    "zh-CN": {
+      "title": "灯箱候车亭",
+      "description": "建构主义主题下的灯箱候车亭研究，重点是测试公共场景下的远距识别。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Constructivist poster study shown as transit lightbox with non-readable lettering and style-accurate materials.",
+      "zh-CN": "建构主义风格海报，以灯箱候车亭形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Thermal Shock Studies",
+  "description": "Five independent cryogenic action studies exploring fracture, frost, and vapor across different food materials.",
+  "creative_direction": "These singles broaden the topic beyond one capture setup into sorbet impacts, herb fracture, chocolate shell cracking, citrus vapor, and frozen meringue collapse.",
+  "cover_image": "images/sorbet-impact-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Thermal Shock Studies",
+      "description": "Five independent cryogenic action studies exploring fracture, frost, and vapor across different food materials."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "液氮一刻相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "sorbet-impact-study",
+      "title": "Sorbet Impact Study",
+      "image": "images/sorbet-impact-study/image.png",
+      "meta": "images/sorbet-impact-study/meta.json"
+    },
+    {
+      "id": "herb-fracture-macro",
+      "title": "Herb Fracture Macro",
+      "image": "images/herb-fracture-macro/image.png",
+      "meta": "images/herb-fracture-macro/meta.json"
+    },
+    {
+      "id": "chocolate-shell-frost-crack",
+      "title": "Chocolate Shell Frost Crack",
+      "image": "images/chocolate-shell-frost-crack/image.png",
+      "meta": "images/chocolate-shell-frost-crack/meta.json"
+    },
+    {
+      "id": "citrus-vapor-cascade",
+      "title": "Citrus Vapor Cascade",
+      "image": "images/citrus-vapor-cascade/image.png",
+      "meta": "images/citrus-vapor-cascade/meta.json"
+    },
+    {
+      "id": "meringue-collapse-freeze",
+      "title": "Meringue Collapse Freeze",
+      "image": "images/meringue-collapse-freeze/image.png",
+      "meta": "images/meringue-collapse-freeze/meta.json"
+    }
+  ]
+}

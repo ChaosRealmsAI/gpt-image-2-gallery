@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square cover mockup and premium print presentation, now focused on a science discovery module. The image should feel like a third category card in a coherent shelf-ready family built for a kids education business. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse microscopes, leaves, stars, magnets, jars, and curious observation scenes inside the same structured cover frame, with blank label zones and a stable badge position. The cover should feel exploratory and educational without becoming noisy or generic. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the entire reference system while shifting the subject universe. The final sequence should prove that the cover family can support multiple disciplines and still look like one intentional product line. Preserve the same cover frame, subject badge placement, illustration ratio, color hierarchy, and blank title-zone architecture from the reference cover. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nKids Course Cover and Module Family series study 4/4, science discovery cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable course titles, no logos, no brand mascots from existing IP, no cluttered marketplace graphics, no fake awards, no generic stock-book covers.",
+  "id": "04-science-discovery-cover",
+  "title": "Science Discovery Cover",
+  "description": "A science-module cover completing the reference-dependent curriculum family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/04-science-discovery-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-master-cover",
+        "meta_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/meta.json",
+        "image_path": "works/topics/kids-course-cover-and-module-family/packages/series-core-system/images/01-reference-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-master-cover.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Science Discovery Cover",
+      "description": "A science-module cover completing the reference-dependent curriculum family."
+    },
+    "zh-CN": {
+      "title": "科学发现封面",
+      "description": "完成整组参考依赖课程家族的科学发现模块封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A science-module cover completing the reference-dependent curriculum family.",
+      "zh-CN": "完成整组参考依赖课程家族的科学发现模块封面。"
+    }
+  }
+}

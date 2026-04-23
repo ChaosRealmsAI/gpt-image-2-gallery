@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square catalog board with clear zoning, premium lighting, and one hero product angle supported by smaller technical fragments. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original industrial product system presented as if for a professional catalog spread with no readable copy. Make the subject feel original, production-aware, and clearly grounded in Industrial Product Exploded View Suite. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep all graphic areas abstract and text-free while the overall page feels sellable, technical, and completely intentional. The visual language should still feel native to Industrial Product Exploded View Suite, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nExploded Views single study 9/9 for Industrial Product Exploded View Suite, built as image support-five.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no logos, no fantasy glowing cores, no chaotic wire nests, no meaningless arrows, no decorative clutter.",
+  "id": "support-five",
+  "title": "Catalog Hero Sheet",
+  "description": "A catalog-style hero sheet mixing assembled product, components, and detail in one polished surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/industrial-product-exploded-view-suite/packages/single-support-studies/images/support-five/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Catalog Hero Sheet",
+      "description": "A catalog-style hero sheet mixing assembled product, components, and detail in one polished surface."
+    },
+    "zh-CN": {
+      "title": "目录英雄页",
+      "description": "把整机、零件与细节混合到同一高级目录页的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A catalog-style hero sheet for an original industrial product system.",
+      "zh-CN": "原创工业产品系统的目录英雄页研究图。"
+    }
+  }
+}

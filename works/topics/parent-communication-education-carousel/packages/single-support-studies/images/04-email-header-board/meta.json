@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square editorial system board showing several email-header mockups, icon strips, and content modules pinned on a clean neutral background. The image should feel like a communications-design review artifact for an education organization. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse banner crops, family photos, calendar icons, reminder badges, and blank intro bands to suggest welcome emails, reminders, and milestone updates. The pieces should look modular enough to be assembled into a real campaign sequence. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nKeep the board structured and quiet, with obvious reuse logic. The design should read as serious communication infrastructure, not just decoration. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nParent Communication Education Carousel single study 4/5, email header board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable copy, no logos, no influencer aesthetics, no chaotic collage clutter, no fake app badges, no celebrity faces.",
+  "id": "04-email-header-board",
+  "title": "Email Header Board",
+  "description": "A system board of email headers and message-entry visuals for school communication campaigns.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "social-feed",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parent-communication-education-carousel/packages/single-support-studies/images/04-email-header-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 4 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Email Header Board",
+      "description": "A system board of email headers and message-entry visuals for school communication campaigns."
+    },
+    "zh-CN": {
+      "title": "邮件头图板",
+      "description": "用于学校沟通 campaign 的邮件头图与消息入口视觉系统板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "social-feed",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A system board of email headers and message-entry visuals for school communication campaigns.",
+      "zh-CN": "用于学校沟通 campaign 的邮件头图与消息入口视觉系统板。"
+    }
+  }
+}

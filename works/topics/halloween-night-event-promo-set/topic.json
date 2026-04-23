@@ -1,0 +1,52 @@
+{
+  "id": "halloween-night-event-promo-set",
+  "slug": "halloween-night-event-promo-set",
+  "capability": [
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition"
+  ],
+  "title": "Halloween Night Event Promo Set",
+  "short_title": "Halloween Promo",
+  "description": "Create Halloween promo sets for events, hospitality, nightlife, and entertainment with atmospheric darkness and fun threat.",
+  "i18n": {
+    "en": {
+      "title": "Halloween Night Event Promo Set",
+      "short_title": "Halloween Promo",
+      "description": "Create Halloween promo sets for events, hospitality, nightlife, and entertainment with atmospheric darkness and fun threat."
+    },
+    "zh-CN": {
+      "title": "万圣夜活动宣传组",
+      "short_title": "万圣宣传",
+      "description": "做万圣夜活动宣传组，强调夜间氛围和玩乐威胁感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 470,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition",
+      "series"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-night-promo-system",
+      "type": "series",
+      "title": "Night Promo Series",
+      "path": "packages/series-night-promo-system/package.json"
+    },
+    {
+      "id": "single-atmosphere-studies",
+      "type": "single",
+      "title": "Atmosphere Studies",
+      "path": "packages/single-atmosphere-studies/package.json"
+    }
+  ]
+}

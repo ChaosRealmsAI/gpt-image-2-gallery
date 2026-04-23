@@ -1,0 +1,46 @@
+{
+  "id": "math-concept-visual-card-set",
+  "title": "Math Concept Visual Card Set",
+  "short_title": "Math Cards",
+  "description": "Create visual card sets for math concepts like counting, shape logic, fractions, and patterns.",
+  "i18n": {
+    "en": {
+      "title": "Math Concept Visual Card Set",
+      "short_title": "Math Cards",
+      "description": "Create visual card sets for math concepts like counting, shape logic, fractions, and patterns."
+    },
+    "zh-CN": {
+      "title": "数学概念视觉卡组",
+      "short_title": "数学卡组",
+      "description": "做数学概念视觉卡组，适合计数、图形、分数和规律。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "commercial-mockup",
+      "data-visualization"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Math Card System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Math Card Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

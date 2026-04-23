@@ -1,0 +1,64 @@
+{
+  "id": "single-lift-studies",
+  "type": "single",
+  "title": "Lift Studies",
+  "description": "Five independent portraits of reverse-gravity water events in different biomes — fjord, volcano, city, tundra, jungle.",
+  "creative_direction": "Each single image places the reverse-gravity water phenomenon in a totally new environment and treats it as documentary photojournalism with proper scale anchors.",
+  "cover_image": "images/fjord-ascension/image.png",
+  "i18n": {
+    "en": {
+      "title": "Lift Studies",
+      "description": "Five independent portraits of reverse-gravity water events in different biomes — fjord, volcano, city, tundra, jungle."
+    },
+    "zh-CN": {
+      "title": "上升单图研究",
+      "description": "五张独立的反重力水事件 · 分别发生在峡湾、火山、都市、苔原、雨林。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "fjord-ascension",
+      "title": "Fjord Ascension",
+      "image": "images/fjord-ascension/image.png",
+      "meta": "images/fjord-ascension/meta.json"
+    },
+    {
+      "id": "volcano-inverse",
+      "title": "Volcano Inverse",
+      "image": "images/volcano-inverse/image.png",
+      "meta": "images/volcano-inverse/meta.json"
+    },
+    {
+      "id": "urban-fountain",
+      "title": "Urban Fountain",
+      "image": "images/urban-fountain/image.png",
+      "meta": "images/urban-fountain/meta.json"
+    },
+    {
+      "id": "tundra-geyser",
+      "title": "Tundra Geyser",
+      "image": "images/tundra-geyser/image.png",
+      "meta": "images/tundra-geyser/meta.json"
+    },
+    {
+      "id": "jungle-cascade",
+      "title": "Jungle Cascade",
+      "image": "images/jungle-cascade/image.png",
+      "meta": "images/jungle-cascade/meta.json"
+    }
+  ]
+}

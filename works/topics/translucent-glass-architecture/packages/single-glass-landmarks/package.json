@@ -1,0 +1,64 @@
+{
+  "id": "single-glass-landmarks",
+  "type": "single",
+  "title": "Glass Landmarks",
+  "description": "Five independent landmark typologies rendered as monolithic translucent glass — pagoda, mosque, palace, observatory, library.",
+  "creative_direction": "Each single is a different architectural archetype carved from a different colored glass: amber, obsidian-black, cyan, ruby, frost. Each demonstrates subsurface scattering, thickness variation color shifts, and interior lighting read through translucent walls.",
+  "cover_image": "images/amber-pagoda/image.png",
+  "i18n": {
+    "en": {
+      "title": "Glass Landmarks",
+      "description": "Five independent landmark typologies rendered as monolithic translucent glass — pagoda, mosque, palace, observatory, library."
+    },
+    "zh-CN": {
+      "title": "玻璃地标",
+      "description": "五座不同建筑类型被雕成整块透明彩色玻璃 · 宝塔、清真寺、宫殿、天文台、图书馆。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "amber-pagoda",
+      "title": "Amber Pagoda",
+      "image": "images/amber-pagoda/image.png",
+      "meta": "images/amber-pagoda/meta.json"
+    },
+    {
+      "id": "obsidian-mosque",
+      "title": "Obsidian Mosque",
+      "image": "images/obsidian-mosque/image.png",
+      "meta": "images/obsidian-mosque/meta.json"
+    },
+    {
+      "id": "cyan-palace",
+      "title": "Cyan Palace",
+      "image": "images/cyan-palace/image.png",
+      "meta": "images/cyan-palace/meta.json"
+    },
+    {
+      "id": "ruby-observatory",
+      "title": "Ruby Observatory",
+      "image": "images/ruby-observatory/image.png",
+      "meta": "images/ruby-observatory/meta.json"
+    },
+    {
+      "id": "frost-library",
+      "title": "Frost Library",
+      "image": "images/frost-library/image.png",
+      "meta": "images/frost-library/meta.json"
+    }
+  ]
+}

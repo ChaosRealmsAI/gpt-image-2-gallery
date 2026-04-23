@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square urban concept image that sells one future-city mobility idea clearly enough for an editorial spread, launch visual, or worldbuilding board. The framing should always reveal at least two transport layers and one strong lived-in density cue. Show a steep hillside district with terraced housing, switchback trams, layered retaining decks, and mist lifting through the valley.\n\nSubject:\nShow a complete district-scale mobility ecosystem with believable housing, transit, commerce, and utility access. Human presence can appear as tiny commuters, riders, or maintenance workers, but the main protagonist is the city system itself. The city should adapt to terrain elegantly, with circulation and density resolved through ramps, lifts, rail loops, and narrow civic terraces.\n\nImportant details:\nUse depth layering, disciplined architecture families, and just enough weather or atmosphere to create mood without erasing the logic of roads, bridges, lines, and occupancy. The result should feel specific to a place and function, not like an all-purpose neon metropolis. Make slope logic, drainage, and movement the main read so the district feels engineered for real life, not merely picturesque. Preserve credible circulation between transport levels so every district reads as somewhere people could actually move through and inhabit.\n\nUse case:\nFuture City single study 1/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no superhero chase scenes, no floating random platforms without support, no unreadable giant signage, no sterile empty plazas, no fantasy cliff palaces.",
+  "id": "01-hillside-switchback-metropolis",
+  "title": "Hillside Switchback Metropolis",
+  "description": "Hillside Switchback Metropolis presents a mountainside future city where switchback transit and stacked housing lock into steep terrain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-city-layered-transport-world/packages/single-support-studies/images/01-hillside-switchback-metropolis/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Future City support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Hillside Switchback Metropolis",
+      "description": "Hillside Switchback Metropolis presents a mountainside future city where switchback transit and stacked housing lock into steep terrain."
+    },
+    "zh-CN": {
+      "title": "Hillside Switchback Metropolis",
+      "description": "未来城市主题中的Hillside Switchback Metropolis图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Hillside Switchback Metropolis presents a mountainside future city where switchback transit and stacked housing lock into steep terrain.",
+      "zh-CN": "未来城市主题中的Hillside Switchback Metropolis图像。"
+    }
+  }
+}

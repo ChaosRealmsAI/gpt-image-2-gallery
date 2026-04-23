@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. Use an orchard of black spiral trees bearing pale fruit, with a crooked fence and distant windows scattered beyond the trunks.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. A child-sized figure in striped clothes reaches toward one glowing fruit while glancing back toward the town lights.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. The fruit should act as small moons within the branches, creating a delicate rhythm across the composition.\n\nUse case:\nGothic Fable Spiral Town single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-spiral-orchard",
+  "title": "Spiral Orchard",
+  "description": "A spiral orchard outside the town where glowing fruit and one cautious figure deepen the gothic fable tone.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/05-spiral-orchard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on spiral orchard.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spiral Orchard",
+      "description": "A spiral orchard outside the town where glowing fruit and one cautious figure deepen the gothic fable tone."
+    },
+    "zh-CN": {
+      "title": "Spiral Orchard",
+      "description": "围绕哥特童话的第5张独立研究图，聚焦 Spiral Orchard。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A moonlit orchard of spiral trees and glowing fruit with one child-sized figure reaching upward.",
+      "zh-CN": "哥特童话主题图：Spiral Orchard。"
+    }
+  }
+}

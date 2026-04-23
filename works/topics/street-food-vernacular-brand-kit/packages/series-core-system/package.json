@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Street Stall Identity Continuity",
+  "description": "Four reference-linked street-food brand images establishing a coherent vernacular stall identity.",
+  "creative_direction": "Image 01 establishes the stall materials, painted-sign rhythm, wrapper palette, and lighting mood. Images 02-04 preserve that same identity kit while rotating handheld hero food, condiment logic, and night-market service use.",
+  "cover_image": "images/01-stall-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-stall-anchor/meta.json",
+      "images/02-handheld-wrap-shot/meta.json",
+      "images/03-counter-condiment-array/meta.json",
+      "images/04-night-market-takeaway-kit/meta.json"
+    ],
+    "ref_strategy": "Run 01-stall-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Street Stall Identity Continuity",
+      "description": "Four reference-linked street-food brand images establishing a coherent vernacular stall identity."
+    },
+    "zh-CN": {
+      "title": "街头摊位连续主视觉",
+      "description": "四张参考联动的街头小吃品牌图，建立统一的 vernacular stall identity。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "world-knowledge",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-stall-anchor",
+      "title": "Stall Anchor",
+      "image": "images/01-stall-anchor/image.png",
+      "meta": "images/01-stall-anchor/meta.json"
+    },
+    {
+      "id": "02-handheld-wrap-shot",
+      "title": "Handheld Wrap Shot",
+      "image": "images/02-handheld-wrap-shot/image.png",
+      "meta": "images/02-handheld-wrap-shot/meta.json"
+    },
+    {
+      "id": "03-counter-condiment-array",
+      "title": "Counter Condiment Array",
+      "image": "images/03-counter-condiment-array/image.png",
+      "meta": "images/03-counter-condiment-array/meta.json"
+    },
+    {
+      "id": "04-night-market-takeaway-kit",
+      "title": "Night Market Takeaway Kit",
+      "image": "images/04-night-market-takeaway-kit/image.png",
+      "meta": "images/04-night-market-takeaway-kit/meta.json"
+    }
+  ]
+}

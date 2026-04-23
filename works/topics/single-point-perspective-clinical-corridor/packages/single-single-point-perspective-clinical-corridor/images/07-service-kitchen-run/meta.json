@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Set the image in a back-of-house kitchen run with stainless counters mirrored left and right, white tile joints, and bright ceiling panels pulling to a central prep station.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A single covered cloche waits at the vanishing point, introducing ritual and suspense into an otherwise practical service corridor.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. Everything should feel spotless, metallic, and acoustically hard, with geometry overpowering culinary warmth.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "07-service-kitchen-run",
+  "title": "Service Kitchen Run",
+  "description": "A stainless service corridor where a lone cloche at center turns a kitchen into a precision study.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/07-service-kitchen-run/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on service kitchen run.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Service Kitchen Run",
+      "description": "A stainless service corridor where a lone cloche at center turns a kitchen into a precision study."
+    },
+    "zh-CN": {
+      "title": "Service Kitchen Run",
+      "description": "围绕单点透视的第7张独立研究图，聚焦 Service Kitchen Run。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A gleaming service kitchen corridor converging on a single covered dish at the center.",
+      "zh-CN": "单点透视主题图：Service Kitchen Run。"
+    }
+  }
+}

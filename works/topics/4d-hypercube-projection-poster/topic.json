@@ -1,0 +1,40 @@
+{
+  "id": "4d-hypercube-projection-poster",
+  "slug": "4d-hypercube-projection-poster",
+  "title": "4D Hypercube Projection Poster",
+  "short_title": "4D Hypercube",
+  "description": "A tesseract (4D hypercube) rendered as a rotating projection on a museum-grade art-science poster with orbit annotations and rotation phase labels.",
+  "i18n": {
+    "en": {
+      "title": "4D Hypercube Projection Poster",
+      "short_title": "4D Hypercube",
+      "description": "A tesseract (4D hypercube) rendered as a rotating projection on a museum-grade art-science poster with orbit annotations and rotation phase labels."
+    },
+    "zh-CN": {
+      "title": "四维超立方投影海报",
+      "short_title": "四维超立方",
+      "description": "四维超立方(tesseract)的旋转投影 · 博物馆级艺术科学海报 · 附旋转相位标注。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4040,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "data-visualization",
+      "technical-diagram",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-hypercube-projection-studies",
+      "type": "single",
+      "title": "Hypercube Projection Studies",
+      "path": "packages/single-hypercube-projection-studies/package.json"
+    }
+  ]
+}

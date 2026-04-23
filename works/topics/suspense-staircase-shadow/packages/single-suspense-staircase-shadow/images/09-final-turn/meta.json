@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square black-and-white thriller frame with hard contrast, deep blacks, silvery highlights, and geometric shadow patterns cast by railings, blinds, or stained glass. The camera should feel deliberate and predatory, often high above or pinned to an anxious architectural angle. Use the last turning corner of a staircase, where one wall goes fully black and the next flight emerges into a thin strip of light.\n\nSubject:\nBuild the image around stairs, shadows, landings, banisters, and one isolated figure whose presence is defined as much by silhouette as by body. Fear should come from spacing, emptiness, and the logic of light rather than from explicit violence. Only the lower legs of a person are visible mid-turn, making the rest of the body disappear around the corner.\n\nImportant details:\nThe governing grammar is suspense through architecture. Preserve crisp edges between light and shadow, polished floor reflections, severe stair geometry, and a sense of silent movement just before or after an event. Avoid modern clutter, color accents, or loose handheld energy. The disappearing body should feel more ominous than any explicit threat, with clean edges and no unnecessary props.\n\nUse case:\nSuspense Staircase Shadow single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no monsters, no readable signage, no casual daylight realism, no fog machine effect, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-final-turn",
+  "title": "Final Turn",
+  "description": "A final staircase turn where partial visibility and hard light create maximum suspense with minimal information.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "grayscale",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/suspense-staircase-shadow/packages/single-suspense-staircase-shadow/images/09-final-turn/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent suspense staircase study focused on final turn.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Final Turn",
+      "description": "A final staircase turn where partial visibility and hard light create maximum suspense with minimal information."
+    },
+    "zh-CN": {
+      "title": "Final Turn",
+      "description": "围绕悬疑旋梯的第9张独立研究图，聚焦 Final Turn。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "grayscale",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Only the legs of a figure are visible as they turn a stair corner into a narrow strip of light.",
+      "zh-CN": "悬疑旋梯主题图：Final Turn。"
+    }
+  }
+}

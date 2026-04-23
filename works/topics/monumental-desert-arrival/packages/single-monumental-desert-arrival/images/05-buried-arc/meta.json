@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square widescale desert image centered on a massive geometric object descending, hovering, or emerging against sand, dust, and low sun. The atmosphere should feel physically dense, with suspended grit, long shadows, and distant heat haze describing the air around the event. Show only part of an immense curved arc emerging from a dune sea at sunrise, with the rest implied beneath the sand.\n\nSubject:\nThe main subject is an immense ship, ring, slab, wedge, or monolith whose scale dwarfs all human observers. People should appear as tiny clustered witnesses in the foreground or along ridgelines, included only to prove size and emotional awe. A tiny human chain walks along the crest toward the arc, their spacing underscoring distance and scale.\n\nImportant details:\nThe signature is monumental restraint. Preserve simple geometry, huge negative space, believable dust behavior, and the quiet terror of proportion. Avoid flashy weapons, decorative alien ornament, bright science-fiction colors, or busy action hero staging. Let the arrival feel archaeological and fresh at the same time, as if the desert just exhaled the object into view.\n\nUse case:\nMonumental Desert Arrival single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable markings on the object, no laser beams, no explosion fireballs, no crowded military hardware, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-buried-arc",
+  "title": "Buried Arc",
+  "description": "An immense buried arc emerges from desert dunes while a line of tiny walkers approaches at dawn.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "frontier-creative-composition",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/monumental-desert-arrival/packages/single-monumental-desert-arrival/images/05-buried-arc/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent monumental arrival study focused on buried arc.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Buried Arc",
+      "description": "An immense buried arc emerges from desert dunes while a line of tiny walkers approaches at dawn."
+    },
+    "zh-CN": {
+      "title": "Buried Arc",
+      "description": "围绕纪念碑到来的第5张独立研究图，聚焦 Buried Arc。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "frontier-creative-composition",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A giant curved monolith rises from desert dunes as a line of tiny people walks toward it.",
+      "zh-CN": "纪念碑到来主题图：Buried Arc。"
+    }
+  }
+}

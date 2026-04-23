@@ -1,0 +1,47 @@
+{
+  "id": "league-season-launch-visual-kit",
+  "slug": "league-season-launch-visual-kit",
+  "title": "League Season Launch Visual Kit",
+  "short_title": "League Launch",
+  "description": "Create season-launch kits for leagues and tournaments with league branding, cast hierarchy, and schedule-readiness.",
+  "i18n": {
+    "en": {
+      "title": "League Season Launch Visual Kit",
+      "short_title": "League Launch",
+      "description": "Create season-launch kits for leagues and tournaments with league branding, cast hierarchy, and schedule-readiness."
+    },
+    "zh-CN": {
+      "title": "联赛赛季启动视觉套件",
+      "short_title": "联赛启动",
+      "description": "做联赛赛季启动视觉套件，强调联赛品牌、阵容层级和赛程 readiness。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "multi-image-reference",
+      "social-feed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-season-system",
+      "type": "series",
+      "title": "Season Launch System",
+      "path": "packages/series-season-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Launch Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

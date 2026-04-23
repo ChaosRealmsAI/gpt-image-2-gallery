@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Cryogenic Moment Series",
+  "description": "Four reference-linked high-speed cryogenic captures preserving one dark-stage camera and lighting system.",
+  "creative_direction": "Image 01 establishes the black-stage setup, flash timing feel, and gravity-aware vapor. Images 02-04 preserve that exact capture logic while rotating the subject from pour to shatter, split, and crystallization.",
+  "cover_image": "images/01-frozen-pour-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-frozen-pour-anchor/meta.json",
+      "images/02-rose-shatter-burst/meta.json",
+      "images/03-berry-split-cloud/meta.json",
+      "images/04-crystallizing-cream-wave/meta.json"
+    ],
+    "ref_strategy": "Run 01-frozen-pour-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cryogenic Moment Series",
+      "description": "Four reference-linked high-speed cryogenic captures preserving one dark-stage camera and lighting system."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "液氮一刻相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-frozen-pour-anchor",
+      "title": "Frozen Pour Anchor",
+      "image": "images/01-frozen-pour-anchor/image.png",
+      "meta": "images/01-frozen-pour-anchor/meta.json"
+    },
+    {
+      "id": "02-rose-shatter-burst",
+      "title": "Rose Shatter Burst",
+      "image": "images/02-rose-shatter-burst/image.png",
+      "meta": "images/02-rose-shatter-burst/meta.json"
+    },
+    {
+      "id": "03-berry-split-cloud",
+      "title": "Berry Split Cloud",
+      "image": "images/03-berry-split-cloud/image.png",
+      "meta": "images/03-berry-split-cloud/meta.json"
+    },
+    {
+      "id": "04-crystallizing-cream-wave",
+      "title": "Crystallizing Cream Wave",
+      "image": "images/04-crystallizing-cream-wave/image.png",
+      "meta": "images/04-crystallizing-cream-wave/meta.json"
+    }
+  ]
+}

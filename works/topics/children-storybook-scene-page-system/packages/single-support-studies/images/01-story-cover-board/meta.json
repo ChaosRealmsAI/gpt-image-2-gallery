@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square picture-book cover mockup centered on a single upright book against a soft studio backdrop, with gentle spotlighting and printed-paper realism. The cover should feel modern, warm, and distinctly for young children, leaving obvious blank space for future title treatment. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nUse an inviting scene of a child and animal companion in a story-rich environment, composed boldly enough for retail shelf recognition but soft enough for bedtime reading appeal. Keep the illustration painterly, emotionally warm, and structured like a real publishing deliverable. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nThe design should prioritize silhouette clarity, age-appropriate charm, and a clear focal relationship between characters and world. Avoid decorative overload so the asset reads as a commercially viable cover rather than a generic fantasy illustration. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nChildren Storybook Scene Page System single study 1/5, story cover board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no harsh realism, no licensed character resemblance, no cluttered scrapbook styling, no horror elements.",
+  "id": "01-story-cover-board",
+  "title": "Story Cover Board",
+  "description": "A picture-book cover concept with blank title space and warm character-led composition.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/single-support-studies/images/01-story-cover-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 1 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Story Cover Board",
+      "description": "A picture-book cover concept with blank title space and warm character-led composition."
+    },
+    "zh-CN": {
+      "title": "故事封面板",
+      "description": "带有空白标题区、以角色驱动构图的绘本封面概念。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A picture-book cover concept with blank title space and warm character-led composition.",
+      "zh-CN": "带有空白标题区、以角色驱动构图的绘本封面概念。"
+    }
+  }
+}

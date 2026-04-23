@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square white-wall installation showing two companion posters hung side by side with equal spacing, photographed frontally so the pair reads as a designed conversation rather than two unrelated sheets. The poster should express 1960s art-house poster grammar with radical photo crop, offset grain, hand-painted marks, and emotional empty space, using inky blue, carmine red, warm cream, charcoal, and cigarette-smoke gray and a tactile surface appropriate to the medium.\n\nSubject:\nCompose a matched diptych: two posters sharing one style system while splitting the narrative across paired motifs, mirrored masses, or complementary color emphasis. Use street couples, scooter mirrors, apartment windows, rain-slick pavement, camera flash, and cafe tables as the main visual ingredients, and organize them with handwritten sweeps and sans blocks that feel gestural but stay non-readable. For the contemporary-subject axis, thread in a late-night metro ride and smartphone glow transformed into a melancholic art-house romance surface. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nBoth halves should feel distinct yet inseparable. Preserve one coherent visual language, but let each sheet carry its own focal symbol and rhythm without readable wording. Preserve abrupt crop decisions, mood ambiguity, rough screen-print texture, and tension between photo and mark-making. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no blockbuster gloss, no readable credits, no hyper-polished skin retouching, no superhero spectacle.\n\nUse case:\nFrench New Wave single study 6/9, testing system flexibility across a paired set.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "06-twin-poster-diptych",
+  "title": "Twin Poster Diptych",
+  "description": "French New Wave rendered as a twin poster diptych study, emphasizing testing system flexibility across a paired set.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-wave-french-film-poster/packages/single-poster-studies/images/06-twin-poster-diptych/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent French New Wave poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Twin Poster Diptych",
+      "description": "French New Wave rendered as a twin poster diptych study, emphasizing testing system flexibility across a paired set."
+    },
+    "zh-CN": {
+      "title": "双联海报",
+      "description": "法国新浪潮主题下的双联海报研究，重点是测试成套系统延展性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "French New Wave poster study shown as twin poster diptych with non-readable lettering and style-accurate materials.",
+      "zh-CN": "法国新浪潮风格海报，以双联海报形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

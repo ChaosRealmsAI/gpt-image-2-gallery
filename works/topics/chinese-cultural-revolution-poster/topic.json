@@ -1,0 +1,39 @@
+{
+  "id": "chinese-cultural-revolution-poster",
+  "title": "Chinese Late-70s Cultural Poster",
+  "short_title": "Chinese 70s Poster",
+  "description": "Late-70s Chinese cultural poster — bright gouache colors, idealized workers and farmers, Chairman portrait absent but era unmistakable, bold red-gold-green palette, handmade brush feel.",
+  "i18n": {
+    "en": {
+      "title": "Chinese Late-70s Cultural Poster",
+      "short_title": "Chinese 70s Poster",
+      "description": "Late-70s Chinese cultural poster — bright gouache colors, idealized workers and farmers, Chairman portrait absent but era unmistakable, bold red-gold-green palette, handmade brush feel."
+    },
+    "zh-CN": {
+      "title": "70 年代末中国文化海报",
+      "short_title": "70 年代末中国海报",
+      "description": "70 年代末中国文化海报 · 鲜亮水粉 · 理想化工农 · 没有具体领导肖像但时代感明确 · 红金绿重调 · 手绘笔触。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 630,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

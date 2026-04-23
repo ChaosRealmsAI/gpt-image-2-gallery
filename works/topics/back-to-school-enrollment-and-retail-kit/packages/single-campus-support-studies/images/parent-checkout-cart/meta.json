@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square retail image with bright aisle or checkout light, organized product stacks, and a polished family-shopping atmosphere. The frame should feel like a campaign image for school-season purchasing rather than a supermarket snapshot. Use cart geometry, shelf rhythm, and clear object hierarchy to communicate efficient preparation and family-oriented buying behavior.\n\nSubject:\nShow a cart with school supplies, tech accessories, storage items, lunch or apparel forms, and a few checkout cues that remain non-legible. People can be implied or partly present, but the purchasing structure should stay central. The subject should communicate bulk preparation, care, and efficient decision-making for the new term.\n\nImportant details:\nRetail clarity matters most. Make cart metal, packaging forms, plastic, paper, and polished floor reflections all feel real. Keep the scene commercially neat and useful for retail, education, or parent-targeted promotions. Avoid discount-chaos energy; this is organized, capable preparation. Keep the frame precise enough for gallery, research, and campaign reuse, with believable materials and a strong thumbnail read.\n\nUse case:\nBack to School single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable price labels, no store logos, no chaotic crowd, no mascot packaging, no messy bargain-bin feel, no readable receipts, no neon promo signs, no graduation décor.",
+  "id": "parent-checkout-cart",
+  "title": "Parent Checkout Cart",
+  "description": "A retail-led back-to-school study focused on family purchase decisions and organized bulk buying.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/single-campus-support-studies/images/parent-checkout-cart/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent parent-checkout study for back-to-school retail campaigns.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Parent Checkout Cart",
+      "description": "A retail-led back-to-school study focused on family purchase decisions and organized bulk buying."
+    },
+    "zh-CN": {
+      "title": "家长结算购物车",
+      "description": "聚焦家庭采购决策与有序批量购买的零售向开学季研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A back-to-school retail cart scene with organized family purchasing and strong campaign clarity.",
+      "zh-CN": "带有有序家庭采购与强烈 campaign 清晰度的开学季购物车场景。"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "engineering-cutaway-and-section-poster",
+  "slug": "engineering-cutaway-and-section-poster",
+  "title": "Engineering Cutaway and Section Poster",
+  "short_title": "Cutaway Poster",
+  "description": "Create engineering cutaway posters that explain internal architecture while retaining visual drama.",
+  "i18n": {
+    "en": {
+      "title": "Engineering Cutaway and Section Poster",
+      "short_title": "Cutaway Poster",
+      "description": "Create engineering cutaway posters that explain internal architecture while retaining visual drama."
+    },
+    "zh-CN": {
+      "title": "工程剖面与 section 海报",
+      "short_title": "剖面海报",
+      "description": "做工程剖面与 section 海报，兼顾内部结构说明和视觉张力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "scientific-realism",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Cutaway Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Section Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

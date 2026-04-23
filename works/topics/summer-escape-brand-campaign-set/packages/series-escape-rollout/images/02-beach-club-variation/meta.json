@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent summer image in the exact same bright escape world, preserving the same sun quality, turquoise reflection, pale stone, and citrus-linen palette from the reference image, but shift the framing toward a beach-club accessory scene. The continuity should feel exact, as though the same campaign shoot has moved a few steps toward a more style-led leisure surface.\n\nSubject:\nFeature beach-club accessories such as bag, sandals, hat-like form, towel, drink cue, and polished seasonal objects arranged into one premium leisure composition. Preserve exact visual identity from the reference model while changing the category emphasis. The subject should feel aspirational, brand-neutral, and suitable for fashion, hospitality, or travel campaign rollout.\n\nImportant details:\nKeep the same premium summer grammar: bright but not harsh, airy but not empty, tactile but not cluttered. Materials such as woven texture, leather, linen, glass, and stone should feel real. The image should remain usable as a commercial hero asset for summer retail and seasonal brand storytelling.\n\nUse case:\nSummer Escape series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable labels, no crowd, no loud novelty floaties, no logo sandals, no beach-trash realism, no tropical cliché props, no saturated party vibe.",
+  "id": "02-beach-club-variation",
+  "title": "Beach Club Variation",
+  "description": "A beach-accessory variation preserving the same premium summer escape campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/02-beach-club-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-resort-arrival-anchor",
+        "meta_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/meta.json",
+        "image_path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beach-club variation for the Summer Escape rollout. Preserve the exact campaign language from 01-resort-arrival-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beach Club Variation",
+      "description": "A beach-accessory variation preserving the same premium summer escape campaign system."
+    },
+    "zh-CN": {
+      "title": "海滩俱乐部变体",
+      "description": "保持同一高端夏季度假系统的海滩配饰变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A beach-club summer campaign scene derived from the same premium escape system.",
+      "zh-CN": "沿用同一高端逃离感系统的海滩俱乐部夏季场景。"
+    }
+  }
+}

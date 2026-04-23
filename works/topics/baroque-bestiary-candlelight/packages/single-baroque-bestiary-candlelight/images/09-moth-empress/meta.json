@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Close on a throne alcove with deep burgundy cloth, one central candle cluster, and ash drifting through the darkness.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. A moth-faced empress with powdery wings folded like a mantle sits frontally in richly stitched robes, projecting soft but absolute authority.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. Keep the wings velvety and fragile, with the face lit enough to reveal expression without flattening the mystery.\n\nUse case:\nBaroque Bestiary Candlelight single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-moth-empress",
+  "title": "Moth Empress",
+  "description": "A front-facing moth empress portrait shaped by velvety wings, burgundy textiles, and candlelit authority.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/09-moth-empress/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on moth empress.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Moth Empress",
+      "description": "A front-facing moth empress portrait shaped by velvety wings, burgundy textiles, and candlelit authority."
+    },
+    "zh-CN": {
+      "title": "Moth Empress",
+      "description": "围绕巴洛克神兽的第9张独立研究图，聚焦 Moth Empress。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A moth-faced empress seated frontally in embroidered robes under clustered candlelight.",
+      "zh-CN": "巴洛克神兽主题图：Moth Empress。"
+    }
+  }
+}

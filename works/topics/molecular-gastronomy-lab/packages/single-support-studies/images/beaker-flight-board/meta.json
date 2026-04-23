@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square studio photograph on a white laboratory bench or brushed steel prep surface, lit with cool overhead light and crisp backlight that gives transparent ingredients a scientific presence. The composition should feel clinical and premium at once, with careful reflections on glass, faint low vapor, and enough negative space to keep the experiment-like staging legible. Nothing should feel messy or improvised. Create a square top-down still life on a brushed aluminum tray resting on a white lab table, with cool overhead light and crisp soft shadows. The arrangement should feel like a tasting flight from an experimental kitchen rather than a school laboratory, with disciplined spacing and no clutter.\n\nSubject:\nPlace six miniature vessels in a grid: one foamed shooter, one clear broth shot, one spherified bite in a spoon, one smoke-filled vial, one gel cube cup, and one cold sorbet canister. Each vessel should be visually distinct yet belong to one coherent scientific plating language. Tiny stainless tools can appear at the tray edge as context, but they must remain secondary.\n\nImportant details:\nMake every transparent or semi-transparent material physically convincing: gels, sugar glass, vapor, condensation, foam, and liquid membranes all need distinct behavior. The scene should suggest a chef-scientist workflow, where precision plating meets controlled experimentation. Abstract annotation devices are acceptable only as blank bars, etched marks, or geometry with no readable characters. Emphasize clean glass edges, controlled reflections, and distinct material behavior across foam, liquid, gel, and vapor. The tray should feel presentation-ready, almost like a premium product mockup for edible experiments.\n\nUse case:\nMolecular gastronomy lab single study 5/9, expanding the theme into a tasting-flight overview.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no handwritten formulas, no visible brand labware, no classroom clutter, no sloppy spills, no cartoon science props, no readable graduations, no messy condensation puddles, no cafeteria tray feel.",
+  "id": "beaker-flight-board",
+  "title": "Beaker Flight Board",
+  "description": "A curated tasting flight of tiny beaker-served dishes arranged on a pristine laboratory tray.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/molecular-gastronomy-lab/packages/single-support-studies/images/beaker-flight-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beaker Flight Board",
+      "description": "A curated tasting flight of tiny beaker-served dishes arranged on a pristine laboratory tray."
+    },
+    "zh-CN": {
+      "title": "Beaker Flight Board",
+      "description": "A curated tasting flight of tiny beaker-served dishes arranged on a pristine laboratory tray."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A top-down tray of miniature experimental dishes served in beakers, vials, and spoons.",
+      "zh-CN": "A top-down tray of miniature experimental dishes served in beakers, vials, and spoons."
+    }
+  }
+}

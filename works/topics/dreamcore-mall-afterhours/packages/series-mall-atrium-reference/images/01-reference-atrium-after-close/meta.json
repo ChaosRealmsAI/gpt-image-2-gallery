@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square-format photograph of a two-story suburban mall atrium at roughly 11 p.m., about thirty minutes after the last store has closed. Taken with a 90s consumer point-and-shoot camera using direct on-camera flash. Ambient overhead fixtures glow on half-power. Slight magenta color cast, visible 35mm film grain, drugstore-print character.\n\nSubject:\nThe atrium is a squared-off open well with polished cream-pink terrazzo floor, a circular planter with faux ficus trees in the middle, wooden benches around the planter, and a pair of escalators rising to the second-floor balcony at the back. Balcony railings have brass handrails and glass panels. Storefronts along both floors are mostly shuttered by rolling metal gates, half-lowered. The camera stands in the middle of the ground floor, centered, looking slightly upward.\n\nImportant details:\nDirect flash hotspot lands on the planter and near terrazzo. Far storefronts fade into half-lit dimness. Escalator steel treads must read as frozen. Balcony railing geometry must be clean and symmetric. No readable store names — all signage is suggested as generic color blocks or unreadable wordmarks. No shopper, no security guard, no janitor, no photographer reflection on polished floor. Camera vantage is reference for the series and must stay consistent across 02-04.\n\nUse case:\nReference image for the Mall Atrium fanout series. Images 02-04 will re-stage the same atrium under different partial-state conditions.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no people, no reflection of photographer, no cinematic color grade, no lens flare.",
+  "id": "01-reference-atrium-after-close",
+  "title": "Reference Atrium · After Close",
+  "description": "Two-story suburban mall atrium half an hour after closing, lit by direct flash and half-power ambient.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["photorealism", "structured-layout", "series", "world-knowledge"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dreamcore-mall-afterhours/packages/series-mall-atrium-reference/images/01-reference-atrium-after-close/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the mall atrium fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Atrium · After Close",
+      "description": "Two-story suburban mall atrium half an hour after closing, lit by direct flash and half-power ambient."
+    },
+    "zh-CN": {
+      "title": "基准中庭 · 打烊后",
+      "description": "打烊半小时的两层郊区商场中庭,直闪加半功率顶灯。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": ["gallery", "research"],
+    "tags": ["photorealism", "structured-layout"],
+    "alt": {
+      "en": "A two-story suburban mall atrium after closing, flash-lit ground floor with ficus planter center.",
+      "zh-CN": "打烊后的两层郊区商场中庭,直闪照亮一楼地面和中央花坛。"
+    }
+  }
+}

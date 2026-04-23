@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square top-down view of a beautifully printed phonics worksheet lying on a pale teacher desk, lit by clean morning classroom light. The page should feel like a real production proof with crisp margins, soft recycled-paper texture, and enough surrounding space for pencils, counters, and eraser crumbs without becoming messy. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nDesign the worksheet around picture-led sound sorting, using rows of illustrated objects, blank letter tiles, empty tracing lanes, and large response boxes. The visual logic must feel approachable for early readers, with one clear task family repeated across the page so the system reads as usable rather than decorative. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMake the page highly structured: rounded section blocks, calm mint, peach, and sky accents, child-friendly icons, and empty headline zones where copy could be added later. The overall impression should be a premium literacy resource that balances pedagogy, print practicality, and visual warmth. Preserve the same worksheet margins, answer-box scale, icon cadence, divider rhythm, and blank title bars from the reference sheet. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nPhonics and Reading Practice Sheet series study 1/4, reference sound sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable letters, no real words, no teacher handwriting, no messy desk clutter, no adult branding, no distorted paper edges.",
+  "id": "01-reference-sound-sheet",
+  "title": "Reference Sound Sheet",
+  "description": "Reference worksheet that locks the page architecture for a phonics practice system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/phonics-and-reading-practice-sheet/packages/series-core-system/images/01-reference-sound-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Sound Sheet",
+      "description": "Reference worksheet that locks the page architecture for a phonics practice system."
+    },
+    "zh-CN": {
+      "title": "基准音素练习页",
+      "description": "锁定自然拼读练习页页面结构的基准版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Reference worksheet that locks the page architecture for a phonics practice system.",
+      "zh-CN": "锁定自然拼读练习页页面结构的基准版。"
+    }
+  }
+}

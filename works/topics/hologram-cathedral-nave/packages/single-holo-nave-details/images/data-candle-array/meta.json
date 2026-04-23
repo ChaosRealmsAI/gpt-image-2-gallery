@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square overhead three-quarter view of a gothic votive-candle stand made of dark wrought iron, set against a shadowed chapel wall of carved stone.\n\nSubject:\nInstead of wax candles, each slot in the iron rack holds a slim glass column containing a floating flame that is in fact a live data-bar: the flame height varies from column to column, plotting an abstract time series across the rack. Some columns glow amber for high values, others cool cyan for low values. Thin wire filaments inside each column imply circuitry. Below the rack, a small donation tray holds a single coin that rests on a barely-visible circuit pad.\n\nImportant details:\nWrought-iron rack must look hand-forged with slight asymmetries and small rust spots. Glass columns must be clean, with visible thickness. The floating flame inside must read as both a candle flame and a data bar — its shape has a clear candle silhouette but also a flat upper edge like a bar chart. Amber-to-cyan color mapping follows data magnitude. No readable numbers anywhere.\n\nUse case:\nHologram Cathedral Nave single study 4/5, focusing on a candle-rack that is also a live data chart.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no printed numerals, no brand logos on the coin, no modern USB ports visible, no gift-shop aesthetic, no human hands in frame.",
+  "id": "data-candle-array",
+  "title": "Data Candle Array",
+  "description": "A wrought-iron votive rack where each glass column holds a floating flame that doubles as a data-bar, mapping an abstract time series.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "data-visualization",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/single-holo-nave-details/images/data-candle-array/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent shot of the votive rack as a data-bar array."
+  },
+  "i18n": {
+    "en": {
+      "title": "Data Candle Array",
+      "description": "A wrought-iron votive rack where each glass column holds a floating flame that doubles as a data-bar, mapping an abstract time series."
+    },
+    "zh-CN": {
+      "title": "数据烛台阵",
+      "description": "铸铁烛台架中，每根玻璃管内漂浮的火焰同时也是一条数据柱，合起来绘出抽象时间序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A wrought-iron votive rack with glass columns whose floating flames form a bar chart of amber and cyan values.",
+      "zh-CN": "铸铁烛台架的玻璃柱内漂浮火焰，排成琥珀与青色的柱状图。"
+    }
+  }
+}

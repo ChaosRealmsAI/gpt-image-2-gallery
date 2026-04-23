@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square feast or banquet campaign image with abundant but controlled table choreography, rich servingware, and a celebratory atmosphere that feels suitable for hospitality campaigns, seasonal dining promotions, or event editorials. The frame should manage many elements without losing hierarchy, elegance, or appetite appeal. Maintain the exact banquet staging and table depth, but shift the mood toward dessert lighting, polished fruit tones, and softer highlights.\n\nSubject:\nThe food must look substantial and celebratory, with believable multi-dish coordination, serving logic, and table rituals that suggest a real banquet rather than a random buffet pile. Show a dessert-focused feast finale with cakes, fruit platters, pastries, and one hero sweet centerpiece arranged with event-level polish.\n\nImportant details:\nThis topic depends on composition reasoning. Preserve a strong centerpiece, readable secondary dishes, coherent servingware, and lighting that supports depth across the table. Celebration should emerge from abundance, color, and ritual objects, not from gimmicks or branded holiday symbols. Everything must feel premium, coordinated, and logistically plausible. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-banquet-anchor. The banquet continuity should remain obvious through tableware, glass rhythm, and abundance structure even as the course moves from savory to sweet.\n\nUse case:\nFestive Feast series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no generic wedding décor, no buffet-chaos clutter, no novelty party props, no copied holiday mascots, no visible faces dominating the frame, no birthday theme, no cartoon candy buffet, no readable celebration signage.",
+  "id": "04-dessert-finale-table",
+  "title": "Dessert Finale Table",
+  "description": "A final-course banquet variation preserving the reference table system while moving toward sweets, fruit, and celebratory finish.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/04-dessert-finale-table/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-banquet-anchor",
+        "meta_path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/01-banquet-anchor/meta.json",
+        "image_path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/01-banquet-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-banquet-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dessert Finale Table",
+      "description": "A final-course banquet variation preserving the reference table system while moving toward sweets, fruit, and celebratory finish."
+    },
+    "zh-CN": {
+      "title": "甜点收官餐桌",
+      "description": "甜点收官餐桌：节庆宴席主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A final-course banquet variation preserving the reference table system while moving toward sweets, fruit, and celebratory finish.",
+      "zh-CN": "甜点收官餐桌，用于节庆宴席主题。"
+    }
+  }
+}

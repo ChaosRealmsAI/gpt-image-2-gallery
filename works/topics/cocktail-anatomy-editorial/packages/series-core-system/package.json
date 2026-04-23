@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Editorial Anatomy Series",
+  "description": "Four reference-linked cocktail hero shots combining luxury bar photography with abstract anatomy callouts.",
+  "creative_direction": "Image 01 establishes the centered editorial layout, callout grammar, and Scandinavian restraint. Images 02-04 preserve that exact visual system while rotating the featured glass, liquid behavior, and atmospheric effect.",
+  "cover_image": "images/01-editorial-old-fashioned-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-editorial-old-fashioned-anchor/meta.json",
+      "images/02-martini-cutaway/meta.json",
+      "images/03-highball-carbonation-diagram/meta.json",
+      "images/04-smoke-dome-negroni/meta.json"
+    ],
+    "ref_strategy": "Run 01-editorial-old-fashioned-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Editorial Anatomy Series",
+      "description": "Four reference-linked cocktail hero shots combining luxury bar photography with abstract anatomy callouts."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "鸡尾酒解剖相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-editorial-old-fashioned-anchor",
+      "title": "Editorial Old Fashioned Anchor",
+      "image": "images/01-editorial-old-fashioned-anchor/image.png",
+      "meta": "images/01-editorial-old-fashioned-anchor/meta.json"
+    },
+    {
+      "id": "02-martini-cutaway",
+      "title": "Martini Cutaway",
+      "image": "images/02-martini-cutaway/image.png",
+      "meta": "images/02-martini-cutaway/meta.json"
+    },
+    {
+      "id": "03-highball-carbonation-diagram",
+      "title": "Highball Carbonation Diagram",
+      "image": "images/03-highball-carbonation-diagram/image.png",
+      "meta": "images/03-highball-carbonation-diagram/meta.json"
+    },
+    {
+      "id": "04-smoke-dome-negroni",
+      "title": "Smoke Dome Negroni",
+      "image": "images/04-smoke-dome-negroni/image.png",
+      "meta": "images/04-smoke-dome-negroni/meta.json"
+    }
+  ]
+}

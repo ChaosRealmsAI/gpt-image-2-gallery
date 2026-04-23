@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square poster-like composition with loud red, tobacco yellow, nicotine cream, and deep black arranged in flat graphic blocks over a staged crime tableau. The lighting should feel hard and directional, but the overall image should still read as a designed print object rather than a literal movie still. Use a cheap motel exterior corridor at night, with doorways receding along one side and a giant mustard color slab masking part of the sky.\n\nSubject:\nFocus on an implied act of violence or aftermath through frozen props, bodies held in stiff poses, diner booths, cheap motel details, briefcases, dashboard reflections, or nightclub furniture. The people should feel iconic and deadpan, with tension communicated through placement and color rather than explicit gore. A man in a dark suit leans against the railing while a dropped room key and a crimson heel mark imply a sudden unseen event.\n\nImportant details:\nThe crucial visual rule is the collision of graphic poster language and static pulp staging. Use oversized non-readable letterform-like shapes, caption bars, drop-shadow slabs, and paper-print textures without introducing actual words. Preserve bold silhouette hierarchy, cropped tension, and cynical cool. The palette should feel sun-faded even at night, with grainy paper texture and non-readable graphic bars interrupting the realism.\n\nUse case:\nPulpy Typography Over Violent Tableau single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no explicit gore, no dismemberment, no recognizable brand packaging, no comic speech balloons, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-motel-corridor-freeze",
+  "title": "Motel Corridor Freeze",
+  "description": "A motel walkway frozen into a pulp cover layout with typographic blocks and implied off-screen violence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editorial-illustration",
+    "style-transfer",
+    "structured-layout",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pulpy-typography-violence-poster/packages/single-pulpy-typography-violence-poster/images/02-motel-corridor-freeze/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pulpy typography study focused on motel corridor freeze.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Motel Corridor Freeze",
+      "description": "A motel walkway frozen into a pulp cover layout with typographic blocks and implied off-screen violence."
+    },
+    "zh-CN": {
+      "title": "Motel Corridor Freeze",
+      "description": "围绕低俗印刷的第2张独立研究图，聚焦 Motel Corridor Freeze。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A motel corridor at night styled like a pulp poster with flat color blocks and tense props.",
+      "zh-CN": "低俗印刷主题图：Motel Corridor Freeze。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium editorial cocktail photograph with Scandinavian restraint: the glass sits against a dark or neutral studio backdrop, lit with crisp directional light that reveals liquid clarity, condensation, and the shape of the vessel. The composition should leave clean space for anatomy-like annotation structures. Any diagram devices must stay abstract, minimal, and completely unreadable. Create a square macro studio image on a dark neutral pedestal with one ice sphere as the dominant object, lit from the side and slightly from behind. A few thin blank annotation leaders may enter the frame to emphasize the editorial anatomy concept without becoming technical clutter.\n\nSubject:\nShow one large nearly transparent ice sphere with subtle trapped bubbles, a shallow frost halo, and a thin reflective wet edge where it meets the surface. A minimal curl of citrus peel and one droplet of spirit can appear nearby as quiet context. The sphere should feel cold, heavy, and perfectly cut.\n\nImportant details:\nThe work should feel like a luxury magazine spread translated into one square frame, where product photography and information design cooperate without becoming cluttered. Glass thickness, ice clarity, citrus oils, bubbles, smoke, and liquid layering all need to feel physically accurate. Hairline leader lines may terminate in blank bars or geometric tabs, but never readable labels. The appeal comes from optical precision: internal bubble clusters, tiny fracture lines, and condensation must read immediately at close range. Keep the editorial callouts abstract and elegant, letting the ice itself behave like the specimen.\n\nUse case:\nCocktail anatomy editorial single study 5/9, isolating the internal drama of a clear ice sphere.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no menu typography, no neon nightclub clutter, no brand bottle labels, no bar receipt props, no visible trademarks, no novelty-shaped ice, no melting puddle chaos, no text labels.",
+  "id": "ice-sphere-core-study",
+  "title": "Ice Sphere Core Study",
+  "description": "A luxury macro of a clear ice sphere with abstract callouts revealing trapped bubbles and chill fractures.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "editorial-illustration",
+    "data-visualization"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/cocktail-anatomy-editorial/packages/single-support-studies/images/ice-sphere-core-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ice Sphere Core Study",
+      "description": "A luxury macro of a clear ice sphere with abstract callouts revealing trapped bubbles and chill fractures."
+    },
+    "zh-CN": {
+      "title": "Ice Sphere Core Study",
+      "description": "A luxury macro of a clear ice sphere with abstract callouts revealing trapped bubbles and chill fractures."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "editorial-illustration",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A clear ice sphere photographed like a specimen with abstract callouts highlighting bubbles and fracture lines.",
+      "zh-CN": "A clear ice sphere photographed like a specimen with abstract callouts highlighting bubbles and fracture lines."
+    }
+  }
+}

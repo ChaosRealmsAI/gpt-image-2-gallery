@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square reference drill board for Training Explainer, using a bright premium training facility with clear floor markings, coaching props, and balanced realism-plus-diagram overlays. The frame should feel commercial, polished, and immediately useful for a real client deliverable rather than a one-off art experiment. Keep the composition readable at thumbnail scale while still rewarding a closer look with layered depth, clean negative space, and strong directional light. Build the image so it clearly supports sports communication, with enough modular structure to imply information architecture without relying on literal words.\n\nSubject:\nCenter the image on one original coach guiding one or two original athletes through a simple branded-neutral drill setup, arranged as coach with athletes in setup position. Treat the subject as original and brandless, with believable apparel construction, realistic body proportions, and strong emotional legibility. Surround the subject with supporting environmental cues that reinforce the category but never overpower the main figure. All secondary objects, props, and background elements should strengthen the same professional sports or fitness context.\n\nImportant details:\nThis first image must establish the full reference system for later derivatives: instructional panel structure, non-readable sequence blocks, and elegant arrow-based motion guidance. The emotional tone should read as clear instructional calm. Make the visual language reusable, disciplined, and commercially credible, with clean edges, coherent light behavior, and obvious hierarchy. Abstract panels, diagram bands, or stat-like modules are welcome, but they must remain non-readable and subordinate to the main visual message. The result should feel original, specific, and ready to anchor a larger package.\n\nUse case:\nTraining Explainer series study 1/9, the reference image for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no copied famous team or product identity, no generic stock-photo stiffness, no cluttered background noise, no celebrity likenesses.",
+  "id": "01-reference-drill-board",
+  "title": "Reference Drill Board",
+  "description": "A coach-led drill explainer board that establishes the full instructional language for the kit.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "reasoning-composition",
+    "technical-diagram",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/training-drill-and-coaching-explainer-kit/packages/series-coaching-sequence/images/01-reference-drill-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the training-drill-and-coaching-explainer-kit series package.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Drill Board",
+      "description": "A coach-led drill explainer board that establishes the full instructional language for the kit."
+    },
+    "zh-CN": {
+      "title": "Reference Drill Board",
+      "description": "A coach-led drill explainer board that establishes the full instructional language for the kit."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "reasoning-composition",
+      "technical-diagram",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A coach-led drill explainer board that establishes the full instructional language for the kit.",
+      "zh-CN": "A coach-led drill explainer board that establishes the full instructional language for the kit."
+    }
+  }
+}

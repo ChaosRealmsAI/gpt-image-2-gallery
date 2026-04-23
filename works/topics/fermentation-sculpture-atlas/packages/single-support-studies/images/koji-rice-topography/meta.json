@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Use a square macro-leaning specimen setup on a dark neutral surface under raking light that turns small grains into a landscape of ridges and shadows. The environment should remain quiet and analytical.\n\nSubject:\nShow a shallow tray or mound of inoculated rice covered in fine white growth, subtle moisture, and uneven topography. A scoop mark or cutaway edge can reveal depth and density variation. The subject should feel agricultural, biological, and strangely monumental.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. The main challenge is scale transformation: every rice grain, filament, and damp cluster should remain identifiable while the whole surface reads as a terrain. The growth must feel alive, not dusty.\n\nUse case:\nFermentation sculpture atlas single study 8/9, examining inoculated rice as a micro-texture landscape.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no powdery chalk look, no modern food-packaging context, no readable tags.",
+  "id": "koji-rice-topography",
+  "title": "Koji Rice Topography",
+  "description": "A tray or mound of inoculated rice photographed as a microbial landscape rich in minute texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/single-support-studies/images/koji-rice-topography/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Koji Rice Topography",
+      "description": "A tray or mound of inoculated rice photographed as a microbial landscape rich in minute texture."
+    },
+    "zh-CN": {
+      "title": "Koji Rice Topography",
+      "description": "A tray or mound of inoculated rice photographed as a microbial landscape rich in minute texture."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A tray of inoculated rice photographed like a tiny living landscape with raking light and rich surface detail.",
+      "zh-CN": "A tray of inoculated rice photographed like a tiny living landscape with raking light and rich surface detail."
+    }
+  }
+}

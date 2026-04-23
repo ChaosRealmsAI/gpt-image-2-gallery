@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a DIY map zine page on slightly tanned manila paper, morning room light from upper right, worn edges from being folded twice.\n\nSubject:\nA hand-drawn DIY map page: a torn photocopied city street grid pasted over the center, over-drawn with thick red marker routes, labeled with small ballpoint handwriting arrows, and dotted with pasted paper circles each marking a location. Three small torn polaroid-style photographs are tucked along the right margin with short crayon annotations. Dashed marker lines trace walking paths.\n\nImportant details:\nThe map paper must have fold creases with real shadow. Red marker routes must show the pen's wet edge wobble. Small ballpoint arrows feel hand-lettered — uneven stroke pressure. Crayon annotations have waxy texture. Torn polaroid corners are ragged.\n\nUse case:\nIndependent single image in the Collage Moods package, representing the DIY wayfinder voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no real city names, no vector cartography, no HDR, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "diy-map-page",
+  "title": "DIY Map Page",
+  "description": "A DIY zine map page with pasted photocopied street grid, red marker routes, ballpoint arrows, and tucked polaroid fragments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/single-collage-moods/images/diy-map-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "DIY Map Page",
+      "description": "A DIY zine map page with pasted photocopied street grid, red marker routes, ballpoint arrows, and tucked polaroid fragments."
+    },
+    "zh-CN": {
+      "title": "DIY 地图页",
+      "description": "DIY zine 地图页 · 拼贴复印街格 / 红色马克笔路线 / 圆珠笔箭头和插着的即时成像片段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "DIY zine map page with pasted street grid, red marker routes, and tucked polaroid fragments.",
+      "zh-CN": "DIY zine 地图页 · 拼贴街格 · 红色路线和插着的即时成像片段。"
+    }
+  }
+}

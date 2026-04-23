@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square poster presentation, wall context, daylight softness, and print finish from the reference routine board. The image should read as another coordinated classroom-management asset that belongs in the same elementary or preschool room. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nShow the handwashing routine through pictorial steps such as sleeves up, soap, scrub, rinse, dry, and line return, each captured inside the same rounded panel system. Use simple bathroom icons and child-friendly cues, but no real text or numbers. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nPreserve the exact reference layout logic, including icon size, color rhythm, headline bands, and panel spacing. The board should feel actionable and calm rather than corrective or punitive. Preserve the same poster modules, icon scale, blank headline bands, classroom color coding, and pacing rhythm from the reference routine board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nClassroom Routine and Rule Visual Set series study 2/4, handwashing sequence board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no teacher handwriting, no logos, no cluttered classroom walls, no harsh warning tone, no chaotic sticker overload.",
+  "id": "02-handwashing-sequence-board",
+  "title": "Handwashing Sequence Board",
+  "description": "A handwashing-focused variation preserving the same classroom rule-poster system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/02-handwashing-sequence-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-routine-board",
+        "meta_path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/01-reference-routine-board/meta.json",
+        "image_path": "works/topics/classroom-routine-and-rule-visual-set/packages/series-core-system/images/01-reference-routine-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 2 preserving the core system from 01-reference-routine-board.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Handwashing Sequence Board",
+      "description": "A handwashing-focused variation preserving the same classroom rule-poster system."
+    },
+    "zh-CN": {
+      "title": "洗手步骤板",
+      "description": "保持同一课堂规则海报系统的洗手步骤变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A handwashing-focused variation preserving the same classroom rule-poster system.",
+      "zh-CN": "保持同一课堂规则海报系统的洗手步骤变体。"
+    }
+  }
+}

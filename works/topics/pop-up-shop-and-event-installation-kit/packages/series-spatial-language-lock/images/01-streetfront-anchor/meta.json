@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Pop-up Shop and Event Installation Kit. Use a square streetfront hero still showing the full pop-up envelope and entry queue logic and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so photo moments, modular display, and high-recall activation design feel immediate, using soft neutral base with one strong accent color, translucent whites, brushed metal, and controlled event lighting as the governing tonal range. The composition must read as a high-end commercial image that could sit inside brand activations, launch events, campaign recaps, and experiential pitch decks.\n\nSubject:\nShow a modular pop-up and event installation built from tubular frames, translucent panels, bold but refined color blocks, sculpted counters, photo-op arches, and a circulation path designed for sharing and recall. Center the activation’s main recognizability, photo-op shape, and circulation invitation. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the tubular frame language, translucent panel system, accent-color blocking, modular counters, and camera-friendly circulation. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nPop-up Shop and Event Installation Kit series study 1/9, establishing the canonical pop-up identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowds, no branded slogans, no cheap balloon decor, no stage truss overload, no festival chaos, no city ads stealing focus.",
+  "id": "01-streetfront-anchor",
+  "title": "Streetfront Anchor",
+  "description": "A reference-setting architectural still for pop-up kit that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pop-up-shop-and-event-installation-kit/packages/series-spatial-language-lock/images/01-streetfront-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Streetfront Anchor",
+      "description": "A reference-setting architectural still for pop-up kit that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "街角快闪锚点",
+      "description": "围绕快闪装置的街角快闪锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Streetfront Anchor for Pop-up Shop and Event Installation Kit.",
+      "zh-CN": "快闪装置主题中的街角快闪锚点。"
+    }
+  }
+}

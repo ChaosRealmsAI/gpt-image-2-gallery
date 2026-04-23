@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Create a square overhead-to-slight-angle composition on pale wood or neutral stone, using restrained raking light and plenty of negative space. The mood should be calm and ceremonious.\n\nSubject:\nArrange a fan of sashimi slices with exact spacing and consistent knife thickness, allowing the grain direction and translucency of the fish to read clearly from piece to piece. One shiso leaf and a tiny wasabi mound may anchor the arrangement, but the fish remains the entire story. The fan should feel deliberate and almost geometric.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. Focus on knife-clean edges, subtle moisture, and the variation between overlapping slices. The composition should feel like a material study of fish structure rather than a general seafood plate.\n\nUse case:\nSushi and sashimi precision single study 5/9, isolating sashimi fan arrangement and slice discipline.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no soy dish, no decorative flowers, no restaurant-table clutter.",
+  "id": "sashimi-fan-study",
+  "title": "Sashimi Fan Study",
+  "description": "A formal fan of sliced fish documenting grain direction, thickness, and moist surface sheen with precision.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/single-support-studies/images/sashimi-fan-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sashimi Fan Study",
+      "description": "A formal fan of sliced fish documenting grain direction, thickness, and moist surface sheen with precision."
+    },
+    "zh-CN": {
+      "title": "Sashimi Fan Study",
+      "description": "A formal fan of sliced fish documenting grain direction, thickness, and moist surface sheen with precision."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A formal fan of sashimi slices showing exact spacing, grain direction, and clean knife edges.",
+      "zh-CN": "A formal fan of sashimi slices showing exact spacing, grain direction, and clean knife edges."
+    }
+  }
+}

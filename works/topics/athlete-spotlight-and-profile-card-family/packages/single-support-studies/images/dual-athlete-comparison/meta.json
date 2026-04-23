@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square dual-athlete comparison card for Athlete Cards, using portrait-led sports communication with stat-panel discipline, premium lighting, and card-like hierarchy. The composition should read as a practical, production-ready sports or fitness surface with a clear hierarchy, premium lighting, and obvious commercial intent. Keep the environment specific enough to feel real, but leave enough control in the layout for non-readable information modules, campaign blocks, or visualized metrics. Aim for a finish that works for a brand, club, app, academy, or event operator.\n\nSubject:\nBuild the image around two inward-facing athletes. The subject should be original, believable, and free of any real-brand or celebrity cues. Use realistic apparel, safe body mechanics when movement is visible, and environmental props that support the category without clutter. The subject must stay visually dominant so the design still works as a communication asset rather than a pure scene study.\n\nImportant details:\nThe mood should read as balanced analysis. Treat layout, light, and supporting graphic structure as part of one polished delivery surface. Any schedule blocks, metric panels, quote zones, badges, or path diagrams must stay abstract and non-readable. Prioritize usefulness, clarity, and category truth over spectacle. The image should feel distinct from the series package while still belonging naturally to the same topic and business use case.\n\nUse case:\nAthlete Cards single study 9/9, an independent rollout surface for the topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no public-figure resemblance, no generic stock layout, no cluttered UI imitation, no accidental copyrighted insignia.",
+  "id": "dual-athlete-comparison",
+  "title": "Dual Athlete Comparison",
+  "description": "A two-person comparison card that keeps portrait discipline and structured hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/athlete-spotlight-and-profile-card-family/packages/single-support-studies/images/dual-athlete-comparison/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study 9 for athlete-spotlight-and-profile-card-family.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dual Athlete Comparison",
+      "description": "A two-person comparison card that keeps portrait discipline and structured hierarchy."
+    },
+    "zh-CN": {
+      "title": "Dual Athlete Comparison",
+      "description": "A two-person comparison card that keeps portrait discipline and structured hierarchy."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A two-person comparison card that keeps portrait discipline and structured hierarchy.",
+      "zh-CN": "A two-person comparison card that keeps portrait discipline and structured hierarchy."
+    }
+  }
+}

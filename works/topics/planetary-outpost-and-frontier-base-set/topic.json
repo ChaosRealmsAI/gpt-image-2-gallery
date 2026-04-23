@@ -1,0 +1,47 @@
+{
+  "id": "planetary-outpost-and-frontier-base-set",
+  "slug": "planetary-outpost-and-frontier-base-set",
+  "title": "Planetary Outpost and Frontier Base Set",
+  "short_title": "Frontier Base",
+  "description": "Create frontier-base sets for planetary outposts with survival infrastructure and harsh-environment readability.",
+  "i18n": {
+    "en": {
+      "title": "Planetary Outpost and Frontier Base Set",
+      "short_title": "Frontier Base",
+      "description": "Create frontier-base sets for planetary outposts with survival infrastructure and harsh-environment readability."
+    },
+    "zh-CN": {
+      "title": "行星前哨与边疆基地组",
+      "short_title": "边疆基地",
+      "description": "做行星前哨与边疆基地组，强调生存基础设施和恶劣环境读感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

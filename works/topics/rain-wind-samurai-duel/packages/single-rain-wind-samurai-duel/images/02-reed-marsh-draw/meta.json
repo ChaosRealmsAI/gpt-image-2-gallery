@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square outdoor battlefield image shaped by violent weather: slanting rain, flattened reeds, mud spray, charcoal clouds, and wind carving motion through fabric and grass. The palette should stay restrained in charcoal, wet brown, muted steel, and deep moss, with nature overpowering the people within it. Use a marsh of bending reeds and black water channels, with wind flattening the plants into long diagonal strokes.\n\nSubject:\nThe subject is two lone armored duelists facing each other across open ground, bamboo edges, flooded fields, or broken terrain. Their poses should feel precise and ritualized, with tension coming from stance, distance, and weather rather than from explicit impact. One duelist has just begun to draw their blade while the other remains perfectly still across the mud.\n\nImportant details:\nThe core language is discipline against elemental force. Preserve historically inspired layered armor, soaked cloth, muddy terrain, reeds bent by wind, and the sense that rain itself is a character. Avoid fantasy powers, impossible weapons, or decorative heroic posing. Keep the gesture minimal and precise, making the reeds and rain carry most of the kinetic energy.\n\nUse case:\nRain Wind Samurai Duel Field single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable banners, no bright saturated armor, no fantasy monsters, no gore splatter, no stylized comic effects, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-reed-marsh-draw",
+  "title": "Reed Marsh Draw",
+  "description": "A reed marsh duel study where weather and a tiny initiating movement build overwhelming tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "high-speed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/rain-wind-samurai-duel/packages/single-rain-wind-samurai-duel/images/02-reed-marsh-draw/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rain wind duel study focused on reed marsh draw.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reed Marsh Draw",
+      "description": "A reed marsh duel study where weather and a tiny initiating movement build overwhelming tension."
+    },
+    "zh-CN": {
+      "title": "Reed Marsh Draw",
+      "description": "围绕雨风决斗的第2张独立研究图，聚焦 Reed Marsh Draw。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "Armored duelists stand in a reed marsh during hard rain as one begins a controlled draw.",
+      "zh-CN": "雨风决斗主题图：Reed Marsh Draw。"
+    }
+  }
+}

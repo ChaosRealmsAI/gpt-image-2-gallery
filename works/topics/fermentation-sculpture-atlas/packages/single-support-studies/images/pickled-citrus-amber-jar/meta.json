@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square museum-vitrine style photograph of fermentation vessels treated as natural-history specimens, with calm raking light, restrained reflections, and an atmosphere of patient observation. Glass, ceramic, cloth covers, and aged labels can appear, but any markings must stay unreadable. The mood should be archival, biological, and sculptural at once. Create a square museum-style jar portrait with warm side light passing through amber brine and translucent citrus slices. The pedestal and background should remain subdued and dignified.\n\nSubject:\nFill a glass vessel with halved or sliced preserved citrus fruits suspended in deep amber brine, with softened rinds, seeds, and peel layers visible through the liquid. A few sediment traces and glass imperfections should reinforce age. The jar should feel like both pantry artifact and scientific sample.\n\nImportant details:\nMicro texture is essential: skins, bubbles, sediment, microbial mats, crusts, folds, and wet surfaces all need distinct tactile logic. The images should respect the beauty of slow transformation without sanitizing it into generic product photography. Fermentation must look alive, layered, and physically specific. The beauty lies in translucency and time: make rind thickness, softened pulp, suspended seeds, and aged liquid all distinct. The brine should not look like syrup or juice.\n\nUse case:\nFermentation sculpture atlas single study 7/9, turning preserved citrus into an amber archival specimen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable dates or species names, no modern supermarket packaging, no laboratory sterility that kills the organic feel, no mold-horror sensationalism, no cartoon colors, no summer-drink styling, no cocktail props, no readable canning label.",
+  "id": "pickled-citrus-amber-jar",
+  "title": "Pickled Citrus Amber Jar",
+  "description": "A preserved citrus vessel where translucent rinds, brine, and time-stained glass create archival richness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "scientific-realism",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fermentation-sculpture-atlas/packages/single-support-studies/images/pickled-citrus-amber-jar/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Pickled Citrus Amber Jar",
+      "description": "A preserved citrus vessel where translucent rinds, brine, and time-stained glass create archival richness."
+    },
+    "zh-CN": {
+      "title": "Pickled Citrus Amber Jar",
+      "description": "A preserved citrus vessel where translucent rinds, brine, and time-stained glass create archival richness."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A jar of preserved citrus glowing through amber brine with visible rind layers and seeds.",
+      "zh-CN": "A jar of preserved citrus glowing through amber brine with visible rind layers and seeds."
+    }
+  }
+}

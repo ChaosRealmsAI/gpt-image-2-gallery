@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Retain the exact card structure but shift the mood to low-key evening light, richer shadows, and warmer highlights that suggest night ordering.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. Center a compact indulgent snack or noodle meal in packaging, with one glowing accent like a drink or dipping sauce to support the nighttime story.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-app-tile-anchor. The series anchor should remain visible through layout, placeholder shapes, crop discipline, and appetite-first styling even as the mood turns more nocturnal.\n\nUse case:\nDelivery Tiles series study 4/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no party scene, no readable midnight offer text, no greasy mess.",
+  "id": "04-late-night-snack-tile",
+  "title": "Late Night Snack Tile",
+  "description": "A darker, moodier delivery tile that keeps the reference card system while pivoting toward late-night cravings.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/04-late-night-snack-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-app-tile-anchor",
+        "meta_path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/01-app-tile-anchor/meta.json",
+        "image_path": "works/topics/delivery-first-food-commerce-tiles/packages/series-core-system/images/01-app-tile-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-app-tile-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Late Night Snack Tile",
+      "description": "A darker, moodier delivery tile that keeps the reference card system while pivoting toward late-night cravings."
+    },
+    "zh-CN": {
+      "title": "深夜加餐卡片",
+      "description": "深夜加餐卡片：外卖tiles主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A darker, moodier delivery tile that keeps the reference card system while pivoting toward late-night cravings.",
+      "zh-CN": "深夜加餐卡片，用于外卖tiles主题。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square conservation-table view of a vintage poster laid on gray felt under raking light, with visible fold lines, softened corners, and subtle aging that still preserves the integrity of the image. The poster should express strict geometric modernism built from circles, bars, triangles, squares, and measured negative space, using cobalt blue, mustard yellow, cadmium red, black, and warm paper white and a tactile surface appropriate to the medium.\n\nSubject:\nPresent the poster as an archive copy that has been stored, unfolded, and carefully documented, letting age and handling reveal how the design holds up across time. Use modular furniture silhouettes, workshop tools, compass arcs, ruler lines, and architecture-school diagrams as the main visual ingredients, and organize them with geometric sans-serif blocks and numerals treated purely as non-readable forms. For the contemporary-subject axis, thread in a bike-share docking station and urban wayfinding elements reduced into pure geometry. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nAging must stay believable rather than theatrical: slight yellowing, fold memory, edge wear, and pigment variation should support the historical or crafted feeling of the style. Preserve mathematical spacing, flat planes, hard edges, exact weight distribution, and clean asymmetry. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no decorative flourishes, no gradients, no photoreal portraits, no soft painterly blending.\n\nUse case:\nBauhaus Poster single study 5/9, testing archival endurance and age character.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "05-folded-archive-copy",
+  "title": "Folded Archive Copy",
+  "description": "Bauhaus Poster rendered as a folded archive copy study, emphasizing testing archival endurance and age character.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/bauhaus-poster-textbook/packages/single-poster-studies/images/05-folded-archive-copy/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Bauhaus Poster poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Folded Archive Copy",
+      "description": "Bauhaus Poster rendered as a folded archive copy study, emphasizing testing archival endurance and age character."
+    },
+    "zh-CN": {
+      "title": "折痕档案版",
+      "description": "包豪斯海报主题下的折痕档案版研究，重点是测试档案保存后的时间感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Bauhaus Poster poster study shown as folded archive copy with non-readable lettering and style-accurate materials.",
+      "zh-CN": "包豪斯海报风格海报，以折痕档案版形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

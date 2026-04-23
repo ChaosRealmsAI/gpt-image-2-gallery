@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square frame organized around a ruthless one-point perspective, with the vanishing point pinned dead center and every wall seam, ceiling light, floor tile, and doorway converging toward it. The palette should lean cold white, muted red, steel gray, and hospital green, with a monumental sense of emptiness and institutional order. Construct an archive tunnel lined with equal metal shelves and rolling ladders, each repeating into the distance under cool white strip lighting.\n\nSubject:\nPlace one small human figure or one important object along the central axis so the architecture dominates the scale relationship. The corridor or interior must feel long, controlled, and mildly oppressive, as if the camera is witnessing a space designed by precision rather than comfort. A single empty chair faces the vanishing point at the center, implying recent human presence without filling the space with action.\n\nImportant details:\nThe essential grammar is exact perspective discipline, polished surfaces, measured repetition, and low emotional temperature. Preserve straight lines, clean threshold spacing, and a believable practical-lighting logic. The image should feel clinical, deliberate, and spatially hypnotic rather than decorative or chaotic. The room should feel heavy with order and storage logic, with labels omitted so only the geometry and serial repetition remain.\n\nUse case:\nSingle-Point Perspective Clinical Corridor single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fisheye distortion, no crooked horizon, no cluttered props, no graffiti, no colorful signage, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "03-archive-tunnel",
+  "title": "Archive Tunnel",
+  "description": "A long archive aisle where an empty centered chair sharpens the cold one-point spatial logic.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-point-perspective-clinical-corridor/packages/single-single-point-perspective-clinical-corridor/images/03-archive-tunnel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent one-point clinical study focused on archive tunnel.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Archive Tunnel",
+      "description": "A long archive aisle where an empty centered chair sharpens the cold one-point spatial logic."
+    },
+    "zh-CN": {
+      "title": "Archive Tunnel",
+      "description": "围绕单点透视的第3张独立研究图，聚焦 Archive Tunnel。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A metallic archive tunnel in strict perspective with a lone chair centered in the aisle.",
+      "zh-CN": "单点透视主题图：Archive Tunnel。"
+    }
+  }
+}

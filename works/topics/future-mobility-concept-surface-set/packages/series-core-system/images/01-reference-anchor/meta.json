@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square clean future-street setting at soft morning light with reflective pavement, calm civic geometry, and restrained environmental detail. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original compact autonomous urban mobility pod with panoramic glass corners, sliding side access, concealed sensors, soft-edge body surfacing, and modular seating visible through the cabin. Make the subject feel original, production-aware, and clearly grounded in Future Mobility Concept Surface Set. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nShow the full pod clearly, including cabin, access door, wheel treatment, and lighting signature. The image should feel visionary yet practical enough for industrial discussion. Preserve exact pod silhouette, glazing proportions, door strategy, wheel enclosure logic, and lighting signature across the series. The concept should feel forward-looking but manufacturable within a plausible near-future city. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMobility Concept series study 1/9 for Future Mobility Concept Surface Set, built as image 01-reference-anchor.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no cyberpunk clutter, no hologram overload, no flying parts, no dystopian debris, no weaponized cues.",
+  "id": "01-reference-anchor",
+  "title": "Reference Pod",
+  "description": "The hero concept frame that establishes the pod identity and urban mobility tone.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "frontier-creative-composition",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-mobility-concept-surface-set/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series fanout.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Pod",
+      "description": "The hero concept frame that establishes the pod identity and urban mobility tone."
+    },
+    "zh-CN": {
+      "title": "基准概念舱",
+      "description": "建立概念舱身份与城市出行语气的基准画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "frontier-creative-composition",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "An original future-mobility pod presented as the core concept hero.",
+      "zh-CN": "原创未来出行舱的核心概念主视觉。"
+    }
+  }
+}

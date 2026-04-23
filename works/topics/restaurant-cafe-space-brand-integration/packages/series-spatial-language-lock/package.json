@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Hospitality Brand Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of restaurant cafe space brand integration before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Cafe Space. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-storefront-interior-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Hospitality Brand Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of restaurant cafe space brand integration before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "餐饮品牌锁定",
+      "description": "四张参考依赖图，用来锁定餐饮空间的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-storefront-interior-anchor",
+      "title": "Storefront Interior Anchor",
+      "image": "images/01-storefront-interior-anchor/image.png",
+      "meta": "images/01-storefront-interior-anchor/meta.json"
+    },
+    {
+      "id": "02-bar-counter-focus",
+      "title": "Bar Counter Focus",
+      "image": "images/02-bar-counter-focus/image.png",
+      "meta": "images/02-bar-counter-focus/meta.json"
+    },
+    {
+      "id": "03-dining-room-evening",
+      "title": "Dining Room Evening",
+      "image": "images/03-dining-room-evening/image.png",
+      "meta": "images/03-dining-room-evening/meta.json"
+    },
+    {
+      "id": "04-pastry-display-corner",
+      "title": "Pastry Display Corner",
+      "image": "images/04-pastry-display-corner/image.png",
+      "meta": "images/04-pastry-display-corner/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-storefront-interior-anchor/meta.json",
+      "images/02-bar-counter-focus/meta.json",
+      "images/03-dining-room-evening/meta.json",
+      "images/04-pastry-display-corner/meta.json"
+    ],
+    "ref_strategy": "Run 01-storefront-interior-anchor first. Use its runtime result URL as --ref for 02-bar-counter-focus, 03-dining-room-evening, 04-pastry-display-corner. Queue may run 02-bar-counter-focus, 03-dining-room-evening, 04-pastry-display-corner concurrently after 01-storefront-interior-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

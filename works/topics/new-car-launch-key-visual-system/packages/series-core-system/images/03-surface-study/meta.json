@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square first-light landscape on a mineral plateau with long shadows, pale sky gradient, dry air clarity, and minimal environmental noise. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original premium electric grand tourer with a long wheelbase, flush glazing, crisp shoulder line, turbine wheels, disciplined metallic paint, and an abstract brandless lamp signature. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. For this series image, preserve exact core subject identity, proportions, base geometry, and material language from the reference image whenever continuity matters. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse the warm dawn condition to reveal hood tension, fender transitions, wheel-arch precision, and panel discipline. The scene should sell craftsmanship and controlled restraint rather than pure spectacle. Preserve the same exact vehicle silhouette, wheel design, greenhouse proportions, body-color family, and lamp signature across the series. Reflections must explain the surfacing cleanly. The images should feel like real launch-campaign assets rather than anonymous stock renders. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch series study 3/9 for New Car Launch Key Visual System, built as image 03-surface-study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no dealership clutter, no race decals, no readable plate, no badge lettering, no cheap showroom props.",
+  "id": "03-surface-study",
+  "title": "Surface Study",
+  "description": "The same vehicle restaged to emphasize body surfacing, stance, and premium calm.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/03-surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/new-car-launch-key-visual-system/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent series variation that must inherit the approved runtime reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Surface Study",
+      "description": "The same vehicle restaged to emphasize body surfacing, stance, and premium calm."
+    },
+    "zh-CN": {
+      "title": "曲面研究",
+      "description": "重新布置同一车型，以突出曲面、姿态和高级克制感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "The same launch car revealed at sunrise in a clean mineral landscape.",
+      "zh-CN": "同一发布车型在清洁矿物地景的日出中被揭幕。"
+    }
+  }
+}

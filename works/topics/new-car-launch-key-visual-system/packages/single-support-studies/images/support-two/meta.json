@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square design-board setup viewed close to straight-on, with careful spacing, neutral ground, and premium product lighting across arranged samples. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original vehicle paint and trim studies arranged with body fragments, wheel inserts, surface swatches, and material chips. Make the subject feel original, production-aware, and clearly grounded in New Car Launch Key Visual System. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nStress realistic paint behavior, coherent industrial-design hierarchy, and catalog-quality organization. The board must feel useful to a launch team rather than decorative lifestyle collage. The visual language should still feel native to New Car Launch Key Visual System, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCar Launch single study 6/9 for New Car Launch Key Visual System, built as image support-two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no badge lettering, no license plate numbers, no unrelated consumer clutter.",
+  "id": "support-two",
+  "title": "Color And Trim Board",
+  "description": "A premium board comparing launch colorways and trim decisions for one vehicle class.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-car-launch-key-visual-system/packages/single-support-studies/images/support-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Color And Trim Board",
+      "description": "A premium board comparing launch colorways and trim decisions for one vehicle class."
+    },
+    "zh-CN": {
+      "title": "色彩饰面板",
+      "description": "比较同一车型级别多种颜色与饰面的高级研究板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A premium color and trim board for an original car launch.",
+      "zh-CN": "原创车型发布用的高级色彩与饰面研究板。"
+    }
+  }
+}

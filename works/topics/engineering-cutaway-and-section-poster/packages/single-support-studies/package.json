@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Section Support Studies",
+  "description": "Five independent technical-communication studies complementing the cutaway poster series.",
+  "creative_direction": "Independent cutaway, process, and engineering-board studies exploring section graphics without direct continuity requirements.",
+  "cover_image": "images/support-one/image.png",
+  "i18n": {
+    "en": {
+      "title": "Section Support Studies",
+      "description": "Five independent technical-communication studies complementing the cutaway poster series."
+    },
+    "zh-CN": {
+      "title": "剖面支持研究",
+      "description": "五张独立技术传播研究图，补充剖面海报系列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "scientific-realism",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "support-one",
+      "title": "Speaker Cutaway",
+      "image": "images/support-one/image.png",
+      "meta": "images/support-one/meta.json"
+    },
+    {
+      "id": "support-two",
+      "title": "Motor Section",
+      "image": "images/support-two/image.png",
+      "meta": "images/support-two/meta.json"
+    },
+    {
+      "id": "support-three",
+      "title": "Service Door Diagram",
+      "image": "images/support-three/image.png",
+      "meta": "images/support-three/meta.json"
+    },
+    {
+      "id": "support-four",
+      "title": "Flow Path Poster",
+      "image": "images/support-four/image.png",
+      "meta": "images/support-four/meta.json"
+    },
+    {
+      "id": "support-five",
+      "title": "Museum Tech Board",
+      "image": "images/support-five/image.png",
+      "meta": "images/support-five/meta.json"
+    }
+  ]
+}

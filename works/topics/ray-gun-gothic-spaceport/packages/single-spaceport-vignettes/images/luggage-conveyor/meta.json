@@ -1,0 +1,32 @@
+{
+  "prompt": "Scene:\nA square mid-century editorial illustration of an imagined 1960 spaceport luggage bay, camera medium shot, slight overhead angle looking down onto a chrome conveyor system. Cool fluorescent daylight tone, soft shadows. Light halftone grain.\n\nSubject:\nA chrome-bodied space-age luggage conveyor with exposed rollers and bright yellow safety stripes along its edge. A line of rounded mid-century suitcases in pastel colors (powder pink, turquoise, ivory, cadmium red) moves along the belt, each with chrome hardware and small brass tag holders. Overhead a chrome claw-arm mechanism carries a bulging round hatbox toward a curving chute. A stylized baggage handler in ivory coveralls and a turquoise flat cap watches the belt with a cheerful thumbs up. Decorative starburst graphics are painted on the wall behind him.\n\nImportant details:\nStrict atomic-age palette. Suitcases are bulbous rounded forms, not modern rectangular roller bags. Machinery is visibly mechanical: gears, rollers, chrome levers, amber indicator bulbs. Palette accents: cadmium red, bright yellow, turquoise, pink, chrome. Illustration is editorial mid-century magazine painting, not photoreal.\n\nUse case:\nSpaceport Vignettes single study 3 of 5, standalone editorial scene.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern roller luggage, no LCD display, no photoreal skin, preserve exact 1:1 aspect ratio.",
+  "id": "luggage-conveyor",
+  "title": "Luggage Conveyor",
+  "description": "Editorial scene of a chrome atomic-age luggage conveyor with rounded pastel suitcases and a friendly handler.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "commercial-mockup", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {"path": "works/topics/ray-gun-gothic-spaceport/packages/single-spaceport-vignettes/images/luggage-conveyor/image.png", "name": "image"},
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single."
+  },
+  "i18n": {
+    "en": {"title": "Luggage Conveyor", "description": "Editorial scene of a chrome atomic-age luggage conveyor with rounded pastel suitcases and a friendly handler."},
+    "zh-CN": {"title": "行李传送带", "description": "原子时代镀铬行李传送带的编辑场景, 圆润的粉彩行李箱和一位友好的搬运工。"}
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "commercial-mockup"],
+    "alt": {"en": "A chrome atomic-age luggage conveyor with rounded pastel suitcases passing under a chrome claw arm.", "zh-CN": "镀铬原子时代行李传送带, 粉彩色圆润行李箱从镀铬爪臂下经过。"}
+  }
+}

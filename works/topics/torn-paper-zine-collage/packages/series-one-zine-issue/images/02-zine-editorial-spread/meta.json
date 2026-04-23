@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of the interior editorial spread of the same zine from the reference. The grey newsprint paper tone, drum-line streaks, and overall photocopy grain are identical. A pair of scissors rests near the bottom-right edge just inside frame as if the maker had only just stepped away.\n\nSubject:\nThe editorial inside spread is a dense two-page essay. The left page features a column of photocopied typewriter text fragments taped over each other at slight angles, two cut-out portraits roughly cropped into ovals, and marker underlines in tomato red. The right page holds a torn graph fragment with hand-redrawn lines over it in blue ballpoint, a blocky hand-drawn diagram with arrows, and a small rubber-stamp date smear.\n\nImportant details:\nPreserve exact identity established by the reference: same grey newsprint, same drum-line grain, same highlighter yellow, ballpoint blue, tomato red marker, same scissor-fray edges, same glue halo style. Only composition and content differ. Typewriter text must be photocopy-aged, edges blurred. The rubber-stamp date smear must be real ink, not vector.\n\nUse case:\nSeries image 2 of 4 · the editorial spread of the same zine, continuing the paper and hand.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector graphs, no clean edges, no uniform color fills, preserve exact 1:1 aspect ratio.",
+  "id": "02-zine-editorial-spread",
+  "title": "Zine Editorial Spread",
+  "description": "The interior editorial spread of the same zine with photocopied typewriter columns, torn portraits, and a hand-redrawn graph.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/02-zine-editorial-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-zine-master-cover",
+        "meta_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/meta.json",
+        "image_path": "works/topics/torn-paper-zine-collage/packages/series-one-zine-issue/images/01-zine-master-cover/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on cover for paper stock, grain, and marker palette continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Zine Editorial Spread",
+      "description": "The interior editorial spread of the same zine with photocopied typewriter columns, torn portraits, and a hand-redrawn graph."
+    },
+    "zh-CN": {
+      "title": "Zine 内页专栏",
+      "description": "同一本 zine 的内页专栏 · 复印打字机文字列 · 撕下的肖像 · 手绘曲线图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Interior zine spread with pasted typewriter columns, torn portraits, and a hand-redrawn graph.",
+      "zh-CN": "zine 内页跨页 · 拼贴的打字机文字 · 撕肖像和手绘图表。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square streetside kiosk environment at dusk with integrated lighting, clean civic materials, and subtle rain sheen on the ground. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original mobility-service kiosk with docking cues, route abstractions, ambient light, and premium public-infrastructure detailing. Make the subject feel original, production-aware, and clearly grounded in Future Mobility Concept Surface Set. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep the system plausible, legible, and logo-free. The kiosk should feel like part of a real mobility network, not a generic smart-city prop. The visual language should still feel native to Future Mobility Concept Surface Set, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nMobility Concept single study 7/9 for Future Mobility Concept Surface Set, built as image support-three.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no cyberpunk clutter, no impossible mechanics, no fantasy weaponry, no dystopian grime.",
+  "id": "support-three",
+  "title": "Urban Network Kiosk",
+  "description": "A station-kiosk hero visualizing the service ecosystem around future mobility.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "frontier-creative-composition",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-mobility-concept-surface-set/packages/single-support-studies/images/support-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Urban Network Kiosk",
+      "description": "A station-kiosk hero visualizing the service ecosystem around future mobility."
+    },
+    "zh-CN": {
+      "title": "城市网络终端",
+      "description": "可视化未来出行服务生态的站点终端主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "frontier-creative-composition",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A future-mobility service kiosk in a clean urban environment.",
+      "zh-CN": "干净城市环境中的未来出行服务终端。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square overhead-angled view of the crossing of a gothic cathedral, where nave, transepts and choir meet under a central square of rib-vaulting. Deep indigo stone floor inlaid with pale stone bands.\n\nSubject:\nA large volumetric holographic cross stands vertically in the crossing, suspended just above the floor, its beams made of layered cyan light sheets with a warm amber core. Where the cross meets the stone, a circular pool of refracted light spreads outward in fine concentric rings on the floor inlay. Four narrow AR ribbons descend from the four rib-vault corners, each touching one arm of the cross.\n\nImportant details:\nStone floor inlay must be physically correct: pale stone bands form a cross pattern matching the crossing, with age wear, grout lines, and tiny chips. The volumetric cross must have clear layered depth — multiple parallel light sheets, not one flat shape. Light scatter onto floor must follow real refraction physics: concentric soft rings, not hard circles. Color palette: cyan sheets, amber core, indigo stone, pale floor bands.\n\nUse case:\nHologram Cathedral Nave single study 5/5, focusing on a volumetric cross at the crossing.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crucifix corpus, no realistic Christ figure, no brand engravings on the floor, no human silhouettes, no candles in frame.",
+  "id": "projected-cross-crossing",
+  "title": "Projected Cross at the Crossing",
+  "description": "A volumetric holographic cross stands above the gothic crossing floor inlay, layered cyan sheets and an amber core casting concentric refracted rings.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fusion",
+    "photorealism",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/single-holo-nave-details/images/projected-cross-crossing/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent shot of the volumetric cross at the crossing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Projected Cross at the Crossing",
+      "description": "A volumetric holographic cross stands above the gothic crossing floor inlay, layered cyan sheets and an amber core casting concentric refracted rings."
+    },
+    "zh-CN": {
+      "title": "交叉部投影十字",
+      "description": "哥特十字交叉部上方，体积全息十字悬浮，青色分层光片与琥珀色核心向地面投出同心折射光环。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fusion",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A large volumetric holographic cross floating at the gothic crossing, scattering concentric rings of light on inlaid stone.",
+      "zh-CN": "哥特交叉部上方悬浮巨大体积全息十字，向石拼地面投射同心光环。"
+    }
+  }
+}

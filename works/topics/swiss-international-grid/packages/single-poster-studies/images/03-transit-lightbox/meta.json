@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square dusk street photograph of a backlit transit poster glowing inside glass, with faint rain reflections, soft city blur in the distance, and the poster remaining fully legible as a composition. The poster should express rigorous Swiss grid design with modular columns, disciplined margins, quiet asymmetry, and large white fields, using red, black, white, graphite gray, and occasional cool silver paper tone and a tactile surface appropriate to the medium.\n\nSubject:\nAdapt the poster into a public-facing lightbox version that still honors the original style grammar while feeling bold enough to stop a passerby from several meters away. Use gallery objects, arrows, cropped still-life fragments, line charts, timetable bars, and alignment guides as the main visual ingredients, and organize them with grotesk typographic blocks, rules, and index markers rendered as non-readable layout forms. For the contemporary-subject axis, thread in shared bicycles, transit maps, and civic information cues reduced into a severe exhibition grid. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nLet the style survive the illumination test: color blocking, silhouette contrast, and abstract lettering should stay controlled under bright internal light and reflective glass. Preserve baseline precision, invisible column logic, severe spacing discipline, and crisp edge hierarchy. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no centered symmetry, no distressed paper, no decorative ornament, no playful doodles.\n\nUse case:\nSwiss Grid single study 3/9, testing distance readability in public display.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "03-transit-lightbox",
+  "title": "Transit Lightbox",
+  "description": "Swiss Grid rendered as a transit lightbox study, emphasizing testing distance readability in public display.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/swiss-international-grid/packages/single-poster-studies/images/03-transit-lightbox/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Swiss Grid poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Transit Lightbox",
+      "description": "Swiss Grid rendered as a transit lightbox study, emphasizing testing distance readability in public display."
+    },
+    "zh-CN": {
+      "title": "灯箱候车亭",
+      "description": "瑞士网格主题下的灯箱候车亭研究，重点是测试公共场景下的远距识别。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Swiss Grid poster study shown as transit lightbox with non-readable lettering and style-accurate materials.",
+      "zh-CN": "瑞士网格风格海报，以灯箱候车亭形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

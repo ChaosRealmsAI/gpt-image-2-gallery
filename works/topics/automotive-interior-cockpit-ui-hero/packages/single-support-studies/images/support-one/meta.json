@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square flat-to-slightly-angled board with screen panels, clean reflections, dark neutral ground, and disciplined spacing. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter original in-car interface states for navigation, energy, audio, and parking embedded into premium display surfaces. Make the subject feel original, production-aware, and clearly grounded in Automotive Interior Cockpit UI Hero. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nUse automotive UI logic with abstract graphs, icon blocks, and map fields that remain non-readable. The board should feel like a real design review artifact rather than a fantasy dashboard collage. The visual language should still feel native to Automotive Interior Cockpit UI Hero, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCockpit UI single study 5/9 for Automotive Interior Cockpit UI Hero, built as image support-one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app-store iconography, no fantasy holograms, no navigation labels, no brand marks.",
+  "id": "support-one",
+  "title": "UI State Board",
+  "description": "A design-board image comparing several in-car UI states with believable hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/automotive-interior-cockpit-ui-hero/packages/single-support-studies/images/support-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "UI State Board",
+      "description": "A design-board image comparing several in-car UI states with believable hierarchy."
+    },
+    "zh-CN": {
+      "title": "界面状态板",
+      "description": "比较多种车内 UI 状态的设计板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A premium board comparing several automotive UI states.",
+      "zh-CN": "高级汽车 UI 状态比较板。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior image held in patient stillness, with rain sliding down window glass, damp wood, muted blue-gray daylight, and one warm pool of lamplight or stove light inside. The room should feel inhabited but quiet, with time stretched by weather and silence rather than by spectacle. Stage a dining room with one lamp left on, an unfinished loaf of bread, and rain blurring the garden beyond tall windows.\n\nSubject:\nUse one seated or standing figure, sometimes accompanied by a sleeping animal or simple domestic object, positioned so the window and the room share emotional weight. The human presence should be understated, contemplative, and integrated into the architecture. A solitary figure stands at the far end of the room with hands in pockets, small inside the long table and chairs.\n\nImportant details:\nThe grammar depends on slow observation: wet glass, old timber, worn textiles, steam, puddled boots, enamel basins, and practical light. Preserve physical realism and spiritual quiet without turning the scene into fantasy, melodrama, or rustic cliche. The composition should make empty furniture feel emotionally active without becoming theatrical or gothic.\n\nUse case:\nLong Gaze Through Rain Interior single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no obvious luxury styling, no dramatic storm destruction, no modern electronics dominating the room, no theatrical color grading, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "06-empty-dining-room",
+  "title": "Empty Dining Room",
+  "description": "A long dining room in rain where one distant figure and untouched bread intensify the sense of suspended time.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/long-gaze-rain-interior/packages/single-long-gaze-rain-interior/images/06-empty-dining-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent long gaze rain study focused on empty dining room.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Empty Dining Room",
+      "description": "A long dining room in rain where one distant figure and untouched bread intensify the sense of suspended time."
+    },
+    "zh-CN": {
+      "title": "Empty Dining Room",
+      "description": "围绕长凝视的第6张独立研究图，聚焦 Empty Dining Room。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A rainlit dining room with a long table, one lamp, and a solitary figure at the far end.",
+      "zh-CN": "长凝视主题图：Empty Dining Room。"
+    }
+  }
+}

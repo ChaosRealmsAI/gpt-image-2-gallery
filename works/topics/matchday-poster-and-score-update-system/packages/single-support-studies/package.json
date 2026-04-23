@@ -1,0 +1,65 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Support Surface Studies",
+  "description": "Five independent studies that extend the matchday language to extra social and venue surfaces without reference dependencies.",
+  "creative_direction": "Independent rollout studies for Matchday Poster and Score Update System. Each image tests a different practical delivery surface while keeping the category rooted in real sports media packaging rather than generic poster styling.",
+  "cover_image": "images/prematch-social-tile/image.png",
+  "i18n": {
+    "en": {
+      "title": "Support Surface Studies",
+      "description": "Five independent studies that extend the matchday language to extra social and venue surfaces without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "Support Surface Studies",
+      "description": "Five independent studies that extend the matchday language to extra social and venue surfaces without reference dependencies."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "prematch-social-tile",
+      "title": "Prematch Social Tile",
+      "image": "images/prematch-social-tile/image.png",
+      "meta": "images/prematch-social-tile/meta.json"
+    },
+    {
+      "id": "lineup-intensity-card",
+      "title": "Lineup Intensity Card",
+      "image": "images/lineup-intensity-card/image.png",
+      "meta": "images/lineup-intensity-card/meta.json"
+    },
+    {
+      "id": "halftime-momentum-panel",
+      "title": "Halftime Momentum Panel",
+      "image": "images/halftime-momentum-panel/image.png",
+      "meta": "images/halftime-momentum-panel/meta.json"
+    },
+    {
+      "id": "player-of-the-match-card",
+      "title": "Player of the Match Card",
+      "image": "images/player-of-the-match-card/image.png",
+      "meta": "images/player-of-the-match-card/meta.json"
+    },
+    {
+      "id": "venue-program-cover",
+      "title": "Venue Program Cover",
+      "image": "images/venue-program-cover/image.png",
+      "meta": "images/venue-program-cover/meta.json"
+    }
+  ]
+}

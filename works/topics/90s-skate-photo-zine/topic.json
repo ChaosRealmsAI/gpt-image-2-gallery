@@ -1,0 +1,52 @@
+{
+  "id": "90s-skate-photo-zine",
+  "slug": "90s-skate-photo-zine",
+  "category": "editorial",
+  "style": [
+    "retro",
+    "editorial"
+  ],
+  "capability": [
+    "photorealism",
+    "editorial-illustration",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "title": "90s Skate Photo Zine",
+  "short_title": "90s Skate Zine",
+  "description": "90s skate photo-zine spreads — gritty fisheye action photography, black-and-white photocopy reproduction, duct-tape edges, marker annotations, staple punch-holes, rebel street energy captured at modern scan precision.",
+  "i18n": {
+    "en": {
+      "title": "90s Skate Photo Zine",
+      "short_title": "90s Skate Zine",
+      "description": "90s skate photo-zine spreads — gritty fisheye action photography, black-and-white photocopy reproduction, duct-tape edges, marker annotations, staple punch-holes, rebel street energy captured at modern scan precision."
+    },
+    "zh-CN": {
+      "title": "90 年代滑板摄影 zine",
+      "short_title": "滑板 zine",
+      "description": "90 年代滑板摄影 zine 跨页 · 粗糙鱼眼动作照 · 黑白复印再制 · 胶带粘边 · 记号笔标注 · 订书钉孔 · 反叛街头能量以现代扫描精度重现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-skate-zine-studies",
+      "type": "single",
+      "title": "Skate Zine Studies",
+      "path": "packages/single-skate-zine-studies/package.json"
+    }
+  ]
+}

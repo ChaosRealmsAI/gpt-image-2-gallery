@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Night Architecture Lighting Photography Set. Use a longer lens view from across a bridge, river edge, or reflective street plane while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep deep blue-black night, warm gold light, cool silver reflections, and restrained amber interior spill as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a night-architecture photography subject with layered facade lighting, wet pavement reflections, atmospheric civic calm, controlled interior glow, and a clearly recognizable silhouette. Focus on the exact same building from the reference image, now emphasizing city context and reflected geometry. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the building silhouette, lighting hierarchy, reflection logic, civic atmosphere, and disciplined night-photography realism. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nNight Architecture Lighting Photography Set series study 3/9, extending urban-night context inside the same lighting identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no fireworks, no traffic light streak overload, no readable signage, no festival screens, no people crowding the foreground, no skyline clutter.",
+  "id": "03-bridge-reflection-view",
+  "title": "Bridge Reflection View",
+  "description": "A reference-dependent architectural variation for night architecture focused on bridge reflection view.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "cinematic",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/03-bridge-reflection-view/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-blue-hour-anchor",
+        "meta_path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/01-blue-hour-anchor/meta.json",
+        "image_path": "works/topics/night-architecture-lighting-photography-set/packages/series-spatial-language-lock/images/01-blue-hour-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bridge Reflection View",
+      "description": "A reference-dependent architectural variation for night architecture focused on bridge reflection view."
+    },
+    "zh-CN": {
+      "title": "桥畔倒影视角",
+      "description": "围绕建筑夜景的桥畔倒影视角研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Bridge Reflection View for Night Architecture Lighting Photography Set.",
+      "zh-CN": "建筑夜景主题中的桥畔倒影视角。"
+    }
+  }
+}

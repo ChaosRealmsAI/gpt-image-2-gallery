@@ -1,0 +1,46 @@
+{
+  "id": "liquid-nitrogen-frozen-moment",
+  "slug": "liquid-nitrogen-frozen-moment",
+  "title": "Liquid Nitrogen Frozen Moment",
+  "short_title": "LN2 Moment",
+  "description": "Ultra-high-speed capture of liquid nitrogen being poured over or around food — roses frozen mid-shatter, berries splitting, cream crystallising.",
+  "i18n": {
+    "en": {
+      "title": "Liquid Nitrogen Frozen Moment",
+      "short_title": "LN2 Moment",
+      "description": "Ultra-high-speed capture of liquid nitrogen being poured over or around food — roses frozen mid-shatter, berries splitting, cream crystallising."
+    },
+    "zh-CN": {
+      "title": "液氮瞬冻一刻",
+      "short_title": "液氮一刻",
+      "description": "液氮浇在食物上的超高速捕捉 · 玫瑰冻成碎瞬间、浆果炸开、奶油结晶。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2050,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "high-speed",
+      "physics-materials",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Cryogenic Moment Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Thermal Shock Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

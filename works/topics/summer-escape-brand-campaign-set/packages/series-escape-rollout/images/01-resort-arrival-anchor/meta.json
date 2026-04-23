@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square premium summer campaign image under bright coastal or resort light with high sun clarity, crisp shadows, pale stone, turquoise water reflections, citrus accents, and linen-soft warmth. The frame should feel like a brand world for light vacation and seasonal appetite rather than a travel postcard. Keep the image polished, high-end, and commercially useful across beverage, fashion, travel, or home-lifestyle campaign surfaces.\n\nSubject:\nCenter a composed leisure-arrival arrangement with travel bag, towel or linen, drink or fruit cue, sunglasses-like accessory shapes, and a few architectural or poolside elements that suggest immediate escape. The subject should communicate movement away from routine and toward premium rest. Build distinct foreground and background layers so the scene reads both as an aspirational lifestyle image and as a reusable campaign anchor.\n\nImportant details:\nLock the summer grammar here: clean sun, cool water reflections, pale natural surfaces, citrus freshness, light textiles, and premium breathing room. Avoid overpacked vacation clichés. The anchor should feel editorial and commercial at once, able to support travel, beverage, fashion, beauty, or home brands that want a polished summer-escape visual language.\n\nUse case:\nSummer Escape series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable travel tags, no brand logos, no crowd, no tropical cliché overload, no cruise-ship feel, no loud inflatable toys, no text on towels, no cheap souvenir props.",
+  "id": "01-resort-arrival-anchor",
+  "title": "Resort Arrival Anchor",
+  "description": "A bright summer hero scene establishing the travel-and-leisure campaign language for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/summer-escape-brand-campaign-set/packages/series-escape-rollout/images/01-resort-arrival-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Summer Escape rollout.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Resort Arrival Anchor",
+      "description": "A bright summer hero scene establishing the travel-and-leisure campaign language for the series."
+    },
+    "zh-CN": {
+      "title": "度假抵达锚点",
+      "description": "建立夏季逃离感 travel and leisure campaign 语言的主视觉锚点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A summer escape hero scene with bright resort light, travel polish, and premium leisure energy.",
+      "zh-CN": "带有明亮度假光线、出行质感与高端休闲能量的夏季主视觉。"
+    }
+  }
+}

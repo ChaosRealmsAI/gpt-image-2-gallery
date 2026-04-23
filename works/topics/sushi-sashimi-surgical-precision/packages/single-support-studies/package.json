@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Knife and Grain Studies",
+  "description": "Five independent omakase studies exploring sashimi arrangement, rice structure, wasabi form, knife work, and boxed presentation.",
+  "creative_direction": "These singles expand the topic from one counter lineup into isolated studies of fan arrangement, rice architecture, condiment geometry, blade traces, and curated box composition.",
+  "cover_image": "images/sashimi-fan-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Knife and Grain Studies",
+      "description": "Five independent omakase studies exploring sashimi arrangement, rice structure, wasabi form, knife work, and boxed presentation."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "寿司精度相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "sashimi-fan-study",
+      "title": "Sashimi Fan Study",
+      "image": "images/sashimi-fan-study/image.png",
+      "meta": "images/sashimi-fan-study/meta.json"
+    },
+    {
+      "id": "rice-density-macro",
+      "title": "Rice Density Macro",
+      "image": "images/rice-density-macro/image.png",
+      "meta": "images/rice-density-macro/meta.json"
+    },
+    {
+      "id": "wasabi-dome-balance",
+      "title": "Wasabi Dome Balance",
+      "image": "images/wasabi-dome-balance/image.png",
+      "meta": "images/wasabi-dome-balance/meta.json"
+    },
+    {
+      "id": "knife-cut-board",
+      "title": "Knife Cut Board",
+      "image": "images/knife-cut-board/image.png",
+      "meta": "images/knife-cut-board/meta.json"
+    },
+    {
+      "id": "cedar-box-omakase-grid",
+      "title": "Cedar Box Omakase Grid",
+      "image": "images/cedar-box-omakase-grid/image.png",
+      "meta": "images/cedar-box-omakase-grid/meta.json"
+    }
+  ]
+}

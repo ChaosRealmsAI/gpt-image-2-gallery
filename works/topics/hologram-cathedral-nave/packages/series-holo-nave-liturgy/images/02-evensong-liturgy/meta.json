@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nSame gothic nave as the reference, same single-point perspective, same camera height and lens. Evening evensong liturgy: warmer inner temperature, soft violet-gold light spilling from the holographic rose window onto the stone floor and column clusters.\n\nSubject:\nThe identical rib-vaulted cathedral nave with the identical volumetric rose window at the far end. A quiet gathering of robed figures fills the front bays, facing the apse — simplified silhouettes, no recognizable faces. Holographic hymn staves hover in low bands above the congregation, drifting like soft scarves. Candle-halos float at the ends of each pew line, each one a small hovering amber disc.\n\nImportant details:\nPreserve exact nave geometry from the reference: column spacing, rib-vault cadence, rose window position, left/right symmetry, vanishing point. Replace only the atmosphere and contents: add the gathering, dim the ambient stone light, push the rose window toward amber-violet instead of cyan. Projection ribbons must visibly scatter light down onto shoulders and the nave floor — they are the main light source.\n\nUse case:\nHologram Cathedral Nave series image 2/4, depends on the reference nave; demonstrates the same architecture under an evensong moment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no recognizable individual faces, no printed hymn books, no realistic modern electronics, no flags or banners with brand marks, keep the same nave identity as the reference.",
+  "id": "02-evensong-liturgy",
+  "title": "Evensong Liturgy",
+  "description": "The reference nave during evensong, lit by amber-violet holographic hymn staves and floating candle-halos above a robed gathering.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "reasoning-composition",
+    "photorealism",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/02-evensong-liturgy/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-nave",
+        "meta_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/meta.json",
+        "image_path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 nave geometry; change only liturgical moment and color temperature."
+  },
+  "i18n": {
+    "en": {
+      "title": "Evensong Liturgy",
+      "description": "The reference nave during evensong, lit by amber-violet holographic hymn staves and floating candle-halos above a robed gathering."
+    },
+    "zh-CN": {
+      "title": "晚祷礼拜",
+      "description": "基准中殿在晚祷时分，琥珀紫光的全息圣咏带与悬浮烛光照亮袍衣人群。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "reasoning-composition",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The gothic cathedral nave during evensong with amber-violet hymn holograms and floating candle halos.",
+      "zh-CN": "晚祷时刻的哥特中殿，琥珀紫全息圣咏带与漂浮烛光环。"
+    }
+  }
+}

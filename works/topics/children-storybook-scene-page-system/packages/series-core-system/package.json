@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Story Scene Continuity",
+  "description": "Four reference-dependent images follow the same child protagonist and fox companion through a warm storybook scene system.",
+  "creative_direction": "Image 01 establishes the illustrated character pair, brush texture, page framing, and emotional tone. Images 02-04 preserve the same characters, palette family, and page-design language while moving through new scenes.",
+  "cover_image": "images/01-reference-bedtime-spread/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-bedtime-spread/meta.json",
+      "images/02-raincoat-puddle-walk/meta.json",
+      "images/03-library-hideaway/meta.json",
+      "images/04-garden-evening-return/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-bedtime-spread first. Use its runtime result URL as --ref for 02-raincoat-puddle-walk, 03-library-hideaway, 04-garden-evening-return. Queue may run those images concurrently after 01-reference-bedtime-spread is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Story Scene Continuity",
+      "description": "Four reference-dependent images follow the same child protagonist and fox companion through a warm storybook scene system."
+    },
+    "zh-CN": {
+      "title": "故事场景连续组",
+      "description": "四张依赖参考图的画面跟随同一位小主角和狐狸伙伴，建立温暖绘本场景连续系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "style-transfer",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-bedtime-spread",
+      "title": "Reference Bedtime Spread",
+      "image": "images/01-reference-bedtime-spread/image.png",
+      "meta": "images/01-reference-bedtime-spread/meta.json"
+    },
+    {
+      "id": "02-raincoat-puddle-walk",
+      "title": "Raincoat Puddle Walk",
+      "image": "images/02-raincoat-puddle-walk/image.png",
+      "meta": "images/02-raincoat-puddle-walk/meta.json"
+    },
+    {
+      "id": "03-library-hideaway",
+      "title": "Library Hideaway",
+      "image": "images/03-library-hideaway/image.png",
+      "meta": "images/03-library-hideaway/meta.json"
+    },
+    {
+      "id": "04-garden-evening-return",
+      "title": "Garden Evening Return",
+      "image": "images/04-garden-evening-return/image.png",
+      "meta": "images/04-garden-evening-return/meta.json"
+    }
+  ]
+}

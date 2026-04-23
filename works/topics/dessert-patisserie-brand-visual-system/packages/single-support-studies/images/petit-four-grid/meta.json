@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square premium patisserie image with polished but believable boutique lighting, elegant marble or lacquer surfaces, and a sweet-shop atmosphere that feels brand-authored rather than generic. The camera should preserve product clarity, shape definition, and shelf or counter context while leaving enough breathing room for campaign placement. Shoot from high above with a strict square crop and a pale lacquer surface, letting tiny shadows define spacing and repetition.\n\nSubject:\nThe desserts must look crafted by a high-end pastry kitchen: clean lamination, glossy glaze, stable cream structure, crisp edges, and packaging or display surfaces that reinforce a coherent dessert identity. Arrange a grid of miniature cakes, bonbons, and fruit gels so each piece is distinct but the overall composition feels like one elegant merchandising system.\n\nImportant details:\nSweetness should come from color control, finish quality, and material nuance, not from visual clutter. Preserve believable pastry engineering, boutique display logic, and refined merchandising cues so the images can support brand storytelling across retail, packaging, and editorial use. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Uniform spacing, micro texture, glaze realism, and palette restraint are critical; the image should feel like a premium catalog board for a pastry collection.\n\nUse case:\nDessert Brand single study 8/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-color overload, no plastic frosting, no supermarket clutter, no cartoon decorations, no melted textures that break realism, no childish party props, no rainbow overload, no childish candy mix, no broken pieces.",
+  "id": "petit-four-grid",
+  "title": "Petit Four Grid",
+  "description": "A disciplined grid of petit fours designed like a sweet product atlas.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dessert-patisserie-brand-visual-system/packages/single-support-studies/images/petit-four-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Petit Four Grid",
+      "description": "A disciplined grid of petit fours designed like a sweet product atlas."
+    },
+    "zh-CN": {
+      "title": "法式小点网格",
+      "description": "法式小点网格：甜品品牌主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A disciplined grid of petit fours designed like a sweet product atlas.",
+      "zh-CN": "法式小点网格，用于甜品品牌主题。"
+    }
+  }
+}

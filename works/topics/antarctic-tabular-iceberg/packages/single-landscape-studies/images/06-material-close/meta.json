@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square, photoreal landscape study of antarctic tabular iceberg. Compose it as surface texture and material transitions while still keeping the full environment recognizable, using a tighter medium-wide crop that gives more area to texture, fracture, grain, water, ice, lava, salt, or stone. Let texture remain readable without making the scene feel like a macro shot Keep the frame cinematic but disciplined, with a clear foreground, middle distance, and far mass so the viewer can measure real depth. The image should feel like a field photograph made with patience, precision, and sublime restraint rather than a fantasy matte painting.\n\nSubject:\nShow a vast Antarctic tabular iceberg adrift at sea, with one side dropping in a near-vertical ice cliff, blue fracture lines, open polar water, and a tiny penguin colony visible on the flat top. This variation should emphasize material realism check. The main landform must dominate the composition, but secondary elements should quietly explain how the place works: water paths, sediment lines, snow bands, surf, ash, wind streaks, stars, or human traces where appropriate. Everything in the image should support the same idea of scale and climate, so the scene reads as one coherent environment rather than a stack of spectacular details.\n\nImportant details:\nPreserve rectilinear iceberg geometry, sharp ice-edge scale, cold polar clarity, faint blue internal compression bands, and the unsettling simplicity of a floating frozen plateau. Micro-texture, edge wear, wetness, frost, dust, foam, or sediment should deepen realism rather than distract from scale. Keep geology, weather, and atmosphere physically believable. Use subtle micro-texture, tonal separation, and air perspective to reinforce distance. If a human, vehicle, tent, caravan, bird, or boat appears, it must remain tiny and subordinate to the landscape, functioning only as a scale witness. The composition should feel original, severe, and elegant, with no decorative filler and no imitation of any copyrighted visual property.\n\nUse case:\nAntarctic Tabular Iceberg single study 6/9, exploring the material realism check variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no research station, no cruise liner, no aurora curtains, no whimsical cartoon penguins, no extreme macro abstraction, no plastic-looking surfaces, no shallow depth-of-field blur, no kitsch color grading, no artificial border, no split-panel treatment.",
+  "id": "06-material-close",
+  "title": "Material Close",
+  "description": "Material Close interprets Antarctic Tabular Iceberg as a self-contained sublime landscape study with a distinct compositional emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/antarctic-tabular-iceberg/packages/single-landscape-studies/images/06-material-close/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent landscape single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Material Close",
+      "description": "Material Close interprets Antarctic Tabular Iceberg as a self-contained sublime landscape study with a distinct compositional emphasis."
+    },
+    "zh-CN": {
+      "title": "材质近观",
+      "description": "材质近观：围绕南极桌状冰山的独立单图研究，强调这一构图切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "scientific-realism",
+      "single"
+    ],
+    "alt": {
+      "en": "Material Close study for Antarctic Tabular Iceberg.",
+      "zh-CN": "南极桌状冰山主题中的材质近观研究图。"
+    }
+  }
+}

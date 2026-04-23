@@ -1,0 +1,47 @@
+{
+  "id": "compact-urban-apartment-efficiency-aesthetic",
+  "slug": "compact-urban-apartment-efficiency-aesthetic",
+  "title": "Compact Urban Apartment Efficiency Aesthetic",
+  "short_title": "Urban Apartment",
+  "description": "Build compact urban apartment visuals that balance efficiency, calm storage logic, and lived-in modernity.",
+  "i18n": {
+    "en": {
+      "title": "Compact Urban Apartment Efficiency Aesthetic",
+      "short_title": "Urban Apartment",
+      "description": "Build compact urban apartment visuals that balance efficiency, calm storage logic, and lived-in modernity."
+    },
+    "zh-CN": {
+      "title": "都市小户型效率美学",
+      "short_title": "小户型",
+      "description": "做都市小户型效率美学，平衡收纳逻辑和现代生活感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 840,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Compact Logic Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Compact Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

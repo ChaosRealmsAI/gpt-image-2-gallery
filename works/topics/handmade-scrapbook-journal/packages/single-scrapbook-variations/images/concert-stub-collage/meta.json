@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of an open black-paper scrapbook on a concrete loft desk. Overhead neon signage outside the window casts a faint magenta-teal glow on the right side of the spread, and a small portable lamp in the upper left creates a warm pool. The black paper swallows light except where white gel pen and metallic ink catch it.\n\nSubject:\nA music-fan's concert scrapbook spread. The left page is a dense collage of concert wristbands, torn flyer edges, and setlist scraps glued in tilted angles with strong rubber cement halos. A ballpoint-drawn amplifier doodle spills along the margin. The right page is covered in silver gel pen handwriting that zigzags across the dark surface, and a stack of metallic-glitter-dotted photo corners holds two black-and-white strip-photo fragments.\n\nImportant details:\nThe rubber cement halos must be physical — slightly yellowed, with uneven edges. White and silver ink on black paper must show pen pressure variance: wider strokes where the hand pressed harder. Wristbands have velcro texture. The neon glow on the right must fade organically, not as a flat overlay. Every tilted element has its own small drop shadow.\n\nUse case:\nIndependent single image in the Scrapbook Variations package, representing the music-fan voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no band names, no vector edges, no uniform glow, no HDR, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "concert-stub-collage",
+  "title": "Concert Stub Collage",
+  "description": "A black-paper scrapbook spread layered with concert wristbands, torn flyer edges, and silver gel-pen handwriting.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/single-scrapbook-variations/images/concert-stub-collage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Concert Stub Collage",
+      "description": "A black-paper scrapbook spread layered with concert wristbands, torn flyer edges, and silver gel-pen handwriting."
+    },
+    "zh-CN": {
+      "title": "演出票根拼贴",
+      "description": "黑色纸页手账跨页 · 层叠的演出手环 · 撕下的海报边缘 · 银色中性笔手写。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Black scrapbook spread with concert wristbands, torn flyer edges, and silver gel-pen writing under neon glow.",
+      "zh-CN": "黑色剪贴手账 · 霓虹光下的演出手环、撕下的海报碎片与银笔手写。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "series-fan-energy-system",
+  "type": "series",
+  "title": "Fan Energy System",
+  "description": "A four-image reference-dependent rollout that locks one fictional team identity across rivalry, crowd, and merch-adjacent social assets.",
+  "creative_direction": "Image 01 establishes the club-neutral color system, supporter energy, apparel cues, and poster-like social grammar. Images 02-04 depend on that anchor while pushing rivalry, crowd, and merch-drop expressions of the same team identity.",
+  "cover_image": "images/01-reference-club-identity/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-club-identity/meta.json",
+      "images/02-rivalry-pulse-tile/meta.json",
+      "images/03-home-crowd-poster/meta.json",
+      "images/04-merch-drop-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-rivalry-pulse-tile, 03-home-crowd-poster, 04-merch-drop-variant. Queue may run 02-rivalry-pulse-tile, 03-home-crowd-poster, 04-merch-drop-variant concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fan Energy System",
+      "description": "A four-image reference-dependent rollout that locks one fictional team identity across rivalry, crowd, and merch-adjacent social assets."
+    },
+    "zh-CN": {
+      "title": "Fan Energy System",
+      "description": "A four-image reference-dependent rollout that locks one fictional team identity across rivalry, crowd, and merch-adjacent social assets."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "style-transfer",
+      "social-feed",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-club-identity",
+      "title": "Reference Club Identity",
+      "image": "images/01-reference-club-identity/image.png",
+      "meta": "images/01-reference-club-identity/meta.json"
+    },
+    {
+      "id": "02-rivalry-pulse-tile",
+      "title": "Rivalry Pulse Tile",
+      "image": "images/02-rivalry-pulse-tile/image.png",
+      "meta": "images/02-rivalry-pulse-tile/meta.json"
+    },
+    {
+      "id": "03-home-crowd-poster",
+      "title": "Home Crowd Poster",
+      "image": "images/03-home-crowd-poster/image.png",
+      "meta": "images/03-home-crowd-poster/meta.json"
+    },
+    {
+      "id": "04-merch-drop-variant",
+      "title": "Merch Drop Variant",
+      "image": "images/04-merch-drop-variant/image.png",
+      "meta": "images/04-merch-drop-variant/meta.json"
+    }
+  ]
+}

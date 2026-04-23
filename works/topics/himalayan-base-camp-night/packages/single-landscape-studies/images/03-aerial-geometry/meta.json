@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square, photoreal landscape study of himalayan base camp starscape. Compose it as the planform geometry and overall shape logic of the landscape, using an elevated oblique aerial view that still preserves believable scale and natural topography. Let light reveal contour, fracture, and pattern instead of flattening the terrain Keep the frame cinematic but disciplined, with a clear foreground, middle distance, and far mass so the viewer can measure real depth. The image should feel like a field photograph made with patience, precision, and sublime restraint rather than a fantasy matte painting.\n\nSubject:\nShow a high Himalayan base camp at night beneath the world's highest summit, with the Milky Way arching overhead, warm tent lights in the foreground, and black snow ridges cutting into a clear star field. This variation should emphasize aerial scale read. The main landform must dominate the composition, but secondary elements should quietly explain how the place works: water paths, sediment lines, snow bands, surf, ash, wind streaks, stars, or human traces where appropriate. Everything in the image should support the same idea of scale and climate, so the scene reads as one coherent environment rather than a stack of spectacular details.\n\nImportant details:\nPreserve thin high-altitude air, disciplined astrophotography realism, crisp stars without cartoon exaggeration, warm-versus-cold color contrast, and believable tent scale against the mountain mass. Emphasize rhythm, repetition, and large-form geometry without losing physical realism. Keep geology, weather, and atmosphere physically believable. Use subtle micro-texture, tonal separation, and air perspective to reinforce distance. If a human, vehicle, tent, caravan, bird, or boat appears, it must remain tiny and subordinate to the landscape, functioning only as a scale witness. The composition should feel original, severe, and elegant, with no decorative filler and no imitation of any copyrighted visual property.\n\nUse case:\nHimalayan Base Camp Starscape single study 3/9, exploring the aerial scale read variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no satellite trails, no fireworks, no oversized moon, no city glow on the horizon, no map labels, no diagram arrows, no satellite-interface graphics, no kitsch color grading, no artificial border, no split-panel treatment.",
+  "id": "03-aerial-geometry",
+  "title": "Aerial Geometry",
+  "description": "Aerial Geometry interprets Himalayan Base Camp Starscape as a self-contained sublime landscape study with a distinct compositional emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "extreme-aspect-ratio",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/himalayan-base-camp-night/packages/single-landscape-studies/images/03-aerial-geometry/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent landscape single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Aerial Geometry",
+      "description": "Aerial Geometry interprets Himalayan Base Camp Starscape as a self-contained sublime landscape study with a distinct compositional emphasis."
+    },
+    "zh-CN": {
+      "title": "航拍几何",
+      "description": "航拍几何：围绕喜马拉雅大本营星空的独立单图研究，强调这一构图切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "extreme-aspect-ratio",
+      "single"
+    ],
+    "alt": {
+      "en": "Aerial Geometry study for Himalayan Base Camp Starscape.",
+      "zh-CN": "喜马拉雅大本营星空主题中的航拍几何研究图。"
+    }
+  }
+}

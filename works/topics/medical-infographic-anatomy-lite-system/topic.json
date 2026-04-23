@@ -1,0 +1,40 @@
+{
+  "id": "medical-infographic-anatomy-lite-system",
+  "slug": "medical-infographic-anatomy-lite-system",
+  "title": "Medical Infographic Anatomy Lite System",
+  "short_title": "Medical Infographics",
+  "description": "Create anatomy-lite medical infographics that explain body systems without becoming dense textbook diagrams.",
+  "i18n": {
+    "en": {
+      "title": "Medical Infographic Anatomy Lite System",
+      "short_title": "Medical Infographics",
+      "description": "Create anatomy-lite medical infographics that explain body systems without becoming dense textbook diagrams."
+    },
+    "zh-CN": {
+      "title": "医疗轻解剖信息图系统",
+      "short_title": "医疗信息图",
+      "description": "做医疗轻解剖信息图系统，让身体系统说明更易懂。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 2060,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-anatomy-lite-studies",
+      "type": "single",
+      "title": "Anatomy Lite Studies",
+      "path": "packages/single-anatomy-lite-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square macro product-photo setup with controlled grazing light, shallow depth, and strong tactile contrast. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original steering-wheel spoke with rollers, haptics, stitched leather, satin metal, and precise seam geometry. Make the subject feel original, production-aware, and clearly grounded in Automotive Interior Cockpit UI Hero. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nStress ergonomics, manufacturable button geometry, and tactile finish. The crop should immediately read as premium automotive hardware rather than consumer electronics. The visual language should still feel native to Automotive Interior Cockpit UI Hero, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCockpit UI single study 6/9 for Automotive Interior Cockpit UI Hero, built as image support-two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app-store iconography, no fantasy holograms, no navigation labels, no brand marks.",
+  "id": "support-two",
+  "title": "Steering Control Macro",
+  "description": "A tactile closeup of steering-wheel controls and premium material behavior.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/automotive-interior-cockpit-ui-hero/packages/single-support-studies/images/support-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Steering Control Macro",
+      "description": "A tactile closeup of steering-wheel controls and premium material behavior."
+    },
+    "zh-CN": {
+      "title": "方向盘控制特写",
+      "description": "方向盘控制与高级材质表现的触感特写。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A tactile macro study of an original steering-wheel control cluster.",
+      "zh-CN": "原创方向盘控制区域的触感特写。"
+    }
+  }
+}

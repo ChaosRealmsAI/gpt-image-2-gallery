@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Restaurant Table Support Studies",
+  "description": "Five independent food editorials extending the topic into overhead, close-up, dessert, roast, and pairing scenarios.",
+  "creative_direction": "These independent studies broaden the same plated-editorial theme into adjacent restaurant surfaces and course moments without reference dependencies.",
+  "cover_image": "images/oyster-course-overhead/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/oyster-course-overhead/meta.json",
+      "images/braised-short-rib-spread/meta.json",
+      "images/hearth-roast-closeup/meta.json",
+      "images/dessert-prelude-plate/meta.json",
+      "images/wine-pairing-table-story/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Restaurant Table Support Studies",
+      "description": "Five independent food editorials extending the topic into overhead, close-up, dessert, roast, and pairing scenarios."
+    },
+    "zh-CN": {
+      "title": "餐桌补充研究",
+      "description": "五张独立补充图，把主题延展到俯拍、近景、甜品、烤物与配酒场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "oyster-course-overhead",
+      "title": "Oyster Course Overhead",
+      "image": "images/oyster-course-overhead/image.png",
+      "meta": "images/oyster-course-overhead/meta.json"
+    },
+    {
+      "id": "braised-short-rib-spread",
+      "title": "Braised Short Rib Spread",
+      "image": "images/braised-short-rib-spread/image.png",
+      "meta": "images/braised-short-rib-spread/meta.json"
+    },
+    {
+      "id": "hearth-roast-closeup",
+      "title": "Hearth Roast Close-Up",
+      "image": "images/hearth-roast-closeup/image.png",
+      "meta": "images/hearth-roast-closeup/meta.json"
+    },
+    {
+      "id": "dessert-prelude-plate",
+      "title": "Dessert Prelude Plate",
+      "image": "images/dessert-prelude-plate/image.png",
+      "meta": "images/dessert-prelude-plate/meta.json"
+    },
+    {
+      "id": "wine-pairing-table-story",
+      "title": "Wine Pairing Table Story",
+      "image": "images/wine-pairing-table-story/image.png",
+      "meta": "images/wine-pairing-table-story/meta.json"
+    }
+  ]
+}

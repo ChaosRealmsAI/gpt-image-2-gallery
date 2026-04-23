@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square food-commerce image optimized for instant readability in app tiles, promo cards, or delivery grids. The image should emphasize appetizing clarity, strong hierarchy, and modular layout zones while staying photorealistic and commercially grounded. Packaging, dish crop, and badge-like design shapes can appear, but all text must remain unreadable. Use a bright square crop with one open lunch container, one side element, and strong modular negative space around the food.\n\nSubject:\nThe food should look craveable at thumbnail scale, with clear portion logic, supporting side items when relevant, and delivery-aware presentation that prioritizes speed, legibility, and conversion. Make the lunch box feel balanced, complete, and office-friendly, with ingredients separated enough to remain legible on small screens.\n\nImportant details:\nThis theme is about commerce reasoning. Preserve sharp hero food silhouettes, obvious combo structure, and clean tile-safe framing so the assets can survive small screens. Abstract text areas, CTA-like shapes, and offer badges are allowed only as non-legible design modules. Keep everything polished, modern, and immediately useful for ordering surfaces. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Clean compartment lines, lid geometry, and ingredient color contrast should make the image highly scannable for app browsing.\n\nUse case:\nDelivery Tiles single study 5/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app UI chrome, no fake prices, no delivery-bag chaos, no greasy blur, no clutter that hurts thumbnail legibility, no office desk clutter, no readable brand tape, no cafeteria tray vibe.",
+  "id": "lunch-box-hero-card",
+  "title": "Lunch Box Hero Card",
+  "description": "A tidy lunch-box commerce card designed for clarity and midday appetite.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/delivery-first-food-commerce-tiles/packages/single-support-studies/images/lunch-box-hero-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Lunch Box Hero Card",
+      "description": "A tidy lunch-box commerce card designed for clarity and midday appetite."
+    },
+    "zh-CN": {
+      "title": "午餐盒主卡",
+      "description": "午餐盒主卡：外卖tiles主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A tidy lunch-box commerce card designed for clarity and midday appetite.",
+      "zh-CN": "午餐盒主卡，用于外卖tiles主题。"
+    }
+  }
+}

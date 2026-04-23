@@ -1,0 +1,72 @@
+{
+  "id": "series-spatial-language-lock",
+  "type": "series",
+  "title": "Facade Identity Lock",
+  "description": "A four-image reference-dependent package that locks the core spatial language of architectural facade identity system before controlled viewpoint and mood variations.",
+  "creative_direction": "Image 01 establishes the canonical spatial language for Facade Identity. Images 02-04 depend on that reference and vary viewpoint, mood, or functional emphasis while preserving the same authored identity.",
+  "cover_image": "images/01-street-corner-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Facade Identity Lock",
+      "description": "A four-image reference-dependent package that locks the core spatial language of architectural facade identity system before controlled viewpoint and mood variations."
+    },
+    "zh-CN": {
+      "title": "立面识别锁定",
+      "description": "四张参考依赖图，用来锁定外立面的核心空间语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-street-corner-anchor",
+      "title": "Street Corner Anchor",
+      "image": "images/01-street-corner-anchor/image.png",
+      "meta": "images/01-street-corner-anchor/meta.json"
+    },
+    {
+      "id": "02-entry-canopy-focus",
+      "title": "Entry Canopy Focus",
+      "image": "images/02-entry-canopy-focus/image.png",
+      "meta": "images/02-entry-canopy-focus/meta.json"
+    },
+    {
+      "id": "03-upper-facade-crop",
+      "title": "Upper Facade Crop",
+      "image": "images/03-upper-facade-crop/image.png",
+      "meta": "images/03-upper-facade-crop/meta.json"
+    },
+    {
+      "id": "04-courtyard-rear-elevation",
+      "title": "Courtyard Rear Elevation",
+      "image": "images/04-courtyard-rear-elevation/image.png",
+      "meta": "images/04-courtyard-rear-elevation/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-street-corner-anchor/meta.json",
+      "images/02-entry-canopy-focus/meta.json",
+      "images/03-upper-facade-crop/meta.json",
+      "images/04-courtyard-rear-elevation/meta.json"
+    ],
+    "ref_strategy": "Run 01-street-corner-anchor first. Use its runtime result URL as --ref for 02-entry-canopy-focus, 03-upper-facade-crop, 04-courtyard-rear-elevation. Queue may run 02-entry-canopy-focus, 03-upper-facade-crop, 04-courtyard-rear-elevation concurrently after 01-street-corner-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

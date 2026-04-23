@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square naturalistic frame captured at the exact edge of magic hour, when the sun sits low and turns grass, dust, skin, and hair into luminous gold. Use wide lenses, open air, gentle motion, and a lived-in landscape such as tall wheat, meadow, creek bank, orchard, or open prairie. End at the blue-gold boundary just after sunset, with meadow grasses still warm at the tips while the sky cools and the first fireflies appear.\n\nSubject:\nCenter on a child or small human figure moving through the landscape with curiosity, wonder, or private joy. The body should feel small inside the world, with the environment carrying as much emotional meaning as the person. A child stands still holding a jar with the lid open, watching the lights rise out of the field instead of catching them.\n\nImportant details:\nThe visual rule is reverence through natural light, wind, and tactile surface detail. Preserve lens flare, translucent grasses, skin warmed by sun, and humble earth textures without commercial polish. Avoid heavy stylization, urban intrusions, or artificial studio neatness. Keep the fireflies subtle and few, letting the final trace of sunlight remain the dominant emotional force.\n\nUse case:\nNatural Reverence Magic Hour single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no modern billboards, no synthetic neon color, no posed fashion styling, no fantasy creatures, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "09-firefly-onset",
+  "title": "Firefly Onset",
+  "description": "A dusk meadow study where the first fireflies appear around one still child in fading golden light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/natural-reverence-magic-hour/packages/single-natural-reverence-magic-hour/images/09-firefly-onset/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent natural reverence study focused on firefly onset.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Firefly Onset",
+      "description": "A dusk meadow study where the first fireflies appear around one still child in fading golden light."
+    },
+    "zh-CN": {
+      "title": "Firefly Onset",
+      "description": "围绕自然崇敬的第9张独立研究图，聚焦 Firefly Onset。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A child stands in a meadow at dusk watching the first fireflies rise in the last gold light.",
+      "zh-CN": "自然崇敬主题图：Firefly Onset。"
+    }
+  }
+}

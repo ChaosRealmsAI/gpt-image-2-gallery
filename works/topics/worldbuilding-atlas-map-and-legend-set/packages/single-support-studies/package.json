@@ -1,0 +1,65 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Support Studies",
+  "description": "Five independent support studies extending Atlas Set into adjacent deliverable surfaces without reference dependencies.",
+  "creative_direction": "Five independent support studies expand Atlas Set into complementary use cases, keeping the same commercial category while allowing broader scene and product variation.",
+  "cover_image": "images/01-capital-district-inset/image.png",
+  "i18n": {
+    "en": {
+      "title": "Support Studies",
+      "description": "Five independent support studies extending Atlas Set into adjacent deliverable surfaces without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "支持研究",
+      "description": "围绕世界观地图扩展五张彼此独立的支持研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-capital-district-inset",
+      "title": "Capital District Inset",
+      "image": "images/01-capital-district-inset/image.png",
+      "meta": "images/01-capital-district-inset/meta.json"
+    },
+    {
+      "id": "02-underground-rail-atlas",
+      "title": "Underground Rail Atlas",
+      "image": "images/02-underground-rail-atlas/image.png",
+      "meta": "images/02-underground-rail-atlas/meta.json"
+    },
+    {
+      "id": "03-storm-belt-navigation-chart",
+      "title": "Storm Belt Navigation Chart",
+      "image": "images/03-storm-belt-navigation-chart/image.png",
+      "meta": "images/03-storm-belt-navigation-chart/meta.json"
+    },
+    {
+      "id": "04-pilgrimage-route-sheet",
+      "title": "Pilgrimage Route Sheet",
+      "image": "images/04-pilgrimage-route-sheet/image.png",
+      "meta": "images/04-pilgrimage-route-sheet/meta.json"
+    },
+    {
+      "id": "05-ecological-migration-map",
+      "title": "Ecological Migration Map",
+      "image": "images/05-ecological-migration-map/image.png",
+      "meta": "images/05-ecological-migration-map/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square frame, same low horizon, same mirror ocean and camera position as the reference. Atmosphere is now a rare red aurora event — the entire sky burns from deep crimson at zenith to warm orange near the horizon, casting an almost cinematic volcanic mood over the scene.\n\nSubject:\nThe identical floating amethyst crystal mountain from the reference, silhouette and facets preserved. The violet crystal body now clashes beautifully with the warm red atmosphere, producing refracted beams that split into magenta, gold, and unexpected turquoise due to dispersion. Streams of warm light descend through the mountain and land on the water as flickering fire-colored columns.\n\nImportant details:\nStrong warm-cool contrast: violet crystal body against crimson sky reads as the emotional climax of the cycle. Warm color temperature around 2200K for aurora; crystal interior retains cool 4500K internal glow. Tiny flakes of warm light reflect off the mirror ocean with zero ripples. Scale anchor helicopters (same positions) now rim-lit red along their silhouettes.\n\nUse case:\nFourth and final image in the aurora refraction cycle. Closes the series with the most emotional color palette while demonstrating the model can handle extreme warm-cool dispersion on the same reference peak.\n\nConstraints:\nPRESERVE the reference image peak silhouette, camera angle, horizon, and helicopter positions. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fire, no volcanic ash, no stars, no painterly treatment.",
+  "id": "04-scarlet-dusk",
+  "title": "Scarlet Dusk",
+  "description": "The reference peak under a rare red aurora, producing warm-cool dispersion beams on the ocean.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "cinematic",
+    "series"
+  ],
+  "refs": [
+    "01-reference-peak"
+  ],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/04-scarlet-dusk/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-peak",
+        "meta_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/meta.json",
+        "image_path": "works/topics/floating-crystal-mountains/packages/series-aurora-refraction/images/01-reference-peak/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scarlet Dusk",
+      "description": "The reference peak under a rare red aurora, producing warm-cool dispersion beams on the ocean."
+    },
+    "zh-CN": {
+      "title": "赤色黄昏",
+      "description": "基准山峰在罕见红色极光下的版本 · 呈现强烈冷暖色散光束。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "The same amethyst peak bathed in rare red aurora with warm-cool dispersion on the ocean.",
+      "zh-CN": "同一紫水晶山峰 · 罕见红极光下冷暖色散落水。"
+    }
+  }
+}

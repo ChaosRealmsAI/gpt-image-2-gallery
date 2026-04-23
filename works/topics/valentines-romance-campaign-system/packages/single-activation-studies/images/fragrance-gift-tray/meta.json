@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square tray-styling image under soft romantic light, with polished stone, satin cloth, blush florals, and glass reflections arranged into a premium product tableau. The frame should feel closer and more object-centric than a room scene, but still spacious enough to function as a finished campaign asset. Use disciplined luxury styling rather than heavy glamour or beauty-editorial excess.\n\nSubject:\nCenter a tray holding fragrance-like bottles, a wrapped gift box, petals, ribbon, and one tactile accent such as a candle or ceramic dish. The objects should feel luxurious and gift-ready, yet non-branded and original. Build clear height variation and a believable product hierarchy so the viewer understands this as a Valentines gifting surface for beauty or lifestyle retail.\n\nImportant details:\nMaterial realism and restraint are essential. Keep glass thickness, satin sheen, stone grain, petal softness, and metallic edges highly persuasive. Avoid readable packaging and avoid turning the scene into a generic cosmetics flatlay. The final image should feel like a premium seasonal asset that could sit in a social carousel, PDP hero crop, or experiential gifting ad.\n\nUse case:\nValentines single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable bottle labels, no lipstick smears, no mirror selfie cues, no human face, no logo boxes, no excessive pink fog, no glitter fallout, no crowded vanity mess.",
+  "id": "fragrance-gift-tray",
+  "title": "Fragrance Gift Tray",
+  "description": "A Valentines product study built around tray styling, fragrance silhouettes, and satin textures.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/valentines-romance-campaign-system/packages/single-activation-studies/images/fragrance-gift-tray/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fragrance-gifting study for Valentines campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Fragrance Gift Tray",
+      "description": "A Valentines product study built around tray styling, fragrance silhouettes, and satin textures."
+    },
+    "zh-CN": {
+      "title": "香氛礼盘陈列",
+      "description": "围绕托盘陈列、香氛轮廓与缎面材质的情人节产品研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A Valentines tray styling scene with fragrance silhouettes, satin, and florals.",
+      "zh-CN": "带有香氛轮廓、缎面与花艺的情人节托盘陈列场景。"
+    }
+  }
+}

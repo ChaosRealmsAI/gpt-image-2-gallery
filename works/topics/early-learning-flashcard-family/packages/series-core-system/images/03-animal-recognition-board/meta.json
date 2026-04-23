@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nKeep the same square tabletop setup, card spacing, lighting softness, and product-photography calm from the reference board. The camera should remain straight overhead, as if the art director is reviewing a second lesson deck that must drop into the same boxed set without any manufacturing adjustments. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFill the cards with friendly animal portraits and full-body icons such as a fox, turtle, rabbit, penguin, elephant, and owl, each placed on a clean interior field with a blank naming band at the base. The animals should be stylized enough for preschool friendliness yet specific enough to feel educational rather than decorative. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMaintain the same construction rules from the reference board, including the exact card proportions, empty label band, pastel border logic, and restrained background treatment. Only the pedagogical category should change, while the packaging logic, printing realism, and child-safe visual clarity remain identical. Preserve the same rounded card frame, corner radius, soft shadow depth, illustration scale, and empty caption panel rhythm from the reference board. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nEarly Learning Flashcard Family series study 3/4, animal recognition board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real letters, no readable numerals, no handwriting, no crowded toy-store clutter, no adult hands, no broken card edges.",
+  "id": "03-animal-recognition-board",
+  "title": "Animal Recognition Board",
+  "description": "An animal-recognition variation that preserves the flashcard template and gentle early-learning production language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/03-animal-recognition-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-alphabet-board",
+        "meta_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/meta.json",
+        "image_path": "works/topics/early-learning-flashcard-family/packages/series-core-system/images/01-reference-alphabet-board/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 3 preserving the core system from 01-reference-alphabet-board.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Animal Recognition Board",
+      "description": "An animal-recognition variation that preserves the flashcard template and gentle early-learning production language."
+    },
+    "zh-CN": {
+      "title": "动物认知卡版",
+      "description": "保持卡片模板和早教产品语言的动物认知变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "An animal-recognition variation that preserves the flashcard template and gentle early-learning production language.",
+      "zh-CN": "保持卡片模板和早教产品语言的动物认知变体。"
+    }
+  }
+}

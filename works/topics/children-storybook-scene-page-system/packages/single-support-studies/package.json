@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Storybook Extensions",
+  "description": "Five independent studies extend the storybook theme into cover design, character stickers, activity pages, decorative patterns, and read-aloud classroom assets.",
+  "creative_direction": "Independent studies explore adjacent children-publishing deliverables for the same storybook world without depending on the main series reference.",
+  "cover_image": "images/01-story-cover-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Storybook Extensions",
+      "description": "Five independent studies extend the storybook theme into cover design, character stickers, activity pages, decorative patterns, and read-aloud classroom assets."
+    },
+    "zh-CN": {
+      "title": "绘本延展研究",
+      "description": "五张独立画面把绘本主题扩展到封面、角色贴纸、活动页、装饰纹样和课堂共读物料。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-story-cover-board",
+      "title": "Story Cover Board",
+      "image": "images/01-story-cover-board/image.png",
+      "meta": "images/01-story-cover-board/meta.json"
+    },
+    {
+      "id": "02-character-sticker-sheet",
+      "title": "Character Sticker Sheet",
+      "image": "images/02-character-sticker-sheet/image.png",
+      "meta": "images/02-character-sticker-sheet/meta.json"
+    },
+    {
+      "id": "03-activity-search-page",
+      "title": "Activity Search Page",
+      "image": "images/03-activity-search-page/image.png",
+      "meta": "images/03-activity-search-page/meta.json"
+    },
+    {
+      "id": "04-endpaper-pattern",
+      "title": "Endpaper Pattern",
+      "image": "images/04-endpaper-pattern/image.png",
+      "meta": "images/04-endpaper-pattern/meta.json"
+    },
+    {
+      "id": "05-read-aloud-poster",
+      "title": "Read-Aloud Poster",
+      "image": "images/05-read-aloud-poster/image.png",
+      "meta": "images/05-read-aloud-poster/meta.json"
+    }
+  ]
+}

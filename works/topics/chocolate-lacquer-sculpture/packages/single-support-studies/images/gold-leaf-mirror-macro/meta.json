@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square competition-style pastry studio photograph with one sculptural chocolate showpiece on a dark pedestal against a controlled neutral or black backdrop. Softbox reflections should skim the tempered surfaces with glass-like sharpness, while shadows stay deep and elegant. The object must feel large, balanced, and professionally lit, as if documented after winning a grand pastry prize. Create a square macro studio image against a dark background with one curved chocolate surface dominating the frame and reflection bands running cleanly across it. The atmosphere should feel forensic and luxurious.\n\nSubject:\nShow a section of mirror-dark tempered chocolate with several restrained patches of gold leaf adhered to the surface, plus a few sharp edge transitions into matte planes. The curvature should be elegant enough that the reflections describe the temper quality clearly. The image should feel like proof of mastery in surface finishing.\n\nImportant details:\nTempered chocolate realism is critical: mirror reflections, crisp edges, matte-to-gloss transitions, gold leaf, sugar accents, and structural balance all need to feel plausible. The sculpture can be impossible in composition, but never sloppy in craft. Every support point and reflection line should suggest deliberate pastry engineering. Prioritize flawless reflection continuity, believable micro imperfections only at the scale of real handwork, and the ultra-thin texture of gold leaf against the lacquer. Nothing should look plastic or rendered from metal.\n\nUse case:\nChocolate lacquer sculpture single study 5/9, isolating mirror temper and gold leaf as the central material event.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no candy-bar packaging cues, no readable competition banners, no cartoon dessert palette, no smudged fingerprints, no cluttered workshop background, no fingerprints, no crumbs, no product-packaging context.",
+  "id": "gold-leaf-mirror-macro",
+  "title": "Gold Leaf Mirror Macro",
+  "description": "A close study of tempered chocolate surface quality where gold leaf and softbox reflections reveal perfect finish.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "photorealism",
+    "material-swap"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/chocolate-lacquer-sculpture/packages/single-support-studies/images/gold-leaf-mirror-macro/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image culinary study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Gold Leaf Mirror Macro",
+      "description": "A close study of tempered chocolate surface quality where gold leaf and softbox reflections reveal perfect finish."
+    },
+    "zh-CN": {
+      "title": "Gold Leaf Mirror Macro",
+      "description": "A close study of tempered chocolate surface quality where gold leaf and softbox reflections reveal perfect finish."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "photorealism",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A macro view of mirror-dark tempered chocolate with crisp softbox reflections and delicate gold leaf accents.",
+      "zh-CN": "A macro view of mirror-dark tempered chocolate with crisp softbox reflections and delicate gold leaf accents."
+    }
+  }
+}

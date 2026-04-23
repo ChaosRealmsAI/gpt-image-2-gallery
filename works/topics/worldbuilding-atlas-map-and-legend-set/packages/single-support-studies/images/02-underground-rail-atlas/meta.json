@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square atlas or legend sheet that stands alone as a worldbuilding artifact. The layout should feel publishable, with clear map priority, supporting insets, and believable information density. Build a map that cuts beneath the surface world, showing tunnel layers, junction nodes, shaft access, and underground districts in a structured plate.\n\nSubject:\nShow a map-driven system such as district boundaries, migration routes, underground rails, climate zones, pilgrimage paths, or maritime networks. The cartography should imply social, political, or environmental logic beyond pure decoration. The main protagonist is route logic, with surface insets only supporting the subsurface transport story.\n\nImportant details:\nFavor disciplined line work, restrained palette coding, and coherent terrain abstraction. The board should communicate world structure even though no readable labels are present. The sheet should feel infrastructural and world-rich, balancing abstraction with believable access patterns. Preserve cartographic causality so routes, borders, resources, and environmental features all make sense together.\n\nUse case:\nAtlas Set single study 2/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no game-minimap UI, no random decorative monsters, no travel-brochure icons, no modern metro logo design.",
+  "id": "02-underground-rail-atlas",
+  "title": "Underground Rail Atlas",
+  "description": "Underground Rail Atlas presents an atlas sheet mapping subsurface movement through tunnels, platforms, and hidden logistics corridors.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/worldbuilding-atlas-map-and-legend-set/packages/single-support-studies/images/02-underground-rail-atlas/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Atlas Set support study; no reference URL required.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Underground Rail Atlas",
+      "description": "Underground Rail Atlas presents an atlas sheet mapping subsurface movement through tunnels, platforms, and hidden logistics corridors."
+    },
+    "zh-CN": {
+      "title": "Underground Rail Atlas",
+      "description": "世界观地图主题中的Underground Rail Atlas图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Underground Rail Atlas presents an atlas sheet mapping subsurface movement through tunnels, platforms, and hidden logistics corridors.",
+      "zh-CN": "世界观地图主题中的Underground Rail Atlas图像。"
+    }
+  }
+}

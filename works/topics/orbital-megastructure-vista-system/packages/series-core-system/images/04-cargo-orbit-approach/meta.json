@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic concept-poster view of an orbital engineering landscape suspended above a luminous planet. The camera should feel slightly distant but still specific enough to read docking logic, structural depth, and scale cues from tiny service craft and maintenance windows. Use hard vacuum clarity, disciplined reflections on alloy surfaces, and the planet glow as the main light source. View the ring from a freight approach corridor where a few large cargo carriers drift toward marked berths and the planet curve fills one corner of the frame.\n\nSubject:\nCenter the composition on a coherent orbital megastructure language: a monumental ring habitat, tethered port geometry, segmented truss bands, docking petals, and believable traffic lanes for cargo shuttles. The architecture should read as designed by one civilization with clear engineering priorities rather than a random collage of science-fiction shapes. Keep the same anchor megastructure language while emphasizing berthing rhythm, cargo logistics, and the scale difference between freighters and the permanent habitat.\n\nImportant details:\nKeep engineering plausibility ahead of pure fantasy. Module spacing, rotational logic, light hierarchy, and human scale cues must all feel intentional. Use restrained graphite, silver, pale cyan, amber signal lights, and planetary blues so the set feels reusable across posters, key art, and worldbuilding decks. Traffic must feel sparse, deliberate, and believable, with lane spacing and docking choreography that read as real infrastructure instead of a battle scene. Preserve the exact structural language established by the reference image, especially the dominant ring silhouette, spoke spacing, dock petal rhythm, and cool-metal lighting hierarchy.\n\nUse case:\nOrbital Vistas series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy throne shapes, no impossible gravity waterfalls, no chaotic ship clutter, no battle damage spectacle, no swarming fighter ships, no smoky exhaust plumes.",
+  "id": "04-cargo-orbit-approach",
+  "title": "Cargo Orbit Approach",
+  "description": "Cargo Orbit Approach presents the same orbital system during a controlled cargo arrival sequence with disciplined traffic lanes and scale contrast.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/04-cargo-orbit-approach/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-planet-ring-anchor",
+        "meta_path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/01-planet-ring-anchor/meta.json",
+        "image_path": "works/topics/orbital-megastructure-vista-system/packages/series-core-system/images/01-planet-ring-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Orbital Vistas core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cargo Orbit Approach",
+      "description": "Cargo Orbit Approach presents the same orbital system during a controlled cargo arrival sequence with disciplined traffic lanes and scale contrast."
+    },
+    "zh-CN": {
+      "title": "Cargo Orbit Approach",
+      "description": "轨道巨构主题中的Cargo Orbit Approach图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Cargo Orbit Approach presents the same orbital system during a controlled cargo arrival sequence with disciplined traffic lanes and scale contrast.",
+      "zh-CN": "轨道巨构主题中的Cargo Orbit Approach图像。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square editorial food photograph built around a matte black ceramic plate resting on a charcoal surface, lit with a narrow overhead spotlight and a softer side fill that keeps the rim readable. The camera should sit between overhead and three-quarter view so the food has sculptural depth while the negative space still feels architectural. The surrounding darkness must stay controlled, velvety, and luxurious rather than flat or muddy. Keep the same plate scale, camera height, and overall empty-space distribution from the reference image, so the viewer recognizes the same restaurant photography system immediately. The lighting should remain narrow and controlled, with a satin highlight passing across the ceramic and a gentle shadow under the protein.\n\nSubject:\nReplace the tuna with two barely opaque sea scallops arranged along the same compositional arc, finished with a pale coral beurre blanc and a paper-thin radish crescent. Introduce a few tiny bronze fennel tips and a restrained spoon of pear dice that adds texture without breaking the minimalist discipline. The dish should feel colder, brighter, and more marine, but still unmistakably part of the same plating family.\n\nImportant details:\nTreat every garnish as if it was placed with tweezers: micro herbs, tiny petals, translucent glaze, and faint steam must all feel physically credible. Keep the plate rim immaculate, the portion restrained, and the composition balanced so the dish reads as sculpture rather than comfort food. Luxury should come from precision, timing, and restraint instead of abundance. Preserve exact plate diameter, camera height, negative-space ratio, and lighting family from the reference model while only changing the plated ingredients. The scallop surface should show believable moisture and delicate muscle striation, while the sauce keeps the same viscosity logic and elegant taper as the anchor image.\n\nUse case:\nThree-star plate art series study 2/9, translating the anchor composition into a cooler scallop expression.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no rustic mess, no oversized portions, no cutlery, no napkins, no casual dining props, no accidental symmetry that kills the chef-made feel, no excessive garnish clutter, no melted butter puddles, no rustic shell fragments.",
+  "id": "02-scallop-crescent",
+  "title": "Scallop Crescent",
+  "description": "A scallop-led variation that preserves the anchor plate geometry and light discipline.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/02-scallop-crescent/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-black-plate-anchor",
+        "meta_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/meta.json",
+        "image_path": "works/topics/michelin-three-star-plate-art/packages/series-core-system/images/01-black-plate-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Scallop Crescent",
+      "description": "A scallop-led variation that preserves the anchor plate geometry and light discipline."
+    },
+    "zh-CN": {
+      "title": "Scallop Crescent",
+      "description": "A scallop-led variation that preserves the anchor plate geometry and light discipline."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A minimalist black plate with two scallops, a pale curved sauce sweep, and restrained herb accents.",
+      "zh-CN": "A minimalist black plate with two scallops, a pale curved sauce sweep, and restrained herb accents."
+    }
+  }
+}

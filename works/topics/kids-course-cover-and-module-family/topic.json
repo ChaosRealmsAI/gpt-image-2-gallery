@@ -1,0 +1,46 @@
+{
+  "id": "kids-course-cover-and-module-family",
+  "title": "Kids Course Cover and Module Family",
+  "short_title": "Course Covers",
+  "description": "Create course-cover families for kids education platforms with curriculum clarity and cheerful consistency.",
+  "i18n": {
+    "en": {
+      "title": "Kids Course Cover and Module Family",
+      "short_title": "Course Covers",
+      "description": "Create course-cover families for kids education platforms with curriculum clarity and cheerful consistency."
+    },
+    "zh-CN": {
+      "title": "儿童课程封面与模块家族",
+      "short_title": "课程封面",
+      "description": "做儿童课程封面与模块家族，强调课程清晰和品牌统一。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Course Cover System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Course Cover Extensions",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

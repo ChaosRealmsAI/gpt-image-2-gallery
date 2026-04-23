@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square high-end sushi photograph on pale hinoki wood or a neutral omakase counter, lit with precise raking light that reveals grain in fish and separation in rice. The environment should feel silent, expensive, and almost clinical in its cleanliness. Space, alignment, and proportion matter as much as the ingredients themselves. Arrange the composition as a square close overhead-to-three-quarter view on a pale hinoki counter, with soft raking light pulling subtle shadows beneath each piece. The counter should feel freshly wiped and fragrant, with visible wood grain but no distraction.\n\nSubject:\nPresent four pristine pieces in a calm line: two nigiri, one sashimi slice, and one small garnish element such as a shiso fold or wasabi dome, each spaced with almost ceremonial precision. Fish grain, rice shape, and knife-cut edges must all read clearly. The lineup should feel like the opening of a top omakase progression.\n\nImportant details:\nEvery ingredient should reward macro inspection: fish grain direction, cut angle, moisture, knife marks, rice-grain separation, wasabi texture, shiso curl, and the grain of the wood beneath all need to remain distinct. The result should communicate mastery through restraint and surgical care rather than abundance. This first image establishes the counter grain, camera height, spacing rhythm, and macro realism for the series, so every grain of rice and every slice angle must feel disciplined and repeatable. The mood should be quiet, surgical, and confident.\n\nUse case:\nSushi and sashimi precision series study 1/9, defining the anchor counter language for later fish variations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no soy sauce pools, no decorative restaurant clutter, no readable menu cards, no plastic sushi display look, no overloaded garnish, no chopsticks, no lacquer tray, no decorative flowers.",
+  "id": "01-hinoki-counter-anchor",
+  "title": "Hinoki Counter Anchor",
+  "description": "A clean four-piece omakase lineup establishes the wood, spacing, and precision logic for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "micro-texture",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sushi-sashimi-surgical-precision/packages/series-core-system/images/01-hinoki-counter-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the culinary fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Hinoki Counter Anchor",
+      "description": "A clean four-piece omakase lineup establishes the wood, spacing, and precision logic for the series."
+    },
+    "zh-CN": {
+      "title": "Hinoki Counter Anchor",
+      "description": "A clean four-piece omakase lineup establishes the wood, spacing, and precision logic for the series."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "micro-texture",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A clean hinoki counter lineup of pristine nigiri and sashimi pieces spaced with ceremonial precision.",
+      "zh-CN": "A clean hinoki counter lineup of pristine nigiri and sashimi pieces spaced with ceremonial precision."
+    }
+  }
+}

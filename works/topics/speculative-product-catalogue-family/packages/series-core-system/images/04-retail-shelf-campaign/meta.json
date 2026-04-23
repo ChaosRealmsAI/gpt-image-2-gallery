@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square near-future catalogue board that feels like a premium consumer-product launch sheet without using readable copy. The composition should combine one hero product or family grouping with secondary modules, packaging-like shapes, and abstract information zones arranged in a clean commercial hierarchy. Lighting should be photographic, precise, and product-friendly. Retain the same product family but arrange the board to imply retail display modules, packaging silhouettes, and grouped merchandising without readable copy.\n\nSubject:\nCenter the image on a coherent consumer product family whose forms, finishes, interface surfaces, and accessory logic all belong together. The products can be speculative, but they must still feel market-positioned, manufacturable, and suited to a believable household or urban use case. Preserve the anchor industrial design while making retail arrangement, bundle distinctions, and shopper-facing hierarchy more explicit.\n\nImportant details:\nThink like a product marketer and industrial designer at once. Material choices, scale relationships, accessory combinations, and staged use cues should imply a clear category, audience, and feature set even though no readable text appears. The image should be strong enough for catalog, launch-page, or retail poster use. The image should feel useful for a launch deck or retail poster, not like a generic ecommerce tile mosaic. Preserve the exact structural language established by the reference image, especially the industrial design language, material palette, module family proportions, and catalog layout hierarchy.\n\nUse case:\nSpec Product Catalog series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real-world brand marks, no readable product copy, no random luxury nonsense props, no inconsistent industrial design, no supermarket sale chaos.",
+  "id": "04-retail-shelf-campaign",
+  "title": "Retail Shelf Campaign",
+  "description": "Retail Shelf Campaign presents the same family translated into a retail-facing campaign board showing merchandising and point-of-sale clarity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/04-retail-shelf-campaign/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-catalogue-family-anchor",
+        "meta_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/meta.json",
+        "image_path": "works/topics/speculative-product-catalogue-family/packages/series-core-system/images/01-catalogue-family-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Spec Product Catalog core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Retail Shelf Campaign",
+      "description": "Retail Shelf Campaign presents the same family translated into a retail-facing campaign board showing merchandising and point-of-sale clarity."
+    },
+    "zh-CN": {
+      "title": "Retail Shelf Campaign",
+      "description": "未来产品目录主题中的Retail Shelf Campaign图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Retail Shelf Campaign presents the same family translated into a retail-facing campaign board showing merchandising and point-of-sale clarity.",
+      "zh-CN": "未来产品目录主题中的Retail Shelf Campaign图像。"
+    }
+  }
+}

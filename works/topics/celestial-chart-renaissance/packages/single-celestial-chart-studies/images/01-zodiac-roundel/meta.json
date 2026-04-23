@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square celestial chart as if it were a carefully restored historical plate viewed perfectly flat to the viewer. The image should combine parchment authority, measured circular layout, and precise star placement with enough visual richness to feel like a collector-grade cosmological artifact rather than a generic map graphic. Render it as a prestigious parchment chart with warm ivory paper and delicate gold accents. Keep the square crop exact, the camera flat, and the tonal design disciplined enough that structure stays clear at poster scale and under close inspection.\n\nSubject:\nUse a zodiac wheel, star field, coordinate arcs, and astrolabe-like structures to organize mythic constellation figures across the page. The figures should arise from the constellations with graceful economy, while the astronomical scaffolding remains clear enough that the image still feels like serious cartography instead of fantasy painting. Focus this variation on a grand roundel centered on the zodiac with mythic figures braided into a disciplined astronomical wheel. The composition should feel complete and singular, as though one finished artifact has been resolved with full conviction rather than one fragment pulled from a larger sheet.\n\nImportant details:\nHierarchy is critical. Keep the star field ordered, the circular bands centered, and the corner instruments disciplined. Use gold, sepia, lapis, and faded ivory in controlled balance, reserving the strongest accents for major constellations, cardinal axes, and instrument joints. Annotation-like marks must remain abstract and unreadable. Keep the circular bands exact and the figures proportional, so the map still reads first as a chart and second as a picture. Preserve crisp edge behavior, stable hierarchy, and enough fine information that the image rewards slow viewing without losing the main read from a distance.\n\nUse case:\nCelestial Chart single study 1/9, designed as a self-contained sacred-geometry image with a distinct material and compositional emphasis.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no random modern infographic styling, no readable labels, no distorted zodiac wheel, no cartoon myth figures, no scattered stars without logic, no theatrical cloud wallpaper, no horoscope poster vibe, no broken ring symmetry, no readable signs.",
+  "id": "01-zodiac-roundel",
+  "title": "Zodiac Roundel",
+  "description": "Zodiac Roundel interprets Celestial Chart as an independent image study focused on a grand roundel centered on the zodiac with mythic figures braided into a disciplined astronomical wheel.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "structured-layout",
+    "technical-diagram"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/celestial-chart-renaissance/packages/single-celestial-chart-studies/images/01-zodiac-roundel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Celestial Chart single-image study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Zodiac Roundel",
+      "description": "Zodiac Roundel interprets Celestial Chart as an independent image study focused on a grand roundel centered on the zodiac with mythic figures braided into a disciplined astronomical wheel."
+    },
+    "zh-CN": {
+      "title": "黄道圆盘",
+      "description": "黄道圆盘：天象图 的独立单图研究，强调神话形象融入黄道圆盘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "structured-layout",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "Zodiac Roundel study for Celestial Chart.",
+      "zh-CN": "天象图主题中的黄道圆盘图像研究。"
+    }
+  }
+}

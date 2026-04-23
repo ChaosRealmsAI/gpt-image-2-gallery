@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square technical-poster composition for an impossible but convincing device, using cutaway views, section windows, and disciplined layout. The background should stay clean and poster-ready so internal chambers, conduits, shells, and field zones remain readable at a glance. Use lighting and color sparingly to clarify hierarchy rather than to decorate the page. Present the same device on a clean technical background with selected panels removed and maintenance tools or docks implied by abstract holders and brackets.\n\nSubject:\nCenter the image on one speculative machine whose internal logic feels thought through: shell, core, coolant path, field chamber, maintenance access, and energy routing should all relate coherently. The device can be fantastical, but it must read like it could be explained by an engineering team. Keep the reference silhouette and chamber layout intact while emphasizing repair access, replaceable modules, and safe isolation zones.\n\nImportant details:\nTreat the poster as a visual explanation system without readable text. Use arrows, callout lines, index dots, section blocks, and sectional contrast only as abstract diagram grammar. The result should feel credible for a concept deck, patent-style board, or advanced product explanation poster. The image should feel like a professional maintenance poster, not a chaotic exploded drawing. Preserve the exact structural language established by the reference image, especially the outer shell silhouette, internal chamber sequencing, conduit routing, and diagram hierarchy.\n\nUse case:\nSpec Tech Cutaway series study 3/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no exploded parts floating without logic, no cartoon simplification, no generic spaceship dashboard noise, no floating puzzle pieces.",
+  "id": "03-maintenance-open-mode",
+  "title": "Maintenance Open Mode",
+  "description": "Maintenance Open Mode presents the reference machine opened for technical access with service logic made explicit.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "technical-diagram",
+    "patent-diagram",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/03-maintenance-open-mode/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-jump-core-anchor",
+        "meta_path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/01-jump-core-anchor/meta.json",
+        "image_path": "works/topics/speculative-technology-cutaway-poster/packages/series-core-system/images/01-jump-core-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Spec Tech Cutaway core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Maintenance Open Mode",
+      "description": "Maintenance Open Mode presents the reference machine opened for technical access with service logic made explicit."
+    },
+    "zh-CN": {
+      "title": "Maintenance Open Mode",
+      "description": "技术剖面主题中的Maintenance Open Mode图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "technical-diagram",
+      "patent-diagram",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Maintenance Open Mode presents the reference machine opened for technical access with service logic made explicit.",
+      "zh-CN": "技术剖面主题中的Maintenance Open Mode图像。"
+    }
+  }
+}

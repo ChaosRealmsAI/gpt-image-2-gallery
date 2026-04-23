@@ -1,0 +1,40 @@
+{
+  "id": "sacred-tree-of-life-bestiary",
+  "slug": "sacred-tree-of-life-bestiary",
+  "title": "Sacred Tree of Life · World Bestiary",
+  "short_title": "Tree of Life Bestiary",
+  "description": "A single sacred tree as a vertical composition whose branches host mythic bestiary creatures from 20 different world religions, all drawn with equal respect and detail.",
+  "i18n": {
+    "en": {
+      "title": "Sacred Tree of Life · World Bestiary",
+      "short_title": "Tree of Life Bestiary",
+      "description": "A single sacred tree as a vertical composition whose branches host mythic bestiary creatures from 20 different world religions, all drawn with equal respect and detail."
+    },
+    "zh-CN": {
+      "title": "生命之树 · 世界神兽谱",
+      "short_title": "生命树神兽谱",
+      "description": "一棵中央生命树的垂直构图 · 树枝上栖息 20 种世界宗教神话生物 · 所有生物以平等的尊重与精度描绘。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4060,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-tree-of-life-studies",
+      "type": "single",
+      "title": "Tree of Life Studies",
+      "path": "packages/single-tree-of-life-studies/package.json"
+    }
+  ]
+}

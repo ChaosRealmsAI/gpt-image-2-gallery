@@ -1,0 +1,31 @@
+{
+  "id": "single-mall-afterhours-studies",
+  "type": "single",
+  "title": "Mall Afterhours Studies",
+  "description": "Five independent mall-afterhours details that do not share a building: shuttered storefront, empty food court, dead center-court kiosk, bench-and-planter, and directory board glow.",
+  "creative_direction": "Each image stands alone with its own mall setting and props. No shared geometry. All share the 90s direct-flash snapshot treatment, grainy consumer character, and explicit absence of shoppers and staff.",
+  "cover_image": "images/shuttered-storefront/image.png",
+  "i18n": {
+    "en": {
+      "title": "Mall Afterhours Studies",
+      "description": "Five independent mall-afterhours details that do not share a building: shuttered storefront, empty food court, dead center-court kiosk, bench-and-planter, and directory board glow."
+    },
+    "zh-CN": {
+      "title": "打烊商场单图研究",
+      "description": "五张独立的打烊商场细节:半落卷帘店铺、空荡美食广场、熄灭的中庭小岛台、长椅花坛、发光楼层指引牌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["single", "photorealism", "editorial-illustration"]
+  },
+  "images": [
+    { "id": "shuttered-storefront", "title": "Shuttered Storefront", "image": "images/shuttered-storefront/image.png", "meta": "images/shuttered-storefront/meta.json" },
+    { "id": "food-court-empty", "title": "Empty Food Court", "image": "images/food-court-empty/image.png", "meta": "images/food-court-empty/meta.json" },
+    { "id": "dead-kiosk", "title": "Dead Center-Court Kiosk", "image": "images/dead-kiosk/image.png", "meta": "images/dead-kiosk/meta.json" },
+    { "id": "bench-planter", "title": "Bench and Planter", "image": "images/bench-planter/image.png", "meta": "images/bench-planter/meta.json" },
+    { "id": "directory-board-glow", "title": "Directory Board Glow", "image": "images/directory-board-glow/image.png", "meta": "images/directory-board-glow/meta.json" }
+  ]
+}

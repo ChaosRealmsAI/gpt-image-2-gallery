@@ -1,0 +1,47 @@
+{
+  "id": "orbital-megastructure-vista-system",
+  "slug": "orbital-megastructure-vista-system",
+  "title": "Orbital Megastructure Vista System",
+  "short_title": "Orbital Vistas",
+  "description": "Create orbital megastructure vistas with astronomical scale, engineering plausibility, and cinematic awe.",
+  "i18n": {
+    "en": {
+      "title": "Orbital Megastructure Vista System",
+      "short_title": "Orbital Vistas",
+      "description": "Create orbital megastructure vistas with astronomical scale, engineering plausibility, and cinematic awe."
+    },
+    "zh-CN": {
+      "title": "轨道巨构奇观系统",
+      "short_title": "轨道巨构",
+      "description": "做轨道巨构奇观系统，强调天文尺度、工程 plausibility 和电影级 awe。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

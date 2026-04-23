@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA single-point-perspective shot down the center aisle of a gothic cathedral nave at dusk, camera low and centered so the ribbed vaults converge toward the far apse. Cool ambient blue inside the stone, warmed only by floating holographic light. Long exposure feel, mild volumetric haze, shallow falloff into darkness beyond the crossing.\n\nSubject:\nA symmetrical nave with clustered columns, ribbed stone vaults, and a round rose window at the far end that is rebuilt as a translucent volumetric hologram hanging in mid-air instead of colored glass. Gentle AR scripture ribbons drift between the rib-vaults like slow jellyfish; each ribbon holds faint latinate glyph shapes that must remain unreadable. Tiny floating halo lamps line the nave bays.\n\nImportant details:\nThe stone must look like real limestone with slight grain, while the holographic rose window, scripture ribbons and halo lamps read as real volumetric projections — they scatter light onto the floor and columns. Keep the vanishing point exactly in the middle of the frame. Left and right aisles must be fully mirrored. Color palette: deep indigo stone, cool cyan projection light, warm gold edge halos. Do not place any human figures in this reference frame.\n\nUse case:\nReference image for a fanout series. Later images must preserve this nave geometry, rose-window position, rib-vault rhythm and aisle symmetry.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crucifix branding, no visible camera equipment, no anachronistic modern pews, no lens flares from outside the frame, no stained glass with pictorial saints — the rose must be a clean geometric hologram.",
+  "id": "01-reference-nave",
+  "title": "Reference Nave",
+  "description": "Master reference establishing the symmetric gothic nave with a volumetric holographic rose window and drifting AR scripture ribbons.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "structured-layout",
+    "reasoning-composition",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hologram-cathedral-nave/packages/series-holo-nave-liturgy/images/01-reference-nave/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference for the hologram cathedral nave fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Nave",
+      "description": "Master reference establishing the symmetric gothic nave with a volumetric holographic rose window and drifting AR scripture ribbons."
+    },
+    "zh-CN": {
+      "title": "基准中殿",
+      "description": "确立哥特中殿对称结构、全息玫瑰窗与 AR 经文彩带的主参考图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A symmetric gothic cathedral nave at dusk with a holographic rose window and drifting AR scripture ribbons.",
+      "zh-CN": "黄昏时对称的哥特中殿，飘浮全息玫瑰窗与 AR 经文彩带。"
+    }
+  }
+}

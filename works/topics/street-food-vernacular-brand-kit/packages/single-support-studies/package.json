@@ -1,0 +1,78 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Street Brand Support Studies",
+  "description": "Five independent street-food studies extending the topic into paper wraps, signs, sauce action, and service windows.",
+  "creative_direction": "These independent studies widen the same street-food brand language into adjacent retail and campaign surfaces without reference dependencies.",
+  "cover_image": "images/enamel-sign-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/enamel-sign-board/meta.json",
+      "images/paper-wrap-flatlay/meta.json",
+      "images/sauce-squeeze-action/meta.json",
+      "images/crate-display-corner/meta.json",
+      "images/rush-hour-service-window/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Street Brand Support Studies",
+      "description": "Five independent street-food studies extending the topic into paper wraps, signs, sauce action, and service windows."
+    },
+    "zh-CN": {
+      "title": "街头品牌补充研究",
+      "description": "五张独立补充图，把主题延展到纸包、招牌、酱料动作和服务窗口。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "enamel-sign-board",
+      "title": "Enamel Sign Board",
+      "image": "images/enamel-sign-board/image.png",
+      "meta": "images/enamel-sign-board/meta.json"
+    },
+    {
+      "id": "paper-wrap-flatlay",
+      "title": "Paper Wrap Flatlay",
+      "image": "images/paper-wrap-flatlay/image.png",
+      "meta": "images/paper-wrap-flatlay/meta.json"
+    },
+    {
+      "id": "sauce-squeeze-action",
+      "title": "Sauce Squeeze Action",
+      "image": "images/sauce-squeeze-action/image.png",
+      "meta": "images/sauce-squeeze-action/meta.json"
+    },
+    {
+      "id": "crate-display-corner",
+      "title": "Crate Display Corner",
+      "image": "images/crate-display-corner/image.png",
+      "meta": "images/crate-display-corner/meta.json"
+    },
+    {
+      "id": "rush-hour-service-window",
+      "title": "Rush Hour Service Window",
+      "image": "images/rush-hour-service-window/image.png",
+      "meta": "images/rush-hour-service-window/meta.json"
+    }
+  ]
+}

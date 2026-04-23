@@ -1,0 +1,47 @@
+{
+  "id": "restaurant-cafe-space-brand-integration",
+  "slug": "restaurant-cafe-space-brand-integration",
+  "title": "Restaurant Cafe Space Brand Integration",
+  "short_title": "Cafe Space",
+  "description": "Build restaurant and cafe spaces where menu design, furniture, lighting, and branding feel authored as one system.",
+  "i18n": {
+    "en": {
+      "title": "Restaurant Cafe Space Brand Integration",
+      "short_title": "Cafe Space",
+      "description": "Build restaurant and cafe spaces where menu design, furniture, lighting, and branding feel authored as one system."
+    },
+    "zh-CN": {
+      "title": "餐厅咖啡馆空间品牌一体化",
+      "short_title": "餐饮空间",
+      "description": "做餐厅咖啡馆空间品牌一体化，让菜单、家具、灯光和品牌物料属于同一系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 870,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-spatial-language-lock",
+      "type": "series",
+      "title": "Hospitality Brand Lock",
+      "path": "packages/series-spatial-language-lock/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Dining Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

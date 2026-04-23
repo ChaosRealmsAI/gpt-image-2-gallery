@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square museum-atlas photograph of dim sum presented on natural linen or pale neutral textile, lit with calm daylight and restrained shadow. The composition should feel archival, specimen-like, and quietly luxurious rather than crowded or banquet-style. Blank museum tabs, bamboo details, and shallow steam are acceptable so long as no readable characters appear anywhere. Keep the exact overhead camera angle, linen field, daylight softness, and specimen spacing from the reference image so the atlas continuity remains obvious. The empty space around the dumpling should remain generous and calm.\n\nSubject:\nFeature a small family of shrimp dumplings with crisp pleats and semi-translucent skins that reveal a hint of pink filling beneath. One dumpling may be sliced or gently opened to show the interior texture, but the set should stay elegant and composed. Steam should hover faintly, not dramatically.\n\nImportant details:\nMake the dumplings feel handcrafted and specific: pleat count, skin thickness, translucency, filling pressure, steam moisture, and wrapper folds all need to be believable. The museum treatment should elevate the food without turning it into abstraction. Every item should still look edible, warm, and tactile. Preserve exact specimen spacing, linen tone, and daylight behavior from the reference model while emphasizing translucency and pleat count. The wrapper should look delicate, elastic, and slightly glossy with heat, never plasticky.\n\nUse case:\nDim sum miniature atlas series study 2/9, using the anchor system to study translucent shrimp dumplings.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no banquet table clutter, no readable calligraphy, no sauce spills, no glossy menu styling, no plastic steamer look, no chili oil splashes, no glossy plastic sheen, no crowded bamboo steamer.",
+  "id": "02-har-gow-lantern",
+  "title": "Har Gow Lantern",
+  "description": "A translucent shrimp dumpling variation preserving the anchor tray language while focusing on pleat precision.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "miniature-world",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/02-har-gow-lantern/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-linen-specimen-anchor",
+        "meta_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/meta.json",
+        "image_path": "works/topics/dim-sum-miniature-atlas/packages/series-core-system/images/01-linen-specimen-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must preserve the established culinary reference image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Har Gow Lantern",
+      "description": "A translucent shrimp dumpling variation preserving the anchor tray language while focusing on pleat precision."
+    },
+    "zh-CN": {
+      "title": "Har Gow Lantern",
+      "description": "A translucent shrimp dumpling variation preserving the anchor tray language while focusing on pleat precision."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "miniature-world",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Translucent shrimp dumplings on linen with visible pleats and a hint of filling beneath the skin.",
+      "zh-CN": "Translucent shrimp dumplings on linen with visible pleats and a hint of filling beneath the skin."
+    }
+  }
+}

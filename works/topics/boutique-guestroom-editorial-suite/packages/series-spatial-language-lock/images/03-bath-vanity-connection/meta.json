@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Boutique Guestroom Editorial Suite. Use a camera angle that links the bedroom threshold to the stone vanity zone while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep warm plaster white, walnut brown, muted clay, brushed bronze, and soft morning gray as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a boutique hotel suite with limewashed plaster walls, walnut millwork, tailored linen bedding, bronze reading lights, textured drapery, and a quietly lived-in premium mood. Focus on the exact same suite from the reference image, now emphasizing vanity materials, mirror glow, and spatial continuity. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the bed proportions, walnut joinery, plaster texture, bronze hardware, linen styling, and restrained resort palette. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nBoutique Guestroom Editorial Suite series study 3/9, extending the bath-to-bedroom transition in the same boutique language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no people, no messy luggage spill, no cheap decor, no hard flash, no exaggerated luxury clichés, no readable amenity labels.",
+  "id": "03-bath-vanity-connection",
+  "title": "Bath Vanity Connection",
+  "description": "A reference-dependent architectural variation for guestroom suite focused on bath vanity connection.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "editorial-illustration",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/boutique-guestroom-editorial-suite/packages/series-spatial-language-lock/images/03-bath-vanity-connection/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-suite-overview-morning",
+        "meta_path": "works/topics/boutique-guestroom-editorial-suite/packages/series-spatial-language-lock/images/01-suite-overview-morning/meta.json",
+        "image_path": "works/topics/boutique-guestroom-editorial-suite/packages/series-spatial-language-lock/images/01-suite-overview-morning/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Bath Vanity Connection",
+      "description": "A reference-dependent architectural variation for guestroom suite focused on bath vanity connection."
+    },
+    "zh-CN": {
+      "title": "卫浴衔接",
+      "description": "围绕精品客房的卫浴衔接研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Bath Vanity Connection for Boutique Guestroom Editorial Suite.",
+      "zh-CN": "精品客房主题中的卫浴衔接。"
+    }
+  }
+}

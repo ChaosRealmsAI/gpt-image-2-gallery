@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Retail Flagship Store Experience System. Use a lateral view into a fitting or try-on lounge zone with benches and mirrors while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep soft concrete gray, brushed silver, warm white light, muted sand stone, and one restrained accent tone as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a premium flagship retail interior with sculpted display fixtures, integrated light bands, neutral stone floors, brushed aluminum rails, translucent resin accents, and an immersive circulation plan. Focus on the exact same flagship from the reference image, now emphasizing customer pause points and softer materials. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the hero fixture shapes, integrated lighting bands, resin accents, circulation loop, and premium product-display grammar. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nRetail Flagship Store Experience System series study 3/9, extending the intimacy layer of the same branded space.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no crowds, no cash-register clutter, no readable price tags, no seasonal sale props, no random mannequins everywhere, no readable mirror graphics.",
+  "id": "03-fitting-lounge-sequence",
+  "title": "Fitting Lounge Sequence",
+  "description": "A reference-dependent architectural variation for flagship store focused on fitting lounge sequence.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retail-flagship-store-experience-system/packages/series-spatial-language-lock/images/03-fitting-lounge-sequence/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-entry-hero-anchor",
+        "meta_path": "works/topics/retail-flagship-store-experience-system/packages/series-spatial-language-lock/images/01-entry-hero-anchor/meta.json",
+        "image_path": "works/topics/retail-flagship-store-experience-system/packages/series-spatial-language-lock/images/01-entry-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Fitting Lounge Sequence",
+      "description": "A reference-dependent architectural variation for flagship store focused on fitting lounge sequence."
+    },
+    "zh-CN": {
+      "title": "试穿休憩序列",
+      "description": "围绕旗舰店的试穿休憩序列研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Fitting Lounge Sequence for Retail Flagship Store Experience System.",
+      "zh-CN": "旗舰店主题中的试穿休憩序列。"
+    }
+  }
+}

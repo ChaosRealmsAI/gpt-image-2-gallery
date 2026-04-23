@@ -1,0 +1,64 @@
+{
+  "id": "single-support-studies",
+  "type": "single",
+  "title": "Pastry Specimen Studies",
+  "description": "Five independent pastry cross-section studies focused on iconic internal structures.",
+  "creative_direction": "These independent images isolate individual pastries whose internal geometry deserves a dedicated frame, from laminated crumb to layered opera and crisp canele alveoli.",
+  "cover_image": "images/croissant-spinal-cut/image.png",
+  "i18n": {
+    "en": {
+      "title": "Pastry Specimen Studies",
+      "description": "Five independent pastry cross-section studies focused on iconic internal structures."
+    },
+    "zh-CN": {
+      "title": "Support Studies",
+      "description": "点心图鉴相关的五张独立补充图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "scientific-realism"
+    ]
+  },
+  "images": [
+    {
+      "id": "croissant-spinal-cut",
+      "title": "Croissant Spinal Cut",
+      "image": "images/croissant-spinal-cut/image.png",
+      "meta": "images/croissant-spinal-cut/meta.json"
+    },
+    {
+      "id": "opera-layer-count",
+      "title": "Opera Layer Count",
+      "image": "images/opera-layer-count/image.png",
+      "meta": "images/opera-layer-count/meta.json"
+    },
+    {
+      "id": "mille-feuille-fracture",
+      "title": "Mille-Feuille Fracture",
+      "image": "images/mille-feuille-fracture/image.png",
+      "meta": "images/mille-feuille-fracture/meta.json"
+    },
+    {
+      "id": "fruit-tart-core",
+      "title": "Fruit Tart Core",
+      "image": "images/fruit-tart-core/image.png",
+      "meta": "images/fruit-tart-core/meta.json"
+    },
+    {
+      "id": "canele-alveoli-study",
+      "title": "Canele Alveoli Study",
+      "image": "images/canele-alveoli-study/image.png",
+      "meta": "images/canele-alveoli-study/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square table-setting campaign image with warm evening light, calm blue-shadow depth, and a home-hospitality atmosphere that feels premium and respectful. The frame should suggest a family gathering without showing many faces. Use elegant composition, polished tableware, and believable room context so the image can support hospitality, retail, or lifestyle messaging.\n\nSubject:\nShow several place settings, serving pieces, dates, beverage vessels, folded textiles, and one subtle gifting cue arranged for shared evening hospitality. The table should feel ready and welcoming, not already in use. Focus on generosity, order, and care through the arrangement of objects and spatial rhythm rather than through portrait emotion or readable notes.\n\nImportant details:\nMaterial accuracy and cultural respect matter. Keep linens, ceramics, metal, food texture, and ambient light all persuasive. The image should feel useful for hotels, supermarkets, dining brands, or premium retailers speaking about togetherness and hosting during the season. Avoid clichés and avoid flattening the scene into anonymous luxury minimalism.\n\nUse case:\nRamadan/Eid single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable cards, no crowd, no logo plates, no alcohol, no fantasy palace, no stage-lit spectacle, no stereotype props, no visible TV or modern clutter.",
+  "id": "family-place-setting",
+  "title": "Family Place Setting",
+  "description": "A table-setting study centered on family hospitality cues without showing overt portraiture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "commercial-mockup",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ramadan-and-eid-hospitality-campaign/packages/single-respectful-context-studies/images/family-place-setting/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent family-place-setting study for Ramadan and Eid campaigns.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Family Place Setting",
+      "description": "A table-setting study centered on family hospitality cues without showing overt portraiture."
+    },
+    "zh-CN": {
+      "title": "家庭席位布置",
+      "description": "不依赖人物肖像、聚焦家庭待客线索的桌面席位研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A Ramadan and Eid family table setting with warm hospitality and refined detail.",
+      "zh-CN": "带有温暖待客感与精致细节的斋月与开斋节家庭席位布置。"
+    }
+  }
+}

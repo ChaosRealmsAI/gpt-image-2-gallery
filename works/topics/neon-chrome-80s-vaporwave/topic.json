@@ -1,0 +1,52 @@
+{
+  "id": "neon-chrome-80s-vaporwave",
+  "slug": "neon-chrome-80s-vaporwave",
+  "category": "poster",
+  "style": [
+    "retro",
+    "illustration"
+  ],
+  "capability": [
+    "style-transfer",
+    "text-rendering",
+    "frontier-creative-composition",
+    "structured-layout"
+  ],
+  "title": "Neon Chrome 80s Vaporwave",
+  "short_title": "80s Vaporwave",
+  "description": "Neo-retro 80s vaporwave — liquid-chrome extruded 3D titles, magenta-cyan split neon glow, pink gridded horizon planes, oversized setting suns, and wireframe peaks at modern rendering precision.",
+  "i18n": {
+    "en": {
+      "title": "Neon Chrome 80s Vaporwave",
+      "short_title": "80s Vaporwave",
+      "description": "Neo-retro 80s vaporwave — liquid-chrome extruded 3D titles, magenta-cyan split neon glow, pink gridded horizon planes, oversized setting suns, and wireframe peaks at modern rendering precision."
+    },
+    "zh-CN": {
+      "title": "80 年代霓虹铬金蒸汽波",
+      "short_title": "80 年代蒸汽波",
+      "description": "新复古 80 年代蒸汽波 · 液态铬金挤压 3D 标题 · 品红青分色霓虹 · 粉色网格地平 · 超大落日 · 线框山峰以现代渲染精度呈现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "text-rendering",
+      "frontier-creative-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-vaporwave-studies",
+      "type": "single",
+      "title": "Vaporwave Studies",
+      "path": "packages/single-vaporwave-studies/package.json"
+    }
+  ]
+}

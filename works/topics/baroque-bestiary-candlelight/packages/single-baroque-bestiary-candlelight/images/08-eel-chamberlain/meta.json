@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Set the image in a damp stone hall with candelabras reflected on glossy floor patches and a heavy curtain behind the sitter.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. An eel-skinned chamberlain in embroidered courtwear holds a silver tray with sealed correspondence, their elongated face both elegant and unsettling.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. Preserve the slippery skin sheen carefully so it feels organic, not plastic, and keep the embroidery rich but worn.\n\nUse case:\nBaroque Bestiary Candlelight single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-eel-chamberlain",
+  "title": "Eel Chamberlain",
+  "description": "An eerie yet aristocratic chamberlain portrait pairing eel-like skin with old-court ceremonial dress.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/08-eel-chamberlain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on eel chamberlain.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Eel Chamberlain",
+      "description": "An eerie yet aristocratic chamberlain portrait pairing eel-like skin with old-court ceremonial dress."
+    },
+    "zh-CN": {
+      "title": "Eel Chamberlain",
+      "description": "围绕巴洛克神兽的第8张独立研究图，聚焦 Eel Chamberlain。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A slender chamberlain with eel-like skin holding a silver tray in candlelit court attire.",
+      "zh-CN": "巴洛克神兽主题图：Eel Chamberlain。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "platonic-solid-cathedral",
+  "slug": "platonic-solid-cathedral",
+  "title": "Platonic Solids as Cathedral",
+  "short_title": "Platonic Cathedral",
+  "description": "Stained-glass rendition of the five Platonic solids arranged as a sacred cathedral window system with geometric proofs as traceries.",
+  "i18n": {
+    "en": {
+      "title": "Platonic Solids as Cathedral",
+      "short_title": "Platonic Cathedral",
+      "description": "Stained-glass rendition of the five Platonic solids arranged as a sacred cathedral window system with geometric proofs as traceries."
+    },
+    "zh-CN": {
+      "title": "柏拉图多面体大教堂",
+      "short_title": "多面体教堂",
+      "description": "五种柏拉图立体以彩色玻璃形式嵌入一座神圣几何大教堂的玫瑰窗系统 · 花饰采用几何证明。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 4020,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-platonic-cathedral-studies",
+      "type": "single",
+      "title": "Platonic Cathedral Studies",
+      "path": "packages/single-platonic-cathedral-studies/package.json"
+    }
+  ]
+}

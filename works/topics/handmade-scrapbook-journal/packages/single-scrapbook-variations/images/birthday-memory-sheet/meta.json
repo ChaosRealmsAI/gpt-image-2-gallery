@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a pastel-pink scrapbook spread on a patterned tablecloth. Warm overhead party light glows across the page, catching scattered glitter and a few crumbs of confetti near the seam. The paper carries a slight crinkle from being open for hours.\n\nSubject:\nA birthday memory spread full of joyful clutter. The left page carries a paper party hat flattened with tape, a handwritten invitation stuck with patterned washi, a small photo-booth strip clipped with a tiny pink clothes pin, and a swirl of hand-drawn candles with uneven flames. The right page shows a big sticker-letter banner spelling a non-literal cluster of shapes, several mismatched cake stickers, a ballpoint-scribbled list with shaky bullet points, and a sugar-dust smear near the bottom.\n\nImportant details:\nGlitter must have actual small reflective dots catching light from different angles. Confetti pieces are tiny physical paper circles, each casting its own tiny shadow. The sticker-letter banner's letters are deliberately irregular — some crooked, some at wrong angles, some peeling. Handwriting is energetic and uneven, the bullet points drift in size. Palette: pastel pink, butter yellow, mint, coral.\n\nUse case:\nIndependent single image in the Scrapbook Variations package, representing the celebratory family voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector-perfect banner, no uniform gradient, no AI-style cake realism, preserve exact 1:1 aspect ratio.",
+  "id": "birthday-memory-sheet",
+  "title": "Birthday Memory Sheet",
+  "description": "A joyful birthday scrapbook spread with party hat, glitter, photo-booth strip, and a wobbly sticker banner.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/handmade-scrapbook-journal/packages/single-scrapbook-variations/images/birthday-memory-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Birthday Memory Sheet",
+      "description": "A joyful birthday scrapbook spread with party hat, glitter, photo-booth strip, and a wobbly sticker banner."
+    },
+    "zh-CN": {
+      "title": "生日记忆那页",
+      "description": "欢乐的生日手账跨页 · 压着的派对帽 · 亮片 · 大头贴条和摇摇晃晃的贴纸横幅。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Pink scrapbook page with flattened party hat, photo-booth strip, glitter, and a sticker banner of abstract letters.",
+      "zh-CN": "粉色手账跨页 · 压平的派对帽 · 大头贴条 · 亮片和抽象字母贴纸横幅。"
+    }
+  }
+}

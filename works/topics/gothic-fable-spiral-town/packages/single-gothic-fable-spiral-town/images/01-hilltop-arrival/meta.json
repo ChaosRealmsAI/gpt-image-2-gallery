@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square moonlit storybook world built from crooked fences, leaning roofs, spiraled trees, pointed hills, and glowing orange windows against blue-violet night. The image should feel handcrafted and whimsical but also melancholic, with strong silhouettes and a theatrical sense of depth. Show the town from a low hill path, with one lantern gate centered below a cluster of bent houses and spiral trees climbing the slope.\n\nSubject:\nInclude one central wanderer or small resident figure whose oversized eyes, slight body, and clear silhouette anchor the scene. The town itself should seem alive with curl, tilt, and delicate unease, as if every branch and roofline was bent by the same strange lullaby. A small cloaked traveler stands at the gate, eyes bright against the dark, hesitating before entering the town.\n\nImportant details:\nThe visual law is gothic playfulness through spirals, cut-paper silhouettes, and warm-cool contrast. Preserve curling trunks, scalloped clouds, crooked pickets, and glowing window rectangles without referencing any existing characters or properties. Avoid cute modern merchandising polish or generic fantasy clutter. Let the roofs lean at slightly different angles while the windows glow like scattered coals under a clean crescent moon.\n\nUse case:\nGothic Fable Spiral Town single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable signs, no branded mascots, no realistic suburban details, no photoreal human anatomy, no daytime sunlight, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "01-hilltop-arrival",
+  "title": "Hilltop Arrival",
+  "description": "A moonlit hilltop approach to a crooked spiral town, anchored by one tiny traveler at the gate.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/gothic-fable-spiral-town/packages/single-gothic-fable-spiral-town/images/01-hilltop-arrival/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gothic fable study focused on hilltop arrival.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Hilltop Arrival",
+      "description": "A moonlit hilltop approach to a crooked spiral town, anchored by one tiny traveler at the gate."
+    },
+    "zh-CN": {
+      "title": "Hilltop Arrival",
+      "description": "围绕哥特童话的第1张独立研究图，聚焦 Hilltop Arrival。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A small traveler stands at the gate of a crooked hilltop town with spiral trees and orange windows.",
+      "zh-CN": "哥特童话主题图：Hilltop Arrival。"
+    }
+  }
+}

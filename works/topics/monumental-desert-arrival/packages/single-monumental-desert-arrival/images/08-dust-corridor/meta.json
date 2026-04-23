@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square widescale desert image centered on a massive geometric object descending, hovering, or emerging against sand, dust, and low sun. The atmosphere should feel physically dense, with suspended grit, long shadows, and distant heat haze describing the air around the event. Build a scene where a giant hovering object creates two parallel walls of dust, forming a corridor that leads directly toward the viewer.\n\nSubject:\nThe main subject is an immense ship, ring, slab, wedge, or monolith whose scale dwarfs all human observers. People should appear as tiny clustered witnesses in the foreground or along ridgelines, included only to prove size and emotional awe. A single scientist in protective hood stands centered in that corridor, nearly swallowed by the atmosphere.\n\nImportant details:\nThe signature is monumental restraint. Preserve simple geometry, huge negative space, believable dust behavior, and the quiet terror of proportion. Avoid flashy weapons, decorative alien ornament, bright science-fiction colors, or busy action hero staging. The dust should be weighty and sculptural, describing the invisible force of the object without turning into spectacle noise.\n\nUse case:\nMonumental Desert Arrival single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no logos, no readable markings on the object, no laser beams, no explosion fireballs, no crowded military hardware, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "08-dust-corridor",
+  "title": "Dust Corridor",
+  "description": "A gigantic object carves a corridor through desert dust, leaving one tiny scientist at the center of the event.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "frontier-creative-composition",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/monumental-desert-arrival/packages/single-monumental-desert-arrival/images/08-dust-corridor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent monumental arrival study focused on dust corridor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dust Corridor",
+      "description": "A gigantic object carves a corridor through desert dust, leaving one tiny scientist at the center of the event."
+    },
+    "zh-CN": {
+      "title": "Dust Corridor",
+      "description": "围绕纪念碑到来的第8张独立研究图，聚焦 Dust Corridor。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "frontier-creative-composition",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A lone scientist stands inside a corridor of dust created by a giant hovering desert object.",
+      "zh-CN": "纪念碑到来主题图：Dust Corridor。"
+    }
+  }
+}

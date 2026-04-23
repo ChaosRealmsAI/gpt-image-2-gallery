@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent Christmas beauty campaign scene in the same window-display environment, with the same eye-level perspective, amber lighting, and evergreen framing, but make the composition cleaner and more shelf-architected. Let reflective lacquer, cream paper, and brass details remain consistent with the reference while the scene shifts toward a prestige beauty gifting surface with tidy compartments and rhythmic repetition.\n\nSubject:\nShow an advent-style beauty gift presentation with small boxes, perfume-like silhouettes, candle vessels, satin pouches, and ribbon-wrapped bundles arranged in a premium stepped structure. Preserve the exact material language, color family, and ornament grammar from the reference image while changing the product category emphasis. The arrangement should feel refined, gift-forward, and immediately useful for holiday merchandising across display tables, social crops, and hero tiles.\n\nImportant details:\nHold the same campaign identity exactly: warm gold lighting, spruce accents, cream wrapping stock, elegant ribbon proportion, and calm premium composition. Introduce category specificity through form factor, not through branding or readable labels. Maintain believable packaging seams, soft reflections, and a luxurious but not overcrowded holiday rhythm. The viewer should understand that this is the same brand world translated into a beauty gifting expression.\n\nUse case:\nChristmas Retail series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable beauty labels, no lipstick smears, no glossy magazine clutter, no unrelated fashion model, no logo embossing, no cheap glitter noise.",
+  "id": "03-beauty-advent-variation",
+  "title": "Beauty Advent Variation",
+  "description": "A beauty-and-advent merchandising variation tied to the same Christmas campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/03-beauty-advent-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-evergreen-window-anchor",
+        "meta_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/meta.json",
+        "image_path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent beauty calendar variation for the Christmas rollout. Preserve the exact campaign language from 01-evergreen-window-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Beauty Advent Variation",
+      "description": "A beauty-and-advent merchandising variation tied to the same Christmas campaign system."
+    },
+    "zh-CN": {
+      "title": "美妆日历变体",
+      "description": "延续同一圣诞 campaign 系统的美妆日历变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A beauty advent merchandising frame that matches the core Christmas retail campaign.",
+      "zh-CN": "与核心圣诞零售 campaign 一致的美妆日历陈列画面。"
+    }
+  }
+}

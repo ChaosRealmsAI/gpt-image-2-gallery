@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent image inside the same bright academic environment, preserving the exact light quality, palette, desk materials, and organized spacing from the reference image, but orient the composition toward a student-tech bundle. The frame should remain clearly part of the anchor campaign while becoming more device and accessory centered.\n\nSubject:\nShow device-like forms, headphones, charger or cable organization, notebook support, bag, and academic accessories arranged into a polished back-to-school technology scene. Preserve exact campaign identity from the reference model while shifting emphasis toward connected study tools. The setup should feel realistic and commercially suitable for electronics retail, campus bundles, or parent-focused promotions.\n\nImportant details:\nKeep structure and optimism intact. Readability must come from layout and object hierarchy, never from screens or readable labels. Make metals, plastics, textiles, and paper all feel credible. The final image should serve as a modern back-to-school asset for tech and education brands without drifting into generic office or gaming aesthetics.\n\nUse case:\nBack to School series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable screens, no logos, no gaming neon, no classroom chaos, no mascot visuals, no cluttered cables, no chalkboard text, no corporate office vibe.",
+  "id": "03-tech-bundle-variation",
+  "title": "Tech Bundle Variation",
+  "description": "A tech-forward back-to-school variation built from the same academic campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/03-tech-bundle-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-campus-desk-anchor",
+        "meta_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/meta.json",
+        "image_path": "works/topics/back-to-school-enrollment-and-retail-kit/packages/series-enrollment-retail-system/images/01-campus-desk-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent tech-bundle variation for the back-to-school system. Preserve the exact campaign language from 01-campus-desk-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Tech Bundle Variation",
+      "description": "A tech-forward back-to-school variation built from the same academic campaign language."
+    },
+    "zh-CN": {
+      "title": "科技套装变体",
+      "description": "基于同一学业 campaign 语言的开学科技套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A tech-bundle back-to-school scene matching the same enrollment and retail campaign system.",
+      "zh-CN": "与同一招生零售系统一致的开学科技套装场景。"
+    }
+  }
+}

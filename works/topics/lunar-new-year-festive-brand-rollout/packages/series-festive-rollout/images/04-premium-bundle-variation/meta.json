@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image in the same premium New Year environment, keeping the exact lacquer-red palette, gold warmth, floral freshness, and layered celebratory depth from the reference image, but bring the camera closer to a curated premium gift bundle. The frame should remain clearly connected to the anchor while emphasizing packaging refinement, gifting value, and polished merchandising discipline suitable for retail hero crops.\n\nSubject:\nCenter a premium New Year bundle composed of stacked gift boxes, tray elements, tea or edible cues, blossom accents, and elegant celebration objects arranged into one cohesive hamper-like presentation. Preserve exact campaign identity from the reference image while shifting emphasis toward the gifting tier and product richness. The bundle should feel commercially real and suitable for upscale seasonal retail and boutique gifting campaigns.\n\nImportant details:\nThe bundle must inherit the reference world exactly: same light behavior, same packaging mood, same celebratory energy, and the same disciplined abundance. Use material contrast, layered scale, and careful spacing to keep the image premium. The final asset should feel like a direct campaign extension that can support gifting guides, storefronts, and premium social rollout.\n\nUse case:\nLNY Rollout series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable gift cards, no logo packs, no mascot toys, no crowd, no confetti storm, no gaudy gold foil overload, no casino aesthetic.",
+  "id": "04-premium-bundle-variation",
+  "title": "Premium Bundle Variation",
+  "description": "A premium gifting bundle variation extending the same Lunar New Year campaign system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/04-premium-bundle-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-festive-tray-anchor",
+        "meta_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/meta.json",
+        "image_path": "works/topics/lunar-new-year-festive-brand-rollout/packages/series-festive-rollout/images/01-festive-tray-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent premium-bundle variation for the Lunar New Year rollout. Preserve the exact campaign language from 01-festive-tray-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Premium Bundle Variation",
+      "description": "A premium gifting bundle variation extending the same Lunar New Year campaign system."
+    },
+    "zh-CN": {
+      "title": "高端套装变体",
+      "description": "延续同一农历新年 campaign 系统的高端礼赠套装变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A premium Lunar New Year gift bundle visual derived from the same festive rollout system.",
+      "zh-CN": "源自同一节庆套发系统的高端农历新年礼赠套装画面。"
+    }
+  }
+}

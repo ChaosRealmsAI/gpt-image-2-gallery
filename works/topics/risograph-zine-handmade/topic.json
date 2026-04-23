@@ -1,0 +1,39 @@
+{
+  "id": "risograph-zine-handmade",
+  "title": "Risograph Zine Poster Set",
+  "short_title": "Risograph Zine",
+  "description": "Two-color risograph fanzine posters — fluorescent pink + teal, visible print registration drift, bleed-through, halftone textures, handmade independent publisher energy.",
+  "i18n": {
+    "en": {
+      "title": "Risograph Zine Poster Set",
+      "short_title": "Risograph Zine",
+      "description": "Two-color risograph fanzine posters — fluorescent pink + teal, visible print registration drift, bleed-through, halftone textures, handmade independent publisher energy."
+    },
+    "zh-CN": {
+      "title": "Risograph 同人志海报",
+      "short_title": "Risograph 海报",
+      "description": "双色 Risograph 同人志海报 · 荧光粉 + 青 · 套版漂移 · 渗透 · 网点肌理 · 手工独立出版能量。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 610,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "physics-materials",
+      "pattern"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

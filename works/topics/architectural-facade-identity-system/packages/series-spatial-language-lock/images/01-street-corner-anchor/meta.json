@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Architectural Facade Identity System. Use a square daylight hero view from the primary street corner showing the full massing and lower levels and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so material silhouette, facade rhythm, and urban recognition feel immediate, using earthy terracotta, bronze brown, pale stone, smoked glass, and soft sky gray as the governing tonal range. The composition must read as a high-end commercial image that could sit inside architecture competitions, developer decks, city-brand editorials, and facade-design presentations.\n\nSubject:\nShow an architectural facade system with terracotta fins, bronze mesh, deep window reveals, sculpted canopies, and a civic-commercial identity that feels recognizable from multiple distances. Center the building’s primary facade identity, material rhythm, and public presence. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the fin spacing, bronze mesh logic, canopy silhouette, reveal depth, and urban recognizability of the building. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nArchitectural Facade Identity System series study 1/9, establishing the canonical facade identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no giant logos, no construction cranes, no crowds, no random neighboring ads, no impossible geometry, no traffic jam dominating.",
+  "id": "01-street-corner-anchor",
+  "title": "Street Corner Anchor",
+  "description": "A reference-setting architectural still for facade identity that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "style-transfer",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/architectural-facade-identity-system/packages/series-spatial-language-lock/images/01-street-corner-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Street Corner Anchor",
+      "description": "A reference-setting architectural still for facade identity that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "街角立面锚点",
+      "description": "围绕外立面的街角立面锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Street Corner Anchor for Architectural Facade Identity System.",
+      "zh-CN": "外立面主题中的街角立面锚点。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square athlete spotlight hero card for Athlete Cards, using a premium arena-adjacent portrait world with charcoal backgrounds, cool blue edge light, and one vivid accent color. The frame should feel commercial, polished, and immediately useful for a real client deliverable rather than a one-off art experiment. Keep the composition readable at thumbnail scale while still rewarding a closer look with layered depth, clean negative space, and strong directional light. Build the image so it clearly supports sports communication, with enough modular structure to imply information architecture without relying on literal words.\n\nSubject:\nCenter the image on one original elite athlete with a specific haircut, clear facial structure, realistic skin texture, and a brandless performance uniform, arranged as waist-up athlete portrait. Treat the subject as original and brandless, with believable apparel construction, realistic body proportions, and strong emotional legibility. Surround the subject with supporting environmental cues that reinforce the category but never overpower the main figure. All secondary objects, props, and background elements should strengthen the same professional sports or fitness context.\n\nImportant details:\nThis first image must establish the full reference system for later derivatives: profile-card modules, non-readable stat zones, and polished editorial-sports framing. The emotional tone should read as composed authority. Make the visual language reusable, disciplined, and commercially credible, with clean edges, coherent light behavior, and obvious hierarchy. Abstract panels, diagram bands, or stat-like modules are welcome, but they must remain non-readable and subordinate to the main visual message. The result should feel original, specific, and ready to anchor a larger package.\n\nUse case:\nAthlete Cards series study 1/9, the reference image for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no copied famous team or product identity, no generic stock-photo stiffness, no cluttered background noise, no celebrity likenesses.",
+  "id": "01-reference-athlete-anchor",
+  "title": "Reference Athlete Anchor",
+  "description": "A hero athlete card that establishes portrait identity, stat zones, and premium team-media structure.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/athlete-spotlight-and-profile-card-family/packages/series-profile-system/images/01-reference-athlete-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the athlete-spotlight-and-profile-card-family series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Athlete Anchor",
+      "description": "A hero athlete card that establishes portrait identity, stat zones, and premium team-media structure."
+    },
+    "zh-CN": {
+      "title": "Reference Athlete Anchor",
+      "description": "A hero athlete card that establishes portrait identity, stat zones, and premium team-media structure."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A hero athlete card that establishes portrait identity, stat zones, and premium team-media structure.",
+      "zh-CN": "A hero athlete card that establishes portrait identity, stat zones, and premium team-media structure."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square showroom-like environment with one large clean digital screen, polished floor reflections, and disciplined architectural light. Compose the frame as a square key visual with disciplined camera placement, premium lighting control, and believable real-world scale. The tonal range should feel polished and intentional, with enough atmosphere to create depth without obscuring form. Keep contrast calibrated for launch, catalog, or research presentation use rather than casual snapshot aesthetics.\n\nSubject:\nCenter an original cockpit visual adapted to a premium freestanding display inside an automotive retail space. Make the subject feel original, production-aware, and clearly grounded in Automotive Interior Cockpit UI Hero. Treat this as an independent study that must feel complete and coherent without relying on any external reference image. The focal hierarchy should be immediate: primary form first, then material behavior, then supporting environmental cues that clarify use context and difficulty.\n\nImportant details:\nKeep all on-screen content abstract and non-readable while the retail environment remains believable. The mockup should demonstrate premium communication rather than flashy entertainment. The visual language should still feel native to Automotive Interior Cockpit UI Hero, using disciplined industrial or campaign composition instead of generic stock photography. Use believable materials, engineering logic, and professional composition discipline. Reflections, shadows, edge breaks, texture scale, interface density, and small physical joints must all support realism. Avoid filler props, vague mood-board clutter, or any element that weakens the sense of a purpose-built industrial or automotive image.\n\nUse case:\nCockpit UI single study 9/9 for Automotive Interior Cockpit UI Hero, built as image support-five.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no app-store iconography, no fantasy holograms, no navigation labels, no brand marks.",
+  "id": "support-five",
+  "title": "Dealer Screen Mockup",
+  "description": "A retail display mockup showing how cockpit imagery adapts to an in-store digital surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/automotive-interior-cockpit-ui-hero/packages/single-support-studies/images/support-five/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Dealer Screen Mockup",
+      "description": "A retail display mockup showing how cockpit imagery adapts to an in-store digital surface."
+    },
+    "zh-CN": {
+      "title": "经销端屏幕模拟",
+      "description": "展示座舱画面如何适配店内数字屏的零售模拟图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A dealership digital-screen mockup built around an original cockpit visual.",
+      "zh-CN": "围绕原创座舱视觉的店内数字屏模拟图。"
+    }
+  }
+}

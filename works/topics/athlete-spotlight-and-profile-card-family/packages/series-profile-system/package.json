@@ -1,0 +1,72 @@
+{
+  "id": "series-profile-system",
+  "type": "series",
+  "title": "Athlete Profile System",
+  "description": "A four-image reference-dependent family that locks one athlete-card language across portrait, stat, action, and captaincy surfaces.",
+  "creative_direction": "Image 01 establishes the original athlete, portrait lighting, stat-zone geometry, and team-neutral card grammar. Images 02-04 depend on that anchor and push the same profile system into different editorial and social use cases.",
+  "cover_image": "images/01-reference-athlete-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-athlete-anchor/meta.json",
+      "images/02-stat-dominant-card/meta.json",
+      "images/03-action-burst-card/meta.json",
+      "images/04-captain-editorial-card/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-stat-dominant-card, 03-action-burst-card, 04-captain-editorial-card. Queue may run 02-stat-dominant-card, 03-action-burst-card, 04-captain-editorial-card concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Athlete Profile System",
+      "description": "A four-image reference-dependent family that locks one athlete-card language across portrait, stat, action, and captaincy surfaces."
+    },
+    "zh-CN": {
+      "title": "Athlete Profile System",
+      "description": "A four-image reference-dependent family that locks one athlete-card language across portrait, stat, action, and captaincy surfaces."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-athlete-anchor",
+      "title": "Reference Athlete Anchor",
+      "image": "images/01-reference-athlete-anchor/image.png",
+      "meta": "images/01-reference-athlete-anchor/meta.json"
+    },
+    {
+      "id": "02-stat-dominant-card",
+      "title": "Stat-dominant Card",
+      "image": "images/02-stat-dominant-card/image.png",
+      "meta": "images/02-stat-dominant-card/meta.json"
+    },
+    {
+      "id": "03-action-burst-card",
+      "title": "Action Burst Card",
+      "image": "images/03-action-burst-card/image.png",
+      "meta": "images/03-action-burst-card/meta.json"
+    },
+    {
+      "id": "04-captain-editorial-card",
+      "title": "Captain Editorial Card",
+      "image": "images/04-captain-editorial-card/image.png",
+      "meta": "images/04-captain-editorial-card/meta.json"
+    }
+  ]
+}

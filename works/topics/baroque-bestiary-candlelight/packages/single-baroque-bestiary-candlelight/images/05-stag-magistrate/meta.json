@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square portrait staged in a dark chamber lit by candles, embers, or a single hidden lantern, with heavy shadows, warm ochre skin tones, black velvet darkness, and a painterly yet physically believable material presence. The frame should feel ceremonial, intimate, and heavy with air, fabric, and oil-rich color. Use a judicial chamber with a dark oak chair, velvet curtain, and two faint candles low in the frame.\n\nSubject:\nThe subject is a fantastical humanoid beast presented with aristocratic gravity: horned, feathered, scaled, furred, or antlered, dressed in ornate garments and posed as if for an old court portrait. The creature should feel specific, dignified, and psychologically readable rather than monstrous chaos. A stag-antlered magistrate in black robe and white collar sits upright with hands folded, presenting judgment without motion.\n\nImportant details:\nThe visual law is baroque portrait discipline fused with invented natural history. Preserve luxurious fabric folds, worn metal embroidery, candle smoke, skin texture, fur detail, and solemn hand placement. Avoid cartoon exaggeration, playful fantasy tropes, or bright modern polish. The antlers should create a formal crown-like silhouette, but the emotional tone must remain grave and human.\n\nUse case:\nBaroque Bestiary Candlelight single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowns copied from real regalia, no readable heraldic text, no slapstick fantasy, no modern makeup styling, no glossy digital sheen, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-stag-magistrate",
+  "title": "Stag Magistrate",
+  "description": "A stag-antlered magistrate rendered as a grave legal portrait in velvet darkness and amber light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "style-transfer",
+    "fusion",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/baroque-bestiary-candlelight/packages/single-baroque-bestiary-candlelight/images/05-stag-magistrate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baroque bestiary study focused on stag magistrate.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stag Magistrate",
+      "description": "A stag-antlered magistrate rendered as a grave legal portrait in velvet darkness and amber light."
+    },
+    "zh-CN": {
+      "title": "Stag Magistrate",
+      "description": "围绕巴洛克神兽的第5张独立研究图，聚焦 Stag Magistrate。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "style-transfer",
+      "fusion",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "An antlered magistrate seated upright in a dark robe under low candlelight.",
+      "zh-CN": "巴洛克神兽主题图：Stag Magistrate。"
+    }
+  }
+}

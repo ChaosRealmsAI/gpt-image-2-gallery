@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square luxury retail campaign image staged like a flagship holiday window at blue hour. Use warm amber bulbs, soft snow haze outside the glass, deep spruce green, ribbon red, and brushed brass reflections. The camera should sit at a natural shopper eye level, with enough depth to feel like a real storefront but enough order that the frame reads as a polished hero asset for premium merchandising and gifting communication.\n\nSubject:\nCenter stacked gift boxes, a hero hamper, evergreen garlands, velvet ribbons, matte ceramic ornaments, and a small amount of bakery or fragrance gifting cues arranged into one coherent Christmas retail composition. The objects should feel premium and tactile rather than toy-like. Build clear foreground, midground, and background layers so the viewer immediately reads wrapping quality, bundle hierarchy, and a believable in-store campaign language.\n\nImportant details:\nLock the campaign grammar here: pine texture, ribbon thickness, brass hardware, cream paper stock, amber lighting direction, and a refined balance between abundance and breathing room. Keep the gift architecture elegant and commercially usable, with no cluttered department-store chaos. Surfaces should feel physically real, gift-ready, and suitable for a reusable retail toolkit that could expand into web banners, window displays, and catalog covers.\n\nUse case:\nChristmas Retail series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no character mascots, no cartoon sleigh clichés, no busy crowd, no branded packaging, no readable price cards, no excessive snowfall blocking the products, no cheap glitter explosion.",
+  "id": "01-evergreen-window-anchor",
+  "title": "Evergreen Window Anchor",
+  "description": "A warm Christmas hero window that defines the core gifting language for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "photorealism",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/christmas-retail-gifting-campaign/packages/series-gifting-rollout/images/01-evergreen-window-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Christmas gifting rollout.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Evergreen Window Anchor",
+      "description": "A warm Christmas hero window that defines the core gifting language for the series."
+    },
+    "zh-CN": {
+      "title": "常青橱窗锚点",
+      "description": "一张建立整组圣诞礼赠主视觉语言的暖调橱窗图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "photorealism",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A Christmas retail hero scene with wrapped gifts, evergreen texture, and golden window light.",
+      "zh-CN": "带有礼盒、常青植被与金色窗光的圣诞零售主视觉。"
+    }
+  }
+}

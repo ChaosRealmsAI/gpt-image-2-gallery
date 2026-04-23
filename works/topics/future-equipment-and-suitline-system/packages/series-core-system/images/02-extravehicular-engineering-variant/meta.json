@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square product-board image for a future wearable system, balancing full-body presentation, material close-ups, and family-level design coherence. The lighting should feel commercial and physical, revealing fabric, shell, seals, and hardware clearly without flattening the subject. Use a controlled studio or minimal contextual environment that supports readability. Keep the same body and board language but add reinforced joint covers, external tool mounts, and exposure-ready sealing in a cool technical lighting setup.\n\nSubject:\nCenter the image on one coherent suitline: helmet, torso shell, seam system, gloves, boots, harness points, and modular attachments should all read as parts of one product family. The wearer can appear neutral and upright, but the real protagonist is the design system and its task identity. Preserve the reference helmet shape, seam architecture, and hardware family while shifting the configuration toward field engineering durability.\n\nImportant details:\nTreat the board as a commercial concept surface. Materials, fastening logic, body protection, comfort cues, and accessory placement must all feel intentional. The suite should look ready for campaign imagery, product family boards, or advanced apparel concept work rather than as a costume illustration. The variant should feel like a product extension rather than a different brand, with clear continuity in every fastening and shell decision. Preserve the exact structural language established by the reference image, especially the helmet profile, seam architecture, fastening language, and modular accessory family.\n\nUse case:\nSuitline System series study 2/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no superhero spandex cues, no military insignia, no readable labels, no impossible body proportions, no bulky astronaut parody.",
+  "id": "02-extravehicular-engineering-variant",
+  "title": "Extravehicular Engineering Variant",
+  "description": "Extravehicular Engineering Variant presents the same suitline adapted for external engineering work in hard environmental exposure.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fashion",
+    "multi-image-reference",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-equipment-and-suitline-system/packages/series-core-system/images/02-extravehicular-engineering-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-suitline-anchor",
+        "meta_path": "works/topics/future-equipment-and-suitline-system/packages/series-core-system/images/01-suitline-anchor/meta.json",
+        "image_path": "works/topics/future-equipment-and-suitline-system/packages/series-core-system/images/01-suitline-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Suitline System core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Extravehicular Engineering Variant",
+      "description": "Extravehicular Engineering Variant presents the same suitline adapted for external engineering work in hard environmental exposure."
+    },
+    "zh-CN": {
+      "title": "Extravehicular Engineering Variant",
+      "description": "装备系统主题中的Extravehicular Engineering Variant图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fashion",
+      "multi-image-reference",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Extravehicular Engineering Variant presents the same suitline adapted for external engineering work in hard environmental exposure.",
+      "zh-CN": "装备系统主题中的Extravehicular Engineering Variant图像。"
+    }
+  }
+}

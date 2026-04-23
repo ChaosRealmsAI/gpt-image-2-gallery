@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a neat approval-board layout with circular or shield-like portrait crops, frame variations, and token-sized reward objects arranged on a clean dark field. Build a polished game-art presentation for one original playable hero skinline, with premium lighting, clean silhouette read, and merchandising clarity. Keep the image square, polished, and intentionally staged like a production-ready game asset review or campaign module. The camera, lighting, and tonal range should help the subject stay readable at both thumbnail and full resolution, with clear hierarchy and no dependence on readable on-screen copy.\n\nSubject:\nUse close portrait crops of the same hero plus a family of rarity frame treatments, small badge motifs, and cosmetic token art that all derive from the main skinline. The recurring hero is a swift storm duelist with warm brown skin, a sharp oval face, close-cropped dark hair with one longer braided strand, teal eyes, and a lean athletic build. The subject should feel original, specific, and part of one coherent product system rather than a generic fantasy or sci-fi mashup. Preserve stable design anchors, clean shape language, and believable scale relationships across every visible object, character, card, or environment layer.\n\nImportant details:\nThe image should bridge hero art and UI utility. Frame silhouettes, gem colors, and material accents must echo the costume system rather than feeling unrelated. The design language should show a believable rarity ladder instead of random costume swaps, keeping the same role fantasy while materials, trim density, glow treatment, and ceremonial value scale upward. Favor disciplined composition, premium material rendering, and obvious internal logic so the result feels useful for art direction, live-ops rollout, or product review. Abstract interface blocks, symbolic markers, or decorative framing are fine, but they must remain non-readable and subordinate to the main visual message.\n\nUse case:\nSkinline Suite single study 7/9, a portrait-frame and reward-support study.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no weapon copied from known franchises, no floating price text, no random extra characters, no unreadable clutter, no readable badge numbers, no different face per crop, no generic mobile-game clutter.",
+  "id": "icon-frame-board",
+  "title": "Icon Frame Board",
+  "description": "A support study showing how portrait crops, rarity frames, and reward icons align with the same skinline identity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fashion",
+    "commercial-mockup",
+    "identity-consistency",
+    "virtual-try-on",
+    "style-transfer",
+    "multi-image-reference",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/skinline-rarity-variant-suite/packages/single-skinline-system-studies/images/icon-frame-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study 7 for skinline-rarity-variant-suite.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Icon Frame Board",
+      "description": "A support study showing how portrait crops, rarity frames, and reward icons align with the same skinline identity."
+    },
+    "zh-CN": {
+      "title": "Icon Frame Board",
+      "description": "A support study showing how portrait crops, rarity frames, and reward icons align with the same skinline identity."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "commercial-mockup",
+      "identity-consistency",
+      "virtual-try-on",
+      "style-transfer",
+      "multi-image-reference",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A support study showing how portrait crops, rarity frames, and reward icons align with the same skinline identity.",
+      "zh-CN": "A support study showing how portrait crops, rarity frames, and reward icons align with the same skinline identity."
+    }
+  }
+}

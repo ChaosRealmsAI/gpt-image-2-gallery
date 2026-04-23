@@ -1,0 +1,39 @@
+{
+  "id": "ghanaian-movie-poster-raw",
+  "title": "Ghanaian Movie Poster · Raw Hand-Painted",
+  "short_title": "Ghana Hand-Painted",
+  "description": "80s-90s Ghanaian hand-painted flour-sack movie poster style — dramatic oversized portraits, bright primary colors, heavy brush texture, local market bootleg energy.",
+  "i18n": {
+    "en": {
+      "title": "Ghanaian Movie Poster · Raw Hand-Painted",
+      "short_title": "Ghana Hand-Painted",
+      "description": "80s-90s Ghanaian hand-painted flour-sack movie poster style — dramatic oversized portraits, bright primary colors, heavy brush texture, local market bootleg energy."
+    },
+    "zh-CN": {
+      "title": "加纳面粉袋手绘电影海报",
+      "short_title": "加纳手绘",
+      "description": "80-90 年代加纳手绘面粉袋电影海报 · 戏剧性放大肖像 · 明亮原色 · 重笔触 · 集市盗版能量。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 560,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-studies",
+      "type": "single",
+      "title": "Poster Studies",
+      "path": "packages/single-poster-studies/package.json"
+    }
+  ]
+}

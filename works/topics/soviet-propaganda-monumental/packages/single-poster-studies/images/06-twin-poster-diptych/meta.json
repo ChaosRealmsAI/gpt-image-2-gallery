@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square white-wall installation showing two companion posters hung side by side with equal spacing, photographed frontally so the pair reads as a designed conversation rather than two unrelated sheets. The poster should express heroic monumental realism with low-angle figures, sunrise shafts, sculptural drapery, and industrial optimism, using red, ochre, cream, steel blue, and warm industrial smoke gray and a tactile surface appropriate to the medium.\n\nSubject:\nCompose a matched diptych: two posters sharing one style system while splitting the narrative across paired motifs, mirrored masses, or complementary color emphasis. Use workers, engineers, turbines, wheat, chimneys, steel beams, and raised-arm silhouettes as the main visual ingredients, and organize them with bold banner-like glyph panels used as abstract propaganda blocks without readable wording. For the contemporary-subject axis, thread in renewable-energy towers, metro construction, and logistics workers recast through monumental heroic framing. The poster must feel like an original design object rather than a reproduction of any known work.\n\nImportant details:\nBoth halves should feel distinct yet inseparable. Preserve one coherent visual language, but let each sheet carry its own focal symbol and rhythm without readable wording. Preserve upward gaze, idealized anatomy, broad light geometry, and poster clarity at large scale. Keep every letterform abstract and non-readable, as if it were a typographic texture rather than language. Make the style unmistakable through composition, palette, surface behavior, and symbolic compression. no specific leaders, no state emblems, no satire, no gritty collapse imagery.\n\nUse case:\nSoviet Monumental single study 6/9, testing system flexibility across a paired set.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no copyrighted characters, no real brand marks, no QR codes, no interface chrome, no accidental gibberish lettering.",
+  "id": "06-twin-poster-diptych",
+  "title": "Twin Poster Diptych",
+  "description": "Soviet Monumental rendered as a twin poster diptych study, emphasizing testing system flexibility across a paired set.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/soviet-propaganda-monumental/packages/single-poster-studies/images/06-twin-poster-diptych/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Soviet Monumental poster study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Twin Poster Diptych",
+      "description": "Soviet Monumental rendered as a twin poster diptych study, emphasizing testing system flexibility across a paired set."
+    },
+    "zh-CN": {
+      "title": "双联海报",
+      "description": "苏联宣传主题下的双联海报研究，重点是测试成套系统延展性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Soviet Monumental poster study shown as twin poster diptych with non-readable lettering and style-accurate materials.",
+      "zh-CN": "苏联宣传风格海报，以双联海报形式呈现，带有不可读字形与准确材质表现。"
+    }
+  }
+}

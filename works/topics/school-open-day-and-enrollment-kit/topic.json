@@ -1,0 +1,46 @@
+{
+  "id": "school-open-day-and-enrollment-kit",
+  "title": "School Open Day and Enrollment Kit",
+  "short_title": "School Kit",
+  "description": "Build school enrollment kits covering open-day posters, prospectus covers, and campus atmosphere visuals.",
+  "i18n": {
+    "en": {
+      "title": "School Open Day and Enrollment Kit",
+      "short_title": "School Kit",
+      "description": "Build school enrollment kits covering open-day posters, prospectus covers, and campus atmosphere visuals."
+    },
+    "zh-CN": {
+      "title": "学校开放日与招生套件",
+      "short_title": "招生套件",
+      "description": "做学校开放日与招生套件，覆盖海报、手册封面和校园氛围。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 10,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Enrollment Kit",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Enrollment Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

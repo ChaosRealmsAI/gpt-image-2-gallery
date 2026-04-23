@@ -1,0 +1,52 @@
+{
+  "id": "airbrush-70s-sci-fi-paperback",
+  "slug": "airbrush-70s-sci-fi-paperback",
+  "category": "illustration",
+  "style": [
+    "retro",
+    "illustration"
+  ],
+  "capability": [
+    "style-transfer",
+    "editorial-illustration",
+    "text-rendering",
+    "frontier-creative-composition"
+  ],
+  "title": "Airbrush 70s Sci-Fi Paperback",
+  "short_title": "70s Sci-Fi Paperback",
+  "description": "70s airbrush science-fiction paperback covers — glossy floating planets, chrome-foil cursive titles, deep maroon-to-violet skies, and matte paper stock reborn at modern resolution.",
+  "i18n": {
+    "en": {
+      "title": "Airbrush 70s Sci-Fi Paperback",
+      "short_title": "70s Sci-Fi Paperback",
+      "description": "70s airbrush science-fiction paperback covers — glossy floating planets, chrome-foil cursive titles, deep maroon-to-violet skies, and matte paper stock reborn at modern resolution."
+    },
+    "zh-CN": {
+      "title": "70 年代喷绘科幻平装封面",
+      "short_title": "70 年代科幻封面",
+      "description": "70 年代喷绘科幻平装封面 · 光洁漂浮行星 · 铬金箔草书标题 · 深栗紫天空 · 哑光纸质感以现代精度重生。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "text-rendering",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-70s-paperback-studies",
+      "type": "single",
+      "title": "70s Paperback Studies",
+      "path": "packages/single-70s-paperback-studies/package.json"
+    }
+  ]
+}

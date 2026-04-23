@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Track Campaign Core",
+  "description": "A four-image identity-locked motorsport promo system built around one original race car and livery language.",
+  "creative_direction": "Image 01 establishes one original endurance-style race car, its livery rhythm, and its team atmosphere. Images 02-04 depend on it and preserve the exact car identity while changing track condition, speed mood, and promo emphasis.",
+  "cover_image": "images/01-reference-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-anchor/meta.json",
+      "images/02-context-shift/meta.json",
+      "images/03-surface-study/meta.json",
+      "images/04-presentation-master/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-anchor first. Use its runtime result URL as --ref for 02-context-shift, 03-surface-study, 04-presentation-master. Queue may run later images concurrently after 01-reference-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Track Campaign Core",
+      "description": "A four-image identity-locked motorsport promo system built around one original race car and livery language."
+    },
+    "zh-CN": {
+      "title": "赛道核心战役",
+      "description": "围绕同一原创赛车与涂装语言构建的四张连续宣传图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "high-speed",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-anchor",
+      "title": "Grid Hero",
+      "image": "images/01-reference-anchor/image.png",
+      "meta": "images/01-reference-anchor/meta.json"
+    },
+    {
+      "id": "02-context-shift",
+      "title": "Rain Sprint",
+      "image": "images/02-context-shift/image.png",
+      "meta": "images/02-context-shift/meta.json"
+    },
+    {
+      "id": "03-surface-study",
+      "title": "Night Pit Energy",
+      "image": "images/03-surface-study/image.png",
+      "meta": "images/03-surface-study/meta.json"
+    },
+    {
+      "id": "04-presentation-master",
+      "title": "Cooldown Poster",
+      "image": "images/04-presentation-master/image.png",
+      "meta": "images/04-presentation-master/meta.json"
+    }
+  ]
+}

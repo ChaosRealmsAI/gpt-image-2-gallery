@@ -1,0 +1,52 @@
+{
+  "id": "miami-deco-80s-poster",
+  "slug": "miami-deco-80s-poster",
+  "category": "poster",
+  "style": [
+    "retro",
+    "poster"
+  ],
+  "capability": [
+    "style-transfer",
+    "structured-layout",
+    "text-rendering",
+    "pattern"
+  ],
+  "title": "Miami Deco 80s Poster",
+  "short_title": "Miami Deco 80s",
+  "description": "80s Miami-deco resort posters — flamingo pink plus tropical teal plus mustard gold, angular speedline triangles, palm-silhouette sunsets, condensed sans titles, and pastel stucco texture rendered at modern print fidelity.",
+  "i18n": {
+    "en": {
+      "title": "Miami Deco 80s Poster",
+      "short_title": "Miami Deco 80s",
+      "description": "80s Miami-deco resort posters — flamingo pink plus tropical teal plus mustard gold, angular speedline triangles, palm-silhouette sunsets, condensed sans titles, and pastel stucco texture rendered at modern print fidelity."
+    },
+    "zh-CN": {
+      "title": "80 年代迈阿密装饰海报",
+      "short_title": "迈阿密装饰",
+      "description": "80 年代迈阿密装饰风度假海报 · 火烈鸟粉 + 热带青 + 芥末金 · 锐角速度线 · 棕榈剪影日落 · 压缩无衬线标题 · 粉彩灰泥质感以现代印刷精度呈现。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "text-rendering",
+      "pattern"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-miami-deco-studies",
+      "type": "single",
+      "title": "Miami Deco Studies",
+      "path": "packages/single-miami-deco-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA top-down square photograph of a quiet poetry zine page lying on a soft linen surface under a warm window light. The paper is soft ivory, slightly thicker than photocopier stock, with deckled edges on two sides.\n\nSubject:\nA poetic cut-up arrangement on the page: narrow strips of photocopied typewriter text, each with a different age-yellowing, arranged in a loose waterfall pattern down the center. A small pencil illustration of a bird in flight sits in the top-right corner. Three pressed petals are taped at the lower margin. Ink-brush marks in pale grey connect some strips like threads.\n\nImportant details:\nEach typewriter strip must look cut from different source papers — some darker, some more yellowed, some with a curved tear. Pale grey ink-brush threads must bleed into paper fibers. Pencil bird must be restrained, unfinished. Pressed petals carry believable color pigment loss.\n\nUse case:\nIndependent single image in the Collage Moods package, representing the poetic cut-up voice.\n\nConstraints:\nNo readable text, no watermark, no logos, no brand names, no vector lines, no crisp digital alignment, no symmetry, preserve exact 1:1 aspect ratio.",
+  "id": "poetry-cutup-page",
+  "title": "Poetry Cut-up Page",
+  "description": "A quiet zine page of cut-up typewriter strips arranged like a waterfall, with pencil bird and pressed petals.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["editorial-illustration", "structured-layout", "pattern", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/torn-paper-zine-collage/packages/single-collage-moods/images/poetry-cutup-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image; no reference required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Poetry Cut-up Page",
+      "description": "A quiet zine page of cut-up typewriter strips arranged like a waterfall, with pencil bird and pressed petals."
+    },
+    "zh-CN": {
+      "title": "诗意剪切页",
+      "description": "安静的 zine 页 · 打字机文字窄条排成瀑布 / 铅笔小鸟 / 压花瓣。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["editorial-illustration", "pattern"],
+    "alt": {
+      "en": "Soft zine page with cut typewriter strips, pencil bird, and pressed petals.",
+      "zh-CN": "柔和 zine 页 · 打字机文字窄条 · 铅笔鸟 · 压花瓣。"
+    }
+  }
+}

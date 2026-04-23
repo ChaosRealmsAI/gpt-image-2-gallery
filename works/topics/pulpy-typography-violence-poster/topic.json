@@ -1,0 +1,41 @@
+{
+  "id": "pulpy-typography-violence-poster",
+  "slug": "pulpy-typography-violence-poster",
+  "title": "Pulpy Typography Over Violent Tableau",
+  "short_title": "Pulpy Typography",
+  "description": "70s-pulp-magazine-style poster with bold yellow/red block typography over a static violent tableau — diner booth, bleeding red, deadpan composition.",
+  "i18n": {
+    "en": {
+      "title": "Pulpy Typography Over Violent Tableau",
+      "short_title": "Pulpy Typography",
+      "description": "70s-pulp-magazine-style poster with bold yellow/red block typography over a static violent tableau — diner booth, bleeding red, deadpan composition."
+    },
+    "zh-CN": {
+      "title": "低俗印刷 + 暴力画面",
+      "short_title": "低俗印刷",
+      "description": "70 年代粗糙刊物风 · 黄红色块字体压在静态暴力画面上 · 餐厅卡座、流淌的红 · 面瘫构图。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 630,
+    "tags": [
+      "editorial-illustration",
+      "style-transfer",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-pulpy-typography-violence-poster",
+      "type": "single",
+      "title": "Pulpy Typography Studies",
+      "path": "packages/single-pulpy-typography-violence-poster/package.json"
+    }
+  ]
+}

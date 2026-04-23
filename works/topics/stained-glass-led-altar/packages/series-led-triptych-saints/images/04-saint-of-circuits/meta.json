@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nSame straight-on catalog shot of the reference triptych, same lighting, same frame, same velvet backdrop. The central panel has been re-imaged.\n\nSubject:\nThe identical triptych frame, grid density, bead lines and copper moulding are preserved. The central panel now shows a Saint of Circuits — a standing robed figure whose body contours are traced with fine copper circuit trails on top of the colored-glass cells, as if the saint and the frame share the same circuit network. A small glowing node sits at each joint. The saint's hand is raised in blessing; from the fingertips, thin copper traces jump onto the panel border and connect seamlessly to the frame moulding.\n\nImportant details:\nPreserve exact frame proportions, cell density and bead cadence from the reference. Copper traces on the saint must match the frame moulding in line weight and patina. The connection points between saint and frame must be crisp — small solder pads clearly visible. Color palette: robe in deep ruby, circuit nodes in warm amber, frame copper consistent with reference.\n\nUse case:\nStained Glass LED Altar series image 4/4, depends on reference altar; showcases Saint of Circuits variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand chip markings, no microchip labels, no readable component codes, no crucifix corpus, keep triptych frame identity from reference.",
+  "id": "04-saint-of-circuits",
+  "title": "Saint of Circuits",
+  "description": "The reference triptych with a Saint of Circuits whose copper traces connect seamlessly into the frame moulding, joint nodes glowing amber.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "fusion",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/04-saint-of-circuits/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-altar",
+        "meta_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/meta.json",
+        "image_path": "works/topics/stained-glass-led-altar/packages/series-led-triptych-saints/images/01-reference-altar/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reuse 01 triptych frame; central panel becomes Saint of Circuits."
+  },
+  "i18n": {
+    "en": {
+      "title": "Saint of Circuits",
+      "description": "The reference triptych with a Saint of Circuits whose copper traces connect seamlessly into the frame moulding, joint nodes glowing amber."
+    },
+    "zh-CN": {
+      "title": "电路之圣人",
+      "description": "基准三联画中央替换为电路之圣人，铜线脉络与画框电路无缝相接，关节节点琥珀发光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "fusion",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "The triptych with a Saint of Circuits whose body is traced in copper circuits connecting to the frame moulding.",
+      "zh-CN": "三联画中央的电路之圣人，身体由铜路勾勒并与画框花边相连。"
+    }
+  }
+}

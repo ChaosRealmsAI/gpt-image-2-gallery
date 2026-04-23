@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square future-city key visual where transport layers, housing density, and skyline depth are all legible in one controlled composition. The camera should sit at mid-to-high elevation so the viewer can read arterial rails, pedestrian decks, service lanes, and the inhabited mass of the city at once. Favor rainy or hazy atmospheric perspective that enhances depth without hiding structural logic. Render the district at night after rain with one elevated emergency lane lit sharply as it threads through the same transport stack and tower base network.\n\nSubject:\nCenter the image on a dense but coherent urban stack: rail viaducts, skybridges, delivery lanes, tower podiums, residential blocks, and public circulation surfaces all working together. The city should feel designed around movement, commerce, and real occupancy rather than as a pile of disconnected towers. Keep the anchor skyline and transit deck geometry intact while highlighting emergency routing, service bays, and safe public circulation under stress.\n\nImportant details:\nHierarchy is critical. Distinguish fast transit, local walking, freight access, and private shelter zones through lighting, material changes, and depth organization. Use disciplined steel, concrete, glass, and muted light accents so the city feels like a credible urban product surface rather than generic cyberpunk spectacle. This should feel resilient and civic, not apocalyptic, using selective blue-white lighting and disciplined wet-surface reflections to reveal infrastructure logic. Preserve the exact structural language established by the reference image, especially the stacked transit decks, bridge proportions, mixed residential density, and cool rain-surface lighting.\n\nUse case:\nFuture City series study 4/4, designed as a reusable core-system image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no empty streets, no retro cars, no generic neon gibberish billboards, no impossible lane geometry, no riots, no fireballs, no collapse imagery.",
+  "id": "04-night-emergency-lane",
+  "title": "Night Emergency Lane",
+  "description": "Night Emergency Lane presents the same city stack during a controlled nighttime emergency response corridor.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/future-city-layered-transport-world/packages/series-core-system/images/04-night-emergency-lane/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-transit-stack-anchor",
+        "meta_path": "works/topics/future-city-layered-transport-world/packages/series-core-system/images/01-transit-stack-anchor/meta.json",
+        "image_path": "works/topics/future-city-layered-transport-world/packages/series-core-system/images/01-transit-stack-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent Future City core system variant preserving image 01.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Emergency Lane",
+      "description": "Night Emergency Lane presents the same city stack during a controlled nighttime emergency response corridor."
+    },
+    "zh-CN": {
+      "title": "Night Emergency Lane",
+      "description": "未来城市主题中的Night Emergency Lane图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Night Emergency Lane presents the same city stack during a controlled nighttime emergency response corridor.",
+      "zh-CN": "未来城市主题中的Night Emergency Lane图像。"
+    }
+  }
+}

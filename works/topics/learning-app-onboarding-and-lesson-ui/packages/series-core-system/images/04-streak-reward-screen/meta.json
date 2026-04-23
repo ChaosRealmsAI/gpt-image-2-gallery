@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nReturn to the same square device-led composition and polished studio lighting from the reference screens, but shift the moment into a celebratory reward state. The image should still feel credible for a real education product, not an over-gamified entertainment app. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFeature a progress path, earned badges, confetti kept under control, a smiling mascot, and a clean reward card that suggests continuity and habit-building. Use visual hierarchy so parents can sense trust and pedagogy even in a more emotional product moment. The subject matter should feel intentionally selected for a coherent curriculum family rather than like a random decorative assortment.\n\nImportant details:\nMaintain the exact reference system: same device framing, card geometry, icon weight, and color logic. The change should come from emotional energy and completion cues, while the app remains obviously part of one carefully designed learning flow. Preserve the same mobile device framing, card radius, mascot style, color system, icon weight, and spacing rhythm from the reference screen set. Use variation only in the teaching content, supporting props, and scene-specific mood while preserving the core visual system exactly.\n\nUse case:\nLearning App Onboarding and Lesson UI series study 4/4, streak reward screen.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable UI copy, no app-store branding, no logos, no generic gaming clutter, no impossible device anatomy, no notification spam.",
+  "id": "04-streak-reward-screen",
+  "title": "Streak Reward Screen",
+  "description": "A reward-and-streak screen that completes the reference-dependent learning-app family.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/04-streak-reward-screen/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-onboarding-stack",
+        "meta_path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/01-reference-onboarding-stack/meta.json",
+        "image_path": "works/topics/learning-app-onboarding-and-lesson-ui/packages/series-core-system/images/01-reference-onboarding-stack/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Reference-dependent variation 4 preserving the core system from 01-reference-onboarding-stack.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Streak Reward Screen",
+      "description": "A reward-and-streak screen that completes the reference-dependent learning-app family."
+    },
+    "zh-CN": {
+      "title": "连续奖励页",
+      "description": "完成整组参考依赖学习 App 家族的连续奖励页面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A reward-and-streak screen that completes the reference-dependent learning-app family.",
+      "zh-CN": "完成整组参考依赖学习 App 家族的连续奖励页面。"
+    }
+  }
+}

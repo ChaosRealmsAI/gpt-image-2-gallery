@@ -1,0 +1,47 @@
+{
+  "id": "delivery-first-food-commerce-tiles",
+  "slug": "delivery-first-food-commerce-tiles",
+  "title": "Delivery-First Food Commerce Tiles",
+  "short_title": "Delivery Tiles",
+  "description": "Build delivery-first food visuals optimized for app tiles, combo readability, and instant craving.",
+  "i18n": {
+    "en": {
+      "title": "Delivery-First Food Commerce Tiles",
+      "short_title": "Delivery Tiles",
+      "description": "Build delivery-first food visuals optimized for app tiles, combo readability, and instant craving."
+    },
+    "zh-CN": {
+      "title": "外卖优先餐饮 commerce tiles",
+      "short_title": "外卖tiles",
+      "description": "做外卖优先餐饮 commerce tiles，强调 app 缩略图、套餐可读性和食欲。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 2450,
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout",
+      "social-feed"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Delivery Tile Continuity",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Commerce Tile Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square street-food brand image that feels rooted in vernacular signage, fast service, handheld eating, and dense local texture without copying any specific real-world brand or famous location. The frame should feel energetic and commercial, with heat, packaging, and human-scale surfaces that suggest a busy street-food context. Use a square close crop of a food item on the counter as sauce is applied, with shallow background depth and warm stall light.\n\nSubject:\nThe food must look handheld, immediate, and physically satisfying, while the brand kit emerges through color, paper, enamel, painted surfaces, stall materials, and abstract signage forms rather than readable names. The frame should center the food and the sauce motion, using the hand only as a service cue rather than a portrait subject.\n\nImportant details:\nThis topic depends on cultural and retail credibility. Preserve believable stall materials, quick-service rhythms, food wrapping logic, and the layered density of a small-footprint brand environment. Use sign-painting, stencil-like marks, or abstract lettering forms only as non-legible texture; the identity should come from visual language, not copied brands or readable text. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Motion needs to feel real: squeeze pressure, sauce viscosity, wrapper tension, and heat from the food should all align physically.\n\nUse case:\nStreet Food Kit single study 7/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no famous landmarks, no franchise styling, no tourist-poster cliché, no fake AI neon overload, no generic festival booth, no chef portrait, no messy splatter, no branded bottle labels.",
+  "id": "sauce-squeeze-action",
+  "title": "Sauce Squeeze Action",
+  "description": "An action-led street-food image focused on finishing sauce and quick-service immediacy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "commercial-mockup",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/street-food-vernacular-brand-kit/packages/single-support-studies/images/sauce-squeeze-action/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Sauce Squeeze Action",
+      "description": "An action-led street-food image focused on finishing sauce and quick-service immediacy."
+    },
+    "zh-CN": {
+      "title": "挤酱动作",
+      "description": "挤酱动作：街头餐饮主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "commercial-mockup",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "An action-led street-food image focused on finishing sauce and quick-service immediacy.",
+      "zh-CN": "挤酱动作，用于街头餐饮主题。"
+    }
+  }
+}

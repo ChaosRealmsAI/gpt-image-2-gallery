@@ -1,0 +1,52 @@
+{
+  "prompt": "Scene:\nA square cinematic matte-painting style illustration of the same spaceport from the reference, now at night just at the moment of launch. Camera is low three-quarter angle matching the reference, but the sky is now deep indigo with stars and a crescent moon. Dramatic cinematic lighting from rocket exhaust glow and terminal neon.\n\nSubject:\nThe same silver finned rocket with three cadmium-red stripes from the reference is lifting off its spiral gantry. A column of bright orange-yellow exhaust flame and turbulent cream smoke billows across the concrete launch apron. The art-deco spire terminal behind glows with warm ivory floodlights and its yellow neon observation dome ring is lit full strength. Small stylized figures behind a yellow safety rail raise hands to shield eyes; a hostess waves a chrome-handled signal wand. Reflections of orange flame wash the polished concrete pad.\n\nImportant details:\nRocket body, stripe placement, and fin silhouette must match the reference exactly. Terminal spire, observation dome, and gantry spiral must also match. Only lighting, sky, and exhaust change. Palette: indigo sky, ivory terminal, neon yellow, cadmium red stripes, chrome reflections, orange-yellow flame. Keep matte-painting illustration feel, not photoreal.\n\nUse case:\nSilver Rocket Terminal series shot 4 of 4, the dramatic launch moment of the same scene from the reference.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern rocket engines, no photoreal crowd, no glass-box modern architecture, preserve exact 1:1 aspect ratio, preserve the reference rocket and terminal silhouettes.",
+  "id": "04-night-launch",
+  "title": "Night Launch",
+  "description": "The reference rocket at the dramatic moment of night liftoff, same spaceport, same silhouettes, new lighting.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "cinematic", "series"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/04-night-launch/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-terminal-hero",
+        "meta_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/meta.json",
+        "image_path": "works/topics/ray-gun-gothic-spaceport/packages/series-silver-rocket-terminal/images/01-terminal-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on terminal-hero. Use its runtime URL as --ref to preserve the rocket and terminal silhouettes; only lighting changes."
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Launch",
+      "description": "The reference rocket at the dramatic moment of night liftoff, same spaceport, same silhouettes, new lighting."
+    },
+    "zh-CN": {
+      "title": "夜间发射",
+      "description": "参考火箭在同一太空港的夜间升空时刻, 剪影不变, 灯光氛围变。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration", "cinematic"],
+    "alt": {
+      "en": "A silver finned rocket lifting off at night with orange exhaust flame against a starry indigo sky.",
+      "zh-CN": "银色带鳍火箭在夜晚升空, 橙黄尾焰衬着深蓝星空。"
+    }
+  }
+}

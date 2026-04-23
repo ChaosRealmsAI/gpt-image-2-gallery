@@ -1,0 +1,71 @@
+{
+  "id": "series-core-system",
+  "type": "series",
+  "title": "Vitrine Jar Series",
+  "description": "Four reference-linked fermentation vessels photographed like museum specimens with layered biological texture.",
+  "creative_direction": "Image 01 establishes the vitrine light, glass-reflection discipline, and specimen pedestal language. Images 02-04 preserve that exact archival system while rotating among kombucha, kimchi, and miso structures.",
+  "cover_image": "images/01-vitrine-jar-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-vitrine-jar-anchor/meta.json",
+      "images/02-scoby-strata/meta.json",
+      "images/03-kimchi-sediment-column/meta.json",
+      "images/04-miso-geology-block/meta.json"
+    ],
+    "ref_strategy": "Run 01-vitrine-jar-anchor first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent variations concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Vitrine Jar Series",
+      "description": "Four reference-linked fermentation vessels photographed like museum specimens with layered biological texture."
+    },
+    "zh-CN": {
+      "title": "Core Series",
+      "description": "发酵图鉴相关的四张连续控制图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "scientific-realism",
+      "micro-texture"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-vitrine-jar-anchor",
+      "title": "Vitrine Jar Anchor",
+      "image": "images/01-vitrine-jar-anchor/image.png",
+      "meta": "images/01-vitrine-jar-anchor/meta.json"
+    },
+    {
+      "id": "02-scoby-strata",
+      "title": "SCOBY Strata",
+      "image": "images/02-scoby-strata/image.png",
+      "meta": "images/02-scoby-strata/meta.json"
+    },
+    {
+      "id": "03-kimchi-sediment-column",
+      "title": "Kimchi Sediment Column",
+      "image": "images/03-kimchi-sediment-column/image.png",
+      "meta": "images/03-kimchi-sediment-column/meta.json"
+    },
+    {
+      "id": "04-miso-geology-block",
+      "title": "Miso Geology Block",
+      "image": "images/04-miso-geology-block/image.png",
+      "meta": "images/04-miso-geology-block/meta.json"
+    }
+  ]
+}

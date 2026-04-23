@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square cinematic frame built with absolute left-right symmetry and a straight-on camera at human height. The palette is powder pink, mint, butter yellow, pale blue, and faded coral, with soft daylight and a miniature dollhouse clarity. The architecture should feel handcrafted, tidy, slightly theatrical, and emotionally precise rather than casual or naturalistic. Open onto an enclosed hotel courtyard with a central fountain bowl, checkerboard paving, and two narrow staircases rising with identical angles toward matching balcony doors.\n\nSubject:\nPlace one or two front-facing figures exactly on the central axis, with costumes, props, and furnishings arranged like curated museum pieces. The people should feel composed and deadpan, never candid, and the room must read as a cutaway stage set where every shelf, lamp, chair, and curtain participates in the symmetry. Place a bellhop in a lavender uniform on the fountain axis holding stacked hat boxes, while two doves and two folded deck chairs echo the geometry at equal distances.\n\nImportant details:\nThe signature rules are central balance, flat frontal staging, pastel temperature control, crisp prop spacing, and a charming handmade scale. Preserve clean rectangles, color-coded rooms, disciplined eye-line, and the sense that the camera is respectfully observing an invented world. Avoid messy realism, loose camera motion, asymmetrical clutter, and dramatic lens distortion. The courtyard should feel sunlit yet soft, with chalky pastel masonry, clipped hedges, and a deliberately reduced sense of scale that makes every object slightly precious.\n\nUse case:\nSymmetrical Pastel Dollhouse Cinematography single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dutch angle, no chaotic crowd, no gritty grime, no harsh neon, no visible brand packaging, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "05-courtyard-bellhop",
+  "title": "Courtyard Bellhop",
+  "description": "A pastel courtyard tableau with a fountain axis, mirrored stairs, and a bellhop posed like a figurine.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "structured-layout",
+    "style-transfer",
+    "miniature-world",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/symmetrical-pastel-dollhouse-cinematography/packages/single-symmetrical-pastel-dollhouse-cinematography/images/05-courtyard-bellhop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent pastel symmetry study focused on courtyard bellhop.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Courtyard Bellhop",
+      "description": "A pastel courtyard tableau with a fountain axis, mirrored stairs, and a bellhop posed like a figurine."
+    },
+    "zh-CN": {
+      "title": "Courtyard Bellhop",
+      "description": "围绕对称粉彩的第5张独立研究图，聚焦 Courtyard Bellhop。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "structured-layout",
+      "style-transfer",
+      "miniature-world"
+    ],
+    "alt": {
+      "en": "A symmetrical hotel courtyard in pastel light with a centered bellhop beside a fountain.",
+      "zh-CN": "对称粉彩主题图：Courtyard Bellhop。"
+    }
+  }
+}

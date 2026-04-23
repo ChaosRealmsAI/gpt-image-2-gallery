@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCompose a square feast or banquet campaign image with abundant but controlled table choreography, rich servingware, and a celebratory atmosphere that feels suitable for hospitality campaigns, seasonal dining promotions, or event editorials. The frame should manage many elements without losing hierarchy, elegance, or appetite appeal. Retain the same banquet geometry and celebratory lighting, but cool the palette slightly with silver platters, shell textures, and reflective serving surfaces.\n\nSubject:\nThe food must look substantial and celebratory, with believable multi-dish coordination, serving logic, and table rituals that suggest a real banquet rather than a random buffet pile. Feature a generous seafood platter surrounded by side dishes, sauces, and glassware in a balanced orbit that still feels premium and organized.\n\nImportant details:\nThis topic depends on composition reasoning. Preserve a strong centerpiece, readable secondary dishes, coherent servingware, and lighting that supports depth across the table. Celebration should emerge from abundance, color, and ritual objects, not from gimmicks or branded holiday symbols. Everything must feel premium, coordinated, and logistically plausible. Preserve the exact camera height, lens feel, prop family, tabletop scale, palette discipline, and brand logic established by 01-banquet-anchor. Keep the anchor banquet language stable through servingware, crop, and abundance logic while making shell moisture, ice restraint, and platter hierarchy believable.\n\nUse case:\nFestive Feast series study 3/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no generic wedding décor, no buffet-chaos clutter, no novelty party props, no copied holiday mascots, no visible faces dominating the frame, no seafood-tower excess, no beach-party vibe, no restaurant logo plate.",
+  "id": "03-seafood-platter-orbit",
+  "title": "Seafood Platter Orbit",
+  "description": "A seafood-centered banquet image that preserves the reference table system while shifting the centerpiece toward a cooler abundant platter.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "reasoning-composition",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/03-seafood-platter-orbit/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-banquet-anchor",
+        "meta_path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/01-banquet-anchor/meta.json",
+        "image_path": "works/topics/festive-feast-and-banquet-campaign-visuals/packages/series-core-system/images/01-banquet-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must use 01-banquet-anchor as the primary reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Seafood Platter Orbit",
+      "description": "A seafood-centered banquet image that preserves the reference table system while shifting the centerpiece toward a cooler abundant platter."
+    },
+    "zh-CN": {
+      "title": "海鲜拼盘环绕",
+      "description": "海鲜拼盘环绕：节庆宴席主题中的连续主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A seafood-centered banquet image that preserves the reference table system while shifting the centerpiece toward a cooler abundant platter.",
+      "zh-CN": "海鲜拼盘环绕，用于节庆宴席主题。"
+    }
+  }
+}

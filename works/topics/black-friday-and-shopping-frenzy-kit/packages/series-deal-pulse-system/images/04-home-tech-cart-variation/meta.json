@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent campaign image within the same Black Friday world, using the exact black base, stark white bars, yellow sale accents, and crisp reflected light from the reference image, but expand the space to suggest a cart-driven retail scene. The frame should stay graphic and pressure-heavy while introducing more environment cues around stacked goods and checkout movement.\n\nSubject:\nFeature home-tech-like products, boxed appliances or accessories, cart silhouettes, and abstract sale surfaces arranged into a premium frenzy composition. Preserve exact layout logic, accent rhythm, and lighting identity from the reference model while shifting the scene toward basket-building and cart urgency. The imagery must remain original, non-branded, and optimized for campaign usability.\n\nImportant details:\nTreat this as the same sale grammar under a new retail use case. Maintain crisp hierarchy, disciplined geometry, and strong thumbnail read. The cart cue should strengthen urgency without turning the image into a literal supermarket shot. Keep reflections, box edges, and accent panels believable and polished. The final asset should feel like a direct extension of the reference campaign, ready for homepage takeovers or app sale promotions.\n\nUse case:\nBlack Friday series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact campaign identity from the reference image, no readable checkout screens, no currency symbols, no supermarket aisle clutter, no logo boxes, no human crowd, no random red holiday cues, no low-end bargain-bin mess.",
+  "id": "04-home-tech-cart-variation",
+  "title": "Home Tech Cart Variation",
+  "description": "A home-tech and cart-driven variation continuing the same Black Friday campaign language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/04-home-tech-cart-variation/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-midnight-deal-anchor",
+        "meta_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/meta.json",
+        "image_path": "works/topics/black-friday-and-shopping-frenzy-kit/packages/series-deal-pulse-system/images/01-midnight-deal-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent home-tech-cart variation for the Black Friday system. Preserve the exact campaign language from 01-midnight-deal-anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Home Tech Cart Variation",
+      "description": "A home-tech and cart-driven variation continuing the same Black Friday campaign language."
+    },
+    "zh-CN": {
+      "title": "家居科技变体",
+      "description": "延续同一黑五 campaign 语言的家居科技与购物车变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A home-tech Black Friday visual with cart cues and the same aggressive sale hierarchy.",
+      "zh-CN": "带有购物车线索并保持同一激进促销层级的家居科技黑五画面。"
+    }
+  }
+}

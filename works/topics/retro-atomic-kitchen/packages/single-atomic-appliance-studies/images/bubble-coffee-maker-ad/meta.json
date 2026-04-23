@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement page in the style of 1961 American kitchenware print ads. Full product-hero layout: appliance centered on a gradient studio backdrop, headline banner at top, small tagline banner at bottom. Halftone print grain, slight CMYK offset, matte coated-paper feel.\n\nSubject:\nAn imaginary atomic-age bubble-top percolator coffee maker: an ivory enamel base with chrome handle, a tall chrome column, and a clear glass bubble at the top where rich brown coffee is bubbling and splashing visibly. A red bakelite switch on the side. Below the coffee maker a single cadmium-red ceramic cup and saucer sits steaming, with a pink sugar cube beside it. Backdrop is a soft yellow-to-turquoise gradient. Stylized starburst motifs decorate the top corners.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. Appliance form must read as what 1961 imagined a futuristic percolator would look like: chrome column, glass bubble, analog switch, bulbous proportions. Rendering must feel like printed illustration, not photo: halftone grain, flat highlights, slight sketch-style chrome outlines.\n\nUse case:\nAtomic Appliance Studies single study 5 of 5, independent product ad mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, no modern espresso machine, no LCD display, no touchscreen, no photoreal depth-of-field, preserve exact 1:1 aspect ratio.",
+  "id": "bubble-coffee-maker-ad",
+  "title": "Bubble Coffee Maker Ad",
+  "description": "Magazine-ad mockup of an imaginary atomic-age bubble-top percolator coffee maker with visible brewing coffee.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/single-atomic-appliance-studies/images/bubble-coffee-maker-ad/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single. No reference image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bubble Coffee Maker Ad",
+      "description": "Magazine-ad mockup of an imaginary atomic-age bubble-top percolator coffee maker with visible brewing coffee."
+    },
+    "zh-CN": {
+      "title": "气泡咖啡机广告",
+      "description": "想象中原子时代气泡顶渗滤咖啡机的杂志广告样稿, 可见正在冲泡的咖啡。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "An atomic-age magazine ad of a chrome percolator with a glass bubble top showing coffee splashing inside.",
+      "zh-CN": "原子时代杂志广告风的镀铬渗滤咖啡机, 顶部玻璃泡可见咖啡飞溅。"
+    }
+  }
+}

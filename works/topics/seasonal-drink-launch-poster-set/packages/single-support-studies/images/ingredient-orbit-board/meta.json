@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCompose a square seasonal drink campaign image that can function as a poster, counter card, or launch visual. The frame should combine a hero beverage with strong art direction, abstract text-safe zones, and seasonal cues expressed through ingredients, color shifts, atmosphere, and material accents rather than readable copy. Compose a square board-like layout on a clean color field with one drink and several ingredient elements arranged in a balanced orbit.\n\nSubject:\nThe beverage must remain physically believable and delicious, with clear cup or bottle silhouette, realistic liquid behavior, and ingredients that support a limited-time seasonal story. Keep the beverage central while ingredients provide visual storytelling and poster-safe structure.\n\nImportant details:\nThis theme lives at the intersection of product photography and campaign layout. Preserve strong focal hierarchy, poster-safe negative space, and refined color systems that suggest seasonality without relying on legible words. Abstract lettering forms or blocks are allowed only as unreadable design elements. The drink must still look like something a real brand could launch tomorrow. This image should feel fully self-contained while still belonging to the same broader topic and commercial world. Spacing, shadow softness, and ingredient realism should feel carefully art directed, with enough room for abstract text-like shapes that remain unreadable.\n\nUse case:\nSeasonal Drinks single study 5/9, built for Prompt Atlas coverage of a food and beverage commercial visual system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no fake holiday slogans, no amusement-park color overload, no unreadable clutter, no cheap stock-poster look, no recipe diagram copy, no scientific labels, no chaotic floating objects.",
+  "id": "ingredient-orbit-board",
+  "title": "Ingredient Orbit Board",
+  "description": "A launch support board showing hero ingredients circling the beverage in a campaign system study.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "photorealism",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/seasonal-drink-launch-poster-set/packages/single-support-studies/images/ingredient-orbit-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for the same topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Ingredient Orbit Board",
+      "description": "A launch support board showing hero ingredients circling the beverage in a campaign system study."
+    },
+    "zh-CN": {
+      "title": "原料轨道板",
+      "description": "原料轨道板：季节饮品主题中的独立补充图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "photorealism",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A launch support board showing hero ingredients circling the beverage in a campaign system study.",
+      "zh-CN": "原料轨道板，用于季节饮品主题。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square alien-naturalist board that could live inside a field guide, exhibition panel, or worldbuilding deck. Treat the background and layout as part of the scientific storytelling, not as empty filler. Show a graceful herbivore in profile with hoof analogs, thermal sails, digestive inset views, and ridge vegetation windows surrounding the main specimen.\n\nSubject:\nShow one ecosystem component clearly enough to study: species, colony, migration route, terrain patch, or microbiome structure. The organisms should feel biologically integrated with their environment and each other. The animal should feel plausible for the terrain, diet, and climate, with anatomy and posture tied directly to the habitat.\n\nImportant details:\nFavor specimen clarity, habitat context, and pattern logic over spectacle. Even the strangest form should imply believable growth, feeding, protection, or movement strategies. Let adaptation logic lead the design instead of decorative strangeness. Preserve biological cause and effect so each ecology study reads as a system rather than an arbitrary monster illustration.\n\nUse case:\nAlien Ecology single study 2/5, designed as a self-contained support image for this topic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no encyclopedic text blocks, no cute cartoon mascots, no violent attack poses, no generic Earth animals with minor edits, no dinosaur remix clichés.",
+  "id": "02-ridge-herbivore-profile",
+  "title": "Ridge Herbivore Profile",
+  "description": "Ridge Herbivore Profile presents an illustrated field-guide plate for a major grazing organism adapted to a sharp mineral ridge habitat.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "scientific-realism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/alien-ecology-field-guide-system/packages/single-support-studies/images/02-ridge-herbivore-profile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Alien Ecology support study; no reference URL required.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ridge Herbivore Profile",
+      "description": "Ridge Herbivore Profile presents an illustrated field-guide plate for a major grazing organism adapted to a sharp mineral ridge habitat."
+    },
+    "zh-CN": {
+      "title": "Ridge Herbivore Profile",
+      "description": "异星生态主题中的Ridge Herbivore Profile图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "scientific-realism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Ridge Herbivore Profile presents an illustrated field-guide plate for a major grazing organism adapted to a sharp mineral ridge habitat.",
+      "zh-CN": "异星生态主题中的Ridge Herbivore Profile图像。"
+    }
+  }
+}

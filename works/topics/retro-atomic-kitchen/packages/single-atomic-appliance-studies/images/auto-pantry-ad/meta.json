@@ -1,0 +1,44 @@
+{
+  "prompt": "Scene:\nA square color magazine advertisement page in the style of 1960 American home-appliance print ads. Full product-hero layout: appliance centered in an idealized kitchen corner vignette, top banner area, bottom tagline area. Halftone grain, slight CMYK offset, matte coated paper feel.\n\nSubject:\nAn imaginary atomic-age wall-mounted auto-pantry: a rounded cabinet in powder-pink enamel set into the wall, with a vertical rotating carousel of small labeled bins visible through a large porthole window. Below the porthole a row of five amber glowing buttons. A chrome dispenser chute at the bottom delivers a single red apple onto a small ivory tray. To the right of the unit stands a stylized mid-century child in a yellow pajama suit reaching for the apple, eyes wide with wonder. Small boomerang wallpaper pattern behind.\n\nImportant details:\nStrict atomic-age palette: ivory, turquoise, cadmium red, bright yellow, powder pink, chrome. Auto-pantry form must feel like what 1960 imagined future home food storage: rounded edges, chrome trim, big porthole, analog buttons. The bins inside must suggest simple labeled compartments without readable text. Illustration style is halftone print ad, not photo. The child is a stylized cartoon figure.\n\nUse case:\nAtomic Appliance Studies single study 2 of 5, independent product ad mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, no LCD display, no touchscreen, no photoreal skin, no modern minimalist wall unit, preserve exact 1:1 aspect ratio.",
+  "id": "auto-pantry-ad",
+  "title": "Auto-Pantry Ad",
+  "description": "Magazine-ad mockup of an imaginary rotating auto-pantry wall unit delivering an apple to a child.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": ["commercial-mockup", "editorial-illustration", "single"],
+  "refs": [],
+  "status": "prompted",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/retro-atomic-kitchen/packages/single-atomic-appliance-studies/images/auto-pantry-ad/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single. No reference image."
+  },
+  "i18n": {
+    "en": {
+      "title": "Auto-Pantry Ad",
+      "description": "Magazine-ad mockup of an imaginary rotating auto-pantry wall unit delivering an apple to a child."
+    },
+    "zh-CN": {
+      "title": "自动储物柜广告",
+      "description": "想象中旋转式自动储物壁柜的杂志广告样稿, 正递一个苹果给小孩。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": ["gallery", "research"],
+    "tags": ["commercial-mockup", "editorial-illustration"],
+    "alt": {
+      "en": "A pink wall-mounted auto-pantry with a porthole carousel dispensing an apple to a smiling child.",
+      "zh-CN": "粉色壁挂自动储物柜, 圆窗旋转料斗正给一个微笑的孩子派发一个苹果。"
+    }
+  }
+}

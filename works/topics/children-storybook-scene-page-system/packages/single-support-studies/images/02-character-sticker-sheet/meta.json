@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nShow a square top-down sticker-sheet mockup on a craft table with gentle daylight and clean cut-line realism. The asset should feel like an activity-book insert or bookstore add-on product, with crisp edges and tidy spacing between the illustrated pieces. Keep the square frame balanced, calm, and production-ready so the asset can serve gallery review, research comparison, and real educational delivery at the same time.\n\nSubject:\nFill the sheet with character poses, props, animals, stars, leaves, and small story-world objects drawn in the same warm painted language as a children picture book. Keep a few larger hero stickers and many small companion icons, all arranged with easy scanning and production polish. The subject arrangement should feel complete and self-contained, able to stand alone as a real supporting deliverable inside the same education business line.\n\nImportant details:\nUse blank seal areas and color blocks instead of printed names. The sheet should bridge storytelling and activity design, proving the world can extend into playful educational surfaces. Keep the visual hierarchy modular, commercially believable, and clearly tied to a real educational use case rather than a generic mood board.\n\nUse case:\nChildren Storybook Scene Page System single study 2/5, character sticker sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logos, no harsh realism, no licensed character resemblance, no cluttered scrapbook styling, no horror elements.",
+  "id": "02-character-sticker-sheet",
+  "title": "Character Sticker Sheet",
+  "description": "A sticker-sheet study translating a storybook cast into reusable educational merch and activity assets.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "structured-layout",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/children-storybook-scene-page-system/packages/single-support-studies/images/02-character-sticker-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study 2 for the topic.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Character Sticker Sheet",
+      "description": "A sticker-sheet study translating a storybook cast into reusable educational merch and activity assets."
+    },
+    "zh-CN": {
+      "title": "角色贴纸页",
+      "description": "把绘本角色转成可复用教育周边和活动物料的贴纸页研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "A sticker-sheet study translating a storybook cast into reusable educational merch and activity assets.",
+      "zh-CN": "把绘本角色转成可复用教育周边和活动物料的贴纸页研究。"
+    }
+  }
+}

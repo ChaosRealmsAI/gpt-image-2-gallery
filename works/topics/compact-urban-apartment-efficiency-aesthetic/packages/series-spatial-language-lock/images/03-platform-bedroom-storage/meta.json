@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Compact Urban Apartment Efficiency Aesthetic. Use a viewpoint toward the platform bed and integrated drawers while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep light ash wood, warm white plaster, soft graphite accents, pale stone, and muted sage textiles as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a compact urban apartment with ash wood millwork, sliding partitions, hidden storage walls, a built-in platform bed, compact stone kitchen surfaces, and calm metropolitan daylight. Focus on the exact same apartment from the reference image, now emphasizing bed-platform joinery, concealed storage, and soft evening calm. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the sliding partition system, integrated storage geometry, ash wood detailing, compact kitchen language, and quiet city-apartment restraint. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nCompact Urban Apartment Efficiency Aesthetic series study 3/9, extending sleep-zone efficiency in the same design language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no clutter piles, no messy shoes, no novelty gadgets, no colorful toy furniture, no cramped distortion, no exposed clothing mess.",
+  "id": "03-platform-bedroom-storage",
+  "title": "Platform Bedroom Storage",
+  "description": "A reference-dependent architectural variation for urban apartment focused on platform bedroom storage.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/compact-urban-apartment-efficiency-aesthetic/packages/series-spatial-language-lock/images/03-platform-bedroom-storage/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-transformable-overview",
+        "meta_path": "works/topics/compact-urban-apartment-efficiency-aesthetic/packages/series-spatial-language-lock/images/01-transformable-overview/meta.json",
+        "image_path": "works/topics/compact-urban-apartment-efficiency-aesthetic/packages/series-spatial-language-lock/images/01-transformable-overview/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Platform Bedroom Storage",
+      "description": "A reference-dependent architectural variation for urban apartment focused on platform bedroom storage."
+    },
+    "zh-CN": {
+      "title": "地台卧室收纳",
+      "description": "围绕小户型的地台卧室收纳研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Platform Bedroom Storage for Compact Urban Apartment Efficiency Aesthetic.",
+      "zh-CN": "小户型主题中的地台卧室收纳。"
+    }
+  }
+}

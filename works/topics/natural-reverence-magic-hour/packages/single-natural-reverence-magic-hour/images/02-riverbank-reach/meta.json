@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square naturalistic frame captured at the exact edge of magic hour, when the sun sits low and turns grass, dust, skin, and hair into luminous gold. Use wide lenses, open air, gentle motion, and a lived-in landscape such as tall wheat, meadow, creek bank, orchard, or open prairie. Use a grassy riverbank in warm evening light, with shallow water catching copper reflections and insects hovering above the surface.\n\nSubject:\nCenter on a child or small human figure moving through the landscape with curiosity, wonder, or private joy. The body should feel small inside the world, with the environment carrying as much emotional meaning as the person. A barefoot child crouches to touch the water while reeds bend gently around them in the wind.\n\nImportant details:\nThe visual rule is reverence through natural light, wind, and tactile surface detail. Preserve lens flare, translucent grasses, skin warmed by sun, and humble earth textures without commercial polish. Avoid heavy stylization, urban intrusions, or artificial studio neatness. Keep the posture tentative and absorbed, emphasizing small gestures and the patient light over spectacle.\n\nUse case:\nNatural Reverence Magic Hour single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no modern billboards, no synthetic neon color, no posed fashion styling, no fantasy creatures, no broken anatomy, no low-detail background, no accidental text fragments.",
+  "id": "02-riverbank-reach",
+  "title": "Riverbank Reach",
+  "description": "A quiet riverbank image where low sun, reeds, and one crouching child create natural reverence.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "cinematic",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/natural-reverence-magic-hour/packages/single-natural-reverence-magic-hour/images/02-riverbank-reach/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent natural reverence study focused on riverbank reach.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Riverbank Reach",
+      "description": "A quiet riverbank image where low sun, reeds, and one crouching child create natural reverence."
+    },
+    "zh-CN": {
+      "title": "Riverbank Reach",
+      "description": "围绕自然崇敬的第2张独立研究图，聚焦 Riverbank Reach。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A barefoot child crouches by a glowing riverbank at magic hour, reaching toward the water.",
+      "zh-CN": "自然崇敬主题图：Riverbank Reach。"
+    }
+  }
+}

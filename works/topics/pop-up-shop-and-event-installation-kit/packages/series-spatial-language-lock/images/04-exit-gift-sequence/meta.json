@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square reference-dependent architecture still for Pop-up Shop and Event Installation Kit. Use a final sequence near the exit with tote forms, shelving, and closing visual rhythm while keeping the same lens discipline, editorial polish, and material believability established by the reference image. The lighting can shift to support the intended mood, but the space must still feel like the same authored project with a stable viewpoint logic, convincing depth separation, and clean commercial-photography finish. Keep soft neutral base with one strong accent color, translucent whites, brushed metal, and controlled event lighting as the governing tonal range even when the emphasis changes.\n\nSubject:\nShow a modular pop-up and event installation built from tubular frames, translucent panels, bold but refined color blocks, sculpted counters, photo-op arches, and a circulation path designed for sharing and recall. Focus on the exact same pop-up from the reference image, now emphasizing memory objects and a clean departure experience. Preserve exact architectural identity, plan logic, material palette, fixture family, and circulation cues from the reference image while changing only the intended emphasis described here. The viewer should immediately recognize the same project, not a loose cousin, with matching silhouette logic, aligned detailing, and consistent brand atmosphere.\n\nImportant details:\nPreserve the tubular frame language, translucent panel system, accent-color blocking, modular counters, and camera-friendly circulation. Any abstract wayfinding, menu, wall-label, or packaging zones must stay unreadable and subordinate to the spatial image. Joinery, edges, reflections, and lighting should remain realistic enough for an operator or design team to treat the image as a credible reference. The variation should feel deliberate and commercially useful, proving that one locked spatial language can flex across multiple campaign or editorial surfaces.\n\nUse case:\nPop-up Shop and Event Installation Kit series study 4/9, extending the closing activation beat inside the same system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact architectural identity from the reference image, no crowds, no branded slogans, no cheap balloon decor, no stage truss overload, no festival chaos, no readable tote text.",
+  "id": "04-exit-gift-sequence",
+  "title": "Exit Gift Sequence",
+  "description": "A reference-dependent architectural variation for pop-up kit focused on exit gift sequence.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pop-up-shop-and-event-installation-kit/packages/series-spatial-language-lock/images/04-exit-gift-sequence/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-streetfront-anchor",
+        "meta_path": "works/topics/pop-up-shop-and-event-installation-kit/packages/series-spatial-language-lock/images/01-streetfront-anchor/meta.json",
+        "image_path": "works/topics/pop-up-shop-and-event-installation-kit/packages/series-spatial-language-lock/images/01-streetfront-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Generate after the package reference image is done and use it as the primary spatial reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Exit Gift Sequence",
+      "description": "A reference-dependent architectural variation for pop-up kit focused on exit gift sequence."
+    },
+    "zh-CN": {
+      "title": "出口礼赠序列",
+      "description": "围绕快闪装置的出口礼赠序列研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Exit Gift Sequence for Pop-up Shop and Event Installation Kit.",
+      "zh-CN": "快闪装置主题中的出口礼赠序列。"
+    }
+  }
+}

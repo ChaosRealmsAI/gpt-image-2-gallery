@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square architectural reference still for Creative Studio and Office Brand Floor. Use a wide entry view that reveals reception, townhall seating, and the main collaborative volume and treat the frame like a premium interior or architecture editorial photograph with disciplined perspective, readable depth from foreground to background, and enough negative space for the spatial hierarchy to breathe. Light the scene so collaboration, material calm, and authored workplace identity feel immediate, using warm gray, natural oak, charcoal felt, off-white surfaces, and one controlled accent hue as the governing tonal range. The composition must read as a high-end commercial image that could sit inside office leasing decks, employer-brand campaigns, interior editorials, and workspace design reviews.\n\nSubject:\nShow a branded creative studio and office floor with modular collaboration tables, acoustic felt panels, smoked glass partitions, library shelving, soft lounge seating, and clear company personality. Center the office’s first impression, brand atmosphere, and circulation hierarchy. This is the canonical reference image for the package, so the major proportions, material transitions, fixture families, and circulation logic must feel highly specific and internally coherent rather than generic luxury styling. Let the viewer understand how the space is organized within a single glance, with foreground anchors, a clear middle zone, and a resolved background termination.\n\nImportant details:\nLock the table system, acoustic materials, glass-partition rhythm, informal lounge furniture, and abstract brand-graphic zones. Surfaces should feel tactile and believable: stone veining must stay plausible, metals should have disciplined reflectance, fabrics should show natural weight, and concealed lighting should shape the volume instead of flattening it. Use abstract signage, menu, label, or caption zones only as unreadable graphic hints. The image should feel practical for downstream design reviews and polished enough for public-facing campaign use.\n\nUse case:\nCreative Studio and Office Brand Floor series study 1/9, establishing the canonical workplace identity for the package.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no office workers, no readable whiteboard text, no startup cliché neon, no messy desks, no cheap task-chair overload, no lobby turnstiles dominating.",
+  "id": "01-reception-townhall-anchor",
+  "title": "Reception and Townhall Anchor",
+  "description": "A reference-setting architectural still for studio office that establishes the package's core spatial language.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "commercial-mockup",
+    "reasoning-composition",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/creative-studio-and-office-brand-floor/packages/series-spatial-language-lock/images/01-reception-townhall-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Generate the anchor image first for this architecture fanout series.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reception and Townhall Anchor",
+      "description": "A reference-setting architectural still for studio office that establishes the package's core spatial language."
+    },
+    "zh-CN": {
+      "title": "前台与共享厅锚点",
+      "description": "围绕创意办公室的前台与共享厅锚点研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Reception and Townhall Anchor for Creative Studio and Office Brand Floor.",
+      "zh-CN": "创意办公室主题中的前台与共享厅锚点。"
+    }
+  }
+}
