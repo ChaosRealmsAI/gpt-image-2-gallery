@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square architectural visualization arranged as a clean before-and-after transformation without readable labels: a loose pencil sketch occupies the left third as translucent graphite linework, while the right two thirds resolve into a photoreal interior render. The viewpoint, horizon, column spacing, and window rhythm align across both halves, making the conversion easy to read. Light is late afternoon, warm but natural, with balanced shadows.\n\nSubject:\nAn old brick warehouse converted into a loft workspace. The sketch side shows arched industrial windows, steel columns, a mezzanine edge, exposed roof trusses, and a long central circulation path. The photoreal side renders the same layout with aged red brick, blackened steel, polished concrete floor, large restored windows, simple worktables, a mezzanine guardrail, and ceiling ducts following the sketched truss bays.\n\nImportant details:\nThe drawing-to-render relationship must be structurally faithful: window arches, column grid, mezzanine height, truss spacing, floor perspective, and central path must stay locked between sketch and render. Do not turn the scene into a generic luxury office. Use plausible adaptive-reuse details, scale cues, material weathering, and real construction logic. The sketch layer can remain visible at the boundary, but the final image should mostly read as photoreal architecture.\n\nUse case:\nSketch to Photoreal Render single study 5/8, testing independent conversion from a warehouse interior sketch into a faithful photoreal adaptive-reuse render.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no floating furniture, no impossible beams, no extra window rows, no ornate hotel styling, no people dominating the scene.",
+  "id": "warehouse-loft-conversion",
+  "title": "Warehouse Loft Conversion",
+  "description": "An independent sketch-to-render study of a warehouse converted into a photoreal loft workspace.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "editing-workflow",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/single-render-studies/images/warehouse-loft-conversion/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image comparing sketch structure with a faithful photoreal warehouse conversion."
+  },
+  "i18n": {
+    "en": {
+      "title": "Warehouse Loft Conversion",
+      "description": "An independent sketch-to-render study of a warehouse converted into a photoreal loft workspace."
+    },
+    "zh-CN": {
+      "title": "仓库阁楼改造",
+      "description": "一张独立草图转写实研究,将仓库改造成照片级阁楼工作空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A warehouse sketch transforms into a photoreal loft workspace with matching windows and columns.",
+      "zh-CN": "仓库草图转为照片级阁楼工作空间,窗户和柱网保持一致。"
+    }
+  }
+}

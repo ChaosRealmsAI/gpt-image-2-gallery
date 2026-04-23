@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square high-end studio try-on board on a neutral warm-gray set, photographed with softbox lighting and clean editorial spacing. The layout shows one larger source-like full-body view on the left and six smaller outfit results arranged in a precise grid on the right, all in the same camera height, lens feel, and lighting family. The mood is calm, premium, and clinically clear.\n\nSubject:\nA synthetic adult fashion model with the same oval face, short black bob haircut, medium warm skin tone, slim athletic body, straight posture, and relaxed closed-mouth expression in every panel. The clothing changes from a white tank and denim baseline into capsule wardrobe variants: black blazer, cream trench, ribbed knit set, wide-leg trousers, silk shirt, and minimalist evening separates. Jewelry, hair shape, face geometry, shoulder width, and body proportions must remain unchanged.\n\nImportant details:\nThis is an identity-lock virtual try-on board, not a character redesign. Preserve facial landmarks, eye spacing, jawline, nose bridge, lip shape, skin tone, neck length, hands, and height consistently. Let only garments, fabric drape, sleeve length, hemline, layering, and neutral styling change. Keep panels aligned so drift is easy to inspect.\n\nUse case:\nVirtual Try-On Identity Lock single study 1/8, testing whether a model can keep identity stable across multiple capsule wardrobe edits.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no changed face, no changed body type, no extra people, no exaggerated makeup, no mismatched skin tone, no warped hands, no duplicate heads.",
+  "id": "studio-capsule-lock",
+  "title": "Studio Capsule Lock",
+  "description": "A clean studio try-on board that locks one model identity across six capsule wardrobe variants.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "editing-workflow",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/studio-capsule-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent try-on board; all identity consistency cues are contained in the prompt."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Capsule Lock",
+      "description": "A clean studio try-on board that locks one model identity across six capsule wardrobe variants."
+    },
+    "zh-CN": {
+      "title": "棚拍胶囊衣橱锁定",
+      "description": "一张干净棚拍试衣板,同一模特身份在六套胶囊衣橱变化中保持不变。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A studio try-on board showing the same synthetic model in six capsule wardrobe outfits.",
+      "zh-CN": "一张棚拍试衣板,展示同一合成模特穿着六套胶囊衣橱造型。"
+    }
+  }
+}

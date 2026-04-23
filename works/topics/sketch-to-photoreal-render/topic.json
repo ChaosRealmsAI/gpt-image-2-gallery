@@ -1,0 +1,57 @@
+{
+  "id": "sketch-to-photoreal-render",
+  "slug": "sketch-to-photoreal-render",
+  "category": "workflow",
+  "style": [
+    "handdrawn",
+    "photoreal"
+  ],
+  "capability": [
+    "editing-workflow",
+    "multi-image-reference",
+    "world-knowledge"
+  ],
+  "title": "Sketch to Photoreal Render",
+  "short_title": "Sketch Render",
+  "description": "A Prompt Atlas theme for converting architectural pencil sketches into photoreal renders while preserving horizon, proportions, window placement, and real-world plausibility.",
+  "i18n": {
+    "en": {
+      "title": "Sketch to Photoreal Render",
+      "short_title": "Sketch Render",
+      "description": "A Prompt Atlas theme for converting architectural pencil sketches into photoreal renders while preserving horizon, proportions, window placement, and real-world plausibility."
+    },
+    "zh-CN": {
+      "title": "草图 → 写实一键渲染",
+      "short_title": "草图写实",
+      "description": "测试将建筑铅笔草图转为照片级效果图时,能否保持地平线、比例、窗户位置和真实世界合理性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "photorealism",
+      "world-knowledge",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-facade-preservation",
+      "type": "series",
+      "title": "Facade Preservation",
+      "path": "packages/series-facade-preservation/package.json"
+    },
+    {
+      "id": "single-render-studies",
+      "type": "single",
+      "title": "Render Studies",
+      "path": "packages/single-render-studies/package.json"
+    }
+  ]
+}

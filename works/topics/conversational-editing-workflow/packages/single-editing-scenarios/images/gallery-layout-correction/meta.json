@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare crop of a contemporary gallery wall photographed straight-on, soft ceiling track lights, matte white wall, concrete floor edge, and a restrained exhibition design mood. The image should be clean and frontal, like documentation of a corrected layout after a curator requested edits.\n\nSubject:\nShow five framed abstract artworks arranged in a precise grid-like rhythm. The final image should imply multiple conversational edits: remove the small leftmost label plaque, enlarge the central artwork, make the lighting cooler, and align the top row more evenly while preserving the identities of the other frames. All visible art marks are abstract shapes and textures; no readable labels or signatures. The empty wall where the plaque was removed should retain wall texture and natural shadow falloff.\n\nImportant details:\nThis tests structured layout correction. The central frame should grow without colliding with the neighboring frames, and the surrounding frames should reposition just enough to maintain balance. Track-light highlights must follow the cooler lighting request while still looking physically plausible. Keep the wall plane, floor line, frame materials, and overall exhibition style consistent. The corrected grid should feel intentional, not mechanically perfect or randomly rearranged.\n\nUse case:\nConversational Editing Workflow single study 8/8, testing layout-aware object removal, resizing, lighting change, and alignment repair.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no museum brand, no people, no UI overlay, no before-after split, no crooked final frames, no impossible light beams, no duplicate central artwork.",
+  "id": "gallery-layout-correction",
+  "title": "Gallery Layout Correction",
+  "description": "A corrected gallery wall showing object removal, resizing, cooler lighting, and alignment repair.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "structured-layout",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/single-editing-scenarios/images/gallery-layout-correction/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent gallery layout editing single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gallery Layout Correction",
+      "description": "A corrected gallery wall showing object removal, resizing, cooler lighting, and alignment repair."
+    },
+    "zh-CN": {
+      "title": "展墙布局校正",
+      "description": "一面校正后的展墙，展示移除对象、放大画框、降温灯光和对齐修复。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A corrected gallery wall with a larger central frame, cooler lighting, and a removed label plaque.",
+      "zh-CN": "一面校正后的展墙，中央画框更大、灯光更冷，并移除了标签牌。"
+    }
+  }
+}

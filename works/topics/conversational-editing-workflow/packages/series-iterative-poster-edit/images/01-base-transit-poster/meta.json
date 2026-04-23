@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare crop of a polished public-transit campaign poster displayed flat on a design review wall, bright neutral studio lighting, crisp editorial realism, clean margins, and a calm modern palette of cream, graphite, sky blue, and coral accents. The poster looks like a finished layout, not a software screen. The camera is straight-on with no perspective distortion, showing the entire poster and a thin surrounding wall edge.\n\nSubject:\nA central illustrated tram shelter at midday, two small pedestrians at opposite sides, one abstract headline block near the top made only of unreadable graphic strokes, a large image panel in the middle, and a balanced row of abstract information blocks near the bottom. The structure must be clear enough that later edits can preserve its identity: same frame, same shelter, same right-side figure, same decorative route shapes, and same overall spacing.\n\nImportant details:\nThis is the root reference for a conversational editing chain. Build deliberate edit handles into the image: a removable left pedestrian, a sky that can shift from midday to dusk, a heading area that can become larger, and a palette that can cool down. All text-like elements must be abstract marks, never readable words or letters.\n\nUse case:\nConversational Editing Workflow series study 1/8, establishing the base image for later semantic edits without masks.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real transit brand, no UI overlay, no crop marks, no handwritten notes, no torn paper, no cluttered review board.",
+  "id": "01-base-transit-poster",
+  "title": "Base Transit Poster",
+  "description": "A clean midday transit poster that establishes the editable layout for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "reasoning-composition",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the conversational poster editing series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Base Transit Poster",
+      "description": "A clean midday transit poster that establishes the editable layout for the series."
+    },
+    "zh-CN": {
+      "title": "基础交通海报",
+      "description": "一张干净的午间交通海报，为系列建立可编辑版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A clean transit campaign poster with a tram shelter, two pedestrians, and abstract layout blocks.",
+      "zh-CN": "一张干净的交通宣传海报，包含电车站、两个人物和抽象版式块。"
+    }
+  }
+}

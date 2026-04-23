@@ -1,0 +1,55 @@
+{
+  "id": "thinking-mode",
+  "slug": "thinking-mode",
+  "category": "workflow",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "title": "Thinking Mode",
+  "short_title": "Thinking",
+  "description": "A Prompt Atlas theme for turning research, trend reasoning, and multi-step analysis into structured editorial images.",
+  "i18n": {
+    "en": {
+      "title": "Thinking Mode",
+      "short_title": "Thinking",
+      "description": "A Prompt Atlas theme for turning research, trend reasoning, and multi-step analysis into structured editorial images."
+    },
+    "zh-CN": {
+      "title": "Thinking Mode",
+      "short_title": "推理图像",
+      "description": "把研究、趋势判断和多步分析转化成结构化编辑插画。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "data-visualization",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-market-reasoning",
+      "type": "series",
+      "title": "Market Reasoning",
+      "path": "packages/series-market-reasoning/package.json"
+    },
+    {
+      "id": "single-reasoning-studies",
+      "type": "single",
+      "title": "Reasoning Studies",
+      "path": "packages/single-reasoning-studies/package.json"
+    }
+  ]
+}

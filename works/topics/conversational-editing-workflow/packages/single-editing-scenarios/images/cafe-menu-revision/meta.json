@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare crop of a cafe counter design review scene, soft morning light, neutral stone counter, and a single menu board mockup standing upright on a small easel. The image is polished commercial editorial realism with quiet shadows and precise layout. The board is not a real menu: all text areas are abstract bars, dots, and glyph-like marks.\n\nSubject:\nShow one finished menu board that visually implies several conversational edits have been applied: the background changed from bright daytime cream to a warmer evening charcoal, one left-side pastry illustration removed cleanly, the main abstract title area enlarged, and the accent color shifted cooler. Keep the menu category blocks, price-like rows made of unreadable marks, small coffee cup icon, and border grid aligned and consistent.\n\nImportant details:\nThe point is not a before-after split; it is the result of an edit workflow that required semantic understanding. The removed pastry area should be repaired with matching board texture and spacing. The larger heading should push nearby abstract rows downward without crowding. The cooler color should affect icons, dividers, and highlights while the cafe counter environment remains natural. The composition should feel usable by a designer evaluating whether the edit respected the original layout.\n\nUse case:\nConversational Editing Workflow single study 5/8, testing a mask-free menu revision with object removal, hierarchy adjustment, and color tuning.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real cafe brand, no split-screen comparison, no UI overlay, no misspelled words, no human hands, no cluttered countertop.",
+  "id": "cafe-menu-revision",
+  "title": "Cafe Menu Revision",
+  "description": "A finished cafe menu mockup implying multiple conversational edits without showing the editing interface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/single-editing-scenarios/images/cafe-menu-revision/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent conversational editing single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cafe Menu Revision",
+      "description": "A finished cafe menu mockup implying multiple conversational edits without showing the editing interface."
+    },
+    "zh-CN": {
+      "title": "咖啡菜单修订",
+      "description": "一张完成后的咖啡菜单样机，暗示多轮对话编辑但不显示编辑界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A cafe menu mockup with enlarged abstract title, cooler accents, and a repaired removed illustration area.",
+      "zh-CN": "一张咖啡菜单样机，标题区更大、色彩更冷，并修复了被移除插图的位置。"
+    }
+  }
+}

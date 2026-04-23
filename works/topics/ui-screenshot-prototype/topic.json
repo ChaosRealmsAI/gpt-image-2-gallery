@@ -1,0 +1,50 @@
+{
+  "id": "ui-screenshot-prototype",
+  "slug": "ui-screenshot-prototype",
+  "category": "workflow",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "UI Screenshot Prototype",
+  "short_title": "UI Prototype",
+  "description": "A Prompt Atlas theme for UI Screenshot Prototype, testing structured-layout, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "UI Screenshot Prototype",
+      "short_title": "UI Prototype",
+      "description": "A Prompt Atlas theme for UI Screenshot Prototype, testing structured-layout, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "UI 截图级原型",
+      "short_title": "界面原型",
+      "description": "UI 截图级原型：iOS app 7 个界面 · onboarding 流程 · 风格一致 · 可当高保真原型"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-ui-screenshot-prototype-studies",
+      "type": "single",
+      "title": "UI Prototype Layout Studies",
+      "path": "packages/single-ui-screenshot-prototype-studies/package.json"
+    }
+  ]
+}

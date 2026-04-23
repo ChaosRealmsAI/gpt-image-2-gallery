@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square photoreal architectural render looking from a small interior courtyard toward the rear face of the same building, using the provided pencil facade sketch as the primary reference for proportions and opening rhythm. The camera is at human eye level, with soft afternoon light entering from above, quiet shadows, and realistic depth without dramatic distortion.\n\nSubject:\nTranslate the sketched four-story facade into its courtyard-facing counterpart while preserving the core layout: four levels, consistent floor heights, aligned windows, slender balconies, vertical circulation slot, shallow roof terrace, and masonry panel divisions. The courtyard is modest and urban, with pale brick walls, concrete paving, slim planters, rainwater drain lines, and clear glass doors at ground level. It should feel like the same architectural project viewed from the private side, not a new building.\n\nImportant details:\nThis image tests structural reasoning from a sketch reference. Keep the building's proportions, window grid, balcony stacking, and roofline faithful to the reference, adapting only what is necessary for a courtyard side. No added wings, no extra stair towers, no random decorative facade changes. Photorealism should include believable material scale, weathered brick variation, glass reflections, soft interior shadows, and proper construction joints.\n\nUse case:\nSketch to Photoreal Render series study 4/8, extending the referenced sketch into a photoreal courtyard view while maintaining architectural identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra floors, no luxury resort redesign, no impossible cantilevers, no people in foreground, no signage, no plants covering key windows.",
+  "id": "04-interior-courtyard-render",
+  "title": "Interior Courtyard Render",
+  "description": "A photoreal courtyard-side render that extends the reference sketch while preserving architectural identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "photorealism",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/04-interior-courtyard-render/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pencil-facade-reference",
+        "meta_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/meta.json",
+        "image_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the pencil facade reference to preserve architectural identity in a courtyard-side render."
+  },
+  "i18n": {
+    "en": {
+      "title": "Interior Courtyard Render",
+      "description": "A photoreal courtyard-side render that extends the reference sketch while preserving architectural identity."
+    },
+    "zh-CN": {
+      "title": "内院侧渲染",
+      "description": "一张照片级内院侧效果图,延展参考草图并保持建筑身份一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A photoreal courtyard view preserving the same building proportions and window rhythm.",
+      "zh-CN": "一张保持同一建筑比例和窗户节奏的照片级内院视图。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photoreal museum interior render derived from a visible architectural pencil sketch. The lower-left corner retains faint graphite guide lines and stair outlines, while the rest of the scene resolves into a realistic atrium. The camera looks diagonally across the ground floor toward a central stair, with high clerestory light, neutral museum tones, and clear spatial depth.\n\nSubject:\nA small contemporary museum atrium from a concept sketch: a broad switchback stair, a floating landing, a tall north-facing light slot, two gallery doorways on the back wall, a reception desk tucked under the stair, and a grid of acoustic ceiling panels. The photoreal version keeps the same stair geometry, landing height, doorway positions, wall openings, and ceiling grid. Materials include honed limestone floor, pale plaster walls, brushed metal handrails, oak stair treads, and diffuse daylight.\n\nImportant details:\nThe key challenge is geometric coherence. Stair risers must align, guardrails must connect properly, the landing must be structurally plausible, and the sketch's doorway positions must not drift. Use realistic museum scale, accessibility clearance, clean construction joints, and natural light behavior. Do not add large artwork with readable text, dramatic sculptures, or extra stairs. The final scene should look like a faithful one-step render from a design sketch, not a new interior concept.\n\nUse case:\nSketch to Photoreal Render single study 7/8, testing whether an interior circulation sketch can become a photoreal museum atrium while preserving stair logic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no impossible stair connections, no floating railings, no extra gallery doors, no decorative text panels, no crowds, no fisheye distortion.",
+  "id": "museum-stair-atrium",
+  "title": "Museum Stair Atrium",
+  "description": "An independent sketch-to-render study preserving stair geometry in a photoreal museum atrium.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "reasoning-composition",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/single-render-studies/images/museum-stair-atrium/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image focused on faithful stair and atrium geometry from a sketch."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Stair Atrium",
+      "description": "An independent sketch-to-render study preserving stair geometry in a photoreal museum atrium."
+    },
+    "zh-CN": {
+      "title": "博物馆楼梯中庭",
+      "description": "一张独立草图转写实研究,在照片级博物馆中庭中保持楼梯几何。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A museum atrium sketch becomes a photoreal interior with a coherent central stair.",
+      "zh-CN": "博物馆中庭草图转为照片级室内图,中央楼梯结构连贯。"
+    }
+  }
+}

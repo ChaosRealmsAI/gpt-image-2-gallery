@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square editorial art-board composition, warm newsprint background, muted palette, small runner characters, and hand-drawn annotation style as the reference image. Preserve the reference image's chart-mountain language and visual hierarchy.\n\nSubject:\nTransform the market mountain into an earnings weather map. The same abstract runner characters now move under weather systems made from bar-chart clouds, rain made of tiny dots, sunbursts shaped like upward arrows, and fog banks covering uncertain slopes. The central reasoning path should show how signals pass through expectation, surprise, and uncertainty without using readable text.\n\nImportant details:\nMaintain the reference style: elegant magazine illustration, structured layout, tiny pseudo-annotations, clean margins, muted blue, graphite, tomato red, moss green, and cream. The image should communicate multi-step analysis through visual metaphors: weather fronts, forecast paths, risk zones, and character decisions. No real data, no ticker symbols, no readable labels.\n\nUse case:\nSecond image in a reference-dependent Thinking Mode series, testing whether the same visual reasoning language can express a different analytical frame.\n\nConstraints:\nPRESERVE the reference image's square crop, character scale, editorial line quality, annotation style, and restrained color system. No readable text, no real companies, no logos, no watermark, no literal financial advice, no crowded dashboard UI, preserve exact 1:1 aspect ratio.",
+  "id": "02-earnings-weather-map",
+  "title": "Earnings Weather Map",
+  "description": "The reference market reasoning style becomes a weather map for uncertainty and surprise.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "data-visualization",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [
+    "01-reference-market-mountain"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/series-market-reasoning/images/02-earnings-weather-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-market-mountain",
+        "meta_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/meta.json",
+        "image_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/image.png",
+        "ref_role": "style_and_layout_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Earnings Weather Map",
+      "description": "The reference market reasoning style becomes a weather map for uncertainty and surprise."
+    },
+    "zh-CN": {
+      "title": "财报天气图",
+      "description": "把基准市场推理风格改写成表达不确定性和惊喜的天气图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A hand-drawn market reasoning weather map with chart clouds and tiny runners.",
+      "zh-CN": "带有图表云层和小角色的手绘市场推理天气图。"
+    }
+  }
+}

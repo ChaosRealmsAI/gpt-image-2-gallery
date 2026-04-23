@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square editorial art-board composition as the reference image, with warm newsprint texture, thin ink lines, muted colors, small runner characters, and tiny non-readable handwritten notes. Preserve the reference's calm visual hierarchy and chart-mountain grammar.\n\nSubject:\nTransform the market mountain into a sentiment newsroom. The runners now move through desks, headline-shaped hills, speech-bubble clouds, and signal flags. Some bubbles lift trend ridges upward, others weigh them down like sandbags. A central reasoning route links observation, interpretation, contradiction, and decision using arrows, folded paper markers, and visual symbols without readable text.\n\nImportant details:\nSophisticated editorial illustration, structured reasoning, clear cause-and-effect reading path, and restrained composition. Keep the same abstract market-signal characters and small-scale annotation marks from the reference. The result should look like a visual essay about how narrative sentiment changes interpretation, not a social media dashboard.\n\nUse case:\nFourth image in a reference-dependent Thinking Mode series, preserving the visual language while showing sentiment and news interpretation as a reasoning layer.\n\nConstraints:\nPRESERVE the reference image's square crop, character scale, muted palette, pseudo-annotations, and editorial chart-mountain language. No readable text, no real news headlines, no real companies, no logos, no watermark, no literal financial advice, no crowded UI, preserve exact 1:1 aspect ratio.",
+  "id": "04-sentiment-newsroom",
+  "title": "Sentiment Newsroom",
+  "description": "The reference reasoning style becomes a newsroom map of narrative signals.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "data-visualization",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [
+    "01-reference-market-mountain"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/series-market-reasoning/images/04-sentiment-newsroom/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-market-mountain",
+        "meta_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/meta.json",
+        "image_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/image.png",
+        "ref_role": "style_and_layout_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sentiment Newsroom",
+      "description": "The reference reasoning style becomes a newsroom map of narrative signals."
+    },
+    "zh-CN": {
+      "title": "情绪新闻室",
+      "description": "把基准推理风格改写成叙事信号新闻室。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "An editorial newsroom map showing sentiment signals moving through trend mountains.",
+      "zh-CN": "情绪信号穿过趋势山脉的编辑式新闻室地图。"
+    }
+  }
+}

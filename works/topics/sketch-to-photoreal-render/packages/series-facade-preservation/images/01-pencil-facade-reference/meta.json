@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, straight-on architectural presentation image of a pencil facade sketch on clean white tracing paper. The crop is centered and evenly lit like a scan on a design studio desk, with soft graphite marks, faint construction lines, a visible horizon guide, and no perspective drama. The image should feel like the precise source drawing for a later photoreal render.\n\nSubject:\nA compact four-story corner apartment building sketched in graphite: ground-floor recessed entry at lower left, two shopfront bays at street level, three upper residential floors, a shallow roof terrace, and a narrow side return visible on the right. The facade has a regular window grid, slender balconies on the second and third floors, a vertical stairwell slot, and simple masonry panel divisions.\n\nImportant details:\nPreserve strict architectural logic: stable horizon line, consistent floor heights, aligned window centers, believable balcony depth, clear street curb, and proportional columns. Use hand-drawn line weight variation without readable notes or labels. The drawing must be detailed enough to guide later rendering, but still unmistakably pencil, with no color fills, no collage materials, and no invented surrounding buildings.\n\nUse case:\nSketch to Photoreal Render series study 1/8, serving as the structural reference for layout-faithful photoreal fanout renders.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no blueprints, no ruler marks with numbers, no decorative frame, no extra floors, no exaggerated fantasy architecture, no people blocking the facade.",
+  "id": "01-pencil-facade-reference",
+  "title": "Pencil Facade Reference",
+  "description": "A precise graphite facade sketch establishing the building layout for the photoreal render series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "structured-layout",
+    "editing-workflow",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root pencil reference for the facade-preservation fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pencil Facade Reference",
+      "description": "A precise graphite facade sketch establishing the building layout for the photoreal render series."
+    },
+    "zh-CN": {
+      "title": "铅笔立面参考",
+      "description": "一张精确石墨建筑立面草图,建立照片级渲染系列的布局基准。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A clean graphite facade sketch of a four-story corner apartment building.",
+      "zh-CN": "一张四层街角公寓楼的干净石墨立面草图。"
+    }
+  }
+}

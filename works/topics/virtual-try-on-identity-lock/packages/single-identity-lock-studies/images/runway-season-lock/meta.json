@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square runway-season comparison board with a dark graphite backstage floor, soft rim light, and a subtle reflective runway strip running horizontally through the composition. Eight evenly spaced full-body panels show the same model under consistent fashion-show lighting, with a larger central pose and smaller surrounding seasonal looks. The image should feel like a polished designer fitting review, not a catalog with labels.\n\nSubject:\nA synthetic adult model with copper-brown skin, close-cropped natural hair, high cheekbones, almond eyes, long neck, narrow shoulders, and an elegant upright stance. The identity is identical across all looks. Outfits move through four seasons: sheer spring organza coat, summer linen suit, autumn wool cape, winter quilted parka, plus four runway variations with sculptural sleeves, layered skirts, tailored trousers, and monochrome boots. The garments may be bold, but the person must remain the same.\n\nImportant details:\nLock the model identity harder than the clothing. Preserve facial structure, skin undertone, hairline, ear shape, neck, collarbone, limb length, and hand pose across every panel. Clothing may alter silhouette around the body through fabric volume, but the underlying body proportions must stay readable. Avoid creating a different model for dramatic fashion effects. Keep camera angle, head scale, and foot placement consistent.\n\nUse case:\nVirtual Try-On Identity Lock single study 2/8, testing seasonal runway garment changes while preserving one stable model identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand signage, no face morphing, no skin-lightening, no body resizing, no swapped hairstyle, no crowd, no backstage clutter, no distorted limbs.",
+  "id": "runway-season-lock",
+  "title": "Runway Season Lock",
+  "description": "A runway comparison board preserving one model across seasonal high-fashion garment changes.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "fashion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/runway-season-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fashion-season try-on board with repeated identity cues."
+  },
+  "i18n": {
+    "en": {
+      "title": "Runway Season Lock",
+      "description": "A runway comparison board preserving one model across seasonal high-fashion garment changes."
+    },
+    "zh-CN": {
+      "title": "秀场季节造型锁定",
+      "description": "一张秀场对比试衣板,在季节性高级时装变化中保持同一模特。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "fashion"
+    ],
+    "alt": {
+      "en": "A runway-style board showing the same model in multiple seasonal fashion looks.",
+      "zh-CN": "一张秀场风格试衣板,展示同一模特的多套季节造型。"
+    }
+  }
+}

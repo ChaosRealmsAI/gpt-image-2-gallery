@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square editorial illustration in a refined magazine style, viewed straight-on like a finished art board. The scene is a stylized mountain range made from layered trend lines, small chart paths, and paper-cut ridges. The background is warm off-white newsprint with subtle ink grain, quiet margins, and a few tiny non-readable hand-drawn annotation marks.\n\nSubject:\nFive small runner characters move across the trend mountains, each representing a different abstract market signal rather than a real company. One runner climbs a steep blue ridge, one slides down a graphite slope, one crosses a flat plateau, one pauses at a fork, and one follows a dotted forecast trail. A central reasoning path connects the runners through cause, uncertainty, and outcome using arrows, dashed lines, and simple icons.\n\nImportant details:\nStructured visual reasoning, clear editorial hierarchy, New Yorker-inspired hand-drawn sophistication without copying a specific artist, muted blue, graphite, tomato red, moss green, and cream palette. The image must feel like an intelligent data essay: chart structure, characters, annotations, and visual metaphors are all legible as a system. Use tiny pseudo-writing only; no readable real stock names, numbers, dates, or claims.\n\nUse case:\nReference image for a Thinking Mode series. Later images should preserve this editorial chart-mountain language, character scale, annotation style, color restraint, and square composition while changing the reasoning layer.\n\nConstraints:\nNo readable text, no real company names, no real ticker symbols, no logos, no watermark, no literal financial advice, no photorealistic computer screens, no chaotic infographic clutter, preserve exact 1:1 aspect ratio.",
+  "id": "01-reference-market-mountain",
+  "title": "Reference Market Mountain",
+  "description": "A magazine-style reasoning map where abstract market signals run across trend mountains.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "data-visualization",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Thinking Mode market reasoning series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Market Mountain",
+      "description": "A magazine-style reasoning map where abstract market signals run across trend mountains."
+    },
+    "zh-CN": {
+      "title": "基准趋势山",
+      "description": "抽象市场信号在趋势山上奔跑的编辑插画推理图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "An editorial reasoning map with small runners crossing trend-line mountains.",
+      "zh-CN": "小角色穿过趋势线山脉的编辑式推理地图。"
+    }
+  }
+}

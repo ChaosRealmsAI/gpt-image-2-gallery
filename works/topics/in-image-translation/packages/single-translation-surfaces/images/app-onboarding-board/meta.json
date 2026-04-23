@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square product mockup showing four mobile app onboarding screens laid out on a white design board. The board is viewed straight-on with subtle paper grain, soft shadows under each phone frame, and a restrained digital palette of black, white, teal, coral, and pale lavender. Each screen has an illustration area, a headline, a short body line, and one pill-shaped button.\n\nSubject:\nCreate a German localization of a calm finance app onboarding sequence. The exact readable German text must be: Budget planen, Ausgaben sehen, Ziele setzen, Sicher starten, Weiter. Use Budget planen, Ausgaben sehen, Ziele setzen, Sicher starten as the four screen headlines, and Weiter as the button label repeated once per screen. Body text should be represented by non-readable gray placeholder lines only, not real words. The phones should look like a polished UI handoff, with identical layout between screens.\n\nImportant details:\nThe translation task is to keep UI hierarchy stable despite longer German compounds. Headlines must fit their existing containers without squeezing awkwardly, buttons must keep the same width and radius, and screen spacing must stay even. Preserve all icon and illustration areas, maintain consistent font weight, and keep the localized text crisp enough to audit.\n\nUse case:\nIn-Image Translation single study 8/8, testing app UI localization where translated strings must fit repeated screen templates.\n\nConstraints:\nNo readable text except the specified German strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no app brand, no real currency symbols, no extra UI copy, no misspelled German, no overlapping labels.",
+  "id": "app-onboarding-board",
+  "title": "App Onboarding Board",
+  "description": "A German localized mobile onboarding board that preserves repeated UI templates and button sizing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/single-translation-surfaces/images/app-onboarding-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing repeated UI translation strings and fixed component sizing."
+  },
+  "i18n": {
+    "en": {
+      "title": "App Onboarding Board",
+      "description": "A German localized mobile onboarding board that preserves repeated UI templates and button sizing."
+    },
+    "zh-CN": {
+      "title": "应用引导稿板",
+      "description": "一张德文本地化移动应用引导稿板，保持重复 UI 模板和按钮尺寸。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "Four mobile onboarding screens localized into German with repeated button labels.",
+      "zh-CN": "四个本地化为德文的移动应用引导页，重复按钮标签保持一致。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare crop of a product photography set for a lightweight running shoe, clean studio sweep, softbox lighting, pale gray floor, and a few controlled prop shadows. The style is photorealistic commercial mockup with restrained color and crisp material definition.\n\nSubject:\nA single shoe sits three-quarter view on a low acrylic riser. The image should imply an edit request such as keep the shoe shape, remove the red heel tag, make the upper cooler blue-gray, and preserve the sole texture and lace geometry. The result must look like the same product after conversational colorway editing, not a different model. Include subtle mesh, translucent sole edge, small decorative stripe shapes with no logo, and clean repaired fabric where the heel tag used to be.\n\nImportant details:\nThis tests local semantic editing without a mask. The shoe silhouette, stitching pattern, lace placement, sole grooves, and lighting must remain coherent while targeted attributes change. The removed tag should leave believable material continuity. The cooler colorway should affect the upper and accent stripe but not the background or shadows. The product should remain centered with catalog-level clarity, suitable for comparing whether shape identity survived the edit.\n\nUse case:\nConversational Editing Workflow single study 6/8, testing object-preserving product edits across removal, material repair, and color transformation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no extra shoes, no foot or model, no UI overlay, no split before-after view, no deformed sole, no mismatched laces.",
+  "id": "product-colorway-edit",
+  "title": "Product Colorway Edit",
+  "description": "A running shoe mockup preserving product identity while changing color and removing a small detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "commercial-mockup",
+    "material-swap",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/single-editing-scenarios/images/product-colorway-edit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent product editing single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Product Colorway Edit",
+      "description": "A running shoe mockup preserving product identity while changing color and removing a small detail."
+    },
+    "zh-CN": {
+      "title": "产品配色编辑",
+      "description": "一张跑鞋产品样机，在改变配色和移除小细节时保持产品身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A blue-gray running shoe product mockup with repaired fabric where a heel tag was removed.",
+      "zh-CN": "一张蓝灰色跑鞋产品样机，后跟标签移除处的面料已自然修复。"
+    }
+  }
+}

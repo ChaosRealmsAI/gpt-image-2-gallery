@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square product-design infographic poster, straight-on like a finished localization proof on a light gray studio wall. Use a calm modern palette of white, graphite, fresh blue, soft green, and warm yellow. The lighting is even and bright so every text block is legible. The poster has a precise modular grid with a large headline at top, four rounded schedule cards in the middle, and one small footer strip at bottom.\n\nSubject:\nCreate the English source artwork for a hydration routine poster. The exact readable English text must be: headline Daily Water Plan; card labels Wake Up, Breakfast, Commute, Lunch, Evening; footer Refill before bed. Each label sits inside a designed text box beside a simple line icon: sunrise, bowl, train, plate, moon, and bottle. Typography is clean sans serif, consistent weight, with generous spacing.\n\nImportant details:\nThis is the reference for later in-image translation, so the layout must be unusually stable and measurable. Keep all text boxes aligned to the same grid, icons locked to the left of their labels, equal card heights, consistent corner radius, and no extra decorative copy. Leave enough room in every box for translated strings while still looking like a polished English poster.\n\nUse case:\nIn-Image Translation series study 1/8, establishing the English source layout for multilingual poster localization.\n\nConstraints:\nNo readable text except the specified English strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no misspellings, no extra labels, no skewed perspective, no fake brand marks, no tiny unreadable typography.",
+  "id": "01-english-source-poster",
+  "title": "English Source Poster",
+  "description": "A clean English hydration infographic poster that establishes the layout for translation fanout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root source poster for multilingual in-image translation fanout."
+  },
+  "i18n": {
+    "en": {
+      "title": "English Source Poster",
+      "description": "A clean English hydration infographic poster that establishes the layout for translation fanout."
+    },
+    "zh-CN": {
+      "title": "英文源海报",
+      "description": "一张英文饮水计划信息图海报，为后续多语言图内翻译建立版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "series"
+    ],
+    "alt": {
+      "en": "An English hydration routine infographic poster with six controlled text labels.",
+      "zh-CN": "一张带六处受控英文标签的饮水计划信息图海报。"
+    }
+  }
+}

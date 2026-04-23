@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare crop of a compact living room photographed from eye level, soft overcast daylight through a side window, realistic interior design styling, natural wood floor, cream walls, and a calm balanced exposure. The room should feel lived-in but already edited into a cleaner final state.\n\nSubject:\nShow a sofa, coffee table, standing lamp, wall art with abstract unreadable marks, indoor plant, and a rug. The scene should imply a conversational edit sequence: remove the toy pile from the left floor area, make the room slightly cooler in color temperature, straighten the wall art, and keep the sofa, plant, table objects, rug pattern, and window position consistent. The removed area should be naturally repaired with visible floor grain and correct shadows.\n\nImportant details:\nThis is a mask-free interior editing challenge. The edit must maintain room geometry, scale, lighting direction, and object relationships while changing only the requested semantic elements. The cooler mood should be subtle, not a blue filter over everything. The straightened wall art should align with the room perspective. The floor where clutter was removed must not be blurry, smeared, or unnaturally empty; it should contain plausible shadow and texture continuity.\n\nUse case:\nConversational Editing Workflow single study 7/8, testing scene cleanup, color-temperature adjustment, and geometry correction in one coherent interior.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no before-after split, no editing UI, no distorted furniture, no extra people, no messy replacement clutter, no impossible shadows, no warped wall frame.",
+  "id": "living-room-declutter",
+  "title": "Living Room Declutter",
+  "description": "An interior scene edited to remove clutter, cool the mood, and straighten wall art while preserving room identity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "photorealism",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/single-editing-scenarios/images/living-room-declutter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent interior editing single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Living Room Declutter",
+      "description": "An interior scene edited to remove clutter, cool the mood, and straighten wall art while preserving room identity."
+    },
+    "zh-CN": {
+      "title": "客厅去杂物",
+      "description": "一张室内场景，移除杂物、降低色温并校正墙画，同时保持房间身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A tidy living room with repaired floor space, cooler light, and straightened abstract wall art.",
+      "zh-CN": "一间整洁客厅，地面被自然修复，光线更冷，抽象墙画已摆正。"
+    }
+  }
+}

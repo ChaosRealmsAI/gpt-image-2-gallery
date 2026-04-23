@@ -1,0 +1,58 @@
+{
+  "id": "single-editing-scenarios",
+  "type": "single",
+  "title": "Editing Scenarios",
+  "description": "Four independent single images testing conversational editing logic across menus, product styling, interiors, and gallery layouts.",
+  "creative_direction": "Each image is a self-contained before-and-after style editing scene that makes the requested semantic changes visually inferable while avoiding literal readable instructions.",
+  "cover_image": "images/cafe-menu-revision/image.png",
+  "i18n": {
+    "en": {
+      "title": "Editing Scenarios",
+      "description": "Four independent single images testing conversational editing logic across menus, product styling, interiors, and gallery layouts."
+    },
+    "zh-CN": {
+      "title": "编辑场景单图",
+      "description": "四张独立单图，分别测试菜单、产品配色、室内整理和展陈布局中的对话式编辑逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "editing-workflow",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "cafe-menu-revision",
+      "title": "Cafe Menu Revision",
+      "image": "images/cafe-menu-revision/image.png",
+      "meta": "images/cafe-menu-revision/meta.json"
+    },
+    {
+      "id": "product-colorway-edit",
+      "title": "Product Colorway Edit",
+      "image": "images/product-colorway-edit/image.png",
+      "meta": "images/product-colorway-edit/meta.json"
+    },
+    {
+      "id": "living-room-declutter",
+      "title": "Living Room Declutter",
+      "image": "images/living-room-declutter/image.png",
+      "meta": "images/living-room-declutter/meta.json"
+    },
+    {
+      "id": "gallery-layout-correction",
+      "title": "Gallery Layout Correction",
+      "image": "images/gallery-layout-correction/image.png",
+      "meta": "images/gallery-layout-correction/meta.json"
+    }
+  ]
+}

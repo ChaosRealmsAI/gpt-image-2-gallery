@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square exterior architectural render showing a sketch-to-photoreal transformation for a coastal villa. The composition overlays faint pencil construction lines over the left edge and foreground terrace, while the main building is fully photoreal. The camera sits at eye level from the pool terrace, with a clear horizon over the sea, crisp morning light, pale shadows, and restrained color.\n\nSubject:\nA low two-story coastal villa originally drawn as a simple graphite massing sketch: flat roof planes, deep horizontal overhangs, a stone base, glass living room wall, narrow upper bedroom windows, exterior stair at one side, and a rectangular pool aligned with the facade. The photoreal render must keep that exact massing and opening placement, translating it into limewashed walls, local stone, bronze window frames, clear glass, wood soffits, and weather-resistant terrace paving.\n\nImportant details:\nPreserve the sketched horizon line, roof step, pool edge, stair position, window proportions, and terrace geometry. The coastal setting should be plausible rather than resort fantasy: native grasses, salt-air patina, realistic drainage, proper guardrail height, and material choices that suit a seaside climate. Do not add domes, extra balconies, palm-heavy decoration, or a larger villa. The result should look like an architect's concept sketch resolved into a review-ready photoreal render.\n\nUse case:\nSketch to Photoreal Render single study 6/8, testing layout-faithful exterior rendering from a coastal villa sketch.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra stories, no moved pool, no oversized resort furniture, no impossible cliff geometry, no fantasy sunset, no signage.",
+  "id": "coastal-villa-render",
+  "title": "Coastal Villa Render",
+  "description": "An independent photoreal coastal villa render that preserves the source sketch's massing and horizon.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "running",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/single-render-studies/images/coastal-villa-render/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image converting a coastal villa sketch into a plausible photoreal exterior."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coastal Villa Render",
+      "description": "An independent photoreal coastal villa render that preserves the source sketch's massing and horizon."
+    },
+    "zh-CN": {
+      "title": "海边住宅渲染",
+      "description": "一张独立照片级海边住宅效果图,保持源草图的体量和海平线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A coastal villa concept sketch resolved into a photoreal pool-terrace render.",
+      "zh-CN": "海边住宅概念草图转为照片级泳池露台效果图。"
+    }
+  }
+}

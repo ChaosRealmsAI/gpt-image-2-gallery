@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square photoreal architectural render at rainy blue-hour night, generated from the provided pencil facade sketch as the primary reference. The camera remains near the original street-level horizon, with a controlled corner view and no wide-angle distortion. Wet pavement reflects window light and shopfront glow, but the composition stays clear enough to inspect the facade.\n\nSubject:\nThe same compact four-story corner apartment building from the reference appears after rain. Keep the recessed lower-left entry, two ground-floor shopfront bays, three upper residential floors, shallow roof terrace, right-side return, regular window grid, slender balconies, vertical stairwell slot, and masonry panel rhythm. Render believable night materials: damp warm-gray brick, dark metal railings, softly lit interiors behind glass, subtle water streaks on sill edges, and shallow puddle reflections on the sidewalk.\n\nImportant details:\nThe hard part is preserving the sketch while changing lighting. Window centers, balcony edges, floor slab heights, roofline, stairwell slot, and shopfront bay widths must remain in the same relative positions as the reference. Night effects must not hide structural fidelity. Add only realistic context: rain sheen, muted streetlight spill, a curb, and sparse planters. Avoid cinematic overdecoration; the building should read like a real architectural visualization for review.\n\nUse case:\nSketch to Photoreal Render series study 3/8, testing whether a reference sketch can become a rainy photoreal night render without layout drift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no neon signs, no extra windows, no changed floor count, no vehicles covering the facade, no crowds, no gothic or futuristic redesign.",
+  "id": "03-rain-night-render",
+  "title": "Rain Night Render",
+  "description": "A rainy blue-hour photoreal render that keeps the reference facade structure intact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "photorealism",
+    "editing-workflow",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/03-rain-night-render/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pencil-facade-reference",
+        "meta_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/meta.json",
+        "image_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the pencil facade reference to preserve layout under rainy night lighting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Night Render",
+      "description": "A rainy blue-hour photoreal render that keeps the reference facade structure intact."
+    },
+    "zh-CN": {
+      "title": "雨夜渲染",
+      "description": "一张雨后蓝调时刻照片级效果图,保持参考立面结构不漂移。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A rainy night photoreal render of the same corner apartment facade.",
+      "zh-CN": "同一街角公寓立面的雨夜照片级效果图。"
+    }
+  }
+}

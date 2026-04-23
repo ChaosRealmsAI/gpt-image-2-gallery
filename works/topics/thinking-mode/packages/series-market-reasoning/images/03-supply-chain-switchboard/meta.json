@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square editorial illustration style as the reference image: warm newsprint background, small characters, restrained colors, thin ink lines, quiet margins, and pseudo-handwritten notes. Keep the same visual grammar but change the reasoning metaphor.\n\nSubject:\nTurn the trend mountains into a supply-chain switchboard. The runner characters now stand at small levers, cables, and signal lights that connect abstract factories, shipping lanes, warehouses, and demand hills. The central reasoning path should show cause and effect moving through the switchboard: one lever changes a cable tension, a signal light changes color, a route opens, and a trend ridge shifts.\n\nImportant details:\nStructured cause-and-effect layout, readable flow without readable words, clean arrows, dotted routes, small icons, and hand-drawn editorial charm. Preserve the reference's character scale, visual restraint, and chart-like mountain forms. The image should feel like a model thinking through interconnected variables, not a literal industrial diagram.\n\nUse case:\nThird image in a reference-dependent Thinking Mode series, using the same art direction to visualize supply-chain reasoning and dependency chains.\n\nConstraints:\nPRESERVE the reference image's square crop, annotation style, small runners, muted palette, and editorial hierarchy. No readable text, no real companies, no logos, no watermark, no photorealistic machinery, no dense technical schematic, preserve exact 1:1 aspect ratio.",
+  "id": "03-supply-chain-switchboard",
+  "title": "Supply Chain Switchboard",
+  "description": "The reference reasoning style becomes a switchboard for cause and effect.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "data-visualization",
+    "editorial-illustration",
+    "series"
+  ],
+  "refs": [
+    "01-reference-market-mountain"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/series-market-reasoning/images/03-supply-chain-switchboard/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-market-mountain",
+        "meta_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/meta.json",
+        "image_path": "works/topics/thinking-mode/packages/series-market-reasoning/images/01-reference-market-mountain/image.png",
+        "ref_role": "style_and_layout_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Supply Chain Switchboard",
+      "description": "The reference reasoning style becomes a switchboard for cause and effect."
+    },
+    "zh-CN": {
+      "title": "供应链交换台",
+      "description": "把基准推理风格改写成因果信号交换台。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "An editorial supply-chain switchboard showing cause and effect as visual signals.",
+      "zh-CN": "用视觉信号表现因果关系的编辑式供应链交换台。"
+    }
+  }
+}

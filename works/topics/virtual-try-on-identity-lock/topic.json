@@ -1,0 +1,51 @@
+{
+  "id": "virtual-try-on-identity-lock",
+  "slug": "virtual-try-on-identity-lock",
+  "category": "workflow",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "editing-workflow",
+    "multi-image-reference",
+    "consistency"
+  ],
+  "title": "Virtual Try-On Identity Lock",
+  "short_title": "Try-On Lock",
+  "description": "A Prompt Atlas theme for virtual try-on studies that preserve one model identity while changing only clothing, styling, and garment context.",
+  "i18n": {
+    "en": {
+      "title": "Virtual Try-On Identity Lock",
+      "short_title": "Try-On Lock",
+      "description": "A Prompt Atlas theme for virtual try-on studies that preserve one model identity while changing only clothing, styling, and garment context."
+    },
+    "zh-CN": {
+      "title": "虚拟试衣 · 身份零漂移",
+      "short_title": "虚拟试衣",
+      "description": "测试虚拟试衣中的身份锁定: 脸、五官、肤色和体型保持一致,只改变服装与造型。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "identity-consistency",
+      "multi-image-reference",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-identity-lock-studies",
+      "type": "single",
+      "title": "Identity Lock Studies",
+      "path": "packages/single-identity-lock-studies/package.json"
+    }
+  ]
+}

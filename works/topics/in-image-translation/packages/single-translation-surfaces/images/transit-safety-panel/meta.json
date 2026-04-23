@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square crop of a transit safety panel inside a clean metro carriage, photographed straight-on with stainless steel edges and soft overhead light. The panel is a finished public-information graphic with four pictogram boxes, a headline band, and a lower instruction strip. Use high contrast safety colors: white, black, signal yellow, muted blue, and a small red accent.\n\nSubject:\nShow a French localization of a transit safety instruction panel. The exact readable French text must be: Restez derriere la ligne, Tenez la rampe, Laissez sortir, Gardez vos sacs pres de vous, Sortie. Place the main warning in the headline band, three instructions under pictograms in the middle boxes, and the exit label beside a clean arrow in the lower strip. Typography should be sober, transit-grade, and readable, with no brand system or route names.\n\nImportant details:\nThe challenge is maintaining a public-safety layout while translating the text. Keep pictograms aligned, box borders crisp, icon scale consistent, and the baseline grid stable. French accents should render correctly where used, and the text must not spill outside boxes. The panel should look like a professionally localized safety graphic, not an improvised poster.\n\nUse case:\nIn-Image Translation single study 7/8, testing translated safety instructions with pictogram alignment and strict readability.\n\nConstraints:\nNo readable text except the specified French strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no metro brand, no route numbers, no extra warnings, no garbled accents, no angled unreadable panel.",
+  "id": "transit-safety-panel",
+  "title": "Transit Safety Panel",
+  "description": "A French localized metro safety panel with strict pictogram alignment and readable instructions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/single-translation-surfaces/images/transit-safety-panel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing translated public safety copy with icon alignment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Transit Safety Panel",
+      "description": "A French localized metro safety panel with strict pictogram alignment and readable instructions."
+    },
+    "zh-CN": {
+      "title": "交通安全面板",
+      "description": "一张法文本地化地铁安全面板，测试图标对齐和指令可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A metro safety panel localized into French with pictograms and warning text.",
+      "zh-CN": "一张本地化为法文、带图标和警示文字的地铁安全面板。"
+    }
+  }
+}

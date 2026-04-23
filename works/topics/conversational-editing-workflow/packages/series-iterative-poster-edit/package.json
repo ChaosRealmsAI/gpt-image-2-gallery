@@ -1,0 +1,71 @@
+{
+  "id": "series-iterative-poster-edit",
+  "type": "series",
+  "title": "Iterative Poster Edit",
+  "description": "A four-image reference-dependent series showing a campaign poster changed through conversational edits while preserving layout identity.",
+  "creative_direction": "The base transit poster becomes a controlled multi-turn edit chain: shift the atmosphere to dusk, remove one side figure, enlarge the abstract heading area, then cool the palette and rebalance the final campaign image without losing the original structure.",
+  "cover_image": "images/01-base-transit-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-base-transit-poster/meta.json",
+      "images/02-dusk-left-removed/meta.json",
+      "images/03-larger-cooler-heading/meta.json",
+      "images/04-final-balanced-campaign/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Iterative Poster Edit",
+      "description": "A four-image reference-dependent series showing a campaign poster changed through conversational edits while preserving layout identity."
+    },
+    "zh-CN": {
+      "title": "迭代海报编辑",
+      "description": "四张依赖参考图的系列，展示广告海报在多轮对话编辑中改变内容但保持版式身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "editing-workflow",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-base-transit-poster",
+      "title": "Base Transit Poster",
+      "image": "images/01-base-transit-poster/image.png",
+      "meta": "images/01-base-transit-poster/meta.json"
+    },
+    {
+      "id": "02-dusk-left-removed",
+      "title": "Dusk Left Removed",
+      "image": "images/02-dusk-left-removed/image.png",
+      "meta": "images/02-dusk-left-removed/meta.json"
+    },
+    {
+      "id": "03-larger-cooler-heading",
+      "title": "Larger Cooler Heading",
+      "image": "images/03-larger-cooler-heading/image.png",
+      "meta": "images/03-larger-cooler-heading/meta.json"
+    },
+    {
+      "id": "04-final-balanced-campaign",
+      "title": "Final Balanced Campaign",
+      "image": "images/04-final-balanced-campaign/image.png",
+      "meta": "images/04-final-balanced-campaign/meta.json"
+    }
+  ]
+}

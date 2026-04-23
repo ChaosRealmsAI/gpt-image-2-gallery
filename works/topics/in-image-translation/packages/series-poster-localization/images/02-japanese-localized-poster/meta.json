@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference image as the locked source poster. Keep the same square crop, same straight-on wall presentation, same color palette, same modular grid, same line icons, same card sizes, and same footer position. The image should look like the same design file after a professional Japanese localization pass, not like a new poster or a loose remake.\n\nSubject:\nReplace only the English text with Japanese while preserving the typography hierarchy and approximate visual weight. The exact readable Japanese text must be: headline 毎日の水分プラン; card labels 起床, 朝食, 通勤, 昼食, 夜; footer 就寝前に補充. Keep the headline in the same top area, each card label beside its original icon, and the footer inside the same bottom strip. The translated characters should be crisp, balanced, and naturally typeset.\n\nImportant details:\nThe core test is in-image translation with typography preservation. Do not move icons, resize cards, change colors, add new ornaments, or redesign the schedule. Japanese strings may be slightly wider or narrower than English, but they must stay centered in the same boxes and retain the original label rhythm. Preserve line spacing, corner radius, margins, icon scale, and overall visual identity from image 01.\n\nUse case:\nIn-Image Translation series study 2/8, translating the source poster into Japanese while keeping the visual system fixed.\n\nConstraints:\nNo readable text except the specified Japanese strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no English leftovers, no random kana, no broken characters, no shifted icons, no changed poster structure.",
+  "id": "02-japanese-localized-poster",
+  "title": "Japanese Localized Poster",
+  "description": "A Japanese localization of the source poster with layout, icons, spacing, and hierarchy preserved.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/series-poster-localization/images/02-japanese-localized-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-english-source-poster",
+        "meta_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/meta.json",
+        "image_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source poster as the primary reference and translate only the text layer into Japanese."
+  },
+  "i18n": {
+    "en": {
+      "title": "Japanese Localized Poster",
+      "description": "A Japanese localization of the source poster with layout, icons, spacing, and hierarchy preserved."
+    },
+    "zh-CN": {
+      "title": "日文本地化海报",
+      "description": "将源海报本地化为日文，同时保持版式、图标、间距和层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "series"
+    ],
+    "alt": {
+      "en": "The hydration infographic poster translated into Japanese with the same layout.",
+      "zh-CN": "同一饮水信息图海报被翻译成日文并保持原版式。"
+    }
+  }
+}

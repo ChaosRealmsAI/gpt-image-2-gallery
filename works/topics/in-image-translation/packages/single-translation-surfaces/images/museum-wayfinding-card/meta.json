@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square close-up of a museum wayfinding placard mounted on brushed aluminum beside a gallery doorway. The camera is straight-on with slight environmental depth at the edges, soft museum lighting, neutral gray walls, and a restrained institutional palette of charcoal, cream, muted red, and pale blue. The sign is divided into three perfectly aligned rows with icon columns and bilingual-looking spacing.\n\nSubject:\nShow a finished Chinese localization of an English museum sign while implying the original layout is preserved. The exact readable Chinese text must be: 常设展, 临时展厅, 咖啡与商店, 出口. Each phrase appears in a clean sans serif style, replacing where English labels would have been, beside simple pictograms for collection, gallery, cup, and arrow. The sign should look production ready, with exact baseline alignment and even optical margins.\n\nImportant details:\nThe point is not just multilingual text; it is text replacement inside a pre-existing wayfinding grid. Keep icon positions fixed, keep row heights equal, keep the arrows and pictograms crisp, and make all Chinese characters readable at thumbnail scale. The sign should show professional localization discipline: no crowding, no mismatched font weights, no accidental extra copy, and no redesign.\n\nUse case:\nIn-Image Translation single study 5/8, testing translated signage text inside a strict wayfinding layout.\n\nConstraints:\nNo readable text except the specified Chinese strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no fake museum brand, no misshaped Chinese characters, no handwritten style, no perspective distortion, no extra labels.",
+  "id": "museum-wayfinding-card",
+  "title": "Museum Wayfinding Card",
+  "description": "A Chinese localized museum wayfinding placard with fixed icon positions and row spacing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/single-translation-surfaces/images/museum-wayfinding-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing translated wayfinding typography without references."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Wayfinding Card",
+      "description": "A Chinese localized museum wayfinding placard with fixed icon positions and row spacing."
+    },
+    "zh-CN": {
+      "title": "博物馆导视牌",
+      "description": "一张中文本地化博物馆导视牌，固定图标位置和行距。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A museum wayfinding sign localized into Chinese with aligned icons and rows.",
+      "zh-CN": "一张本地化为中文、图标和行严格对齐的博物馆导视牌。"
+    }
+  }
+}

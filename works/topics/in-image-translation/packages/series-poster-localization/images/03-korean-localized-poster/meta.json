@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference image as the locked source poster. Maintain the same square, front-facing poster proof, neutral studio wall, bright even lighting, white card surfaces, graphite typography color, blue and green accent blocks, and warm yellow highlights. The finished result must feel like a Korean language export from the same design system.\n\nSubject:\nReplace only the English text with Korean. The exact readable Korean text must be: headline 매일 물 마시기 계획; card labels 기상, 아침 식사, 출근, 점심, 저녁; footer 잠들기 전에 채우기. Keep every phrase inside the same original text zone: the headline at the top, five schedule labels in the middle cards, and the footer in the bottom strip. Characters should be crisp Hangul, visually centered, and typeset with a clean sans serif rhythm.\n\nImportant details:\nThe challenge is to preserve typography and layout while the language changes length and density. Do not change the poster's card order, icon locations, container sizes, margin grid, background color, or visual hierarchy. The Korean text can use natural spacing, but it must keep the same baseline feeling and not collide with icons. Make the result inspectable as a before-and-after localization artifact.\n\nUse case:\nIn-Image Translation series study 3/8, translating the source poster into Korean while preserving text boxes and composition.\n\nConstraints:\nNo readable text except the specified Korean strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no English leftovers, no garbled Hangul, no duplicate labels, no altered icons, no redesigned layout.",
+  "id": "03-korean-localized-poster",
+  "title": "Korean Localized Poster",
+  "description": "A Korean localization of the source poster that keeps the same cards, icons, colors, and hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/series-poster-localization/images/03-korean-localized-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-english-source-poster",
+        "meta_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/meta.json",
+        "image_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source poster as the primary reference and translate only the text layer into Korean."
+  },
+  "i18n": {
+    "en": {
+      "title": "Korean Localized Poster",
+      "description": "A Korean localization of the source poster that keeps the same cards, icons, colors, and hierarchy."
+    },
+    "zh-CN": {
+      "title": "韩文本地化海报",
+      "description": "将源海报本地化为韩文，同时保持卡片、图标、颜色和层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "series"
+    ],
+    "alt": {
+      "en": "The hydration infographic poster translated into Korean with the same card grid.",
+      "zh-CN": "同一饮水信息图海报被翻译成韩文并保持卡片网格。"
+    }
+  }
+}

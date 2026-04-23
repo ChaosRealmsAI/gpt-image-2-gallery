@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square abstract editorial diagram on off-white paper, like a museum-quality print about cognition. The image uses clean modular panels, soft graphite lines, translucent vellum overlays, and a restrained palette of blue, red, green, amber, and black.\n\nSubject:\nA visible thought trace: seven rounded reasoning nodes connected by a looping path, with small evidence fragments entering from the left and a finished visual answer emerging on the right. Each node has a distinct metaphor: observation lens, comparison scales, memory shelf, contradiction knot, synthesis loom, critique mirror, and final composition frame. All marks inside nodes are abstract symbols, not readable text.\n\nImportant details:\nThe layout must be structured and easy to follow, showing step-by-step reasoning without exposing actual chain-of-thought words. Use arrows, layers, icons, and spatial grouping to imply process. The image should feel precise, calm, and intelligent, with enough visual complexity to reward close inspection while staying clean at thumbnail size.\n\nUse case:\nIndependent Thinking Mode single image, demonstrating how a model's multi-step reasoning can be represented as a visual process diagram without literal text.\n\nConstraints:\nNo readable text, no code, no real prompt snippets, no private chain-of-thought text, no logos, no watermark, no brain cliché, no sci-fi glow, no chaotic flowchart, preserve exact 1:1 aspect ratio.",
+  "id": "model-thought-trace",
+  "title": "Model Thought Trace",
+  "description": "An abstract process diagram showing multi-step reasoning as visual nodes and paths.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "reasoning-composition",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/single-reasoning-studies/images/model-thought-trace/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Thinking Mode single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Model Thought Trace",
+      "description": "An abstract process diagram showing multi-step reasoning as visual nodes and paths."
+    },
+    "zh-CN": {
+      "title": "模型思路轨迹",
+      "description": "用节点和路径表现多步推理的抽象过程图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "An abstract visual reasoning trace made of connected nodes and symbolic process panels.",
+      "zh-CN": "由连接节点和符号面板组成的抽象视觉推理轨迹。"
+    }
+  }
+}

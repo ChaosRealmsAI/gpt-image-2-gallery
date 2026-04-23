@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square cutaway editorial illustration of a compact data newsroom, seen from a slightly elevated front angle. The room is built like a miniature stage set with tidy desks, wall boards, pinned cards, chart-like murals, and warm overhead lamps. The style is sophisticated magazine illustration with paper texture and restrained color.\n\nSubject:\nA teamless newsroom where objects perform the reasoning: a sorting table groups evidence cards, a wall board compares three abstract scenarios, a small printer releases a blank decision sheet, and an overhead track connects sources to conclusion. No people are visible; the furniture and diagrams imply the thinking process. All notes are pseudo-writing and symbol marks only.\n\nImportant details:\nHighly organized layout, readable zones, clear path from inputs to synthesis, subtle humor, tiny icons, chart shapes, and editorial craft. The image should feel like a visual newsroom for analysis: structured, calm, and full of purposeful details. Use cream, ink black, muted teal, warm yellow, and red accent marks.\n\nUse case:\nIndependent Thinking Mode single image, testing complex multi-zone composition and reasoning visualization in one coherent scene.\n\nConstraints:\nNo readable text, no real news headlines, no real data, no logos, no watermark, no humans, no messy office clutter, no photorealistic computer UI, preserve exact 1:1 aspect ratio.",
+  "id": "editorial-data-room",
+  "title": "Editorial Data Room",
+  "description": "A miniature newsroom where objects organize evidence into a visual conclusion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "structured-layout",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/single-reasoning-studies/images/editorial-data-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Thinking Mode single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Editorial Data Room",
+      "description": "A miniature newsroom where objects organize evidence into a visual conclusion."
+    },
+    "zh-CN": {
+      "title": "编辑数据室",
+      "description": "物件把证据整理成视觉结论的微型新闻室。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A miniature editorial data room with boards, cards, and object-led reasoning zones.",
+      "zh-CN": "带有看板、卡片和物件推理分区的微型编辑数据室。"
+    }
+  }
+}

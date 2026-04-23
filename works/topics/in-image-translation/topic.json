@@ -1,0 +1,57 @@
+{
+  "id": "in-image-translation",
+  "slug": "in-image-translation",
+  "category": "workflow",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout"
+  ],
+  "title": "In-Image Translation",
+  "short_title": "Image Translate",
+  "description": "A Prompt Atlas theme for in-image translation, testing text rendering, layout preservation, and localization workflow control with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "In-Image Translation",
+      "short_title": "Image Translate",
+      "description": "A Prompt Atlas theme for in-image translation, testing text rendering, layout preservation, and localization workflow control with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "图内翻译 · 保 typography 只换文字",
+      "short_title": "图内翻译",
+      "description": "图内翻译 · 保 typography 只换文字：给英文 infographic，只翻文字到目标语言，字号、间距和图标位置全不动。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-poster-localization",
+      "type": "series",
+      "title": "Poster Localization",
+      "path": "packages/series-poster-localization/package.json"
+    },
+    {
+      "id": "single-translation-surfaces",
+      "type": "single",
+      "title": "Translation Surfaces",
+      "path": "packages/single-translation-surfaces/package.json"
+    }
+  ]
+}

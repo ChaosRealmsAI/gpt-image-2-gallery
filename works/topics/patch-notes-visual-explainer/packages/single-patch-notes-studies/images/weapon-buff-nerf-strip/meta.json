@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a comparison strip visualizing one weapon buff and another nerf through silhouettes and arrows-like composition with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a comparison strip visualizing one weapon buff and another nerf through silhouettes and arrows-like composition. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Patch Notes Visual Explainer. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nbalance change should read through graphics and object emphasis rather than text. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nPatch Notes Visual Explainer single study 2/9, focused on weapon buff nerf strip.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no legible numbers, no bars with text, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "weapon-buff-nerf-strip",
+  "title": "Weapon Buff Nerf Strip",
+  "description": "Weapon Buff Nerf Strip for Patch Notes Visual Explainer, designed as part of the patch notes studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/patch-notes-visual-explainer/packages/single-patch-notes-studies/images/weapon-buff-nerf-strip/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Weapon Buff Nerf Strip",
+      "description": "Weapon Buff Nerf Strip for Patch Notes Visual Explainer, designed as part of the patch notes studies."
+    },
+    "zh-CN": {
+      "title": "武器平衡条",
+      "description": "武器平衡条，属于 补丁说明可视化页 的 版本说明研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Weapon Buff Nerf Strip image from the Patch Notes Visual Explainer package.",
+      "zh-CN": "补丁说明可视化页 中的武器平衡条图像。"
+    }
+  }
+}

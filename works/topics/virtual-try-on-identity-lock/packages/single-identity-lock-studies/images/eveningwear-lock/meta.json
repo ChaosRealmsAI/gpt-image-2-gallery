@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square eveningwear virtual fitting board in a softly lit atelier with charcoal drapes, a polished concrete floor, and warm pin lights catching fabric surfaces. Seven full-body garment states are arranged in a graceful arc around a central baseline figure. The image is elegant and controlled, with enough negative space to compare silhouette and identity.\n\nSubject:\nA synthetic adult model with light brown skin, silver-gray pixie haircut, angular cheekbones, narrow nose, fine mouth, tall lean body, and poised hands. The baseline outfit is a simple black slip dress. Try-on looks include velvet column gown, satin tuxedo, sequined long-sleeve dress, sculptural taffeta skirt, sheer cape over tailored jumpsuit, beadwork cocktail dress, and minimalist white evening suit. The same mature face, hair shape, skin tone, height, arm length, hand pose, and composed expression must carry through all looks.\n\nImportant details:\nEveningwear often changes the perceived body; prevent that drift. Preserve cheekbone angle, eye spacing, hairline, ear visibility, neck length, clavicle placement, wrist scale, waist height, and foot stance. Let garments create volume through fabric only, not by resizing the person. Show realistic reflective materials: velvet absorbs light, satin glows, sequins sparkle, taffeta holds crisp folds. Avoid glamour retouching that makes the model younger or changes identity.\n\nUse case:\nVirtual Try-On Identity Lock single study 6/8, testing formalwear transformation with stable age, face, and body.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no age change, no face smoothing, no body elongation, no changed haircut, no extra guests, no stage signage, no impossible fabric clipping.",
+  "id": "eveningwear-lock",
+  "title": "Eveningwear Lock",
+  "description": "An atelier fitting board preserving one mature model through dramatic eveningwear changes.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "material-swap",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/eveningwear-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent eveningwear try-on board emphasizing identity lock under dramatic materials."
+  },
+  "i18n": {
+    "en": {
+      "title": "Eveningwear Lock",
+      "description": "An atelier fitting board preserving one mature model through dramatic eveningwear changes."
+    },
+    "zh-CN": {
+      "title": "晚装礼服锁定",
+      "description": "一张高级定制试衣板,在戏剧化晚装变化中保持同一成熟模特。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "An atelier board showing one mature model in several eveningwear transformations.",
+      "zh-CN": "一张高级定制试衣板,展示同一成熟模特的多套晚装变化。"
+    }
+  }
+}

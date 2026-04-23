@@ -1,0 +1,64 @@
+{
+  "id": "single-reasoning-studies",
+  "type": "single",
+  "title": "Reasoning Studies",
+  "description": "Three independent images testing structured visual reasoning without reference dependencies.",
+  "creative_direction": "Independent studies for the Thinking Mode theme: each image converts a different reasoning workflow into a clear editorial or product-like visual system.",
+  "cover_image": "images/analyst-workbench/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/analyst-workbench/meta.json",
+      "images/model-thought-trace/meta.json",
+      "images/editorial-data-room/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reasoning Studies",
+      "description": "Three independent images testing structured visual reasoning without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "推理单图研究",
+      "description": "三张不依赖参考图的结构化视觉推理单图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "thinking-mode",
+      "structured-layout",
+      "data-visualization"
+    ]
+  },
+  "images": [
+    {
+      "id": "analyst-workbench",
+      "title": "Analyst Workbench",
+      "image": "images/analyst-workbench/image.png",
+      "meta": "images/analyst-workbench/meta.json"
+    },
+    {
+      "id": "model-thought-trace",
+      "title": "Model Thought Trace",
+      "image": "images/model-thought-trace/image.png",
+      "meta": "images/model-thought-trace/meta.json"
+    },
+    {
+      "id": "editorial-data-room",
+      "title": "Editorial Data Room",
+      "image": "images/editorial-data-room/image.png",
+      "meta": "images/editorial-data-room/meta.json"
+    }
+  ]
+}

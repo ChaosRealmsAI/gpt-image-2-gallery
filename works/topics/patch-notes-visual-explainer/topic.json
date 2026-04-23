@@ -1,0 +1,50 @@
+{
+  "id": "patch-notes-visual-explainer",
+  "slug": "patch-notes-visual-explainer",
+  "category": "workflow",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "title": "Patch Notes Visual Explainer",
+  "short_title": "Patch Explainer",
+  "description": "Turn patch notes into a visual explainer system that makes balance changes, new content, and limited-time updates scannable and shareable.",
+  "i18n": {
+    "en": {
+      "title": "Patch Notes Visual Explainer",
+      "short_title": "Patch Explainer",
+      "description": "Turn patch notes into a visual explainer system that makes balance changes, new content, and limited-time updates scannable and shareable."
+    },
+    "zh-CN": {
+      "title": "补丁说明可视化页",
+      "short_title": "补丁说明",
+      "description": "把 patch notes 做成可视化说明页，重点看改动摘要、新内容预告和玩家一眼能扫懂的层级。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 981,
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-patch-notes-studies",
+      "type": "single",
+      "title": "Patch Notes Studies",
+      "path": "packages/single-patch-notes-studies/package.json"
+    }
+  ]
+}

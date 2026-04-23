@@ -1,0 +1,55 @@
+{
+  "id": "conversational-editing-workflow",
+  "slug": "conversational-editing-workflow",
+  "category": "workflow",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "editing-workflow",
+    "structured-layout"
+  ],
+  "title": "Conversational Editing Workflow",
+  "short_title": "Edit Workflow",
+  "description": "A Prompt Atlas theme testing mask-free conversational image editing: preserving most of a scene while applying sequential semantic changes.",
+  "i18n": {
+    "en": {
+      "title": "Conversational Editing Workflow",
+      "short_title": "Edit Workflow",
+      "description": "A Prompt Atlas theme testing mask-free conversational image editing: preserving most of a scene while applying sequential semantic changes."
+    },
+    "zh-CN": {
+      "title": "多轮对话式编辑工作流",
+      "short_title": "多轮编辑",
+      "description": "测试免 mask 的多轮对话式图像编辑：在连续语义修改中保留大部分场景、布局和视觉身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 120,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-iterative-poster-edit",
+      "type": "series",
+      "title": "Iterative Poster Edit",
+      "path": "packages/series-iterative-poster-edit/package.json"
+    },
+    {
+      "id": "single-editing-scenarios",
+      "type": "single",
+      "title": "Editing Scenarios",
+      "path": "packages/single-editing-scenarios/package.json"
+    }
+  ]
+}

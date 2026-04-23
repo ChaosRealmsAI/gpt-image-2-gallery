@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square athletic try-on analysis board in a bright training studio with matte rubber flooring, white walls, and clean overhead light. The layout uses one large center figure and six smaller motion-adjacent outfit poses around it, all kept close to the same body angle so identity comparison is possible. The board feels like a sportswear fit test, not an action poster.\n\nSubject:\nA synthetic adult model with tan skin, long black hair tied in a low ponytail, heart-shaped face, strong eyebrows, compact muscular build, and confident neutral expression. The baseline is a plain black fitted tank and shorts. Outfit changes include running kit, yoga set, cycling jacket and leggings, tennis dress, hiking shell, compression recovery layer, and warm-up tracksuit. The same face, ponytail placement, muscle definition, shoulder width, hip width, and limb length must appear in every variant.\n\nImportant details:\nPreserve identity during fitted garment changes, where body drift is easy to see. Keep the same jawline, brow, eye shape, nose, mouth, neck tendons, collarbones, hand structure, thigh shape, and calf proportion. Sportswear should show believable stretch, compression, seam placement, breathable mesh, and fabric tension without painting new anatomy. Do not let dynamic clothing or pose changes create a different athlete.\n\nUse case:\nVirtual Try-On Identity Lock single study 5/8, testing activewear edits while preserving one athletic model.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no changed muscles, no face swap, no skin tone shift, no ponytail change, no extra athlete, no impossible joints, no oversexualized styling, no floating garments.",
+  "id": "sportswear-lock",
+  "title": "Sportswear Lock",
+  "description": "An athletic try-on board preserving one model through fitted sportswear changes.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "fashion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/sportswear-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent activewear try-on board for fitted garment and anatomy consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sportswear Lock",
+      "description": "An athletic try-on board preserving one model through fitted sportswear changes."
+    },
+    "zh-CN": {
+      "title": "运动装锁定",
+      "description": "一张运动试衣板,在贴身运动服变化中保持同一模特。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "fashion"
+    ],
+    "alt": {
+      "en": "A sportswear fit board showing one athletic model in multiple activewear outfits.",
+      "zh-CN": "一张运动服试穿板,展示同一运动模特的多套运动造型。"
+    }
+  }
+}

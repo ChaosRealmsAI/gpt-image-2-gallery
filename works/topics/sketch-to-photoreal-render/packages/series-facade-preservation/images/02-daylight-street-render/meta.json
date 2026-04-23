@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square photoreal architectural render from street level in bright overcast daylight, using the provided pencil facade sketch as the primary layout reference. The camera is nearly straight-on with a slight corner angle, matching the sketch horizon and proportions. The mood is calm, contemporary, and plausible, with soft shadows, neutral color grading, and realistic lens behavior.\n\nSubject:\nRender the same compact four-story corner apartment building from the reference: recessed entry at lower left, two shopfront bays at street level, three upper residential floors, shallow roof terrace, narrow side return on the right, regular window grid, slender balconies, vertical stairwell slot, and masonry panel divisions. Materials should become real: light warm-gray brick, matte metal balcony rails, clear glass, concrete curb, subtle shopfront glazing, and a restrained planted roof edge.\n\nImportant details:\nLayout fidelity is the core test. Keep floor count, roofline, horizon height, window rhythm, balcony positions, entry placement, and side return aligned with the reference sketch. Do not redesign the building into a different style. Add only ordinary real-world context: a sidewalk, curb, a few small planters, and distant street surface. Photorealism should come from material response, natural light, scale cues, and believable construction details rather than decorative additions.\n\nUse case:\nSketch to Photoreal Render series study 2/8, converting the reference sketch into a daylight photoreal street render while preserving layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra floors, no moved windows, no added towers, no dramatic signage, no crowds, no cars blocking the facade, no fantasy materials.",
+  "id": "02-daylight-street-render",
+  "title": "Daylight Street Render",
+  "description": "A daylight photoreal street render that preserves the reference sketch's facade layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "photorealism",
+    "editing-workflow",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/02-daylight-street-render/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-pencil-facade-reference",
+        "meta_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/meta.json",
+        "image_path": "works/topics/sketch-to-photoreal-render/packages/series-facade-preservation/images/01-pencil-facade-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the pencil facade reference to preserve massing and opening placement in daylight."
+  },
+  "i18n": {
+    "en": {
+      "title": "Daylight Street Render",
+      "description": "A daylight photoreal street render that preserves the reference sketch's facade layout."
+    },
+    "zh-CN": {
+      "title": "日景街道渲染",
+      "description": "一张日间照片级街景效果图,保持参考草图的立面布局。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A photoreal daylight render of the same four-story corner building.",
+      "zh-CN": "同一四层街角建筑的日间照片级效果图。"
+    }
+  }
+}

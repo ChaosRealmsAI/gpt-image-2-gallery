@@ -1,0 +1,82 @@
+{
+  "id": "single-identity-lock-studies",
+  "type": "single",
+  "title": "Identity Lock Studies",
+  "description": "Eight independent virtual try-on boards where a synthetic reference model keeps the same face, skin tone, body proportions, and posture logic while clothing changes.",
+  "creative_direction": "Each square image compresses a reference-like model portrait and multiple outfit variants into one editorial try-on board. The package tests whether garment edits can be visually dramatic while the human identity remains stable.",
+  "cover_image": "images/studio-capsule-lock/image.png",
+  "i18n": {
+    "en": {
+      "title": "Identity Lock Studies",
+      "description": "Eight independent virtual try-on boards where a synthetic reference model keeps the same face, skin tone, body proportions, and posture logic while clothing changes."
+    },
+    "zh-CN": {
+      "title": "身份锁定试衣研究",
+      "description": "八张独立虚拟试衣板: 合成模特的脸、肤色、体型比例和姿态逻辑不变,只改变服装。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "virtual-try-on",
+      "identity-consistency",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "studio-capsule-lock",
+      "title": "Studio Capsule Lock",
+      "image": "images/studio-capsule-lock/image.png",
+      "meta": "images/studio-capsule-lock/meta.json"
+    },
+    {
+      "id": "runway-season-lock",
+      "title": "Runway Season Lock",
+      "image": "images/runway-season-lock/image.png",
+      "meta": "images/runway-season-lock/meta.json"
+    },
+    {
+      "id": "outdoor-light-lock",
+      "title": "Outdoor Light Lock",
+      "image": "images/outdoor-light-lock/image.png",
+      "meta": "images/outdoor-light-lock/meta.json"
+    },
+    {
+      "id": "office-commute-lock",
+      "title": "Office Commute Lock",
+      "image": "images/office-commute-lock/image.png",
+      "meta": "images/office-commute-lock/meta.json"
+    },
+    {
+      "id": "sportswear-lock",
+      "title": "Sportswear Lock",
+      "image": "images/sportswear-lock/image.png",
+      "meta": "images/sportswear-lock/meta.json"
+    },
+    {
+      "id": "eveningwear-lock",
+      "title": "Eveningwear Lock",
+      "image": "images/eveningwear-lock/image.png",
+      "meta": "images/eveningwear-lock/meta.json"
+    },
+    {
+      "id": "heritage-textile-lock",
+      "title": "Heritage Textile Lock",
+      "image": "images/heritage-textile-lock/image.png",
+      "meta": "images/heritage-textile-lock/meta.json"
+    },
+    {
+      "id": "streetwear-layer-lock",
+      "title": "Streetwear Layer Lock",
+      "image": "images/streetwear-layer-lock/image.png",
+      "meta": "images/streetwear-layer-lock/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "series-market-reasoning",
+  "type": "series",
+  "title": "Market Reasoning",
+  "description": "A reference-dependent editorial series about turning market signals into one consistent visual reasoning system.",
+  "creative_direction": "Image 01 establishes a hand-drawn editorial market mountain language; images 02-04 reuse that same layout grammar and character system while changing the reasoning layer.",
+  "cover_image": "images/01-reference-market-mountain/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-market-mountain/meta.json",
+      "images/02-earnings-weather-map/meta.json",
+      "images/03-supply-chain-switchboard/meta.json",
+      "images/04-sentiment-newsroom/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Market Reasoning",
+      "description": "A reference-dependent editorial series about turning market signals into one consistent visual reasoning system."
+    },
+    "zh-CN": {
+      "title": "市场推理图",
+      "description": "把市场信号转成一套连续的编辑插画推理系统。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "thinking-mode",
+      "data-visualization",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-market-mountain",
+      "title": "Reference Market Mountain",
+      "image": "images/01-reference-market-mountain/image.png",
+      "meta": "images/01-reference-market-mountain/meta.json"
+    },
+    {
+      "id": "02-earnings-weather-map",
+      "title": "Earnings Weather Map",
+      "image": "images/02-earnings-weather-map/image.png",
+      "meta": "images/02-earnings-weather-map/meta.json"
+    },
+    {
+      "id": "03-supply-chain-switchboard",
+      "title": "Supply Chain Switchboard",
+      "image": "images/03-supply-chain-switchboard/image.png",
+      "meta": "images/03-supply-chain-switchboard/meta.json"
+    },
+    {
+      "id": "04-sentiment-newsroom",
+      "title": "Sentiment Newsroom",
+      "image": "images/04-sentiment-newsroom/image.png",
+      "meta": "images/04-sentiment-newsroom/meta.json"
+    }
+  ]
+}

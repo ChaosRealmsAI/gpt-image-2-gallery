@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nSquare crop of the same transit campaign poster on the same neutral review wall, using the reference as the visual source. The image should look like the next conversational edit after the dusk and removal pass: still a flat poster, still straight-on, still carefully designed, but with a more prominent top heading zone and a cooler design temperature.\n\nSubject:\nKeep the dusk tram shelter scene, repaired empty left side, right pedestrian, central image panel, bottom abstract information blocks, margins, and poster identity from the reference. Enlarge the top abstract heading block so it occupies more vertical space and has stronger visual priority, while remaining unreadable and graphic. Shift the overall palette cooler: more blue, cyan, pale lavender, and graphite; less coral warmth. Preserve the warm horizon glow only as a subtle trace inside the illustrated scene.\n\nImportant details:\nThis edit tests whether a model can revise layout hierarchy without rebuilding the whole poster. The heading area should become bigger through careful reflow: nearby route shapes and abstract blocks adjust around it, but the composition stays balanced and recognizable. Avoid literal letters. The abstract heading can be thick bars, modular glyph-like marks, and poster-design shapes that imply larger text without being readable.\n\nUse case:\nConversational Editing Workflow series study 3/8, showing a follow-up request that enlarges a nonreadable heading and cools the color system while preserving previous edits.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no return of the removed left person, no hot orange redesign, no new poster topic, no visible editing handles, no distorted frame, no real transit map.",
+  "id": "03-larger-cooler-heading",
+  "title": "Larger Cooler Heading",
+  "description": "The edited poster keeps the previous changes while enlarging the abstract heading and cooling the palette.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "identity-consistency",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/03-larger-cooler-heading/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-base-transit-poster",
+        "meta_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/meta.json",
+        "image_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the base poster as primary reference and preserve the prior intended edits while changing hierarchy and palette."
+  },
+  "i18n": {
+    "en": {
+      "title": "Larger Cooler Heading",
+      "description": "The edited poster keeps the previous changes while enlarging the abstract heading and cooling the palette."
+    },
+    "zh-CN": {
+      "title": "放大标题并降温配色",
+      "description": "海报保留此前编辑结果，同时放大抽象标题区域并降低整体色温。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "The transit poster with a larger abstract heading area and a cooler dusk color palette.",
+      "zh-CN": "交通海报拥有更大的抽象标题区域和更冷的黄昏配色。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square urban streetwear try-on board set against a clean concrete wall with soft overcast light and a faint painted color field that contains no letters. The composition uses a 3 by 3 contact-sheet rhythm: one baseline outfit and eight layered variations, all full-body and aligned to the same floor line. The visual style is sharp, photoreal, and youth-fashion editorial.\n\nSubject:\nA synthetic adult model with medium-dark skin, shoulder-length twists, rectangular face, wide-set eyes, small nose ring, average build, and easy relaxed posture. The baseline is a blank white tee, black jeans, and plain sneakers. Layered variations include oversized hoodie, cropped bomber, long plaid overshirt, denim jacket, technical vest, puffer coat, cargo trousers with knit, and monochrome layered streetwear. The same face, twists, nose ring, skin tone, shoulder width, torso length, and sneaker scale must remain fixed.\n\nImportant details:\nStreetwear layering creates strong silhouette changes, but identity cannot drift. Preserve facial landmarks, hair texture and length, nose ring position, ear visibility, neck, hand size, body mass, hip height, and leg proportions. Garments may be oversized, stacked, or cropped, but should drape over the same underlying person. Keep fabric edges, hoods, sleeves, cuffs, pockets, and hems crisp without covering the face in a way that hides identity.\n\nUse case:\nVirtual Try-On Identity Lock single study 8/8, testing layered streetwear variation while maintaining one locked identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no graffiti letters, no brand marks, no changed face, no changed hair, no removed nose ring, no body resizing, no extra people, no masked face, no distorted pockets or shoes.",
+  "id": "streetwear-layer-lock",
+  "title": "Streetwear Layer Lock",
+  "description": "A streetwear contact sheet preserving one model through eight layered outfit variations.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "fashion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/streetwear-layer-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent streetwear try-on contact sheet focused on layered garments and identity lock."
+  },
+  "i18n": {
+    "en": {
+      "title": "Streetwear Layer Lock",
+      "description": "A streetwear contact sheet preserving one model through eight layered outfit variations."
+    },
+    "zh-CN": {
+      "title": "街头叠穿锁定",
+      "description": "一张街头风联系表,在八套叠穿造型中保持同一模特身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "fashion"
+    ],
+    "alt": {
+      "en": "A streetwear contact sheet showing the same model in eight layered outfit variations.",
+      "zh-CN": "一张街头风联系表,展示同一模特的八套叠穿变化。"
+    }
+  }
+}

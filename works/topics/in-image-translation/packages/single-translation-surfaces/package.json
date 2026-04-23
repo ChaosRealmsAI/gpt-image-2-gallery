@@ -1,0 +1,58 @@
+{
+  "id": "single-translation-surfaces",
+  "type": "single",
+  "title": "Translation Surfaces",
+  "description": "Four independent studies of translated text embedded into different designed objects: wayfinding, packaging, transit safety, and app onboarding.",
+  "creative_direction": "Independent localization surfaces that do not share references. Each image stresses a different typography constraint: signage grids, label microcopy, pictogram alignment, and mobile interface cards.",
+  "cover_image": "images/museum-wayfinding-card/image.png",
+  "i18n": {
+    "en": {
+      "title": "Translation Surfaces",
+      "description": "Four independent studies of translated text embedded into different designed objects."
+    },
+    "zh-CN": {
+      "title": "翻译表面单图",
+      "description": "四张独立单图，测试导视、包装、交通安全和移动界面里的图内翻译。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "editing-workflow",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "museum-wayfinding-card",
+      "title": "Museum Wayfinding Card",
+      "image": "images/museum-wayfinding-card/image.png",
+      "meta": "images/museum-wayfinding-card/meta.json"
+    },
+    {
+      "id": "ingredient-label-sheet",
+      "title": "Ingredient Label Sheet",
+      "image": "images/ingredient-label-sheet/image.png",
+      "meta": "images/ingredient-label-sheet/meta.json"
+    },
+    {
+      "id": "transit-safety-panel",
+      "title": "Transit Safety Panel",
+      "image": "images/transit-safety-panel/image.png",
+      "meta": "images/transit-safety-panel/meta.json"
+    },
+    {
+      "id": "app-onboarding-board",
+      "title": "App Onboarding Board",
+      "image": "images/app-onboarding-board/image.png",
+      "meta": "images/app-onboarding-board/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square street-level photoreal render of a narrow alley cafe facade, visibly transformed from a simple pencil storefront sketch. Faint graphite guidelines remain along the left margin and pavement perspective lines, while the main facade is fully realistic. The lighting is soft late morning in a dense urban side street, with gentle reflections and clear facade inspection.\n\nSubject:\nA tiny cafe inserted into an old masonry alley building. The sketch defines a narrow frontage, centered glass door, two flanking windows, a shallow awning, a service hatch, upper residential windows, downspout, curb step, and compact outdoor ledge seating. The photoreal render keeps all these positions and proportions, translating them into aged brick, painted timber frames, translucent fabric awning without text, brass door hardware, stone threshold, rain pipe, and small planters that do not cover openings.\n\nImportant details:\nMaintain strict storefront fidelity: door centered where drawn, window widths unchanged, awning height fixed, upper window alignment preserved, curb and alley perspective consistent. Use real-world urban details such as uneven brick, practical drainage, safety glass, threshold height, and modest weathering. Do not expand the cafe, add readable signs, invent a second storefront, or turn the alley into a tourist plaza. The image should prove that a modest hand sketch can become a production-quality photoreal facade without layout drift.\n\nUse case:\nSketch to Photoreal Render single study 8/8, testing small-scale storefront rendering with exact sketch-to-photo placement.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no added signage, no extra doors, no moved windows, no crowded pedestrians, no fantasy lighting, no oversized plants blocking the facade.",
+  "id": "alley-cafe-facade",
+  "title": "Alley Cafe Facade",
+  "description": "An independent storefront sketch-to-render study focused on exact opening placement and urban material realism.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "editing-workflow",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sketch-to-photoreal-render/packages/single-render-studies/images/alley-cafe-facade/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image converting a narrow cafe storefront sketch into a layout-faithful photoreal facade."
+  },
+  "i18n": {
+    "en": {
+      "title": "Alley Cafe Facade",
+      "description": "An independent storefront sketch-to-render study focused on exact opening placement and urban material realism."
+    },
+    "zh-CN": {
+      "title": "巷子咖啡店立面",
+      "description": "一张独立店铺草图转写实研究,重点保持洞口位置和城市材料真实感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A narrow cafe storefront sketch becomes a photoreal alley facade with matching door and windows.",
+      "zh-CN": "狭窄咖啡店草图转为照片级巷子立面,门窗位置保持一致。"
+    }
+  }
+}

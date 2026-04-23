@@ -1,0 +1,71 @@
+{
+  "id": "series-facade-preservation",
+  "type": "series",
+  "title": "Facade Preservation",
+  "description": "A reference-dependent series: one precise architectural pencil sketch followed by three photoreal render interpretations that preserve the same building layout.",
+  "creative_direction": "Image 01 establishes a hand-drawn facade with strict horizon, massing, floor heights, window rhythm, and entry placement. Images 02-04 depend on that reference and test whether photoreal lighting, weather, and viewpoint changes can keep the sketch structure intact without inventing extra architecture.",
+  "cover_image": "images/01-pencil-facade-reference/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-pencil-facade-reference/meta.json",
+      "images/02-daylight-street-render/meta.json",
+      "images/03-rain-night-render/meta.json",
+      "images/04-interior-courtyard-render/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Facade Preservation",
+      "description": "A reference-dependent series: one precise architectural pencil sketch followed by three photoreal render interpretations that preserve the same building layout."
+    },
+    "zh-CN": {
+      "title": "立面保真系列",
+      "description": "一张精确建筑铅笔草图作为参考,后续三张照片级效果图保持同一建筑布局。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "photorealism",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-pencil-facade-reference",
+      "title": "Pencil Facade Reference",
+      "image": "images/01-pencil-facade-reference/image.png",
+      "meta": "images/01-pencil-facade-reference/meta.json"
+    },
+    {
+      "id": "02-daylight-street-render",
+      "title": "Daylight Street Render",
+      "image": "images/02-daylight-street-render/image.png",
+      "meta": "images/02-daylight-street-render/meta.json"
+    },
+    {
+      "id": "03-rain-night-render",
+      "title": "Rain Night Render",
+      "image": "images/03-rain-night-render/image.png",
+      "meta": "images/03-rain-night-render/meta.json"
+    },
+    {
+      "id": "04-interior-courtyard-render",
+      "title": "Interior Courtyard Render",
+      "image": "images/04-interior-courtyard-render/image.png",
+      "meta": "images/04-interior-courtyard-render/meta.json"
+    }
+  ]
+}

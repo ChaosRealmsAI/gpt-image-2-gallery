@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nSquare crop of the final version of the same transit campaign poster on the same review wall, straight-on and evenly lit. It should read as the polished result after several conversational edit turns, with a clean professional finish and no visible trace of the editing process.\n\nSubject:\nPreserve the original poster identity from the reference: central tram shelter, repaired empty left side, retained right pedestrian, abstract enlarged heading area, dusk environment, lower information block rhythm, route motifs, and square campaign framing. Make the final version more balanced and presentation-ready: refine spacing, clarify the hierarchy, tune contrast, and make the cool palette elegant rather than flat. The poster should look as if a designer accepted the conversational edits and produced a finished campaign proof.\n\nImportant details:\nThis image must demonstrate cumulative instruction following. The earlier requested changes should all remain visible: dusk atmosphere, no left pedestrian, larger abstract heading, cooler overall color, and preserved base composition. Rebalance only through subtle graphic design decisions: cleaner negative space, sharper icon-like abstract route marks, smoother illustration edges, and better tonal separation. Do not invent a new poster, change the topic, or add literal explanations.\n\nUse case:\nConversational Editing Workflow series study 4/8, final cumulative edit proving that multiple conversational revisions can be resolved into one coherent image.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no left figure returning, no warm midday lighting, no software UI, no before-after split, no annotation labels, no brand identity, no chaotic poster elements.",
+  "id": "04-final-balanced-campaign",
+  "title": "Final Balanced Campaign",
+  "description": "The cumulative final edit resolves the poster into a polished cool dusk campaign proof.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "identity-consistency",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/04-final-balanced-campaign/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-base-transit-poster",
+        "meta_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/meta.json",
+        "image_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the base poster as primary reference and produce the final cumulative conversational edit."
+  },
+  "i18n": {
+    "en": {
+      "title": "Final Balanced Campaign",
+      "description": "The cumulative final edit resolves the poster into a polished cool dusk campaign proof."
+    },
+    "zh-CN": {
+      "title": "最终平衡版广告",
+      "description": "累计多轮编辑后，海报成为完成度更高的冷色黄昏广告稿。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A polished final transit campaign poster retaining dusk, no left figure, larger heading, and cool color.",
+      "zh-CN": "一张完成度高的最终交通海报，保留黄昏、无左侧人物、更大标题和冷色配色。"
+    }
+  }
+}

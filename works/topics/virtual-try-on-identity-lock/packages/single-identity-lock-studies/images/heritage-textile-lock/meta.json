@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square textile-focused try-on board photographed like a museum fashion archive, with soft daylight, muted clay background, woven floor mat, and close enough detail to inspect fabric without losing full-body identity. The layout has one central source-like standing figure and six surrounding garment variations, each in the same calm pose and scale.\n\nSubject:\nA synthetic adult model with golden-brown skin, long straight dark hair parted in the center, round cheeks, straight brows, medium height, soft body, and gentle neutral expression. Clothing changes explore heritage-inspired textiles without copying any specific sacred or ceremonial dress: handwoven jacket, embroidered long coat, pleated wrap skirt, indigo resist-dye tunic, quilted vest, patterned shawl over simple trousers, and textured wool dress. The model's face, hair part, skin tone, body softness, hand shape, and stance must stay identical.\n\nImportant details:\nKeep cultural textile cues respectful and generalized: craft detail, weave, embroidery, dye, quilting, fringe, and layered cloth, with no readable symbols or official insignia. Identity lock must survive dense patterning. Preserve eye shape, nose, lips, chin, cheek volume, shoulder curve, waist location, leg length, and hair length. Patterns may change garment surfaces but must not crawl onto skin or alter facial features.\n\nUse case:\nVirtual Try-On Identity Lock single study 7/8, testing ornate textile replacement while preserving one model identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sacred symbols, no national flags, no costume caricature, no changed face, no changed body, no altered hair part, no extra people, no pattern bleeding onto skin.",
+  "id": "heritage-textile-lock",
+  "title": "Heritage Textile Lock",
+  "description": "A textile-rich try-on board preserving one model through ornate craft-inspired garments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/heritage-textile-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent textile try-on board for dense pattern and identity preservation."
+  },
+  "i18n": {
+    "en": {
+      "title": "Heritage Textile Lock",
+      "description": "A textile-rich try-on board preserving one model through ornate craft-inspired garments."
+    },
+    "zh-CN": {
+      "title": "织物工艺锁定",
+      "description": "一张织物细节丰富的试衣板,在工艺感服装变化中保持同一模特。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A textile archive-style board with one model repeated in ornate woven garments.",
+      "zh-CN": "一张织物档案风格试衣板,同一模特穿着多套精细织物服装。"
+    }
+  }
+}

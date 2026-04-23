@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference image as the locked source poster, but localize it for Arabic while keeping the square gallery crop and professional design proof quality. Preserve the same card grid, same soft gray wall, same white poster surface, same icon style, same blue, green, yellow, and graphite palette. The output should show a careful right-to-left localization pass without becoming a different poster.\n\nSubject:\nReplace only the English text with Arabic. The exact readable Arabic text must be: headline خطة الماء اليومية; card labels استيقاظ, فطور, تنقل, غداء, مساء; footer املأ قبل النوم. Keep every translated phrase in the equivalent text box, with right-to-left shaping, correct connected Arabic forms, and balanced weight. Icons may remain in their original locations from the reference, but each label must align naturally within its card and stay visually matched to the source hierarchy.\n\nImportant details:\nThis study tests whether in-image translation can handle script direction, shaping, and layout preservation together. Do not mirror the entire poster unless needed for the text flow; preserve the original visual identity, colors, card sizes, icon scale, footer strip, and headline prominence. Arabic text must look intentionally typeset, not pasted or distorted.\n\nUse case:\nIn-Image Translation series study 4/8, translating the source poster into Arabic while preserving the original poster design.\n\nConstraints:\nNo readable text except the specified Arabic strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no English leftovers, no broken Arabic joining, no random marks, no shifted cards, no changed color system.",
+  "id": "04-arabic-localized-poster",
+  "title": "Arabic Localized Poster",
+  "description": "An Arabic localization of the source poster testing right-to-left script handling and layout preservation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "editing-workflow",
+    "structured-layout",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/in-image-translation/packages/series-poster-localization/images/04-arabic-localized-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-english-source-poster",
+        "meta_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/meta.json",
+        "image_path": "works/topics/in-image-translation/packages/series-poster-localization/images/01-english-source-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source poster as the primary reference and translate only the text layer into Arabic."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arabic Localized Poster",
+      "description": "An Arabic localization of the source poster testing right-to-left script handling and layout preservation."
+    },
+    "zh-CN": {
+      "title": "阿拉伯文本地化海报",
+      "description": "将源海报本地化为阿拉伯文，测试从右到左文字和版式保持。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editing-workflow",
+      "series"
+    ],
+    "alt": {
+      "en": "The hydration infographic poster translated into Arabic with preserved visual hierarchy.",
+      "zh-CN": "同一饮水信息图海报被翻译成阿拉伯文并保持视觉层级。"
+    }
+  }
+}

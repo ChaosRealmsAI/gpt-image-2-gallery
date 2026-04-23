@@ -1,0 +1,71 @@
+{
+  "id": "series-poster-localization",
+  "type": "series",
+  "title": "Poster Localization",
+  "description": "A reference-dependent localization series: one English infographic poster followed by Japanese, Korean, and Arabic versions that preserve the same layout, spacing, icons, and typographic hierarchy.",
+  "creative_direction": "This package isolates the in-image translation workflow. Image 01 creates a clean English source poster; images 02-04 depend on it and replace only the text layer while keeping every visual container, icon, color block, and alignment decision stable.",
+  "cover_image": "images/01-english-source-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-english-source-poster/meta.json",
+      "images/02-japanese-localized-poster/meta.json",
+      "images/03-korean-localized-poster/meta.json",
+      "images/04-arabic-localized-poster/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Poster Localization",
+      "description": "One English infographic poster is localized into Japanese, Korean, and Arabic while preserving the same visual system."
+    },
+    "zh-CN": {
+      "title": "海报本地化系列",
+      "description": "一张英文信息图海报被本地化为日文、韩文和阿拉伯文，同时保持同一套视觉系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering",
+      "editing-workflow",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-english-source-poster",
+      "title": "English Source Poster",
+      "image": "images/01-english-source-poster/image.png",
+      "meta": "images/01-english-source-poster/meta.json"
+    },
+    {
+      "id": "02-japanese-localized-poster",
+      "title": "Japanese Localized Poster",
+      "image": "images/02-japanese-localized-poster/image.png",
+      "meta": "images/02-japanese-localized-poster/meta.json"
+    },
+    {
+      "id": "03-korean-localized-poster",
+      "title": "Korean Localized Poster",
+      "image": "images/03-korean-localized-poster/image.png",
+      "meta": "images/03-korean-localized-poster/meta.json"
+    },
+    {
+      "id": "04-arabic-localized-poster",
+      "title": "Arabic Localized Poster",
+      "image": "images/04-arabic-localized-poster/image.png",
+      "meta": "images/04-arabic-localized-poster/meta.json"
+    }
+  ]
+}

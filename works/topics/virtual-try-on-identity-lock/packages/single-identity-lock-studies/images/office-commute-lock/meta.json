@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square professional wardrobe try-on board inside a quiet modern office lobby with pale terrazzo flooring, glass reflections, and soft daylight from one side. Six full-body outfit states are arranged in two rows of three, with the same camera angle and a thin visual rhythm from the lobby columns. The composition is precise and useful, like a corporate styling review without written labels.\n\nSubject:\nA synthetic adult model with deep brown skin, shaved head, round face, broad nose, full lips, sturdy build, and calm direct gaze. The baseline look is a plain charcoal tee and dark trousers. The try-on variants include a navy suit, relaxed beige blazer, pleated midi skirt with shirt, structured vest and wide-leg pants, long wool coat, and smart-casual knit polo with cropped trousers. The model's face, head shape, skin tone, torso width, arm length, and stance must remain constant.\n\nImportant details:\nIdentity lock is the main visual rule. Keep the same facial geometry, scalp line, smile restraint, shoulder slope, waist position, knee height, hand shape, and shoe size in all panels. Clothing can signal different workplace dress codes, but must not make the model thinner, taller, younger, or more conventionally retouched. Maintain realistic garment seams, natural drape, office-appropriate colors, and consistent shadow direction.\n\nUse case:\nVirtual Try-On Identity Lock single study 4/8, testing workplace outfit edits while preserving face, body, and posture.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no company marks, no changed skin tone, no altered head shape, no body reshaping, no extra models, no mirror duplicate faces, no distorted tailoring, no unreadable labels.",
+  "id": "office-commute-lock",
+  "title": "Office Commute Lock",
+  "description": "A professional wardrobe try-on board that keeps one office model identity fixed.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/office-commute-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent office wardrobe try-on board for body and face lock."
+  },
+  "i18n": {
+    "en": {
+      "title": "Office Commute Lock",
+      "description": "A professional wardrobe try-on board that keeps one office model identity fixed."
+    },
+    "zh-CN": {
+      "title": "通勤职场锁定",
+      "description": "一张职业衣橱试衣板,保持同一办公室模特身份不变。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A modern office wardrobe board with one model repeated in six professional outfits.",
+      "zh-CN": "一张现代职场衣橱板,同一模特重复展示六套职业造型。"
+    }
+  }
+}

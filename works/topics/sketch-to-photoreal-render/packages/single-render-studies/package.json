@@ -1,0 +1,58 @@
+{
+  "id": "single-render-studies",
+  "type": "single",
+  "title": "Render Studies",
+  "description": "Four independent sketch-to-render studies spanning adaptive reuse, coastal architecture, museum interiors, and small urban storefronts.",
+  "creative_direction": "Each image is a self-contained proof of layout-faithful rendering: the composition shows a believable architectural sketch transformed into a photoreal scene while preserving drawn proportions, openings, circulation, and material logic.",
+  "cover_image": "images/warehouse-loft-conversion/image.png",
+  "i18n": {
+    "en": {
+      "title": "Render Studies",
+      "description": "Four independent sketch-to-render studies spanning adaptive reuse, coastal architecture, museum interiors, and small urban storefronts."
+    },
+    "zh-CN": {
+      "title": "写实渲染单图研究",
+      "description": "四张独立草图转写实研究,覆盖仓库改造、海边住宅、博物馆室内和城市小店立面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "structured-layout",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "warehouse-loft-conversion",
+      "title": "Warehouse Loft Conversion",
+      "image": "images/warehouse-loft-conversion/image.png",
+      "meta": "images/warehouse-loft-conversion/meta.json"
+    },
+    {
+      "id": "coastal-villa-render",
+      "title": "Coastal Villa Render",
+      "image": "images/coastal-villa-render/image.png",
+      "meta": "images/coastal-villa-render/meta.json"
+    },
+    {
+      "id": "museum-stair-atrium",
+      "title": "Museum Stair Atrium",
+      "image": "images/museum-stair-atrium/image.png",
+      "meta": "images/museum-stair-atrium/meta.json"
+    },
+    {
+      "id": "alley-cafe-facade",
+      "title": "Alley Cafe Facade",
+      "image": "images/alley-cafe-facade/image.png",
+      "meta": "images/alley-cafe-facade/meta.json"
+    }
+  ]
+}

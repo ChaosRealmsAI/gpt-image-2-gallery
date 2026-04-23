@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA quiet top-down studio illustration of an analyst workbench, square crop, warm desk surface, soft afternoon light, and carefully arranged paper layers. The style is polished editorial illustration with tactile paper texture, graphite lines, and restrained accent colors.\n\nSubject:\nA complete visual reasoning workspace: one central blank research card, three source cards, a small uncertainty scale, colored string connections, tiny icon stickers, and a final decision tray. The arrangement shows how messy inputs become a structured conclusion. The cards contain only non-readable glyph marks and abstract chart shapes, not real words or numbers.\n\nImportant details:\nClear information architecture, visible reasoning sequence from left to right, balanced negative space, precise alignment, and subtle handmade imperfections. Include paper clips, transparent overlays, arrows, and color-coded evidence groups. The image should look like thinking made visible without exposing literal text.\n\nUse case:\nIndependent Thinking Mode single image, testing whether a complex reasoning workflow can become a clear editorial object composition.\n\nConstraints:\nNo readable text, no real data, no company names, no logos, no watermark, no photorealistic laptop screen, no cluttered desk mess, no human hands, preserve exact 1:1 aspect ratio.",
+  "id": "analyst-workbench",
+  "title": "Analyst Workbench",
+  "description": "A structured desk composition showing messy inputs becoming a reasoned conclusion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "thinking-mode",
+    "structured-layout",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thinking-mode/packages/single-reasoning-studies/images/analyst-workbench/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Thinking Mode single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Analyst Workbench",
+      "description": "A structured desk composition showing messy inputs becoming a reasoned conclusion."
+    },
+    "zh-CN": {
+      "title": "分析师工作台",
+      "description": "把混乱输入整理成结论的结构化桌面构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "thinking-mode",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A top-down analyst workbench with cards, strings, arrows, and evidence groups.",
+      "zh-CN": "俯视的分析师工作台，上面有卡片、线索、箭头和证据分组。"
+    }
+  }
+}

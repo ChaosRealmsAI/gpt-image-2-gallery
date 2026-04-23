@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square outdoor virtual try-on sheet set in a sunlit city courtyard with pale stone walls, greenery, and late-afternoon shadows. The composition uses five full-body panels arranged like a clean editorial contact sheet, each panel shot from the same distance with the model standing on the same paving stones. Lighting changes subtly with believable outdoor bounce, but identity must remain stable.\n\nSubject:\nA synthetic adult model with fair olive skin, freckles across the nose, shoulder-length wavy auburn hair, soft square jaw, average height, and a relaxed natural stance. The first panel resembles a source look in a simple gray tee and straight jeans. The remaining panels try on a floral wrap dress, lightweight utility jacket with skirt, raincoat with boots, linen two-piece, and relaxed weekend overalls. The face, freckles, hair length, body mass, and posture rhythm must match across all panels.\n\nImportant details:\nThe challenge is preserving identity under environmental light and garment variety. Keep the same eyes, brow shape, nose, mouth, cheek freckles, hair volume, hand size, ankle shape, and shoulder width. Garments should wrap the body realistically, with correct fabric shadows and no pasted-on clothing. Outdoor shadows must not hide the face or alter skin color. Use consistent scale lines on the paving stones to make height drift visible.\n\nUse case:\nVirtual Try-On Identity Lock single study 3/8, testing outdoor-light try-on consistency without changing the model.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no signage, no changed freckles, no altered hair length, no face retouching, no body slimming, no extra people, no harsh backlight, no clothing floating off the body.",
+  "id": "outdoor-light-lock",
+  "title": "Outdoor Light Lock",
+  "description": "An outdoor try-on sheet that preserves one freckled model through changing garments and natural light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "virtual-try-on",
+    "identity-consistency",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/virtual-try-on-identity-lock/packages/single-identity-lock-studies/images/outdoor-light-lock/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent outdoor try-on board focused on lighting and identity stability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Outdoor Light Lock",
+      "description": "An outdoor try-on sheet that preserves one freckled model through changing garments and natural light."
+    },
+    "zh-CN": {
+      "title": "户外光线锁定",
+      "description": "一张户外试衣板,在自然光和服装变化中保持同一雀斑模特。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "virtual-try-on",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "An outdoor contact sheet showing one freckled model in several everyday outfits.",
+      "zh-CN": "一张户外联系表,展示同一雀斑模特穿着多套日常服装。"
+    }
+  }
+}

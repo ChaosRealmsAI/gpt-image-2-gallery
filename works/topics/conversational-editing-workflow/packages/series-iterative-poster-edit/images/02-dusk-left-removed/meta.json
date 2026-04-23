@@ -1,0 +1,69 @@
+{
+  "prompt": "Scene:\nSquare crop of the same public-transit campaign poster displayed flat on the same design review wall, now edited as if a user asked for two conversational changes: make the scene dusk and remove the person on the left. The camera remains straight-on, the poster proportions remain unchanged, and the overall design still feels like the same campaign artifact.\n\nSubject:\nPreserve the original central tram shelter, right-side pedestrian, abstract headline block, lower information blocks, route shapes, margins, and graphic hierarchy from the reference. Change only the requested semantic elements: the sky and ambient light become dusk with soft violet-blue shadows and a warm horizon glow, and the left pedestrian is gone with the surrounding pavement and poster illustration repaired naturally. The place where the left person stood should not look erased or patched.\n\nImportant details:\nThis image should demonstrate mask-free segmentation and scene repair. The edit must feel like a coherent second version of the same poster rather than a new composition. Keep the shelter geometry, crop, scale, abstract marks, middle image panel, and bottom block rhythm stable. The dusk transformation should affect illumination and mood but not introduce extra buildings, new people, or different layout ornaments.\n\nUse case:\nConversational Editing Workflow series study 2/8, showing a multi-instruction edit that changes time of day and removes one subject while preserving identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no visible eraser artifacts, no ghost figure on the left, no added UI controls, no new brand marks, no changed poster frame, no random typography.",
+  "id": "02-dusk-left-removed",
+  "title": "Dusk Left Removed",
+  "description": "The referenced poster changed to dusk with the left pedestrian removed and the layout preserved.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "editing-workflow",
+    "identity-consistency",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/02-dusk-left-removed/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-base-transit-poster",
+        "meta_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/meta.json",
+        "image_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/01-base-transit-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the base poster as primary reference and apply the dusk plus left-subject removal edit.",
+    "last_error": {
+      "reason": "❌ fetch failed",
+      "retryable": true,
+      "output_path": "works/topics/conversational-editing-workflow/packages/series-iterative-poster-edit/images/02-dusk-left-removed/image.png",
+      "checked_at": "2026-04-23T07:12:28.514Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Dusk Left Removed",
+      "description": "The referenced poster changed to dusk with the left pedestrian removed and the layout preserved."
+    },
+    "zh-CN": {
+      "title": "黄昏并移除左侧人物",
+      "description": "参考海报被改成黄昏场景，并移除左侧人物，同时保持版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "editing-workflow",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "The same transit poster at dusk with the left pedestrian removed and the right figure retained.",
+      "zh-CN": "同一张交通海报改为黄昏，左侧人物被移除，右侧人物保留。"
+    }
+  }
+}
