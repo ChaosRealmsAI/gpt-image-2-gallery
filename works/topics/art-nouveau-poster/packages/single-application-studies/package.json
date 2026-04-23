@@ -1,0 +1,83 @@
+{
+  "id": "single-application-studies",
+  "type": "single",
+  "title": "Application Studies",
+  "description": "Eight independent Art Nouveau Poster studies exploring editorial, commercial, technical, experimental, material, contextual, detail, and hero applications without reference dependencies.",
+  "creative_direction": "Independent breadth studies for Art Nouveau Poster: each image tests a different presentation mode while staying faithful to the topic's dimension, example direction, uniqueness, and acceptance criteria.",
+  "cover_image": "images/01-editorial-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Application Studies",
+      "description": "Eight independent Art Nouveau Poster studies exploring varied applications without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "独立应用研究",
+      "description": "Art Nouveau · Mucha 装饰女性 + 花卉的八张独立研究图，覆盖编辑、商业、技术、实验、材质、语境、细节与主视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-editorial-study",
+      "title": "Editorial Study",
+      "image": "images/01-editorial-study/image.png",
+      "meta": "images/01-editorial-study/meta.json"
+    },
+    {
+      "id": "02-commercial-study",
+      "title": "Commercial Study",
+      "image": "images/02-commercial-study/image.png",
+      "meta": "images/02-commercial-study/meta.json"
+    },
+    {
+      "id": "03-technical-study",
+      "title": "Technical Study",
+      "image": "images/03-technical-study/image.png",
+      "meta": "images/03-technical-study/meta.json"
+    },
+    {
+      "id": "04-experimental-study",
+      "title": "Experimental Study",
+      "image": "images/04-experimental-study/image.png",
+      "meta": "images/04-experimental-study/meta.json"
+    },
+    {
+      "id": "05-material-study",
+      "title": "Material Study",
+      "image": "images/05-material-study/image.png",
+      "meta": "images/05-material-study/meta.json"
+    },
+    {
+      "id": "06-context-study",
+      "title": "Context Study",
+      "image": "images/06-context-study/image.png",
+      "meta": "images/06-context-study/meta.json"
+    },
+    {
+      "id": "07-detail-study",
+      "title": "Detail Study",
+      "image": "images/07-detail-study/image.png",
+      "meta": "images/07-detail-study/meta.json"
+    },
+    {
+      "id": "08-hero-study",
+      "title": "Hero Study",
+      "image": "images/08-hero-study/image.png",
+      "meta": "images/08-hero-study/meta.json"
+    }
+  ]
+}

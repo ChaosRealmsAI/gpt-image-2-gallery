@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square premium key-art frame built for a reference-dependent production series. Stage the same core concept pushed into a second variation with different pacing or surface behavior for action beat comic page action beat comic page with controlled lighting, clear silhouette separation, and a camera setup that feels deliberate enough for campaign reuse. The composition should carry strong focal hierarchy, believable depth, and polished surface behavior while still staying stable enough to support downstream dependent variations.\n\nSubject:\nCenter the image on the same core concept pushed into a second variation with different pacing or surface behavior for action beat comic page action beat comic page. The result should feel like a concrete, shippable asset for a action beat comic page action beat comic page visual system, not a generic fantasy render. Build the subject with layered materials, stable anatomy or engineering logic, and enough specificity that later images can inherit the same underlying identity. Preserve the same core subject identity, silhouette logic, material language, and composition system from the reference image from the reference image while changing only what this variation needs. The viewer should immediately understand what is being preserved across the sequence and what is changing in this particular beat.\n\nImportant details:\nthe viewer should still read one connected family rather than three disconnected ideas. Make continuity explicit through repeatable shape language, proportion control, and a coherent palette system. Changes in pose, angle, mood, rarity, weather, or layout should still feel downstream of one stable source. Avoid clutter that would confuse reference use. Any interface-like blocks or graphic surfaces must remain abstract and unreadable. Keep the image polished, original, and suitable for both gallery display and production review.\n\nUse case:\naction beat comic page action beat comic page series study 3/4, focused on variation two.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no random props, no off-model shift, no broken continuity, no off-model redesign, no accidental franchise resemblance.",
+  "id": "03-variation-two",
+  "title": "Variation Two",
+  "description": "Variation Two for Action Beat Comic Page, designed as part of the theme core.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/action-beat-comic-page/packages/series-theme-core/images/03-variation-two/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/action-beat-comic-page/packages/series-theme-core/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/action-beat-comic-page/packages/series-theme-core/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must stay aligned with Reference Anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Variation Two",
+      "description": "Variation Two for Action Beat Comic Page, designed as part of the theme core."
+    },
+    "zh-CN": {
+      "title": "变体二",
+      "description": "变体二，属于 动作桥段漫画页 的 主题主线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Variation Two image from the Action Beat Comic Page package.",
+      "zh-CN": "动作桥段漫画页 中的变体二图像。"
+    }
+  }
+}

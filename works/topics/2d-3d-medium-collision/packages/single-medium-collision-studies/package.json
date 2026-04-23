@@ -1,0 +1,58 @@
+{
+  "id": "single-medium-collision-studies",
+  "type": "single",
+  "title": "Medium Collision Studies",
+  "description": "Four independent studies where a different flat 2D mark system collides with one photoreal 3D object through shadows, occlusion, refraction, or weight.",
+  "creative_direction": "Each single image changes the drawing medium and real object relationship, proving the theme beyond one character: chalk, ink, collage, and blueprint marks must stay visibly flat while the object behaves like a photographed volume.",
+  "cover_image": "images/chalk-dinosaur-egg/image.png",
+  "i18n": {
+    "en": {
+      "title": "Medium Collision Studies",
+      "description": "Four independent studies where a different flat 2D mark system collides with one photoreal 3D object through shadows, occlusion, refraction, or weight."
+    },
+    "zh-CN": {
+      "title": "媒介碰撞单图研究",
+      "description": "四张独立单图,用粉笔、墨线、拼贴和蓝图线条测试二维痕迹与真实三维物体的碰撞。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "fusion",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "chalk-dinosaur-egg",
+      "title": "Chalk Dinosaur Egg",
+      "image": "images/chalk-dinosaur-egg/image.png",
+      "meta": "images/chalk-dinosaur-egg/meta.json"
+    },
+    {
+      "id": "ink-cat-fishbowl",
+      "title": "Ink Cat Fishbowl",
+      "image": "images/ink-cat-fishbowl/image.png",
+      "meta": "images/ink-cat-fishbowl/meta.json"
+    },
+    {
+      "id": "collage-astronaut-orange",
+      "title": "Collage Astronaut Orange",
+      "image": "images/collage-astronaut-orange/image.png",
+      "meta": "images/collage-astronaut-orange/meta.json"
+    },
+    {
+      "id": "blueprint-hand-crystal",
+      "title": "Blueprint Hand Crystal",
+      "image": "images/blueprint-hand-crystal/image.png",
+      "meta": "images/blueprint-hand-crystal/meta.json"
+    }
+  ]
+}

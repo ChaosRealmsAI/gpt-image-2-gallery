@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of deep cyan blueprint paper on a flat desk, evenly lit with a cooler upper-left light. The page surface is matte, with faint fiber grain and pale construction-line marks, but there must be no readable labels or numbers. The composition should resemble a technical drawing that has been interrupted by a real mineral specimen placed exactly where the drawn hand would hold it.\n\nSubject:\nA flat white blueprint-style line drawing of a human hand spans the page, palm up, with clean contour lines, ghosted joint arcs, and simple construction circles. The hand is purely 2D linework, not shaded anatomy. Resting in the drawn palm is a photoreal clear quartz crystal cluster, angular and heavy, with sharp facets, cloudy inclusions, small chips, prismatic highlights, and a hard contact shadow.\n\nImportant details:\nThe crystal must sit above the blueprint hand and hide parts of the white linework under its base. Facets should refract fragments of the palm lines, producing broken white streaks inside the transparent mineral while nearby shadow falls across the cyan paper. Keep the technical drawing flat and diagrammatic, with no readable text, arrows, or measurement labels. The image should make the viewer instantly understand that a drawn schematic hand is physically supporting a real crystalline object.\n\nUse case:\n2D and 3D Medium Collision single study 8/8, testing diagrammatic 2D linework against transparent faceted 3D mineral physics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no labels, no numbers, no realistic flesh hand, no glowing magic crystal, no jewelry setting, no extra tools, no tilted perspective.",
+  "id": "blueprint-hand-crystal",
+  "title": "Blueprint Hand Crystal",
+  "description": "A flat white blueprint hand drawing appears to support a real quartz cluster with facet refraction and hard contact shadows.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "technical-diagram",
+    "physics-materials",
+    "optical-illusion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/single-medium-collision-studies/images/blueprint-hand-crystal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing technical linework, quartz transparency, and facet refraction."
+  },
+  "i18n": {
+    "en": {
+      "title": "Blueprint Hand Crystal",
+      "description": "A flat white blueprint hand drawing appears to support a real quartz cluster with facet refraction and hard contact shadows."
+    },
+    "zh-CN": {
+      "title": "蓝图手托水晶",
+      "description": "平面的白色蓝图手线稿托起真实石英晶簇,晶面折射线条并投下硬阴影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "physics-materials",
+      "optical-illusion",
+      "single"
+    ],
+    "alt": {
+      "en": "A cyan blueprint hand drawing supports a real transparent quartz cluster with refracted white linework inside.",
+      "zh-CN": "青色蓝图手绘线稿托着透明石英晶簇,晶体内部折射白色线条。"
+    }
+  }
+}

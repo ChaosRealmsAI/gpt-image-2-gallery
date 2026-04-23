@@ -1,0 +1,53 @@
+{
+  "id": "absurd-object-serious-photo-series",
+  "slug": "absurd-object-serious-photo-series",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Absurd Object Serious Photo Series",
+  "short_title": "Absurd Objects",
+  "description": "A Prompt Atlas theme for Absurd Object Serious Photo Series, testing photorealism, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Absurd Object Serious Photo Series",
+      "short_title": "Absurd Objects",
+      "description": "Create serious editorial-style photos of absurd objects or impossible products for high-contrast comedy."
+    },
+    "zh-CN": {
+      "title": "荒诞物件严肃摄影组",
+      "short_title": "荒诞物件",
+      "description": "做荒诞物件严肃摄影组，用严肃 editorial 方式拍不可能物件。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

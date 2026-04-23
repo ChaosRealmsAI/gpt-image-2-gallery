@@ -1,0 +1,53 @@
+{
+  "id": "awkward-social-realism-comedy-set",
+  "slug": "awkward-social-realism-comedy-set",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Awkward Social Realism Comedy Set",
+  "short_title": "Awkward Realism",
+  "description": "A Prompt Atlas theme for Awkward Social Realism Comedy Set, testing photorealism, reasoning-composition, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Awkward Social Realism Comedy Set",
+      "short_title": "Awkward Realism",
+      "description": "Build awkward social-realism scenes that feel painfully recognizable and therefore funny."
+    },
+    "zh-CN": {
+      "title": "尴尬社交现实喜剧组",
+      "short_title": "尴尬现实",
+      "description": "做尴尬社交现实喜剧组，强调“太真实所以好笑”。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square artifact and material study arranged like a high-end conservation photograph. Use soft directional light, controlled shadow falloff, and a neutral work surface so every fragment reads clearly. The image should feel intimate and scientific, but still rich enough to communicate the broader civilization through craft, wear, and material vocabulary alone.\n\nSubject:\nPresent bronze fittings, shell-encrusted fragments, marble chips, coral growth samples, and recovered ceremonial pieces on a marine archaeology platform. Arrange the pieces with disciplined spacing and believable conservation handling. Include enough variation in scale, finish, and damage state to suggest excavation reality rather than a perfectly staged luxury still life. Nothing should look modern or decorative for its own sake; every object must feel like evidence tied to the same cultural world as the main topic.\n\nImportant details:\nEmphasize tactile surfaces, honest aging, and historically grounded material behavior. Keep the city logic disciplined and archaeological even though it is speculative: ring geometry, civic axes, hydrodynamic wear, and material aging should feel plausible rather than mythic excess. Show abrasion, dust, corrosion, cracks, mineral bloom, pigment retention, or edge polish where appropriate. Keep the arrangement orderly but not sterile, as if prepared for a serious cataloging session. No readable labels, no museum placards, and no visual shortcuts that turn the study into product photography detached from archaeology.\n\nUse case:\nAtlantis Underwater Plaza single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no mermaids, no glowing crystals, no submarines, no futuristic domes, no luxury advertising gloss, no floating objects, no velvet jewelry styling, no unrelated tools.",
+  "id": "artifact-tableau",
+  "title": "Artifact Tableau",
+  "description": "An independent conservation-style artifact study tied to the material culture of Atlantis Plaza.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/atlantis-underwater-plaza/packages/single-context-studies/images/artifact-tableau/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Artifact Tableau",
+      "description": "An independent conservation-style artifact study tied to the material culture of Atlantis Plaza."
+    },
+    "zh-CN": {
+      "title": "文物台面",
+      "description": "独立展示相关器物与材料证据的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "An artifact tableau studies the material culture behind Atlantis Plaza.",
+      "zh-CN": "亚特兰蒂斯相关研究图像。"
+    }
+  }
+}

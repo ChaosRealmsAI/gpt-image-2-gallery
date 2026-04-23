@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA quiet white-cube gallery installation photographed at eye level. A polished chrome cylinder stands on a low white plinth, surrounded by scattered black-and-gold fragments printed on the table surface.\n\nSubject:\nThe scattered flat fragments look meaningless on the table, but their reflection in the curved cylinder resolves into a complete symmetrical butterfly silhouette. The real table marks should look warped and broken, while the cylinder reflection is clean and recognizable.\n\nImportant details:\nPhotorealistic gallery lighting, softbox reflections on chrome, accurate cylindrical mirror distortion, crisp black ink and gold foil fragments, clean plinth edges, subtle museum floor shadows, geometry that makes the reflection feel physically plausible.\n\nUse case:\nIndependent Prompt Atlas image testing anamorphic mirror geometry, material reflection, and optical-illusion composition.\n\nConstraints:\nNo readable text, no watermark, no logos, no human hands, no extra mirrors, no fantasy glow, no broken cylinder, preserve exact 1:1 aspect ratio.",
+  "id": "gallery-cylinder-shadow",
+  "title": "Gallery Cylinder Shadow",
+  "description": "A cylindrical mirror installation where scattered fragments resolve into a butterfly reflection.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "anamorphic",
+    "optical-illusion",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/anamorphic-perspective-art/packages/single-anamorphic-studies/images/gallery-cylinder-shadow/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gallery Cylinder Shadow",
+      "description": "A cylindrical mirror installation where scattered fragments resolve into a butterfly reflection."
+    },
+    "zh-CN": {
+      "title": "画廊圆柱反射",
+      "description": "圆柱镜装置把散乱碎片反射成蝴蝶。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "anamorphic",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A chrome cylinder reflection turns scattered table fragments into a butterfly silhouette.",
+      "zh-CN": "铬面圆柱反射把桌面碎片变成蝴蝶轮廓。"
+    }
+  }
+}

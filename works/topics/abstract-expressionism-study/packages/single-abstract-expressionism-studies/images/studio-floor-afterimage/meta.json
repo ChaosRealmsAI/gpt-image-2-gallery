@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square, gallery-ready composition with painterly surfaces, controlled negative space, and a deliberate fine-art presentation. Build the frame around evidence of process, splatter, drag, and layered correction without becoming documentary clutter. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Abstract Expressionism Study theme and should feel immediately legible as a prompt atlas theme for abstract expressionism study, testing style-transfer with gpt image 2..\n\nSubject:\nCenter the study on evidence of process, splatter, drag, and layered correction without becoming documentary clutter. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of abstract expressionism study as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by Pollock, Rothko, de Kooning, Kline, but keep the result original and specific to this study.\n\nImportant details:\nFocus on authored mark-making, hierarchy, rhythm, and a visual idea that reads immediately before the viewer inspects the brushwork. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Abstract Expressionism Study. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nAbstract Expressionism Study single study 5/8, testing style-transfer through the studio floor afterimage variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct copy of a known artwork, no comic speech bubbles, no accidental typography, no low-effort doodle energy, no muddy center, no fake museum label.",
+  "id": "studio-floor-afterimage",
+  "title": "Studio Floor Afterimage",
+  "description": "Studio Floor Afterimage interprets Abstract Expressionism Study as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/abstract-expressionism-study/packages/single-abstract-expressionism-studies/images/studio-floor-afterimage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Abstract Expressionism Study single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Floor Afterimage",
+      "description": "Studio Floor Afterimage interprets Abstract Expressionism Study as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "地面残像",
+      "description": "地面残像：围绕 抽象表现主义 · Pollock 滴画 / Rothko 色域 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "editorial-illustration",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Studio Floor Afterimage for Abstract Expressionism Study.",
+      "zh-CN": "抽象表现主义 · Pollock 滴画 / Rothko 色域主题中的地面残像图像研究。"
+    }
+  }
+}

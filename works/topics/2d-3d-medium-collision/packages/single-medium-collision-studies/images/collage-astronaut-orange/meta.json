@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of a handmade paper collage on a neutral studio table. The lighting is bright but soft, coming from the upper left, so paper edges, torn fibers, and one real object shadow are easy to read. The composition should feel like a school craft project suddenly sharing space with a high-resolution photographed object.\n\nSubject:\nA flat paper-cut astronaut floats diagonally across the page. The astronaut is built from simple white construction paper shapes, silver marker outlines, blue paper visor, taped seams, and visible scissor imperfections. It remains completely two-dimensional, like a collage glued to the page. In front of the astronaut's flat hands is a photoreal peeled orange segment cluster, glossy with juice sacs, tiny pith threads, translucent pulp, and a rounded mound shape.\n\nImportant details:\nThe orange must be the only real 3D object. It should cast a warm shadow onto the paper astronaut's suit and cover part of the flat hands, while its wet surface catches small highlights that do not appear on the paper collage. The astronaut should not become a realistic 3D figure or spacesuit. The challenge is precise layer separation: table surface, glued paper collage, real citrus above it, believable shadow and contact. Keep the scene playful but physically credible.\n\nUse case:\n2D and 3D Medium Collision single study 7/8, testing collage flatness against photoreal organic translucency and sticky material detail.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no space background, no real astronaut body, no package branding, no extra fruit, no cartoon orange, no floating shadowless object.",
+  "id": "collage-astronaut-orange",
+  "title": "Collage Astronaut Orange",
+  "description": "A flat paper-cut astronaut reaches toward a real peeled orange cluster whose wet pulp casts shadows on the collage.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "physics-materials",
+    "micro-texture",
+    "fusion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/single-medium-collision-studies/images/collage-astronaut-orange/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing collage edges, citrus micro-texture, and shadow crossing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Collage Astronaut Orange",
+      "description": "A flat paper-cut astronaut reaches toward a real peeled orange cluster whose wet pulp casts shadows on the collage."
+    },
+    "zh-CN": {
+      "title": "拼贴宇航员与橙瓣",
+      "description": "平面剪纸宇航员伸向一组真实剥开的橙瓣,湿润果肉在拼贴纸上投下阴影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "micro-texture",
+      "fusion",
+      "single"
+    ],
+    "alt": {
+      "en": "A paper-cut astronaut collage reaches toward glossy peeled orange segments casting shadows on the flat suit.",
+      "zh-CN": "剪纸宇航员拼贴伸向发亮的剥开橙瓣,橙瓣阴影落在平面宇航服上。"
+    }
+  }
+}

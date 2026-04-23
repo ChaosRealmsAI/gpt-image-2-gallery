@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of a slightly warm white sheet of drawing paper on a quiet tabletop. The camera is perfectly perpendicular to the page, with soft daylight entering from the upper left and a faint paper fiber texture visible across the surface. The palette is simple: waxy red, blue, yellow, graphite gray, and the natural off-white of the paper. The lighting must make the page feel real, but the drawn marks must remain unmistakably flat crayon.\n\nSubject:\nA childlike crayon stick figure stands near the center of the paper, drawn with uneven wax pressure, round head, simple smile, blue torso, red arms, and yellow legs. The figure holds an 8K photoreal red apple above its head. The apple is not drawn; it is a glossy real object resting on the paper plane, with small pores, a short brown stem, a green highlight, and believable volume.\n\nImportant details:\nKeep the 2D and 3D layers sharply separated. Crayon lines must sit on the paper with no thickness except wax texture, while the apple must cast a true elliptical shadow across the paper and over parts of the drawn arms. The drawn hands may touch the apple visually, but they should not become 3D fingers. Preserve the same simple crayon character for later references.\n\nUse case:\n2D and 3D Medium Collision series study 1/8, establishing the reference character, paper surface, lighting direction, and mixed-medium physics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra props, no realistic human hands, no cartoon apple, no floating object without shadow, no frame, no perspective tilt.",
+  "id": "01-paper-figure-reference",
+  "title": "Paper Figure Reference",
+  "description": "A flat crayon stick figure on real paper holds a photoreal apple that casts a physical shadow onto the drawing.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "physics-materials",
+    "fusion",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference for the crayon character and shared paper lighting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Paper Figure Reference",
+      "description": "A flat crayon stick figure on real paper holds a photoreal apple that casts a physical shadow onto the drawing."
+    },
+    "zh-CN": {
+      "title": "纸面小人基准",
+      "description": "平面的蜡笔小人在真实纸面上托起一颗实拍质感苹果,苹果向画线投下真实阴影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "physics-materials",
+      "fusion",
+      "series"
+    ],
+    "alt": {
+      "en": "A crayon stick figure on paper holds a photoreal red apple casting a real shadow across the drawing.",
+      "zh-CN": "纸上的蜡笔小人托着一颗真实红苹果,苹果阴影压过平面画线。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square overhead photograph on the same warm white drawing paper as the reference image. Keep the camera perpendicular to the page, the tabletop invisible except for a narrow paper edge hint, and the light coming from the upper left. The image should feel like a small studio test of physical contact between handmade marks and a real object, with quiet shadows and high detail rather than dramatic scenery.\n\nSubject:\nUse the same childlike crayon stick figure from the reference: round head, simple smile, blue torso, red arms, yellow legs, uneven waxy crayon strokes, and the same pose of lifting an object above the head. Replace the apple with one large photoreal transparent glass marble. The marble is spherical, heavy, clear, and polished, with distorted paper fibers, inverted crayon colors, bright highlights, and a dense contact shadow below it.\n\nImportant details:\nThe figure must remain purely flat 2D crayon, never gaining real fingers, skin, or dimensional limbs. The marble must behave as real glass on paper: it refracts and magnifies the crayon arms beneath it, bends the blue torso color at its lower edge, and creates a small caustic glow beside the shadow. Preserve the reference character identity and lighting direction while changing only the held object and its material behavior.\n\nUse case:\n2D and 3D Medium Collision series study 2/8, testing whether a referenced 2D character can support a transparent 3D material with plausible optics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra characters, no gemstone facets, no cartoon bubble, no floating marble, no painted glass outline, no change to the crayon figure identity.",
+  "id": "02-glass-marble-lift",
+  "title": "Glass Marble Lift",
+  "description": "The same crayon figure lifts a transparent glass marble that refracts the drawing and casts a dense contact shadow.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "physics-materials",
+    "material-swap",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/02-glass-marble-lift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-paper-figure-reference",
+        "meta_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/meta.json",
+        "image_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference result to preserve the crayon figure while changing the held object to glass."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Marble Lift",
+      "description": "The same crayon figure lifts a transparent glass marble that refracts the drawing and casts a dense contact shadow."
+    },
+    "zh-CN": {
+      "title": "举起玻璃弹珠",
+      "description": "同一个蜡笔小人举起透明玻璃弹珠,弹珠折射画线并投下浓重接触阴影。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "physics-materials",
+      "material-swap",
+      "series"
+    ],
+    "alt": {
+      "en": "A referenced crayon stick figure holds a transparent glass marble that bends the paper fibers and crayon colors beneath it.",
+      "zh-CN": "参考蜡笔小人托着透明玻璃弹珠,弹珠扭曲下方纸纹和蜡笔颜色。"
+    }
+  }
+}

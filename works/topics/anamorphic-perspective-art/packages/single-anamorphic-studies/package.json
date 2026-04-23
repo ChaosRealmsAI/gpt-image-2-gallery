@@ -1,0 +1,63 @@
+{
+  "id": "single-anamorphic-studies",
+  "type": "single",
+  "title": "Anamorphic Studies",
+  "description": "Three independent perspective illusion images with one readable resolved shape from a controlled camera point.",
+  "creative_direction": "Each image uses a different physical setting for an anamorphic illusion: rooftop paint, cylindrical mirror reflection, and transit-floor wayfinding.",
+  "cover_image": "images/rooftop-atlas-mark/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/rooftop-atlas-mark/meta.json",
+      "images/gallery-cylinder-shadow/meta.json",
+      "images/station-floor-arrow/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Anamorphic Studies",
+      "description": "Three independent perspective illusion images with one readable resolved shape from a controlled camera point."
+    },
+    "zh-CN": {
+      "title": "变形透视单图研究",
+      "description": "三张独立透视错觉图，从受控机位看见一个完整图形。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "anamorphic",
+      "optical-illusion"
+    ]
+  },
+  "images": [
+    {
+      "id": "rooftop-atlas-mark",
+      "title": "Rooftop Atlas Mark",
+      "image": "images/rooftop-atlas-mark/image.png",
+      "meta": "images/rooftop-atlas-mark/meta.json"
+    },
+    {
+      "id": "gallery-cylinder-shadow",
+      "title": "Gallery Cylinder Shadow",
+      "image": "images/gallery-cylinder-shadow/image.png",
+      "meta": "images/gallery-cylinder-shadow/meta.json"
+    },
+    {
+      "id": "station-floor-arrow",
+      "title": "Station Floor Arrow",
+      "image": "images/station-floor-arrow/image.png",
+      "meta": "images/station-floor-arrow/meta.json"
+    }
+  ]
+}

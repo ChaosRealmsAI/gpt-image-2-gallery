@@ -1,0 +1,52 @@
+{
+  "id": "awwwards-grade-launch-page-interface",
+  "slug": "awwwards-grade-launch-page-interface",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Awwwards-Grade Launch Page Interface",
+  "short_title": "Awwwards UI",
+  "description": "A Prompt Atlas theme for Awwwards-Grade Launch Page Interface, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Awwwards-Grade Launch Page Interface",
+      "short_title": "Awwwards UI",
+      "description": "Create launch-page interfaces with award-site ambition while remaining product-legible and commercially useful."
+    },
+    "zh-CN": {
+      "title": "Awwwards 级发布页界面",
+      "short_title": "Awwwards级",
+      "description": "做 Awwwards 级发布页界面，既有实验视觉也保持产品可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

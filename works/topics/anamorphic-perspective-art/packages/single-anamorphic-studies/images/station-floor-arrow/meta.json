@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA modern underground transit concourse photographed from a low marked viewpoint near the floor. The space has tiled floors, square columns, ceiling strips, and clean architectural lighting.\n\nSubject:\nDistorted colored bands run across the floor, columns, and one side wall. From the camera viewpoint, the bands align into one huge floating directional arrow pointing toward the platform entrance. The arrow is made entirely from surface markings, not an actual suspended object.\n\nImportant details:\nPhotorealistic interior architecture, accurate perspective alignment, matte safety-paint texture, cool white station lighting, visible viewing-point dot on the floor, realistic occlusion around columns, strong spatial depth, clean wayfinding color palette of blue, white, and yellow.\n\nUse case:\nIndependent Prompt Atlas image testing practical anamorphic wayfinding, optical geometry, and structured architectural composition.\n\nConstraints:\nNo readable text, no real transit logos, no watermark, no crowds, no floating physical arrow, no broken tile alignment, no overlaid UI graphics, preserve exact 16:9 aspect ratio.",
+  "id": "station-floor-arrow",
+  "title": "Station Floor Arrow",
+  "description": "A station concourse where distorted floor and wall markings align into one arrow.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "anamorphic",
+    "optical-illusion",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/anamorphic-perspective-art/packages/single-anamorphic-studies/images/station-floor-arrow/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Station Floor Arrow",
+      "description": "A station concourse where distorted floor and wall markings align into one arrow."
+    },
+    "zh-CN": {
+      "title": "站厅地面箭头",
+      "description": "站厅地面和墙面的变形标记从一个机位拼成箭头。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "anamorphic",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Distorted station floor and wall markings align into one large directional arrow.",
+      "zh-CN": "站厅地面与墙面的变形标记拼成一个大型方向箭头。"
+    }
+  }
+}

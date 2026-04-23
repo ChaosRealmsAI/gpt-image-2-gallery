@@ -1,0 +1,53 @@
+{
+  "id": "atlantis-underwater-plaza",
+  "slug": "atlantis-underwater-plaza",
+  "category": "illustration",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Atlantis Underwater Plaza",
+  "short_title": "Atlantis Plaza",
+  "description": "A speculative Atlantis central plaza now underwater — concentric ring walls, a fallen bronze tripod, fish schools replacing crowds, sun caustics rippling on marble.",
+  "i18n": {
+    "en": {
+      "title": "Atlantis Underwater Plaza",
+      "short_title": "Atlantis Plaza",
+      "description": "A speculative Atlantis central plaza now underwater — concentric ring walls, a fallen bronze tripod, fish schools replacing crowds, sun caustics rippling on marble."
+    },
+    "zh-CN": {
+      "title": "亚特兰蒂斯水下广场",
+      "short_title": "亚特兰蒂斯",
+      "description": "想象中的亚特兰蒂斯中央广场 · 如今沉入水下 · 同心环墙 · 倒下的青铜三足鼎 · 鱼群取代人群 · 阳光焦散在大理石上。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 440,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square 1:1 composition designed as a premium Art Nouveau Poster study. Use the cleanest, most polished version of the topic, with a slightly more dramatic but still controlled presentation. Use lighting, color, and spatial staging that make the core idea legible in one glance while still rewarding close inspection. The frame should feel display-ready rather than like a rough concept sheet, with balanced brightness, deliberate negative space, and clear separation of foreground, midground, and background layers.\n\nSubject:\nInterpret Art Nouveau Poster through 新艺术运动 · 19 世纪末. Draw from this visual direction: Alphonse Mucha 风 · 飘发女子 + 星形光环 + 百合藤蔓 + 书法 typography · 广告海报(香槟 / 火车 / 烟草). Focus on the most showcase-ready interpretation, refined into a decisive hero image for the topic. Build a primary focal subject, secondary support forms, and a coherent environmental envelope so the scene feels complete and specific. Treat this as an independent study with no continuity requirement beyond the shared theme language.\n\nImportant details:\nCarry forward the theme's distinguishing value: 装饰艺术巅峰 · 石版印刷工艺黄金年代 · 现代品牌高级感挪用. Reflect the tested capabilities through visible decisions related to text-rendering, structured-layout, style-transfer, commercial-mockup. 更强图中文字渲染与版式跟随；复杂结构化视觉和多面板构图能力. Aim for these acceptance cues: 一眼能看出这是高难度炫技主题，不像普通模板图; 核心创意和画面结构无需解释即可成立. Keep the image controlled, elegant, and intentionally composed, with no accidental filler elements.\n\nUse case:\nArt Nouveau Poster single study 8/8, delivering the strongest finished single-image showcase.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no muddy focal point, no duplicate main subject, no collage seams, no broken margin geometry, no accidental extra text blocks.",
+  "id": "08-hero-study",
+  "title": "Hero Study",
+  "description": "Hero Study for Art Nouveau Poster, focusing on delivering the strongest finished single-image showcase.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/art-nouveau-poster/packages/single-application-studies/images/08-hero-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Study",
+      "description": "Hero Study for Art Nouveau Poster, focusing on delivering the strongest finished single-image showcase."
+    },
+    "zh-CN": {
+      "title": "主视觉研究",
+      "description": "Art Nouveau · Mucha 装饰女性 + 花卉的主视觉研究图，重点是delivering the strongest finished single-image showcase。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Hero Study image for Art Nouveau Poster.",
+      "zh-CN": "Art Nouveau · Mucha 装饰女性 + 花卉的主视觉研究图像。"
+    }
+  }
+}

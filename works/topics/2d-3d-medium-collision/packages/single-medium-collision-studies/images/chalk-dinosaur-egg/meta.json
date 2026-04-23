@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of a dark slate sidewalk panel after light rain, bright enough to reveal chalk dust, stone grain, and tiny wet speckles. The camera is straight down, with cool daylight from the upper left and a few shallow puddle reflections near the edges. The composition should feel like a real street surface where a child's flat chalk drawing has been interrupted by a physically present object.\n\nSubject:\nA large white and green chalk drawing of a simple dinosaur skeleton sprawls across the slate. The dinosaur is clearly flat: broken chalk texture, powdery edges, rubbed joints, and simple two-dimensional bones. At the center of its rib cage sits a photoreal speckled dinosaur egg, about the size of a grapefruit, with matte shell texture, tiny cracks, damp grit on its base, and natural rounded volume.\n\nImportant details:\nThe egg must be the only 3D object and must cast a believable oval shadow across the chalk ribs. It should cover and interrupt several chalk lines, proving it sits above the drawing, while nearby chalk dust gathers around its contact point. The slate surface, chalk, wet speckles, and shell must stay materially distinct. Avoid making the dinosaur itself dimensional; the spectacle comes from a flat extinct creature appearing to hold a real egg.\n\nUse case:\n2D and 3D Medium Collision single study 5/8, testing chalk drawing, wet stone, contact shadow, and one real object occupying the drawn anatomy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no footprints, no extra toys, no 3D dinosaur bones, no illustrated egg, no nest, no frame, no dramatic low angle.",
+  "id": "chalk-dinosaur-egg",
+  "title": "Chalk Dinosaur Egg",
+  "description": "A flat chalk dinosaur skeleton on wet slate is interrupted by a real speckled egg casting a shadow over the drawn ribs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "physics-materials",
+    "fusion",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/single-medium-collision-studies/images/chalk-dinosaur-egg/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing chalk, wet stone, shell texture, and contact shadow."
+  },
+  "i18n": {
+    "en": {
+      "title": "Chalk Dinosaur Egg",
+      "description": "A flat chalk dinosaur skeleton on wet slate is interrupted by a real speckled egg casting a shadow over the drawn ribs."
+    },
+    "zh-CN": {
+      "title": "粉笔恐龙蛋",
+      "description": "湿石板上的平面粉笔恐龙骨架被一枚真实斑点蛋打断,蛋影压过画出的肋骨。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "fusion",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A chalk dinosaur skeleton on wet slate with a real speckled egg sitting in its rib cage.",
+      "zh-CN": "湿石板上的粉笔恐龙骨架中间放着一枚真实斑点蛋。"
+    }
+  }
+}

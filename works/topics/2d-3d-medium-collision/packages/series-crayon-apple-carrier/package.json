@@ -1,0 +1,71 @@
+{
+  "id": "series-crayon-apple-carrier",
+  "type": "series",
+  "title": "Crayon Object Carrier",
+  "description": "A reference-dependent series where one childlike crayon stick figure stays consistent while carrying different photoreal objects on the same paper surface.",
+  "creative_direction": "Image 01 establishes the flat crayon character, paper texture, and lighting direction. Images 02-04 keep that handmade 2D actor and replace the held object with physically plausible 3D materials that cast real shadows onto the paper.",
+  "cover_image": "images/01-paper-figure-reference/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-paper-figure-reference/meta.json",
+      "images/02-glass-marble-lift/meta.json",
+      "images/03-metal-cube-balance/meta.json",
+      "images/04-water-balloon-strain/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Crayon Object Carrier",
+      "description": "A reference-dependent series where one childlike crayon stick figure stays consistent while carrying different photoreal objects on the same paper surface."
+    },
+    "zh-CN": {
+      "title": "蜡笔搬运者",
+      "description": "一组依赖参考图的系列: 同一个儿童蜡笔小人保持一致,在纸面上托举不同的真实三维物体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "physics-materials",
+      "fusion"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-paper-figure-reference",
+      "title": "Paper Figure Reference",
+      "image": "images/01-paper-figure-reference/image.png",
+      "meta": "images/01-paper-figure-reference/meta.json"
+    },
+    {
+      "id": "02-glass-marble-lift",
+      "title": "Glass Marble Lift",
+      "image": "images/02-glass-marble-lift/image.png",
+      "meta": "images/02-glass-marble-lift/meta.json"
+    },
+    {
+      "id": "03-metal-cube-balance",
+      "title": "Metal Cube Balance",
+      "image": "images/03-metal-cube-balance/image.png",
+      "meta": "images/03-metal-cube-balance/meta.json"
+    },
+    {
+      "id": "04-water-balloon-strain",
+      "title": "Water Balloon Strain",
+      "image": "images/04-water-balloon-strain/image.png",
+      "meta": "images/04-water-balloon-strain/meta.json"
+    }
+  ]
+}

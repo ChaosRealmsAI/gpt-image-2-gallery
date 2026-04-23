@@ -1,0 +1,55 @@
+{
+  "id": "2d-3d-medium-collision",
+  "slug": "2d-3d-medium-collision",
+  "category": "illustration",
+  "style": [
+    "mixed-media",
+    "3d-render"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "2D and 3D Medium Collision",
+  "short_title": "2D 3D Mix",
+  "description": "A Prompt Atlas theme for images where flat handmade drawing and photoreal 3D objects share one physical scene with credible shadows, occlusion, and material boundaries.",
+  "i18n": {
+    "en": {
+      "title": "2D and 3D Medium Collision",
+      "short_title": "2D 3D Mix",
+      "description": "A Prompt Atlas theme for images where flat handmade drawing and photoreal 3D objects share one physical scene with credible shadows, occlusion, and material boundaries."
+    },
+    "zh-CN": {
+      "title": "2D 手绘 × 3D 实拍碰撞",
+      "short_title": "二维三维",
+      "description": "测试二维手绘层与三维实拍物体在同一画面中共存,重点考察阴影、遮挡、材质和渲染层隔离。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "physics-materials",
+      "fusion",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-crayon-apple-carrier",
+      "type": "series",
+      "title": "Crayon Object Carrier",
+      "path": "packages/series-crayon-apple-carrier/package.json"
+    },
+    {
+      "id": "single-medium-collision-studies",
+      "type": "single",
+      "title": "Medium Collision Studies",
+      "path": "packages/single-medium-collision-studies/package.json"
+    }
+  ]
+}

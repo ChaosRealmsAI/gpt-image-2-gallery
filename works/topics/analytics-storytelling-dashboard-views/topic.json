@@ -1,0 +1,52 @@
+{
+  "id": "analytics-storytelling-dashboard-views",
+  "slug": "analytics-storytelling-dashboard-views",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Analytics Storytelling Dashboard Views",
+  "short_title": "Analytics Views",
+  "description": "A Prompt Atlas theme for Analytics Storytelling Dashboard Views, testing structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Analytics Storytelling Dashboard Views",
+      "short_title": "Analytics Views",
+      "description": "Build analytics dashboards that feel insight-driven rather than raw-widget heavy, with strong narrative emphasis."
+    },
+    "zh-CN": {
+      "title": "分析型故事 dashboard 视图",
+      "short_title": "分析视图",
+      "description": "做能讲故事的 analytics dashboard，避免 widget 堆砌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "art-nouveau-poster",
+  "slug": "art-nouveau-poster",
+  "category": "illustration",
+  "style": [
+    "painterly",
+    "handdrawn"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Art Nouveau Poster",
+  "short_title": "Art Nouveau",
+  "description": "A Prompt Atlas theme for Art Nouveau Poster, testing text-rendering, structured-layout, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Art Nouveau Poster",
+      "short_title": "Art Nouveau",
+      "description": "A Prompt Atlas theme for Art Nouveau Poster, testing text-rendering, structured-layout, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Art Nouveau · Mucha 装饰女性 + 花卉",
+      "short_title": "新艺术",
+      "description": "Art Nouveau · Mucha 装饰女性 + 花卉：Alphonse Mucha 风 · 飘发女子 + 星形光环 + 百合藤蔓 + 书法 typography · 广告海报(香槟 / 火车 / 烟草)"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-application-studies",
+      "type": "single",
+      "title": "Application Studies",
+      "path": "packages/single-application-studies/package.json"
+    }
+  ]
+}

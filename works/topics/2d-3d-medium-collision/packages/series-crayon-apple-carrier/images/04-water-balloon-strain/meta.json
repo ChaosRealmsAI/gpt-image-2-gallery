@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of the same warm off-white drawing paper and controlled upper-left daylight used in the reference image. The camera remains perpendicular, the background remains minimal, and the paper fibers remain visible enough to prove the object is sitting in the same real environment. The mood is playful but physically precise, with restrained color and no surrounding clutter.\n\nSubject:\nUse the same childlike crayon stick figure from the reference, preserving its round head, simple smile, blue torso, red arms, yellow legs, waxy uneven line quality, size, and central lifted pose. Replace the apple with a translucent blue water balloon drooping between the drawn hands. The balloon is a photoreal 3D object with stretched latex, a tied knot, small trapped air bubbles, glossy highlights, and visible water mass pulling it downward.\n\nImportant details:\nThe balloon must demonstrate gravity and material softness while the figure stays flat. Its lower curve should sag over the crayon arms, slightly occluding them, and its shadow should be soft-edged with a faint blue tint on the paper. The crayon hands may appear to touch the balloon, but they must remain simple lines drawn underneath the real object. Keep the original lighting, paper texture, and character identity; do not redraw the figure in a different style.\n\nUse case:\n2D and 3D Medium Collision series study 4/8, testing a consistent 2D reference character against a soft transparent 3D object with believable weight.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no splash, no burst balloon, no extra toys, no realistic child body, no floating object, no change to the reference crayon figure.",
+  "id": "04-water-balloon-strain",
+  "title": "Water Balloon Strain",
+  "description": "The same crayon figure holds a sagging translucent water balloon whose weight, blue shadow, and occlusion stay physically credible.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "physics-materials",
+    "material-swap",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/04-water-balloon-strain/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-paper-figure-reference",
+        "meta_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/meta.json",
+        "image_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference result to preserve the crayon figure while changing the held object to a soft water-filled material."
+  },
+  "i18n": {
+    "en": {
+      "title": "Water Balloon Strain",
+      "description": "The same crayon figure holds a sagging translucent water balloon whose weight, blue shadow, and occlusion stay physically credible."
+    },
+    "zh-CN": {
+      "title": "承重水气球",
+      "description": "同一个蜡笔小人托住下坠的半透明水气球,重量、蓝色阴影和遮挡保持可信。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "physics-materials",
+      "material-swap",
+      "series"
+    ],
+    "alt": {
+      "en": "A crayon figure holds a sagging blue water balloon that casts a soft tinted shadow across the paper.",
+      "zh-CN": "蜡笔小人托着下垂的蓝色水气球,柔和蓝影落在纸面上。"
+    }
+  }
+}

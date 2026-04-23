@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA high rooftop terrace photographed from a single marked viewing point at golden hour, looking down across concrete slabs, railings, stair walls, air ducts, and painted floor zones. The camera is exactly at the intended illusion viewpoint.\n\nSubject:\nA large anamorphic floor-and-wall painting is stretched across many surfaces so that from this camera angle it resolves into the clean readable word ATLAS inside a simple circular compass mark. Outside the resolved viewpoint, the painted pieces are visibly distorted across different planes.\n\nImportant details:\nPhotorealistic architectural photography, wide-angle lens, accurate perspective convergence, painted matte pigments on concrete, subtle shadows proving the surfaces are real, one small brass viewing marker on the terrace floor, crisp geometry, strong but believable optical illusion.\n\nUse case:\nIndependent Prompt Atlas image testing optical-illusion geometry, readable text placement, and perspective reasoning in one generated image.\n\nConstraints:\nOnly readable text should be ATLAS inside the illusion, no real brand logos, no watermark, no extra signage, no drone view, no impossible floating shapes, preserve exact 16:9 aspect ratio.",
+  "id": "rooftop-atlas-mark",
+  "title": "Rooftop Atlas Mark",
+  "description": "A rooftop anamorphic painting that resolves into ATLAS from one viewing point.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "16:9",
+  "tags": [
+    "anamorphic",
+    "optical-illusion",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/anamorphic-perspective-art/packages/single-anamorphic-studies/images/rooftop-atlas-mark/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Atlas Mark",
+      "description": "A rooftop anamorphic painting that resolves into ATLAS from one viewing point."
+    },
+    "zh-CN": {
+      "title": "屋顶 ATLAS 标记",
+      "description": "屋顶变形透视涂装，从单一视点拼成 ATLAS。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "anamorphic",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A rooftop anamorphic painting resolving into the word ATLAS from one camera point.",
+      "zh-CN": "屋顶变形透视涂装从一个机位拼成 ATLAS。"
+    }
+  }
+}

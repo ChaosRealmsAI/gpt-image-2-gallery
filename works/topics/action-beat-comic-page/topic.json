@@ -1,0 +1,54 @@
+{
+  "id": "action-beat-comic-page",
+  "slug": "action-beat-comic-page",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Action Beat Comic Page",
+  "short_title": "Action Page",
+  "description": "Design a dynamic action page with readable motion arcs, impact moments, and panel choreography.",
+  "i18n": {
+    "en": {
+      "title": "Action Beat Comic Page",
+      "short_title": "Action Page",
+      "description": "Design a dynamic action page with readable motion arcs, impact moments, and panel choreography."
+    },
+    "zh-CN": {
+      "title": "动作桥段漫画页",
+      "short_title": "动作页",
+      "description": "做动作戏漫画页，重点是动作弧线和格子调度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1031,
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-theme-core",
+      "type": "series",
+      "title": "Theme Core",
+      "path": "packages/series-theme-core/package.json"
+    },
+    {
+      "id": "single-theme-extensions",
+      "type": "single",
+      "title": "Theme Extensions",
+      "path": "packages/single-theme-extensions/package.json"
+    }
+  ]
+}

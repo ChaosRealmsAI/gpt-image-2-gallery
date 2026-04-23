@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square top-down studio photograph of the same sheet of off-white drawing paper, using the same upper-left soft daylight and calm tabletop setting established by the reference. The page should show subtle dents, fibers, and wax drag marks, but it must remain uncluttered. The composition is centered and still, like a controlled research sample for mixed rendering layers.\n\nSubject:\nUse the same childlike crayon stick figure from the reference image, preserving the round head, simple smile, blue torso, red arms, yellow legs, scale, and lifted-arm pose. Replace the apple with a small brushed stainless-steel cube balanced above the drawn hands. The cube is photoreal, heavy, sharply edged, and reflective, with slightly rounded machined bevels, cool gray highlights, and distorted reflections of the warm paper and colored crayon strokes.\n\nImportant details:\nThe 3D cube must visibly weigh on the paper-world illusion without turning the crayon figure into a sculpture. Its shadow should be darker and more geometric than the apple shadow, crossing the red crayon arms and part of the face. The cube should occlude portions of the drawn hands cleanly, showing exact layer ordering: paper first, crayon marks second, real cube third, shadow over both. Keep the character identity and camera position stable from the reference.\n\nUse case:\n2D and 3D Medium Collision series study 3/8, testing consistent 2D character identity against a reflective hard-surface 3D material.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra objects, no toy block colors, no engraved markings, no soft pillow cube, no realistic arm anatomy, no change to the reference crayon figure.",
+  "id": "03-metal-cube-balance",
+  "title": "Metal Cube Balance",
+  "description": "The referenced crayon figure balances a reflective metal cube with crisp occlusion and a geometric shadow over the drawing.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "physics-materials",
+    "material-swap",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/03-metal-cube-balance/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-paper-figure-reference",
+        "meta_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/meta.json",
+        "image_path": "works/topics/2d-3d-medium-collision/packages/series-crayon-apple-carrier/images/01-paper-figure-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference result to preserve the crayon figure while changing the held object to reflective metal."
+  },
+  "i18n": {
+    "en": {
+      "title": "Metal Cube Balance",
+      "description": "The referenced crayon figure balances a reflective metal cube with crisp occlusion and a geometric shadow over the drawing."
+    },
+    "zh-CN": {
+      "title": "平衡金属方块",
+      "description": "参考蜡笔小人托住反光金属方块,方块以清晰遮挡和几何阴影压在画线上。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "physics-materials",
+      "material-swap",
+      "series"
+    ],
+    "alt": {
+      "en": "A flat crayon figure supports a brushed metal cube whose crisp shadow and reflection sit above the paper drawing.",
+      "zh-CN": "平面蜡笔小人托住拉丝金属方块,清晰阴影和反光覆盖纸面画线。"
+    }
+  }
+}
