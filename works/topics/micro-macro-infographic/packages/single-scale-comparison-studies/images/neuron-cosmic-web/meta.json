@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square dark-background infographic with an elegant diagonal comparison layout. The upper-left region shows a microscope-like neural network; the lower-right region shows a cosmic web simulation aesthetic. Between them, translucent overlay lines and small non-readable symbols trace matching branching patterns. Lighting is dramatic but controlled, with cyan, violet, and warm white accents against deep charcoal.\n\nSubject:\nThe micro side shows neurons suspended in a shallow biological gel: cell bodies, dendrite branches, axon-like cables, synapse dots, and subtle membrane texture. The macro side shows galaxy filaments and voids: bright clusters connected by long luminous threads, with dark empty spaces between them. The central bridge should make the analogy visible by aligning neuron cell bodies with galaxy clusters and dendrites with cosmic filaments.\n\nImportant details:\nThe image must not claim the two systems are scientifically identical; it should present a visual analogy through structured composition. Use consistent branch spacing, matching glow intensity, and clean connector arcs. Include small magnifier circles that crop details from each side, but keep their contents non-textual. The layout should be readable as a high-end science magazine cover: balanced negative space, no clutter, clear hierarchy, and plausible microscopic and astronomical textures.\n\nUse case:\nMicro-Macro Infographic single study 2/8, comparing neural branching and the cosmic web as a reasoning-composition challenge.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no literal brain icon, no astrology, no fake equations, no real patient data, no random neon spaghetti, no overcrowded labels, no claim-style typography.",
+  "id": "neuron-cosmic-web",
+  "title": "Neuron Cosmic Web",
+  "description": "A dark science infographic comparing neuron branches with the cosmic web through matched luminous filaments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "reasoning-composition",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-macro-infographic/packages/single-scale-comparison-studies/images/neuron-cosmic-web/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent micro-macro infographic with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Neuron Cosmic Web",
+      "description": "A dark science infographic comparing neuron branches with the cosmic web through matched luminous filaments."
+    },
+    "zh-CN": {
+      "title": "神经元宇宙网",
+      "description": "一张暗色科学信息图，用对应的发光丝状结构比较神经元分枝与宇宙网。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A square infographic linking neuron branches to cosmic web filaments with clean connector arcs.",
+      "zh-CN": "一张方形信息图，用清晰连接弧线把神经元分枝与宇宙网丝状结构对应起来。"
+    }
+  }
+}

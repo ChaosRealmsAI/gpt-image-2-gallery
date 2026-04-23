@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nArrange a square staged diagram board with a clear top-to-bottom or circular sequence, using shape and spacing to imply order without any text. Background tones should remain restrained so that anatomy and stage transitions stay easy to read. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow mature adults producing or releasing propagules into water, air, or a substrate relevant to the next host stage. Each stage should reveal a meaningful morphological change tied to dispersal success. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. Sequence must be visually explicit. The board should explain timing, transformation, and release strategy through repeated forms, not through labels. Maintain medical-naturalist seriousness throughout. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable numbering, no comic panels, no fantasy magic burst, no gore, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "reproductive-release-diagram",
+  "title": "Reproductive Release Diagram",
+  "description": "A staged board shows how mature adults release propagules into the next environment.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/reproductive-release-diagram/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reproductive Release Diagram",
+      "description": "A staged board shows how mature adults release propagules into the next environment."
+    },
+    "zh-CN": {
+      "title": "繁殖释放图",
+      "description": "分阶段图板展示成体如何把繁殖体释放到下一环境。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A staged poster showing reproductive release into the next environment.",
+      "zh-CN": "展示繁殖体释放过程的分阶段海报。"
+    }
+  }
+}

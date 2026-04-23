@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nArrange the image as a clean array on a muted neutral background, with slight drop shadows or tonal depth that keep the specimens dimensional but not theatrical. The square should read like a comparative microscopy board prepared for publication. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nPresent several spear-rayed shell types whose extended spines create different defensive and drifting strategies. Each specimen should be clearly distinct while remaining part of one lineage. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Maintain structural rigor in spine thickness, node repetition, and shell porosity. Decorative beauty is welcome, but it must arise from credible skeleton growth and ecological logic, not arbitrary filigree. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no ornamental wallpaper repeat, no gemstones, no readable grid numbers, no shiny chrome, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "lattice-spear-array",
+  "title": "Lattice Spear Array",
+  "description": "A structured array of spear-rayed radiolarian shells with subtle tonal variation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/lattice-spear-array/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Lattice Spear Array",
+      "description": "A structured array of spear-rayed radiolarian shells with subtle tonal variation."
+    },
+    "zh-CN": {
+      "title": "矛阵骨格",
+      "description": "一组具矛状辐射的放射虫骨架，以规整阵列呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An array of spear-rayed radiolarian skeletons.",
+      "zh-CN": "矛状辐射放射虫骨架的阵列图。"
+    }
+  }
+}

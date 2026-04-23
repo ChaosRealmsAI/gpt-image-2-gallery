@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a microscopy-style scene with a dim blue water background, where marine-snow particles and several delicate radiolarian clusters drift together. The square frame should feel like a live microscopic field rather than a museum plate, but still maintain composition discipline. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on how fragile skeletal forms travel with organic debris and planktonic aggregates. Some specimens can be partially occluded by marine snow to reinforce the sense of active suspension. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Keep the scene subtle and scientific. The contrast between drifting particulate matter and precise silica architecture should create the beauty, not dramatic lighting or fantasy effects. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no space-scene resemblance, no starfield abstraction, no neon glows, no readable overlays, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "abyssal-snow-cluster",
+  "title": "Abyssal Snow Cluster",
+  "description": "Suspended marine-snow clusters carry fragile radiolarian skeletons in dim blue microscopy light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/abyssal-snow-cluster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Abyssal Snow Cluster",
+      "description": "Suspended marine-snow clusters carry fragile radiolarian skeletons in dim blue microscopy light."
+    },
+    "zh-CN": {
+      "title": "深海雪团簇",
+      "description": "暗蓝显微视野中，海雪团簇携带脆弱放射虫骨架漂浮。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Radiolarian clusters suspended in dim marine-snow blue.",
+      "zh-CN": "暗蓝海雪中的放射虫团簇。"
+    }
+  }
+}

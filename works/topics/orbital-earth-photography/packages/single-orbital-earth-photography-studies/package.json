@@ -1,0 +1,82 @@
+{
+  "id": "single-orbital-earth-photography-studies",
+  "type": "single",
+  "title": "Orbital Earth Photography Studies",
+  "description": "Eight independent photography studies for Orbital Earth Photography, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Orbital Earth Photography, testing photorealism, world-knowledge, style-transfer, editing-workflow with GPT Image 2. through distinct studies that emphasize photorealism, scientific-realism, frontier-creative-composition while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/hero-shot/image.png",
+  "i18n": {
+    "en": {
+      "title": "Orbital Earth Photography Studies",
+      "description": "Eight independent photography studies for Orbital Earth Photography, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "太空俯视单图研究",
+      "description": "围绕 太空俯视 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "hero-shot",
+      "title": "Hero Shot",
+      "image": "images/hero-shot/image.png",
+      "meta": "images/hero-shot/meta.json"
+    },
+    {
+      "id": "macro-study",
+      "title": "Macro Study",
+      "image": "images/macro-study/image.png",
+      "meta": "images/macro-study/meta.json"
+    },
+    {
+      "id": "side-light-study",
+      "title": "Side Light Study",
+      "image": "images/side-light-study/image.png",
+      "meta": "images/side-light-study/meta.json"
+    },
+    {
+      "id": "motion-moment",
+      "title": "Motion Moment",
+      "image": "images/motion-moment/image.png",
+      "meta": "images/motion-moment/meta.json"
+    },
+    {
+      "id": "low-light-atlas",
+      "title": "Low-Light Atlas",
+      "image": "images/low-light-atlas/image.png",
+      "meta": "images/low-light-atlas/meta.json"
+    },
+    {
+      "id": "specimen-table",
+      "title": "Specimen Table",
+      "image": "images/specimen-table/image.png",
+      "meta": "images/specimen-table/meta.json"
+    },
+    {
+      "id": "atmospheric-view",
+      "title": "Atmospheric View",
+      "image": "images/atmospheric-view/image.png",
+      "meta": "images/atmospheric-view/meta.json"
+    },
+    {
+      "id": "signature-frame",
+      "title": "Signature Frame",
+      "image": "images/signature-frame/image.png",
+      "meta": "images/signature-frame/meta.json"
+    }
+  ]
+}

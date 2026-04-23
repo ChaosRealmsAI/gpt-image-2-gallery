@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square science-editorial infographic plate with a restrained black background, soft rim lighting, and a precise two-panel layout. The left half is a photorealistic microscope view; the right half is a deep-space telescope-style view. A narrow central bridge contains thin curved comparison lines, small abstract glyph marks, and transparent scale rings, but no readable text. The image should feel like a premium museum exhibit graphic rather than a textbook page.\n\nSubject:\nLeft panel: a luminous cell culture seen through a microscope, with translucent membranes, branching cytoskeleton fibers, glowing nuclei, and tiny vesicles suspended in fluid. Right panel: a spiral galaxy and surrounding star field with dust lanes, bright core, and faint satellite clusters. The two halves should echo one another: nuclei align with galaxy cores, cytoskeleton threads rhyme with spiral arms, and vesicles rhyme with star clusters.\n\nImportant details:\nUse a clean vertical split that still feels unified through matching composition, color, and annotation geometry. Add subtle scale ticks, circles, and connector arcs that point from micro features to macro analogues without becoming literal labels. Keep the science-inspired materials plausible: wet cellular translucency on the left, vacuum-dark cosmic depth on the right. The comparison must be instantly legible at thumbnail size and rich under close inspection.\n\nUse case:\nMicro-Macro Infographic single study 1/8, comparing cellular structure and galactic structure through shared visual organization.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real data claims, no fake labels, no astrology symbols, no medical diagnosis, no chaotic collage, no split-screen mismatch, no overbright neon wash.",
+  "id": "cell-galaxy-echo",
+  "title": "Cell Galaxy Echo",
+  "description": "A split science infographic linking luminous cell structures with a spiral galaxy through matching rings and filaments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "scientific-realism",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-macro-infographic/packages/single-scale-comparison-studies/images/cell-galaxy-echo/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent micro-macro infographic with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cell Galaxy Echo",
+      "description": "A split science infographic linking luminous cell structures with a spiral galaxy through matching rings and filaments."
+    },
+    "zh-CN": {
+      "title": "细胞星系回声",
+      "description": "一张分屏科学信息图，用相似环形和纤维结构连接发光细胞与旋涡星系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "scientific-realism",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A square split infographic comparing glowing cells on the left with a spiral galaxy on the right.",
+      "zh-CN": "一张方形分屏信息图，左侧发光细胞与右侧旋涡星系形成对比。"
+    }
+  }
+}

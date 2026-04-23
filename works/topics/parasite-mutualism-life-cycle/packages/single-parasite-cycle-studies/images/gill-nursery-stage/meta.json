@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose the poster around a cutaway view of a gill chamber on a pale clinical-natural history background. Supporting panels should radiate around the main cutaway in a clear but label-free layout, using shape and alignment to communicate order. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow larvae lodged within protected gill folds, feeding lightly on host fluids while secreting compounds that reduce inflammation and improve oxygen exchange enough to keep the host alive. Include magnified insets of attachment organs and secretory tissue. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. The paradox of harm and benefit should be visible. The organism is parasitic, yet it must not destroy the host during this phase. Use anatomy and panel relationships to make that balance clear without text. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no body-horror imagery, no blood emphasis, no readable notation, no glossy pharma ad style, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "gill-nursery-stage",
+  "title": "Gill Nursery Stage",
+  "description": "A board studies how larvae mature within a gill chamber while modulating host immunity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/gill-nursery-stage/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Gill Nursery Stage",
+      "description": "A board studies how larvae mature within a gill chamber while modulating host immunity."
+    },
+    "zh-CN": {
+      "title": "鳃室育养阶段",
+      "description": "研究幼体如何在鳃室内成长并调节宿主免疫的图板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A poster board showing a larval nursery stage inside gills.",
+      "zh-CN": "展示鳃室幼体育养阶段的海报图板。"
+    }
+  }
+}

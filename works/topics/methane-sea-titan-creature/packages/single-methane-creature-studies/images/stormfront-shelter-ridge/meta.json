@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nShow the approach of a hydrocarbon storm front over dark sea and shore, with the ridge creating a partial shelter in the foreground. The orange atmosphere should turn denser and more opaque toward the storm while remaining readable in the calmer foreground. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nDepict the organism lowering its profile, sealing surface vents, and using terrain to reduce exposure. The scene should capture environmental strategy rather than fear or action spectacle. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. Wind direction, wave texture, and body posture must align. This is a cold-weather survival image where geology and anatomy work together against a hostile atmospheric event. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no hurricane disaster scene, no lightning hero pose, no Earth rainstorm look, no fire or sparks, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "stormfront-shelter-ridge",
+  "title": "Stormfront Shelter Ridge",
+  "description": "A storm front drives the creature to shelter behind a ridge above the methane sea.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/stormfront-shelter-ridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Stormfront Shelter Ridge",
+      "description": "A storm front drives the creature to shelter behind a ridge above the methane sea."
+    },
+    "zh-CN": {
+      "title": "风暴前沿避护脊",
+      "description": "风暴来临，生物躲到甲烷海上方山脊背风侧。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A shoreline creature sheltering from a storm front behind a ridge.",
+      "zh-CN": "甲烷海岸生物在山脊后避风。"
+    }
+  }
+}

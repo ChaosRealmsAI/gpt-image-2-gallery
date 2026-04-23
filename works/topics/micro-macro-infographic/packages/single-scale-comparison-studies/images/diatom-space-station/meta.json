@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square high-contrast science concept infographic with a deep navy background and precise white line overlays. The left panel shows a microscopic diatom shell; the right panel shows a large orbital space station ring. A central transparent blueprint layer connects structural ribs, holes, and radial geometry. The layout feels like a museum wall graphic combining microscopy, engineering, and cosmic scale.\n\nSubject:\nLeft panel: a diatom silica shell under microscope lighting, with delicate glass lattice, radial pores, ribbed geometry, and slight iridescent edges. Right panel: a speculative but believable circular space station with habitat modules, truss ribs, docking arms, solar panels, and small lights against Earth glow. The comparison highlights how lightweight perforated structures can be strong: diatom lattice pores echo station modules and truss openings.\n\nImportant details:\nMake both sides materially distinct: translucent biological glass on the left, engineered metal and solar panels on the right. Use clean radial alignment so the viewer sees the shared geometry immediately. Include small blueprint circles, ghosted cross-sections, and connector arcs, but no readable text. The station should not copy any real spacecraft; it should feel plausible and original. Keep the composition structured and visually spectacular without becoming a sci-fi poster.\n\nUse case:\nMicro-Macro Infographic single study 8/8, comparing diatom shell architecture with orbital station engineering through radial structural logic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real agency marks, no real mission names, no fake labels, no weaponized spacecraft, no chaotic blueprint clutter, no cartoon microscope style, no generic starfield-only background.",
+  "id": "diatom-space-station",
+  "title": "Diatom Space Station",
+  "description": "A blueprint-like science infographic comparing diatom silica shell geometry with a radial orbital space station.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "scientific-realism",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-macro-infographic/packages/single-scale-comparison-studies/images/diatom-space-station/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent micro-macro infographic with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Diatom Space Station",
+      "description": "A blueprint-like science infographic comparing diatom silica shell geometry with a radial orbital space station."
+    },
+    "zh-CN": {
+      "title": "硅藻太空站",
+      "description": "一张蓝图感科学信息图，把硅藻玻璃壳几何与环形轨道太空站进行对比。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "scientific-realism",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A square blueprint-style infographic comparing a diatom shell with a radial orbital space station.",
+      "zh-CN": "一张方形蓝图风信息图，把硅藻壳与环形轨道太空站进行对比。"
+    }
+  }
+}

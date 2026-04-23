@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square SEM microscopy plate with luminous grayscale relief and a very subtle cyan-gray false-color tint applied to highlights. The specimen is centered, rotated slightly off-axis, and surrounded by dark sample-mount negative space. A lower-left scale bar shape and a bottom instrument strip with tiny unreadable interface marks provide scientific structure.\n\nSubject:\nA diatom frustule, like a microscopic glass shell, showing an intricate porous lattice. The oval shell has radial ribs, honeycomb perforations, raised rim, fractured window edges, and layered silica thickness. One side is partly broken to reveal inner chambers and secondary perforation patterns. Fine dust specks and small shell fragments rest nearby, emphasizing scale.\n\nImportant details:\nThe image must balance beauty with SEM credibility. The diatom should not become jewelry, architecture, or a mandala; it should remain a biological silica shell with natural asymmetry, brittle edges, and uneven pores. Preserve detailed microtexture across the lattice: rim ridges, tiny holes, broken panels, granular substrate, and topographic shadows. The bottom information strip should support the plate layout but contain no readable text or numbers.\n\nUse case:\nSEM Microscopy single study 6/8, testing porous biological lattice rendering with scientific realism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no decorative mandala, no stained glass colors, no perfect vector geometry, no underwater scene, no labels, no glowing fantasy shell, no smooth plastic surface.",
+  "id": "diatom-glass-lattice",
+  "title": "Diatom Glass Lattice",
+  "description": "A SEM-style plate of a porous diatom shell with brittle silica lattice detail.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/diatom-glass-lattice/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent SEM plate for porous diatom lattice detail."
+  },
+  "i18n": {
+    "en": {
+      "title": "Diatom Glass Lattice",
+      "description": "A SEM-style plate of a porous diatom shell with brittle silica lattice detail."
+    },
+    "zh-CN": {
+      "title": "硅藻玻璃晶格",
+      "description": "一张 SEM 风格硅藻壳图版,展示多孔且脆性的二氧化硅晶格。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A SEM-style close-up of a porous diatom shell with broken lattice windows.",
+      "zh-CN": "一张 SEM 风格硅藻壳特写,可见破损的多孔晶格窗。"
+    }
+  }
+}

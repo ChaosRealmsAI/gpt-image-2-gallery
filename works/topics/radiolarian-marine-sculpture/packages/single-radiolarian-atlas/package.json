@@ -1,0 +1,89 @@
+{
+  "id": "single-radiolarian-atlas",
+  "type": "single",
+  "title": "Radiolarian Atlas Plates",
+  "description": "Nine marine atlas plates examining speculative radiolarian forms with microscopy precision.",
+  "creative_direction": "Every image should behave like a finished scientific plate or microscopy board: cream or dark neutral grounds, exquisite silica geometry, controlled spacing, and no readable labels, while still feeling biologically alive.",
+  "cover_image": "images/radial-crown-plate/image.png",
+  "i18n": {
+    "en": {
+      "title": "Radiolarian Atlas Plates",
+      "description": "Nine marine atlas plates examining speculative radiolarian forms with microscopy precision."
+    },
+    "zh-CN": {
+      "title": "放射虫图版",
+      "description": "九张海洋图版，以显微级精度研究推测性放射虫形态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "radial-crown-plate",
+      "title": "Radial Crown Plate",
+      "image": "images/radial-crown-plate/image.png",
+      "meta": "images/radial-crown-plate/meta.json"
+    },
+    {
+      "id": "lattice-spear-array",
+      "title": "Lattice Spear Array",
+      "image": "images/lattice-spear-array/image.png",
+      "meta": "images/lattice-spear-array/meta.json"
+    },
+    {
+      "id": "colonial-drift-grid",
+      "title": "Colonial Drift Grid",
+      "image": "images/colonial-drift-grid/image.png",
+      "meta": "images/colonial-drift-grid/meta.json"
+    },
+    {
+      "id": "silica-spine-rosette",
+      "title": "Silica Spine Rosette",
+      "image": "images/silica-spine-rosette/image.png",
+      "meta": "images/silica-spine-rosette/meta.json"
+    },
+    {
+      "id": "predator-cage-form",
+      "title": "Predator Cage Form",
+      "image": "images/predator-cage-form/image.png",
+      "meta": "images/predator-cage-form/meta.json"
+    },
+    {
+      "id": "reproductive-bloom-sheet",
+      "title": "Reproductive Bloom Sheet",
+      "image": "images/reproductive-bloom-sheet/image.png",
+      "meta": "images/reproductive-bloom-sheet/meta.json"
+    },
+    {
+      "id": "abyssal-snow-cluster",
+      "title": "Abyssal Snow Cluster",
+      "image": "images/abyssal-snow-cluster/image.png",
+      "meta": "images/abyssal-snow-cluster/meta.json"
+    },
+    {
+      "id": "comparative-morphology-board",
+      "title": "Comparative Morphology Board",
+      "image": "images/comparative-morphology-board/image.png",
+      "meta": "images/comparative-morphology-board/meta.json"
+    },
+    {
+      "id": "museum-atlas-cover",
+      "title": "Museum Atlas Cover",
+      "image": "images/museum-atlas-cover/image.png",
+      "meta": "images/museum-atlas-cover/meta.json"
+    }
+  ]
+}

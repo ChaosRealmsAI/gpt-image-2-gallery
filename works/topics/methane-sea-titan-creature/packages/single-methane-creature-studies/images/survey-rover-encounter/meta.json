@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame the scene from low on the shore with a small distant rover at the edge of the composition and the organism dominating the middle ground. The atmosphere should remain orange, cold, and dusty, with the methane sea forming a dark horizon line. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nUse the rover only as a scale cue while keeping the wildlife central. The creature should look curious or indifferent, not aggressive, and its size and texture should become easier to judge because of the nearby machine. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. The encounter should feel like field observation, not conflict. Preserve the shoreline ecology and cryogenic realism while using the rover sparingly to anchor human understanding of scale. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no weaponized rover, no battle scene, no readable interface text, no human astronaut in frame, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "survey-rover-encounter",
+  "title": "Survey Rover Encounter",
+  "description": "A small survey rover provides scale as it observes the shoreline organism from a distance.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/survey-rover-encounter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Survey Rover Encounter",
+      "description": "A small survey rover provides scale as it observes the shoreline organism from a distance."
+    },
+    "zh-CN": {
+      "title": "勘测车遭遇",
+      "description": "一台小型勘测车远距离观测海岸生物，以提供尺度参照。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A survey rover observing a large methane-shore organism for scale.",
+      "zh-CN": "勘测车远距离观测大型甲烷海岸生物。"
+    }
+  }
+}

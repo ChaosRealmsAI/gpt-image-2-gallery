@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic science infographic with a soft studio-gray background and a balanced triptych structure: microscopic bone lattice on the left, central transition column, coral reef architecture on the right. The layout uses thin white dividers, translucent callout circles, and small non-readable glyph marks. Lighting is sculptural and tactile, emphasizing porous material surfaces.\n\nSubject:\nLeft panel: trabecular bone seen at high magnification, with ivory struts, porous cavities, subtle mineral grain, and realistic shadowing. Right panel: a coral reef wall photographed underwater, with branching coral, porous limestone, small fish silhouettes, and blue water depth. The central transition column blends the two structures as matched load-bearing lattices, showing how voids and struts create strength and habitat.\n\nImportant details:\nThe comparison should be material-driven, not merely decorative. Match pore scale, branching angles, and light direction across both panels. The bone must not look like dead coral, and the coral must remain alive and underwater; the bridge is about architecture and porosity. Use small arrows and magnifier circles to point at analogous voids, arches, and struts without text. Keep the composition calm, premium, and scientifically plausible.\n\nUse case:\nMicro-Macro Infographic single study 4/8, comparing trabecular bone structure with coral reef architecture and porous load paths.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no medical diagnosis, no dead reef imagery, no fake labels, no chaotic aquarium scene, no low-detail sponge texture, no overlaid paragraphs.",
+  "id": "bone-coral-architecture",
+  "title": "Bone Coral Architecture",
+  "description": "A tactile triptych comparing trabecular bone lattice with coral reef architecture through shared porous structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-macro-infographic/packages/single-scale-comparison-studies/images/bone-coral-architecture/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent micro-macro infographic with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bone Coral Architecture",
+      "description": "A tactile triptych comparing trabecular bone lattice with coral reef architecture through shared porous structure."
+    },
+    "zh-CN": {
+      "title": "骨骼珊瑚结构",
+      "description": "一张有触感的三联信息图，通过共同的多孔结构比较松质骨晶格与珊瑚礁建筑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A square triptych comparing porous bone lattice on the left with coral reef architecture on the right.",
+      "zh-CN": "一张方形三联图，左侧多孔骨骼晶格与右侧珊瑚礁结构进行对比。"
+    }
+  }
+}

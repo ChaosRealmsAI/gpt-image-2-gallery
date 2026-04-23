@@ -1,0 +1,48 @@
+{
+  "id": "sem-microscopy",
+  "slug": "sem-microscopy",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "SEM Microscopy",
+  "short_title": "SEM Microscopy",
+  "description": "A Prompt Atlas theme for realistic scanning electron microscope image plates with scientific texture, grayscale or false-color rendering, and structured instrument-layout cues.",
+  "i18n": {
+    "en": {
+      "title": "SEM Microscopy",
+      "short_title": "SEM Microscopy",
+      "description": "A Prompt Atlas theme for realistic scanning electron microscope image plates with scientific texture, grayscale or false-color rendering, and structured instrument-layout cues."
+    },
+    "zh-CN": {
+      "title": "SEM 电子显微镜显微摄影",
+      "short_title": "电镜摄影",
+      "description": "测试真实扫描电镜质感、灰阶或假彩色显微摄影、比例尺区域和仪器信息栏式结构化版式。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "scientific-realism",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-sem-specimen-plates",
+      "type": "single",
+      "title": "SEM Specimen Plates",
+      "path": "packages/single-sem-specimen-plates/package.json"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the image along a gently rippled methane shoreline where incoming dark waves leave bands of frosted residue and organic slush. The atmosphere should stay dim and orange, with faint wind texture visible across the liquid surface. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the organism probing deposited material with chemical sensors, unfolding feeding membranes, or rasping nutrient films from the shore. Its posture should communicate energy thrift and careful adaptation to a cold, slow world. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. The feeding behavior must fit the setting. Shoreline chemistry, sediment texture, and body mechanics should all reinforce a non-water ecosystem driven by hydrocarbon transport and sparse resources. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no beach-surf imagery, no fish-copy feeding pose, no bright foam, no terrestrial seaweed, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "methane-wave-foraging",
+  "title": "Methane Wave Foraging",
+  "description": "The creature forages where methane waves deposit nutrient-rich shore material.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/methane-wave-foraging/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Methane Wave Foraging",
+      "description": "The creature forages where methane waves deposit nutrient-rich shore material."
+    },
+    "zh-CN": {
+      "title": "甲烷浪觅食",
+      "description": "生物在甲烷浪带来的富营养岸带沉积中觅食。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A cryogenic shoreline creature foraging in methane wave deposits.",
+      "zh-CN": "生物在甲烷浪沉积带中觅食。"
+    }
+  }
+}

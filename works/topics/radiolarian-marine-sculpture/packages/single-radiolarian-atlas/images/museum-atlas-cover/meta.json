@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFinish with a refined atlas-cover composition that gathers several iconic radiolarian forms into one square image on a warm archival ground. The balance should feel curatorial and elegant, like the frontispiece of a prestigious marine microfauna volume. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nArrange a dominant centerpiece specimen with supporting forms around it, maintaining depth and relation without turning them into cutout stickers. The composition should synthesize the package while preserving scientific seriousness. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Beauty should come from precision, spacing, and silica geometry. The image must feel like a real scientific-art object, not a decorative poster using microscopic motifs as ornament. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable title text, no fashion-editorial styling, no abstract mandala cover, no flat icon treatment, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "museum-atlas-cover",
+  "title": "Museum Atlas Cover",
+  "description": "A cover-like synthesis image assembles iconic radiolarian forms into one refined atlas composition.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/museum-atlas-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Atlas Cover",
+      "description": "A cover-like synthesis image assembles iconic radiolarian forms into one refined atlas composition."
+    },
+    "zh-CN": {
+      "title": "博物图鉴封面",
+      "description": "以封面式构图把代表性放射虫形态整合进一张精炼图鉴图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An atlas-cover composition of iconic radiolarian forms.",
+      "zh-CN": "代表性放射虫形态组成的图鉴封面式画面。"
+    }
+  }
+}

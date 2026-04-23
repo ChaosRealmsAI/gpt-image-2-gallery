@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square scanning electron microscope plate, high magnification, cool monochrome grayscale with subtle silver contrast and crisp depth-of-field falloff. The specimen fills most of the frame, with a narrow bottom instrument-style strip containing a clean lower-left scale bar shape, calibration ticks, and tiny non-readable interface marks. Lighting feels like real SEM topographic shading, not studio photography.\n\nSubject:\nA butterfly wing surface seen as an overlapping field of microscopic scales. Each scale is a long flattened petal with ribbed longitudinal ridges, tiny cross struts, broken edges, and fine dust-like surface texture. The scales interlock in staggered rows like roof shingles, revealing depth gaps, occasional torn tips, and a few darker shadowed crevices between layers.\n\nImportant details:\nThe image must look like authentic SEM output: grayscale electron-imaging contrast, high-frequency microtexture, shallow relief shadows, clean scientific framing, no painterly brushwork. Preserve ordered biological geometry while allowing natural imperfections. The lower-left scale bar should be visible as a simple bar and tick structure, but no readable letters or numbers should appear. The bottom strip should feel like microscope capture metadata without legible text.\n\nUse case:\nSEM Microscopy single study 1/8, testing realistic grayscale microstructure for butterfly wing scales with structured instrument layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no colorful illustration, no fantasy particles, no normal camera lens look, no flat wallpaper pattern, no giant specimen context, no oversized labels, no fake handwritten annotations.",
+  "id": "butterfly-wing-scales",
+  "title": "Butterfly Wing Scales",
+  "description": "A grayscale SEM-style plate showing overlapping butterfly wing scales with ribbed microtexture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/butterfly-wing-scales/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent SEM-style grayscale specimen plate with non-readable instrument strip."
+  },
+  "i18n": {
+    "en": {
+      "title": "Butterfly Wing Scales",
+      "description": "A grayscale SEM-style plate showing overlapping butterfly wing scales with ribbed microtexture."
+    },
+    "zh-CN": {
+      "title": "蝴蝶翅膀鳞粉",
+      "description": "一张灰阶 SEM 风格图版,展示重叠的蝴蝶翅鳞和细密肋纹。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A grayscale SEM-style view of overlapping ribbed butterfly wing scales.",
+      "zh-CN": "一张灰阶 SEM 风格图,展示层叠且带肋纹的蝴蝶翅鳞。"
+    }
+  }
+}

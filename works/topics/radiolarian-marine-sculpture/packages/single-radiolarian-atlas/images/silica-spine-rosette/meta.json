@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose a polished plate around one dominant rosette specimen surrounded by a few smaller relatives on a softly toned background. The overall mood should be archival, delicate, and exact, like a flagship plate from a marine microfauna atlas. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nCenter on dense spoke patterns, nested shells, and radiating spines that imply anti-predator architecture and drag control in the water column. The smaller companion forms should help the viewer compare how rosette geometry can diversify. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Emphasize the silica material itself: translucent, brittle, porous, and mathematically ordered but biologically grown. Avoid floral sentimentality and keep the structures unmistakably microscopic and marine. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no flower petals, no mandala abstraction, no polished metal, no readable captions, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "silica-spine-rosette",
+  "title": "Silica Spine Rosette",
+  "description": "A rosette-form plate centers on highly spined radiolarian defensive shells.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/silica-spine-rosette/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Silica Spine Rosette",
+      "description": "A rosette-form plate centers on highly spined radiolarian defensive shells."
+    },
+    "zh-CN": {
+      "title": "硅刺花环",
+      "description": "以花环式结构为核心的高刺防御放射虫图版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A plate of highly spined rosette-form radiolarians.",
+      "zh-CN": "高刺花环状放射虫骨架图版。"
+    }
+  }
+}

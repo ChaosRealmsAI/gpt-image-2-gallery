@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square SEM-style microscopy plate of a frozen crystalline specimen, rendered in crisp grayscale with a faint cool blue false-color wash only in the deepest shadows. The image is composed like a scientific journal figure: central specimen, dark vacuum-like background, lower-left scale bar form, and a bottom instrument-information strip made of small unreadable marks and calibration blocks.\n\nSubject:\nA single snowflake-like hexagonal ice crystal fragment under high magnification. The structure shows six-fold symmetry, terraced plates, branching dendrites, stepped fracture lines, tiny pits, sublimation scars, and sharp crystalline edges. Some branches are broken, revealing layered thickness and granular frost residue. The crystal sits on a dark sample mount with sparse ice debris.\n\nImportant details:\nThe specimen must look physically crystalline, not like a decorative paper snowflake. Preserve hexagonal geometry while adding SEM realism: edge shadows, etched terraces, brittle fractures, rough sublimated surfaces, and nonuniform thickness. Keep the palette almost monochrome, with scientific false-color restraint. The layout should communicate instrument capture through the scale bar and bottom strip without legible text. Avoid magical glow or macro camera reflections.\n\nUse case:\nSEM Microscopy single study 4/8, testing snow crystal geometry and SEM-style structured scientific layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy glow, no holiday ornament style, no glass jewelry look, no liquid droplets, no readable labels, no colorful background, no symmetrical clip-art perfection.",
+  "id": "snowflake-hex-crystal",
+  "title": "Snowflake Hex Crystal",
+  "description": "A near-monochrome SEM-style plate of a hexagonal snow crystal with terraces and fractures.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/snowflake-hex-crystal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent SEM-style crystalline specimen plate with subtle false color."
+  },
+  "i18n": {
+    "en": {
+      "title": "Snowflake Hex Crystal",
+      "description": "A near-monochrome SEM-style plate of a hexagonal snow crystal with terraces and fractures."
+    },
+    "zh-CN": {
+      "title": "雪花六角晶体",
+      "description": "一张近单色 SEM 风格六角雪晶图版,包含台阶和断裂细节。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A SEM-style view of a hexagonal snow crystal with fractured dendrites.",
+      "zh-CN": "一张 SEM 风格六角雪晶图,可见断裂枝晶。"
+    }
+  }
+}

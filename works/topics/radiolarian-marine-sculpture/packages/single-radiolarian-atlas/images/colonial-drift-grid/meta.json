@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild a square grid composition where each cell-like zone contains a different colonial radiolarian cluster suspended in subtle water-toned space. The board should remain highly organized while still suggesting microscopic life in fluid rather than dead specimens on paper. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow linked chains, clustered spheres, and netted colonies whose shared silica structures suggest cooperation in buoyancy or feeding. Variations between colonies should be legible through architecture, not through random color shifts. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Use spacing, translucency, and scale with scientific restraint. The clusters should feel delicate and plausible, with connective elements that look grown and secreted, not welded or digitally constructed. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no infographic labels, no abstract data-art look, no bright candy palette, no decorative symmetry for its own sake, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "colonial-drift-grid",
+  "title": "Colonial Drift Grid",
+  "description": "A grid-like board studies colonial radiolarian clusters suspended together.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/colonial-drift-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Colonial Drift Grid",
+      "description": "A grid-like board studies colonial radiolarian clusters suspended together."
+    },
+    "zh-CN": {
+      "title": "群体漂移网格",
+      "description": "以网格方式研究群体漂移的放射虫聚落。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A grid board of colonial radiolarian clusters.",
+      "zh-CN": "群体漂移放射虫聚落的网格研究板。"
+    }
+  }
+}

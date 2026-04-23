@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild a highly legible square comparison board on cream or pale gray, with specimens arranged so the eye can move from simple shells to complex lattices. The layout should feel editorially clean but still unmistakably scientific. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nInclude at least four distinct skeleton strategies: rosette, cage, colonial, and spear-rayed forms. Each should occupy a clear zone of the board and feel related through material but different in function. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Clarity is the goal. Preserve fine pores, translucency, and repeating structural motifs while preventing the board from becoming crowded or purely ornamental. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no text labels, no UI cards, no decorative wallpaper rhythm, no metallic highlights, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "comparative-morphology-board",
+  "title": "Comparative Morphology Board",
+  "description": "A morphology board organizes several skeletal strategies for direct comparison.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/comparative-morphology-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Comparative Morphology Board",
+      "description": "A morphology board organizes several skeletal strategies for direct comparison."
+    },
+    "zh-CN": {
+      "title": "比较形态板",
+      "description": "以比较板形式组织多种骨架策略进行对照。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A morphology board comparing several radiolarian skeletal strategies.",
+      "zh-CN": "比较多种放射虫骨架策略的形态板。"
+    }
+  }
+}

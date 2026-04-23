@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a botanical-lifecycle poster on a bright but restrained field-guide background, with clean diagram zones arranged around a central adult-stage illustration. The composition should feel educational, elegant, and easy to parse without any written text. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the adult organism interacting with flowering or spore-bearing host structures in a way that benefits reproduction while also feeding itself. Include close views of carrying surfaces, release structures, and how the host tolerates or welcomes the visitor at this stage. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. The key idea is role reversal: the same lineage that harmed one host earlier now provides ecological service to another. Make this shift visible through anatomy, posture, and board sequencing. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no butterfly copy, no decorative infographic icons, no readable arrows, no whimsical children-book style, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "pollen-broker-symbiosis",
+  "title": "Pollen Broker Symbiosis",
+  "description": "An adult stage becomes temporarily mutualistic by moving pollen or spores between host plants.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/pollen-broker-symbiosis/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Pollen Broker Symbiosis",
+      "description": "An adult stage becomes temporarily mutualistic by moving pollen or spores between host plants."
+    },
+    "zh-CN": {
+      "title": "花粉中介共生",
+      "description": "成体阶段暂时转为共生，负责在宿主植物间搬运花粉或孢子。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A poster showing a mutualistic adult stage moving pollen between hosts.",
+      "zh-CN": "展示成体共生阶段在宿主间搬运花粉的海报。"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "micro-macro-infographic",
+  "slug": "micro-macro-infographic",
+  "category": "science",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials"
+  ],
+  "title": "Micro-Macro Infographic",
+  "short_title": "Micro Macro",
+  "description": "A Prompt Atlas theme for scientific micro-macro comparison infographics, testing structured layout, photorealism, material physics, and reasoning composition.",
+  "i18n": {
+    "en": {
+      "title": "Micro-Macro Infographic",
+      "short_title": "Micro Macro",
+      "description": "A Prompt Atlas theme for scientific micro-macro comparison infographics, testing structured layout, photorealism, material physics, and reasoning composition."
+    },
+    "zh-CN": {
+      "title": "微观 × 宏观对比信息图",
+      "short_title": "微宏对比",
+      "description": "以显微结构和宏观世界的相似纹理为核心，测试科普信息图、写实材质和跨尺度构图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 87,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "scientific-realism",
+      "photorealism",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-scale-comparison-studies",
+      "type": "single",
+      "title": "Scale Comparison Studies",
+      "path": "packages/single-scale-comparison-studies/package.json"
+    }
+  ]
+}

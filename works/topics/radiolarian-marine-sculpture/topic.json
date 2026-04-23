@@ -1,0 +1,50 @@
+{
+  "id": "radiolarian-marine-sculpture",
+  "slug": "radiolarian-marine-sculpture",
+  "category": "science",
+  "style": [
+    "handdrawn",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Radiolarian Marine Sculpture Atlas",
+  "short_title": "Radiolarian Atlas",
+  "description": "Build microscopy-informed marine plates in which real and speculative radiolarian skeletons become rigorous ornamental architecture, balancing scientific precision with elegant atlas composition.",
+  "i18n": {
+    "en": {
+      "title": "Radiolarian Marine Sculpture Atlas",
+      "short_title": "Radiolarian Atlas",
+      "description": "Build microscopy-informed marine plates in which real and speculative radiolarian skeletons become rigorous ornamental architecture, balancing scientific precision with elegant atlas composition."
+    },
+    "zh-CN": {
+      "title": "放射虫海洋雕塑图鉴",
+      "short_title": "放射虫图鉴",
+      "description": "以显微学精度和图鉴式构图描绘真实与推测性的放射虫骨架，让海洋微体呈现为严谨的雕塑结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 816,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-radiolarian-atlas",
+      "type": "single",
+      "title": "Radiolarian Atlas Plates",
+      "path": "packages/single-radiolarian-atlas/package.json"
+    }
+  ]
+}

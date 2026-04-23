@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square bright editorial infographic on warm off-white background, split into two coordinated panels with a shared geometric grid. The left panel is a macro-microscope view of a leaf surface; the right panel is an aerial city plan at dawn. Fine gray alignment guides, small color-coded dots, and blank caption bars organize the page without readable text. The overall mood is clean, ecological, and architectural.\n\nSubject:\nLeft panel: a high-detail leaf epidermis with green cells, stomata openings, waxy cuticle texture, and subtle veins visible beneath the surface. Right panel: a city grid with parks, courtyards, streets, rooftops, and small plazas seen from directly above. The stomata openings correspond visually to courtyards and transit hubs, while leaf veins rhyme with green corridors and roads.\n\nImportant details:\nMake the comparison precise and elegant. Use matching top-down viewpoints on both sides, the same scale of repeated oval and polygon forms, and thin connector lines that cross a central gutter. The left side should feel biologically plausible, with moist cellular texture and organic variation. The right side should feel like a real planned city, not an abstract circuit board. Use muted green, slate, cream, and sunrise gold; keep the infographic readable without literal labels.\n\nUse case:\nMicro-Macro Infographic single study 3/8, comparing leaf stomata patterns with city-grid planning through structured visual analogy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real city names, no map labels, no fake street text, no oversimplified leaf cartoon, no circuit-board confusion, no cluttered annotation layer.",
+  "id": "stomata-city-grid",
+  "title": "Stomata City Grid",
+  "description": "A clean top-down infographic comparing leaf stomata and veins with plazas, courtyards, and streets in a city grid.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "scientific-realism",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-macro-infographic/packages/single-scale-comparison-studies/images/stomata-city-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent micro-macro infographic with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Stomata City Grid",
+      "description": "A clean top-down infographic comparing leaf stomata and veins with plazas, courtyards, and streets in a city grid."
+    },
+    "zh-CN": {
+      "title": "气孔城市网格",
+      "description": "一张干净的俯视信息图，把叶片气孔和叶脉与城市广场、庭院和街道网格对比。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "scientific-realism",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A square top-down comparison of leaf stomata on the left and an urban grid on the right.",
+      "zh-CN": "一张方形俯视对比图，左侧叶片气孔与右侧城市网格相互呼应。"
+    }
+  }
+}

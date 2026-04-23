@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose a side-lit environmental portrait in thick haze so that only the front half of the animal and nearby shoreline are clearly visible. Weak orange light should graze the body, revealing specialized sensing ridges, cavities, or antenna-like structures. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nCenter on the sensory organs that help the creature navigate murky hydrocarbon seas and haze-heavy air. The organs should appear integrated into the body plan rather than tacked on as dramatic appendages. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. Sensory anatomy should be plausible for low light, dense atmosphere, and cold liquid. Show structural support, protective coatings, and a believable relation to the creature’s movement and foraging behavior. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no insect antenna copy, no sci-fi radar dish, no monster-face closeup, no glowing cyberpunk accents, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "sonar-organ-display",
+  "title": "Sonar Organ Display",
+  "description": "A side-lit study isolates the organism’s sensing organs against heavy Titan haze.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/sonar-organ-display/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Sonar Organ Display",
+      "description": "A side-lit study isolates the organism’s sensing organs against heavy Titan haze."
+    },
+    "zh-CN": {
+      "title": "回声器官展示",
+      "description": "侧光研究图在厚重土卫六雾中突出该生物的感知器官。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A side-lit study of sensing organs on a Titan shoreline organism.",
+      "zh-CN": "展示土卫六海岸生物感知器官的侧光研究图。"
+    }
+  }
+}

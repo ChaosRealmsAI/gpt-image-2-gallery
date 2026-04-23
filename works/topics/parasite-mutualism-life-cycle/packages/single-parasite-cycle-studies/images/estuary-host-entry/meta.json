@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square educational poster with one dominant central illustration and supporting lifecycle panels arranged around it. Use a restrained medical-natural history palette on a pale background so the board feels publishable and clear without readable labels. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on the first host-entry stage in an estuarine animal, showing free-swimming larvae, attachment anatomy, and the initial tissue interface. The board should combine environmental context with close-up anatomy, making the host relationship understandable at a glance. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. Sequence and credibility matter. Show how the organism locates the host, penetrates or adheres, and begins a parasitic phase using believable structures. Keep the host anatomy medically grounded and the parasite alien but plausible. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no horror poster vibe, no readable arrows or captions, no cartoon simplification, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "estuary-host-entry",
+  "title": "Estuary Host Entry",
+  "description": "A poster board shows the aquatic entry stage as larvae invade the first host species.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/estuary-host-entry/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Estuary Host Entry",
+      "description": "A poster board shows the aquatic entry stage as larvae invade the first host species."
+    },
+    "zh-CN": {
+      "title": "河口宿主侵入",
+      "description": "海报板展示幼体侵入第一宿主的水生入口阶段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A lifecycle poster showing larval host entry in an estuary.",
+      "zh-CN": "展示幼体侵入宿主的河口生命周期海报。"
+    }
+  }
+}

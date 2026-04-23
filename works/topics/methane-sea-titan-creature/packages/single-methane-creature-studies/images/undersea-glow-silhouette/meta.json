@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nTake the viewpoint just at or below the liquid surface so the square frame peers through dark translucent methane toward a submerged body near shore. Distortion, suspended particles, and dim shoreline light should make the image quiet and uncanny rather than cinematic. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the animal as a soft internal glow silhouette with enough visible structure to read fins, circulation paths, and body posture. The undersea setting should clarify how the organism uses both liquid and air margins during its lifecycle. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. Liquid methane should not behave like clear tropical water. Keep it dense, dark, and slightly obscuring, with lighting and color filtered by hydrocarbon conditions rather than Earth-ocean assumptions. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no scuba feel, no blue water, no shark silhouette trope, no neon underglow, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "undersea-glow-silhouette",
+  "title": "Undersea Glow Silhouette",
+  "description": "Viewed through liquid methane, the creature glows softly beneath the surface near shore.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/undersea-glow-silhouette/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Undersea Glow Silhouette",
+      "description": "Viewed through liquid methane, the creature glows softly beneath the surface near shore."
+    },
+    "zh-CN": {
+      "title": "海下发光剪影",
+      "description": "透过液态甲烷看去，生物在近岸水下发出柔和微光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A soft glowing silhouette beneath liquid methane near shore.",
+      "zh-CN": "近岸液态甲烷下柔和发光的生物剪影。"
+    }
+  }
+}

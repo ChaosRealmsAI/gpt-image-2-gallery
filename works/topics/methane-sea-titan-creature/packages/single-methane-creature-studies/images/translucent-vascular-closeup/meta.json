@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nMove close to the body so the square frame is dominated by translucent tissue, frost haze, and dim shoreline context. Internal channels should glow softly through the body with amber and pale blue variations, visible only because the atmosphere remains so dark and diffuse. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on the circulation system, structural ribs, and skin layers that keep hydrocarbon fluids moving at cryogenic temperature. The anatomy should feel alien but knowable, with clear distinctions between support tissue, circulation pathways, and sensory surfaces. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. Material realism matters most here. The body should look neither gelatinous nor glass sculpture; instead it should read as a cold-adapted biological membrane with depth, opacity changes, and localized luminescence tied to chemistry or warmth. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no medical x-ray look, no neon tubing, no jellyfish copy, no glossy product-shot finish, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "translucent-vascular-closeup",
+  "title": "Translucent Vascular Closeup",
+  "description": "A close study reveals glowing internal circulation through cryogenic tissue.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/translucent-vascular-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Translucent Vascular Closeup",
+      "description": "A close study reveals glowing internal circulation through cryogenic tissue."
+    },
+    "zh-CN": {
+      "title": "半透明循环近景",
+      "description": "近景展示低温组织内微弱发光的循环网络。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A close study of glowing circulation inside cryogenic tissue.",
+      "zh-CN": "低温组织内微弱发光循环系统的近景。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square poster with a strong diagonal flow that implies movement from one habitat to another, while retaining a clean scientific layout. One major host figure should anchor the board, with smaller supporting panels clarifying transport-stage anatomy and dispersal context. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on a migratory carrier animal that transports the organism externally or in a low-impact internal compartment. The parasite should appear dormant or streamlined during transit, visibly adapted for surviving host movement rather than active feeding. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. Explain the ecological logic of transport through composition. Distinct habitat fragments, body orientation, and developmental morphology should show why this host is useful in the life cycle and how the organism changes behavior during travel. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no adventure-poster drama, no readable route maps, no random arrows, no cartoon host expression, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "migratory-carrier-phase",
+  "title": "Migratory Carrier Phase",
+  "description": "A mobile host carries the organism to a new biome during a transport stage.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/migratory-carrier-phase/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Migratory Carrier Phase",
+      "description": "A mobile host carries the organism to a new biome during a transport stage."
+    },
+    "zh-CN": {
+      "title": "迁徙携带阶段",
+      "description": "移动宿主在运输阶段把该生物带往新的生境。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A lifecycle poster showing a migratory carrier host transporting the organism.",
+      "zh-CN": "展示迁徙宿主携带该生物转运的生命周期海报。"
+    }
+  }
+}

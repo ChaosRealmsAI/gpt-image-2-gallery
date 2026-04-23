@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square scanning electron microscope plate of a fractured microchip cross-section, rendered in sharp monochrome with a slight graphite-blue tint in the shadows. The specimen occupies the main field like a miniature canyon of engineered layers. A lower-left scale bar shape and a bottom instrument-information strip with small unreadable marks make the layout feel like an SEM capture screen.\n\nSubject:\nA broken silicon microchip edge at high magnification. Visible features include stacked metal interconnect layers, etched trenches, dielectric strata, jagged fracture planes, tiny vias, rectangular circuit terraces, and granular debris on the cleaved surface. Some layers are smooth and engineered; others are rough and torn, showing contrast between manufactured precision and brittle breakage.\n\nImportant details:\nKeep the image scientifically plausible and technical. Do not show a normal circuit board or macro electronics; this is a microscopic cross-section. Emphasize SEM relief: crisp edges, grainy fracture texture, deep shadowed trenches, and thin layer boundaries. The structured layout should have a clean main field, scale bar geometry, and bottom strip without readable typography. The image should feel suitable for a failure-analysis report while remaining visually striking.\n\nUse case:\nSEM Microscopy single study 8/8, testing technical material SEM realism and structured plate composition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no normal macro circuit board, no glowing neon traces, no floating labels, no colorful cyberpunk style, no schematic overlay, no perfect 3D render look.",
+  "id": "microchip-fracture",
+  "title": "Microchip Fracture",
+  "description": "A SEM-style plate of a fractured microchip cross-section with layered interconnect structures.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/microchip-fracture/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent SEM-style technical material plate for microchip cross-section realism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Microchip Fracture",
+      "description": "A SEM-style plate of a fractured microchip cross-section with layered interconnect structures."
+    },
+    "zh-CN": {
+      "title": "微芯片断面",
+      "description": "一张 SEM 风格微芯片断面图版,展示层叠互连结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A SEM-style fractured microchip cross-section with layered interconnects.",
+      "zh-CN": "一张 SEM 风格微芯片断面图,可见层叠互连结构。"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "macro-real-texture",
+  "slug": "macro-real-texture",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Macro Real Texture",
+  "short_title": "Macro Texture",
+  "description": "A Prompt Atlas theme for Macro Real Texture, testing photorealism, physics-materials with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Macro Real Texture",
+      "short_title": "Macro Texture",
+      "description": "A Prompt Atlas theme for Macro Real Texture, testing photorealism, physics-materials with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "微距真实纹理",
+      "short_title": "微距纹理",
+      "description": "微距真实纹理：蝴蝶翅膀鳞粉 / 雪花六角结晶 / 水滴表面张力 · 微距镜头感"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-macro-real-texture-studies",
+      "type": "single",
+      "title": "Macro Texture Material Studies",
+      "path": "packages/single-macro-real-texture-studies/package.json"
+    }
+  ]
+}

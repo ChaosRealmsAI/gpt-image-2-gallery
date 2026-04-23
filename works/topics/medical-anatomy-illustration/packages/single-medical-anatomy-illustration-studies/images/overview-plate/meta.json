@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square plate or board viewed straight-on, with crisp organization, disciplined spacing, and premium print clarity. Build the frame around a complete overview that establishes the system, subject boundaries, and visual hierarchy. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Medical Anatomy Illustration theme and should feel immediately legible as a prompt atlas theme for medical anatomy illustration, testing structured-layout, technical-diagram, style-transfer with gpt image 2..\n\nSubject:\nCenter the study on a complete overview that establishes the system, subject boundaries, and visual hierarchy. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of medical anatomy illustration as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by Frank Netter, Latin, but keep the result original and specific to this study.\n\nImportant details:\nThe image should communicate logic through grouping, hierarchy, callouts, insets, and believable professional layout discipline rather than decorative noise. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Medical Anatomy Illustration. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nMedical Anatomy Illustration single study 1/8, testing structured-layout, technical-diagram, style-transfer through the overview plate variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no messy arrows, no random infographic decoration, no fake UI chrome unless the topic calls for it, no broken alignment, no meaningless clutter.",
+  "id": "overview-plate",
+  "title": "Overview Plate",
+  "description": "Overview Plate interprets Medical Anatomy Illustration as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/medical-anatomy-illustration/packages/single-medical-anatomy-illustration-studies/images/overview-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Medical Anatomy Illustration single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Overview Plate",
+      "description": "Overview Plate interprets Medical Anatomy Illustration as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "总览板",
+      "description": "总览板：围绕 医学解剖插画 · Netter 级 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "Overview Plate for Medical Anatomy Illustration.",
+      "zh-CN": "医学解剖插画 · Netter 级主题中的总览板图像研究。"
+    }
+  }
+}

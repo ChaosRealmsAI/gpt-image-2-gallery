@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose a square comparison plate with three dominant anatomical states laid out cleanly on a pale neutral ground. The board should feel like a medical teaching aid elevated by careful illustration rather than by flashy layout tricks. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the same host structure in healthy condition, active parasitic burden, and stabilized mutualistic condition. Supporting close-ups can reveal the organism’s role in each state through texture and tissue interaction. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. This is about contrast and inference. The host tissue should remain recognizable across states, while the organism’s changing impact becomes the key educational insight of the board. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no gore emphasis, no sterile UI mockup look, no simplistic cartoon organs, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "medical-comparison-plate",
+  "title": "Medical Comparison Plate",
+  "description": "A comparison plate contrasts healthy host tissue, parasitized tissue, and stabilized mutualistic tissue.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/medical-comparison-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Medical Comparison Plate",
+      "description": "A comparison plate contrasts healthy host tissue, parasitized tissue, and stabilized mutualistic tissue."
+    },
+    "zh-CN": {
+      "title": "医学比较图版",
+      "description": "比较图版对照健康组织、寄生组织与稳定共生组织。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A comparison plate of healthy, parasitized, and stabilized host tissue.",
+      "zh-CN": "对照健康、寄生与稳定共生组织的医学图版。"
+    }
+  }
+}

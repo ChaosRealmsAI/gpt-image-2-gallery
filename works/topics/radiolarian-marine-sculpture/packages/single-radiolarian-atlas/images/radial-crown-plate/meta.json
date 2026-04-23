@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square scientific plate on warm cream paper, viewed straight on with disciplined museum lighting and no environmental clutter. Several crown-like silica skeletons should be spaced evenly with enough breathing room to admire their architecture without flattening them into decorative wallpaper. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFeature related radiolarian forms built from radial spokes, perforated shells, and fine spines that suggest both buoyancy control and predator deterrence. One larger specimen can anchor the plate while smaller companions reveal variation in crown density, symmetry, and pore size. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nTreat radiolarians as silica-skeleton plankton whose geometry serves buoyancy, defense, feeding, and reproduction. Even the most ornate forms should follow repeatable structural rules, radial symmetry variants, lattice thickness logic, and believable microscopic scale. Use microscopy precision in line weight, surface porosity, and translucency. The image should feel biologically exacting, with every silica lattice appearing deposited by growth rather than manufactured as ornament. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nRadiolarian Marine Sculpture Atlas single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no jewelry catalog styling, no fantasy mandala effects, no metallic shine, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "radial-crown-plate",
+  "title": "Radial Crown Plate",
+  "description": "A cream scientific plate comparing several crown-like radiolarian skeletons.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "sem-microscopy",
+    "pattern",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/radiolarian-marine-sculpture/packages/single-radiolarian-atlas/images/radial-crown-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Radiolarian Marine Sculpture Atlas.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Radial Crown Plate",
+      "description": "A cream scientific plate comparing several crown-like radiolarian skeletons."
+    },
+    "zh-CN": {
+      "title": "冠状辐射图版",
+      "description": "在米白科学底上比较多种冠状放射虫骨架的图版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "sem-microscopy",
+      "pattern",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A cream plate of crown-like radiolarian skeletons.",
+      "zh-CN": "展示冠状放射虫骨架的米白科学图版。"
+    }
+  }
+}

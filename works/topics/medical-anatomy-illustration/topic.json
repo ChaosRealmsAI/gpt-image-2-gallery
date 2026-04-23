@@ -1,0 +1,49 @@
+{
+  "id": "medical-anatomy-illustration",
+  "slug": "medical-anatomy-illustration",
+  "category": "science",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Medical Anatomy Illustration",
+  "short_title": "Anatomy",
+  "description": "A Prompt Atlas theme for Medical Anatomy Illustration, testing structured-layout, technical-diagram, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Medical Anatomy Illustration",
+      "short_title": "Anatomy",
+      "description": "A Prompt Atlas theme for Medical Anatomy Illustration, testing structured-layout, technical-diagram, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "医学解剖插画 · Netter 级",
+      "short_title": "医学解剖",
+      "description": "医学解剖插画 · Netter 级：风格:Frank Netter 风 · 柔和水彩 + 精准解剖 + 彩色分层(骨白 / 肌红 / 神经黄 / 血管蓝红)+ 标注箭头 + Latin 学名 · 例:心脏横截面 / 膝关节 / 脑部神经束"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-medical-anatomy-illustration-studies",
+      "type": "single",
+      "title": "Anatomy Diagram Studies",
+      "path": "packages/single-medical-anatomy-illustration-studies/package.json"
+    }
+  ]
+}

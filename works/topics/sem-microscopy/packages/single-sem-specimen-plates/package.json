@@ -1,0 +1,82 @@
+{
+  "id": "single-sem-specimen-plates",
+  "type": "single",
+  "title": "SEM Specimen Plates",
+  "description": "Eight independent SEM-style microscopy plates covering biological, crystalline, and technical specimens with realistic microtexture and structured instrument framing.",
+  "creative_direction": "Each image behaves like a finished scanning electron microscope plate: high-magnification specimen detail dominates the square frame, with restrained grayscale or false-color treatment and a bottom instrument-strip composition that supports scientific realism without readable labels.",
+  "cover_image": "images/butterfly-wing-scales/image.png",
+  "i18n": {
+    "en": {
+      "title": "SEM Specimen Plates",
+      "description": "Eight independent SEM-style microscopy plates covering biological, crystalline, and technical specimens with realistic microtexture and structured instrument framing."
+    },
+    "zh-CN": {
+      "title": "SEM 样本图版",
+      "description": "八张独立扫描电镜风格样本图版,覆盖生物、晶体和技术材料的真实微结构与仪器式版式。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "sem-microscopy",
+      "scientific-realism",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "butterfly-wing-scales",
+      "title": "Butterfly Wing Scales",
+      "image": "images/butterfly-wing-scales/image.png",
+      "meta": "images/butterfly-wing-scales/meta.json"
+    },
+    {
+      "id": "pollen-grain-field",
+      "title": "Pollen Grain Field",
+      "image": "images/pollen-grain-field/image.png",
+      "meta": "images/pollen-grain-field/meta.json"
+    },
+    {
+      "id": "mosquito-mouthparts",
+      "title": "Mosquito Mouthparts",
+      "image": "images/mosquito-mouthparts/image.png",
+      "meta": "images/mosquito-mouthparts/meta.json"
+    },
+    {
+      "id": "snowflake-hex-crystal",
+      "title": "Snowflake Hex Crystal",
+      "image": "images/snowflake-hex-crystal/image.png",
+      "meta": "images/snowflake-hex-crystal/meta.json"
+    },
+    {
+      "id": "red-blood-cell-terrain",
+      "title": "Red Blood Cell Terrain",
+      "image": "images/red-blood-cell-terrain/image.png",
+      "meta": "images/red-blood-cell-terrain/meta.json"
+    },
+    {
+      "id": "diatom-glass-lattice",
+      "title": "Diatom Glass Lattice",
+      "image": "images/diatom-glass-lattice/image.png",
+      "meta": "images/diatom-glass-lattice/meta.json"
+    },
+    {
+      "id": "gecko-toe-setae",
+      "title": "Gecko Toe Setae",
+      "image": "images/gecko-toe-setae/image.png",
+      "meta": "images/gecko-toe-setae/meta.json"
+    },
+    {
+      "id": "microchip-fracture",
+      "title": "Microchip Fracture",
+      "image": "images/microchip-fracture/image.png",
+      "meta": "images/microchip-fracture/meta.json"
+    }
+  ]
+}

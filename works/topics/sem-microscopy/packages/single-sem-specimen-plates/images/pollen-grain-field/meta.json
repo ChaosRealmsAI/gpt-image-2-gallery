@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square false-color SEM microscopy plate with muted amber and teal tinting over an otherwise electron-microscope tonal base. The sample field is viewed from a slightly elevated angle, with a shallow topographic shadow and a clean black bottom information strip. A lower-left scale bar area and small calibration blocks are present as visual structures only, with no readable characters.\n\nSubject:\nA dense field of pollen grains resting on a rough carbon tape surface. The grains vary in shape: round spiny spheres, oval grooved capsules, and a few collapsed shells. Each pollen grain has species-like microarchitecture, including pores, spikes, ridges, perforations, and powdery residue. Some grains overlap or sit in tiny depressions, casting delicate SEM-like shadows.\n\nImportant details:\nMake the image scientific and plausible, not decorative. False color should be restrained post-processing: warm grains, cool shadows, neutral substrate, and preserved grayscale relief. Keep the instrument layout structured with a bottom strip, scale bar geometry, and micro UI marks that remain unreadable. Surface detail must be crisp at multiple scales: grain silhouette, pore pattern, spines, dust, and substrate granularity. Avoid turning pollen into fruit, beads, or planets.\n\nUse case:\nSEM Microscopy single study 2/8, testing false-color pollen surface rendering with structured scientific plate layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bright candy colors, no macro photo bokeh, no plant petals, no floating grains, no cartoon spikes, no labels, no decorative border, no biological gore.",
+  "id": "pollen-grain-field",
+  "title": "Pollen Grain Field",
+  "description": "A restrained false-color SEM-style plate showing varied pollen grains on a rough substrate.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/pollen-grain-field/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent false-color SEM specimen plate for pollen grains."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pollen Grain Field",
+      "description": "A restrained false-color SEM-style plate showing varied pollen grains on a rough substrate."
+    },
+    "zh-CN": {
+      "title": "花粉粒场",
+      "description": "一张克制假彩色 SEM 风格图版,展示粗糙基底上的多种花粉粒。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A false-color SEM-style field of spiny and grooved pollen grains.",
+      "zh-CN": "一张假彩色 SEM 风格花粉粒视野,包含带刺和沟槽的颗粒。"
+    }
+  }
+}

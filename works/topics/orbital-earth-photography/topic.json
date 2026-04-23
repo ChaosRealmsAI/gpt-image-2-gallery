@@ -1,0 +1,48 @@
+{
+  "id": "orbital-earth-photography",
+  "slug": "orbital-earth-photography",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Orbital Earth Photography",
+  "short_title": "Orbital Earth",
+  "description": "A Prompt Atlas theme for Orbital Earth Photography, testing photorealism, world-knowledge, style-transfer, editing-workflow with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Orbital Earth Photography",
+      "short_title": "Orbital Earth",
+      "description": "A Prompt Atlas theme for Orbital Earth Photography, testing photorealism, world-knowledge, style-transfer, editing-workflow with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "ISS / 卫星俯视地球 · 太空摄影",
+      "short_title": "太空俯视",
+      "description": "ISS / 卫星俯视地球 · 太空摄影：风格:真 NASA ISS 拍摄感 · 曲率地平线 + 大气层蓝色 + 星空背景 · 例:夜晚城市灯光链 / 飓风眼 / 极光带 / 撒哈拉沙丘"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-orbital-earth-photography-studies",
+      "type": "single",
+      "title": "Orbital Earth Photography Studies",
+      "path": "packages/single-orbital-earth-photography-studies/package.json"
+    }
+  ]
+}

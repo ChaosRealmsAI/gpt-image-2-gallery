@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square false-color SEM microscopy plate with dark charcoal shadows and muted red-brown post-colorization. The view is low and oblique, like a terrain of cells across a sample surface. A disciplined bottom instrument strip anchors the image, including a small lower-left scale bar shape and compact non-readable machine marks.\n\nSubject:\nA field of red blood cells rendered as biconcave discs under scanning electron microscopy. Some cells are stacked, some tilt on edge, some show slight crenation, and others press into shallow clusters. The cell surfaces have subtle membrane texture and soft rounded rims, with dark gaps between discs. The scene feels anatomical and scientific but visually abstract, like a cellular landscape.\n\nImportant details:\nThe cells must be plausible RBC forms, not coins, candies, or abstract bubbles. Use SEM-like shading and restrained false color: iron-red cell surfaces, dark creases, neutral substrate, and high microcontrast. Preserve structured scientific layout with clear specimen field, scale bar geometry, and an instrument-information strip without readable text. Avoid medical gore or liquid blood. Show depth and density through occlusion, shadows, and cell rim thickness.\n\nUse case:\nSEM Microscopy single study 5/8, testing false-color red blood cell realism and plate layout clarity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no wet blood, no cartoon cells, no bright candy colors, no microscope eyepiece circle, no labels, no hospital UI, no fantasy organisms.",
+  "id": "red-blood-cell-terrain",
+  "title": "Red Blood Cell Terrain",
+  "description": "A false-color SEM-style plate of red blood cells forming a dense biconcave terrain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/red-blood-cell-terrain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent false-color SEM cellular terrain plate."
+  },
+  "i18n": {
+    "en": {
+      "title": "Red Blood Cell Terrain",
+      "description": "A false-color SEM-style plate of red blood cells forming a dense biconcave terrain."
+    },
+    "zh-CN": {
+      "title": "红细胞地形",
+      "description": "一张假彩色 SEM 风格红细胞图版,呈现密集双凹圆盘地形。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A false-color SEM-style terrain of stacked biconcave red blood cells.",
+      "zh-CN": "一张假彩色 SEM 风格红细胞地形图,细胞双凹且层叠。"
+    }
+  }
+}

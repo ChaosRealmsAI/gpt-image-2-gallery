@@ -1,0 +1,89 @@
+{
+  "id": "single-parasite-cycle-studies",
+  "type": "single",
+  "title": "Parasite Cycle Studies",
+  "description": "Nine independent poster studies mapping a speculative parasite-mutualism life cycle across hosts and stages.",
+  "creative_direction": "Each image should act like a finished educational board: clear visual sequencing, anatomical credibility, stylized but serious layout, and no readable labels even though the diagram logic remains obvious.",
+  "cover_image": "images/estuary-host-entry/image.png",
+  "i18n": {
+    "en": {
+      "title": "Parasite Cycle Studies",
+      "description": "Nine independent poster studies mapping a speculative parasite-mutualism life cycle across hosts and stages."
+    },
+    "zh-CN": {
+      "title": "寄生周期研究",
+      "description": "九张独立海报研究图，描绘寄生与共生兼具的生命周期在不同宿主间展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "estuary-host-entry",
+      "title": "Estuary Host Entry",
+      "image": "images/estuary-host-entry/image.png",
+      "meta": "images/estuary-host-entry/meta.json"
+    },
+    {
+      "id": "gill-nursery-stage",
+      "title": "Gill Nursery Stage",
+      "image": "images/gill-nursery-stage/image.png",
+      "meta": "images/gill-nursery-stage/meta.json"
+    },
+    {
+      "id": "migratory-carrier-phase",
+      "title": "Migratory Carrier Phase",
+      "image": "images/migratory-carrier-phase/image.png",
+      "meta": "images/migratory-carrier-phase/meta.json"
+    },
+    {
+      "id": "pollen-broker-symbiosis",
+      "title": "Pollen Broker Symbiosis",
+      "image": "images/pollen-broker-symbiosis/image.png",
+      "meta": "images/pollen-broker-symbiosis/meta.json"
+    },
+    {
+      "id": "immune-truce-closeup",
+      "title": "Immune Truce Closeup",
+      "image": "images/immune-truce-closeup/image.png",
+      "meta": "images/immune-truce-closeup/meta.json"
+    },
+    {
+      "id": "reproductive-release-diagram",
+      "title": "Reproductive Release Diagram",
+      "image": "images/reproductive-release-diagram/image.png",
+      "meta": "images/reproductive-release-diagram/meta.json"
+    },
+    {
+      "id": "multi-host-cycle-wheel",
+      "title": "Multi Host Cycle Wheel",
+      "image": "images/multi-host-cycle-wheel/image.png",
+      "meta": "images/multi-host-cycle-wheel/meta.json"
+    },
+    {
+      "id": "medical-comparison-plate",
+      "title": "Medical Comparison Plate",
+      "image": "images/medical-comparison-plate/image.png",
+      "meta": "images/medical-comparison-plate/meta.json"
+    },
+    {
+      "id": "classroom-poster-finale",
+      "title": "Classroom Poster Finale",
+      "image": "images/classroom-poster-finale/image.png",
+      "meta": "images/classroom-poster-finale/meta.json"
+    }
+  ]
+}

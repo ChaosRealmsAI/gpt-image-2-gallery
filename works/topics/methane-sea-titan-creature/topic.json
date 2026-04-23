@@ -1,0 +1,50 @@
+{
+  "id": "methane-sea-titan-creature",
+  "slug": "methane-sea-titan-creature",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Methane Sea Creature of Titan",
+  "short_title": "Methane Creature",
+  "description": "Imagine cryogenic shoreline life at a methane sea, where translucent tissues, hydrocarbon weather, and non-water biochemistry create a convincing Titan-adapted organism.",
+  "i18n": {
+    "en": {
+      "title": "Methane Sea Creature of Titan",
+      "short_title": "Methane Creature",
+      "description": "Imagine cryogenic shoreline life at a methane sea, where translucent tissues, hydrocarbon weather, and non-water biochemistry create a convincing Titan-adapted organism."
+    },
+    "zh-CN": {
+      "title": "土卫六甲烷海生物",
+      "short_title": "甲烷生物",
+      "description": "想象甲烷海岸的低温生命，让半透明组织、烃类天气和非水基生化共同塑造可信的土卫六生物。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 818,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-methane-creature-studies",
+      "type": "single",
+      "title": "Methane Shoreline Studies",
+      "path": "packages/single-methane-creature-studies/package.json"
+    }
+  ]
+}

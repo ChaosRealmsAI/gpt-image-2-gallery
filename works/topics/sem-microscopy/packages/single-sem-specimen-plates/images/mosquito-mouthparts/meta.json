@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square grayscale SEM plate with dramatic but scientifically restrained topographic contrast. The specimen is centered diagonally across the frame, magnified enough to show segmented anatomy and fine bristles. A thin bottom instrument strip includes a lower-left scale bar, tiny tick marks, and unreadable machine-interface marks, all integrated into the plate without becoming graphic design decoration.\n\nSubject:\nMosquito mouthparts seen under scanning electron microscopy: a bundled proboscis with needle-like stylets, segmented sheath structure, small palps, hooked micro bristles, textured cuticle, and tiny sensory hairs along the surface. The mouthparts should feel dry, metallic-gray, and insect-scale, with sharp ridges and natural asymmetry. The surrounding background is dark, grainy sample mount material.\n\nImportant details:\nThis must read as real SEM scientific imaging, not a horror illustration. Keep anatomy plausible: segmented insect cuticle, tapering proboscis, bristles attached to surfaces, shallow shadowing, and brittle microtexture. The field should avoid blood, skin, or bite context. Maintain the structured layout: main specimen area, subtle border discipline, bottom information strip, and scale bar geometry with no readable labels. Use grayscale only, with fine noise and high local contrast.\n\nUse case:\nSEM Microscopy single study 3/8, testing insect mouthpart realism and controlled scientific composition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gore, no human skin, no monster design, no bright colors, no cartoon fangs, no oversized eyes, no annotations, no exaggerated horror lighting.",
+  "id": "mosquito-mouthparts",
+  "title": "Mosquito Mouthparts",
+  "description": "A grayscale SEM-style plate of mosquito mouthparts with segmented cuticle and fine bristles.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/mosquito-mouthparts/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent grayscale SEM insect anatomy plate."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mosquito Mouthparts",
+      "description": "A grayscale SEM-style plate of mosquito mouthparts with segmented cuticle and fine bristles."
+    },
+    "zh-CN": {
+      "title": "蚊子口器",
+      "description": "一张灰阶 SEM 风格蚊子口器图版,包含分节表皮和细小刚毛。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A grayscale SEM-style close-up of mosquito mouthparts and tiny bristles.",
+      "zh-CN": "一张灰阶 SEM 风格蚊子口器特写,可见微小刚毛。"
+    }
+  }
+}

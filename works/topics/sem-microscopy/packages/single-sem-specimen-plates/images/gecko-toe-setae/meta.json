@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square grayscale SEM-style scientific plate, high magnification, with the specimen sweeping diagonally from upper left to lower right. The image uses crisp relief shadows, granular substrate texture, and a bottom instrument strip containing a lower-left scale bar form plus compact unreadable calibration marks. The composition should feel like a real laboratory capture selected for a museum science display.\n\nSubject:\nThe underside of a gecko toe pad at microscopic scale. Dense rows of setae split into many finer spatula-like tips, forming a forest of dry adhesive hairs. Some bundles bend together, some separate into branching tips, and the base ridges of the toe pad are visible as layered folds. Dust specks and tiny broken hairs provide scale and natural imperfection.\n\nImportant details:\nThe main challenge is microstructure hierarchy: toe pad ridge, seta bundle, branching hair, flattened spatula tip. Preserve this nested structure clearly. Use SEM grayscale contrast, not macro fur photography. The hairs should be dry, sharp, and slightly translucent-gray in electron-imaging style, with realistic occlusion and depth. The scale bar and bottom instrument strip must be present as non-readable visual layout elements, never as legible typography.\n\nUse case:\nSEM Microscopy single study 7/8, testing hierarchical microtexture and scientific SEM realism for gecko adhesion structures.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cute animal context, no visible whole gecko, no soft fur look, no colored illustration, no oversized labels, no wet slime, no fantasy tendrils, no random hair clumps.",
+  "id": "gecko-toe-setae",
+  "title": "Gecko Toe Setae",
+  "description": "A grayscale SEM-style plate showing gecko toe pad setae branching into fine spatula tips.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "sem-microscopy",
+    "scientific-realism",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sem-microscopy/packages/single-sem-specimen-plates/images/gecko-toe-setae/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent grayscale SEM plate for hierarchical gecko setae structure."
+  },
+  "i18n": {
+    "en": {
+      "title": "Gecko Toe Setae",
+      "description": "A grayscale SEM-style plate showing gecko toe pad setae branching into fine spatula tips."
+    },
+    "zh-CN": {
+      "title": "壁虎趾垫刚毛",
+      "description": "一张灰阶 SEM 风格壁虎趾垫图版,展示刚毛分叉成细小铲状末端。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "sem-microscopy",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A grayscale SEM-style view of gecko toe setae branching into fine tips.",
+      "zh-CN": "一张灰阶 SEM 风格壁虎趾垫刚毛图,刚毛分叉成细小末端。"
+    }
+  }
+}

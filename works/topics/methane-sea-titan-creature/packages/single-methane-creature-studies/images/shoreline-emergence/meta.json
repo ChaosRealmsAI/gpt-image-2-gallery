@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square shoreline scene on a Titan-like moon, with a low black methane sea, pebbled hydrocarbon shore, and thick orange atmospheric haze swallowing the distance. The light should be dim and diffuse, giving the whole frame a frigid stillness rather than terrestrial drama. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow a large translucent shoreline organism just emerging from the liquid, with internal circulation channels, insulated surface membranes, and low-slung limbs or paddles adapted for both swimming and slow movement across cold shore sediment. The creature should feel cautious and heavy in the weak light. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism lives in hydrocarbon seas at extreme cold. Tissues, circulation, buoyancy, and sensory structures should reflect cryogenic chemistry, heavy haze, weak sunlight, and a shoreline shaped by methane waves and hydrocarbon sediment. Cryogenic plausibility is essential. Surface textures should look waxy, glassy, and flexible at low temperature, while the body plan suggests hydrocarbon buoyancy and careful heat conservation. Avoid familiar fish or reptile patterns. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nMethane Sea Creature of Titan single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Earth ocean blue, no dinosaur copy, no heroic monster stance, no space-suit humans, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "shoreline-emergence",
+  "title": "Shoreline Emergence",
+  "description": "A translucent shoreline creature emerges from a black methane sea under orange haze.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/methane-sea-titan-creature/packages/single-methane-creature-studies/images/shoreline-emergence/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Methane Sea Creature of Titan.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Shoreline Emergence",
+      "description": "A translucent shoreline creature emerges from a black methane sea under orange haze."
+    },
+    "zh-CN": {
+      "title": "海岸现身",
+      "description": "半透明生物在橙色雾霭下从黑色甲烷海边现身。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A translucent creature emerging from a black methane shoreline.",
+      "zh-CN": "半透明生物从黑色甲烷海岸现身。"
+    }
+  }
+}

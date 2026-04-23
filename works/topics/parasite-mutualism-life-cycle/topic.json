@@ -1,0 +1,50 @@
+{
+  "id": "parasite-mutualism-life-cycle",
+  "slug": "parasite-mutualism-life-cycle",
+  "category": "science",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Parasite-Mutualism Life Cycle Poster",
+  "short_title": "Parasite Cycle",
+  "description": "Design rigorous lifecycle posters for a speculative organism that shifts between parasitic and mutualistic roles across hosts, combining anatomical realism with diagram-level clarity.",
+  "i18n": {
+    "en": {
+      "title": "Parasite-Mutualism Life Cycle Poster",
+      "short_title": "Parasite Cycle",
+      "description": "Design rigorous lifecycle posters for a speculative organism that shifts between parasitic and mutualistic roles across hosts, combining anatomical realism with diagram-level clarity."
+    },
+    "zh-CN": {
+      "title": "寄生共生生命周期海报",
+      "short_title": "寄生周期",
+      "description": "把一种在不同宿主间切换寄生与共生角色的推测生物做成严谨生命周期海报，兼具解剖真实与信息清晰。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 817,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-parasite-cycle-studies",
+      "type": "single",
+      "title": "Parasite Cycle Studies",
+      "path": "packages/single-parasite-cycle-studies/package.json"
+    }
+  ]
+}

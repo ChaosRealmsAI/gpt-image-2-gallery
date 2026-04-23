@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a polished square board with a circular lifecycle composition occupying most of the frame on a pale scientific background. Each segment of the wheel should contain enough habitat and anatomical detail to explain one transition without relying on text. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nIntegrate aquatic entry, protected nursery, migratory transport, mutualistic adult phase, and reproductive release in one coherent cycle. Hosts should be visually distinct yet harmonized through color and layout so the system reads as one organism’s journey. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the organism changes ecological role by life stage. Early phases may exploit host tissue, later phases may provide immune modulation, pollination, cleaning, or nutrient transfer. The lifecycle must read as coherent biology rather than arbitrary plot twists. The wheel must feel editorially clean and biologically rigorous. Use repetition, orientation, and contrast to show order, causality, and ecological role changes without becoming a generic infographic template. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nParasite-Mutualism Life Cycle Poster single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable arrows, no dashboard UI boxes, no flat iconography, no corporate presentation style, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "multi-host-cycle-wheel",
+  "title": "Multi Host Cycle Wheel",
+  "description": "A circular poster synthesizes the whole lifecycle across multiple hosts and environments.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "data-visualization",
+    "structured-layout",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/parasite-mutualism-life-cycle/packages/single-parasite-cycle-studies/images/multi-host-cycle-wheel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Parasite-Mutualism Life Cycle Poster.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Multi Host Cycle Wheel",
+      "description": "A circular poster synthesizes the whole lifecycle across multiple hosts and environments."
+    },
+    "zh-CN": {
+      "title": "多宿主循环轮",
+      "description": "圆环式海报综合展示多宿主多环境的完整生命周期。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "data-visualization",
+      "structured-layout",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A circular poster synthesizing the full multi-host lifecycle.",
+      "zh-CN": "整合完整多宿主生命周期的圆环海报。"
+    }
+  }
+}
