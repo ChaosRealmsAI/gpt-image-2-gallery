@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square adventure poster with tropical emerald, sandstone, brass, and torch-gold tones, finished like glossy theatrical key art. The composition should feel energetic and readable, with one dominant explorer in the foreground, supporting companions arranged on diagonals, and an exotic ruin opening toward the viewer. Use warm directional light, drifting dust, and leafy silhouettes that frame rather than clutter the scene.\n\nSubject:\nCreate a cast-remix poster based on the grammar of a beloved relic-hunt action one-sheet. The lead is a one-eyed museum conservator wearing climbing gear and carrying a rolled star map; beside and behind them place a sarcastic jungle botanist, a teenage parkour messenger, an armored river guide with a jade spear, and a monkey-like clockwork companion holding a gemstone idol. The background should feature a collapsing vine-covered arch, a waterfall cave, rope bridges, and an approaching storm. The lead explorer remains the largest figure, stepping slightly toward the viewer while the ensemble cascades outward in clear descending importance.\n\nImportant details:\nThe image must preserve the breezy, iconic hierarchy of an expedition poster: charismatic lead, adventurous secondary cast, relic at the center of desire, and an environment promising traps and motion. Keep the ad composition tight, with obvious space for an abstract title block near the lower center and ornamental strips for cast names higher up. Use shape language, carved plaques, or painted banner blocks instead of actual words. The overall feeling should be polished and theatrical, never like a random fantasy scene or a literal recreation of any fedora-wearing archaeologist brand.\n\nUse case:\nIconic Poster Cast Remix single study 8/9, testing whether expedition-poster composition stays instantly legible when its characters and relic mythology are fully replaced.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fedora iconography, no copied whip pose, no chaotic overpopulation, no fake map labels, no direct franchise costume echoes, no hidden letters in vines or stone carvings.",
+  "id": "08-jungle-relic-expedition",
+  "title": "Jungle Relic Expedition",
+  "description": "An expedition-poster remix with a museum conservator lead, a ranked jungle ensemble, and a collapsing ruin backdrop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/08-jungle-relic-expedition/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with an adventure-expedition hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Jungle Relic Expedition",
+      "description": "An expedition-poster remix with a museum conservator lead, a ranked jungle ensemble, and a collapsing ruin backdrop."
+    },
+    "zh-CN": {
+      "title": "丛林遗物远征",
+      "description": "冒险远征海报换角研究，以博物馆修复师主角、丛林队伍和坍塌遗迹为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A jungle adventure poster remix with a lead explorer stepping forward from ruins and supporting companions behind.",
+      "zh-CN": "一张丛林冒险海报换角图，主角探险者从遗迹前方迈步而出，后方是配角队伍。"
+    }
+  }
+}

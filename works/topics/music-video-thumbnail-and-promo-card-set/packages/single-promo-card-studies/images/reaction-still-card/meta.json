@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square promo still with one emotionally intense face in close focus, dramatic side light, and a blurred cinematic hook in the background. The composition should feel instantly clickable in a good way, through expression and atmosphere rather than gimmicks.\n\nSubject:\nThe subject is one invented performer caught in a charged emotional beat from a music-video world. The face must remain central and highly legible, while modular non-readable blocks and background atmosphere provide campaign structure.\n\nImportant details:\nThis is about emotional compression. Use expression, light, and one strong scene cue to create interest. Keep the image refined, contemporary, and native to music-video launch culture, avoiding exaggerated clickbait tropes or meme energy.\n\nUse case:\nMV Promo Cards single study 8/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable hook text, no platform logos, no arrows, no extra cast, no overexposed flash look",
+  "id": "reaction-still-card",
+  "title": "Reaction Still Card",
+  "description": "A reaction-focused still card using one emotionally charged face and a cinematic scene hook for social promotion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/single-promo-card-studies/images/reaction-still-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent reaction-still study for the music-video promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reaction Still Card",
+      "description": "A reaction-focused still card using one emotionally charged face and a cinematic scene hook for social promotion."
+    },
+    "zh-CN": {
+      "title": "情绪静帧卡",
+      "description": "情绪静帧卡，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A reaction-focused music-video promo card with one charged face and a cinematic scene hook.",
+      "zh-CN": "情绪静帧卡视觉图。"
+    }
+  }
+}

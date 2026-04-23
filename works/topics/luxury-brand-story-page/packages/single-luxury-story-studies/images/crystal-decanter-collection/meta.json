@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury brand-story page still for a crystal decanter collection, composed like a refined lifestyle-maison web chapter. The palette is smoke gray, warm crystal highlights, pale stone, and deep charcoal, with controlled light refraction and elegant reflections. The frame should feel like a hero chapter above material and collecting chapters, arranged within a highly polished editorial web layout.\n\nSubject:\nFeature a crystal decanter and matching glassware as the hero objects, rendered with believable weight, bevels, liquid reflections, and subtle tinting. Build the surrounding web composition from abstract title bars, collection cards, crystal-detail close-ups, and chapter bands suggesting craftsmanship, ritual, and object curation without readable text. Include one macro crop of the cut crystal edge and one supporting still-life module with tray, fabric, or shadow pattern to imply an intimate collector environment. The crystal objects remain central and luxurious.\n\nImportant details:\nThe image should communicate collector-grade luxury and object culture, not barware retail. Glass thickness, refraction, stopper fit, and facet geometry must feel plausible and expensive. The page hierarchy should move from spectacle hero to craft detail to lifestyle ritual to collection framing, all through measured spacing and quiet restraint. The overall mood should feel cinematic, tactile, and premium, without becoming flashy.\n\nUse case:\nLuxury Brand Story Page single study 9/9, testing crystal-object storytelling with collector atmosphere, material close-up, and chaptered luxury web rhythm.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no crowded bar scene, no party people, no exaggerated neon reflections, no cheap liquor-ad clichés, no distorted glass refraction or stopper geometry.",
+  "id": "crystal-decanter-collection",
+  "title": "Crystal Decanter Collection",
+  "description": "A luxury brand-story page still for a crystal decanter collection, blending hero object photography with collector-style craft chapters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-brand-story-page/packages/single-luxury-story-studies/images/crystal-decanter-collection/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent luxury brand-story study focused on crystal objects and collector atmosphere."
+  },
+  "i18n": {
+    "en": {
+      "title": "Crystal Decanter Collection",
+      "description": "A luxury brand-story page still for a crystal decanter collection, blending hero object photography with collector-style craft chapters."
+    },
+    "zh-CN": {
+      "title": "水晶醒酒器藏品页",
+      "description": "一张水晶醒酒器系列的奢侈品牌故事页静帧，将主视觉器物摄影与收藏式工艺章节结合起来。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury crystal-object story page with a decanter hero image, cut-glass macros, and collector-style sections.",
+      "zh-CN": "一张奢华水晶器物故事页静帧，展示醒酒器主视觉、切割玻璃微距和收藏式章节。"
+    }
+  }
+}

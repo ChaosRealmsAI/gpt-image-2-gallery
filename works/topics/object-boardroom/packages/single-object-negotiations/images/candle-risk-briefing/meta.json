@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial photograph in a dark risk committee room, lit mostly by a single warm flame and soft overhead spill. The camera is close to table level, with a matte black conference surface, leather chairs fading into shadow, and faint city lights behind tinted glass. The image should feel cinematic, expensive, and physically believable rather than theatrical.\n\nSubject:\nA short ivory candle sits in the central executive chair, dressed in a black suit jacket tailored around the wax cylinder. Its small flame leans slightly as if air conditioning moves through the room, while melted wax pools down one side and hardens at the jacket edge without looking impossible. The candle is surrounded by blank charts, a closed laptop with no logo, a water glass, and a few dark folders, suggesting an emergency risk briefing after hours.\n\nImportant details:\nThe candle must remain a real burning candle with wax translucency, wick detail, flame core, orange glow, soot-soft shadows, and credible heat light on nearby table objects. Anthropomorphism is limited to boardroom seating, suit fit, and scene staging. The flame should cast a believable warm gradient across the wax, lapels, table, and surrounding chairs. The high-concept joke should feel like a premium campaign about pressure, burnout, or crisis management.\n\nUse case:\nObject Boardroom single study 6/8, testing flame light, wax material, shadow physics, and non-cartoon object anthropomorphism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no spreading fire, no melted suit fabric, no branded laptop, no fantasy glow, no messy props.",
+  "id": "candle-risk-briefing",
+  "title": "Candle Risk Briefing",
+  "description": "A suited candle leads a late-night risk briefing, with flame light, wax, and shadows rendered realistically.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/single-object-negotiations/images/candle-risk-briefing/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing wax, flame, and low-light commercial staging."
+  },
+  "i18n": {
+    "en": {
+      "title": "Candle Risk Briefing",
+      "description": "A suited candle leads a late-night risk briefing, with flame light, wax, and shadows rendered realistically."
+    },
+    "zh-CN": {
+      "title": "蜡烛风控会",
+      "description": "一支穿西装的蜡烛主持深夜风控会,火焰、蜡液和阴影保持写实。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "cinematic",
+      "single"
+    ],
+    "alt": {
+      "en": "A burning ivory candle in a black suit sits in a dark boardroom during an after-hours risk briefing.",
+      "zh-CN": "一支燃烧的象牙色蜡烛穿黑西装坐在昏暗会议室里参加深夜风控会。"
+    }
+  }
+}

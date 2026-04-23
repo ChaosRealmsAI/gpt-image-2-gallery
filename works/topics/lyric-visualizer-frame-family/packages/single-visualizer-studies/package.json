@@ -1,0 +1,64 @@
+{
+  "id": "single-visualizer-studies",
+  "type": "single",
+  "title": "Visualizer Studies",
+  "description": "Five independent square studies exploring different lyric-visualizer moods, density levels, and non-readable text rhythms.",
+  "creative_direction": "These independent studies should each read like a frozen frame from a music lyric visualizer: pseudo-typographic rhythm, cinematic atmosphere, and motion implication without actual words or software interfaces.",
+  "cover_image": "images/mirror-room-loop/image.png",
+  "i18n": {
+    "en": {
+      "title": "Visualizer Studies",
+      "description": "Five independent square studies exploring different lyric-visualizer moods, density levels, and non-readable text rhythms."
+    },
+    "zh-CN": {
+      "title": "可视化研究",
+      "description": "五张独立的歌词可视化研究图，探索不同情绪与不可读文字节奏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "mirror-room-loop",
+      "title": "Mirror Room Loop",
+      "image": "images/mirror-room-loop/image.png",
+      "meta": "images/mirror-room-loop/meta.json"
+    },
+    {
+      "id": "smoke-tunnel-glyphs",
+      "title": "Smoke Tunnel Glyphs",
+      "image": "images/smoke-tunnel-glyphs/image.png",
+      "meta": "images/smoke-tunnel-glyphs/meta.json"
+    },
+    {
+      "id": "bedroom-diary-frame",
+      "title": "Bedroom Diary Frame",
+      "image": "images/bedroom-diary-frame/image.png",
+      "meta": "images/bedroom-diary-frame/meta.json"
+    },
+    {
+      "id": "industrial-pulse-frame",
+      "title": "Industrial Pulse Frame",
+      "image": "images/industrial-pulse-frame/image.png",
+      "meta": "images/industrial-pulse-frame/meta.json"
+    },
+    {
+      "id": "waterline-refrain-frame",
+      "title": "Waterline Refrain Frame",
+      "image": "images/waterline-refrain-frame/image.png",
+      "meta": "images/waterline-refrain-frame/meta.json"
+    }
+  ]
+}

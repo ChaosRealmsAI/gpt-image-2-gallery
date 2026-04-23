@@ -1,0 +1,59 @@
+{
+  "id": "single-object-negotiations",
+  "type": "single",
+  "title": "Object Negotiations",
+  "description": "Four independent commercial concept images where everyday objects conduct tense boardroom negotiations in different rooms and lighting conditions.",
+  "creative_direction": "Independent ad-grade studies for Object Boardroom: each image uses a different object, room mood, and business scenario while keeping the anthropomorphism photorealistic rather than cartoonish.",
+  "cover_image": "images/glass-ceo-vote/image.png",
+  "i18n": {
+    "en": {
+      "title": "Object Negotiations",
+      "description": "Four independent commercial concept images where everyday objects conduct tense boardroom negotiations in different rooms and lighting conditions."
+    },
+    "zh-CN": {
+      "title": "物体谈判单图",
+      "description": "四张独立广告概念图,让日常物体在不同会议室和光线条件下进行紧张谈判。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "glass-ceo-vote",
+      "title": "Glass CEO Vote",
+      "image": "images/glass-ceo-vote/image.png",
+      "meta": "images/glass-ceo-vote/meta.json"
+    },
+    {
+      "id": "candle-risk-briefing",
+      "title": "Candle Risk Briefing",
+      "image": "images/candle-risk-briefing/image.png",
+      "meta": "images/candle-risk-briefing/meta.json"
+    },
+    {
+      "id": "scissors-merger-table",
+      "title": "Scissors Merger Table",
+      "image": "images/scissors-merger-table/image.png",
+      "meta": "images/scissors-merger-table/meta.json"
+    },
+    {
+      "id": "umbrella-crisis-seat",
+      "title": "Umbrella Crisis Seat",
+      "image": "images/umbrella-crisis-seat/image.png",
+      "meta": "images/umbrella-crisis-seat/meta.json"
+    }
+  ]
+}

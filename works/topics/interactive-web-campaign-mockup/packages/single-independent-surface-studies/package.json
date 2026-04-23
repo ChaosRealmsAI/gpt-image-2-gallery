@@ -1,0 +1,64 @@
+{
+  "id": "single-independent-surface-studies",
+  "type": "single",
+  "title": "Independent Surface Studies",
+  "description": "Five independent campaign studies exploring premium layout, hierarchy, and surface polish across different promotional situations.",
+  "creative_direction": "Each image is a standalone campaign plate that should read clearly in one glance. The structure must feel designed for real rollout use, with credible information hierarchy, negative space discipline, and polished mockup realism. Theme dimension: 多设备 mockup + 滚动叙事 + 转化区.",
+  "cover_image": "images/lead-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Independent Surface Studies",
+      "description": "Five independent campaign studies exploring premium layout, hierarchy, and surface polish across different promotional situations."
+    },
+    "zh-CN": {
+      "title": "独立表面研究",
+      "description": "五张独立的高级宣发表面研究图,测试版式、层级和媒介完成度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "lead-study",
+      "title": "Lead Study",
+      "image": "images/lead-study/image.png",
+      "meta": "images/lead-study/meta.json"
+    },
+    {
+      "id": "ensemble-study",
+      "title": "Ensemble Study",
+      "image": "images/ensemble-study/image.png",
+      "meta": "images/ensemble-study/meta.json"
+    },
+    {
+      "id": "product-study",
+      "title": "Product Study",
+      "image": "images/product-study/image.png",
+      "meta": "images/product-study/meta.json"
+    },
+    {
+      "id": "narrative-study",
+      "title": "Narrative Study",
+      "image": "images/narrative-study/image.png",
+      "meta": "images/narrative-study/meta.json"
+    },
+    {
+      "id": "conversion-study",
+      "title": "Conversion Study",
+      "image": "images/conversion-study/image.png",
+      "meta": "images/conversion-study/meta.json"
+    }
+  ]
+}

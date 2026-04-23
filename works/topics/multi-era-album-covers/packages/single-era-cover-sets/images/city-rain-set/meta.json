@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square record-store display mockup with six fictional album covers arranged in a precise 2 by 3 grid on a dark gray wall. The shared concept is City Rain: urban loneliness, reflections, and wet pavement. Each cover has sleeve thickness, print grain, and a believable album-art finish, with no readable text anywhere.\n\nSubject:\nThe 1960s folk cover shows a solitary figure with guitar case under a rainy streetlamp, muted brown film warmth. The 1970s rock cover shows wet asphalt, taxi headlights, smoke, and high-contrast stage-poster energy without text. The 1980s synthwave cover shows neon skyscraper reflections, magenta puddles, cyan grid perspective. The 1990s grunge cover shows torn photocopy rain texture, underpass concrete, muddy green-gray palette. The 2000s emo cover shows a bedroom window overlooking rain, black-blue palette, intimate collage edges. The 2020s hyperpop cover shows glossy chrome umbrellas, impossible reflective puddles, saturated glitchy color.\n\nImportant details:\nThe same visual motif should connect every panel: rain streaks, city reflection, isolation, and wet light. Era differences must appear through photographic texture, color grading, graphic composition, and material finish. Keep covers equally sized and separated by clean gutters. No readable type, no band names, no real cities or famous skyline references; the visual language alone should suggest album covers.\n\nUse case:\nMulti-Era Album Covers single study 4/8, testing urban-rain album art across six music eras.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real artist likeness, no famous album homage, no street signs, no license plates, no random text fragments, no UI panels, no duplicate compositions.",
+  "id": "city-rain-set",
+  "title": "City Rain Set",
+  "description": "A six-era album-cover grid built around city rain, wet pavement, and urban isolation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/city-rain-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent city-rain album cover grid with six era treatments."
+  },
+  "i18n": {
+    "en": {
+      "title": "City Rain Set",
+      "description": "A six-era album-cover grid built around city rain, wet pavement, and urban isolation."
+    },
+    "zh-CN": {
+      "title": "城市雨夜合集",
+      "description": "一组六时代专辑封面,围绕城市雨夜、湿地反光和都市孤独展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "Six fictional album covers sharing rainy city streets and wet reflections.",
+      "zh-CN": "六张共享雨中城市街道和湿地反光母题的虚构专辑封面。"
+    }
+  }
+}

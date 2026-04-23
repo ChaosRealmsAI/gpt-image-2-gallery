@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial image in a rainy glass-walled boardroom at dusk. City lights smear through wet windows, and cool blue ambient light mixes with warm table lamps. The camera is placed at chair height across a dark polished table, with subtle rain reflections and a serious corporate crisis atmosphere. The room should feel real, expensive, and quiet.\n\nSubject:\nA closed black umbrella sits in the lead executive chair, wearing a tailored dark suit jacket that wraps around the folded canopy and central shaft. The curved handle rests near the chair edge like a restrained gesture, while tiny raindrops bead on the waterproof fabric and drip onto a small floor mat below. Around the table are empty chairs, blank briefing sheets, a glass carafe, and a few closed folders, suggesting storm management without literal human participants.\n\nImportant details:\nThe umbrella must remain a real object with folded ribs, fabric seams, metal tip, curved handle, water beads, and credible contact shadows. Anthropomorphism comes only from suit fit, seated placement, and executive staging. The wet fabric should catch soft highlights; droplets should follow gravity along the folds rather than float randomly. Reflections on the table and windows should reinforce the rainy boardroom mood. The concept should read as crisis leadership, not a whimsical cartoon.\n\nUse case:\nObject Boardroom single study 8/8, testing waterproof fabric, rain reflections, folded object geometry, and high-concept commercial staging.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no open umbrella indoors, no floating droplets, no puddle flood, no branded folders, no surreal storm inside the room.",
+  "id": "umbrella-crisis-seat",
+  "title": "Umbrella Crisis Seat",
+  "description": "A closed black umbrella in a dark suit leads a rainy dusk crisis meeting from the executive chair.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/single-object-negotiations/images/umbrella-crisis-seat/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing rain, waterproof fabric, and dusk boardroom staging."
+  },
+  "i18n": {
+    "en": {
+      "title": "Umbrella Crisis Seat",
+      "description": "A closed black umbrella in a dark suit leads a rainy dusk crisis meeting from the executive chair."
+    },
+    "zh-CN": {
+      "title": "雨伞危机席",
+      "description": "一把穿深色西装的闭合黑伞在雨夜董事会会议室里主持危机会议。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "cinematic",
+      "single"
+    ],
+    "alt": {
+      "en": "A closed black umbrella in a tailored suit sits in the executive chair of a rainy glass boardroom.",
+      "zh-CN": "一把穿定制西装的闭合黑伞坐在雨幕玻璃会议室的高管座位上。"
+    }
+  }
+}

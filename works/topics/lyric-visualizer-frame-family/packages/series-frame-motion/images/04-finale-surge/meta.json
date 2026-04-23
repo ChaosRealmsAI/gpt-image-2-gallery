@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square finale frame in the same visualizer universe, now fuller and brighter, with expanded waveform arcs, stronger edge light, and cinematic fog catching the light in broad diagonals. The frame should feel like the culminating loop of a lyric visualizer, but still obey the same composition system established by the reference.\n\nSubject:\nPreserve the same performer silhouette position, waveform logic, panel layout, and invented glyph-family from the reference image. The pseudo-lyric bands become denser and taller, surrounding the figure with a sense of emotional build while staying fully non-readable and visually controlled.\n\nImportant details:\nThis is a system stress test, not a permission to lose discipline. Keep the same grid behavior, same palette family, and same motion package identity while increasing intensity. The result should look like a real music visualizer frame family that could be cut into looped content, social snippets, and launch teasers with consistent ownership.\n\nUse case:\nLyric Frames series study 4/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the core frame grammar from the reference image; no readable subtitles, no software UI, no crowd silhouettes, no random lightning bolts, no cartoon effects",
+  "id": "04-finale-surge",
+  "title": "Finale Surge",
+  "description": "A finale frame that preserves the same visualizer grammar while expanding scale, flare, and pseudo-typographic momentum.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/04-finale-surge/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-echo-frame",
+        "meta_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/meta.json",
+        "image_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Finale-frame variation depending on the root lyric-visualizer frame.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Finale Surge",
+      "description": "A finale frame that preserves the same visualizer grammar while expanding scale, flare, and pseudo-typographic momentum."
+    },
+    "zh-CN": {
+      "title": "尾声爆发帧",
+      "description": "尾声爆发帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A finale lyric-visualizer frame with intensified waveform arcs and non-readable glowing lyric blocks.",
+      "zh-CN": "尾声爆发帧视觉图。"
+    }
+  }
+}

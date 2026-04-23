@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury brand-story page still for a sculptural fragrance launch, presented like an elegant maison website chapter. The page is front-on, spacious, and editorial, using ivory, pale stone, smoky amber, and faint gold-beige tones. The top half should feel like an atmospheric hero spread while the lower half transitions into refined storytelling modules, material close-ups, and subtle chapter dividers. Lighting is soft, luminous, and perfume-advertisement polished.\n\nSubject:\nCenter a sculpted glass fragrance bottle with thick translucent walls, a heavy cap, and liquid tinted like pale amber. Around it, construct a believable brand-story page using abstract headline bars, chapter blocks, ingredient-inspired visual panels, and refined content bands that suggest origin, craft, and collection identity without readable copy. Include one macro crop of the bottle shoulder and glass thickness, and one supporting still-life panel with stone, fabric, and reflected light that implies olfactory mood rather than literal ingredients.\n\nImportant details:\nThe composition must feel like a luxury maison narrative, not an ecommerce product card. Emphasize tactile materials, quiet prestige, and a flow from hero object to craft story to collection context to understated CTA. Glass weight, reflections, cap fit, and liquid level should feel credible. Keep the page restrained, elegant, and expensive, with generous margins and careful chapter rhythm.\n\nUse case:\nLuxury Brand Story Page single study 1/9, testing fragrance storytelling, tactile material close-up, and maison-style chapter pacing.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no loud beauty-ad copy, no flowers exploding around the bottle, no cheap sparkles, no retail shelf scene, no distorted bottle symmetry.",
+  "id": "sculpted-fragrance-chapter",
+  "title": "Sculpted Fragrance Chapter",
+  "description": "A luxury brand-story page still for a sculptural fragrance bottle, combining hero atmosphere with tactile craft chapters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-brand-story-page/packages/single-luxury-story-studies/images/sculpted-fragrance-chapter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent luxury brand-story study focused on a fragrance maison web chapter."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sculpted Fragrance Chapter",
+      "description": "A luxury brand-story page still for a sculptural fragrance bottle, combining hero atmosphere with tactile craft chapters."
+    },
+    "zh-CN": {
+      "title": "雕塑香氛章节页",
+      "description": "一张雕塑感香氛瓶的奢侈品牌故事页静帧，将主视觉氛围与触感工艺章节结合起来。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury fragrance story page with a sculpted glass bottle, craft close-ups, and restrained editorial sections.",
+      "zh-CN": "一张奢华香氛故事页静帧，展示雕塑感玻璃瓶、工艺特写和克制的编辑式章节。"
+    }
+  }
+}

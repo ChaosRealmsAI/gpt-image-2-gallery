@@ -1,0 +1,51 @@
+{
+  "id": "iconic-poster-cast-remix",
+  "slug": "iconic-poster-cast-remix",
+  "category": "design",
+  "style": [
+    "collage",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Iconic Poster Cast Remix",
+  "short_title": "Poster Remix",
+  "description": "A Prompt Atlas theme for rebuilding famous movie-poster composition logic with entirely different character casts, while preserving hierarchy, negative space, and proposal-ready campaign impact.",
+  "i18n": {
+    "en": {
+      "title": "Iconic Poster Cast Remix",
+      "short_title": "Poster Remix",
+      "description": "A Prompt Atlas theme for rebuilding famous movie-poster composition logic with entirely different character casts, while preserving hierarchy, negative space, and proposal-ready campaign impact."
+    },
+    "zh-CN": {
+      "title": "经典海报构图换角",
+      "short_title": "海报换角",
+      "description": "把大众熟悉的经典电影海报构图换成别的影视、动漫或游戏角色，但仍保留原海报一眼能认出的站位、留白和标题层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 130,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-iconic-poster-remix-studies",
+      "type": "single",
+      "title": "Iconic Poster Remix Studies",
+      "path": "packages/single-iconic-poster-remix-studies/package.json"
+    }
+  ]
+}

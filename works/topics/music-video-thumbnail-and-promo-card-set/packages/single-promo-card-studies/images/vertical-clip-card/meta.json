@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square card built from vertical-video logic, with one strong center figure and compressed side modules that imply short-form adaptation. The image should feel optimized for clip reposts and social edits while remaining visually rich and publishable.\n\nSubject:\nOne performer dominates the center while the surrounding environment and abstract side panels suggest motion, cut points, and teaser framing. The result should read like a high-quality social card derived from a short-form clip moment.\n\nImportant details:\nUse composition intelligence to translate vertical energy into a square surface. Keep focus strong, the edges controlled, and the modular fields ready for future overlays. The image should feel release-savvy without looking like a templated social-media preset.\n\nUse case:\nMV Promo Cards single study 7/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no phone UI frame, no extra cast, no emoji overlays, no bright engagement-bait graphics",
+  "id": "vertical-clip-card",
+  "title": "Vertical Clip Card",
+  "description": "A square adaptation of vertical-clip promo logic using strong center focus and abstract side modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/single-promo-card-studies/images/vertical-clip-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical-logic study for the music-video promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Vertical Clip Card",
+      "description": "A square adaptation of vertical-clip promo logic using strong center focus and abstract side modules."
+    },
+    "zh-CN": {
+      "title": "竖裁片段卡",
+      "description": "竖裁片段卡，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A square promo frame adapted from vertical clip logic with strong center focus and abstract side modules.",
+      "zh-CN": "竖裁片段卡视觉图。"
+    }
+  }
+}

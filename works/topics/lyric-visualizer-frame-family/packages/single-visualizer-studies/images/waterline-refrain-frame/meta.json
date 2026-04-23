@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square reflective waterline scene with shallow standing water, low mist, and soft overhead light turning the floor into a mirror. The frame should feel airy and lyrical, like a visualizer still for a refrain that opens emotionally instead of striking hard.\n\nSubject:\nA lone figure stands near the center while abstract lyric bars and curved wave traces hover above the water, mirrored below in softened reflection. The marks remain fully non-readable, functioning as visual timing cues rather than language.\n\nImportant details:\nKeep the palette limited, the reflection realistic, and the glyph rhythm elegant. This image should feel musical, cinematic, and design-led at the same time. The water must support the layout by providing symmetry and echo, not by becoming a special-effects showcase.\n\nUse case:\nLyric Frames single study 9/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable subtitles, no beach setting, no dramatic storm, no fish or surreal creatures, no multicolor nightclub palette",
+  "id": "waterline-refrain-frame",
+  "title": "Waterline Refrain Frame",
+  "description": "A watery refrain frame using ripples, reflection, and floating abstract lyric bars for a softer visualizer mood.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/single-visualizer-studies/images/waterline-refrain-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent reflective-frame study for the lyric frame theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Waterline Refrain Frame",
+      "description": "A watery refrain frame using ripples, reflection, and floating abstract lyric bars for a softer visualizer mood."
+    },
+    "zh-CN": {
+      "title": "水线副歌帧",
+      "description": "水线副歌帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "A reflective waterline lyric frame with floating non-readable bars and soft cinematic haze.",
+      "zh-CN": "水线副歌帧视觉图。"
+    }
+  }
+}

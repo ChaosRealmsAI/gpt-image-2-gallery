@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square short-form clip promo card in the same music-video world, with higher contrast, sharper edges, and a more modular arrangement of abstract promo blocks. The cinematic background hook and subject should remain consistent while the composition becomes more social-share efficient.\n\nSubject:\nPreserve the exact same performer from the reference image, including face shape, hair base, body proportions, and wardrobe silhouette. The figure remains the primary anchor while the background hook and graphic modules shift into a more clipped, repurposable short-form launch surface.\n\nImportant details:\nThis should feel like release-week asset reuse done well. Keep continuity strong, preserve instant recognizability, and use modular non-readable bars where short-form promo metadata could live. The card needs high clarity and strong emotion without becoming clickbait or platform-specific.\n\nUse case:\nMV Promo Cards series study 4/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable labels, no platform UI, no extra cast, no meme arrows, no thumbnail border gimmicks",
+  "id": "04-clip-drop-variant",
+  "title": "Clip Drop Variant",
+  "description": "A clip-drop card preserving the same video identity while increasing contrast and modularity for short-form promo reuse.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/04-clip-drop-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-video-thumbnail",
+        "meta_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/meta.json",
+        "image_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Clip-drop variation depending on the root video thumbnail.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Clip Drop Variant",
+      "description": "A clip-drop card preserving the same video identity while increasing contrast and modularity for short-form promo reuse."
+    },
+    "zh-CN": {
+      "title": "片段发布变体",
+      "description": "片段发布变体，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A clip-drop promo card preserving the same performer and video-world hook with sharper modular layout.",
+      "zh-CN": "片段发布变体视觉图。"
+    }
+  }
+}

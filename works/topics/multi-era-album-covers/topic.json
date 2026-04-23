@@ -1,0 +1,51 @@
+{
+  "id": "multi-era-album-covers",
+  "slug": "multi-era-album-covers",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "retro"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Multi-Era Album Covers",
+  "short_title": "Album Covers",
+  "description": "A Prompt Atlas theme for fictional album-cover sets that reinterpret one musical concept through multiple visual eras, from 1960s folk to 2020s hyperpop.",
+  "i18n": {
+    "en": {
+      "title": "Multi-Era Album Covers",
+      "short_title": "Album Covers",
+      "description": "A Prompt Atlas theme for fictional album-cover sets that reinterpret one musical concept through multiple visual eras, from 1960s folk to 2020s hyperpop."
+    },
+    "zh-CN": {
+      "title": "多时代 Album Cover 专辑封面合集",
+      "short_title": "专辑封面",
+      "description": "测试同一音乐概念在 1960s 民谣、1970s 摇滚、1980s synthwave、1990s grunge、2000s emo、2020s hyperpop 等时代视觉中的重新演绎。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 115,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-era-cover-sets",
+      "type": "single",
+      "title": "Era Cover Sets",
+      "path": "packages/single-era-cover-sets/package.json"
+    }
+  ]
+}

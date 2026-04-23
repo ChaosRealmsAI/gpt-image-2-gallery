@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square fantasy adventure ensemble poster with stormy bronze, moss green, candle gold, and volcanic ember accents. The frame should feel dense but carefully organized, like a high-budget quest-film one-sheet packed with narrative promise. Use mist, map-like texture, and a halo of circular light around the center so the composition reads as mythic and collectible rather than chaotic.\n\nSubject:\nBuild a cast-remix poster from the grammar of a beloved epic quest ensemble. At the center, place an unassuming courier holding a luminous ring-shaped relic; surrounding the courier in a circular orbit are a wolf-armored archer, a scholar-mage carrying scrolls, a stone-skinned giant with cracked runes, a stealthy thief in red silk, a swamp alchemist with jars, and a hawk rider banking across the top edge. The lower band should show a long caravan crossing a cliff path, while the upper corners hold towering mountain silhouettes and a distant dark citadel.\n\nImportant details:\nThe poster must preserve the unmistakable structure of a mythic ensemble campaign: one innocent focal character, concentric supporting faces and figures, and a journey landscape compressed into the lower strip. Keep each character visually distinct yet unified by the same lighting and art direction. The central circular glow should suggest where a title medallion would live, but render it as an abstract emblem or weathered metal form rather than legible typography. Use empty atmospheric pockets for cast lines and release area while maintaining premium adventure-poster balance. The viewer should instantly sense iconic franchise-poster logic despite the entirely original cast.\n\nUse case:\nIconic Poster Cast Remix single study 4/9, testing whether an epic fantasy ensemble poster can keep its recognizable hierarchy after a full cast and world redesign.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct costume duplication from known fantasy films, no overloaded face montage, no modern weapons, no goofy expressions, no flat collage stacking, no title lettering hidden in the ring glow.",
+  "id": "04-arcane-ring-ensemble",
+  "title": "Arcane Ring Ensemble",
+  "description": "A mythic quest-poster remix with a central courier, circular supporting cast, and a caravan crossing the lower horizon.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/04-arcane-ring-ensemble/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with an epic ensemble quest hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arcane Ring Ensemble",
+      "description": "A mythic quest-poster remix with a central courier, circular supporting cast, and a caravan crossing the lower horizon."
+    },
+    "zh-CN": {
+      "title": "奥术环远征阵容",
+      "description": "神话冒险海报换角研究，以中心信使、环形配角阵列和下方行军队伍构成。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A fantasy ensemble poster remix with a glowing relic, orbiting heroes, and a caravan below.",
+      "zh-CN": "一张奇幻阵容海报换角图，中心有发光圣物，四周是英雄群像，下方是行军队伍。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square desert epic poster with ochre, bronze, moon-ivory, and shadow-black tones, presented like an ultra-premium theatrical key art print. The composition should feel monumental and solemn, with windblown sand, colossal scale, and carefully shaped emptiness. Use side lighting that sculpts robes, dunes, and metallic surfaces while leaving deep central shadows for ad-poster gravity.\n\nSubject:\nRemix the grammar of a celebrated desert prophecy poster into a new cast. At the center, place a youthful astronomer wrapped in layered linen and carrying a star compass, slightly forward from two opposing power figures: a masked desert empress in obsidian silk and a rebel mechanic with a weathered exoskeleton sleeve. Behind them, arrange a procession of nomad fighters, a veiled oracle, and a pale synthetic prince riding long-legged sand beasts across the midground. Above the ensemble, show a huge crescent-shaped eclipse and distant fortress towers partially swallowed by dust. The bottom edge should compress into a narrow landscape strip, like a campaign poster preparing space for a title monolith.\n\nImportant details:\nPreserve the instantly recognizable epic-poster hierarchy of central prophet figure, flanking rivals, and an immense celestial symbol dominating the sky. The image must look art-directed, not like random fantasy illustration. Keep the cast placement disciplined, the palette restrained, and the environmental scale overpowering. Indicate title, actor names, and billing as monumental stone slabs, embossed bands, or sand-carved rectangles that remain entirely unreadable. The sense of classical poster authorship matters more than literal references; the viewer should feel the memory of an iconic desert saga without any direct duplication.\n\nUse case:\nIconic Poster Cast Remix single study 6/9, testing whether epic prophetic-poster composition can remain recognizable after a complete recast into a different sci-fantasy world.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct sandworm imitation, no copied costumes from known franchises, no extra spaceships crowding the sky, no parody expressions, no soft shapeless montage, no hidden letters in dunes or eclipse.",
+  "id": "06-desert-prophecy-procession",
+  "title": "Desert Prophecy Procession",
+  "description": "A monumental desert-epic poster remix with a central astronomer, flanking rivals, and an eclipse above a marching procession.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/06-desert-prophecy-procession/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with a desert epic hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Prophecy Procession",
+      "description": "A monumental desert-epic poster remix with a central astronomer, flanking rivals, and an eclipse above a marching procession."
+    },
+    "zh-CN": {
+      "title": "沙漠预言行列",
+      "description": "宏大的沙漠史诗海报换角研究，以中心天文学者、两侧对立势力和上方日蚀为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A desert epic poster remix with a central prophet figure, rivals on both sides, and a giant eclipse.",
+      "zh-CN": "一张沙漠史诗海报换角图，中心是预言者角色，两侧是对立人物，天空有巨大日蚀。"
+    }
+  }
+}

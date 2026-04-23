@@ -1,0 +1,58 @@
+{
+  "id": "hero-reveal-turnaround-pack",
+  "slug": "hero-reveal-turnaround-pack",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "Hero Reveal Turnaround Pack",
+  "short_title": "Hero Reveal",
+  "description": "A Prompt Atlas theme for locked-identity hero launch assets that connect cinematic reveal art, character-select crops, and production turnaround sheets with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Hero Reveal Turnaround Pack",
+      "short_title": "Hero Reveal",
+      "description": "Build a playable-hero reveal pack spanning splash art, bust crop, and multi-view turnaround assets that stay consistent across promo and production use."
+    },
+    "zh-CN": {
+      "title": "角色首曝与三视图包",
+      "short_title": "角色首曝",
+      "description": "围绕一个新角色，同时做首曝主视觉、半身裁切和前后侧三视图，保证宣发图和设定图是同一个角色体系。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 210,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "commercial-mockup",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-hero-launch-system",
+      "type": "series",
+      "title": "Hero Launch System",
+      "path": "packages/series-hero-launch-system/package.json"
+    },
+    {
+      "id": "series-production-turnaround-system",
+      "type": "series",
+      "title": "Production Turnaround System",
+      "path": "packages/series-production-turnaround-system/package.json"
+    }
+  ]
+}

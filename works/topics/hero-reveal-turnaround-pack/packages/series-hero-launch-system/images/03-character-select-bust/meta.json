@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCreate a square bust-focused crop designed like a premium character-select portrait. The camera should frame from upper chest to just above the head, with slight three-quarter rotation, controlled studio lighting, and a background made of layered color blocks, subtle faction geometry, and soft atmospheric glow. Brightness needs to favor the eyes, cheekbones, reactor edge, and shoulder mantle so the face remains readable at small UI sizes. The composition should be clean, centered, and compact, leaving enough breathing room around the silhouette for future card-frame use.\n\nSubject:\nShow the exact same heroine from the reference model with no face drift: an original playable heroine with warm umber skin, an angular heart-shaped face, high cheekbones, a slim slash scar through the left eyebrow, alert amber-brown eyes, and short ivory-white hair cut into an undercut with one long braided tail. Preserve the undercut, braided tail origin, eyebrow scar, cheekbone structure, nose bridge, lip shape, neck length, and athletic upper-body read. Keep only the upper costume zones visible, especially the teal mantle, ember-orange underlayer, crescent reactor, and graphite collar hardware. The expression should be calm, alert, slightly challenging, and suitable for a player selection screen rather than a cinematic battle scream.\n\nImportant details:\nThis image must optimize identity recognition at smaller scale. Eye direction, facial landmarks, palette blocking, and edge lighting should all support instant recognition. Avoid dramatic depth blur that would soften the face. Keep the background abstract and non-narrative, using restrained geometric layering instead of scenery. Skin texture should stay believable, hair fibers should remain stylized but not waxy, and costume material separation must still be clear even in the tighter crop.\n\nUse case:\nHero Reveal Turnaround Pack series study 3/9, building a locked-identity bust crop for select-card and profile surfaces.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and hair base from the reference model, no extreme lens distortion, no screaming expression, no cropped-off chin, no random UI text blocks.",
+  "id": "03-character-select-bust",
+  "title": "Character Select Bust",
+  "description": "A close bust crop of the same heroine designed for character-select and profile-card surfaces.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/03-character-select-bust/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Character Select Bust",
+      "description": "A close bust crop of the same heroine designed for character-select and profile-card surfaces."
+    },
+    "zh-CN": {
+      "title": "选角半身裁切",
+      "description": "适用于角色选择页和资料卡的半身裁切，重点保证小尺寸识别度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A close bust crop of the same heroine designed for character-select and profile-card surfaces.",
+      "zh-CN": "适用于角色选择页和资料卡的半身裁切，重点保证小尺寸识别度。"
+    }
+  }
+}

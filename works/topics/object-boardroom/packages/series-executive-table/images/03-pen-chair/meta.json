@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial photograph set in the same walnut executive boardroom as the reference image. Keep the same eye-level boardroom perspective, polished table, glass skyline, warm overhead lighting, dark leather chairs, and premium corporate atmosphere. The lighting should create crisp specular highlights on lacquer, gold trim, polished wood, and suit fabric without making the scene look staged like a toy set.\n\nSubject:\nAt the head chair sits a black lacquer fountain pen as the executive, dressed in a sharply tailored black suit with a narrow silk tie. The pen stands upright through the jacket as if seated in the chair, its gold nib angled slightly forward like a person leaning into negotiations. The cap, clip, nib slit, feed ribs, lacquer barrel, and tiny metal reflections must be clear and physically plausible. A closed folder, blank paper sheets, and water glass sit nearby without readable text.\n\nImportant details:\nUse the reference image as the boardroom continuity anchor: same table scale, chair shape, reflective surface, and serious meeting mood. The pen must not become a humanoid; it remains a real fountain pen with accurate material transitions from lacquer to metal nib. Anthropomorphic authority is created by composition, wardrobe fit, upright posture, and the direction of the nib. The suit should wrap believably around a long cylindrical object without sleeves or hands.\n\nUse case:\nObject Boardroom series study 3/8, extending the reference boardroom while testing glossy lacquer, metal nib detail, and restrained executive anthropomorphism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no extra human figure, no leaking ink, no brand marks, no impossible bent pen.",
+  "id": "03-pen-chair",
+  "title": "Pen Chair",
+  "description": "A black lacquer fountain pen in a tailored suit leans into the same executive boardroom setup.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/series-executive-table/images/03-pen-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-coffee-chair",
+        "meta_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/meta.json",
+        "image_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference boardroom while replacing the seated executive object with a fountain pen."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pen Chair",
+      "description": "A black lacquer fountain pen in a tailored suit leans into the same executive boardroom setup."
+    },
+    "zh-CN": {
+      "title": "钢笔席位",
+      "description": "一支穿定制西装的黑漆钢笔在同一董事会场景中前倾入席。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A black lacquer fountain pen in a suit sits upright at the head of the same reflective boardroom table.",
+      "zh-CN": "一支穿西装的黑漆钢笔直立坐在同一张反光董事会会议桌主位。"
+    }
+  }
+}

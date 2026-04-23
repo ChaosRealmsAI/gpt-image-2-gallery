@@ -1,0 +1,71 @@
+{
+  "id": "series-release-momentum",
+  "type": "series",
+  "title": "Release Momentum Sequence",
+  "description": "A music-video launch sequence establishing one thumbnail identity and extending it into teaser, premiere, and clip-card surfaces.",
+  "creative_direction": "The root image defines one high-clarity video-thumbnail world with a performer, a cinematic scene hook, and modular promo zones. The following images preserve the same subject and release-world grammar while adapting intensity and hierarchy for adjacent launch cards.",
+  "cover_image": "images/01-reference-video-thumbnail/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-video-thumbnail/meta.json",
+      "images/02-premiere-card-variant/meta.json",
+      "images/03-teaser-still-variant/meta.json",
+      "images/04-clip-drop-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-video-thumbnail first. Use its runtime result URL as --ref for 02-premiere-card-variant, 03-teaser-still-variant, 04-clip-drop-variant. Queue may run 02-premiere-card-variant, 03-teaser-still-variant, 04-clip-drop-variant concurrently after 01-reference-video-thumbnail is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Release Momentum Sequence",
+      "description": "A music-video launch sequence establishing one thumbnail identity and extending it into teaser, premiere, and clip-card surfaces."
+    },
+    "zh-CN": {
+      "title": "发布动能序列",
+      "description": "从 MV 主缩略图延展到 teaser、premiere 与 clip 卡片的发布序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-video-thumbnail",
+      "title": "Reference Video Thumbnail",
+      "image": "images/01-reference-video-thumbnail/image.png",
+      "meta": "images/01-reference-video-thumbnail/meta.json"
+    },
+    {
+      "id": "02-premiere-card-variant",
+      "title": "Premiere Card Variant",
+      "image": "images/02-premiere-card-variant/image.png",
+      "meta": "images/02-premiere-card-variant/meta.json"
+    },
+    {
+      "id": "03-teaser-still-variant",
+      "title": "Teaser Still Variant",
+      "image": "images/03-teaser-still-variant/image.png",
+      "meta": "images/03-teaser-still-variant/meta.json"
+    },
+    {
+      "id": "04-clip-drop-variant",
+      "title": "Clip Drop Variant",
+      "image": "images/04-clip-drop-variant/image.png",
+      "meta": "images/04-clip-drop-variant/meta.json"
+    }
+  ]
+}

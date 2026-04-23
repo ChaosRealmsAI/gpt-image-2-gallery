@@ -1,0 +1,50 @@
+{
+  "id": "magazine-spread-layout",
+  "slug": "magazine-spread-layout",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "multi-image-reference",
+    "structured-layout"
+  ],
+  "title": "Magazine Spread Layout",
+  "short_title": "Magazine Spread",
+  "description": "A Prompt Atlas theme for Magazine Spread Layout, testing multi-image-reference, structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Magazine Spread Layout",
+      "short_title": "Magazine Spread",
+      "description": "A Prompt Atlas theme for Magazine Spread Layout, testing multi-image-reference, structured-layout, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "多页杂志 spread",
+      "short_title": "杂志跨页",
+      "description": "多页杂志 spread：Wired / Vogue 风 · 封面 + 目录 + 特稿 + 视觉大图 · 8 页连贯"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-magazine-spread-layout-studies",
+      "type": "single",
+      "title": "Magazine Spread Layout Studies",
+      "path": "packages/single-magazine-spread-layout-studies/package.json"
+    }
+  ]
+}

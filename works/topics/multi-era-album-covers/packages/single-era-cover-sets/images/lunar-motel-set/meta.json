@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square commercial mockup showing six fictional vinyl album covers arranged in a precise 2 by 3 grid on a neutral studio wall. Each cover is a separate square sleeve with slight paper thickness, realistic print grain, and subtle shadows. The shared concept is Lunar Motel, a lonely roadside motel under a moonlit sky, reinterpreted across six music eras without any readable title text.\n\nSubject:\nPanel 1: 1960s folk, warm muted photograph of a motel sign silhouette, acoustic intimacy, dusty cream border. Panel 2: 1970s rock, high-contrast stage-like motel neon, grainy analog color, dramatic clouds. Panel 3: 1980s synthwave, magenta moon, cyan grid road, chrome motel geometry. Panel 4: 1990s grunge, scratched photocopy texture, desaturated motel room door, torn edges. Panel 5: 2000s emo, rain-streaked window, black-red palette, intimate bedroom framing. Panel 6: 2020s hyperpop, glossy surreal moon-motel collage, saturated candy colors, warped 3D reflections.\n\nImportant details:\nAll six covers must clearly share the same motel and moon motif while changing era-specific visual language, print process, palette, texture, and composition. Keep them as believable album sleeves, not posters or UI cards. Use cover-like margins, central imagery, and commercial mockup lighting. No actual band names, album titles, labels, stickers, or readable type; let the visual era cues carry the concept.\n\nUse case:\nMulti-Era Album Covers single study 1/8, testing six-era style transfer on one fictional album concept.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real artists, no record label marks, no famous album references, no duplicated panel, no random typography, no UI screenshots, no messy collage outside the six covers.",
+  "id": "lunar-motel-set",
+  "title": "Lunar Motel Set",
+  "description": "A six-cover grid translating a moonlit motel album concept from 1960s folk through 2020s hyperpop.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/lunar-motel-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-panel album-cover era study; no external references required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lunar Motel Set",
+      "description": "A six-cover grid translating a moonlit motel album concept from 1960s folk through 2020s hyperpop."
+    },
+    "zh-CN": {
+      "title": "月球汽车旅馆合集",
+      "description": "一组六宫格专辑封面,把月光汽车旅馆概念从 1960s 民谣演绎到 2020s hyperpop。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A 2 by 3 grid of fictional album covers centered on a moonlit motel motif.",
+      "zh-CN": "一组六宫格虚构专辑封面,围绕月光汽车旅馆母题展开。"
+    }
+  }
+}

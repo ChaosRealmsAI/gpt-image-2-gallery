@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square launch card in the same music-video world, with similar dramatic lighting and scene hook but a cleaner area for modular premiere information. The frame should remain instantly linked to the reference thumbnail while feeling slightly more structured and event-oriented.\n\nSubject:\nPreserve the exact same performer from the reference image, including face shape, hair base, body proportions, and wardrobe silhouette. The musician remains the visual anchor, while the background hook and modular promo blocks shift subtly to support a premiere-oriented composition.\n\nImportant details:\nThis should look like the same release campaign adapting to a different surface. Keep the lighting direction, scene hook, and thumbnail clarity intact, but allow more hierarchy space for non-readable countdown or premiere modules. Identity continuity matters more than novelty.\n\nUse case:\nMV Promo Cards series study 2/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable countdown text, no platform UI, no extra cast, no reaction-face exaggeration, no bright graphic stickers",
+  "id": "02-premiere-card-variant",
+  "title": "Premiere Card Variant",
+  "description": "A premiere-card variant preserving the same performer and scene hook while shifting hierarchy toward launch-event emphasis.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/02-premiere-card-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-video-thumbnail",
+        "meta_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/meta.json",
+        "image_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Premiere-card variation depending on the root video thumbnail.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Premiere Card Variant",
+      "description": "A premiere-card variant preserving the same performer and scene hook while shifting hierarchy toward launch-event emphasis."
+    },
+    "zh-CN": {
+      "title": "首映卡片变体",
+      "description": "首映卡片变体，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A music-video premiere card preserving the same performer and dramatic scene hook as the reference thumbnail.",
+      "zh-CN": "首映卡片变体视觉图。"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nDesign a square approval-board layout that feels halfway between a production sheet and a polished wiki deliverable. Use a clean off-white page, modular panel divisions, one prominent full-body figure, one bust crop, one back view, and a row of small costume-detail tiles arranged with precise spacing. Lighting should remain neutral and clear, but the page can feel slightly more polished than a raw turnaround sheet, suitable for publishing to a character encyclopedia or internal presentation deck. Keep the composition balanced, with confident white space and strong grid discipline.\n\nSubject:\nAdapt the exact same heroine from the turnaround reference model into this modular approval layout. Preserve exact face, hair base, body proportions, eyebrow scar, chest reactor, shoulder mantle asymmetry, suit seam logic, holster placement, cape split, glove shapes, and boot structure. Every panel must read as the same person and the same costume family, even though the crop scale varies across full-body, bust, and detail tiles. The bust crop should echo the launch assets while the full-body and back view keep the production clarity.\n\nImportant details:\nThe success condition is coherence across publication and production surfaces. Keep panel spacing orderly, geometry simple, and material rendering believable. Use abstract non-readable bars, ticks, and diagram blocks instead of language. The page should feel ready for a game wiki, approval deck, or internal style guide. Do not let the polished layout introduce new styling drift or decorative clutter.\n\nUse case:\nHero Reveal Turnaround Pack series study 9/9, merging launch polish and production clarity in one wiki-ready approval layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and body proportions from the reference model, no off-model bust crop, no random new accessories, no noisy background pattern, no perspective distortion in the sheet.",
+  "id": "04-wiki-approval-layout",
+  "title": "Wiki Approval Layout",
+  "description": "A polished approval-board style sheet that adapts the same heroine for wiki, catalog, and publishing workflows.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/04-wiki-approval-layout/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-turnaround-sheet",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wiki Approval Layout",
+      "description": "A polished approval-board style sheet that adapts the same heroine for wiki, catalog, and publishing workflows."
+    },
+    "zh-CN": {
+      "title": "百科审批版式",
+      "description": "把同一位英雄整理成兼顾 wiki、资料卡和内部审批用途的模块化版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A polished approval-board style sheet that adapts the same heroine for wiki, catalog, and publishing workflows.",
+      "zh-CN": "把同一位英雄整理成兼顾 wiki、资料卡和内部审批用途的模块化版式。"
+    }
+  }
+}

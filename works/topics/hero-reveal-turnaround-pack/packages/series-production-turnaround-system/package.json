@@ -1,0 +1,72 @@
+{
+  "id": "series-production-turnaround-system",
+  "type": "series",
+  "title": "Production Turnaround System",
+  "description": "A four-image production-facing series that translates the same hero into clean turnaround, orthographic, and approval-sheet assets.",
+  "creative_direction": "Image 01 establishes the technical character-sheet grammar for the same heroine. Images 02-04 preserve exact identity, costume breakdown, armor placement, and silhouette while changing sheet density and production purpose.",
+  "cover_image": "images/01-reference-turnaround-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-turnaround-sheet/meta.json",
+      "images/02-front-side-back-sheet/meta.json",
+      "images/03-equipment-callout-sheet/meta.json",
+      "images/04-wiki-approval-layout/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-turnaround-sheet first. Use its runtime result URL as --ref for 02-front-side-back-sheet, 03-equipment-callout-sheet, and 04-wiki-approval-layout. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Production Turnaround System",
+      "description": "A four-image production-facing series that translates the same hero into clean turnaround, orthographic, and approval-sheet assets."
+    },
+    "zh-CN": {
+      "title": "制作向三视图系统",
+      "description": "把同一位英雄转成干净的 turnaround、正交设定和 wiki 审批页等制作向资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-turnaround-sheet",
+      "title": "Reference Turnaround Sheet",
+      "image": "images/01-reference-turnaround-sheet/image.png",
+      "meta": "images/01-reference-turnaround-sheet/meta.json"
+    },
+    {
+      "id": "02-front-side-back-sheet",
+      "title": "Front Side Back Sheet",
+      "image": "images/02-front-side-back-sheet/image.png",
+      "meta": "images/02-front-side-back-sheet/meta.json"
+    },
+    {
+      "id": "03-equipment-callout-sheet",
+      "title": "Equipment Callout Sheet",
+      "image": "images/03-equipment-callout-sheet/image.png",
+      "meta": "images/03-equipment-callout-sheet/meta.json"
+    },
+    {
+      "id": "04-wiki-approval-layout",
+      "title": "Wiki Approval Layout",
+      "image": "images/04-wiki-approval-layout/image.png",
+      "meta": "images/04-wiki-approval-layout/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square editorial or interface layout study with exact margins, confident grid structure, and premium print or screen presentation. Build the frame around the most distilled expression of the topic’s layout identity. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Magazine Spread Layout theme and should feel immediately legible as a prompt atlas theme for magazine spread layout, testing multi-image-reference, structured-layout, commercial-mockup with gpt image 2..\n\nSubject:\nCenter the study on the most distilled expression of the topic’s layout identity. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of magazine spread layout as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by Wired, Vogue, but keep the result original and specific to this study.\n\nImportant details:\nTypography fields must stay unreadable, but hierarchy, rhythm, and page architecture should feel convincing enough for design review. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Magazine Spread Layout. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nMagazine Spread Layout single study 8/8, testing multi-image-reference, structured-layout, commercial-mockup through the signature layout variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logo lockups from real brands, no broken grid, no arbitrary poster clutter, no malformed columns, no accidental lorem ipsum.",
+  "id": "signature-layout",
+  "title": "Signature Layout",
+  "description": "Signature Layout interprets Magazine Spread Layout as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/magazine-spread-layout/packages/single-magazine-spread-layout-studies/images/signature-layout/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Magazine Spread Layout single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Signature Layout",
+      "description": "Signature Layout interprets Magazine Spread Layout as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "签名式版式",
+      "description": "签名式版式：围绕 多页杂志 spread 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Signature Layout for Magazine Spread Layout.",
+      "zh-CN": "多页杂志 spread主题中的签名式版式图像研究。"
+    }
+  }
+}

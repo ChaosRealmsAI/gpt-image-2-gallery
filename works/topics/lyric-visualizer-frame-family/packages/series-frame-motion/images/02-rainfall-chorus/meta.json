@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square visualizer frame set in the same indigo stage world, now crossed by diagonal rain streaks, brighter waveform flares, and a stronger sense of rhythmic impact. The composition should remain recognizably derived from the reference frame, keeping the same panel structure and silhouette scale while adding a more emotional chorus energy.\n\nSubject:\nPreserve the same performer silhouette placement, waveform geometry, panel spacing, and invented glyph density from the reference image. The performer appears mid-breath and slightly lifted by backlight haze, while the lyric bars intensify into layered glowing stacks that still remain completely non-readable.\n\nImportant details:\nThe purpose is to show how one lyric-visualizer system scales into a chorus frame without losing design control. Keep the same core palette and grid logic, but let rain, flare, and echoing wave lines raise the emotional temperature. The visual rhythm of the pseudo-letterforms must stay coherent with the reference, as if part of the same motion package and song campaign.\n\nUse case:\nLyric Frames series study 2/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the core frame grammar from the reference image; no legible words, no interface timeline, no crowd hands, no harsh daylight, no chaotic particle overload",
+  "id": "02-rainfall-chorus",
+  "title": "Rainfall Chorus",
+  "description": "A chorus-intensity frame that preserves the reference visualizer grammar while pushing the world into rain-streaked emotional release.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/02-rainfall-chorus/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-echo-frame",
+        "meta_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/meta.json",
+        "image_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Chorus-frame variation depending on the root lyric-visualizer frame.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rainfall Chorus",
+      "description": "A chorus-intensity frame that preserves the reference visualizer grammar while pushing the world into rain-streaked emotional release."
+    },
+    "zh-CN": {
+      "title": "雨幕副歌帧",
+      "description": "雨幕副歌帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A rain-streaked lyric-visualizer frame preserving the same waveform and invented-glyph system as the reference.",
+      "zh-CN": "雨幕副歌帧视觉图。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial photograph in the same luxury walnut boardroom as the reference image, preserving the seated eye-level camera, polished table reflections, warm ceiling light, and cool city skyline beyond the glass. The mood is late-evening executive drama, with controlled highlights on leather, metal trim, smoke, and glossy wood. The composition should clearly match the reference room while shifting the chair occupant.\n\nSubject:\nAt the head chair sits a premium brown cigar as the executive, dressed in a tailored deep navy suit jacket scaled around the cigar body. The cigar rests upright in the chair with one end faintly glowing and a thin ribbon of smoke rising toward the ceiling, behaving like real smoke in still air. Its wrapper texture, band-free surface, ash edge, and cylindrical shape must stay physically credible. The suit collar and tie imply authority without adding a face or limbs.\n\nImportant details:\nUse the reference boardroom geometry, table position, chair style, lighting direction, and premium advertising finish. The cigar must remain an actual cigar: veined tobacco wrapper, fragile ash, ember glow, smoke translucency, and grounded contact with the chair. Anthropomorphism comes from executive wardrobe and boardroom placement only. Avoid comedy props; the joke should be dry, elegant, and instantly legible. Table reflections should catch both the cigar silhouette and smoke softness.\n\nUse case:\nObject Boardroom series study 2/8, using the first image as continuity reference while testing smoke, ember light, tobacco texture, and suit integration.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no floating cigar, no exaggerated smoke cloud, no brand band, no unsafe open flame beyond a small ember.",
+  "id": "02-cigar-chair",
+  "title": "Cigar Chair",
+  "description": "A suited cigar occupies the same executive chair, with believable wrapper texture, ember, smoke, and boardroom reflections.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/series-executive-table/images/02-cigar-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-coffee-chair",
+        "meta_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/meta.json",
+        "image_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference boardroom while replacing the seated executive object with a cigar."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cigar Chair",
+      "description": "A suited cigar occupies the same executive chair, with believable wrapper texture, ember, smoke, and boardroom reflections."
+    },
+    "zh-CN": {
+      "title": "雪茄董事",
+      "description": "一根穿西装的雪茄坐在同一高管座位上,保留真实烟叶纹理、微燃端和烟雾反光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A premium cigar in a navy suit sits in the same luxury boardroom chair with thin smoke rising.",
+      "zh-CN": "一根穿深蓝西装的高级雪茄坐在同一豪华会议室座椅上,细烟升起。"
+    }
+  }
+}

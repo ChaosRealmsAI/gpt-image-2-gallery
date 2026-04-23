@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square concept-art turnaround sheet presented like a polished internal production document. The sheet sits perfectly front-facing on a pale neutral background with soft overhead lighting, precise margins, faint alignment guides, and enough breathing room for four body views plus a few accessory insets. The image must feel technical and studio-ready rather than cinematic, with a measured rhythm of negative space and controlled contrast. Keep the brightness even across the sheet so costume seams, silhouette breaks, and material transitions remain readable at a glance.\n\nSubject:\nRender the same heroine established in the launch package: an original playable heroine with warm umber skin, an angular heart-shaped face, high cheekbones, a slim slash scar through the left eyebrow, alert amber-brown eyes, and short ivory-white hair cut into an undercut with one long braided tail, athletic dancer-sprinter build with long legs, narrow waist, and confident upright posture, and the exact costume system of asymmetrical teal shoulder mantle, ember-orange bodysuit, graphite segmented armor, ivory scarf tabs, crescent chest reactor, slim ring-blade sidearm, and split cape panels. Show her in four aligned full-body views on one sheet: front, three-quarter, ninety-degree side, and back. Each view must preserve the same head size, body proportions, facial structure, braid origin, eyebrow scar placement, chest reactor position, shoulder mantle asymmetry, holster placement, cape split, boot height, and armor segmentation. Include a few small accessory insets for the ring-blade, reactor motif, and boot sole tread, but keep the main figure views dominant.\n\nImportant details:\nTreat this as industrial character design. Keep line hierarchy clean, materials believable, and layout structure intentional. Use thin abstract callout boxes and measurement ticks without readable language. The sheet should clearly translate the promo hero into a production-ready deliverable without inventing new costume parts. All four figures must feel like the exact same person viewed from different angles, not like siblings or skin variants.\n\nUse case:\nHero Reveal Turnaround Pack series study 6/9, establishing the technical turnaround grammar for the same launch heroine.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra fifth view, no dramatic action pose, no scenery background, no costume redesign, no facial inconsistency between views, no malformed hands.",
+  "id": "01-reference-turnaround-sheet",
+  "title": "Reference Turnaround Sheet",
+  "description": "A canonical production sheet presenting the same heroine in clean front, three-quarter, side, and back views.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for this series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Turnaround Sheet",
+      "description": "A canonical production sheet presenting the same heroine in clean front, three-quarter, side, and back views."
+    },
+    "zh-CN": {
+      "title": "基准三视图设定表",
+      "description": "用正面、三分之四、侧面和背面建立同一位英雄的制作向设定表。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A canonical production sheet presenting the same heroine in clean front, three-quarter, side, and back views.",
+      "zh-CN": "用正面、三分之四、侧面和背面建立同一位英雄的制作向设定表。"
+    }
+  }
+}

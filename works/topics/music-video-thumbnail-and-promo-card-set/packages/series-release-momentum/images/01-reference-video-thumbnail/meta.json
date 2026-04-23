@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square music-video thumbnail frame with dramatic cinematic lighting, a clear foreground performer, and one strong scene hook in the background such as shattered light, rain haze, or industrial glow. The composition should read instantly at small size while still feeling polished enough for a major release promo surface.\n\nSubject:\nAn invented musician occupies the foreground with one intense expression, defined face shape, distinctive hair base, and strong directional light. This root image must lock the exact face, hair base, body proportions, wardrobe silhouette, and background-hook grammar that later promo cards preserve across the launch sequence.\n\nImportant details:\nDesign for thumbnail survival. Keep one dominant face or silhouette, one dramatic background cue, and one set of modular non-readable bars where title or countdown information could live later. The result should feel natively built for music-video launch culture rather than generic cinematic poster art.\n\nUse case:\nMV Promo Cards series study 1/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable title, no platform logo, no crowd, no extra cast, no thumbnail clickbait arrows, no random collage explosion",
+  "id": "01-reference-video-thumbnail",
+  "title": "Reference Video Thumbnail",
+  "description": "A root music-video thumbnail locking one performer, one cinematic scene hook, and one clear promo-card hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root thumbnail identity for the music-video promo sequence.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Video Thumbnail",
+      "description": "A root music-video thumbnail locking one performer, one cinematic scene hook, and one clear promo-card hierarchy."
+    },
+    "zh-CN": {
+      "title": "基准视频缩略图",
+      "description": "基准视频缩略图，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A high-clarity music-video thumbnail with one performer, cinematic light, and modular non-readable promo zones.",
+      "zh-CN": "基准视频缩略图视觉图。"
+    }
+  }
+}

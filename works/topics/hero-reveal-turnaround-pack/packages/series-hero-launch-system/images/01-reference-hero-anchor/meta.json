@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a polished square hero-introduction frame with a controlled studio-cinematic hybrid setup. The camera sits at a three-quarter full-body distance, slightly below eye level so the figure feels playable and aspirational without becoming exaggerated poster fantasy. Use a soft storm-gray gradient background, a faint illuminated floor ring, and crisp rim light that separates the character silhouette from the backdrop. Brightness should be concentrated on the face, chest reactor, and shoulder mantle, while the corners stay quiet and clean for downstream marketing reuse. The overall image must feel like a finished launch anchor that can guide later references across poster, bust crop, banner, and production-sheet outputs.\n\nSubject:\nCenter an original playable heroine with warm umber skin, an angular heart-shaped face, high cheekbones, a slim slash scar through the left eyebrow, alert amber-brown eyes, and short ivory-white hair cut into an undercut with one long braided tail. Preserve athletic dancer-sprinter build with long legs, narrow waist, and confident upright posture. Her costume language is fixed: asymmetrical teal shoulder mantle, ember-orange bodysuit, graphite segmented armor, ivory scarf tabs, crescent chest reactor, slim ring-blade sidearm, and split cape panels. Keep the body turned slightly off-axis with one foot forward, one hand relaxed near the ring-blade holster, and the other hand open in a calm charge-ready gesture. The expression should be focused, composed, and unmistakably heroic rather than aggressive. The face must be highly legible and repeatable, with the same eyebrow scar, hairline, braid length, cheekbone shape, nose bridge, lip shape, and eye spacing that all later images will preserve.\n\nImportant details:\nThe visual language must balance promo polish with production clarity. Lock the faction palette to teal, ember orange, gunmetal, and soft ivory, keep armor seams believable, and let the chest reactor read as a crescent motif that can recur in every asset. Do not overfill the background. The silhouette should stay readable from thumbnail distance: angular shoulder mantle on one side, narrow waist, long legs, and split cape panels. Materials should feel like premium stylized game rendering, with matte armor, satin fabric, soft skin texture, and controlled emissive accents.\n\nUse case:\nHero Reveal Turnaround Pack series study 1/9, establishing the canonical hero identity for all launch and turnaround assets.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra characters, no oversized weapon swing, no chaotic background scenery, no costume redesign, no face drift, no inaccurate anatomy.",
+  "id": "01-reference-hero-anchor",
+  "title": "Reference Hero Anchor",
+  "description": "A canonical three-quarter hero key art image that locks the heroine identity, silhouette, and faction palette for the promo series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for this series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Hero Anchor",
+      "description": "A canonical three-quarter hero key art image that locks the heroine identity, silhouette, and faction palette for the promo series."
+    },
+    "zh-CN": {
+      "title": "基准英雄锚点",
+      "description": "一张标准三分之四视角英雄主视觉，用来锁定后续宣发系列的身份、轮廓与阵营配色。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A canonical three-quarter hero key art image that locks the heroine identity, silhouette, and faction palette for the promo series.",
+      "zh-CN": "一张标准三分之四视角英雄主视觉，用来锁定后续宣发系列的身份、轮廓与阵营配色。"
+    }
+  }
+}

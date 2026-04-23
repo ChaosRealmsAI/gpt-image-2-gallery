@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square sci-fi action poster soaked in cyan, magenta, black, and chrome, with a glossy wall-poster finish and razor-clean geometric lighting. The image should feel like a premium urban-thriller campaign: highly graphic, high contrast, and arranged around a strong central vanishing corridor. Let reflective surfaces, rain mist, and monitor glow carve hard shapes through the darkness.\n\nSubject:\nCreate a cast-remix poster using the grammar of an iconic cyber-action one-sheet. In the center stands a sleeveless hacker monk wearing luminous prayer-cables, flanked by a white-coated android diplomat and a skater courier balancing on a levitating board. Slightly behind them, stack a bald engineer with transparent interface lenses, a woman with mirrored braids holding a katana, and twin child coders seated cross-legged inside open server racks. The corridor behind the cast recedes into impossible depth, filled with vertical light panels and drifting data shards. Near the bottom, place a cracked concrete floor and a narrow space where a title slab would normally sit.\n\nImportant details:\nThe poster must preserve the clean, iconic grammar of a lineup-in-a-corridor campaign: central hero, flanking allies, vertically ranked antagonistic silhouettes, and a disciplined neon path pulling the eye inward. Avoid random clutter; every prop should reinforce the ad composition. Use abstract rectangular forms, barcode-like ornaments, or glowing geometric seals where taglines and billing areas would live, but keep them nonverbal. The cast should look fully reimagined, as if an entirely new franchise inherited the compositional DNA of a legendary cyber poster without borrowing any exact costume or face.\n\nUse case:\nIconic Poster Cast Remix single study 5/9, testing whether a famous cyber-action poster structure can survive total cast replacement while retaining its instantly legible corridor hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct imitation of known cyberpunk characters, no guns dominating the frame, no incoherent neon graffiti, no duplicated faces, no random city skyline outside the corridor logic, no typography hidden in the light panels.",
+  "id": "05-neon-hacker-corridor",
+  "title": "Neon Hacker Corridor",
+  "description": "A neon cyber-action poster remix with a central hacker monk, flanking allies, and a vanishing corridor of light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/05-neon-hacker-corridor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with a cyber corridor lineup and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Neon Hacker Corridor",
+      "description": "A neon cyber-action poster remix with a central hacker monk, flanking allies, and a vanishing corridor of light."
+    },
+    "zh-CN": {
+      "title": "霓虹黑客长廊",
+      "description": "霓虹赛博动作海报换角研究，以中心黑客僧侣、两侧盟友和纵深长廊为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A neon corridor poster remix with a hacker monk and supporting cyber cast arranged in strict hierarchy.",
+      "zh-CN": "一张霓虹长廊海报换角图，黑客僧侣和赛博配角以严格层级排列。"
+    }
+  }
+}

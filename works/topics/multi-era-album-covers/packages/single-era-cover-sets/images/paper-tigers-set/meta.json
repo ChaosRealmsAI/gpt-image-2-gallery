@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square art-direction board of six fictional album covers in a 2 by 3 grid, mounted with tiny blank clips on a studio wall. The shared concept is Paper Tigers: fragile courage, cut paper animals, and rebellious energy. The covers should look like finished commercial sleeve designs from different music eras, with no readable typography.\n\nSubject:\n1960s folk: hand-cut paper tiger beside an acoustic guitar shadow, warm craft-paper palette. 1970s rock: roaring torn-paper tiger with stage lights and red-orange collage grit. 1980s synthwave: origami tiger in neon grid space, cyan-magenta paper folds. 1990s grunge: photocopied tiger stencil, ripped newsprint textures without readable words, muddy black-white contrast. 2000s emo: notebook-paper tiger silhouette, dark room, red thread and torn edges. 2020s hyperpop: glossy 3D paper tiger with sticker-like layers, saturated colors, playful glitch shapes.\n\nImportant details:\nMaintain the paper tiger motif across all panels while shifting era aesthetics, print texture, and emotional tone. Paper material should stay visible: folds, cuts, torn edges, fibers, shadow layers, and collage seams. The six covers must be equal in size, clearly separated, and physically mounted. Avoid legible newspaper snippets, real band references, or literal album titles.\n\nUse case:\nMulti-Era Album Covers single study 6/8, testing era style transfer on a paper-collage album concept.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real album names, no readable newspaper fragments, no famous tiger logo, no duplicate cover, no extra paper notes, no UI panels, no clutter that hides the six-cover grid.",
+  "id": "paper-tigers-set",
+  "title": "Paper Tigers Set",
+  "description": "A six-era album-cover grid using paper tiger collage as the recurring motif.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/paper-tigers-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-era cover set using a paper tiger motif."
+  },
+  "i18n": {
+    "en": {
+      "title": "Paper Tigers Set",
+      "description": "A six-era album-cover grid using paper tiger collage as the recurring motif."
+    },
+    "zh-CN": {
+      "title": "纸老虎合集",
+      "description": "一组六时代专辑封面,以纸老虎拼贴作为重复母题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A mounted 2 by 3 set of fictional album covers featuring paper tiger motifs.",
+      "zh-CN": "一组装裱的六宫格虚构专辑封面,以纸老虎为母题。"
+    }
+  }
+}

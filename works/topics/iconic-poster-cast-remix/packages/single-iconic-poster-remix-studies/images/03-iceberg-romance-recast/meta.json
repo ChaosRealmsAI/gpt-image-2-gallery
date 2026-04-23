@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square romantic disaster poster with icy blue, charcoal, and moonlit silver tones, designed like a glossy theatrical campaign print. The composition should rise vertically from intimate foreground figures to an overwhelming environmental backdrop, with fog, ocean mist, and star-diffused light blending into soft painterly gradients. Keep the atmosphere grand, sentimental, and immaculate, as if meant for a multiplex lobby display.\n\nSubject:\nRemix the grammar of a legendary doomed-romance poster using a completely new pair of leads: a young cloud-cartographer in a navy expedition coat and a fire magician in a copper gown standing back-to-back above a fractured glacier ship. Beneath them, show a small lower register of supporting characters including a child violinist, an elderly captain with a brass compass, and a pair of deck workers holding lanterns. The giant vessel should angle upward through the center of the image while the romantic leads remain the largest human forms, suspended in a dreamy montage above the disaster.\n\nImportant details:\nThis must read as a recognizable prestige-romance one-sheet structure: oversized lovers, a tilted vessel, and a sentimental fade from close portraiture to catastrophic scale. Preserve the eye path from the couple to the ship to the icy horizon. Let the supporting cast occupy a narrower strip near the bottom so the title zone can sit between the romance and the deck without becoming literal text. Use abstract ornamental shapes where a title, actor names, and release line would normally sit. The cast replacement should feel elegant and inevitable, never like a parody or fan edit.\n\nUse case:\nIconic Poster Cast Remix single study 3/9, testing whether an instantly known romance-disaster poster hierarchy survives a complete fantasy-cast replacement.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct ship recreation from any known film, no photobashed faces, no modern typography, no extra floating heads beyond the planned hierarchy, no muddy background clutter, no obvious parody expression.",
+  "id": "03-iceberg-romance-recast",
+  "title": "Iceberg Romance Recast",
+  "description": "A moonlit romance-disaster poster remix with oversized fantasy lovers above a fractured glacier ship.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/03-iceberg-romance-recast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with an epic romance-disaster hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Iceberg Romance Recast",
+      "description": "A moonlit romance-disaster poster remix with oversized fantasy lovers above a fractured glacier ship."
+    },
+    "zh-CN": {
+      "title": "冰山恋曲换角",
+      "description": "月光色浪漫灾难海报换角研究，以放大的奇幻恋人和断裂冰川舰船构成。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A romantic blue poster remix with two fantasy leads floating above a damaged glacier ship.",
+      "zh-CN": "一张蓝调浪漫海报换角图，两位奇幻主角悬浮在受损的冰川舰船上方。"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nProduce a square orthographic character-sheet image with a bright neutral board, strict spacing, and an even more diagrammatic tone than the reference sheet. The page should emphasize clarity over spectacle, using front, side, and back placements with clean vertical alignment, a faint floor baseline, restrained crop marks, and discreet shape blocks that imply production annotations without readable text. Keep the overall lighting flat enough for technical evaluation while preserving enough material separation to distinguish cloth, armor, and emissive parts.\n\nSubject:\nUse the exact same heroine from the turnaround reference model. Preserve exact face, hair base, body proportions, eyebrow scar, braid length, chest reactor, asymmetrical shoulder mantle, bodysuit seam map, belt and holster logic, cape split, glove shapes, and boot construction. Show front, side, and back views as the dominant content, with one tiny head close-up inset if needed for face clarity. The image should read like a reliable orthographic handoff for modeling or wiki documentation, not like a new concept.\n\nImportant details:\nConsistency is the whole point. Do not beautify away the production logic. Keep silhouette breakpoints measurable and aligned, especially shoulder width, knee height, cape length, and reactor placement. Use a restrained palette of teal, ember orange, gunmetal, and ivory exactly as established in the reference model. Small inset blocks may show belt buckle or gauntlet details, but the main layout must remain clean and orthographic.\n\nUse case:\nHero Reveal Turnaround Pack series study 7/9, translating the same heroine into a stricter front-side-back production sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and body proportions from the reference model, no dramatic perspective, no extra prop clutter, no colorway change, no anatomy drift, no floating UI panels.",
+  "id": "02-front-side-back-sheet",
+  "title": "Front Side Back Sheet",
+  "description": "A cleaner orthographic-focused sheet that simplifies the same heroine into strict front, side, and back production views.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/02-front-side-back-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-turnaround-sheet",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Front Side Back Sheet",
+      "description": "A cleaner orthographic-focused sheet that simplifies the same heroine into strict front, side, and back production views."
+    },
+    "zh-CN": {
+      "title": "正侧背正交设定页",
+      "description": "更偏正交表达的制作图，严格展示同一英雄的正面、侧面和背面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A cleaner orthographic-focused sheet that simplifies the same heroine into strict front, side, and back production views.",
+      "zh-CN": "更偏正交表达的制作图，严格展示同一英雄的正面、侧面和背面。"
+    }
+  }
+}

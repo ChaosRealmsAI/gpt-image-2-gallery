@@ -1,0 +1,79 @@
+{
+  "id": "series-hero-launch-system",
+  "type": "series",
+  "title": "Hero Launch System",
+  "description": "A five-image launch sequence that establishes one new hero and extends her identity across reveal poster, select crop, banner, and ability-marketing art.",
+  "creative_direction": "Image 01 establishes the canonical heroine identity, silhouette, and palette. Images 02-05 preserve the same face, hair base, body proportions, costume logic, and faction color system while translating the hero into different promo surfaces.",
+  "cover_image": "images/01-reference-hero-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-hero-anchor/meta.json",
+      "images/02-splash-launch-poster/meta.json",
+      "images/03-character-select-bust/meta.json",
+      "images/04-victory-banner-pose/meta.json",
+      "images/05-ability-showcase-triptych/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-hero-anchor first. Use its runtime result URL as --ref for 02-splash-launch-poster, 03-character-select-bust, 04-victory-banner-pose, and 05-ability-showcase-triptych. Queue may run 02-05 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Launch System",
+      "description": "A five-image launch sequence that establishes one new hero and extends her identity across reveal poster, select crop, banner, and ability-marketing art."
+    },
+    "zh-CN": {
+      "title": "英雄宣发系统",
+      "description": "用五张连续资产建立同一位新英雄，并把身份延展到首曝海报、选角裁切、横幅与技能营销图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-hero-anchor",
+      "title": "Reference Hero Anchor",
+      "image": "images/01-reference-hero-anchor/image.png",
+      "meta": "images/01-reference-hero-anchor/meta.json"
+    },
+    {
+      "id": "02-splash-launch-poster",
+      "title": "Splash Launch Poster",
+      "image": "images/02-splash-launch-poster/image.png",
+      "meta": "images/02-splash-launch-poster/meta.json"
+    },
+    {
+      "id": "03-character-select-bust",
+      "title": "Character Select Bust",
+      "image": "images/03-character-select-bust/image.png",
+      "meta": "images/03-character-select-bust/meta.json"
+    },
+    {
+      "id": "04-victory-banner-pose",
+      "title": "Victory Banner Pose",
+      "image": "images/04-victory-banner-pose/image.png",
+      "meta": "images/04-victory-banner-pose/meta.json"
+    },
+    {
+      "id": "05-ability-showcase-triptych",
+      "title": "Ability Showcase Triptych",
+      "image": "images/05-ability-showcase-triptych/image.png",
+      "meta": "images/05-ability-showcase-triptych/meta.json"
+    }
+  ]
+}

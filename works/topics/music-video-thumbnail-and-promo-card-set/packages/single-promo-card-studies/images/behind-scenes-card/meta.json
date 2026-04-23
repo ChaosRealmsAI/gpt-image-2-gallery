@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square behind-the-scenes still from an invented music-video set, with practical lights, equipment silhouettes kept soft, and one strong subject moment in the middle. The frame should feel polished enough for release-week promo, not casual production documentation.\n\nSubject:\nThe subject is a musician on set surrounded by hints of production process: light stands blurred in the distance, reflective floor patches, and a half-built scene hook. The image should communicate access and momentum without exposing brand gear or turning into a technical making-of shot.\n\nImportant details:\nKeep the set hints subtle and the composition clean. This should still feel like promo art first. Use cinematic light, one clear focal face or silhouette, and controlled modular zones where contextual information could live later without being rendered now.\n\nUse case:\nMV Promo Cards single study 6/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable slate, no visible brand camera labels, no crowded crew, no platform UI, no messy backstage clutter",
+  "id": "behind-scenes-card",
+  "title": "Behind Scenes Card",
+  "description": "A behind-the-scenes promo card translating set atmosphere and process into a social-share frame.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/single-promo-card-studies/images/behind-scenes-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent behind-the-scenes study for the music-video promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Behind Scenes Card",
+      "description": "A behind-the-scenes promo card translating set atmosphere and process into a social-share frame."
+    },
+    "zh-CN": {
+      "title": "幕后卡片",
+      "description": "幕后卡片，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A behind-the-scenes music-video card with set lighting, crew hints, and a polished social-promo frame.",
+      "zh-CN": "幕后卡片视觉图。"
+    }
+  }
+}

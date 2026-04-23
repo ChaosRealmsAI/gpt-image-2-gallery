@@ -1,0 +1,59 @@
+{
+  "id": "mascot-ip-brand-collab",
+  "slug": "mascot-ip-brand-collab",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Mascot IP Brand Collab",
+  "short_title": "Mascot Collab",
+  "description": "Imagine premium brand collaborations between mascots and recognizable IP characters, spanning key art, packaging, in-store display, and social promo assets.",
+  "i18n": {
+    "en": {
+      "title": "Mascot IP Brand Collab",
+      "short_title": "Mascot Collab",
+      "description": "Imagine premium brand collaborations between mascots and recognizable IP characters, spanning key art, packaging, in-store display, and social promo assets."
+    },
+    "zh-CN": {
+      "title": "品牌吉祥物联名 IP",
+      "short_title": "吉祥物联名",
+      "description": "把品牌 mascot 和热门角色做成官方联名视觉，兼顾包装、门店陈列、海报和社媒宣传资产。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 639,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-character-pack",
+      "type": "series",
+      "title": "Character Pack",
+      "path": "packages/series-character-pack/package.json"
+    },
+    {
+      "id": "single-retail-support",
+      "type": "single",
+      "title": "Retail Support",
+      "path": "packages/single-retail-support/package.json"
+    }
+  ]
+}

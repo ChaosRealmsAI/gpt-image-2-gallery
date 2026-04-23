@@ -1,0 +1,64 @@
+{
+  "id": "single-promo-card-studies",
+  "type": "single",
+  "title": "Promo Card Studies",
+  "description": "Five independent studies of music-video launch surfaces including teaser tiles, clip reminders, behind-the-scenes cards, and social countdown frames.",
+  "creative_direction": "Independent promo cards should feel built for music-video release week: immediate focal point, strong mood hook, modular text-safe zones, and social-share clarity without readable copy or platform branding.",
+  "cover_image": "images/countdown-neon-card/image.png",
+  "i18n": {
+    "en": {
+      "title": "Promo Card Studies",
+      "description": "Five independent studies of music-video launch surfaces including teaser tiles, clip reminders, behind-the-scenes cards, and social countdown frames."
+    },
+    "zh-CN": {
+      "title": "宣传卡研究",
+      "description": "面向 MV 上线周的多种独立宣传卡研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow"
+    ]
+  },
+  "images": [
+    {
+      "id": "countdown-neon-card",
+      "title": "Countdown Neon Card",
+      "image": "images/countdown-neon-card/image.png",
+      "meta": "images/countdown-neon-card/meta.json"
+    },
+    {
+      "id": "behind-scenes-card",
+      "title": "Behind Scenes Card",
+      "image": "images/behind-scenes-card/image.png",
+      "meta": "images/behind-scenes-card/meta.json"
+    },
+    {
+      "id": "vertical-clip-card",
+      "title": "Vertical Clip Card",
+      "image": "images/vertical-clip-card/image.png",
+      "meta": "images/vertical-clip-card/meta.json"
+    },
+    {
+      "id": "reaction-still-card",
+      "title": "Reaction Still Card",
+      "image": "images/reaction-still-card/image.png",
+      "meta": "images/reaction-still-card/meta.json"
+    },
+    {
+      "id": "premiere-lobby-card",
+      "title": "Premiere Lobby Card",
+      "image": "images/premiere-lobby-card/image.png",
+      "meta": "images/premiere-lobby-card/meta.json"
+    }
+  ]
+}

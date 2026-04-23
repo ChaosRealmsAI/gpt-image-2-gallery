@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square contemporary design review mockup showing six fictional album covers in a rigid 2 by 3 grid, each printed as a separate sleeve with subtle edge shadows. The shared concept is Neon Orchard: fruit trees, night lights, and synthetic sweetness. The wall and lighting are neutral so the era differences become the focus.\n\nSubject:\n1960s folk: hand-tinted orchard photograph, warm dusk, acoustic pastoral mood. 1970s rock: overripe fruit under harsh stage lights, smoky reds and oranges, bold analog contrast. 1980s synthwave: neon apple trees on a perspective grid, violet sky, cyan laser-like branches. 1990s grunge: torn orchard photo collage, dirty photocopy texture, muted green-brown palette. 2000s emo: lonely tree outside a bedroom window, black purple night, falling fruit as melancholic symbols. 2020s hyperpop: glossy translucent fruit, chrome branches, candy neon gradients, playful synthetic surfaces.\n\nImportant details:\nAll six covers must share fruit tree, night light, and synthetic sweetness motifs while translating them into different music-era design languages. Keep the album sleeves equal size, physically printed, and free of readable type. Use era-appropriate print grain, photo treatment, collage damage, geometry, and glossy digital surfaces. Avoid real artist references or logo-like fruit symbols.\n\nUse case:\nMulti-Era Album Covers single study 8/8, testing era shifts for one bright orchard album concept.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand fruit icons, no album titles, no artist names, no label marks, no repeated panels, no UI elements, no chaotic layout, no readable stickers.",
+  "id": "neon-orchard-set",
+  "title": "Neon Orchard Set",
+  "description": "A six-era album-cover grid built around a fruit orchard transformed by night light and synthetic color.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/neon-orchard-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-era cover set with orchard and neon continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Neon Orchard Set",
+      "description": "A six-era album-cover grid built around a fruit orchard transformed by night light and synthetic color."
+    },
+    "zh-CN": {
+      "title": "霓虹果园合集",
+      "description": "一组六时代专辑封面,围绕被夜光和合成色彩改造的果园展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Six fictional album covers reinterpreting a neon orchard motif across eras.",
+      "zh-CN": "六张虚构专辑封面,跨时代重新演绎霓虹果园母题。"
+    }
+  }
+}

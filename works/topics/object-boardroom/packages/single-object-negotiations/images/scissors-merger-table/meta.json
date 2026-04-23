@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic advertising photograph in a sleek merger negotiation room with brushed steel trim, a dark oak table, and cool afternoon light from a high window. The camera is centered across the table, slightly low, giving the object an imposing executive presence. The palette is disciplined: graphite, steel, white paper, dark wood, and one precise red accent from a wax seal without readable markings.\n\nSubject:\nA pair of polished tailor's scissors sits upright in the executive chair, wearing a narrow charcoal suit jacket fitted around the crossing handles and blades. The blades are partially open like a measured negotiation stance, but they remain grounded and safe on the chair and table edge. Reflections run along the sharpened metal, screws, bevels, and finger holes. Blank contract pages lie in two neat stacks on either side, suggesting a merger that may be cut, joined, or renegotiated.\n\nImportant details:\nThe scissors must stay physically real: metal thickness, hinge screw, bevel geometry, sharp blade edges, accurate contact shadows, and hard specular reflections. Anthropomorphism comes from the suit, chair position, symmetry, and business context, not from facial features or limbs. The image should communicate sophisticated corporate humor with a clean premium campaign finish. The jacket should not obscure the functional scissor anatomy; the tool must remain instantly recognizable.\n\nUse case:\nObject Boardroom single study 7/8, testing hard metal reflections, tool geometry, business symbolism, and photoreal object staging.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no blood, no violence, no floating blades, no warped hinge, no brand marks, no cluttered paperwork.",
+  "id": "scissors-merger-table",
+  "title": "Scissors Merger Table",
+  "description": "Polished scissors in a charcoal suit sit at a merger table with blank contract stacks and hard metal reflections.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/single-object-negotiations/images/scissors-merger-table/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing sharp metal object geometry in a commercial boardroom concept."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scissors Merger Table",
+      "description": "Polished scissors in a charcoal suit sit at a merger table with blank contract stacks and hard metal reflections."
+    },
+    "zh-CN": {
+      "title": "剪刀并购桌",
+      "description": "一把穿炭灰西装的抛光剪刀坐在并购谈判桌前,周围是空白合同和硬朗金属反光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "Polished tailor's scissors in a charcoal suit sit upright at a corporate merger table.",
+      "zh-CN": "一把穿炭灰西装的抛光裁缝剪刀直立坐在企业并购会议桌前。"
+    }
+  }
+}

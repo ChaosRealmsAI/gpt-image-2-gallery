@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nDesign a square triptych-style promotional board divided into three vertical action windows within one coherent composition. Each panel should feel like a different beat of the same ability showcase, using a restrained storm-tech environment, soft atmospheric haze, and clean panel spacing. Keep the overall board bright and premium, with controlled motion streaks and energy arcs that guide the eye from left to right. Even though three moments appear in one image, the board should stay organized, readable, and market-ready rather than chaotic.\n\nSubject:\nIn all three windows, depict the exact same heroine from the reference model: an original playable heroine with warm umber skin, an angular heart-shaped face, high cheekbones, a slim slash scar through the left eyebrow, alert amber-brown eyes, and short ivory-white hair cut into an undercut with one long braided tail, athletic dancer-sprinter build with long legs, narrow waist, and confident upright posture, and the fixed costume system of asymmetrical teal shoulder mantle, ember-orange bodysuit, graphite segmented armor, ivory scarf tabs, crescent chest reactor, slim ring-blade sidearm, and split cape panels. Panel one can show a ready stance, panel two a mid-cast energy sweep, and panel three a settled recovery pose, but every panel must preserve the same face, hair base, body proportions, and costume logic. The chest reactor and ring-blade should visually connect the sequence, making the board read as one coherent hero ability showcase rather than three different characters.\n\nImportant details:\nThe critical challenge is continuity across multiple poses inside one image. Keep facial features stable even when the head angle changes. Preserve mantle shape, braid length, boot height, armor segmentation, and faction palette. Use motion and energy only to emphasize the ability rhythm, not to hide design inconsistency. The background geometry should remain abstract and supportive, with enough structure to feel like a commercial campaign board.\n\nUse case:\nHero Reveal Turnaround Pack series study 5/9, testing multi-pose ability marketing while keeping the heroine identity locked.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and costume logic from the reference model, no extra ally or enemy characters, no panel text labels, no random color swaps, no broken anatomy in motion.",
+  "id": "05-ability-showcase-triptych",
+  "title": "Ability Showcase Triptych",
+  "description": "A triptych-style promo board that shows the same heroine across three ability moments without losing identity consistency.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/05-ability-showcase-triptych/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Ability Showcase Triptych",
+      "description": "A triptych-style promo board that shows the same heroine across three ability moments without losing identity consistency."
+    },
+    "zh-CN": {
+      "title": "技能展示三联画",
+      "description": "在一张三联式营销板上展示同一位英雄的三个技能瞬间，同时保持身份稳定。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A triptych-style promo board that shows the same heroine across three ability moments without losing identity consistency.",
+      "zh-CN": "在一张三联式营销板上展示同一位英雄的三个技能瞬间，同时保持身份稳定。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury leather-goods brand-story page still, arranged like a chapter on a fashion maison website. The frame uses warm tan, oxblood, walnut brown, and cream highlights, with soft directional light grazing across surfaces to reveal grain and edge paint. The page should feel like a hero campaign image above a sequence of material, workshop, and styling chapters contained within one elegant square composition.\n\nSubject:\nFeature a structured leather bag with rich grain, sharp silhouette, polished hardware, and carefully finished handles. Around it, build a chaptered webpage from abstract title bars, material swatch-style panels, stitching close-up modules, and lifestyle framing bands that imply the bag's origin story and craftsmanship without readable text. Include one macro crop of edge painting and stitch lines, and one supporting panel with leather hides, tools, or folded dust-cover fabric arranged like a fashion still life. The bag remains the central object.\n\nImportant details:\nThe design should express leather craft and maison heritage, not trend-led ecommerce. The bag proportions, leather thickness, stitching, and hardware finish must feel luxurious and manufacturable. Structure the page so the eye moves from hero silhouette to material story to making detail to collection framing. Use quiet chapter rhythm, generous spacing, and rich tactile realism to achieve luxury credibility.\n\nUse case:\nLuxury Brand Story Page single study 4/9, testing leather-goods storytelling with tactile craft detail and chaptered fashion-web structure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no model carrying the bag, no shopping-cart UI, no trend collage clutter, no cheap plastic sheen, no distorted straps or hardware.",
+  "id": "leather-bag-origin-story",
+  "title": "Leather Bag Origin Story",
+  "description": "A luxury brand-story page still for a structured leather bag, centered on tactile material storytelling and maison craft chapters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-brand-story-page/packages/single-luxury-story-studies/images/leather-bag-origin-story/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent luxury brand-story study focused on a leather-goods maison page."
+  },
+  "i18n": {
+    "en": {
+      "title": "Leather Bag Origin Story",
+      "description": "A luxury brand-story page still for a structured leather bag, centered on tactile material storytelling and maison craft chapters."
+    },
+    "zh-CN": {
+      "title": "皮具起源故事页",
+      "description": "一张结构化皮包的奢侈品牌故事页静帧，围绕材质触感叙事和品牌工艺章节展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury leather-bag story page with a structured handbag, leather craft close-ups, and quiet editorial chapters.",
+      "zh-CN": "一张奢华皮具故事页静帧，包含结构化手袋、皮革工艺特写和安静的编辑式章节。"
+    }
+  }
+}

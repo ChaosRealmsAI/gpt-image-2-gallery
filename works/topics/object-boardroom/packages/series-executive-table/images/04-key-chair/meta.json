@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial photograph in the same luxury boardroom established by the reference image. Maintain the eye-level composition across the polished walnut table, warm downlights, glass wall with cool city bokeh, dark leather executive chairs, and controlled premium contrast. The scene should feel like a real photographed advertising concept with believable reflections and scale.\n\nSubject:\nAt the head chair sits a heavy brass door key as the executive, wearing a tailored midnight blue suit jacket and understated tie. The key is upright, with the bow acting like a head-height silhouette but without any face, and the toothed bit grounded near the chair seat. Its brass surface shows scratches, worn edges, darker patina in recessed grooves, and warm highlights from the ceiling lights. The suit fits around the metal object as a bespoke costume rather than a cartoon body.\n\nImportant details:\nUse the first image as the reference for room continuity, table geometry, lens height, chair placement, and serious boardroom mood. The key must retain actual metal weight and geometry: flat shaft, circular bow, cut teeth, worn brass, real contact shadows, and mirror-like table reflection. Anthropomorphism is implied through executive seating, suit tailoring, and negotiation posture. The visual joke should read as boardroom power and access control, not fantasy animation.\n\nUse case:\nObject Boardroom series study 4/8, preserving the reference boardroom while testing tarnished metal, hard reflections, scale control, and object-as-executive staging.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no floating key, no extra keychain, no impossible soft metal bending, no cluttered documents.",
+  "id": "04-key-chair",
+  "title": "Key Chair",
+  "description": "A brass key in a bespoke suit holds the head chair in the same reflective boardroom.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/series-executive-table/images/04-key-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-coffee-chair",
+        "meta_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/meta.json",
+        "image_path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference boardroom while replacing the seated executive object with a brass key."
+  },
+  "i18n": {
+    "en": {
+      "title": "Key Chair",
+      "description": "A brass key in a bespoke suit holds the head chair in the same reflective boardroom."
+    },
+    "zh-CN": {
+      "title": "钥匙主位",
+      "description": "一把穿定制西装的黄铜钥匙坐在同一反光董事会会议室主位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A worn brass key in a midnight blue suit sits at the head chair of a glossy boardroom table.",
+      "zh-CN": "一把磨旧黄铜钥匙穿午夜蓝西装坐在亮面董事会会议桌主位。"
+    }
+  }
+}

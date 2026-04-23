@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCompose a square equipment-callout board that mixes one full-body hero view with organized detail insets on a pale production background. The layout should feel like a studio approval sheet: one dominant standing figure slightly off center, surrounded by smaller callout windows for the ring-blade, chest reactor motif, mantle interior, belt hardware, glove surface, and boot tread. Use soft overhead light, crisp edge definition, and enough spacing so every inset remains readable without any text. The board must feel orderly, technical, and ready for wiki or team review use.\n\nSubject:\nFeature the exact same heroine from the turnaround reference model with no identity drift. Preserve face, hair base, body proportions, eyebrow scar, and the full costume architecture of asymmetrical teal shoulder mantle, ember-orange bodysuit, graphite segmented armor, ivory scarf tabs, crescent chest reactor, slim ring-blade sidearm, and split cape panels. The standing figure can be front-facing or slight three-quarter, but the callout insets must match the same materials and geometry seen on the body. Each inset should reinforce the costume logic rather than invent alternate details. The ring-blade must keep the same crescent language, and the reactor should echo the same motif seen on the chest.\n\nImportant details:\nThis sheet should make production logic legible. Separate matte armor, satin fabric, brushed metal, and soft emissive surfaces clearly. Maintain the same palette and edge hierarchy established earlier. Abstract panel frames and alignment marks are welcome, but there should be no readable labels. The goal is to prove that the hero can survive transition from splash-art charisma into practical asset breakdown without losing recognizability.\n\nUse case:\nHero Reveal Turnaround Pack series study 8/9, testing equipment and material callouts for the same locked-identity heroine.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and costume logic from the reference model, no extra costume variants, no exploded parts floating chaotically, no heavy shadows hiding details, no unrelated props.",
+  "id": "03-equipment-callout-sheet",
+  "title": "Equipment Callout Sheet",
+  "description": "A production sheet pairing the same heroine with clean equipment and material callouts.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/03-equipment-callout-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-turnaround-sheet",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-production-turnaround-system/images/01-reference-turnaround-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Equipment Callout Sheet",
+      "description": "A production sheet pairing the same heroine with clean equipment and material callouts."
+    },
+    "zh-CN": {
+      "title": "装备材质拆解表",
+      "description": "把同一位英雄与装备、材质和结构细节拆解放在一张制作向审批板上。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A production sheet pairing the same heroine with clean equipment and material callouts.",
+      "zh-CN": "把同一位英雄与装备、材质和结构细节拆解放在一张制作向审批板上。"
+    }
+  }
+}

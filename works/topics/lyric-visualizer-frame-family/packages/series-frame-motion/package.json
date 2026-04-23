@@ -1,0 +1,71 @@
+{
+  "id": "series-frame-motion",
+  "type": "series",
+  "title": "Frame Motion Sequence",
+  "description": "A reference-led sequence for lyric-visualizer frames that locks one motion grammar, one atmosphere, and one non-readable glyph system across related shots.",
+  "creative_direction": "The root frame establishes a music-visualizer language built from cinematic stills, motion streaks, waveform geometry, and invented glyph zones. The following images preserve the same framing grammar and pseudo-typographic rhythm while changing emotional intensity and environmental treatment.",
+  "cover_image": "images/01-reference-echo-frame/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-echo-frame/meta.json",
+      "images/02-rainfall-chorus/meta.json",
+      "images/03-whisper-bridge/meta.json",
+      "images/04-finale-surge/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-echo-frame first. Use its runtime result URL as --ref for 02-rainfall-chorus, 03-whisper-bridge, 04-finale-surge. Queue may run 02-rainfall-chorus, 03-whisper-bridge, 04-finale-surge concurrently after 01-reference-echo-frame is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Frame Motion Sequence",
+      "description": "A reference-led sequence for lyric-visualizer frames that locks one motion grammar, one atmosphere, and one non-readable glyph system across related shots."
+    },
+    "zh-CN": {
+      "title": "帧动序列",
+      "description": "锁定同一歌词可视化的帧语法、氛围和不可读字形系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-echo-frame",
+      "title": "Reference Echo Frame",
+      "image": "images/01-reference-echo-frame/image.png",
+      "meta": "images/01-reference-echo-frame/meta.json"
+    },
+    {
+      "id": "02-rainfall-chorus",
+      "title": "Rainfall Chorus",
+      "image": "images/02-rainfall-chorus/image.png",
+      "meta": "images/02-rainfall-chorus/meta.json"
+    },
+    {
+      "id": "03-whisper-bridge",
+      "title": "Whisper Bridge",
+      "image": "images/03-whisper-bridge/image.png",
+      "meta": "images/03-whisper-bridge/meta.json"
+    },
+    {
+      "id": "04-finale-surge",
+      "title": "Finale Surge",
+      "image": "images/04-finale-surge/image.png",
+      "meta": "images/04-finale-surge/meta.json"
+    }
+  ]
+}

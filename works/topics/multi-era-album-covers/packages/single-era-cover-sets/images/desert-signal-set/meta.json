@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square gallery mockup of six fictional album sleeves in a 2 by 3 grid, photographed straight-on with soft even lighting. The common concept is Desert Signal: a mysterious radio transmission crossing an empty desert at night. Each cover should look commercially plausible as a record sleeve from a different era, but none should contain readable text.\n\nSubject:\nThe 1960s folk cover uses faded earth tones, a lone antenna beside an acoustic desert camp, and hand-developed photo warmth. The 1970s rock cover uses a low desert horizon, red sun, amplifier stacks, and heavy film grain. The 1980s synthwave cover uses purple dunes, neon waveform arcs, and geometric star grids. The 1990s grunge cover uses distressed xerox texture, broken radio parts, and muddy beige-black contrast. The 2000s emo cover uses a lonely payphone-like silhouette, blue night rain, and torn diary collage texture. The 2020s hyperpop cover uses glossy 3D sand, chrome antenna shards, and electric cyan-pink signal waves.\n\nImportant details:\nSix panels must share antenna, desert, night sky, and signal-wave motifs while showing distinct decade design logic. Make era style apparent through color science, print texture, object styling, and composition, not text labels. Keep all covers aligned, equal size, and physically printed with sleeve shadows and paper grain.\n\nUse case:\nMulti-Era Album Covers single study 2/8, testing era-specific music visual language on the Desert Signal concept.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real album art, no famous musicians, no label stickers, no readable waveform labels, no sci-fi movie poster text, no random letters, no repeated identical cover.",
+  "id": "desert-signal-set",
+  "title": "Desert Signal Set",
+  "description": "A six-era fictional album-cover set about a radio signal crossing a night desert.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/desert-signal-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-era album cover grid focused on desert radio motifs."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Signal Set",
+      "description": "A six-era fictional album-cover set about a radio signal crossing a night desert."
+    },
+    "zh-CN": {
+      "title": "沙漠信号合集",
+      "description": "一组六时代虚构专辑封面,主题是穿越夜色沙漠的无线电信号。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Six fictional album covers sharing a night desert radio-signal motif.",
+      "zh-CN": "六张共享夜色沙漠无线电信号母题的虚构专辑封面。"
+    }
+  }
+}

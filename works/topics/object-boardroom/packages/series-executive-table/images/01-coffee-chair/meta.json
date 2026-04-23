@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial photograph inside a luxury walnut boardroom at evening, camera at seated eye level across a polished table. Warm recessed ceiling lights and a cool city skyline through glass walls create precise reflections on wood, leather, porcelain, and metal. The room feels expensive and serious, with shallow depth of field but enough clarity to read the full meeting setup.\n\nSubject:\nAt the head chair sits a porcelain coffee cup as the executive, wearing a perfectly tailored charcoal suit jacket built around the cup body. Steam rises naturally from the dark coffee surface like measured breath during a tense meeting. Cuff sleeves, lapels, and tie knot fit the cup without turning it into a cartoon body. Around the table, blurred empty executive chairs, folders without readable text, water glasses, and a silver conference speaker reinforce the boardroom scale.\n\nImportant details:\nThe cup must remain an actual porcelain cup with real thickness, handle, rim, liquid surface, condensation, and gravity. Anthropomorphism comes only from suit tailoring, chair placement, posture implied by composition, and executive staging. Keep hands, eyes, mouth, and facial features absent. Reflections on the table should mirror the cup, suit fabric, and ceiling lights believably. The humor should feel like a premium magazine advertisement, not a mascot illustration.\n\nUse case:\nObject Boardroom series study 1/8, establishing the reference boardroom, tailoring logic, camera height, and photoreal material standard for the series.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no floating object, no impossible fabric clipping, no messy table clutter.",
+  "id": "01-coffee-chair",
+  "title": "Coffee Chair",
+  "description": "A porcelain coffee cup in a tailored suit occupies the chair position at a luxury boardroom table.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/series-executive-table/images/01-coffee-chair/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the executive boardroom continuity series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coffee Chair",
+      "description": "A porcelain coffee cup in a tailored suit occupies the chair position at a luxury boardroom table."
+    },
+    "zh-CN": {
+      "title": "咖啡主席",
+      "description": "一只穿定制西装的瓷咖啡杯坐在豪华董事会会议桌的主位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "series"
+    ],
+    "alt": {
+      "en": "A porcelain coffee cup in a charcoal suit sits at the head of a polished executive boardroom table.",
+      "zh-CN": "一只穿炭灰西装的瓷咖啡杯坐在抛光董事会会议桌主位。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury brand-story page still for a silk scarf collection, styled like an editorial chapter on a couture maison website. The page is luminous and airy, using ivory, blush beige, muted ink blue, and gold-sand accents. It should feel like a soft luxury print story with a hero composition at top and successive chapters about pattern, drape, and hand-finishing below, all within a polished square web frame.\n\nSubject:\nPresent a silk scarf as the hero object, partially folded and partially unfurled so the print language, rolled edges, and sheen are visible. Around it, construct a chaptered webpage with abstract headline bars, print-detail panels, drape studies, and atelier-style close-ups that imply design process and finishing without readable words. Include one macro crop showing hem stitching and silk texture, plus one supporting panel with the scarf floating or arranged as a sculptural textile form. The scarf should remain central, with the page layout amplifying its pattern system and tactile elegance.\n\nImportant details:\nThe image must communicate maison-level textile storytelling rather than a simple product sheet. Silk sheen, print registration, edge rolling, and color transitions should feel physically plausible and refined. The page hierarchy should move from emotional print hero to textile detail to atelier chapter to collection context. Use elegant negative space, balanced chapter bands, and a luxurious softness without becoming vague or pastel generic.\n\nUse case:\nLuxury Brand Story Page single study 5/9, testing silk-scarf storytelling with print-system detail, drape studies, and refined editorial chapter layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no model portrait, no chaotic fashion collage, no cheap satin shine, no wrinkled discount-retail styling, no distorted print geometry.",
+  "id": "silk-scarf-print-atlas",
+  "title": "Silk Scarf Print Atlas",
+  "description": "A luxury brand-story page still for a silk scarf collection, emphasizing print detail, drape, and textile craft chapters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-brand-story-page/packages/single-luxury-story-studies/images/silk-scarf-print-atlas/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent luxury brand-story study focused on a silk scarf print narrative page."
+  },
+  "i18n": {
+    "en": {
+      "title": "Silk Scarf Print Atlas",
+      "description": "A luxury brand-story page still for a silk scarf collection, emphasizing print detail, drape, and textile craft chapters."
+    },
+    "zh-CN": {
+      "title": "丝巾印花图谱页",
+      "description": "一张丝巾系列的奢侈品牌故事页静帧，强调印花细节、垂坠状态与织物工艺章节。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury silk-scarf story page with an unfurled printed scarf, drape studies, and textile detail sections.",
+      "zh-CN": "一张奢华丝巾故事页静帧，展示展开的印花丝巾、垂坠研究和织物细节章节。"
+    }
+  }
+}

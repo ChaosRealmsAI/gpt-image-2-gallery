@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square lyric-visualizer still in the same visual world, now dimmer and more intimate, with fewer waveform arcs, softer haze, and a calmer atmosphere as if the song has entered a reflective bridge. The frame must remain structurally tied to the reference rather than inventing a new system.\n\nSubject:\nPreserve the same performer silhouette scale, panel placement, wave curvature, and non-readable glyph language from the reference image. The performer appears more isolated within the frame, while only a few lyric bars and faint motion echoes remain visible, creating a sense of breath and restraint.\n\nImportant details:\nThis image should demonstrate dynamic range inside one lyric-visualizer package. Keep the same indigo-silver world, the same disciplined empty zones, and the same non-verbal text rhythm, but reduce density and brightness so the frame feels introspective. The key success factor is continuity: it must clearly belong to the same song system even when the energy drops.\n\nUse case:\nLyric Frames series study 3/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the core frame grammar from the reference image; no readable lyrics, no black void emptiness, no unrelated props, no photo-real audience, no oversaturated color swirls",
+  "id": "03-whisper-bridge",
+  "title": "Whisper Bridge",
+  "description": "A quieter bridge frame preserving the same layout language while reducing light, density, and motion to a more intimate register.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/03-whisper-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-echo-frame",
+        "meta_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/meta.json",
+        "image_path": "works/topics/lyric-visualizer-frame-family/packages/series-frame-motion/images/01-reference-echo-frame/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Bridge-frame variation depending on the root lyric-visualizer frame.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Whisper Bridge",
+      "description": "A quieter bridge frame preserving the same layout language while reducing light, density, and motion to a more intimate register."
+    },
+    "zh-CN": {
+      "title": "低语桥段帧",
+      "description": "低语桥段帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A quieter lyric-visualizer bridge frame using the same glyph and waveform system with reduced density.",
+      "zh-CN": "低语桥段帧视觉图。"
+    }
+  }
+}

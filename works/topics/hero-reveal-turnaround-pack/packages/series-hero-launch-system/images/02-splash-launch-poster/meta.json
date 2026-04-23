@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nBuild a square splash-art poster scene on a wind-cut rooftop above a futuristic city at dusk. The camera is wider and lower than the reference image, pushing the heroine into a launch-ready stance against layered clouds, distant towers, and streaks of teal electrical atmosphere. Keep the background simplified enough for a poster surface, with light concentrated around the figure and the skyline falling into soft depth haze. Motion should come from cape panels, sparks, and angled rain trails rather than from clutter. The frame should feel premium, commercial, and immediately legible as a hero reveal asset.\n\nSubject:\nUse the exact same heroine from the reference model: an original playable heroine with warm umber skin, an angular heart-shaped face, high cheekbones, a slim slash scar through the left eyebrow, alert amber-brown eyes, and short ivory-white hair cut into an undercut with one long braided tail, athletic dancer-sprinter build with long legs, narrow waist, and confident upright posture, and the same fixed costume system of asymmetrical teal shoulder mantle, ember-orange bodysuit, graphite segmented armor, ivory scarf tabs, crescent chest reactor, slim ring-blade sidearm, and split cape panels. She stands on a rooftop ledge with one knee bent and the ring-blade partially unfolded, not fully swung. Her expression remains composed and strategic. Preserve exact face, hair base, body proportions, armor placement, and palette from the reference model while shifting only the scene energy and pose intensity. The viewer must instantly recognize that the poster and the anchor image feature the same playable hero.\n\nImportant details:\nKeep the chest reactor, eyebrow scar, undercut braid, asymmetrical mantle, and split cape panels visibly consistent. The poster can amplify atmosphere with electric arcs and rain glow, but it must not mutate the costume or body plan. Use bold negative space around the upper body so the image can later support title-safe crops. Materials should stay within stylized premium game-art rendering: satin cloth, brushed gunmetal, subtle skin texture, and disciplined emissive cyan highlights.\n\nUse case:\nHero Reveal Turnaround Pack series study 2/9, testing locked-identity splash poster execution for launch marketing.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and costume logic from the reference model, no flying debris wall, no extra squad members, no impossible weapon scale, no off-palette VFX.",
+  "id": "02-splash-launch-poster",
+  "title": "Splash Launch Poster",
+  "description": "A cinematic launch poster showing the same heroine in a dramatic energy-charged battlefield reveal.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/02-splash-launch-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Splash Launch Poster",
+      "description": "A cinematic launch poster showing the same heroine in a dramatic energy-charged battlefield reveal."
+    },
+    "zh-CN": {
+      "title": "首曝海报",
+      "description": "同一位英雄在能量战场中的首曝海报版本，保持锁定身份并强化宣发张力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A cinematic launch poster showing the same heroine in a dramatic energy-charged battlefield reveal.",
+      "zh-CN": "同一位英雄在能量战场中的首曝海报版本，保持锁定身份并强化宣发张力。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "music-video-thumbnail-and-promo-card-set",
+  "slug": "music-video-thumbnail-and-promo-card-set",
+  "category": "design",
+  "capability": [
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Music Video Thumbnail and Promo Card Set",
+  "short_title": "MV Promo Cards",
+  "description": "Build promo-card sets for music-video launches with thumbnail clarity and release-week momentum.",
+  "i18n": {
+    "en": {
+      "title": "Music Video Thumbnail and Promo Card Set",
+      "short_title": "MV Promo Cards",
+      "description": "Build promo-card sets for music-video launches with thumbnail clarity and release-week momentum."
+    },
+    "zh-CN": {
+      "title": "MV 缩略图与宣传卡组",
+      "short_title": "MV宣传",
+      "description": "做 MV 缩略图与宣传卡组，强调缩略图清晰和 release-week momentum。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 1000,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-release-momentum",
+      "type": "series",
+      "title": "Release Momentum Sequence",
+      "path": "packages/series-release-momentum/package.json"
+    },
+    {
+      "id": "single-promo-card-studies",
+      "type": "single",
+      "title": "Promo Card Studies",
+      "path": "packages/single-promo-card-studies/package.json"
+    }
+  ]
+}

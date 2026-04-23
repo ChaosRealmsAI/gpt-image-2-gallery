@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square tunnel environment formed by parallel light bars disappearing into smoke, with a static central camera and a strong sense of depth. The scene should feel like a music-video visualizer environment translated into a single clear promo frame.\n\nSubject:\nThe subject is the tunnel itself plus a minimal performer silhouette deep in the center, surrounded by floating bands of invented glyph marks and faint waveform scaffolds. The image should suggest lyric pacing and song structure through repetition, distance, and glow rather than literal subtitles.\n\nImportant details:\nUse the tunnel geometry to organize the frame, keeping the pseudo-typography secondary but integral. Light should sculpt the smoke, the glyph bands should sit in believable planes, and the whole image should feel ready for looped motion adaptation. It must be emotionally musical, not sci-fi wallpaper.\n\nUse case:\nLyric Frames single study 6/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable words, no visible stage audience, no spaceship cues, no hard lens distortions, no random multicolor noise",
+  "id": "smoke-tunnel-glyphs",
+  "title": "Smoke Tunnel Glyphs",
+  "description": "A smoke-tunnel frame where light bars and abstract lyric glyphs carve a tunnel through darkness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/single-visualizer-studies/images/smoke-tunnel-glyphs/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent tunnel-frame study for the lyric frame theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Smoke Tunnel Glyphs",
+      "description": "A smoke-tunnel frame where light bars and abstract lyric glyphs carve a tunnel through darkness."
+    },
+    "zh-CN": {
+      "title": "烟雾通道字形帧",
+      "description": "烟雾通道字形帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "A dark smoke tunnel with abstract lyric glyph bars and cinematic light cuts.",
+      "zh-CN": "烟雾通道字形帧视觉图。"
+    }
+  }
+}

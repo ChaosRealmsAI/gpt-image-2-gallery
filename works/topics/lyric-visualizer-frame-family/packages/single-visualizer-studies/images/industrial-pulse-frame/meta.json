@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square industrial interior with steel beams, wet floor reflections, and a few strong practical lights cutting through haze. The architecture should give the frame pulse and weight while remaining sparse enough for motion graphics and pseudo-lyric elements to breathe.\n\nSubject:\nA compact performer silhouette stands against the architectural grid while stacked bands of invented glyphs, pulse lines, and translucent blocks hang in front and behind them. The image should feel hard-edged and rhythmic, like a visualizer for a percussive track.\n\nImportant details:\nUse architecture as tempo. Beam spacing, floor reflections, and light cuts should reinforce the pseudo-typographic rhythm. Keep the frame legible and product-ready, avoiding random texture overload. The song energy should be evident through structure and light rather than through readable titles or explicit interfaces.\n\nUse case:\nLyric Frames single study 8/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no factory workers, no safety signage, no readable labels, no orange sparks, no heavy machinery dominating the frame",
+  "id": "industrial-pulse-frame",
+  "title": "Industrial Pulse Frame",
+  "description": "A harder-edged visualizer frame combining industrial architecture, pulse-line rhythm, and abstract lyric stacks.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/single-visualizer-studies/images/industrial-pulse-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent industrial-frame study for the lyric frame theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Industrial Pulse Frame",
+      "description": "A harder-edged visualizer frame combining industrial architecture, pulse-line rhythm, and abstract lyric stacks."
+    },
+    "zh-CN": {
+      "title": "工业脉冲帧",
+      "description": "工业脉冲帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "An industrial lyric-visualizer frame with pulse-line rhythm and stacked non-readable glyph bands.",
+      "zh-CN": "工业脉冲帧视觉图。"
+    }
+  }
+}

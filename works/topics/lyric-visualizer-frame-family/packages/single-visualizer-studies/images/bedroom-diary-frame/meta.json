@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square bedroom scene at night with warm practical lamp light, soft shadows, and a simple bed or chair kept mostly in silhouette. The frame should feel personal and song-specific, as if a lyric visualizer briefly entered a diary-like interior world.\n\nSubject:\nA single figure sits near the bed edge or window, surrounded by suspended bars of non-readable lyric marks and faint glowing line paths that move through the room like memory traces. The layout should remain controlled and graphic despite the softness of the scene.\n\nImportant details:\nMake the intimacy believable without becoming lifestyle photography. The pseudo-text should behave like emotional residue, not subtitles. Use the room sparingly, focus on negative space, and let warm light plus a few cool accents create a layered emotional frame that could support a quiet song section or teaser clip.\n\nUse case:\nLyric Frames single study 7/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable notes on walls, no brand products, no cluttered bedroom mess, no daylight, no literal smartphone interface",
+  "id": "bedroom-diary-frame",
+  "title": "Bedroom Diary Frame",
+  "description": "An intimate bedroom lyric frame using practical light, floating pseudo-lyric bars, and diary-like emotional restraint.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/single-visualizer-studies/images/bedroom-diary-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent intimate-frame study for the lyric frame theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Bedroom Diary Frame",
+      "description": "An intimate bedroom lyric frame using practical light, floating pseudo-lyric bars, and diary-like emotional restraint."
+    },
+    "zh-CN": {
+      "title": "卧室日记帧",
+      "description": "卧室日记帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "An intimate bedroom lyric frame with warm practical light and abstract floating lyric bars.",
+      "zh-CN": "卧室日记帧视觉图。"
+    }
+  }
+}

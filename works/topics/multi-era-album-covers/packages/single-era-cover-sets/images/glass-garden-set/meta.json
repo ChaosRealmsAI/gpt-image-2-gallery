@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square studio presentation of six album-cover mockups laid out as a clean 2 by 3 wall grid. The shared fictional album concept is Glass Garden: plants growing inside transparent architecture. The mockup should feel like a design portfolio spread, with real printed sleeves, slight gloss variation, and consistent cover dimensions.\n\nSubject:\n1960s folk: soft analog photo of a greenhouse, wildflowers, muted green and cream, handmade quietness. 1970s rock: dramatic backlit conservatory, dense vines, smoky amber stage mood, bold contrast. 1980s synthwave: glass palmhouse rendered as neon wireframe, magenta sky, cyan reflections, geometric floor. 1990s grunge: scratched botanical collage, cracked greenhouse panes, xerox gray-green decay. 2000s emo: rain on glass, wilted flowers, black teal palette, intimate melancholic close-up. 2020s hyperpop: liquid glass blossoms, iridescent greenhouse, glossy 3D petals, saturated digital color.\n\nImportant details:\nAll six panels must preserve the glass-garden motif while showing clear changes in decade-specific cover design, print texture, palette, and image-making technology. Use no readable text; composition and visual grammar should imply album sleeves. Keep the covers separate, equal, and physically plausible with paper edges, subtle reflections, and shadows. Avoid referencing any real band, album, or label.\n\nUse case:\nMulti-Era Album Covers single study 3/8, testing one botanical-glass concept across six album-design eras.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real album references, no brand marks, no typography fragments, no identical panels, no gallery labels, no random QR codes, no extra covers outside the six-panel grid.",
+  "id": "glass-garden-set",
+  "title": "Glass Garden Set",
+  "description": "A six-cover grid reimagining a glass greenhouse album concept across visual eras.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/glass-garden-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-era cover set with greenhouse and botanical continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass Garden Set",
+      "description": "A six-cover grid reimagining a glass greenhouse album concept across visual eras."
+    },
+    "zh-CN": {
+      "title": "玻璃花园合集",
+      "description": "一组六宫格专辑封面,跨时代重构玻璃温室与植物的音乐概念。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Six fictional album sleeves exploring a glass garden motif in different eras.",
+      "zh-CN": "六张虚构专辑封套,以不同时代风格探索玻璃花园母题。"
+    }
+  }
+}

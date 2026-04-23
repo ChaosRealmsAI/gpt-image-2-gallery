@@ -1,0 +1,71 @@
+{
+  "id": "series-core-campaign-system",
+  "type": "series",
+  "title": "Core Campaign System",
+  "description": "A reference-dependent campaign system: one anchor asset establishes hierarchy and visual language, then three rollout variants preserve the same brand or narrative logic across surfaces.",
+  "creative_direction": "Image 01 defines the core hierarchy, narrative entry point, and premium campaign finish. Images 02-04 must preserve the same system while adapting to tighter composition, rollout context, and mood shift without losing recognizability. Theme dimension: 多设备 mockup + 滚动叙事 + 转化区.",
+  "cover_image": "images/01-anchor-visual/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-anchor-visual/meta.json",
+      "images/02-tight-hierarchy/meta.json",
+      "images/03-environment-rollout/meta.json",
+      "images/04-mood-shift-variant/meta.json"
+    ],
+    "ref_strategy": "Run 01-anchor-visual first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent images concurrently after the anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Campaign System",
+      "description": "A reference-dependent campaign system: one anchor asset establishes hierarchy and visual language, then three rollout variants preserve the same brand or narrative logic across surfaces."
+    },
+    "zh-CN": {
+      "title": "核心宣发系统",
+      "description": "先用一张主视觉建立层级和视觉语言,再做三张延展资产,在不同媒介表面上保持同一宣发逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-anchor-visual",
+      "title": "Anchor Visual",
+      "image": "images/01-anchor-visual/image.png",
+      "meta": "images/01-anchor-visual/meta.json"
+    },
+    {
+      "id": "02-tight-hierarchy",
+      "title": "Tight Hierarchy",
+      "image": "images/02-tight-hierarchy/image.png",
+      "meta": "images/02-tight-hierarchy/meta.json"
+    },
+    {
+      "id": "03-environment-rollout",
+      "title": "Environment Rollout",
+      "image": "images/03-environment-rollout/image.png",
+      "meta": "images/03-environment-rollout/meta.json"
+    },
+    {
+      "id": "04-mood-shift-variant",
+      "title": "Mood Shift Variant",
+      "image": "images/04-mood-shift-variant/image.png",
+      "meta": "images/04-mood-shift-variant/meta.json"
+    }
+  ]
+}

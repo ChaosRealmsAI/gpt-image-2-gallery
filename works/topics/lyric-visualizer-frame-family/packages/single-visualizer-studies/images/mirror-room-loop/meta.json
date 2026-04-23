@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square mirror-lined room with moody blue light, shallow haze, and a performer seen both directly and in fragmented reflections. The image should feel like a loop still from a lyric visualizer, where the room itself produces rhythm and repetition before any readable language appears.\n\nSubject:\nA lone performer figure occupies the center while reflected copies stretch into the mirrors. Around the figure sit floating bars of invented glyph marks, faint waveform traces, and translucent rectangular panels that imply lyric pacing without displaying actual words.\n\nImportant details:\nThe mirrors should amplify repetition, timing, and emotional echo. Keep the pseudo-typography abstract and elegant, let the reflections reinforce the beat, and make the composition feel intentionally designed for music promo use. The frame should carry both atmosphere and layout discipline, not just glossy mood.\n\nUse case:\nLyric Frames single study 5/9 for the Lyric Visualizer Frame Family Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no visible software frame, no crowd, no lens-flare overload, no neon club logos",
+  "id": "mirror-room-loop",
+  "title": "Mirror Room Loop",
+  "description": "A mirror-room lyric frame with reflected performer fragments and stacked invented glyph trails.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/lyric-visualizer-frame-family/packages/single-visualizer-studies/images/mirror-room-loop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent visualizer study for the lyric frame theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Mirror Room Loop",
+      "description": "A mirror-room lyric frame with reflected performer fragments and stacked invented glyph trails."
+    },
+    "zh-CN": {
+      "title": "镜室循环帧",
+      "description": "镜室循环帧，用于歌词可视化主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "single"
+    ],
+    "alt": {
+      "en": "A lyric-visualizer still set in a mirror room with reflected figure fragments and non-readable glyph trails.",
+      "zh-CN": "镜室循环帧视觉图。"
+    }
+  }
+}

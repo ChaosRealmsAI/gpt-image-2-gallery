@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square teaser card in the same video world, now darker and more withheld, with slightly reduced light and more negative space around the performer. The scene hook should still remain visible, but the mood should shift toward curiosity and suspense rather than full launch clarity.\n\nSubject:\nPreserve the exact same performer from the reference image with identical face shape, hair base, body proportions, and wardrobe silhouette. The figure appears more partially shadowed, while the background hook remains recognizable enough to maintain campaign continuity.\n\nImportant details:\nUse restraint to create teaser momentum. Keep the same cinematic world, same strong face or silhouette, and same modular promo logic, but lower density and reveal. This image should still survive as a thumbnail while clearly behaving like an earlier-stage promo card inside the same video release system.\n\nUse case:\nMV Promo Cards series study 3/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no readable teaser text, no platform icons, no extra cast, no meme-like reaction composition, no busy special effects",
+  "id": "03-teaser-still-variant",
+  "title": "Teaser Still Variant",
+  "description": "A teaser still preserving the same release world while increasing mystery and reducing information density.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/03-teaser-still-variant/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-video-thumbnail",
+        "meta_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/meta.json",
+        "image_path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/series-release-momentum/images/01-reference-video-thumbnail/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Teaser-still variation depending on the root video thumbnail.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Teaser Still Variant",
+      "description": "A teaser still preserving the same release world while increasing mystery and reducing information density."
+    },
+    "zh-CN": {
+      "title": "预告静帧变体",
+      "description": "预告静帧变体，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "series"
+    ],
+    "alt": {
+      "en": "A teaser still preserving the same performer and release-world hook while reducing information density.",
+      "zh-CN": "预告静帧变体视觉图。"
+    }
+  }
+}

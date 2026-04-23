@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square night-action poster in graphite, sodium gold, and wet cobalt, rendered like a premium offset print with rain streaks and subtle paper tooth. The frame should be dominated by one giant shadowy profile or torso silhouette, leaving sculpted empty space across the top and one side. Urban haze, lens bloom, and reflected streetlight should create a moody metropolitan atmosphere without overwhelming the clean poster read.\n\nSubject:\nRemix the grammar of an iconic brooding vigilante poster with an entirely different hero. Show a masked rooftop archivist wearing a long weatherproof coat and carrying illuminated evidence capsules, framed in three-quarter profile so the body becomes the main graphic shape. Inside and around that silhouette, layer a narrow alley chase, a motorcycle spray turn, a red flare held by an undercover drummer, and a stern municipal investigator standing under an umbrella. Let a towering art-deco skyline rise behind the archivist, with one searchlight beam cutting diagonally across the composition and a puddled street running along the bottom.\n\nImportant details:\nThe poster must preserve the classic one-hero dominance, rain-soaked melancholy, and clean ad spacing of a prestige vigilante campaign. The supporting story beats should remain secondary, almost embedded into the giant silhouette rather than competing with it. Use abstract metallic slabs, embossed rectangles, and moody light bands where title, cast names, and studio marks would normally live, but keep every mark unreadable. The composition should feel serious, sleek, and instantly marketable, with a fully reimagined protagonist instead of a familiar bat-eared figure.\n\nUse case:\nIconic Poster Cast Remix single study 7/9, testing whether a brooding vigilante-poster silhouette can retain iconic readability after total hero and narrative replacement.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bat symbols, no copied superhero suits, no comic-panel fragmentation, no excessive lightning effects, no cluttered crowd scenes, no hidden letters in the searchlight beam.",
+  "id": "07-rain-vigilante-profile",
+  "title": "Rain Vigilante Profile",
+  "description": "A rain-soaked vigilante-poster remix with one dominant rooftop archivist silhouette and embedded urban story beats.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/07-rain-vigilante-profile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with a vigilante silhouette hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Vigilante Profile",
+      "description": "A rain-soaked vigilante-poster remix with one dominant rooftop archivist silhouette and embedded urban story beats."
+    },
+    "zh-CN": {
+      "title": "雨夜义警侧影",
+      "description": "雨夜义警海报换角研究，以主导性的屋顶档案守护者轮廓和嵌入式都市情节为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A dark rainy poster remix with one huge vigilante silhouette containing smaller city action scenes.",
+      "zh-CN": "一张黑暗雨夜海报换角图，巨大的义警轮廓内部嵌有更小的城市动作场景。"
+    }
+  }
+}

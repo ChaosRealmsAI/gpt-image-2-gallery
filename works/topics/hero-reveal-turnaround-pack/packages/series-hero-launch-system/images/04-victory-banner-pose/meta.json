@@ -1,0 +1,68 @@
+{
+  "prompt": "Scene:\nCompose a square banner-style hero shot intended for victory screens and campaign surfaces. Use a bright, polished environment with angled spotlight beams, floating embers, and a simplified arena backdrop that fades into soft depth. The camera should sit at mid-to-full body distance with a slightly elevated framing that feels triumphant without losing the body silhouette. The lighting is cleaner and more celebratory than the launch poster: crisp highlights, subtle bloom, and a controlled glow that makes the hero feel premium and collectible.\n\nSubject:\nPresent the same heroine from the reference model, preserving exact face, hair base, body proportions, and costume logic. She shifts into a confident post-match pose: one hip relaxed, shoulders squared, ring-blade folded, chin slightly raised, and a restrained victorious smile. Keep the eyebrow scar, amber-brown eyes, ivory undercut braid, chest reactor, teal mantle, ember-orange suit panels, and graphite armor placement unchanged. The image should read as the identical hero after a successful match, not as a redesigned variant.\n\nImportant details:\nFocus on strong silhouette readability and celebratory polish. The split cape panels may flare slightly, but their shape must remain consistent. Emissive accents should stay elegant and limited to reactor and subtle edge lighting. Use a premium game-banner finish with clean gradients and material clarity rather than noisy battle effects. The costume seams, holster placement, boot structure, and shoulder asymmetry must remain locked for downstream marketing coherence.\n\nUse case:\nHero Reveal Turnaround Pack series study 4/9, testing a victory-banner crop that still preserves the canonical launch identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face and body proportions from the reference model, no trophy props, no crowd, no confetti overload, no costume recolor, no exaggerated grin.",
+  "id": "04-victory-banner-pose",
+  "title": "Victory Banner Pose",
+  "description": "A celebratory hero banner crop that keeps the same identity while shifting into a polished end-of-match presentation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "commercial-mockup",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/04-victory-banner-pose/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-hero-anchor",
+        "meta_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/meta.json",
+        "image_path": "works/topics/hero-reveal-turnaround-pack/packages/series-hero-launch-system/images/01-reference-hero-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the same hero identity from the package reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Victory Banner Pose",
+      "description": "A celebratory hero banner crop that keeps the same identity while shifting into a polished end-of-match presentation."
+    },
+    "zh-CN": {
+      "title": "胜利横幅姿态",
+      "description": "用于结算或活动横幅的庆祝姿态版本，保持同一位英雄的锁定设定。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "commercial-mockup",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A celebratory hero banner crop that keeps the same identity while shifting into a polished end-of-match presentation.",
+      "zh-CN": "用于结算或活动横幅的庆祝姿态版本，保持同一位英雄的锁定设定。"
+    }
+  }
+}

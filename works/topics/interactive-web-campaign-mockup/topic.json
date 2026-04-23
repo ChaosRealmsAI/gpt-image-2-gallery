@@ -1,0 +1,58 @@
+{
+  "id": "interactive-web-campaign-mockup",
+  "slug": "interactive-web-campaign-mockup",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "commercial-mockup"
+  ],
+  "title": "Interactive Web Campaign Mockup",
+  "short_title": "Web Campaign",
+  "description": "Mock up immersive campaign sites across desktop and mobile screens, focusing on scroll storytelling, interaction cues, and polished conversion sections.",
+  "i18n": {
+    "en": {
+      "title": "Interactive Web Campaign Mockup",
+      "short_title": "Web Campaign",
+      "description": "Mock up immersive campaign sites across desktop and mobile screens, focusing on scroll storytelling, interaction cues, and polished conversion sections."
+    },
+    "zh-CN": {
+      "title": "互动式宣传网页提案",
+      "short_title": "互动宣传页",
+      "description": "做有滚动叙事感的 campaign 网站提案，同时呈现桌面端和移动端，多屏 mockup 一张图讲清楚。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 125,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-campaign-system",
+      "type": "series",
+      "title": "Core Campaign System",
+      "path": "packages/series-core-campaign-system/package.json"
+    },
+    {
+      "id": "single-independent-surface-studies",
+      "type": "single",
+      "title": "Independent Surface Studies",
+      "path": "packages/single-independent-surface-studies/package.json"
+    }
+  ]
+}

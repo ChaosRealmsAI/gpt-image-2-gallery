@@ -1,0 +1,72 @@
+{
+  "id": "series-executive-table",
+  "type": "series",
+  "title": "Executive Table",
+  "description": "A four-image reference-dependent boardroom series preserving the same luxury meeting room while rotating the seated executive object.",
+  "creative_direction": "Image 01 establishes the photorealistic walnut boardroom, suit tailoring, lens height, lighting, and visual joke. Images 02-04 use it as a reference to keep the same executive setting while changing the object identity and material behavior.",
+  "cover_image": "images/01-coffee-chair/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-coffee-chair/meta.json",
+      "images/02-cigar-chair/meta.json",
+      "images/03-pen-chair/meta.json",
+      "images/04-key-chair/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Executive Table",
+      "description": "A four-image reference-dependent boardroom series preserving the same luxury meeting room while rotating the seated executive object."
+    },
+    "zh-CN": {
+      "title": "高管会议桌",
+      "description": "四张依赖参考图的董事会系列,保持同一豪华会议室,更换坐在主位的物体高管。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-coffee-chair",
+      "title": "Coffee Chair",
+      "image": "images/01-coffee-chair/image.png",
+      "meta": "images/01-coffee-chair/meta.json"
+    },
+    {
+      "id": "02-cigar-chair",
+      "title": "Cigar Chair",
+      "image": "images/02-cigar-chair/image.png",
+      "meta": "images/02-cigar-chair/meta.json"
+    },
+    {
+      "id": "03-pen-chair",
+      "title": "Pen Chair",
+      "image": "images/03-pen-chair/image.png",
+      "meta": "images/03-pen-chair/meta.json"
+    },
+    {
+      "id": "04-key-chair",
+      "title": "Key Chair",
+      "image": "images/04-key-chair/image.png",
+      "meta": "images/04-key-chair/meta.json"
+    }
+  ]
+}

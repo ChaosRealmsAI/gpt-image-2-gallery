@@ -1,0 +1,82 @@
+{
+  "id": "single-era-cover-sets",
+  "type": "single",
+  "title": "Era Cover Sets",
+  "description": "Eight independent six-cover album mockups, each translating one fictional music concept through six distinct visual eras.",
+  "creative_direction": "Each square image is a structured 2 by 3 album-cover set. The six panels share a single concept and motif while shifting era-specific art direction: folk warmth, rock grit, synthwave geometry, grunge decay, emo collage, and hyperpop gloss.",
+  "cover_image": "images/lunar-motel-set/image.png",
+  "i18n": {
+    "en": {
+      "title": "Era Cover Sets",
+      "description": "Eight independent six-cover album mockups, each translating one fictional music concept through six distinct visual eras."
+    },
+    "zh-CN": {
+      "title": "时代封面合集",
+      "description": "八张独立六宫格专辑封面 mockup,每张把一个虚构音乐概念翻译成六种时代视觉。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "lunar-motel-set",
+      "title": "Lunar Motel Set",
+      "image": "images/lunar-motel-set/image.png",
+      "meta": "images/lunar-motel-set/meta.json"
+    },
+    {
+      "id": "desert-signal-set",
+      "title": "Desert Signal Set",
+      "image": "images/desert-signal-set/image.png",
+      "meta": "images/desert-signal-set/meta.json"
+    },
+    {
+      "id": "glass-garden-set",
+      "title": "Glass Garden Set",
+      "image": "images/glass-garden-set/image.png",
+      "meta": "images/glass-garden-set/meta.json"
+    },
+    {
+      "id": "city-rain-set",
+      "title": "City Rain Set",
+      "image": "images/city-rain-set/image.png",
+      "meta": "images/city-rain-set/meta.json"
+    },
+    {
+      "id": "velvet-comet-set",
+      "title": "Velvet Comet Set",
+      "image": "images/velvet-comet-set/image.png",
+      "meta": "images/velvet-comet-set/meta.json"
+    },
+    {
+      "id": "paper-tigers-set",
+      "title": "Paper Tigers Set",
+      "image": "images/paper-tigers-set/image.png",
+      "meta": "images/paper-tigers-set/meta.json"
+    },
+    {
+      "id": "ocean-static-set",
+      "title": "Ocean Static Set",
+      "image": "images/ocean-static-set/image.png",
+      "meta": "images/ocean-static-set/meta.json"
+    },
+    {
+      "id": "neon-orchard-set",
+      "title": "Neon Orchard Set",
+      "image": "images/neon-orchard-set/image.png",
+      "meta": "images/neon-orchard-set/meta.json"
+    }
+  ]
+}

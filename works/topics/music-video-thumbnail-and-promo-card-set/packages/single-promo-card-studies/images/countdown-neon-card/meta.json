@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square promo card with one strongly lit face in the foreground, neon rain atmosphere behind, and modular non-readable countdown blocks arranged with crisp hierarchy. The frame should feel native to release anticipation and small-screen social sharing.\n\nSubject:\nThe subject is one invented performer plus a simple cinematic scene hook, organized for immediate recognition. The card should look like a polished pre-release asset that could carry a countdown, even though no readable numbers or words appear.\n\nImportant details:\nThumbnail clarity and mood are the priority. Use one bright accent color, one dominant portrait or silhouette, and clean block structure. The card should feel urgent and contemporary without relying on platform-specific visual tricks or cheap hype graphics.\n\nUse case:\nMV Promo Cards single study 5/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable numbers, no platform UI, no extra cast, no clickbait arrows, no overdone glitch collage",
+  "id": "countdown-neon-card",
+  "title": "Countdown Neon Card",
+  "description": "A countdown-style promo card using one face, one neon scene hook, and clean modular blocks for release anticipation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/single-promo-card-studies/images/countdown-neon-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent countdown-card study for the music-video promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Countdown Neon Card",
+      "description": "A countdown-style promo card using one face, one neon scene hook, and clean modular blocks for release anticipation."
+    },
+    "zh-CN": {
+      "title": "倒计时霓虹卡",
+      "description": "倒计时霓虹卡，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A countdown-style music-video promo card with one face, neon rain atmosphere, and clean modular hierarchy.",
+      "zh-CN": "倒计时霓虹卡视觉图。"
+    }
+  }
+}

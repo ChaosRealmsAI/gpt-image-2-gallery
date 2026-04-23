@@ -1,0 +1,53 @@
+{
+  "id": "lyric-visualizer-frame-family",
+  "slug": "lyric-visualizer-frame-family",
+  "category": "design",
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "title": "Lyric Visualizer Frame Family",
+  "short_title": "Lyric Frames",
+  "description": "Create frame families for lyric visualizers with text rhythm, motion implication, and song-specific atmosphere.",
+  "i18n": {
+    "en": {
+      "title": "Lyric Visualizer Frame Family",
+      "short_title": "Lyric Frames",
+      "description": "Create frame families for lyric visualizers with text rhythm, motion implication, and song-specific atmosphere."
+    },
+    "zh-CN": {
+      "title": "歌词可视化帧家族",
+      "short_title": "歌词可视化",
+      "description": "做歌词可视化帧家族，强调文字节奏和歌曲氛围。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 930,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-frame-motion",
+      "type": "series",
+      "title": "Frame Motion Sequence",
+      "path": "packages/series-frame-motion/package.json"
+    },
+    {
+      "id": "single-visualizer-studies",
+      "type": "single",
+      "title": "Visualizer Studies",
+      "path": "packages/single-visualizer-studies/package.json"
+    }
+  ]
+}

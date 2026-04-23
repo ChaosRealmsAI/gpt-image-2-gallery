@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial image in a bright modern boardroom with pale stone walls, a long white conference table, and morning sunlight cutting through vertical blinds. The camera looks diagonally across the table at chair height, creating a clean luxury consulting-firm atmosphere. Reflections on glass, chrome, and polished stone should be sharp enough to sell the physical set.\n\nSubject:\nA clear water glass is seated like a chief executive at the near end of the table, wearing a tailored light gray suit jacket shaped around the cylindrical glass. Water inside the glass bends the background through realistic refraction, and a meniscus catches the sun along the rim. Small condensation beads and caustic highlights fall onto the table. Other chairs are empty, but voting cards, blank paper stacks, and capped pens are arranged around the table like a high-stakes decision has just occurred.\n\nImportant details:\nThe glass must stay transparent and materially accurate: real rim thickness, waterline distortion, refraction through the suit edges, tabletop caustics, and gravity-consistent condensation. Anthropomorphism should be understated, created through executive seating, fitted tailoring, and the implied vote around it. Keep the image clean and premium, like a financial magazine cover or brand strategy campaign. No eyes, mouth, arms, or cartoon expression should appear.\n\nUse case:\nObject Boardroom single study 5/8, testing transparent material physics, refraction, and commercial boardroom storytelling without reference dependencies.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no cartoon face, no human arms, no liquid spill, no branded stationery, no impossible glass deformation, no cluttered background.",
+  "id": "glass-ceo-vote",
+  "title": "Glass CEO Vote",
+  "description": "A transparent water glass in a light gray suit presides over a bright boardroom voting scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/object-boardroom/packages/single-object-negotiations/images/glass-ceo-vote/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing transparent glass physics in an executive boardroom concept."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glass CEO Vote",
+      "description": "A transparent water glass in a light gray suit presides over a bright boardroom voting scene."
+    },
+    "zh-CN": {
+      "title": "玻璃杯投票",
+      "description": "一只穿浅灰西装的透明水杯主持明亮会议室里的董事会投票场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A transparent water glass in a tailored suit presides over a sunlit boardroom vote.",
+      "zh-CN": "一只穿定制西装的透明水杯主持阳光会议室里的投票。"
+    }
+  }
+}

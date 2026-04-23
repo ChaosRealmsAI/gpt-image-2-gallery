@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square campaign poster built around a bold red-and-black crime palette, photographed and lit like a premium printed one-sheet pinned to a gallery wall. The frame should feel flat and graphic rather than cinematic realism, with a strong central rectangle of empty negative space reserved for an abstract title block. Use crisp directional light, lacquered highlights, and smoky shadows to make the composition feel expensive and instantly legible from a distance.\n\nSubject:\nRemix the famous grammar of a rebellious ensemble poster into a new cast drawn from unrelated fictional worlds: a composed anime swordswoman in a black suit reclining diagonally across the lower half, a retro arcade pilot leaning against the frame edge, a masked lounge singer with a chrome microphone, and a tiny robot courier guarding an open glowing briefcase on a diner table. The briefcase becomes the brightest object in the composition and drives the eye upward toward a band of supporting faces, weapon silhouettes, and diner props hovering in carefully ranked layers.\n\nImportant details:\nThe poster must read as an iconic cast remix, not a collage. Preserve ad-poster hierarchy with one dominant figure, one anchor prop, and a stepped pyramid of secondary characters above. Use exacting negative space, controlled crop lines, and believable print-finish polish. Include abstract zones for cast names, tagline, and credits as graphic bars or ornamental glyph textures only, never readable lettering. The image should feel like a pitch-ready entertainment campaign that clearly borrows legendary poster logic while fully replacing the characters and world.\n\nUse case:\nIconic Poster Cast Remix single study 1/9, testing whether GPT Image 2 can preserve a legendary crime-poster composition while swapping the entire cast and object language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likenesses, no direct costume copies from known films, no face-swap look, no messy collage seams, no tiny illegible fake billing block, no extra props outside the main hierarchy.",
+  "id": "01-red-noir-suitcase",
+  "title": "Red Noir Suitcase",
+  "description": "A red-and-black crime-poster remix with a diagonal lead figure, glowing briefcase, and tightly ranked supporting cast.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/iconic-poster-cast-remix/packages/single-iconic-poster-remix-studies/images/01-red-noir-suitcase/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster-remix study with a red crime-poster hierarchy and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Red Noir Suitcase",
+      "description": "A red-and-black crime-poster remix with a diagonal lead figure, glowing briefcase, and tightly ranked supporting cast."
+    },
+    "zh-CN": {
+      "title": "红黑黑色电影手提箱",
+      "description": "红黑配色的犯罪海报换角研究，以斜向主角、发光手提箱和分层配角阵列为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A red noir ensemble poster remix centered on a glowing briefcase and a diagonal lead character.",
+      "zh-CN": "一张以发光手提箱和斜向主角为中心的红黑黑色电影阵容海报换角图。"
+    }
+  }
+}

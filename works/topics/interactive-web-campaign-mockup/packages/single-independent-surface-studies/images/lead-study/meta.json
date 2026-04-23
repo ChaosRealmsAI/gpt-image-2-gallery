@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square premium campaign composition with strong negative space, crisp hierarchy, and a polished presentation surface appropriate for Interactive Web Campaign Mockup. The image should feel like a proposal-ready marketing asset rather than a casual mockup, with deliberate pacing across foreground, midground, and background. Build the frame around 多设备 mockup + 滚动叙事 + 转化区, using lighting, device or media framing, and environment cues that suggest a real rollout system. Reference the spirit of 品牌联名、限定发售、演唱会巡演或电影宣发活动页的多屏宣传网页提案。 while keeping the result original and commercially plausible.\n\nSubject:\nCreate a hero-first study with immediate recognition and strong campaign hierarchy. for the Interactive Web Campaign Mockup theme. The central visual system should read immediately, with a clear lead element, credible secondary support, and enough structural discipline to feel ready for a pitch deck, landing page, platform slot, poster wall, or social rollout. Use scale, spacing, and controlled perspective to imply a complete campaign logic instead of a single disconnected image. Where multiple surfaces or modules appear, keep them unified through one visual language.\n\nImportant details:\nThis topic is specifically about 多设备 mockup + 滚动叙事 + 转化区. 不仅要像静态网页，还要让人感觉得到滚动、悬停、切换等交互节奏。 更适合在一张图里表达多设备系统和网页叙事节奏。. Keep the composition believable as commercial art: premium lighting, consistent styling, modular hierarchy, and clear narrative emphasis. Success should align with these criteria: 桌面端和移动端在视觉语言上统一; 能感受到页面是有滚动层次和交互暗示的; hero、内容区、CTA 区不打架; 适合直接放进客户 pitch deck 或案例页. Capabilities in scope include structured-layout, commercial-mockup, text-rendering, world-knowledge. The image must feel designed for downstream rollout across formats even though it remains a single square study.\n\nUse case:\nInteractive Web Campaign Mockup single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no random collage chaos, no broken perspective between surfaces, no muddy hierarchy, no generic template look, no low-resolution screen artifacts, no extraneous props.",
+  "id": "lead-study",
+  "title": "Lead Study",
+  "description": "A hero-first study with immediate recognition and strong campaign hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/interactive-web-campaign-mockup/packages/single-independent-surface-studies/images/lead-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Standalone study with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lead Study",
+      "description": "A hero-first study with immediate recognition and strong campaign hierarchy."
+    },
+    "zh-CN": {
+      "title": "主图研究",
+      "description": "强调一眼识别和主图层级的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "Lead Study for Interactive Web Campaign Mockup.",
+      "zh-CN": "互动宣传页主题的主图研究。"
+    }
+  }
+}

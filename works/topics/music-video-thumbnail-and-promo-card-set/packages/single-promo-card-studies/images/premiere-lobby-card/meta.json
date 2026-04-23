@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square launch-night promo card with velvet-dark atmosphere, soft spotlight haze, reflective floor hints, and one poised performer silhouette or portrait. The image should feel ceremonial and premiere-oriented without depending on readable event copy.\n\nSubject:\nThe subject is the feeling of premiere night translated into a square card: one artist presence, one controlled environmental hook, and elegant modular bars for future event messaging. It should feel serious and cinematic, not like a film festival poster.\n\nImportant details:\nUse restraint, negative space, and a premium color palette to create a release-night mood. The image should feel at home across social cards, profile takeovers, and countdown reminders. Keep the hierarchy clean and the visual identity music-specific.\n\nUse case:\nMV Promo Cards single study 9/9 for the Music Video Thumbnail and Promo Card Set Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable premiere text, no step-and-repeat logos, no red carpet crowd, no event badges, no generic movie-poster montage",
+  "id": "premiere-lobby-card",
+  "title": "Premiere Lobby Card",
+  "description": "A premiere-lobby style promo card translating launch-night atmosphere into a polished square social surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/music-video-thumbnail-and-promo-card-set/packages/single-promo-card-studies/images/premiere-lobby-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent premiere-lobby study for the music-video promo theme.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Premiere Lobby Card",
+      "description": "A premiere-lobby style promo card translating launch-night atmosphere into a polished square social surface."
+    },
+    "zh-CN": {
+      "title": "首映大厅卡",
+      "description": "首映大厅卡，用于MV宣传主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A premiere-lobby style music-video card with launch-night atmosphere and elegant modular spacing.",
+      "zh-CN": "首映大厅卡视觉图。"
+    }
+  }
+}

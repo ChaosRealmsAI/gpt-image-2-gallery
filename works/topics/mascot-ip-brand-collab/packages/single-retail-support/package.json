@@ -1,0 +1,66 @@
+{
+  "id": "single-retail-support",
+  "type": "single",
+  "title": "Retail Support",
+  "description": "Five independent support studies covering posters, explainers, merch previews, and campaign boards for cute character commerce.",
+  "creative_direction": "Present the cute visual system as a full commercial launch kit: one frame can explain features, another can sell merch, and another can prove retail-world adaptability.",
+  "cover_image": "images/explainer-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Retail Support",
+      "description": "Five independent support studies covering posters, explainers, merch previews, and campaign boards for cute character commerce."
+    },
+    "zh-CN": {
+      "title": "零售配套图",
+      "description": "五张互不依赖的零售配套研究图，覆盖海报、说明页、周边预览和活动版面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "commercial-mockup",
+      "style-transfer",
+      "multi-image-reference",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "explainer-board",
+      "title": "Explainer Board",
+      "image": "images/explainer-board/image.png",
+      "meta": "images/explainer-board/meta.json"
+    },
+    {
+      "id": "merch-preview",
+      "title": "Merch Preview",
+      "image": "images/merch-preview/image.png",
+      "meta": "images/merch-preview/meta.json"
+    },
+    {
+      "id": "counter-display",
+      "title": "Counter Display",
+      "image": "images/counter-display/image.png",
+      "meta": "images/counter-display/meta.json"
+    },
+    {
+      "id": "launch-poster",
+      "title": "Launch Poster",
+      "image": "images/launch-poster/image.png",
+      "meta": "images/launch-poster/meta.json"
+    },
+    {
+      "id": "collector-sheet",
+      "title": "Collector Sheet",
+      "image": "images/collector-sheet/image.png",
+      "meta": "images/collector-sheet/meta.json"
+    }
+  ]
+}

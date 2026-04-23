@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square luxury brand-story page still for a couture heel launch, designed like a fashion maison website chapter. The composition mixes soft runway drama with disciplined web structure: a bone-white background, graphite shadows, blush highlights, and subtle metallic reflections. The top half should read as a statement hero section, while the bottom half breaks into craft, silhouette, and runway-context chapters aligned with clear editorial rhythm.\n\nSubject:\nCenter a couture high heel with sculptural lines, immaculate leather or satin surface, elegant heel geometry, and a polished sole edge. Build the surrounding brand-story page with abstract title bars, silhouette comparison panels, heel-detail close-ups, and one narrow runway-context module showing the shoe in motion without a visible model face. Add a macro crop of stitching, edge finishing, or heel attachment so the sense of craftsmanship is tangible. The shoe remains the star, while the surrounding modules imply couture heritage and collection narrative.\n\nImportant details:\nThis should feel like an expensive fashion-house chapter, not a shoe-store catalog. The shoe's last, toe shape, heel angle, and material finish must look physically credible and refined. The layout should move from spectacle hero to technical beauty to runway story to collection framing. Preserve luxury restraint, elegant whitespace, and precise alignment so the page feels composed, fashion-literate, and art directed.\n\nUse case:\nLuxury Brand Story Page single study 6/9, testing couture footwear storytelling with silhouette precision, craft detail, and runway-inspired chapter layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no busy model montage, no cheap ecommerce grid, no cartoon fashion graphics, no glitter overload, no distorted heel proportions.",
+  "id": "couture-heel-runway-page",
+  "title": "Couture Heel Runway Page",
+  "description": "A luxury brand-story page still for couture footwear, balancing hero silhouette, craft details, and runway-context chapters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/luxury-brand-story-page/packages/single-luxury-story-studies/images/couture-heel-runway-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent luxury brand-story study focused on couture footwear and runway narrative."
+  },
+  "i18n": {
+    "en": {
+      "title": "Couture Heel Runway Page",
+      "description": "A luxury brand-story page still for couture footwear, balancing hero silhouette, craft details, and runway-context chapters."
+    },
+    "zh-CN": {
+      "title": "高定鞋履秀场页",
+      "description": "一张高定鞋履的奢侈品牌故事页静帧，在主视觉轮廓、工艺细节与秀场语境章节之间取得平衡。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A couture shoe story page with a sculptural heel hero image and refined runway-detail modules.",
+      "zh-CN": "一张高定鞋履故事页静帧，展示雕塑感高跟鞋主视觉和精致的秀场细节模块。"
+    }
+  }
+}

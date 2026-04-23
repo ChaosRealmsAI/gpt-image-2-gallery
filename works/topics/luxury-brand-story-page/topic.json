@@ -1,0 +1,50 @@
+{
+  "id": "luxury-brand-story-page",
+  "slug": "luxury-brand-story-page",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Luxury Brand Story Page",
+  "short_title": "Luxury Story",
+  "description": "A Prompt Atlas theme for premium brand-story page stills, testing chaptered storytelling, tactile materials, craft emphasis, and luxury editorial web composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Luxury Brand Story Page",
+      "short_title": "Luxury Story",
+      "description": "A Prompt Atlas theme for premium brand-story page stills, testing chaptered storytelling, tactile materials, craft emphasis, and luxury editorial web composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "奢侈品牌故事宣传页",
+      "short_title": "奢牌故事页",
+      "description": "一个用于测试奢侈品牌故事宣传页静帧的 Prompt Atlas 主题，聚焦章节式叙事、材质触感、工艺强调与高端编辑式网页构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 320,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism",
+      "fashion"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-luxury-story-studies",
+      "type": "single",
+      "title": "Luxury Story Studies",
+      "path": "packages/single-luxury-story-studies/package.json"
+    }
+  ]
+}

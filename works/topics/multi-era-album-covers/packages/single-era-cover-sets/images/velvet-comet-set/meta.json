@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square commercial mockup showing six fictional album sleeves on a velvet-covered tabletop, arranged in two rows of three and photographed from a gentle overhead angle. The shared concept is Velvet Comet: a soft cosmic object crossing an intimate night sky. Each sleeve has its own era-specific print treatment while remaining part of one coherent set.\n\nSubject:\n1960s folk: hand-tinted comet over a quiet hill, warm sepia, paper softness. 1970s rock: fiery comet above a stage-like horizon, heavy contrast, analog airbrush drama. 1980s synthwave: neon comet trail, violet grid sky, chrome star forms. 1990s grunge: photocopied comet smear, torn black paper, dirty silver textures. 2000s emo: close-up of a bedroom ceiling with comet light through curtains, midnight blue and burgundy. 2020s hyperpop: plush comet made of glossy velvet and digital sparkles, saturated pink-blue, playful surreal 3D.\n\nImportant details:\nThe comet motif must remain identifiable in all six panels, but each era should use a different production grammar: folk photo warmth, rock drama, synth geometry, grunge damage, emo intimacy, hyperpop gloss. Keep the sleeves physically printed, with paper texture, edges, and shadows. Do not place titles or artist names on the covers; avoid any actual album references.\n\nUse case:\nMulti-Era Album Covers single study 5/8, testing a cosmic album concept through six era-specific visual languages.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real musicians, no record label marks, no famous cover composition, no space agency logos, no readable stickers, no duplicated era, no extra sleeve outside the grid.",
+  "id": "velvet-comet-set",
+  "title": "Velvet Comet Set",
+  "description": "A six-cover album mockup translating a soft cosmic comet concept through multiple eras.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-era-album-covers/packages/single-era-cover-sets/images/velvet-comet-set/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent six-era album mockup centered on a comet motif."
+  },
+  "i18n": {
+    "en": {
+      "title": "Velvet Comet Set",
+      "description": "A six-cover album mockup translating a soft cosmic comet concept through multiple eras."
+    },
+    "zh-CN": {
+      "title": "天鹅绒彗星合集",
+      "description": "一组六封面专辑 mockup,把柔软宇宙彗星概念翻译成多时代视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Six fictional album sleeves sharing a velvet comet motif.",
+      "zh-CN": "六张共享天鹅绒彗星母题的虚构专辑封套。"
+    }
+  }
+}
