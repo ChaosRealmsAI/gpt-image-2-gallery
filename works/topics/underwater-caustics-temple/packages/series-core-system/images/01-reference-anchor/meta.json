@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Underwater Caustics Temple. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A flooded ancient temple hall sits under clear seawater, where refracted sunlight ripples across columns, steps, and the stone floor in moving caustic bands, while the water body above remains bright and softly turbulent. Keep the camera in a disciplined anchor position so the full lighting event and the main spatial structure are immediately legible from edge to edge.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Weathered pillars, broken carvings, drifting silt, threadlike algae, and a single calm fish or small school gliding through the chamber should provide scale and life without turning the frame into an aquarium fantasy. This frame should lock the canonical arrangement, scale relationship, and emotional tone that the later dependent images inherit.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the caustics physically convincing on hard stone surfaces, with believable attenuation, soft blue-green depth, particulate haze, and refraction logic that sells the image as a real submerged space rather than a digital backdrop. Use this image to establish the authoritative direction of light, atmospheric density, and structural silhouette for the package.\n\nUse case:\nCaustics Temple series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no divers, no submarines, no treasure-chest cliches, no readable inscriptions, no cartoon coral overload.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/underwater-caustics-temple/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series."
+    },
+    "zh-CN": {
+      "title": "基准锚点",
+      "description": "焦散神庙 · 建立整组系列光线逻辑、空间关系与氛围基调的基准画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Reference Anchor from Underwater Caustics Temple.",
+      "zh-CN": "焦散神庙的基准锚点画面。"
+    }
+  }
+}

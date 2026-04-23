@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Thunderstorm Cinematic Strobe. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A lonely wet highway at night is split open by a lightning flash, with black storm mass above, slick asphalt reflecting cold light, distant taillight streaks cutting red through the rain, and sheets of water visible in the air. Keep the camera in a disciplined anchor position so the full lighting event and the main spatial structure are immediately legible from edge to edge.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The roadway, the lightning event, and one or two vehicles far enough away to remain anonymous should carry the image, with guardrails, lane geometry, and storm cloud depth staying legible under the strobe. This frame should lock the canonical arrangement, scale relationship, and emotional tone that the later dependent images inherit.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Balance the feeling of a frozen lightning moment with believable long-exposure traces, crisp raindrops, internal cloud illumination, and directional reflections on the pavement so the weather feels physically dangerous and immediate. Use this image to establish the authoritative direction of light, atmospheric density, and structural silhouette for the package.\n\nUse case:\nThunderstorm Strobe series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city skyline, no readable road signs, no disaster-movie debris, no fantasy electric colors, no vehicle close-up hero shot.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "high-speed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thunderstorm-cinematic-strobe/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series."
+    },
+    "zh-CN": {
+      "title": "基准锚点",
+      "description": "雷暴闪光 · 建立整组系列光线逻辑、空间关系与氛围基调的基准画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "Reference Anchor from Thunderstorm Cinematic Strobe.",
+      "zh-CN": "雷暴闪光的基准锚点画面。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Underwater Caustics Temple. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A flooded ancient temple hall sits under clear seawater, where refracted sunlight ripples across columns, steps, and the stone floor in moving caustic bands, while the water body above remains bright and softly turbulent. Treat this as an adjacent moment before or after the main event, preserving the same topic language while letting the atmosphere shift slightly in intensity or position.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Weathered pillars, broken carvings, drifting silt, threadlike algae, and a single calm fish or small school gliding through the chamber should provide scale and life without turning the frame into an aquarium fantasy. Show the environment in transition, with clear evidence of recent motion, changing weather, or fading light, but without turning it into action spectacle.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the caustics physically convincing on hard stone surfaces, with believable attenuation, soft blue-green depth, particulate haze, and refraction logic that sells the image as a real submerged space rather than a digital backdrop. Subtle temporal storytelling matters here more than maximal drama, so let traces, gradients, and environmental residue do the work.\n\nUse case:\nCaustics Temple single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no divers, no submarines, no treasure-chest cliches, no readable inscriptions, no cartoon coral overload.",
+  "id": "transition-study",
+  "title": "Transition Study",
+  "description": "An independent atmospheric frame capturing a nearby transition moment in the same visual world.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/underwater-caustics-temple/packages/single-support-studies/images/transition-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on temporal transition within the topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Transition Study",
+      "description": "An independent atmospheric frame capturing a nearby transition moment in the same visual world."
+    },
+    "zh-CN": {
+      "title": "过渡时刻",
+      "description": "焦散神庙 · 捕捉同一视觉世界相邻过渡时刻的独立氛围画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Transition Study from Underwater Caustics Temple.",
+      "zh-CN": "焦散神庙的过渡时刻画面。"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Underwater Caustics Temple. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A flooded ancient temple hall sits under clear seawater, where refracted sunlight ripples across columns, steps, and the stone floor in moving caustic bands, while the water body above remains bright and softly turbulent. Push the composition toward the emotional peak of the same setup, with the most dramatic balance of brightness, shadow, or atmospheric density inside the established world.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Weathered pillars, broken carvings, drifting silt, threadlike algae, and a single calm fish or small school gliding through the chamber should provide scale and life without turning the frame into an aquarium fantasy. Everything should still read as the same location and same event, but framed for maximum narrative force and visual closure.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the caustics physically convincing on hard stone surfaces, with believable attenuation, soft blue-green depth, particulate haze, and refraction logic that sells the image as a real submerged space rather than a digital backdrop. Make it feel like the strongest hero frame of the sequence without breaking continuity or introducing a new design language.\n\nUse case:\nCaustics Temple series study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no divers, no submarines, no treasure-chest cliches, no readable inscriptions, no cartoon coral overload.",
+  "id": "04-climax-frame",
+  "title": "Climax Frame",
+  "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/underwater-caustics-temple/packages/series-core-system/images/04-climax-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/underwater-caustics-temple/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/underwater-caustics-temple/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent hero frame that amplifies drama while preserving the reference logic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Climax Frame",
+      "description": "A dependent hero variation that brings the same scene to its most dramatic visual peak."
+    },
+    "zh-CN": {
+      "title": "高潮画面",
+      "description": "焦散神庙 · 将同一场景推向最强视觉高潮的依赖主画面变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Climax Frame from Underwater Caustics Temple.",
+      "zh-CN": "焦散神庙的高潮画面画面。"
+    }
+  }
+}

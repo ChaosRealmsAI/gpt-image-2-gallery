@@ -1,0 +1,56 @@
+{
+  "id": "underwater-caustics-temple",
+  "slug": "underwater-caustics-temple",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "physics-materials",
+    "photorealism"
+  ],
+  "title": "Underwater Caustics Temple",
+  "short_title": "Caustics Temple",
+  "description": "Sunken ancient temple halls where rippling water caustics paint the stone floor and pillars in constantly shifting light patterns, a single fish drifting through.",
+  "i18n": {
+    "en": {
+      "title": "Underwater Caustics Temple",
+      "short_title": "Caustics Temple",
+      "description": "Sunken ancient temple halls where rippling water caustics paint the stone floor and pillars in constantly shifting light patterns, a single fish drifting through."
+    },
+    "zh-CN": {
+      "title": "水下焦散神庙",
+      "short_title": "焦散神庙",
+      "description": "沉没古神庙 · 水面涟漪把焦散光纹印在石地和柱子上 · 一条鱼缓缓游过。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 310,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

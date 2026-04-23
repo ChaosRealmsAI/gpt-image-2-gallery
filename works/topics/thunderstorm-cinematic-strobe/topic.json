@@ -1,0 +1,56 @@
+{
+  "id": "thunderstorm-cinematic-strobe",
+  "slug": "thunderstorm-cinematic-strobe",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "high-speed",
+    "physics-materials"
+  ],
+  "title": "Thunderstorm Cinematic Strobe",
+  "short_title": "Thunderstorm Strobe",
+  "description": "A single lightning strobe mid-frame illuminating a lonely highway, car taillights streaking, raindrops frozen mid-fall, clouds backlit from within.",
+  "i18n": {
+    "en": {
+      "title": "Thunderstorm Cinematic Strobe",
+      "short_title": "Thunderstorm Strobe",
+      "description": "A single lightning strobe mid-frame illuminating a lonely highway, car taillights streaking, raindrops frozen mid-fall, clouds backlit from within."
+    },
+    "zh-CN": {
+      "title": "雷暴电影闪光",
+      "short_title": "雷暴闪光",
+      "description": "一道闪电在画面中央照亮孤独高速公路 · 车尾灯拉丝 · 雨滴悬停 · 云从内部发光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 330,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

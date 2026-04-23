@@ -1,0 +1,48 @@
+{
+  "id": "symmetric-hdr-architecture",
+  "slug": "symmetric-hdr-architecture",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Symmetric HDR Architecture",
+  "short_title": "Architecture",
+  "description": "A Prompt Atlas theme for Symmetric HDR Architecture, testing photorealism, world-knowledge, optical-illusion-geometry, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Symmetric HDR Architecture",
+      "short_title": "Architecture",
+      "description": "A Prompt Atlas theme for Symmetric HDR Architecture, testing photorealism, world-knowledge, optical-illusion-geometry, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "建筑摄影 · 对称广角 HDR",
+      "short_title": "建筑摄影",
+      "description": "建筑摄影 · 对称广角 HDR：万神殿穹顶仰视对称 / Apple Park 俯视同心圆 / 梵蒂冈圣彼得广场 / 北京中轴线 · 极对称 + 消点透视 + HDR 层次"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-symmetric-hdr-architecture-studies",
+      "type": "single",
+      "title": "Architecture Photography Studies",
+      "path": "packages/single-symmetric-hdr-architecture-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "underwater-bubble-light",
+  "slug": "underwater-bubble-light",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials"
+  ],
+  "title": "Underwater Bubble Light",
+  "short_title": "Underwater",
+  "description": "A Prompt Atlas theme for Underwater Bubble Light, testing photorealism, physics-materials with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Underwater Bubble Light",
+      "short_title": "Underwater",
+      "description": "A Prompt Atlas theme for Underwater Bubble Light, testing photorealism, physics-materials with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "水下摄影 · 气泡光刀",
+      "short_title": "水下摄影",
+      "description": "水下摄影 · 气泡光刀：潜水员逆光剪影 · 鱼群穿过光柱 · 珊瑚荧光 · 水面波纹折射光刀 · 蓝绿色调主导"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-underwater-bubble-light-studies",
+      "type": "single",
+      "title": "Underwater Photography Studies",
+      "path": "packages/single-underwater-bubble-light-studies/package.json"
+    }
+  ]
+}

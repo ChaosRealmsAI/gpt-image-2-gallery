@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Thunderstorm Cinematic Strobe. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A lonely wet highway at night is split open by a lightning flash, with black storm mass above, slick asphalt reflecting cold light, distant taillight streaks cutting red through the rain, and sheets of water visible in the air. Compose an independent frame where one human, animal, or object silhouette negotiates with the atmospheric light event in a clean, readable way.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. The roadway, the lightning event, and one or two vehicles far enough away to remain anonymous should carry the image, with guardrails, lane geometry, and storm cloud depth staying legible under the strobe. The silhouette should supply scale and emotional orientation, but the environment still needs to carry most of the storytelling weight.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Balance the feeling of a frozen lightning moment with believable long-exposure traces, crisp raindrops, internal cloud illumination, and directional reflections on the pavement so the weather feels physically dangerous and immediate. Keep the silhouette simple and believable, avoiding poster-like graphic flattening while preserving strong contrast.\n\nUse case:\nThunderstorm Strobe single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city skyline, no readable road signs, no disaster-movie debris, no fantasy electric colors, no vehicle close-up hero shot.",
+  "id": "silhouette-study",
+  "title": "Silhouette Study",
+  "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "high-speed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/thunderstorm-cinematic-strobe/packages/single-support-studies/images/silhouette-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on silhouette and atmosphere balance.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Silhouette Study",
+      "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene."
+    },
+    "zh-CN": {
+      "title": "剪影研究",
+      "description": "雷暴闪光 · 以单一剪影衡量场景尺度与情绪张力的独立画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "high-speed"
+    ],
+    "alt": {
+      "en": "Silhouette Study from Thunderstorm Cinematic Strobe.",
+      "zh-CN": "雷暴闪光的剪影研究画面。"
+    }
+  }
+}
