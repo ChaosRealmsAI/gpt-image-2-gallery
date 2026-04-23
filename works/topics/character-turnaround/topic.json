@@ -1,0 +1,57 @@
+{
+  "id": "character-turnaround",
+  "slug": "character-turnaround",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "consistency"
+  ],
+  "title": "Character Turnaround",
+  "short_title": "Turnaround",
+  "description": "A Prompt Atlas theme for Character Turnaround, testing multi-image-reference, technical-diagram, reasoning-composition, editing-workflow, and identity consistency with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Character Turnaround",
+      "short_title": "Turnaround",
+      "description": "A Prompt Atlas theme for Character Turnaround, testing multi-image-reference, technical-diagram, reasoning-composition, editing-workflow, and identity consistency with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Character Turnaround 角色四视图",
+      "short_title": "角色四视",
+      "description": "Character Turnaround 角色四视图：以游戏与动画工业制图语言测试同一角色在正面、四分之三侧面、侧面和背面中的稳定一致性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "technical-diagram",
+      "reasoning-composition",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-courier-variant-turnarounds",
+      "type": "series",
+      "title": "Courier Variant Turnarounds",
+      "path": "packages/series-courier-variant-turnarounds/package.json"
+    },
+    {
+      "id": "single-turnaround-sheet-studies",
+      "type": "single",
+      "title": "Turnaround Sheet Studies",
+      "path": "packages/single-turnaround-sheet-studies/package.json"
+    }
+  ]
+}

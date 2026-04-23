@@ -1,0 +1,57 @@
+{
+  "id": "hitman-office-level",
+  "slug": "hitman-office-level",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Hitman Office Level",
+  "short_title": "Office Level",
+  "description": "A Prompt Atlas theme for turning a corporate office into a readable top-down stealth-game level with patrol routes, objective UI, and layered HUD composition.",
+  "i18n": {
+    "en": {
+      "title": "Hitman Office Level",
+      "short_title": "Office Level",
+      "description": "A Prompt Atlas theme for turning a corporate office into a readable top-down stealth-game level with patrol routes, objective UI, and layered HUD composition."
+    },
+    "zh-CN": {
+      "title": "Hitman 关卡 · 办公室游戏化",
+      "short_title": "办公关卡",
+      "description": "把公司办公室转成俯视潜行动作关卡: NPC 巡逻路线、任务目标 UI、HUD 与办公空间布局必须清楚叠合。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 140,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-corporate-stealth-map",
+      "type": "series",
+      "title": "Corporate Stealth Map",
+      "path": "packages/series-corporate-stealth-map/package.json"
+    },
+    {
+      "id": "single-office-level-studies",
+      "type": "single",
+      "title": "Office Level Studies",
+      "path": "packages/single-office-level-studies/package.json"
+    }
+  ]
+}

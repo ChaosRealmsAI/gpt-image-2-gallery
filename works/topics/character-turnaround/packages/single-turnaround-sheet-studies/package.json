@@ -1,0 +1,58 @@
+{
+  "id": "single-turnaround-sheet-studies",
+  "type": "single",
+  "title": "Turnaround Sheet Studies",
+  "description": "Four independent character-sheet studies exploring different production pipelines while preserving professional turnaround clarity.",
+  "creative_direction": "Each image is a self-contained four-view character turnaround sheet for a different world and role. The package stresses technical-diagram discipline, identity continuity inside each sheet, and believable game-animation production presentation without reference dependencies.",
+  "cover_image": "images/arcology-medic-turnaround/image.png",
+  "i18n": {
+    "en": {
+      "title": "Turnaround Sheet Studies",
+      "description": "Four independent character-sheet studies exploring different production pipelines while preserving professional turnaround clarity."
+    },
+    "zh-CN": {
+      "title": "四视图设定单图研究",
+      "description": "四张独立角色四视图设定图，分别测试不同世界观下的工业化角色设计表达。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "reasoning-composition",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "arcology-medic-turnaround",
+      "title": "Arcology Medic Turnaround",
+      "image": "images/arcology-medic-turnaround/image.png",
+      "meta": "images/arcology-medic-turnaround/meta.json"
+    },
+    {
+      "id": "reef-salvager-turnaround",
+      "title": "Reef Salvager Turnaround",
+      "image": "images/reef-salvager-turnaround/image.png",
+      "meta": "images/reef-salvager-turnaround/meta.json"
+    },
+    {
+      "id": "lunar-botanist-turnaround",
+      "title": "Lunar Botanist Turnaround",
+      "image": "images/lunar-botanist-turnaround/image.png",
+      "meta": "images/lunar-botanist-turnaround/meta.json"
+    },
+    {
+      "id": "volcanic-envoy-turnaround",
+      "title": "Volcanic Envoy Turnaround",
+      "image": "images/volcanic-envoy-turnaround/image.png",
+      "meta": "images/volcanic-envoy-turnaround/meta.json"
+    }
+  ]
+}

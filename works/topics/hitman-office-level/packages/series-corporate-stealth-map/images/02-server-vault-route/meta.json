@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference office floor as the locked map layout. Keep the same square top-down isometric cutaway, same reception, open desk field, glass meeting rooms, executive office, server closet, pantry, storage room, elevator lobby, stairwell, and security desk positions. The lighting is slightly cooler and more tactical, as if the player has opened a route-planning overlay.\n\nSubject:\nShow a server-vault route variant on the same floor. The exact readable objective text should be \"STEAL GPT-6\" in the mission box. Highlight the path from elevator lobby to server closet through a cyan route line, with alternate vent path shown as a dashed line. Add security camera arcs, locked door icons, keypad markers as unreadable symbols, two guard patrol loops, and one distraction marker in the pantry. Keep the compact lower-right HUD with the non-firing suppressed pistol icon, inventory slots, and alert meter.\n\nImportant details:\nPreserve the reference map geometry and room positions. The change is the tactical overlay: server closet becomes the primary target, patrol routes shift around corridors, and restricted zones are tinted with transparent red. The scene must read as a playable stealth level with logic: cameras cover chokepoints, guards loop around valuable rooms, and alternate routes avoid vision cones. Avoid gore or action scenes; this is a clean strategic UI state.\n\nUse case:\nHitman Office Level series study 2/8, using the reference office map to test preserved layout with a server-route mission overlay.\n\nConstraints:\nUse the reference image as layout source. No readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no moved rooms, no broken patrol paths, no UI clutter covering the floorplan.",
+  "id": "02-server-vault-route",
+  "title": "Server Vault Route",
+  "description": "A server-route mission overlay preserving the reference office layout while changing patrol paths, cameras, and restricted zones.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/02-server-vault-route/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-office-floor",
+        "meta_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/meta.json",
+        "image_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on the reference office floor to preserve layout while changing route UI."
+  },
+  "i18n": {
+    "en": {
+      "title": "Server Vault Route",
+      "description": "A server-route mission overlay preserving the reference office layout while changing patrol paths, cameras, and restricted zones."
+    },
+    "zh-CN": {
+      "title": "服务器金库路线",
+      "description": "在基准办公室布局上叠加服务器路线任务,改变巡逻路径、摄像头和禁区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "series"
+    ],
+    "alt": {
+      "en": "The same office stealth map with a cyan route to the server room, red restricted zones, camera arcs, and guard patrol loops.",
+      "zh-CN": "同一办公室潜行地图上叠加通往服务器房的青色路线、红色禁区、摄像头扇区和警卫巡逻圈。"
+    }
+  }
+}

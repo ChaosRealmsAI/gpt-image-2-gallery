@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square flat-pack instruction manual page on clean white paper, viewed straight-on like a commercial product insert. The style is precise black vector-like technical line art with sparse blue and yellow accent blocks, thin gray construction lines, and generous margins. The page is divided into a clear cover band, a parts inventory, and six diagram panels, but all labels are blank blocks or pseudo marks rather than readable words.\n\nSubject:\nAn imaginary kit for assembling a human life across fifty years. The parts inventory shows a crib panel, school desk, bicycle wheel, apartment key, work lamp, travel suitcase, family table, medical chart shape, rocking chair, memory boxes, and many tiny connector pegs. Small faceless instruction figures use hex keys, arrows, and puzzled expressions to assemble these parts into a winding timeline shelf. The final panel shows the life structure standing like a modular bookcase with rooms, doors, and keepsakes.\n\nImportant details:\nThe humor must come from treating life milestones as furniture hardware. Use exploded diagrams, numbered-looking step circles without readable numerals, warning icons with expressive little figures, twist arrows, check marks, X marks, and one oversized hex key. Keep the layout professionally balanced: every panel should be legible, aligned, and clean enough to pass as a real assembly sheet.\n\nUse case:\nIKEA Instruction World single study 1/8, translating a fifty-year life into a flat-pack technical instruction diagram.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand marks, no actual product names, no messy comic page, no photorealistic furniture showroom, no dense illegible labels, no broken arrows.",
+  "id": "assemble-a-life",
+  "title": "Assemble a Life",
+  "description": "A clean flat-pack manual page where fifty years of life become parts, arrows, hex keys, and modular milestones.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/assemble-a-life/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Assemble a Life",
+      "description": "A clean flat-pack manual page where fifty years of life become parts, arrows, hex keys, and modular milestones."
+    },
+    "zh-CN": {
+      "title": "组装一生",
+      "description": "一张干净的平板包装说明书，把五十年人生变成零件、箭头、六角扳手和模块化里程碑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A square assembly manual page showing life milestones as modular parts and hex-key steps.",
+      "zh-CN": "一张方形组装说明书，把人生里程碑画成模块零件和六角扳手步骤。"
+    }
+  }
+}

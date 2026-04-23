@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama inside a retro space habitat greenhouse, combining optimistic 1970s space design with contemporary cinematic lighting. The viewer stands on a circular walkway at the center of a rotating orbital garden. The horizon sits on the midline, with windows and habitat walls wrapping continuously around the full panorama. Warm grow lights, pale aluminum, orange upholstery, and leafy greens create a balanced palette.\n\nSubject:\nThe habitat contains curved glass windows showing Earth below, hydroponic planters, modular crew alcoves, rounded storage cabinets, exercise rails, small maintenance robots, and a ring-shaped garden path. Crops and flowering vines climb trellises around the viewer. The exterior view should appear through several window banks rather than one flat space wallpaper, and all equipment should feel functional but not cluttered.\n\nImportant details:\nBuild the room as a complete 360-degree interior: floor seams, ceiling ribs, handrails, and planter rows must line up across the left and right edges. The zenith should contain curved structural ribs and soft lights; the nadir should show the circular walkway and planter bases. Keep readable labels out; use color-coded shapes and abstract icons only. Avoid exaggerated lens distortion while preserving equirectangular spatial spread.\n\nUse case:\nEquirectangular VR Panorama single study 6/8, testing interior continuity, sci-fi worldbuilding, and style transfer in an extreme 2:1 VR environment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular fisheye, no tiny-planet projection, no dark horror spaceship, no broken room seam, no floating disconnected furniture, no flat concept-art strip.",
+  "id": "retro-space-habitat",
+  "title": "Retro Space Habitat",
+  "description": "A 360-degree retro orbital greenhouse interior with continuous planters, windows, and functional space-habitat details.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "style-transfer",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/retro-space-habitat/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Retro Space Habitat",
+      "description": "A 360-degree retro orbital greenhouse interior with continuous planters, windows, and functional space-habitat details."
+    },
+    "zh-CN": {
+      "title": "复古太空栖居舱",
+      "description": "360 度复古轨道温室内部，连续的种植槽、窗带和功能性太空栖居细节环绕视野。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama inside a retro orbital greenhouse with Earth visible through curved windows.",
+      "zh-CN": "一张 2:1 VR 全景图，复古轨道温室内部通过弧形窗看见地球。"
+    }
+  }
+}

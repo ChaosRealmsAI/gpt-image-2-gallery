@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference office floor as the locked map layout. Keep the same square top-down isometric cutaway and preserve every major room location from the reference: reception, open desks, meeting rooms, executive office, server closet, pantry, storage, elevator lobby, stairwell, and security desk. This version feels like a social-stealth mission briefing during business hours, brighter and busier than the server route variant.\n\nSubject:\nShow a boardroom infiltration state on the same floor. The exact readable objective text should be \"STEAL GPT-6\" in the mission panel. The boardroom and executive office are highlighted as objective zones; NPC dots cluster around conference tables, reception, coffee point, and printer station. Add colored social suspicion rings, calendar-event blocks as unreadable rectangles, safe conversation bubbles as icon-only markers, and patrol paths for office managers rather than guards. The lower-right HUD keeps the same non-firing suppressed pistol icon but emphasizes disguise, access card, and suspicion meter slots.\n\nImportant details:\nPreserve the reference geometry while changing the design logic from restricted-route planning to social infiltration. The map should show how office routines create stealth opportunities: coffee breaks open paths, meeting crowds obscure sightlines, and reception checks control access. Keep UI layers clean and separated from furniture. No violence is happening; this is about readable game systems and office behavior.\n\nUse case:\nHitman Office Level series study 3/8, testing preserved office layout with social-stealth UI and NPC routine overlays.\n\nConstraints:\nUse the reference image as layout source. No readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no moved room grid, no unreadable crowd clutter, no corporate logos.",
+  "id": "03-boardroom-social-stealth",
+  "title": "Boardroom Social Stealth",
+  "description": "A social-stealth overlay on the same office map, emphasizing meeting routines, suspicion zones, access cards, and NPC clusters.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/03-boardroom-social-stealth/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-office-floor",
+        "meta_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/meta.json",
+        "image_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on the reference office floor to preserve map geometry while changing NPC behavior UI."
+  },
+  "i18n": {
+    "en": {
+      "title": "Boardroom Social Stealth",
+      "description": "A social-stealth overlay on the same office map, emphasizing meeting routines, suspicion zones, access cards, and NPC clusters."
+    },
+    "zh-CN": {
+      "title": "董事会议社交潜行",
+      "description": "在同一办公室地图上叠加社交潜行状态,突出会议日程、怀疑区域、门禁卡和 NPC 聚集点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "series"
+    ],
+    "alt": {
+      "en": "The same office stealth map adapted for a business-hours social infiltration, with boardroom objective zones and NPC routine rings.",
+      "zh-CN": "同一办公室潜行地图被改成工作时段社交潜入,有董事会议目标区和 NPC 日常路线圈。"
+    }
+  }
+}

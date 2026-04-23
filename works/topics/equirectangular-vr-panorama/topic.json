@@ -1,0 +1,50 @@
+{
+  "id": "equirectangular-vr-panorama",
+  "slug": "equirectangular-vr-panorama",
+  "category": "technical",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Equirectangular VR Panorama",
+  "short_title": "VR Panorama",
+  "description": "A Prompt Atlas theme for AI-native 360-degree equirectangular scenes, testing structured layout, extreme aspect ratio control, and immersive style transfer.",
+  "i18n": {
+    "en": {
+      "title": "Equirectangular VR Panorama",
+      "short_title": "VR Panorama",
+      "description": "A Prompt Atlas theme for AI-native 360-degree equirectangular scenes, testing structured layout, extreme aspect ratio control, and immersive style transfer."
+    },
+    "zh-CN": {
+      "title": "360° Equirectangular VR 全景",
+      "short_title": "VR全景",
+      "description": "测试可放入 VR 头显观看的 2:1 等距矩形全景图，重点考察连续空间、极端画幅和风格化场景稳定性。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 85,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-panorama-studies",
+      "type": "single",
+      "title": "Panorama Studies",
+      "path": "packages/single-panorama-studies/package.json"
+    }
+  ]
+}

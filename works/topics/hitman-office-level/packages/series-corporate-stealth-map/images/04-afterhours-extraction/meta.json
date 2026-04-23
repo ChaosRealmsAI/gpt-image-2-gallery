@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference office floor as the locked map layout. Keep the same square top-down isometric cutaway and preserve the office architecture exactly: reception, open workstations, glass meeting rooms, executive office, server closet, pantry, storage, elevator lobby, stairwell, and security desk. The mood is after-hours, with dim emergency lighting, blue monitor glow, and stronger UI contrast.\n\nSubject:\nShow a late-night extraction state after the objective has been collected. The exact readable objective text should still be \"STEAL GPT-6\" in the mission box, now paired with an icon-only completion tick. Add a bright green extraction route from server closet to stairwell, amber search cones moving through corridors, security drones as small icon dots, locked elevator marker, and a timer bar represented by unreadable segments. The lower-right HUD keeps the same non-firing suppressed pistol icon and adds a data-drive inventory icon.\n\nImportant details:\nPreserve the reference floorplan and UI style while making the mission state visibly different: fewer office workers, more security sweeps, darker lighting, and a clear exit path. The route must be spatially plausible through connected corridors and doors. Keep all overlays transparent enough to inspect desks and rooms. This is a strategic map screenshot, not a violent scene.\n\nUse case:\nHitman Office Level series study 4/8, testing preserved office layout with after-hours extraction route and alert-state UI.\n\nConstraints:\nUse the reference image as layout source. No readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no changed office geometry, no impossible extraction route, no full-screen UI blocking the map.",
+  "id": "04-afterhours-extraction",
+  "title": "Afterhours Extraction",
+  "description": "An after-hours extraction overlay preserving the reference office layout while adding alert-state patrol cones and an exit route.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/04-afterhours-extraction/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-office-floor",
+        "meta_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/meta.json",
+        "image_path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on the reference office floor to preserve layout while changing lighting and extraction UI."
+  },
+  "i18n": {
+    "en": {
+      "title": "Afterhours Extraction",
+      "description": "An after-hours extraction overlay preserving the reference office layout while adding alert-state patrol cones and an exit route."
+    },
+    "zh-CN": {
+      "title": "下班后撤离",
+      "description": "在基准办公室布局上叠加下班后撤离路线、警戒状态视野锥和出口路径。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "series"
+    ],
+    "alt": {
+      "en": "The same office stealth map at night with green extraction route, amber search cones, security icons, and a data-drive HUD slot.",
+      "zh-CN": "夜间同一办公室潜行地图,叠加绿色撤离路线、琥珀色搜索锥、安全图标和数据盘 HUD 槽。"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hollow-world-cross-section",
+  "slug": "hollow-world-cross-section",
+  "category": "technical",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Hollow World Cross Section",
+  "short_title": "Hollow World",
+  "description": "Construct disciplined sectional diagrams of a hollow planetary interior, where inverted continents, inner light, atmospheric circulation, and mirrored ecosystems operate as one coherent speculative world.",
+  "i18n": {
+    "en": {
+      "title": "Hollow World Cross Section",
+      "short_title": "Hollow World",
+      "description": "Construct disciplined sectional diagrams of a hollow planetary interior, where inverted continents, inner light, atmospheric circulation, and mirrored ecosystems operate as one coherent speculative world."
+    },
+    "zh-CN": {
+      "title": "空心世界横截面",
+      "short_title": "空心世界",
+      "description": "以严谨剖面图方式构建空心行星内部，让倒置大陆、内核光源、大气循环和镜像生态形成统一设定。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 819,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-hollow-world-atlas",
+      "type": "single",
+      "title": "Hollow World Atlas",
+      "path": "packages/single-hollow-world-atlas/package.json"
+    }
+  ]
+}

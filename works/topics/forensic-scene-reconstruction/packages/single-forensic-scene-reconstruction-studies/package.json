@@ -1,0 +1,82 @@
+{
+  "id": "single-forensic-scene-reconstruction-studies",
+  "type": "single",
+  "title": "Forensic Scene Reconstruction Studies",
+  "description": "Eight independent reconstruction studies for Forensic Scene Reconstruction, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Forensic Scene Reconstruction, testing physics-materials, reasoning-composition, style-transfer with GPT Image 2. through distinct studies that emphasize world-knowledge, structured-layout, photorealism while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/scene-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Forensic Scene Reconstruction Studies",
+      "description": "Eight independent reconstruction studies for Forensic Scene Reconstruction, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "犯罪重建单图研究",
+      "description": "围绕 犯罪重建 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "scene-overview",
+      "title": "Scene Overview",
+      "image": "images/scene-overview/image.png",
+      "meta": "images/scene-overview/meta.json"
+    },
+    {
+      "id": "object-cluster",
+      "title": "Object Cluster",
+      "image": "images/object-cluster/image.png",
+      "meta": "images/object-cluster/meta.json"
+    },
+    {
+      "id": "timeline-board",
+      "title": "Timeline Board",
+      "image": "images/timeline-board/image.png",
+      "meta": "images/timeline-board/meta.json"
+    },
+    {
+      "id": "entry-angle",
+      "title": "Entry Angle",
+      "image": "images/entry-angle/image.png",
+      "meta": "images/entry-angle/meta.json"
+    },
+    {
+      "id": "evidence-table",
+      "title": "Evidence Table",
+      "image": "images/evidence-table/image.png",
+      "meta": "images/evidence-table/meta.json"
+    },
+    {
+      "id": "detail-callout",
+      "title": "Detail Callout",
+      "image": "images/detail-callout/image.png",
+      "meta": "images/detail-callout/meta.json"
+    },
+    {
+      "id": "spatial-model",
+      "title": "Spatial Model",
+      "image": "images/spatial-model/image.png",
+      "meta": "images/spatial-model/meta.json"
+    },
+    {
+      "id": "final-reconstruction",
+      "title": "Final Reconstruction",
+      "image": "images/final-reconstruction/image.png",
+      "meta": "images/final-reconstruction/meta.json"
+    }
+  ]
+}

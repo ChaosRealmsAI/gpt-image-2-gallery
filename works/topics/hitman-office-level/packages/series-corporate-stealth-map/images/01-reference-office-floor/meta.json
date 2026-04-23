@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square top-down isometric cutaway of a modern corporate office floor, presented like a polished stealth-game level map. The viewpoint is high enough to read the whole floorplan: reception, open desks, glass meeting rooms, executive corner office, server closet, pantry, storage room, restroom corridor, elevator lobby, stairwell, and security desk. Use cool office lighting, muted blue-gray carpet, glass partitions, white desks, and subtle cinematic shadows.\n\nSubject:\nThe main subject is the office as a playable level. Add clean game UI overlays: thin colored patrol routes, cone-shaped vision fields, objective marker diamonds, locked-door icons, small NPC dots, and one compact HUD strip in the lower right with a non-firing suppressed pistol icon. The exact readable objective text should be \"STEAL GPT-6\" inside a mission box. Keep the map readable as architecture first and UI second.\n\nImportant details:\nThis reference image establishes the layout for the series. Room boundaries, door positions, desk clusters, corridors, cameras, vents, stairwell, elevator, and server closet must be clear enough for later images to preserve. The tone should reference a premium stealth-game planning screen without copying any real game interface or logo. No violence is occurring; it is a strategic map view with patrol logic and objective hierarchy.\n\nUse case:\nHitman Office Level series study 1/8, establishing the reference office level layout, patrol system, and objective HUD.\n\nConstraints:\nNo readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no clutter hiding rooms, no impossible floorplan, no broken UI alignment.",
+  "id": "01-reference-office-floor",
+  "title": "Reference Office Floor",
+  "description": "A top-down corporate office stealth map establishing the floorplan, patrol routes, objective marker, and HUD style for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-image-reference",
+    "structured-layout",
+    "reasoning-composition",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/series-corporate-stealth-map/images/01-reference-office-floor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the corporate stealth map series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Office Floor",
+      "description": "A top-down corporate office stealth map establishing the floorplan, patrol routes, objective marker, and HUD style for the series."
+    },
+    "zh-CN": {
+      "title": "基准办公室楼层",
+      "description": "俯视公司办公室潜行地图,建立系列所用平面、巡逻路线、任务标记和 HUD 风格。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition",
+      "series"
+    ],
+    "alt": {
+      "en": "A top-down corporate office floorplan with patrol routes, vision cones, objective marker, and the mission text STEAL GPT-6.",
+      "zh-CN": "俯视公司办公室平面图,叠加巡逻路线、视野锥、目标标记和任务文字 STEAL GPT-6。"
+    }
+  }
+}

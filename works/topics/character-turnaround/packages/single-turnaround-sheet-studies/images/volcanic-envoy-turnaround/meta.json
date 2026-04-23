@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square concept-art turnaround sheet mounted on a warm mineral-toned studio board, presented perfectly flat like a production document. Lighting is soft and even, with enough contrast to separate dark fabrics from copper hardware. The page should feel like a formal costume-development sheet for a worldbuilding-heavy game or animated feature, while remaining clean, technical, and easy to inspect.\n\nSubject:\nCreate one original volcanic envoy character shown in four aligned full-body views on the same sheet: front, forty-five-degree, side, and back, all in a neutral T-pose. The envoy is a tall diplomatic traveler from a geothermal region, with deep brown skin, high cheekbones, tightly wrapped hair coils, layered charcoal heat-cloak split into engineered panels, ember-red lining, basalt bead counterweights, protective throat collar, ash-resistant gloves, and heavy magnetic-soled boots with vented greaves. Include one or two small accessory insets for a clasp mechanism and ceremonial heat token, but keep the main four views large and dominant.\n\nImportant details:\nThis sheet should balance ceremony and technical utility. Preserve exact facial identity, shoulder span, cloak panel logic, bead placement, boot geometry, and glove length across all four views. Materials must feel tactile and grounded: charred woven cloth, dark stone beads, forged copper clasps, matte heat shields, and ash-dusted leather. Include a non-readable tick ruler and abstract diagram boxes only. Avoid fantasy excess; the image should still read like a real character sheet prepared for modeling, rigging, or costume approval.\n\nUse case:\nCharacter Turnaround single study 8/8, testing a ceremonial-industrial four-view sheet with strong silhouette control and production-sheet credibility.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no lava battlefield background, no fire magic effects, no extra dynamic pose, no oversized cloak hiding anatomy, no drifting accessory count, no inconsistent face across views.",
+  "id": "volcanic-envoy-turnaround",
+  "title": "Volcanic Envoy Turnaround",
+  "description": "A ceremonial geothermal traveler rendered as a four-view production sheet with engineered cloaks and mineral hardware.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "reasoning-composition",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/single-turnaround-sheet-studies/images/volcanic-envoy-turnaround/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent turnaround sheet for a ceremonial envoy, balancing industrial costume logic and strong silhouette control."
+  },
+  "i18n": {
+    "en": {
+      "title": "Volcanic Envoy Turnaround",
+      "description": "A ceremonial geothermal traveler rendered as a four-view production sheet with engineered cloaks and mineral hardware."
+    },
+    "zh-CN": {
+      "title": "火山区使者四视图",
+      "description": "以工程化披风结构和矿物硬件细节呈现的地热地区使者角色四视图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A four-view character sheet of a volcanic envoy wearing engineered cloak panels, basalt beads, and heat-resistant boots.",
+      "zh-CN": "一张火山区使者四视图设定图，带有工程化披风面片、玄武岩珠饰和耐热靴。"
+    }
+  }
+}

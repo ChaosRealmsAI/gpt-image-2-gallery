@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square concept-art turnaround sheet pinned against a soft neutral studio board, shown perfectly front-facing like a clean production document. The composition is bright, controlled, and diagrammatic rather than cinematic: pale gray paper field, restrained charcoal guide lines, soft overhead light, and enough margin for the sheet to breathe. The frame must feel like a polished animation or game studio deliverable with balanced spacing and clear silhouette readability.\n\nSubject:\nDesign one original courier heroine presented in four aligned full-body views on the same sheet: front, three-quarter forty-five-degree view, ninety-degree side view, and back view. She stands in a relaxed T-pose with matching proportions in every view. Her identity is specific and repeatable: compact athletic build, copper-brown skin, narrow oval face, right-eyebrow notch scar, short dark bob tucked behind one ear, teal cropped jacket over a rust utility underlayer, matte graphite cargo trousers, split-tone knee boots, and a slim mechanical left forearm with amber indicator slits. Add a few small accessory insets such as gloves, belt buckle, and boot sole tread, but keep them secondary.\n\nImportant details:\nThe sheet must read as industrial character design, not poster art. Keep consistent anatomy, head size, limb length, clothing seams, hardware placement, and facial structure across all four views. Include a non-readable height ruler made only of ticks and blocks, a faint floor baseline, and thin callout boxes with abstract marks instead of text. Preserve clean negative space, controlled line hierarchy, and a professional concept-sheet rhythm.\n\nUse case:\nCharacter Turnaround series study 1/8, establishing the canonical identity and sheet grammar for a reference-driven production lineup.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra fifth pose, no dramatic action stance, no weapon, no floating UI overlay, no malformed hands, no inconsistent face between views.",
+  "id": "01-reference-courier-sheet",
+  "title": "Reference Courier Sheet",
+  "description": "A canonical four-view turnaround sheet defining the courier's identity, proportions, and technical presentation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference sheet for the courier identity, proportions, and turnaround layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Courier Sheet",
+      "description": "A canonical four-view turnaround sheet defining the courier's identity, proportions, and technical presentation."
+    },
+    "zh-CN": {
+      "title": "基准信使设定图",
+      "description": "一张标准四视图角色设定表，定义信使角色的身份、比例和工业化版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "A clean concept-art sheet showing the same courier in front, three-quarter, side, and back views.",
+      "zh-CN": "一张干净的角色设定图，展示同一信使的正面、四分之三侧面、侧面和背面。"
+    }
+  }
+}

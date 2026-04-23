@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama inside an aurora-lit ice cavern, with luminous cyan, violet, and emerald reflections, deep blue shadows, and crisp realistic ice texture. The viewer stands on a safe frozen shelf in the center of a round cavern chamber. The horizon is centered at eye level; the upper half shows translucent ice arches and aurora glow filtering through cracks, while the lower half shows continuous snow, frozen water, and rock edges.\n\nSubject:\nThe cavern surrounds the viewer with layered ice curtains, stalactites, frosted stone, small meltwater pools, and a narrow tunnel opening in each cardinal direction. Through a ceiling fissure, aurora light ripples across the ice. Tiny expedition lanterns sit on the ground as scale markers but contain no text. The scene should feel vast, cold, and physically plausible, with enough detail for close VR inspection.\n\nImportant details:\nLeft and right edges must connect as the same ice wall, with matching color temperature, ground height, and arch rhythm. Avoid putting a single dramatic tunnel at the seam. The zenith should have coherent ice ceiling structure; the nadir should not collapse into a blur, but show snow texture and reflected aurora. Reflections in the ice should follow surface direction and not create random mirror duplicates.\n\nUse case:\nEquirectangular VR Panorama single study 8/8, testing transparent material rendering and seamless cave geometry in a headset-ready 360 scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular fisheye, no tiny-planet image, no black void ceiling, no impossible floating ice shards, no broken panorama seam, no overexposed neon wash.",
+  "id": "aurora-ice-cavern",
+  "title": "Aurora Ice Cavern",
+  "description": "A 360-degree aurora-lit ice cavern with transparent arches, frozen pools, and a seamless wraparound wall.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "physics-materials",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/aurora-ice-cavern/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Aurora Ice Cavern",
+      "description": "A 360-degree aurora-lit ice cavern with transparent arches, frozen pools, and a seamless wraparound wall."
+    },
+    "zh-CN": {
+      "title": "极光冰洞",
+      "description": "极光照亮的 360 度冰洞，透明拱壁、冰封水池和无缝环绕洞壁共同构成空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "physics-materials",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama inside an aurora-lit ice cavern with transparent arches and frozen pools.",
+      "zh-CN": "一张 2:1 VR 全景图，极光照亮的冰洞内有透明冰拱和冰封水池。"
+    }
+  }
+}

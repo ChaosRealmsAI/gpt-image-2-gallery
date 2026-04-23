@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a square atlas plate showing a modest civil settlement integrated into interior terrain, with shell curvature and environmental context clearly visible. The emphasis should stay on geographic adaptation rather than on urban spectacle. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow how structures, paths, agriculture, or water management might respond to the inward-facing landscape and central light. Settlement details should remain small enough not to overwhelm the worldbuilding logic. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. This is a reasoning exercise, so the placement of habitation must feel defensible. Use terrain, climate, and resource logic to justify where people or other sapient inhabitants would build inside the shell. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no megacity skyline, no cyberpunk glow, no readable signage, no war-scene framing, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "civil-settlement-section",
+  "title": "Civil Settlement Section",
+  "description": "A sectional atlas plate imagines how settlements might organize around the interior geography.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/civil-settlement-section/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Civil Settlement Section",
+      "description": "A sectional atlas plate imagines how settlements might organize around the interior geography."
+    },
+    "zh-CN": {
+      "title": "聚居区剖面",
+      "description": "剖面图版想象聚居区如何围绕内部地理结构组织。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A sectional atlas plate of settlements within a hollow world interior.",
+      "zh-CN": "空心世界内部聚居区的剖面图版。"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "series-corporate-stealth-map",
+  "type": "series",
+  "title": "Corporate Stealth Map",
+  "description": "A reference-dependent stealth UI series: one top-down corporate office floorplan followed by three mission overlays that preserve the same room layout and circulation logic.",
+  "creative_direction": "Image 01 establishes a clean office level map; images 02-04 reuse that layout as a reference while changing objective focus, patrol paths, locked zones, and HUD state.",
+  "cover_image": "images/01-reference-office-floor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-office-floor/meta.json",
+      "images/02-server-vault-route/meta.json",
+      "images/03-boardroom-social-stealth/meta.json",
+      "images/04-afterhours-extraction/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Corporate Stealth Map",
+      "description": "A reference-dependent stealth UI series: one top-down corporate office floorplan followed by three mission overlays that preserve the same room layout and circulation logic."
+    },
+    "zh-CN": {
+      "title": "公司潜行地图",
+      "description": "一组参考依赖关卡 UI: 先建立俯视办公室平面,再在同一布局上改变任务、巡逻路线和 HUD 状态。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-office-floor",
+      "title": "Reference Office Floor",
+      "image": "images/01-reference-office-floor/image.png",
+      "meta": "images/01-reference-office-floor/meta.json"
+    },
+    {
+      "id": "02-server-vault-route",
+      "title": "Server Vault Route",
+      "image": "images/02-server-vault-route/image.png",
+      "meta": "images/02-server-vault-route/meta.json"
+    },
+    {
+      "id": "03-boardroom-social-stealth",
+      "title": "Boardroom Social Stealth",
+      "image": "images/03-boardroom-social-stealth/image.png",
+      "meta": "images/03-boardroom-social-stealth/meta.json"
+    },
+    {
+      "id": "04-afterhours-extraction",
+      "title": "Afterhours Extraction",
+      "image": "images/04-afterhours-extraction/image.png",
+      "meta": "images/04-afterhours-extraction/meta.json"
+    }
+  ]
+}

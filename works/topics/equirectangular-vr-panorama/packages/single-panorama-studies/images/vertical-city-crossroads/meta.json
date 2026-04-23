@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama standing at the center of a vertical city crossroads at dusk, with crisp editorial realism, rain-wet pavement, soft signage-like glow without readable text, and layered towers rising in every direction. The viewer is at street level on a circular pedestrian island. The horizon is exactly centered, with street canyons wrapping into a continuous 360-degree urban ring.\n\nSubject:\nElevated walkways, tram cables, market awnings, stacked balconies, rooftop gardens, delivery lifts, and glass elevators surround the viewer. Four main streets radiate toward different districts: a food arcade, a transit hub, a residential tower canyon, and a public garden stair. People can appear only as small anonymous silhouettes for scale. The city should feel dense and navigable, not chaotic.\n\nImportant details:\nThis is an equirectangular panorama, so the left and right edges must join as adjacent sides of the same street canyon. Keep building heights and vanishing logic compatible across the seam. Add overhead cables and rail lines that arc naturally through the zenith without becoming tangled scribbles. The nadir should be a continuous wet pavement island with reflected lights. Use abstract glowing panels and icons only, no readable words or brand marks.\n\nUse case:\nEquirectangular VR Panorama single study 7/8, testing high-density structured layout and urban wayfinding inside a seamless VR-ready city scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular fisheye, no tiny-planet projection, no impossible perspective collapse, no random duplicated buildings at the seam, no overstuffed illegible signage, no black borders.",
+  "id": "vertical-city-crossroads",
+  "title": "Vertical City Crossroads",
+  "description": "A dense 360-degree vertical city intersection with wet pavement, stacked walkways, and continuous urban wayfinding.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/vertical-city-crossroads/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Vertical City Crossroads",
+      "description": "A dense 360-degree vertical city intersection with wet pavement, stacked walkways, and continuous urban wayfinding."
+    },
+    "zh-CN": {
+      "title": "垂直城市十字路口",
+      "description": "高密度 360 度垂直城市路口，湿润路面、层叠步道和连续城市导向系统环绕展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama at the center of a dense vertical city crossroads at dusk.",
+      "zh-CN": "一张 2:1 VR 全景图，观众站在黄昏时分的垂直城市十字路口中心。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square mission-briefing board style image showing an open-plan office level as if printed on a tactical glass table. The map is top-down, clean, and semi-photoreal: rows of desks, meeting booths, kitchenette, manager office, storage closet, printer island, elevators, fire stairs, and a central collaboration zone. The interface floats above the table with restrained cyan, amber, and red overlays.\n\nSubject:\nThe exact readable objective text should be \"STEAL GPT-6\" in a transparent mission panel. Add route arrows, camera cones, patrol loops, sound radius rings around printers and coffee machine, and interactive object markers rendered as simple icons. The HUD includes a small silent-tool silhouette, access badge, and objective progress slots. The image should feel like a high-concept office game level briefing for a corporate meme campaign, not a realistic crime instruction.\n\nImportant details:\nThe layout must be easy to parse at a glance. Keep desks in clean rows, corridors navigable, doors aligned, and each overlay color assigned a clear role. The collaboration zone should create a central risk area, while storage and kitchenette form alternate routes. Avoid overloading the image with pseudo-code or unreadable panels. No one is harmed; the focus is route planning, UI hierarchy, and office-space game design.\n\nUse case:\nHitman Office Level single study 8/8, testing independent briefing-map composition with office layout, UI overlays, and objective hierarchy.\n\nConstraints:\nNo readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no weapon aiming at people, no route arrows leaving the floorplan, no cluttered briefing UI.",
+  "id": "open-office-briefing-map",
+  "title": "Open Office Briefing Map",
+  "description": "A glass-table mission briefing map turning an open-plan office into a readable stealth level with route, sound, and objective overlays.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "reasoning-composition",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/single-office-level-studies/images/open-office-briefing-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing briefing-board UI hierarchy and office route planning."
+  },
+  "i18n": {
+    "en": {
+      "title": "Open Office Briefing Map",
+      "description": "A glass-table mission briefing map turning an open-plan office into a readable stealth level with route, sound, and objective overlays."
+    },
+    "zh-CN": {
+      "title": "开放办公简报地图",
+      "description": "玻璃桌任务简报地图,把开放式办公室转成带路线、声音和目标叠层的可读潜行关卡。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A glass-table mission briefing map of an open office, with route arrows, sound rings, patrol loops, and objective STEAL GPT-6.",
+      "zh-CN": "开放办公室玻璃桌任务简报地图,叠加路线箭头、声音环、巡逻圈和 STEAL GPT-6 目标。"
+    }
+  }
+}

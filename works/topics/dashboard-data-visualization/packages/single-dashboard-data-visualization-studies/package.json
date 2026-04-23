@@ -1,0 +1,82 @@
+{
+  "id": "single-dashboard-data-visualization-studies",
+  "type": "single",
+  "title": "Dashboard Diagram Studies",
+  "description": "Eight independent diagram studies for Dashboard Data Visualization, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Dashboard Data Visualization, testing structured-layout, technical-diagram, reasoning-composition with GPT Image 2. through distinct studies that emphasize structured-layout, technical-diagram, scientific-realism while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/overview-plate/image.png",
+  "i18n": {
+    "en": {
+      "title": "Dashboard Diagram Studies",
+      "description": "Eight independent diagram studies for Dashboard Data Visualization, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "数据看板单图研究",
+      "description": "围绕 数据看板 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "images": [
+    {
+      "id": "overview-plate",
+      "title": "Overview Plate",
+      "image": "images/overview-plate/image.png",
+      "meta": "images/overview-plate/meta.json"
+    },
+    {
+      "id": "cutaway-panel",
+      "title": "Cutaway Panel",
+      "image": "images/cutaway-panel/image.png",
+      "meta": "images/cutaway-panel/meta.json"
+    },
+    {
+      "id": "process-sequence",
+      "title": "Process Sequence",
+      "image": "images/process-sequence/image.png",
+      "meta": "images/process-sequence/meta.json"
+    },
+    {
+      "id": "annotation-cluster",
+      "title": "Annotation Cluster",
+      "image": "images/annotation-cluster/image.png",
+      "meta": "images/annotation-cluster/meta.json"
+    },
+    {
+      "id": "comparison-board",
+      "title": "Comparison Board",
+      "image": "images/comparison-board/image.png",
+      "meta": "images/comparison-board/meta.json"
+    },
+    {
+      "id": "material-callout",
+      "title": "材质标注",
+      "image": "images/material-callout/image.png",
+      "meta": "images/material-callout/meta.json"
+    },
+    {
+      "id": "exploded-system",
+      "title": "Exploded System",
+      "image": "images/exploded-system/image.png",
+      "meta": "images/exploded-system/meta.json"
+    },
+    {
+      "id": "final-plate",
+      "title": "Final Plate",
+      "image": "images/final-plate/image.png",
+      "meta": "images/final-plate/meta.json"
+    }
+  ]
+}

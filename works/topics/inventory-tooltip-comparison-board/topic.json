@@ -1,0 +1,49 @@
+{
+  "id": "inventory-tooltip-comparison-board",
+  "slug": "inventory-tooltip-comparison-board",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering"
+  ],
+  "title": "Inventory Tooltip Comparison Board",
+  "short_title": "Tooltip Board",
+  "description": "Create a comparison board for gear, items, or cards that makes stats, rarity, set bonuses, and upgrade choices scannable.",
+  "i18n": {
+    "en": {
+      "title": "Inventory Tooltip Comparison Board",
+      "short_title": "Tooltip Board",
+      "description": "Create a comparison board for gear, items, or cards that makes stats, rarity, set bonuses, and upgrade choices scannable."
+    },
+    "zh-CN": {
+      "title": "库存与 Tooltip 对比板",
+      "short_title": "装备对比",
+      "description": "围绕装备、卡牌或物品做 tooltip 对比板，让玩家能一眼看出属性差异、套装效果和升级取舍。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1001,
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "technical-diagram"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-inventory-tooltip-studies",
+      "type": "single",
+      "title": "Inventory Tooltip Studies",
+      "path": "packages/single-inventory-tooltip-studies/package.json"
+    }
+  ]
+}

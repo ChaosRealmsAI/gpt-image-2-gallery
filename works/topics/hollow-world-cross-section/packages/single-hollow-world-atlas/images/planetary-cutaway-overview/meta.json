@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square atlas-style planetary cutaway viewed straight on, with the shell thickness, inner cavity, and luminous central body all clearly legible. The image should feel like a polished museum diagram rather than a rough concept sketch. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow both outer crust and inverted inner continents, with oceans clinging to the interior shell, atmospheric layers curving around the cavity, and one central light source providing illumination. Keep the whole system readable at a glance. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. Clarity and plausibility matter most. Use restrained cross-sectional color coding, believable geology, and clean hierarchy so the viewer can infer how a shell world might physically organize itself. Avoid clutter and avoid pure fantasy spectacle. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no comic-book explosion cutaway, no cluttered UI overlays, no magical glow fog everywhere, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "planetary-cutaway-overview",
+  "title": "Planetary Cutaway Overview",
+  "description": "A full cutaway overview introduces the hollow shell, inner light source, and interior surface.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/planetary-cutaway-overview/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Planetary Cutaway Overview",
+      "description": "A full cutaway overview introduces the hollow shell, inner light source, and interior surface."
+    },
+    "zh-CN": {
+      "title": "行星切剖总览",
+      "description": "完整切剖总览展示空心壳体、内光源与内侧地表。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A full cutaway overview of a hollow planet with an inner sun.",
+      "zh-CN": "带内太阳的空心行星完整切剖总览。"
+    }
+  }
+}

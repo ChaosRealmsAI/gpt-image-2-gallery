@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nDesign a clean sectional diagram that zooms closer on the inner cavity, with the central light source offset enough to show the distribution of illumination and heat across the shell interior. The square composition should feel explanatory and elegant, with layered atmosphere and terrain belts. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on climate zones, cloud circulation, and the way light intensity creates distinct inner biomes around the shell. Include enough land and water detail to make the climate consequences visible rather than abstract. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. Use diagram discipline instead of labels: graded color, clear air layers, and consistent terrain forms should communicate climate structure. This should feel like a scientific thought experiment presented with conviction. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable arrows, no dashboard UI, no fantasy aurora overload, no posterized gradient shortcuts, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "inner-sun-climate-band",
+  "title": "Inner Sun Climate Band",
+  "description": "A sectional diagram studies how the inner light source creates climate bands inside the cavity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/inner-sun-climate-band/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Inner Sun Climate Band",
+      "description": "A sectional diagram studies how the inner light source creates climate bands inside the cavity."
+    },
+    "zh-CN": {
+      "title": "内太阳气候带",
+      "description": "剖面图研究内部光源如何在腔体内生成气候带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A sectional diagram of climate bands around the inner sun.",
+      "zh-CN": "围绕内太阳形成的气候带剖面图。"
+    }
+  }
+}

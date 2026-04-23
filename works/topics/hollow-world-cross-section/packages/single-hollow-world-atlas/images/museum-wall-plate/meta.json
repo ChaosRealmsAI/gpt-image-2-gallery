@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFinish with a museum-wall style synthesis plate on a clean archival background, combining one major cutaway with smaller supportive sectional views. The square composition should feel authoritative, polished, and ready for exhibition. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nIntegrate the central hollow-world cutaway, climate logic, interior surface, and one or two focused subdiagrams into one coherent explanatory image. The design should summarize the world clearly without depending on readable text. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. Balance beauty and reasoning. Clean hierarchy, restrained palette, and disciplined section work should make the final plate feel like the capstone image of a speculative planetary atlas. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable title blocks, no infographic clutter, no fantasy cover-art spectacle, no collage of unrelated assets, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "museum-wall-plate",
+  "title": "Museum Wall Plate",
+  "description": "A final museum-style wall plate synthesizes the hollow world concept into one polished diagram.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/museum-wall-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Wall Plate",
+      "description": "A final museum-style wall plate synthesizes the hollow world concept into one polished diagram."
+    },
+    "zh-CN": {
+      "title": "博物馆墙版",
+      "description": "以博物馆墙版形式把空心世界概念整合成一张精炼图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A museum-style wall plate summarizing a hollow world system.",
+      "zh-CN": "总结空心世界系统的博物馆墙版图。"
+    }
+  }
+}

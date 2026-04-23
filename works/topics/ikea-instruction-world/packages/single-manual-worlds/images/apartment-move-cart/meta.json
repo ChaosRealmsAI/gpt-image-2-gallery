@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square flat-pack moving manual on a bright white page, laid out with strict information-design hierarchy, black technical line art, small blue and yellow accents, and light gray registration marks. The page looks like a folded instruction insert for a modular cart system. It has a large exploded diagram in the center, a parts checklist at the side, and four small step panels around it with blank label strips only.\n\nSubject:\nA kit for moving into a new apartment. The parts inventory shows sofa panels, bed slats, bookshelf boards, plant pots, lamp shades, cardboard boxes, door keys, elevator buttons as abstract icons, tape rolls, wheels, and a small emotional-support snack tray. Tiny instruction figures push, lift, rotate, and align the pieces into a single impossible moving cart that unfolds into a furnished studio apartment.\n\nImportant details:\nThe main visual joke is that the entire stressful move is treated as one furniture assembly. Show correct and incorrect lifting posture icons, arrows that rotate a sofa through a doorway, caster wheels attaching to a cardboard box stack, and a final check panel where the apartment locks into place. Keep the diagrams plausible, clean, and mechanically satisfying. Avoid real labels; rely on icons and silhouettes for meaning.\n\nUse case:\nIKEA Instruction World single study 5/8, turning an apartment move into a modular assembly-cart instruction sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real store branding, no actual street address, no cluttered moving-photo scene, no unreadable typography, no chaotic piles hiding the diagram, no broken technical perspective.",
+  "id": "apartment-move-cart",
+  "title": "Apartment Move Cart",
+  "description": "A technical moving manual where boxes, furniture, wheels, and keys assemble into a compact new-apartment cart.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/apartment-move-cart/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Apartment Move Cart",
+      "description": "A technical moving manual where boxes, furniture, wheels, and keys assemble into a compact new-apartment cart."
+    },
+    "zh-CN": {
+      "title": "搬家推车",
+      "description": "一张技术搬家说明书，把纸箱、家具、轮子和钥匙组装成紧凑的新公寓推车。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A square moving manual where apartment furniture and boxes assemble into one modular cart.",
+      "zh-CN": "一张方形搬家说明书，把公寓家具和纸箱组装成一辆模块推车。"
+    }
+  }
+}

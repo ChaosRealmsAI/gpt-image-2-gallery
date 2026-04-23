@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square plate or board viewed straight-on, with crisp organization, disciplined spacing, and premium print clarity. Build the frame around a sequence of stages or states arranged in a disciplined progression. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Dashboard Data Visualization theme and should feel immediately legible as a prompt atlas theme for dashboard data visualization, testing structured-layout, technical-diagram, reasoning-composition with gpt image 2..\n\nSubject:\nCenter the study on a sequence of stages or states arranged in a disciplined progression. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of dashboard data visualization as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by CO2, UI, but keep the result original and specific to this study.\n\nImportant details:\nThe image should communicate logic through grouping, hierarchy, callouts, insets, and believable professional layout discipline rather than decorative noise. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Dashboard Data Visualization. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nDashboard Data Visualization single study 3/8, testing structured-layout, technical-diagram, reasoning-composition through the process sequence variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable labels, no messy arrows, no random infographic decoration, no fake UI chrome unless the topic calls for it, no broken alignment, no meaningless clutter.",
+  "id": "process-sequence",
+  "title": "Process Sequence",
+  "description": "Process Sequence interprets Dashboard Data Visualization as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "technical-diagram",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/dashboard-data-visualization/packages/single-dashboard-data-visualization-studies/images/process-sequence/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Dashboard Data Visualization single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Process Sequence",
+      "description": "Process Sequence interprets Dashboard Data Visualization as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "流程序列",
+      "description": "流程序列：围绕 数据可视化 Dashboard 静帧 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "Process Sequence for Dashboard Data Visualization.",
+      "zh-CN": "数据可视化 Dashboard 静帧主题中的流程序列图像研究。"
+    }
+  }
+}

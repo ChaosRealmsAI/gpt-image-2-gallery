@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square top-down hybrid of corporate office and internal datacenter, shown as a polished tactical game map. The floorplan combines badge entry, help desk, glass operations room, server aisles, cable trays, loading dock, backup power room, and a small office bullpen. Lighting alternates between cool server glow and neutral office panels.\n\nSubject:\nThe exact readable objective text should be \"STEAL GPT-6\" in the HUD mission tracker. The objective icon sits inside a secure server cage. Add heat-like security zones, camera cones along aisles, badge-reader locks, moving technician patrol dots, and a safe route that threads through blind spots. A lower HUD strip shows icon-only inventory: access card, data drive, compact tool, and non-firing suppressed pistol silhouette. The map is dense but should remain auditably organized.\n\nImportant details:\nThis is a structured-layout challenge: server aisles must align in rows, corridors must connect logically, and UI overlays must clarify rather than confuse. Keep the target as data extraction, not physical harm. Use believable datacenter details: raised floor tiles, cable trays, cold aisle/hot aisle rhythm, equipment racks, security cage, and operations monitors rendered without readable text. Avoid fantasy hacking screens or branded cloud logos.\n\nUse case:\nHitman Office Level single study 7/8, testing datacenter-office heist composition with HUD, security geometry, and objective readability.\n\nConstraints:\nNo readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real tech brand, no blood, no active shooting, no dead bodies, no impossible server maze, no random neon hacker text, no UI blocking the server cage.",
+  "id": "datacenter-heist-hud",
+  "title": "Datacenter Heist HUD",
+  "description": "A datacenter-office stealth map with server cage objective, camera coverage, technician patrols, and compact HUD inventory.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "reasoning-composition",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/single-office-level-studies/images/datacenter-heist-hud/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing datacenter-office HUD and route logic."
+  },
+  "i18n": {
+    "en": {
+      "title": "Datacenter Heist HUD",
+      "description": "A datacenter-office stealth map with server cage objective, camera coverage, technician patrols, and compact HUD inventory."
+    },
+    "zh-CN": {
+      "title": "数据中心 HUD",
+      "description": "数据中心办公室潜行地图,包含服务器笼目标、摄像头覆盖、技术员巡逻和紧凑 HUD 物品栏。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A datacenter office rendered as a stealth heist HUD with server aisles, camera cones, technician routes, and objective STEAL GPT-6.",
+      "zh-CN": "数据中心办公室被渲染为潜行任务 HUD,包含服务器通道、摄像头视野、技术员路线和 STEAL GPT-6 目标。"
+    }
+  }
+}

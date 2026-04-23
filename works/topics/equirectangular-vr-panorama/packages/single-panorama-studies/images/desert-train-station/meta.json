@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama of a desert train station at golden hour, with cinematic realism, amber dust, long shadows, and a clear turquoise sky. The viewpoint is centered on the main platform between two curved tracks. The horizon stays at the midline, and the station must wrap left-to-right as a continuous rail yard instead of reading as a flat wide-angle photograph.\n\nSubject:\nAround the viewer are tiled platform edges, iron shade canopies, a water tower, signal posts with abstract marks only, luggage carts, wind-sculpted dunes, and a long silver train bending around the rear half of the scene. On the front half, sand has drifted across the platform in soft ridges. The station architecture feels slightly retro-futurist, with brass trim and practical desert engineering, but no brand identity.\n\nImportant details:\nThe two tracks should form believable arcs around the viewer and continue smoothly through both panorama edges. Keep the left and right boundaries visually compatible: same rail height, same dune horizon, same light direction. Add landmarks at quarter turns so a VR viewer has orientation cues: ticket hall, train nose, water tower, and distant canyon. Zenith should be open sky; nadir should be platform tile and sand, not a void.\n\nUse case:\nEquirectangular VR Panorama single study 4/8, testing whether transportation infrastructure can stay spatially coherent in a 360-degree extreme-aspect scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular fisheye, no miniature planet, no impossible rail intersections, no duplicated train nose at the seam, no black border, no poster-like centered composition.",
+  "id": "desert-train-station",
+  "title": "Desert Train Station",
+  "description": "A golden-hour 360-degree desert rail platform with continuous tracks, dunes, and retro-futurist station architecture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/desert-train-station/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Train Station",
+      "description": "A golden-hour 360-degree desert rail platform with continuous tracks, dunes, and retro-futurist station architecture."
+    },
+    "zh-CN": {
+      "title": "沙漠列车站",
+      "description": "黄金时刻的 360 度沙漠站台，连续铁轨、沙丘和复古未来主义车站建筑环绕视野。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama of a desert train station with curved tracks and golden dunes.",
+      "zh-CN": "一张 2:1 VR 全景图，沙漠列车站中弯曲铁轨与金色沙丘连续环绕。"
+    }
+  }
+}

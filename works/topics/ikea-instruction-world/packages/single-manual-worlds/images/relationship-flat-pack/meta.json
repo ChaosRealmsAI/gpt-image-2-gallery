@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square instruction leaflet laid out on white paper, straight-on, with crisp black technical drawing, sparse blue-yellow accents, gray fold marks, and a disciplined grid. The page has a parts list on the left, a caution strip at the top, and four large assembly panels in a two-by-two arrangement. Use blank label bars and symbolic glyphs only, so the design reads as a manual without readable language.\n\nSubject:\nA flat-pack kit for assembling a relationship. The parts include two chair-like heart brackets, trust dowels, tiny conversation hinges, calendar pegs, apology washers, shared-blanket panels, boundary spacers, and a fragile glass patience shelf. Two simple instruction figures work together: one holds an oversized hex key, the other steadies a wobbling emotional frame. The final assembly is a small two-seat bench-house hybrid with balanced legs, cushions, shelves, and open windows.\n\nImportant details:\nShow the relationship as a technical system that fails if parts are forced: one panel shows crossed-out over-tightening, another shows alignment arrows between two separate panels, another shows missing washer chaos, and the final panel shows a clean check-marked structure. Keep the humor dry and diagrammatic. The layout must be orderly, with consistent stroke weight, no crowded labels, and clear visual hierarchy from inventory to steps to final object.\n\nUse case:\nIKEA Instruction World single study 2/8, turning a relationship into a structured flat-pack assembly diagram.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand identity, no romance-card lettering, no photorealism, no cluttered scrapbook, no actual numbered text, no broken panel grid.",
+  "id": "relationship-flat-pack",
+  "title": "Relationship Flat-Pack",
+  "description": "A flat-pack instruction diagram where trust, patience, boundaries, and conversation assemble into a two-person structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/relationship-flat-pack/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Relationship Flat-Pack",
+      "description": "A flat-pack instruction diagram where trust, patience, boundaries, and conversation assemble into a two-person structure."
+    },
+    "zh-CN": {
+      "title": "关系平板包装",
+      "description": "一张平板包装说明书，把信任、耐心、边界和对话组装成双人结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A square manual diagram showing two figures assembling a relationship from trust hinges and patience washers.",
+      "zh-CN": "一张方形说明书图，两个人用信任铰链和耐心垫圈组装一段关系。"
+    }
+  }
+}

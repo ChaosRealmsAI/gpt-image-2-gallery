@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square colorful top-down cutaway of a coworking space transformed into a stealth puzzle map. The office includes hot desks, phone booths, lounge sofas, coffee bar, shared conference pods, printer alcove, lockers, plant dividers, glass entrance, and a rooftop terrace door. Use bright startup-office colors under a semi-transparent tactical overlay.\n\nSubject:\nThe playable map shows NPC patrol routines as curved colored paths between coffee, phone booths, printers, and meeting pods. The exact readable objective text should be \"STEAL GPT-6\" in a small objective card. A player marker begins near lockers; target data is shown in a conference pod as a glowing icon, not a person. HUD elements include disguise icon, access badge, silent inventory silhouette, and suspicion meter. Use small dots and cones rather than detailed violence or action.\n\nImportant details:\nThis image tests reasoning composition inside a busy open-plan office. The map must remain legible despite furniture density: routes avoid desks, sightlines are blocked by phone booths and plant dividers, and staff routines create timed openings. Keep UI overlays clean with different colors for patrol, objective, restricted zones, and safe route. The space should feel like a real coworking office with plausible amenities, not a generic maze.\n\nUse case:\nHitman Office Level single study 6/8, testing independent coworking-office patrol puzzle composition and UI hierarchy.\n\nConstraints:\nNo readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real coworking brand, no blood, no active shooting, no dead bodies, no random furniture maze, no unreadable patrol spaghetti, no UI labels beyond the objective.",
+  "id": "coworking-patrol-puzzle",
+  "title": "Coworking Patrol Puzzle",
+  "description": "A coworking-space stealth puzzle map where staff routines, sightlines, and furniture partitions create readable route timing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "reasoning-composition",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/single-office-level-studies/images/coworking-patrol-puzzle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing coworking patrol route readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coworking Patrol Puzzle",
+      "description": "A coworking-space stealth puzzle map where staff routines, sightlines, and furniture partitions create readable route timing."
+    },
+    "zh-CN": {
+      "title": "共享办公巡逻谜题",
+      "description": "共享办公空间潜行谜题地图,用员工路线、视线和家具隔断形成可读的时机窗口。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A colorful coworking space shown as a stealth puzzle map with patrol paths, vision cones, and the objective STEAL GPT-6.",
+      "zh-CN": "彩色共享办公空间被做成潜行谜题地图,包含巡逻路线、视野锥和任务 STEAL GPT-6。"
+    }
+  }
+}

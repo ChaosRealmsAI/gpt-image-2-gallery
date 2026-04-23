@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama of a floating sky village, rendered as warm hand-painted storybook animation with soft morning light, pale blue atmosphere, and high-key clouds. The horizon stays exactly on the horizontal midline, with readable sky above and island undersides below so the image can wrap inside a VR viewer. The camera is standing on a circular wooden lookout platform near the village center, with a calm 360-degree view rather than a flat postcard composition.\n\nSubject:\nFloating islands encircle the viewer at different distances: tea houses on mossy rock shelves, rope bridges, small windmills, laundry lines, vegetable terraces, and hovering boats tied to carved posts. A broad cloud river crosses the back half of the panorama, while the front half shows railing, planters, and hanging lanterns that continue around the platform. No single building should dominate; the subject is the full inhabitable village ring.\n\nImportant details:\nMake the left and right edges align seamlessly as one continuous sky-village loop. Place strong landmarks at front, left, rear, and right viewing directions, with scale fading naturally into cloud haze. Keep vertical lines gently curved only by equirectangular projection, not fisheye. The zenith should be open sky with drifting birds; the nadir should show coherent platform boards.\n\nUse case:\nEquirectangular VR Panorama single study 1/8, testing whether a stylized floating village can become a viewer-enterable 360 scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular tiny-planet view, no split panels, no black borders, no broken left-right seam, no empty panorama edges, no hard central poster framing.",
+  "id": "floating-sky-village",
+  "title": "Floating Sky Village",
+  "description": "A warm animated 360-degree sky village with floating islands, rope bridges, and a seamless cloud horizon.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "style-transfer",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/floating-sky-village/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Floating Sky Village",
+      "description": "A warm animated 360-degree sky village with floating islands, rope bridges, and a seamless cloud horizon."
+    },
+    "zh-CN": {
+      "title": "悬浮天空村落",
+      "description": "温暖动画质感的 360 度天空村落，包含浮岛、绳桥和可无缝环绕的云层地平线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama of a floating sky village wrapped around a wooden lookout platform.",
+      "zh-CN": "一张 2:1 VR 全景图，木质观景台四周环绕着悬浮天空村落。"
+    }
+  }
+}

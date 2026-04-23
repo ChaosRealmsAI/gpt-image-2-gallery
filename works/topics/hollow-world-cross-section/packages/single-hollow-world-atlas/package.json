@@ -1,0 +1,89 @@
+{
+  "id": "single-hollow-world-atlas",
+  "type": "single",
+  "title": "Hollow World Atlas",
+  "description": "Nine sectional atlas studies explaining the geology, climate, and ecosystems of a hollow planet.",
+  "creative_direction": "Every image should balance explanatory structure and visual credibility: clear sectional logic, restrained diagram aesthetics, and enough environmental detail to make the hollow world feel inhabited rather than purely schematic.",
+  "cover_image": "images/planetary-cutaway-overview/image.png",
+  "i18n": {
+    "en": {
+      "title": "Hollow World Atlas",
+      "description": "Nine sectional atlas studies explaining the geology, climate, and ecosystems of a hollow planet."
+    },
+    "zh-CN": {
+      "title": "空心世界图集",
+      "description": "九张剖面图集研究图，解释空心行星的地质、气候与生态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "planetary-cutaway-overview",
+      "title": "Planetary Cutaway Overview",
+      "image": "images/planetary-cutaway-overview/image.png",
+      "meta": "images/planetary-cutaway-overview/meta.json"
+    },
+    {
+      "id": "inner-sun-climate-band",
+      "title": "Inner Sun Climate Band",
+      "image": "images/inner-sun-climate-band/image.png",
+      "meta": "images/inner-sun-climate-band/meta.json"
+    },
+    {
+      "id": "inverted-continent-ocean",
+      "title": "Inverted Continent Ocean",
+      "image": "images/inverted-continent-ocean/image.png",
+      "meta": "images/inverted-continent-ocean/meta.json"
+    },
+    {
+      "id": "atmosphere-recirculation-diagram",
+      "title": "Atmosphere Recirculation Diagram",
+      "image": "images/atmosphere-recirculation-diagram/image.png",
+      "meta": "images/atmosphere-recirculation-diagram/meta.json"
+    },
+    {
+      "id": "polar-access-shaft",
+      "title": "Polar Access Shaft",
+      "image": "images/polar-access-shaft/image.png",
+      "meta": "images/polar-access-shaft/meta.json"
+    },
+    {
+      "id": "mirrored-forest-biome",
+      "title": "Mirrored Forest Biome",
+      "image": "images/mirrored-forest-biome/image.png",
+      "meta": "images/mirrored-forest-biome/meta.json"
+    },
+    {
+      "id": "civil-settlement-section",
+      "title": "Civil Settlement Section",
+      "image": "images/civil-settlement-section/image.png",
+      "meta": "images/civil-settlement-section/meta.json"
+    },
+    {
+      "id": "tectonic-shell-study",
+      "title": "Tectonic Shell Study",
+      "image": "images/tectonic-shell-study/image.png",
+      "meta": "images/tectonic-shell-study/meta.json"
+    },
+    {
+      "id": "museum-wall-plate",
+      "title": "Museum Wall Plate",
+      "image": "images/museum-wall-plate/image.png",
+      "meta": "images/museum-wall-plate/meta.json"
+    }
+  ]
+}

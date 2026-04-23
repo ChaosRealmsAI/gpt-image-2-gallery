@@ -1,0 +1,48 @@
+{
+  "id": "dashboard-data-visualization",
+  "slug": "dashboard-data-visualization",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout"
+  ],
+  "title": "Dashboard Data Visualization",
+  "short_title": "Dashboard",
+  "description": "A Prompt Atlas theme for Dashboard Data Visualization, testing structured-layout, technical-diagram, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Dashboard Data Visualization",
+      "short_title": "Dashboard",
+      "description": "A Prompt Atlas theme for Dashboard Data Visualization, testing structured-layout, technical-diagram, reasoning-composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "数据可视化 Dashboard 静帧",
+      "short_title": "数据看板",
+      "description": "数据可视化 Dashboard 静帧：金融(股票 K 线 + 雷达 + 热力图)/ 气候(全球温度 + 海平面 + CO2)/ 健康(心率 + 睡眠 + 运动)· 深色 UI + 10+ 图表共存 + 侧边栏"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-dashboard-data-visualization-studies",
+      "type": "single",
+      "title": "Dashboard Diagram Studies",
+      "path": "packages/single-dashboard-data-visualization-studies/package.json"
+    }
+  ]
+}

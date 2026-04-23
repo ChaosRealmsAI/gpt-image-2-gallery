@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama from inside a deep undersea observatory, cinematic but calm, with blue-green filtered light, bioluminescent accents, and dark water fading into distance. The viewer stands at the center of a round glass viewing chamber. The horizon line remains at the exact midpoint of the panorama, and the top of the image shows the glass dome and water column while the bottom shows a continuous metal floor ring.\n\nSubject:\nA complete underwater research habitat surrounds the viewer: curved acrylic windows, radial support ribs, soft floor lighting, equipment alcoves without readable labels, and panoramic ocean beyond. Outside the windows are coral towers, slow manta rays, jellyfish constellations, tiny maintenance drones, and one distant volcanic vent field glowing orange. The observatory should feel habitable and scientifically grounded, not like a fantasy palace.\n\nImportant details:\nDesign the room as a true 360-degree cylinder that can wrap left-to-right with no visual jump. Window ribs must continue evenly across the seam, and exterior reef structures should not be cut in half at the edges. Use equirectangular logic: broad horizontal continuity, centered eye level, plausible zenith dome, and coherent nadir floor. Keep highlights soft enough that the panorama remains readable in a headset.\n\nUse case:\nEquirectangular VR Panorama single study 2/8, testing photorealistic scientific immersion in a seamless underwater 360 scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular fisheye, no tiny-planet projection, no flooded interior, no horror mood, no broken window geometry, no black frame, no blank water-only half.",
+  "id": "undersea-observatory",
+  "title": "Undersea Observatory",
+  "description": "A cinematic 360-degree deep-sea observatory with seamless glass ribs, coral towers, and bioluminescent water.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/undersea-observatory/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Undersea Observatory",
+      "description": "A cinematic 360-degree deep-sea observatory with seamless glass ribs, coral towers, and bioluminescent water."
+    },
+    "zh-CN": {
+      "title": "深海观测舱",
+      "description": "电影感 360 度深海观测舱，玻璃肋骨、珊瑚塔和生物荧光海水形成无缝空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama inside a circular deep-sea observatory with reef life beyond the glass.",
+      "zh-CN": "一张 2:1 VR 全景图，观众站在圆形深海观测舱内，窗外是礁石生命。"
+    }
+  }
+}

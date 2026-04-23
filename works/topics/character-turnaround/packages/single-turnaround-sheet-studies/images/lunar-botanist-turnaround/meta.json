@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square character turnaround sheet presented as a polished space-horticulture design page on a softly lit off-white board. The camera is perfectly straight-on, the background is calm and minimal, and the layout emphasizes inspection and comparison rather than drama. Use a restrained palette of bone white, muted olive, brushed silver, and dusty lavender, with fine guide lines and careful margins.\n\nSubject:\nCreate one original lunar botanist shown in four aligned full-body views on the same sheet: front, forty-five-degree, side, and back, all in a neutral T-pose. The botanist is a thoughtful greenhouse field specialist with a rounded face, short curly hair tied into two compact loops, insulated plant-sample satchel, slim pressure-soft suit beneath an apron-like gardening overlayer, seed canisters on the thighs, soft magnetic boots, and forearm tools for clipping, grafting, and moisture sampling. Add one or two modest insets for a pruning tool and seed capsule tray, without reducing the dominance of the four main views.\n\nImportant details:\nThe page must read as an industrial character sheet for a believable lunar agriculture pipeline. Preserve identical anatomy, facial structure, suit seam logic, pocket count, and tool placement across every view. Materials should feel plausible for greenhouse work in partial gravity: dusty fabric, translucent sample tubes, brushed aluminum connectors, flexible joint seals, and lightly worn rubber soles. Include a non-readable tick ruler, abstract specimen symbols, and clean callout boxes with no letters. Keep the design grounded and usable rather than whimsical.\n\nUse case:\nCharacter Turnaround single study 7/8, testing a space-agriculture four-view sheet with technical precision and gentle worldbuilding.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no outer-space vista background, no astronaut helmet obscuring the face, no floating character, no cartoon plant creatures, no inconsistent tool placement, no proportion changes between views.",
+  "id": "lunar-botanist-turnaround",
+  "title": "Lunar Botanist Turnaround",
+  "description": "A space-agriculture specialist shown as a disciplined four-view sheet with greenhouse tools and believable soft-suit engineering.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "reasoning-composition",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/single-turnaround-sheet-studies/images/lunar-botanist-turnaround/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent lunar-botanist turnaround sheet emphasizing believable greenhouse tooling and clean four-view consistency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lunar Botanist Turnaround",
+      "description": "A space-agriculture specialist shown as a disciplined four-view sheet with greenhouse tools and believable soft-suit engineering."
+    },
+    "zh-CN": {
+      "title": "月面植物学家四视图",
+      "description": "以可信温室工具与软式工作服工程细节呈现的月面植物学家角色四视图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A four-view character sheet of a lunar botanist with seed canisters, greenhouse tools, and magnetic boots.",
+      "zh-CN": "一张月面植物学家四视图设定图，带有种子罐、温室工具和磁吸靴。"
+    }
+  }
+}

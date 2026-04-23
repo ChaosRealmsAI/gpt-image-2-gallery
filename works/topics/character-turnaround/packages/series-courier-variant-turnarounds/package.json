@@ -1,0 +1,71 @@
+{
+  "id": "series-courier-variant-turnarounds",
+  "type": "series",
+  "title": "Courier Variant Turnarounds",
+  "description": "A reference-driven character-sheet series where one courier's identity is preserved across four production-style turnaround variants.",
+  "creative_direction": "Image 01 establishes the courier's canonical face, body proportions, and sheet language. Images 02-04 keep the same person, four-view layout, and technical-diagram discipline while changing equipment, climate context, and costume function.",
+  "cover_image": "images/01-reference-courier-sheet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-courier-sheet/meta.json",
+      "images/02-arctic-expedition-sheet/meta.json",
+      "images/03-desert-scout-sheet/meta.json",
+      "images/04-ceremonial-harbor-sheet/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Courier Variant Turnarounds",
+      "description": "A reference-driven character-sheet series where one courier's identity is preserved across four production-style turnaround variants."
+    },
+    "zh-CN": {
+      "title": "信使变体四视图",
+      "description": "以同一信使角色为基准，在四张工业化角色设定图中保持身份、比例和版式一致。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-image-reference",
+      "technical-diagram",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-courier-sheet",
+      "title": "Reference Courier Sheet",
+      "image": "images/01-reference-courier-sheet/image.png",
+      "meta": "images/01-reference-courier-sheet/meta.json"
+    },
+    {
+      "id": "02-arctic-expedition-sheet",
+      "title": "Arctic Expedition Sheet",
+      "image": "images/02-arctic-expedition-sheet/image.png",
+      "meta": "images/02-arctic-expedition-sheet/meta.json"
+    },
+    {
+      "id": "03-desert-scout-sheet",
+      "title": "Desert Scout Sheet",
+      "image": "images/03-desert-scout-sheet/image.png",
+      "meta": "images/03-desert-scout-sheet/meta.json"
+    },
+    {
+      "id": "04-ceremonial-harbor-sheet",
+      "title": "Ceremonial Harbor Sheet",
+      "image": "images/04-ceremonial-harbor-sheet/image.png",
+      "meta": "images/04-ceremonial-harbor-sheet/meta.json"
+    }
+  ]
+}

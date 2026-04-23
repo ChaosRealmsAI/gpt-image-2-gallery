@@ -1,0 +1,88 @@
+{
+  "id": "single-inventory-tooltip-studies",
+  "type": "single",
+  "title": "Inventory Tooltip Studies",
+  "description": "Nine independent inventory-tooltip studies that help item decisions feel clear, trustworthy, and high value.",
+  "creative_direction": "Use layered panels, item renders, and comparison logic to make player choice visible without readable copy.",
+  "cover_image": "images/old-vs-new-gear/image.png",
+  "i18n": {
+    "en": {
+      "title": "Inventory Tooltip Studies",
+      "description": "Nine independent inventory-tooltip studies that help item decisions feel clear, trustworthy, and high value."
+    },
+    "zh-CN": {
+      "title": "装备提示框研究",
+      "description": "九张独立装备 tooltip 研究，让换装决策清晰可信。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "technical-diagram"
+    ]
+  },
+  "images": [
+    {
+      "id": "old-vs-new-gear",
+      "title": "Old vs New Gear",
+      "image": "images/old-vs-new-gear/image.png",
+      "meta": "images/old-vs-new-gear/meta.json"
+    },
+    {
+      "id": "set-bonus-card",
+      "title": "Set Bonus Card",
+      "image": "images/set-bonus-card/image.png",
+      "meta": "images/set-bonus-card/meta.json"
+    },
+    {
+      "id": "rarity-badge-study",
+      "title": "Rarity Badge Study",
+      "image": "images/rarity-badge-study/image.png",
+      "meta": "images/rarity-badge-study/meta.json"
+    },
+    {
+      "id": "item-detail-zoom",
+      "title": "Item Detail Zoom",
+      "image": "images/item-detail-zoom/image.png",
+      "meta": "images/item-detail-zoom/meta.json"
+    },
+    {
+      "id": "compare-roll-board",
+      "title": "Compare Roll Board",
+      "image": "images/compare-roll-board/image.png",
+      "meta": "images/compare-roll-board/meta.json"
+    },
+    {
+      "id": "socket-gem-inset",
+      "title": "Socket Gem Inset",
+      "image": "images/socket-gem-inset/image.png",
+      "meta": "images/socket-gem-inset/meta.json"
+    },
+    {
+      "id": "inventory-hover-scene",
+      "title": "Inventory Hover Scene",
+      "image": "images/inventory-hover-scene/image.png",
+      "meta": "images/inventory-hover-scene/meta.json"
+    },
+    {
+      "id": "upgrade-path-card",
+      "title": "Upgrade Path Card",
+      "image": "images/upgrade-path-card/image.png",
+      "meta": "images/upgrade-path-card/meta.json"
+    },
+    {
+      "id": "loot-decision-poster",
+      "title": "Loot Decision Poster",
+      "image": "images/loot-decision-poster/image.png",
+      "meta": "images/loot-decision-poster/meta.json"
+    }
+  ]
+}

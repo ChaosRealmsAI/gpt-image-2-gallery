@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a detail zoom focused on one equipment item and the tight tooltip panel surrounding it with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a detail zoom focused on one equipment item and the tight tooltip panel surrounding it. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Inventory Tooltip Comparison Board. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nmaterials, iconography, and panel layering should feel game-real and decision-oriented. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nInventory Tooltip Comparison Board single study 4/9, focused on item detail zoom.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable tooltips, no lorem ipsum, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "item-detail-zoom",
+  "title": "Item Detail Zoom",
+  "description": "Item Detail Zoom for Inventory Tooltip Comparison Board, designed as part of the inventory tooltip studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "technical-diagram"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/inventory-tooltip-comparison-board/packages/single-inventory-tooltip-studies/images/item-detail-zoom/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Item Detail Zoom",
+      "description": "Item Detail Zoom for Inventory Tooltip Comparison Board, designed as part of the inventory tooltip studies."
+    },
+    "zh-CN": {
+      "title": "物品细节近景",
+      "description": "物品细节近景，属于 库存与 Tooltip 对比板 的 装备提示框研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "Item Detail Zoom image from the Inventory Tooltip Comparison Board package.",
+      "zh-CN": "库存与 Tooltip 对比板 中的物品细节近景图像。"
+    }
+  }
+}

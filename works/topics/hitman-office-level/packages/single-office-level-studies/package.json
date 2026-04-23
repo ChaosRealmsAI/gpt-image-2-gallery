@@ -1,0 +1,58 @@
+{
+  "id": "single-office-level-studies",
+  "type": "single",
+  "title": "Office Level Studies",
+  "description": "Four independent office-as-game-level studies testing top-down layout, patrol logic, objective UI, and HUD layering without reference dependencies.",
+  "creative_direction": "Each image treats a different corporate workspace as a playable stealth mission board, emphasizing readable routes, NPC behavior, objective hierarchy, and UI overlays rather than combat spectacle.",
+  "cover_image": "images/executive-floor-objective/image.png",
+  "i18n": {
+    "en": {
+      "title": "Office Level Studies",
+      "description": "Four independent office-as-game-level studies testing top-down layout, patrol logic, objective UI, and HUD layering without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "办公室关卡单图研究",
+      "description": "四张独立办公室游戏化研究,测试俯视布局、巡逻逻辑、任务 UI 和 HUD 叠层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "reasoning-composition",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "executive-floor-objective",
+      "title": "Executive Floor Objective",
+      "image": "images/executive-floor-objective/image.png",
+      "meta": "images/executive-floor-objective/meta.json"
+    },
+    {
+      "id": "coworking-patrol-puzzle",
+      "title": "Coworking Patrol Puzzle",
+      "image": "images/coworking-patrol-puzzle/image.png",
+      "meta": "images/coworking-patrol-puzzle/meta.json"
+    },
+    {
+      "id": "datacenter-heist-hud",
+      "title": "Datacenter Heist HUD",
+      "image": "images/datacenter-heist-hud/image.png",
+      "meta": "images/datacenter-heist-hud/meta.json"
+    },
+    {
+      "id": "open-office-briefing-map",
+      "title": "Open Office Briefing Map",
+      "image": "images/open-office-briefing-map/image.png",
+      "meta": "images/open-office-briefing-map/meta.json"
+    }
+  ]
+}

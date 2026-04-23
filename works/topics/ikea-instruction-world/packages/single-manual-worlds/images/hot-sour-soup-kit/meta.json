@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square flat-pack food instruction sheet in the language of furniture assembly: white background, black technical line art, clean grid, small blue and yellow accent shapes, and precise exploded diagrams. The page is viewed perfectly straight-on. It includes a large bowl assembly diagram, ingredient hardware inventory, directional arrows, and warning icons, but every label area is blank or filled with non-readable pseudo strokes.\n\nSubject:\nA kit for assembling a bowl of hot and sour soup as if it were a modular cabinet. The parts inventory includes tofu cubes as shelf blocks, wood ear mushrooms as curved brackets, bamboo shoots as slats, egg ribbons as flexible straps, pepper dots as tiny screws, vinegar droplets as connector caps, scallions as trim rails, and broth as a transparent bowl shell. Small instruction figures use a hex key, ladle, and alignment arrows to insert ingredients in the correct order.\n\nImportant details:\nMake the soup visually delicious while preserving the absurd manual logic. Show an exploded bowl cross-section, one panel with crossed-out incorrect layering, one panel where the broth shell lowers over the ingredients, and one final assembled bowl with steam drawn as technical airflow lines. Keep the linework clean and the parts identifiable. The humor should be instantly clear without readable captions.\n\nUse case:\nIKEA Instruction World single study 3/8, converting a bowl of hot and sour soup into a technical flat-pack assembly sheet.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real restaurant branding, no messy recipe typography, no photorealistic food photo, no illegible dense labels, no extra decorative border, no actual product codes.",
+  "id": "hot-sour-soup-kit",
+  "title": "Hot Sour Soup Kit",
+  "description": "A humorous assembly manual where hot and sour soup ingredients behave like flat-pack cabinet hardware.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/hot-sour-soup-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hot Sour Soup Kit",
+      "description": "A humorous assembly manual where hot and sour soup ingredients behave like flat-pack cabinet hardware."
+    },
+    "zh-CN": {
+      "title": "酸辣汤套件",
+      "description": "一张幽默组装说明书，让酸辣汤食材像平板柜体五金一样被装配。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A square assembly manual turning hot and sour soup into exploded bowl parts and ingredient hardware.",
+      "zh-CN": "一张方形组装说明书，把酸辣汤变成爆炸图碗体零件和食材五金。"
+    }
+  }
+}

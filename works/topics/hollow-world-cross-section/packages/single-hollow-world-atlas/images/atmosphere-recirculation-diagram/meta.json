@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCreate a square sectional board focused on atmospheric recirculation, using layered flow ribbons, cloud strata, and shell geometry to explain movement without readable arrows. The design should be highly ordered and technically elegant. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nCenter on the interaction between the inner light source, shell curvature, and pressure gradients. Cloud belts, storm lanes, and calm zones should all be visible as consequences of the geometry rather than decorative motifs. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. This is a reasoning image, so hierarchy matters. Use composition, repeated forms, and careful value contrast to guide the eye through the circulation system while keeping the world visually believable. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 4/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable symbols, no software-dashboard aesthetics, no chaotic streamlines, no abstract data-art palette, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "atmosphere-recirculation-diagram",
+  "title": "Atmosphere Recirculation Diagram",
+  "description": "An internal circulation board shows how air recirculates between warm and cool interior regions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/atmosphere-recirculation-diagram/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Atmosphere Recirculation Diagram",
+      "description": "An internal circulation board shows how air recirculates between warm and cool interior regions."
+    },
+    "zh-CN": {
+      "title": "大气回流图",
+      "description": "内部循环图展示空气如何在暖冷区域间回流。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A diagram showing atmospheric recirculation inside a hollow planet.",
+      "zh-CN": "展示空心行星内部大气回流的示意图。"
+    }
+  }
+}

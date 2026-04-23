@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square repair instruction page in a minimal flat-pack manual style, straight-on on white paper. The drawing language is black technical line art with thin gray alignment guides, blue safety arrows, yellow caution shapes, and tidy modular panels. The layout includes a diagnosis strip, an exploded repair diagram, and three lower reassembly steps. All labels are non-readable pseudo marks or empty bars.\n\nSubject:\nA kit for repairing creative burnout as if it were a malfunctioning desk lamp and workbench. The inventory contains a dim idea bulb, tangled cable, empty battery pack, calendar pressure plate, coffee mug cylinder, rest cushion, walk-outside wheel, sketchbook panel, and small patience screws. A tired instruction figure removes the overloaded pressure plate with a hex key, replaces it with a rest spacer, untangles the cable, and reattaches the idea bulb.\n\nImportant details:\nKeep the diagram funny but precise. One panel should show a crossed-out setup where the calendar plate crushes the bulb. Another should show correct spacing between work, sleep, and play modules. The final panel shows a clean glowing workbench with the figure standing calmly. Use assembly arrows, dashed alignment paths, warning triangles, and check marks, but no readable instructions. Make the emotional metaphor readable through objects alone.\n\nUse case:\nIKEA Instruction World single study 6/8, presenting creative burnout recovery as a flat-pack repair procedure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand marks, no therapy poster lettering, no messy notebook collage, no photorealistic office, no doom mood, no illegible instruction clutter.",
+  "id": "creative-burnout-repair",
+  "title": "Creative Burnout Repair",
+  "description": "A flat-pack repair sheet where a dim idea lamp is fixed with rest spacers, patience screws, and clean assembly arrows.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/creative-burnout-repair/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Creative Burnout Repair",
+      "description": "A flat-pack repair sheet where a dim idea lamp is fixed with rest spacers, patience screws, and clean assembly arrows."
+    },
+    "zh-CN": {
+      "title": "创意枯竭维修",
+      "description": "一张平板维修说明书，用休息垫片、耐心螺丝和清晰箭头修好暗淡的灵感灯。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A square repair manual showing a tired figure fixing a dim idea lamp with flat-pack parts.",
+      "zh-CN": "一张方形维修说明书，疲惫小人用平板零件修理暗淡的灵感灯。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square production turnaround sheet using the exact same clean concept-art layout as the reference: flat studio board, generous pale background, faint alignment guides, and crisp overhead document lighting. The sheet should feel like it belongs in the same package and was prepared by the same studio artist, with the same spacing, margins, floor baseline, and neutral presentation.\n\nSubject:\nUse the reference as the primary identity source. Show the same courier heroine again in four aligned full-body views on one sheet: front, forty-five-degree, side, and back, all in a consistent T-pose. She now wears an arctic-expedition variant of her outfit: insulated teal-white field jacket with orange rescue tabs, thermal neck seal, padded graphite trousers, snow gaiters over the same boot silhouette, compact utility sled harness attachments, and the same slim mechanical left forearm visible through a segmented glove system. Preserve the exact face, haircut, eyebrow notch scar, proportions, stance, and mechanical-arm shape from image 01.\n\nImportant details:\nThis must read as a wardrobe adaptation, not a new person. Keep the same head shape, torso length, shoulder width, knee height, glove proportions, and boot geometry across all views. The arctic clothing should add believable bulk without changing body identity. Maintain technical-sheet cues: a non-readable measurement ruler with ticks only, subtle swatch chips, abstract callout boxes, and tiny gear detail insets. Material logic matters: quilted insulation, matte frost-resistant fabric, brushed metal fasteners, and restrained color blocking.\n\nUse case:\nCharacter Turnaround series study 2/8, testing reference-based identity preservation while adapting the same hero into an arctic field variant.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra poses, no snowstorm background, no new face, no oversized parka obscuring silhouette, no missing mechanical arm details, no asymmetry between views.",
+  "id": "02-arctic-expedition-sheet",
+  "title": "Arctic Expedition Sheet",
+  "description": "The same courier is preserved across a cold-weather turnaround sheet with expedition gear and technical continuity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/02-arctic-expedition-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-courier-sheet",
+        "meta_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/meta.json",
+        "image_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference courier sheet to preserve identity while changing costume function to arctic expedition gear."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arctic Expedition Sheet",
+      "description": "The same courier is preserved across a cold-weather turnaround sheet with expedition gear and technical continuity."
+    },
+    "zh-CN": {
+      "title": "极地远征设定图",
+      "description": "在寒地远征装备中继续保持同一信使的身份、比例和技术版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "The same courier appears in four turnaround views wearing insulated arctic expedition equipment.",
+      "zh-CN": "同一信使以四视图形式穿着保温极地远征装备。"
+    }
+  }
+}

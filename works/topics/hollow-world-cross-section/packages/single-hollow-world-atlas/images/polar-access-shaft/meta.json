@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild a vertical cutaway focused on a polar region where an access shaft, open throat, or transitional geological zone connects outer and inner environments. The square composition should emphasize depth, shell thickness, and changing atmosphere. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow the shaft walls, climate transition layers, and traces of ecology or weather shifting from outer surface to interior surface. Keep the geological structure more important than any narrative of travel or machinery. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. The section should feel engineered by geology, not by fantasy architecture. Material strata, pressure transitions, and light changes should all explain why this route is exceptional and difficult. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sci-fi elevator shaft, no spaceship hangar, no readable labels, no temple-like masonry, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "polar-access-shaft",
+  "title": "Polar Access Shaft",
+  "description": "A cutaway studies a hypothetical polar opening or transfer shaft into the interior.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/polar-access-shaft/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Polar Access Shaft",
+      "description": "A cutaway studies a hypothetical polar opening or transfer shaft into the interior."
+    },
+    "zh-CN": {
+      "title": "极区通道井",
+      "description": "切剖研究通往内部世界的假想极区开口或通道井。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A cutaway of a polar access shaft into the interior world.",
+      "zh-CN": "通往内部世界的极区通道井切剖图。"
+    }
+  }
+}

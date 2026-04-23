@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square studio turnaround sheet presented exactly like the earlier images in the package: flat neutral board, precise layout grid, balanced margins, and soft top light with no dramatic shadows. The sheet should feel like the final approved page in the same production binder, keeping the same view order, spacing, and restrained document aesthetic.\n\nSubject:\nUse the reference as the primary character and proportion guide. Show the same courier heroine in four aligned full-body views on one sheet: front, forty-five-degree, side, and back, all in the same T-pose. She now wears a ceremonial harbor-uniform version of her gear: fitted teal parade coat with copper trim, rust sash folded into a disciplined geometric wrap, polished graphite shoulder hardware, harbor-signal pennant motifs reduced to abstract shapes, formal gloves, and the same mechanical left forearm integrated into a dress cuff with exposed amber slits still visible. Preserve the exact face, eyebrow notch scar, haircut, body proportions, and boot foundation from image 01, even though the costume is more formal and architectural.\n\nImportant details:\nThis image should prove that costume elevation does not break identity consistency. Keep the same cranial shape, chin line, shoulder width, knee height, and hand scale across all four views. The ceremonial design should remain believable for a working port authority rather than fantasy royalty. Include non-readable insignia blocks, a tick-mark ruler, and tidy accessory callouts for glove, clasp, and sash knot. Surfaces should feel premium and functional: heavy woven fabric, brushed metal, lacquered trim, and practical seam logic.\n\nUse case:\nCharacter Turnaround series study 4/8, testing whether the same character can survive a formal ceremonial redesign without losing industrial sheet precision.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no throne-room background, no fantasy crown, no different face, no ornate clutter overwhelming the sheet, no missing mechanical-arm cues, no inconsistent proportions between views.",
+  "id": "04-ceremonial-harbor-sheet",
+  "title": "Ceremonial Harbor Sheet",
+  "description": "A formal harbor-uniform turnaround that preserves the courier's identity under a polished ceremonial redesign.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/04-ceremonial-harbor-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-courier-sheet",
+        "meta_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/meta.json",
+        "image_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Keep the same courier identity from image 01 while upgrading the wardrobe into a ceremonial harbor uniform."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ceremonial Harbor Sheet",
+      "description": "A formal harbor-uniform turnaround that preserves the courier's identity under a polished ceremonial redesign."
+    },
+    "zh-CN": {
+      "title": "港务礼制服设定图",
+      "description": "在更正式的港务礼制服中继续维持同一信使的身份和工业设定图精度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "The same courier appears in four views wearing a formal harbor uniform with copper trim and an integrated mechanical arm.",
+      "zh-CN": "同一信使以四视图形式穿着带铜色饰边和一体化机械手臂的港务礼制服。"
+    }
+  }
+}

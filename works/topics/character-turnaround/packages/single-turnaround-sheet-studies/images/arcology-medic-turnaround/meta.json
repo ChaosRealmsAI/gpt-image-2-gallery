@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square game-studio character turnaround sheet displayed as a pristine concept-art document on a pale clinical board. Lighting is even and cool, with crisp paper edges, faint guide lines, and clear negative space around the figures. The overall visual language is medical-industrial rather than cinematic, with quiet blue-gray tones and precise layout balance.\n\nSubject:\nCreate one original arcology medic shown in four aligned full-body views on the same sheet: front, forty-five-degree, side, and back, all in a relaxed T-pose. The medic is a lean urban emergency specialist with shaved sides and a tightly braided crown, translucent face shield resting up, compact respirator collar, layered white and slate treatment jacket, soft cyan bio-monitor strips, articulated knee braces, and modular medical pouches distributed consistently around the waist. Include one or two secondary insets for gloved hands and a fold-out trauma kit, but keep the main four views dominant.\n\nImportant details:\nThis is a technical character sheet, so maintain exact identity and proportion consistency across all four views. Keep head size, shoulder width, coat seam placement, pouch count, brace geometry, and boot silhouette stable. Show believable material distinctions: wipe-clean fabric, translucent polymer visor, matte rubber seals, brushed clips, and reflective safety edging. Add a non-readable height ruler and abstract callout boxes with no letters. The sheet should feel ready for a production handoff, not like a poster or comic panel.\n\nUse case:\nCharacter Turnaround single study 5/8, testing a medical-industrial four-view sheet with strong technical-diagram discipline.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dramatic hospital background, no extra pose, no weapon, no floating hologram UI, no inconsistent pouch placement, no broken anatomy across views.",
+  "id": "arcology-medic-turnaround",
+  "title": "Arcology Medic Turnaround",
+  "description": "An urban emergency medic rendered as a clean four-view production sheet with clinical industrial detailing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "reasoning-composition",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/single-turnaround-sheet-studies/images/arcology-medic-turnaround/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent four-view character sheet for a dense-city medic with production-ready technical clarity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Arcology Medic Turnaround",
+      "description": "An urban emergency medic rendered as a clean four-view production sheet with clinical industrial detailing."
+    },
+    "zh-CN": {
+      "title": "巨构医护四视图",
+      "description": "以临床工业语言呈现的城市急救医护角色四视图设定表。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A clinical concept-art sheet showing an arcology medic from four consistent angles.",
+      "zh-CN": "一张临床感角色设定图，从四个一致角度展示巨构城市医护。"
+    }
+  }
+}

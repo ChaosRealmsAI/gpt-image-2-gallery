@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a focused inset on sockets, gems, or enhancement slots inside a tooltip surface with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a focused inset on sockets, gems, or enhancement slots inside a tooltip surface. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Inventory Tooltip Comparison Board. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\ntiny shapes and color coding should remain readable and premium. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nInventory Tooltip Comparison Board single study 6/9, focused on socket gem inset.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no numbers, no text, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "socket-gem-inset",
+  "title": "Socket Gem Inset",
+  "description": "Socket Gem Inset for Inventory Tooltip Comparison Board, designed as part of the inventory tooltip studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "technical-diagram"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/inventory-tooltip-comparison-board/packages/single-inventory-tooltip-studies/images/socket-gem-inset/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Socket Gem Inset",
+      "description": "Socket Gem Inset for Inventory Tooltip Comparison Board, designed as part of the inventory tooltip studies."
+    },
+    "zh-CN": {
+      "title": "插槽宝石嵌图",
+      "description": "插槽宝石嵌图，属于 库存与 Tooltip 对比板 的 装备提示框研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "Socket Gem Inset image from the Inventory Tooltip Comparison Board package.",
+      "zh-CN": "库存与 Tooltip 对比板 中的插槽宝石嵌图图像。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama of a moonlit temple courtyard built on a quiet lunar ridge, painted in refined fantasy realism with silver light, deep indigo shadows, and pale stone. The viewer stands in the exact center of a circular courtyard. The horizon is centered and wraps into a complete 360-degree ring: mountains, stars, and temple walls must connect smoothly from the far left edge to the far right edge.\n\nSubject:\nFour low temple halls, a ring of carved columns, shallow reflecting pools, stone lanterns, and suspended prayer ribbons surround the viewer. Above the rear half of the panorama, a large moon hangs low over distant crater mountains. In the front half, a patterned stone floor circles the camera with radial inlays and small water channels. The architecture blends East Asian courtyard balance with lunar geology, but contains no readable inscriptions.\n\nImportant details:\nThis must feel like an actual equirectangular environment map: left and right edges are adjacent, the courtyard paving continues through the nadir, and the zenith contains coherent night sky rather than a flat ceiling. Place visual anchors at every quarter turn: moon gate, bell pavilion, reflecting pool, and stairway to the ridge. Maintain calm symmetry without making the whole image a repeated wallpaper strip.\n\nUse case:\nEquirectangular VR Panorama single study 3/8, testing poetic architectural continuity and celestial lighting across a headset-ready 360 scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular planet projection, no panel borders, no warped duplicated moon, no unreadable clutter, no hard seam, no cropped roof at the left-right wrap.",
+  "id": "moon-temple-courtyard",
+  "title": "Moon Temple Courtyard",
+  "description": "A moonlit 360-degree temple courtyard on a lunar ridge with seamless stone paving and celestial architecture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/moon-temple-courtyard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moon Temple Courtyard",
+      "description": "A moonlit 360-degree temple courtyard on a lunar ridge with seamless stone paving and celestial architecture."
+    },
+    "zh-CN": {
+      "title": "月面寺院庭院",
+      "description": "月光下的 360 度月面寺院庭院，石板地面和天体建筑形成连续环绕空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama of a circular moonlit temple courtyard on a lunar ridge.",
+      "zh-CN": "一张 2:1 VR 全景图，展现月脊上的圆形月光寺院庭院。"
+    }
+  }
+}

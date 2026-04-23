@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square concept-art turnaround sheet with the same straight-on studio presentation as the reference package: bright neutral board, disciplined margins, thin guide lines, and quiet document lighting. The sheet should feel functionally identical to image 01, as if the studio reused the same template for a new environmental variant. Keep the overall brightness and diagram clarity high so every silhouette edge is inspectable.\n\nSubject:\nUse the reference as the primary identity anchor. Show the same courier heroine in four matching views on one sheet: front, forty-five-degree, side, and back, all in the same T-pose and scale. Convert her outfit into a desert-scout kit while keeping face and proportions identical: light sand-colored overwrap over the cropped teal base jacket, rust cooling scarf, mesh underpanels, sun hood folded behind the neck, hydration canister on the lower back, dust gaiters clipped over the same boots, and the same mechanical left forearm now fitted with heat-shield plating and fine cable channels. Preserve the eyebrow scar, bob haircut, compact athletic build, and recognizable hardware placements from image 01.\n\nImportant details:\nThe challenge is controlled identity continuity under wardrobe transformation. Do not let the desert fabric change her body size, head shape, or limb length. Keep the same boot sole, glove length, belt position, and elbow placement across views. Add industrial-sheet details such as non-readable swatches, angle wedges, and small accessory insets for the hood and canister. Materials should feel plausible for heat, dust, and mobility: woven fabric, ceramic snaps, matte polymer tubing, and softly abraded metal.\n\nUse case:\nCharacter Turnaround series study 3/8, testing identity consistency and technical-sheet reasoning for a heat-adapted scout variant.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no action pose, no giant cape shape hiding anatomy, no changed hairstyle, no futuristic hologram UI, no mismatched boot design, no different person in any view.",
+  "id": "03-desert-scout-sheet",
+  "title": "Desert Scout Sheet",
+  "description": "A heat-adapted turnaround sheet that keeps the same courier intact while shifting materials and environmental gear.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "multi-image-reference",
+    "technical-diagram",
+    "identity-consistency",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/03-desert-scout-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-courier-sheet",
+        "meta_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/meta.json",
+        "image_path": "works/topics/character-turnaround/packages/series-courier-variant-turnarounds/images/01-reference-courier-sheet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the courier identity from image 01 while adapting the sheet to a desert-scout equipment set."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Scout Sheet",
+      "description": "A heat-adapted turnaround sheet that keeps the same courier intact while shifting materials and environmental gear."
+    },
+    "zh-CN": {
+      "title": "沙漠侦察设定图",
+      "description": "在热区侦察装备中保持同一信使的身份、比例和关键硬件特征。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "identity-consistency",
+      "series"
+    ],
+    "alt": {
+      "en": "The same courier is shown in four views wearing a desert scout outfit with heat shields and a hydration rig.",
+      "zh-CN": "同一信使以四视图形式穿着带隔热装甲和补水装置的沙漠侦察服。"
+    }
+  }
+}

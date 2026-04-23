@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square top-down premium game screenshot of an executive office floor turned into a stealth mission board. The camera looks down through a clean architectural cutaway: marble elevator lobby, private reception, two glass offices, a boardroom, assistant desks, copy room, restroom corridor, and a secure records archive. The palette is corporate charcoal, ivory, brass, and tactical cyan UI.\n\nSubject:\nThe mission overlay shows one player start marker, NPC patrol loops, camera cones, keycard doors, and objective icons layered over the floorplan. The exact readable objective text should be \"STEAL GPT-6\" in a compact upper-left objective panel. A lower-right HUD includes icon-only inventory slots, a non-firing suppressed pistol silhouette, access card icon, and suspicion meter. The image should feel like a level designer's finished screenshot, with strong hierarchy between architecture and UI.\n\nImportant details:\nThe office logic must be playable: reception controls entry, assistants watch the corridor, the boardroom blocks line of sight, archive access requires a keycard, and the elevator lobby is exposed. Keep patrol lines connected, vision cones aligned to character dots, and restricted areas tinted consistently. The mood can borrow stealth-game language, but avoid real game branding and avoid showing harm. The spectacle is the precise fusion of corporate office plan and game systems.\n\nUse case:\nHitman Office Level single study 5/8, testing an independent executive-floor stealth layout with objective UI and readable patrol logic.\n\nConstraints:\nNo readable text except \"STEAL GPT-6\", no watermark, no logos, preserve exact 1:1 aspect ratio, no real game brand, no blood, no active shooting, no dead bodies, no impossible door connections, no cluttered UI covering the route logic.",
+  "id": "executive-floor-objective",
+  "title": "Executive Floor Objective",
+  "description": "An independent executive-floor stealth map with objective UI, patrol loops, access-control doors, and readable corporate circulation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "reasoning-composition",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hitman-office-level/packages/single-office-level-studies/images/executive-floor-objective/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing executive-office stealth UI composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Executive Floor Objective",
+      "description": "An independent executive-floor stealth map with objective UI, patrol loops, access-control doors, and readable corporate circulation."
+    },
+    "zh-CN": {
+      "title": "高管楼层目标",
+      "description": "独立高管楼层潜行地图,包含任务 UI、巡逻圈、门禁门和清晰公司动线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A top-down executive office stealth level with the objective STEAL GPT-6, patrol loops, camera cones, and keycard doors.",
+      "zh-CN": "俯视高管办公室潜行关卡,任务为 STEAL GPT-6,叠加巡逻圈、摄像头视野锥和门禁门。"
+    }
+  }
+}

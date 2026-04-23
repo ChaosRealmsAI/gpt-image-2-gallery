@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame a closer sectional landscape of one interior region where continent, coastline, and ocean all curve overhead along the shell. The square image should feel both diagrammatic and environmental, with enough detail to understand scale and habitability. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow mountains hanging inward, coastal shelves wrapping along the shell, and water bodies held against the interior surface by the world’s overall gravity model. The scene should make the inversion intuitive rather than confusing. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. Blend explanation with atmosphere. Terrain textures, cloud placement, and water behavior should all reinforce the unusual geometry without sacrificing readability. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no upside-down gimmick lettering, no surreal collage look, no floating water blobs, no human city skyline, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "inverted-continent-ocean",
+  "title": "Inverted Continent Ocean",
+  "description": "A sectional landscape explains how continents and oceans cling to the inside shell.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/inverted-continent-ocean/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Inverted Continent Ocean",
+      "description": "A sectional landscape explains how continents and oceans cling to the inside shell."
+    },
+    "zh-CN": {
+      "title": "倒置大陆与内海",
+      "description": "剖面景观解释大陆与内海如何附着在内侧壳面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A sectional landscape of inverted continents and oceans inside a shell world.",
+      "zh-CN": "空心世界内部倒置大陆与内海的剖面景观。"
+    }
+  }
+}

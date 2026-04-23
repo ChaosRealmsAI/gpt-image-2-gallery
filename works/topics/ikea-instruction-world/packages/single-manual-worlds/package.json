@@ -1,0 +1,82 @@
+{
+  "id": "single-manual-worlds",
+  "type": "single",
+  "title": "Manual Worlds",
+  "description": "Eight independent flat-pack instruction studies translating abstract human systems into clean technical diagrams and commercial manual mockups.",
+  "creative_direction": "Each image is a self-contained square instruction sheet: black technical linework, sparse blue and yellow accents, exploded parts, arrows, hex-key logic, and tiny expressive figures turn non-furniture subjects into assembly procedures.",
+  "cover_image": "images/assemble-a-life/image.png",
+  "i18n": {
+    "en": {
+      "title": "Manual Worlds",
+      "description": "Eight independent flat-pack instruction studies translating abstract human systems into clean technical diagrams and commercial manual mockups."
+    },
+    "zh-CN": {
+      "title": "万物说明书单图研究",
+      "description": "八张独立平板包装说明书研究，把抽象的人类系统转换为清晰技术图和商业手册 mockup。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "technical-diagram",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "assemble-a-life",
+      "title": "Assemble a Life",
+      "image": "images/assemble-a-life/image.png",
+      "meta": "images/assemble-a-life/meta.json"
+    },
+    {
+      "id": "relationship-flat-pack",
+      "title": "Relationship Flat-Pack",
+      "image": "images/relationship-flat-pack/image.png",
+      "meta": "images/relationship-flat-pack/meta.json"
+    },
+    {
+      "id": "hot-sour-soup-kit",
+      "title": "Hot Sour Soup Kit",
+      "image": "images/hot-sour-soup-kit/image.png",
+      "meta": "images/hot-sour-soup-kit/meta.json"
+    },
+    {
+      "id": "rainy-day-mood-kit",
+      "title": "Rainy Day Mood Kit",
+      "image": "images/rainy-day-mood-kit/image.png",
+      "meta": "images/rainy-day-mood-kit/meta.json"
+    },
+    {
+      "id": "apartment-move-cart",
+      "title": "Apartment Move Cart",
+      "image": "images/apartment-move-cart/image.png",
+      "meta": "images/apartment-move-cart/meta.json"
+    },
+    {
+      "id": "creative-burnout-repair",
+      "title": "Creative Burnout Repair",
+      "image": "images/creative-burnout-repair/image.png",
+      "meta": "images/creative-burnout-repair/meta.json"
+    },
+    {
+      "id": "friendship-shelf-system",
+      "title": "Friendship Shelf System",
+      "image": "images/friendship-shelf-system/image.png",
+      "meta": "images/friendship-shelf-system/meta.json"
+    },
+    {
+      "id": "weekend-camping-module",
+      "title": "Weekend Camping Module",
+      "image": "images/weekend-camping-module/image.png",
+      "meta": "images/weekend-camping-module/meta.json"
+    }
+  ]
+}

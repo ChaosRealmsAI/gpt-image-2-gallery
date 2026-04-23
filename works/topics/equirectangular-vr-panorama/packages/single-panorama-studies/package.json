@@ -1,0 +1,82 @@
+{
+  "id": "single-panorama-studies",
+  "type": "single",
+  "title": "Panorama Studies",
+  "description": "Eight independent 2:1 equirectangular VR panorama studies testing continuous 360-degree world design without reference dependencies.",
+  "creative_direction": "Each image is a complete immersive world rather than a dependent series frame: the package tests whether extreme horizontal layout, left-right seam continuity, horizon discipline, and stylized scene density remain stable across varied environments.",
+  "cover_image": "images/floating-sky-village/image.png",
+  "i18n": {
+    "en": {
+      "title": "Panorama Studies",
+      "description": "Eight independent 2:1 equirectangular VR panorama studies testing continuous 360-degree world design without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "VR 全景单图研究",
+      "description": "八张独立 2:1 等距矩形 VR 全景图，测试无参考依赖下的连续 360 度世界构图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "extreme-aspect-ratio",
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "floating-sky-village",
+      "title": "Floating Sky Village",
+      "image": "images/floating-sky-village/image.png",
+      "meta": "images/floating-sky-village/meta.json"
+    },
+    {
+      "id": "undersea-observatory",
+      "title": "Undersea Observatory",
+      "image": "images/undersea-observatory/image.png",
+      "meta": "images/undersea-observatory/meta.json"
+    },
+    {
+      "id": "moon-temple-courtyard",
+      "title": "Moon Temple Courtyard",
+      "image": "images/moon-temple-courtyard/image.png",
+      "meta": "images/moon-temple-courtyard/meta.json"
+    },
+    {
+      "id": "desert-train-station",
+      "title": "Desert Train Station",
+      "image": "images/desert-train-station/image.png",
+      "meta": "images/desert-train-station/meta.json"
+    },
+    {
+      "id": "crystal-forest-clearing",
+      "title": "Crystal Forest Clearing",
+      "image": "images/crystal-forest-clearing/image.png",
+      "meta": "images/crystal-forest-clearing/meta.json"
+    },
+    {
+      "id": "retro-space-habitat",
+      "title": "Retro Space Habitat",
+      "image": "images/retro-space-habitat/image.png",
+      "meta": "images/retro-space-habitat/meta.json"
+    },
+    {
+      "id": "vertical-city-crossroads",
+      "title": "Vertical City Crossroads",
+      "image": "images/vertical-city-crossroads/image.png",
+      "meta": "images/vertical-city-crossroads/meta.json"
+    },
+    {
+      "id": "aurora-ice-cavern",
+      "title": "Aurora Ice Cavern",
+      "image": "images/aurora-ice-cavern/image.png",
+      "meta": "images/aurora-ice-cavern/meta.json"
+    }
+  ]
+}

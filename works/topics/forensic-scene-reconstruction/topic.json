@@ -1,0 +1,49 @@
+{
+  "id": "forensic-scene-reconstruction",
+  "slug": "forensic-scene-reconstruction",
+  "category": "technical",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Forensic Scene Reconstruction",
+  "short_title": "Forensic Scene",
+  "description": "A Prompt Atlas theme for Forensic Scene Reconstruction, testing physics-materials, reasoning-composition, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Forensic Scene Reconstruction",
+      "short_title": "Forensic Scene",
+      "description": "A Prompt Atlas theme for Forensic Scene Reconstruction, testing physics-materials, reasoning-composition, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "法医犯罪现场重建图",
+      "short_title": "犯罪重建",
+      "description": "法医犯罪现场重建图：风格:俯视图 + 白色尸体轮廓线 + 红色证据编号 1,2,3 + 测量标尺 + 黑白对比照 · 或 3D 等距重建 · 例:室内犯罪现场 + 证物分布 + 轨迹分析"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-forensic-scene-reconstruction-studies",
+      "type": "single",
+      "title": "Forensic Scene Reconstruction Studies",
+      "path": "packages/single-forensic-scene-reconstruction-studies/package.json"
+    }
+  ]
+}

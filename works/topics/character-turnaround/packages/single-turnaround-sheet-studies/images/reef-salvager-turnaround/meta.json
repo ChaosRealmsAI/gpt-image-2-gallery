@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square concept-art turnaround sheet laid out like a marine-equipment production document on a pale sea-glass background board. The presentation is flat, centered, and highly inspectable, with crisp paper texture, thin technical guides, and soft diffuse light that keeps every contour legible. The mood is practical and oceanic, leaning toward workwear design rather than fantasy adventure.\n\nSubject:\nCreate one original reef salvager character shown in four aligned full-body views on the same sheet: front, forty-five-degree, side, and back, all in a neutral T-pose. The salvager is a sturdy diver-technician with sun-browned skin, tightly coiled hair bound into a short knot, a broad nose, layered pearl-gray flotation vest, sea-green drysuit panels, orange tether clips, reinforced gloves, fin-compatible boots, and a compact exoskeletal shoulder brace used for lifting found machinery. Add one or two small insets for a salvage hook and pressure gauntlet, keeping the main four views dominant and evenly spaced.\n\nImportant details:\nTreat this as a professional turnaround page. Preserve exact facial structure, body mass, harness placement, glove thickness, and boot shape across every view. Material logic matters: salt-scuffed polymer, woven strap webbing, neoprene folds, anodized metal buckles, and translucent gasket edges. Include a non-readable measurement ruler and abstract notation boxes only. Avoid turning the page into an underwater scene; the strength is in industrial costume coherence and clean view-to-view repeatability.\n\nUse case:\nCharacter Turnaround single study 6/8, testing a marine-industrial four-view sheet with believable equipment engineering and stable identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no underwater background, no extra dynamic pose, no weaponized harpoon, no fantasy mermaid elements, no inconsistent harness hardware, no anatomy drift between views.",
+  "id": "reef-salvager-turnaround",
+  "title": "Reef Salvager Turnaround",
+  "description": "A marine salvage technician shown as a four-view production sheet with believable diving and lifting hardware.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "reasoning-composition",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/character-turnaround/packages/single-turnaround-sheet-studies/images/reef-salvager-turnaround/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent reef-salvager turnaround sheet focused on marine workwear and consistent multi-view identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reef Salvager Turnaround",
+      "description": "A marine salvage technician shown as a four-view production sheet with believable diving and lifting hardware."
+    },
+    "zh-CN": {
+      "title": "礁区打捞员四视图",
+      "description": "以可信潜水与吊装装备语言呈现的海洋打捞员角色四视图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "reasoning-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A four-view character sheet of a reef salvager with flotation gear, braces, and marine workwear.",
+      "zh-CN": "一张礁区打捞员四视图设定图，包含浮力装备、支撑结构和海工工作服。"
+    }
+  }
+}

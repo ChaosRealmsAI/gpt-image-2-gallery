@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square modular instruction manual page on white paper, with crisp black technical drawing, pale gray panel gutters, and small blue-yellow accent symbols. The page is organized like a real flat-pack shelf assembly sheet: hardware inventory at top, exploded structure in the middle, and final-use icons along the bottom. All written zones are blank blocks or pseudo strokes, with no readable language.\n\nSubject:\nA friendship shelf system assembled from shared-memory boards, message pegs, time brackets, listening hinges, joke drawers, tea cups, spare chairs, and repair patches. Two small instruction figures cooperate from opposite sides of the shelf: one holds a board steady, one tightens a hex bolt, and a third tiny figure arrives later with an extra connector. The final shelf is asymmetrical but balanced, holding keepsakes, plants, mugs, and open space for future parts.\n\nImportant details:\nThe instruction logic should show friendship as maintenance, not instant assembly. Include one panel with crossed-out overloading, one panel showing equal tightening from both sides, one panel with a replacement patch for a cracked board, and one panel showing optional expansion modules. Keep all arrows clear, all parts separated in exploded view, and all figure expressions simple. The manual should feel commercial and technical while carrying a warm conceptual joke.\n\nUse case:\nIKEA Instruction World single study 7/8, turning friendship into a modular shelf assembly and maintenance diagram.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand marks, no sentimental typography, no cluttered gift collage, no photorealistic shelf photo, no hard-to-follow arrows, no actual numbered labels.",
+  "id": "friendship-shelf-system",
+  "title": "Friendship Shelf System",
+  "description": "A modular manual where friendship becomes a shelf system built from listening hinges, shared-memory boards, and repair patches.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/friendship-shelf-system/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Friendship Shelf System",
+      "description": "A modular manual where friendship becomes a shelf system built from listening hinges, shared-memory boards, and repair patches."
+    },
+    "zh-CN": {
+      "title": "友谊搁架系统",
+      "description": "一张模块说明书，把友谊变成由倾听铰链、共同记忆板和修补片组成的搁架系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A square instruction page showing friendship assembled as a modular shelf with repair patches.",
+      "zh-CN": "一张方形说明书，把友谊组装成带修补片的模块搁架。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA 2:1 equirectangular VR panorama of a bioluminescent crystal forest clearing at twilight, with cool violet shadows, teal moss light, and transparent mineral highlights. The viewer stands in the middle of a circular clearing. The horizon is centered and visible through rings of trees and crystal formations, while the top of the panorama opens into a deep blue canopy and the bottom shows a coherent mossy ground plane.\n\nSubject:\nCrystalline tree trunks, ferns, glowing mushrooms, shallow pools, and faceted stone arches surround the viewer in a full 360-degree environment. Some crystals are embedded in bark; others rise from the ground like natural prisms. Small firefly-like particles trace gentle paths around the clearing. The scene should feel magical but physically walkable, with one path entering from the front, another leaving at the rear, and side landmarks that keep orientation clear.\n\nImportant details:\nMaintain equirectangular projection discipline: no fisheye globe, no pinched center, no empty stretched sides. The left and right panorama edges should share matching tree density, ground height, and lighting so they can join invisibly. Put the brightest crystals away from the seam to avoid a cut artifact. The nadir should show moss, roots, and water reflections; the zenith should show canopy gaps and twilight sky.\n\nUse case:\nEquirectangular VR Panorama single study 5/8, testing dense organic detail and material highlights in a seamless 360-degree fantasy environment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 2:1 aspect ratio, no circular tiny-planet view, no kaleidoscope symmetry, no random wallpaper repetition, no broken left-right seam, no harsh neon glow, no flat poster framing.",
+  "id": "crystal-forest-clearing",
+  "title": "Crystal Forest Clearing",
+  "description": "A twilight 360-degree crystal forest clearing with glowing moss, mineral trees, and seamless organic depth.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "2:1",
+  "tags": [
+    "extreme-aspect-ratio",
+    "physics-materials",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/equirectangular-vr-panorama/packages/single-panorama-studies/images/crystal-forest-clearing/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent 2:1 panorama with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Crystal Forest Clearing",
+      "description": "A twilight 360-degree crystal forest clearing with glowing moss, mineral trees, and seamless organic depth."
+    },
+    "zh-CN": {
+      "title": "水晶森林空地",
+      "description": "暮色中的 360 度水晶森林空地，发光苔藓、矿物树木和有机深度无缝相连。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "extreme-aspect-ratio",
+      "physics-materials",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A 2:1 VR panorama of a glowing crystal forest clearing at twilight.",
+      "zh-CN": "一张 2:1 VR 全景图，展现暮色中发光的水晶森林空地。"
+    }
+  }
+}

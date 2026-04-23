@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square commercial instruction manual page with clean white space, black technical linework, pale gray panel dividers, and restrained blue-yellow accent symbols. The viewpoint is straight-on and flat, like a scanned product insert. The layout contains a top safety row, a central exploded diagram, and three lower step panels. All text zones are reduced to blank blocks or unreadable miniature strokes.\n\nSubject:\nA rainy-day mood kit assembled from emotional and domestic parts. The inventory shows a cloud canopy, umbrella ribs, blanket panel, mug cylinder, window frame, lamp cone, music-note-shaped silent glyphs, tiny raindrop fasteners, and a couch base. A small instruction figure wearing socks uses a hex key to attach comfort brackets to a gloomy cloud while another figure tests the completed cozy corner. The final object is a compact shelter: cloud outside, warm lamp inside, blanket shelf, mug holder, and rain neatly diverted into a side gutter.\n\nImportant details:\nThe manual should clearly explain mood repair through assembly logic. Include arrows showing rain routed away, a crossed-out panel where the figure sits under an unsupported cloud, and a check-mark panel where the lamp, blanket, and mug align correctly. Keep the figure expressions simple and iconic. The diagram must look functional and polished, not like a loose cartoon.\n\nUse case:\nIKEA Instruction World single study 4/8, making a rainy-day emotional state into a clean flat-pack comfort system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand design, no readable step numbers, no cluttered cozy illustration, no photorealistic room, no chaotic weather, no broken instruction arrows.",
+  "id": "rainy-day-mood-kit",
+  "title": "Rainy Day Mood Kit",
+  "description": "A flat-pack comfort manual where clouds, blankets, lamps, and mugs assemble into a rainy-day mood repair system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "technical-diagram",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ikea-instruction-world/packages/single-manual-worlds/images/rainy-day-mood-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent manual-style single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rainy Day Mood Kit",
+      "description": "A flat-pack comfort manual where clouds, blankets, lamps, and mugs assemble into a rainy-day mood repair system."
+    },
+    "zh-CN": {
+      "title": "雨天心情套件",
+      "description": "一张平板包装舒适系统说明书，把云、毯子、灯和杯子组装成雨天心情修复装置。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A square instruction sheet showing a rainy mood assembled into a cozy shelter with arrows and icons.",
+      "zh-CN": "一张方形说明书，用箭头和图标把雨天心情组装成舒适小 shelter。"
+    }
+  }
+}

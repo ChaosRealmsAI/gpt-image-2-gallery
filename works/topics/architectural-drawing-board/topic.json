@@ -1,0 +1,48 @@
+{
+  "id": "architectural-drawing-board",
+  "slug": "architectural-drawing-board",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Architectural Drawing Board",
+  "short_title": "Arch Drawing",
+  "description": "A Prompt Atlas theme for Architectural Drawing Board, testing photorealism, physics-materials, technical-diagram, world-knowledge with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Architectural Drawing Board",
+      "short_title": "Arch Drawing",
+      "description": "A Prompt Atlas theme for Architectural Drawing Board, testing photorealism, physics-materials, technical-diagram, world-knowledge with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "建筑制图 · 平/立/剖 同屏",
+      "short_title": "建筑制图",
+      "description": "建筑制图 · 平/立/剖 同屏：一栋楼 · 平面图 + 正立面 + 侧剖面 + 总轴测 同屏 · 建筑师级"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-architectural-drawing-board-studies",
+      "type": "single",
+      "title": "Arch Drawing Diagram Studies",
+      "path": "packages/single-architectural-drawing-board-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "annotated-map-design",
+  "slug": "annotated-map-design",
+  "category": "technical",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Annotated Map Design",
+  "short_title": "Map Notes",
+  "description": "A Prompt Atlas theme for Annotated Map Design, testing structured-layout, photorealism, technical-diagram, world-knowledge, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Annotated Map Design",
+      "short_title": "Map Notes",
+      "description": "A Prompt Atlas theme for Annotated Map Design, testing structured-layout, photorealism, technical-diagram, world-knowledge, reasoning-composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "地图 + 信息标注",
+      "short_title": "地图标注",
+      "description": "地图 + 信息标注：古代丝绸之路 + 贸易货品 + 年代标注 · 手绘风但地理准"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "scientific-realism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-annotated-map-design-studies",
+      "type": "single",
+      "title": "Map Notes Diagram Studies",
+      "path": "packages/single-annotated-map-design-studies/package.json"
+    }
+  ]
+}

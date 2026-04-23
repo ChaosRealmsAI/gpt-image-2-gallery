@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nBuild a technical square plate focused on shell structure, using layered cutaway geology and stress-zone color logic with restrained elegance. The image should feel closer and more analytical than the broader world plates. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow crust, mantle-like layers, reinforcement zones, cavities, and fault behaviors needed to support a hollow shell. Visual emphasis should fall on structural coherence rather than on surface scenery. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the planet is a stable shell world with an inner luminous core, inverted continental surfaces, and atmospheric circulation that equalizes pressure across interior and exterior environments. Diagrams should explain how landscapes and ecosystems remain coherent inside the shell. Keep the geology crisp and explanatory, with clean sectional edges and believable material transitions. This plate should support the rest of the atlas by explaining how the world does not collapse under its own unusual architecture. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nHollow World Cross Section single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable equations, no engineering UI boxes, no abstract geological wallpaper, no molten-core Earth cliché, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "tectonic-shell-study",
+  "title": "Tectonic Shell Study",
+  "description": "A close technical plate studies shell thickness, stress zones, and tectonic behavior.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "technical-diagram",
+    "structured-layout",
+    "scientific-realism",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/hollow-world-cross-section/packages/single-hollow-world-atlas/images/tectonic-shell-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Hollow World Cross Section.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Tectonic Shell Study",
+      "description": "A close technical plate studies shell thickness, stress zones, and tectonic behavior."
+    },
+    "zh-CN": {
+      "title": "壳层构造研究",
+      "description": "近距离技术图版研究壳层厚度、应力区与构造行为。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "technical-diagram",
+      "structured-layout",
+      "scientific-realism",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A technical plate of shell thickness and tectonic stress in a hollow world.",
+      "zh-CN": "展示空心世界壳层厚度与构造应力的技术图版。"
+    }
+  }
+}

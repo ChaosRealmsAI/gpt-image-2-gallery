@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square reconstruction image that feels evidence-based, spatially coherent, and controlled enough for analytical review. Build the frame around a tighter study of meaningful objects and their relationships. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Forensic Scene Reconstruction theme and should feel immediately legible as a prompt atlas theme for forensic scene reconstruction, testing physics-materials, reasoning-composition, style-transfer with gpt image 2..\n\nSubject:\nCenter the study on a tighter study of meaningful objects and their relationships. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of forensic scene reconstruction as a literal guide for subject matter, materials, and staging.\n\nImportant details:\nThe image should communicate inference and real-world knowledge through placement, materials, object relationships, and disciplined visual hierarchy. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Forensic Scene Reconstruction. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nForensic Scene Reconstruction single study 2/8, testing physics-materials, reasoning-composition, style-transfer through the object cluster variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable evidence tags, no police logos, no gore, no sensational crime-drama theatrics, no broken spatial logic, no arbitrary clutter.",
+  "id": "object-cluster",
+  "title": "Object Cluster",
+  "description": "Object Cluster interprets Forensic Scene Reconstruction as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/forensic-scene-reconstruction/packages/single-forensic-scene-reconstruction-studies/images/object-cluster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Forensic Scene Reconstruction single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Object Cluster",
+      "description": "Object Cluster interprets Forensic Scene Reconstruction as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "物证簇",
+      "description": "物证簇：围绕 法医犯罪现场重建图 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "world-knowledge",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Object Cluster for Forensic Scene Reconstruction.",
+      "zh-CN": "法医犯罪现场重建图主题中的物证簇图像研究。"
+    }
+  }
+}
