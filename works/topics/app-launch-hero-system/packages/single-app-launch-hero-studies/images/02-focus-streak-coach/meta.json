@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square mobile-app launch page with bright daylight tones, mint, coral, and soft navy accents, composed as a clean first-scroll marketing page. The frame should feel airy and optimistic, with rounded cards, large breathing room, and a subtle gradient halo behind the hero phone stack. Structure the layout so the top half reads as a conversion hero and the bottom half suggests habit metrics, social proof, and onboarding prompts.\n\nSubject:\nShow a trio of overlapping mobile screens for a focus and streak coaching app. The primary screen features a circular progress ring and a calm daily plan layout, the second shows streak history with illustrated badges, and the third suggests a small guided session timer. Surround the phone stack with abstract headline bars, a simple CTA pair, a horizontal row of feature chips, and a testimonial card with star-like dot icons. Add a faint abstract hero motif of looping ribbons forming a sunrise arc to reinforce momentum and repetition.\n\nImportant details:\nThe image needs to look like a real app launch page made by a strong product-marketing team. The device stack should be crisp and believable, while the surrounding modules create a convincing narrative from motivation to features to signup. Use consistent UI language and rounded-system components. All textual regions must remain unreadable, treated as elegant blocks and micro-glyph textures only. Preserve strong spacing discipline so the frame feels trustworthy and marketable instead of noisy or juvenile.\n\nUse case:\nApp Launch Hero System single study 2/9, testing whether a wellness-style mobile launch page can balance cheerful hero art, app proof, and CTA hierarchy in one still.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no smartwatch mockup, no cartoon mascot dominating the frame, no browser chrome, no cluttered notification spam, no fake app-store badges, no broken phone anatomy.",
+  "id": "02-focus-streak-coach",
+  "title": "Focus Streak Coach",
+  "description": "A bright mobile-app launch-page still for a focus coach product with overlapping phone screens, feature chips, and testimonial modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/02-focus-streak-coach/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a habit-coaching mobile hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Focus Streak Coach",
+      "description": "A bright mobile-app launch-page still for a focus coach product with overlapping phone screens, feature chips, and testimonial modules."
+    },
+    "zh-CN": {
+      "title": "专注连胜教练",
+      "description": "一张明亮的移动 App 上线页静帧，以专注教练产品的多手机屏、功能标签和评价模块为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A cheerful mobile launch-page still with three phone screens for a focus and streak coaching app.",
+      "zh-CN": "一张轻快的移动上线页静帧，展示专注与连胜教练 App 的三块手机界面。"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "automotive-concept-art",
+  "slug": "automotive-concept-art",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Automotive Concept Art",
+  "short_title": "Car Concept",
+  "description": "A Prompt Atlas theme for Automotive Concept Art, testing technical-diagram, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Automotive Concept Art",
+      "short_title": "Car Concept",
+      "description": "A Prompt Atlas theme for Automotive Concept Art, testing technical-diagram, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "汽车 Concept Art · 设计工作室级",
+      "short_title": "汽车概念",
+      "description": "汽车 Concept Art · 设计工作室级：风格:碳笔草图 + 马克笔快速上色 · 3/4 侧面 + 前视 + 侧视 + 俯视 4 视图 · 铅笔网格辅助线 · 例:概念跑车 / 月球车 / 蒸汽朋克机车"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-automotive-concept-art-studies",
+      "type": "single",
+      "title": "Car Concept Render Studies",
+      "path": "packages/single-automotive-concept-art-studies/package.json"
+    }
+  ]
+}

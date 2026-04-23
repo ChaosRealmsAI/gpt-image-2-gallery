@@ -1,0 +1,49 @@
+{
+  "id": "brand-identity-mockup-set",
+  "slug": "brand-identity-mockup-set",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Brand Identity Mockup Set",
+  "short_title": "Brand System",
+  "description": "A Prompt Atlas theme for Brand Identity Mockup Set, testing text-rendering, structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Brand Identity Mockup Set",
+      "short_title": "Brand System",
+      "description": "A Prompt Atlas theme for Brand Identity Mockup Set, testing text-rendering, structured-layout, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "品牌 Identity 全套 mockup",
+      "short_title": "品牌识别",
+      "description": "品牌 Identity 全套 mockup：一套 8 件:logo (彩/黑白/白底)+ 名片 + 信封 + T恤 + 马克杯 + 帆布袋 + 社交封面 + 包装盒 · 品牌色贯穿"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-brand-identity-mockup-set-studies",
+      "type": "single",
+      "title": "Brand System Mockup Studies",
+      "path": "packages/single-brand-identity-mockup-set-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "series-release-identity",
+  "type": "series",
+  "title": "Release Identity Sequence",
+  "description": "A reference-led rollout sequence that locks one invented musician, one palette, and one analog-neon symbol system across album, single, EP, and deluxe cover moments.",
+  "creative_direction": "The first image establishes a music-industry hero cover with an invented performer, circular light halo, and wet-night palette. The next three covers must preserve the same face structure, wardrobe silhouette, ring motif, and cinematic release grammar while changing the launch mood.",
+  "cover_image": "images/01-reference-midnight-transmitter/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-midnight-transmitter/meta.json",
+      "images/02-single-after-rain/meta.json",
+      "images/03-ep-strobe-platform/meta.json",
+      "images/04-deluxe-dawn-vinyl/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-midnight-transmitter first. Use its runtime result URL as --ref for 02-single-after-rain, 03-ep-strobe-platform, 04-deluxe-dawn-vinyl. Queue may run 02-single-after-rain, 03-ep-strobe-platform, 04-deluxe-dawn-vinyl concurrently after 01-reference-midnight-transmitter is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Release Identity Sequence",
+      "description": "A reference-led rollout sequence that locks one invented musician, one palette, and one analog-neon symbol system across album, single, EP, and deluxe cover moments."
+    },
+    "zh-CN": {
+      "title": "发行身份序列",
+      "description": "以同一虚构音乐人和同一视觉语法串起 album、single、EP、deluxe 的封面序列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-midnight-transmitter",
+      "title": "Reference Midnight Transmitter",
+      "image": "images/01-reference-midnight-transmitter/image.png",
+      "meta": "images/01-reference-midnight-transmitter/meta.json"
+    },
+    {
+      "id": "02-single-after-rain",
+      "title": "Single After Rain",
+      "image": "images/02-single-after-rain/image.png",
+      "meta": "images/02-single-after-rain/meta.json"
+    },
+    {
+      "id": "03-ep-strobe-platform",
+      "title": "EP Strobe Platform",
+      "image": "images/03-ep-strobe-platform/image.png",
+      "meta": "images/03-ep-strobe-platform/meta.json"
+    },
+    {
+      "id": "04-deluxe-dawn-vinyl",
+      "title": "Deluxe Dawn Vinyl",
+      "image": "images/04-deluxe-dawn-vinyl/image.png",
+      "meta": "images/04-deluxe-dawn-vinyl/meta.json"
+    }
+  ]
+}

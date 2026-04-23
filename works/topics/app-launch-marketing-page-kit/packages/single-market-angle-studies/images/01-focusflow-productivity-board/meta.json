@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square launch-page board for a consumer productivity app, composed as a premium design presentation with one central phone render, two secondary screen crops, and surrounding modular landing-page sections. Use bright daylight studio lighting, soft white surfaces, deep slate blue accents, muted mint highlights, and a few disciplined coral signals. The view is front-facing with slight depth from shadows and layered cards, giving the board a polished commercial realism.\n\nSubject:\nDesign a believable focus-and-planning app marketing page kit. The main phone should show a quiet dashboard with task stacks, scheduling blocks, a concentration timer, and progress rings. Around it, show supporting modules for feature explanation, screenshot detail, and store-promo extension, all using the same rounded UI language and careful spacing. The composition should feel ready for a real launch campaign, with enough device realism to look trustworthy and enough layout structure to read as a formal marketing page rather than a random mockup. Any copy areas must be represented as elegant abstract bars instead of readable words.\n\nImportant details:\nKeep the device materials realistic, the interface crisp, and the module hierarchy easy to scan. Make the selling points feel calm, capable, and mature rather than flashy. The board should balance product storytelling, screenshot credibility, and premium restraint. Every section should look intentionally designed for conversion, App Store extension, and editorial product marketing.\n\nUse case:\nApp Launch Marketing Page Kit single study 1/5, testing a premium productivity launch angle.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no exaggerated fantasy effects, no crowded widget chaos, no warped phone geometry, no duplicate inconsistent interfaces, no lifestyle hands.",
+  "id": "01-focusflow-productivity-board",
+  "title": "FocusFlow Productivity Board",
+  "description": "A premium launch board for a focus-and-planning app with clean device framing and calm commercial polish.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/single-market-angle-studies/images/01-focusflow-productivity-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent consumer productivity launch concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "FocusFlow Productivity Board",
+      "description": "A premium launch board for a focus-and-planning app with clean device framing and calm commercial polish."
+    },
+    "zh-CN": {
+      "title": "专注效率发布板",
+      "description": "一张专注与规划类 App 的高级发布营销板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A calm productivity app launch board with one hero phone and modular feature sections.",
+      "zh-CN": "一张冷静专业的效率 App 发布营销板，包含主手机和模块化功能区。"
+    }
+  }
+}

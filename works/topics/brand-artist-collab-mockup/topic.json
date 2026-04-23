@@ -1,0 +1,53 @@
+{
+  "id": "brand-artist-collab-mockup",
+  "slug": "brand-artist-collab-mockup",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Brand Artist Collab Mockup",
+  "short_title": "Collab Mockup",
+  "description": "A Prompt Atlas theme for fictional brand and artist collaboration mockups, testing structured commercial layouts, style transfer, and proposal-ready product systems.",
+  "i18n": {
+    "en": {
+      "title": "Brand Artist Collab Mockup",
+      "short_title": "Collab Mockup",
+      "description": "A Prompt Atlas theme for fictional brand and artist collaboration mockups, testing structured commercial layouts, style transfer, and proposal-ready product systems."
+    },
+    "zh-CN": {
+      "title": "品牌 × 艺术家跨界联名 mockup",
+      "short_title": "联名样机",
+      "description": "围绕虚构品牌与艺术家跨界联名的商业样机主题,测试产品、包装与广告海报三件套的结构化版式和风格迁移。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "text-rendering",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-collab-proposal-studies",
+      "type": "single",
+      "title": "Collab Proposal Studies",
+      "path": "packages/single-collab-proposal-studies/package.json"
+    }
+  ]
+}

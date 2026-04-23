@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square editorial board showing the middle sections of a sophisticated app launch page, laid out as a modular story flow with multiple device crops, feature cards, and atmospheric color fields. The camera remains mostly straight-on, as if viewing a refined design presentation board pinned flat under soft studio lighting. Use the same premium navy, mint, coral, and silver palette from the reference, with generous negative space and clean section breaks.\n\nSubject:\nPreserve the exact product identity from the reference model: the same app interface hierarchy, the same icon language, the same rounded card system, and the same phone hardware proportions. Instead of one hero moment, focus on three feature narratives: planning, focus, and progress review. Show one larger phone crop for each feature, supported by smaller floating UI fragments, ambient device reflections, and soft diagrammatic layout blocks. The modules should imply how a real landing page would guide a user through benefits step by step, while every screen still clearly belongs to the same app family established in the reference.\n\nImportant details:\nPreserve exact screen structure, color tokens, device materials, and visual temperament from the reference image. Emphasize feature storytelling rather than generic app collage. Keep the board scanable, premium, and commercially credible, with believable depth, clean spacing, and consistent interaction components. Text areas should read as elegant placeholder bands only. The viewer should immediately understand this as a formal product page system, not a random set of UI screenshots.\n\nUse case:\nApp Launch Marketing Page Kit series study 2/4, extending the reference identity into a structured feature-story layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the same app identity from the reference, no unrelated color palette shifts, no broken UI perspective, no cluttered sticker aesthetics, no cheap neon effects.",
+  "id": "02-feature-story-sections",
+  "title": "Feature Story Sections",
+  "description": "A landing-page feature board that expands the same app identity into a sequence of premium story modules.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/02-feature-story-sections/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-launch-hero",
+        "meta_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/meta.json",
+        "image_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Depends on the reference hero and preserves the same UI language.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Feature Story Sections",
+      "description": "A landing-page feature board that expands the same app identity into a sequence of premium story modules."
+    },
+    "zh-CN": {
+      "title": "功能故事分区",
+      "description": "沿用同一 App 身份，把功能卖点拆成连续营销分区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "series"
+    ],
+    "alt": {
+      "en": "A feature-story board with the same app UI adapted into multiple landing-page sections.",
+      "zh-CN": "一张将同一 App 界面扩展到多个落地页分区的功能故事板。"
+    }
+  }
+}

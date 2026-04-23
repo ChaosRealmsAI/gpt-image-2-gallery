@@ -1,0 +1,51 @@
+{
+  "id": "adoption-and-rescue-awareness-kit",
+  "slug": "adoption-and-rescue-awareness-kit",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "collage"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "title": "Adoption and Rescue Awareness Kit",
+  "short_title": "Adoption Kit",
+  "description": "Create awareness kits for adoption and rescue organizations with warmth, dignity, and action-oriented communication.",
+  "i18n": {
+    "en": {
+      "title": "Adoption and Rescue Awareness Kit",
+      "short_title": "Adoption Kit",
+      "description": "Create awareness kits for adoption and rescue organizations with warmth, dignity, and action-oriented communication."
+    },
+    "zh-CN": {
+      "title": "领养与救助公益套件",
+      "short_title": "领养公益",
+      "description": "做领养与救助公益套件，强调温度、尊严和行动导向传播。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 470,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-rescue-awareness-studies",
+      "type": "single",
+      "title": "Rescue Awareness Studies",
+      "path": "packages/single-rescue-awareness-studies/package.json"
+    }
+  ]
+}

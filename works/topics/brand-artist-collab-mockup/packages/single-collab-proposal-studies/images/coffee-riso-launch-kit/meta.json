@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square cafe retail launch mockup arranged on a pale birch tabletop, shot from a clean overhead-frontal hybrid angle. The layout feels like a design presentation spread: a standing coffee bag on the left, a takeaway cup and sleeve in the center, and a folded poster or menu card on the right. Lighting is clear morning daylight, with gentle paper shadows and visible print texture across every surface.\n\nSubject:\nA fictional specialty coffee brand collaboration with a risograph print artist language. The coffee bag is matte kraft paper with teal, tomato red, and soy-yellow overprint layers that are slightly misregistered on purpose. The cup sleeve carries abstract bean constellations and rough halftone blocks. The poster card shows a simplified mountain farm scene built from two-color riso shapes, overlaid with structured but non-readable menu bars and small glyph clusters. The products feel coordinated as a limited cafe drop.\n\nImportant details:\nMake the commercial system believable: sealed bag gussets, valve circle, crimped top, cup rim thickness, sleeve seam, poster fold crease, and grainy ink absorption. Misregistration should be charming and controlled, never chaotic. The image must be legible as product plus packaging plus advertising, with clean negative space and a tight grid. Avoid readable labels while preserving the impression of professional package typography through abstract blocks.\n\nUse case:\nBrand Artist Collab Mockup single study 6/8, focused on an independent cafe launch kit with handmade print energy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real cafe brand, no real artist signature, no spilled coffee, no food props, no unreadable clutter pretending to be copy, no distorted cup ellipse.",
+  "id": "coffee-riso-launch-kit",
+  "title": "Coffee Riso Launch Kit",
+  "description": "A fictional coffee bag, cup sleeve, and poster card using controlled risograph misprint aesthetics.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/coffee-riso-launch-kit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cafe retail mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coffee Riso Launch Kit",
+      "description": "A fictional coffee bag, cup sleeve, and poster card using controlled risograph misprint aesthetics."
+    },
+    "zh-CN": {
+      "title": "咖啡孔版上市套装",
+      "description": "虚构咖啡袋、杯套和海报卡以可控孔版错印质感组成独立上市样机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A cafe launch mockup with a kraft coffee bag, takeaway cup, and risograph poster card.",
+      "zh-CN": "一张咖啡上市样机,包含牛皮纸咖啡袋、外带杯和孔版印刷海报卡。"
+    }
+  }
+}

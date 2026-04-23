@@ -1,0 +1,64 @@
+{
+  "id": "single-rollout-assets",
+  "type": "single",
+  "title": "Rollout Asset Studies",
+  "description": "Five independent studies of adjacent release assets that support an album-cover system, from still-life inserts to promo card surfaces.",
+  "creative_direction": "Independent studies expand the release world into gatefold still life, square promo tile, collector flat lay, wall poster, and sticker-sheet style surfaces. Each image should feel commercially plausible for music marketing without becoming a literal mockup with readable brand text.",
+  "cover_image": "images/gatefold-still-life/image.png",
+  "i18n": {
+    "en": {
+      "title": "Rollout Asset Studies",
+      "description": "Five independent studies of adjacent release assets that support an album-cover system, from still-life inserts to promo card surfaces."
+    },
+    "zh-CN": {
+      "title": "发行资产研究",
+      "description": "围绕专辑发行系统补充五张独立资产研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "gatefold-still-life",
+      "title": "Gatefold Still Life",
+      "image": "images/gatefold-still-life/image.png",
+      "meta": "images/gatefold-still-life/meta.json"
+    },
+    {
+      "id": "streaming-tile-crop",
+      "title": "Streaming Tile Crop",
+      "image": "images/streaming-tile-crop/image.png",
+      "meta": "images/streaming-tile-crop/meta.json"
+    },
+    {
+      "id": "announcement-poster-wall",
+      "title": "Announcement Poster Wall",
+      "image": "images/announcement-poster-wall/image.png",
+      "meta": "images/announcement-poster-wall/meta.json"
+    },
+    {
+      "id": "cassette-flatlay-study",
+      "title": "Cassette Flatlay Study",
+      "image": "images/cassette-flatlay-study/image.png",
+      "meta": "images/cassette-flatlay-study/meta.json"
+    },
+    {
+      "id": "sticker-sheet-promo",
+      "title": "Sticker Sheet Promo",
+      "image": "images/sticker-sheet-promo/image.png",
+      "meta": "images/sticker-sheet-promo/meta.json"
+    }
+  ]
+}

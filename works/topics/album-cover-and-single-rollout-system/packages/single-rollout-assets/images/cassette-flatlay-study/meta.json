@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square top-down flat lay on smoked acrylic with a transparent cassette, folded insert cards, metallic foil strip, and soft pooled light that creates moody reflections around the edges. The materials should feel physically believable, with subtle dust, fingerprints, and packaging creases that add realism.\n\nSubject:\nThe subject is a complete collector-style analog package for an invented record, organized with careful spacing and a few symbolic visual cues borrowed from the release world: concentric circles, diagonal light cuts, and a cobalt-ember palette. The packaging should feel premium and contemporary rather than nostalgic costume play.\n\nImportant details:\nUse material realism and layout discipline to imply a music release with tangible desirability. Every object should look intentionally designed for the same campaign family, but there should be no readable track list or label copy. Favor translucent plastics, reflective foil, matte card stock, and small metallic hardware that catches light in a restrained way.\n\nUse case:\nAlbum Rollout single study 8/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no vinyl record dominating the frame, no shipping box, no consumer electronics brand cues, no fake price sticker, no clutter outside the packaging system",
+  "id": "cassette-flatlay-study",
+  "title": "Cassette Flatlay Study",
+  "description": "A collector-object flat lay translating the album campaign into tactile analog packaging and desk-level photography.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/single-rollout-assets/images/cassette-flatlay-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent analog packaging study for the album rollout theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Cassette Flatlay Study",
+      "description": "A collector-object flat lay translating the album campaign into tactile analog packaging and desk-level photography."
+    },
+    "zh-CN": {
+      "title": "磁带平铺研究",
+      "description": "磁带平铺研究，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "An analog music-package flat lay with cassette, inserts, reflective foil, and moody release colors.",
+      "zh-CN": "磁带平铺研究视觉图。"
+    }
+  }
+}

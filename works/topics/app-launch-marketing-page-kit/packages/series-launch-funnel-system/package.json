@@ -1,0 +1,71 @@
+{
+  "id": "series-launch-funnel-system",
+  "type": "series",
+  "title": "Launch Funnel System",
+  "description": "A reference-led app launch series: one hero identity board followed by feature, store, and social adaptations that preserve the same product UI language.",
+  "creative_direction": "Use one premium productivity-app identity as the anchor, then fan out into landing-page storytelling, app-store promotion, and social launch crops without losing device realism or UI hierarchy.",
+  "cover_image": "images/01-reference-launch-hero/image.png",
+  "i18n": {
+    "en": {
+      "title": "Launch Funnel System",
+      "description": "A reference-led app launch series: one hero identity board followed by feature, store, and social adaptations that preserve the same product UI language."
+    },
+    "zh-CN": {
+      "title": "发布漏斗系列系统",
+      "description": "一张参考主视觉加三张延展图，持续保持同一套 App 界面和营销语言。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-launch-hero",
+      "title": "Reference Launch Hero",
+      "image": "images/01-reference-launch-hero/image.png",
+      "meta": "images/01-reference-launch-hero/meta.json"
+    },
+    {
+      "id": "02-feature-story-sections",
+      "title": "Feature Story Sections",
+      "image": "images/02-feature-story-sections/image.png",
+      "meta": "images/02-feature-story-sections/meta.json"
+    },
+    {
+      "id": "03-app-store-promo-matrix",
+      "title": "App Store Promo Matrix",
+      "image": "images/03-app-store-promo-matrix/image.png",
+      "meta": "images/03-app-store-promo-matrix/meta.json"
+    },
+    {
+      "id": "04-social-launch-adaptations",
+      "title": "Social Launch Adaptations",
+      "image": "images/04-social-launch-adaptations/image.png",
+      "meta": "images/04-social-launch-adaptations/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-launch-hero/meta.json",
+      "images/02-feature-story-sections/meta.json",
+      "images/03-app-store-promo-matrix/meta.json",
+      "images/04-social-launch-adaptations/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

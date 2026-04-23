@@ -1,0 +1,51 @@
+{
+  "id": "app-launch-hero-system",
+  "slug": "app-launch-hero-system",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "App Launch Hero System",
+  "short_title": "App Launch",
+  "description": "A Prompt Atlas theme for polished SaaS and app launch-page stills that combine product screenshots, abstract hero art, feature storytelling, social-proof modules, and conversion-focused CTA blocks.",
+  "i18n": {
+    "en": {
+      "title": "App Launch Hero System",
+      "short_title": "App Launch",
+      "description": "A Prompt Atlas theme for polished SaaS and app launch-page stills that combine product screenshots, abstract hero art, feature storytelling, social-proof modules, and conversion-focused CTA blocks."
+    },
+    "zh-CN": {
+      "title": "App 上线页视觉系统",
+      "short_title": "App 上线页",
+      "description": "做 SaaS 或 App 的上线页静帧，兼顾产品截图、hero 视觉、功能模块、用户评价和下载或注册 CTA。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 140,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-app-launch-hero-studies",
+      "type": "single",
+      "title": "App Launch Hero Studies",
+      "path": "packages/single-app-launch-hero-studies/package.json"
+    }
+  ]
+}

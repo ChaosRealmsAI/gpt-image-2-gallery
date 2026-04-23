@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square festival-poster composition with a vast pale gray field and a single rain-streaked apartment window occupying the lower middle third. The framing is static, calm, and slightly distant, like a prestigious arthouse one-sheet photographed for a museum wall. Light is dim blue-gray with one warm tungsten glow behind the glass. Large untouched negative space must dominate the upper half, reserving natural blank zones where title and credits would normally sit without showing readable text.\n\nSubject:\nBehind the window stands an anime-coded young woman with a short black bob, slim shoulders, and a dark coat still wet from rain. She is seen in three-quarter profile, not facing camera, holding a folded umbrella at her side. Her silhouette remains simple and immediately legible, while the tiny room behind her carries selective clues: a chair, a kettle, one unmade bed corner, and a narrow strip of city lights reflected on the pane. The character should feel specific and emotionally recognizable without looking like a direct copy of any existing IP.\n\nImportant details:\nThis must behave like a premium Cannes or A24-adjacent one-sheet. Keep the layout sparse, the color palette limited to wet concrete gray, muted navy, tobacco amber, and a trace of pale skin tone. Use very fine rain texture and subtle glass reflections, but avoid busy detail. Preserve a disciplined poster hierarchy with one visual anchor, one blank title zone, and a thin understated block where festival laurels or credits might belong as abstract marks only.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 1/9, focused on melancholy urban restraint and negative-space control.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowded collage, no glossy blockbuster lighting, no oversized eyes, no extra floating graphic elements.",
+  "id": "01-rain-window-solitude",
+  "title": "Rain Window Solitude",
+  "description": "A restrained festival-style poster centered on a rain-streaked apartment window and a solitary anime-coded heroine.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/01-rain-window-solitude/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent arthouse poster study emphasizing negative space and quiet character recognition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Window Solitude",
+      "description": "A restrained festival-style poster centered on a rain-streaked apartment window and a solitary anime-coded heroine."
+    },
+    "zh-CN": {
+      "title": "雨窗独处",
+      "description": "克制的影展海报构图，以雨痕窗户和独自站立的动漫化女主角为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A sparse arthouse poster showing a solitary anime-coded woman behind a rain-covered apartment window.",
+      "zh-CN": "一张留白克制的文艺海报，雨痕窗后站着一位动漫化孤独女性。"
+    }
+  }
+}

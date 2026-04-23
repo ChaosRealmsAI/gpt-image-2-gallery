@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square album-cover hero image staged on a rain-dark street set with reflective pavement, controlled haze, and a luminous circular rig suspended behind the performer. The camera is chest-high and centered, with cobalt shadows, ember highlights, and enough negative space around the figure to feel publishable as a premium release cover rather than a random portrait.\n\nSubject:\nAn invented solo musician stands still and frontal in the middle of the frame, wearing a cropped silver jacket over a black knit layer, with dark braided hair, a clean jawline, and a geometric ear cuff. This image must lock the exact face shape, hair base, body proportions, jacket silhouette, and calm stare that later rollout images will inherit.\n\nImportant details:\nTreat this as the root identity reference for a full release cycle. Keep the visual language tactile and modern: concentric light rings, diagonal reflections in puddles, soft film grain, restrained fog, and a disciplined cover hierarchy with empty zones where future release metadata could sit. The result should feel like a credible album campaign that could extend into multiple cover variants without losing ownership.\n\nUse case:\nAlbum Rollout series study 1/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no crowd, no microphone in hand, no collage fragments, no duplicated performer, no extra props blocking the halo motif",
+  "id": "01-reference-midnight-transmitter",
+  "title": "Reference Midnight Transmitter",
+  "description": "A master album-cover reference defining one musician, one halo motif, and one rain-polished release palette.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root identity frame for the album rollout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Midnight Transmitter",
+      "description": "A master album-cover reference defining one musician, one halo motif, and one rain-polished release palette."
+    },
+    "zh-CN": {
+      "title": "基准午夜发射器",
+      "description": "基准午夜发射器，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A frontal album-cover portrait of an invented musician under cobalt and ember light with a glowing ring behind them.",
+      "zh-CN": "基准午夜发射器视觉图。"
+    }
+  }
+}

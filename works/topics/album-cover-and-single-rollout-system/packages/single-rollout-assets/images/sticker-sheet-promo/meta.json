@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square tabletop promo image showing a die-cut sticker sheet laid on a matte dark surface, lit with soft raking light so the cut contours and satin finish are visible. The sheet should feel contemporary and collectible, like a merch add-on included in a release bundle.\n\nSubject:\nThe sticker sheet contains an invented performer portrait, concentric ring fragments, abstract rain slashes, metallic icons, and a few shape-only banners reserved for future metadata. Nothing should be readable, but the arrangement must still feel like a coherent release accessory tied to a specific music campaign.\n\nImportant details:\nKeep the composition graphic, clean, and merch-ready. Use die-cut outlines, restrained foil accents, and strong spacing so each sticker reads individually while the whole sheet still feels curated. The imagery should translate the campaign language into smaller collectible units without turning into a childish cartoon product.\n\nUse case:\nAlbum Rollout single study 9/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no playful mascot style, no handwriting, no notebook props, no rainbow clutter, no extra packaging outside the single sticker sheet",
+  "id": "sticker-sheet-promo",
+  "title": "Sticker Sheet Promo",
+  "description": "A collectible sticker-sheet style promo graphic translating the release motif into small-format merch language.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/single-rollout-assets/images/sticker-sheet-promo/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent merch-adjacent study for the album rollout theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Sticker Sheet Promo",
+      "description": "A collectible sticker-sheet style promo graphic translating the release motif into small-format merch language."
+    },
+    "zh-CN": {
+      "title": "贴纸周边宣传图",
+      "description": "贴纸周边宣传图，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "editing-workflow",
+      "single"
+    ],
+    "alt": {
+      "en": "A square collectible sticker-sheet promo with abstract music-release symbols, portraits, and halo fragments.",
+      "zh-CN": "贴纸周边宣传图视觉图。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square premium technology retail mockup displayed inside a minimal gallery case. The camera is frontal with a slight top-down angle, enough to show a smartphone, its rigid magnetic box, and a framed launch poster behind them. Lighting is bright white museum lighting with soft reflections, high key shadows, and immaculate spacing. The background is porcelain white with small chrome risers and clean grid alignment.\n\nSubject:\nA fictional smartphone capsule collaboration with an avant-garde dot-and-mirror installation artist language. The phone back uses glossy enamel dots in yellow, black, white, and electric blue, arranged around the camera island without hiding functional details. The box has a repeating dot field wrapping across the lid and sides, plus a circular die-cut insert. The poster is a disciplined product ad: phone silhouette centered in a field of dots, mirrored silver accents, and rectangular non-readable copy blocks placed like a luxury launch campaign.\n\nImportant details:\nThe mockup must prove layout control: product, packaging, and poster share the same dot system while each object remains distinct. Preserve realistic phone proportions, lens rings, glass reflections, box seams, printed ink registration, and gallery-case shadows. The dot pattern should feel intentionally composed, not random confetti. Avoid real operating system icons or interface screens; keep the screen dark and reflective. Typography must be implied by clean placeholder bars and tiny abstract glyph rows.\n\nUse case:\nBrand Artist Collab Mockup single study 3/8, focused on a technology product capsule with gallery-grade art direction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real phone brand, no real artist signature, no app icons, no hands, no scattered accessories, no low-resolution poster edges.",
+  "id": "phone-dot-gallery",
+  "title": "Phone Dot Gallery",
+  "description": "A fictional smartphone, magnetic box, and dot-installation poster staged as a premium gallery retail mockup.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/phone-dot-gallery/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent technology retail mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Phone Dot Gallery",
+      "description": "A fictional smartphone, magnetic box, and dot-installation poster staged as a premium gallery retail mockup."
+    },
+    "zh-CN": {
+      "title": "手机圆点画廊",
+      "description": "虚构智能手机、磁吸包装盒和圆点装置风海报被布置成高级画廊零售样机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A gallery-lit smartphone collaboration mockup with dot-pattern product, box, and poster.",
+      "zh-CN": "一张画廊灯光下的手机联名样机,包含圆点图案产品、包装盒和海报。"
+    }
+  }
+}

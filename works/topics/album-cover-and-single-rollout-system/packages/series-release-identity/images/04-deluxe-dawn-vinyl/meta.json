@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square deluxe-edition cover staged at blue-hour tipping into dawn, with the same reflective ground plane now catching warmer copper light, softened fog, and a calmer horizon glow. The frame should feel more expansive and collectible, as if closing the release cycle with a premium edition rather than a debut drop.\n\nSubject:\nPreserve the same performer from the reference image with exact face structure, hair base, body proportions, and jacket silhouette. The musician remains centered and composed, but the lighting wraps more softly around the face and shoulders, while the ring motif opens wider and feels more ceremonial behind the figure.\n\nImportant details:\nMaintain the same campaign grammar established by the master cover: restrained symbolism, tactile reflections, and realistic atmospheric polish. The deluxe variation should not invent a new identity; it should feel like the final, elevated chapter of the same release system, with warmer dawn color, richer metallic surfaces, and extra breathing room that suggests a collector release without relying on readable typography.\n\nUse case:\nAlbum Rollout series study 4/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no bright sunrise sky, no extra characters, no vinyl record prop covering the body, no random graphic stickers, no flat studio backdrop",
+  "id": "04-deluxe-dawn-vinyl",
+  "title": "Deluxe Dawn Vinyl",
+  "description": "A deluxe-cover capstone that preserves the same artist identity while warming the palette toward dawn and collector-edition polish.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/04-deluxe-dawn-vinyl/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-midnight-transmitter",
+        "meta_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/meta.json",
+        "image_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Deluxe-cover variation that depends on the root identity image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Deluxe Dawn Vinyl",
+      "description": "A deluxe-cover capstone that preserves the same artist identity while warming the palette toward dawn and collector-edition polish."
+    },
+    "zh-CN": {
+      "title": "晨曦豪华版封面",
+      "description": "晨曦豪华版封面，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A deluxe-edition cover with the same performer, now warmed by dawn tones and collector-grade polish.",
+      "zh-CN": "晨曦豪华版封面视觉图。"
+    }
+  }
+}

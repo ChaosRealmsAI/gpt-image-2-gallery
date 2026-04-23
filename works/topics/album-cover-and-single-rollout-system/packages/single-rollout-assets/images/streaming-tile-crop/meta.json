@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square promotional tile designed for tiny-size visibility, using a dark field, one strong figure silhouette, sharp edge lighting, and a bold circular glow tucked behind the subject. The frame should read instantly even at small scale, with large shape contrast and a disciplined balance between dead space and focal energy.\n\nSubject:\nA lone invented musician appears as a reduced crop from shoulder to crown, framed by a halo-like light disc and slices of reflective rain. The image should feel like the kind of release-week asset a streaming service would use for a profile row, but without any platform branding or readable metadata.\n\nImportant details:\nPrioritize thumbnail legibility, emotional clarity, and campaign coherence. The subject must feel music-industry credible, not generic fashion portraiture. Keep the palette tightly controlled, let the circular light carry the recognition cue, and use one or two high-contrast reflections to imply motion and sound. The composition should clearly reserve space for future overlays without rendering actual words.\n\nUse case:\nAlbum Rollout single study 6/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra people, no detailed city skyline, no collage border, no readable interface text, no busy background texture that breaks small-size clarity",
+  "id": "streaming-tile-crop",
+  "title": "Streaming Tile Crop",
+  "description": "A square promo crop optimized for tiny streaming-surface readability and release-week contrast.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/single-rollout-assets/images/streaming-tile-crop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent streaming promo tile for the album rollout theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Streaming Tile Crop",
+      "description": "A square promo crop optimized for tiny streaming-surface readability and release-week contrast."
+    },
+    "zh-CN": {
+      "title": "流媒体方形切图",
+      "description": "流媒体方形切图，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition",
+      "single"
+    ],
+    "alt": {
+      "en": "A bold square promo tile built for tiny streaming-surface clarity with one performer silhouette and controlled light.",
+      "zh-CN": "流媒体方形切图视觉图。"
+    }
+  }
+}

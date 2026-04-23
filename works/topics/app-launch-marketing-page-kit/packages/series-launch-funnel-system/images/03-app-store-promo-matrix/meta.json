@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square commerce-style presentation board that feels like an App Store asset family arranged on one clean tabletop. Compose the image as a grid of screenshot cards, promotional tiles, cropped hero devices, and a few soft background gradients that give the board a premium launch-day energy. Lighting should be bright and precise, like a studio product shoot mixed with a high-end design review board.\n\nSubject:\nPreserve exact face-value identity from the reference app system: the same interface hierarchy, dashboard widgets, navigation patterns, color tokens, hardware frame shape, and overall product temperament. Reformat that same app into store-ready deliverables: a vertical screenshot strip, a landscape promotional banner crop, a close-up card showing progress analytics, a card highlighting calm task planning, and one concise hero tile built around the same device render. Everything should feel like one official launch package prepared for marketplace submission and paid acquisition. The assets should suggest conversion-oriented clarity, not noisy experimentation.\n\nImportant details:\nMaintain consistent spacing, reflective device realism, clean shadows, and disciplined module hierarchy. Let the visuals imply copy zones and selling points through shape and layout only, since no readable text is allowed. The board must look scalable across storefront and ad placements, with every component clearly related to the same app reference. Aim for professional platform polish, modularity, and real product-market credibility.\n\nUse case:\nApp Launch Marketing Page Kit series study 3/4, adapting the core product identity into a store-ready promotional matrix.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the same app identity from the reference, no mismatched screenshot styles, no crowded coupon graphics, no fake app-store badges, no extra devices unrelated to the system.",
+  "id": "03-app-store-promo-matrix",
+  "title": "App Store Promo Matrix",
+  "description": "A store-ready promotional matrix translating the same app identity into screenshot strips and sales tiles.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/03-app-store-promo-matrix/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-launch-hero",
+        "meta_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/meta.json",
+        "image_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Transforms the reference identity into store-ready promotional assets.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "App Store Promo Matrix",
+      "description": "A store-ready promotional matrix translating the same app identity into screenshot strips and sales tiles."
+    },
+    "zh-CN": {
+      "title": "商店推广矩阵",
+      "description": "把同一 App 身份延展成商店截图条和销售推广卡。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "series"
+    ],
+    "alt": {
+      "en": "A store-promo matrix with screenshot cards and campaign tiles for the same app.",
+      "zh-CN": "一张为同一 App 制作的商店推广矩阵，含截图卡与营销图块。"
+    }
+  }
+}

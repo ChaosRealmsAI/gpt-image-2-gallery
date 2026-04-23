@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square health-tech launch-page still with warm white, sage, sea-glass, and muted coral tones, designed like a trusted care-platform website. The layout should be soft and reassuring but still commercial and precise, with a centered phone hero, supporting information cards, and a clear CTA area. Use subtle gradients and rounded modules so the page feels humane rather than sterile.\n\nSubject:\nShow a phone-centered launch page for a clinic wellness companion app, with a main screen implying appointment prep, recovery checklist cards, and calm symptom journaling. Add a secondary tablet or desktop crop with clinician-side summaries and progress charts. Compose the page around these screenshots using abstract headline blocks, a CTA pair, feature cards, a patient-story testimonial row, and a gentle care pathway strip. Behind the devices, add a translucent wave motif resembling breathing curves and soft medical diagrams without any readable notation.\n\nImportant details:\nThe image should look like a real health-product launch page built to earn trust. Product screenshots must be believable and calm, while the surrounding layout clearly expresses reassurance, capability, and next-step action. Keep the UI simple, medically credible, and uncluttered. All copy zones stay unreadable, appearing as bars, card stubs, and icon patterns only. The finished still should feel adaptable for a homepage hero, app-store feature graphic, and waiting-room presentation without losing coherence.\n\nUse case:\nApp Launch Hero System single study 7/9, testing whether a health-tech launch page can combine empathy, clinical clarity, and strong signup structure in one frame.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no hospital photo backgrounds, no red emergency drama, no browser chrome, no fake prescription text, no unrealistic anatomy diagrams, no distorted device bezels.",
+  "id": "07-clinic-wellness-companion",
+  "title": "Clinic Wellness Companion",
+  "description": "A trusted health-tech launch-page still with phone-led care flows, clinician summaries, and calm conversion modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/07-clinic-wellness-companion/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a health-tech care-flow hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Clinic Wellness Companion",
+      "description": "A trusted health-tech launch-page still with phone-led care flows, clinician summaries, and calm conversion modules."
+    },
+    "zh-CN": {
+      "title": "诊所健康伴侣",
+      "description": "一张可信赖的健康科技上线页静帧，以手机护理流程、临床摘要和沉稳的转化模块为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A calm health app launch-page still with centered phone screens, care modules, and patient-story cards.",
+      "zh-CN": "一张平静的健康应用上线页静帧，中心是手机界面，周围配有护理模块和患者故事卡片。"
+    }
+  }
+}

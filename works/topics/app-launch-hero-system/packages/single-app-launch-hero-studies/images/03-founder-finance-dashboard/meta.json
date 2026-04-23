@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square fintech launch-page still with dark navy, graphite, and electric emerald highlights, arranged like a premium SaaS hero section with lower feature and pricing modules. The tone should be serious and investor-ready, with sharp grids, glowing chart accents, and one restrained gradient field behind the central dashboard. The page should feel as if it belongs to a real B2B startup about to launch publicly.\n\nSubject:\nCenter a large desktop dashboard screenshot for a founder-finance planning app, showing a believable mix of forecast charts, runway curves, small cash buckets, and a timeline ribbon, all rendered as clean unreadable UI. Add a secondary tablet screen angled nearby to suggest collaborative review. Build a convincing launch-page structure around the product with abstract headline rows, a slim CTA strip, three feature modules, and a compact pricing or plan comparison band. Include a subtle hero graphic of luminous graph lines turning into a city skyline above the dashboard.\n\nImportant details:\nThe frame must read as a true SaaS launch page, not a raw dashboard screenshot. The marketing hierarchy matters: hero proof first, then benefits, trust, and conversion. Keep the UI plausible and restrained, with executive polish rather than playful startup clutter. All copy zones should remain abstract and unreadable, using bars, dots, and icon-like shapes only. Use precise alignment and whitespace so the layout feels like a real launch asset ready for a founder, growth team, and product designer to present together.\n\nUse case:\nApp Launch Hero System single study 3/9, testing whether a finance SaaS page can balance complex dashboard proof with clean launch marketing hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no crypto clichés, no stock-photo executives, no overloaded tiny charts, no banking brand references, no distorted screen perspective.",
+  "id": "03-founder-finance-dashboard",
+  "title": "Founder Finance Dashboard",
+  "description": "A dark fintech launch-page still centered on a forecast dashboard with supporting feature modules and conversion bands.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/03-founder-finance-dashboard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a finance dashboard hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Founder Finance Dashboard",
+      "description": "A dark fintech launch-page still centered on a forecast dashboard with supporting feature modules and conversion bands."
+    },
+    "zh-CN": {
+      "title": "创始人财务仪表盘",
+      "description": "一张深色金融科技上线页静帧，以预测仪表盘、功能模块和转化带为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A dark B2B app launch-page still featuring a finance planning dashboard and surrounding marketing modules.",
+      "zh-CN": "一张深色 B2B 应用上线页静帧，展示财务规划仪表盘和周围的营销模块。"
+    }
+  }
+}

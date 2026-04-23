@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square editorial still life photographed from a slight overhead angle on a brushed metal table, with folded sleeves, translucent plastic, chrome jewelry, and reflected circular light patterns arranged as if they belong to a deluxe album gatefold. The lighting should be low, glossy, and tactile, with cool cobalt shadows and thin ember highlights on edges and corners.\n\nSubject:\nThe subject is not a person but a coherent family of release objects: an abstract sleeve, a translucent insert, a metallic pendant echoing the halo motif, scattered photographic contact prints without readable text, and a slim cassette-like object tucked into the composition. The arrangement must feel like a believable music-package spread rather than a random fashion flat lay.\n\nImportant details:\nKeep the visual language tied to a premium record rollout: disciplined spacing, empty panels where title blocks could live later, and a strong sense of collectible material quality. Reflections should reinforce the circular motif without becoming a literal logo. The composition should communicate release identity, sequencing, and tactile desire using light, finish, and layout rhythm rather than words.\n\nUse case:\nAlbum Rollout single study 5/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no human face, no brand labels, no price tags, no chaotic clutter, no food or lifestyle objects unrelated to music packaging",
+  "id": "gatefold-still-life",
+  "title": "Gatefold Still Life",
+  "description": "A tactile gatefold-style still life built from release-world objects, lighting motifs, and sleeve materials.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/single-rollout-assets/images/gatefold-still-life/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent rollout asset study for the album theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Gatefold Still Life",
+      "description": "A tactile gatefold-style still life built from release-world objects, lighting motifs, and sleeve materials."
+    },
+    "zh-CN": {
+      "title": "内页静物",
+      "description": "内页静物，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A music-release still life of sleeves, metallic objects, and light-ring reflections arranged like a gatefold spread.",
+      "zh-CN": "内页静物视觉图。"
+    }
+  }
+}

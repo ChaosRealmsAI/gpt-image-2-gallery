@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square single-cover frame set in the same release universe, now closer to the performer and surrounded by rain streaks, reflected brake-light color, and a slightly lower camera angle that adds urgency without breaking the premium cover language. The environment should still feel like the same wet-night world established by the reference image, just pushed toward momentum.\n\nSubject:\nPreserve the same performer from the reference image with the exact same face structure, hair base, body proportions, and jacket silhouette. The musician is now turning slightly off-center, catching neon reflections across one cheekbone and shoulder, while the circular rig becomes a broken halo echoed in the puddles below.\n\nImportant details:\nThis image represents a single release inside the same campaign. Maintain the analog-neon palette, disciplined empty text zones, and cinematic realism from the reference, but introduce faster rain lines, tighter crop energy, and a stronger sense of release-week urgency. The performer must remain unmistakably identical to the reference model, and the campaign symbol system of rings and diagonal cuts must still anchor the composition.\n\nUse case:\nAlbum Rollout series study 2/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no new wardrobe category, no hard daylight, no audience, no busy city signage, no abstract color explosions",
+  "id": "02-single-after-rain",
+  "title": "Single After Rain",
+  "description": "A tighter single-cover variant that preserves the reference performer while shifting the release mood toward neon rain and motion.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/02-single-after-rain/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-midnight-transmitter",
+        "meta_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/meta.json",
+        "image_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Single-cover variation that depends on the root identity image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Single After Rain",
+      "description": "A tighter single-cover variant that preserves the reference performer while shifting the release mood toward neon rain and motion."
+    },
+    "zh-CN": {
+      "title": "雨后单曲封面",
+      "description": "雨后单曲封面，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "A neon rain single-cover variant preserving the same performer and halo language from the reference image.",
+      "zh-CN": "雨后单曲封面视觉图。"
+    }
+  }
+}

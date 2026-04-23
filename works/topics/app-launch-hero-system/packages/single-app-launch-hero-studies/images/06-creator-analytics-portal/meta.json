@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square creator-tool launch-page still with charcoal, plum, silver, and electric pink highlights, arranged as a polished web hero with lower storytelling bands. The tone should feel ambitious and media-savvy, with glowing chart accents, thumbnail-like content tiles, and a cinematic gradient field behind the main dashboard. Keep the structure crisp enough to read instantly as a real launch website for creators.\n\nSubject:\nCenter a desktop screenshot for a creator analytics portal, showing unreadable yet believable audience graphs, revenue cards, content performance tiles, and a campaign calendar. Add a smaller phone companion screen showing notifications and community highlights. Around the screenshots, build a strong launch-page hierarchy with abstract headline bars, two CTA buttons, a social-proof strip, three feature modules, and a monetization breakdown band. Use a subtle hero illustration of floating spotlight beams and signal waves to frame the product without overpowering it.\n\nImportant details:\nThe page must feel like product marketing with a real business objective, not a random dashboard collage. The product screenshots should carry the proof while the surrounding modules establish aspiration, trust, and action. Keep the layout disciplined and premium, with consistent card language, balanced empty space, and clear vertical rhythm. All text-like elements must remain unreadable placeholder forms only. The result should suggest a launch system that could extend into ads, keynote slides, and storefront images.\n\nUse case:\nApp Launch Hero System single study 6/9, testing whether a creator-economy analytics page can blend dense product proof, visual energy, and believable conversion structure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no social-media brand icons, no influencer portraits dominating the frame, no cluttered thumbnail wall, no fake readable chart labels, no distorted monitor angles.",
+  "id": "06-creator-analytics-portal",
+  "title": "Creator Analytics Portal",
+  "description": "A media-savvy app launch-page still for a creator analytics platform with dashboard proof, social-proof strips, and CTA structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/06-creator-analytics-portal/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a creator analytics dashboard hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Creator Analytics Portal",
+      "description": "A media-savvy app launch-page still for a creator analytics platform with dashboard proof, social-proof strips, and CTA structure."
+    },
+    "zh-CN": {
+      "title": "创作者分析门户",
+      "description": "一张面向创作者分析平台的上线页静帧，结合仪表盘证明、社交背书带和 CTA 结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A creator-platform launch-page still with performance dashboards, content tiles, and premium marketing layout.",
+      "zh-CN": "一张创作者平台上线页静帧，包含表现仪表盘、内容卡片和高级营销布局。"
+    }
+  }
+}

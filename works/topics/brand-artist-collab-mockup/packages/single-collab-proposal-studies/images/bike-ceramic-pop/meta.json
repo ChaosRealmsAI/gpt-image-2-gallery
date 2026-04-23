@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square urban mobility showroom mockup with a compact electric bike displayed beside its shipping accessory kit and a wall-mounted campaign poster. The camera is straight-on at waist height, using a polished concrete floor, white wall, and crisp dealership lighting. The composition is structured as a product launch display: bike across the lower half, packaging modules stacked to one side, poster panel above and behind.\n\nSubject:\nA fictional electric bicycle collaboration with a ceramic-pop sculptor language. The bike frame is matte porcelain white with glossy cobalt and coral inlays, rounded modular battery casing, and hand-painted tile-like pattern panels. The accessory packaging consists of a helmet box, battery sleeve, and small toolkit carton with matching ceramic glaze motifs. The poster turns the bike silhouette into a tiled city route map, with abstract non-readable headline bars and small catalog glyphs arranged on a precise grid.\n\nImportant details:\nThe bicycle must be mechanically plausible: round wheels, aligned fork, visible chain or belt path, pedals, brakes, battery housing, and correct contact points on the floor. The ceramic-inspired art should look like glazed inlay and painted tile, not stickers slapped randomly on metal. Packaging must have believable flaps, seams, labels, and printed surface texture. Keep the layout clean enough for a mobility brand deck while showing a complete collaboration system.\n\nUse case:\nBrand Artist Collab Mockup single study 7/8, focused on a mobility product system with sculptural ceramic-pop surface design.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real bike brand, no real artist signature, no impossible wheel geometry, no floating bike, no showroom people, no overpacked accessory clutter.",
+  "id": "bike-ceramic-pop",
+  "title": "Bike Ceramic Pop",
+  "description": "A fictional electric bike launch display with ceramic-pop frame graphics, accessory packaging, and poster.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "physics-materials",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/bike-ceramic-pop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent urban mobility mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bike Ceramic Pop",
+      "description": "A fictional electric bike launch display with ceramic-pop frame graphics, accessory packaging, and poster."
+    },
+    "zh-CN": {
+      "title": "电助力车陶瓷波普",
+      "description": "虚构电助力车发布陈列,以陶瓷波普图形延展到车架、配件包装和海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "An electric bike showroom mockup with ceramic-pop frame details, packaging, and wall poster.",
+      "zh-CN": "一张电助力车展厅样机,包含陶瓷波普车架细节、配件包装和墙面海报。"
+    }
+  }
+}

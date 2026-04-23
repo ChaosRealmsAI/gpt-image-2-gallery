@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square nocturnal one-sheet set in a narrow hotel room overlooking a city during a lunar eclipse. The composition is mostly darkness and soft hotel beige, with the glowing window occupying the right third and a bed edge or chair barely defining the lower left. The poster should feel still, luxurious, and emotionally withheld, like a Venice competition drama campaign. The eclipse outside the window becomes a small but precise focal point suspended in wide negative darkness.\n\nSubject:\nAn anime-coded concierge woman in a sharply tailored black uniform stands near the curtains, one hand touching the fabric while watching the eclipse. Her haircut is sleek, her posture controlled, and her presence elegant rather than theatrical. The city below is soft bokeh, not detailed skyline spectacle. Inside the room, only a glass tumbler, a single keycard, and the crease of immaculate sheets suggest narrative context. The figure must remain recognizable through silhouette and tailoring, yet the overall poster should privilege mood, spacing, and architectural calm over character fan-service.\n\nImportant details:\nThe challenge is premium composure. Use charcoal, champagne beige, faded moon gold, and muted city-light silver. Keep contrast smooth and the room nearly bare. Let the window rectangle, curtain line, and standing figure establish the whole layout. Any area for title or laurels must exist as measured blank zones or abstract placement guides only. Avoid thriller clichés; this is an adult, serious, international-festival visual language translated onto an anime-coded heroine.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 8/9, testing hotel-drama elegance and subtle lunar symbolism within strict poster restraint.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no flashy skyline detail, no mirror collage, no overt detective props, no glossy fashion-ad glamour lighting.",
+  "id": "08-hotel-window-eclipse",
+  "title": "Hotel Window Eclipse",
+  "description": "A nocturnal hotel-room poster where an anime-coded concierge watches a lunar eclipse through disciplined darkness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/08-hotel-window-eclipse/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study for hotel-room geometry, lunar focal point, and adult arthouse composure."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hotel Window Eclipse",
+      "description": "A nocturnal hotel-room poster where an anime-coded concierge watches a lunar eclipse through disciplined darkness."
+    },
+    "zh-CN": {
+      "title": "酒店窗前月蚀",
+      "description": "夜色酒店房间海报里，一位动漫化女接待在克制黑暗中观看月蚀。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A dark hotel-room poster with an anime-coded concierge standing by the curtains during a lunar eclipse.",
+      "zh-CN": "黑暗酒店房间海报中，一位动漫化女接待在窗帘边凝视月蚀。"
+    }
+  }
+}

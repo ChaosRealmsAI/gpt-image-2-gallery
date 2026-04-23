@@ -1,0 +1,88 @@
+{
+  "id": "single-app-launch-hero-studies",
+  "type": "single",
+  "title": "App Launch Hero Studies",
+  "description": "Nine independent app-launch landing-page stills covering productivity, finance, design, language learning, creator tools, health, travel, and developer workflow products.",
+  "creative_direction": "Each image should read like the first viewport and supporting module stack of a real launch page: product screenshots and mobile frames carry the proof, while abstract hero art, feature cards, testimonials, and CTA zones create a believable marketing hierarchy. The pages must feel launch-ready rather than like isolated UI screens pasted onto a canvas.",
+  "cover_image": "images/01-ai-notebook-copilot/image.png",
+  "i18n": {
+    "en": {
+      "title": "App Launch Hero Studies",
+      "description": "Nine independent app-launch landing-page stills covering productivity, finance, design, language learning, creator tools, health, travel, and developer workflow products."
+    },
+    "zh-CN": {
+      "title": "App 上线页单图研究",
+      "description": "九张独立的 App 上线页静帧，覆盖效率、金融、设计、语言学习、创作者工具、健康、旅行与开发者工作流。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-ai-notebook-copilot",
+      "title": "AI Notebook Copilot",
+      "image": "images/01-ai-notebook-copilot/image.png",
+      "meta": "images/01-ai-notebook-copilot/meta.json"
+    },
+    {
+      "id": "02-focus-streak-coach",
+      "title": "Focus Streak Coach",
+      "image": "images/02-focus-streak-coach/image.png",
+      "meta": "images/02-focus-streak-coach/meta.json"
+    },
+    {
+      "id": "03-founder-finance-dashboard",
+      "title": "Founder Finance Dashboard",
+      "image": "images/03-founder-finance-dashboard/image.png",
+      "meta": "images/03-founder-finance-dashboard/meta.json"
+    },
+    {
+      "id": "04-design-review-canvas",
+      "title": "Design Review Canvas",
+      "image": "images/04-design-review-canvas/image.png",
+      "meta": "images/04-design-review-canvas/meta.json"
+    },
+    {
+      "id": "05-language-sprint-mobile",
+      "title": "Language Sprint Mobile",
+      "image": "images/05-language-sprint-mobile/image.png",
+      "meta": "images/05-language-sprint-mobile/meta.json"
+    },
+    {
+      "id": "06-creator-analytics-portal",
+      "title": "Creator Analytics Portal",
+      "image": "images/06-creator-analytics-portal/image.png",
+      "meta": "images/06-creator-analytics-portal/meta.json"
+    },
+    {
+      "id": "07-clinic-wellness-companion",
+      "title": "Clinic Wellness Companion",
+      "image": "images/07-clinic-wellness-companion/image.png",
+      "meta": "images/07-clinic-wellness-companion/meta.json"
+    },
+    {
+      "id": "08-trip-planner-orbit",
+      "title": "Trip Planner Orbit",
+      "image": "images/08-trip-planner-orbit/image.png",
+      "meta": "images/08-trip-planner-orbit/meta.json"
+    },
+    {
+      "id": "09-developer-api-command-center",
+      "title": "Developer API Command Center",
+      "image": "images/09-developer-api-command-center/image.png",
+      "meta": "images/09-developer-api-command-center/meta.json"
+    }
+  ]
+}

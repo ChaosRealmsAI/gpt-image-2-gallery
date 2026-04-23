@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square campaign board composed of several social-ready launch crops arranged within one master presentation. Instead of a single landing-page layout, show a family of polished ad-like frames, vertical teaser cards, square promo panels, and one compact hero device crop, all presented on a softly lit studio backdrop with subtle gradients and restrained reflections. The view should stay front-facing and editorial.\n\nSubject:\nPreserve exact app identity from the reference model: the same phone proportions, the same UI card system, the same palette, the same icon rhythm, and the same polished product mood. Translate that identity into a coordinated social launch kit with short teaser-style compositions, bold image-led framing, and a few screenshot-driven detail panels. The set should feel ready for announcement day across feed placements and paid social, but still look unmistakably related to the original marketing-page system. Use device fragments, cropped screens, and modular graphic blocks to imply campaign flexibility without losing brand coherence.\n\nImportant details:\nConsistency is the priority. Keep the screen hierarchy stable, preserve material realism, and maintain premium spacing even as the crops become more dynamic. Each sub-frame should feel simple enough to read quickly yet rich enough to support a real product launch. No readable text is allowed, so structure, contrast, and device imagery must carry the message. The result should suggest a disciplined launch toolkit rather than generic social templates.\n\nUse case:\nApp Launch Marketing Page Kit series study 4/4, converting the reference launch identity into coordinated social launch adaptations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the same app identity from the reference, no chaotic sticker overlays, no unrelated lifestyle photography, no drastic color drift, no distorted device silhouettes.",
+  "id": "04-social-launch-adaptations",
+  "title": "Social Launch Adaptations",
+  "description": "A launch adaptation board converting the same app identity into polished social and ad crops.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/04-social-launch-adaptations/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-launch-hero",
+        "meta_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/meta.json",
+        "image_path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Adapts the reference identity into social-ready launch crops.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Social Launch Adaptations",
+      "description": "A launch adaptation board converting the same app identity into polished social and ad crops."
+    },
+    "zh-CN": {
+      "title": "社媒发布延展",
+      "description": "将同一 App 身份转成社媒与广告裁切版式的延展板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout",
+      "series"
+    ],
+    "alt": {
+      "en": "A social-launch adaptation board showing the same app identity across campaign crops.",
+      "zh-CN": "一张社媒发布延展板，展示同一 App 身份在不同营销裁切中的统一性。"
+    }
+  }
+}

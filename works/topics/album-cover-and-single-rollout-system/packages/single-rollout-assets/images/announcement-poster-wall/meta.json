@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary-style photograph of an urban wall layered with multiple matching release posters, shot straight-on so the poster grid fills most of the frame. Torn paper edges, damp concrete, and faint night reflections should make the scene tactile, while the posters themselves share one coherent visual identity.\n\nSubject:\nEach poster shows the same invented music-campaign language: one central performer silhouette, circular backlight, and a moody rain-dark palette. The posters should look freshly pasted and slightly wrinkled, creating the sense of a real street rollout for a new record while still avoiding any readable band names or dates.\n\nImportant details:\nThe point is not gritty chaos but credible campaign deployment. Keep the poster family consistent in crop logic and symbol system, let the environment feel damp and urban, and use repetition to sell ownership. The poster faces can be partially obscured by tears or overlaps, but the release identity must still read clearly from shape, tone, and motif.\n\nUse case:\nAlbum Rollout single study 7/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brands on nearby walls, no pedestrians stealing focus, no graffiti text, no daylight, no random unrelated posters in the composition",
+  "id": "announcement-poster-wall",
+  "title": "Announcement Poster Wall",
+  "description": "A wheatpaste-style wall of campaign posters showing how one release language scales into street-level announcement surfaces.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/single-rollout-assets/images/announcement-poster-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent street poster study for the album rollout theme.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Announcement Poster Wall",
+      "description": "A wheatpaste-style wall of campaign posters showing how one release language scales into street-level announcement surfaces."
+    },
+    "zh-CN": {
+      "title": "官宣海报墙",
+      "description": "官宣海报墙，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "style-transfer",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A wall covered in matching music-release posters using the same ring-and-rain visual language.",
+      "zh-CN": "官宣海报墙视觉图。"
+    }
+  }
+}

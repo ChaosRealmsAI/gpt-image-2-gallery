@@ -1,0 +1,50 @@
+{
+  "id": "bundle-shop-capsule-system",
+  "slug": "bundle-shop-capsule-system",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup"
+  ],
+  "title": "Bundle Shop Capsule System",
+  "short_title": "Shop Capsules",
+  "description": "Create a store capsule system for bundles, packs, and limited offers with clear value hierarchy, readable contents, and retail-grade polish.",
+  "i18n": {
+    "en": {
+      "title": "Bundle Shop Capsule System",
+      "short_title": "Shop Capsules",
+      "description": "Create a store capsule system for bundles, packs, and limited offers with clear value hierarchy, readable contents, and retail-grade polish."
+    },
+    "zh-CN": {
+      "title": "礼包商店胶囊系统",
+      "short_title": "商店礼包",
+      "description": "围绕首充、月卡、节日礼包和限时特惠做商店胶囊系统，重点看内容可读性和价格感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 971,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "single-bundle-shop-studies",
+      "type": "single",
+      "title": "Bundle Shop Studies",
+      "path": "packages/single-bundle-shop-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square travel-app launch-page still with twilight blue, sand, aqua, and sunset orange accents, composed like a premium consumer travel website. The frame should feel aspirational and lightweight, with layered cards, route arcs, and one atmospheric gradient behind the central device cluster. Structure the composition so the hero feels dreamy while the lower modules still read as concrete product proof and booking conversion.\n\nSubject:\nCenter a laptop and phone pairing for a trip-planning app, with screenshots implying itinerary cards, map pins, hotel blocks, and transit timing. Surround the devices with a clean launch-page hierarchy: abstract headline bars, two CTA buttons, a row of destination cards, a planning workflow strip, and a trust module made of ratings-like dots and traveler avatars. Add a subtle hero illustration of orbital route lines, paper tickets, and horizon gradients weaving behind the product screens.\n\nImportant details:\nThe page must convincingly integrate app proof with travel aspiration. Keep the screenshots believable and modular, never cluttered. The abstract hero art should amplify the sense of movement without turning the frame into a poster unrelated to product UI. Use disciplined spacing and obvious vertical sections so the still could plausibly be sliced into homepage hero, app-store visual, or social banner assets. All text-like content remains unreadable placeholder forms only, with no literal words or map labels.\n\nUse case:\nApp Launch Hero System single study 8/9, testing whether a travel-planning launch page can balance dreamy hero mood, structured UI proof, and clear booking CTA hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no airplane stock photo dominating the frame, no passport stamps with letters, no cluttered map labels, no luggage brand marks, no distorted screen reflections.",
+  "id": "08-trip-planner-orbit",
+  "title": "Trip Planner Orbit",
+  "description": "A travel-app launch-page still with paired laptop and phone screens, itinerary modules, and aspirational route graphics.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/08-trip-planner-orbit/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a travel-planning hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Trip Planner Orbit",
+      "description": "A travel-app launch-page still with paired laptop and phone screens, itinerary modules, and aspirational route graphics."
+    },
+    "zh-CN": {
+      "title": "旅程规划轨道",
+      "description": "一张旅行应用上线页静帧，以笔记本和手机双屏、行程模块和理想化路线图形为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A travel app launch-page still with laptop and phone itinerary screens and orbit-like route graphics.",
+      "zh-CN": "一张旅行应用上线页静帧，包含笔记本与手机行程界面以及轨道状路线图形。"
+    }
+  }
+}

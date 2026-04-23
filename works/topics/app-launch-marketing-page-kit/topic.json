@@ -1,0 +1,56 @@
+{
+  "id": "app-launch-marketing-page-kit",
+  "slug": "app-launch-marketing-page-kit",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "photoreal"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "text-rendering"
+  ],
+  "title": "App Launch Marketing Page Kit",
+  "short_title": "App Launch",
+  "description": "A Prompt Atlas theme for app launch marketing pages that combine believable device framing, feature storytelling, and store-ready campaign assets.",
+  "i18n": {
+    "en": {
+      "title": "App Launch Marketing Page Kit",
+      "short_title": "App Launch",
+      "description": "A Prompt Atlas theme for app launch marketing pages that combine believable device framing, feature storytelling, and store-ready campaign assets."
+    },
+    "zh-CN": {
+      "title": "App 发布营销页套件",
+      "short_title": "App发布页",
+      "description": "一组围绕 App 发布营销页、设备演示和商店延展素材的视觉研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 130,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-launch-funnel-system",
+      "type": "series",
+      "title": "Launch Funnel System",
+      "path": "packages/series-launch-funnel-system/package.json"
+    },
+    {
+      "id": "single-market-angle-studies",
+      "type": "single",
+      "title": "Market Angle Studies",
+      "path": "packages/single-market-angle-studies/package.json"
+    }
+  ]
+}

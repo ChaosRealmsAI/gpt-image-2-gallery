@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square EP-cover composition unfolding on a glossy transit-platform set with long vanishing floor reflections, suspended light bars, and cool vapor hanging near the ground. The shot stays centered and controlled, but the background geometry feels more architectural and rhythmic than the original street setup.\n\nSubject:\nPreserve the exact same performer from the reference model, including face shape, braided hair base, body proportions, and jacket silhouette. The musician stands on a slightly raised platform between strobing vertical light bars, with one hand relaxed at the side and the same composed stage presence carried forward into a more architectural release mood.\n\nImportant details:\nThe campaign must still read as one owned visual system rather than a disconnected poster. Keep the same ring-derived motif language, wet reflections, and moody cobalt-to-ember palette, but let the environment shift into platform geometry and pulse-light repetition. This should feel like an EP branch of the same rollout, maintaining exact identity continuity while widening the world-building.\n\nUse case:\nAlbum Rollout series study 3/9 for the Album Cover and Single Rollout System Prompt Atlas theme.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve the exact reference face, hair base, and body proportions; no train vehicles, no readable station graphics, no hard costume change, no fisheye distortion, no cluttered background extras",
+  "id": "03-ep-strobe-platform",
+  "title": "EP Strobe Platform",
+  "description": "An EP-cover variation that keeps the same artist identity but reinterprets the world as a strobe-lit transit platform.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "multi-image-reference",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/03-ep-strobe-platform/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-midnight-transmitter",
+        "meta_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/meta.json",
+        "image_path": "works/topics/album-cover-and-single-rollout-system/packages/series-release-identity/images/01-reference-midnight-transmitter/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "EP-cover variation that depends on the root identity image.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "EP Strobe Platform",
+      "description": "An EP-cover variation that keeps the same artist identity but reinterprets the world as a strobe-lit transit platform."
+    },
+    "zh-CN": {
+      "title": "频闪EP封面",
+      "description": "频闪EP封面，用于专辑rollout主题的图像研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer",
+      "series"
+    ],
+    "alt": {
+      "en": "An EP-cover scene preserving the same performer while moving the rollout into a strobe-lit platform environment.",
+      "zh-CN": "频闪EP封面视觉图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square mobile-first app launch-page still with bright cobalt, cream, lemon, and coral accents, styled like a confident consumer-product website with strong onboarding energy. The composition should feel lively but controlled, with a centered phone hero, playful modular cards below, and a subtle illustrated backdrop that suggests momentum and travel. Keep the layout polished enough to feel like a real launch asset from a mature language-learning company.\n\nSubject:\nShow a tall phone mockup for a language-learning sprint app at the center, with screens implying short lesson cards, pronunciation waves, conversation bubbles, and progress ladders. Flank it with two smaller device crops showing a vocabulary challenge and a weekly streak calendar. Build a launch-page frame around the devices using an abstract headline zone, CTA buttons, small trust badges, a benefits grid, and a testimonial row with circular portraits. Add a hero motif of colorful map arcs and speech-sound rings drifting behind the phone stack.\n\nImportant details:\nThe image must sell a full launch page, not just a pretty app UI. Maintain a believable story flow from aspirational hero to feature proof to social proof to conversion. Use strong spacing and consistent mobile UI language across every screen. All copy must remain unreadable, appearing only as bars, dots, and stylized blocks. Avoid toy-like clutter; the page should feel globally marketable, premium, and modular enough to be repurposed into app-store visuals or social campaign crops.\n\nUse case:\nApp Launch Hero System single study 5/9, testing whether a consumer language app can combine cheerful brand motion, mobile proof, and launch-page structure in one image.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no national flags dominating the frame, no cartoon owl mascot, no overloaded sticker clutter, no fake app-store text, no bent phone geometry.",
+  "id": "05-language-sprint-mobile",
+  "title": "Language Sprint Mobile",
+  "description": "A consumer app launch-page still for a language-learning product with centered phone hero, benefits grid, and conversion modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/05-language-sprint-mobile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a mobile language-learning hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Language Sprint Mobile",
+      "description": "A consumer app launch-page still for a language-learning product with centered phone hero, benefits grid, and conversion modules."
+    },
+    "zh-CN": {
+      "title": "语言冲刺移动端",
+      "description": "一张语言学习产品的消费者上线页静帧，以居中的手机主视觉、优势网格和转化模块为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A bright mobile launch-page still with a central language-learning phone mockup and colorful supporting modules.",
+      "zh-CN": "一张明亮的移动上线页静帧，中心是语言学习手机模型，周围有多彩的辅助模块。"
+    }
+  }
+}

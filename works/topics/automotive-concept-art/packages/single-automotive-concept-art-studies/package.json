@@ -1,0 +1,82 @@
+{
+  "id": "single-automotive-concept-art-studies",
+  "type": "single",
+  "title": "Car Concept Render Studies",
+  "description": "Eight independent render studies for Automotive Concept Art, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Automotive Concept Art, testing technical-diagram, style-transfer, commercial-mockup with GPT Image 2. through distinct studies that emphasize photorealism, physics-materials, frontier-creative-composition while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/hero-model/image.png",
+  "i18n": {
+    "en": {
+      "title": "Car Concept Render Studies",
+      "description": "Eight independent render studies for Automotive Concept Art, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "汽车概念单图研究",
+      "description": "围绕 汽车概念 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "hero-model",
+      "title": "Hero Model",
+      "image": "images/hero-model/image.png",
+      "meta": "images/hero-model/meta.json"
+    },
+    {
+      "id": "exploded-arrangement",
+      "title": "Exploded Arrangement",
+      "image": "images/exploded-arrangement/image.png",
+      "meta": "images/exploded-arrangement/meta.json"
+    },
+    {
+      "id": "material-pass",
+      "title": "Material Pass",
+      "image": "images/material-pass/image.png",
+      "meta": "images/material-pass/meta.json"
+    },
+    {
+      "id": "studio-turn",
+      "title": "Studio Turn",
+      "image": "images/studio-turn/image.png",
+      "meta": "images/studio-turn/meta.json"
+    },
+    {
+      "id": "scale-comparison",
+      "title": "Scale Comparison",
+      "image": "images/scale-comparison/image.png",
+      "meta": "images/scale-comparison/meta.json"
+    },
+    {
+      "id": "detail-closeup",
+      "title": "Detail Closeup",
+      "image": "images/detail-closeup/image.png",
+      "meta": "images/detail-closeup/meta.json"
+    },
+    {
+      "id": "environment-presentation",
+      "title": "环境展示",
+      "image": "images/environment-presentation/image.png",
+      "meta": "images/environment-presentation/meta.json"
+    },
+    {
+      "id": "signature-render",
+      "title": "Signature Render",
+      "image": "images/signature-render/image.png",
+      "meta": "images/signature-render/meta.json"
+    }
+  ]
+}

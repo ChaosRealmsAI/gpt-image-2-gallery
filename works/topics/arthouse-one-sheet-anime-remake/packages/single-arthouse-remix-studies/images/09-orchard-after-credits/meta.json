@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square final one-sheet set in an orchard at first light after a storm. The composition is airy and sparse: rows of wet trees recede diagonally, but most of the image is pale dawn mist and open sky. In the lower center sits a simple ladder and overturned wooden crate, establishing a quiet geometric base. The look should feel like a premium postscript poster, calm and reflective, with soft matte texture and a large untouched upper field where a title could live without actually appearing.\n\nSubject:\nA lone anime-coded orchard keeper in work overalls stands on the ladder, one arm reaching to touch a single remaining orange caught in a branch. The figure is small and lightly stylized, with a clear braid silhouette and practical boots. Fallen fruit glistens on the ground, and a bicycle leans against one distant tree. The character should feel emotionally complete and recognizable through shape, but the orchard, ladder, and mist must together carry equal weight. The whole poster should imply the final quiet beat after a larger unseen story has ended.\n\nImportant details:\nThis image should close the package with serenity rather than climax. Use washed apricot dawn, leaf green darkened by rain, pale silver mist, and muted wood brown. Keep all elements cleanly spaced. The ladder should create a vertical accent that balances the broad horizontal orchard rows and the blank sky. Suggest credits or laurels only through compositional breathing room and thin abstract line placement, never readable text. Avoid postcard sweetness; aim for mature festival-poster calm with anime-coded tenderness.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 9/9, serving as a quiet epilogue built from orchard geometry, post-rain atmosphere, and restrained character presence.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no busy harvest market, no oversaturated sunrise, no whimsical fantasy creatures, no sentimental collage treatment.",
+  "id": "09-orchard-after-credits",
+  "title": "Orchard After Credits",
+  "description": "A quiet dawn orchard poster where an anime-coded keeper reaches toward one last orange after the storm.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/09-orchard-after-credits/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study intended as the package epilogue with orchard geometry and post-rain stillness."
+  },
+  "i18n": {
+    "en": {
+      "title": "Orchard After Credits",
+      "description": "A quiet dawn orchard poster where an anime-coded keeper reaches toward one last orange after the storm."
+    },
+    "zh-CN": {
+      "title": "片尾后的果园",
+      "description": "安静的黎明果园海报里，动漫化看园人伸手去触碰风雨后最后一颗橘子。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A misty orchard poster with an anime-coded keeper on a ladder reaching for the last orange at dawn.",
+      "zh-CN": "薄雾果园海报中，动漫化看园人站在梯子上，于黎明时分去摘最后一颗橘子。"
+    }
+  }
+}

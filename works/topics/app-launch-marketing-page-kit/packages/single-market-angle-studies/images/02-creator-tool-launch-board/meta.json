@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square campaign board for a mobile creator workflow app, with a more energetic but still disciplined launch aesthetic. Present one hero phone, several cropped interface panels, and layered media-like shapes on a dark charcoal-to-electric-teal gradient field. The lighting should feel glossy and commercial, with crisp reflections on glass and metal but no excessive glow.\n\nSubject:\nBuild a launch-page kit for an app that helps creators organize clips, ideas, publishing steps, and asset libraries. The hero phone should display a visually rich interface with thumbnail grids, scheduling lanes, checklist modules, and compact analytics cards. Surround it with landing-page fragments that suggest onboarding, cross-device workflow, and store-promo assets. The structure should feel like a complete app marketing system prepared for launch week, not just a single hero shot. Use strong composition, believable device rendering, and abstract copy zones that imply promotional messaging without any readable typography.\n\nImportant details:\nKeep the interface coherent and attractive, but prioritize scanability over noise. Show visual energy through image framing, rhythm, and contrast rather than through random effects. The board should feel like a real product campaign for creators: polished, modern, ambitious, and clear enough to extend into store screenshots, social crops, and a landing page. Maintain structured modules, consistent spacing, and premium material rendering throughout.\n\nUse case:\nApp Launch Marketing Page Kit single study 2/5, testing an energetic creator-tool launch direction.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no chaotic collage clutter, no fake brand marks, no distorted screen perspective, no excessive lens flares, no messy color overload.",
+  "id": "02-creator-tool-launch-board",
+  "title": "Creator Tool Launch Board",
+  "description": "A launch board for a creator workflow app mixing energetic media panels with believable device screens.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/single-market-angle-studies/images/02-creator-tool-launch-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent creator-tool app launch concept.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Creator Tool Launch Board",
+      "description": "A launch board for a creator workflow app mixing energetic media panels with believable device screens."
+    },
+    "zh-CN": {
+      "title": "创作者工具发布板",
+      "description": "一张创作者工作流 App 的发布营销板，兼顾动感媒体分区和可信设备界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A creator-tool launch board with energetic media panels and realistic app screens.",
+      "zh-CN": "一张创作者工具发布板，结合动感媒体区块与真实应用界面。"
+    }
+  }
+}

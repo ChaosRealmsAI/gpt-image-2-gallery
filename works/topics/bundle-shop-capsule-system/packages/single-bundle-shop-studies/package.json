@@ -1,0 +1,88 @@
+{
+  "id": "single-bundle-shop-studies",
+  "type": "single",
+  "title": "Bundle Shop Studies",
+  "description": "Nine independent bundle-shop studies aimed at highly commercial store placements and offer packaging.",
+  "creative_direction": "Prioritize conversion hierarchy, product grouping, and premium offer packaging while keeping all text abstract and unreadable.",
+  "cover_image": "images/starter-pack-capsule/image.png",
+  "i18n": {
+    "en": {
+      "title": "Bundle Shop Studies",
+      "description": "Nine independent bundle-shop studies aimed at highly commercial store placements and offer packaging."
+    },
+    "zh-CN": {
+      "title": "礼包商城研究",
+      "description": "九张独立礼包商城研究，直指高商业化商店位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "images": [
+    {
+      "id": "starter-pack-capsule",
+      "title": "Starter Pack Capsule",
+      "image": "images/starter-pack-capsule/image.png",
+      "meta": "images/starter-pack-capsule/meta.json"
+    },
+    {
+      "id": "holiday-bundle-tile",
+      "title": "Holiday Bundle Tile",
+      "image": "images/holiday-bundle-tile/image.png",
+      "meta": "images/holiday-bundle-tile/meta.json"
+    },
+    {
+      "id": "currency-bonus-offer",
+      "title": "Currency Bonus Offer",
+      "image": "images/currency-bonus-offer/image.png",
+      "meta": "images/currency-bonus-offer/meta.json"
+    },
+    {
+      "id": "premium-monthly-card",
+      "title": "Premium Monthly Card",
+      "image": "images/premium-monthly-card/image.png",
+      "meta": "images/premium-monthly-card/meta.json"
+    },
+    {
+      "id": "bundle-lineup-board",
+      "title": "Bundle Lineup Board",
+      "image": "images/bundle-lineup-board/image.png",
+      "meta": "images/bundle-lineup-board/meta.json"
+    },
+    {
+      "id": "capsule-closeup-study",
+      "title": "Capsule Closeup Study",
+      "image": "images/capsule-closeup-study/image.png",
+      "meta": "images/capsule-closeup-study/meta.json"
+    },
+    {
+      "id": "shop-homepage-takeover",
+      "title": "Shop Homepage Takeover",
+      "image": "images/shop-homepage-takeover/image.png",
+      "meta": "images/shop-homepage-takeover/meta.json"
+    },
+    {
+      "id": "subscription-reward-board",
+      "title": "Subscription Reward Board",
+      "image": "images/subscription-reward-board/image.png",
+      "meta": "images/subscription-reward-board/meta.json"
+    },
+    {
+      "id": "vip-offer-poster",
+      "title": "VIP Offer Poster",
+      "image": "images/vip-offer-poster/image.png",
+      "meta": "images/vip-offer-poster/meta.json"
+    }
+  ]
+}

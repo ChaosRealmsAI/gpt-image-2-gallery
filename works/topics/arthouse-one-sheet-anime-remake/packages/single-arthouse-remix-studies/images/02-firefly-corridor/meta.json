@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square one-sheet with a dim rural corridor receding into darkness, viewed straight-on with strong symmetry but very soft contrast. The corridor occupies only the center strip of the frame, while the left and right edges fall into creamy off-white emptiness. The mood is humid summer night, with a few suspended firefly lights forming the only luminous accents. The poster should feel elegant, austere, and expensive, with a generous upper field left intentionally calm for implied title placement.\n\nSubject:\nAt the corridor threshold stands an anime-coded teenage courier in a loose school blazer and pleated skirt, holding a bicycle helmet and a satchel. Her pose is paused, as if she has just stopped before stepping inside. The figure is small relative to the frame, but the gesture and silhouette must read clearly. Beyond her, the corridor contains tatami edges, wooden pillars, one open sliding door, and darkness layered with tiny floating fireflies. The scene suggests narrative promise and memory rather than overt action.\n\nImportant details:\nTranslate arthouse poster language into animation without slipping into glossy key art. Keep the palette to moss green, weathered wood brown, paper beige, and tiny yellow firefly sparks. Maintain a strict three-part hierarchy: blank negative space, corridor geometry, then the human figure. Any credit or laurel area should be represented only by faint modular line blocks or quiet spacing, never readable letters. The composition must feel emotionally precise and minimal, not decorative.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 2/9, testing whether a small anime figure can survive extreme emptiness and still carry the poster.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no action pose, no neon cyberpunk effects, no cluttered background objects, no exaggerated facial expression.",
+  "id": "02-firefly-corridor",
+  "title": "Firefly Corridor",
+  "description": "A minimalist summer-night corridor poster where a small anime-coded courier stands among fireflies and disciplined emptiness.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/02-firefly-corridor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study focused on symmetry, corridor depth, and restrained anime subject scale."
+  },
+  "i18n": {
+    "en": {
+      "title": "Firefly Corridor",
+      "description": "A minimalist summer-night corridor poster where a small anime-coded courier stands among fireflies and disciplined emptiness."
+    },
+    "zh-CN": {
+      "title": "萤火走廊",
+      "description": "极简夏夜走廊海报，小小的动漫化信使站在萤火与留白之间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A quiet symmetrical corridor at night with fireflies and a small anime-coded courier paused at the entrance.",
+      "zh-CN": "夜色中的对称走廊里漂浮着萤火，一位小小的动漫化信使停在入口处。"
+    }
+  }
+}

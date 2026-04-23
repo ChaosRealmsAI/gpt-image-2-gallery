@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square midnight-blue one-sheet set in a public aquarium after closing hours. The scene is dominated by one large glass tank occupying the center-left of the frame, while the surrounding architecture fades into deep indigo shadow and generous negative space. The composition should be elegant and minimal, with a cool luminous rectangle acting as the poster's only major bright mass. Empty darkness above and to the right should feel intentionally reserved for a title block that never appears.\n\nSubject:\nIn front of the tank sits an anime-coded android singer in a simple black coat, knees drawn slightly inward on a museum bench. Her silver hair catches the tank light, and a faint seam line at the neck hints at machine identity without turning the poster into science-fiction spectacle. Inside the tank drift jellyfish and one slow stingray, forming soft ghostly shapes around her reflection on the glass. The character should remain emotionally legible and iconic through posture and silhouette, but the image overall must feel like a contemplative festival drama poster rather than franchise key art.\n\nImportant details:\nThe visual discipline matters more than ornament. Use a tightly controlled palette of indigo, dim cyan, glass gray, and a tiny accent of pallid skin tone. Keep architecture simple, no crowded visitors, no product-design gadgets. Let the tank rectangle, bench line, and seated figure establish a calm poster geometry. Any space for copy or laurels should be implied as empty structure only. The tone should suggest loneliness, premium paper stock, and a slow-breathing art-film mood.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 5/9, testing sci-fi-coded identity inside a restrained museum-poster layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no flashy holograms, no action effects, no bright neon palette, no crowded aquarium exhibits, no comedic expression.",
+  "id": "05-aquarium-midnight",
+  "title": "Aquarium Midnight",
+  "description": "A quiet aquarium one-sheet where an anime-coded android singer sits before glowing midnight jellyfish.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/05-aquarium-midnight/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study combining sci-fi identity cues with arthouse glass-box composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Aquarium Midnight",
+      "description": "A quiet aquarium one-sheet where an anime-coded android singer sits before glowing midnight jellyfish."
+    },
+    "zh-CN": {
+      "title": "午夜水族馆",
+      "description": "安静的水族馆 one-sheet，一位动漫化仿生歌者坐在发光水母前。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A midnight aquarium poster with a seated anime-coded android singer lit by jellyfish and tank reflections.",
+      "zh-CN": "午夜水族馆海报里，坐着的动漫化仿生歌者被水母与玻璃反光照亮。"
+    }
+  }
+}

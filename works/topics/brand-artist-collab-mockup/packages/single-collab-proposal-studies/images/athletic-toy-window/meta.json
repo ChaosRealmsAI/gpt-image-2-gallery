@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square commercial pitch-board mockup photographed in a bright studio, arranged as a clean three-part retail presentation. The camera looks straight at a shallow display shelf with softbox reflections, neutral warm gray background, and crisp shadows. The composition uses a left product hero, a center packaging window box, and a right campaign poster panel, all aligned to a precise grid with generous margins and premium proposal lighting.\n\nSubject:\nA fictional athletic footwear capsule paired with a neo-pop toy painter language. The shoe has sculpted white leather panels, cherry-red rubber accents, hand-drawn childlike character marks, and small embossed abstract glyph blocks. The packaging is a clear-window collector box with painted mascot silhouettes and layered insert cards. The poster repeats the product shape as oversized flat color cutouts with playful eyes, uneven brush borders, and carefully placed non-readable label bars.\n\nImportant details:\nKeep the product, box, and poster visibly from the same campaign through matching red, ivory, black, and pale blue. The mockup must feel expensive enough for a design proposal, not a random collage. Preserve believable materials: leather grain, translucent plastic window, folded carton edges, printed ink texture, and tabletop contact shadows. All typography areas should be structured as clean placeholder glyphs rather than legible brand names.\n\nUse case:\nBrand Artist Collab Mockup single study 1/8, focused on a proposal-ready product, packaging, and poster triptych.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand names, no real artist signatures, no distorted shoe anatomy, no cluttered retail background, no extra panels outside the three-part mockup.",
+  "id": "athletic-toy-window",
+  "title": "Athletic Toy Window",
+  "description": "A fictional athletic footwear collaboration shown as product, collector box, and poster in one structured mockup.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/athletic-toy-window/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent commercial mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Athletic Toy Window",
+      "description": "A fictional athletic footwear collaboration shown as product, collector box, and poster in one structured mockup."
+    },
+    "zh-CN": {
+      "title": "运动玩具橱窗",
+      "description": "虚构运动鞋联名以产品、收藏盒和海报三件套组成结构化商业样机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A studio mockup with a fictional sneaker, window box, and matching neo-pop campaign poster.",
+      "zh-CN": "一张包含虚构球鞋、开窗包装盒和新波普风海报的影棚样机。"
+    }
+  }
+}

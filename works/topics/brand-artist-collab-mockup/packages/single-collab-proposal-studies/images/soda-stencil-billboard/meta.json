@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square advertising mockup set on a polished concrete presentation table, lit like a late-afternoon creative agency review. The layout is a balanced commercial board with a glass beverage bottle in the foreground, a six-pack carton slightly behind it, and a vertical street-poster panel rising at the back. The color temperature is cool daylight with selective red highlights, sharp focus, and realistic reflections on glass and varnished cardboard.\n\nSubject:\nA fictional soda label collaboration with an anonymous street-stencil muralist language. The bottle is tall and transparent with deep crimson liquid, a torn-paper label shape, sprayed stencil fruit silhouettes, and small abstract warning-label glyph blocks. The carton uses repeated spray-mask shapes, overprinted arrows, and layered sticker textures. The poster shows a dramatic stencil composition of bubbles becoming city windows, with a bold but unreadable headline zone and a clear product packshot area.\n\nImportant details:\nThe art direction should fuse polished beverage marketing with controlled street-art roughness. Keep the same stencil motifs across bottle, carton, and poster so the collaboration reads instantly as one campaign. Make the glass thickness, bottle cap ridges, condensation beads, carton folds, matte spray paint, and pasted-paper edges physically convincing. Layout hierarchy must be clear: product first, packaging second, campaign poster third. Use abstract glyph rows only; no readable copy.\n\nUse case:\nBrand Artist Collab Mockup single study 2/8, focused on a beverage launch kit with street-stencil campaign language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no existing soda identity, no real street artist signature, no messy graffiti wall, no illegal poster clutter, no warped bottle label, no floating objects.",
+  "id": "soda-stencil-billboard",
+  "title": "Soda Stencil Billboard",
+  "description": "A fictional soda bottle, carton, and street-stencil poster arranged as a polished launch mockup.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/soda-stencil-billboard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent beverage campaign mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Soda Stencil Billboard",
+      "description": "A fictional soda bottle, carton, and street-stencil poster arranged as a polished launch mockup."
+    },
+    "zh-CN": {
+      "title": "汽水模板海报",
+      "description": "虚构汽水瓶、六连纸盒和街头模板喷绘海报组成精致上市样机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A fictional soda launch mockup with a glass bottle, carton, and stencil-style campaign poster.",
+      "zh-CN": "一张包含玻璃汽水瓶、纸盒和模板喷绘风广告海报的虚构上市样机。"
+    }
+  }
+}

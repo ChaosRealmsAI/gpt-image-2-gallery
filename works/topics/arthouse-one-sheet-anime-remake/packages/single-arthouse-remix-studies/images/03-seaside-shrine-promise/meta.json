@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square poster framed like a high-end Japanese festival one-sheet: wide pale sky, a low horizon, and a tiny shrine stair descending toward a quiet sea. The composition should feel wind-washed and nearly empty, with the entire upper two-thirds reserved for atmosphere and implied typography space. Color is powder blue, faded vermilion, sea mist white, and a restrained note of charcoal. The image should read as contemplative, not mystical spectacle.\n\nSubject:\nA single anime-coded shrine maiden stands on the steps facing the ocean, seen from behind with long dark hair and a plain white-and-red robe rendered in a simplified, elegant manner. Near her feet are wind chimes, a weathered offering box, and one paper charm ribbon fluttering sideways. The sea is flat and distant. A red torii beam enters only partially from the top corner, giving the frame a strong poster anchor without overpowering the emptiness. The character must remain identifiable as an anime protagonist through shape language and styling, yet be subdued enough to belong in a prestige arthouse poster.\n\nImportant details:\nThe core challenge is balance: sacred seaside iconography, anime-coded character design, and severe layout restraint. Keep edges crisp, forms quiet, and the atmosphere airy. Use negative space as an active design element. Indicate possible title and credit zones through composition alone, not text. Avoid tourist-poster brightness; this should feel like a calm, serious festival selection sheet with subtle premium paper texture.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 3/9, centered on shrine iconography, horizon spacing, and a minimal protagonist silhouette.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no dramatic explosion sky, no fantasy creatures, no excessive cherry blossoms, no glossy souvenir-poster styling.",
+  "id": "03-seaside-shrine-promise",
+  "title": "Seaside Shrine Promise",
+  "description": "A sparse seaside shrine one-sheet where an anime-coded shrine maiden faces an empty horizon beneath disciplined negative space.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/03-seaside-shrine-promise/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study using open sky and seaside shrine geometry to preserve arthouse restraint."
+  },
+  "i18n": {
+    "en": {
+      "title": "Seaside Shrine Promise",
+      "description": "A sparse seaside shrine one-sheet where an anime-coded shrine maiden faces an empty horizon beneath disciplined negative space."
+    },
+    "zh-CN": {
+      "title": "海边神社之约",
+      "description": "稀疏留白的海边神社海报，一位动漫化巫女在空旷天幕下望向地平线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A minimalist shrine-by-the-sea poster with an anime-coded shrine maiden standing before a pale horizon.",
+      "zh-CN": "极简海边神社海报里，一位动漫化巫女站在苍白海天线前。"
+    }
+  }
+}

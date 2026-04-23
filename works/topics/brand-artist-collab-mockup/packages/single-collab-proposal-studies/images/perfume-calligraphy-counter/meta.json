@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square luxury fragrance counter mockup photographed in a quiet department-store light box. The setup is symmetrical but not rigid: a perfume bottle sits on a low stone plinth, its folding carton stands behind it, and a campaign poster panel forms the vertical backdrop. The lighting is soft pearl-white with deep ink-black accents, shallow shadows, and glossy reflections that make the glass and foil details feel premium.\n\nSubject:\nA fictional fragrance house collaboration with an experimental calligraphy painter language. The bottle is thick clear glass with pale amber liquid, a black lacquer cap, and a label made from sweeping abstract ink strokes rather than readable words. The carton uses embossed paper, brushed silver foil, and one large gestural calligraphy mark wrapping from front to side. The poster shows the bottle centered inside a storm of diluted ink wash, with disciplined blank space and non-readable caption blocks placed below the product.\n\nImportant details:\nThe image should balance luxury restraint with expressive art. Make the bottle geometry correct, glass base heavy, liquid meniscus visible, carton fold lines crisp, and foil catching light only on edges. The calligraphy must feel like original abstract marks, not copied characters or legible script. Maintain a clear hierarchy between object, package, and poster. The palette should stay controlled: ivory, ink black, pale amber, warm gray, and subtle silver.\n\nUse case:\nBrand Artist Collab Mockup single study 5/8, focused on a fragrance proposal where expressive mark-making becomes commercial packaging.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real fragrance brand, no real calligrapher signature, no readable Chinese or Latin characters, no messy ink splashes covering the bottle, no distorted glass.",
+  "id": "perfume-calligraphy-counter",
+  "title": "Perfume Calligraphy Counter",
+  "description": "A fictional fragrance bottle, carton, and campaign poster using abstract calligraphic mark-making.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/perfume-calligraphy-counter/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fragrance counter mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Perfume Calligraphy Counter",
+      "description": "A fictional fragrance bottle, carton, and campaign poster using abstract calligraphic mark-making."
+    },
+    "zh-CN": {
+      "title": "香水书法柜台",
+      "description": "虚构香水瓶、纸盒和广告海报以抽象书法笔触构成高级商业样机。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A luxury fragrance mockup with a glass bottle, embossed carton, and abstract ink poster.",
+      "zh-CN": "一张高级香水样机,包含玻璃瓶、压纹纸盒和抽象水墨海报。"
+    }
+  }
+}

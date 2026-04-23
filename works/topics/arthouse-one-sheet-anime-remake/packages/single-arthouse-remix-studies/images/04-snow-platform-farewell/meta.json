@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square winter one-sheet with a nearly monochrome station platform cutting horizontally across the lower quarter of the image. Above it stretches a huge field of white snowfall and cold dusk haze, turning the poster into an exercise in quiet emptiness. The framing is slightly wide and distant, with thin utility wires and one platform lamp creating fine graphic lines. The overall look should resemble a prestigious farewell drama poster with almost absurdly careful restraint.\n\nSubject:\nTwo anime-coded figures stand far apart on the platform, one carrying a suitcase and the other clutching a scarf near the mouth. They are small, understated, and separated by physical space rather than melodramatic gesture. A train is only implied by a blurred silver edge entering from one side, not fully visible. Snow gathers on the platform roof, the bench, and the characters' coats. Their silhouettes and hair shapes should remain distinct enough to suggest specific protagonists while keeping faces understated and emotionally internal.\n\nImportant details:\nThis image tests whether an anime farewell scene can be translated into the grammar of austere European festival posters. Keep the palette almost entirely white, silver-gray, faded navy, and one amber lamp. The negative space must feel intentional, not empty by accident. Suggest title and credit bands through alignment and spacing only. Use delicate falling snow, quiet grain, and premium paper finish. The emotional weight should come from distance and composition, not tears or dramatic posing.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 4/9, focused on separation, winter minimalism, and long-distance character readability.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no full train dominating the frame, no bright saturated colors, no melodramatic crying pose, no dense crowd.",
+  "id": "04-snow-platform-farewell",
+  "title": "Snow Platform Farewell",
+  "description": "A nearly monochrome farewell poster where two anime-coded figures stand apart on a snowbound station platform.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/04-snow-platform-farewell/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study for winter emptiness, small figures, and restrained emotional distance."
+  },
+  "i18n": {
+    "en": {
+      "title": "Snow Platform Farewell",
+      "description": "A nearly monochrome farewell poster where two anime-coded figures stand apart on a snowbound station platform."
+    },
+    "zh-CN": {
+      "title": "雪站台告别",
+      "description": "近乎单色的告别海报，两位动漫化人物在积雪站台上彼此分离。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A snow-covered station platform poster with two distant anime-coded figures separated by winter emptiness.",
+      "zh-CN": "积雪站台海报中，两位相隔甚远的动漫化人物被冬日留白分开。"
+    }
+  }
+}

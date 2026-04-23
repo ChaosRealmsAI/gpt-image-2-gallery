@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square software launch-page still with cool white, lavender gray, cobalt, and signal orange accents, composed like a premium design-tool website first screen with supporting sections below. Use a clean studio background, floating panels, and carefully spaced interface layers so the frame feels modern and collaborative rather than sterile. The layout should clearly separate hero, features, workflow proof, and final CTA.\n\nSubject:\nPlace a wide desktop screenshot for a design review platform at the center, showing an artboard canvas, threaded comment pins, side inspector cards, and a compact approval timeline. Add two smaller supporting crops: one mobile notification view and one zoomed review detail card. Around these, compose a launch-page hierarchy with abstract headline bars, a CTA pair, a row of feature blocks, a process diagram strip, and a testimonial band. Behind the screenshots, add a soft geometric hero illustration of translucent rectangles orbiting around a central canvas plane.\n\nImportant details:\nThis should look like a real software launch page where product proof and marketing rhythm reinforce each other. Keep the UI credible for a collaborative design-review tool, with consistent panel language and precise spacing. The page must communicate workflow clearly through layout, not through readable words. Treat all text zones as elegant placeholder bars, badge pills, and icon shapes. Avoid collage chaos: each screen, module, and supporting element needs a deliberate place in the vertical story from hero statement to proof to conversion.\n\nUse case:\nApp Launch Hero System single study 4/9, testing whether a collaborative design-tool launch page can integrate dense interface proof with clean brand storytelling.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no generic dribbble-shot clutter, no unrealistic 3D laptops, no overlapping UI chaos, no fake brand marks, no broken perspective on panels.",
+  "id": "04-design-review-canvas",
+  "title": "Design Review Canvas",
+  "description": "A polished design-tool launch-page still with central canvas screenshots, workflow proof, and structured feature modules.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/04-design-review-canvas/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a collaborative design-review hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Design Review Canvas",
+      "description": "A polished design-tool launch-page still with central canvas screenshots, workflow proof, and structured feature modules."
+    },
+    "zh-CN": {
+      "title": "设计评审画布",
+      "description": "一张精致的设计工具上线页静帧，以中心画布截图、流程证明和结构化功能模块为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A design software launch-page still with layered review canvas screens and neat supporting modules.",
+      "zh-CN": "一张设计软件上线页静帧，包含层叠的评审画布界面和整齐的辅助模块。"
+    }
+  }
+}

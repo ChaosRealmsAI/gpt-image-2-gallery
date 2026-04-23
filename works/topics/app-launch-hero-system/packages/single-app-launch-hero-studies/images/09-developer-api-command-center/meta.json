@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square developer-tool launch-page still with charcoal, indigo, ice blue, and vivid lime accents, styled like a serious API platform homepage. The page should feel technical and premium, with a clear hero zone, product screenshot cluster, lower feature modules, and a final CTA strip. Use crisp light on dark surfaces and a restrained code-like glow so the frame feels modern without becoming hacker cliché.\n\nSubject:\nCenter a desktop screenshot for a developer API command center showing endpoint cards, usage graphs, environment tabs, and workflow automation tiles, all rendered as unreadable but plausible interface content. Pair it with a smaller terminal-like side panel and one mobile status view. Around the screens, compose a realistic launch-page hierarchy using abstract headline bars, button shapes, integration badges, a feature grid, and a trust strip with infrastructure-style icons. Add a subtle hero illustration of connected nodes and packet paths floating behind the product, echoing platform orchestration.\n\nImportant details:\nThe page must look like a real software launch asset for developers and platform teams. The UI should feel coherent, useful, and organized; the marketing wrapper should make clear what the product promises without any readable text. Keep the balance between code-adjacent seriousness and polished commercial design. Use generous margins, exact alignment, and structured module rhythm so the still could be repurposed into keynote slides or storefront assets. Every textual region remains unreadable placeholder geometry only.\n\nUse case:\nApp Launch Hero System single study 9/9, testing whether a technical API-platform launch page can combine dense product proof, abstract orchestration hero art, and clean conversion hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no green-on-black hacker trope overload, no actual source code blocks with words, no cloud vendor branding, no distorted monitor frames, no extra floating windows without layout purpose.",
+  "id": "09-developer-api-command-center",
+  "title": "Developer API Command Center",
+  "description": "A developer-platform launch-page still with orchestration dashboards, feature grids, and conversion-focused technical marketing structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/09-developer-api-command-center/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a developer platform hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Developer API Command Center",
+      "description": "A developer-platform launch-page still with orchestration dashboards, feature grids, and conversion-focused technical marketing structure."
+    },
+    "zh-CN": {
+      "title": "开发者 API 指挥台",
+      "description": "一张开发者平台上线页静帧，以编排仪表盘、功能网格和强调转化的技术营销结构为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A technical app launch-page still with dark orchestration dashboards and structured marketing modules.",
+      "zh-CN": "一张技术感应用上线页静帧，包含深色编排仪表盘和结构化营销模块。"
+    }
+  }
+}

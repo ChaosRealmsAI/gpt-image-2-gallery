@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square poster built around a single vintage elevator interior, doors half open, framed from directly outside so the cab becomes a clean luminous rectangle in the center. Outside the elevator is a quiet hotel corridor washed in pale cream shadow; inside the cab is warm late-summer gold. The composition should be simple and graphic, with a strong block of negative space above the doors and a thin band below, like a carefully art-directed festival one-sheet printed on matte paper.\n\nSubject:\nInside the elevator stands an anime-coded boy in a summer uniform holding a cardboard box of oranges. He is turned slightly away, caught in an in-between moment before departure. At his feet sit a portable fan and a folded newspaper shape with no readable text. The figure should read instantly through posture, hair silhouette, and the orange box, while the box and the elevator create the main geometry. The corridor beyond remains empty, emphasizing the emotional pause. The image must hint at youth and memory without becoming sentimental advertising.\n\nImportant details:\nTranslate anime nostalgia into disciplined poster architecture. Keep the palette reduced to sun-faded cream, brass, muted citrus orange, and one cool gray shadow. Avoid cartoon brightness. The elevator opening should act like a stage within the poster, balancing the character and the box. Leave clear implied zones for title and billing without actual words. The final impression should be elegant, slightly melancholy, and suitable for a premium international film festival campaign.\n\nUse case:\nArthouse One-Sheet Anime Remake single study 7/9, focused on architectural framing, youth memory, and object-led character recognition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no wide ensemble cast, no flashy lens flares, no comic exaggeration, no overdesigned corridor decor.",
+  "id": "07-elevator-to-summer",
+  "title": "Elevator to Summer",
+  "description": "A quiet elevator one-sheet where an anime-coded boy holding oranges becomes the sole emotional anchor.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/arthouse-one-sheet-anime-remake/packages/single-arthouse-remix-studies/images/07-elevator-to-summer/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent poster study using elevator geometry and a single prop to carry anime-coded identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Elevator to Summer",
+      "description": "A quiet elevator one-sheet where an anime-coded boy holding oranges becomes the sole emotional anchor."
+    },
+    "zh-CN": {
+      "title": "通往夏天的电梯",
+      "description": "安静的电梯 one-sheet，一位抱着橘子的动漫化少年成为唯一情绪重心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A vintage elevator poster with an anime-coded boy holding a box of oranges in warm late-summer light.",
+      "zh-CN": "复古电梯海报中，一位动漫化少年在夏末暖光里抱着一箱橘子。"
+    }
+  }
+}

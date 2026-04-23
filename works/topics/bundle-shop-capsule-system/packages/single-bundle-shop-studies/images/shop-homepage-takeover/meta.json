@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square production-ready image designed for a game-art review wall and a commercial gallery at the same time. Frame a homepage takeover-style visual packaging multiple offers into one coordinated commercial splash with disciplined lighting, clean edge separation, and enough surrounding context to prove how the asset would behave in a real product surface. The camera, crop, and tonal balance should feel intentional rather than generic, with high readability at first glance and convincing material response under closer inspection.\n\nSubject:\nCenter the study on a homepage takeover-style visual packaging multiple offers into one coordinated commercial splash. Translate the topic into a concrete, shippable visual statement instead of a loose mood board. Build layered object relationships, believable surface finish, and strong silhouette grouping so the image reads immediately as part of Bundle Shop Capsule System. The subject should feel made for a live game pipeline: useful in store, UI, campaign, or art-review contexts, with visual hierarchy strong enough to survive aggressive cropping.\n\nImportant details:\nkeep hierarchy clean enough for real store use and fast scanning. Keep every supporting element subordinate to the main read, and make category separation obvious through form, color zoning, depth, and material logic rather than words. Where panels, cards, badges, or interface blocks appear, they must look professionally structured but remain unreadable. The visual language should feel premium, original, and coherent across this package, with no filler clutter and no accidental resemblance to a specific shipped game IP.\n\nUse case:\nBundle Shop Capsule System single study 7/9, focused on shop homepage takeover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no navigation text, no readable tabs, no broken hierarchy, no generic stock-photo staging, no accidental UI gibberish.",
+  "id": "shop-homepage-takeover",
+  "title": "Shop Homepage Takeover",
+  "description": "Shop Homepage Takeover for Bundle Shop Capsule System, designed as part of the bundle shop studies.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/bundle-shop-capsule-system/packages/single-bundle-shop-studies/images/shop-homepage-takeover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for the package study set.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Shop Homepage Takeover",
+      "description": "Shop Homepage Takeover for Bundle Shop Capsule System, designed as part of the bundle shop studies."
+    },
+    "zh-CN": {
+      "title": "商城首页接管图",
+      "description": "商城首页接管图，属于 礼包商店胶囊系统 的 礼包商城研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "Shop Homepage Takeover image from the Bundle Shop Capsule System package.",
+      "zh-CN": "礼包商店胶囊系统 中的商城首页接管图图像。"
+    }
+  }
+}

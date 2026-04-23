@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square product-marketing board for a newly launched mobile productivity app, composed like a polished campaign key visual rather than a simple mockup sheet. Show one hero smartphone floating slightly above a bright studio surface, surrounded by cropped landing-page modules, soft gradient color fields, subtle shadow planes, and a few glassy interface fragments. The camera is straight-on with a mild top-down bias so the design reads like a premium marketing page assembled into a single square showcase. Keep the lighting crisp, commercial, and believable, with a calm palette of deep navy, cool mint, soft coral, and brushed silver.\n\nSubject:\nEstablish the reference identity for the full series. The hero phone should display a coherent app interface with a dashboard, calendar blocks, tidy task cards, focus timer elements, and small chart accents. Around the phone, place abstract feature callout modules, screenshot strips, and App Store style promotional tiles using the same design language. The app should feel real, consumer-friendly, and launch-ready, but any text must remain unreadable placeholder bars and glyph-like marks. Show enough of the interface system that later images can clearly preserve the same screen hierarchy, icon style, corner radius, hardware proportions, and visual tone.\n\nImportant details:\nThe composition must feel like a full marketing-page toolkit collapsed into one elegant board. Keep device reflections subtle, bezels thin, shadows soft, and spacing deliberate. Use structured layout logic, realistic glass and metal materials, and disciplined UI rhythm rather than chaotic floating widgets. The image should communicate premium launch readiness, clear feature storytelling, and store-extension potential without relying on readable copy.\n\nUse case:\nApp Launch Marketing Page Kit series study 1/4, establishing the core identity reference for all launch extensions.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fake brand names, no extra hands, no duplicate phones with mismatched UI, no warped device frames, no cluttered background props.",
+  "id": "01-reference-launch-hero",
+  "title": "Reference Launch Hero",
+  "description": "A premium app launch board that establishes the hero phone render, interface hierarchy, and campaign color system for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-marketing-page-kit/packages/series-launch-funnel-system/images/01-reference-launch-hero/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the launch funnel series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Launch Hero",
+      "description": "A premium app launch board that establishes the hero phone render, interface hierarchy, and campaign color system for the series."
+    },
+    "zh-CN": {
+      "title": "参考发布主视觉",
+      "description": "建立手机主视觉、界面层级和发布配色系统的参考营销板。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A premium app launch board with one floating phone and modular marketing sections.",
+      "zh-CN": "一张高完成度 App 发布营销板，包含悬浮手机与模块化营销分区。"
+    }
+  }
+}

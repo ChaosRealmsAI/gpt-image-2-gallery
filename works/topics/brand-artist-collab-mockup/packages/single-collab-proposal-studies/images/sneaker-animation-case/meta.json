@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square collector release mockup on a matte black table with warm cinematic overhead lighting. The frame is organized like a high-end footwear campaign board: one sneaker at a three-quarter angle, a rigid drawer box opened beside it, and a square poster card standing upright in the rear. The scene should feel like a studio photograph prepared for a licensing pitch, with controlled shadows and no environmental clutter.\n\nSubject:\nA fictional basketball sneaker collaboration with a hand-painted animation background language. The sneaker combines cream canvas, forest-green suede, weathered brass eyelets, and painted wind-swirl panels that feel like moving storybook air. The drawer box has illustrated cloud bands, tiny creature silhouettes, and layered paper texture. The poster card shows the sneaker crossing a floating landscape of hills and sky paths, with a quiet cinematic composition and abstract subtitle-like blocks that remain non-readable.\n\nImportant details:\nKeep the artwork influence broad and original: soft gouache landscapes, rounded hand-painted forms, and gentle motion lines, not a copy of any known film. Product realism is critical: laces thread through eyelets correctly, sole tread wraps around the shoe, box lid thickness is visible, and the poster card casts a real shadow. The three objects must share one palette of cream, moss, sky blue, charcoal, and brass. Use clean commercial hierarchy without legible copy.\n\nUse case:\nBrand Artist Collab Mockup single study 4/8, focused on a cinematic animated-language sneaker release board.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no existing team marks, no known animation characters, no real studio references, no extra shoes, no impossible lacing, no poster floating without support.",
+  "id": "sneaker-animation-case",
+  "title": "Sneaker Animation Case",
+  "description": "A fictional basketball sneaker release with storybook animation motifs across shoe, box, and poster.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "text-rendering",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/brand-artist-collab-mockup/packages/single-collab-proposal-studies/images/sneaker-animation-case/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent sneaker release mockup; no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sneaker Animation Case",
+      "description": "A fictional basketball sneaker release with storybook animation motifs across shoe, box, and poster."
+    },
+    "zh-CN": {
+      "title": "球鞋动画收纳盒",
+      "description": "虚构篮球鞋发布样机,把手绘动画式风景语言延展到鞋、抽屉盒和海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A collector sneaker mockup with hand-painted landscape motifs on the shoe, drawer box, and poster.",
+      "zh-CN": "一张收藏级球鞋样机,鞋身、抽屉盒和海报都有手绘风景元素。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square premium SaaS launch-page still shown front-on like the first viewport and first supporting modules of a polished website. Use a quiet cream-to-stone background, thin graphite dividers, and one soft aurora-like gradient behind the hero. The page should feel expensive, calm, and organized, with strong vertical rhythm from hero area to feature cards to CTA strip.\n\nSubject:\nCenter a laptop product screenshot for an AI notebook assistant, with a companion mobile screen floating to one side. The desktop screen should imply a clean note editor, threaded side panel, and highlighted insight cards, while the phone shows a compact daily summary. Around the screenshots, build a believable launch-page hierarchy using abstract headline bars, short paragraph blocks, a two-button CTA row, three feature cards, and a testimonial module with avatar circles. Add a subtle hero illustration of paper sheets turning into light ribbons behind the screens.\n\nImportant details:\nThe composition must feel like a real app launch page rather than a collage of UI. Product screenshots are the proof, hero art supports the story, and the lower modules establish conversion logic. Keep alignment precise, spacing generous, and the screenshot language consistent across devices. Typography zones should remain unreadable, appearing as elegant bars and glyph-like textures rather than actual copy. The page needs a clear premium product-marketing cadence from top hero to social proof to download section.\n\nUse case:\nApp Launch Hero System single study 1/9, testing whether screenshot-led SaaS hero design can coexist with abstract brand art and strong conversion hierarchy.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no browser chrome, no cluttered dashboard overload, no fake lorem ipsum, no stock-photo humans dominating the frame, no messy overlapping cards, no distorted laptop or phone perspective.",
+  "id": "01-ai-notebook-copilot",
+  "title": "AI Notebook Copilot",
+  "description": "A polished app-launch page still for an AI notebook assistant with matched desktop and mobile screenshots, feature cards, and CTA hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/app-launch-hero-system/packages/single-app-launch-hero-studies/images/01-ai-notebook-copilot/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent app-launch study with a screenshot-led AI notes hero and no reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "AI Notebook Copilot",
+      "description": "A polished app-launch page still for an AI notebook assistant with matched desktop and mobile screenshots, feature cards, and CTA hierarchy."
+    },
+    "zh-CN": {
+      "title": "AI 笔记副驾",
+      "description": "一张 AI 笔记助手上线页静帧，结合桌面与手机截图、功能卡片和 CTA 层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A premium SaaS launch-page still with laptop and phone screenshots for an AI notebook product.",
+      "zh-CN": "一张高级 SaaS 上线页静帧，展示 AI 笔记产品的电脑与手机截图。"
+    }
+  }
+}

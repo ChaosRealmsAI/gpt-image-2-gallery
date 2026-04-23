@@ -1,0 +1,50 @@
+{
+  "id": "book-series-design",
+  "slug": "book-series-design",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Book Series Design",
+  "short_title": "Book Series",
+  "description": "A Prompt Atlas theme for Book Series Design, testing text-rendering, structured-layout, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Book Series Design",
+      "short_title": "Book Series",
+      "description": "A Prompt Atlas theme for Book Series Design, testing text-rendering, structured-layout, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "书籍装帧系列 · 丛书",
+      "short_title": "丛书设计",
+      "description": "书籍装帧系列 · 丛书：一套 6-10 本丛书封面(主题:世界文学 / 哲学经典 / 科幻十大)· 风格统一 · 配色 / 字体 / 装饰一致但各自主题 · 书脊排成一排成图案"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-book-series-design-studies",
+      "type": "single",
+      "title": "Book Series Layout Studies",
+      "path": "packages/single-book-series-design-studies/package.json"
+    }
+  ]
+}
