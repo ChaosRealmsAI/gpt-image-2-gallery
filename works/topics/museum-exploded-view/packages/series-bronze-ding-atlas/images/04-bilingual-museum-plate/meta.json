@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference bronze ding as the source and produce a finished square museum exhibition plate that combines exploded object, conservation notes, and bilingual captions. The layout is precise and calm: object diagram in the center, numbered callout column on the left, material and period panel on the right, and a thin ruled footer. Use warm ivory paper, graphite lines, muted bronze greens, and museum-quality typography.\n\nSubject:\nShow the same bronze ding in a compact exploded presentation with numbered callouts. Include only these readable bilingual labels: 1 rim / 口沿, 2 handles / 立耳, 3 body / 器身, 4 legs / 三足, material bronze / 材料 青铜, period Late Shang / 年代 商晚期, technique piece-mold casting / 工艺 范铸. The layout should make the object, labels, and information panels feel like one finished gallery interpretive graphic.\n\nImportant details:\nThis image tests complex multi-region composition. Keep numbered markers near the correct parts, preserve the artifact silhouette from image 01, and make the text hierarchy clear: object name largest, callouts medium, material panel smaller but readable. Avoid visual competition between labels and ornament. The diagram must look professionally typeset, not like scattered annotations.\n\nUse case:\nMuseum Exploded View series study 4/8, creating a bilingual museum plate from the reference artifact and exploded-view logic.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no fake accession number, no extra paragraphs, no incorrect numbering, no garbled Chinese, no crowded callout collisions.",
+  "id": "04-bilingual-museum-plate",
+  "title": "Bilingual Museum Plate",
+  "description": "A reference-dependent bilingual museum plate combining an exploded bronze ding diagram with material and period labels.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "text-rendering",
+    "technical-diagram",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/04-bilingual-museum-plate/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bronze-ding",
+        "meta_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/meta.json",
+        "image_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the bronze ding reference as primary input and produce a bilingual museum plate."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bilingual Museum Plate",
+      "description": "A reference-dependent bilingual museum plate combining an exploded bronze ding diagram with material and period labels."
+    },
+    "zh-CN": {
+      "title": "双语馆藏图版",
+      "description": "一张依赖参考图的中英双语馆藏图版，结合青铜鼎爆炸图、材料和年代标注。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "technical-diagram",
+      "series"
+    ],
+    "alt": {
+      "en": "A bilingual museum plate showing a bronze ding with numbered callouts and material notes.",
+      "zh-CN": "一张中英双语馆藏图版，展示带编号标注和材料说明的青铜鼎。"
+    }
+  }
+}

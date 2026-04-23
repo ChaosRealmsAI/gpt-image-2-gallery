@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference bronze ding as the artifact source, but present a square technical museum diagram explaining lost-mold casting layers. The background is clean ivory paper with a restrained graphite grid, faint section lines, and subtle shadows. The view combines a central cutaway ding with separated mold components around it, as if a curator and a conservation engineer made one shared plate.\n\nSubject:\nShow the same bronze ding partially transparent and cross-sectioned: an outer mold shell pulled outward, clay core suspended inside, bronze wall visible between them, pouring gate above the rim, casting seam along the side, and patina layer on the final surface. Include only these readable bilingual labels: outer mold / 外范, clay core / 内芯, bronze wall / 铜壁, pouring gate / 浇口, casting seam / 合范线, patina / 铜锈层. Keep the vessel shape, handles, legs, and taotie ornament recognizable from the reference.\n\nImportant details:\nThis is a museum exploded view of process, not a decorative fantasy cutaway. The material logic must be credible: clay is matte and warm gray, bronze is green-brown with visible wall thickness, and patina sits on the exterior surface. All pieces should align around the same vessel axis. Leader lines must be precise and bilingual labels must remain readable.\n\nUse case:\nMuseum Exploded View series study 3/8, visualizing the bronze ding casting process as layered museum instruction.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no changed artifact silhouette, no molten splash spectacle, no modern machinery, no random numbers, no cluttered labels.",
+  "id": "03-casting-process-layers",
+  "title": "Casting Process Layers",
+  "description": "A reference-dependent casting process diagram showing mold, core, bronze wall, seam, and patina layers.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/03-casting-process-layers/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bronze-ding",
+        "meta_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/meta.json",
+        "image_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the bronze ding reference as primary input and diagram its casting layers."
+  },
+  "i18n": {
+    "en": {
+      "title": "Casting Process Layers",
+      "description": "A reference-dependent casting process diagram showing mold, core, bronze wall, seam, and patina layers."
+    },
+    "zh-CN": {
+      "title": "铸造工艺层图",
+      "description": "一张依赖参考图的铸造工艺图，展示外范、内芯、铜壁、合范线和铜锈层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "technical-diagram",
+      "series"
+    ],
+    "alt": {
+      "en": "A bronze ding cutaway showing mold shell, clay core, bronze wall, seam, and patina.",
+      "zh-CN": "一张展示外范、内芯、铜壁、合范线和铜锈层的青铜鼎剖面图。"
+    }
+  }
+}

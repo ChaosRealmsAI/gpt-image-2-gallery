@@ -1,0 +1,59 @@
+{
+  "id": "single-cartographic-relics",
+  "type": "single",
+  "title": "Cartographic Relics",
+  "description": "Four independent treasure-map transformations for commercial, transit, hiking, and culinary routes without shared reference dependencies.",
+  "creative_direction": "This package broadens the theme beyond one city. Each image converts a different modern route system into a tactile old-map artifact while preserving a plausible network logic and material physics.",
+  "cover_image": "images/estate-neighborhood-scroll/image.png",
+  "i18n": {
+    "en": {
+      "title": "Cartographic Relics",
+      "description": "Four independent treasure-map transformations for commercial, transit, hiking, and culinary routes without shared reference dependencies."
+    },
+    "zh-CN": {
+      "title": "地图遗物单图研究",
+      "description": "四张独立的藏宝图换壳研究，覆盖地产、地铁、徒步和美食路线等不同商业场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "material-swap",
+      "physics-materials",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "estate-neighborhood-scroll",
+      "title": "Estate Neighborhood Scroll",
+      "image": "images/estate-neighborhood-scroll/image.png",
+      "meta": "images/estate-neighborhood-scroll/meta.json"
+    },
+    {
+      "id": "subway-labyrinth-chart",
+      "title": "Subway Labyrinth Chart",
+      "image": "images/subway-labyrinth-chart/image.png",
+      "meta": "images/subway-labyrinth-chart/meta.json"
+    },
+    {
+      "id": "mountain-trail-parchment",
+      "title": "Mountain Trail Parchment",
+      "image": "images/mountain-trail-parchment/image.png",
+      "meta": "images/mountain-trail-parchment/meta.json"
+    },
+    {
+      "id": "food-crawl-island-map",
+      "title": "Food Crawl Island Map",
+      "image": "images/food-crawl-island-map/image.png",
+      "meta": "images/food-crawl-island-map/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "series-bronze-ding-atlas",
+  "type": "series",
+  "title": "Bronze Ding Atlas",
+  "description": "A reference-dependent museum atlas: one bronze ding reference followed by exploded, casting-layer, and bilingual plate views that preserve the same artifact identity.",
+  "creative_direction": "This package treats one ritual bronze ding as a stable museum object. Image 01 establishes silhouette, patina, ornament, and proportions; images 02-04 use it as reference for increasingly technical exploded views and bilingual annotations.",
+  "cover_image": "images/01-reference-bronze-ding/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-bronze-ding/meta.json",
+      "images/02-exploded-ritual-vessel/meta.json",
+      "images/03-casting-process-layers/meta.json",
+      "images/04-bilingual-museum-plate/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bronze Ding Atlas",
+      "description": "One bronze ding reference expands into exploded, casting-layer, and bilingual museum plate views."
+    },
+    "zh-CN": {
+      "title": "青铜鼎图鉴系列",
+      "description": "一件青铜鼎从参考图扩展为爆炸图、铸造层图和中英双语馆藏图版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "physics-materials",
+      "technical-diagram"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-bronze-ding",
+      "title": "Reference Bronze Ding",
+      "image": "images/01-reference-bronze-ding/image.png",
+      "meta": "images/01-reference-bronze-ding/meta.json"
+    },
+    {
+      "id": "02-exploded-ritual-vessel",
+      "title": "Exploded Ritual Vessel",
+      "image": "images/02-exploded-ritual-vessel/image.png",
+      "meta": "images/02-exploded-ritual-vessel/meta.json"
+    },
+    {
+      "id": "03-casting-process-layers",
+      "title": "Casting Process Layers",
+      "image": "images/03-casting-process-layers/image.png",
+      "meta": "images/03-casting-process-layers/meta.json"
+    },
+    {
+      "id": "04-bilingual-museum-plate",
+      "title": "Bilingual Museum Plate",
+      "image": "images/04-bilingual-museum-plate/image.png",
+      "meta": "images/04-bilingual-museum-plate/meta.json"
+    }
+  ]
+}

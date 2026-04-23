@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 real-estate cultural poster on pale gray-white textured paper, front-facing and gallery-clean. Use a low-saturation palette of mist blue, light stone gray, diluted ink, and subtle spring green. The top half must remain almost empty, while the lower half contains a calm architectural ink scene with enough breathing room for luxury positioning.\n\nSubject:\nA new Chinese courtyard residence is suggested with only a few precise elements: a white wall, dark tiled eave, moon gate, one pine branch, and a thin reflective water strip. Behind it, faint mountain silhouettes dissolve into pale wash. Place the readable Chinese title \"山院有境\" horizontally near the lower right, set in modern Song-style type with ample spacing and a quiet dark-ink tone. The title should feel like a property campaign headline without any brand mark.\n\nImportant details:\nThe poster must balance commercial mockup clarity with traditional ink restraint. Architecture should be elegant and minimal, not a detailed rendering. Keep the white wall and moon gate crisp enough to read, while the mountains stay atmospheric. No sales text, no phone numbers, no floor plans, and no logo. The title should be the only readable text, aligned cleanly to the geometry of the wall and waterline.\n\nUse case:\nNew Chinese Ink Poster single study 3/8, testing real-estate poster structure, architectural minimalism, and controlled Chinese headline rendering.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no people, no cars, no dense urban skyline, no ornate palace detail, no gold foil overload, no fake property data, no tilted perspective.",
+  "id": "03-residence-courtyard",
+  "title": "Residence Courtyard",
+  "description": "A luxury residence-style Chinese ink poster with a moon gate courtyard, pale mountains, and the title Shan Yuan You Jing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/03-residence-courtyard/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for residence-style commercial ink layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Residence Courtyard",
+      "description": "A luxury residence-style Chinese ink poster with a moon gate courtyard, pale mountains, and the title Shan Yuan You Jing."
+    },
+    "zh-CN": {
+      "title": "山院有境",
+      "description": "地产气质的新中式水墨海报,月洞门庭院、淡山和水线构成“山院有境”的极简版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A vertical residence poster with a moon gate courtyard, pale ink mountains, and a readable Chinese headline.",
+      "zh-CN": "竖版住宅海报中有月洞门庭院、淡墨远山和清晰中文标题。"
+    }
+  }
+}

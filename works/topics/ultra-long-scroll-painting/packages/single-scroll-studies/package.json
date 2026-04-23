@@ -1,0 +1,64 @@
+{
+  "id": "single-scroll-studies",
+  "type": "single",
+  "title": "Scroll Studies",
+  "description": "Three independent 9:21 vertical scroll studies testing continuous scene planning, dense local detail, and stable extreme framing.",
+  "creative_direction": "Each image is a complete vertical scroll rather than a series dependency: one city lane, one terrain map, and one life timeline, all built for dense visual scanning.",
+  "cover_image": "images/beijing-hutong-scroll/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/beijing-hutong-scroll/meta.json",
+      "images/great-wall-terrain-scroll/meta.json",
+      "images/lifetime-river-scroll/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scroll Studies",
+      "description": "Three independent 9:21 vertical scroll studies testing continuous scene planning, dense local detail, and stable extreme framing."
+    },
+    "zh-CN": {
+      "title": "长卷单图研究",
+      "description": "三张独立 9:21 竖卷图，测试连续场景规划、高密度细节和极端画幅稳定性。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scroll-painting",
+      "extreme-aspect-ratio",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "beijing-hutong-scroll",
+      "title": "Beijing Hutong Scroll",
+      "image": "images/beijing-hutong-scroll/image.png",
+      "meta": "images/beijing-hutong-scroll/meta.json"
+    },
+    {
+      "id": "great-wall-terrain-scroll",
+      "title": "Great Wall Terrain Scroll",
+      "image": "images/great-wall-terrain-scroll/image.png",
+      "meta": "images/great-wall-terrain-scroll/meta.json"
+    },
+    {
+      "id": "lifetime-river-scroll",
+      "title": "Lifetime River Scroll",
+      "image": "images/lifetime-river-scroll/image.png",
+      "meta": "images/lifetime-river-scroll/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 luxury poster on matte warm-white paper, front-facing and perfectly flat, with about sixty-five percent open negative space. Use a quiet spring palette of celadon green, mist blue, pale ink gray, and off-white. The upper two thirds should feel calm and airy, while the lower third carries the main landscape gesture. Lighting is soft and even, like a premium gallery print photographed for a brand deck.\n\nSubject:\nA new Chinese ink landscape with jagged distant mountains rising from a still central lake. The mountains are rendered with sparse ink washes, dry brush edges, and a few mineral-green accents; the lake is a horizontal mist band that reflects the peaks with almost no detail. Place one readable vertical Chinese title, \"春山入湖\", near the upper right, set in elegant modern Song-style typography, black-gray ink, generous tracking, and precise alignment.\n\nImportant details:\nKeep the design minimal and commercial-ready. The title must be clean, correctly ordered, and the only readable text. The mountains must look like contemporary ink, not fantasy concept art; the lake must sit calmly in the middle, not become an ocean. Leave large unmarked paper areas, balance asymmetry carefully, and add only one tiny abstract cinnabar seal block with no readable characters.\n\nUse case:\nNew Chinese Ink Poster single study 1/8, testing vertical white space, readable Chinese title placement, and refined spring mountain-water composition.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no frame, no busy texture, no saturated neon color, no tourist-photo realism, no random calligraphy strokes, no extra seals with characters.",
+  "id": "01-spring-mountain-lake",
+  "title": "Spring Mountain Lake",
+  "description": "A 9:16 new Chinese ink poster with jagged spring mountains, a calm central lake, and the title Chun Shan Ru Hu.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/01-spring-mountain-lake/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study with controlled Chinese title text."
+  },
+  "i18n": {
+    "en": {
+      "title": "Spring Mountain Lake",
+      "description": "A 9:16 new Chinese ink poster with jagged spring mountains, a calm central lake, and the title Chun Shan Ru Hu."
+    },
+    "zh-CN": {
+      "title": "春山入湖",
+      "description": "9:16 新中式水墨海报,奇峻春山与中央湖面构成大留白画面,标题为“春山入湖”。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A minimal vertical Chinese ink poster with misty green mountains, a calm lake, and a readable vertical title.",
+      "zh-CN": "一张极简竖版水墨海报,青绿雾山与平静湖面旁有可读竖排标题。"
+    }
+  }
+}

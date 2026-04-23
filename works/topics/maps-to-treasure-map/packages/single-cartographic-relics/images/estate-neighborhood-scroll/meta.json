@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square overhead product photograph of a rolled parchment neighborhood map partly unfurled on a walnut desk, with a brass house key, blank seal tag, and soft afternoon light. The paper edges are curled, the ink is brown and faded, and the desk casts realistic shadows under the scroll rods. The scene should feel like a premium real-estate closing gift rather than a fantasy poster.\n\nSubject:\nConvert a modern suburban neighborhood route into an antique treasure-map artifact. Show a plausible loop road, three cul-de-sacs, a small park pond, and a dotted path leading from a gate-like entrance icon to a hilltop house symbol. Preserve map logic: roads connect cleanly, the dotted path follows accessible streets, and the house destination sits at the end of the route. Use no street labels or readable sales copy.\n\nImportant details:\nThe visual language should prove data-format transformation: modern property-access topology becomes old parchment without losing practical route structure. Include a wind rose, small sketched trees, contour-like ink rings around the hill, subtle fold creases, tea stains, and wax-colored smudges. Materials must be physically credible: parchment translucency at thin edges, ink bleed in fibers, brass key tarnish, and shadows matching the scroll height.\n\nUse case:\nMaps to Treasure Map single study 5/8, testing a real-estate neighborhood map converted into a tactile treasure-map closing gift.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real estate brand, no address labels, no price tag, no impossible disconnected roads, no random island coastline, no route that crosses buildings, no glossy poster paper.",
+  "id": "estate-neighborhood-scroll",
+  "title": "Estate Neighborhood Scroll",
+  "description": "A real-estate neighborhood route converted into a parchment treasure-map keepsake.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "material-swap",
+    "commercial-mockup",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/single-cartographic-relics/images/estate-neighborhood-scroll/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for a real-estate route transformed into a parchment artifact."
+  },
+  "i18n": {
+    "en": {
+      "title": "Estate Neighborhood Scroll",
+      "description": "A real-estate neighborhood route converted into a parchment treasure-map keepsake."
+    },
+    "zh-CN": {
+      "title": "地产街区卷轴",
+      "description": "一条地产街区路线被转换成羊皮纸藏宝图纪念品。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A parchment real-estate treasure map shows a dotted route through a neighborhood to a house symbol.",
+      "zh-CN": "一张羊皮纸地产藏宝图显示穿过街区通向房屋符号的虚线路线。"
+    }
+  }
+}

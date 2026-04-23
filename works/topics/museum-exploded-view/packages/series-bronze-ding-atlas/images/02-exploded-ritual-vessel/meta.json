@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nUse the reference image as the fixed artifact source, then convert it into a square museum exploded-view diagram on off-white archival paper. The camera is straight-on and orthographic, with faint construction axes, thin leader lines, and soft shadows below separated parts. Keep the same bronze patina, ornament style, object proportions, and sober museum handbook palette.\n\nSubject:\nShow the bronze ding disassembled into suspended parts while preserving the identity from the reference: rim ring lifted above the body, two upright ears separated symmetrically, the decorated vessel wall opened slightly, three legs pulled downward, and a small ornament band sample floating to one side. Include only these readable bilingual labels: rim band / 口沿带, handle pair / 立耳组, bronze wall / 铜壁, taotie band / 饕餮纹带, tripod legs / 三足, casting seams / 合范线. Use clean numbered dots or leader lines, but no extra written copy.\n\nImportant details:\nThe exploded spacing must obey believable structure: parts align along the vessel's vertical axis, wall thickness is visible, legs connect to the base logic, and shadows imply distance without looking like a fantasy levitation scene. The diagram should read as museum education plus technical drawing, not product advertising. Labels must stay aligned and not overlap the object.\n\nUse case:\nMuseum Exploded View series study 2/8, turning the reference ding into a precise artifact exploded diagram.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no changed artifact identity, no extra weapons or jewels, no random inscriptions, no tangled callouts, no impossible floating fragments.",
+  "id": "02-exploded-ritual-vessel",
+  "title": "Exploded Ritual Vessel",
+  "description": "A reference-dependent exploded diagram of the bronze ding with bilingual part labels.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/02-exploded-ritual-vessel/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-bronze-ding",
+        "meta_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/meta.json",
+        "image_path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the bronze ding reference as primary input and preserve artifact identity while separating parts."
+  },
+  "i18n": {
+    "en": {
+      "title": "Exploded Ritual Vessel",
+      "description": "A reference-dependent exploded diagram of the bronze ding with bilingual part labels."
+    },
+    "zh-CN": {
+      "title": "礼器爆炸图",
+      "description": "一张依赖参考图的青铜鼎爆炸图，带中英双语部件标注。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "technical-diagram",
+      "series"
+    ],
+    "alt": {
+      "en": "The bronze ding separated into rim, handles, wall, ornament band, and legs.",
+      "zh-CN": "青铜鼎被拆解为口沿、立耳、器壁、纹带和三足。"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional museum-study poster inspired by early twentieth-century wartime civic recruitment design, using cream paper, navy blue, muted red, and aged lithographic ink. The composition centers on a pointing hand and direct frontal gaze, but all headline and footer areas are filled with unreadable block-letter placeholders. The poster should feel historically recognizable as a design language study without recruiting for any real cause.\n\nSubject:\nAn invented older civic figure in a plain dark coat points outward from the center, framed by a circular burst and stacked border bands. The face is generic and not a real person; no national flags, official seals, military insignia, or actual campaign marks appear. The lower half contains a large blank slogan band rendered as non-readable lettering shapes and a row of small abstract poster-registration marks. Paper wear, fold creases, and offset ink texture are visible.\n\nImportant details:\nCapture the poster grammar: frontal address, commanding hand gesture, strong eye contact, centered figure, thick headline band, restrained patriotic-era palette, and lithographic texture. Keep the invented figure respectful and non-caricatured. The visual power should come from composition and historical design conventions, not from readable persuasion. Make the text fields look deliberately placed, but prevent any actual words, numbers, or recognizable slogans from forming.\n\nUse case:\nPropaganda Poster History single study 2/8, an independent civic recruitment poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real flags, no real military insignia, no actual recruitment slogan, no real public figure likeness, no modern political reference.",
+  "id": "02-civic-recruitment-hand",
+  "title": "Civic Recruitment Hand",
+  "description": "A fictional early twentieth-century recruitment-style poster study with a pointing figure and unreadable slogan blocks.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/02-civic-recruitment-hand/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for wartime recruitment poster-grammar study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Civic Recruitment Hand",
+      "description": "A fictional early twentieth-century recruitment-style poster study with a pointing figure and unreadable slogan blocks."
+    },
+    "zh-CN": {
+      "title": "公民招募手势",
+      "description": "虚构二十世纪早期招募风海报研究,包含指向人物和不可读口号块。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A vintage recruitment-style poster study with a generic pointing figure and bold unreadable headline bands.",
+      "zh-CN": "复古招募风海报研究,含通用指向人物和粗体不可读标题带。"
+    }
+  }
+}

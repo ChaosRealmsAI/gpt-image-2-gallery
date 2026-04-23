@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional poster study inspired by high-contrast revolutionary portrait screenprints and mid-century Latin American graphic poster traditions. The paper is rough, ink is limited to black, red, cream, and deep teal, and the composition uses a single monumental head, radiating background shapes, and a lower block of unreadable title forms. It should look like a museum-safe style study, not a real movement poster.\n\nSubject:\nAn invented anonymous young organizer wearing a plain dark beret appears in a bold graphic portrait. The face is not based on any real person and avoids recognizable historical likeness. Wind-shifted hair, a stern upward gaze, and simplified facial planes create an iconic poster silhouette. Behind the portrait are abstract stars, sunburst shards, and screenprint misregistration, but no real flags, names, party emblems, weapons, or actual slogans.\n\nImportant details:\nCapture the design grammar often associated with revolutionary portrait posters: flat high-contrast face planes, limited ink palette, heroic upward gaze, hard poster crop, visible screenprint texture, and strong title block hierarchy. The type areas must look intentionally designed but remain unreadable. Keep the work fictional and educational; do not reproduce famous portraits, real leaders, real symbols, or specific campaign names. The image should support visual-history analysis of style transfer and structured layout.\n\nUse case:\nPropaganda Poster History single study 4/8, an independent revolutionary portrait poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real leader likeness, no real party symbols, no actual slogan, no weapons, no contemporary political reference.",
+  "id": "04-revolution-portrait-study",
+  "title": "Revolution Portrait Study",
+  "description": "A fictional revolutionary portrait screenprint study with an anonymous beret figure and unreadable title block.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/04-revolution-portrait-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for revolutionary portrait poster-style study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Revolution Portrait Study",
+      "description": "A fictional revolutionary portrait screenprint study with an anonymous beret figure and unreadable title block."
+    },
+    "zh-CN": {
+      "title": "革命肖像研究",
+      "description": "虚构革命肖像丝网印刷研究,包含匿名贝雷帽人物和不可读标题块。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A high-contrast screenprint poster study of an anonymous beret portrait with abstract unreadable title shapes.",
+      "zh-CN": "高反差丝网海报研究,匿名贝雷帽肖像下方带抽象不可读标题形。"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional museum-study poster inspired by early twentieth-century constructivist political graphic design. The composition is sharp, diagonal, and geometric: red and black wedges, cream paper, photomontage texture, halftone grain, and asymmetric blocks. Large headline areas appear as bold abstract block-letter shapes and bars, but they must remain unreadable. The poster should feel like a design-history specimen, not an active campaign.\n\nSubject:\nA stylized worker-like figure in profile holds a megaphone made from angular paper shapes, projecting triangular sound beams across the page. Around the figure are industrial circles, cropped gears, diagonal scaffolding, and photomontage fragments of anonymous hands and tools. No real political emblems, national symbols, party marks, or recognizable leaders appear. The figure is symbolic and invented, with strong graphic silhouette and controlled visual hierarchy.\n\nImportant details:\nEmphasize constructivist layout logic: severe diagonals, limited palette, hard-edged geometry, overprinted red ink, rough paper, halftone fragments, and tension between image and typography fields. The unreadable headline blocks should occupy believable poster positions at top and lower right. Keep the composition historically informed without copying a specific known poster. It must read as educational style transfer and structured layout research.\n\nUse case:\nPropaganda Poster History single study 1/8, an independent constructivist poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real party symbols, no real leader likeness, no actual slogan, no contemporary election reference, no clean digital gradient.",
+  "id": "01-constructivist-megaphone",
+  "title": "Constructivist Megaphone",
+  "description": "A fictional constructivist design-history poster with diagonal geometry, megaphone imagery, and unreadable headline fields.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/01-constructivist-megaphone/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for constructivist poster-layout study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Constructivist Megaphone",
+      "description": "A fictional constructivist design-history poster with diagonal geometry, megaphone imagery, and unreadable headline fields."
+    },
+    "zh-CN": {
+      "title": "构成主义扩音器",
+      "description": "虚构构成主义设计史海报,包含斜向几何、扩音器图像和不可读标题区域。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A red, black, and cream constructivist-style poster with a symbolic megaphone figure and diagonal type fields.",
+      "zh-CN": "红黑米色构成主义风海报,含象征性扩音器人物和斜向字体区域。"
+    }
+  }
+}

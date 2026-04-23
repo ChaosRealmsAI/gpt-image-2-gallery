@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA polished fictional mobile social-feed screen, portrait 4:5, presented as a direct screenshot-like composition with a clean modern interface. The design should feel inspired by contemporary social apps without copying any real brand, logo, or exact interface.\n\nSubject:\nA Song dynasty literati post by the historical poet Su Shi, shown as a profile row, a short classical-style post, a nine-grid image layout, likes, comments, and a timestamp. The nine images show inkstone, river moon, tea cup, bamboo courtyard, travel sandals, winter robe, handwritten draft as unreadable texture, food table, and friends at a pavilion. Comments are from fictional scholar profiles and should read as short, tidy interface text.\n\nImportant details:\nAccurate mobile UI hierarchy, consistent spacing, clear nine-grid layout, refined Song dynasty visual details, restrained ivory paper background, ink black, cinnabar accent, jade green highlights, readable but compact interface elements, high-density structure without clutter. The historical atmosphere should be clear through clothing, objects, architecture, and painting fragments.\n\nUse case:\nIndependent Prompt Atlas image for testing structured layout, in-image interface composition, historical world knowledge, and controlled readable text density.\n\nConstraints:\nNo real app logo, no real brand marks, no watermark, no broken grid, no random modern photography, no celebrity likeness, no excessive tiny text, preserve exact 4:5 portrait aspect ratio.",
+  "id": "sushi-nine-grid",
+  "title": "Su Shi Nine-Grid",
+  "description": "A fictional mobile social post where Su Shi shares a Song dynasty nine-grid update.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "social-feed",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/song-dynasty-social-feed/packages/single-social-feed-studies/images/sushi-nine-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Su Shi Nine-Grid",
+      "description": "A fictional mobile social post where Su Shi shares a Song dynasty nine-grid update."
+    },
+    "zh-CN": {
+      "title": "苏轼九宫格",
+      "description": "一张虚构移动端动态图，苏轼发布宋代九宫格。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A fictional mobile social-feed post by Su Shi with a Song dynasty nine-grid image layout.",
+      "zh-CN": "虚构移动社交动态中，苏轼发布宋代九宫格。"
+    }
+  }
+}

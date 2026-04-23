@@ -1,0 +1,57 @@
+{
+  "id": "maps-to-treasure-map",
+  "slug": "maps-to-treasure-map",
+  "category": "culture",
+  "style": [
+    "handdrawn",
+    "retro"
+  ],
+  "capability": [
+    "editing-workflow",
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Maps to Treasure Map",
+  "short_title": "Treasure Map",
+  "description": "A Prompt Atlas theme for converting modern map topology into physically believable treasure-map artifacts, testing material transformation, route reasoning, and real-world cartographic structure.",
+  "i18n": {
+    "en": {
+      "title": "Maps to Treasure Map",
+      "short_title": "Treasure Map",
+      "description": "A Prompt Atlas theme for converting modern map topology into physically believable treasure-map artifacts, testing material transformation, route reasoning, and real-world cartographic structure."
+    },
+    "zh-CN": {
+      "title": "Google Maps → 羊皮纸藏宝图",
+      "short_title": "藏宝地图",
+      "description": "测试把现代地图路网拓扑换壳为可信的羊皮纸藏宝图，保留路线结构、真实世界方位感和材质物理细节。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "physics-materials",
+      "world-knowledge",
+      "editing-workflow"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-hutong-parchment",
+      "type": "series",
+      "title": "Hutong Parchment",
+      "path": "packages/series-hutong-parchment/package.json"
+    },
+    {
+      "id": "single-cartographic-relics",
+      "type": "single",
+      "title": "Cartographic Relics",
+      "path": "packages/single-cartographic-relics/package.json"
+    }
+  ]
+}

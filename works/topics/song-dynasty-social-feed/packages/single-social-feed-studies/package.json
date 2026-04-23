@@ -1,0 +1,64 @@
+{
+  "id": "single-social-feed-studies",
+  "type": "single",
+  "title": "Social Feed Studies",
+  "description": "Three independent mobile feed mockups that fuse Song dynasty scenes with contemporary social UI structure.",
+  "creative_direction": "Each image is an independent fictional mobile feed screen: a literati nine-grid post, a night-market comment thread, and a travel story stack. The UI should feel modern but not copy a real app.",
+  "cover_image": "images/sushi-nine-grid/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/sushi-nine-grid/meta.json",
+      "images/market-lantern-thread/meta.json",
+      "images/scholar-travel-stories/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Social Feed Studies",
+      "description": "Three independent mobile feed mockups that fuse Song dynasty scenes with contemporary social UI structure."
+    },
+    "zh-CN": {
+      "title": "社交动态单图研究",
+      "description": "三张独立移动端动态界面图，把宋代场景与当代社交 UI 结构融合。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "social-feed",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "sushi-nine-grid",
+      "title": "Su Shi Nine-Grid",
+      "image": "images/sushi-nine-grid/image.png",
+      "meta": "images/sushi-nine-grid/meta.json"
+    },
+    {
+      "id": "market-lantern-thread",
+      "title": "Market Lantern Thread",
+      "image": "images/market-lantern-thread/image.png",
+      "meta": "images/market-lantern-thread/meta.json"
+    },
+    {
+      "id": "scholar-travel-stories",
+      "title": "Scholar Travel Stories",
+      "image": "images/scholar-travel-stories/image.png",
+      "meta": "images/scholar-travel-stories/meta.json"
+    }
+  ]
+}

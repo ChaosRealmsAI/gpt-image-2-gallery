@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA portrait 4:5 fictional mobile stories overview for Song dynasty scholars traveling between river towns. The composition combines a modern story carousel, map-like feed cards, and saved highlights inside one clean screen.\n\nSubject:\nMultiple rounded story tiles show scholar travelers in period robes crossing bridges, boarding small boats, buying tea, visiting a printing shop, writing beside a river, and arriving at a city gate. The UI includes profile chips, story progress bars, tiny reaction controls, and a lower saved-highlights strip. The whole screen should feel like a believable product screenshot from an alternate-history social app.\n\nImportant details:\nPrecise structured layout, consistent tile geometry, historically plausible Song dynasty architecture and clothing, soft mineral pigment colors, clean icons, compact readable interface labels, stable margins, no overlapping UI, each story thumbnail distinct but part of one visual system.\n\nUse case:\nIndependent Prompt Atlas image for testing multi-card layout, historical visual knowledge, and contemporary UI composition in one generated image.\n\nConstraints:\nNo real app logo, no real brand marks, no watermark, no broken rounded tiles, no unreadable visual mush, no modern cars or electric signs, no copied app chrome, preserve exact 4:5 portrait aspect ratio.",
+  "id": "scholar-travel-stories",
+  "title": "Scholar Travel Stories",
+  "description": "A fictional mobile stories screen for Song dynasty scholars traveling between river towns.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "social-feed",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/song-dynasty-social-feed/packages/single-social-feed-studies/images/scholar-travel-stories/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Scholar Travel Stories",
+      "description": "A fictional mobile stories screen for Song dynasty scholars traveling between river towns."
+    },
+    "zh-CN": {
+      "title": "文人出游故事",
+      "description": "虚构移动端故事页，展示宋代文人在水乡城镇之间出游。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A fictional mobile stories overview with Song dynasty scholars traveling by river towns.",
+      "zh-CN": "虚构移动端故事总览，宋代文人在水乡城镇之间出行。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 luxury fragrance campaign poster printed on soft white paper, front-facing and minimal. Use a restrained palette of pale ink gray, mist blue, celadon green, and one extremely subtle warm highlight. The upper half should be almost empty, while the lower center holds a refined ink landscape and a small product-like silhouette without any brand identity.\n\nSubject:\nA translucent frosted glass fragrance bottle sits at the bottom center, simplified and unbranded, half emerging from a shallow ink lake. Behind it, a few steep ink mountains rise like a miniature stage set, with green mineral wash only on select ridges. Place the readable Chinese title \"一缕山岚\" horizontally above the bottle with careful modern Song-style letterforms, generous spacing, and a calm dark-gray tone. No other copy appears.\n\nImportant details:\nThis is a commercial mockup, but it must not become a logo advertisement. The bottle should be photoreal enough to show frosted glass, soft reflection, and a faint shadow on the paper, while the landscape remains ink-wash and flat. The title should align to the bottle axis without crowding it. Preserve sixty percent or more clean negative space, and make the transition between product object and painted lake feel elegant rather than surreal.\n\nUse case:\nNew Chinese Ink Poster single study 5/8, testing luxury product-poster composition, restrained mixed media, and readable Chinese headline spacing.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no brand label on the bottle, no barcode, no price copy, no ornate perfume cap, no saturated metallic gold, no cluttered floral background.",
+  "id": "05-fragrance-bottle",
+  "title": "Fragrance Bottle",
+  "description": "A luxury fragrance-style ink poster with an unbranded frosted bottle, miniature mountains, and the title Yi Lv Shan Lan.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/05-fragrance-bottle/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for unbranded luxury product mockup."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fragrance Bottle",
+      "description": "A luxury fragrance-style ink poster with an unbranded frosted bottle, miniature mountains, and the title Yi Lv Shan Lan."
+    },
+    "zh-CN": {
+      "title": "一缕山岚",
+      "description": "香氛广告气质的新中式海报,无品牌磨砂瓶、微型山水与“一缕山岚”标题保持克制留白。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A luxury vertical ink poster with a frosted fragrance bottle, miniature mountains, and a readable Chinese title.",
+      "zh-CN": "奢华竖版水墨海报中有磨砂香氛瓶、微型山水和清晰中文标题。"
+    }
+  }
+}

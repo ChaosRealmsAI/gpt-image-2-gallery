@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA single vertical 9:21 ultra-long scroll painting inspired by detailed urban reportage, viewed as one continuous hand-painted lane from top to bottom. The composition flows through an old Beijing hutong from dawn at the top, midday in the middle, and evening lantern light near the bottom.\n\nSubject:\nA modern version of a historical city scroll: courtyard gates, gray brick walls, tiled roofs, bicycle repair stall, breakfast steam, chess table, schoolchildren, delivery carts, small groceries, residents leaning from balconies, and cats only as tiny background silhouettes if present. The lane must feel continuous and navigable, not a collage of unrelated vignettes.\n\nImportant details:\nExtreme vertical 9:21 framing, dense but legible local scenes, clear spatial continuity, soft ink-and-gouache texture, accurate north China architectural details, atmospheric perspective, repeated alley geometry that guides the eye downward, hundreds of small believable objects without turning into noise.\n\nUse case:\nIndependent Prompt Atlas image for testing extreme aspect ratio stability, high-density narrative planning, and world-knowledge scene detail.\n\nConstraints:\nNo readable text, no watermark, no logos, no floating labels, no modern app UI, no frame, no broken perspective, no random fantasy elements, preserve exact 9:21 vertical aspect ratio.",
+  "id": "beijing-hutong-scroll",
+  "title": "Beijing Hutong Scroll",
+  "description": "A dense 9:21 vertical scroll of an old Beijing hutong across one continuous day.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:21",
+  "tags": [
+    "scroll-painting",
+    "extreme-aspect-ratio",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ultra-long-scroll-painting/packages/single-scroll-studies/images/beijing-hutong-scroll/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Beijing Hutong Scroll",
+      "description": "A dense 9:21 vertical scroll of an old Beijing hutong across one continuous day."
+    },
+    "zh-CN": {
+      "title": "北京胡同长卷",
+      "description": "一张 9:21 竖幅长卷，描绘老北京胡同从清晨到夜晚的连续日常。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scroll-painting",
+      "extreme-aspect-ratio"
+    ],
+    "alt": {
+      "en": "A vertical long scroll showing a continuous Beijing hutong across one day.",
+      "zh-CN": "一幅竖向长卷，展示北京胡同一天中的连续场景。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square museum conservation diagram on pale cream paper, rendered as a clean orthographic exploded cutaway of a porcelain vase. Use bright but soft studio lighting, delicate blue-and-white ceramic color, graphite leader lines, and subtle drop shadows under separated layers. The style should sit between a catalog plate and a technical restoration note.\n\nSubject:\nShow a blue-white porcelain vase separated into its structural and surface layers: mouth rim lifted slightly, glaze layer peeling outward as a transparent shell, clay body cross-section visible, painted cobalt motif isolated on one floating sheet, and foot ring shown below. Include only these readable bilingual labels: glaze / 釉, clay body / 胎, cobalt motif / 青花纹, mouth rim / 口沿, foot ring / 圈足, kiln mark / 窑痕. The vase remains elegant and museum-like, not broken rubble.\n\nImportant details:\nThe material behavior must be credible: porcelain is thin, hard, slightly translucent at edges; glaze is glossy and continuous; cobalt pigment sits under the glaze; the foot ring has unglazed texture. Keep labels aligned around the object with no leader-line tangles. The image should explain construction and craft at a glance.\n\nUse case:\nMuseum Exploded View single study 5/8, testing a porcelain artifact cutaway with bilingual technical callouts.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no shattered vase, no modern barcode, no random dynasty stamp, no cluttered restoration tools, no illegible micro labels.",
+  "id": "porcelain-vase-cutaway",
+  "title": "Porcelain Vase Cutaway",
+  "description": "A porcelain vase exploded cutaway showing glaze, clay body, cobalt motif, rim, foot ring, and kiln mark.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/single-artifact-exploded-studies/images/porcelain-vase-cutaway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for a porcelain conservation exploded-view diagram."
+  },
+  "i18n": {
+    "en": {
+      "title": "Porcelain Vase Cutaway",
+      "description": "A porcelain vase exploded cutaway showing glaze, clay body, cobalt motif, rim, foot ring, and kiln mark."
+    },
+    "zh-CN": {
+      "title": "瓷瓶剖面爆炸图",
+      "description": "一张瓷瓶剖面爆炸图，展示釉层、胎体、青花纹、口沿、圈足和窑痕。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "technical-diagram",
+      "single"
+    ],
+    "alt": {
+      "en": "A blue-white porcelain vase exploded into glaze, body, motif, rim, and foot ring layers.",
+      "zh-CN": "一件青花瓷瓶被拆解为釉层、胎体、纹饰、口沿和圈足。"
+    }
+  }
+}

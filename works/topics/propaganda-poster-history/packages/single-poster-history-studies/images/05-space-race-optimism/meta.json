@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional poster study inspired by mid-century space-race optimism and state science promotion graphics. The design uses deep cobalt, bright red, cream, silver, and aged offset texture. A rocket arc cuts upward through geometric stars, while large unreadable headline blocks occupy a diagonal band and a footer strip. The poster should feel like a historical design artifact for classroom analysis, not a real national campaign.\n\nSubject:\nAn invented astronaut-like figure in a simplified pressure suit points toward a stylized orbit path above a city of antennas, observatories, and abstract industrial roofs. The rocket is generic, with no national insignia, agency logos, real mission markings, flags, or readable numbers. The figure's face is obscured by a reflective visor. Concentric orbital lines, starbursts, and technical diagram circles create a sense of scientific progress.\n\nImportant details:\nEmphasize historical poster cues: space-age geometry, optimistic upward diagonals, simplified industrial skyline, flat color separations, halftone grain, registration shifts, and bold typography fields. The type blocks should be visually convincing but unreadable. Do not include real mission patches, specific spacecraft names, or identifiable political symbols. The image should test world-knowledge style transfer, structured layout, and poster hierarchy while staying fictional and non-persuasive.\n\nUse case:\nPropaganda Poster History single study 5/8, an independent space-race poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real space agency marks, no national flags, no actual slogan, no real leader likeness, no contemporary political reference.",
+  "id": "05-space-race-optimism",
+  "title": "Space Race Optimism",
+  "description": "A fictional mid-century space-promotion poster study with orbit geometry, rocket arc, and unreadable headline bands.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/05-space-race-optimism/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for mid-century space-promotion poster-style study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Space Race Optimism",
+      "description": "A fictional mid-century space-promotion poster study with orbit geometry, rocket arc, and unreadable headline bands."
+    },
+    "zh-CN": {
+      "title": "太空竞赛乐观主义",
+      "description": "虚构中世纪太空宣传风海报研究,包含轨道几何、火箭弧线和不可读标题带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A mid-century space-race style poster study with a generic rocket, orbit lines, and unreadable type blocks.",
+      "zh-CN": "中世纪太空竞赛风海报研究,含通用火箭、轨道线和不可读字体块。"
+    }
+  }
+}

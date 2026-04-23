@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional poster study inspired by twentieth-century political woodcut and mass-movement print traditions. The page uses rough black ink, red spot color, cream paper, carved line texture, and a high-contrast crowd composition. The headline and side-caption fields are rendered as unreadable carved blocks, keeping the focus on historical print language rather than actual persuasion.\n\nSubject:\nA group of anonymous workers, students, and villagers march through a simplified street, each holding blank banners or abstract rectangular placards with no readable marks. The people are invented, not based on real leaders or specific organizations. Their faces are simplified by woodcut marks, with varied ages and clothing but no real emblems, flags, party badges, or national symbols. The central gesture is collective movement, not a call to a real action.\n\nImportant details:\nEmphasize carved print materiality: gouged black lines, uneven red overprint, rough paper tooth, strong diagonals, stacked silhouettes, simplified hands, and poster hierarchy. The composition should demonstrate how woodcut visual language builds urgency through rhythm and contrast. Keep all banners blank or filled with non-readable texture. Do not include real slogans, real historical leaders, or modern protest references. This is a design-history specimen.\n\nUse case:\nPropaganda Poster History single study 7/8, an independent woodcut crowd poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real party symbols, no real leader likeness, no actual protest slogan, no national flags, no contemporary political reference.",
+  "id": "07-woodcut-crowd-march",
+  "title": "Woodcut Crowd March",
+  "description": "A fictional political-woodcut poster study with anonymous marchers, blank banners, and rough red-black print texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/07-woodcut-crowd-march/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for political woodcut poster-style study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Woodcut Crowd March",
+      "description": "A fictional political-woodcut poster study with anonymous marchers, blank banners, and rough red-black print texture."
+    },
+    "zh-CN": {
+      "title": "木刻人群行进",
+      "description": "虚构政治木刻海报研究,包含匿名行进人群、空白横幅和粗粝红黑印刷质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A rough red-and-black woodcut poster study showing anonymous marchers with blank banners.",
+      "zh-CN": "粗粝红黑木刻海报研究,匿名人群举着空白横幅行进。"
+    }
+  }
+}

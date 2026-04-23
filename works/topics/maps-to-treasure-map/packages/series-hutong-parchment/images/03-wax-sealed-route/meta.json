@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square macro still life of a folded parchment map opened halfway on a lacquered table, with a broken red wax seal, silk cord, and a brass compass nearby. Light comes from a low warm source, creating long shadows from folds, cord, compass rim, and wax fragments. The map surface is aged but still flat enough for the route topology to be inspected.\n\nSubject:\nUse the referenced hutong map topology as the underlying structure. The same irregular blocks, water shape, six-turn route, and destination location must appear as an explorer's route drawn in brown and vermilion ink. The folded paper may hide only blank margins; it must not hide the main lane network. The destination should be marked by a small X, and the original red marker position should be represented by the wax seal impression nearby without changing the route endpoint.\n\nImportant details:\nThis is a material and editing-workflow test: the modern map should become a tactile artifact while the route remains logically identical. Preserve relative spacing between alleys and landmarks, keep the central zigzag recognizable, and avoid inventing a new island coastline. Show raised wax, cracked seal edges, paper grain, fold stress, ink pooling at line intersections, and shadows that match the objects' height.\n\nUse case:\nMaps to Treasure Map series study 3/8, testing topology preservation in a wax-sealed treasure-route artifact.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no branded symbols, no readable labels on compass, no route segment removed by folds, no seal covering critical lanes, no modern map UI, no fantasy glowing ink, no incorrect destination placement.",
+  "id": "03-wax-sealed-route",
+  "title": "Wax-Sealed Route",
+  "description": "A folded parchment artifact with wax seal, preserving the referenced route network.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "material-swap",
+    "physics-materials",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/03-wax-sealed-route/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-source-hutong-topology",
+        "meta_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/meta.json",
+        "image_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source topology to preserve the route while adding fold, cord, compass, and wax-seal material effects."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wax-Sealed Route",
+      "description": "A folded parchment artifact with wax seal, preserving the referenced route network."
+    },
+    "zh-CN": {
+      "title": "蜡封路线",
+      "description": "一张带蜡封的折叠羊皮纸遗物，保留参考路线网络。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "editing-workflow"
+    ],
+    "alt": {
+      "en": "A folded wax-sealed parchment map keeps the same hutong treasure route.",
+      "zh-CN": "一张蜡封折叠羊皮纸地图保留同一条胡同藏宝路线。"
+    }
+  }
+}

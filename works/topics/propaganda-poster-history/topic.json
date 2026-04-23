@@ -1,0 +1,54 @@
+{
+  "id": "propaganda-poster-history",
+  "slug": "propaganda-poster-history",
+  "category": "culture",
+  "style": [
+    "retro",
+    "handdrawn"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Propaganda Poster History",
+  "short_title": "Propaganda",
+  "description": "A Prompt Atlas theme for educational, fictionalized studies of historical propaganda-poster visual languages, focusing on layout, typography fields, print texture, and era-specific style transfer.",
+  "i18n": {
+    "en": {
+      "title": "Propaganda Poster History",
+      "short_title": "Propaganda",
+      "description": "A Prompt Atlas theme for educational, fictionalized studies of historical propaganda-poster visual languages, focusing on layout, typography fields, print texture, and era-specific style transfer."
+    },
+    "zh-CN": {
+      "title": "政治宣传海报艺术史",
+      "short_title": "宣传海报",
+      "description": "以教学和设计史研究为目的,测试历史宣传海报视觉语言、版式、字体区域、印刷质感和时代风格转译。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge",
+      "style-transfer",
+      "editorial-illustration",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-poster-history-studies",
+      "type": "single",
+      "title": "Poster History Studies",
+      "path": "packages/single-poster-history-studies/package.json"
+    }
+  ]
+}

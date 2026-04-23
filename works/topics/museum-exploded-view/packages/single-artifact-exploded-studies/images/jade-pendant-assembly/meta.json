@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square archival museum plate showing an ancient jade pendant as a delicate exploded assembly. The background is matte charcoal-green paper with a thin ivory border and warm side lighting that reveals translucency. Use fine technical leader lines, tiny alignment pins, and soft shadows so the floating parts feel physically separated but carefully documented.\n\nSubject:\nShow a carved jade pendant separated into craft components and surfaces: outer disc, central perforation, relief carving layer, drilled cord hole, polished edge bevel, and a small suspension cord sample. Include only these readable bilingual labels: jade disc / 玉璧, central aperture / 中孔, relief carving / 浮雕纹, cord hole / 穿孔, polished bevel / 抛光边, silk cord / 丝绳. The pendant should be pale celadon with cloudy inclusions and subtle worn edges.\n\nImportant details:\nThis object is not mechanically assembled like a machine, so the exploded view should explain craft layers, carving zones, and use-wear without inventing hinges or screws. Material realism matters: jade should show waxy luster, internal clouding, semi-translucent rims, and hand-polished softness. Keep the composition symmetrical and scholarly, with readable labels and no decorative clutter.\n\nUse case:\nMuseum Exploded View single study 6/8, testing a non-mechanical artifact exploded diagram based on material and craft evidence.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no metal hardware, no fantasy glow, no extra gemstones, no modern jewelry branding, no tangled cord covering labels.",
+  "id": "jade-pendant-assembly",
+  "title": "Jade Pendant Assembly",
+  "description": "A jade pendant craft exploded view showing carving zones, perforations, bevels, cord, and material translucency.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/single-artifact-exploded-studies/images/jade-pendant-assembly/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for a jade craft exploded-view plate."
+  },
+  "i18n": {
+    "en": {
+      "title": "Jade Pendant Assembly",
+      "description": "A jade pendant craft exploded view showing carving zones, perforations, bevels, cord, and material translucency."
+    },
+    "zh-CN": {
+      "title": "玉佩工艺拆解图",
+      "description": "一张玉佩工艺爆炸图，展示雕刻区、穿孔、边缘、系绳和玉质通透感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "technical-diagram",
+      "single"
+    ],
+    "alt": {
+      "en": "A celadon jade pendant diagram with bilingual labels for aperture, carving, bevel, and cord.",
+      "zh-CN": "一张青白玉佩图解，标注中孔、浮雕、抛光边和丝绳。"
+    }
+  }
+}

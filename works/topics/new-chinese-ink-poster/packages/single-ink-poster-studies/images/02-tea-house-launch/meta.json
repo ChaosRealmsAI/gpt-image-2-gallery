@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 premium tea-brand launch poster, designed as a flat print on ivory rice paper. Keep the composition spacious, with roughly seventy percent quiet blank paper and a low-saturation palette of pale tea green, fog blue, charcoal ink, and faint warm gray. The poster should feel modern, expensive, and calm, with no photography frame and no decorative border.\n\nSubject:\nAt the bottom left, a minimal ink silhouette of a mountain tea house sits beside a small reflective pond. Thin terraces climb into mist behind it, drawn with broken ink lines and diluted green wash. A single steam-like brushstroke rises upward, becoming part of the empty space. Place the readable Chinese title \"云上问茶\" in a small vertical block near the upper center-left, using refined modern calligraphic typography that is legible but not loud.\n\nImportant details:\nThe design must read as new Chinese commercial minimalism, not an old scroll reproduction. Typography, landscape, and blank space should form a clean hierarchy: title first, mist gesture second, tea house third. The tea house must be recognizable with a roofline, posts, and reflection, but it should stay tiny. Use one abstract red seal square without characters as a visual anchor. Do not add package copy, prices, dates, or brand logos.\n\nUse case:\nNew Chinese Ink Poster single study 2/8, testing commercial tea-poster layout, small readable Chinese title, and disciplined negative space.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no product package, no tea leaves close-up, no busy mountain village, no random seals, no illegible fake characters, no saturated gold luxury effects.",
+  "id": "02-tea-house-launch",
+  "title": "Tea House Launch",
+  "description": "A minimal tea-brand style ink poster with a tiny mountain tea house, mist, and the title Yun Shang Wen Cha.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/02-tea-house-launch/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for tea-themed commercial minimalism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tea House Launch",
+      "description": "A minimal tea-brand style ink poster with a tiny mountain tea house, mist, and the title Yun Shang Wen Cha."
+    },
+    "zh-CN": {
+      "title": "云上问茶",
+      "description": "茶品牌气质的新中式水墨海报,小茶舍、山雾和大留白共同承托“云上问茶”标题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A calm tea-house ink poster with a small readable Chinese title floating in wide ivory space.",
+      "zh-CN": "安静的茶舍水墨海报,大面积象牙色留白中漂浮着清晰中文标题。"
+    }
+  }
+}

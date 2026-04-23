@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square technical museum diagram of a brass astrolabe on dark blue archival paper, viewed orthographically with a precise exploded stack. Use warm brass highlights, faint engraved geometry, crisp radial construction lines, and small bilingual callouts. The image should feel like a conservation department plate for an astronomical instrument.\n\nSubject:\nShow the astrolabe separated along its central axis: base plate at the back, climate plate, rotating rete, rule, central pin, and hanging ring. Include only these readable bilingual labels: mater / 母盘, climate plate / 纬度盘, rete / 星盘, rule / 标尺, pin / 中轴, throne ring / 吊环. Each part should float in a shallow stack with clear alignment, so the viewer can understand how the layers rotate together.\n\nImportant details:\nThe diagram must balance scientific realism and museum clarity. Engraved lines can be present as fine non-readable radial marks, but no random paragraphs or invented star names. Brass should look aged, with scratches and darkened recesses. The exploded spacing should reveal the mechanism without losing the circular geometry. Labels should sit outside the disk with orderly leader lines.\n\nUse case:\nMuseum Exploded View single study 7/8, testing a technical exploded view of a layered scientific instrument.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no modern screws, no fake brand, no readable star catalog text, no warped circles, no chaotic leader lines.",
+  "id": "astrolabe-mechanism",
+  "title": "Astrolabe Mechanism",
+  "description": "A brass astrolabe exploded stack showing mater, climate plate, rete, rule, pin, and hanging ring.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/single-artifact-exploded-studies/images/astrolabe-mechanism/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for a layered scientific instrument exploded-view diagram."
+  },
+  "i18n": {
+    "en": {
+      "title": "Astrolabe Mechanism",
+      "description": "A brass astrolabe exploded stack showing mater, climate plate, rete, rule, pin, and hanging ring."
+    },
+    "zh-CN": {
+      "title": "星盘机构爆炸图",
+      "description": "一张黄铜星盘层叠爆炸图，展示母盘、纬度盘、星盘、标尺、中轴和吊环。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "technical-diagram",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "A brass astrolabe split into aligned circular mechanism layers with bilingual labels.",
+      "zh-CN": "一件黄铜星盘被拆解为对齐的圆形机构层，并带中英双语标注。"
+    }
+  }
+}

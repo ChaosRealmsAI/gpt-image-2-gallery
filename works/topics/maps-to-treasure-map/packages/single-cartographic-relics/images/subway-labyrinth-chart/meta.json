@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square antique chart laid flat under museum-case lighting, combining the orderliness of a transit diagram with the tactile age of a medieval manuscript. The map is on yellowed vellum with darkened edges, pinned by small brass weights at the corners. The lighting is cool and controlled, revealing ink grooves, scraped corrections, and subtle vellum waviness.\n\nSubject:\nTransform a modern subway transfer map into a labyrinthine treasure chart. Use colored routes as faded mineral-pigment lines: one red route, one blue route, one green route, and one ochre route crossing at circular transfer nodes. The network must remain legible and connected, like a metro schematic translated into ancient cartography. At one far endpoint, replace the station marker with a small X-shaped treasure target. Do not use station names or numbers.\n\nImportant details:\nThe image should keep transit-map logic while changing every surface cue into antique material. Lines should be straight or gently angled like schematic routes, transfer nodes should align cleanly, and the treasure endpoint should be reachable through obvious line connections. Add a hand-drawn compass ornament, tiny border monsters, worn pigment, vellum fiber, pin shadows, and slight ink pooling where lines meet. Avoid making it a fantasy maze with dead ends unrelated to the transit structure.\n\nUse case:\nMaps to Treasure Map single study 6/8, testing a subway-style transfer diagram converted into an antique labyrinth treasure chart.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no transit agency brand, no station labels, no route numbers, no disconnected line segments, no random maze walls, no glossy modern diagram, no objects hiding transfer nodes.",
+  "id": "subway-labyrinth-chart",
+  "title": "Subway Labyrinth Chart",
+  "description": "A subway transfer diagram transformed into an antique labyrinth treasure chart.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "material-swap",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/single-cartographic-relics/images/subway-labyrinth-chart/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for preserving transit-diagram logic under antique map styling."
+  },
+  "i18n": {
+    "en": {
+      "title": "Subway Labyrinth Chart",
+      "description": "A subway transfer diagram transformed into an antique labyrinth treasure chart."
+    },
+    "zh-CN": {
+      "title": "地铁迷宫古图",
+      "description": "一张地铁换乘图被转换成古代迷宫藏宝图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A vellum treasure chart turns colored subway lines into an antique labyrinth route network.",
+      "zh-CN": "一张牛皮纸藏宝图把彩色地铁线路转换成古代迷宫路线网络。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square museum armory diagram on neutral parchment paper, rendered with orthographic precision and controlled dramatic light. The central object is an ancient layered helmet presented as an exploded vertical stack, with metal plates, padding, rivets, and cheek guards separated just enough to show construction. Use cool steel, dark leather, linen beige, and graphite annotation lines.\n\nSubject:\nShow a historical helmet broken into readable construction layers: outer shell lifted upward, brow band floating forward, rivet row separated, cheek guards angled outward, textile liner visible inside, and leather chin strap below. Include only these readable bilingual labels: outer shell / 盔壳, brow band / 眉甲, rivets / 铆钉, cheek guards / 护颊, textile liner / 衬里, chin strap / 颏带. The helmet should look museum-preserved, with scratches, oxidation, and believable thickness.\n\nImportant details:\nThe exploded view must obey physical assembly logic: rivets align with holes, cheek guards hang from side joints, liner follows the inner curve, and the chin strap attaches below. Avoid fantasy armor exaggeration. The diagram should have clear hierarchy, precise leader lines, realistic material contrast, and enough negative space for bilingual labels to remain readable.\n\nUse case:\nMuseum Exploded View single study 8/8, testing an armored artifact exploded diagram with metal, textile, and leather material layers.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy horns, no modern tactical gear, no weapons, no blood, no random heraldry, no cluttered labels.",
+  "id": "armored-helmet-layers",
+  "title": "Armored Helmet Layers",
+  "description": "A historical helmet exploded diagram showing shell, brow band, rivets, cheek guards, liner, and chin strap.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/single-artifact-exploded-studies/images/armored-helmet-layers/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for a layered armory artifact exploded-view diagram."
+  },
+  "i18n": {
+    "en": {
+      "title": "Armored Helmet Layers",
+      "description": "A historical helmet exploded diagram showing shell, brow band, rivets, cheek guards, liner, and chin strap."
+    },
+    "zh-CN": {
+      "title": "头盔层构拆解图",
+      "description": "一张历史头盔爆炸图，展示盔壳、眉甲、铆钉、护颊、衬里和颏带。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "technical-diagram",
+      "single"
+    ],
+    "alt": {
+      "en": "A museum diagram of a helmet split into shell, liner, rivets, cheek guards, and strap layers.",
+      "zh-CN": "一张博物馆图解，将头盔拆成盔壳、衬里、铆钉、护颊和颏带层。"
+    }
+  }
+}

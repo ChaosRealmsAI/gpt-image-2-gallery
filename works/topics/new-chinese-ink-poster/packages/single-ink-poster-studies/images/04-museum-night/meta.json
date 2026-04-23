@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 museum exhibition poster on cold white matte stock, composed with strong empty space and a refined night palette. Use ink black, mist blue, pale gray, and a very small amount of muted teal. The poster should feel like a contemporary cultural institution campaign, photographed flat with crisp paper edges and no visible wall or frame.\n\nSubject:\nA single ink-wash mountain ridge appears near the bottom, almost like a shadow. Above it floats a small moon reflected in a narrow lake band, leaving the majority of the poster open and silent. Place the readable Chinese title \"墨山夜游\" in a vertical column along the left third, using elegant high-contrast Chinese typography, stable baseline spacing, and dark gray ink. A tiny abstract red seal block may sit below the title, but it must contain no readable characters.\n\nImportant details:\nThe layout should show clear poster hierarchy without extra event details: title column, moon, lake reflection, ridge, and negative space. The mountain should be atmospheric rather than photorealistic; the moon should be subtle, not glowing like a fantasy planet. Preserve a premium museum tone, with precise margins and no crowded decoration. The title must be legible and not broken into random strokes.\n\nUse case:\nNew Chinese Ink Poster single study 4/8, testing cultural poster hierarchy, night ink mood, and stable vertical Chinese title composition.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no dates, no ticket prices, no museum emblem, no starry sky clutter, no neon glow, no heavy black background, no illegible calligraphy.",
+  "id": "04-museum-night",
+  "title": "Museum Night",
+  "description": "A contemporary museum-style ink poster with a night mountain ridge, moon reflection, and the title Mo Shan Ye You.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/04-museum-night/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for cultural exhibition hierarchy."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Night",
+      "description": "A contemporary museum-style ink poster with a night mountain ridge, moon reflection, and the title Mo Shan Ye You."
+    },
+    "zh-CN": {
+      "title": "墨山夜游",
+      "description": "当代博物馆气质的水墨海报,夜色山脊、月影湖面和“墨山夜游”竖排标题构成版式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A minimalist museum-style night ink poster with a moon reflection and readable vertical Chinese title.",
+      "zh-CN": "极简博物馆风夜色水墨海报,有月影和可读竖排中文标题。"
+    }
+  }
+}

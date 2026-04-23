@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA single vertical 9:21 allegorical scroll in a refined editorial painting style. A river begins as a small spring at the top, grows through towns and seasons in the middle, and reaches a wide moonlit estuary at the bottom.\n\nSubject:\nOne human life shown as a continuous river timeline without text: childhood paper boats near the source, student notebooks beside a bridge, first apartment windows, workbench and tools, family dinner light, hospital corridor calmness, old hands planting a tree, and a final open sea horizon. All moments must be connected by the same river path.\n\nImportant details:\nExtreme vertical scroll composition, emotionally clear but not sentimental, coherent time progression, recurring visual motifs, seasonal color transitions, dense micro scenes that remain readable in a gallery thumbnail, painterly detail, careful negative space around major life moments.\n\nUse case:\nIndependent Prompt Atlas image for testing reasoning composition, extreme aspect ratio, and long-form visual narrative without text labels.\n\nConstraints:\nNo readable text, no captions, no watermark, no logos, no disjointed panels, no fantasy glow, no celebrity likeness, preserve exact 9:21 vertical aspect ratio.",
+  "id": "lifetime-river-scroll",
+  "title": "Lifetime River Scroll",
+  "description": "A 9:21 allegorical river scroll that turns one life into a continuous visual timeline.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:21",
+  "tags": [
+    "scroll-painting",
+    "extreme-aspect-ratio",
+    "reasoning-composition",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ultra-long-scroll-painting/packages/single-scroll-studies/images/lifetime-river-scroll/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lifetime River Scroll",
+      "description": "A 9:21 allegorical river scroll that turns one life into a continuous visual timeline."
+    },
+    "zh-CN": {
+      "title": "人生河流长卷",
+      "description": "一张 9:21 寓言长卷，把人的一生转化为连续河流时间线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scroll-painting",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A vertical river scroll where scenes from one life connect along the same river.",
+      "zh-CN": "竖向河流长卷中，一生的不同阶段沿同一条河连接。"
+    }
+  }
+}

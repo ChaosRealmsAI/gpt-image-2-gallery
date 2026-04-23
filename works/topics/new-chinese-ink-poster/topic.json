@@ -1,0 +1,53 @@
+{
+  "id": "new-chinese-ink-poster",
+  "slug": "new-chinese-ink-poster",
+  "category": "culture",
+  "style": [
+    "painterly",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer"
+  ],
+  "title": "New Chinese Ink Poster",
+  "short_title": "Ink Poster",
+  "description": "A Prompt Atlas theme for vertical new Chinese ink posters with large white space, controlled Chinese typography, restrained luxury palettes, and commercial-ready layout discipline.",
+  "i18n": {
+    "en": {
+      "title": "New Chinese Ink Poster",
+      "short_title": "Ink Poster",
+      "description": "A Prompt Atlas theme for vertical new Chinese ink posters with large white space, controlled Chinese typography, restrained luxury palettes, and commercial-ready layout discipline."
+    },
+    "zh-CN": {
+      "title": "新中式水墨极简海报",
+      "short_title": "水墨海报",
+      "description": "9:16 竖版新中式水墨极简海报,强调奇峻山水、大留白、低饱和青绿雾蓝色系、可读中文标题和奢华商业质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-ink-poster-studies",
+      "type": "single",
+      "title": "Ink Poster Studies",
+      "path": "packages/single-ink-poster-studies/package.json"
+    }
+  ]
+}

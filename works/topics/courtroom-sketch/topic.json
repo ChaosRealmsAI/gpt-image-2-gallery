@@ -1,0 +1,48 @@
+{
+  "id": "courtroom-sketch",
+  "slug": "courtroom-sketch",
+  "category": "culture",
+  "style": [
+    "handdrawn",
+    "painterly"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Courtroom Sketch",
+  "short_title": "Court Sketch",
+  "description": "A Prompt Atlas theme for Courtroom Sketch, testing photorealism, world-knowledge, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Courtroom Sketch",
+      "short_title": "Court Sketch",
+      "description": "A Prompt Atlas theme for Courtroom Sketch, testing photorealism, world-knowledge, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "法庭画家速写",
+      "short_title": "法庭速写",
+      "description": "法庭画家速写：风格:彩色铅笔 + 水彩淡彩 + 速写纸 · 法官 / 被告 / 律师 / 陪审团表情捕捉 · 例:世纪审判瞬间 + 报纸报道配图级"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "editorial-illustration",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-courtroom-sketch-studies",
+      "type": "single",
+      "title": "Court Sketch Illustration Studies",
+      "path": "packages/single-courtroom-sketch-studies/package.json"
+    }
+  ]
+}

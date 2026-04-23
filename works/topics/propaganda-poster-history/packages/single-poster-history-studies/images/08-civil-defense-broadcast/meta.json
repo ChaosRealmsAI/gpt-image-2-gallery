@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional poster study inspired by mid-century civil-defense and broadcast-information graphics. The palette is faded teal, orange, black, cream, and gray, with screenprint grain, folded paper creases, and modular diagram panels. A large headline region at the top and a footer instruction strip are filled with unreadable pseudo-letter blocks. The poster must feel like a historical museum artifact, not present-day emergency guidance.\n\nSubject:\nA generic radio tower emits concentric signal rings over a simplified city cutaway: apartment blocks, basement shelter icon, family silhouettes, battery lamp, water jug, and a small tabletop radio. All elements are invented and unbranded. No government seal, national emblem, real agency name, warning code, or readable instruction appears. The layout uses diagram arrows and numbered-looking circles, but they remain abstract and non-readable.\n\nImportant details:\nCapture civil-defense poster grammar: anxious but orderly information design, bold icon system, practical object diagrams, signal waves, limited screenprint colors, and strong modular hierarchy. Keep the educational design-history lens clear by avoiding real instructions or current hazards. The diagram should be visually plausible while preventing actual public-safety advice from being readable. Use aging, ink misregistration, and paper texture to ground the period style.\n\nUse case:\nPropaganda Poster History single study 8/8, an independent civil-defense broadcast poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real government seal, no actual emergency instruction, no real warning code, no national flag, no contemporary political or disaster reference.",
+  "id": "08-civil-defense-broadcast",
+  "title": "Civil Defense Broadcast",
+  "description": "A fictional mid-century civil-defense poster study with radio-wave diagrams, shelter icons, and unreadable instruction strips.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/08-civil-defense-broadcast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for mid-century civil-defense poster-layout study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Civil Defense Broadcast",
+      "description": "A fictional mid-century civil-defense poster study with radio-wave diagrams, shelter icons, and unreadable instruction strips."
+    },
+    "zh-CN": {
+      "title": "民防广播海报",
+      "description": "虚构中世纪民防海报研究,包含无线电波图、避难图标和不可读说明条。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A mid-century civil-defense style poster study with radio waves, shelter icons, and unreadable instruction bands.",
+      "zh-CN": "中世纪民防风海报研究,含无线电波、避难图标和不可读说明带。"
+    }
+  }
+}

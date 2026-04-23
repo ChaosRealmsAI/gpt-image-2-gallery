@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square overhead photograph of an aged parchment treasure map laid on a dark wooden table, lit by warm candlelike side light. The paper has curled corners, uneven fiber, translucent stains, and slightly torn edges. Keep the camera flat enough that the map geometry remains readable while showing real shadows under the raised paper edges.\n\nSubject:\nTransform the referenced modern hutong topology into a fifteenth-century parchment chart. Preserve the same lane network, six-turn route, destination position, water shape, and landmark icon spacing from image 01, but redraw them as sepia ink paths, dotted trail marks, tiny illustrated gates, and an X-shaped destination marker. Add a hand-drawn wind rose, a few sea-monster-style marginal illustrations, and a red wax seal outside the main route area without covering the topology.\n\nImportant details:\nThe challenge is data-format conversion: the image must feel antique while retaining the modern road network structure. Streets should become hand-inked lanes, the blue route should become a dotted brown expedition trail, and the red marker should become a clear treasure X in the same relative place. Material physics matter: parchment translucency, ink bleed, wax height, shadow direction, and worn fold lines should be believable.\n\nUse case:\nMaps to Treasure Map series study 2/8, testing preservation of modern hutong topology after conversion into a parchment treasure chart.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no branded map UI, no random pirate island shape replacing the hutong network, no route turns removed, no wax seal covering the destination, no glossy modern paper, no printed street labels.",
+  "id": "02-parchment-sea-chart",
+  "title": "Parchment Sea Chart",
+  "description": "An antique parchment chart preserving the referenced hutong route topology.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "material-swap",
+    "physics-materials",
+    "world-knowledge",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/02-parchment-sea-chart/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-source-hutong-topology",
+        "meta_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/meta.json",
+        "image_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source topology to preserve route geometry while changing the map into aged parchment."
+  },
+  "i18n": {
+    "en": {
+      "title": "Parchment Sea Chart",
+      "description": "An antique parchment chart preserving the referenced hutong route topology."
+    },
+    "zh-CN": {
+      "title": "羊皮纸航海图",
+      "description": "一张保留参考胡同路线拓扑的古旧羊皮纸藏宝图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "material-swap",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "An aged parchment treasure chart preserves the same hutong route geometry.",
+      "zh-CN": "一张古旧羊皮纸藏宝图保留了同一套胡同路线几何。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square outdoor tabletop photograph of an aged parchment trail map weighted by two river stones, shot in soft overcast mountain light. Pine needles, dust, and faint water spots sit around the paper edges. The map is viewed nearly overhead, with enough surface texture and curled corners to show it is a physical artifact rather than a flat graphic.\n\nSubject:\nConvert a modern GPS hiking route into a treasure-map version. Show a switchback trail climbing from a valley entrance, crossing a stream twice, passing three small campsite icons, and ending at a cave-like X marker near contour lines. The topology must be plausible for mountain terrain: switchbacks follow slope, stream crossings occur at narrow points, and the dotted route stays on the trail. Use antique ink, sepia contour rings, and sketched ridges instead of modern satellite or GPS styling.\n\nImportant details:\nThis image tests real-world route reasoning and material physics together. The viewer should understand the modern trail data has been translated into parchment without losing terrain logic. Include believable paper fibers, damp staining, ink feathering near water stains, pebble shadows, smudged fold marks, and small hand-drawn pine clusters. Keep the map readable as a navigable route while preserving old treasure-map atmosphere.\n\nUse case:\nMaps to Treasure Map single study 7/8, testing a mountain GPS route converted into a physically believable parchment trail treasure map.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no park service brand, no trail names, no elevation numbers, no route crossing cliffs unrealistically, no random pirate island, no missing stream crossings, no glossy laminated map.",
+  "id": "mountain-trail-parchment",
+  "title": "Mountain Trail Parchment",
+  "description": "A GPS-style mountain trail route converted into a physical parchment treasure map.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "world-knowledge",
+    "physics-materials",
+    "material-swap",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/single-cartographic-relics/images/mountain-trail-parchment/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for preserving hiking-route topology in an aged parchment trail artifact."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mountain Trail Parchment",
+      "description": "A GPS-style mountain trail route converted into a physical parchment treasure map."
+    },
+    "zh-CN": {
+      "title": "山路羊皮纸",
+      "description": "一条 GPS 式山地徒步路线被转换成实体羊皮纸藏宝图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "An aged parchment hiking map shows switchbacks, stream crossings, and an X near a cave.",
+      "zh-CN": "一张古旧羊皮纸徒步地图显示折返山路、溪流穿越和洞穴旁的 X 标记。"
+    }
+  }
+}

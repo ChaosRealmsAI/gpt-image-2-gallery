@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square, gallery-ready composition with painterly surfaces, controlled negative space, and a deliberate fine-art presentation. Build the frame around surface build-up, scrape marks, and thick tactile passages that feel meteorological. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Courtroom Sketch theme and should feel immediately legible as a prompt atlas theme for courtroom sketch, testing photorealism, world-knowledge, style-transfer with gpt image 2..\n\nSubject:\nCenter the study on surface build-up, scrape marks, and thick tactile passages that feel meteorological. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of courtroom sketch as a literal guide for subject matter, materials, and staging.\n\nImportant details:\nFocus on authored mark-making, hierarchy, rhythm, and a visual idea that reads immediately before the viewer inspects the brushwork. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Courtroom Sketch. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nCourtroom Sketch single study 6/8, testing photorealism, world-knowledge, style-transfer through the 厚涂天气 variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no direct copy of a known artwork, no comic speech bubbles, no accidental typography, no low-effort doodle energy, no muddy center, no fake museum label.",
+  "id": "impasto-weather",
+  "title": "厚涂天气",
+  "description": "厚涂天气 interprets Courtroom Sketch as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "editorial-illustration",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/courtroom-sketch/packages/single-courtroom-sketch-studies/images/impasto-weather/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Courtroom Sketch single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "厚涂天气",
+      "description": "厚涂天气 interprets Courtroom Sketch as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "厚涂天气",
+      "description": "厚涂天气：围绕 法庭画家速写 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "editorial-illustration",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "厚涂天气 for Courtroom Sketch.",
+      "zh-CN": "法庭画家速写主题中的厚涂天气图像研究。"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 poster on cool off-white paper, designed with modern Chinese ink restraint and a rainy spring atmosphere. The page should be mostly blank, with thin vertical movement concentrated along the right edge and a low horizontal wash near the bottom. Use pale bamboo green, diluted ink black, fog blue, and light gray. The image must remain clean enough for a premium cultural brand poster.\n\nSubject:\nA sparse bamboo grove is suggested by five or six slender ink stalks and soft leaf clusters, leaving large open paper areas. Fine rain lines fall through the empty space but remain delicate, not noisy. A shallow lake wash at the bottom catches faint bamboo reflections. Place the readable Chinese title \"听雨见竹\" vertically near the left third, balanced against the bamboo on the right, using refined modern calligraphy with stable character shapes.\n\nImportant details:\nThe poster tests whether many fine lines can stay orderly in an extreme vertical composition. Rain, bamboo, title, and reflection must not merge into visual clutter. The Chinese title must remain the only readable text and should not look like random brush marks. Keep the luxury feeling through restraint: ample margins, balanced asymmetry, no decorative border, and one very small abstract red seal block without characters.\n\nUse case:\nNew Chinese Ink Poster single study 6/8, testing fine-line ink structure, readable vertical Chinese type, and calm 9:16 negative-space control.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no dense bamboo forest, no birds, no people, no storm clouds, no saturated emerald, no fake handwritten gibberish, no frame.",
+  "id": "06-bamboo-rain",
+  "title": "Bamboo Rain",
+  "description": "A vertical ink poster with sparse bamboo, fine rain lines, lake reflection, and the title Ting Yu Jian Zhu.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/06-bamboo-rain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for fine ink line control and rain atmosphere."
+  },
+  "i18n": {
+    "en": {
+      "title": "Bamboo Rain",
+      "description": "A vertical ink poster with sparse bamboo, fine rain lines, lake reflection, and the title Ting Yu Jian Zhu."
+    },
+    "zh-CN": {
+      "title": "听雨见竹",
+      "description": "稀疏竹影、细雨线和湖面倒影构成 9:16 新中式水墨海报,标题为“听雨见竹”。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A sparse bamboo-and-rain vertical ink poster with a clear Chinese title on the left.",
+      "zh-CN": "稀疏竹雨竖版水墨海报,左侧有清晰中文标题。"
+    }
+  }
+}

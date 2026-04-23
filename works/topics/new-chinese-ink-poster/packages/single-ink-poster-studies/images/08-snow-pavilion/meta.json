@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 winter ink poster on matte white paper, using extreme restraint and a cold low-saturation palette. Most of the page is untouched snow-white negative space, with pale ink gray and fog blue concentrated near the bottom. The lighting is even and quiet, like a premium seasonal cultural poster photographed straight-on for a design archive.\n\nSubject:\nA tiny lakeside pavilion sits in the lower center, drawn with a few black ink roof strokes and light gray posts. Snow-covered mountain shapes almost disappear behind it, and a narrow frozen lake reflects the pavilion with minimal detail. Place the readable Chinese title \"雪亭无声\" vertically near the upper right, using elegant dark-gray Song-style typography with ample spacing and exact character order.\n\nImportant details:\nThe poster must prove that minimal information can still feel complete. Snow is represented through blank paper, not white paint effects. The pavilion should be small but clear, the mountains nearly abstract, and the lake reflection calm. The Chinese title must stay crisp and readable, not broken into faux calligraphy. Keep the layout luxurious and quiet, with no extra copy, no logo, no decorative border, and only one small abstract red square without characters if needed for balance.\n\nUse case:\nNew Chinese Ink Poster single study 8/8, testing extreme white-space control, winter ink mood, and clean vertical Chinese text rendering.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no people, no animals, no heavy snowfall texture, no holiday decoration, no saturated red accents, no random calligraphy fragments, no picture frame.",
+  "id": "08-snow-pavilion",
+  "title": "Snow Pavilion",
+  "description": "A winter new Chinese ink poster with a tiny snow pavilion, pale mountain silhouettes, frozen lake reflection, and the title Xue Ting Wu Sheng.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/08-snow-pavilion/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for winter negative-space composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Snow Pavilion",
+      "description": "A winter new Chinese ink poster with a tiny snow pavilion, pale mountain silhouettes, frozen lake reflection, and the title Xue Ting Wu Sheng."
+    },
+    "zh-CN": {
+      "title": "雪亭无声",
+      "description": "冬日新中式水墨海报,小雪亭、淡山、冰湖倒影和“雪亭无声”竖排标题形成极简留白。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A quiet winter ink poster with a tiny snow pavilion, pale mountains, and a readable vertical Chinese title.",
+      "zh-CN": "安静冬日水墨海报中有小雪亭、淡山和清晰竖排中文标题。"
+    }
+  }
+}

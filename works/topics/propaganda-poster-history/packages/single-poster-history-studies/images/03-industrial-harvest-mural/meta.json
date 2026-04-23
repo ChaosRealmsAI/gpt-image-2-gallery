@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional poster study inspired by mid-century socialist realist agricultural and industrial mural language. The page has a heroic low angle, warm sunrise, red-orange sky, golden grain, steel machinery, and thick painted brush texture. Large banner-like type fields sit at the top and bottom as unreadable block shapes, aged by paper fibers and offset ink. The result should read as educational visual-history reconstruction, not a real political message.\n\nSubject:\nA group of invented workers and farmers stand together in a sweeping composition: one person holds a sheaf of grain, another guides a factory lever, another looks toward distant tractors and chimneys. Their clothing is simplified workwear without real badges, flags, or party emblems. The faces are idealized but generic. Industrial wheels and harvest rows converge behind them, linking agriculture and factory production in one theatrical poster image.\n\nImportant details:\nEmphasize the visual grammar of socialist-realist poster art: heroic upward gaze, muscular silhouettes, red-gold palette, sunrise symbolism, synchronized bodies, monumental scale, painterly realism, and strong central hierarchy. Keep every political identifier fictional or absent. The headline fields should look historically plausible but remain unreadable. Avoid copying any known poster or depicting a real leader. The subject is style-transfer and world-knowledge research.\n\nUse case:\nPropaganda Poster History single study 3/8, an independent industrial-harvest poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real party symbols, no real leader likeness, no actual slogan, no national flags, no contemporary political reference.",
+  "id": "03-industrial-harvest-mural",
+  "title": "Industrial Harvest Mural",
+  "description": "A fictional socialist-realist poster study joining harvest and factory imagery with unreadable banner fields.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/03-industrial-harvest-mural/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for socialist-realist poster-language study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Industrial Harvest Mural",
+      "description": "A fictional socialist-realist poster study joining harvest and factory imagery with unreadable banner fields."
+    },
+    "zh-CN": {
+      "title": "工业丰收壁画",
+      "description": "虚构社会主义现实主义海报研究,把丰收与工厂图像和不可读横幅区域结合。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "style-transfer",
+      "single"
+    ],
+    "alt": {
+      "en": "A heroic harvest-and-factory poster study with generic workers, sunrise colors, and unreadable banners.",
+      "zh-CN": "英雄化丰收与工厂海报研究,含通用劳动者、日出色彩和不可读横幅。"
+    }
+  }
+}

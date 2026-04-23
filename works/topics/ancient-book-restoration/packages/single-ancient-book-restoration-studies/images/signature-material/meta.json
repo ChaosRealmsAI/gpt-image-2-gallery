@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square material-focused image where lighting, scale, and surface behavior are the main event. Build the frame around the most complete and persuasive final material image. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Ancient Book Restoration theme and should feel immediately legible as a prompt atlas theme for ancient book restoration, testing world-knowledge, editing-workflow with gpt image 2..\n\nSubject:\nCenter the study on the most complete and persuasive final material image. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of ancient book restoration as a literal guide for subject matter, materials, and staging.\n\nImportant details:\nMicrostructure matters: refraction, fibers, scratches, pores, edge wear, translucency, and dust should all feel physically specific. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Ancient Book Restoration. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nAncient Book Restoration single study 8/8, testing world-knowledge, editing-workflow through the signature material variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no generic stock macro, no broken scale cues, no plastic-looking texture when it should feel natural, no meaningless blur, no watermark, no fake labels.",
+  "id": "signature-material",
+  "title": "Signature Material",
+  "description": "Signature Material interprets Ancient Book Restoration as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "physics-materials",
+    "micro-texture"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ancient-book-restoration/packages/single-ancient-book-restoration-studies/images/signature-material/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Ancient Book Restoration single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Signature Material",
+      "description": "Signature Material interprets Ancient Book Restoration as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "代表材质",
+      "description": "代表材质：围绕 古籍复原 · 对照页 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "Signature Material for Ancient Book Restoration.",
+      "zh-CN": "古籍复原 · 对照页主题中的代表材质图像研究。"
+    }
+  }
+}

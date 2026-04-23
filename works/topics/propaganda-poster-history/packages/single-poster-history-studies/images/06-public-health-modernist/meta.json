@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 fictional public-health poster study inspired by international modernist information campaigns from the mid twentieth century. The style is clean and didactic: flat pastel background, limited red, blue, black, and cream palette, strong grid, simplified pictograms, and a prominent headline field made from unreadable block shapes. The poster should read as historical visual communication research, not as current medical advice.\n\nSubject:\nA simplified nurse-like figure, water faucet, soap, clean hands, and a shield-like abstract shape are arranged in a modernist grid. The figures are invented and generic, with no real health agency emblem, no medical logo, no country symbol, and no actual instruction text. The bottom area contains small diagram panels showing washing, drying, and clean surface icons, but all labels are blank bars or pseudo-letter marks.\n\nImportant details:\nFocus on structured-layout and text-field discipline: modular grid, clear pictogram hierarchy, high-contrast headline area, numbered-looking circles that are not readable numbers, and subtle vintage print grain. Preserve the design-history angle by using period-appropriate flat shapes and lithographic texture. Avoid modern app UI, contemporary public-health slogans, or realistic disease imagery. The poster should be safe, fictional, and analytical rather than prescriptive.\n\nUse case:\nPropaganda Poster History single study 6/8, an independent modernist public-health poster-language specimen for design-history comparison.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 vertical aspect ratio, no real health agency marks, no actual medical instruction, no current public-policy slogan, no national flag, no frightening disease imagery.",
+  "id": "06-public-health-modernist",
+  "title": "Public Health Modernist",
+  "description": "A fictional modernist public-health poster study with pictogram hierarchy and unreadable instruction fields.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/propaganda-poster-history/packages/single-poster-history-studies/images/06-public-health-modernist/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for modernist public-health poster-layout study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Public Health Modernist",
+      "description": "A fictional modernist public-health poster study with pictogram hierarchy and unreadable instruction fields."
+    },
+    "zh-CN": {
+      "title": "现代主义公共卫生",
+      "description": "虚构现代主义公共卫生海报研究,包含图标层级和不可读说明区域。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge",
+      "single"
+    ],
+    "alt": {
+      "en": "A modernist public-health poster study with simple handwashing pictograms and unreadable headline bars.",
+      "zh-CN": "现代主义公共卫生海报研究,含简单洗手图标和不可读标题条。"
+    }
+  }
+}

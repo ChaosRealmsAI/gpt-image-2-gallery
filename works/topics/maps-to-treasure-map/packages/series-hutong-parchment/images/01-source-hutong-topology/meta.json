@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square, clean modern digital map-style view of a dense Beijing hutong neighborhood, shown from directly overhead with no perspective tilt. Use a light gray background, thin white alleys, slightly wider pale roads, a muted blue walking route, and small unlabeled landmark icons. The composition should feel like a map screenshot while remaining entirely non-branded and free of interface elements.\n\nSubject:\nCreate a plausible old-city hutong route topology: narrow lanes form irregular rectangular blocks, two wider east-west roads frame the area, a small lake-like blue shape sits near one corner, and the blue route zigzags through six turns before reaching a tiny red destination marker. The network should feel like central Beijing alley structure rather than a generic grid, but do not include exact street names or any service branding.\n\nImportant details:\nThis is the source reference for a transformation series. The road topology, route turns, marker position, block proportions, water shape, and landmark icon positions must be clear enough for later images to preserve them while changing materials. Keep the view flat, diagrammatic, and readable as modern map data. Avoid decorative aging here; this image should be the modern topology input before the treasure-map conversion.\n\nUse case:\nMaps to Treasure Map series study 1/8, establishing the modern hutong map topology that later parchment variants must preserve.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no app controls, no brand colors tied to a real map service, no compass rose, no antique paper texture, no photographic buildings, no randomized maze, no missing route turns.",
+  "id": "01-source-hutong-topology",
+  "title": "Source Hutong Topology",
+  "description": "A non-branded modern hutong map topology that establishes the route structure for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "world-knowledge",
+    "editing-workflow"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root source topology for the hutong-to-treasure-map fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Source Hutong Topology",
+      "description": "A non-branded modern hutong map topology that establishes the route structure for the series."
+    },
+    "zh-CN": {
+      "title": "胡同拓扑源图",
+      "description": "一张非品牌现代胡同地图拓扑图，为系列建立路线结构。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A non-branded modern hutong map with a blue route and red destination marker.",
+      "zh-CN": "一张非品牌现代胡同地图，带蓝色路线和红色终点标记。"
+    }
+  }
+}

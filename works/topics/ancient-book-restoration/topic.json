@@ -1,0 +1,50 @@
+{
+  "id": "ancient-book-restoration",
+  "slug": "ancient-book-restoration",
+  "category": "culture",
+  "style": [
+    "photoreal",
+    "retro"
+  ],
+  "capability": [
+    "editing-workflow",
+    "physics-materials",
+    "world-knowledge"
+  ],
+  "title": "Ancient Book Restoration",
+  "short_title": "Book Restore",
+  "description": "A Prompt Atlas theme for Ancient Book Restoration, testing world-knowledge, editing-workflow with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Ancient Book Restoration",
+      "short_title": "Book Restore",
+      "description": "A Prompt Atlas theme for Ancient Book Restoration, testing world-knowledge, editing-workflow with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "古籍复原 · 对照页",
+      "short_title": "古籍复原",
+      "description": "古籍复原 · 对照页：《永乐大典》残页 + 现代复原 + 注释 + 年代对照"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "micro-texture"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-ancient-book-restoration-studies",
+      "type": "single",
+      "title": "Book Restore Material Studies",
+      "path": "packages/single-ancient-book-restoration-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA vertical 9:16 new Chinese ink poster on smooth rice-white paper, composed with a wide empty upper field and a quiet architectural scene near the lower third. Use low-saturation mist blue, pale gray, charcoal ink, and a small celadon accent. The poster should feel like a refined cultural travel campaign, but without any brand mark or destination logo.\n\nSubject:\nA single arched stone moon bridge crosses a narrow lake, drawn in minimal ink with softened edges and a faint mirrored reflection. Behind it, two distant mountains fade into mist and a small round moon hangs high in the open space. Place the readable Chinese title \"月桥过水\" horizontally below the moon but above the bridge, with elegant modern Song-style typography and exact spacing between the four characters.\n\nImportant details:\nKeep the bridge simple and iconic, not a detailed tourist illustration. The open sky must remain mostly blank, with only the moon and title interrupting it. The title should be crisp, centered on a stable invisible grid, and the only readable text. The bridge reflection should align with the waterline, proving structured layout control. Add no explanatory copy; let the mountain, bridge, water, and title carry the poster.\n\nUse case:\nNew Chinese Ink Poster single study 7/8, testing architectural ink iconography, centered Chinese headline rendering, and spacious vertical travel-poster composition.\n\nConstraints:\nNo readable text outside the specified Chinese title, no watermark, no logos, preserve exact 9:16 aspect ratio, no tourists, no lantern festival clutter, no saturated sunset, no fake destination branding, no heavy border, no broken bridge reflection.",
+  "id": "07-moon-bridge",
+  "title": "Moon Bridge",
+  "description": "A refined travel-style Chinese ink poster with a moon bridge, lake reflection, distant mountains, and the title Yue Qiao Guo Shui.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "extreme-aspect-ratio",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/new-chinese-ink-poster/packages/single-ink-poster-studies/images/07-moon-bridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical poster study for moon-bridge architectural composition."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moon Bridge",
+      "description": "A refined travel-style Chinese ink poster with a moon bridge, lake reflection, distant mountains, and the title Yue Qiao Guo Shui."
+    },
+    "zh-CN": {
+      "title": "月桥过水",
+      "description": "文旅气质的新中式水墨海报,月桥、湖面倒影、远山和“月桥过水”标题构成极简布局。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "extreme-aspect-ratio",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A vertical ink travel poster with a moon bridge, reflection, pale mountains, and a centered Chinese title.",
+      "zh-CN": "竖版水墨文旅海报中有月桥倒影、淡山和居中的中文标题。"
+    }
+  }
+}

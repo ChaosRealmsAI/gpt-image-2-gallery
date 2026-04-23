@@ -1,0 +1,58 @@
+{
+  "id": "museum-exploded-view",
+  "slug": "museum-exploded-view",
+  "category": "culture",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "physics-materials",
+    "world-knowledge"
+  ],
+  "title": "Museum Exploded View",
+  "short_title": "Museum Exploded View",
+  "description": "A Prompt Atlas theme for museum-grade exploded artifact diagrams, testing structured layout, physical materials, technical annotation, and bilingual museum labeling with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Museum Exploded View",
+      "short_title": "Museum Exploded View",
+      "description": "A Prompt Atlas theme for museum-grade exploded artifact diagrams, testing structured layout, physical materials, technical annotation, and bilingual museum labeling with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Museum Exploded View · 文物拆解图鉴",
+      "short_title": "文物拆解图鉴",
+      "description": "Museum Exploded View · 文物拆解图鉴：将文物拆成爆炸图，展示材料、工艺、年代、编号标注和中英双语信息层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "technical-diagram",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-bronze-ding-atlas",
+      "type": "series",
+      "title": "Bronze Ding Atlas",
+      "path": "packages/series-bronze-ding-atlas/package.json"
+    },
+    {
+      "id": "single-artifact-exploded-studies",
+      "type": "single",
+      "title": "Artifact Exploded Studies",
+      "path": "packages/single-artifact-exploded-studies/package.json"
+    }
+  ]
+}

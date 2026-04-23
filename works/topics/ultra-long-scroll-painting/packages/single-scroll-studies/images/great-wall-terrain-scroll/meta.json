@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA single vertical 9:21 illustrated terrain scroll, like a museum-grade painted map seen from a high oblique angle. The scroll travels from rugged northern mountains at the top through watchtowers and ridgelines toward lower valleys and villages at the bottom.\n\nSubject:\nA continuous Great Wall terrain narrative: crenellated wall segments climbing ridges, beacon towers, steep stone stairs, mountain passes, dry grasses, distant villages, switchback paths, old caravan traces, and changing weather bands. The wall must remain spatially continuous through the entire image.\n\nImportant details:\nExtreme vertical 9:21 aspect ratio, readable topographic logic, hand-painted cartographic detail, believable Chinese mountain geology, mist depth, tiny human-scale landmarks, accurate wall geometry following ridgelines, clear foreground-middle-background layering, rich detail without visual clutter.\n\nUse case:\nIndependent Prompt Atlas image for testing long-format landscape continuity, world-knowledge detail, and dense structured composition.\n\nConstraints:\nNo readable text, no labels, no watermark, no logos, no map pins, no fantasy castle additions, no disconnected wall fragments, no frame, preserve exact 9:21 vertical aspect ratio.",
+  "id": "great-wall-terrain-scroll",
+  "title": "Great Wall Terrain Scroll",
+  "description": "A 9:21 terrain scroll where the Great Wall remains continuous across mountains, passes, and villages.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:21",
+  "tags": [
+    "scroll-painting",
+    "extreme-aspect-ratio",
+    "world-knowledge",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ultra-long-scroll-painting/packages/single-scroll-studies/images/great-wall-terrain-scroll/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Great Wall Terrain Scroll",
+      "description": "A 9:21 terrain scroll where the Great Wall remains continuous across mountains, passes, and villages."
+    },
+    "zh-CN": {
+      "title": "长城地形长卷",
+      "description": "一张 9:21 地形长卷，长城在山脊、关口和村落之间保持连续。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scroll-painting",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A vertical painted terrain scroll with the Great Wall running continuously along mountain ridges.",
+      "zh-CN": "竖向地形画卷中，长城沿山脊连续延伸。"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "song-dynasty-social-feed",
+  "slug": "song-dynasty-social-feed",
+  "category": "culture",
+  "style": [
+    "painterly",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Song Dynasty Social Feed",
+  "short_title": "Song Feed",
+  "description": "A Prompt Atlas theme for modern social-feed layouts reimagined through Song dynasty public life, literary culture, and market scenes.",
+  "i18n": {
+    "en": {
+      "title": "Song Dynasty Social Feed",
+      "short_title": "Song Feed",
+      "description": "A Prompt Atlas theme for modern social-feed layouts reimagined through Song dynasty public life, literary culture, and market scenes."
+    },
+    "zh-CN": {
+      "title": "宋朝朋友圈",
+      "short_title": "宋朝朋友圈",
+      "description": "用现代社交动态版式重构宋代文人、市场和出游场景。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-social-feed-studies",
+      "type": "single",
+      "title": "Social Feed Studies",
+      "path": "packages/single-social-feed-studies/package.json"
+    }
+  ]
+}

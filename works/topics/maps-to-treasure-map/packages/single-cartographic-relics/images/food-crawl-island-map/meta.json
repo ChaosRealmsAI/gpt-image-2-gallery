@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square restaurant-table still life of a parchment treasure map placed beside chopsticks, a blank ceramic sauce dish, and a brass coin-like token. Warm lantern light creates amber shadows, and the paper has oil speckles, folded corners, and hand-inked decorative borders. The camera is overhead with slight depth from the raised table objects.\n\nSubject:\nConvert a modern urban food-crawl map into a whimsical treasure chart. Show four small market-stall icons connected by a dotted walking route around irregular alley blocks and a canal-like water strip, ending at a chest-shaped destination marker. The route must remain plausible for a pedestrian food walk: connected paths, no jumps across water, and clear order from the first stall to the final marker. Do not use readable restaurant names, prices, menus, or city labels.\n\nImportant details:\nThe conversion should retain route logic while changing the emotional package into a souvenir-worthy treasure map. Use hand-drawn alleys, little bridge symbols, inked waves for the canal, spice-colored stains, paper fibers, soft oil translucency, and shadows from chopsticks and ceramic. The composition should suggest a tourist keepsake or local food tour promotion without any branding or text dependency.\n\nUse case:\nMaps to Treasure Map single study 8/8, testing an urban food-crawl route transformed into a parchment treasure-map souvenir.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no restaurant brand, no menu words, no prices, no route crossing water without bridges, no random disconnected stalls, no modern phone UI, no glossy laminated flyer.",
+  "id": "food-crawl-island-map",
+  "title": "Food Crawl Island Map",
+  "description": "An urban food-crawl route transformed into a parchment treasure-map souvenir.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "world-knowledge",
+    "material-swap",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/single-cartographic-relics/images/food-crawl-island-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for turning an urban food-crawl route into a tactile souvenir treasure map."
+  },
+  "i18n": {
+    "en": {
+      "title": "Food Crawl Island Map",
+      "description": "An urban food-crawl route transformed into a parchment treasure-map souvenir."
+    },
+    "zh-CN": {
+      "title": "美食路线岛图",
+      "description": "一条城市美食漫游路线被转换成羊皮纸藏宝图纪念品。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A parchment food-crawl treasure map connects market stalls around alleys and a canal.",
+      "zh-CN": "一张羊皮纸美食藏宝图连接小巷和水道周围的摊位路线。"
+    }
+  }
+}

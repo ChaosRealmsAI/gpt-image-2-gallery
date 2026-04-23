@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square premium travel-keepsake product photograph on a pale linen surface, evenly lit with soft daylight. A handmade parchment map lies inside a shallow wooden frame beside a blank brass key, a red cord tassel, and dried tea leaves. The palette is tan, ink brown, muted red, and weathered brass, with quiet commercial styling for a boutique tourism souvenir.\n\nSubject:\nPreserve the referenced hutong route topology exactly enough to remain recognizable: same narrow lane network, same six-turn route, same water shape, same destination position, and same landmark rhythm. Redraw the modern map as a collectible treasure map with inked alleys, dotted walking path, small gate icons, tiny mountains as decorative margins, and an X at the endpoint. The surrounding souvenir objects must not overlap the central map data.\n\nImportant details:\nThis variant tests whether the converted map can be used as a real travel or real-estate keepsake. The map should look handcrafted but accurate: no street-name labels, no interface remnants, no arbitrary fantasy coastline, and no topology drift. Show believable linen weave, parchment fibers, ink feathering, frame shadows, brass tarnish, and slight paper warping. The old-world styling should enhance the modern route rather than replace it.\n\nUse case:\nMaps to Treasure Map series study 4/8, testing a commercial keepsake version that preserves the reference hutong map topology.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand labels, no printed tourist brochure, no objects covering route turns, no missing water shape, no random maze, no glossy plastic frame, no modern map pins except the transformed endpoint X.",
+  "id": "04-travel-keepsake-map",
+  "title": "Travel Keepsake Map",
+  "description": "A boutique travel souvenir version preserving the referenced hutong treasure route.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "material-swap",
+    "commercial-mockup",
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/04-travel-keepsake-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-source-hutong-topology",
+        "meta_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/meta.json",
+        "image_path": "works/topics/maps-to-treasure-map/packages/series-hutong-parchment/images/01-source-hutong-topology/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the source topology to preserve the hutong route in a boutique travel-keepsake product setting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Travel Keepsake Map",
+      "description": "A boutique travel souvenir version preserving the referenced hutong treasure route."
+    },
+    "zh-CN": {
+      "title": "旅行纪念藏宝图",
+      "description": "一张精品旅行纪念品版本，保留参考胡同藏宝路线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A framed travel keepsake treasure map preserves the same hutong route topology.",
+      "zh-CN": "一张装框旅行纪念藏宝图保留同一套胡同路线拓扑。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square museum catalog plate on warm off-white paper, photographed straight-on with a bronze ritual vessel centered on a subtle plinth shadow. Use quiet gallery lighting, high material fidelity, and generous margins for callouts. The design should feel like a serious collection handbook: restrained serif title area, fine leader lines, small bilingual labels, and a clean grid that can support later exploded diagrams.\n\nSubject:\nCreate the reference object for a bronze ding atlas: a three-legged ritual vessel with two upright handles, thick rim, rounded belly, raised taotie mask ornament, casting seams, and aged green-brown patina. Include only these readable bilingual labels: Ritual Ding / 青铜鼎, rim / 口沿, ears / 立耳, taotie mask / 饕餮纹, legs / 三足, Late Shang / 商晚期. The object should be intact, not exploded yet, with labels placed around it like a museum identification plate.\n\nImportant details:\nThe artifact identity must be strong enough for later reference-dependent images: consistent silhouette, proportions, handles, legs, ornament bands, corrosion texture, and bronze wall thickness. Leader lines must be thin and precise, not tangled. Keep the bilingual text readable but secondary to the object. No fictional brand or accession number is needed.\n\nUse case:\nMuseum Exploded View series study 1/8, establishing the bronze ding reference for technical fanout views.\n\nConstraints:\nNo readable text except the specified bilingual labels, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy weapon styling, no glossy new bronze, no random inscriptions, no incorrect extra legs, no cluttered museum background.",
+  "id": "01-reference-bronze-ding",
+  "title": "Reference Bronze Ding",
+  "description": "A labeled bronze ding reference plate establishing object identity for the exploded-view series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "technical-diagram",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/museum-exploded-view/packages/series-bronze-ding-atlas/images/01-reference-bronze-ding/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the bronze ding exploded-view series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Bronze Ding",
+      "description": "A labeled bronze ding reference plate establishing object identity for the exploded-view series."
+    },
+    "zh-CN": {
+      "title": "青铜鼎参考图",
+      "description": "一张带标注的青铜鼎参考图，为爆炸图系列建立文物身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "series"
+    ],
+    "alt": {
+      "en": "A bronze ritual ding on a museum catalog plate with bilingual callouts.",
+      "zh-CN": "一件青铜礼器鼎置于博物馆图版上，并带中英双语标注。"
+    }
+  }
+}

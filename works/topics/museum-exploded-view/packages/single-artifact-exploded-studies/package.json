@@ -1,0 +1,58 @@
+{
+  "id": "single-artifact-exploded-studies",
+  "type": "single",
+  "title": "Artifact Exploded Studies",
+  "description": "Four independent museum exploded-view studies for porcelain, jade, astrolabe, and helmet artifacts without reference dependencies.",
+  "creative_direction": "Each image turns a different museum object into a precise educational exploded diagram, stressing material credibility, callout hierarchy, and object-specific construction logic.",
+  "cover_image": "images/porcelain-vase-cutaway/image.png",
+  "i18n": {
+    "en": {
+      "title": "Artifact Exploded Studies",
+      "description": "Four independent museum exploded-view studies for porcelain, jade, astrolabe, and helmet artifacts."
+    },
+    "zh-CN": {
+      "title": "文物拆解单图",
+      "description": "四张独立文物爆炸图研究，覆盖瓷器、玉器、星盘和头盔。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "physics-materials",
+      "technical-diagram"
+    ]
+  },
+  "images": [
+    {
+      "id": "porcelain-vase-cutaway",
+      "title": "Porcelain Vase Cutaway",
+      "image": "images/porcelain-vase-cutaway/image.png",
+      "meta": "images/porcelain-vase-cutaway/meta.json"
+    },
+    {
+      "id": "jade-pendant-assembly",
+      "title": "Jade Pendant Assembly",
+      "image": "images/jade-pendant-assembly/image.png",
+      "meta": "images/jade-pendant-assembly/meta.json"
+    },
+    {
+      "id": "astrolabe-mechanism",
+      "title": "Astrolabe Mechanism",
+      "image": "images/astrolabe-mechanism/image.png",
+      "meta": "images/astrolabe-mechanism/meta.json"
+    },
+    {
+      "id": "armored-helmet-layers",
+      "title": "Armored Helmet Layers",
+      "image": "images/armored-helmet-layers/image.png",
+      "meta": "images/armored-helmet-layers/meta.json"
+    }
+  ]
+}

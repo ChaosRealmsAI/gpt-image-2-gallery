@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA portrait 4:5 fictional mobile social-feed screen showing a long comment thread over a Song dynasty night-market post. The interface is modern, clean, and screenshot-like, but uses no real app branding.\n\nSubject:\nA night market post from a fictional Song dynasty merchant account: lantern stalls, steam from food baskets, painted umbrellas, ceramic bowls, silk bolts, river bridge reflections, and customers in period clothing. Below the image, a neatly stacked comment thread includes scholar, vendor, and traveler profiles with compact readable UI text and small reaction icons.\n\nImportant details:\nStrong structured layout, realistic feed spacing, legible hierarchy, warm lantern palette, period-accurate market objects, clear distinction between image area and comments, interface shadows and dividers kept subtle, no cluttered overlap, readable top-level UI controls, dense comments that still align cleanly.\n\nUse case:\nIndependent Prompt Atlas image for testing mobile UI layout, world-knowledge reconstruction, and high-density comment composition.\n\nConstraints:\nNo real app logo, no real brand marks, no watermark, no broken alignment, no random Latin filler text, no modern storefront signage, no photorealistic phone frame, preserve exact 4:5 portrait aspect ratio.",
+  "id": "market-lantern-thread",
+  "title": "Market Lantern Thread",
+  "description": "A fictional Song dynasty night-market post with a dense modern comment thread.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "4:5",
+  "tags": [
+    "social-feed",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/song-dynasty-social-feed/packages/single-social-feed-studies/images/market-lantern-thread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Market Lantern Thread",
+      "description": "A fictional Song dynasty night-market post with a dense modern comment thread."
+    },
+    "zh-CN": {
+      "title": "夜市灯帖",
+      "description": "一张虚构宋代夜市动态图，带有密集的现代评论线程。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "social-feed",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A fictional mobile feed post about a Song dynasty lantern market with stacked comments.",
+      "zh-CN": "虚构移动动态展示宋代灯市，并带有层叠评论。"
+    }
+  }
+}
