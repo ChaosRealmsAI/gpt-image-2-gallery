@@ -1,0 +1,108 @@
+{
+  "id": "series-identity-lock",
+  "type": "series",
+  "title": "Founder Lighting Matrix",
+  "description": "A nine-image identity-locked portrait series for Founder Headshot Lighting Matrix, starting from one reference portrait and expanding into eight controlled variations.",
+  "creative_direction": "Nine-image founder portrait matrix: image 01 defines the executive identity, and images 02-09 explore premium studio and office-lighting setups without drifting from the same person.",
+  "cover_image": "images/01-identity-reference/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-identity-reference/meta.json",
+      "images/02-clean-white-studio/meta.json",
+      "images/03-dark-tech-rim-light/meta.json",
+      "images/04-warm-hospitality-portrait/meta.json",
+      "images/05-editorial-black-backdrop/meta.json",
+      "images/06-soft-window-office/meta.json",
+      "images/07-seated-thought-leader/meta.json",
+      "images/08-profile-confidence/meta.json",
+      "images/09-founder-casual-finish/meta.json"
+    ],
+    "ref_strategy": "Run 01-identity-reference first. Use its runtime result URL as --ref for 02-clean-white-studio, 03-dark-tech-rim-light, 04-warm-hospitality-portrait, 05-editorial-black-backdrop, 06-soft-window-office, 07-seated-thought-leader, 08-profile-confidence, 09-founder-casual-finish. Queue may run the dependent images concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Founder Lighting Matrix",
+      "description": "A nine-image identity-locked portrait series for Founder Headshot Lighting Matrix, starting from one reference portrait and expanding into eight controlled variations."
+    },
+    "zh-CN": {
+      "title": "创始人打光矩阵",
+      "description": "创始人棚拍头像矩阵主题下的九张身份锁定系列图，先建立基准人像，再展开八张受控变化。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "editing-workflow",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-identity-reference",
+      "title": "Identity Reference",
+      "image": "images/01-identity-reference/image.png",
+      "meta": "images/01-identity-reference/meta.json"
+    },
+    {
+      "id": "02-clean-white-studio",
+      "title": "Clean White Studio",
+      "image": "images/02-clean-white-studio/image.png",
+      "meta": "images/02-clean-white-studio/meta.json"
+    },
+    {
+      "id": "03-dark-tech-rim-light",
+      "title": "Dark Tech Rim Light",
+      "image": "images/03-dark-tech-rim-light/image.png",
+      "meta": "images/03-dark-tech-rim-light/meta.json"
+    },
+    {
+      "id": "04-warm-hospitality-portrait",
+      "title": "Warm Hospitality Portrait",
+      "image": "images/04-warm-hospitality-portrait/image.png",
+      "meta": "images/04-warm-hospitality-portrait/meta.json"
+    },
+    {
+      "id": "05-editorial-black-backdrop",
+      "title": "Editorial Black Backdrop",
+      "image": "images/05-editorial-black-backdrop/image.png",
+      "meta": "images/05-editorial-black-backdrop/meta.json"
+    },
+    {
+      "id": "06-soft-window-office",
+      "title": "Soft Window Office",
+      "image": "images/06-soft-window-office/image.png",
+      "meta": "images/06-soft-window-office/meta.json"
+    },
+    {
+      "id": "07-seated-thought-leader",
+      "title": "Seated Thought Leader",
+      "image": "images/07-seated-thought-leader/image.png",
+      "meta": "images/07-seated-thought-leader/meta.json"
+    },
+    {
+      "id": "08-profile-confidence",
+      "title": "Profile Confidence",
+      "image": "images/08-profile-confidence/image.png",
+      "meta": "images/08-profile-confidence/meta.json"
+    },
+    {
+      "id": "09-founder-casual-finish",
+      "title": "Founder Casual Finish",
+      "image": "images/09-founder-casual-finish/image.png",
+      "meta": "images/09-founder-casual-finish/meta.json"
+    }
+  ]
+}

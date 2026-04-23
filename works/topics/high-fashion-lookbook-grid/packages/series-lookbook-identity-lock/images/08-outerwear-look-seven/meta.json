@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for High Fashion Lookbook Grid. Use a lookbook composition with clear stance, full-body silhouette, and fashion-week-grade restraint. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one high-fashion model with deep espresso skin, sharp editorial bone structure, long neck, stable lean proportions, and an unwavering runway stare. Preserve the same subject through a heavier outerwear styling direction with stable body proportions and facial recognition. Use the example direction from the brief as grounding context: Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Even when the outfit becomes bulkier, the model must remain unquestionably the same. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nHigh Fashion Lookbook Grid series study 8/9, a stronger outerwear or statement layer look.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no inflated body size, no hidden neck, no hat that changes identity, no second model.",
+  "id": "08-outerwear-look-seven",
+  "title": "Outerwear Look Seven",
+  "description": "Outerwear Look Seven variation for High Fashion Lookbook Grid, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/08-outerwear-look-seven/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-look-anchor",
+        "meta_path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/01-reference-look-anchor/meta.json",
+        "image_path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/01-reference-look-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a stronger outerwear or statement layer look.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Outerwear Look Seven",
+      "description": "Outerwear Look Seven variation for High Fashion Lookbook Grid, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "外套造型七",
+      "description": "外套造型七 是 高级时装 Lookbook 九宫格 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Outerwear Look Seven portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的外套造型七肖像变体。"
+    }
+  }
+}

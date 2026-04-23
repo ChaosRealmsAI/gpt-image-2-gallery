@@ -1,0 +1,55 @@
+{
+  "id": "high-fashion-lookbook-grid",
+  "slug": "high-fashion-lookbook-grid",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "structured-layout",
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "High Fashion Lookbook Grid",
+  "short_title": "Lookbook Grid",
+  "description": "Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.",
+  "i18n": {
+    "en": {
+      "title": "High Fashion Lookbook Grid",
+      "short_title": "Lookbook Grid",
+      "description": "Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions."
+    },
+    "zh-CN": {
+      "title": "高级时装 Lookbook 九宫格",
+      "short_title": "Lookbook",
+      "description": "做同一个模特跨多套造型的时装 lookbook 页面，重点看锁脸、服装变化、页内层级和杂志感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 681,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-lookbook-identity-lock",
+      "type": "series",
+      "title": "Identity-Locked Lookbook Grid",
+      "path": "packages/series-lookbook-identity-lock/package.json"
+    }
+  ]
+}

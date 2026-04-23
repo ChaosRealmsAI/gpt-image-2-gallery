@@ -1,0 +1,48 @@
+{
+  "id": "film-photography-style-atlas",
+  "slug": "film-photography-style-atlas",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "retro"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Film Photography Style Atlas",
+  "short_title": "Film Atlas",
+  "description": "A Prompt Atlas theme for Film Photography Style Atlas, testing structured-layout, photorealism, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Film Photography Style Atlas",
+      "short_title": "Film Atlas",
+      "description": "A Prompt Atlas theme for Film Photography Style Atlas, testing structured-layout, photorealism, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "胶片摄影美学多风格图鉴",
+      "short_title": "胶片图鉴",
+      "description": "胶片摄影美学多风格图鉴：35mm / Fujifilm Pro 400H / Kodak Portra / CCD 硬闪 / Polaroid 拍立得 / Cyanotype 蓝晒 · 5-6 风格对照"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-film-photography-style-studies",
+      "type": "single",
+      "title": "Film Atlas Photography Studies",
+      "path": "packages/single-film-photography-style-studies/package.json"
+    }
+  ]
+}

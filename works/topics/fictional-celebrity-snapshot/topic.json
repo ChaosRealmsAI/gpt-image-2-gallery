@@ -1,0 +1,48 @@
+{
+  "id": "fictional-celebrity-snapshot",
+  "slug": "fictional-celebrity-snapshot",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Fictional Celebrity Snapshot",
+  "short_title": "Fake Snapshot",
+  "description": "A Prompt Atlas theme for photorealistic candid-style images of invented public figures in mundane situations, testing casual camera realism and reasoning composition without real-person likeness.",
+  "i18n": {
+    "en": {
+      "title": "Fictional Celebrity Snapshot",
+      "short_title": "Fake Snapshot",
+      "description": "A Prompt Atlas theme for photorealistic candid-style images of invented public figures in mundane situations, testing casual camera realism and reasoning composition without real-person likeness."
+    },
+    "zh-CN": {
+      "title": "名人虚构 snapshot · 伪手机抓拍",
+      "short_title": "虚构抓拍",
+      "description": "用完全虚构的公众人物制造看似随手拍的日常照片，测试手机照片真实感、场景推理和非真实事件构图。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 88,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "social-feed",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-fictional-snapshots",
+      "type": "single",
+      "title": "Fictional Snapshots",
+      "path": "packages/single-fictional-snapshots/package.json"
+    }
+  ]
+}

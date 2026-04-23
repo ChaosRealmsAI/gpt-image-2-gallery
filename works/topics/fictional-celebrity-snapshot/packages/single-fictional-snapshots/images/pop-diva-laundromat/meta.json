@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square smartphone snapshot inside a neighborhood laundromat on a rainy evening, framed from waist height between rows of washing machines. Fluorescent light mixes with blue window light, wet umbrellas lean near the door, and reflections ripple across stainless steel machine doors. The photo should feel casually captured, with a slightly crooked frame, phone noise, and one foreground machine edge partly blocking the view.\n\nSubject:\nA completely fictional pop-diva celebrity-like person sits on a plastic chair folding a bright stage-jacket garment beside a basket of ordinary laundry. They have an invented face, unique hairstyle, and dramatic but unbranded sunglasses pushed onto their head, with no resemblance to any real singer. Their expression is relaxed and slightly amused. Two regular customers nearby pretend not to stare, creating the sense of quiet recognition.\n\nImportant details:\nThe scene should balance glamour and mundanity. Use sequined fabric texture, damp pavement visible through the window, detergent bottles with abstract shapes only, realistic machine reflections, and skin tones under mixed fluorescent light. The subject should look famous through presence, styling, and bystander behavior, not through real identity cues. Keep the snapshot ethically ordinary: no hidden private space, no scandal, no intrusive close-up.\n\nUse case:\nFictional Celebrity Snapshot single study 4/8, testing a mundane invented pop-star laundromat snapshot with strong phone-photo realism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no brand detergent labels, no paparazzi flash, no staged fashion shoot, no distorted washing machines.",
+  "id": "pop-diva-laundromat",
+  "title": "Pop Diva Laundromat",
+  "description": "A rainy-evening phone snapshot of an invented pop-diva figure folding a stage jacket in a laundromat.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "fashion",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/pop-diva-laundromat/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pop Diva Laundromat",
+      "description": "A rainy-evening phone snapshot of an invented pop-diva figure folding a stage jacket in a laundromat."
+    },
+    "zh-CN": {
+      "title": "流行天后洗衣房",
+      "description": "一张雨夜手机抓拍，虚构流行天后感人物在自助洗衣房折叠舞台夹克。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "fashion",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square laundromat phone snapshot of a fictional pop-diva-like person folding a bright jacket.",
+      "zh-CN": "一张方形洗衣房手机抓拍，虚构流行天后感人物正在折叠亮色夹克。"
+    }
+  }
+}

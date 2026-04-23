@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Documentary City Portrait Essay. Use a subtle reflective city portrait using glass, passing light, and careful profile control. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one city resident with medium brown skin, short natural curls, practical everyday wardrobe, and a quiet observant gaze. Preserve the same profile structure and hair base while letting reflection and city residue add complexity. Use the example direction from the brief as grounding context: Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Reflections may multiply surfaces, but not identity. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nDocumentary City Portrait Essay series study 8/9, a profile with window reflection.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no double-face confusion, no readable storefront text, no melted reflection anatomy, no age drift.",
+  "id": "08-profile-window-reflection",
+  "title": "Profile Window Reflection",
+  "description": "Profile Window Reflection variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "world-knowledge",
+    "reasoning-composition",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/08-profile-window-reflection/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-city-anchor",
+        "meta_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/meta.json",
+        "image_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a profile with window reflection.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Profile Window Reflection",
+      "description": "Profile Window Reflection variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "窗边倒影侧颜",
+      "description": "窗边倒影侧颜 是 城市纪实肖像图集 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Profile Window Reflection portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的窗边倒影侧颜肖像变体。"
+    }
+  }
+}

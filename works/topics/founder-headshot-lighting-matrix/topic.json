@@ -1,0 +1,51 @@
+{
+  "id": "founder-headshot-lighting-matrix",
+  "slug": "founder-headshot-lighting-matrix",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "Founder Headshot Lighting Matrix",
+  "short_title": "Founder Headshots",
+  "description": "Build premium founder and executive headshot sets across distinct studio lighting setups while keeping identity credible, posture natural, and commercial polish.",
+  "i18n": {
+    "en": {
+      "title": "Founder Headshot Lighting Matrix",
+      "short_title": "Founder Headshots",
+      "description": "Build premium founder and executive headshot sets across distinct studio lighting setups while keeping identity credible, posture natural, and commercial polish."
+    },
+    "zh-CN": {
+      "title": "创始人棚拍头像矩阵",
+      "short_title": "创始人头像",
+      "description": "围绕同一个 founder 或高管，做多套不同光位的专业棚拍头像，要求像真实商务摄影，不塑料、不漂脸。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 901,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "editing-workflow",
+      "multi-image-reference"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Founder Lighting Matrix",
+      "path": "packages/series-identity-lock/package.json"
+    }
+  ]
+}

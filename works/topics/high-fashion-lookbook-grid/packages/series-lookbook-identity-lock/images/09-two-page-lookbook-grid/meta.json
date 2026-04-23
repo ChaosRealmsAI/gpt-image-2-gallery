@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for High Fashion Lookbook Grid. Use a square composition that implies a two-page spread or collage board while remaining clean, editorial, and non-textual. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one high-fashion model with deep espresso skin, sharp editorial bone structure, long neck, stable lean proportions, and an unwavering runway stare. Resolve the same identity into a finished lookbook-style grid or spread that showcases outfit range without losing the anchor likeness. Use the example direction from the brief as grounding context: Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Build editorial lookbook grids that keep the same model identity stable across multiple outfits, poses, and page compositions.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Structured layout matters here, but every panel must still preserve exact face / hair base / body proportions from the reference model. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nHigh Fashion Lookbook Grid series study 9/9, a final lookbook-grid finish.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no readable captions, no magazine masthead, no broken spread alignment, no random collage chaos.",
+  "id": "09-two-page-lookbook-grid",
+  "title": "Two-Page Lookbook Grid",
+  "description": "Two-Page Lookbook Grid variation for High Fashion Lookbook Grid, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "multi-image-reference",
+    "structured-layout",
+    "commercial-mockup",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/09-two-page-lookbook-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-look-anchor",
+        "meta_path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/01-reference-look-anchor/meta.json",
+        "image_path": "works/topics/high-fashion-lookbook-grid/packages/series-lookbook-identity-lock/images/01-reference-look-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a final lookbook-grid finish.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Two-Page Lookbook Grid",
+      "description": "Two-Page Lookbook Grid variation for High Fashion Lookbook Grid, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "双页型录总览",
+      "description": "双页型录总览 是 高级时装 Lookbook 九宫格 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "commercial-mockup",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Two-Page Lookbook Grid portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的双页型录总览肖像变体。"
+    }
+  }
+}

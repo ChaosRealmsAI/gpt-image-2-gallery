@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nA square portrait reference for Fitness Wellness Brand Portraits. Build a premium studio-fashion setup with neutral background, elegant lens perspective, and clean full-body-to-three-quarter readability The image should feel like a real high-end commissioned portrait session, with clean camera discipline, believable lens perspective, and enough tonal control that the face, hair texture, and clothing surfaces all read clearly. Keep the background simple, premium, and non-distracting.\n\nSubject:\nShow one believable wellness founder-model in the early thirties with golden olive skin, dark brown eyes, high cheekbones, and long dark hair pulled into a polished low ponytail, wearing a minimal black active-luxe set with clean skin, healthy texture, and poised athletic posture. This first frame should establish the exact identity, age read, haircut base, and body-scale impression that the whole series will depend on. Pose the subject in a calm, commercially usable way so the image can anchor all later variations without ambiguity.\n\nImportant details:\nThis is the identity anchor for the full series. Preserve the face shape, body proportions, shoulder width, leg length impression, hair base, and skin-tone family while the wardrobe and mood shift. Include realistic pores, stray hairs, fabric texture, and subtle under-eye detail. The result should feel specific, expensive, and usable, not like a generic stock portrait. Later images must preserve exact face / hair base / body proportions from the reference model.\n\nUse case:\nFitness Wellness Brand Portraits series study 1/9, establishing the identity reference for all later portrait variations.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no runway chaos, no giant props, no beauty-filter skin, no duplicate people, no extra limbs, no warped facial symmetry, no plastic skin, no generic stock-photo blandness.",
+  "id": "01-reference-fashion-anchor",
+  "title": "Reference Fashion Anchor",
+  "description": "A neutral identity anchor portrait for Fitness Wellness Brand Portraits, defining the exact face, hair base, body proportions, and commercial realism for the full series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "photorealism",
+    "commercial-mockup",
+    "fashion",
+    "editing-workflow",
+    "virtual-try-on",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fitness-wellness-brand-portraits/packages/series-fashion-campaign-sequence/images/01-reference-fashion-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root fashion identity reference for the portrait fanout.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Fashion Anchor",
+      "description": "A neutral identity anchor portrait for Fitness Wellness Brand Portraits, defining the exact face, hair base, body proportions, and commercial realism for the full series."
+    },
+    "zh-CN": {
+      "title": "时尚基准像",
+      "description": "健身与健康品牌人像 系列中的时尚基准像，在保持同一人物身份的前提下完成一次受控变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "fashion",
+      "editing-workflow",
+      "virtual-try-on",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Reference Fashion Anchor establishing the locked identity for Fitness Wellness Brand Portraits.",
+      "zh-CN": "健身与健康品牌人像 的身份基准图。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Forest Fog Morning Reverie. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A primeval forest before sunrise is layered with cold ground fog that drifts between roots and trunks, with the nearest trees dark and tactile, middle-ground branches softened by mist, and the distance fading into pale blue-gray air. Pull back enough to explain the broader geography or architectural envelope while keeping the square crop intentional and balanced.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Ancient bark, moss-dark trunks, a still deer near a clearing edge, and damp earth should anchor the scene, but the composition should remain spacious enough that atmosphere and depth become the dominant emotional read. The wider frame should reveal how the main light or weather phenomenon organizes the surrounding world and not just the immediate subject.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Focus on subtle depth cues, with three or more distinct fog densities, soft moisture on surfaces, and a quiet ecological realism that feels observed in the field instead of staged for fantasy illustration. Make scale legible through spacing, horizon control, and foreground-to-background separation rather than through extra props.\n\nUse case:\nForest Fog single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fairy creatures, no glowing magic particles, no readable signs, no oversized moon, no campfire.",
+  "id": "wide-study",
+  "title": "Wide Study",
+  "description": "An independent wider frame explaining the larger geography behind the topic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/forest-fog-morning-reverie/packages/single-support-studies/images/wide-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on wide spatial explanation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wide Study",
+      "description": "An independent wider frame explaining the larger geography behind the topic atmosphere."
+    },
+    "zh-CN": {
+      "title": "广角研究",
+      "description": "森林晨雾 · 通过更广视角解释该主题氛围所处整体地理或建筑环境的独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Wide Study from Forest Fog Morning Reverie.",
+      "zh-CN": "森林晨雾的广角研究画面。"
+    }
+  }
+}

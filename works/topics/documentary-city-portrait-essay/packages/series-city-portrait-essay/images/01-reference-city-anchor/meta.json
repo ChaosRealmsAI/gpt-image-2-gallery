@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Documentary City Portrait Essay. Use a realistic city setting with calm morning or afternoon light, truthful texture, and a clear human subject embedded in place. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one city resident with medium brown skin, short natural curls, practical everyday wardrobe, and a quiet observant gaze. Establish the same person, wardrobe base, and body proportions that later city-life frames must preserve. Use the example direction from the brief as grounding context: Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This anchor should feel observational and believable, not fashion-editorial in disguise. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nDocumentary City Portrait Essay series study 1/9, the baseline environmental portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no crowd heroics, no brand signage text, no cinematic haze, no fake posed glamour.",
+  "id": "01-reference-city-anchor",
+  "title": "Reference City Anchor",
+  "description": "Reference portrait for Documentary City Portrait Essay, locking the same face and body identity for the rest of the nine-image series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "world-knowledge",
+    "reasoning-composition",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root identity reference for the nine-image portrait series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference City Anchor",
+      "description": "Reference portrait for Documentary City Portrait Essay, locking the same face and body identity for the rest of the nine-image series."
+    },
+    "zh-CN": {
+      "title": "基准城市锚点",
+      "description": "城市纪实肖像图集 的基准肖像,为后续九图系列锁定同一张脸与体态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Reference City Anchor portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的基准城市锚点肖像变体。"
+    }
+  }
+}

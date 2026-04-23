@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square roadside smartphone snapshot at a gas station after sunset, lit by harsh canopy lights, red-orange taillights, and cooler interior shop glow. The frame is taken from inside a parked car through a slightly dirty windshield, with dashboard reflection at the bottom and mild compression artifacts. The composition should feel mundane, spontaneous, and photorealistic.\n\nSubject:\nA completely fictional world-famous chef-like person stands beside a small hatchback, eating instant noodles from a plain cup with chopsticks while leaning against the car door. They wear a weathered navy jacket over kitchen whites with no restaurant logo, and their face is fully invented, not resembling any real chef or television personality. A road-trip cooler and paper grocery bag sit near their feet.\n\nImportant details:\nThe subject reads as famous through confident posture, distinctive chef clothing, and a truck driver in the background doing a subtle double take. Render sodium-vapor lighting, windshield smears, steam from the cup, reflective car paint, realistic hands, and pavement oil stains. All pump labels, shop signs, and packaging must be abstract or unreadable. Avoid making the scene look like an advertisement or scandal.\n\nUse case:\nFictional Celebrity Snapshot single study 7/8, testing an invented chef-celebrity roadside phone snapshot with believable low-light material detail.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no gas station brand marks, no alcohol, no unsafe fueling action, no paparazzi flash, no staged food commercial.",
+  "id": "chef-legend-gas-station",
+  "title": "Chef Legend Gas Station",
+  "description": "A roadside phone snapshot of an invented famous-chef figure eating instant noodles at a gas station.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "reasoning-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/chef-legend-gas-station/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Chef Legend Gas Station",
+      "description": "A roadside phone snapshot of an invented famous-chef figure eating instant noodles at a gas station."
+    },
+    "zh-CN": {
+      "title": "传奇主厨加油站",
+      "description": "一张路边手机抓拍，虚构名厨感人物在加油站旁吃杯面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "A square roadside phone snapshot through a windshield of a fictional chef-like celebrity eating noodles.",
+      "zh-CN": "一张方形路边手机抓拍，隔着挡风玻璃看见虚构名厨感人物吃面。"
+    }
+  }
+}

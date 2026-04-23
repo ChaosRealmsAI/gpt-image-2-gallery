@@ -1,0 +1,54 @@
+{
+  "id": "fitness-wellness-brand-portraits",
+  "slug": "fitness-wellness-brand-portraits",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "commercial-mockup",
+    "editing-workflow"
+  ],
+  "title": "Fitness Wellness Brand Portraits",
+  "short_title": "Wellness Portraits",
+  "description": "Produce athletic and wellness-driven portrait campaigns with realistic body proportions, clean skin texture, and premium studio-commercial lighting.",
+  "i18n": {
+    "en": {
+      "title": "Fitness Wellness Brand Portraits",
+      "short_title": "Wellness Portraits",
+      "description": "Produce athletic and wellness-driven portrait campaigns with realistic body proportions, clean skin texture, and premium studio-commercial lighting."
+    },
+    "zh-CN": {
+      "title": "健身与健康品牌人像",
+      "short_title": "健康人像",
+      "description": "做偏运动和健康品牌的人像宣传图，要求体态真实、打光利落、皮肤和肌肉质感可信，不要假健身海报味。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 895,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "fashion",
+      "editing-workflow",
+      "virtual-try-on",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-fashion-campaign-sequence",
+      "type": "series",
+      "title": "Identity-Locked Fashion Sequence",
+      "path": "packages/series-fashion-campaign-sequence/package.json"
+    }
+  ]
+}

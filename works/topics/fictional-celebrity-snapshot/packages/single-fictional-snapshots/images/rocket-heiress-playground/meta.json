@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square candid smartphone snapshot at a neighborhood playground during soft winter morning light. The camera is held at adult chest height from behind a fence opening, slightly off-level, with realistic foreground blur from metal bars and a patchy rubber play surface. The scene should be respectful, public, and non-invasive, with ordinary parents, scooters, and trees in the background.\n\nSubject:\nA completely fictional aerospace heiress and rocket-company celebrity-like person crouches beside a small child-shaped figure in a puffy coat, helping adjust a toy helmet near a playground rocket climber. The adult has an invented face and does not resemble any real entrepreneur, celebrity, or public figure. Their clothing is casual: olive parka, beanie, plain backpack, and scuffed boots. The child is not identifiable, turned away, and present only as a small contextual silhouette.\n\nImportant details:\nThe composition should imply a mundane public moment rather than a news event. Use realistic smartphone dynamic range, natural breath in cold air, playground wear, mud near the rubber mat, and soft background bokeh. Avoid celebrity spectacle: no crowds, no bodyguards, no press cameras. The subject reads as high-status through posture, expensive but unbranded outerwear, and a passerby quietly noticing them.\n\nUse case:\nFictional Celebrity Snapshot single study 3/8, testing a believable invented aerospace-celebrity family moment without real likeness or private-event claims.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no identifiable child face, no paparazzi harassment, no brand marks, no unsafe playground action, no staged family portrait.",
+  "id": "rocket-heiress-playground",
+  "title": "Rocket Heiress Playground",
+  "description": "A respectful phone-style playground snapshot of an invented aerospace celebrity-like figure helping a child-shaped silhouette.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "reasoning-composition",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/rocket-heiress-playground/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rocket Heiress Playground",
+      "description": "A respectful phone-style playground snapshot of an invented aerospace celebrity-like figure helping a child-shaped silhouette."
+    },
+    "zh-CN": {
+      "title": "火箭继承人游乐场",
+      "description": "一张克制的手机抓拍风游乐场图片，虚构航天名人感人物帮助一个背对镜头的儿童轮廓。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square public playground snapshot with a fictional aerospace-celebrity-like adult helping a small turned-away child figure.",
+      "zh-CN": "一张方形公共游乐场抓拍，虚构航天名人感成人帮助一个背对镜头的小孩轮廓。"
+    }
+  }
+}

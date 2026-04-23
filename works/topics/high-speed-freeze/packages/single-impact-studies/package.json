@@ -1,0 +1,62 @@
+{
+  "id": "single-impact-studies",
+  "type": "single",
+  "title": "Impact Studies",
+  "description": "Three independent high-speed impact prompts that can run fully in parallel.",
+  "creative_direction": "Independent single-image package: no reference dependency, shared black studio language, designed to fill queue slots safely.",
+  "cover_image": "images/water-crown/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/water-crown/meta.json",
+      "images/citrus-burst/meta.json",
+      "images/powder-ring/meta.json"
+    ],
+    "ref_strategy": "No references. Each meta has generation.depends_on: [].",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Impact Studies",
+      "description": "Three independent high-speed impact prompts that can run fully in parallel."
+    },
+    "zh-CN": {
+      "title": "冲击研究",
+      "description": "三张互相独立、可完全并发运行的高速冲击提示词。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "high-speed",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "water-crown",
+      "title": "Water Crown",
+      "image": "images/water-crown/image.png",
+      "meta": "images/water-crown/meta.json"
+    },
+    {
+      "id": "citrus-burst",
+      "title": "Citrus Burst",
+      "image": "images/citrus-burst/image.png",
+      "meta": "images/citrus-burst/meta.json"
+    },
+    {
+      "id": "powder-ring",
+      "title": "Powder Ring",
+      "image": "images/powder-ring/image.png",
+      "meta": "images/powder-ring/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Documentary City Portrait Essay. Use a tighter documentary crop that captures one object, garment, or gesture alongside the face. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one city resident with medium brown skin, short natural curls, practical everyday wardrobe, and a quiet observant gaze. Stay with the same subject while highlighting the small lived details that define routine and place. Use the example direction from the brief as grounding context: Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This frame should feel specific and humane, not styled like product advertising. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nDocumentary City Portrait Essay series study 7/9, a closer detail portrait with hands or personal object.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no branded object labels, no broken fingers, no fashion-mag glam light, no face drift.",
+  "id": "07-close-detail-hands",
+  "title": "Close Detail Hands",
+  "description": "Close Detail Hands variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "world-knowledge",
+    "reasoning-composition",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/07-close-detail-hands/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-city-anchor",
+        "meta_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/meta.json",
+        "image_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a closer detail portrait with hands or personal object.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Close Detail Hands",
+      "description": "Close Detail Hands variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "手部细节版",
+      "description": "手部细节版 是 城市纪实肖像图集 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Close Detail Hands portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的手部细节版肖像变体。"
+    }
+  }
+}

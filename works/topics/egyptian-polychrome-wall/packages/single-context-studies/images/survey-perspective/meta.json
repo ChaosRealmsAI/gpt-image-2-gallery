@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square survey-oriented image that explains spatial logic with the clarity of an expert field overview while still reading as a finished artwork. Use a stable elevated vantage, clean depth layering, and enough visible terrain or architecture to make relationships legible without turning the frame into a literal map. The scene should feel analytical and cinematic at the same time.\n\nSubject:\nShow an axial chamber view showing wall relationships, ceiling bands, floor debris, and the logic of the painted interior as a coherent archaeological space. Organize the composition so paths, terraces, walls, courtyards, chambers, canals, root systems, or quarry clusters can be read as a coherent system. The image should reveal how the civilization used land, water, elevation, enclosure, or monumentality. Keep all architecture, materials, and environmental details consistent with the correct place and period.\n\nImportant details:\nKeep the wall system recognizably Egyptian, with disciplined horizontal registers, profile figures, symbolic proportions, and pigment behavior that feels mineral and hand-applied rather than digitally printed. This image should reward close looking by showing infrastructural logic: how stone courses align, how water moves, how rooms connect, how carved masses sit inside geology, or how vegetation interacts with built form. Avoid explicit annotation. Let composition, light, and scale cues do the explanatory work. Keep any measuring elements generic and unreadable, and make the image feel like serious research made visually elegant.\n\nUse case:\nEgyptian Polychrome Wall Reconstruction single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no horror tropes, no movie traps, no laser beams, no undead figures, no infographic arrows, no split-screen layout, no impossible aerial geometry, no unrelated settlements.",
+  "id": "survey-perspective",
+  "title": "Survey Perspective",
+  "description": "An independent survey-oriented study clarifying spatial logic for Egyptian Polychrome.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/egyptian-polychrome-wall/packages/single-context-studies/images/survey-perspective/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Survey Perspective",
+      "description": "An independent survey-oriented study clarifying spatial logic for Egyptian Polychrome."
+    },
+    "zh-CN": {
+      "title": "测绘视角",
+      "description": "从测绘与关系角度解释遗址空间结构的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A survey perspective explains the larger spatial logic of Egyptian Polychrome.",
+      "zh-CN": "埃及彩绘相关研究图像。"
+    }
+  }
+}

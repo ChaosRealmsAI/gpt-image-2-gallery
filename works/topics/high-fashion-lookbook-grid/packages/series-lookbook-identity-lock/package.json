@@ -1,0 +1,109 @@
+{
+  "id": "series-lookbook-identity-lock",
+  "type": "series",
+  "title": "Identity-Locked Lookbook Grid",
+  "description": "A nine-image identity-locked portrait series for High Fashion Lookbook Grid, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for High Fashion Lookbook Grid; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-look-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-look-anchor/meta.json",
+      "images/02-tailored-look-one/meta.json",
+      "images/03-sculptural-look-two/meta.json",
+      "images/04-monochrome-look-three/meta.json",
+      "images/05-metallic-look-four/meta.json",
+      "images/06-resort-look-five/meta.json",
+      "images/07-knit-look-six/meta.json",
+      "images/08-outerwear-look-seven/meta.json",
+      "images/09-two-page-lookbook-grid/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-look-anchor first. Use its runtime result URL as --ref for 02-tailored-look-one, 03-sculptural-look-two, 04-monochrome-look-three, 05-metallic-look-four, 06-resort-look-five, 07-knit-look-six, 08-outerwear-look-seven, 09-two-page-lookbook-grid. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Lookbook Grid",
+      "description": "A nine-image identity-locked portrait series for High Fashion Lookbook Grid, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸时装型录栅格",
+      "description": "围绕 高级时装 Lookbook 九宫格 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "multi-image-reference",
+      "structured-layout",
+      "commercial-mockup",
+      "fashion"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-look-anchor",
+      "title": "Reference Look Anchor",
+      "image": "images/01-reference-look-anchor/image.png",
+      "meta": "images/01-reference-look-anchor/meta.json"
+    },
+    {
+      "id": "02-tailored-look-one",
+      "title": "Tailored Look One",
+      "image": "images/02-tailored-look-one/image.png",
+      "meta": "images/02-tailored-look-one/meta.json"
+    },
+    {
+      "id": "03-sculptural-look-two",
+      "title": "Sculptural Look Two",
+      "image": "images/03-sculptural-look-two/image.png",
+      "meta": "images/03-sculptural-look-two/meta.json"
+    },
+    {
+      "id": "04-monochrome-look-three",
+      "title": "Monochrome Look Three",
+      "image": "images/04-monochrome-look-three/image.png",
+      "meta": "images/04-monochrome-look-three/meta.json"
+    },
+    {
+      "id": "05-metallic-look-four",
+      "title": "Metallic Look Four",
+      "image": "images/05-metallic-look-four/image.png",
+      "meta": "images/05-metallic-look-four/meta.json"
+    },
+    {
+      "id": "06-resort-look-five",
+      "title": "Resort Look Five",
+      "image": "images/06-resort-look-five/image.png",
+      "meta": "images/06-resort-look-five/meta.json"
+    },
+    {
+      "id": "07-knit-look-six",
+      "title": "Knit Look Six",
+      "image": "images/07-knit-look-six/image.png",
+      "meta": "images/07-knit-look-six/meta.json"
+    },
+    {
+      "id": "08-outerwear-look-seven",
+      "title": "Outerwear Look Seven",
+      "image": "images/08-outerwear-look-seven/image.png",
+      "meta": "images/08-outerwear-look-seven/meta.json"
+    },
+    {
+      "id": "09-two-page-lookbook-grid",
+      "title": "Two-Page Lookbook Grid",
+      "image": "images/09-two-page-lookbook-grid/image.png",
+      "meta": "images/09-two-page-lookbook-grid/meta.json"
+    }
+  ]
+}

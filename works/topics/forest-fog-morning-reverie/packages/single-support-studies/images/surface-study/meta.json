@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Forest Fog Morning Reverie. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A primeval forest before sunrise is layered with cold ground fog that drifts between roots and trunks, with the nearest trees dark and tactile, middle-ground branches softened by mist, and the distance fading into pale blue-gray air. Build an independent square study around the way atmosphere interacts with surfaces, keeping enough environmental context for the image to feel finished rather than cropped at random.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Ancient bark, moss-dark trunks, a still deer near a clearing edge, and damp earth should anchor the scene, but the composition should remain spacious enough that atmosphere and depth become the dominant emotional read. Let textures, reflections, residue, moisture, dust, or particulate response become primary, while the broader setting remains clearly implied.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Focus on subtle depth cues, with three or more distinct fog densities, soft moisture on surfaces, and a quiet ecological realism that feels observed in the field instead of staged for fantasy illustration. The key is material credibility under dramatic light, with micro-contrast and controlled mood supporting the theme.\n\nUse case:\nForest Fog single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fairy creatures, no glowing magic particles, no readable signs, no oversized moon, no campfire.",
+  "id": "surface-study",
+  "title": "Surface Study",
+  "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/forest-fog-morning-reverie/packages/single-support-studies/images/surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on material response.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Surface Study",
+      "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them."
+    },
+    "zh-CN": {
+      "title": "表面研究",
+      "description": "森林晨雾 · 独立研究该主题气氛如何作用于各类材质表面的画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Surface Study from Forest Fog Morning Reverie.",
+      "zh-CN": "森林晨雾的表面研究画面。"
+    }
+  }
+}

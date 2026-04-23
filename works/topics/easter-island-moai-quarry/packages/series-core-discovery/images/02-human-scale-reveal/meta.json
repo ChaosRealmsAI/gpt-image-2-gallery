@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square follow-up field image from the same site, slightly closer and lower than the reference anchor, with careful documentary framing and the same material palette. The camera should feel physically present inside the archaeological space, using natural light, soft depth separation, and one clear human figure to explain scale without turning the image into lifestyle photography.\n\nSubject:\nShow the same site identity established in the reference anchor, now with an archaeologist, conservator, or field researcher moving through the scene in practical neutral clothing. The person should be small relative to the monument and clearly secondary to the architecture, water, or painted wall system. Keep the main forms, structural rhythm, and civilizational markers unchanged.\n\nImportant details:\nPreserve the exact site identity, base geometry, material behavior, and cultural signatures from the reference model. Only vary vantage, gesture, and scale cues. Keep the quarry recognizably Rano Raraku, with unfinished forms still attached to bedrock, tilted standing figures, and the specific relation between carved heads, slope, and volcanic terrain. Human presence should clarify stair height, wall size, carving depth, or spatial compression while respecting conservation protocol and historical seriousness. Keep any tools understated and generic, with no readable labels. The image must still look like a rigorous archaeological record first and a dramatic scene second.\n\nUse case:\nEaster Island Moai Quarry series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact site identity from the reference image, no sci-fi statues, no modern cranes, no fantasy rituals, no giant glowing eyes, no fashion editorial styling, no crowd, no cinematic props.",
+  "id": "02-human-scale-reveal",
+  "title": "Human Scale Reveal",
+  "description": "A dependent variation introducing human scale while preserving the exact site identity for Moai Quarry.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/easter-island-moai-quarry/packages/series-core-discovery/images/02-human-scale-reveal/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/easter-island-moai-quarry/packages/series-core-discovery/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/easter-island-moai-quarry/packages/series-core-discovery/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series variation that must preserve the anchor site identity.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Human Scale Reveal",
+      "description": "A dependent variation introducing human scale while preserving the exact site identity for Moai Quarry."
+    },
+    "zh-CN": {
+      "title": "人物尺度揭示",
+      "description": "在保持同一遗址身份的前提下加入人物尺度信息。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A researcher moves through the same Moai Quarry site to reveal true scale.",
+      "zh-CN": "摩艾采石场相关研究图像。"
+    }
+  }
+}

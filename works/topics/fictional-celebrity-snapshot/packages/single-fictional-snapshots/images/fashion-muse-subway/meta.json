@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square candid smartphone snapshot on a subway platform during morning commute, with cool fluorescent lighting, tiled walls, motion-blurred train windows, and realistic crowd density. The frame is slightly too close and tilted, as if captured while stepping off a train. Foreground commuters partially obscure the lower frame, and the subject is visible through a gap in the crowd.\n\nSubject:\nA completely fictional fashion-muse celebrity-like person waits by a column holding a plain tote bag and a folded newspaper-like sheet with no readable marks. They have an invented face and body language, not resembling any real model, actor, or influencer. Their outfit is distinctive but unbranded: oversized cream coat, cobalt scarf, sculptural earrings, black boots, and silver-gray hair pinned casually. They look calm, absorbed in the commute.\n\nImportant details:\nThe photo should feel socially plausible: no red carpet, no entourage, no professional flash. Fame is implied through refined styling, unusual composure, and two commuters quietly recognizing them. Render subway grime, floor reflections, fabric folds, handrail metal, motion blur, and mixed skin tones naturally. All station signs and ads must be abstract, cropped, or unreadable. Keep the image from feeling like a fashion editorial despite the stylish subject.\n\nUse case:\nFictional Celebrity Snapshot single study 6/8, testing public-transit phone realism with a fully invented fashion-icon subject.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no brand clothing marks, no identifiable transit ads, no staged runway pose, no distorted crowd faces.",
+  "id": "fashion-muse-subway",
+  "title": "Fashion Muse Subway",
+  "description": "A subway-platform phone snapshot of an invented fashion-muse figure blending into the morning commute.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "fashion",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/fashion-muse-subway/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fashion Muse Subway",
+      "description": "A subway-platform phone snapshot of an invented fashion-muse figure blending into the morning commute."
+    },
+    "zh-CN": {
+      "title": "时装缪斯地铁",
+      "description": "一张地铁站台手机抓拍，虚构时装缪斯感人物混入早高峰通勤。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "fashion",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square subway phone snapshot of a fictional fashion-muse-like commuter in a cream coat.",
+      "zh-CN": "一张方形地铁手机抓拍，虚构时装缪斯感通勤者穿着奶油色大衣。"
+    }
+  }
+}

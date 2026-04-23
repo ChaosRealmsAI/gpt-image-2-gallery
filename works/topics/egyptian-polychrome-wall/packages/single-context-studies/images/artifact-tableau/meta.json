@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square artifact and material study arranged like a high-end conservation photograph. Use soft directional light, controlled shadow falloff, and a neutral work surface so every fragment reads clearly. The image should feel intimate and scientific, but still rich enough to communicate the broader civilization through craft, wear, and material vocabulary alone.\n\nSubject:\nPresent paint flakes, pigment samples, linen fragments, carved plaster chips, and small funerary objects laid out for conservation review. Arrange the pieces with disciplined spacing and believable conservation handling. Include enough variation in scale, finish, and damage state to suggest excavation reality rather than a perfectly staged luxury still life. Nothing should look modern or decorative for its own sake; every object must feel like evidence tied to the same cultural world as the main topic.\n\nImportant details:\nEmphasize tactile surfaces, honest aging, and historically grounded material behavior. Keep the wall system recognizably Egyptian, with disciplined horizontal registers, profile figures, symbolic proportions, and pigment behavior that feels mineral and hand-applied rather than digitally printed. Show abrasion, dust, corrosion, cracks, mineral bloom, pigment retention, or edge polish where appropriate. Keep the arrangement orderly but not sterile, as if prepared for a serious cataloging session. No readable labels, no museum placards, and no visual shortcuts that turn the study into product photography detached from archaeology.\n\nUse case:\nEgyptian Polychrome Wall Reconstruction single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no horror tropes, no movie traps, no laser beams, no undead figures, no luxury advertising gloss, no floating objects, no velvet jewelry styling, no unrelated tools.",
+  "id": "artifact-tableau",
+  "title": "Artifact Tableau",
+  "description": "An independent conservation-style artifact study tied to the material culture of Egyptian Polychrome.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "scientific-realism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/egyptian-polychrome-wall/packages/single-context-studies/images/artifact-tableau/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Artifact Tableau",
+      "description": "An independent conservation-style artifact study tied to the material culture of Egyptian Polychrome."
+    },
+    "zh-CN": {
+      "title": "文物台面",
+      "description": "独立展示相关器物与材料证据的研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "An artifact tableau studies the material culture behind Egyptian Polychrome.",
+      "zh-CN": "埃及彩绘相关研究图像。"
+    }
+  }
+}

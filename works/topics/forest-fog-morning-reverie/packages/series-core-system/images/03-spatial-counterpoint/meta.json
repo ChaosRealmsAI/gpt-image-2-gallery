@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Forest Fog Morning Reverie. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A primeval forest before sunrise is layered with cold ground fog that drifts between roots and trunks, with the nearest trees dark and tactile, middle-ground branches softened by mist, and the distance fading into pale blue-gray air. Shift to an oblique or lateral point of view that reveals different depth layers while staying inside the same place and the same atmospheric event.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Ancient bark, moss-dark trunks, a still deer near a clearing edge, and damp earth should anchor the scene, but the composition should remain spacious enough that atmosphere and depth become the dominant emotional read. Hold the reference structure, but use the new angle to show secondary planes, foreground interruption, or a changed distance relationship.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Focus on subtle depth cues, with three or more distinct fog densities, soft moisture on surfaces, and a quiet ecological realism that feels observed in the field instead of staged for fantasy illustration. The success condition is continuity with the reference plus a richer sense of depth, not a new location or a new lighting system.\n\nUse case:\nForest Fog series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fairy creatures, no glowing magic particles, no readable signs, no oversized moon, no campfire.",
+  "id": "03-spatial-counterpoint",
+  "title": "Spatial Counterpoint",
+  "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/03-spatial-counterpoint/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame using the reference image to preserve the same place from a shifted angle.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spatial Counterpoint",
+      "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact."
+    },
+    "zh-CN": {
+      "title": "侧向空间变体",
+      "description": "森林晨雾 · 在维持参考世界一致性的前提下，用侧向视角展示更复杂纵深的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Spatial Counterpoint from Forest Fog Morning Reverie.",
+      "zh-CN": "森林晨雾的侧向空间变体画面。"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "prompt": "Scene:\nUse the reference image as the identity source for Fitness Wellness Brand Portraits. Build a closer crop that still preserves identity while revealing fabric texture, makeup finish, and styling detail Keep the camera logic commercially believable, with stable perspective, square-crop discipline, and light that supports facial recognition before style. The image should feel finished enough for client review, media rollout, or research comparison rather than like an unfinished test frame.\n\nSubject:\nShow the same fashion model as the reference, now wearing the same wardrobe family with more intimate emphasis on face, neckline, and textile texture. Preserve the exact recognisable face, haircut base, body read, and age impression from the anchor image while allowing the requested lighting, wardrobe, pose, or environment change to do the storytelling. The variation should clearly connect to the topic brief Produce athletic and wellness-driven portrait campaigns with realistic body proportions, clean skin texture, and premium studio-commercial lighting..\n\nImportant details:\nPreserve exact face / hair base / body proportions from the reference model. Preserve the face shape, body proportions, shoulder width, leg length impression, hair base, and skin-tone family while the wardrobe and mood shift. Keep the skin, hair, garment, and background rendering realistic and production-ready. This frame should feel like a true commissioned variation within one coherent portrait package, not like a new person or a disconnected mood board.\n\nUse case:\nFitness Wellness Brand Portraits series study 7/9, close-detail fashion variation using the reference identity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no abstract fabric macro, no beauty-only crop, no hairline drift, no duplicate people, no extra fingers, no broken anatomy, no face drift, no oversmoothed skin, no unrelated props.",
+  "id": "07-closeup-fabric-beauty",
+  "title": "Close-Up Fabric Beauty",
+  "description": "Close-Up Fabric Beauty for Fitness Wellness Brand Portraits, preserving the locked identity while translating the portrait system into a new controlled variation.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "photorealism",
+    "commercial-mockup",
+    "fashion",
+    "editing-workflow",
+    "virtual-try-on",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fitness-wellness-brand-portraits/packages/series-fashion-campaign-sequence/images/07-closeup-fabric-beauty/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-fashion-anchor",
+        "meta_path": "works/topics/fitness-wellness-brand-portraits/packages/series-fashion-campaign-sequence/images/01-reference-fashion-anchor/meta.json",
+        "image_path": "works/topics/fitness-wellness-brand-portraits/packages/series-fashion-campaign-sequence/images/01-reference-fashion-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Close-detail fashion variation using the reference identity.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Close-Up Fabric Beauty",
+      "description": "Close-Up Fabric Beauty for Fitness Wellness Brand Portraits, preserving the locked identity while translating the portrait system into a new controlled variation."
+    },
+    "zh-CN": {
+      "title": "材质近景版",
+      "description": "健身与健康品牌人像 系列中的材质近景版，在保持同一人物身份的前提下完成一次受控变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "fashion",
+      "editing-workflow",
+      "virtual-try-on",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Close-Up Fabric Beauty from the Fitness Wellness Brand Portraits identity-locked portrait sequence.",
+      "zh-CN": "健身与健康品牌人像 系列中的材质近景版。"
+    }
+  }
+}

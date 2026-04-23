@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square smartphone snapshot in late afternoon city light, slightly tilted and imperfectly framed as if taken quickly from across a bike lane. The image has natural phone-camera compression, mild motion blur at the edges, realistic asphalt texture, parked scooters, a bus stop shelter, and ordinary pedestrians in soft background focus. The mood should feel plausible and unposed, like a casual social-feed photo, not a studio portrait.\n\nSubject:\nA completely fictional young tech-founder celebrity-like person pauses on a skateboard at a crosswalk, wearing a plain charcoal hoodie, cropped trousers, worn sneakers, and round non-branded glasses. They have an invented face that does not resemble any real public figure. One hand holds a paper coffee cup with no readable markings; the other steadies the skateboard. A passerby glances over, suggesting mild recognition without crowd drama.\n\nImportant details:\nThe core test is believable accidental realism: uneven phone exposure, pedestrian scale, natural shadow direction, slight background clutter, and a subject who reads as famous only through confident posture and subtle attention from bystanders. Avoid paparazzi aggression. Make all storefronts and transit signs unreadable or abstract. Keep skin texture, clothing folds, wheels, curb paint, and reflections physically convincing.\n\nUse case:\nFictional Celebrity Snapshot single study 1/8, testing a mundane invented-public-figure phone snapshot without real-person likeness.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no brand marks, no news caption, no staged red-carpet lighting, no distorted hands, no unsafe traffic action.",
+  "id": "tech-founder-skate-stop",
+  "title": "Tech Founder Skate Stop",
+  "description": "A candid phone-style image of an invented tech-founder figure pausing with a skateboard at a city crosswalk.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "reasoning-composition",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/tech-founder-skate-stop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Tech Founder Skate Stop",
+      "description": "A candid phone-style image of an invented tech-founder figure pausing with a skateboard at a city crosswalk."
+    },
+    "zh-CN": {
+      "title": "科技创始人滑板停靠",
+      "description": "一张手机抓拍风图片，虚构科技创始人形象在城市人行横道旁踩着滑板停下。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square phone snapshot of a fictional tech-founder-like person pausing on a skateboard near a crosswalk.",
+      "zh-CN": "一张方形手机抓拍，虚构科技创始人感人物在人行横道旁踩着滑板停下。"
+    }
+  }
+}

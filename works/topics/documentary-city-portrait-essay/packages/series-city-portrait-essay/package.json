@@ -1,0 +1,108 @@
+{
+  "id": "series-city-portrait-essay",
+  "type": "series",
+  "title": "Identity-Locked City Portrait Essay",
+  "description": "A nine-image identity-locked portrait series for Documentary City Portrait Essay, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Documentary City Portrait Essay; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-city-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-city-anchor/meta.json",
+      "images/02-subway-entry/meta.json",
+      "images/03-convenience-store-doorway/meta.json",
+      "images/04-stairwell-pause/meta.json",
+      "images/05-crosswalk-dusk/meta.json",
+      "images/06-bus-stop-night/meta.json",
+      "images/07-close-detail-hands/meta.json",
+      "images/08-profile-window-reflection/meta.json",
+      "images/09-essay-cover-portrait/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-city-anchor first. Use its runtime result URL as --ref for 02-subway-entry, 03-convenience-store-doorway, 04-stairwell-pause, 05-crosswalk-dusk, 06-bus-stop-night, 07-close-detail-hands, 08-profile-window-reflection, 09-essay-cover-portrait. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked City Portrait Essay",
+      "description": "A nine-image identity-locked portrait series for Documentary City Portrait Essay, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸城市纪实专题",
+      "description": "围绕 城市纪实肖像图集 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-city-anchor",
+      "title": "Reference City Anchor",
+      "image": "images/01-reference-city-anchor/image.png",
+      "meta": "images/01-reference-city-anchor/meta.json"
+    },
+    {
+      "id": "02-subway-entry",
+      "title": "Subway Entry",
+      "image": "images/02-subway-entry/image.png",
+      "meta": "images/02-subway-entry/meta.json"
+    },
+    {
+      "id": "03-convenience-store-doorway",
+      "title": "Convenience Store Doorway",
+      "image": "images/03-convenience-store-doorway/image.png",
+      "meta": "images/03-convenience-store-doorway/meta.json"
+    },
+    {
+      "id": "04-stairwell-pause",
+      "title": "Stairwell Pause",
+      "image": "images/04-stairwell-pause/image.png",
+      "meta": "images/04-stairwell-pause/meta.json"
+    },
+    {
+      "id": "05-crosswalk-dusk",
+      "title": "Crosswalk Dusk",
+      "image": "images/05-crosswalk-dusk/image.png",
+      "meta": "images/05-crosswalk-dusk/meta.json"
+    },
+    {
+      "id": "06-bus-stop-night",
+      "title": "Bus Stop Night",
+      "image": "images/06-bus-stop-night/image.png",
+      "meta": "images/06-bus-stop-night/meta.json"
+    },
+    {
+      "id": "07-close-detail-hands",
+      "title": "Close Detail Hands",
+      "image": "images/07-close-detail-hands/image.png",
+      "meta": "images/07-close-detail-hands/meta.json"
+    },
+    {
+      "id": "08-profile-window-reflection",
+      "title": "Profile Window Reflection",
+      "image": "images/08-profile-window-reflection/image.png",
+      "meta": "images/08-profile-window-reflection/meta.json"
+    },
+    {
+      "id": "09-essay-cover-portrait",
+      "title": "Essay Cover Portrait",
+      "image": "images/09-essay-cover-portrait/image.png",
+      "meta": "images/09-essay-cover-portrait/meta.json"
+    }
+  ]
+}

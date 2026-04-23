@@ -1,0 +1,53 @@
+{
+  "prompt": "Scene:\nA controlled black studio macro setup, pure black background, glossy black reflective tray, invisible electronic flash, cool blue rim light from back right and clean white key flash from front left.\n\nSubject:\na blue pigment powder ring expanding outward from a central impact, centered in a square frame at the exact peak moment of impact. The main event fills about 62% of the image width with particles suspended around it.\n\nImportant details:\nPhotorealistic high-speed photography, millionth-of-a-second freeze, macro lens, fine granular dust, radial symmetry, crisp blue particles, realistic physics, deep black negative space, crop-safe composition.\n\nUse case:\nIndependent image in a Prompt Atlas high-speed theme. Square 1:1 gallery card and detail modal asset.\n\nConstraints:\nNo text, no watermark, no logo, no human hands, no visible weapon or launcher, no blood, no animals, no cartoon style, no CGI look, preserve exact 1:1 aspect ratio.",
+  "id": "powder-ring",
+  "title": "Powder Ring",
+  "description": "Powder Ring is an independent high-speed studio image.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "high-speed",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/high-speed-freeze/packages/single-impact-studies/images/powder-ring/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Powder Ring",
+      "description": "Powder Ring is an independent high-speed studio image."
+    },
+    "zh-CN": {
+      "title": "粉末环",
+      "description": "粉末环是一张独立高速棚拍图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "high-speed",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Powder Ring is an independent high-speed studio image.",
+      "zh-CN": "粉末环是一张独立高速棚拍图。"
+    }
+  }
+}

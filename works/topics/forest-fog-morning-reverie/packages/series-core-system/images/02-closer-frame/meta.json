@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Forest Fog Morning Reverie. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A primeval forest before sunrise is layered with cold ground fog that drifts between roots and trunks, with the nearest trees dark and tactile, middle-ground branches softened by mist, and the distance fading into pale blue-gray air. Move the camera closer or lower so the viewer feels more embedded inside the atmosphere while the same light direction and environment remain intact.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. Ancient bark, moss-dark trunks, a still deer near a clearing edge, and damp earth should anchor the scene, but the composition should remain spacious enough that atmosphere and depth become the dominant emotional read. Preserve the same world logic from the reference and let one human-scale or material-scale element become more prominent without stealing focus from the atmosphere.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Focus on subtle depth cues, with three or more distinct fog densities, soft moisture on surfaces, and a quiet ecological realism that feels observed in the field instead of staged for fantasy illustration. Keep the palette family, structural read, and light behavior from image 01 while increasing immediacy and tactile presence.\n\nUse case:\nForest Fog series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fairy creatures, no glowing magic particles, no readable signs, no oversized moon, no campfire.",
+  "id": "02-closer-frame",
+  "title": "Closer Frame",
+  "description": "A dependent variation that moves closer to the light event while preserving the same environmental identity.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/02-closer-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/forest-fog-morning-reverie/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame preserving the established reference atmosphere.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Closer Frame",
+      "description": "A dependent variation that moves closer to the light event while preserving the same environmental identity."
+    },
+    "zh-CN": {
+      "title": "近景强化",
+      "description": "森林晨雾 · 在保持同一环境身份的前提下，更近距离地强化主光线事件的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Closer Frame from Forest Fog Morning Reverie.",
+      "zh-CN": "森林晨雾的近景强化画面。"
+    }
+  }
+}

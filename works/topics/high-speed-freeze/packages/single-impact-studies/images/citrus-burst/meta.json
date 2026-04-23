@@ -1,0 +1,53 @@
+{
+  "prompt": "Scene:\nA controlled black studio macro setup, pure black background, glossy black reflective tray, invisible electronic flash, cool blue rim light from back right and clean white key flash from front left.\n\nSubject:\na bright orange wedge bursting into juice mist and peel fragments, centered in a square frame at the exact peak moment of impact. The main event fills about 62% of the image width with particles suspended around it.\n\nImportant details:\nPhotorealistic high-speed photography, millionth-of-a-second freeze, macro lens, translucent pulp, orange droplets, peel shards, no gore, realistic physics, deep black negative space, crop-safe composition.\n\nUse case:\nIndependent image in a Prompt Atlas high-speed theme. Square 1:1 gallery card and detail modal asset.\n\nConstraints:\nNo text, no watermark, no logo, no human hands, no visible weapon or launcher, no blood, no animals, no cartoon style, no CGI look, preserve exact 1:1 aspect ratio.",
+  "id": "citrus-burst",
+  "title": "Citrus Burst",
+  "description": "Citrus Burst is an independent high-speed studio image.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "high-speed",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/high-speed-freeze/packages/single-impact-studies/images/citrus-burst/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Citrus Burst",
+      "description": "Citrus Burst is an independent high-speed studio image."
+    },
+    "zh-CN": {
+      "title": "柑橘爆裂",
+      "description": "柑橘爆裂是一张独立高速棚拍图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "high-speed",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Citrus Burst is an independent high-speed studio image.",
+      "zh-CN": "柑橘爆裂是一张独立高速棚拍图。"
+    }
+  }
+}

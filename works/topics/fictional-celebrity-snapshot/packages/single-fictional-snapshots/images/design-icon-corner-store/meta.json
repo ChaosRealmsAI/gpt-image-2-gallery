@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square low-light smartphone snapshot inside a small corner store at night, photographed from the snack aisle with imperfect aisle-shelf framing. Fluorescent ceiling light reflects on vinyl floor, coolers glow in the background, and the camera slightly underexposes the subject's face. The composition should feel like a quiet accidental photo taken by a shopper, with realistic phone noise and shallow motion blur.\n\nSubject:\nA completely fictional older design-icon celebrity-like person stands near the checkout holding a plain paper carton and a pack of gum with no readable markings. They wear a black turtleneck under a simple gray coat, wire-frame glasses, and worn canvas shoes, but their facial features are invented and not based on any real designer or public figure. The cashier is mostly obscured; a second shopper recognizes the subject with a subtle double take.\n\nImportant details:\nUse ordinary retail clutter without readable product text: colored blocks, abstract labels, shelf geometry, plastic baskets, taped floor marks, and refrigerator reflections. The subject should feel famous through calm presence and visual contrast against the mundane store, not through any real likeness. Make hands, carton, shelf perspective, fluorescent color cast, and phone-camera artifacts convincing. Avoid sensational or invasive framing.\n\nUse case:\nFictional Celebrity Snapshot single study 2/8, testing a believable invented design-icon corner-store snapshot.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no cigarettes, no brand packages, no news photo caption, no staged commercial lighting, no uncanny face.",
+  "id": "design-icon-corner-store",
+  "title": "Design Icon Corner Store",
+  "description": "A low-light phone snapshot of an invented design-icon figure buying ordinary items in a corner store.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "social-feed",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/design-icon-corner-store/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Design Icon Corner Store",
+      "description": "A low-light phone snapshot of an invented design-icon figure buying ordinary items in a corner store."
+    },
+    "zh-CN": {
+      "title": "设计偶像便利店",
+      "description": "一张低光手机抓拍，虚构设计偶像感人物在便利店购买普通物品。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "social-feed",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A square low-light phone snapshot of a fictional design-icon-like person inside a corner store.",
+      "zh-CN": "一张方形低光手机抓拍，虚构设计偶像感人物站在便利店内。"
+    }
+  }
+}

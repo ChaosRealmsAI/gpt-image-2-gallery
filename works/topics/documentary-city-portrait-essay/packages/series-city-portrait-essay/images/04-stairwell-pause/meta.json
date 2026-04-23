@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Documentary City Portrait Essay. Use a concrete or tiled stairwell with natural or fluorescent spill light and a restrained documentary mood. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one city resident with medium brown skin, short natural curls, practical everyday wardrobe, and a quiet observant gaze. Use a stairwell or landing to frame the same subject in a quieter pause while preserving face, hair base, and proportions. Use the example direction from the brief as grounding context: Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The likeness has to remain exact even in flatter, more difficult light. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nDocumentary City Portrait Essay series study 4/9, a stairwell pause portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no dramatic movie pose, no graffiti text, no altered haircut, no warped stairs.",
+  "id": "04-stairwell-pause",
+  "title": "Stairwell Pause",
+  "description": "Stairwell Pause variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "world-knowledge",
+    "reasoning-composition",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/04-stairwell-pause/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-city-anchor",
+        "meta_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/meta.json",
+        "image_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a stairwell pause portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Stairwell Pause",
+      "description": "Stairwell Pause variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "楼梯间停顿版",
+      "description": "楼梯间停顿版 是 城市纪实肖像图集 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Stairwell Pause portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的楼梯间停顿版肖像变体。"
+    }
+  }
+}

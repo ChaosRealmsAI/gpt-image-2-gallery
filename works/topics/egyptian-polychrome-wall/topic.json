@@ -1,0 +1,54 @@
+{
+  "id": "egyptian-polychrome-wall",
+  "slug": "egyptian-polychrome-wall",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Egyptian Polychrome Wall Reconstruction",
+  "short_title": "Egyptian Polychrome",
+  "description": "A newly excavated Egyptian tomb chamber wall in full original polychrome — not the faded beige version in museums, but freshly rediscovered with vivid blues, reds, and gold leaf still intact.",
+  "i18n": {
+    "en": {
+      "title": "Egyptian Polychrome Wall Reconstruction",
+      "short_title": "Egyptian Polychrome",
+      "description": "A newly excavated Egyptian tomb chamber wall in full original polychrome — not the faded beige version in museums, but freshly rediscovered with vivid blues, reds, and gold leaf still intact."
+    },
+    "zh-CN": {
+      "title": "埃及彩绘墓壁复原",
+      "short_title": "埃及彩绘",
+      "description": "新出土埃及墓室墙 · 完全原色彩绘 · 不是博物馆的褪色米黄版 · 刚发现时的鲜艳蓝红与金箔仍然完好。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 420,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

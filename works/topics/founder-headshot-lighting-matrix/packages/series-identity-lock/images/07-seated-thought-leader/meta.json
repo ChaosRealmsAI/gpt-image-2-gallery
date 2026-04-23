@@ -1,0 +1,69 @@
+{
+  "prompt": "Scene:\nA square premium portrait photograph for Founder Headshot Lighting Matrix. Use a studio setup with a simple upholstered chair, soft key light from camera left, and a muted taupe background. Use a waist-up portrait with seated composition with believable lens behavior, clean depth separation, natural skin rendering, and controlled tonal range. The light should feel physically plausible rather than synthetic, with enough negative space and environmental context to read like a finished editorial or commercial delivery. Keep the palette, contrast, and production styling aligned with premium executive portrait photography with real studio craft and restrained retouching.\n\nSubject:\nPhotograph one credible tech founder in the late thirties, with intelligent eyes, medium olive skin, dark brown hair brushed back from a natural hairline, and an understated executive presence. Wardrobe direction: a dark green suit with an open-neck ivory shirt. Pose and expression: seated upright, one arm resting lightly, shoulders relaxed. The emotional register should feel assured, analytical, and mature. Preserve exact face / hair base / body proportions from the reference model. Keep the same skin tone family, hairline, age read, and calm underlying temperament even while the styling changes. Preserve the recognizable brow line, eye spacing, nose bridge, mouth shape, jaw rhythm, and body proportions from image 01 while making this frame clearly distinct through scene, lighting, styling, and posture.\n\nImportant details:\nBusiness credibility matters more than glamour. Preserve natural skin pore detail, believable tailoring, and real lighting falloff that a photographer could actually build on set. The chair is compositional support only. The image must stay portrait-led and not feel like furniture advertising. The topic dimension is 企业肖像 + 棚拍打光 + 系列一致性. Use the example direction of 同一位 founder 输出 clean white studio、dark tech rim light、warm hospitality portrait 和 editorial black backdrop 四套头像。. The core challenge is 不是普通职业照，而是让不同品牌气质和真实打光都成立，同时保证像同一个人。. Capabilities under test: photorealism, studio-lighting, identity-preservation, commercial-mockup. Success should read as 一眼像真实企业或创始人 headshot 交付; 不同光位之间气质差异清楚，但仍像同一个人; 皮肤、发丝和西装材质自然，不像 AI 磨皮. Address the model gap described as 普通模型容易把商务头像做得过度磨皮、脸型漂移、光位不真实。. Skin texture, fabric texture, hair texture, and catchlight behavior must stay realistic, high-end, and non-plastic.\n\nUse case:\nFounder Headshot Lighting Matrix series study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no face drift, no skin-tone drift, no duplicate person, no extra limbs, no AI beauty blur, no warped hands, no accidental collage layout, no oversized chair, no crossed-arm stiffness, no power-pose parody, no awkward hand crops.",
+  "id": "07-seated-thought-leader",
+  "title": "Seated Thought Leader",
+  "description": "Seated Thought Leader for Founder Headshot Lighting Matrix, a seated leadership portrait with polished posture and strong chair-side composition.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "identity-consistency",
+    "photorealism",
+    "commercial-mockup",
+    "editing-workflow",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/founder-headshot-lighting-matrix/packages/series-identity-lock/images/07-seated-thought-leader/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-identity-reference",
+        "meta_path": "works/topics/founder-headshot-lighting-matrix/packages/series-identity-lock/images/01-identity-reference/meta.json",
+        "image_path": "works/topics/founder-headshot-lighting-matrix/packages/series-identity-lock/images/01-identity-reference/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the runtime result of image 01 and preserve the same person while varying only the requested portrait direction.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Seated Thought Leader",
+      "description": "Seated Thought Leader for Founder Headshots, a seated leadership portrait with polished posture and strong chair-side composition."
+    },
+    "zh-CN": {
+      "title": "坐姿领袖肖像",
+      "description": "创始人头像主题中的坐姿领袖肖像画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "editing-workflow",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Seated Thought Leader portrait from Founder Headshots.",
+      "zh-CN": "创始人头像主题的坐姿领袖肖像肖像。"
+    }
+  }
+}

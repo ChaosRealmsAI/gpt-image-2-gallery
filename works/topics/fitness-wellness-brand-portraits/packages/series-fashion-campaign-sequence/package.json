@@ -1,0 +1,110 @@
+{
+  "id": "series-fashion-campaign-sequence",
+  "type": "series",
+  "title": "Identity-Locked Fashion Sequence",
+  "description": "A nine-image identity-locked portrait sequence for Fitness Wellness Brand Portraits: one reference frame followed by eight controlled variations that preserve the same subject while changing lighting, styling, scene, or emotional register.",
+  "creative_direction": "Use image 01 as the fixed identity anchor for Fitness Wellness Brand Portraits. Images 02-09 must all depend on that reference and preserve the same face, hair base, skin-tone family, and body proportions while translating the backlog brief into a coherent portrait system.",
+  "cover_image": "images/01-reference-fashion-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-fashion-anchor/meta.json",
+      "images/02-campaign-hero-look/meta.json",
+      "images/03-tailored-three-quarter/meta.json",
+      "images/04-full-body-runway/meta.json",
+      "images/05-seated-lookbook-crop/meta.json",
+      "images/06-movement-editorial/meta.json",
+      "images/07-closeup-fabric-beauty/meta.json",
+      "images/08-lighting-shift-portrait/meta.json",
+      "images/09-finale-cover-portrait/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-fashion-anchor first. Use its runtime result URL as --ref for 02-campaign-hero-look, 03-tailored-three-quarter, 04-full-body-runway, 05-seated-lookbook-crop, 06-movement-editorial, 07-closeup-fabric-beauty, 08-lighting-shift-portrait, 09-finale-cover-portrait. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Fashion Sequence",
+      "description": "A nine-image identity-locked portrait sequence for Fitness Wellness Brand Portraits, built as one reference frame plus eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸时尚系列",
+      "description": "围绕健身与健康品牌人像建立 1 张身份基准图和 8 张依赖变体，整组持续保持同一人物身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup",
+      "fashion",
+      "editing-workflow",
+      "virtual-try-on",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-fashion-anchor",
+      "title": "Reference Fashion Anchor",
+      "image": "images/01-reference-fashion-anchor/image.png",
+      "meta": "images/01-reference-fashion-anchor/meta.json"
+    },
+    {
+      "id": "02-campaign-hero-look",
+      "title": "Campaign Hero Look",
+      "image": "images/02-campaign-hero-look/image.png",
+      "meta": "images/02-campaign-hero-look/meta.json"
+    },
+    {
+      "id": "03-tailored-three-quarter",
+      "title": "Tailored Three-Quarter",
+      "image": "images/03-tailored-three-quarter/image.png",
+      "meta": "images/03-tailored-three-quarter/meta.json"
+    },
+    {
+      "id": "04-full-body-runway",
+      "title": "Full-Body Runway",
+      "image": "images/04-full-body-runway/image.png",
+      "meta": "images/04-full-body-runway/meta.json"
+    },
+    {
+      "id": "05-seated-lookbook-crop",
+      "title": "Seated Lookbook Crop",
+      "image": "images/05-seated-lookbook-crop/image.png",
+      "meta": "images/05-seated-lookbook-crop/meta.json"
+    },
+    {
+      "id": "06-movement-editorial",
+      "title": "Movement Editorial",
+      "image": "images/06-movement-editorial/image.png",
+      "meta": "images/06-movement-editorial/meta.json"
+    },
+    {
+      "id": "07-closeup-fabric-beauty",
+      "title": "Close-Up Fabric Beauty",
+      "image": "images/07-closeup-fabric-beauty/image.png",
+      "meta": "images/07-closeup-fabric-beauty/meta.json"
+    },
+    {
+      "id": "08-lighting-shift-portrait",
+      "title": "Lighting Shift Portrait",
+      "image": "images/08-lighting-shift-portrait/image.png",
+      "meta": "images/08-lighting-shift-portrait/meta.json"
+    },
+    {
+      "id": "09-finale-cover-portrait",
+      "title": "Finale Cover Portrait",
+      "image": "images/09-finale-cover-portrait/image.png",
+      "meta": "images/09-finale-cover-portrait/meta.json"
+    }
+  ]
+}

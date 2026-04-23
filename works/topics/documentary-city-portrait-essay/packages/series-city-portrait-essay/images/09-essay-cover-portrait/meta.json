@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Documentary City Portrait Essay. Use a square editorial-documentary finish with measured space, strong place sense, and cover-worthy clarity. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one city resident with medium brown skin, short natural curls, practical everyday wardrobe, and a quiet observant gaze. Resolve the same person into a final city-essay portrait that feels ready for a photo story cover without any readable copy. Use the example direction from the brief as grounding context: Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create documentary-style urban portrait essays with candid realism, environmental storytelling, and location-aware visual texture.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The result should combine subject, place, and continuity into one convincing documentary finish. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nDocumentary City Portrait Essay series study 9/9, a final essay-cover portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no fake magazine text, no posterized night color, no fashion-glam styling drift, no broken spatial logic.",
+  "id": "09-essay-cover-portrait",
+  "title": "Essay Cover Portrait",
+  "description": "Essay Cover Portrait variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "world-knowledge",
+    "reasoning-composition",
+    "multi-image-reference"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/09-essay-cover-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-city-anchor",
+        "meta_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/meta.json",
+        "image_path": "works/topics/documentary-city-portrait-essay/packages/series-city-portrait-essay/images/01-reference-city-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a final essay-cover portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Essay Cover Portrait",
+      "description": "Essay Cover Portrait variation for Documentary City Portrait Essay, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "专题封面肖像",
+      "description": "专题封面肖像 是 城市纪实肖像图集 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "world-knowledge",
+      "reasoning-composition",
+      "multi-image-reference"
+    ],
+    "alt": {
+      "en": "Essay Cover Portrait portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的专题封面肖像肖像变体。"
+    }
+  }
+}

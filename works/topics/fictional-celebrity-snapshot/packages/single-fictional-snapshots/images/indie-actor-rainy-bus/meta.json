@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square rainy-night smartphone snapshot at a bus stop, with water droplets on the lens, wet pavement reflections, warm shelter light, and a bus approaching in soft motion blur. The camera is held low from under an umbrella, causing the top edge of the frame to vignette slightly. The image should feel like an ordinary commuter photo captured by chance.\n\nSubject:\nA completely fictional acclaimed indie-actor celebrity-like person waits alone on the bench, holding a folded umbrella and a paper bag with no markings. They wear a thrifted corduroy coat, knit cap, scuffed boots, and a calm tired expression. Their face is invented and not based on any real actor. A small group of commuters stands farther back, one person quietly looking over as if recognizing them, but there is no crowd or confrontation.\n\nImportant details:\nMake the realism depend on weather and phone optics: raindrops, blown highlights, bus headlights, damp fabric, shelter glass, reflections, and mild lens flare. The subject should feel notable but not glamorous, integrated into public transit life. All bus route signs, shelter ads, and paper bag markings must be unreadable. The image should be emotionally cinematic while still reading as a candid phone snapshot.\n\nUse case:\nFictional Celebrity Snapshot single study 8/8, testing rainy low-light phone realism with a fictional indie-actor public-transit moment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no tabloid caption, no brand clothing marks, no unsafe road scene, no staged film still, no uncanny facial detail.",
+  "id": "indie-actor-rainy-bus",
+  "title": "Indie Actor Rainy Bus",
+  "description": "A rainy bus-stop phone snapshot of an invented indie-actor figure waiting quietly among commuters.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/indie-actor-rainy-bus/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Indie Actor Rainy Bus",
+      "description": "A rainy bus-stop phone snapshot of an invented indie-actor figure waiting quietly among commuters."
+    },
+    "zh-CN": {
+      "title": "独立演员雨夜公交",
+      "description": "一张雨夜公交站手机抓拍，虚构独立演员感人物安静地与通勤者一起等车。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square rainy bus-stop phone snapshot of a fictional indie-actor-like person waiting on a bench.",
+      "zh-CN": "一张方形雨夜公交站手机抓拍，虚构独立演员感人物坐在长椅上等车。"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "easter-island-moai-quarry",
+  "slug": "easter-island-moai-quarry",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge"
+  ],
+  "title": "Easter Island Moai Quarry",
+  "short_title": "Moai Quarry",
+  "description": "The Rano Raraku quarry where dozens of Moai statues lie in various stages of carving, some half-buried, others standing sentinel at 60-degree tilts, all under dramatic Pacific cloud cover.",
+  "i18n": {
+    "en": {
+      "title": "Easter Island Moai Quarry",
+      "short_title": "Moai Quarry",
+      "description": "The Rano Raraku quarry where dozens of Moai statues lie in various stages of carving, some half-buried, others standing sentinel at 60-degree tilts, all under dramatic Pacific cloud cover."
+    },
+    "zh-CN": {
+      "title": "复活节岛摩艾采石场",
+      "short_title": "摩艾采石场",
+      "description": "拉诺拉拉库采石场 · 数十座摩艾雕像处于不同雕凿阶段 · 有的半埋 · 有的 60 度倾斜守望 · 上方太平洋戏剧性云层。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 500,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "cinematic"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

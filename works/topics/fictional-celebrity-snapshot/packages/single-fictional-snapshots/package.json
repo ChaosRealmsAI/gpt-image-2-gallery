@@ -1,0 +1,82 @@
+{
+  "id": "single-fictional-snapshots",
+  "type": "single",
+  "title": "Fictional Snapshots",
+  "description": "Eight independent phone-camera snapshots of invented celebrity-like people in ordinary public scenes, with no real names or real-person likeness.",
+  "creative_direction": "Each image should look casually captured rather than staged: imperfect phone framing, environmental clutter, plausible ambient light, and a fictional high-status subject doing something mundane, while explicitly avoiding real celebrity identity or claimed real events.",
+  "cover_image": "images/tech-founder-skate-stop/image.png",
+  "i18n": {
+    "en": {
+      "title": "Fictional Snapshots",
+      "description": "Eight independent phone-camera snapshots of invented celebrity-like people in ordinary public scenes, with no real names or real-person likeness."
+    },
+    "zh-CN": {
+      "title": "虚构抓拍单图研究",
+      "description": "八张独立手机抓拍风图片，展现虚构名人感人物置身普通公共场景，不使用真人姓名或真人相貌。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "reasoning-composition",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "tech-founder-skate-stop",
+      "title": "Tech Founder Skate Stop",
+      "image": "images/tech-founder-skate-stop/image.png",
+      "meta": "images/tech-founder-skate-stop/meta.json"
+    },
+    {
+      "id": "design-icon-corner-store",
+      "title": "Design Icon Corner Store",
+      "image": "images/design-icon-corner-store/image.png",
+      "meta": "images/design-icon-corner-store/meta.json"
+    },
+    {
+      "id": "rocket-heiress-playground",
+      "title": "Rocket Heiress Playground",
+      "image": "images/rocket-heiress-playground/image.png",
+      "meta": "images/rocket-heiress-playground/meta.json"
+    },
+    {
+      "id": "pop-diva-laundromat",
+      "title": "Pop Diva Laundromat",
+      "image": "images/pop-diva-laundromat/image.png",
+      "meta": "images/pop-diva-laundromat/meta.json"
+    },
+    {
+      "id": "action-star-night-market",
+      "title": "Action Star Night Market",
+      "image": "images/action-star-night-market/image.png",
+      "meta": "images/action-star-night-market/meta.json"
+    },
+    {
+      "id": "fashion-muse-subway",
+      "title": "Fashion Muse Subway",
+      "image": "images/fashion-muse-subway/image.png",
+      "meta": "images/fashion-muse-subway/meta.json"
+    },
+    {
+      "id": "chef-legend-gas-station",
+      "title": "Chef Legend Gas Station",
+      "image": "images/chef-legend-gas-station/image.png",
+      "meta": "images/chef-legend-gas-station/meta.json"
+    },
+    {
+      "id": "indie-actor-rainy-bus",
+      "title": "Indie Actor Rainy Bus",
+      "image": "images/indie-actor-rainy-bus/image.png",
+      "meta": "images/indie-actor-rainy-bus/meta.json"
+    }
+  ]
+}

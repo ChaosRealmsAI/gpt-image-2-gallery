@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square night-market smartphone snapshot with warm steam, mixed LED lighting, crowded depth, and imperfect handheld framing. The camera is positioned behind a food-stall queue, with a shoulder and paper tray blurred in the foreground. Wet pavement reflects colored lights, awnings form layered diagonals, and the subject is caught mid-gesture under realistic low-light phone noise.\n\nSubject:\nA completely fictional action-movie celebrity-like person stands at a street food stall, balancing two skewers and a tiny sauce cup while wearing a simple black bomber jacket, faded jeans, and a baseball cap with no logo. Their face is invented and not based on any real actor or martial artist. They look physically charismatic but relaxed, laughing at a small spill on the counter while the vendor gestures with tongs.\n\nImportant details:\nThe image should feel like a lucky candid shot, not a promotional still. Keep the fame signal indirect: a few people in line glance over, one raises eyebrows, but nobody photographs aggressively. Render steam, sauce gloss, paper trays, jacket fabric, low-light skin texture, and wet street reflections convincingly. All menu boards, signs, and packaging should be abstract and unreadable.\n\nUse case:\nFictional Celebrity Snapshot single study 5/8, testing low-light street realism around an invented action-star figure in an ordinary food scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no real person name, no claimed real event, no brand cap, no fight scene, no weapons, no tabloid framing, no over-sharpened AI face.",
+  "id": "action-star-night-market",
+  "title": "Action Star Night Market",
+  "description": "A low-light phone snapshot of an invented action-star figure balancing street food at a night market.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "photorealism",
+    "cinematic",
+    "social-feed",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-celebrity-snapshot/packages/single-fictional-snapshots/images/action-star-night-market/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fictional-person snapshot with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Action Star Night Market",
+      "description": "A low-light phone snapshot of an invented action-star figure balancing street food at a night market."
+    },
+    "zh-CN": {
+      "title": "动作明星夜市",
+      "description": "一张低光手机抓拍，虚构动作明星感人物在夜市摊前端着街头小吃。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "cinematic",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "A square night-market phone snapshot of a fictional action-star-like person holding street food.",
+      "zh-CN": "一张方形夜市手机抓拍，虚构动作明星感人物端着街头小吃。"
+    }
+  }
+}
