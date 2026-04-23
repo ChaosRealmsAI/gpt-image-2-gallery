@@ -1,0 +1,53 @@
+{
+  "id": "speaker-event-headliner-poster-kit",
+  "slug": "speaker-event-headliner-poster-kit",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Speaker Event Headliner Poster Kit",
+  "short_title": "Headliner Kit",
+  "description": "A Prompt Atlas theme for Speaker Event Headliner Poster Kit, testing commercial-mockup, structured-layout, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Speaker Event Headliner Poster Kit",
+      "short_title": "Headliner Kit",
+      "description": "Create poster kits for talks, festivals, or creator events with speaker prominence and schedule-readiness."
+    },
+    "zh-CN": {
+      "title": "活动主讲人海报套件",
+      "short_title": "主讲人海报",
+      "description": "做活动主讲人海报套件，适合演讲、论坛和 creator event。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

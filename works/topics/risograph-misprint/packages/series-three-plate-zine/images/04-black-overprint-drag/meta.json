@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nSame square top-down studio product shot as the reference image: cream paper on a warm white table, soft side lighting, visible paper texture, and the same zine poster composition. Preserve the reference poster's crop and layout with the shop facade, bicycle, angular clouds, two figures, pseudo-title band, and bottom pseudo-caption bars in the same positions.\n\nSubject:\nTransform the reference into a black key-plate overprint and ink-drag study. The black ink layer is slightly too heavy, with pressure-darkened keylines, small drag streaks in the direction of paper travel, and tiny black smears near dense linework. The fluorescent pink and cobalt blue plates remain visible underneath, but the black plate partially overpowers details around the shop window, bicycle spokes, figure outlines, and pseudo-title shapes.\n\nImportant details:\nThe print should look like a real overloaded Risograph pass, not dirt on a digital file. Show ink sitting on uncoated paper, slight feathering into fibers, roller bands, tiny void speckles, and black overprint changing color where it crosses pink and blue. Keep the poster layout and registration marks readable as shapes, but all pseudo-text must remain non-readable. The final artifact should feel flawed yet collectible.\n\nUse case:\nFourth image in a reference-dependent Risograph Misprint series, preserving the base poster while emphasizing heavy black overprint and ink drag.\n\nConstraints:\nPRESERVE the reference image composition, paper crop, zine layout, subject placement, and square format. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand marks, no full-color CMYK, no digital grunge overlay, no changed poster subject, no human hands.",
+  "id": "04-black-overprint-drag",
+  "title": "Black Overprint Drag",
+  "description": "The reference zine poster with heavy black key-plate overprint, ink drag, and roller-pressure defects.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "failed",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/04-black-overprint-drag/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-zine-poster",
+        "meta_path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/01-reference-zine-poster/meta.json",
+        "image_path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/01-reference-zine-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference poster to preserve layout while adding heavy black overprint and ink drag.",
+    "last_error": {
+      "reason": "poll 超时 240s",
+      "retryable": true,
+      "output_path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/04-black-overprint-drag/image.png",
+      "checked_at": "2026-04-23T07:57:23.753Z"
+    }
+  },
+  "i18n": {
+    "en": {
+      "title": "Black Overprint Drag",
+      "description": "The reference zine poster with heavy black key-plate overprint, ink drag, and roller-pressure defects."
+    },
+    "zh-CN": {
+      "title": "黑版叠印拖墨",
+      "description": "基准 zine 海报出现厚重黑色 key 版叠印、拖墨和滚筒压力瑕疵。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A Risograph zine poster where heavy black ink creates drag streaks and dense overprint.",
+      "zh-CN": "一张 Risograph zine 海报，厚重黑墨形成拖墨条纹和浓重叠印。"
+    }
+  }
+}

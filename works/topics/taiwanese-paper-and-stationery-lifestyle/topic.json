@@ -1,0 +1,54 @@
+{
+  "id": "taiwanese-paper-and-stationery-lifestyle",
+  "slug": "taiwanese-paper-and-stationery-lifestyle",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Taiwanese Paper and Stationery Lifestyle",
+  "short_title": "TW Paper Culture",
+  "description": "Build visuals inspired by Taiwanese stationery, notebooks, paper textures, desk rituals, and small-shop warmth.",
+  "i18n": {
+    "en": {
+      "title": "Taiwanese Paper and Stationery Lifestyle",
+      "short_title": "TW Paper Culture",
+      "description": "Build visuals inspired by Taiwanese stationery, notebooks, paper textures, desk rituals, and small-shop warmth."
+    },
+    "zh-CN": {
+      "title": "台式纸品与文具生活美学",
+      "short_title": "台式纸品",
+      "description": "围绕台湾纸品与文具生活美学做系统，强调纸张肌理、桌面 ritual 和小店温度。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1041,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-theme-core",
+      "type": "series",
+      "title": "Theme Core",
+      "path": "packages/series-theme-core/package.json"
+    },
+    {
+      "id": "single-theme-extensions",
+      "type": "single",
+      "title": "Theme Extensions",
+      "path": "packages/single-theme-extensions/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "roadtrip-overlook-cinematic-set",
+  "slug": "roadtrip-overlook-cinematic-set",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Roadtrip Overlook Cinematic Set",
+  "short_title": "Roadtrip Overlooks",
+  "description": "A Prompt Atlas theme for Roadtrip Overlook Cinematic Set, testing photorealism, reasoning-composition, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Roadtrip Overlook Cinematic Set",
+      "short_title": "Roadtrip Overlooks",
+      "description": "Create cinematic overlook sets for roadtrip culture with horizon pull, roadside cues, and destination longing."
+    },
+    "zh-CN": {
+      "title": "公路旅行观景点电影组",
+      "short_title": "公路观景",
+      "description": "做公路旅行观景电影组，强调地平线、路边物件和目的地情绪。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

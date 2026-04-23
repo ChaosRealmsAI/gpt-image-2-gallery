@@ -1,0 +1,53 @@
+{
+  "id": "reaction-meme-still-system",
+  "slug": "reaction-meme-still-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Reaction Meme Still System",
+  "short_title": "Reaction Memes",
+  "description": "A Prompt Atlas theme for Reaction Meme Still System, testing commercial-mockup, reasoning-composition, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Reaction Meme Still System",
+      "short_title": "Reaction Memes",
+      "description": "Create reaction-still systems with readable facial timing, freeze-frame energy, and meme caption space."
+    },
+    "zh-CN": {
+      "title": "反应式 meme 定格系统",
+      "short_title": "反应meme",
+      "description": "做反应式 meme 定格系统，强调表情 timing、冻结瞬间和 caption 空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

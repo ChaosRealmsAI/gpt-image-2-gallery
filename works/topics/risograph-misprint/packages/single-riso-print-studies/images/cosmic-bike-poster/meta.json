@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic wall mockup of a single Risograph poster pinned to a cork board with two plain metal clips. The camera is straight-on with slight lens softness, warm room light, and visible paper waviness. The print uses only fluorescent pink, cobalt blue, black ink, and cream paper. Small shadows from the clips and paper curl make the object feel physical.\n\nSubject:\nA fictional cosmic bicycle poster in 1980s zine style: a bicycle silhouette rides across a crescent moon ramp, stars become halftone dots, planets are simplified circles, and angular speed lines cut across the composition. The top and bottom contain bold pseudo-title shapes and small unreadable event blocks, designed as graphic texture rather than readable typography.\n\nImportant details:\nEmphasize the Risograph process: 1-2mm color separation drift, cobalt blue slightly offset from black wheel lines, fluorescent pink stars bleeding into paper fibers, black ink thicker on the tire silhouette, and irregular halftone density across the sky. Include margin registration crosses, small crop ticks, and a faint roller stripe. The design should be visually striking but still visibly a printed paper artifact.\n\nUse case:\nRisograph Misprint single study 6/8, testing a cosmic bicycle poster with physical three-color print imperfections.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real event name, no real brand marks, no full-color space art, no glossy poster finish, no digital glitch effect, no human hands, no perfect clean registration.",
+  "id": "cosmic-bike-poster",
+  "title": "Cosmic Bike Poster",
+  "description": "A pinned cosmic bicycle Risograph poster with fluorescent pink stars, cobalt shadows, and deliberate misregistration.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/single-riso-print-studies/images/cosmic-bike-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Risograph print artifact; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cosmic Bike Poster",
+      "description": "A pinned cosmic bicycle Risograph poster with fluorescent pink stars, cobalt shadows, and deliberate misregistration."
+    },
+    "zh-CN": {
+      "title": "宇宙自行车海报",
+      "description": "一张钉在软木板上的宇宙自行车 Risograph 海报，带荧光粉星点、钴蓝阴影和故意错位。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A pinned Risograph poster of a bicycle crossing a crescent moon ramp with misregistered colors.",
+      "zh-CN": "一张钉住的 Risograph 海报，自行车越过月牙坡道，颜色套印错位。"
+    }
+  }
+}

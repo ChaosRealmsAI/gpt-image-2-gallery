@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary image composed like a premium archaeology magazine feature. Use warm Sahara sandstone, dusty red-brown pigment, muted ivory chalk, and low dusk light. Frame a Tassili sandstone wall filled with prehistoric painted figures, giraffes, dancers, and hunters that seem gently volumetric without becoming fantasy creatures with crisp depth layering, restrained contrast, and subtle atmospheric depth so the scene feels excavated, observed, and historically grounded rather than theatrical or game-like. Keep the light directional but believable, as if captured during a careful field visit.\n\nSubject:\nCenter the image on a Tassili sandstone wall filled with prehistoric painted figures, giraffes, dancers, and hunters that seem gently volumetric without becoming fantasy creatures. Include culturally accurate surface logic, region-specific setting, and believable human-scale cues in stairs, doorways, cut blocks, relief edges, or water depth. Shapes, carvings, masonry joints, and site wear should feel studied from real archaeology, with no generic ancient-world mashup and no ornamental filler borrowed from another civilization.\n\nImportant details:\nKeep the imagery recognizably North African rock art, with elongated figures, animal profile logic, archaeological weathering, and only a restrained suggestion of volume emerging from the painted surface. Emphasize sandstone shelter walls, mineral pigment residues, dust-softened ledges, weathering crust, and subtle low-relief transitions where painting meets stone. Keep inscriptions, painted registers, symbolic motifs, or carved bands visually plausible but not readable. Preserve a museum-grade balance between beauty and evidence: light should reveal relief depth, edge wear, repairs, sediment traces, and excavation context without turning the site into fantasy spectacle. The composition should feel like a definitive reference frame that later variations can inherit exactly.\n\nUse case:\nTassili Rock Art Coming Alive series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no glowing magic portals, no comic-book action poses, no modern graffiti, no surreal monsters, no tourists, no anachronistic props, no collage layout, no exaggerated fantasy lighting.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Tassili Rock.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tassili-rock-art-living/packages/series-core-discovery/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the discovery fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Tassili Rock."
+    },
+    "zh-CN": {
+      "title": "参考锚点",
+      "description": "建立系列基准遗址身份与视觉规则的核心参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "Tassili rock art figures and giraffes seem to lift gently from a glowing sandstone wall.",
+      "zh-CN": "塔西利岩画相关研究图像。"
+    }
+  }
+}

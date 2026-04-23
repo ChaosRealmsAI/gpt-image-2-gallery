@@ -1,0 +1,58 @@
+{
+  "id": "single-riso-print-studies",
+  "type": "single",
+  "title": "Riso Print Studies",
+  "description": "Four independent Risograph print studies exploring zine spreads, posters, flyers, and comics with physical ink defects.",
+  "creative_direction": "Each square image is a self-contained photoreal print artifact using fluorescent pink, cobalt blue, and black separations, visible paper fibers, halftone grain, uneven coverage, and intentional 1-2mm registration errors.",
+  "cover_image": "images/botanical-zine-spread/image.png",
+  "i18n": {
+    "en": {
+      "title": "Riso Print Studies",
+      "description": "Four independent Risograph print studies exploring zine spreads, posters, flyers, and comics with physical ink defects."
+    },
+    "zh-CN": {
+      "title": "Risograph 单图研究",
+      "description": "四张独立 Risograph 印刷物研究，覆盖 zine 跨页、海报、传单和漫画，并突出真实油墨缺陷。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "botanical-zine-spread",
+      "title": "Botanical Zine Spread",
+      "image": "images/botanical-zine-spread/image.png",
+      "meta": "images/botanical-zine-spread/meta.json"
+    },
+    {
+      "id": "cosmic-bike-poster",
+      "title": "Cosmic Bike Poster",
+      "image": "images/cosmic-bike-poster/image.png",
+      "meta": "images/cosmic-bike-poster/meta.json"
+    },
+    {
+      "id": "aquarium-flyer-misprint",
+      "title": "Aquarium Flyer Misprint",
+      "image": "images/aquarium-flyer-misprint/image.png",
+      "meta": "images/aquarium-flyer-misprint/meta.json"
+    },
+    {
+      "id": "street-cat-comic-page",
+      "title": "Street Cat Comic Page",
+      "image": "images/street-cat-comic-page/image.png",
+      "meta": "images/street-cat-comic-page/meta.json"
+    }
+  ]
+}

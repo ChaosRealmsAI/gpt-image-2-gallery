@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square synthetic reference board laid out as a precise 4 by 4 grid of sixteen image tiles on warm museum paper. Each tile is a distinct visual source cue, separated by thin cream gutters, photographed straight-on with even catalog lighting. The board feels like a curated mood atlas rather than a collage mess.\n\nSubject:\nSixteen source tiles: one portrait face with round glasses, one teal wool coat, one canal alley at dusk, one old brick bridge, one hand-painted sky background, one paper lantern cluster, one ceramic cat figurine, one brass compass, one blue bicycle, one ink wash cloud, one mossy stone stair, one embroidered scarf, one tiny food stall, one wooden window frame, one soft watercolor texture, and one warm film-grain color swatch. No tile contains readable text.\n\nImportant details:\nEvery tile should be visually distinct and memorable, with consistent square tile size and clean gutters. The reference board must make the sixteen cues easy to reuse: identity, outfit, place, props, materials, palette, and illustration style. Use tasteful analog texture, gentle color harmony, and high visual clarity.\n\nUse case:\nRoot reference board for a sixteen-reference fusion series. Later images should use this board as --ref and synthesize its cues into coherent scenes rather than copying the grid layout.\n\nConstraints:\nExactly sixteen tiles in a 4 by 4 grid, no readable text, no logos, no watermark, no real brands, no random extra tiles, no overlapping collage scraps, preserve exact 1:1 aspect ratio.",
+  "id": "01-sixteen-source-board",
+  "title": "Sixteen Source Board",
+  "description": "A 4 by 4 synthetic reference board containing sixteen reusable visual cues.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root synthetic reference board for the sixteen-reference fusion series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sixteen Source Board",
+      "description": "A 4 by 4 synthetic reference board containing sixteen reusable visual cues."
+    },
+    "zh-CN": {
+      "title": "十六来源板",
+      "description": "包含十六个可复用视觉线索的 4x4 合成参考板。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A 4 by 4 reference board with sixteen distinct visual source tiles.",
+      "zh-CN": "一张 4x4 参考板，包含十六个不同视觉来源格。"
+    }
+  }
+}

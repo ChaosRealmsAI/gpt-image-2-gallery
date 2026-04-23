@@ -1,0 +1,55 @@
+{
+  "id": "sixteen-reference-fusion",
+  "slug": "sixteen-reference-fusion",
+  "category": "illustration",
+  "style": [
+    "mixed-media",
+    "photoreal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency"
+  ],
+  "title": "Sixteen Reference Fusion",
+  "short_title": "16 Ref Fusion",
+  "description": "A Prompt Atlas theme for fusing many visual inputs into one coherent image while preserving identity, place, materials, and style cues.",
+  "i18n": {
+    "en": {
+      "title": "Sixteen Reference Fusion",
+      "short_title": "16 Ref Fusion",
+      "description": "A Prompt Atlas theme for fusing many visual inputs into one coherent image while preserving identity, place, materials, and style cues."
+    },
+    "zh-CN": {
+      "title": "十六参考融合",
+      "short_title": "参考融合",
+      "description": "把多组视觉输入融合成一张连贯图，同时保持身份、地点、材质和风格线索。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion",
+      "identity-consistency"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-reference-fusion-atlas",
+      "type": "series",
+      "title": "Reference Fusion Atlas",
+      "path": "packages/series-reference-fusion-atlas/package.json"
+    },
+    {
+      "id": "single-fusion-studies",
+      "type": "single",
+      "title": "Fusion Studies",
+      "path": "packages/single-fusion-studies/package.json"
+    }
+  ]
+}

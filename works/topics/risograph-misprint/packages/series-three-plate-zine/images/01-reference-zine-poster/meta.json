@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic product shot of a Risograph zine poster lying flat on a slightly warm off-white studio table, viewed straight down with soft side light and subtle paper shadows. The print is on uncoated cream paper with visible fibers, deckled tiny edge imperfections, and faint roller pressure marks. The palette is limited to fluorescent pink, cobalt blue, and black ink, with off-white paper as the fourth tone.\n\nSubject:\nA fictional 1980s independent-comic style poster showing a moonlit street corner, a small record shop facade, a bicycle leaning on a pole, angular clouds, and two simplified figures drawn in bold zine linework. The layout has a large central illustration, abstract pseudo-title blocks near the top, small pseudo-caption bars at the bottom, and a few registration cross marks along the margins. All text areas must be unreadable graphic shapes.\n\nImportant details:\nMake this image the clean reference print for a fanout series. The composition should be stable, balanced, and easy to preserve later: central shop window, bicycle lower right, clouds upper left, figures midground, pseudo-title band top. Include halftone dots, uneven ink absorption, slight fluorescent pink spread, cobalt blue grain, and black keyline crispness. Registration should be mostly accurate with only tiny natural offset.\n\nUse case:\nReference image for a Risograph Misprint series. Later images must preserve this same zine poster composition while changing specific plate errors and ink defects.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real band names, no real brand marks, no glossy digital poster, no full-color CMYK, no perfectly clean vector art, no folded magazine mockup, no human hands.",
+  "id": "01-reference-zine-poster",
+  "title": "Reference Zine Poster",
+  "description": "A clean three-color Risograph zine poster establishing the composition for later misprint variations.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/01-reference-zine-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the Risograph misprint fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Zine Poster",
+      "description": "A clean three-color Risograph zine poster establishing the composition for later misprint variations."
+    },
+    "zh-CN": {
+      "title": "基准 Zine 海报",
+      "description": "一张干净的三色 Risograph zine 海报，为后续错版变化建立构图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A cream-paper three-color Risograph zine poster with mostly accurate registration.",
+      "zh-CN": "一张奶油纸三色 Risograph zine 海报，套印基本准确。"
+    }
+  }
+}

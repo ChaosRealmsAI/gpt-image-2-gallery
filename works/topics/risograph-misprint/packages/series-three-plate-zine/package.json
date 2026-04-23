@@ -1,0 +1,71 @@
+{
+  "id": "series-three-plate-zine",
+  "type": "series",
+  "title": "Three-Plate Zine",
+  "description": "A reference-dependent Risograph series: one base zine poster followed by three print-fault variations preserving the same composition.",
+  "creative_direction": "Image 01 establishes a three-color zine poster on physical paper; images 02-04 depend on it and preserve the layout while changing registration drift, double-feed ghosting, and black-plate overprint behavior.",
+  "cover_image": "images/01-reference-zine-poster/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-zine-poster/meta.json",
+      "images/02-pink-plate-shift/meta.json",
+      "images/03-blue-ghost-feed/meta.json",
+      "images/04-black-overprint-drag/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Three-Plate Zine",
+      "description": "A reference-dependent Risograph series: one base zine poster followed by three print-fault variations preserving the same composition."
+    },
+    "zh-CN": {
+      "title": "三色版 Zine",
+      "description": "一张基准 Risograph zine 海报，后续三张在保持构图的同时改变错版、重影和黑版拖墨。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "physics-materials",
+      "style-transfer"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-zine-poster",
+      "title": "Reference Zine Poster",
+      "image": "images/01-reference-zine-poster/image.png",
+      "meta": "images/01-reference-zine-poster/meta.json"
+    },
+    {
+      "id": "02-pink-plate-shift",
+      "title": "Pink Plate Shift",
+      "image": "images/02-pink-plate-shift/image.png",
+      "meta": "images/02-pink-plate-shift/meta.json"
+    },
+    {
+      "id": "03-blue-ghost-feed",
+      "title": "Blue Ghost Feed",
+      "image": "images/03-blue-ghost-feed/image.png",
+      "meta": "images/03-blue-ghost-feed/meta.json"
+    },
+    {
+      "id": "04-black-overprint-drag",
+      "title": "Black Overprint Drag",
+      "image": "images/04-black-overprint-drag/image.png",
+      "meta": "images/04-black-overprint-drag/meta.json"
+    }
+  ]
+}

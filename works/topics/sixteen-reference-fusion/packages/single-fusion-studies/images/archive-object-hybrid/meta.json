@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square museum archive table photographed straight-on in an illustrated catalog style. Cream background, soft shadows, thin annotation lines without readable words, and a carefully balanced arrangement of objects.\n\nSubject:\nOne hybrid archive object sits in the center: part compass, part lantern, part ceramic animal, part bicycle bell, part wooden window latch, part embroidered fabric charm. Around it are sixteen tiny unlabeled source fragments that visually explain the fusion: metal, glass, fabric, ceramic, wood, moss, brick, paper, ink, watercolor, rope, brass, enamel, stone, film grain, and warm light.\n\nImportant details:\nThe central object should feel designed and functional, not random. The sixteen input fragments should be small but legible as source cues. Use refined material rendering in an illustrated style, clear silhouette, and strong catalog composition.\n\nUse case:\nIndependent sixteen-reference fusion single image, testing object-level synthesis from many material and prop references.\n\nConstraints:\nNo readable text, no labels, no logos, no watermark, no scattered junk, no real brand artifacts, no photorealistic product mockup, preserve exact 1:1 aspect ratio.",
+  "id": "archive-object-hybrid",
+  "title": "Archive Object Hybrid",
+  "description": "A central archive object fused from sixteen material and prop cues.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/single-fusion-studies/images/archive-object-hybrid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fusion single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Archive Object Hybrid",
+      "description": "A central archive object fused from sixteen material and prop cues."
+    },
+    "zh-CN": {
+      "title": "档案物件混合体",
+      "description": "由十六个材质和道具线索融合成的中央档案物件。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A museum archive table with a hybrid object and sixteen material source fragments.",
+      "zh-CN": "博物馆档案桌上有一个混合物件和十六个材质来源碎片。"
+    }
+  }
+}

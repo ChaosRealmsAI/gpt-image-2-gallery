@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square illustrated travel poster with a clean central composition and sixteen small source motifs woven into the border. The style is warm hand-painted poster art with watercolor grain, soft ink outlines, and cinematic dusk light.\n\nSubject:\nThe poster depicts a fictional canal town made from sixteen fused cues: canal bridge, old alley, wooden window, paper lanterns, blue bicycle, food stall, moss stairs, ink clouds, warm film grain, embroidered scarf pattern, teal coat color, brass compass rose, ceramic cat statue, watercolor sky, brick texture, and cream paper border. The cues must become one believable destination scene.\n\nImportant details:\nClear poster hierarchy, one strong scenic focal point, harmonious palette, border motifs that hint at the sources, and no readable typography. The fusion should be coherent and atmospheric, with many discoverable details but no clutter.\n\nUse case:\nIndependent sixteen-reference fusion single image, testing place-level synthesis from many source motifs.\n\nConstraints:\nNo readable text, no real place names, no logos, no watermark, no random collage scraps, no photorealism, no overstuffed border, preserve exact 1:1 aspect ratio.",
+  "id": "travel-poster-fusion",
+  "title": "Travel Poster Fusion",
+  "description": "A fictional canal-town poster built from sixteen fused source motifs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/single-fusion-studies/images/travel-poster-fusion/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fusion single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Travel Poster Fusion",
+      "description": "A fictional canal-town poster built from sixteen fused source motifs."
+    },
+    "zh-CN": {
+      "title": "旅行海报融合",
+      "description": "由十六个来源母题融合成的虚构运河小镇海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A hand-painted canal town poster fusing sixteen source motifs into one place.",
+      "zh-CN": "把十六个来源母题融合成一处地点的手绘运河小镇海报。"
+    }
+  }
+}

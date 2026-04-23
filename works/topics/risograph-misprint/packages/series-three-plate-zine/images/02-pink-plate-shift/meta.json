@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nSame square top-down studio product shot as the reference image: the same Risograph zine poster on cream uncoated paper, same table, same paper edges, same soft side lighting, and the same central poster composition. Preserve the reference crop, paper position, zine layout, shop facade, bicycle, clouds, figures, pseudo-title band, and bottom pseudo-caption bars.\n\nSubject:\nTransform the reference print into a deliberate fluorescent-pink plate misregistration study. The same poster remains visible, but the fluorescent pink separation is shifted 1-2mm down and slightly right relative to the cobalt blue and black plates. Pink fills, facial accents, window glow, cloud shadows, and abstract title blocks should visibly float away from the black keyline while the main composition remains recognizable.\n\nImportant details:\nMake the misprint physical and believable, not a digital glitch. Show fluorescent ink spreading into paper fibers, tiny pink halos around edges, uneven pressure bands, halftone rosettes, and slight overprint where pink crosses cobalt blue. Keep the black keyline and cobalt plate mostly stable so the pink drift is easy to read. Registration marks along the margins may show the offset as colored crosses that fail to align.\n\nUse case:\nSecond image in a reference-dependent Risograph Misprint series, preserving the base poster while isolating fluorescent pink plate drift.\n\nConstraints:\nPRESERVE the reference image composition, paper crop, zine layout, subject placement, and square format. No readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand marks, no full-color CMYK, no digital RGB glitch, no changed poster subject, no human hands.",
+  "id": "02-pink-plate-shift",
+  "title": "Pink Plate Shift",
+  "description": "The reference zine poster with the fluorescent pink plate shifted 1-2mm from the black and blue layers.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "style-transfer",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/02-pink-plate-shift/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-zine-poster",
+        "meta_path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/01-reference-zine-poster/meta.json",
+        "image_path": "works/topics/risograph-misprint/packages/series-three-plate-zine/images/01-reference-zine-poster/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference poster to preserve layout while shifting the fluorescent pink plate."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pink Plate Shift",
+      "description": "The reference zine poster with the fluorescent pink plate shifted 1-2mm from the black and blue layers."
+    },
+    "zh-CN": {
+      "title": "荧光粉版错位",
+      "description": "基准 zine 海报中荧光粉版相对黑版和蓝版错位 1-2mm。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "style-transfer"
+    ],
+    "alt": {
+      "en": "A Risograph zine poster where the fluorescent pink ink layer visibly drifts from the keylines.",
+      "zh-CN": "一张 Risograph zine 海报，荧光粉油墨层明显偏离黑色线稿。"
+    }
+  }
+}

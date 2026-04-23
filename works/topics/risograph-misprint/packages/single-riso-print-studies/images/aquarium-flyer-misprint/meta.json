@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic tabletop shot of a small stack of Risograph flyers, with the top flyer slightly askew and two duplicate sheets visible underneath. The paper is matte cream stock on a gray studio surface, lit by cool daylight. The top print uses fluorescent pink, cobalt blue, and black with rough halftone texture, ink pooling, and light paper curl at one corner.\n\nSubject:\nAn imaginary aquarium-club flyer drawn in independent-comic style: jellyfish, bubble columns, a fish tank silhouette, coral shapes, and a simplified diver helmet arranged in a structured poster grid. The flyer has abstract blocks where a title and schedule would be, plus tiny pseudo-ticket shapes along the bottom edge. All lettering is non-readable graphic texture.\n\nImportant details:\nMake the misprint specific and physical. The top flyer has a visible feed skew: the cobalt blue plate is rotated slightly clockwise, fluorescent pink bubbles are shifted left, and black keylines remain straight. The duplicate sheets underneath show partial offset transfer and faint ghost ink. Include registration crosses that do not align, coarse screen dots in the water, small ink voids in the jellyfish, and scuffed paper edges.\n\nUse case:\nRisograph Misprint single study 7/8, testing stacked flyer realism with skewed multi-plate registration and offset transfer.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real aquarium name, no ticket barcode, no full-color digital flyer, no glossy paper, no wet ink puddles, no human hands, no clean vector perfection.",
+  "id": "aquarium-flyer-misprint",
+  "title": "Aquarium Flyer Misprint",
+  "description": "A small stack of aquarium-themed Risograph flyers showing skewed color plates, ghost transfer, and halftone water texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/single-riso-print-studies/images/aquarium-flyer-misprint/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Risograph print artifact; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Aquarium Flyer Misprint",
+      "description": "A small stack of aquarium-themed Risograph flyers showing skewed color plates, ghost transfer, and halftone water texture."
+    },
+    "zh-CN": {
+      "title": "水族馆传单错版",
+      "description": "一小叠水族馆主题 Risograph 传单，展示斜向色版、重影转印和水体网点纹理。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A stack of aquarium-themed Risograph flyers with skewed pink and cobalt ink plates.",
+      "zh-CN": "一叠水族馆主题 Risograph 传单，荧光粉和钴蓝油墨版倾斜错位。"
+    }
+  }
+}

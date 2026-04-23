@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic mockup of an open two-page zine spread lying on an unpainted plywood table, viewed from above with soft window light and shallow paper shadows. The pages are cream uncoated stock with visible fibers, staple crease, tiny handling dents, and imperfect trimmed edges. The entire spread is printed in fluorescent pink, cobalt blue, and black Risograph inks only.\n\nSubject:\nA botanical field-guide spread about imaginary greenhouse plants, shown through bold independent-comic linework, leaf silhouettes, seed pods, root diagrams, small specimen boxes, and pseudo-caption bars. The left page has a large plant cutaway; the right page has four smaller panels of leaves and roots. All title and note areas are abstract unreadable marks, not real writing.\n\nImportant details:\nThe print process is the main subject. Show 1-2mm registration drift between pink fills, cobalt blue shadows, and black keylines. Add coarse halftone shading, uneven ink coverage, roller streaks near the fold, slight ink offset transfer from facing pages, and small misaligned registration crosses in the corners. Keep the spread structured and legible as a designed zine artifact, not a messy collage.\n\nUse case:\nRisograph Misprint single study 5/8, testing a botanical zine spread with realistic paper, ink, and three-color misregistration.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real publication name, no glossy coated paper, no full-color digital print, no clean vector perfection, no human hands, no actual scientific labels.",
+  "id": "botanical-zine-spread",
+  "title": "Botanical Zine Spread",
+  "description": "A two-page botanical Risograph zine spread with three-color misregistration, halftone grain, and paper-fiber texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "structured-layout",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/single-riso-print-studies/images/botanical-zine-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Risograph print artifact; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Botanical Zine Spread",
+      "description": "A two-page botanical Risograph zine spread with three-color misregistration, halftone grain, and paper-fiber texture."
+    },
+    "zh-CN": {
+      "title": "植物 Zine 跨页",
+      "description": "一张植物主题双页 Risograph zine 跨页，带三色错位、网点颗粒和纸张纤维。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An open botanical Risograph zine spread with pink, cobalt, and black misregistered ink.",
+      "zh-CN": "一张打开的植物 Risograph zine 跨页，粉、钴蓝和黑色油墨错位。"
+    }
+  }
+}

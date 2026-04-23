@@ -1,0 +1,71 @@
+{
+  "id": "series-reference-fusion-atlas",
+  "type": "series",
+  "title": "Reference Fusion Atlas",
+  "description": "A reference-dependent series where one sixteen-tile source board drives three fusion scenes.",
+  "creative_direction": "Image 01 creates a public synthetic reference board with sixteen distinct cues; images 02-04 depend on it as --ref and fuse those cues into new coherent scenes.",
+  "cover_image": "images/01-sixteen-source-board/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-sixteen-source-board/meta.json",
+      "images/02-canal-wanderer-fusion/meta.json",
+      "images/03-studio-creature-fusion/meta.json",
+      "images/04-room-memory-fusion/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Fusion Atlas",
+      "description": "A reference-dependent series where one sixteen-tile source board drives three fusion scenes."
+    },
+    "zh-CN": {
+      "title": "参考融合图谱",
+      "description": "一张十六格来源板驱动三张融合场景的参考依赖系列。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "multi-reference",
+      "fusion",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-sixteen-source-board",
+      "title": "Sixteen Source Board",
+      "image": "images/01-sixteen-source-board/image.png",
+      "meta": "images/01-sixteen-source-board/meta.json"
+    },
+    {
+      "id": "02-canal-wanderer-fusion",
+      "title": "Canal Wanderer Fusion",
+      "image": "images/02-canal-wanderer-fusion/image.png",
+      "meta": "images/02-canal-wanderer-fusion/meta.json"
+    },
+    {
+      "id": "03-studio-creature-fusion",
+      "title": "Studio Creature Fusion",
+      "image": "images/03-studio-creature-fusion/image.png",
+      "meta": "images/03-studio-creature-fusion/meta.json"
+    },
+    {
+      "id": "04-room-memory-fusion",
+      "title": "Room Memory Fusion",
+      "image": "images/04-room-memory-fusion/image.png",
+      "meta": "images/04-room-memory-fusion/meta.json"
+    }
+  ]
+}

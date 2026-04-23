@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square illustrated portrait composition surrounded by sixteen small swatch-like source cues arranged as subtle border tiles, not a rigid reference grid. Warm paper texture, soft studio light, and refined editorial illustration quality.\n\nSubject:\nA single coherent portrait of an imagined traveler built from sixteen visual cues: round glasses, teal coat, embroidered scarf, canal-blue shadows, brick bridge texture, lantern warmth, compass motif, bicycle handlebar curve, cat-shaped pin, moss-green stair color, wooden window geometry, watercolor sky, ink cloud edge, food-stall red accent, film grain, and cream paper tone. The border swatches hint at the inputs while the central portrait is the fused result.\n\nImportant details:\nThe central character must feel unified, not like a patchwork costume. The sixteen cues should be discoverable through color, material, shape, and accessories. Use clean hierarchy, gentle texture, and clear silhouette. No readable labels are needed.\n\nUse case:\nIndependent sixteen-reference fusion single image, showing many source cues merging into one character identity without external refs.\n\nConstraints:\nNo readable text, no logos, no watermark, no real person likeness, no cluttered collage, no extra faces, no photorealism, preserve exact 1:1 aspect ratio.",
+  "id": "sixteen-swatch-portrait",
+  "title": "Sixteen Swatch Portrait",
+  "description": "A unified portrait built from sixteen visible source-like cues.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "identity-consistency",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/single-fusion-studies/images/sixteen-swatch-portrait/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent fusion single image; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sixteen Swatch Portrait",
+      "description": "A unified portrait built from sixteen visible source-like cues."
+    },
+    "zh-CN": {
+      "title": "十六色卡肖像",
+      "description": "由十六个可见来源线索融合成的统一肖像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A central traveler portrait surrounded by sixteen subtle source swatches.",
+      "zh-CN": "中央旅行者肖像周围环绕十六个细微来源色卡。"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference board as the source atlas, but do not repeat the grid. Create one coherent square illustration of a quiet canal alley at dusk, seen at walking height, with warm lantern light and soft hand-painted atmosphere.\n\nSubject:\nFuse the reference cues into one character scene: the round-glasses protagonist wears the teal wool coat and embroidered scarf, walks beside an old brick canal bridge, pushes the blue bicycle, and carries the brass compass. A ceramic cat sits near the wooden window frame; a small food stall glows under paper lanterns. The image should feel like all sixteen cues became one believable world.\n\nImportant details:\nPreserve identity, palette, props, and illustrated texture from the reference board. Use the watercolor texture, ink wash clouds, mossy stair, warm film grain, and hand-painted sky as environmental details. The fusion should be seamless, not a collage; the viewer should sense many references were combined into one place.\n\nUse case:\nSecond image in a reference-dependent sixteen-reference fusion series, testing whether many source cues can become a coherent walking scene.\n\nConstraints:\nUse the reference image as source material, but no visible 4 by 4 grid. No readable text, no logos, no watermark, no duplicated protagonist, no random extra props, no photorealism, preserve exact 1:1 aspect ratio.",
+  "id": "02-canal-wanderer-fusion",
+  "title": "Canal Wanderer Fusion",
+  "description": "The sixteen source cues fuse into one canal-walking character scene.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [
+    "01-sixteen-source-board"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/02-canal-wanderer-fusion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sixteen-source-board",
+        "meta_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/meta.json",
+        "image_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/image.png",
+        "ref_role": "source_atlas_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Canal Wanderer Fusion",
+      "description": "The sixteen source cues fuse into one canal-walking character scene."
+    },
+    "zh-CN": {
+      "title": "运河漫步融合",
+      "description": "十六个来源线索融合成一张运河漫步人物场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A canal alley scene fusing a character, bicycle, lanterns, bridge, and texture cues.",
+      "zh-CN": "融合人物、自行车、灯笼、桥和材质线索的运河小巷场景。"
+    }
+  }
+}

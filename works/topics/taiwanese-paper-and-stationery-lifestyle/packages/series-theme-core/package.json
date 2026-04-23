@@ -1,0 +1,71 @@
+{
+  "id": "series-theme-core",
+  "type": "series",
+  "title": "Theme Core",
+  "description": "A four-image reference-led core set for Taiwanese Paper and Stationery Lifestyle.",
+  "creative_direction": "Start with one anchor image, then preserve the same visual system across three downstream variations.",
+  "cover_image": "images/01-reference-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-anchor/meta.json",
+      "images/02-variation-one/meta.json",
+      "images/03-variation-two/meta.json",
+      "images/04-variation-three/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-anchor first. Use its runtime result URL as --ref for 02-variation-one, 03-variation-two, 04-variation-three. Queue may run 02-variation-one, 03-variation-two, 04-variation-three concurrently after 01-reference-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Theme Core",
+      "description": "A four-image reference-led core set for Taiwanese Paper and Stationery Lifestyle."
+    },
+    "zh-CN": {
+      "title": "主题主线",
+      "description": "围绕 台式纸品与文具生活美学 构建的四张参考驱动主线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-anchor",
+      "title": "Reference Anchor",
+      "image": "images/01-reference-anchor/image.png",
+      "meta": "images/01-reference-anchor/meta.json"
+    },
+    {
+      "id": "02-variation-one",
+      "title": "Variation One",
+      "image": "images/02-variation-one/image.png",
+      "meta": "images/02-variation-one/meta.json"
+    },
+    {
+      "id": "03-variation-two",
+      "title": "Variation Two",
+      "image": "images/03-variation-two/image.png",
+      "meta": "images/03-variation-two/meta.json"
+    },
+    {
+      "id": "04-variation-three",
+      "title": "Variation Three",
+      "image": "images/04-variation-three/image.png",
+      "meta": "images/04-variation-three/meta.json"
+    }
+  ]
+}

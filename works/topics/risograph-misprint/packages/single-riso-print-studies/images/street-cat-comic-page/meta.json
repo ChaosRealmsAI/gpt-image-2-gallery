@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square photorealistic scan-like view of a single Risograph comic page on cream paper, with a small black scanner shadow at one edge and visible paper grain. The page is laid out as a clean six-panel independent comic, but it remains one square gallery image. The palette is strict fluorescent pink, cobalt blue, black ink, and off-white paper, with coarse halftone and uneven ink pressure.\n\nSubject:\nA wordless street-cat comic page: a black cat crosses an alley, knocks over a flower pot, chases a blue moth, hides under a newspaper-like blank sheet, and finally sits proudly on a windowsill. The panels include gutters, expressive motion lines, small pseudo-speech bubbles, and unreadable sound-effect shapes. The cat, alley bricks, window, flower pot, and moth should remain clear despite the limited color system.\n\nImportant details:\nThe print flaws must be visible but not destroy readability. Shift fluorescent pink accent shapes 1-2mm from black linework, let cobalt blue shadow blocks drift slightly upward, and add black ink drag in dense brick hatching. Include halftone dots, paper fibers, small pinholes, speckled voids, and slightly uneven panel borders. The result should feel like a collectible 1980s underground comic misprint.\n\nUse case:\nRisograph Misprint single study 8/8, testing a structured six-panel comic page with physical Riso misregistration and ink artifacts.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real comic title, no brand marks, no full-color digital comic, no glossy paper, no human hands, no random broken panel order, no photorealistic cat photo.",
+  "id": "street-cat-comic-page",
+  "title": "Street Cat Comic Page",
+  "description": "A wordless six-panel street-cat Risograph comic page with pink and cobalt drift, halftone grain, and black ink drag.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "comic",
+    "structured-layout",
+    "physics-materials",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/risograph-misprint/packages/single-riso-print-studies/images/street-cat-comic-page/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Risograph print artifact; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Street Cat Comic Page",
+      "description": "A wordless six-panel street-cat Risograph comic page with pink and cobalt drift, halftone grain, and black ink drag."
+    },
+    "zh-CN": {
+      "title": "街猫漫画页",
+      "description": "一张无字六格街猫 Risograph 漫画页，带粉色和钴蓝错位、网点颗粒和黑墨拖痕。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "comic",
+      "structured-layout",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A wordless six-panel Risograph comic page about a street cat with visible ink misregistration.",
+      "zh-CN": "一张无字六格 Risograph 街猫漫画页，可见油墨套印错位。"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "risograph-misprint",
+  "slug": "risograph-misprint",
+  "category": "illustration",
+  "style": [
+    "retro",
+    "handdrawn"
+  ],
+  "capability": [
+    "structured-layout",
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Risograph Misprint",
+  "short_title": "Risograph",
+  "description": "A Prompt Atlas theme for Risograph misprint aesthetics, testing structured layout, paper-and-ink physics, photoreal print mockups, and two-to-three-color style transfer.",
+  "i18n": {
+    "en": {
+      "title": "Risograph Misprint",
+      "short_title": "Risograph",
+      "description": "A Prompt Atlas theme for Risograph misprint aesthetics, testing structured layout, paper-and-ink physics, photoreal print mockups, and two-to-three-color style transfer."
+    },
+    "zh-CN": {
+      "title": "Risograph 丝网错版印刷",
+      "short_title": "错版印刷",
+      "description": "测试荧光粉、钴蓝、黑色三色分版，1-2mm 故意错位、颗粒 halftone、纸张纤维和 80 年代 zine 质感。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 89,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "physics-materials",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-three-plate-zine",
+      "type": "series",
+      "title": "Three-Plate Zine",
+      "path": "packages/series-three-plate-zine/package.json"
+    },
+    {
+      "id": "single-riso-print-studies",
+      "type": "single",
+      "title": "Riso Print Studies",
+      "path": "packages/single-riso-print-studies/package.json"
+    }
+  ]
+}

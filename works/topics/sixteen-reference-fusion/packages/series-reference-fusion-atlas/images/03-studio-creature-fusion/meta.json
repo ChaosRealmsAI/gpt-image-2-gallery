@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference board as the source atlas, but compose a single coherent square studio still life, not a grid. The setting is a small artist workshop with warm desk light, watercolor paper, and quiet analog texture.\n\nSubject:\nFuse the source cues into a whimsical studio creature: the ceramic cat figurine becomes a small living guide wearing the teal coat texture as a cape, round glasses as tiny spectacles, and an embroidered scarf. Around it are the brass compass, blue bicycle wheel, paper lantern glow, mossy stone stair miniature, wooden window frame, and canal bridge model, all arranged as if the creature is building a memory map.\n\nImportant details:\nPreserve the color palette, film grain, watercolor texture, and individual prop identities from the reference board. The fusion must be elegant and coherent: many references are integrated into one designed object-world, with no copied grid. Use shallow studio depth, tactile materials, and clear focal hierarchy.\n\nUse case:\nThird image in a reference-dependent sixteen-reference fusion series, testing object, material, and character-like cue fusion.\n\nConstraints:\nUse the reference image as source material, but no visible 4 by 4 grid. No readable text, no logos, no watermark, no extra unrelated props, no horror creature, no photorealism, preserve exact 1:1 aspect ratio.",
+  "id": "03-studio-creature-fusion",
+  "title": "Studio Creature Fusion",
+  "description": "The reference cues fuse into a studio creature and its memory-map objects.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [
+    "01-sixteen-source-board"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/03-studio-creature-fusion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sixteen-source-board",
+        "meta_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/meta.json",
+        "image_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/image.png",
+        "ref_role": "source_atlas_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Studio Creature Fusion",
+      "description": "The reference cues fuse into a studio creature and its memory-map objects."
+    },
+    "zh-CN": {
+      "title": "工作室生物融合",
+      "description": "参考线索融合成工作室小生物和记忆地图物件。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A studio still life where many reference cues fuse into a small ceramic-cat creature.",
+      "zh-CN": "许多参考线索融合成陶瓷猫小生物的工作室静物。"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tassili-rock-art-living",
+  "slug": "tassili-rock-art-living",
+  "category": "illustration",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "style-transfer"
+  ],
+  "title": "Tassili Rock Art Coming Alive",
+  "short_title": "Tassili Rock",
+  "description": "Neolithic rock art of Tassili n'Ajjer where the painted figures seem to step off the wall — giraffes, hunters, dancers, shamans all subtly gaining volume, the sandstone glowing in desert dusk.",
+  "i18n": {
+    "en": {
+      "title": "Tassili Rock Art Coming Alive",
+      "short_title": "Tassili Rock",
+      "description": "Neolithic rock art of Tassili n'Ajjer where the painted figures seem to step off the wall — giraffes, hunters, dancers, shamans all subtly gaining volume, the sandstone glowing in desert dusk."
+    },
+    "zh-CN": {
+      "title": "塔西利岩画复活",
+      "short_title": "塔西利岩画",
+      "description": "新石器时代塔西利岩画 · 画中人物似要走出石壁 · 长颈鹿、猎人、舞者、巫师微微浮出立体 · 砂岩被沙漠黄昏染金。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 490,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

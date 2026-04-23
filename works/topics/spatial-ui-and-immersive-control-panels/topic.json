@@ -1,0 +1,53 @@
+{
+  "id": "spatial-ui-and-immersive-control-panels",
+  "slug": "spatial-ui-and-immersive-control-panels",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Spatial UI and Immersive Control Panels",
+  "short_title": "Spatial UI",
+  "description": "A Prompt Atlas theme for Spatial UI and Immersive Control Panels, testing structured-layout, style-transfer, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Spatial UI and Immersive Control Panels",
+      "short_title": "Spatial UI",
+      "description": "Build spatial or immersive control panels that feel futuristic, usable, and compositionally disciplined."
+    },
+    "zh-CN": {
+      "title": "空间感 UI 与沉浸控制面板",
+      "short_title": "空间感UI",
+      "description": "做空间感 UI 与沉浸控制面板，强调未来感和可用性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

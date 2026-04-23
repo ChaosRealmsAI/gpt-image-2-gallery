@@ -1,0 +1,53 @@
+{
+  "id": "storm-and-weather-spectacle-series",
+  "slug": "storm-and-weather-spectacle-series",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Storm and Weather Spectacle Series",
+  "short_title": "Weather Spectacle",
+  "description": "A Prompt Atlas theme for Storm and Weather Spectacle Series, testing photorealism, physics-materials, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Storm and Weather Spectacle Series",
+      "short_title": "Weather Spectacle",
+      "description": "Build spectacle landscape series around storms, lightning, auroras, sandstorms, and impossible sky drama."
+    },
+    "zh-CN": {
+      "title": "风暴与天气奇观组",
+      "short_title": "天气奇观",
+      "description": "做天气奇观组，围绕雷暴、极光、沙暴、戏剧天幕。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

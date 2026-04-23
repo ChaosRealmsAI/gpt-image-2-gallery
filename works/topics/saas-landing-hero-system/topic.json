@@ -1,0 +1,53 @@
+{
+  "id": "saas-landing-hero-system",
+  "slug": "saas-landing-hero-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "SaaS Landing Hero System",
+  "short_title": "SaaS Hero",
+  "description": "A Prompt Atlas theme for SaaS Landing Hero System, testing structured-layout, commercial-mockup, world-knowledge with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "SaaS Landing Hero System",
+      "short_title": "SaaS Hero",
+      "description": "Create landing hero systems for SaaS and product sites with believable dashboards, value props, and conversion-ready hierarchy."
+    },
+    "zh-CN": {
+      "title": "SaaS 落地页主视觉系统",
+      "short_title": "SaaS主视觉",
+      "description": "做 SaaS 落地页主视觉系统，重点看 dashboard、卖点和转化层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

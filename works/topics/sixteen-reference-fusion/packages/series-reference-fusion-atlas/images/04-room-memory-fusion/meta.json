@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nUse the reference board as the source atlas, but create one coherent square interior scene. The setting is a compact memory room at dusk, with a canal window, paper lantern light, wooden frames, and soft illustrated texture.\n\nSubject:\nFuse the sixteen cues into an inhabited room: the round-glasses protagonist's coat hangs by the window, the embroidered scarf drapes over a chair, the brass compass sits on a table beside a ceramic cat, the blue bicycle rests outside near a mossy stair, and the canal bridge appears through the window. The room should feel like a life assembled from many visual references.\n\nImportant details:\nKeep the reference palette, warm film grain, watercolor softness, ink wash clouds, brick, wood, stone, lantern glow, and object identities. The fusion should be subtle and emotionally coherent rather than a checklist. Use layered foreground, middle ground, and window background while preserving visual clarity.\n\nUse case:\nFourth image in a reference-dependent sixteen-reference fusion series, testing environmental fusion and memory-like continuity from a source atlas.\n\nConstraints:\nUse the reference image as source material, but no visible 4 by 4 grid. No readable text, no logos, no watermark, no unrelated props, no duplicate rooms, no photorealism, preserve exact 1:1 aspect ratio.",
+  "id": "04-room-memory-fusion",
+  "title": "Room Memory Fusion",
+  "description": "The reference cues fuse into a coherent memory room beside a canal.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "multi-reference",
+    "fusion",
+    "identity-consistency",
+    "series"
+  ],
+  "refs": [
+    "01-sixteen-source-board"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/04-room-memory-fusion/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-sixteen-source-board",
+        "meta_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/meta.json",
+        "image_path": "works/topics/sixteen-reference-fusion/packages/series-reference-fusion-atlas/images/01-sixteen-source-board/image.png",
+        "ref_role": "source_atlas_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Room Memory Fusion",
+      "description": "The reference cues fuse into a coherent memory room beside a canal."
+    },
+    "zh-CN": {
+      "title": "记忆房间融合",
+      "description": "参考线索融合成运河旁一间连贯的记忆房间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-reference",
+      "fusion"
+    ],
+    "alt": {
+      "en": "A canal-side memory room fusing coat, scarf, compass, cat, bicycle, and bridge cues.",
+      "zh-CN": "融合外套、围巾、指南针、猫、自行车和桥等线索的运河房间。"
+    }
+  }
+}

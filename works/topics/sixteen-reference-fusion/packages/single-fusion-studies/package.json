@@ -1,0 +1,63 @@
+{
+  "id": "single-fusion-studies",
+  "type": "single",
+  "title": "Fusion Studies",
+  "description": "Three independent images that simulate sixteen-input fusion as complete self-contained compositions.",
+  "creative_direction": "Independent fusion studies: each image visibly synthesizes many source-like cues without requiring external private reference files.",
+  "cover_image": "images/sixteen-swatch-portrait/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "parallel",
+    "runner": "image2gen",
+    "images": [
+      "images/sixteen-swatch-portrait/meta.json",
+      "images/archive-object-hybrid/meta.json",
+      "images/travel-poster-fusion/meta.json"
+    ],
+    "ref_strategy": "No references; each image is independent.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fusion Studies",
+      "description": "Three independent images that simulate sixteen-input fusion as complete self-contained compositions."
+    },
+    "zh-CN": {
+      "title": "融合单图研究",
+      "description": "三张独立图，用完整构图模拟十六输入融合能力。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "multi-reference",
+      "fusion"
+    ]
+  },
+  "images": [
+    {
+      "id": "sixteen-swatch-portrait",
+      "title": "Sixteen Swatch Portrait",
+      "image": "images/sixteen-swatch-portrait/image.png",
+      "meta": "images/sixteen-swatch-portrait/meta.json"
+    },
+    {
+      "id": "archive-object-hybrid",
+      "title": "Archive Object Hybrid",
+      "image": "images/archive-object-hybrid/image.png",
+      "meta": "images/archive-object-hybrid/meta.json"
+    },
+    {
+      "id": "travel-poster-fusion",
+      "title": "Travel Poster Fusion",
+      "image": "images/travel-poster-fusion/image.png",
+      "meta": "images/travel-poster-fusion/meta.json"
+    }
+  ]
+}
