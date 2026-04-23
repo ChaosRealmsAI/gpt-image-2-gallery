@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic tabletop image of an open fictional passport specimen page on a dark green leather desk pad. The paper has security-fiber texture, subtle guilloche background, rounded page corners, and soft window light crossing the fold. The camera is straight down so the stamp layout is easy to inspect.\n\nSubject:\nShow a clearly fictional passport-style spread, not a real travel document. The exact readable text should include: SPECIMEN, REPUBLIC OF ATLAS, PASSPORT SAMPLE, ENTRY, EXIT, NOVA PORT, 23 APR 2026. Add several overlapping immigration-style stamps in blue, red, and violet ink, with circular and rectangular borders, but no real country seals, no portrait photo, no machine-readable zone, no passport number, and no personal data. Stamps should look rubber-pressed, imperfect, and tactile.\n\nImportant details:\nThe challenge is official-document texture without creating a usable credential. Preserve high-fidelity paper fibers, faint security pattern, ink bleed at stamp edges, fold shadow, and realistic overlapping opacity. The specimen text must be readable and visually dominant enough to mark the document as fake. The spread should communicate travel-document aesthetics through materials and stamp geometry, while avoiding real emblems, official seals, serial fields, or scannable code.\n\nUse case:\nPseudo-Real Documents single study 2/8, testing passport-like paper realism, rubber stamp layering, and safe fictional document structure.\n\nConstraints:\nNo readable text except the specified fictional passport and stamp strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real country name, no real government seal, no portrait photo, no passport number, no machine-readable zone, no visa number, no scannable code.",
+  "id": "passport-stamp-spread",
+  "title": "Passport Stamp Spread",
+  "description": "A fictional passport specimen spread with rubber stamp layers, security-paper texture, and no usable identity fields.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/passport-stamp-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing fictional passport stamp material and layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Passport Stamp Spread",
+      "description": "A fictional passport specimen spread with rubber stamp layers, security-paper texture, and no usable identity fields."
+    },
+    "zh-CN": {
+      "title": "护照印章样页",
+      "description": "虚构护照 specimen 展开页,包含橡皮章叠印、安全纸纹理,但没有可用身份字段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "An open fictional passport specimen page with blue, red, and violet entry and exit stamps over security-pattern paper.",
+      "zh-CN": "一本打开的虚构护照样页,安全纹纸上叠有蓝、红、紫色入境和出境印章。"
+    }
+  }
+}

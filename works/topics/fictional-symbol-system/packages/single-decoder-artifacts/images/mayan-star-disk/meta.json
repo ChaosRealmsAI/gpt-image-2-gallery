@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare dramatic tabletop photograph of a circular stone disk resting in shallow sand, lit by cool moonlike light with a faint rim glow. The stone is dark basalt with turquoise, cinnabar, and shell inlay. The image should feel like a recovered cosmology device, centered, symmetrical, and highly detailed without becoming a flat infographic.\n\nSubject:\nAn independent fictional star-disk symbol system, loosely inspired by the visual density of ancient calendar stones but not copying any historical script. The disk contains concentric rings of invented glyph blocks, star nodes, creature profiles, eclipse marks, and directional gates. The glyphs use repeated stepped jaws, paired comet tails, dotted shells, and angular cloud hooks, arranged with strong radial logic.\n\nImportant details:\nThe symbol system must look intentionally designed: repeated elements should recur at different scales, ring spacing should be consistent, and the central emblem should connect to outer glyph bands through visible visual rules. Keep the marks pseudo-linguistic, not merely decorative ornament. The challenge is controlled fake text in a complex circular layout, with no real words, no copied Maya glyphs, and no accidental calendar numbers.\n\nUse case:\nFictional Symbol System single study 6/8, testing an independent circular cosmology artifact with dense invented glyph rings.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no copied Mayan glyphs, no Arabic numerals, no zodiac symbols, no modern museum label, no flat vector chart, no random ornamental filler.",
+  "id": "mayan-star-disk",
+  "title": "Mayan Star Disk",
+  "description": "A circular basalt cosmology disk with dense invented glyph rings and radial structure.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-decoder-artifacts/images/mayan-star-disk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image with circular invented-glyph layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Mayan Star Disk",
+      "description": "A circular basalt cosmology disk with dense invented glyph rings and radial structure."
+    },
+    "zh-CN": {
+      "title": "星象圆石",
+      "description": "一块玄武岩星象圆盘，具有密集虚构符号环和放射式结构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A dark stone star disk filled with concentric rings of invented glyph blocks.",
+      "zh-CN": "一块深色星象圆石，布满同心环状虚构符号块。"
+    }
+  }
+}

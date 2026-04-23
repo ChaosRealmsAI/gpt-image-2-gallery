@@ -1,0 +1,82 @@
+{
+  "id": "single-code-object-cards",
+  "type": "single",
+  "title": "Code Object Cards",
+  "description": "Eight independent commercial mockups turning readable JSON contact blocks into premium physical business cards.",
+  "creative_direction": "Each image treats code as the core printed object: a business card whose layout, foil, ink, embossing, and editor-like chrome make JSON syntax both readable and tactile.",
+  "cover_image": "images/foil-founder-card/image.png",
+  "i18n": {
+    "en": {
+      "title": "Code Object Cards",
+      "description": "Eight independent commercial mockups turning readable JSON contact blocks into premium physical business cards."
+    },
+    "zh-CN": {
+      "title": "代码物件名片",
+      "description": "八张独立商业 mockup,把可读 JSON 联系信息块做成高级实体名片。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "foil-founder-card",
+      "title": "Foil Founder Card",
+      "image": "images/foil-founder-card/image.png",
+      "meta": "images/foil-founder-card/meta.json"
+    },
+    {
+      "id": "dark-mode-card",
+      "title": "Dark Mode Card",
+      "image": "images/dark-mode-card/image.png",
+      "meta": "images/dark-mode-card/meta.json"
+    },
+    {
+      "id": "translucent-acrylic-card",
+      "title": "Translucent Acrylic Card",
+      "image": "images/translucent-acrylic-card/image.png",
+      "meta": "images/translucent-acrylic-card/meta.json"
+    },
+    {
+      "id": "letterpress-code-card",
+      "title": "Letterpress Code Card",
+      "image": "images/letterpress-code-card/image.png",
+      "meta": "images/letterpress-code-card/meta.json"
+    },
+    {
+      "id": "embossed-api-card",
+      "title": "Embossed API Card",
+      "image": "images/embossed-api-card/image.png",
+      "meta": "images/embossed-api-card/meta.json"
+    },
+    {
+      "id": "minimal-white-card",
+      "title": "Minimal White Card",
+      "image": "images/minimal-white-card/image.png",
+      "meta": "images/minimal-white-card/meta.json"
+    },
+    {
+      "id": "holographic-startup-card",
+      "title": "Holographic Startup Card",
+      "image": "images/holographic-startup-card/image.png",
+      "meta": "images/holographic-startup-card/meta.json"
+    },
+    {
+      "id": "terminal-window-card",
+      "title": "Terminal Window Card",
+      "image": "images/terminal-window-card/image.png",
+      "meta": "images/terminal-window-card/meta.json"
+    }
+  ]
+}

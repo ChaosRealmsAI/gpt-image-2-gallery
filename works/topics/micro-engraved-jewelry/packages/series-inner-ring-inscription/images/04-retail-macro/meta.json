@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square premium e-commerce macro shot on a pale stone jewelry tray, bright but soft, with clean reflections and a practical retail-catalog feeling. The composition should feel ready for a product detail page: centered ring, controlled highlights, and a small jeweler loupe placed nearby but not covering the band. The camera still looks into the inner wall so the engraving area remains visible.\n\nSubject:\nUse the referenced ring as the same product and preserve the exact inner-wall inscription \"MAYA 2026\". The ring should appear freshly cleaned, with the tiny letters inside the band shown as shallow engraving. Add a loupe, white gloves, or tray texture only as secondary context; the micro-inscription remains the hero detail. Keep the ring proportions, visible arc, and text placement consistent with image 01.\n\nImportant details:\nThis version tests commercial usability: the image should look like a realistic custom-jewelry listing where the buyer can verify the exact inscription. The text must be readable at macro scale, not replaced by generic scratches. The engraving should be physically recessed, aligned to the curve, and free of extra characters. Maintain precise metal reflections, clean stone texture, and restrained luxury styling.\n\nUse case:\nMicro-Engraved Jewelry series study 4/8, testing whether the reference micro-inscription remains product-page legible in a retail macro setup.\n\nConstraints:\nNo readable text except the specified phrase \"MAYA 2026\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand labels, no printed cards, no price tags, no oversized inscription, no wrong name, no mirror-reversed letters, no clutter hiding the inner wall.",
+  "id": "04-retail-macro",
+  "title": "Retail Macro",
+  "description": "A retail product-detail variant preserving the same inner-ring micro-inscription.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "identity-consistency",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/04-retail-macro/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-ring",
+        "meta_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/meta.json",
+        "image_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference ring to preserve inscription placement in a clean retail macro context."
+  },
+  "i18n": {
+    "en": {
+      "title": "Retail Macro",
+      "description": "A retail product-detail variant preserving the same inner-ring micro-inscription."
+    },
+    "zh-CN": {
+      "title": "零售微距",
+      "description": "一张零售产品细节变体，保持同一处戒指内壁微刻。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A retail macro ring photo showing the tiny inner engraving MAYA 2026.",
+      "zh-CN": "一张零售微距戒指照片，展示内壁 MAYA 2026 微刻。"
+    }
+  }
+}

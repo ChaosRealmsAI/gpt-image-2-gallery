@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square close-up commercial mockup of a deep navy business card resting on a dark walnut table. The card is photographed with low raking light so embossed and debossed details become visible. The composition includes a second card edge and a small blank envelope as props, both without readable content.\n\nSubject:\nThe business card presents a readable JSON block as if it were an API response. The fictional object includes keys such as \"endpoint\", \"name\", \"role\", \"email\", \"rate\", and \"response\". Curly braces and commas are raised in glossy clear embossing, keys are printed in pale blue, values in silver, and one status-like value is in green foil. The result should feel like a premium developer services card, with code as the only identity system.\n\nImportant details:\nKeep the JSON formally coherent: aligned indentation, complete braces, properly quoted strings, no broken commas, no orphan keys. The embossed punctuation should be visible but not so shiny that it obscures readability. Use physical paper texture, realistic shadows inside debossed strokes, and clean commercial-mockup focus. There should be no real API provider name, no QR code, no website chrome, and no extra contact text outside the code.\n\nUse case:\nJSON Business Card single study 5/8, testing API-response typography as embossed print on a physical card.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no real service names, no invalid JSON syntax, no random code comments, no QR code, no overexposed foil, no unreadable tiny values, no floating UI windows.",
+  "id": "embossed-api-card",
+  "title": "Embossed API Card",
+  "description": "A navy embossed business card presenting readable JSON as a premium API-response identity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/embossed-api-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent API-themed card mockup with readable JSON and embossing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Embossed API Card",
+      "description": "A navy embossed business card presenting readable JSON as a premium API-response identity."
+    },
+    "zh-CN": {
+      "title": "压凸 API 名片",
+      "description": "一张藏蓝压凸名片,把可读 JSON 做成高级 API 响应式身份信息。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A navy embossed card with readable JSON styled like an API response.",
+      "zh-CN": "一张藏蓝压凸名片,可读 JSON 呈现为 API 响应风格。"
+    }
+  }
+}

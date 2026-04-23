@@ -1,0 +1,50 @@
+{
+  "id": "old-newspaper-front-page",
+  "slug": "old-newspaper-front-page",
+  "category": "typography",
+  "style": [
+    "retro",
+    "flat-graphic"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Old Newspaper Front Page",
+  "short_title": "Old Newspaper",
+  "description": "A Prompt Atlas theme for Old Newspaper Front Page, testing text-rendering, structured-layout, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Old Newspaper Front Page",
+      "short_title": "Old Newspaper",
+      "description": "A Prompt Atlas theme for Old Newspaper Front Page, testing text-rendering, structured-layout, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "1920s 老报纸头版",
+      "short_title": "老报纸",
+      "description": "1920s 老报纸头版：大标 + 3 栏文章 + 复古广告 + 天气栏 + 汇率表 · 发黄纸张"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-old-newspaper-front-page-studies",
+      "type": "single",
+      "title": "Old Newspaper Layout Studies",
+      "path": "packages/single-old-newspaper-front-page-studies/package.json"
+    }
+  ]
+}

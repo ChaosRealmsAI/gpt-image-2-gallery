@@ -1,0 +1,50 @@
+{
+  "id": "ambigram-readability",
+  "slug": "ambigram-readability",
+  "category": "typography",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout"
+  ],
+  "title": "Ambigram Readability",
+  "short_title": "Ambigram",
+  "description": "A Prompt Atlas theme for testing whether generated lettering can remain readable as a deliberate ambigram under rotation, mirror logic, and material constraints.",
+  "i18n": {
+    "en": {
+      "title": "Ambigram Readability",
+      "short_title": "Ambigram",
+      "description": "A Prompt Atlas theme for testing whether generated lettering can remain readable as a deliberate ambigram under rotation, mirror logic, and material constraints."
+    },
+    "zh-CN": {
+      "title": "Ambigram 双向字 · 旋转 180° 可读",
+      "short_title": "双向字",
+      "description": "测试双向字形工程: 正读、倒读、镜像和材质应用中,指定文字必须清晰、无多余字符,几何规则可被肉眼验证。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 130,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-ambigram-studies",
+      "type": "single",
+      "title": "Ambigram Studies",
+      "path": "packages/single-ambigram-studies/package.json"
+    }
+  ]
+}

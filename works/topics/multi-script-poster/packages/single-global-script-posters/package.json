@@ -1,0 +1,83 @@
+{
+  "id": "single-global-script-posters",
+  "type": "single",
+  "title": "Global Script Posters",
+  "description": "Eight independent poster and signage studies testing readable non-Latin scripts inside dense, structured layouts.",
+  "creative_direction": "Independent single-image studies for Multi-Script Poster: each image uses a different public-facing design context to stress text rendering, script separation, and layout hierarchy without reference dependencies.",
+  "cover_image": "images/01-market-menu-wall/image.png",
+  "i18n": {
+    "en": {
+      "title": "Global Script Posters",
+      "description": "Eight independent poster and signage studies testing readable non-Latin scripts inside dense, structured layouts."
+    },
+    "zh-CN": {
+      "title": "全球脚本海报",
+      "description": "八张独立海报与导视研究图，测试非拉丁文字在密集结构化版式中的可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "structured-layout",
+      "commercial-mockup",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-market-menu-wall",
+      "title": "Market Menu Wall",
+      "image": "images/01-market-menu-wall/image.png",
+      "meta": "images/01-market-menu-wall/meta.json"
+    },
+    {
+      "id": "02-un-assembly-agenda",
+      "title": "Assembly Agenda",
+      "image": "images/02-un-assembly-agenda/image.png",
+      "meta": "images/02-un-assembly-agenda/meta.json"
+    },
+    {
+      "id": "03-airport-wayfinding-grid",
+      "title": "Airport Wayfinding Grid",
+      "image": "images/03-airport-wayfinding-grid/image.png",
+      "meta": "images/03-airport-wayfinding-grid/meta.json"
+    },
+    {
+      "id": "04-museum-exhibition-poster",
+      "title": "Museum Exhibition Poster",
+      "image": "images/04-museum-exhibition-poster/image.png",
+      "meta": "images/04-museum-exhibition-poster/meta.json"
+    },
+    {
+      "id": "05-night-market-festival",
+      "title": "Night Market Festival",
+      "image": "images/05-night-market-festival/image.png",
+      "meta": "images/05-night-market-festival/meta.json"
+    },
+    {
+      "id": "06-clinic-service-board",
+      "title": "Clinic Service Board",
+      "image": "images/06-clinic-service-board/image.png",
+      "meta": "images/06-clinic-service-board/meta.json"
+    },
+    {
+      "id": "07-rail-passenger-notice",
+      "title": "Rail Passenger Notice",
+      "image": "images/07-rail-passenger-notice/image.png",
+      "meta": "images/07-rail-passenger-notice/meta.json"
+    },
+    {
+      "id": "08-summit-program-map",
+      "title": "Summit Program Map",
+      "image": "images/08-summit-program-map/image.png",
+      "meta": "images/08-summit-program-map/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square premium commercial mockup photographed from a three-quarter overhead angle on matte black stone. One thick black business card sits centered, with shallow depth of field, soft studio reflections, and warm gold foil catching the edges of printed code. The layout is clean and luxurious, like a product shot for a developer-founder identity system.\n\nSubject:\nThe card face is a readable JSON code block printed as the entire business card identity. Use exact crisp monospaced text with syntax-highlight foil: braces and punctuation in satin gold, keys in pale champagne, string values in soft white. The visible JSON should read like a fictional contact object with keys such as \"name\", \"role\", \"company\", \"email\", \"site\", and \"status\". Keep every brace, comma, quote mark, and indentation aligned.\n\nImportant details:\nThe concept is code as object. The JSON must look printed into the card, not floating on top. Use realistic foil debossing, subtle paper grain, beveled card thickness, and editor-like margin guides as decorative lines without any real software logo. Text hierarchy must be legible at the square crop size. Do not add extra decorative words outside the code block.\n\nUse case:\nJSON Business Card single study 1/8, testing readable JSON typography as gold-foil commercial print.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand names, no malformed JSON, no extra punctuation, no misspelled keys, no unreadable microtext, no random UI labels, no plastic-looking foil.",
+  "id": "foil-founder-card",
+  "title": "Foil Founder Card",
+  "description": "A luxury black business card where a readable JSON contact object is printed in gold foil.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/foil-founder-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent text-rendering mockup with controlled readable JSON only."
+  },
+  "i18n": {
+    "en": {
+      "title": "Foil Founder Card",
+      "description": "A luxury black business card where a readable JSON contact object is printed in gold foil."
+    },
+    "zh-CN": {
+      "title": "烫金创始人名片",
+      "description": "一张黑色高级名片,用金色烫印呈现可读 JSON 联系对象。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A black business card mockup with a readable gold-foil JSON contact block.",
+      "zh-CN": "一张黑色名片 mockup,带可读金色烫印 JSON 联系信息块。"
+    }
+  }
+}

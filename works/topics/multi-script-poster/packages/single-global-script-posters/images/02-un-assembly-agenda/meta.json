@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square editorial poster laid flat on a conference registration desk, seen from a slight overhead angle but still readable. The paper is heavy matte stock with quiet institutional colors: deep blue, white, black, pale cyan, and a restrained red accent. Use even daylight, crisp edges, and a professional international-organization design language without using any real emblem.\n\nSubject:\nA mock global assembly agenda poster divided into a top title band, a central schedule matrix, and a bottom row of language notes. The visible copy appears in seven writing systems: Chinese, Japanese, Korean, Arabic, Hindi Devanagari, Sanskrit Devanagari, and Cyrillic. The schedule matrix uses repeated time-slot shapes, room icons, and short session-title lines; each language area must remain internally coherent and visually distinct.\n\nImportant details:\nThe hard part is maintaining readable, aligned multi-script typography across a serious editorial grid. Use fine rules, table cells, column headers, section markers, and icon bullets that support the text rather than competing with it. Scripts should have proper direction behavior where relevant, especially Arabic right-to-left alignment. No text should collapse into texture. Make the hierarchy obvious: title, day label, agenda rows, secondary notes, and footer metadata.\n\nUse case:\nMulti-Script Poster single study 2/8, testing a multilingual international agenda with many small text zones and formal hierarchy.\n\nConstraints:\nNo readable text outside the specified multilingual agenda copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real United Nations seal, no country flags, no random Latin filler, no mirrored Arabic, no broken table geometry, no illegible microtext pretending to be content.",
+  "id": "02-un-assembly-agenda",
+  "title": "Assembly Agenda",
+  "description": "A formal multilingual assembly agenda poster with small text zones and table hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/02-un-assembly-agenda/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent agenda-poster study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Assembly Agenda",
+      "description": "A formal multilingual assembly agenda poster with small text zones and table hierarchy."
+    },
+    "zh-CN": {
+      "title": "大会日程",
+      "description": "正式的多语大会日程海报，包含小字号文字区和表格层级。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A formal assembly agenda poster with many small multilingual script zones.",
+      "zh-CN": "一张正式大会日程海报，包含多个小字号多语文字区域。"
+    }
+  }
+}

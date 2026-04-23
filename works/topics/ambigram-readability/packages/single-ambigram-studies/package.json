@@ -1,0 +1,83 @@
+{
+  "id": "single-ambigram-studies",
+  "type": "single",
+  "title": "Ambigram Studies",
+  "description": "Eight independent ambigram studies testing 180-degree readability, dual-word letter mapping, mirror symmetry, and material application without reference dependencies.",
+  "creative_direction": "Each image treats ambigram construction as typography engineering: the image must show readable specified words while exposing the rotation or mirror rule through composition, materials, and verification cues.",
+  "cover_image": "images/gpt-image-gothic-plaque/image.png",
+  "i18n": {
+    "en": {
+      "title": "Ambigram Studies",
+      "description": "Eight independent ambigram studies testing 180-degree readability, dual-word letter mapping, mirror symmetry, and material application without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "双向字单图研究",
+      "description": "八张独立 ambigram 研究,测试 180 度可读、双词映射、镜像对称和不同材质应用。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "optical-illusion",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "gpt-image-gothic-plaque",
+      "title": "GPT Image Gothic Plaque",
+      "image": "images/gpt-image-gothic-plaque/image.png",
+      "meta": "images/gpt-image-gothic-plaque/meta.json"
+    },
+    {
+      "id": "atlas-tattoo-stencil",
+      "title": "Atlas Tattoo Stencil",
+      "image": "images/atlas-tattoo-stencil/image.png",
+      "meta": "images/atlas-tattoo-stencil/meta.json"
+    },
+    {
+      "id": "rise-fall-poster",
+      "title": "Rise Fall Poster",
+      "image": "images/rise-fall-poster/image.png",
+      "meta": "images/rise-fall-poster/meta.json"
+    },
+    {
+      "id": "flow-wave-ring",
+      "title": "Flow Wave Ring",
+      "image": "images/flow-wave-ring/image.png",
+      "meta": "images/flow-wave-ring/meta.json"
+    },
+    {
+      "id": "code-arts-logo",
+      "title": "Code Arts Logo",
+      "image": "images/code-arts-logo/image.png",
+      "meta": "images/code-arts-logo/meta.json"
+    },
+    {
+      "id": "dream-awake-neon",
+      "title": "Dream Awake Neon",
+      "image": "images/dream-awake-neon/image.png",
+      "meta": "images/dream-awake-neon/meta.json"
+    },
+    {
+      "id": "ocean-river-calligraphy",
+      "title": "Ocean River Calligraphy",
+      "image": "images/ocean-river-calligraphy/image.png",
+      "meta": "images/ocean-river-calligraphy/meta.json"
+    },
+    {
+      "id": "time-mind-coin",
+      "title": "Time Mind Coin",
+      "image": "images/time-mind-coin/image.png",
+      "meta": "images/time-mind-coin/meta.json"
+    }
+  ]
+}

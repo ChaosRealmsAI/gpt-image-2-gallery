@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic image of a fictional rail seat reservation card clipped to a train seatback tray. The card is printed on satin paper with rounded corners, tiny punched holes, and a folded crease. Behind it, the train interior is softly blurred: fabric seat, window light, and a metal tray hinge. The camera is front-facing so the text plane is readable.\n\nSubject:\nCreate a fictional rail reservation specimen. The exact readable text should include: SPECIMEN, RAIL PASS, TRAIN T26, CAR 05, SEAT 08A, FROM NOVA, TO HARBOR, DATE 23 APR 2026, DEPART 14:20, SAMPLE ONLY. Add a decorative non-scannable barcode-like strip and a simple carriage seat diagram made of rectangles. Do not include real railway operators, real station names, passenger name, ticket number, QR code, payment data, or terms and conditions.\n\nImportant details:\nThe test is transit-document realism in context: crisp ticket typography, small icon alignment, paper thickness, punched holes, clip shadow, mild paper bend, and believable train-seat materials. The reservation must look product-real but clearly fictional and non-operational. Keep the specified route and seat fields readable; all other background marks should be abstract texture. No real transport brand identity should appear.\n\nUse case:\nPseudo-Real Documents single study 8/8, testing readable rail reservation layout, satin card material, transport context, and safe fictional ticket design.\n\nConstraints:\nNo readable text except the specified rail reservation strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real rail company, no real station names, no passenger name, no ticket number, no QR code, no scannable barcode, no payment data, no extra schedule text.",
+  "id": "train-seat-reservation",
+  "title": "Train Seat Reservation",
+  "description": "A fictional rail seat reservation specimen clipped inside a train, with readable route fields, non-scannable marks, and satin card texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/train-seat-reservation/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing fictional rail reservation document in physical context."
+  },
+  "i18n": {
+    "en": {
+      "title": "Train Seat Reservation",
+      "description": "A fictional rail seat reservation specimen clipped inside a train, with readable route fields, non-scannable marks, and satin card texture."
+    },
+    "zh-CN": {
+      "title": "火车座位预订单",
+      "description": "夹在列车座椅上的虚构铁路座位预订单样张,包含可读路线字段、不可扫描标记和缎面卡纸质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional rail seat reservation card clipped to a train tray, showing TRAIN T26, CAR 05, SEAT 08A, and SAMPLE ONLY.",
+      "zh-CN": "夹在列车小桌板上的虚构铁路座位预订单,显示 TRAIN T26、CAR 05、SEAT 08A 和 SAMPLE ONLY。"
+    }
+  }
+}

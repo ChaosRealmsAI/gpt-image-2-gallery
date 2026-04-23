@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nSquare overhead photograph of an aged ritual map on dark indigo cloth, with low amber light, worn parchment fibers, oxidized mineral pigments, and fine pin shadows from curled edges. The map fills the frame like a rare prop from a fantasy archive, organized but weathered, with a circular central diagram surrounded by inset panels.\n\nSubject:\nA ceremonial route map using the exact same fictional glyph family from the reference tablet. The invented symbols appear as carved-looking ink marks along rivers, gates, mountain rings, and constellation paths. Glyph clusters should reuse crescent stems, three-dot radicals, hooked strokes, square seed marks, and spiral terminals from the reference, but arranged as map annotations, seals, and directional markers rather than plain lines of text.\n\nImportant details:\nPreserve the reference grammar: consistent stroke weight, repeated radicals, deliberate spacing, and recognizable symbol clusters. The map must communicate linguistic order without real words. Include nonverbal cartographic hierarchy through rings, paths, icons, and divider marks. The visual challenge is to keep the glyph system stable while changing material from stone carving to inked parchment and while embedding it into a complex layout.\n\nUse case:\nFictional Symbol System series study 2/8, applying the reference inscription grammar to a ritual map through dependency-based visual continuity.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no fantasy map place names, no random decorative squiggles, no modern UI labels, no compass words, no translation captions.",
+  "id": "02-ritual-map",
+  "title": "Ritual Map",
+  "description": "A parchment ritual map that reuses the reference glyph grammar as cartographic annotations.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/02-ritual-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-core-tablet",
+        "meta_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/meta.json",
+        "image_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root tablet as the primary reference for glyph continuity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ritual Map",
+      "description": "A parchment ritual map that reuses the reference glyph grammar as cartographic annotations."
+    },
+    "zh-CN": {
+      "title": "仪式地图",
+      "description": "一张羊皮纸仪式地图，把参考石板的字形语法转化为地图注记。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A ritual parchment map annotated with the same invented glyphs as the reference tablet.",
+      "zh-CN": "一张使用参考石板同款虚构符号标注的仪式地图。"
+    }
+  }
+}

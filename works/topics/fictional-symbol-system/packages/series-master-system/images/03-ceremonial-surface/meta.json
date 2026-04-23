@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square composition showing a ceremonial application surface for Fictional Symbol System (fictional symbol system). Frame it as a carefully staged artifact plate with theatrical but controlled light, deep shadow pockets, and clear silhouette hierarchy. Keep the lighting precise and the tonal separation clear so the main structure reads instantly at thumbnail size and still rewards close inspection. Use a palette and material behavior appropriate to the theme rather than a generic template. The overall image should feel like a finished gallery or research asset instead of a loose concept sketch.\n\nSubject:\nCenter the image around the reference marks arranged as a ritual or prestige-facing composition where pattern, symbol clusters, and object framing become more dramatic. The subject should express the theme described as A Prompt Atlas theme for Fictional Symbol System, testing text-rendering with GPT Image 2.. Use layered primary, secondary, and tertiary details so the viewer can infer system, scale, and purpose without needing captions. Fictional Symbol System must feel specific rather than interchangeable: the subject should clearly belong to this topic and not to a neighboring prompt atlas category.\n\nImportant details:\nThe most important control point is keep the same symbol inventory and spacing logic, but let ornament, framing, and ceremonial presentation grow richer. Preserve consistency in proportion, spacing, and internal logic, and make sure the core visual rules survive every decorative flourish. Use the theme capabilities and frontier claim as design pressure: layout, material behavior, and focal hierarchy should all feel intentional. Avoid empty filler areas, arbitrary ornaments, and low-information texture that does not strengthen the main claim.\n\nUse case:\nFictional Symbol System series study 3/8.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable Latin text outside the intended fictional or theme-specific marks, no mirrored glyphs, no extra stray characters, no broken baseline rhythm, no fake QR codes, no sloppy spacing.",
+  "id": "03-ceremonial-surface",
+  "title": "Ceremonial Surface",
+  "description": "Fictional Symbol System expressed as a ceremonial application surface with disciplined continuity control.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-master-system/images/03-ceremonial-surface/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-system",
+        "meta_path": "works/topics/fictional-symbol-system/packages/series-master-system/images/01-reference-system/meta.json",
+        "image_path": "works/topics/fictional-symbol-system/packages/series-master-system/images/01-reference-system/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent fanout study preserving the image 01 reference system while changing emphasis for ceremonial surface."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ceremonial Surface",
+      "description": "Fictional Symbol System expressed as a ceremonial application surface with disciplined continuity control."
+    },
+    "zh-CN": {
+      "title": "仪式表面",
+      "description": "虚构古文字 / 符号系统 以仪式表面形式展开，强调连续一致性控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A ceremonial artifact surface carrying the same fictional symbol family in a more dramatic composition.",
+      "zh-CN": "一件以更戏剧化构图承载同一符号家族的仪式性器物表面。"
+    }
+  }
+}

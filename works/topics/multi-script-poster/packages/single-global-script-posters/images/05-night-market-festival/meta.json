@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square cinematic poster for a night market festival, shown as a printed bill pasted on a tiled city wall at dusk. The lighting is lively but controlled: lantern glow, cyan street reflections, and warm paper texture. The poster should remain flat and readable, with the surrounding wall adding context without stealing attention.\n\nSubject:\nA multilingual festival announcement designed as a dense vertical composition. Use a large central brush-style title area, then stacked information ribbons for date, market zones, food stalls, music stage, and family events. Render the poster copy across Chinese, Japanese, Korean, Arabic, Hindi Devanagari, and Thai-style scripts, each in its own band or badge. Add small illustrated food icons, lantern shapes, and route markers, but keep the typography dominant.\n\nImportant details:\nThis is a stress test for expressive poster typography without losing legibility. The scripts can be more festive than institutional, but they must preserve clear strokes, correct reading direction, consistent spacing, and believable printed ink. The layout should balance decoration with structure: no floating glyph noise, no accidental overlaps, no script blocks bleeding into adjacent bands. Use consistent color coding for event categories and keep all information zones visibly organized.\n\nUse case:\nMulti-Script Poster single study 5/8, testing a lively multilingual festival poster with decorative pressure and dense information hierarchy.\n\nConstraints:\nNo readable text outside the specified multilingual festival copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no brand sponsors, no Latin fallback subtitles, no fake neon signs in the background, no unreadable confetti glyphs, no text hidden by paste wrinkles, no inconsistent script direction.",
+  "id": "05-night-market-festival",
+  "title": "Night Market Festival",
+  "description": "A lively festival announcement poster with six script families and dense event bands.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "cinematic",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/05-night-market-festival/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent festival-poster study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Market Festival",
+      "description": "A lively festival announcement poster with six script families and dense event bands."
+    },
+    "zh-CN": {
+      "title": "夜市节庆海报",
+      "description": "一张热闹的节庆公告海报，包含六种文字体系和密集活动分区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A colorful night market festival poster with organized multilingual event bands.",
+      "zh-CN": "一张彩色夜市节庆海报，多语活动分区排列清晰。"
+    }
+  }
+}

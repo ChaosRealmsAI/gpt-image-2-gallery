@@ -1,0 +1,83 @@
+{
+  "id": "single-document-specimens",
+  "type": "single",
+  "title": "Document Specimens",
+  "description": "Eight independent fictional specimen documents testing dense text layout, tactile paper, stamps, handwriting, receipts, tickets, and official-looking structure without real credentials.",
+  "creative_direction": "Each image looks materially plausible but is explicitly fictional or specimen-marked: the goal is document-level visual precision, not usable official paperwork.",
+  "cover_image": "images/specimen-boarding-pass/image.png",
+  "i18n": {
+    "en": {
+      "title": "Document Specimens",
+      "description": "Eight independent fictional specimen documents testing dense text layout, tactile paper, stamps, handwriting, receipts, tickets, and official-looking structure without real credentials."
+    },
+    "zh-CN": {
+      "title": "文档样张",
+      "description": "八张独立虚构 specimen 文档,测试密集文字排版、纸张质感、印章、手写、票据和官方感结构。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "specimen-boarding-pass",
+      "title": "Specimen Boarding Pass",
+      "image": "images/specimen-boarding-pass/image.png",
+      "meta": "images/specimen-boarding-pass/meta.json"
+    },
+    {
+      "id": "passport-stamp-spread",
+      "title": "Passport Stamp Spread",
+      "image": "images/passport-stamp-spread/image.png",
+      "meta": "images/passport-stamp-spread/meta.json"
+    },
+    {
+      "id": "tcm-herbal-note",
+      "title": "Herbal Study Note",
+      "image": "images/tcm-herbal-note/image.png",
+      "meta": "images/tcm-herbal-note/meta.json"
+    },
+    {
+      "id": "calligraphy-copybook",
+      "title": "Calligraphy Copybook",
+      "image": "images/calligraphy-copybook/image.png",
+      "meta": "images/calligraphy-copybook/meta.json"
+    },
+    {
+      "id": "palm-reading-report",
+      "title": "Palm Reading Report",
+      "image": "images/palm-reading-report/image.png",
+      "meta": "images/palm-reading-report/meta.json"
+    },
+    {
+      "id": "museum-ticket-receipt",
+      "title": "Museum Ticket Receipt",
+      "image": "images/museum-ticket-receipt/image.png",
+      "meta": "images/museum-ticket-receipt/meta.json"
+    },
+    {
+      "id": "hotel-invoice-folio",
+      "title": "Hotel Invoice Folio",
+      "image": "images/hotel-invoice-folio/image.png",
+      "meta": "images/hotel-invoice-folio/meta.json"
+    },
+    {
+      "id": "train-seat-reservation",
+      "title": "Train Seat Reservation",
+      "image": "images/train-seat-reservation/image.png",
+      "meta": "images/train-seat-reservation/meta.json"
+    }
+  ]
+}

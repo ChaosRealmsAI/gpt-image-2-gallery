@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square museum-grade product photograph of a black enamel plaque lying flat on dark velvet, lit by a narrow warm spotlight that catches raised gold foil. The camera is perfectly straight-on with no perspective skew, so the lettering can be inspected. Add a subtle reflected duplicate of the plaque below it in a polished black surface, rotated 180 degrees, to demonstrate the ambigram test without adding extra captions.\n\nSubject:\nThe central subject is one ornate Gothic ambigram spelling exactly \"GPT-IMAGE-2\". Upright, the word must read GPT-IMAGE-2; when the plaque is mentally rotated 180 degrees, the same continuous letterform should still read GPT-IMAGE-2. Use interlocking blackletter strokes, sharp terminals, symmetric counters, and carefully engineered hyphen and numeral shapes. The gold letters are raised, beveled, and physically attached to the enamel surface, not floating graphic text.\n\nImportant details:\nThe letter engineering is the whole challenge. Every character must be intentional, with no extra marks pretending to be letters. Preserve the exact sequence G P T hyphen I M A G E hyphen 2. The rotated reflection should help the viewer verify the rule, but it must not become a second independent word design. Keep generous margins, a centered baseline, and high contrast between gold lettering and black enamel.\n\nUse case:\nAmbigram Readability single study 1/8, testing exact same-word 180-degree readability for a high-stakes GPT-IMAGE-2 lettering mark.\n\nConstraints:\nNo readable text except the specified ambigram \"GPT-IMAGE-2\", no watermark, no logos, preserve exact 1:1 aspect ratio, no misspelled characters, no extra numerals, no random flourishes that look like letters, no perspective distortion, no flat digital overlay.",
+  "id": "gpt-image-gothic-plaque",
+  "title": "GPT Image Gothic Plaque",
+  "description": "A gold Gothic plaque where GPT-IMAGE-2 must remain readable as the same word after 180-degree rotation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/gpt-image-gothic-plaque/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing same-word 180-degree ambigram readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "GPT Image Gothic Plaque",
+      "description": "A gold Gothic plaque where GPT-IMAGE-2 must remain readable as the same word after 180-degree rotation."
+    },
+    "zh-CN": {
+      "title": "GPT Image 哥特牌匾",
+      "description": "金色哥特牌匾上的 GPT-IMAGE-2 需要在旋转 180 度后仍读作同一文字。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A black enamel plaque with raised gold Gothic ambigram letters spelling GPT-IMAGE-2, shown with a rotated reflection.",
+      "zh-CN": "黑色珐琅牌匾上有金色哥特双向字 GPT-IMAGE-2,下方带旋转倒影用于验证。"
+    }
+  }
+}

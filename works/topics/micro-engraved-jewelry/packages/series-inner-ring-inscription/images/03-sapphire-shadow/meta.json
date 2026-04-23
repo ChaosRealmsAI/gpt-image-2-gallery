@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square luxury macro photograph with cool blue caustic shadows cast from a nearby sapphire, set on matte black silk. The ring is angled like the reference so the viewer can see into the inner wall, but the lighting is more dramatic, with blue reflections crossing the metal and a dark falloff around the edges. Keep the engraving plane crisp despite the shallow depth of field.\n\nSubject:\nUse the referenced ring as the same physical object and preserve the exact inner-wall micro-engraving phrase \"MAYA 2026\". Place a loose oval sapphire just outside the ring, partly blurred, so it creates blue reflections without covering the inscription. The band may read as white gold or platinum, but the visible inner arc, letter placement, and overall ring silhouette must match the reference.\n\nImportant details:\nThe challenge is tiny readable text under complex reflective lighting. The inscription must remain carved, aligned to the inner curve, and not swallowed by sapphire shadows. Letterforms should be precise and evenly spaced, with no extra symbols. Use micro scratches, polished bevels, and realistic blue reflected highlights to show material physics while keeping the text zone controlled and legible.\n\nUse case:\nMicro-Engraved Jewelry series study 3/8, testing reference-preserved micro text under gemstone reflections and shadow complexity.\n\nConstraints:\nNo readable text except the specified phrase \"MAYA 2026\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no text on the gemstone, no hidden captions, no duplicate phrase, no blocked engraving, no fantasy glow, no illegible letter noise.",
+  "id": "03-sapphire-shadow",
+  "title": "Sapphire Shadow",
+  "description": "A gemstone-lit variant preserving the same inner-ring inscription under complex blue reflections.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "identity-consistency",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/03-sapphire-shadow/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-ring",
+        "meta_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/meta.json",
+        "image_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference ring to preserve the inscription while adding sapphire reflections and shadow complexity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Sapphire Shadow",
+      "description": "A gemstone-lit variant preserving the same inner-ring inscription under complex blue reflections."
+    },
+    "zh-CN": {
+      "title": "蓝宝石阴影",
+      "description": "一张宝石反光变体，在复杂蓝色反射中保持同一处戒指内壁微刻。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A platinum ring with MAYA 2026 engraving lit by blue sapphire reflections.",
+      "zh-CN": "一枚带 MAYA 2026 微刻的铂金戒指，被蓝宝石反光照亮。"
+    }
+  }
+}

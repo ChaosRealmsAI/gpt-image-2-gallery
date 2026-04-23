@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic studio photograph of a Chinese calligraphy practice copybook opened flat on a bamboo desk. The page is printed on thin ivory practice paper with faint red grid lines, gray model characters, black student brush strokes, ink feathering, and a small ceramic brush rest. The camera is top-down with gentle daylight and crisp page texture.\n\nSubject:\nShow a fictional calligraphy copybook page. The exact readable text should include: 书法临摹, 永, 和, 山, 水, 月, 心, SPECIMEN. Arrange the characters in repeated practice boxes: pale gray model characters in the first column, darker traced attempts beside them, and one red rectangular specimen stamp in a corner. No school name, real teacher name, grading score, student identity, or publication imprint.\n\nImportant details:\nThe test is text rendering plus paper physics. Grid lines must align consistently, characters must sit inside boxes, brush strokes should show pressure, dry-brush texture, ink pooling, and slightly uneven human practice. The printed model characters should be cleaner than the practice strokes. Keep the page believable as a cultural stationery product and not as a certificate. The specified characters should remain readable at thumbnail scale.\n\nUse case:\nPseudo-Real Documents single study 4/8, testing copybook grid precision, Chinese character readability, brush texture, and thin practice paper realism.\n\nConstraints:\nNo readable text except the specified copybook strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real school name, no personal name, no grading marks, no publisher imprint, no random extra characters, no unreadable ink blot covering the models.",
+  "id": "calligraphy-copybook",
+  "title": "Calligraphy Copybook",
+  "description": "A fictional calligraphy practice page with readable Chinese model characters, red grids, brush attempts, and paper texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/calligraphy-copybook/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing calligraphy copybook grid and Chinese text rendering."
+  },
+  "i18n": {
+    "en": {
+      "title": "Calligraphy Copybook",
+      "description": "A fictional calligraphy practice page with readable Chinese model characters, red grids, brush attempts, and paper texture."
+    },
+    "zh-CN": {
+      "title": "书法临摹字帖",
+      "description": "虚构书法练习页,包含可读中文范字、红色格线、临摹笔迹和纸张质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "structured-layout",
+      "single"
+    ],
+    "alt": {
+      "en": "An open fictional Chinese calligraphy copybook with red grid boxes, model characters, black brush practice strokes, and a SPECIMEN stamp.",
+      "zh-CN": "一本打开的虚构中文书法字帖,有红色格线、范字、黑色临摹笔触和 SPECIMEN 印章。"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "pseudo-real-documents",
+  "slug": "pseudo-real-documents",
+  "category": "typography",
+  "style": [
+    "photoreal",
+    "retro"
+  ],
+  "capability": [
+    "text-rendering",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Pseudo-Real Documents",
+  "short_title": "Fake Docs",
+  "description": "A Prompt Atlas theme for fictional specimen documents that test readable typography, paper physics, print texture, stamps, handwriting, and commercial mockup realism.",
+  "i18n": {
+    "en": {
+      "title": "Pseudo-Real Documents",
+      "short_title": "Fake Docs",
+      "description": "A Prompt Atlas theme for fictional specimen documents that test readable typography, paper physics, print texture, stamps, handwriting, and commercial mockup realism."
+    },
+    "zh-CN": {
+      "title": "伪真实文档 · 票据 / 护照 / 药方 / 字帖",
+      "short_title": "伪真文档",
+      "description": "测试虚构 specimen 文档的可读文字、纸张材质、印刷纹理、印章、手写笔迹和商业 mockup 真实感。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 150,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "physics-materials",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-document-specimens",
+      "type": "single",
+      "title": "Document Specimens",
+      "path": "packages/single-document-specimens/package.json"
+    }
+  ]
+}

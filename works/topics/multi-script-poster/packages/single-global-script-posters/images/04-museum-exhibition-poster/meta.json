@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square museum exhibition poster displayed behind glass in a quiet gallery lobby. Use soft indirect museum lighting, a pale stone wall, and a refined print-design style. The poster itself has a cream background, black typography, vermilion accent blocks, and thin silver registration marks. Keep the camera square to the poster with no glare over the text.\n\nSubject:\nA contemporary exhibition poster about ancient writing systems, organized as a large central title field surrounded by eight typographic specimen cards. The specimen cards show Chinese seal-style characters, Japanese kana, Korean hangul, Arabic calligraphy-like display type, Devanagari, Tamil-like script, Tibetan-like script, and Georgian-style script. Include small caption bands and numbered object labels in the same scripts, but do not use real museum or artist names.\n\nImportant details:\nThe image should demonstrate that multiple writing systems can be treated as precise design material, not background texture. Each specimen card needs its own baseline rhythm, stroke contrast, margins, and caption placement. The overall poster must still read as one coherent museum graphic system with restrained hierarchy, consistent gutters, and carefully balanced negative space. Avoid ornamental chaos; the scripts should look printed, intentional, and inspectable.\n\nUse case:\nMulti-Script Poster single study 4/8, testing a museum-grade typographic specimen poster with many script families and caption zones.\n\nConstraints:\nNo readable text outside the specified multilingual exhibition copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real museum branding, no invented Latin curator names, no smeared calligraphy, no random glyph carpets, no cropped caption bands, no glass reflection hiding letterforms.",
+  "id": "04-museum-exhibition-poster",
+  "title": "Museum Exhibition Poster",
+  "description": "A museum-style typographic specimen poster with eight script families and captions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/04-museum-exhibition-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent museum-poster study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Exhibition Poster",
+      "description": "A museum-style typographic specimen poster with eight script families and captions."
+    },
+    "zh-CN": {
+      "title": "博物馆展览海报",
+      "description": "博物馆风格的文字样本海报，包含八种文字体系和说明区。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A refined museum poster presenting eight script-family specimen cards.",
+      "zh-CN": "一张精致的博物馆海报，展示八个文字体系样本卡片。"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic commercial mockup of a fictional airline boarding pass resting on a brushed aluminum airport counter. The paper is slightly curled at one corner, with thermal-print sheen, tiny perforation marks, and soft overhead terminal light. The camera is straight-on with a slight natural shadow, close enough to inspect typography and material texture.\n\nSubject:\nCreate a clearly fictional specimen boarding pass, not a usable ticket. The exact readable text should include: SPECIMEN, ATLAS AIR, BOARDING PASS, FLIGHT PX 2048, FROM NOVA, TO ORBIT, GATE A12, SEAT 14C, BOARDING 08:40, DATE 23 APR 2026. Include one barcode-like strip made of decorative non-scannable vertical marks and one seat-map miniature made of simple rectangles. Use no real airline logo, no QR code, and no real airport codes.\n\nImportant details:\nThe test is document realism: crisp hierarchy, airline-ticket spacing, microprint-like gray rules as unreadable texture, thermal ink density variation, ticket stub perforation, rounded punched corner, and believable paper fibers. Keep all specified text readable and correctly positioned. The barcode-like element must look visually convincing but intentionally nonfunctional. The specimen status should be obvious without destroying the premium ticket feel.\n\nUse case:\nPseudo-Real Documents single study 1/8, testing readable ticket typography, fake barcode texture, and photoreal thermal paper material.\n\nConstraints:\nNo readable text except the specified specimen boarding-pass strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real airline, no real airport code, no QR code, no scannable barcode, no personal name, no passport number, no extra flight data.",
+  "id": "specimen-boarding-pass",
+  "title": "Specimen Boarding Pass",
+  "description": "A fictional specimen boarding pass with readable ticket fields, non-scannable barcode texture, and realistic thermal paper.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/specimen-boarding-pass/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing fictional ticket layout and paper realism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Specimen Boarding Pass",
+      "description": "A fictional specimen boarding pass with readable ticket fields, non-scannable barcode texture, and realistic thermal paper."
+    },
+    "zh-CN": {
+      "title": "样张登机牌",
+      "description": "虚构 specimen 登机牌,包含可读票据字段、不可扫描条码纹理和真实热敏纸质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional specimen boarding pass for ATLAS AIR on curled thermal paper with readable gate, seat, flight, and boarding time fields.",
+      "zh-CN": "一张虚构 ATLAS AIR 样张登机牌,热敏纸微卷,可读登机口、座位、航班和登机时间字段。"
+    }
+  }
+}

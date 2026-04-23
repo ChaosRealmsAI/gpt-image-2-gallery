@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square extreme macro photograph of a shallow ceramic dish filled with uncooked white rice, lit by a bright diffused window and a small specular highlight from the side. The color palette is ivory, pale gray, and a single warm gold accent from a jeweler's tweezer tip. Depth of field is very shallow, but one rice grain in the front third is sharply focused.\n\nSubject:\nAmong dozens of plain rice grains, exactly one selected grain carries a tiny engraved name reading \"LINA\". The letters are carved into the rice surface, not painted, following the long axis of the grain. Use realistic rice translucency, powdery starch texture, and microscopic edge shadows inside the cuts. A fine jeweler's tweezer can point toward the marked grain without touching or covering the name.\n\nImportant details:\nThe visual test is pixel-level target selection: the viewer must notice that only one grain is personalized while the surrounding grains remain blank. The word \"LINA\" must be small, centered, and readable, with clean Roman capitals and no extra letters. Avoid turning the image into a graphic poster; it should feel like a high-end custom keepsake photographed under a macro lens.\n\nUse case:\nMicro-Engraved Jewelry single study 5/8, testing readable micro text on a rice-grain keepsake among visually similar objects.\n\nConstraints:\nNo readable text except the specified name \"LINA\", no watermark, no logos, preserve exact 1:1 aspect ratio, no labels on the dish, no scattered letters, no more than one engraved grain, no ink-like black writing, no oversized word, no illegible scratches.",
+  "id": "named-rice-grain",
+  "title": "Named Rice Grain",
+  "description": "A single rice grain engraved with a readable tiny name among blank grains.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "micro-texture",
+    "scientific-realism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/single-micro-inscription-studies/images/named-rice-grain/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for pinpoint readable engraving on one rice grain."
+  },
+  "i18n": {
+    "en": {
+      "title": "Named Rice Grain",
+      "description": "A single rice grain engraved with a readable tiny name among blank grains."
+    },
+    "zh-CN": {
+      "title": "姓名米粒",
+      "description": "一粒米在许多空白米粒中刻有清晰可读的微缩姓名。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "One rice grain among many is engraved with the tiny readable name LINA.",
+      "zh-CN": "许多米粒中只有一粒刻着清晰可读的 LINA。"
+    }
+  }
+}

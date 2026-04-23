@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square nighttime storefront-window photograph with a single custom neon ambigram mounted on dark smoked glass. The camera is straight-on from the sidewalk, with subtle rain reflections and no surrounding shop signage. The neon glows warm violet and electric blue, and the glass reflection shows the same wordform inverted and rotated enough to verify the ambigram rule.\n\nSubject:\nThe neon must read exactly \"DREAM\" when viewed upright and exactly \"AWAKE\" when the image is rotated 180 degrees. The five-letter design should use continuous bent glass tubes, with shared loops and stems engineered so each upright letter transforms into its rotated partner. The tubes must look physically buildable: rounded bends, visible electrode caps, small mounting clips, and consistent tube diameter.\n\nImportant details:\nThis is not generic neon lettering. The challenge is making an illuminated dual-word ambigram where both readings are crisp despite glow bloom. Keep the core tube lines sharp inside the glow, maintain enough dark negative space between letters, and avoid accidental extra strokes that create false characters. The reflection can be dimmer, but the main upright word must remain auditable. The mood can be cinematic, yet the typography must stay disciplined.\n\nUse case:\nAmbigram Readability single study 6/8, testing luminous dual-word ambigram readability where DREAM rotates into AWAKE.\n\nConstraints:\nNo readable text except the specified ambigram words \"DREAM\" and \"AWAKE\", no watermark, no logos, preserve exact 1:1 aspect ratio, no shop name, no extra neon signs, no unreadable overglow, no broken tube segments, no misspelled words, no separate caption explaining the trick.",
+  "id": "dream-awake-neon",
+  "title": "Dream Awake Neon",
+  "description": "A custom neon ambigram where DREAM should rotate into AWAKE while remaining physically buildable as glass tubing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "photorealism",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/dream-awake-neon/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing neon-tube dual-word ambigram readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Dream Awake Neon",
+      "description": "A custom neon ambigram where DREAM should rotate into AWAKE while remaining physically buildable as glass tubing."
+    },
+    "zh-CN": {
+      "title": "DREAM / AWAKE 霓虹",
+      "description": "可由玻璃灯管真实制作的霓虹双向字,正读 DREAM,旋转后读作 AWAKE。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "photorealism",
+      "single"
+    ],
+    "alt": {
+      "en": "A violet-blue neon ambigram on dark glass, designed to read DREAM upright and AWAKE after rotation.",
+      "zh-CN": "深色玻璃上的紫蓝霓虹双向字,正读 DREAM,旋转后设计为 AWAKE。"
+    }
+  }
+}

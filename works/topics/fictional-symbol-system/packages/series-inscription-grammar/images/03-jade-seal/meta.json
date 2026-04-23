@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nSquare macro product photograph on deep lacquer red, with a polished black plinth and controlled studio highlights. The image is intimate and tactile, showing translucent green jade, cloudy inclusions, beveled edges, and shallow engraved grooves filled with dark cinnabar residue. The camera looks slightly downward but keeps the seal face readable as an object surface.\n\nSubject:\nA ceremonial jade seal carved with the same invented symbol system introduced by the reference tablet. The seal face contains a compact square arrangement of glyph compounds, while the side walls show smaller repeated radicals and divider marks. The symbols must clearly belong to the reference family: crescent stems, three-dot radicals, hooked birdlike strokes, square seed marks, and nested spiral terminals, compressed into a seal-script style without becoming real Chinese characters.\n\nImportant details:\nTranslate the reference glyph grammar into a new material and scale. Strokes should be incised rather than printed, with consistent proportions despite stone refraction and curved bevels. The composition should feel like a believable archaeological or game-cinematic artifact: luxurious, ancient, and precise. Preserve repeated elements so viewers can infer a system, not decoration. Avoid accidental readable characters from any real writing tradition.\n\nUse case:\nFictional Symbol System series study 3/8, preserving the reference inscription grammar on a carved jade seal.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no Chinese characters, no random scratches mistaken for glyphs, no modern branding, no price tag, no museum label.",
+  "id": "03-jade-seal",
+  "title": "Jade Seal",
+  "description": "A carved jade seal that compresses the reference glyph grammar into a seal-script artifact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "micro-texture",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/03-jade-seal/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-core-tablet",
+        "meta_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/meta.json",
+        "image_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root tablet as the primary reference while changing the glyph medium to carved jade."
+  },
+  "i18n": {
+    "en": {
+      "title": "Jade Seal",
+      "description": "A carved jade seal that compresses the reference glyph grammar into a seal-script artifact."
+    },
+    "zh-CN": {
+      "title": "玉印",
+      "description": "一枚把参考字形语法压缩成印文风格的雕刻玉印。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A green jade seal engraved with compact invented glyph compounds.",
+      "zh-CN": "一枚刻有紧凑虚构复合符号的绿色玉印。"
+    }
+  }
+}

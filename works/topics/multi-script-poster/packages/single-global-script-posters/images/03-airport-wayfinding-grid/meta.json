@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square photorealistic mockup of an airport wayfinding sign cluster mounted above a polished terminal corridor. View it straight-on from passenger eye level so the panels are legible. Lighting is bright, clean, and slightly cool, with glass reflections kept subtle. Use black sign panels, white pictograms, amber route highlights, and disciplined spacing.\n\nSubject:\nA modular wayfinding grid for arrivals, transfers, baggage, gates, prayer room, medical help, and ground transport. Each destination appears as a matched row containing a pictogram, an arrow, and four non-Latin script versions: Chinese, Arabic, Hindi Devanagari, and Korean. Add two smaller side panels using Japanese and Thai-style scripts for service notices. The layout should feel like a real airport sign system, with exact alignment and consistent icon size.\n\nImportant details:\nThis image tests multi-script public signage under realistic viewing constraints. Arabic must align right-to-left inside its own text zone while the overall sign grid stays orderly. Chinese, Korean, Japanese, and Devanagari letterforms should be crisp enough to inspect, not decorative marks. Keep arrows unambiguous, pictograms familiar, row spacing regular, and panel seams clean. The terminal background must not distract from the sign typography.\n\nUse case:\nMulti-Script Poster single study 3/8, testing airport-scale wayfinding with multilingual text, icons, arrows, and readable distance hierarchy.\n\nConstraints:\nNo readable text outside the specified multilingual wayfinding copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real airport names, no airline brands, no flags, no random Latin abbreviations, no backwards arrows, no distorted pictograms, no script mixing inside a single language row.",
+  "id": "03-airport-wayfinding-grid",
+  "title": "Airport Wayfinding Grid",
+  "description": "A realistic airport sign grid combining arrows, icons, and multiple non-Latin scripts.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/03-airport-wayfinding-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent airport-signage study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Airport Wayfinding Grid",
+      "description": "A realistic airport sign grid combining arrows, icons, and multiple non-Latin scripts."
+    },
+    "zh-CN": {
+      "title": "机场导视网格",
+      "description": "结合箭头、图标和多种非拉丁文字的真实机场导视牌。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A realistic airport wayfinding sign with arrows, icons, and several non-Latin scripts.",
+      "zh-CN": "一组真实机场导视牌，带有箭头、图标和多种非拉丁文字。"
+    }
+  }
+}

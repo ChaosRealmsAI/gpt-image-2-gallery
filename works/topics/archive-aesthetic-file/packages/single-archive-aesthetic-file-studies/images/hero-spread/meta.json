@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square editorial or interface layout study with exact margins, confident grid structure, and premium print or screen presentation. Build the frame around a primary spread or headline surface with immediate hierarchy. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Archive Aesthetic File theme and should feel immediately legible as a prompt atlas theme for archive aesthetic file, testing text-rendering, structured-layout with gpt image 2..\n\nSubject:\nCenter the study on a primary spread or headline surface with immediate hierarchy. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of archive aesthetic file as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by Old West Wanted, FBI, but keep the result original and specific to this study.\n\nImportant details:\nTypography fields must stay unreadable, but hierarchy, rhythm, and page architecture should feel convincing enough for design review. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Archive Aesthetic File. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nArchive Aesthetic File single study 1/8, testing text-rendering, structured-layout through the hero spread variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no logo lockups from real brands, no broken grid, no arbitrary poster clutter, no malformed columns, no accidental lorem ipsum.",
+  "id": "hero-spread",
+  "title": "Hero Spread",
+  "description": "Hero Spread interprets Archive Aesthetic File as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "text-rendering",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/archive-aesthetic-file/packages/single-archive-aesthetic-file-studies/images/hero-spread/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Archive Aesthetic File single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Spread",
+      "description": "Hero Spread interprets Archive Aesthetic File as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "主展开",
+      "description": "主展开：围绕 档案美学 · Wanted / 指纹卡 / 档案页 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Hero Spread for Archive Aesthetic File.",
+      "zh-CN": "档案美学 · Wanted / 指纹卡 / 档案页主题中的主展开图像研究。"
+    }
+  }
+}

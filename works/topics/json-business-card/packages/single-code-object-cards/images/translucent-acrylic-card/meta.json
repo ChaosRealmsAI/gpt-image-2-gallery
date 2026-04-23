@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square commercial mockup on a pale concrete surface with a translucent frosted acrylic business card casting soft layered shadows. The card is photographed overhead with slight perspective, clean daylight, and precise reflections along polished edges. A second blank acrylic card sits partly underneath to show depth without carrying any readable content.\n\nSubject:\nThe top acrylic card contains a readable JSON identity block engraved and filled with white and copper ink. The fictional data object includes keys such as \"name\", \"role\", \"lab\", \"email\", \"city\", and \"mode\". The JSON braces frame the card like a design system. Syntax highlight is physical: copper punctuation, white keys, pale blue values, and clear indentation. The transparent material bends the shadows behind the code but does not distort the letters.\n\nImportant details:\nThis image tests readable text through transparent material. Keep the code block sharp, aligned, and optically plausible despite refraction. The acrylic should have frosted thickness, chamfered edges, small surface scratches, and engraved ink that sits inside the material. Avoid turning the card into a screen or neon sign. There may be decorative editor-window corner marks, but they must be generic and non-readable.\n\nUse case:\nJSON Business Card single study 3/8, testing JSON typography on translucent acrylic with realistic refraction.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no real company names, no distorted JSON characters, no duplicated code shadows, no extra labels, no glowing sci-fi interface, no fingerprints covering text.",
+  "id": "translucent-acrylic-card",
+  "title": "Translucent Acrylic Card",
+  "description": "A frosted acrylic business card with readable engraved JSON contact information.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "material-swap",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/translucent-acrylic-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent acrylic card mockup focused on readable text through material effects."
+  },
+  "i18n": {
+    "en": {
+      "title": "Translucent Acrylic Card",
+      "description": "A frosted acrylic business card with readable engraved JSON contact information."
+    },
+    "zh-CN": {
+      "title": "半透明亚克力名片",
+      "description": "一张磨砂亚克力名片,刻入可读 JSON 联系信息。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "material-swap"
+    ],
+    "alt": {
+      "en": "A frosted acrylic business card with sharp readable JSON engraving.",
+      "zh-CN": "一张磨砂亚克力名片,带清晰可读的 JSON 雕刻。"
+    }
+  }
+}

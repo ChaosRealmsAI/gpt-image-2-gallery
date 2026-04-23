@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare museum conservation photograph, straight-on overhead view, soft raking light from the upper left, warm limestone and soot-black pigment against a quiet charcoal background. The frame is calm and catalog-like, with the tablet centered and enough margin to see chipped corners, dust, and shallow relief. Lighting should reveal carved depth without dramatic shadows.\n\nSubject:\nA fictional core inscription tablet for an invented ancient language. The tablet shows a disciplined grid of repeated glyph groups: crescent stems, three-dot radicals, hooked birdlike strokes, square seed marks, and nested spiral terminals. The symbols are not real writing, but they must feel internally consistent, like a recoverable grammar with prefixes, roots, and punctuation marks.\n\nImportant details:\nEstablish a reusable glyph family for the series. Keep line weight consistent, spacing deliberate, and repeated radicals recognizable in several positions. Include a small nonverbal comparison strip made only from glyph variants and icon-like separators, not readable labels. The surface should suggest hand-carved stone with mineral stains, rubbed pigment in grooves, and slight erosion that never destroys the symbol silhouettes.\n\nUse case:\nFictional Symbol System series study 1/8, root reference for a fanout set that preserves the same invented inscription grammar across later artifacts.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no random scribbles, no modern typography, no translation captions, no QR-code patterns, no extra border text.",
+  "id": "01-core-tablet",
+  "title": "Core Tablet",
+  "description": "A stone tablet establishing the invented glyph grammar for the reference-dependent series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image defining the reusable fictional glyph grammar."
+  },
+  "i18n": {
+    "en": {
+      "title": "Core Tablet",
+      "description": "A stone tablet establishing the invented glyph grammar for the reference-dependent series."
+    },
+    "zh-CN": {
+      "title": "核心石板",
+      "description": "一块建立虚构字形语法的石板，作为系列后续图像的参考。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A carved stone tablet covered with a consistent invented glyph system.",
+      "zh-CN": "一块刻满一致虚构符号系统的石板。"
+    }
+  }
+}

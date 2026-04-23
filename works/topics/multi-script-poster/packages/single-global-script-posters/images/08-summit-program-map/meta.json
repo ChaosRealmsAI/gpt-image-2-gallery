@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square high-end conference poster shown on a freestanding display easel in a bright atrium. The poster is a hybrid program schedule and venue map, printed on satin stock with crisp ink. Use a modern palette of black, white, cobalt, saffron, and pale gray. The camera is straight-on, with the atrium softly blurred behind the board.\n\nSubject:\nA global summit program map with a top title zone, a center radial venue diagram, four session tracks, and a bottom legend. The content is rendered across Chinese, Japanese, Korean, Arabic, Hindi Devanagari, Sanskrit Devanagari, Hebrew-style script, and Georgian-style script. Each session track has a distinct color and contains three short text blocks. The radial map labels rooms with script-specific markers and simple geometric icons.\n\nImportant details:\nThe image should prove that multi-script text can coexist with a complex information diagram. Keep the radial map clean, the track columns aligned, and the legend logically connected by color and icons. The non-Latin scripts must look intentionally typeset, not ornamental texture. Arabic and Hebrew-style zones should respect right-to-left alignment. Devanagari zones should maintain their horizontal headline. The overall poster should feel like a polished conference production file ready for printing.\n\nUse case:\nMulti-Script Poster single study 8/8, testing a conference program map with eight script families, diagram labels, and schedule hierarchy.\n\nConstraints:\nNo readable text outside the specified multilingual summit program copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real event names, no sponsor marks, no Latin fallback captions, no fake QR codes, no tangled connector lines, no cropped legend, no scripts used as random texture.",
+  "id": "08-summit-program-map",
+  "title": "Summit Program Map",
+  "description": "A conference program poster combining multilingual schedule tracks with a radial venue map.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "data-visualization",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/08-summit-program-map/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent summit-program study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Summit Program Map",
+      "description": "A conference program poster combining multilingual schedule tracks with a radial venue map."
+    },
+    "zh-CN": {
+      "title": "峰会议程地图",
+      "description": "结合多语日程轨道和放射式会场地图的会议海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "data-visualization"
+    ],
+    "alt": {
+      "en": "A summit program poster with multilingual schedule tracks and a radial venue map.",
+      "zh-CN": "一张峰会议程海报，包含多语日程轨道和放射式会场地图。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square macro photograph of an open oval gold locket resting on deep green velvet, with soft antique-window lighting and gentle falloff at the corners. The camera is close enough to show the hinge, rim, and scratched inner lip. The mood is intimate and heirloom-like, with warm gold reflections and a darker background that helps the micro inscription read clearly.\n\nSubject:\nOn the thin inner rim of the locket, engrave a tiny curved phrase exactly reading \"ALWAYS NEAR\". The phrase follows the oval edge and fits naturally into the metal lip, as if done by a master jeweler. The locket interior may hold an empty brushed-metal recess or subtle mother-of-pearl texture, but no photo and no other writing. The engraved phrase is the only semantic detail.\n\nImportant details:\nThe core challenge is curved micro text on a narrow jewelry edge. The letters must be readable, evenly spaced, and aligned along the oval rim without floating away from the metal surface. Show shallow cut grooves, tiny burrs, patina in the recesses, and realistic specular highlights. Keep the phrase emotionally legible while preserving the scale; it should look genuinely tiny, not like a large caption pasted onto the locket.\n\nUse case:\nMicro-Engraved Jewelry single study 6/8, testing curved readable inscription on a locket rim for sentimental customization.\n\nConstraints:\nNo readable text except the specified phrase \"ALWAYS NEAR\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand stamp, no portrait text, no extra initials, no misspelling, no flat printed lettering, no oversized phrase, no warped oval geometry.",
+  "id": "locket-edge-script",
+  "title": "Locket Edge Script",
+  "description": "An open gold locket with a readable curved micro inscription along the inner rim.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "micro-texture",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/single-micro-inscription-studies/images/locket-edge-script/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for readable curved inscription on a narrow locket rim."
+  },
+  "i18n": {
+    "en": {
+      "title": "Locket Edge Script",
+      "description": "An open gold locket with a readable curved micro inscription along the inner rim."
+    },
+    "zh-CN": {
+      "title": "吊坠边缘刻字",
+      "description": "一枚打开的金色吊坠，在内侧边缘刻有可读的弧形微缩文字。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "An open gold locket with ALWAYS NEAR engraved along the inner rim.",
+      "zh-CN": "一枚打开的金色吊坠，内侧边缘刻着 ALWAYS NEAR。"
+    }
+  }
+}

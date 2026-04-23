@@ -1,0 +1,59 @@
+{
+  "id": "single-application-studies",
+  "type": "single",
+  "title": "Application Studies",
+  "description": "Four independent studies applying the theme to distinct display surfaces, each testing readability, hierarchy, and artifact credibility without shared references.",
+  "creative_direction": "Each image is independent: one theme, four finished surfaces, and no shared reference dependency. The package broadens the theme beyond one canonical board by testing display, documentation, and symbolic storytelling in separate contexts.",
+  "cover_image": "images/01-poster-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Application Studies",
+      "description": "Four independent studies applying the theme to distinct display surfaces, each testing readability, hierarchy, and artifact credibility without shared references."
+    },
+    "zh-CN": {
+      "title": "应用研究",
+      "description": "四张互不依赖的应用研究图，把主题放到不同展示表面中，分别测试可读性、层级和器物可信度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "structured-layout",
+      "frontier-creative-composition",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-poster-study",
+      "title": "Poster Study",
+      "image": "images/01-poster-study/image.png",
+      "meta": "images/01-poster-study/meta.json"
+    },
+    {
+      "id": "02-codex-study",
+      "title": "Codex Study",
+      "image": "images/02-codex-study/image.png",
+      "meta": "images/02-codex-study/meta.json"
+    },
+    {
+      "id": "03-specimen-study",
+      "title": "Specimen Study",
+      "image": "images/03-specimen-study/image.png",
+      "meta": "images/03-specimen-study/meta.json"
+    },
+    {
+      "id": "04-decoder-study",
+      "title": "Decoder Study",
+      "image": "images/04-decoder-study/image.png",
+      "meta": "images/04-decoder-study/meta.json"
+    }
+  ]
+}

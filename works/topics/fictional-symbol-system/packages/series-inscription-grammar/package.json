@@ -1,0 +1,71 @@
+{
+  "id": "series-inscription-grammar",
+  "type": "series",
+  "title": "Inscription Grammar",
+  "description": "A reference-dependent series that establishes one invented glyph grammar, then applies it to map, seal, and codex artifacts without changing the symbol logic.",
+  "creative_direction": "Image 01 defines a coherent fictional writing system with repeated radicals, stroke weights, and spacing rules. Images 02-04 depend on the first image as a runtime reference so the same glyph family appears across different archaeological media.",
+  "cover_image": "images/01-core-tablet/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-core-tablet/meta.json",
+      "images/02-ritual-map/meta.json",
+      "images/03-jade-seal/meta.json",
+      "images/04-codex-fragment/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Inscription Grammar",
+      "description": "A reference-dependent series that establishes one invented glyph grammar, then applies it to map, seal, and codex artifacts without changing the symbol logic."
+    },
+    "zh-CN": {
+      "title": "铭文语法",
+      "description": "先建立一套虚构字形语法，再把同一符号家族应用到地图、玉印和残页文物中。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-core-tablet",
+      "title": "Core Tablet",
+      "image": "images/01-core-tablet/image.png",
+      "meta": "images/01-core-tablet/meta.json"
+    },
+    {
+      "id": "02-ritual-map",
+      "title": "Ritual Map",
+      "image": "images/02-ritual-map/image.png",
+      "meta": "images/02-ritual-map/meta.json"
+    },
+    {
+      "id": "03-jade-seal",
+      "title": "Jade Seal",
+      "image": "images/03-jade-seal/image.png",
+      "meta": "images/03-jade-seal/meta.json"
+    },
+    {
+      "id": "04-codex-fragment",
+      "title": "Codex Fragment",
+      "image": "images/04-codex-fragment/image.png",
+      "meta": "images/04-codex-fragment/meta.json"
+    }
+  ]
+}

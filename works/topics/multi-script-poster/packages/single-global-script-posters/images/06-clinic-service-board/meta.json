@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square clean-room photograph of a multilingual clinic service board mounted in a public health reception area. The environment is calm, bright, and practical, with white walls, frosted glass, pale green accents, and soft ceiling light. The camera is centered so every panel on the board is readable and the board edges stay parallel to the frame.\n\nSubject:\nA healthcare information board listing registration, vaccination, pharmacy, emergency triage, interpreter support, payment desk, and family waiting area. Each service row contains a simple medical pictogram, a color-coded label block, and translations in Chinese, Arabic, Hindi Devanagari, Korean, Japanese, and Bengali-style script. Include a small floor-map corner with numbered rooms and arrows, but keep it schematic and not tied to any real hospital.\n\nImportant details:\nThe visual challenge is reliable public-service typography: small but readable script rows, calm spacing, clear icons, and no decorative distortion. The board must feel accessible under stress, with high contrast, predictable row rhythm, and strong separation between languages. Arabic should use its own right-to-left zone. Devanagari and Bengali-style text should preserve headline bars and rounded forms instead of dissolving into marks.\n\nUse case:\nMulti-Script Poster single study 6/8, testing multilingual public-health signage with functional icons, rows, and wayfinding micro-layouts.\n\nConstraints:\nNo readable text outside the specified multilingual clinic copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real hospital names, no emergency phone numbers, no brand colors, no Latin translations, no distorted medical symbols, no unreadable tiny disclaimer blocks, no scripts crossing row boundaries.",
+  "id": "06-clinic-service-board",
+  "title": "Clinic Service Board",
+  "description": "A public-health service board with multilingual rows, pictograms, and a small floor map.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "technical-diagram",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/06-clinic-service-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent clinic-signage study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Clinic Service Board",
+      "description": "A public-health service board with multilingual rows, pictograms, and a small floor map."
+    },
+    "zh-CN": {
+      "title": "诊所服务牌",
+      "description": "公共医疗服务牌，包含多语行、图标和小型楼层示意图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "technical-diagram"
+    ],
+    "alt": {
+      "en": "A clinic service board with icons, multilingual rows, and a small schematic map.",
+      "zh-CN": "一块诊所服务牌，包含图标、多语文字行和小型示意地图。"
+    }
+  }
+}

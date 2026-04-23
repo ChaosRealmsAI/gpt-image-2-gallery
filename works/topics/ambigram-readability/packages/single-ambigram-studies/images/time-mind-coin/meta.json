@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square macro photograph of an antique brass challenge coin on a dark neutral tabletop, lit by low raking light so embossed relief and tiny scratches are visible. The camera is straight-on above the coin. The coin has no outer inscriptions; only the central raised ambigram is readable. A faint rotated shadow below the coin hints at the 180-degree verification.\n\nSubject:\nThe central relief must read exactly \"TIME\" when upright and exactly \"MIND\" when rotated 180 degrees. Use heavy Roman capitals fused into one rotational ambigram, with carved counters, raised bevels, and shared stems. The word should sit inside a simple circular border and compass-like geometric grid, but the border itself must be abstract and contain no letters or numbers.\n\nImportant details:\nThis image tests text rendering under relief, wear, and metal lighting. The letters must be readable through physical form, not printed black ink. Show realistic brass patina, small edge nicks, polished high points, shadowed recesses, and consistent embossing depth. Keep the ambigram large and centered. The coin should look like a serious typographic artifact, not a fantasy medallion full of random symbols. Avoid decorative marks that could be mistaken for extra characters.\n\nUse case:\nAmbigram Readability single study 8/8, testing embossed dual-word readability where TIME rotates into MIND on a metal coin.\n\nConstraints:\nNo readable text except the specified ambigram words \"TIME\" and \"MIND\", no watermark, no logos, preserve exact 1:1 aspect ratio, no date, no serial number, no outer motto, no extra glyphs resembling letters, no flat overlay text, no illegible corrosion covering the word.",
+  "id": "time-mind-coin",
+  "title": "Time Mind Coin",
+  "description": "An embossed brass coin ambigram where TIME should rotate into MIND while remaining readable as relief lettering.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "micro-texture",
+    "physics-materials",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/time-mind-coin/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing embossed metal ambigram readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Time Mind Coin",
+      "description": "An embossed brass coin ambigram where TIME should rotate into MIND while remaining readable as relief lettering."
+    },
+    "zh-CN": {
+      "title": "TIME / MIND 铜币",
+      "description": "浮雕黄铜币上的双向字,正读 TIME,旋转后读作 MIND,同时保持浮雕可读性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "micro-texture",
+      "single"
+    ],
+    "alt": {
+      "en": "An antique brass coin with raised ambigram lettering intended to read TIME upright and MIND after rotation.",
+      "zh-CN": "古旧黄铜币上有浮雕双向字,正读 TIME,旋转后意图读作 MIND。"
+    }
+  }
+}

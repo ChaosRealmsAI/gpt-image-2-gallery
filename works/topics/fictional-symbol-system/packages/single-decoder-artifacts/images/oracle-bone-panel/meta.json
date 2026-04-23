@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare studio photograph of a cracked oracle-bone display panel on black felt, lit with a narrow warm beam and soft museum spill. The bone surface is ivory, amber, and smoke-brown, with scorched divination pits, hairline fractures, and tiny mineral deposits. The arrangement should feel like a high-end exhibition object, not a textbook diagram.\n\nSubject:\nAn independent fictional oracle-bone symbol system. The surface contains carved glyphs inspired by the idea of bone inscriptions but not copying real oracle bone script. Symbols are built from antler forks, seed triangles, rain hooks, nested eye marks, and short tally cuts. Several repeated compounds appear in columns and around burn marks, implying questions, omens, and responses without using any readable language.\n\nImportant details:\nCreate a believable pseudo-decoder artifact through visual organization alone. Include small separated zones, repeated radicals, careful alignment, and a few emphasized central glyph clusters. The glyphs must be sharp enough to inspect, with consistent carving depth and spacing. Avoid decorative chaos: the viewer should sense a grammar, even though no real text is present. The artifact should balance archaeological realism with fantasy worldbuilding craft.\n\nUse case:\nFictional Symbol System single study 5/8, testing an independent bone-inscription artifact with controlled invented glyph repetition.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no real Chinese oracle script, no museum caption card, no translation labels, no modern pen marks, no random scratches pretending to be writing.",
+  "id": "oracle-bone-panel",
+  "title": "Oracle Bone Panel",
+  "description": "An independent pseudo-oracle-bone artifact with disciplined invented divination glyphs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "world-knowledge",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-decoder-artifacts/images/oracle-bone-panel/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image with no reference dependencies."
+  },
+  "i18n": {
+    "en": {
+      "title": "Oracle Bone Panel",
+      "description": "An independent pseudo-oracle-bone artifact with disciplined invented divination glyphs."
+    },
+    "zh-CN": {
+      "title": "甲骨面板",
+      "description": "一件独立的伪甲骨文物，使用有规则的虚构占卜符号。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A cracked oracle-bone artifact engraved with repeated invented divination glyphs.",
+      "zh-CN": "一块裂纹甲骨文物，上面刻有重复的虚构占卜符号。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square horology macro photograph inside a mechanical watch movement, lit with cool white workbench light and a precise overhead reflection. The frame shows layered brass gears, ruby bearings, brushed steel bridges, and a jeweler's screwdriver blurred near the edge. The palette is gold, steel, ruby red, and deep shadow, with crisp detail on one small gear tooth ring.\n\nSubject:\nOn a tiny exposed brass gear near the center, engrave the initials \"A+J\" along the curved face between the teeth. The letters must be micro-sized but readable, recessed into the brass, and aligned to the circular gear geometry. The surrounding watch parts should remain technically plausible and unbranded: screws, jewels, bridges, and teeth at correct scale, with no dial numbers or maker text visible.\n\nImportant details:\nThis image tests readable micro typography inside a dense mechanical object. The inscription should not look like a floating overlay; it must bend with the gear, catch light in the groove, and remain distinct from machining marks. Maintain realistic watchmaking material physics: fine oil sheen, polished bevels, dust specks, and alternating brushed and polished surfaces. The viewer should understand this as a hidden custom engraving, not a logo.\n\nUse case:\nMicro-Engraved Jewelry single study 7/8, testing tiny readable initials on a mechanically detailed watch component.\n\nConstraints:\nNo readable text except the specified initials \"A+J\", no watermark, no logos, preserve exact 1:1 aspect ratio, no watch brand, no dial numerals, no serial numbers, no extra initials, no misplaced plus sign, no floating text, no impossible melted gear teeth.",
+  "id": "watch-gear-initials",
+  "title": "Watch Gear Initials",
+  "description": "A mechanical watch gear with readable tiny initials engraved into the brass.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "technical-diagram",
+    "physics-materials",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/single-micro-inscription-studies/images/watch-gear-initials/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for micro initials on a dense mechanical jewelry-adjacent object."
+  },
+  "i18n": {
+    "en": {
+      "title": "Watch Gear Initials",
+      "description": "A mechanical watch gear with readable tiny initials engraved into the brass."
+    },
+    "zh-CN": {
+      "title": "腕表齿轮 initials",
+      "description": "一枚机械腕表黄铜齿轮上刻有可读的微缩 initials。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "A brass watch gear has the tiny initials A+J engraved between its teeth.",
+      "zh-CN": "一枚黄铜腕表齿轮在齿间刻着微缩 initials A+J。"
+    }
+  }
+}

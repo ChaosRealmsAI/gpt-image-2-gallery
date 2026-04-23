@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square luxury macro photograph of a brushed silver signet ring lying on a dark blue velvet tray, viewed from directly above. The ring face is a flat oval disk engraved with one continuous ambigram, and a small mirror below the ring shows the same engraving rotated 180 degrees. Use cool highlights, shallow but controlled depth of field, and enough magnification to inspect the lettering grooves.\n\nSubject:\nThe engraving must read exactly \"FLOW\" in the upright view and exactly \"WAVE\" when rotated 180 degrees. The letterforms should be fluid but engineered: F shares a spine with E, L curls into V-like negative space, O becomes A-like counter structure, and W resolves through rotated stroke grouping. The word is cut into metal as dark recessed grooves with polished raised edges.\n\nImportant details:\nThis image tests whether an ambigram can survive real material constraints. The engraving must follow the ring face surface, catch light in the cuts, and remain physically plausible for jewelry production. Keep the oval face centered, the ambigram large enough to read, and the reflected rotated version aligned below as a verification cue. Do not add separate labels, fake captions, or decorative side text. The design should look like a custom ring order for a typography collector.\n\nUse case:\nAmbigram Readability single study 4/8, testing dual-word ambigram engraving where FLOW rotates into WAVE on jewelry metal.\n\nConstraints:\nNo readable text except the specified ambigram words \"FLOW\" and \"WAVE\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand stamp, no extra initials, no floating text overlay, no illegible scratches replacing letters, no warped ring geometry, no oversized caption.",
+  "id": "flow-wave-ring",
+  "title": "Flow Wave Ring",
+  "description": "A signet-ring engraving where FLOW should rotate into WAVE while remaining physically carved into metal.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "commercial-mockup",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/flow-wave-ring/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing jewelry engraving with dual-word rotation readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Flow Wave Ring",
+      "description": "A signet-ring engraving where FLOW should rotate into WAVE while remaining physically carved into metal."
+    },
+    "zh-CN": {
+      "title": "FLOW / WAVE 戒面",
+      "description": "印章戒面的 FLOW 雕刻应在旋转后读作 WAVE,并保持真实金属雕刻质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A silver signet ring engraved with a FLOW ambigram intended to read WAVE after 180-degree rotation.",
+      "zh-CN": "银色印章戒面刻有 FLOW 双向字,设计目标是在 180 度旋转后读作 WAVE。"
+    }
+  }
+}

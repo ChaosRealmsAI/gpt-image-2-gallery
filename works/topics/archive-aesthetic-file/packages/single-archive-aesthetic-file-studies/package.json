@@ -1,0 +1,82 @@
+{
+  "id": "single-archive-aesthetic-file-studies",
+  "type": "single",
+  "title": "Archive File Layout Studies",
+  "description": "Eight independent layout studies for Archive Aesthetic File, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Archive Aesthetic File, testing text-rendering, structured-layout with GPT Image 2. through distinct studies that emphasize structured-layout, text-rendering, editorial-illustration while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/hero-spread/image.png",
+  "i18n": {
+    "en": {
+      "title": "Archive File Layout Studies",
+      "description": "Eight independent layout studies for Archive Aesthetic File, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "档案美学单图研究",
+      "description": "围绕 档案美学 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "hero-spread",
+      "title": "Hero Spread",
+      "image": "images/hero-spread/image.png",
+      "meta": "images/hero-spread/meta.json"
+    },
+    {
+      "id": "variant-grid",
+      "title": "Variant Grid",
+      "image": "images/variant-grid/image.png",
+      "meta": "images/variant-grid/meta.json"
+    },
+    {
+      "id": "desk-review",
+      "title": "Desk Review",
+      "image": "images/desk-review/image.png",
+      "meta": "images/desk-review/meta.json"
+    },
+    {
+      "id": "material-closeup",
+      "title": "Material Closeup",
+      "image": "images/material-closeup/image.png",
+      "meta": "images/material-closeup/meta.json"
+    },
+    {
+      "id": "archive-sheet",
+      "title": "Archive Sheet",
+      "image": "images/archive-sheet/image.png",
+      "meta": "images/archive-sheet/meta.json"
+    },
+    {
+      "id": "retail-presentation",
+      "title": "陈列展示",
+      "image": "images/retail-presentation/image.png",
+      "meta": "images/retail-presentation/meta.json"
+    },
+    {
+      "id": "system-board",
+      "title": "System Board",
+      "image": "images/system-board/image.png",
+      "meta": "images/system-board/meta.json"
+    },
+    {
+      "id": "signature-layout",
+      "title": "Signature Layout",
+      "image": "images/signature-layout/image.png",
+      "meta": "images/signature-layout/meta.json"
+    }
+  ]
+}

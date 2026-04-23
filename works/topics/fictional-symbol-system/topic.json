@@ -1,0 +1,57 @@
+{
+  "id": "fictional-symbol-system",
+  "slug": "fictional-symbol-system",
+  "category": "typography",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge"
+  ],
+  "title": "Fictional Symbol System",
+  "short_title": "Symbol System",
+  "description": "A Prompt Atlas theme for invented writing systems, pseudo-archaeological artifacts, and decoder-like layouts that test controlled glyph design.",
+  "i18n": {
+    "en": {
+      "title": "Fictional Symbol System",
+      "short_title": "Symbol System",
+      "description": "A Prompt Atlas theme for invented writing systems, pseudo-archaeological artifacts, and decoder-like layouts that test controlled glyph design."
+    },
+    "zh-CN": {
+      "title": "虚构古文字 / 符号系统",
+      "short_title": "符号系统",
+      "description": "测试自创魔幻文字、仿古刻符、伪解码页和世界观文物的符号一致性与版式控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-inscription-grammar",
+      "type": "series",
+      "title": "Inscription Grammar",
+      "path": "packages/series-inscription-grammar/package.json"
+    },
+    {
+      "id": "single-decoder-artifacts",
+      "type": "single",
+      "title": "Decoder Artifacts",
+      "path": "packages/single-decoder-artifacts/package.json"
+    }
+  ]
+}

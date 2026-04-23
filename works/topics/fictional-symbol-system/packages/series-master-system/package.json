@@ -1,0 +1,71 @@
+{
+  "id": "series-master-system",
+  "type": "series",
+  "title": "Master System Variations",
+  "description": "A reference-dependent series that establishes one base visual language and then preserves it across material, ritual, and archive variations.",
+  "creative_direction": "Image 01 establishes the core symbol inventory, spacing rhythm, and material logic. Images 02-04 depend on it as --ref while changing surface, context, and presentation without losing the same design system.",
+  "cover_image": "images/01-reference-system/image.png",
+  "i18n": {
+    "en": {
+      "title": "Master System Variations",
+      "description": "A reference-dependent series that establishes one base visual language and then preserves it across material, ritual, and archive variations."
+    },
+    "zh-CN": {
+      "title": "母版系统变体",
+      "description": "先建立一套基准视觉语言，再把它稳定延展到材质、仪式和档案变体中的参考依赖系列。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-system/meta.json",
+      "images/02-material-proof/meta.json",
+      "images/03-ceremonial-surface/meta.json",
+      "images/04-archive-display/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "images": [
+    {
+      "id": "01-reference-system",
+      "title": "Reference System",
+      "image": "images/01-reference-system/image.png",
+      "meta": "images/01-reference-system/meta.json"
+    },
+    {
+      "id": "02-material-proof",
+      "title": "Material Proof",
+      "image": "images/02-material-proof/image.png",
+      "meta": "images/02-material-proof/meta.json"
+    },
+    {
+      "id": "03-ceremonial-surface",
+      "title": "Ceremonial Surface",
+      "image": "images/03-ceremonial-surface/image.png",
+      "meta": "images/03-ceremonial-surface/meta.json"
+    },
+    {
+      "id": "04-archive-display",
+      "title": "Archive Display",
+      "image": "images/04-archive-display/image.png",
+      "meta": "images/04-archive-display/meta.json"
+    }
+  ]
+}

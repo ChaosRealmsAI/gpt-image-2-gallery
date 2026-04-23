@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic overhead mockup of a fictional hotel invoice folio on crisp white letter paper, partly tucked into a cream envelope on a dark walnut desk. Add a fountain pen with no visible brand, a blank key sleeve, and morning window light. The paper should show fine fibers, sharp folds, and slight toner texture.\n\nSubject:\nCreate a fictional non-payable hotel folio. The exact readable text should include: SPECIMEN, ATLAS HOTEL, GUEST FOLIO, ROOM 1204, CHECK IN, CHECK OUT, ROOM, TAX, TOTAL 0.00, NOT VALID FOR PAYMENT. Use a neat table with columns, a subtotal area, and a red diagonal specimen stamp. Do not include guest name, address, phone, email, payment card, folio number, tax ID, QR code, or real hotel logo.\n\nImportant details:\nThe document should look operational in layout but impossible to use: no identity fields, no payment details, zero total, and clear specimen marking. Preserve business-document precision: aligned columns, crisp rules, subtle paper curl, envelope shadow, toner edge softness, and believable desk reflections. The mockup should feel like a hospitality product-design sample, not a real bill.\n\nUse case:\nPseudo-Real Documents single study 7/8, testing invoice table readability, office-paper material, specimen stamp, and safe non-payable commercial document design.\n\nConstraints:\nNo readable text except the specified hotel folio strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real hotel name, no guest personal data, no payment card digits, no invoice number, no tax ID, no QR code, no payable amount, no signature.",
+  "id": "hotel-invoice-folio",
+  "title": "Hotel Invoice Folio",
+  "description": "A fictional non-payable hotel folio specimen with readable invoice table, red specimen stamp, envelope, and crisp office paper.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/hotel-invoice-folio/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing safe fictional invoice layout and paper material."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hotel Invoice Folio",
+      "description": "A fictional non-payable hotel folio specimen with readable invoice table, red specimen stamp, envelope, and crisp office paper."
+    },
+    "zh-CN": {
+      "title": "酒店账单样张",
+      "description": "虚构不可支付酒店账单样张,包含可读表格、红色样张章、信封和清爽办公纸质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional ATLAS HOTEL guest folio specimen with a zero total, red specimen stamp, and crisp invoice table.",
+      "zh-CN": "虚构 ATLAS HOTEL 客房账单样张,总额为零,有红色样张章和清晰发票表格。"
+    }
+  }
+}

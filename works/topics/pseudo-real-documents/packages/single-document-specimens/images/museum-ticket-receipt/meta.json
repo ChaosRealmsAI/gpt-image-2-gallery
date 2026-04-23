@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic still life of a fictional museum ticket and attached receipt on a pale stone counter. The ticket stock is thick matte paper with a torn perforated edge, while the receipt is thin curled thermal paper. Soft gallery light, tiny shadows, and paper fibers should make both materials distinct.\n\nSubject:\nCreate a fictional museum admission specimen. The exact readable text should include: SPECIMEN, ATLAS MUSEUM, ADMISSION, GALLERY A, ADULT, 23 APR 2026, 10:30, RECEIPT, TOTAL 0.00. Include a decorative non-scannable barcode-like strip and a small abstract artifact icon, but no real museum logo, no QR code, no payment card digits, no transaction ID, and no address. The receipt can show short gray placeholder rules as unreadable texture.\n\nImportant details:\nThis image tests two paper systems in one composition: heavier ticket stock versus slick thermal receipt. Keep typography aligned, with readable hierarchy on the ticket and receipt. The perforation, ink density, paper curl, and stone-counter reflections should feel physically plausible. The specimen mark and zero-total value make the document safe and non-operational while retaining museum-product realism.\n\nUse case:\nPseudo-Real Documents single study 6/8, testing ticket and receipt typography, paper-material contrast, and fictional commercial mockup realism.\n\nConstraints:\nNo readable text except the specified museum ticket and receipt strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no real museum name, no QR code, no scannable barcode, no credit card digits, no transaction number, no address, no extra pricing lines.",
+  "id": "museum-ticket-receipt",
+  "title": "Museum Ticket Receipt",
+  "description": "A fictional museum admission ticket and thermal receipt specimen showing readable fields, perforation, paper curl, and safe non-scannable marks.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/museum-ticket-receipt/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing fictional ticket and receipt material contrast."
+  },
+  "i18n": {
+    "en": {
+      "title": "Museum Ticket Receipt",
+      "description": "A fictional museum admission ticket and thermal receipt specimen showing readable fields, perforation, paper curl, and safe non-scannable marks."
+    },
+    "zh-CN": {
+      "title": "博物馆票据样张",
+      "description": "虚构博物馆门票和热敏小票样张,展示可读字段、撕孔、纸张卷曲和不可扫描标记。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional ATLAS MUSEUM admission ticket and curled receipt specimen on a pale stone counter.",
+      "zh-CN": "浅色石台上的虚构 ATLAS MUSEUM 门票和卷曲收据样张。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square macro product photograph of a cream cotton paper business card on a letterpress printer bed. Warm side light reveals paper fibers, deep impressions, and ink texture. The card is angled slightly, with a brass composing stick and blank paper off to the side as non-readable props. The mood is analog craft meeting software syntax.\n\nSubject:\nThe card face is a readable JSON object printed in deep letterpress indentation. Use a fictional creative technologist profile with keys like \"name\", \"craft\", \"format\", \"email\", \"tools\", and \"open_to\". The text is monospaced, black and metallic gold, with quotation marks, colons, commas, square brackets, and braces clearly aligned. Syntax highlighting is achieved through ink color and pressure: keys in black, punctuation blind-debossed, values in gold.\n\nImportant details:\nMake every JSON character look physically pressed into thick paper. Preserve clean indentation, equal line spacing, consistent quote marks, and no accidental extra characters. Letterpress texture should not destroy readability. The background may show printmaking equipment, but no readable labels or brand marks. The card should feel like a real premium business card that a developer might hand out at a design conference.\n\nUse case:\nJSON Business Card single study 4/8, testing readable code layout under analog letterpress texture.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no malformed JSON, no random type fragments, no ink smears over characters, no antique poster text, no printer brand marks, no warped card corners.",
+  "id": "letterpress-code-card",
+  "title": "Letterpress Code Card",
+  "description": "A cream cotton business card where readable JSON is printed as deep letterpress code.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "micro-texture",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/letterpress-code-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent letterpress mockup focused on tactile JSON readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Letterpress Code Card",
+      "description": "A cream cotton business card where readable JSON is printed as deep letterpress code."
+    },
+    "zh-CN": {
+      "title": "活版代码名片",
+      "description": "一张棉纸名片,以深压活版工艺印出可读 JSON 代码。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A cream letterpress business card with readable JSON pressed into cotton paper.",
+      "zh-CN": "一张奶油色活版名片,可读 JSON 被压印进棉纸。"
+    }
+  }
+}

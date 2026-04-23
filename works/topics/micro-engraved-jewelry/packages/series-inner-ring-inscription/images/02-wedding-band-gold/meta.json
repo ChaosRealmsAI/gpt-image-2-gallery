@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA square macro studio photograph with a warmer palette than the reference: champagne highlights, deep brown velvet, and a narrow strip of reflected light running along a gold ring. The camera angle should closely echo the reference image, looking into the inner wall so the same engraving zone is visible. Use shallow depth of field, but keep the inner inscription in the sharpest plane.\n\nSubject:\nTransform the reference ring into an 18k yellow-gold wedding band while preserving the same band silhouette, inner-wall engraving position, and exact inscription phrase \"MAYA 2026\". The letters must remain small, clean, and carved into the inside curve. Add subtle gold grain, fine polish marks, and a realistic beveled edge, but do not change the proportions or move the text away from the visible inner arc.\n\nImportant details:\nThis is a continuity test: the viewer should recognize the same ring geometry and inscription placement from image 01, only translated into gold and warmer wedding lighting. The micro text must be readable without becoming oversized; it should follow the curve, cast tiny shadow grooves, and avoid blobs or repeated characters. Maintain luxury commercial realism and physically plausible metal reflections.\n\nUse case:\nMicro-Engraved Jewelry series study 2/8, testing reference-preserved micro text on a gold wedding-band material variant.\n\nConstraints:\nNo readable text except the specified phrase \"MAYA 2026\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no external caption, no incorrect phrase, no duplicated inscription, no flat printed text, no warped ring shape.",
+  "id": "02-wedding-band-gold",
+  "title": "Wedding Band Gold",
+  "description": "A gold material variant preserving the reference ring's inner-wall engraving placement.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "identity-consistency",
+    "material-swap",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/02-wedding-band-gold/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-ring",
+        "meta_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/meta.json",
+        "image_path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference ring to preserve geometry and inscription placement while changing material to yellow gold."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wedding Band Gold",
+      "description": "A gold material variant preserving the reference ring's inner-wall engraving placement."
+    },
+    "zh-CN": {
+      "title": "金色婚戒",
+      "description": "一张金色材质变体，保持基准戒指的内壁刻字位置。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A gold wedding band preserving the tiny MAYA 2026 inner engraving.",
+      "zh-CN": "一枚保留 MAYA 2026 内壁微刻的金色婚戒。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square premium startup-brand mockup with a holographic foil business card on a dark neutral table. The card is tilted so rainbow foil shifts across the code while the printed characters remain sharp. Lighting is dramatic but controlled, with a second blurred card in the background showing only abstract foil bands and no readable marks.\n\nSubject:\nThe front card displays a readable JSON identity block for a fictional AI product designer. Use keys such as \"name\", \"role\", \"product\", \"email\", \"timezone\", and \"ship_mode\". Syntax highlighting is made from holographic foil: braces and punctuation in rainbow foil, keys in white ink, string values in cyan and magenta foil accents. The code block sits inside a subtle editor-window frame with generic controls, not a real application logo.\n\nImportant details:\nReadable text is the core challenge. Foil reflections must enhance syntax highlighting without hiding the JSON. Keep indentation stable, quotes clean, commas in correct positions, and no extra lines beyond the object. The card should feel tactile and commercial: thick stock, bevel, foil grain, tiny edge wear, and realistic reflection. Avoid sci-fi UI clutter or decorative data streams.\n\nUse case:\nJSON Business Card single study 7/8, testing readable JSON code under holographic foil and startup-style commercial mockup lighting.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no real startup names, no malformed JSON, no hidden extra words, no QR code, no overbright glare, no fake screen, no illegible rainbow smearing.",
+  "id": "holographic-startup-card",
+  "title": "Holographic Startup Card",
+  "description": "A holographic foil startup card with readable syntax-highlighted JSON contact data.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/holographic-startup-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent holographic foil mockup emphasizing text readability under reflections."
+  },
+  "i18n": {
+    "en": {
+      "title": "Holographic Startup Card",
+      "description": "A holographic foil startup card with readable syntax-highlighted JSON contact data."
+    },
+    "zh-CN": {
+      "title": "镭射创业名片",
+      "description": "一张镭射烫印创业风名片,带可读语法高亮 JSON 联系信息。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A holographic foil business card with readable JSON syntax highlighting.",
+      "zh-CN": "一张镭射烫印名片,带可读 JSON 语法高亮。"
+    }
+  }
+}

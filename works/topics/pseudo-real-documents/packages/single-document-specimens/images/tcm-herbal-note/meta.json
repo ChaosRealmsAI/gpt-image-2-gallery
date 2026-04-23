@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square photorealistic overhead photograph of a fictional herbal study note on warm cream prescription-style paper, placed beside a ceramic tea cup, blank kraft envelope, and a brush pen. The paper has slight wrinkles, deckled fiber edges, and a red specimen chop mark. Lighting is soft and domestic, like a careful product shot for cultural stationery.\n\nSubject:\nCreate a fictional traditional-herbal note, explicitly not a medical prescription. The exact readable text should include: SPECIMEN, Herbal Study Note, Not for treatment, 甘草, 陈皮, 茯苓, 菊花, 生姜, sample only. Mix tidy printed form fields with expressive handwritten Chinese herb names, using dark brown ink and a red square stamp reading SPECIMEN. Do not include patient name, doctor name, diagnosis, dosage, pharmacy, license number, or instructions for use.\n\nImportant details:\nThe visual goal is document-level precision: ruled boxes, date area left blank, blank signature line, ink pressure changes, brush-pen pooling, paper translucency, red stamp texture, and believable stationery shadows. The Chinese characters should be readable and beautiful, but the content must remain a non-actionable study sample. Keep the note materially convincing while making its specimen and non-treatment status unambiguous.\n\nUse case:\nPseudo-Real Documents single study 3/8, testing handwritten document realism, Chinese character rendering, paper fibers, and safe non-medical framing.\n\nConstraints:\nNo readable text except the specified herbal study strings, no watermark, no logos, preserve exact 1:1 aspect ratio, no patient data, no doctor signature, no dosage, no treatment directions, no real clinic name, no pharmacy seal, no scannable code.",
+  "id": "tcm-herbal-note",
+  "title": "Herbal Study Note",
+  "description": "A fictional non-treatment herbal study note with readable Chinese herb names, specimen stamp, brush ink, and prescription-style paper texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "photorealism",
+    "physics-materials",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/pseudo-real-documents/packages/single-document-specimens/images/tcm-herbal-note/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing safe fictional handwritten herbal document realism."
+  },
+  "i18n": {
+    "en": {
+      "title": "Herbal Study Note",
+      "description": "A fictional non-treatment herbal study note with readable Chinese herb names, specimen stamp, brush ink, and prescription-style paper texture."
+    },
+    "zh-CN": {
+      "title": "草本学习单",
+      "description": "虚构非治疗草本学习单,包含可读中文药材名、样张印章、毛笔墨迹和处方纸质感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism",
+      "physics-materials",
+      "single"
+    ],
+    "alt": {
+      "en": "A fictional herbal study note on cream paper with handwritten Chinese herb names, a red SPECIMEN stamp, and brush-pen texture.",
+      "zh-CN": "奶油色纸张上的虚构草本学习单,手写中文药材名、红色 SPECIMEN 印章和毛笔墨迹清晰可见。"
+    }
+  }
+}

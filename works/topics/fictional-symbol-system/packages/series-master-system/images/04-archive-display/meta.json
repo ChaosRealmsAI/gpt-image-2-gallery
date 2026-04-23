@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square composition showing an archive display composition for Fictional Symbol System (fictional symbol system). Frame it as a square display case or documentation plate with restrained light, soft neutrals, and visually separated compartments. Keep the lighting precise and the tonal separation clear so the main structure reads instantly at thumbnail size and still rewards close inspection. Use a palette and material behavior appropriate to the theme rather than a generic template. The overall image should feel like a finished gallery or research asset instead of a loose concept sketch.\n\nSubject:\nCenter the image around the same symbol system presented as collected evidence with parallel fragments, rubbing-like pieces, and decoding-oriented organization. The subject should express the theme described as A Prompt Atlas theme for Fictional Symbol System, testing text-rendering with GPT Image 2.. Use layered primary, secondary, and tertiary details so the viewer can infer system, scale, and purpose without needing captions. Fictional Symbol System must feel specific rather than interchangeable: the subject should clearly belong to this topic and not to a neighboring prompt atlas category.\n\nImportant details:\nThe most important control point is hold onto the same line rhythm and mark identity while shifting the composition toward conservation and comparison. Preserve consistency in proportion, spacing, and internal logic, and make sure the core visual rules survive every decorative flourish. Use the theme capabilities and frontier claim as design pressure: layout, material behavior, and focal hierarchy should all feel intentional. Avoid empty filler areas, arbitrary ornaments, and low-information texture that does not strengthen the main claim.\n\nUse case:\nFictional Symbol System series study 4/8.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable Latin text outside the intended fictional or theme-specific marks, no mirrored glyphs, no extra stray characters, no broken baseline rhythm, no fake QR codes, no sloppy spacing.",
+  "id": "04-archive-display",
+  "title": "Archive Display",
+  "description": "Fictional Symbol System expressed as an archive display composition with disciplined continuity control.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-master-system/images/04-archive-display/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-system",
+        "meta_path": "works/topics/fictional-symbol-system/packages/series-master-system/images/01-reference-system/meta.json",
+        "image_path": "works/topics/fictional-symbol-system/packages/series-master-system/images/01-reference-system/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent fanout study preserving the image 01 reference system while changing emphasis for archive display."
+  },
+  "i18n": {
+    "en": {
+      "title": "Archive Display",
+      "description": "Fictional Symbol System expressed as an archive display composition with disciplined continuity control."
+    },
+    "zh-CN": {
+      "title": "档案展示",
+      "description": "虚构古文字 / 符号系统 以档案展示形式展开，强调连续一致性控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "An archival display plate that organizes the same fictional symbol system as collectible evidence.",
+      "zh-CN": "一张把同一虚构符号系统整理为档案证据的展示板。"
+    }
+  }
+}

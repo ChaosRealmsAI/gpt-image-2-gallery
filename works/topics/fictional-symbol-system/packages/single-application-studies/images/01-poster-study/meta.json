@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square composition showing a finished poster or wall panel for Fictional Symbol System (fictional symbol system). Frame it as a front-facing display surface with clear margins, bold hierarchy, and a clean surrounding environment. Keep the lighting precise and the tonal separation clear so the main structure reads instantly at thumbnail size and still rewards close inspection. Use a palette and material behavior appropriate to the theme rather than a generic template. The overall image should feel like a finished gallery or research asset instead of a loose concept sketch.\n\nSubject:\nCenter the image around the theme expressed as a public-facing designed surface with large hero forms, smaller support marks, and a coherent visual rhythm. The subject should express the theme described as A Prompt Atlas theme for Fictional Symbol System, testing text-rendering with GPT Image 2.. Use layered primary, secondary, and tertiary details so the viewer can infer system, scale, and purpose without needing captions. Fictional Symbol System must feel specific rather than interchangeable: the subject should clearly belong to this topic and not to a neighboring prompt atlas category.\n\nImportant details:\nThe most important control point is stress alignment, readability, and production-level spacing instead of random decorative clutter. Preserve consistency in proportion, spacing, and internal logic, and make sure the core visual rules survive every decorative flourish. Use the theme capabilities and frontier claim as design pressure: layout, material behavior, and focal hierarchy should all feel intentional. Avoid empty filler areas, arbitrary ornaments, and low-information texture that does not strengthen the main claim.\n\nUse case:\nFictional Symbol System single study 5/8.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable Latin text outside the intended fictional or theme-specific marks, no mirrored glyphs, no extra stray characters, no broken baseline rhythm, no fake QR codes, no sloppy spacing.",
+  "id": "01-poster-study",
+  "title": "Poster Study",
+  "description": "Fictional Symbol System expressed as a finished poster or wall panel with disciplined single-image control.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-application-studies/images/01-poster-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "independent study for Fictional Symbol System, built as poster study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Poster Study",
+      "description": "Fictional Symbol System expressed as a finished poster or wall panel with disciplined single-image control."
+    },
+    "zh-CN": {
+      "title": "海报研究",
+      "description": "虚构古文字 / 符号系统 以海报研究形式展开，强调独立单图控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A public-facing poster-like surface built around a coherent fictional symbol language.",
+      "zh-CN": "一张以连贯虚构符号语言构成的公共展示海报式画面。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square documentary-style image of a rail station passenger notice board inside a modern concourse. The sign is printed on matte enamel panels behind a thin metal frame. Use neutral station lighting, muted concrete, and a shallow background so the notice board is the clear subject. Keep the camera square and the text plane undistorted.\n\nSubject:\nA passenger notice about platform changes, quiet car rules, reserved seating, bicycle storage, lost items, and service assistance. The design uses a large warning-color header, six rectangular rule cards, and a bottom strip of emergency pictograms. Each rule card displays the same kind of short notice in Japanese, Chinese, Korean, Arabic, Hindi Devanagari, and Cyrillic, with each language assigned a consistent position.\n\nImportant details:\nThis image tests whether practical transport signage can hold many scripts without becoming visual clutter. The warning header should be bold and clean, the rule cards should have consistent icon alignment, and each script should be readable at poster scale. Right-to-left Arabic should not be reversed. Devanagari should keep its headline structure. The icon strip should communicate actions without adding extra text. Make the sign feel maintained, official, and physically plausible.\n\nUse case:\nMulti-Script Poster single study 7/8, testing a railway passenger notice with repeated multilingual rule cards and strict official formatting.\n\nConstraints:\nNo readable text outside the specified multilingual rail notice copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no real railway operator names, no route numbers, no Latin station names, no flags, no backwards scripts, no warped metal reflections over text, no mismatched icons.",
+  "id": "07-rail-passenger-notice",
+  "title": "Rail Passenger Notice",
+  "description": "A railway notice board with repeated multilingual rule cards and official sign formatting.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "photorealism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/07-rail-passenger-notice/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent railway-signage study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rail Passenger Notice",
+      "description": "A railway notice board with repeated multilingual rule cards and official sign formatting."
+    },
+    "zh-CN": {
+      "title": "铁路乘客公告",
+      "description": "铁路公告牌，包含重复的多语规则卡和正式导视格式。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A railway station notice board with multilingual rule cards and official icons.",
+      "zh-CN": "一块铁路车站公告牌，包含多语规则卡和正式图标。"
+    }
+  }
+}

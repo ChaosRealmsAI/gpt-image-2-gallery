@@ -1,0 +1,56 @@
+{
+  "id": "micro-engraved-jewelry",
+  "slug": "micro-engraved-jewelry",
+  "category": "typography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "text-rendering",
+    "physics-materials",
+    "commercial-mockup"
+  ],
+  "title": "Micro-Engraved Jewelry",
+  "short_title": "Micro Jewelry",
+  "description": "A Prompt Atlas theme for pixel-level inscription placement on jewelry and tiny luxury objects, testing readable micro text, macro material realism, and commercial emotional value.",
+  "i18n": {
+    "en": {
+      "title": "Micro-Engraved Jewelry",
+      "short_title": "Micro Jewelry",
+      "description": "A Prompt Atlas theme for pixel-level inscription placement on jewelry and tiny luxury objects, testing readable micro text, macro material realism, and commercial emotional value."
+    },
+    "zh-CN": {
+      "title": "米粒级微缩刻字 · Jewelry 定制",
+      "short_title": "微刻珠宝",
+      "description": "测试珠宝和微型奢侈品上的像素级刻字定位、可读微观文字、微距材质真实感和 C 端情感定制价值。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-inner-ring-inscription",
+      "type": "series",
+      "title": "Inner Ring Inscription",
+      "path": "packages/series-inner-ring-inscription/package.json"
+    },
+    {
+      "id": "single-micro-inscription-studies",
+      "type": "single",
+      "title": "Micro Inscription Studies",
+      "path": "packages/single-micro-inscription-studies/package.json"
+    }
+  ]
+}

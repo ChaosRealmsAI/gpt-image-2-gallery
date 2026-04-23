@@ -1,0 +1,59 @@
+{
+  "id": "single-micro-inscription-studies",
+  "type": "single",
+  "title": "Micro Inscription Studies",
+  "description": "Four independent studies of readable micro inscriptions on tiny luxury surfaces: a rice grain, locket rim, watch gear, and stamp perforation.",
+  "creative_direction": "This package explores unrelated micro-text settings where text must be tiny, precisely located, physically engraved or printed, and emotionally legible without depending on a shared reference image.",
+  "cover_image": "images/named-rice-grain/image.png",
+  "i18n": {
+    "en": {
+      "title": "Micro Inscription Studies",
+      "description": "Four independent studies of readable micro inscriptions on tiny luxury surfaces: a rice grain, locket rim, watch gear, and stamp perforation."
+    },
+    "zh-CN": {
+      "title": "微刻单图研究",
+      "description": "四张独立的微缩刻字研究，覆盖米粒、吊坠边缘、腕表齿轮和邮票齿孔等微型载体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "micro-texture",
+      "photorealism",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "named-rice-grain",
+      "title": "Named Rice Grain",
+      "image": "images/named-rice-grain/image.png",
+      "meta": "images/named-rice-grain/meta.json"
+    },
+    {
+      "id": "locket-edge-script",
+      "title": "Locket Edge Script",
+      "image": "images/locket-edge-script/image.png",
+      "meta": "images/locket-edge-script/meta.json"
+    },
+    {
+      "id": "watch-gear-initials",
+      "title": "Watch Gear Initials",
+      "image": "images/watch-gear-initials/image.png",
+      "meta": "images/watch-gear-initials/meta.json"
+    },
+    {
+      "id": "stamp-perforation-message",
+      "title": "Stamp Perforation Message",
+      "image": "images/stamp-perforation-message/image.png",
+      "meta": "images/stamp-perforation-message/meta.json"
+    }
+  ]
+}

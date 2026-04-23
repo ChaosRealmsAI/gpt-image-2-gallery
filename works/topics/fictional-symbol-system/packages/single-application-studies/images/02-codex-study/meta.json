@@ -1,0 +1,54 @@
+{
+  "prompt": "Scene:\nA square composition showing a codex or booklet spread for Fictional Symbol System (fictional symbol system). Frame it as an overhead archival photograph with soft side light, paper or vellum texture, and calm tonal range. Keep the lighting precise and the tonal separation clear so the main structure reads instantly at thumbnail size and still rewards close inspection. Use a palette and material behavior appropriate to the theme rather than a generic template. The overall image should feel like a finished gallery or research asset instead of a loose concept sketch.\n\nSubject:\nCenter the image around a page-based composition where symbol clusters, marginal marks, and panel divisions imply a complete document system. The subject should express the theme described as A Prompt Atlas theme for Fictional Symbol System, testing text-rendering with GPT Image 2.. Use layered primary, secondary, and tertiary details so the viewer can infer system, scale, and purpose without needing captions. Fictional Symbol System must feel specific rather than interchangeable: the subject should clearly belong to this topic and not to a neighboring prompt atlas category.\n\nImportant details:\nThe most important control point is use page logic, alignment, and believable material wear while avoiding modern office typography. Preserve consistency in proportion, spacing, and internal logic, and make sure the core visual rules survive every decorative flourish. Use the theme capabilities and frontier claim as design pressure: layout, material behavior, and focal hierarchy should all feel intentional. Avoid empty filler areas, arbitrary ornaments, and low-information texture that does not strengthen the main claim.\n\nUse case:\nFictional Symbol System single study 6/8.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable Latin text outside the intended fictional or theme-specific marks, no mirrored glyphs, no extra stray characters, no broken baseline rhythm, no fake QR codes, no sloppy spacing.",
+  "id": "02-codex-study",
+  "title": "Codex Study",
+  "description": "Fictional Symbol System expressed as a codex or booklet spread with disciplined single-image control.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-application-studies/images/02-codex-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "independent study for Fictional Symbol System, built as codex study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Codex Study",
+      "description": "Fictional Symbol System expressed as a codex or booklet spread with disciplined single-image control."
+    },
+    "zh-CN": {
+      "title": "典籍研究",
+      "description": "虚构古文字 / 符号系统 以典籍研究形式展开，强调独立单图控制。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A codex-like spread using fictional marks as the core document system.",
+      "zh-CN": "一张以虚构记号构成核心文书系统的典籍式跨页。"
+    }
+  }
+}

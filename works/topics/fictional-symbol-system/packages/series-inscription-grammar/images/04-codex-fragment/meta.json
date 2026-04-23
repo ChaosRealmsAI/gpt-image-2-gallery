@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nSquare archival flat lay of a torn codex fragment, photographed on neutral gray conservation paper under diffuse daylight. The palette uses faded ultramarine, ocher, bone white, and carbon black. Fibers, cracks, wormholes, and repaired seams are visible, but the layout remains crisp enough to study. The fragment should look rare, fragile, and carefully preserved.\n\nSubject:\nA painted codex page fragment using the same fictional glyph grammar from the reference tablet. It combines vertical glyph columns, small icon panels, calendrical-looking cycles, and margin marks. Reuse the reference family of crescent stems, three-dot radicals, hooked strokes, square seed marks, and spiral terminals, now brushed with pigment and arranged like a ceremonial manuscript rather than carved stone.\n\nImportant details:\nKeep the glyphs intentionally systematic: recurring radicals, stable proportions, repeatable spacing, and clear cluster boundaries. The page may include diagrammatic suns, seed pods, gates, and animal silhouettes, but the symbols themselves must remain the primary visual test. Show how an invented language could survive across media from stone to parchment to codex. All marks must be pseudo-script, not real Mayan, Egyptian, Chinese, runic, or Latin writing.\n\nUse case:\nFictional Symbol System series study 4/8, transferring the reference inscription grammar to a painted codex fragment.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no exact historical script copying, no modern captions, no clean digital font look, no page numbers, no translation key.",
+  "id": "04-codex-fragment",
+  "title": "Codex Fragment",
+  "description": "A painted codex fragment that carries the reference glyph grammar into a manuscript format.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "world-knowledge",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/04-codex-fragment/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-core-tablet",
+        "meta_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/meta.json",
+        "image_path": "works/topics/fictional-symbol-system/packages/series-inscription-grammar/images/01-core-tablet/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the root tablet as the primary reference while rendering the glyph grammar as painted manuscript marks."
+  },
+  "i18n": {
+    "en": {
+      "title": "Codex Fragment",
+      "description": "A painted codex fragment that carries the reference glyph grammar into a manuscript format."
+    },
+    "zh-CN": {
+      "title": "残页手抄本",
+      "description": "一张把参考字形语法转写为彩绘手稿格式的残页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A torn codex page filled with systematic invented glyph columns and ritual diagrams.",
+      "zh-CN": "一张残破手抄本页，布满系统化虚构符号列和仪式图。"
+    }
+  }
+}

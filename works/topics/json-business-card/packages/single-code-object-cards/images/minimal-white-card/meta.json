@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square minimal studio mockup on a seamless off-white background. A single white business card lies perfectly flat, viewed straight down, with precise soft shadows and no extra props. The image should feel like a restrained identity-system presentation where the code block itself is the graphic design.\n\nSubject:\nThe card contains a readable JSON object printed in ultra-clean black, gray, and one restrained red accent. The fictional object uses keys such as \"name\", \"role\", \"email\", \"url\", \"location\", and \"pronouns\". The layout is centered with generous margins, a line-number gutter represented only by tiny gray ticks, and syntax colors applied as print ink. The JSON must be the only readable content on the card.\n\nImportant details:\nBecause the card is minimal, precision matters: exact monospaced alignment, sharp quote marks, consistent indentation, complete braces, and no random generated glyphs. The white paper should show subtle thickness, fiber grain, and a slight letterpress bite around the text. The visual should be believable as a real business card photographed in a product studio, not a screenshot pasted on paper.\n\nUse case:\nJSON Business Card single study 6/8, testing clean readable JSON typography under strict minimal commercial mockup conditions.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no extra icons, no malformed JSON, no decorative quotes, no smudged punctuation, no colored background, no shadows covering text, no cropped card edges.",
+  "id": "minimal-white-card",
+  "title": "Minimal White Card",
+  "description": "A strict white studio mockup where the readable JSON block is the only graphic element.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/minimal-white-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent minimal text-rendering mockup with strict JSON-only readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Minimal White Card",
+      "description": "A strict white studio mockup where the readable JSON block is the only graphic element."
+    },
+    "zh-CN": {
+      "title": "极简白色名片",
+      "description": "一张严格白底棚拍名片,可读 JSON 代码块是唯一图形元素。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A white minimal business card with a precise readable JSON contact block.",
+      "zh-CN": "一张极简白色名片,带精准可读的 JSON 联系信息块。"
+    }
+  }
+}

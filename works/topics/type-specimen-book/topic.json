@@ -1,0 +1,50 @@
+{
+  "id": "type-specimen-book",
+  "slug": "type-specimen-book",
+  "category": "typography",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Type Specimen Book",
+  "short_title": "Type Specimen",
+  "description": "A Prompt Atlas theme for Type Specimen Book, testing text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Type Specimen Book",
+      "short_title": "Type Specimen",
+      "description": "A Prompt Atlas theme for Type Specimen Book, testing text-rendering with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Type Specimen 字体样册",
+      "short_title": "字体样册",
+      "description": "Type Specimen 字体样册：一款字体 · 所有字形(ABC...)+ 不同字重(Light/Regular/Bold/Black)+ 段落示范 + 数字符号 + 应用场景举例 · 独立页"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "text-rendering",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-type-specimen-book-studies",
+      "type": "single",
+      "title": "Type Specimen Layout Studies",
+      "path": "packages/single-type-specimen-book-studies/package.json"
+    }
+  ]
+}

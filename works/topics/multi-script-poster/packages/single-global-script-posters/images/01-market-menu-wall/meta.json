@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square front-facing commercial poster photographed as a clean wall-mounted menu board inside a bright international food hall. Use crisp studio lighting, a neutral off-white wall, subtle metal clips, and a disciplined grid with generous margins. The color palette should mix charcoal ink, warm tomato red, jade green, and small brass dividers, with enough contrast for every script block to be readable.\n\nSubject:\nA multilingual market menu titled by visual hierarchy rather than brand identity: six equal menu panels arranged in two columns and three rows. Each panel contains one large dish name and two short price-like glyph groups rendered in a different writing system: simplified Chinese, Japanese kana/kanji, Korean hangul, Arabic, Devanagari Hindi, and Sanskrit-style Devanagari. Keep the panels visually parallel so the viewer can compare script density, baseline rhythm, and spacing.\n\nImportant details:\nThe core test is non-Latin text rendering inside a strict commercial layout. Letterforms must be clean, separated by script family, aligned to their own baselines, and not melt into decorative marks. Use real-looking menu typography with consistent padding, thin rules, small food icons, and clear typographic hierarchy. Avoid fake brand marks; make the poster feel usable as a food hall production proof.\n\nUse case:\nMulti-Script Poster single study 1/8, testing a dense six-language menu board with readable script blocks and stable grid alignment.\n\nConstraints:\nNo readable text outside the specified multilingual menu copy, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin fallback labels, no random extra characters, no mirrored scripts, no misshapen baselines, no smeared letter clusters, no fake QR codes.",
+  "id": "01-market-menu-wall",
+  "title": "Market Menu Wall",
+  "description": "A six-script food hall menu board with parallel panels and strict typography.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/multi-script-poster/packages/single-global-script-posters/images/01-market-menu-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent menu-board study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Market Menu Wall",
+      "description": "A six-script food hall menu board with parallel panels and strict typography."
+    },
+    "zh-CN": {
+      "title": "市场菜单墙",
+      "description": "六种文字并列的美食广场菜单板，强调平行面板和严格排版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A clean food hall menu board with six non-Latin script panels in a strict grid.",
+      "zh-CN": "一张整洁的美食广场菜单板，六个非拉丁文字面板排成严格网格。"
+    }
+  }
+}

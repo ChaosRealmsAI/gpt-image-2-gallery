@@ -1,0 +1,72 @@
+{
+  "id": "series-inner-ring-inscription",
+  "type": "series",
+  "title": "Inner Ring Inscription",
+  "description": "A reference-dependent ring series: one platinum band establishes the exact inner-wall engraving zone, then three variants preserve the same inscription placement across material, lighting, and retail contexts.",
+  "creative_direction": "This package isolates identity consistency and text placement. Image 01 establishes the ring geometry and the tiny inner inscription; images 02-04 depend on it as the primary reference while changing material, scene, and commercial presentation.",
+  "cover_image": "images/01-reference-ring/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-ring/meta.json",
+      "images/02-wedding-band-gold/meta.json",
+      "images/03-sapphire-shadow/meta.json",
+      "images/04-retail-macro/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Inner Ring Inscription",
+      "description": "A reference-dependent ring series preserving the same tiny inner-wall inscription across material, lighting, and retail variants."
+    },
+    "zh-CN": {
+      "title": "戒指内壁微刻系列",
+      "description": "一组依赖参考图的戒指系列，在材质、光线和零售场景变化中保持同一处内壁微刻文字。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "text-rendering",
+      "identity-consistency",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-ring",
+      "title": "Reference Ring",
+      "image": "images/01-reference-ring/image.png",
+      "meta": "images/01-reference-ring/meta.json"
+    },
+    {
+      "id": "02-wedding-band-gold",
+      "title": "Wedding Band Gold",
+      "image": "images/02-wedding-band-gold/image.png",
+      "meta": "images/02-wedding-band-gold/meta.json"
+    },
+    {
+      "id": "03-sapphire-shadow",
+      "title": "Sapphire Shadow",
+      "image": "images/03-sapphire-shadow/image.png",
+      "meta": "images/03-sapphire-shadow/meta.json"
+    },
+    {
+      "id": "04-retail-macro",
+      "title": "Retail Macro",
+      "image": "images/04-retail-macro/image.png",
+      "meta": "images/04-retail-macro/meta.json"
+    }
+  ]
+}

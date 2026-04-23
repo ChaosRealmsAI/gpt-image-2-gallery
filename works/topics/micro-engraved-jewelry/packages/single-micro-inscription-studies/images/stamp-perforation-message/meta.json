@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square macro still life of an ivory commemorative postage stamp fragment placed beside a silver charm bracelet, photographed on a cool gray archival table. Use raking side light so every perforation hole casts a tiny shadow. The stamp design itself should be abstract and unlettered, with subtle paper fibers and embossed border texture, while the bracelet hints at jewelry customization.\n\nSubject:\nHide a micro message inside the stamp perforation line: the sequence of tiny printed marks between the holes must read \"MEET AT 8\". The words are extremely small, following the vertical perforated edge like a secret jeweler's inscription. Keep the phrase readable under macro view, but do not add any other postal text, denomination, country name, cancellation mark, or logo. The silver charm nearby may be blank and softly reflected.\n\nImportant details:\nThis is a precision placement challenge: the message must live only in the narrow space around the perforations, using the holes as a rhythm guide. The text should be straight, evenly spaced, and physically integrated into paper ink or shallow embossing, not floating over the scene. Preserve realistic paper fibers, slight torn edges, metal bracelet reflections, and a sophisticated forensic-macro feeling.\n\nUse case:\nMicro-Engraved Jewelry single study 8/8, testing readable hidden micro text in stamp perforations paired with a jewelry keepsake context.\n\nConstraints:\nNo readable text except the specified phrase \"MEET AT 8\", no watermark, no logos, preserve exact 1:1 aspect ratio, no stamp denomination, no country name, no cancellation text, no extra secret words, no oversized typography, no random perforation marks, no missing holes.",
+  "id": "stamp-perforation-message",
+  "title": "Stamp Perforation Message",
+  "description": "A hidden readable micro message placed along a stamp perforation edge beside jewelry.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "text-rendering",
+    "micro-texture",
+    "structured-layout",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/single-micro-inscription-studies/images/stamp-perforation-message/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single study for hidden readable text constrained to stamp perforation spacing."
+  },
+  "i18n": {
+    "en": {
+      "title": "Stamp Perforation Message",
+      "description": "A hidden readable micro message placed along a stamp perforation edge beside jewelry."
+    },
+    "zh-CN": {
+      "title": "邮票齿孔暗语",
+      "description": "一条隐藏的可读微缩暗语沿邮票齿孔边缘排列，并与珠宝纪念物同框。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A stamp perforation edge hides the tiny readable message MEET AT 8 beside a silver bracelet.",
+      "zh-CN": "邮票齿孔边缘隐藏着微缩可读暗语 MEET AT 8，旁边是一条银色手链。"
+    }
+  }
+}

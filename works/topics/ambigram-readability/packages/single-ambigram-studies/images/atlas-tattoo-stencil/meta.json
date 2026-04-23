@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square close-up of a professional tattoo stencil sheet on warm off-white transfer paper, photographed straight-on on a clean studio table. The image is monochrome black ink with faint blue construction guidelines, tiny registration ticks, and a second ghosted rotated guide behind the main word. Lighting is soft and even so every stroke edge is visible.\n\nSubject:\nThe subject is a tattoo-ready ambigram spelling exactly \"ATLAS\". Upright, the letters must read ATLAS in a bold custom script; when rotated 180 degrees, the same ink drawing must still read ATLAS. Build the word from paired strokes: A maps into A, T into L-like crossbars, L into T-like stems, and S remains rotationally balanced. The word should feel like a single continuous tattoo mark, not five separate typefaces.\n\nImportant details:\nThis is a readability and geometry study. The design must show tattoo practicality: clean line weight, stencil gaps that a needle can follow, no hairline clutter, strong negative spaces, and symmetrical flourishes that support reading rather than hide mistakes. The guide marks may show rotation logic but must not become readable text. Keep the central ambigram large, centered, and auditable at thumbnail scale.\n\nUse case:\nAmbigram Readability single study 2/8, testing same-word tattoo ambigram readability and practical stencil construction.\n\nConstraints:\nNo readable text except the specified ambigram \"ATLAS\", no watermark, no logos, preserve exact 1:1 aspect ratio, no extra letters, no ornamental noise that changes the word, no skin mockup, no color gradients, no misspelled ATLAS, no perspective angle.",
+  "id": "atlas-tattoo-stencil",
+  "title": "Atlas Tattoo Stencil",
+  "description": "A tattoo stencil ambigram where ATLAS reads as ATLAS before and after 180-degree rotation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/atlas-tattoo-stencil/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing same-word tattoo stencil ambigram construction."
+  },
+  "i18n": {
+    "en": {
+      "title": "Atlas Tattoo Stencil",
+      "description": "A tattoo stencil ambigram where ATLAS reads as ATLAS before and after 180-degree rotation."
+    },
+    "zh-CN": {
+      "title": "ATLAS 纹身模板",
+      "description": "纹身模板上的 ATLAS 双向字在正向和 180 度旋转后都应读作 ATLAS。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "commercial-mockup",
+      "single"
+    ],
+    "alt": {
+      "en": "A black tattoo stencil ambigram spelling ATLAS with pale blue rotation guide marks on transfer paper.",
+      "zh-CN": "转印纸上的黑色 ATLAS 纹身双向字,配有浅蓝旋转辅助线。"
+    }
+  }
+}

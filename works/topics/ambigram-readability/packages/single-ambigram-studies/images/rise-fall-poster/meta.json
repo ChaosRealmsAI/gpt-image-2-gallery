@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square editorial poster proof pinned to a neutral wall, photographed straight-on with clean studio light. The background is matte ivory paper with one large central black ambigram and a faint upside-down shadow version visible through translucent paper, proving the rotation relationship. Keep the composition minimal, with no decorative typography beyond the central engineered word.\n\nSubject:\nThe central word must read exactly \"RISE\" when viewed upright and exactly \"FALL\" when the image is rotated 180 degrees. The four-letter design should use bold serif-script hybrids where each upright letter transforms into its rotated partner: R resolves into L, I resolves into L or vertical structure, S resolves into A-like negative space, and E resolves into F-like bars. The design should feel like one finished poster mark, not two words pasted together.\n\nImportant details:\nThe ambigram must be readable both ways. Use deliberate shared stems, mirrored terminals, balanced counters, and controlled negative space. The viewer should be able to rotate the square and understand the second word without relying on arrows or labels. The ink should have slight screen-print texture and crisp edges. Avoid accidental extra strokes, smeared calligraphy, or over-ornamented flourishes that make either word ambiguous.\n\nUse case:\nAmbigram Readability single study 3/8, testing dual-word 180-degree readability with the upright word RISE and rotated word FALL.\n\nConstraints:\nNo readable text except the specified ambigram words \"RISE\" and \"FALL\", no watermark, no logos, preserve exact 1:1 aspect ratio, no arrows, no captions, no extra words, no misspelled letters, no duplicated separate word, no perspective skew, no illegible decorative clutter.",
+  "id": "rise-fall-poster",
+  "title": "Rise Fall Poster",
+  "description": "A minimal editorial poster where RISE should rotate 180 degrees into FALL.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "editorial-illustration",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/rise-fall-poster/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing dual-word 180-degree ambigram mapping."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rise Fall Poster",
+      "description": "A minimal editorial poster where RISE should rotate 180 degrees into FALL."
+    },
+    "zh-CN": {
+      "title": "RISE / FALL 海报",
+      "description": "极简编辑海报中的 RISE 应在旋转 180 度后读作 FALL。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "editorial-illustration",
+      "single"
+    ],
+    "alt": {
+      "en": "A minimal black ambigram poster where the upright word reads RISE and the rotated reading should become FALL.",
+      "zh-CN": "极简黑色双向字海报,正读为 RISE,旋转后应读为 FALL。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare cinematic close-up of a premium game interface artifact projected on smoked glass above a bronze mechanism. The palette is midnight blue, brass, pale cyan, and ember orange. The composition is symmetrical and polished, with shallow depth of field, tiny scratches on glass, and subtle volumetric glow, but it should still look like a physical prop rather than a flat screenshot.\n\nSubject:\nAn independent fictional cipher interface for unlocking an ancient machine. The display uses invented glyph tiles, radial slots, aligned cipher strips, and three nested rings of pseudo-script. Symbols are built from broken circles, blade-like stems, tiny paired dots, hinge marks, and triangular locks. Repeated glyphs should appear in different interface zones to imply that the machine recognizes a coherent language.\n\nImportant details:\nThis is a text-rendering stress test disguised as game concept art. Keep every mark invented, crisp, and consistently styled, with clear spacing and alignment. The layout should communicate a puzzle decoder through visual structure alone: matching glyph tiles, inactive slots, active glowing clusters, and a central mechanism responding to the cipher. Do not include readable UI labels, numbers, menu words, or real alphabets.\n\nUse case:\nFictional Symbol System single study 8/8, testing invented glyph consistency inside a cinematic game-interface cipher artifact.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no Arabic numerals, no menu labels, no brand marks, no keyboard keys, no QR-code patterns, no generic sci-fi gibberish.",
+  "id": "game-ui-cipher",
+  "title": "Game UI Cipher",
+  "description": "A cinematic game-interface cipher artifact built from crisp invented glyph tiles and rings.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-decoder-artifacts/images/game-ui-cipher/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image focused on crisp invented glyphs in a game-interface artifact."
+  },
+  "i18n": {
+    "en": {
+      "title": "Game UI Cipher",
+      "description": "A cinematic game-interface cipher artifact built from crisp invented glyph tiles and rings."
+    },
+    "zh-CN": {
+      "title": "游戏界面密码",
+      "description": "一件电影感游戏界面密码文物，由清晰的虚构符号块和圆环构成。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A glowing ancient-machine cipher interface made from consistent invented glyph tiles.",
+      "zh-CN": "一个由一致虚构符号块构成的发光古代机械密码界面。"
+    }
+  }
+}

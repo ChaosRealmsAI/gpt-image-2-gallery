@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nSquare editorial flat lay of a fantasy field-guide spread, viewed from above on a weathered wooden desk with pressed leaves, graphite dust, and small specimen stones. The lighting is cool morning window light with soft shadows. The page design is precise and research-like but contains no readable words, only diagrams and invented symbols.\n\nSubject:\nAn independent rune-like ecological symbol system for classifying imaginary forest spirits. The page shows four specimen panels, each pairing a creature silhouette, a cluster of invented angular runes, and nonverbal morphology diagrams. The glyphs use forked vertical stems, split diamonds, bark-notch marks, and small moon cuts. They should feel consistent across panels while remaining fictional and distinct from Norse runes.\n\nImportant details:\nMake the layout behave like a decoder page without actual labels: clear panel borders, repeated glyph radicals, small arrows made from abstract marks, specimen sketches, and a visual taxonomy grid. The symbols should be crisp enough for visual comparison, with repeated forms implying categories. Avoid real-language text entirely, including headings. The result should read as a polished art-department prop for a novel, game, or film.\n\nUse case:\nFictional Symbol System single study 7/8, testing a field-guide decoder layout built only from invented symbols and diagrams.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no Latin letters, no real alphabets, no Norse rune copying, no handwritten English, no numeric labels, no UI chrome, no messy notebook clutter, no translation captions.",
+  "id": "rune-field-guide",
+  "title": "Rune Field Guide",
+  "description": "A field-guide decoder spread using an independent rune-like ecological glyph system.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "structured-layout",
+    "editorial-illustration",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fictional-symbol-system/packages/single-decoder-artifacts/images/rune-field-guide/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image focused on pseudo-decoder page layout."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rune Field Guide",
+      "description": "A field-guide decoder spread using an independent rune-like ecological glyph system."
+    },
+    "zh-CN": {
+      "title": "卢恩田野图鉴",
+      "description": "一张使用独立类卢恩生态符号系统的田野图鉴解码页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A fantasy field-guide page with creature diagrams and consistent invented rune clusters.",
+      "zh-CN": "一页幻想田野图鉴，含生物图和一致的虚构卢恩符号组。"
+    }
+  }
+}

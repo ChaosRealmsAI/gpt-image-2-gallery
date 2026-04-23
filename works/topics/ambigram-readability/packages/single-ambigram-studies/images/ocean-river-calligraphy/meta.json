@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square fine-art calligraphy sheet on textured watercolor paper, viewed perfectly top-down. The paper is damp at the edges with pale blue-gray washes, and the central ambigram is painted in deep indigo ink with slight feathering. Include a shallow pool of water near the bottom edge reflecting the ambigram upside down, but do not include any labels or seals.\n\nSubject:\nThe painted word must read exactly \"OCEAN\" upright and exactly \"RIVER\" when rotated 180 degrees. Use custom Roman calligraphy with broad-nib stroke contrast, shared curves, and carefully shaped negative spaces. The five-letter mapping should feel fluid: rounded bowls, tapered terminals, and wave-like connectors help the letters transform while preserving readability. The ambigram sits as one centered wordmark, not a stacked poem.\n\nImportant details:\nThe main test is balancing expressive ink with strict text rendering. Keep each character crisp enough to audit, with no random splashes crossing the letter interiors. The watercolor texture may suggest water, but it must not obscure the word. The reflection should be secondary and physically plausible, helping demonstrate rotation without adding extra independent text. Preserve an elegant gallery presentation and avoid East Asian seal marks, signatures, or decorative readable captions.\n\nUse case:\nAmbigram Readability single study 7/8, testing fluid calligraphic dual-word readability where OCEAN rotates into RIVER.\n\nConstraints:\nNo readable text except the specified ambigram words \"OCEAN\" and \"RIVER\", no watermark, no logos, preserve exact 1:1 aspect ratio, no signature, no red seal, no extra poem lines, no illegible splatter, no separate upright and inverted captions, no misspelled letters.",
+  "id": "ocean-river-calligraphy",
+  "title": "Ocean River Calligraphy",
+  "description": "A fluid calligraphy ambigram where OCEAN should rotate into RIVER while retaining ink-on-paper texture.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "optical-illusion",
+    "editorial-illustration",
+    "physics-materials",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ambigram-readability/packages/single-ambigram-studies/images/ocean-river-calligraphy/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing ink calligraphy ambigram readability."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ocean River Calligraphy",
+      "description": "A fluid calligraphy ambigram where OCEAN should rotate into RIVER while retaining ink-on-paper texture."
+    },
+    "zh-CN": {
+      "title": "OCEAN / RIVER 书写",
+      "description": "带纸面墨迹质感的流体书法双向字,正读 OCEAN,旋转后读作 RIVER。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "optical-illusion",
+      "editorial-illustration",
+      "single"
+    ],
+    "alt": {
+      "en": "An indigo ink calligraphy ambigram on watercolor paper, intended to read OCEAN upright and RIVER when rotated.",
+      "zh-CN": "水彩纸上的靛蓝书法双向字,正读 OCEAN,旋转后意图读作 RIVER。"
+    }
+  }
+}

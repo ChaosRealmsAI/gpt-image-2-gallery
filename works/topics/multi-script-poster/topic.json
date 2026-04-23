@@ -1,0 +1,51 @@
+{
+  "id": "multi-script-poster",
+  "slug": "multi-script-poster",
+  "category": "typography",
+  "style": [
+    "flat-graphic",
+    "handdrawn"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Multi-Script Poster",
+  "short_title": "Multi Script",
+  "description": "A Prompt Atlas theme for posters and public-information layouts that place many writing systems in one controlled composition.",
+  "i18n": {
+    "en": {
+      "title": "Multi-Script Poster",
+      "short_title": "Multi Script",
+      "description": "A Prompt Atlas theme for posters and public-information layouts that place many writing systems in one controlled composition."
+    },
+    "zh-CN": {
+      "title": "多脚本同屏海报(4-9 语言)",
+      "short_title": "多语海报",
+      "description": "多脚本同屏海报：在菜单、议程、机场指示等场景中测试中、日、韩、阿拉伯、印地、梵文等非拉丁文字的同屏排版。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout",
+      "editorial-illustration",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-global-script-posters",
+      "type": "single",
+      "title": "Global Script Posters",
+      "path": "packages/single-global-script-posters/package.json"
+    }
+  ]
+}

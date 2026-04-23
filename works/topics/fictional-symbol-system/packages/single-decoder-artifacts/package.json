@@ -1,0 +1,58 @@
+{
+  "id": "single-decoder-artifacts",
+  "type": "single",
+  "title": "Decoder Artifacts",
+  "description": "Four independent artifact studies that test invented glyph systems in different worldbuilding formats without reference dependencies.",
+  "creative_direction": "Independent single-image studies: each image invents a separate symbol culture and presents it as a finished museum, field-guide, or game-art artifact rather than a plain alphabet chart.",
+  "cover_image": "images/oracle-bone-panel/image.png",
+  "i18n": {
+    "en": {
+      "title": "Decoder Artifacts",
+      "description": "Four independent artifact studies that test invented glyph systems in different worldbuilding formats without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "解码文物",
+      "description": "四张独立单图，以博物馆、田野图鉴和游戏美术形式测试不同虚构符号系统。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "text-rendering",
+      "structured-layout",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "oracle-bone-panel",
+      "title": "Oracle Bone Panel",
+      "image": "images/oracle-bone-panel/image.png",
+      "meta": "images/oracle-bone-panel/meta.json"
+    },
+    {
+      "id": "mayan-star-disk",
+      "title": "Mayan Star Disk",
+      "image": "images/mayan-star-disk/image.png",
+      "meta": "images/mayan-star-disk/meta.json"
+    },
+    {
+      "id": "rune-field-guide",
+      "title": "Rune Field Guide",
+      "image": "images/rune-field-guide/image.png",
+      "meta": "images/rune-field-guide/meta.json"
+    },
+    {
+      "id": "game-ui-cipher",
+      "title": "Game UI Cipher",
+      "image": "images/game-ui-cipher/image.png",
+      "meta": "images/game-ui-cipher/meta.json"
+    }
+  ]
+}

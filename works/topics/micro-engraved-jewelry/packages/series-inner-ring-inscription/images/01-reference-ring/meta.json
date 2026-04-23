@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA square macro product photograph on a dark charcoal velvet surface, lit with a soft overhead strip light and a small warm rim light. The camera looks slightly into the inner wall of a platinum ring, using shallow depth of field but keeping the engraving area crisp. The tone is quiet, luxury, and high-contrast, with realistic metal reflections and no distracting props.\n\nSubject:\nA single polished platinum band standing at a slight angle, large enough to show the inside curve. On the inner wall, place a tiny engraved phrase exactly reading \"MAYA 2026\". The lettering should be shallow-cut, centered on the visible inner arc, aligned to the ring curvature, and visibly etched into the metal rather than printed on top. The rest of the band stays clean and unbranded.\n\nImportant details:\nPixel-level placement matters: the inscription must be very small but legible under macro viewing, with consistent letter spacing, no extra marks, and no distorted characters. Preserve the circular ring geometry, reflective platinum, hairline scratches, and microscopic engraving shadows. This is the reference image for the series, so the ring silhouette, inner-wall text zone, and exact phrase must be stable for later variants.\n\nUse case:\nMicro-Engraved Jewelry series study 1/8, establishing the reference ring and its exact micro-inscription placement.\n\nConstraints:\nNo readable text except the specified phrase \"MAYA 2026\", no watermark, no logos, preserve exact 1:1 aspect ratio, no brand marks, no giant typography, no misspelled inscription, no extra dates, no decorative lettering outside the inner ring.",
+  "id": "01-reference-ring",
+  "title": "Reference Ring",
+  "description": "A platinum ring macro that establishes the exact inner-wall micro-inscription for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "text-rendering",
+    "identity-consistency",
+    "micro-texture",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/micro-engraved-jewelry/packages/series-inner-ring-inscription/images/01-reference-ring/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference for the inner-ring inscription fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Ring",
+      "description": "A platinum ring macro that establishes the exact inner-wall micro-inscription for the series."
+    },
+    "zh-CN": {
+      "title": "基准戒指",
+      "description": "一张铂金戒指微距图，建立系列所需的内壁微刻文字位置。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "micro-texture"
+    ],
+    "alt": {
+      "en": "A platinum ring with tiny inner-wall engraving reading MAYA 2026.",
+      "zh-CN": "一枚内壁刻有 MAYA 2026 微缩文字的铂金戒指。"
+    }
+  }
+}

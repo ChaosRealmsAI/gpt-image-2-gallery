@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square product mockup of a business card styled like a dark-mode code editor tab, lying on a brushed aluminum desk with a mechanical keyboard blurred in the background. The card remains the only sharp object. Lighting is cool and controlled, with faint cyan and violet edge reflections that suggest syntax highlighting without becoming a screen.\n\nSubject:\nA matte charcoal card with a small editor-chrome border made of generic rounded dots and a tab shape, no real software branding. The center contains a readable JSON business card in monospaced type: \"name\", \"title\", \"stack\", \"email\", \"timezone\", and \"available\" as aligned keys, with quoted string values and one boolean value. Keys glow muted blue, strings appear warm green, punctuation is silver, and the card edges are lightly embossed.\n\nImportant details:\nMake the printed JSON precise enough that a developer viewer can inspect brackets, commas, quotes, indentation, and line breaks. The card should read as physical ink and spot varnish, not an actual monitor. Keep the layout structured: tab strip at top, code block inset, line-number gutter represented by small unreadable ticks only. Avoid real product logos, real interface labels, or extra readable text.\n\nUse case:\nJSON Business Card single study 2/8, testing dark-mode editor aesthetics on a physical commercial card.\n\nConstraints:\nNo readable text except the specified JSON code block, no watermark, no logos, preserve exact 1:1 aspect ratio, no real IDE name, no malformed braces, no random letters, no blurry code, no excess UI chrome, no glowing screen, no keyboard text.",
+  "id": "dark-mode-card",
+  "title": "Dark Mode Card",
+  "description": "A physical dark-mode editor card with readable JSON contact data and syntax-highlighted ink.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "text-rendering",
+    "commercial-mockup",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/json-business-card/packages/single-code-object-cards/images/dark-mode-card/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent dark-mode JSON card mockup with no real software marks."
+  },
+  "i18n": {
+    "en": {
+      "title": "Dark Mode Card",
+      "description": "A physical dark-mode editor card with readable JSON contact data and syntax-highlighted ink."
+    },
+    "zh-CN": {
+      "title": "暗色模式名片",
+      "description": "一张实体暗色代码编辑器风名片,带可读 JSON 联系信息和语法高亮油墨。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "text-rendering",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A dark-mode editor-style business card with readable syntax-highlighted JSON.",
+      "zh-CN": "一张暗色编辑器风名片,显示可读的语法高亮 JSON。"
+    }
+  }
+}
