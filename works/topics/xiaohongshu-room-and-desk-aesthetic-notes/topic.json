@@ -1,0 +1,53 @@
+{
+  "id": "xiaohongshu-room-and-desk-aesthetic-notes",
+  "slug": "xiaohongshu-room-and-desk-aesthetic-notes",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Xiaohongshu Room and Desk Aesthetic Notes",
+  "short_title": "Desk Notes",
+  "description": "A Prompt Atlas theme for Xiaohongshu Room and Desk Aesthetic Notes, testing photorealism, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Xiaohongshu Room and Desk Aesthetic Notes",
+      "short_title": "Desk Notes",
+      "description": "Build Xiaohongshu-native room, desk, and lifestyle note visuals with soft proof and curation-friendly composition."
+    },
+    "zh-CN": {
+      "title": "小红书房间与桌面审美笔记",
+      "short_title": "桌面审美",
+      "description": "做小红书原生的房间、桌面和生活方式笔记视觉。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square close-up still life on a pale aqua workbench, photographed with crisp catalog lighting and a slight analog video softness at the edges. The camera looks down at a three-quarter angle, close enough to reveal internal electronics and molded plastic seams. The palette is translucent teal, frosted violet, hot pink highlights, silver screws, and soft CRT phosphor green reflections.\n\nSubject:\nA fictional early-2000s transparent flip phone shell opened like a small technological specimen. The case is clear plastic with rounded Y2K contours, visible hinge barrels, tiny speaker mesh, rubber keys without legible symbols, ribbon cables, battery cells, and decorative chrome bubble inserts. Beside it are translucent charms, a small reflective disc fragment, and a tiny CRT monitor in the background showing only abstract static bands. The phone feels usable and physically assembled, not a flat prop.\n\nImportant details:\nThe transparent casing must show layered refraction, internal shadows, screw posts, molded ribs, and slight yellowing at the edges. Avoid real device identity; this is a fictional object inspired by an era. The CRT influence should appear as greenish screen glow, scanline reflections on the plastic, and mild RGB separation along shiny edges. The image tests whether translucent material, tiny mechanisms, and nostalgia styling can coexist without becoming clutter.\n\nUse case:\nY2K Vaporwave CRT single study 5/8, testing transparent consumer electronics and era-specific material realism.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real phone brand cues, no readable keypad labels, no broken hinge geometry, no modern smartphone shape.",
+  "id": "transparent-phone-shell",
+  "title": "Transparent Phone Shell",
+  "description": "A fictional transparent Y2K flip phone specimen with visible internals, chrome inserts, and CRT reflections.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "commercial-mockup",
+    "micro-texture",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/transparent-phone-shell/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing clear plastic electronics and CRT reflections."
+  },
+  "i18n": {
+    "en": {
+      "title": "Transparent Phone Shell",
+      "description": "A fictional transparent Y2K flip phone specimen with visible internals, chrome inserts, and CRT reflections."
+    },
+    "zh-CN": {
+      "title": "透明翻盖手机外壳",
+      "description": "一部虚构透明 Y2K 翻盖手机标本，可见内部结构、chrome 镶件和 CRT 反射。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "commercial-mockup",
+      "micro-texture",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A transparent fictional flip phone opened on an aqua workbench, showing internal electronics and CRT reflections.",
+      "zh-CN": "一部透明虚构翻盖手机打开在浅青工作台上，内部电子结构和 CRT 反射清晰可见。"
+    }
+  }
+}

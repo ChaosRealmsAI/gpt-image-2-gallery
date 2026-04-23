@@ -1,0 +1,54 @@
+{
+  "id": "xiaohongshu-skincare-proof-journal-system",
+  "slug": "xiaohongshu-skincare-proof-journal-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Xiaohongshu Skincare Proof Journal System",
+  "short_title": "Skincare Journal",
+  "description": "Create skincare journal visuals for Xiaohongshu with progress proof, soft close-ups, and diary-like credibility.",
+  "i18n": {
+    "en": {
+      "title": "Xiaohongshu Skincare Proof Journal System",
+      "short_title": "Skincare Journal",
+      "description": "Create skincare journal visuals for Xiaohongshu with progress proof, soft close-ups, and diary-like credibility."
+    },
+    "zh-CN": {
+      "title": "小红书护肤证明日记系统",
+      "short_title": "护肤日记",
+      "description": "做小红书护肤日记系统，强调记录感、证明感和柔和 close-up。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1061,
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-theme-core",
+      "type": "series",
+      "title": "Theme Core",
+      "path": "packages/series-theme-core/package.json"
+    },
+    {
+      "id": "single-theme-extensions",
+      "type": "single",
+      "title": "Theme Extensions",
+      "path": "packages/single-theme-extensions/package.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square abstract interface scene viewed straight-on like a frozen frame from a futuristic operating system running on a curved CRT. The image is luminous and dark, with black glass, electric cyan highlights, magenta bloom, and silver reflections. The edges of the frame show slight barrel distortion, phosphor glow, and soft analog noise, while the center remains sharp enough to read as a physical screen surface.\n\nSubject:\nA liquid-metal control panel made of chrome puddles, beveled translucent buttons, floating glass tabs, and soft blue interface panels, but with no readable text. The forms resemble early-2000s skeuomorphic UI translated into real objects: raised capsules, glossy sliders, bubble-like icons, and pearlescent loading arcs. Droplets bridge between interface elements as if gravity and surface tension are shaping the UI. Reflections of palm silhouettes and a pink grid horizon appear inside the chrome surfaces.\n\nImportant details:\nThe composition must make the interface feel tactile rather than graphic. Buttons should cast tiny shadows, glass tabs should refract light, chrome puddles should have coherent reflected environments, and CRT artifacts should curve at the screen perimeter. Keep all symbols abstract and nonlinguistic. The Y2K mood comes from material excess, glossy depth, rounded forms, and impossible optimism, not from readable software labels.\n\nUse case:\nY2K Vaporwave CRT single study 6/8, testing Y2K interface style as physical chrome and glass materials.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real operating system UI, no flat vector dashboard, no random pseudo letters, no modern minimal app design.",
+  "id": "liquid-metal-interface",
+  "title": "Liquid Metal Interface",
+  "description": "A tactile Y2K interface made from chrome liquid, glass controls, phosphor glow, and CRT barrel distortion.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "structured-layout",
+    "style-transfer",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/liquid-metal-interface/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing skeuomorphic Y2K interface forms as physical material."
+  },
+  "i18n": {
+    "en": {
+      "title": "Liquid Metal Interface",
+      "description": "A tactile Y2K interface made from chrome liquid, glass controls, phosphor glow, and CRT barrel distortion."
+    },
+    "zh-CN": {
+      "title": "液态金属界面",
+      "description": "由 chrome 液体、玻璃控件、荧光屏辉光和 CRT 桶形畸变组成的可触摸 Y2K 界面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A dark CRT-like screen filled with liquid chrome controls, glass tabs, and abstract Y2K interface shapes.",
+      "zh-CN": "深色 CRT 屏幕上充满液态 chrome 控件、玻璃标签和抽象 Y2K 界面形状。"
+    }
+  }
+}

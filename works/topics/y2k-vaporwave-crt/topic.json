@@ -1,0 +1,50 @@
+{
+  "id": "y2k-vaporwave-crt",
+  "slug": "y2k-vaporwave-crt",
+  "category": "illustration",
+  "style": [
+    "retro",
+    "abstract"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Y2K Vaporwave CRT",
+  "short_title": "Y2K CRT",
+  "description": "A Prompt Atlas theme for Y2K iridescent materials, vaporwave digital nostalgia, and CRT-era optical artifacts.",
+  "i18n": {
+    "en": {
+      "title": "Y2K Vaporwave CRT",
+      "short_title": "Y2K CRT",
+      "description": "A Prompt Atlas theme for Y2K iridescent materials, vaporwave digital nostalgia, and CRT-era optical artifacts."
+    },
+    "zh-CN": {
+      "title": "Y2K / Vaporwave / CRT 时代美学",
+      "short_title": "Y2K美学",
+      "description": "测试 Y2K 虹彩金属、chrome 气泡、vaporwave 雕塑与棕榈，以及 CRT 扫描线、RGB 色散和 glitch 时代美学。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "physics-materials",
+      "style-transfer",
+      "frontier-creative-composition",
+      "single"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-crt-era-studies",
+      "type": "single",
+      "title": "CRT Era Studies",
+      "path": "packages/single-crt-era-studies/package.json"
+    }
+  ]
+}

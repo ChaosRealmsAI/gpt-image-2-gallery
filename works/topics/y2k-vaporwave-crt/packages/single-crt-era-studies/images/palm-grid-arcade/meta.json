@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square wide-angle scene inside a fictional after-midnight arcade that has been transformed into a vaporwave dream room. The camera faces a receding perspective grid floor, with glossy tiles reflecting purple, coral, and cyan lights. Brightness is high at the horizon and softer in the foreground, like an analog video still paused on a CRT. The image should feel cinematic but organized, with strong depth lines leading inward.\n\nSubject:\nRows of empty arcade cabinets, chrome palm trees planted in square tile cutouts, pastel plastic stools, and a central glowing sun-disc sculpture at the far end of the room. The cabinet screens show only abstract moving color fields, waveforms, checkerboards, and unreadable symbol blocks. Overhead, mirrored ceiling panels fracture the neon palms and grid floor into repeated reflections. The air contains mild video static, but the architecture remains crisp.\n\nImportant details:\nThe visual language must balance vaporwave nostalgia with plausible physical space. Keep perspective lines coherent, reflections aligned with the glossy floor, and CRT screen curvature visible on each cabinet. Scanlines and RGB edge fringing should be stronger on screens and bright reflections, weaker on matte objects. Avoid any real game branding; all machines are fictional forms with blank controls and abstract displays.\n\nUse case:\nY2K Vaporwave CRT single study 4/8, testing deep vaporwave composition, reflections, and CRT screen styling.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real arcade titles, no illegible fake lettering, no people, no random cables cluttering the perspective grid.",
+  "id": "palm-grid-arcade",
+  "title": "Palm Grid Arcade",
+  "description": "A vaporwave arcade interior with chrome palms, perspective grid tiles, abstract cabinets, and CRT glow.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "optical-illusion",
+    "style-transfer",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/palm-grid-arcade/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing vaporwave spatial design and multiple CRT surfaces."
+  },
+  "i18n": {
+    "en": {
+      "title": "Palm Grid Arcade",
+      "description": "A vaporwave arcade interior with chrome palms, perspective grid tiles, abstract cabinets, and CRT glow."
+    },
+    "zh-CN": {
+      "title": "棕榈网格街机厅",
+      "description": "带 chrome 棕榈、透视网格地砖、抽象街机柜和 CRT 辉光的 vaporwave 街机室内场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "optical-illusion",
+      "style-transfer",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An empty vaporwave arcade with chrome palm trees, reflective grid tiles, and abstract CRT cabinet screens.",
+      "zh-CN": "空无一人的 vaporwave 街机厅，chrome 棕榈、反光网格地砖和抽象 CRT 机柜屏幕。"
+    }
+  }
+}

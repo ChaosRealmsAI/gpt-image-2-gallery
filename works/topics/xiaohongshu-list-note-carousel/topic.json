@@ -1,0 +1,53 @@
+{
+  "id": "xiaohongshu-list-note-carousel",
+  "slug": "xiaohongshu-list-note-carousel",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Xiaohongshu List Note Carousel",
+  "short_title": "XHS Lists",
+  "description": "A Prompt Atlas theme for Xiaohongshu List Note Carousel, testing structured-layout, commercial-mockup, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Xiaohongshu List Note Carousel",
+      "short_title": "XHS Lists",
+      "description": "Create Xiaohongshu-style list-note carousels that combine lifestyle proof, curation, and soft editorial polish."
+    },
+    "zh-CN": {
+      "title": "小红书清单笔记轮播",
+      "short_title": "清单笔记",
+      "description": "做小红书式清单笔记轮播，兼顾生活方式证明和轻编辑感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "single-theme-extensions",
+  "type": "single",
+  "title": "Theme Extensions",
+  "description": "Five independent support studies extending Xiaohongshu Skincare Proof Journal System into review, detail, and promo surfaces.",
+  "creative_direction": "Independent supporting images that test detail proof, system structure, and promo adaptability for the same topic.",
+  "cover_image": "images/hero-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Theme Extensions",
+      "description": "Five independent support studies extending Xiaohongshu Skincare Proof Journal System into review, detail, and promo surfaces."
+    },
+    "zh-CN": {
+      "title": "主题延展",
+      "description": "五张独立延展研究，将 小红书护肤证明日记系统 扩展到细节、系统板与宣传表面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "images": [
+    {
+      "id": "hero-study",
+      "title": "Hero Study",
+      "image": "images/hero-study/image.png",
+      "meta": "images/hero-study/meta.json"
+    },
+    {
+      "id": "detail-proof",
+      "title": "Detail Proof",
+      "image": "images/detail-proof/image.png",
+      "meta": "images/detail-proof/meta.json"
+    },
+    {
+      "id": "system-board",
+      "title": "System Board",
+      "image": "images/system-board/image.png",
+      "meta": "images/system-board/meta.json"
+    },
+    {
+      "id": "promo-crop",
+      "title": "Promo Crop",
+      "image": "images/promo-crop/image.png",
+      "meta": "images/promo-crop/meta.json"
+    },
+    {
+      "id": "finale-study",
+      "title": "Finale Study",
+      "image": "images/finale-study/image.png",
+      "meta": "images/finale-study/meta.json"
+    }
+  ]
+}

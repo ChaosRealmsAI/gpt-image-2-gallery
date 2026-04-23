@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square editorial fashion photograph staged in a glossy cyber mall corridor, lit by alternating cyan and rose neon strips. The camera is slightly below eye level with a clean central composition, as if captured from a paused VHS fashion broadcast. The image is bright on the subject, darker at the corridor edges, with controlled horizontal scanlines, mild chromatic aberration, and a few frozen glitch slices that do not obscure the silhouette.\n\nSubject:\nA fictional model wearing a Y2K vaporwave outfit: iridescent silver jacket, translucent lavender visor, chrome bubble accessories, pearly platform shoes, and a semi-transparent vinyl bag containing abstract pastel objects. The person is anonymous and stylized, not resembling any real celebrity. Behind the model, mirrored panels reflect palm shapes, grid lighting, and CRT screens showing only nonreadable abstract colors. The clothing materials should look tactile, layered, and reflective.\n\nImportant details:\nThis image must preserve fashion readability under glitch effects. Keep the pose elegant, the garment construction plausible, and the iridescent fabric physically believable with folds, seams, wrinkles, and sharp rim highlights. Glitch bands should shift small horizontal slices of the image by a few pixels, creating RGB breakup while leaving anatomy intact. Avoid turning the outfit into generic sci-fi armor; it should remain recognizable as Y2K editorial fashion.\n\nUse case:\nY2K Vaporwave CRT single study 7/8, testing fashion material realism under controlled CRT glitch styling.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real celebrity likeness, no brand marks, no distorted hands or face focus, no heavy glitch covering garment details.",
+  "id": "glitch-fashion-still",
+  "title": "Glitch Fashion Still",
+  "description": "A Y2K vaporwave fashion editorial with iridescent garments, chrome accessories, mall reflections, and controlled CRT glitch.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "fashion",
+    "style-transfer",
+    "physics-materials",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/glitch-fashion-still/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing Y2K fashion materials with controlled CRT glitch."
+  },
+  "i18n": {
+    "en": {
+      "title": "Glitch Fashion Still",
+      "description": "A Y2K vaporwave fashion editorial with iridescent garments, chrome accessories, mall reflections, and controlled CRT glitch."
+    },
+    "zh-CN": {
+      "title": "Glitch 时装定格",
+      "description": "一张 Y2K vaporwave 时装大片，包含虹彩服装、chrome 配饰、商场反射和受控 CRT glitch。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "fashion",
+      "style-transfer",
+      "physics-materials",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "An anonymous model in iridescent Y2K fashion standing in a neon mall corridor with controlled CRT glitch slices.",
+      "zh-CN": "匿名模特穿着虹彩 Y2K 时装站在霓虹商场走廊中，画面带受控 CRT glitch 切片。"
+    }
+  }
+}

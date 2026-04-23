@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square architectural scene inside an empty after-hours shopping mall atrium, shot from the upper balcony looking down into a symmetrical vaporwave composition. The lighting is moody but clear: pink neon from closed storefronts, cyan reflections from CRT display stacks, and pale moonlight through a skylight. The image should have the faint softness of analog tape, with scanlines most visible in darker gradients.\n\nSubject:\nA central fountain has been replaced by a chrome sphere cluster and a shallow pool reflecting artificial palm trees. Around the atrium are rounded glass railings, pastel tile patterns, dead escalators, translucent directory kiosks with abstract unreadable panels, and stacks of small CRT televisions forming a glowing sculpture. The televisions show only static, color bars without labels, palm silhouettes, and geometric gradients. Reflections should connect the water, glass, chrome, and tile surfaces.\n\nImportant details:\nThe scene should feel like digital nostalgia archaeology rather than a normal mall photo. Preserve coherent architecture, believable escalator geometry, and correct reflection directions. CRT artifacts belong on the television screens and reflective edges; they should not erase spatial clarity. Use vaporwave color language carefully: magenta and cyan light, pale peach tiles, black glass, and chrome highlights, with enough physical grit to keep the place credible.\n\nUse case:\nY2K Vaporwave CRT single study 8/8, testing large-scale environment composition with CRT-era atmosphere.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real store signs, no people, no collapsed architecture, no excessive fog hiding the atrium structure.",
+  "id": "after-hours-mall-atrium",
+  "title": "After Hours Mall Atrium",
+  "description": "An empty vaporwave mall atrium with chrome fountain spheres, CRT sculptures, palms, glass, water, and analog scanlines.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "style-transfer",
+    "physics-materials",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/after-hours-mall-atrium/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing vaporwave architecture with multiple CRT light sources."
+  },
+  "i18n": {
+    "en": {
+      "title": "After Hours Mall Atrium",
+      "description": "An empty vaporwave mall atrium with chrome fountain spheres, CRT sculptures, palms, glass, water, and analog scanlines."
+    },
+    "zh-CN": {
+      "title": "闭店后的商场中庭",
+      "description": "空荡的 vaporwave 商场中庭，包含 chrome 喷泉球、CRT 电视雕塑、棕榈、玻璃、水面和模拟扫描线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "style-transfer",
+      "physics-materials",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An empty neon mall atrium with chrome fountain spheres, palm reflections, and stacked CRT televisions glowing after hours.",
+      "zh-CN": "空荡霓虹商场中庭中有 chrome 喷泉球、棕榈倒影和闭店后发光的 CRT 电视堆。"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "single-crt-era-studies",
+  "type": "single",
+  "title": "CRT Era Studies",
+  "description": "Eight independent Y2K, vaporwave, and CRT studies testing iridescent materials, optical distortion, scanline texture, and nostalgic digital styling.",
+  "creative_direction": "Each image isolates a different era signal: chrome bubbles, marble busts, translucent electronics, arcade grids, liquid metal interfaces, fashion stills, and dead mall atmosphere all filtered through believable CRT optics.",
+  "cover_image": "images/chrome-bubble-desktop/image.png",
+  "i18n": {
+    "en": {
+      "title": "CRT Era Studies",
+      "description": "Eight independent Y2K, vaporwave, and CRT studies testing iridescent materials, optical distortion, scanline texture, and nostalgic digital styling."
+    },
+    "zh-CN": {
+      "title": "CRT 时代单图研究",
+      "description": "八张独立图像测试 Y2K、vaporwave 与 CRT 美学中的虹彩材质、光学畸变、扫描线纹理和数字怀旧风格。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "style-transfer",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "chrome-bubble-desktop",
+      "title": "Chrome Bubble Desktop",
+      "image": "images/chrome-bubble-desktop/image.png",
+      "meta": "images/chrome-bubble-desktop/meta.json"
+    },
+    {
+      "id": "marble-bust-scanlines",
+      "title": "Marble Bust Scanlines",
+      "image": "images/marble-bust-scanlines/image.png",
+      "meta": "images/marble-bust-scanlines/meta.json"
+    },
+    {
+      "id": "iridescent-disc-tower",
+      "title": "Iridescent Disc Tower",
+      "image": "images/iridescent-disc-tower/image.png",
+      "meta": "images/iridescent-disc-tower/meta.json"
+    },
+    {
+      "id": "palm-grid-arcade",
+      "title": "Palm Grid Arcade",
+      "image": "images/palm-grid-arcade/image.png",
+      "meta": "images/palm-grid-arcade/meta.json"
+    },
+    {
+      "id": "transparent-phone-shell",
+      "title": "Transparent Phone Shell",
+      "image": "images/transparent-phone-shell/image.png",
+      "meta": "images/transparent-phone-shell/meta.json"
+    },
+    {
+      "id": "liquid-metal-interface",
+      "title": "Liquid Metal Interface",
+      "image": "images/liquid-metal-interface/image.png",
+      "meta": "images/liquid-metal-interface/meta.json"
+    },
+    {
+      "id": "glitch-fashion-still",
+      "title": "Glitch Fashion Still",
+      "image": "images/glitch-fashion-still/image.png",
+      "meta": "images/glitch-fashion-still/meta.json"
+    },
+    {
+      "id": "after-hours-mall-atrium",
+      "title": "After Hours Mall Atrium",
+      "image": "images/after-hours-mall-atrium/image.png",
+      "meta": "images/after-hours-mall-atrium/meta.json"
+    }
+  ]
+}

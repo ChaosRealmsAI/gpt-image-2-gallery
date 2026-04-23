@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square vaporwave museum diorama at night, lit by magenta neon from the left and cyan monitor glow from the right. The camera looks slightly upward from a low pedestal angle, making the scene feel monumental while still intimate. The background is a black void filled with soft palm silhouettes, gridded horizon lines, and faint analog video noise. Overall brightness should stay medium-high on the subject, with deep purples in the shadows.\n\nSubject:\nA classical white marble bust on a glossy black plinth, wrapped in projected CRT scanlines and fragmented RGB color separation. Around the bust are translucent chrome rings, floating reflective bubbles, and abstract glyph-like signage shapes that suggest vaporwave without becoming readable words. The marble surface contains carved pores, chipped edges, and cool veins; the scanline projection should curve across the nose, cheek, neck, and shoulders according to the bust geometry.\n\nImportant details:\nThe image must fuse old sculpture with digital nostalgia through physical light behavior. Scanlines should not be a uniform flat overlay; they must bend around the marble form, fade in shadow, and separate slightly into red, green, and blue fringes near high-contrast edges. Keep the bust dignified and recognizable as stone, not plastic. Use palm reflections and neon ambience as environmental clues.\n\nUse case:\nY2K Vaporwave CRT single study 2/8, testing style transfer from classical sculpture into CRT-era vaporwave optics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real museum labels, no cartoon bust, no random face distortion, no scanlines that ignore the surface geometry.",
+  "id": "marble-bust-scanlines",
+  "title": "Marble Bust Scanlines",
+  "description": "A vaporwave marble bust with curved CRT scanlines, RGB fringing, palms, chrome rings, and neon glow.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "style-transfer",
+    "physics-materials",
+    "scientific-realism",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/marble-bust-scanlines/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing sculpture material preservation with CRT-style lighting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Marble Bust Scanlines",
+      "description": "A vaporwave marble bust with curved CRT scanlines, RGB fringing, palms, chrome rings, and neon glow."
+    },
+    "zh-CN": {
+      "title": "大理石胸像扫描线",
+      "description": "一尊 vaporwave 大理石胸像，带弯曲 CRT 扫描线、RGB 色散、棕榈、chrome 环和霓虹光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "physics-materials",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A classical marble bust lit by magenta and cyan vaporwave glow with CRT scanlines curving across the stone.",
+      "zh-CN": "古典大理石胸像被品红和青色 vaporwave 光照亮，CRT 扫描线沿石材曲面弯曲。"
+    }
+  }
+}

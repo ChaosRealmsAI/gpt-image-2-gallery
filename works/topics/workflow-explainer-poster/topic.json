@@ -1,0 +1,53 @@
+{
+  "id": "workflow-explainer-poster",
+  "slug": "workflow-explainer-poster",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Workflow Explainer Poster",
+  "short_title": "Workflow Poster",
+  "description": "A Prompt Atlas theme for Workflow Explainer Poster, testing structured-layout, technical-diagram, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Workflow Explainer Poster",
+      "short_title": "Workflow Poster",
+      "description": "Visualize a process, workflow, or service journey in a poster that is both informative and visually inviting."
+    },
+    "zh-CN": {
+      "title": "流程说明海报",
+      "short_title": "流程说明",
+      "description": "把流程或服务旅程做成可读又好看的说明海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "technical-diagram",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

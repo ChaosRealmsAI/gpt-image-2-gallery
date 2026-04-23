@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square studio still life photographed like a premium late-1990s computer magazine cover, bright but slightly dreamy, with a lavender-to-aqua background and soft specular studio lights. The camera is straight-on at desk height, using a clean product-shot composition with shallow reflections on a glossy acrylic tabletop. Subtle CRT scanlines and mild RGB fringing should appear as if the image is being viewed through an old monitor, not pasted over randomly.\n\nSubject:\nA fictional translucent desktop computer setup made from pearly blue plastic, chrome bubble speakers, a rounded CRT display, a clear keyboard, and a small stack of reflective mini discs. The monitor screen shows only abstract pastel windows, gradients, and waveform shapes with no readable interface text. Chrome spheres float close to the hardware, reflecting pink palms, cyan light bars, and the camera-facing product scene.\n\nImportant details:\nThe hard part is believable material physics: transparent plastic must reveal internal ribs and circuit silhouettes, chrome bubbles must reflect the environment with curved highlights, and the CRT glass must bow slightly with phosphor glow, scanline texture, and edge color separation. Preserve a Y2K optimism palette without making the scene look like a modern flat vector poster.\n\nUse case:\nY2K Vaporwave CRT single study 1/8, testing iridescent hardware materials and nostalgic screen optics.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no real brand design, no flat icon art, no illegible keyboard letters, no random glitch covering the main object.",
+  "id": "chrome-bubble-desktop",
+  "title": "Chrome Bubble Desktop",
+  "description": "A fictional translucent Y2K desktop computer with chrome bubble speakers and CRT scanline optics.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "physics-materials",
+    "style-transfer",
+    "commercial-mockup",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/y2k-vaporwave-crt/packages/single-crt-era-studies/images/chrome-bubble-desktop/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image testing translucent Y2K hardware and CRT optical artifacts."
+  },
+  "i18n": {
+    "en": {
+      "title": "Chrome Bubble Desktop",
+      "description": "A fictional translucent Y2K desktop computer with chrome bubble speakers and CRT scanline optics."
+    },
+    "zh-CN": {
+      "title": "Chrome 气泡桌面",
+      "description": "一套虚构的半透明 Y2K 桌面电脑、chrome 气泡音箱和 CRT 扫描线光学效果。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "physics-materials",
+      "style-transfer",
+      "commercial-mockup",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "A translucent Y2K desktop computer with chrome bubble speakers, pastel reflections, and CRT scanlines.",
+      "zh-CN": "半透明 Y2K 桌面电脑配 chrome 气泡音箱，带粉蓝反射和 CRT 扫描线。"
+    }
+  }
+}
