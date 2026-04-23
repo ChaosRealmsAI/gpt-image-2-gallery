@@ -1,0 +1,48 @@
+{
+  "id": "telescope-nebula-galaxy",
+  "slug": "telescope-nebula-galaxy",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Telescope Nebula Galaxy",
+  "short_title": "Nebula",
+  "description": "A Prompt Atlas theme for Telescope Nebula Galaxy, testing photorealism, world-knowledge with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Telescope Nebula Galaxy",
+      "short_title": "Nebula",
+      "description": "A Prompt Atlas theme for Telescope Nebula Galaxy, testing photorealism, world-knowledge with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "天文望远镜风 · 星云星系",
+      "short_title": "天文星云",
+      "description": "天文望远镜风 · 星云星系：哈勃 Pillars of Creation / JWST 韦伯深空场 / 黑洞吸积盘 / 超新星残骸 / 红巨星爆发 · 假彩色 + 星尘噪点"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-telescope-nebula-galaxy-studies",
+      "type": "single",
+      "title": "Nebula Photography Studies",
+      "path": "packages/single-telescope-nebula-galaxy-studies/package.json"
+    }
+  ]
+}

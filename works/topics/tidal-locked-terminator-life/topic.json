@@ -1,0 +1,50 @@
+{
+  "id": "tidal-locked-terminator-life",
+  "slug": "tidal-locked-terminator-life",
+  "category": "science",
+  "style": [
+    "photoreal",
+    "painterly"
+  ],
+  "capability": [
+    "world-knowledge",
+    "physics-materials"
+  ],
+  "title": "Tidal Locked Terminator Life",
+  "short_title": "Terminator Life",
+  "description": "Map the permanent twilight biome of a tidally locked world, where plants, animals, and landforms all respond to a one-sided sun, stable thermal gradients, and never-ending dusk.",
+  "i18n": {
+    "en": {
+      "title": "Tidal Locked Terminator Life",
+      "short_title": "Terminator Life",
+      "description": "Map the permanent twilight biome of a tidally locked world, where plants, animals, and landforms all respond to a one-sided sun, stable thermal gradients, and never-ending dusk."
+    },
+    "zh-CN": {
+      "title": "潮汐锁定晨昏带生态",
+      "short_title": "晨昏带生态",
+      "description": "描绘潮汐锁定星球的永久黄昏生物群落，让单侧太阳、稳定热梯度与永恒暮色共同塑造生命。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 815,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "scientific-realism",
+      "photorealism",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-terminator-life-studies",
+      "type": "single",
+      "title": "Terminator Biome Studies",
+      "path": "packages/single-terminator-life-studies/package.json"
+    }
+  ]
+}

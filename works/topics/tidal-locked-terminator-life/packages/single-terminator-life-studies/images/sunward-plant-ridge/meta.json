@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nFrame a ridge-top botanical study under stable twilight, with the warm horizon just outside the frame casting long lateral light across the scene. Every plant should be visibly angled toward the same source, with reflective tissues on the warm side and insulated structures on the cold side. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nFocus on several plant analogs with one-sided leaf fans, mirrored shadow surfaces, and root buttresses resisting constant wind and heat asymmetry. A few small grazers or pollinators can appear, but the plants should dominate the composition. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the sun never changes position in the sky from this biome. Organisms should show enduring asymmetry, thermal management, and directional growth because the warm side and cold side of the world remain stable over evolutionary time. The plant anatomy should clearly encode environmental adaptation: sunward photosynthetic surfaces, leeward storage tissues, and asymmetric growth rings. Avoid Earth flowers or trees copied into a new sky; this is an evolved twilight flora. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nTidal Locked Terminator Life single study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bilateral symmetry in plant crowns, no flower-garden look, no tropical lushness, no readable signage, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "sunward-plant-ridge",
+  "title": "Sunward Plant Ridge",
+  "description": "Plant forms on a ridge all lean and flare toward the same eternal sunward direction.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tidal-locked-terminator-life/packages/single-terminator-life-studies/images/sunward-plant-ridge/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Tidal Locked Terminator Life.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Sunward Plant Ridge",
+      "description": "Plant forms on a ridge all lean and flare toward the same eternal sunward direction."
+    },
+    "zh-CN": {
+      "title": "向阳植被脊",
+      "description": "山脊上的植物全部向同一永恒太阳方向弯折展开。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Plants on a ridge all oriented toward the same eternal sun.",
+      "zh-CN": "山脊植物齐向同一永恒太阳方向生长。"
+    }
+  }
+}

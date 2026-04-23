@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nSet the viewpoint inside a canyon whose walls soften the direct thermal contrast of the open terminator plain. The square frame should use reflected warm light on one wall and cool shade on the other to show why the canyon serves as refuge. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow clustered organisms occupying narrow ledges, thermal seep pockets, and sheltered vegetation niches. Different age groups or species can coexist here if the canyon naturally creates a more stable microclimate. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the sun never changes position in the sky from this biome. Organisms should show enduring asymmetry, thermal management, and directional growth because the warm side and cold side of the world remain stable over evolutionary time. The refuge logic must be obvious through geology, light, and posture. Organisms should appear concentrated where conditions narrow the thermal stress between the world’s two permanent extremes. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nTidal Locked Terminator Life single study 7/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy cave settlement, no human torches, no dramatic lava fissure, no cathedral architecture, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "canyon-shelter-colony",
+  "title": "Canyon Shelter Colony",
+  "description": "A colony gathers in a canyon that buffers the harsh thermal split of the open plain.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tidal-locked-terminator-life/packages/single-terminator-life-studies/images/canyon-shelter-colony/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Tidal Locked Terminator Life.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Canyon Shelter Colony",
+      "description": "A colony gathers in a canyon that buffers the harsh thermal split of the open plain."
+    },
+    "zh-CN": {
+      "title": "峡谷避护群落",
+      "description": "一个群落聚集在可缓冲热差的峡谷中避护生存。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A colony sheltering in a canyon within the twilight belt.",
+      "zh-CN": "晨昏带中在峡谷里避护的群落。"
+    }
+  }
+}

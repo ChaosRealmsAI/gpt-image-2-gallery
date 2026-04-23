@@ -1,0 +1,48 @@
+{
+  "id": "xray-art-photography",
+  "slug": "xray-art-photography",
+  "category": "science",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "X-Ray Art Photography",
+  "short_title": "X-Ray Art",
+  "description": "A Prompt Atlas theme for X-Ray Art Photography, testing photorealism, style-transfer, optical-illusion-geometry with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "X-Ray Art Photography",
+      "short_title": "X-Ray Art",
+      "description": "A Prompt Atlas theme for X-Ray Art Photography, testing photorealism, style-transfer, optical-illusion-geometry with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "X 光艺术摄影 · Nick Veasey 风",
+      "short_title": "X光艺术",
+      "description": "X 光艺术摄影 · Nick Veasey 风：风格:纯黑底 + 半透明白影 · 骨骼 / 金属 / 电线清晰 · 软组织淡影 · 例:花束 X 光 / iPhone 内部 / 运动鞋 / 行李箱 / 人手骨"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "scientific-realism",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-xray-art-photography-studies",
+      "type": "single",
+      "title": "X-Ray Art Photography Studies",
+      "path": "packages/single-xray-art-photography-studies/package.json"
+    }
+  ]
+}

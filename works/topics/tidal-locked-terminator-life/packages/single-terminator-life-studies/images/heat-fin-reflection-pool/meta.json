@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nCompose the image around a shallow reflective pool in the twilight belt, where warm side-light skims across the water and makes the air shimmer just above the surface. Rock, mist, and long shadows should all point in the same unchanging direction. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow a semi-aquatic or heat-stressed organism extending specialized cooling fins into the air while drinking or resting by the pool. The reflection should help clarify its asymmetrical body plan without turning the image into a mirror gimmick. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the sun never changes position in the sky from this biome. Organisms should show enduring asymmetry, thermal management, and directional growth because the warm side and cold side of the world remain stable over evolutionary time. Use water as an ecological tool, not decorative scenery. The pool should read as a thermal refuge shaped by stable climate, and the animal’s behavior should feel adapted to repeated use of such refuges in permanent twilight. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nTidal Locked Terminator Life single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no sunset romance framing, no Earth flamingo or deer copy, no magical glowing water, no symmetrical reflection trickery, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "heat-fin-reflection-pool",
+  "title": "Heat Fin Reflection Pool",
+  "description": "An animal cools itself beside a pool that reflects the world’s permanent side-light.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tidal-locked-terminator-life/packages/single-terminator-life-studies/images/heat-fin-reflection-pool/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Tidal Locked Terminator Life.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Heat Fin Reflection Pool",
+      "description": "An animal cools itself beside a pool that reflects the world’s permanent side-light."
+    },
+    "zh-CN": {
+      "title": "散热鳍映池",
+      "description": "动物在映照单侧光线的水池边散热降温。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A twilight animal cooling beside a reflective pool.",
+      "zh-CN": "晨昏带动物在反光水池边散热。"
+    }
+  }
+}

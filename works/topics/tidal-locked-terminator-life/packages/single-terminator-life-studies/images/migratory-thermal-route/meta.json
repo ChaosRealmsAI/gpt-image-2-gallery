@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nUse a slightly elevated vantage to reveal a narrow thermal corridor winding across the terrain like a living path. The warm side and cold side of the planet should remain legible in the sky and surface color, but the corridor itself should guide the eye through the square frame. Build the frame as a square natural history study with disciplined composition, believable lighting, and enough environmental evidence to explain how this organism or system functions without any caption. Keep the image polished, observational, and suitable for a research gallery rather than pulp fantasy spectacle.\n\nSubject:\nShow several species using the same route for different reasons: grazers, scavengers, and predators all taking advantage of a stable temperature band. Their spacing should imply a functioning food web rather than random crowding. Show the anatomy, habitat interaction, and scale cues clearly so the viewer can infer locomotion, feeding, reproduction, or ecological role from the visual alone. Every visible structure should feel evolved for a purpose, with layered foreground, midground, and background information that rewards close inspection.\n\nImportant details:\nAssume the sun never changes position in the sky from this biome. Organisms should show enduring asymmetry, thermal management, and directional growth because the warm side and cold side of the world remain stable over evolutionary time. This image should explain movement ecology through landscape design. Ground texture, plant distribution, and body orientation should all reveal why this route persists over geological time on a tidally locked world. Favor coherent biology over decorative excess: tissues, shells, membranes, spores, tendrils, fins, silica lattices, or atmospheric sacs should all follow one material logic. Preserve a convincing relationship between the environment and the body plan, use restrained color hierarchy, and make the image feel like a serious speculative field record rather than a random monster concept.\n\nUse case:\nTidal Locked Terminator Life single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no road markings, no human caravan, no dust-storm action spectacle, no generic fantasy migration parade, no accidental brand resemblance, no direct copy of known terrestrial species, no cartoon simplification.",
+  "id": "migratory-thermal-route",
+  "title": "Migratory Thermal Route",
+  "description": "A ribbon of animals follows a narrow thermal route visible across the biome.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "scientific-realism",
+    "photorealism",
+    "world-knowledge",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tidal-locked-terminator-life/packages/single-terminator-life-studies/images/migratory-thermal-route/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study for Tidal Locked Terminator Life.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Migratory Thermal Route",
+      "description": "A ribbon of animals follows a narrow thermal route visible across the biome."
+    },
+    "zh-CN": {
+      "title": "热路迁徙线",
+      "description": "一条窄热路清晰可见，动物沿其迁徙。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "scientific-realism",
+      "photorealism",
+      "world-knowledge",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Animals following a narrow thermal route across the twilight biome.",
+      "zh-CN": "动物沿晨昏带狭窄热路迁徙。"
+    }
+  }
+}
