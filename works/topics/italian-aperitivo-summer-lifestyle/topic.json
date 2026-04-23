@@ -1,0 +1,53 @@
+{
+  "id": "italian-aperitivo-summer-lifestyle",
+  "slug": "italian-aperitivo-summer-lifestyle",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Italian Aperitivo Summer Lifestyle",
+  "short_title": "Aperitivo",
+  "description": "A Prompt Atlas theme for Italian Aperitivo Summer Lifestyle, testing photorealism, commercial-mockup, world-knowledge with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Italian Aperitivo Summer Lifestyle",
+      "short_title": "Aperitivo",
+      "description": "Build Italian aperitivo visuals with terrace light, glassware, citrus, and social leisure energy."
+    },
+    "zh-CN": {
+      "title": "意式 aperitivo 夏日生活",
+      "short_title": "意式夏日",
+      "description": "做意式 aperitivo 夏日生活视觉，强调露台光线、酒杯、柑橘和社交 leisure。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "indian-wedding-ceremonial-maximalism",
+  "slug": "indian-wedding-ceremonial-maximalism",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Indian Wedding Ceremonial Maximalism",
+  "short_title": "Indian Wedding",
+  "description": "A Prompt Atlas theme for Indian Wedding Ceremonial Maximalism, testing world-knowledge, style-transfer, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Indian Wedding Ceremonial Maximalism",
+      "short_title": "Indian Wedding",
+      "description": "Capture Indian wedding visual language through textiles, marigold logic, jewelry, ceremony density, and architectural richness."
+    },
+    "zh-CN": {
+      "title": "印度婚礼仪式繁盛美学",
+      "short_title": "印度婚礼",
+      "description": "围绕印度婚礼视觉语汇做系统，强调纺织、珠宝、花艺、建筑和仪式丰盛。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "style-transfer",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "launch-countdown-social-kit",
+  "slug": "launch-countdown-social-kit",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Launch Countdown Social Kit",
+  "short_title": "Countdown Kit",
+  "description": "A Prompt Atlas theme for Launch Countdown Social Kit, testing commercial-mockup, multi-image-reference, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Launch Countdown Social Kit",
+      "short_title": "Countdown Kit",
+      "description": "Create countdown kits for launches and events with escalating urgency and campaign continuity."
+    },
+    "zh-CN": {
+      "title": "发布倒计时社媒套件",
+      "short_title": "倒计时套件",
+      "description": "做发布倒计时社媒套件，强调节奏升级和 campaign 连续性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

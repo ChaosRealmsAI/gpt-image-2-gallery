@@ -1,0 +1,53 @@
+{
+  "id": "japanese-kissaten-retro-editorial",
+  "slug": "japanese-kissaten-retro-editorial",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Japanese Kissaten Retro Editorial",
+  "short_title": "Kissaten",
+  "description": "A Prompt Atlas theme for Japanese Kissaten Retro Editorial, testing world-knowledge, style-transfer, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Japanese Kissaten Retro Editorial",
+      "short_title": "Kissaten",
+      "description": "Build visuals around Japanese kissaten culture with warm wood, retro print, plated food, and Showa-Heisei nostalgia."
+    },
+    "zh-CN": {
+      "title": "日式喫茶店复古编辑风",
+      "short_title": "喫茶店风",
+      "description": "围绕日本喫茶店文化做视觉系统，强调木质空间、复古印刷、餐食摆盘和昭和到平成年代感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "world-knowledge",
+      "style-transfer",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

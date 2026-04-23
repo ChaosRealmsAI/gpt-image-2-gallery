@@ -1,0 +1,53 @@
+{
+  "id": "hardware-software-companion-ui-hero",
+  "slug": "hardware-software-companion-ui-hero",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Hardware Software Companion UI Hero",
+  "short_title": "Companion UI",
+  "description": "A Prompt Atlas theme for Hardware Software Companion UI Hero, testing commercial-mockup, structured-layout, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Hardware Software Companion UI Hero",
+      "short_title": "Companion UI",
+      "description": "Create companion-interface hero systems for devices, wearables, and smart-home products with clear hardware-software harmony."
+    },
+    "zh-CN": {
+      "title": "软硬件协同 companion UI hero",
+      "short_title": "Companion UI",
+      "description": "做软硬件协同 companion UI hero，强调设备与 app 协同。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

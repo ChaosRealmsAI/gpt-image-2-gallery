@@ -1,0 +1,53 @@
+{
+  "id": "launch-recap-comic-carousel",
+  "slug": "launch-recap-comic-carousel",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Launch Recap Comic Carousel",
+  "short_title": "Recap Carousel",
+  "description": "A Prompt Atlas theme for Launch Recap Comic Carousel, testing structured-layout, commercial-mockup, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Launch Recap Comic Carousel",
+      "short_title": "Recap Carousel",
+      "description": "Build a promo recap comic for product launches, game updates, or story catch-up using modular carousel panels."
+    },
+    "zh-CN": {
+      "title": "剧情回顾漫画轮播",
+      "short_title": "回顾漫画",
+      "description": "做发布或剧情回顾漫画轮播，适合社媒和活动预热。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

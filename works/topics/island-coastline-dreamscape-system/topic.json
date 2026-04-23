@@ -1,0 +1,53 @@
+{
+  "id": "island-coastline-dreamscape-system",
+  "slug": "island-coastline-dreamscape-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Island Coastline Dreamscape System",
+  "short_title": "Island Dreamscapes",
+  "description": "A Prompt Atlas theme for Island Coastline Dreamscape System, testing photorealism, commercial-mockup, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Island Coastline Dreamscape System",
+      "short_title": "Island Dreamscapes",
+      "description": "Build island and coastline landscape systems with impossible clarity, layered water color, and destination fantasy."
+    },
+    "zh-CN": {
+      "title": "岛屿海岸梦境景观系统",
+      "short_title": "岛屿海岸",
+      "description": "做岛屿海岸梦境景观系统，强调水色层次和目的地幻想。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

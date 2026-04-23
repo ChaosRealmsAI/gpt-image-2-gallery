@@ -1,0 +1,49 @@
+{
+  "id": "lego-scene-rebuild",
+  "slug": "lego-scene-rebuild",
+  "category": "illustration",
+  "style": [
+    "3d-render",
+    "photoreal"
+  ],
+  "capability": [
+    "physics-materials",
+    "style-transfer"
+  ],
+  "title": "Lego Scene Rebuild",
+  "short_title": "Lego Scene",
+  "description": "A Prompt Atlas theme for Lego Scene Rebuild, testing physics-materials, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Lego Scene Rebuild",
+      "short_title": "Lego Scene",
+      "description": "A Prompt Atlas theme for Lego Scene Rebuild, testing physics-materials, style-transfer, commercial-mockup with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Lego / 积木全场景重构",
+      "short_title": "积木重构",
+      "description": "Lego / 积木全场景重构：故宫 / 蒸汽朋克街区 / Minecraft 世界 / 星球大战场景 乐高化 · 每块可见 · 玩具盒拍照感 · studio 光"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "physics-materials",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-lego-scene-rebuild-studies",
+      "type": "single",
+      "title": "Lego Scene Render Studies",
+      "path": "packages/single-lego-scene-rebuild-studies/package.json"
+    }
+  ]
+}

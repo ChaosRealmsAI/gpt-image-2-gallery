@@ -1,0 +1,53 @@
+{
+  "id": "hong-kong-neon-vernacular-noir",
+  "slug": "hong-kong-neon-vernacular-noir",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Hong Kong Neon Vernacular Noir",
+  "short_title": "HK Neon Noir",
+  "description": "A Prompt Atlas theme for Hong Kong Neon Vernacular Noir, testing style-transfer, world-knowledge, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Hong Kong Neon Vernacular Noir",
+      "short_title": "HK Neon Noir",
+      "description": "Translate Hong Kong urban neon vernacular into cinematic posters and editorial worlds without sliding into generic cyberpunk."
+    },
+    "zh-CN": {
+      "title": "港风霓虹 vernacular noir",
+      "short_title": "港风霓虹",
+      "description": "把香港城市霓虹 vernacular 转成电影海报和 editorial 世界，不滑向 generic cyberpunk。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "world-knowledge",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

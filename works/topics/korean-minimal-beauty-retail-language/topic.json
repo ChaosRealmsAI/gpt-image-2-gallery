@@ -1,0 +1,53 @@
+{
+  "id": "korean-minimal-beauty-retail-language",
+  "slug": "korean-minimal-beauty-retail-language",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Korean Minimal Beauty Retail Language",
+  "short_title": "K-Beauty Minimal",
+  "description": "A Prompt Atlas theme for Korean Minimal Beauty Retail Language, testing photorealism, commercial-mockup, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Korean Minimal Beauty Retail Language",
+      "short_title": "K-Beauty Minimal",
+      "description": "Create Korean beauty retail visuals with translucent materials, soft skincare lighting, and premium-accessible packaging language."
+    },
+    "zh-CN": {
+      "title": "韩系极简美妆零售语言",
+      "short_title": "韩系美妆",
+      "description": "做韩系美妆零售语言，强调通透材质、柔和护肤光线和轻高级包装语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "commercial-mockup",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}
