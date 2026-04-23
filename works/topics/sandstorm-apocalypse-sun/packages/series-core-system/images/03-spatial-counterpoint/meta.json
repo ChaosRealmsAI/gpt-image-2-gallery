@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Sandstorm Apocalypse Sun. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A colossal wall of sand advances across an open plain under a dim blood-red sun, with the air turning ochre and gray, horizon contrast collapsing, and the ground scoured by wind-driven dust. Shift to an oblique or lateral point of view that reveals different depth layers while staying inside the same place and the same atmospheric event.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. One jeep or utility vehicle in silhouette should provide a simple scale cue, while the real subject remains the storm front, the compressed sky, and the sense of irreversible movement across the land. Hold the reference structure, but use the new angle to show secondary planes, foreground interruption, or a changed distance relationship.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the airborne dust granular and directional, with partial visibility, layered turbulence, and a sun disc that feels filtered by dense particulate atmosphere rather than pasted in as a graphic symbol. The success condition is continuity with the reference plus a richer sense of depth, not a new location or a new lighting system.\n\nUse case:\nSandstorm Sun series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city ruins, no readable license plates, no zombies, no science-fiction armor, no clean air clarity.",
+  "id": "03-spatial-counterpoint",
+  "title": "Spatial Counterpoint",
+  "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sandstorm-apocalypse-sun/packages/series-core-system/images/03-spatial-counterpoint/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/sandstorm-apocalypse-sun/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/sandstorm-apocalypse-sun/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame using the reference image to preserve the same place from a shifted angle.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spatial Counterpoint",
+      "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact."
+    },
+    "zh-CN": {
+      "title": "侧向空间变体",
+      "description": "沙暴红日 · 在维持参考世界一致性的前提下，用侧向视角展示更复杂纵深的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Spatial Counterpoint from Sandstorm Apocalypse Sun.",
+      "zh-CN": "沙暴红日的侧向空间变体画面。"
+    }
+  }
+}

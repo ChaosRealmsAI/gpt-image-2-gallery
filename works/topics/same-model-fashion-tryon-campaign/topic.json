@@ -1,0 +1,59 @@
+{
+  "id": "same-model-fashion-tryon-campaign",
+  "slug": "same-model-fashion-tryon-campaign",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Same-Model Fashion Try-On Campaign",
+  "short_title": "Fashion Try-On",
+  "description": "Lock one model's identity while rotating wardrobe, styling direction, and seasonal looks for fashion commerce, editorial, and campaign usage.",
+  "i18n": {
+    "en": {
+      "title": "Same-Model Fashion Try-On Campaign",
+      "short_title": "Fashion Try-On",
+      "description": "Lock one model's identity while rotating wardrobe, styling direction, and seasonal looks for fashion commerce, editorial, and campaign usage."
+    },
+    "zh-CN": {
+      "title": "同模特换装 campaign",
+      "short_title": "同人换装",
+      "description": "同一个人锁脸锁身形，只切换服装、配饰、鞋包、层搭和季节风格，做成商业 lookbook 或上新宣传图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 879,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Identity Lock",
+      "path": "packages/series-identity-lock/package.json"
+    },
+    {
+      "id": "single-editorial-support",
+      "type": "single",
+      "title": "Editorial Support",
+      "path": "packages/single-editorial-support/package.json"
+    }
+  ]
+}

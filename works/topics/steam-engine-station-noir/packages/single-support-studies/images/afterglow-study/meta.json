@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Steam Engine Station Noir. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A mid-century rail platform is buried in rolling steam and hard-edged station light, with mostly monochrome tonality, wet pavement, iron structure, and one restrained red tail lamp or signal glowing through the vapor. End on a quieter independent image that holds the residue of the topic atmosphere after its loudest moment has passed, while still feeling complete and exhibition-ready.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. A lone figure in a trench coat, the locomotive mass, steel beams, and layered steam curtains should build the scene, but the person remains anonymous and secondary to the environment and the light-cutting fog. The frame should suggest memory, aftermath, or lingering presence through environment first and only secondarily through any figure or object.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Prioritize steam density layering, wet-surface sheen, noir contrast, and restrained color use, so the image feels like a lost still from a serious black-and-white crime film rather than a cosplay set. Favor restraint, believable light decay, and subtle narrative closure over spectacle or decorative excess.\n\nUse case:\nSteam Station single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable station boards, no crowded commuters, no exaggerated detective props, no pristine modern train design, no bright advertising.",
+  "id": "afterglow-study",
+  "title": "Afterglow Study",
+  "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/steam-engine-station-noir/packages/single-support-studies/images/afterglow-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on quiet atmospheric closure.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Afterglow Study",
+      "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere."
+    },
+    "zh-CN": {
+      "title": "余韵研究",
+      "description": "蒸汽机车站 · 围绕同一气氛残留余韵而构成的安静收束独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "Afterglow Study from Steam Engine Station Noir.",
+      "zh-CN": "蒸汽机车站的余韵研究画面。"
+    }
+  }
+}

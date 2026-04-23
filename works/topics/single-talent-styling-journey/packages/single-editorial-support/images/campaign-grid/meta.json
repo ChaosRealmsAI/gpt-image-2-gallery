@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Single-Talent Styling Journey. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Campaign Grid should feel like a specific transformation step that a multi-panel rollout board proving catalog depth and consistent recognition. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Follow one talent through multiple styling directions such as airport look, red carpet, comeback concept, streetwear, and beauty close-up without losing identity.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies multi-image-reference, editing-workflow, commercial-mockup, photorealism through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nSingle-Talent Styling Journey single study 5/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "campaign-grid",
+  "title": "Campaign Grid",
+  "description": "Campaign Grid for Single-Talent Styling Journey, a multi-panel rollout board proving catalog depth and consistent recognition.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "single",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/single-talent-styling-journey/packages/single-editorial-support/images/campaign-grid/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Campaign Grid",
+      "description": "Campaign Grid for Single-Talent Styling Journey, a multi-panel rollout board proving catalog depth and consistent recognition."
+    },
+    "zh-CN": {
+      "title": "Campaign 栅格",
+      "description": "造型旅程 主题中的Campaign 栅格研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Campaign Grid campaign image for Styling Journey.",
+      "zh-CN": "造型旅程 主题的Campaign 栅格画面。"
+    }
+  }
+}

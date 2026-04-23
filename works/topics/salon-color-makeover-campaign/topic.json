@@ -1,0 +1,52 @@
+{
+  "id": "salon-color-makeover-campaign",
+  "slug": "salon-color-makeover-campaign",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Salon Color Makeover Campaign",
+  "short_title": "Salon Makeover",
+  "description": "Design salon-ready hair-color makeover campaigns that highlight believable before-after change, hair texture, and beauty-advertising polish.",
+  "i18n": {
+    "en": {
+      "title": "Salon Color Makeover Campaign",
+      "short_title": "Salon Makeover",
+      "description": "Design salon-ready hair-color makeover campaigns that highlight believable before-after change, hair texture, and beauty-advertising polish."
+    },
+    "zh-CN": {
+      "title": "沙龙染发改造宣传图",
+      "short_title": "沙龙改造",
+      "description": "做美发沙龙会用的 before-after 改造宣传图，重点看发色变化、发丝质感和改造前后的商业说服力。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 709,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-switchboard",
+      "type": "series",
+      "title": "Identity-Locked Switchboard",
+      "path": "packages/series-identity-switchboard/package.json"
+    }
+  ]
+}

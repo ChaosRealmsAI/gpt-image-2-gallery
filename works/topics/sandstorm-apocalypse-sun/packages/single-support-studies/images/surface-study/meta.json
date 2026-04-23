@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Sandstorm Apocalypse Sun. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A colossal wall of sand advances across an open plain under a dim blood-red sun, with the air turning ochre and gray, horizon contrast collapsing, and the ground scoured by wind-driven dust. Build an independent square study around the way atmosphere interacts with surfaces, keeping enough environmental context for the image to feel finished rather than cropped at random.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. One jeep or utility vehicle in silhouette should provide a simple scale cue, while the real subject remains the storm front, the compressed sky, and the sense of irreversible movement across the land. Let textures, reflections, residue, moisture, dust, or particulate response become primary, while the broader setting remains clearly implied.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the airborne dust granular and directional, with partial visibility, layered turbulence, and a sun disc that feels filtered by dense particulate atmosphere rather than pasted in as a graphic symbol. The key is material credibility under dramatic light, with micro-contrast and controlled mood supporting the theme.\n\nUse case:\nSandstorm Sun single study 5/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city ruins, no readable license plates, no zombies, no science-fiction armor, no clean air clarity.",
+  "id": "surface-study",
+  "title": "Surface Study",
+  "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sandstorm-apocalypse-sun/packages/single-support-studies/images/surface-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on material response.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Surface Study",
+      "description": "An independent study focused on material surfaces and how the topic atmosphere behaves across them."
+    },
+    "zh-CN": {
+      "title": "表面研究",
+      "description": "沙暴红日 · 独立研究该主题气氛如何作用于各类材质表面的画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Surface Study from Sandstorm Apocalypse Sun.",
+      "zh-CN": "沙暴红日的表面研究画面。"
+    }
+  }
+}

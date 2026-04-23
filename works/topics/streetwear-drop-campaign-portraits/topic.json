@@ -1,0 +1,53 @@
+{
+  "id": "streetwear-drop-campaign-portraits",
+  "slug": "streetwear-drop-campaign-portraits",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "consistency",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Streetwear Drop Campaign Portraits",
+  "short_title": "Streetwear Drop",
+  "description": "Create streetwear launch portraits that blend fashion attitude, youth casting, and campaign-ready framing across posters, covers, and product pages.",
+  "i18n": {
+    "en": {
+      "title": "Streetwear Drop Campaign Portraits",
+      "short_title": "Streetwear Drop",
+      "description": "Create streetwear launch portraits that blend fashion attitude, youth casting, and campaign-ready framing across posters, covers, and product pages."
+    },
+    "zh-CN": {
+      "title": "街头品牌发售人像",
+      "short_title": "街头发售",
+      "description": "做 streetwear 新品发售的人像宣传图，要求模特有态度、服装能看清、画面也能同时服务海报和商品页。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 698,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "reasoning-composition",
+      "fashion"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-drop-campaign-lock",
+      "type": "series",
+      "title": "Identity-Locked Streetwear Drop",
+      "path": "packages/series-drop-campaign-lock/package.json"
+    }
+  ]
+}

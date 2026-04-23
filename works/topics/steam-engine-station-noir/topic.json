@@ -1,0 +1,55 @@
+{
+  "id": "steam-engine-station-noir",
+  "slug": "steam-engine-station-noir",
+  "category": "photography",
+  "style": [
+    "cinematic",
+    "photorealism"
+  ],
+  "capability": [
+    "cinematic",
+    "style-transfer"
+  ],
+  "title": "Steam Engine Station Noir",
+  "short_title": "Steam Station",
+  "description": "A 1940s train platform blanketed in steam, a single spotlight on a lone figure in trench coat, the locomotive's red tail light glowing through vapour.",
+  "i18n": {
+    "en": {
+      "title": "Steam Engine Station Noir",
+      "short_title": "Steam Station",
+      "description": "A 1940s train platform blanketed in steam, a single spotlight on a lone figure in trench coat, the locomotive's red tail light glowing through vapour."
+    },
+    "zh-CN": {
+      "title": "蒸汽机车站黑白",
+      "short_title": "蒸汽机车站",
+      "description": "1940 年代火车站台 · 蒸汽弥漫 · 一束聚光灯打在风衣孤影上 · 机车红尾灯穿雾隐现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 380,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core Atmosphere Sequence",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Independent Light Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

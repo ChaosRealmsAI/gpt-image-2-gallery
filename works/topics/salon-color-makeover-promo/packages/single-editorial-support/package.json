@@ -1,0 +1,67 @@
+{
+  "id": "single-editorial-support",
+  "type": "single",
+  "title": "Editorial Support",
+  "description": "Five independent support studies showing before-after logic, catalog structure, and commercial rollout for one identity-consistent talent story.",
+  "creative_direction": "Build support assets that prove practical usability: comparison boards, lookbook pages, product cards, salon posters, and editorial close-ups.",
+  "cover_image": "images/before-after-board/image.png",
+  "i18n": {
+    "en": {
+      "title": "Editorial Support",
+      "description": "Five independent support studies showing before-after logic, catalog structure, and commercial rollout for one identity-consistent talent story."
+    },
+    "zh-CN": {
+      "title": "编辑配套图",
+      "description": "五张互不依赖的编辑配套研究图，展示前后对比、目录结构和商业宣发表达。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "before-after-board",
+      "title": "Before After Board",
+      "image": "images/before-after-board/image.png",
+      "meta": "images/before-after-board/meta.json"
+    },
+    {
+      "id": "lookbook-sheet",
+      "title": "Lookbook Sheet",
+      "image": "images/lookbook-sheet/image.png",
+      "meta": "images/lookbook-sheet/meta.json"
+    },
+    {
+      "id": "detail-closeup",
+      "title": "Detail Close-up",
+      "image": "images/detail-closeup/image.png",
+      "meta": "images/detail-closeup/meta.json"
+    },
+    {
+      "id": "promo-poster",
+      "title": "Promo Poster",
+      "image": "images/promo-poster/image.png",
+      "meta": "images/promo-poster/meta.json"
+    },
+    {
+      "id": "campaign-grid",
+      "title": "Campaign Grid",
+      "image": "images/campaign-grid/image.png",
+      "meta": "images/campaign-grid/meta.json"
+    }
+  ]
+}

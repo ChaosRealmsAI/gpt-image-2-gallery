@@ -1,0 +1,108 @@
+{
+  "id": "series-identity-switchboard",
+  "type": "series",
+  "title": "Identity-Locked Switchboard",
+  "description": "A nine-image identity-locked portrait series for Same-Model Wardrobe Try-On Campaign, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Same-Model Wardrobe Try-On Campaign; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-natural-base/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-natural-base/meta.json",
+      "images/02-look-switch-one/meta.json",
+      "images/03-look-switch-two/meta.json",
+      "images/04-look-switch-three/meta.json",
+      "images/05-look-switch-four/meta.json",
+      "images/06-look-switch-five/meta.json",
+      "images/07-look-switch-six/meta.json",
+      "images/08-detail-proof-board/meta.json",
+      "images/09-campaign-finale/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-natural-base first. Use its runtime result URL as --ref for 02-look-switch-one, 03-look-switch-two, 04-look-switch-three, 05-look-switch-four, 06-look-switch-five, 07-look-switch-six, 08-detail-proof-board, 09-campaign-finale. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Switchboard",
+      "description": "A nine-image identity-locked portrait series for Same-Model Wardrobe Try-On Campaign, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸切换样机板",
+      "description": "围绕 同模特换装宣传组 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-natural-base",
+      "title": "Reference Natural Base",
+      "image": "images/01-reference-natural-base/image.png",
+      "meta": "images/01-reference-natural-base/meta.json"
+    },
+    {
+      "id": "02-look-switch-one",
+      "title": "Look Switch One",
+      "image": "images/02-look-switch-one/image.png",
+      "meta": "images/02-look-switch-one/meta.json"
+    },
+    {
+      "id": "03-look-switch-two",
+      "title": "Look Switch Two",
+      "image": "images/03-look-switch-two/image.png",
+      "meta": "images/03-look-switch-two/meta.json"
+    },
+    {
+      "id": "04-look-switch-three",
+      "title": "Look Switch Three",
+      "image": "images/04-look-switch-three/image.png",
+      "meta": "images/04-look-switch-three/meta.json"
+    },
+    {
+      "id": "05-look-switch-four",
+      "title": "Look Switch Four",
+      "image": "images/05-look-switch-four/image.png",
+      "meta": "images/05-look-switch-four/meta.json"
+    },
+    {
+      "id": "06-look-switch-five",
+      "title": "Look Switch Five",
+      "image": "images/06-look-switch-five/image.png",
+      "meta": "images/06-look-switch-five/meta.json"
+    },
+    {
+      "id": "07-look-switch-six",
+      "title": "Look Switch Six",
+      "image": "images/07-look-switch-six/image.png",
+      "meta": "images/07-look-switch-six/meta.json"
+    },
+    {
+      "id": "08-detail-proof-board",
+      "title": "Detail Proof Board",
+      "image": "images/08-detail-proof-board/image.png",
+      "meta": "images/08-detail-proof-board/meta.json"
+    },
+    {
+      "id": "09-campaign-finale",
+      "title": "Campaign Finale",
+      "image": "images/09-campaign-finale/image.png",
+      "meta": "images/09-campaign-finale/meta.json"
+    }
+  ]
+}

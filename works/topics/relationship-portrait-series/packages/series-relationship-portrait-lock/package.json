@@ -1,0 +1,108 @@
+{
+  "id": "series-relationship-portrait-lock",
+  "type": "series",
+  "title": "Identity-Locked Relationship Portrait Story",
+  "description": "A nine-image identity-locked portrait series for Relationship Portrait Series, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Relationship Portrait Series; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-pair-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-pair-anchor/meta.json",
+      "images/02-closeness-shot/meta.json",
+      "images/03-tension-shot/meta.json",
+      "images/04-walking-side-by-side/meta.json",
+      "images/05-shared-laugh-candid/meta.json",
+      "images/06-quiet-silence-frame/meta.json",
+      "images/07-hands-and-detail/meta.json",
+      "images/08-poster-hero-pair/meta.json",
+      "images/09-monochrome-afterglow/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-pair-anchor first. Use its runtime result URL as --ref for 02-closeness-shot, 03-tension-shot, 04-walking-side-by-side, 05-shared-laugh-candid, 06-quiet-silence-frame, 07-hands-and-detail, 08-poster-hero-pair, 09-monochrome-afterglow. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Relationship Portrait Story",
+      "description": "A nine-image identity-locked portrait series for Relationship Portrait Series, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸关系肖像故事",
+      "description": "围绕 关系感人物肖像组 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-pair-anchor",
+      "title": "Reference Pair Anchor",
+      "image": "images/01-reference-pair-anchor/image.png",
+      "meta": "images/01-reference-pair-anchor/meta.json"
+    },
+    {
+      "id": "02-closeness-shot",
+      "title": "Closeness Shot",
+      "image": "images/02-closeness-shot/image.png",
+      "meta": "images/02-closeness-shot/meta.json"
+    },
+    {
+      "id": "03-tension-shot",
+      "title": "Tension Shot",
+      "image": "images/03-tension-shot/image.png",
+      "meta": "images/03-tension-shot/meta.json"
+    },
+    {
+      "id": "04-walking-side-by-side",
+      "title": "Walking Side By Side",
+      "image": "images/04-walking-side-by-side/image.png",
+      "meta": "images/04-walking-side-by-side/meta.json"
+    },
+    {
+      "id": "05-shared-laugh-candid",
+      "title": "Shared Laugh Candid",
+      "image": "images/05-shared-laugh-candid/image.png",
+      "meta": "images/05-shared-laugh-candid/meta.json"
+    },
+    {
+      "id": "06-quiet-silence-frame",
+      "title": "Quiet Silence Frame",
+      "image": "images/06-quiet-silence-frame/image.png",
+      "meta": "images/06-quiet-silence-frame/meta.json"
+    },
+    {
+      "id": "07-hands-and-detail",
+      "title": "Hands And Detail",
+      "image": "images/07-hands-and-detail/image.png",
+      "meta": "images/07-hands-and-detail/meta.json"
+    },
+    {
+      "id": "08-poster-hero-pair",
+      "title": "Poster Hero Pair",
+      "image": "images/08-poster-hero-pair/image.png",
+      "meta": "images/08-poster-hero-pair/meta.json"
+    },
+    {
+      "id": "09-monochrome-afterglow",
+      "title": "Monochrome Afterglow",
+      "image": "images/09-monochrome-afterglow/image.png",
+      "meta": "images/09-monochrome-afterglow/meta.json"
+    }
+  ]
+}

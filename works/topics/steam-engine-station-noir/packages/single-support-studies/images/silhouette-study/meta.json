@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Steam Engine Station Noir. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A mid-century rail platform is buried in rolling steam and hard-edged station light, with mostly monochrome tonality, wet pavement, iron structure, and one restrained red tail lamp or signal glowing through the vapor. Compose an independent frame where one human, animal, or object silhouette negotiates with the atmospheric light event in a clean, readable way.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. A lone figure in a trench coat, the locomotive mass, steel beams, and layered steam curtains should build the scene, but the person remains anonymous and secondary to the environment and the light-cutting fog. The silhouette should supply scale and emotional orientation, but the environment still needs to carry most of the storytelling weight.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Prioritize steam density layering, wet-surface sheen, noir contrast, and restrained color use, so the image feels like a lost still from a serious black-and-white crime film rather than a cosplay set. Keep the silhouette simple and believable, avoiding poster-like graphic flattening while preserving strong contrast.\n\nUse case:\nSteam Station single study 6/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable station boards, no crowded commuters, no exaggerated detective props, no pristine modern train design, no bright advertising.",
+  "id": "silhouette-study",
+  "title": "Silhouette Study",
+  "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/steam-engine-station-noir/packages/single-support-studies/images/silhouette-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on silhouette and atmosphere balance.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Silhouette Study",
+      "description": "An independent study using a single silhouette to measure scale and emotional tension inside the scene."
+    },
+    "zh-CN": {
+      "title": "剪影研究",
+      "description": "蒸汽机车站 · 以单一剪影衡量场景尺度与情绪张力的独立画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "Silhouette Study from Steam Engine Station Noir.",
+      "zh-CN": "蒸汽机车站的剪影研究画面。"
+    }
+  }
+}

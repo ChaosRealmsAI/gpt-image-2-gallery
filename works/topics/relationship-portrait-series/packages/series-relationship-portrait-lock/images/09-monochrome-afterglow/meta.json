@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Relationship Portrait Series. Use a grayscale intimate frame with refined tonal separation and quietly resolved emotional mood. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter the same recurring pair: a woman with golden-brown skin and a curly bob, and her partner with warm brown skin, cropped hair, and a relaxed upright build. Close on the same pair in black and white, preserving recognition, proportion, and emotional history from the prior frames. Use the example direction from the brief as grounding context: Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This should feel like the last image in a relationship portrait essay. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nRelationship Portrait Series series study 9/9, a monochrome closing portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no muddy grayscale, no vintage scratches, no second-couple substitution, no drift in scale.",
+  "id": "09-monochrome-afterglow",
+  "title": "Monochrome Afterglow",
+  "description": "Monochrome Afterglow variation for Relationship Portrait Series, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "reasoning-composition",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/09-monochrome-afterglow/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-pair-anchor",
+        "meta_path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/01-reference-pair-anchor/meta.json",
+        "image_path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/01-reference-pair-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a monochrome closing portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Monochrome Afterglow",
+      "description": "Monochrome Afterglow variation for Relationship Portrait Series, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "黑白余韵版",
+      "description": "黑白余韵版 是 关系感人物肖像组 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Monochrome Afterglow portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的黑白余韵版肖像变体。"
+    }
+  }
+}

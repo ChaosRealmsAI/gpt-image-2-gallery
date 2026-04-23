@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Sandstorm Apocalypse Sun. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A colossal wall of sand advances across an open plain under a dim blood-red sun, with the air turning ochre and gray, horizon contrast collapsing, and the ground scoured by wind-driven dust. End on a quieter independent image that holds the residue of the topic atmosphere after its loudest moment has passed, while still feeling complete and exhibition-ready.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. One jeep or utility vehicle in silhouette should provide a simple scale cue, while the real subject remains the storm front, the compressed sky, and the sense of irreversible movement across the land. The frame should suggest memory, aftermath, or lingering presence through environment first and only secondarily through any figure or object.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Make the airborne dust granular and directional, with partial visibility, layered turbulence, and a sun disc that feels filtered by dense particulate atmosphere rather than pasted in as a graphic symbol. Favor restraint, believable light decay, and subtle narrative closure over spectacle or decorative excess.\n\nUse case:\nSandstorm Sun single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no city ruins, no readable license plates, no zombies, no science-fiction armor, no clean air clarity.",
+  "id": "afterglow-study",
+  "title": "Afterglow Study",
+  "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "physics-materials"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/sandstorm-apocalypse-sun/packages/single-support-studies/images/afterglow-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on quiet atmospheric closure.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Afterglow Study",
+      "description": "A quiet independent closing frame built around the lingering residue of the same atmosphere."
+    },
+    "zh-CN": {
+      "title": "余韵研究",
+      "description": "沙暴红日 · 围绕同一气氛残留余韵而构成的安静收束独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "physics-materials"
+    ],
+    "alt": {
+      "en": "Afterglow Study from Sandstorm Apocalypse Sun.",
+      "zh-CN": "沙暴红日的余韵研究画面。"
+    }
+  }
+}

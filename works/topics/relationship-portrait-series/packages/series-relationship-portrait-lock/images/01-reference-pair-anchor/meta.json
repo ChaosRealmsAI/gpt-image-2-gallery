@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Relationship Portrait Series. Use a clean portrait setup with enough room for two bodies, stable spacing, and honest emotional neutrality. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter the same recurring pair: a woman with golden-brown skin and a curly bob, and her partner with warm brown skin, cropped hair, and a relaxed upright build. Establish the same recurring pair and especially the same primary reference model so later relationship beats can shift emotion without changing identity. Use the example direction from the brief as grounding context: Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The body spacing, height difference, and facial recognition of both people should lock in here. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nRelationship Portrait Series series study 1/9, the baseline pair portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no extra friends, no wedding-style decor unless relevant, no readable text, no generic stock smile.",
+  "id": "01-reference-pair-anchor",
+  "title": "Reference Pair Anchor",
+  "description": "Reference portrait for Relationship Portrait Series, locking the same face and body identity for the rest of the nine-image series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "reasoning-composition",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/01-reference-pair-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root identity reference for the nine-image portrait series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Pair Anchor",
+      "description": "Reference portrait for Relationship Portrait Series, locking the same face and body identity for the rest of the nine-image series."
+    },
+    "zh-CN": {
+      "title": "基准双人锚点",
+      "description": "关系感人物肖像组 的基准肖像,为后续九图系列锁定同一张脸与体态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Reference Pair Anchor portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的基准双人锚点肖像变体。"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "relationship-portrait-series",
+  "slug": "relationship-portrait-series",
+  "category": "photography",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "commercial-mockup"
+  ],
+  "title": "Relationship Portrait Series",
+  "short_title": "Relationship Set",
+  "description": "Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.",
+  "i18n": {
+    "en": {
+      "title": "Relationship Portrait Series",
+      "short_title": "Relationship Set",
+      "description": "Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze."
+    },
+    "zh-CN": {
+      "title": "关系感人物肖像组",
+      "short_title": "关系肖像",
+      "description": "做双人或小群体关系肖像，通过站位、距离、眼神和动作把情侣、朋友、兄妹、乐队等关系拍出来。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 724,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "commercial-mockup"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-relationship-portrait-lock",
+      "type": "series",
+      "title": "Identity-Locked Relationship Portrait Story",
+      "path": "packages/series-relationship-portrait-lock/package.json"
+    }
+  ]
+}

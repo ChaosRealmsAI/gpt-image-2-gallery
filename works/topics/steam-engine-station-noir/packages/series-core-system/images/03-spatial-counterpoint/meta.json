@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Steam Engine Station Noir. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A mid-century rail platform is buried in rolling steam and hard-edged station light, with mostly monochrome tonality, wet pavement, iron structure, and one restrained red tail lamp or signal glowing through the vapor. Shift to an oblique or lateral point of view that reveals different depth layers while staying inside the same place and the same atmospheric event.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. A lone figure in a trench coat, the locomotive mass, steel beams, and layered steam curtains should build the scene, but the person remains anonymous and secondary to the environment and the light-cutting fog. Hold the reference structure, but use the new angle to show secondary planes, foreground interruption, or a changed distance relationship.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Prioritize steam density layering, wet-surface sheen, noir contrast, and restrained color use, so the image feels like a lost still from a serious black-and-white crime film rather than a cosplay set. The success condition is continuity with the reference plus a richer sense of depth, not a new location or a new lighting system.\n\nUse case:\nSteam Station series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable station boards, no crowded commuters, no exaggerated detective props, no pristine modern train design, no bright advertising.",
+  "id": "03-spatial-counterpoint",
+  "title": "Spatial Counterpoint",
+  "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/steam-engine-station-noir/packages/series-core-system/images/03-spatial-counterpoint/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/steam-engine-station-noir/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/steam-engine-station-noir/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series frame using the reference image to preserve the same place from a shifted angle.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Spatial Counterpoint",
+      "description": "A dependent side-angle variation revealing additional depth while holding the reference world intact."
+    },
+    "zh-CN": {
+      "title": "侧向空间变体",
+      "description": "蒸汽机车站 · 在维持参考世界一致性的前提下，用侧向视角展示更复杂纵深的依赖变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "Spatial Counterpoint from Steam Engine Station Noir.",
+      "zh-CN": "蒸汽机车站的侧向空间变体画面。"
+    }
+  }
+}

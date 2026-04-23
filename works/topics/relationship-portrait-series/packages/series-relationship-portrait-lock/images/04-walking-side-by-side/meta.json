@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Relationship Portrait Series. Use a square environmental portrait that captures walking or turning together without losing face clarity. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter the same recurring pair: a woman with golden-brown skin and a curly bob, and her partner with warm brown skin, cropped hair, and a relaxed upright build. Show the same couple in motion while keeping proportions, height difference, and facial markers exact. Use the example direction from the brief as grounding context: Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Photograph pairs or small groups in ways that reveal intimacy, tension, friendship, or shared history through pose, distance, and gaze.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. This image should feel candid but still art-directed enough for campaign or editorial use. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nRelationship Portrait Series series study 4/9, a movement-aware pair portrait.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no motion blur mush, no duplicated limbs, no crowd, no changed hairstyles.",
+  "id": "04-walking-side-by-side",
+  "title": "Walking Side By Side",
+  "description": "Walking Side By Side variation for Relationship Portrait Series, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "reasoning-composition",
+    "multi-image-reference",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/04-walking-side-by-side/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-pair-anchor",
+        "meta_path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/01-reference-pair-anchor/meta.json",
+        "image_path": "works/topics/relationship-portrait-series/packages/series-relationship-portrait-lock/images/01-reference-pair-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a movement-aware pair portrait.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Walking Side By Side",
+      "description": "Walking Side By Side variation for Relationship Portrait Series, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "并肩行走版",
+      "description": "并肩行走版 是 关系感人物肖像组 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "reasoning-composition",
+      "multi-image-reference",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Walking Side By Side portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的并肩行走版肖像变体。"
+    }
+  }
+}

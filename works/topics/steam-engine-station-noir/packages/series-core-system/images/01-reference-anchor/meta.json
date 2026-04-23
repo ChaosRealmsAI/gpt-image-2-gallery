@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Steam Engine Station Noir. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A mid-century rail platform is buried in rolling steam and hard-edged station light, with mostly monochrome tonality, wet pavement, iron structure, and one restrained red tail lamp or signal glowing through the vapor. Keep the camera in a disciplined anchor position so the full lighting event and the main spatial structure are immediately legible from edge to edge.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. A lone figure in a trench coat, the locomotive mass, steel beams, and layered steam curtains should build the scene, but the person remains anonymous and secondary to the environment and the light-cutting fog. This frame should lock the canonical arrangement, scale relationship, and emotional tone that the later dependent images inherit.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Prioritize steam density layering, wet-surface sheen, noir contrast, and restrained color use, so the image feels like a lost still from a serious black-and-white crime film rather than a cosplay set. Use this image to establish the authoritative direction of light, atmospheric density, and structural silhouette for the package.\n\nUse case:\nSteam Station series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable station boards, no crowded commuters, no exaggerated detective props, no pristine modern train design, no bright advertising.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "cinematic",
+    "photorealism",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/steam-engine-station-noir/packages/series-core-system/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the series package.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "Canonical reference frame establishing the core atmosphere, lighting logic, and spatial read for the series."
+    },
+    "zh-CN": {
+      "title": "基准锚点",
+      "description": "蒸汽机车站 · 建立整组系列光线逻辑、空间关系与氛围基调的基准画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "Reference Anchor from Steam Engine Station Noir.",
+      "zh-CN": "蒸汽机车站的基准锚点画面。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Streetwear Drop Campaign Portraits. Use a square campaign frame on steps or sidewalk where the reference model remains primary and a secondary cast partner supports the mood. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Create streetwear launch portraits that blend fashion attitude, youth casting, and campaign-ready framing across posters, covers, and product pages.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one young streetwear talent with medium brown skin, cropped twists, relaxed athletic proportions, and a confident direct gaze. The same reference model must remain the unmistakable lead subject even if one second person briefly joins the frame. Preserve exact face / hair base / body proportions from the reference model. Use the example direction from the brief as grounding context: Create streetwear launch portraits that blend fashion attitude, youth casting, and campaign-ready framing across posters, covers, and product pages.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Create streetwear launch portraits that blend fashion attitude, youth casting, and campaign-ready framing across posters, covers, and product pages.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. Use the extra cast only to sell streetwear community energy, not to replace the hero. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nStreetwear Drop Campaign Portraits series study 6/9, a duo-cast campaign variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no identity swap, no crowd, no logo bag, no ambiguous lead subject.",
+  "id": "06-duo-cast-street-step",
+  "title": "Duo Cast Street Step",
+  "description": "Duo Cast Street Step variation for Streetwear Drop Campaign Portraits, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "style-transfer",
+    "commercial-mockup",
+    "reasoning-composition",
+    "fashion"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/streetwear-drop-campaign-portraits/packages/series-drop-campaign-lock/images/06-duo-cast-street-step/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-drop-anchor",
+        "meta_path": "works/topics/streetwear-drop-campaign-portraits/packages/series-drop-campaign-lock/images/01-reference-drop-anchor/meta.json",
+        "image_path": "works/topics/streetwear-drop-campaign-portraits/packages/series-drop-campaign-lock/images/01-reference-drop-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward a duo-cast campaign variation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Duo Cast Street Step",
+      "description": "Duo Cast Street Step variation for Streetwear Drop Campaign Portraits, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "双人街头版",
+      "description": "双人街头版 是 街头品牌发售人像 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "reasoning-composition",
+      "fashion"
+    ],
+    "alt": {
+      "en": "Duo Cast Street Step portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的双人街头版肖像变体。"
+    }
+  }
+}

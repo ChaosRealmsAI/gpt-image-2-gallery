@@ -1,0 +1,109 @@
+{
+  "id": "series-drop-campaign-lock",
+  "type": "series",
+  "title": "Identity-Locked Streetwear Drop",
+  "description": "A nine-image identity-locked portrait series for Streetwear Drop Campaign Portraits, built from one reference portrait and eight dependent variations.",
+  "creative_direction": "Portrait backlog lock: image 01 establishes the exact person for Streetwear Drop Campaign Portraits; images 02-09 all depend on that reference and may vary only lighting, scene, wardrobe, pose, emotion, or grooming while preserving the same face, hair base, and body proportions.",
+  "cover_image": "images/01-reference-drop-anchor/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-drop-anchor/meta.json",
+      "images/02-hoodie-hero/meta.json",
+      "images/03-varsity-layer/meta.json",
+      "images/04-cap-and-denim/meta.json",
+      "images/05-detail-crop-hands/meta.json",
+      "images/06-duo-cast-street-step/meta.json",
+      "images/07-poster-cover/meta.json",
+      "images/08-night-rimlight-portrait/meta.json",
+      "images/09-campaign-contact-sheet/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-drop-anchor first. Use its runtime result URL as --ref for 02-hoodie-hero, 03-varsity-layer, 04-cap-and-denim, 05-detail-crop-hands, 06-duo-cast-street-step, 07-poster-cover, 08-night-rimlight-portrait, 09-campaign-contact-sheet. Queue may run 02-09 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity-Locked Streetwear Drop",
+      "description": "A nine-image identity-locked portrait series for Streetwear Drop Campaign Portraits, built from one reference portrait and eight dependent variations."
+    },
+    "zh-CN": {
+      "title": "锁脸街头发售系列",
+      "description": "围绕 街头品牌发售人像 构建的九图锁脸系列,先用一张参考肖像建立身份,再生成八张依赖参考的变体。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "style-transfer",
+      "commercial-mockup",
+      "reasoning-composition",
+      "fashion"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-drop-anchor",
+      "title": "Reference Drop Anchor",
+      "image": "images/01-reference-drop-anchor/image.png",
+      "meta": "images/01-reference-drop-anchor/meta.json"
+    },
+    {
+      "id": "02-hoodie-hero",
+      "title": "Hoodie Hero",
+      "image": "images/02-hoodie-hero/image.png",
+      "meta": "images/02-hoodie-hero/meta.json"
+    },
+    {
+      "id": "03-varsity-layer",
+      "title": "Varsity Layer",
+      "image": "images/03-varsity-layer/image.png",
+      "meta": "images/03-varsity-layer/meta.json"
+    },
+    {
+      "id": "04-cap-and-denim",
+      "title": "Cap And Denim",
+      "image": "images/04-cap-and-denim/image.png",
+      "meta": "images/04-cap-and-denim/meta.json"
+    },
+    {
+      "id": "05-detail-crop-hands",
+      "title": "Detail Crop Hands",
+      "image": "images/05-detail-crop-hands/image.png",
+      "meta": "images/05-detail-crop-hands/meta.json"
+    },
+    {
+      "id": "06-duo-cast-street-step",
+      "title": "Duo Cast Street Step",
+      "image": "images/06-duo-cast-street-step/image.png",
+      "meta": "images/06-duo-cast-street-step/meta.json"
+    },
+    {
+      "id": "07-poster-cover",
+      "title": "Poster Cover",
+      "image": "images/07-poster-cover/image.png",
+      "meta": "images/07-poster-cover/meta.json"
+    },
+    {
+      "id": "08-night-rimlight-portrait",
+      "title": "Night Rimlight Portrait",
+      "image": "images/08-night-rimlight-portrait/image.png",
+      "meta": "images/08-night-rimlight-portrait/meta.json"
+    },
+    {
+      "id": "09-campaign-contact-sheet",
+      "title": "Campaign Contact Sheet",
+      "image": "images/09-campaign-contact-sheet/image.png",
+      "meta": "images/09-campaign-contact-sheet/meta.json"
+    }
+  ]
+}

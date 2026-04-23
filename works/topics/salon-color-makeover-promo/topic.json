@@ -1,0 +1,59 @@
+{
+  "id": "salon-color-makeover-promo",
+  "slug": "salon-color-makeover-promo",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Salon Color Makeover Promo",
+  "short_title": "Salon Promo",
+  "description": "Create salon-grade makeover campaigns built around one person moving through before, during, and after hair color transformations with ad-ready polish.",
+  "i18n": {
+    "en": {
+      "title": "Salon Color Makeover Promo",
+      "short_title": "Salon Promo",
+      "description": "Create salon-grade makeover campaigns built around one person moving through before, during, and after hair color transformations with ad-ready polish."
+    },
+    "zh-CN": {
+      "title": "沙龙染发改造宣传",
+      "short_title": "沙龙改造",
+      "description": "围绕同一个人做染发改造前后和过程图，适合沙龙广告、门店海报、社媒 reels 封面和宣传页。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 834,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Identity Lock",
+      "path": "packages/series-identity-lock/package.json"
+    },
+    {
+      "id": "single-editorial-support",
+      "type": "single",
+      "title": "Editorial Support",
+      "path": "packages/single-editorial-support/package.json"
+    }
+  ]
+}

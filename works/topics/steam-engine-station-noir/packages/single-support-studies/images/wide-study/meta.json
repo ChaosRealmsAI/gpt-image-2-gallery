@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nCreate a square cinematic still for Steam Engine Station Noir. Use production-grade photoreal lighting, disciplined lens behavior, and a composition that feels like a finished key frame from an original film rather than a casual snapshot. A mid-century rail platform is buried in rolling steam and hard-edged station light, with mostly monochrome tonality, wet pavement, iron structure, and one restrained red tail lamp or signal glowing through the vapor. Pull back enough to explain the broader geography or architectural envelope while keeping the square crop intentional and balanced.\n\nSubject:\nBuild a coherent original scene whose emotional center comes from atmosphere, light physics, and spatial clarity. Avoid relying on celebrity likeness, franchise iconography, or stylized illustration shortcuts. A lone figure in a trench coat, the locomotive mass, steel beams, and layered steam curtains should build the scene, but the person remains anonymous and secondary to the environment and the light-cutting fog. The wider frame should reveal how the main light or weather phenomenon organizes the surrounding world and not just the immediate subject.\n\nImportant details:\nPreserve a believable physical world with strong depth layering, careful color separation, and premium image discipline. Prioritize steam density layering, wet-surface sheen, noir contrast, and restrained color use, so the image feels like a lost still from a serious black-and-white crime film rather than a cosplay set. Make scale legible through spacing, horizon control, and foreground-to-background separation rather than through extra props.\n\nUse case:\nSteam Station single study 8/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable station boards, no crowded commuters, no exaggerated detective props, no pristine modern train design, no bright advertising.",
+  "id": "wide-study",
+  "title": "Wide Study",
+  "description": "An independent wider frame explaining the larger geography behind the topic atmosphere.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "cinematic",
+    "photorealism",
+    "grayscale"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/steam-engine-station-noir/packages/single-support-studies/images/wide-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent prompted image focused on wide spatial explanation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Wide Study",
+      "description": "An independent wider frame explaining the larger geography behind the topic atmosphere."
+    },
+    "zh-CN": {
+      "title": "广角研究",
+      "description": "蒸汽机车站 · 通过更广视角解释该主题氛围所处整体地理或建筑环境的独立画面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "cinematic",
+      "photorealism",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "Wide Study from Steam Engine Station Noir.",
+      "zh-CN": "蒸汽机车站的广角研究画面。"
+    }
+  }
+}

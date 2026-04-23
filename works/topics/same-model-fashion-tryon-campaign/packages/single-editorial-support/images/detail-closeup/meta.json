@@ -1,0 +1,62 @@
+{
+  "prompt": "Scene:\nA square commercial beauty-or-fashion image designed like a polished campaign proof for Same-Model Fashion Try-On Campaign. Keep the camera discipline clear and believable: portrait-oriented within the square, premium studio light, controlled tonal contrast, and enough surrounding negative space to feel like an ad layout without relying on readable typography. The image should look production-ready, with realistic skin, hair, fabric, and makeup rendering that supports identity locking instead of distracting from it.\n\nSubject:\nBuild the frame around one clearly recognizable person. Detail Close-up should feel like a specific transformation step that a close-up study focusing on texture, finish, and precise beauty or garment details. The face structure, age, body proportions, and general camera position must stay consistent with the same-person premise of Lock one model's identity while rotating wardrobe, styling direction, and seasonal looks for fashion commerce, editorial, and campaign usage.. Styling, wardrobe, grooming, makeup, hair, or pose can evolve, but the viewer must believe it is unquestionably the same subject across the whole theme. Use a premium editorial-commercial tone rather than a casual portrait session.\n\nImportant details:\nThe visual test is identity consistency under change. Preserve stable bone structure, eye spacing, nose shape, lip volume, skin tone family, and believable texture response. Let the transformation be visible through styling choices instead of facial drift. This theme studies multi-image-reference, editing-workflow, commercial-mockup, photorealism through a production-ready visual system. Make the composition clean enough for client review, with professional grooming fidelity and enough detail for salon, beauty, or fashion decision-making. Aim for clear hierarchy, polished craft, and immediately usable campaign logic.\n\nUse case:\nSame-Model Fashion Try-On Campaign single study 3/5.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no face drift, no inconsistent age shift, no extra limbs, no duplicate person, no asymmetric eye placement, no beauty-editorial chaos.",
+  "id": "detail-closeup",
+  "title": "Detail Close-up",
+  "description": "Detail Close-up for Same-Model Fashion Try-On Campaign, a close-up study focusing on texture, finish, and precise beauty or garment details.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "editing-workflow",
+    "single",
+    "multi-image-reference",
+    "commercial-mockup",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/same-model-fashion-tryon-campaign/packages/single-editorial-support/images/detail-closeup/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image study with no runtime reference dependency."
+  },
+  "i18n": {
+    "en": {
+      "title": "Detail Close-up",
+      "description": "Detail Close-up for Same-Model Fashion Try-On Campaign, a close-up study focusing on texture, finish, and precise beauty or garment details."
+    },
+    "zh-CN": {
+      "title": "细节特写",
+      "description": "同人换装 主题中的细节特写研究图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "multi-image-reference",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "Detail Close-up campaign image for Fashion Try-On.",
+      "zh-CN": "同人换装 主题的细节特写画面。"
+    }
+  }
+}

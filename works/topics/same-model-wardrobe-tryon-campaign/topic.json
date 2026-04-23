@@ -1,0 +1,54 @@
+{
+  "id": "same-model-wardrobe-tryon-campaign",
+  "slug": "same-model-wardrobe-tryon-campaign",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Same-Model Wardrobe Try-On Campaign",
+  "short_title": "Wardrobe Try-On",
+  "description": "Keep the same model stable while swapping through campaign-ready wardrobe directions that feel like a real fashion fitting or virtual try-on studio.",
+  "i18n": {
+    "en": {
+      "title": "Same-Model Wardrobe Try-On Campaign",
+      "short_title": "Wardrobe Try-On",
+      "description": "Keep the same model stable while swapping through campaign-ready wardrobe directions that feel like a real fashion fitting or virtual try-on studio."
+    },
+    "zh-CN": {
+      "title": "同模特换装宣传组",
+      "short_title": "换装组",
+      "description": "围绕同一个模特测试多套穿搭，从基础款到成套风格化 campaign outfit，重点是脸和体态保持稳定。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 589,
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-identity-switchboard",
+      "type": "series",
+      "title": "Identity-Locked Switchboard",
+      "path": "packages/series-identity-switchboard/package.json"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prompt": "Scene:\nCreate a square 1:1 portrait image for Same-Face Makeup Era Matrix. Use a final single-look variation with confident but restrained campaign polish. The frame should feel like a finished professional deliverable rather than a casual snapshot, with clear lens discipline, believable light falloff, and a palette that directly supports Transform one face across beauty eras and makeup directions while holding bone structure, age read, and natural identity stable.. Keep enough surrounding space and compositional control for gallery, research, campaign, or approval-board reuse while staying photoreal and human-scaled.\n\nSubject:\nCenter one beauty model with golden olive skin, dark almond eyes, softly arched brows, and stable face proportions suited to multiple makeup eras. Use the same person again in a sixth styling state, making sure recognition is instant before the viewer notices what changed. Use the example direction from the brief as grounding context: Transform one face across beauty eras and makeup directions while holding bone structure, age read, and natural identity stable.. Wardrobe, lighting, environment, and pose may shift to serve this variation, but the viewer must immediately understand that the same reference identity is still in front of the camera.\n\nImportant details:\nThis backlog line is difficult because Transform one face across beauty eras and makeup directions while holding bone structure, age read, and natural identity stable.. Preserve skin tone family, bone structure, eye spacing, nose shape, mouth shape, hairline logic, shoulder width, and overall body read across the entire series. preserve exact face / hair base / body proportions from the reference model. The transformation should feel deliberate, premium, and usable in a real salon, beauty, fashion, or casting workflow. Avoid the common failure described in the brief: ordinary image models often lose likeness once styling, lighting, or layout changes enter the frame. Success should feel like the result should feel professionally usable, coherent, and clearly built around one stable human identity.\n\nUse case:\nSame-Face Makeup Era Matrix series study 7/9, the sixth controlled transformation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, preserve exact face / hair base / body proportions from the reference model, no hidden face, no perspective warp, no dramatic environment change, no AI-gloss artifacts.",
+  "id": "07-look-switch-six",
+  "title": "Look Switch Six",
+  "description": "Look Switch Six variation for Same-Face Makeup Era Matrix, preserving the same identity while shifting styling, mood, or context.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "identity-consistency",
+    "photorealism",
+    "series",
+    "editing-workflow",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/same-face-makeup-era-matrix/packages/series-identity-switchboard/images/07-look-switch-six/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-natural-base",
+        "meta_path": "works/topics/same-face-makeup-era-matrix/packages/series-identity-switchboard/images/01-reference-natural-base/meta.json",
+        "image_path": "works/topics/same-face-makeup-era-matrix/packages/series-identity-switchboard/images/01-reference-natural-base/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 as the primary identity lock while shifting toward the sixth controlled transformation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Look Switch Six",
+      "description": "Look Switch Six variation for Same-Face Makeup Era Matrix, preserving the same identity while shifting styling, mood, or context."
+    },
+    "zh-CN": {
+      "title": "切换方案六",
+      "description": "切换方案六 是 同脸妆容时代切换 的一致性变体,在改变造型或场景时保持同一身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "series",
+      "editing-workflow",
+      "style-transfer",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "Look Switch Six portrait variation for the same subject in an identity-locked series.",
+      "zh-CN": "同一主体在锁脸系列中的切换方案六肖像变体。"
+    }
+  }
+}

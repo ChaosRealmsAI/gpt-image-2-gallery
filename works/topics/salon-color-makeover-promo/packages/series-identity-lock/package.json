@@ -1,0 +1,74 @@
+{
+  "id": "series-identity-lock",
+  "type": "series",
+  "title": "Identity Lock",
+  "description": "A reference-led four-image identity-consistent series: one anchor portrait and three transformations that preserve the same face and body identity.",
+  "creative_direction": "The first image establishes the model identity. Images 02-04 must preserve facial structure, age, skin tone, and camera logic while altering styling, grooming, or wardrobe direction.",
+  "cover_image": "images/01-anchor-portrait/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-anchor-portrait/meta.json",
+      "images/02-first-switch/meta.json",
+      "images/03-second-switch/meta.json",
+      "images/04-campaign-finish/meta.json"
+    ],
+    "ref_strategy": "Run 01-anchor-portrait first. Use its runtime result URL as --ref for the remaining series images. Queue may run the dependent images concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Identity Lock",
+      "description": "A reference-led four-image identity-consistent series: one anchor portrait and three transformations that preserve the same face and body identity."
+    },
+    "zh-CN": {
+      "title": "身份锁定系列",
+      "description": "四张依赖同一基准肖像的身份一致系列图，在保持同一人物脸部和体态的前提下做三种变化。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "structured-layout",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-anchor-portrait",
+      "title": "Anchor Portrait",
+      "image": "images/01-anchor-portrait/image.png",
+      "meta": "images/01-anchor-portrait/meta.json"
+    },
+    {
+      "id": "02-first-switch",
+      "title": "First Switch",
+      "image": "images/02-first-switch/image.png",
+      "meta": "images/02-first-switch/meta.json"
+    },
+    {
+      "id": "03-second-switch",
+      "title": "Second Switch",
+      "image": "images/03-second-switch/image.png",
+      "meta": "images/03-second-switch/meta.json"
+    },
+    {
+      "id": "04-campaign-finish",
+      "title": "Campaign Finish",
+      "image": "images/04-campaign-finish/image.png",
+      "meta": "images/04-campaign-finish/meta.json"
+    }
+  ]
+}

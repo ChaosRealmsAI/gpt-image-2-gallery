@@ -1,0 +1,59 @@
+{
+  "id": "single-talent-styling-journey",
+  "slug": "single-talent-styling-journey",
+  "category": "photography",
+  "style": [
+    "photoreal",
+    "minimal"
+  ],
+  "capability": [
+    "multi-image-reference",
+    "consistency",
+    "editing-workflow",
+    "commercial-mockup"
+  ],
+  "title": "Single-Talent Styling Journey",
+  "short_title": "Styling Journey",
+  "description": "Follow one talent through multiple styling directions such as airport look, red carpet, comeback concept, streetwear, and beauty close-up without losing identity.",
+  "i18n": {
+    "en": {
+      "title": "Single-Talent Styling Journey",
+      "short_title": "Styling Journey",
+      "description": "Follow one talent through multiple styling directions such as airport look, red carpet, comeback concept, streetwear, and beauty close-up without losing identity."
+    },
+    "zh-CN": {
+      "title": "单人造型旅程组图",
+      "short_title": "造型旅程",
+      "description": "同一个人连续切换机场私服、红毯、回归概念、街头、beauty close-up 等路线，做成明星式造型旅程海报组。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 883,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "identity-consistency",
+      "photorealism",
+      "editing-workflow",
+      "commercial-mockup",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-identity-lock",
+      "type": "series",
+      "title": "Identity Lock",
+      "path": "packages/series-identity-lock/package.json"
+    },
+    {
+      "id": "single-editorial-support",
+      "type": "single",
+      "title": "Editorial Support",
+      "path": "packages/single-editorial-support/package.json"
+    }
+  ]
+}
