@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square flash sheet lying flat on a spotless drafting table, photographed from directly above so the white paper becomes a clean field for evenly spaced tattoo motifs. Light is crisp and studio neutral, with only faint edge shadows and a subtle hint of masking tape at two corners. The page should feel like a product-ready design sheet from a modern custom tattoo parlor.\n\nSubject:\nCreate a western roadside themed flash sheet with about twelve independent motifs: cowboy boot, prickly pear cactus, motel key fob, revolver holster without gun, rattlesnake, horseshoe, spur, roadside sign shape without readable words, highway sunset, matchbook, whiskey glass, and desert rose. Render the motifs in a contemporary tattoo-flash language that mixes American traditional color blocking with a slightly polished commercial finish. Each emblem must be isolated, fully framed by white paper, and strong enough to be chosen individually by a client.\n\nImportant details:\nThe important control point is motif variety within a unified retail sheet. Keep line weights confident, color fills restrained, and shadows minimal. The page should read as body-art inventory rather than illustration editorial. Use dusty red, mustard, turquoise, black, cream, and cactus green, with enough white space so the table never feels crowded. Avoid turning the sheet into a narrative western poster or a scrapbook page.\n\nUse case:\nTattoo Flash Sheet single study 3/8, testing themed commercial flash with multiple independent western motifs and disciplined paper layout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no full desert scene background, no human cowboy portrait, no collage overlap, no fake brand marks, no glossy sticker sheen, no tattooed skin.",
+  "id": "03-western-roadside-charms",
+  "title": "Western Roadside Charms",
+  "description": "A modern flash sheet of western roadside icons arranged as a client-selectable tattoo offering.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/03-western-roadside-charms/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent themed flash-sheet study with western commercial motifs."
+  },
+  "i18n": {
+    "en": {
+      "title": "Western Roadside Charms",
+      "description": "A modern flash sheet of western roadside icons arranged as a client-selectable tattoo offering."
+    },
+    "zh-CN": {
+      "title": "西部路边护符",
+      "description": "一张现代纹身图纸，将西部公路意象组织成可供顾客挑选的独立图案。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A white tattoo flash sheet of cowboy boots, cacti, horseshoes, and other western roadside charms.",
+      "zh-CN": "白色刺青 flash sheet 上排着牛仔靴、仙人掌、马蹄铁等西部公路图案。"
+    }
+  }
+}

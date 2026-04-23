@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square frontal view of a tiny neighborhood clinic reception room, built with the same central-axis stage logic as the reference lobby. The camera is locked straight ahead at chest height. Lighting is soft, dry, and even, with no realistic hospital glare. The color palette shifts to seafoam green walls, peach privacy curtains, butter yellow chairs, red-brown linoleum, and cream medical cabinets arranged in mirrored pairs.\n\nSubject:\nThe same central clerk from the reference image now works as a clinic receptionist, still standing exactly on the vertical centerline and facing the camera with the same calm deadpan posture. Keep the coral uniform silhouette recognizable but adapt it with a pale clinic apron, small cap, gloves, and a simple name badge shape with no text. Around the clerk are symmetrical clinic props: two identical waiting chairs, twin wall clocks with blank faces, clipboards with empty forms, glass medicine jars, a balanced pair of houseplants, and two closed examination doors.\n\nImportant details:\nUse the reference image as the primary guide for identity, posture, composition, prop spacing, flat miniature-set texture, pastel color discipline, and quiet comic timing. The room must clearly read as a clinic without gore, medical distress, or real branding. All charts, forms, labels, clock faces, and badges must be blank graphic shapes. Maintain exact bilateral symmetry except for tiny natural surface imperfections.\n\nUse case:\nWes Anderson Language series study 2/8, transferring the reference grammar from lobby to clinic reception.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real hospital brand, no blood, no emergency scene, no crowded waiting room, no tilted camera.",
+  "id": "02-clinic-reception",
+  "title": "Clinic Reception",
+  "description": "The reference clerk and centered pastel grammar transferred into a fictional clinic reception room.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "style-transfer",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/02-clinic-reception/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lobby-clerk",
+        "meta_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/meta.json",
+        "image_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 to preserve clerk identity and centered institutional staging."
+  },
+  "i18n": {
+    "en": {
+      "title": "Clinic Reception",
+      "description": "The reference clerk and centered pastel grammar transferred into a fictional clinic reception room."
+    },
+    "zh-CN": {
+      "title": "诊所接待处",
+      "description": "参考职员和中轴粉彩视觉语法迁移到虚构诊所接待室。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A symmetric pastel clinic reception with the same central clerk standing among paired chairs, cabinets, and blank medical charts.",
+      "zh-CN": "粉彩对称诊所接待室中,同一名中央职员站在成对椅子、柜子和空白医疗图表之间。"
+    }
+  }
+}

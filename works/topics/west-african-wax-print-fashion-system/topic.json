@@ -1,0 +1,53 @@
+{
+  "id": "west-african-wax-print-fashion-system",
+  "slug": "west-african-wax-print-fashion-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "West African Wax Print Fashion System",
+  "short_title": "Wax Print",
+  "description": "A Prompt Atlas theme for West African Wax Print Fashion System, testing style-transfer, commercial-mockup, photorealism with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "West African Wax Print Fashion System",
+      "short_title": "Wax Print",
+      "description": "Build fashion and retail visuals rooted in West African wax print culture with pattern confidence and merchandising clarity."
+    },
+    "zh-CN": {
+      "title": "西非蜡染印花时装系统",
+      "short_title": "蜡染印花",
+      "description": "围绕西非蜡染印花文化做时装与零售视觉，强调图案 confidence 和陈列 clarity。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "commercial-mockup",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square, straight-on seamless tile view as the reference image. Preserve the reference lattice, border continuity, object scale, pattern rhythm, and no-perspective catalog composition. The surface now looks like a natural history plate made from pinned moth wings and translucent paper, evenly lit on a neutral archival background.\n\nSubject:\nUse the same interlocking fish-to-bird tessellation geometry from the reference image, but reinterpret the figures as moths, wing fragments, and feather-like silhouettes. Fish forms become patterned moth bodies and folded wings; bird forms become open moth wings with eye spots and fine scales. Every figure must still interlock exactly with neighboring shapes and continue seamlessly through the image borders.\n\nImportant details:\nAccurate geometry preservation from the reference, delicate wing veins, powdery scale texture, muted ochre, slate, cream, rust, and ink-black markings. Keep the original optical illusion readable: viewers should see both individual moth shapes and the larger repeating tessellation. No loose specimens should sit on top of the pattern; everything must be part of the locked lattice.\n\nUse case:\nThird image in a reference-dependent tessellation fanout series, testing whether a single base geometry can drive a different biological material language.\n\nConstraints:\nPRESERVE the reference image lattice, crop, camera angle, border continuity, and figure count. No readable text, no watermark, no labels, no pins with shadows, no frame, no broken edge repeats, no random wallpaper scatter, preserve exact 1:1 aspect ratio.",
+  "id": "03-moth-lattice",
+  "title": "Moth Lattice",
+  "description": "The same tessellation structure becomes a natural history lattice of moth wings.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "tessellation",
+    "optical-illusion",
+    "pattern",
+    "series"
+  ],
+  "refs": [
+    "01-reference-tile"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/03-moth-lattice/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-tile",
+        "meta_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/meta.json",
+        "image_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Moth Lattice",
+      "description": "The same tessellation structure becomes a natural history lattice of moth wings."
+    },
+    "zh-CN": {
+      "title": "蛾翼格栅",
+      "description": "同一拼贴结构被改写成自然史标本感的蛾翼图案。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "tessellation",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A moth-wing variation of the same seamless tessellation structure.",
+      "zh-CN": "同一无缝拼贴结构的蛾翼自然史版本。"
+    }
+  }
+}

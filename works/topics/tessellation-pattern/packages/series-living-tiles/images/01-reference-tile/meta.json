@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square crop showing a flat seamless tessellation design on matte ceramic tile, viewed straight-on with no perspective distortion. The tile surface is softly lit like a museum catalog photograph, with tiny glaze texture and crisp printed edges. The composition must read as a repeatable pattern that can continue beyond all four borders.\n\nSubject:\nAn Escher-inspired interlocking fish-to-bird tessellation: fish silhouettes flow from the left and gradually transform into bird silhouettes toward the right, while every positive shape also creates a matching negative shape. Each figure is complete, edge-matched, and locked into neighboring figures with no gaps and no overlaps. The underlying geometry uses repeating curved diamonds and mirrored S-shaped seams.\n\nImportant details:\nPrecise optical-illusion geometry, seamless tile logic, clean silhouette boundaries, balanced teal, ivory, graphite, and muted gold palette, subtle ceramic glaze, no text, no frame, no visible grout lines. The left and right borders must connect visually, and the top and bottom borders must also connect visually. The pattern should be legible both as individual animals and as one continuous mathematical tiling.\n\nUse case:\nReference image for a fanout series. Later images must preserve this same seamless interlocking lattice while changing material and narrative content.\n\nConstraints:\nNo readable text, no watermark, no logos, no isolated central emblem, no blank border, no broken tiles, no random wallpaper noise, no perspective angle, no objects casting shadows over the pattern, preserve exact 1:1 aspect ratio.",
+  "id": "01-reference-tile",
+  "title": "Reference Tile",
+  "description": "A ceramic fish-to-bird tessellation that establishes the seamless lattice for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "tessellation",
+    "optical-illusion",
+    "pattern",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the tessellation fanout series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Tile",
+      "description": "A ceramic fish-to-bird tessellation that establishes the seamless lattice for the series."
+    },
+    "zh-CN": {
+      "title": "基准瓷砖",
+      "description": "鱼鸟互嵌的陶瓷无缝拼贴，建立整组系列的几何结构。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "tessellation",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A seamless ceramic tessellation where fish silhouettes transform into birds.",
+      "zh-CN": "一张鱼形逐渐变成鸟形的陶瓷无缝拼贴图。"
+    }
+  }
+}

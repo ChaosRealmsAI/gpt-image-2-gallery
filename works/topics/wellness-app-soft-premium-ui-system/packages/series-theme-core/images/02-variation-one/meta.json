@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square premium key-art frame built for a reference-dependent production series. Stage the same core concept reinterpreted through a first controlled variation for wellness app soft premium ui system wellness app soft premium ui system with controlled lighting, clear silhouette separation, and a camera setup that feels deliberate enough for campaign reuse. The composition should carry strong focal hierarchy, believable depth, and polished surface behavior while still staying stable enough to support downstream dependent variations.\n\nSubject:\nCenter the image on the same core concept reinterpreted through a first controlled variation for wellness app soft premium ui system wellness app soft premium ui system. The result should feel like a concrete, shippable asset for a wellness app soft premium ui system wellness app soft premium ui system visual system, not a generic fantasy render. Build the subject with layered materials, stable anatomy or engineering logic, and enough specificity that later images can inherit the same underlying identity. Preserve the same core subject identity, silhouette logic, material language, and composition system from the reference image from the reference image while changing only what this variation needs. The viewer should immediately understand what is being preserved across the sequence and what is changing in this particular beat.\n\nImportant details:\nchange mood, framing, or emphasis while preserving the same underlying visual system and subject continuity. Make continuity explicit through repeatable shape language, proportion control, and a coherent palette system. Changes in pose, angle, mood, rarity, weather, or layout should still feel downstream of one stable source. Avoid clutter that would confuse reference use. Any interface-like blocks or graphic surfaces must remain abstract and unreadable. Keep the image polished, original, and suitable for both gallery display and production review.\n\nUse case:\nwellness app soft premium ui system wellness app soft premium ui system series study 2/4, focused on variation one.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unrelated redesign, no continuity drift, no broken continuity, no off-model redesign, no accidental franchise resemblance.",
+  "id": "02-variation-one",
+  "title": "Variation One",
+  "description": "Variation One for Wellness App Soft Premium UI System, designed as part of the theme core.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wellness-app-soft-premium-ui-system/packages/series-theme-core/images/02-variation-one/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/wellness-app-soft-premium-ui-system/packages/series-theme-core/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/wellness-app-soft-premium-ui-system/packages/series-theme-core/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent variation that must stay aligned with Reference Anchor.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Variation One",
+      "description": "Variation One for Wellness App Soft Premium UI System, designed as part of the theme core."
+    },
+    "zh-CN": {
+      "title": "变体一",
+      "description": "变体一，属于 健康与冥想 App 柔和高级 UI 的 主题主线。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Variation One image from the Wellness App Soft Premium UI System package.",
+      "zh-CN": "健康与冥想 App 柔和高级 UI 中的变体一图像。"
+    }
+  }
+}

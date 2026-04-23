@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square front-facing flash sheet pinned to a pale gray consultation-board wall in a friendly neighborhood tattoo studio, illuminated with soft natural light that keeps the white paper clean and the ink colors calm. The sheet should feel personal and emotionally gentle while still being organized like a professional service offering.\n\nSubject:\nCreate a pet memorial flash sheet with roughly eleven isolated motifs suitable for commemorative tattoos: sleeping cat portrait medallion, dog head cameo, paw print charm, collar buckle, favorite tennis ball, fish toy, ribbon heart, house silhouette with tiny bowl, moon over whiskers, framed tag shape without readable text, and bouquet wrapped around a leash knot. The page should feel intentionally designed for clients choosing small-to-medium memorial pieces. Use a visual language that blends classic flash clarity with softer sentimental styling, not photographic pet portrait realism.\n\nImportant details:\nThe important rule is emotional restraint. Keep the motifs tender and specific, but still tattoo-ready with strong outlines, limited fill complexity, and clear silhouette. Preserve white paper dominance and respectful spacing so the sheet feels consultative rather than crowded. Use muted blues, dusty rose, warm cream, olive, and black. The presentation must stay commercial and shop-realistic, avoiding scrapbook craft cues or greeting-card sentimentality.\n\nUse case:\nTattoo Flash Sheet single study 7/8, testing whether memorial subject matter can be handled with parlor-ready clarity and quiet emotional tone.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no realistic fur-photo collage, no human portrait, no candles on a grave, no overlapping motifs, no glitter effects, no tattooed skin background.",
+  "id": "07-pet-memorial-charms",
+  "title": "Pet Memorial Charms",
+  "description": "A gentle consultation-ready flash sheet of pet memorial motifs rendered with tattoo clarity and emotional restraint.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "fashion",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 7,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/07-pet-memorial-charms/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent memorial-themed tattoo flash-sheet study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Pet Memorial Charms",
+      "description": "A gentle consultation-ready flash sheet of pet memorial motifs rendered with tattoo clarity and emotional restraint."
+    },
+    "zh-CN": {
+      "title": "宠物纪念护符",
+      "description": "一张温柔、适合咨询展示的宠物纪念刺青图纸，以克制情绪和清晰纹身语言呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A calm tattoo flash sheet of paw prints, pet cameos, toys, and other memorial-themed charms.",
+      "zh-CN": "一张安静的刺青图纸上排着爪印、宠物纪念头像、玩具等纪念主题图案。"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "series-axis-institutions",
+  "type": "series",
+  "title": "Axis Institutions",
+  "description": "A reference-dependent series where one centered clerk and one strict production-design grammar move through four fictional public institutions.",
+  "creative_direction": "Image 01 establishes the central-axis composition, pastel palette, flat lighting, deadpan clerk identity, and dollhouse-like institutional staging. Images 02-04 use it as reference while changing the room program from lobby to clinic, rail hall, and launch control.",
+  "cover_image": "images/01-lobby-clerk/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-lobby-clerk/meta.json",
+      "images/02-clinic-reception/meta.json",
+      "images/03-rail-ticket-hall/meta.json",
+      "images/04-launch-control/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Axis Institutions",
+      "description": "A reference-dependent series where one centered clerk and one strict production-design grammar move through four fictional public institutions."
+    },
+    "zh-CN": {
+      "title": "中轴机构系列",
+      "description": "一组参考依赖系列: 同一名居中职员和同一套严格布景语法迁移到四个虚构公共机构。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency",
+      "cinematic"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-lobby-clerk",
+      "title": "Lobby Clerk",
+      "image": "images/01-lobby-clerk/image.png",
+      "meta": "images/01-lobby-clerk/meta.json"
+    },
+    {
+      "id": "02-clinic-reception",
+      "title": "Clinic Reception",
+      "image": "images/02-clinic-reception/image.png",
+      "meta": "images/02-clinic-reception/meta.json"
+    },
+    {
+      "id": "03-rail-ticket-hall",
+      "title": "Rail Ticket Hall",
+      "image": "images/03-rail-ticket-hall/image.png",
+      "meta": "images/03-rail-ticket-hall/meta.json"
+    },
+    {
+      "id": "04-launch-control",
+      "title": "Launch Control",
+      "image": "images/04-launch-control/image.png",
+      "meta": "images/04-launch-control/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square film-poster composition inside a fictional municipal capsule hotel lobby, photographed straight-on with a perfectly centered vanishing point and no camera tilt. The room is built like a miniature stage set: flat even lighting, powder pink walls, mint green floor tiles, mustard trim, and shallow theatrical depth. The central desk divides the image horizontally, with identical key cubbies, lamps, potted plants, and elevator doors mirrored on both sides.\n\nSubject:\nOne young lobby clerk stands exactly on the center axis behind the counter, facing the camera with a calm deadpan expression. The clerk wears a neatly pressed coral uniform, a tiny round cap, white gloves, and polished shoes visible below the counter gap. Around the clerk are symmetrical props: brass bell, stacked envelopes, room keys, a ledger with blank pages, two rotary phones, and two matching suitcases placed like punctuation marks.\n\nImportant details:\nThis is the reference image for the series visual language. Preserve centered-axis geometry, bilateral symmetry, pastel candy color, flat frontal staging, precise prop alignment, handcrafted set texture, and a quiet cinematic mood. All signs, ledgers, key tags, and wall labels must be blank or abstract blocks, never readable words. The image should feel like a complete fictional movie poster without typography.\n\nUse case:\nWes Anderson Language series study 1/8, establishing the reference grammar for the institutional fanout.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no messy asymmetry, no modern glossy corporate lobby, no dramatic shadows, no extra characters.",
+  "id": "01-lobby-clerk",
+  "title": "Lobby Clerk",
+  "description": "A centered pastel hotel lobby with a deadpan clerk establishing the series reference grammar.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "style-transfer",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for centered-axis institutional visual language."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lobby Clerk",
+      "description": "A centered pastel hotel lobby with a deadpan clerk establishing the series reference grammar."
+    },
+    "zh-CN": {
+      "title": "大堂职员",
+      "description": "粉彩酒店大堂中,一名居中凝视镜头的职员建立整组系列的参考视觉语法。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A pastel capsule hotel lobby staged symmetrically around a deadpan clerk at the central counter.",
+      "zh-CN": "粉彩胶囊酒店大堂以中轴对称布置,一名冷静职员站在中央柜台后。"
+    }
+  }
+}

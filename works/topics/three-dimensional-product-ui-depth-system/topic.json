@@ -1,0 +1,53 @@
+{
+  "id": "three-dimensional-product-ui-depth-system",
+  "slug": "three-dimensional-product-ui-depth-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Three-Dimensional Product UI Depth System",
+  "short_title": "3D UI Depth",
+  "description": "A Prompt Atlas theme for Three-Dimensional Product UI Depth System, testing structured-layout, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Three-Dimensional Product UI Depth System",
+      "short_title": "3D UI Depth",
+      "description": "Build product UIs with clear depth, layered surfaces, and 3D-feel without sliding into gimmicky pseudo-CG."
+    },
+    "zh-CN": {
+      "title": "三维景深产品 UI 系统",
+      "short_title": "3D感UI",
+      "description": "做有 3D 景深和浮层厚度的产品 UI，但不变成噱头 CG。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

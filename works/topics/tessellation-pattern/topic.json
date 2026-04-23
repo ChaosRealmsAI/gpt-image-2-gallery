@@ -1,0 +1,49 @@
+{
+  "id": "tessellation-pattern",
+  "slug": "tessellation-pattern",
+  "category": "illustration",
+  "style": [
+    "handdrawn",
+    "minimal"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer"
+  ],
+  "title": "Tessellation Pattern",
+  "short_title": "Tessellation",
+  "description": "A Prompt Atlas theme for seamless geometric tiling, optical illusion structure, and Escher-like interlocking silhouettes.",
+  "i18n": {
+    "en": {
+      "title": "Tessellation Pattern",
+      "short_title": "Tessellation",
+      "description": "A Prompt Atlas theme for seamless geometric tiling, optical illusion structure, and Escher-like interlocking silhouettes."
+    },
+    "zh-CN": {
+      "title": "无缝拼贴",
+      "short_title": "拼贴",
+      "description": "测试无缝几何平铺、视觉错觉结构和 Escher 式互嵌轮廓。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "tessellation",
+      "optical-illusion",
+      "pattern"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-living-tiles",
+      "type": "series",
+      "title": "Living Tiles",
+      "path": "packages/series-living-tiles/package.json"
+    }
+  ]
+}

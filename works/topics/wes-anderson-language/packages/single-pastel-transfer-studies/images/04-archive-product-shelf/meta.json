@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square commercial archive shelf photographed straight-on like a miniature museum display, with perfect bilateral symmetry and flat catalog lighting. The shelf is divided into tidy cubbies painted dusty pink, mint, cream, and mustard. Each cubby contains a product-like object, but the display behaves more like a fictional film prop department than a real store: precise spacing, matte paper textures, tiny shadows, and a centered vertical axis.\n\nSubject:\nAt the center stands a small uniformed shop archivist facing the camera from behind a waist-high display counter. Around the archivist are mirrored rows of fictional product packages: sardine tins, perfume boxes, seed packets, biscuit cartons, medicine bottles, matchboxes, and folded hotel towels. Every package has decorative color fields, stripes, borders, stamps, and blank label panels, but no readable text. Two brass desk lamps, two receipt spikes, two small ladders, and two potted plants complete the symmetrical product tableau.\n\nImportant details:\nThis is a commercial-mockup stress test for visual language transfer without typography: the image must look like a finished branded product shelf while avoiding actual words, logos, or real brands. Preserve central-axis staging, pastel palette, deadpan archivist portrait, handcrafted prop design, tidy grid layout, and subtle paper and tin material differences. The result should feel usable as a campaign visual or gallery poster, not a chaotic collection of packages.\n\nUse case:\nWes Anderson Language single study 8/8, independent transfer into a commercial archive shelf mockup.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real brand packaging, no barcode, no price tag, no cluttered retail aisle, no distorted product grid.",
+  "id": "04-archive-product-shelf",
+  "title": "Archive Product Shelf",
+  "description": "A commercial archive shelf mockup using centered pastel staging, fictional packaging, and blank labels.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "style-transfer",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/single-pastel-transfer-studies/images/04-archive-product-shelf/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for commercial mockup transfer without readable typography."
+  },
+  "i18n": {
+    "en": {
+      "title": "Archive Product Shelf",
+      "description": "A commercial archive shelf mockup using centered pastel staging, fictional packaging, and blank labels."
+    },
+    "zh-CN": {
+      "title": "档案商品架",
+      "description": "商业档案商品架 mockup,使用粉彩中轴布景、虚构包装和空白标签。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A symmetrical pastel archive shelf filled with fictional blank-label packages and a central shop archivist.",
+      "zh-CN": "对称粉彩档案商品架摆满虚构空白标签包装,中央站着一名商店档案员。"
+    }
+  }
+}

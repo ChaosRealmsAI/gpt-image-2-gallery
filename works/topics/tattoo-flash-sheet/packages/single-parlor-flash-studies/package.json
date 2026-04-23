@@ -1,0 +1,82 @@
+{
+  "id": "single-parlor-flash-studies",
+  "type": "single",
+  "title": "Parlor Flash Studies",
+  "description": "Eight independent tattoo flash sheets exploring classic parlor presentation, motif grouping, and commercial body-art layout without reference dependencies.",
+  "creative_direction": "Each image is a self-contained wall-ready flash sheet on white paper, using isolated motifs, disciplined spacing, and shop-display realism to test how well the model can translate tattoo substyles into clean commercial presentation.",
+  "cover_image": "images/01-classic-parlor-wall/image.png",
+  "i18n": {
+    "en": {
+      "title": "Parlor Flash Studies",
+      "description": "Eight independent tattoo flash sheets exploring classic parlor presentation, motif grouping, and commercial body-art layout without reference dependencies."
+    },
+    "zh-CN": {
+      "title": "刺青店图纸研究",
+      "description": "八张独立刺青 flash sheet，测试店铺展示、图案分组与商业纹身排版表现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "structured-layout",
+      "commercial-mockup"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-classic-parlor-wall",
+      "title": "Classic Parlor Wall",
+      "image": "images/01-classic-parlor-wall/image.png",
+      "meta": "images/01-classic-parlor-wall/meta.json"
+    },
+    {
+      "id": "02-blackwork-night-creatures",
+      "title": "Blackwork Night Creatures",
+      "image": "images/02-blackwork-night-creatures/image.png",
+      "meta": "images/02-blackwork-night-creatures/meta.json"
+    },
+    {
+      "id": "03-western-roadside-charms",
+      "title": "Western Roadside Charms",
+      "image": "images/03-western-roadside-charms/image.png",
+      "meta": "images/03-western-roadside-charms/meta.json"
+    },
+    {
+      "id": "04-lucky-love-icons",
+      "title": "Lucky Love Icons",
+      "image": "images/04-lucky-love-icons/image.png",
+      "meta": "images/04-lucky-love-icons/meta.json"
+    },
+    {
+      "id": "05-maritime-memory-sheet",
+      "title": "Maritime Memory Sheet",
+      "image": "images/05-maritime-memory-sheet/image.png",
+      "meta": "images/05-maritime-memory-sheet/meta.json"
+    },
+    {
+      "id": "06-floral-dagger-study",
+      "title": "Floral Dagger Study",
+      "image": "images/06-floral-dagger-study/image.png",
+      "meta": "images/06-floral-dagger-study/meta.json"
+    },
+    {
+      "id": "07-pet-memorial-charms",
+      "title": "Pet Memorial Charms",
+      "image": "images/07-pet-memorial-charms/image.png",
+      "meta": "images/07-pet-memorial-charms/meta.json"
+    },
+    {
+      "id": "08-city-pop-flash-board",
+      "title": "City Pop Flash Board",
+      "image": "images/08-city-pop-flash-board/image.png",
+      "meta": "images/08-city-pop-flash-board/meta.json"
+    }
+  ]
+}

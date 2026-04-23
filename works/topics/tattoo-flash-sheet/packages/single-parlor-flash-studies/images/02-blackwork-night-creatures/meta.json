@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square flat flash-sheet presentation photographed straight-on against a clean matte white backing board inside a contemporary tattoo studio. Lighting is bright and neutral, revealing crisp paper texture, black ink saturation, and generous negative space. The page should feel archival and precise, as if prepared for a client consultation wall or portfolio binder.\n\nSubject:\nDesign a pure blackwork tattoo flash sheet with around eleven nocturnal or ominous motifs: bat wings, luna moth, raven skull, spider, candle flame, crescent moon, dagger, snake wrapped around a branch, hourglass, coffin bloom, and all-seeing eye. Each icon should be isolated and composed as a tattoo-ready emblem, using heavy black masses, sharp negative cutouts, and controlled line detail rather than grayscale painting. The composition should feel cohesive as a substyle collection, but each individual motif must remain distinct and selectable. No motif should touch another, and every silhouette should read instantly from a distance.\n\nImportant details:\nThe key rule is discipline of black ink. Favor solid fills, skin-break thinking translated into white paper gaps, and precise ornamental symmetry where appropriate. The sheet must feel like a professional blackwork artist's flash offering, not a gothic poster. Keep the board clean, with optional tiny registration dots or tape corners as nonverbal shop cues, but no captions. The tension comes from balancing darkness of motif with cleanliness of layout.\n\nUse case:\nTattoo Flash Sheet single study 2/8, testing commercial blackwork presentation with strong silhouette readability and no reliance on color.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no gray airbrush portrait, no textured paper stains, no overlapping motifs, no human body, no neon color, no decorative background scene.",
+  "id": "02-blackwork-night-creatures",
+  "title": "Blackwork Night Creatures",
+  "description": "A professional blackwork flash sheet built from nocturnal emblems, solid fills, and precise negative space.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "grayscale",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/02-blackwork-night-creatures/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent blackwork-only flash-sheet study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Blackwork Night Creatures",
+      "description": "A professional blackwork flash sheet built from nocturnal emblems, solid fills, and precise negative space."
+    },
+    "zh-CN": {
+      "title": "黑工夜生物图纸",
+      "description": "由夜行意象、实黑块面与精准留白构成的专业黑工 flash sheet。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "grayscale"
+    ],
+    "alt": {
+      "en": "A white flash sheet filled with blackwork bats, moths, daggers, and other night-themed tattoo emblems.",
+      "zh-CN": "白色图纸上排满黑工风格的蝙蝠、飞蛾、匕首等夜行纹身图案。"
+    }
+  }
+}

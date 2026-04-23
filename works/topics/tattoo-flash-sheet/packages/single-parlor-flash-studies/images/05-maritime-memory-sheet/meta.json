@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square tattoo flash sheet displayed against a slightly warm white wall in a nautical-themed but contemporary tattoo studio, photographed straight-on with soft even light. The paper should appear crisp and substantial, with tiny pinholes, natural margin spacing, and just enough environmental shadow to feel physically present without distracting from the artwork.\n\nSubject:\nDesign a maritime memory flash sheet with approximately twelve isolated motifs: clipper ship, lighthouse, rope-wrapped anchor, mermaid bust, compass rose, storm cloud over waves, shell, gull, bottle with tiny sea scene, lifebuoy, ship wheel, and dagger crossing a rope heart. The visual language should blend classic sailor tattoo heritage with tidy modern shop presentation. Each emblem must be ready to tattoo as an independent piece, using confident outlines, flat but rich color blocks, and modest stylized shading rather than painterly realism.\n\nImportant details:\nThe success condition is recognizable sailor flash without nostalgia turning muddy. Keep spacing generous and the palette controlled with navy, crimson, seafoam, cream, gold, and black. The sheet should feel like a real consultation-wall product that respects tattoo production constraints: no overcomplicated micro detail, no motifs touching, no decorative frame, no surrounding beach scene. Maintain the balance between heritage symbolism and retail clarity.\n\nUse case:\nTattoo Flash Sheet single study 5/8, testing nautical flash vocabulary on a clean modern sheet that still feels rooted in tattoo history.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no full ocean background, no photoreal sailor portrait, no aged parchment effect, no sticker-style drop shadows, no overlapping motifs, no body skin context.",
+  "id": "05-maritime-memory-sheet",
+  "title": "Maritime Memory Sheet",
+  "description": "A clean modern sailor-flash sheet built from nautical emblems, bold lines, and disciplined spacing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/05-maritime-memory-sheet/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent nautical flash-sheet study with heritage tattoo motifs."
+  },
+  "i18n": {
+    "en": {
+      "title": "Maritime Memory Sheet",
+      "description": "A clean modern sailor-flash sheet built from nautical emblems, bold lines, and disciplined spacing."
+    },
+    "zh-CN": {
+      "title": "航海记忆图纸",
+      "description": "以航海符号、粗线条与克制间距构成的现代水手纹身图纸。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A bright tattoo flash sheet of ships, anchors, mermaids, and other nautical tattoo icons.",
+      "zh-CN": "一张明亮的刺青图纸上排着船只、船锚、美人鱼等航海纹身图案。"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square frontal breakfast room overlooking a fictional orbital launch pad, staged with strict central symmetry. The camera looks across a long cafeteria table toward one round window where a small rocket stands on the horizon, centered like a tabletop ornament. The room is softly lit before dawn, using powder blue shadows, apricot walls, mint tableware, cream uniforms, cherry red switch caps, and warm yellow pastry tones.\n\nSubject:\nAt the center of the table sits a mission director eating breakfast alone, facing the camera with a calm, unreadable expression. The director wears a simple cream jumpsuit with a blank patch and a neat headset. On the table, mirrored objects form a ceremonial still life: two boiled eggs, two coffee cups, two folded napkins, two analog countdown clocks with blank faces, two stacks of toast, and two small control panels showing only dots and colored bars. The rocket beyond the window is tiny, vertical, and quiet.\n\nImportant details:\nThis image should merge launch-control world knowledge with a deadpan pastel film-poster language: central axis, frontal gaze, miniature set design, carefully balanced props, analog equipment, and dry humor from the breakfast ritual before a huge event. The rocket launch must be understood through architecture, consoles, window view, headset, and mission-room details, not through readable labels or corporate branding. Keep the mood gentle, precise, and strangely domestic.\n\nUse case:\nWes Anderson Language single study 7/8, independent transfer into a fictional orbital launch breakfast scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real space-company branding, no explosion, no dramatic smoke plume, no dark futuristic control room, no busy unreadable screens.",
+  "id": "03-orbital-launch-breakfast",
+  "title": "Orbital Launch Breakfast",
+  "description": "A pastel launch-room breakfast scene centered on a calm mission director and a tiny rocket view.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/single-pastel-transfer-studies/images/03-orbital-launch-breakfast/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for director-language transfer into a fictional launch setting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Orbital Launch Breakfast",
+      "description": "A pastel launch-room breakfast scene centered on a calm mission director and a tiny rocket view."
+    },
+    "zh-CN": {
+      "title": "轨道发射早餐",
+      "description": "粉彩发射室早餐场景,中央是一名平静任务主管,窗外有一枚小火箭。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A symmetrical pastel launch breakfast room with a mission director at the table and a small rocket centered in the window.",
+      "zh-CN": "对称粉彩发射早餐室里,任务主管坐在餐桌中央,窗外小火箭居中可见。"
+    }
+  }
+}

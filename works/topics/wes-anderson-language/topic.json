@@ -1,0 +1,58 @@
+{
+  "id": "wes-anderson-language",
+  "slug": "wes-anderson-language",
+  "category": "illustration",
+  "style": [
+    "flat-graphic",
+    "painterly"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Wes Anderson Language",
+  "short_title": "Wes Anderson",
+  "description": "A Prompt Atlas theme testing how a strict centered-axis, pastel, deadpan film-poster language transfers across institutions, travel scenes, launch control, and commercial displays.",
+  "i18n": {
+    "en": {
+      "title": "Wes Anderson Language",
+      "short_title": "Wes Anderson",
+      "description": "A Prompt Atlas theme testing how a strict centered-axis, pastel, deadpan film-poster language transfers across institutions, travel scenes, launch control, and commercial displays."
+    },
+    "zh-CN": {
+      "title": "Wes Anderson × 一切 · 导演视觉语言",
+      "short_title": "韦斯美学",
+      "description": "测试中轴对称、糖果色、正面凝视、微缩布景和电影海报感如何迁移到候诊室、春运、航天发射和商品陈列等不同主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 240,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "cinematic",
+      "frontier-creative-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-axis-institutions",
+      "type": "series",
+      "title": "Axis Institutions",
+      "path": "packages/series-axis-institutions/package.json"
+    },
+    {
+      "id": "single-pastel-transfer-studies",
+      "type": "single",
+      "title": "Pastel Transfer Studies",
+      "path": "packages/single-pastel-transfer-studies/package.json"
+    }
+  ]
+}

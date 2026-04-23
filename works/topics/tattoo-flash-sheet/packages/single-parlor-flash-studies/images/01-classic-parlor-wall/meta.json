@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square straight-on photograph of a single bright white flash sheet pinned to a neutral tattoo studio wall, lit by soft overhead shop lighting with very slight paper curl at the corners and faint shadows from the pins. The sheet should fill most of the frame and read like a clean commercial presentation surface, with balanced margins and enough empty white space for each design to breathe.\n\nSubject:\nCreate a classic American traditional tattoo flash sheet containing around twelve isolated motifs arranged in a disciplined gridless salon layout. Include a red rose, swallow pair, ship anchor, dagger through heart, horseshoe, snake coil, lighthouse, skull, sacred heart, panther head, lucky dice, and webbed spider. Every motif should be fully self-contained, outlined in bold black, and colored with the restrained old-school palette of red, yellow, green, navy, cream, and black. The drawings must look ready for customers to choose from, not like decorative poster art or scrapbook stickers.\n\nImportant details:\nThe core visual rule is tattoo-parlor usability. Each design must have strong silhouette separation, even line weight, controlled fill areas, and consistent shading logic. Preserve generous white paper between motifs, small crop-safe margins, and a believable studio-wall presentation. The image should feel commercial and contemporary, even while the motifs come from traditional flash language. Avoid painterly rendering, background scenery, and extra props that distract from the sheet itself.\n\nUse case:\nTattoo Flash Sheet single study 1/8, establishing a clean parlor-ready old-school flash board with many independent selectable motifs.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no skin, no tattooed human body, no illegible scribble labels, no poster frame, no collage overlap, no glossy 3D render finish.",
+  "id": "01-classic-parlor-wall",
+  "title": "Classic Parlor Wall",
+  "description": "A white-wall presentation sheet of classic American traditional tattoo motifs with bold outlines and controlled color.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "structured-layout",
+    "commercial-mockup",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/01-classic-parlor-wall/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent baseline old-school flash-sheet study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Classic Parlor Wall",
+      "description": "A white-wall presentation sheet of classic American traditional tattoo motifs with bold outlines and controlled color."
+    },
+    "zh-CN": {
+      "title": "经典店墙图纸",
+      "description": "挂在白墙上的经典美式传统刺青图纸，以粗黑轮廓和克制配色呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup"
+    ],
+    "alt": {
+      "en": "A pinned white tattoo flash sheet showing classic American traditional motifs in bold color.",
+      "zh-CN": "一张钉在墙上的白色刺青 flash sheet，上面排着经典美式传统彩色图案。"
+    }
+  }
+}

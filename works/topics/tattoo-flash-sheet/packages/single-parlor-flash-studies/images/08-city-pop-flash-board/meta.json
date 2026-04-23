@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square straight-on studio image of a white flash sheet clipped to a metal display rail in a modern urban tattoo shop. The wall is neutral and clean, lit by bright gallery-like overhead fixtures that keep colors crisp and the paper texture visible. The frame should feel commercial, contemporary, and body-art specific rather than editorial or lifestyle styled.\n\nSubject:\nDesign a city-pop tattoo flash sheet with around twelve independent modern urban motifs: bodega cat, sneakers, taxi roof light, soda cup with straw, portable cassette player, pigeon silhouette, basketball hoop, apartment fire escape fragment, deli flower bouquet, subway token-like coin without text, lightning-bolt headphones, and bubble-star sunglasses. The art should bridge tattoo flash conventions with contemporary street retail taste. Each emblem must be bold, separate, and tattoo-ready, using clean outlines, simplified fill blocks, selective highlights, and disciplined empty paper around every design.\n\nImportant details:\nThe sheet should feel current without drifting into sticker-brand illustration. Keep the commercial flash logic first: isolated choices on a white page, consistent line confidence, and balanced spacing. The palette can use cobalt, safety orange, cherry red, mint, black, silver-gray, and cream, but avoid visual noise. The overall impression should be a flash board that a city-based tattoo studio could genuinely hang for walk-in clients who want modern small pieces.\n\nUse case:\nTattoo Flash Sheet single study 8/8, testing a contemporary urban flash collection that stays clean, legible, and commercially believable.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no full street scene background, no fashion model, no sticker pack overlap, no shiny plastic packaging, no human body, no chaotic graffiti wall behind the sheet.",
+  "id": "08-city-pop-flash-board",
+  "title": "City Pop Flash Board",
+  "description": "A modern urban tattoo flash sheet that translates city objects into clean, walk-in-ready body-art motifs.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "fashion",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 8,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/08-city-pop-flash-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent contemporary urban flash-sheet study."
+  },
+  "i18n": {
+    "en": {
+      "title": "City Pop Flash Board",
+      "description": "A modern urban tattoo flash sheet that translates city objects into clean, walk-in-ready body-art motifs."
+    },
+    "zh-CN": {
+      "title": "城市流行图板",
+      "description": "将城市物件转写为清爽、适合 walk-in 客户挑选的现代纹身图纸。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 80,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A modern white tattoo flash sheet of sneakers, bodega cats, subway tokens, and other city-pop motifs.",
+      "zh-CN": "一张现代白色刺青图纸上排着球鞋、杂货店猫、地铁代币等城市流行图案。"
+    }
+  }
+}

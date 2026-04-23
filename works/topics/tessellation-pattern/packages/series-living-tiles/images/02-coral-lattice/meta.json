@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square, straight-on seamless tile view as the reference image. Preserve the full repeatable lattice, edge alignment, figure scale, and overall pattern density from the reference. The surface now looks like a living reef relief photographed under clear shallow water, with soft caustic highlights and fine organic texture.\n\nSubject:\nUse the same interlocking fish-to-bird tessellation geometry from the reference image, but reinterpret the figures as coral reef creatures and branching coral forms. Fish shapes become tiny reef fish with subtle scale texture; bird shapes become wing-like coral fans and sea-bird silhouettes made of coral polyps. The exact seam logic must remain complete, gapless, and repeatable across all four borders.\n\nImportant details:\nAccurate reference preservation, no geometry drift, no new loose shapes outside the lattice. Use coral pink, seafoam, turquoise, ivory sand, and deep blue shadow. Add fine coral pores, algae edges, and underwater caustics while keeping the original tessellation readable. The image should still look like one precise seamless pattern, not a random reef illustration.\n\nUse case:\nSecond image in a reference-dependent tessellation series. It should prove that the queue can use image 01 as --ref while changing material language and subject details.\n\nConstraints:\nPRESERVE the reference image lattice, crop, camera angle, border continuity, and figure count. No readable text, no watermark, no logos, no extra central icon, no broken edges, no perspective view, no frame, no random decorative scatter, preserve exact 1:1 aspect ratio.",
+  "id": "02-coral-lattice",
+  "title": "Coral Lattice",
+  "description": "The reference tessellation is reinterpreted as a living coral reef pattern.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "tessellation",
+    "optical-illusion",
+    "pattern",
+    "series"
+  ],
+  "refs": [
+    "01-reference-tile"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/02-coral-lattice/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-tile",
+        "meta_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/meta.json",
+        "image_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "Coral Lattice",
+      "description": "The reference tessellation is reinterpreted as a living coral reef pattern."
+    },
+    "zh-CN": {
+      "title": "珊瑚格栅",
+      "description": "把基准无缝拼贴改写成活体珊瑚礁图案。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "tessellation",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A coral reef variation of the same seamless fish-to-bird tessellation.",
+      "zh-CN": "同一鱼鸟无缝拼贴结构的珊瑚礁版本。"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square frontal launch-control room for a fictional small orbital mission, composed with the same centered-axis grammar as the reference. The camera is perfectly level, facing a central console beneath a circular observation window. The palette is unusual and controlled: pale apricot walls, mint instrument panels, cream consoles, red toggle caps, powder blue window glow, and matte brass handrails. Everything feels like a practical miniature set rather than a glossy science-fiction render.\n\nSubject:\nThe same central clerk from the reference image stands at the main console, facing the viewer with the same quiet deadpan expression. Keep the coral uniform identity, now adapted with a short utility jacket, headset shape, and white gloves. Behind the clerk, the observation window frames a tiny rocket on a distant pad, centered exactly above the character's head. On both sides are mirrored analog dials, blank status panels, paired technicians seen as simplified seated figures, two coffee cups, two clipboards, and matching cable loops.\n\nImportant details:\nUse the reference image to preserve identity continuity, symmetrical prop choreography, flat frontal lighting, pastel production design, and miniature-world tactility. The scene must read as launch control without using real aerospace logos, readable mission text, or generic blue-black sci-fi atmosphere. All screens and panels should show abstract color blocks, dots, lines, and gauges only. The rocket view must remain centered and small, not explosive or dramatic.\n\nUse case:\nWes Anderson Language series study 4/8, transferring the reference grammar into a fictional orbital launch room.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real space-company branding, no explosion, no dark futuristic interface, no tilted camera, no cluttered unreadable screens.",
+  "id": "04-launch-control",
+  "title": "Launch Control",
+  "description": "The reference clerk visual language transferred into a pastel fictional orbital launch-control room.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "style-transfer",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/04-launch-control/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lobby-clerk",
+        "meta_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/meta.json",
+        "image_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 to preserve clerk identity while changing the institution to launch control."
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Control",
+      "description": "The reference clerk visual language transferred into a pastel fictional orbital launch-control room."
+    },
+    "zh-CN": {
+      "title": "发射控制室",
+      "description": "参考职员视觉语言迁移到粉彩虚构轨道发射控制室。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A pastel miniature launch-control room with a central clerk at analog consoles and a tiny centered rocket beyond the window.",
+      "zh-CN": "粉彩微缩发射控制室中,中央职员站在模拟仪表台前,窗外有一枚居中的小火箭。"
+    }
+  }
+}

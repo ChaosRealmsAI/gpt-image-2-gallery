@@ -1,0 +1,71 @@
+{
+  "id": "series-living-tiles",
+  "type": "series",
+  "title": "Living Tiles",
+  "description": "A reference-dependent series: one base tessellation tile followed by three material and subject variations preserving the same seamless geometry.",
+  "creative_direction": "True geometry-continuity series: image 01 establishes the interlocking tile lattice; images 02-04 depend on 01 as --ref and reinterpret the same seamless structure through coral, moth, and city materials.",
+  "cover_image": "images/01-reference-tile/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-tile/meta.json",
+      "images/02-coral-lattice/meta.json",
+      "images/03-moth-lattice/meta.json",
+      "images/04-city-lattice/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Living Tiles",
+      "description": "A reference-dependent series: one base tessellation tile followed by three material and subject variations preserving the same seamless geometry."
+    },
+    "zh-CN": {
+      "title": "活体瓷砖",
+      "description": "一张基准无缝拼贴图，后续三张以不同材质和主体延续同一几何结构。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "tessellation",
+      "optical-illusion",
+      "pattern"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-tile",
+      "title": "Reference Tile",
+      "image": "images/01-reference-tile/image.png",
+      "meta": "images/01-reference-tile/meta.json"
+    },
+    {
+      "id": "02-coral-lattice",
+      "title": "Coral Lattice",
+      "image": "images/02-coral-lattice/image.png",
+      "meta": "images/02-coral-lattice/meta.json"
+    },
+    {
+      "id": "03-moth-lattice",
+      "title": "Moth Lattice",
+      "image": "images/03-moth-lattice/image.png",
+      "meta": "images/03-moth-lattice/meta.json"
+    },
+    {
+      "id": "04-city-lattice",
+      "title": "City Lattice",
+      "image": "images/04-city-lattice/image.png",
+      "meta": "images/04-city-lattice/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "teaser-one-sheet-tension-poster",
+  "slug": "teaser-one-sheet-tension-poster",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Teaser One-Sheet Tension Poster",
+  "short_title": "Teaser Poster",
+  "description": "A Prompt Atlas theme for Teaser One-Sheet Tension Poster, testing structured-layout, commercial-mockup, reasoning-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Teaser One-Sheet Tension Poster",
+      "short_title": "Teaser Poster",
+      "description": "Create teaser one-sheets that withhold just enough while still delivering a memorable hook and key visual thesis."
+    },
+    "zh-CN": {
+      "title": "悬念式 teaser 海报",
+      "short_title": "Teaser海报",
+      "description": "做 teaser one-sheet，重点是保留悬念同时给出明确视觉钩子。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "waterfall-cliff-and-mist-monuments",
+  "slug": "waterfall-cliff-and-mist-monuments",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Waterfall Cliff and Mist Monuments",
+  "short_title": "Waterfall Monuments",
+  "description": "A Prompt Atlas theme for Waterfall Cliff and Mist Monuments, testing photorealism, reasoning-composition, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Waterfall Cliff and Mist Monuments",
+      "short_title": "Waterfall Monuments",
+      "description": "Create monumental waterfall-and-cliff landscapes with mist volume and cinematic drop-scale."
+    },
+    "zh-CN": {
+      "title": "瀑布峭壁与雾气纪念景观",
+      "short_title": "瀑布奇景",
+      "description": "做瀑布峭壁纪念景观，强调雾气体积和下坠尺度。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "reasoning-composition",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

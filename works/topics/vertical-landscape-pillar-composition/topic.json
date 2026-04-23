@@ -1,0 +1,53 @@
+{
+  "id": "vertical-landscape-pillar-composition",
+  "slug": "vertical-landscape-pillar-composition",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Vertical Landscape Pillar Composition",
+  "short_title": "Vertical Scenery",
+  "description": "A Prompt Atlas theme for Vertical Landscape Pillar Composition, testing reasoning-composition, photorealism, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Vertical Landscape Pillar Composition",
+      "short_title": "Vertical Scenery",
+      "description": "Build vertical grand-scenery compositions for phone wallpapers, posters, and tall-format editorial covers."
+    },
+    "zh-CN": {
+      "title": "纵向景观柱式构图",
+      "short_title": "纵向景观",
+      "description": "做纵向壮丽景观构图，适合手机壁纸、海报和 tall format 封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

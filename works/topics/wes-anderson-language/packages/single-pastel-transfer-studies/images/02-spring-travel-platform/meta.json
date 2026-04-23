@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square, straight-on view of a crowded but orderly railway platform during a fictional spring travel rush. The image is composed like a centered stage set: the platform roof, tile grid, bench rows, luggage stacks, and train doors all align to a strict middle axis. Use clear winter daylight, faded teal beams, peach walls, maroon luggage, cream tiles, butter yellow ticket barriers, and soft red lantern shapes with no text.\n\nSubject:\nA family of three stands exactly in the center facing the camera: grandparent, parent, and child arranged in a compact vertical triangle, each holding simple parcels tied with string. On both sides, travelers become balanced repeating groups rather than chaos: matching thermos bottles, checked bags, quilted coats, paper snack boxes, folded blankets, and two train doors behind them. The train is present as a pastel green carriage with blank destination panels and rounded windows.\n\nImportant details:\nThe visual language must be controlled through geometry and production design: central frontal gaze, bilateral symmetry, deadpan stillness, miniature-like props, pastel color blocking, and carefully repeated luggage motifs. The travel-rush idea should be readable from density, winter clothing, family grouping, platform architecture, and parcels, but the composition must not become documentary clutter. All signage, tickets, train panels, package labels, and lanterns must remain blank or abstract shapes.\n\nUse case:\nWes Anderson Language single study 6/8, independent transfer into a spring travel railway platform.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real railway branding, no unsafe crowd crush, no photojournalistic chaos, no diagonal station perspective, no extra typography.",
+  "id": "02-spring-travel-platform",
+  "title": "Spring Travel Platform",
+  "description": "A symmetrical pastel railway platform during a fictional spring travel rush, centered on one family.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "cinematic",
+    "world-knowledge"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/single-pastel-transfer-studies/images/02-spring-travel-platform/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for director-language transfer into a spring travel rail scene."
+  },
+  "i18n": {
+    "en": {
+      "title": "Spring Travel Platform",
+      "description": "A symmetrical pastel railway platform during a fictional spring travel rush, centered on one family."
+    },
+    "zh-CN": {
+      "title": "春运站台",
+      "description": "虚构春运铁路站台以粉彩中轴构图呈现,中心是一组携带包裹的三代家庭。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "cinematic",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A pastel railway platform arranged symmetrically around a family holding parcels during a fictional travel rush.",
+      "zh-CN": "粉彩铁路站台围绕手提包裹的一家三代对称排列,表现虚构春运场景。"
+    }
+  }
+}

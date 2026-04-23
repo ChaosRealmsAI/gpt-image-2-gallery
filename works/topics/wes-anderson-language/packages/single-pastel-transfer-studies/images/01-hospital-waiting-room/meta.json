@@ -1,0 +1,59 @@
+{
+  "prompt": "Scene:\nA square frontal poster-like view of a municipal hospital waiting room, composed with severe bilateral symmetry and a centered vertical axis. The camera is level and static, looking directly at a row of pastel chairs and a reception window. Use soft high-key lighting, pale pistachio walls, peach chair cushions, cream floor tiles, oxblood trim, and small brass fixtures. The whole scene should feel like a carefully built miniature interior photographed as a movie still.\n\nSubject:\nAt the center sits a single patient in a neat robe, facing the camera with a calm deadpan expression and hands folded over a numbered paper slip that has no readable marks. Around the patient, identical empty chairs extend left and right. Two potted plants, two wall clocks with blank faces, two doors, two coat hooks, and two stacks of magazines create a precise mirrored rhythm. The reception window behind the patient contains an absent nurse station with blank forms and abstract colored tabs.\n\nImportant details:\nThe challenge is to transfer a recognizable director-like visual language using concrete traits: strict central axis, flat frontal staging, pastel candy palette, miniature-set texture, dry comic stillness, and exact prop choreography. The waiting room must remain believable as a hospital but not grim, chaotic, or clinical-white. Every chart, sign, ticket, magazine, and form must be blank or abstract, with no readable letters or numbers.\n\nUse case:\nWes Anderson Language single study 5/8, independent transfer into a hospital waiting room.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no gore, no emergency scene, no real hospital brand, no crowded composition, no dramatic angled perspective.",
+  "id": "01-hospital-waiting-room",
+  "title": "Hospital Waiting Room",
+  "description": "An independent centered pastel hospital waiting room study with deadpan staging and blank signage.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "style-transfer",
+    "cinematic",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/single-pastel-transfer-studies/images/01-hospital-waiting-room/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single image for director-language transfer into a hospital setting."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hospital Waiting Room",
+      "description": "An independent centered pastel hospital waiting room study with deadpan staging and blank signage."
+    },
+    "zh-CN": {
+      "title": "医院候诊室",
+      "description": "独立粉彩医院候诊室研究,以中轴构图、冷静人物和空白标识呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "cinematic",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A pastel hospital waiting room arranged with exact bilateral symmetry around one calm patient.",
+      "zh-CN": "粉彩医院候诊室围绕一名平静患者做严格左右对称布置。"
+    }
+  }
+}

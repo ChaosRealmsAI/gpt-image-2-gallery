@@ -1,0 +1,51 @@
+{
+  "id": "tattoo-flash-sheet",
+  "slug": "tattoo-flash-sheet",
+  "category": "illustration",
+  "style": [
+    "handdrawn",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "style-transfer",
+    "commercial-mockup"
+  ],
+  "title": "Tattoo Flash Sheet",
+  "short_title": "Tattoo Sheet",
+  "description": "A Prompt Atlas theme for modern tattoo flash presentation: white-sheet layouts, isolated motifs, commercial parlor clarity, and style-specific body-art language.",
+  "i18n": {
+    "en": {
+      "title": "Tattoo Flash Sheet",
+      "short_title": "Tattoo Sheet",
+      "description": "A Prompt Atlas theme for modern tattoo flash presentation: white-sheet layouts, isolated motifs, commercial parlor clarity, and style-specific body-art language."
+    },
+    "zh-CN": {
+      "title": "刺青 Flash Sheet",
+      "short_title": "刺青图纸",
+      "description": "聚焦现代刺青店 flash sheet 展示语言：白纸排布、独立图案、商业店铺清晰度与风格化纹身母题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 70,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "structured-layout",
+      "commercial-mockup",
+      "fashion"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-parlor-flash-studies",
+      "type": "single",
+      "title": "Parlor Flash Studies",
+      "path": "packages/single-parlor-flash-studies/package.json"
+    }
+  ]
+}

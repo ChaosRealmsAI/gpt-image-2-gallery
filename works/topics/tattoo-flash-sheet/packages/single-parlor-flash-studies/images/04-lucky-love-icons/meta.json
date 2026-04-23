@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square front-facing flash sheet mounted on a pale cream pinboard in a boutique tattoo studio, lit softly so the white paper remains bright while the colored inks stay saturated and tactile. The board fills the frame with a little breathing room around the edges, and the sheet looks freshly printed, flat, and ready for walk-in clients to browse.\n\nSubject:\nBuild a lively flash sheet of around thirteen lucky and romantic icons: ribboned heart, lock and key, pair of cherries, swallow, starburst ring, hand fan, playing card suit cluster, tiny cupid arrow, teacup with steam heart, perfume bottle, lipstick kiss icon, lucky clover, and dice wrapped in ribbon. The motifs should feel modern, playful, and commercial while still grounded in tattoo flash conventions such as bold outer line, clean fill shapes, selective highlights, and independent composition. The arrangement should feel curated rather than mechanically gridded, with motifs balancing each other across the page.\n\nImportant details:\nThis sheet succeeds when the imagery is sweet without becoming kawaii sticker clutter. Preserve tattoo practicality: decisive outlines, limited color families, and enough white negative space around every piece. Use cherry red, bubblegum pink, cream, black, mint, and gold accents, but keep the paper itself dominant. The overall impression should be a tattoo shop flash board for charming small pieces, not a stationery product mockup.\n\nUse case:\nTattoo Flash Sheet single study 4/8, testing a playful romantic flash set that still reads as professional tattoo inventory.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no glitter explosion background, no sticker drop shadows, no human hands, no fashion magazine cover styling, no overlapping motifs, no plastic toy rendering.",
+  "id": "04-lucky-love-icons",
+  "title": "Lucky Love Icons",
+  "description": "A playful but shop-ready flash sheet of romantic lucky charms rendered with tattoo discipline and clean spacing.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "fashion",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/04-lucky-love-icons/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent romantic flash-sheet study with small-piece shop energy."
+  },
+  "i18n": {
+    "en": {
+      "title": "Lucky Love Icons",
+      "description": "A playful but shop-ready flash sheet of romantic lucky charms rendered with tattoo discipline and clean spacing."
+    },
+    "zh-CN": {
+      "title": "幸运恋爱图标",
+      "description": "一张活泼但店铺可用的恋爱幸运符图纸，以纹身语言和清爽间距呈现。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A boutique tattoo flash sheet of hearts, cherries, swallows, and other lucky romantic icons.",
+      "zh-CN": "精品刺青图纸上排着心形、樱桃、燕子等浪漫幸运图案。"
+    }
+  }
+}

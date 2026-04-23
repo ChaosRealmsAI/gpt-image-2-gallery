@@ -1,0 +1,59 @@
+{
+  "id": "single-pastel-transfer-studies",
+  "type": "single",
+  "title": "Pastel Transfer Studies",
+  "description": "Four independent single-image studies applying the same centered, pastel, film-poster grammar to unrelated research subjects.",
+  "creative_direction": "Each image is an independent transfer problem: preserve the visual language of symmetry, frontal staging, miniature production design, muted candy color, and deadpan character placement while changing the subject domain completely.",
+  "cover_image": "images/01-hospital-waiting-room/image.png",
+  "i18n": {
+    "en": {
+      "title": "Pastel Transfer Studies",
+      "description": "Four independent single-image studies applying the same centered, pastel, film-poster grammar to unrelated research subjects."
+    },
+    "zh-CN": {
+      "title": "糖色迁移单图研究",
+      "description": "四张独立单图,把中轴、糖色、电影海报式布景和正面人物迁移到互不相关的研究主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "style-transfer",
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-hospital-waiting-room",
+      "title": "Hospital Waiting Room",
+      "image": "images/01-hospital-waiting-room/image.png",
+      "meta": "images/01-hospital-waiting-room/meta.json"
+    },
+    {
+      "id": "02-spring-travel-platform",
+      "title": "Spring Travel Platform",
+      "image": "images/02-spring-travel-platform/image.png",
+      "meta": "images/02-spring-travel-platform/meta.json"
+    },
+    {
+      "id": "03-orbital-launch-breakfast",
+      "title": "Orbital Launch Breakfast",
+      "image": "images/03-orbital-launch-breakfast/image.png",
+      "meta": "images/03-orbital-launch-breakfast/meta.json"
+    },
+    {
+      "id": "04-archive-product-shelf",
+      "title": "Archive Product Shelf",
+      "image": "images/04-archive-product-shelf/image.png",
+      "meta": "images/04-archive-product-shelf/meta.json"
+    }
+  ]
+}

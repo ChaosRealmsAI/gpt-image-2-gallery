@@ -1,0 +1,67 @@
+{
+  "prompt": "Scene:\nA square, straight-on ticket hall for an imaginary winter rail station during a peak travel season, staged like a handcrafted miniature set. The camera faces the counter head-on, with the centerline running through the clerk, ticket window, ceiling lamp, floor tile seam, and distant platform doorway. Use warm ivory lighting, dusty rose walls, celadon ticket counters, burgundy benches, brass railings, and neat rows of small luggage arranged as mirrored color blocks.\n\nSubject:\nThe same central clerk from the reference image stands behind the ticket window, facing the viewer with the same neutral expression and compact posture. The coral uniform remains recognizable, now with a wool scarf and square cap suitable for a rail station. On both sides are paired travelers seen only as simplified seated silhouettes or partial shoulders, symmetrical stacks of parcels tied with string, matching thermos bottles, blank departure boards, and two arched platform doors framing a small train nose in the background.\n\nImportant details:\nUse the reference image to preserve the central character identity, flat frontal staging, miniature prop rhythm, pastel discipline, and exact bilateral layout. The scene must evoke mass holiday travel through luggage density, queues, winter coats, and rail architecture, while remaining orderly and graphic rather than chaotic. Departure boards, tickets, parcel labels, and platform signs must contain only abstract bars or blank panels, not readable text.\n\nUse case:\nWes Anderson Language series study 3/8, transferring the reference grammar into a spring travel rail station scene.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no celebrity likeness, no named film references, no real railway branding, no overcrowded chaos, no photoreal news style, no diagonal perspective, no illegible extra signage.",
+  "id": "03-rail-ticket-hall",
+  "title": "Rail Ticket Hall",
+  "description": "The reference clerk visual language transferred into a symmetrical holiday rail ticket hall.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "style-transfer",
+    "identity-consistency",
+    "cinematic"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/03-rail-ticket-hall/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-lobby-clerk",
+        "meta_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/meta.json",
+        "image_path": "works/topics/wes-anderson-language/packages/series-axis-institutions/images/01-lobby-clerk/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use image 01 to preserve clerk identity and the strict central-axis staging in a rail hall."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rail Ticket Hall",
+      "description": "The reference clerk visual language transferred into a symmetrical holiday rail ticket hall."
+    },
+    "zh-CN": {
+      "title": "铁路售票厅",
+      "description": "参考职员视觉语言迁移到节日春运感的对称铁路售票厅。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "style-transfer",
+      "identity-consistency",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A centered pastel rail ticket hall with the same clerk, mirrored luggage stacks, blank boards, and a small train doorway.",
+      "zh-CN": "居中的粉彩铁路售票厅里,同一名职员、镜像行李堆、空白信息板和小火车门洞对称排列。"
+    }
+  }
+}

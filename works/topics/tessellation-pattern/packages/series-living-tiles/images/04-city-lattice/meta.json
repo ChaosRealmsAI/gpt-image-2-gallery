@@ -1,0 +1,65 @@
+{
+  "prompt": "Scene:\nSame square, straight-on seamless tile view as the reference image. Preserve the exact reference lattice, border continuity, figure scale, and flat no-perspective composition. The surface now appears as an isometric-looking but still flat urban planning map printed on satin paper, with tiny roof textures and street-like seams integrated into the tessellation.\n\nSubject:\nUse the same interlocking fish-to-bird tessellation geometry from the reference image, but reinterpret every shape as a miniature city block, rooftop garden, canal edge, bridge, or plaza. Fish silhouettes become curved canal districts; bird silhouettes become angular roof clusters and park wedges. The reference seam logic must remain complete and gapless, with every city district locking into the next and continuing through all four borders.\n\nImportant details:\nAccurate lattice preservation, map-like clarity, tiny rooftops, micro parks, canals, bridges, warm window dots, slate roofs, moss green parks, pale stone streets, muted blue water. The image should feel like a precise impossible city plan generated from the same tessellation, not a normal top-down city map. Keep the pattern readable at thumbnail scale.\n\nUse case:\nFourth image in a reference-dependent tessellation fanout series, testing structural continuity while changing the scene into an architectural miniature map.\n\nConstraints:\nPRESERVE the reference image lattice, crop, camera angle, border continuity, and figure count. No readable text, no watermark, no map labels, no logos, no perspective skyline, no frame, no broken edge repeats, no random scattered buildings outside the pattern, preserve exact 1:1 aspect ratio.",
+  "id": "04-city-lattice",
+  "title": "City Lattice",
+  "description": "The reference tessellation becomes a seamless miniature city plan.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "tessellation",
+    "optical-illusion",
+    "pattern",
+    "series"
+  ],
+  "refs": [
+    "01-reference-tile"
+  ],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/04-city-lattice/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-tile",
+        "meta_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/meta.json",
+        "image_path": "works/topics/tessellation-pattern/packages/series-living-tiles/images/01-reference-tile/image.png",
+        "ref_role": "geometry_reference",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Fanout variation; queue injects the 01 runtime URL as --ref."
+  },
+  "i18n": {
+    "en": {
+      "title": "City Lattice",
+      "description": "The reference tessellation becomes a seamless miniature city plan."
+    },
+    "zh-CN": {
+      "title": "城市格栅",
+      "description": "把基准拼贴结构改写成可四方连续的微型城市平面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "tessellation",
+      "optical-illusion"
+    ],
+    "alt": {
+      "en": "A miniature city map variation of the same seamless tessellation.",
+      "zh-CN": "同一无缝拼贴结构的微型城市地图版本。"
+    }
+  }
+}

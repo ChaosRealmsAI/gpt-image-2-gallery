@@ -1,0 +1,53 @@
+{
+  "id": "vertical-webtoon-hook-chapter",
+  "slug": "vertical-webtoon-hook-chapter",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Vertical Webtoon Hook Chapter",
+  "short_title": "Webtoon Hook",
+  "description": "A Prompt Atlas theme for Vertical Webtoon Hook Chapter, testing structured-layout, reasoning-composition, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Vertical Webtoon Hook Chapter",
+      "short_title": "Webtoon Hook",
+      "description": "Create a vertical webtoon opening chapter with pacing, hooks, and scroll-based reveals."
+    },
+    "zh-CN": {
+      "title": "条漫开篇钩子",
+      "short_title": "条漫开篇",
+      "description": "做条漫式开篇章节，重点是滚动阅读节奏和钩子。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square overhead studio capture of a pristine white tattoo flash sheet resting on a metal-edged worktable, with diffuse daylight from above and very light shadowing along the page edges. The framing is clinical and presentation-driven, like a portfolio page being documented for a tattoo artist archive. Leave generous white margins so the motifs feel collectible and easy to compare.\n\nSubject:\nCreate a floral-and-blade flash sheet containing around ten independent tattoo designs built from daggers, roses, peonies, thorn vines, spider lilies, tulips, iris blooms, ribbon wraps, broken stem clusters, and a single butterfly crossing one blade. The compositions should feel sharper and more elegant than basic parlor flash, but still ready for skin translation: bold line foundation, controlled line taper, deliberate color pockets, and strong mid-size silhouettes. Each motif should sit on its own, with no connecting background flourishes.\n\nImportant details:\nThe visual challenge is balancing softness of flower petals with the hard geometry of blades. Keep the sheet feeling commercial and body-art specific, not like botanical illustration or packaging art. Use burgundy, blush pink, dark olive, muted gold, silver-gray, and black outlines. Maintain consistent paper rhythm, with motifs distributed across the page in a way that feels curated by an experienced tattooer. Avoid excess filigree and avoid delicate details that would disappear at tattoo scale.\n\nUse case:\nTattoo Flash Sheet single study 6/8, testing whether a more elegant floral-dagger substyle can still read as practical flash-sheet inventory.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no bouquet background, no blood, no fantasy swords, no overlapping motifs, no perfume-ad illustration styling, no human body, no glossy foil effects.",
+  "id": "06-floral-dagger-study",
+  "title": "Floral Dagger Study",
+  "description": "An elegant but tattoo-practical flash sheet of blades, flowers, and ribboned botanical compositions.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "fashion",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 6,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/tattoo-flash-sheet/packages/single-parlor-flash-studies/images/06-floral-dagger-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent floral-blade tattoo flash-sheet study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Floral Dagger Study",
+      "description": "An elegant but tattoo-practical flash sheet of blades, flowers, and ribboned botanical compositions."
+    },
+    "zh-CN": {
+      "title": "花匕首研究",
+      "description": "一张兼具优雅气质与纹身可实施性的花卉匕首图纸。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "fashion",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "A white flash sheet of daggers woven with roses, lilies, vines, and other floral tattoo motifs.",
+      "zh-CN": "一张白色纹身图纸上，匕首与玫瑰、百合、藤蔓等花卉图案交织排列。"
+    }
+  }
+}

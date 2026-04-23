@@ -1,0 +1,54 @@
+{
+  "id": "wellness-app-soft-premium-ui-system",
+  "slug": "wellness-app-soft-premium-ui-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Wellness App Soft Premium UI System",
+  "short_title": "Wellness UI",
+  "description": "Build wellness and self-care app UIs with calm emotional pacing, premium softness, and high-end onboarding polish.",
+  "i18n": {
+    "en": {
+      "title": "Wellness App Soft Premium UI System",
+      "short_title": "Wellness UI",
+      "description": "Build wellness and self-care app UIs with calm emotional pacing, premium softness, and high-end onboarding polish."
+    },
+    "zh-CN": {
+      "title": "健康与冥想 App 柔和高级 UI",
+      "short_title": "健康UI",
+      "description": "做健康与冥想 App 柔和高级 UI，强调情绪 pacing 和 onboarding 质感。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 1051,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "reasoning-composition",
+      "frontier-creative-composition"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-theme-core",
+      "type": "series",
+      "title": "Theme Core",
+      "path": "packages/series-theme-core/package.json"
+    },
+    {
+      "id": "single-theme-extensions",
+      "type": "single",
+      "title": "Theme Extensions",
+      "path": "packages/single-theme-extensions/package.json"
+    }
+  ]
+}
