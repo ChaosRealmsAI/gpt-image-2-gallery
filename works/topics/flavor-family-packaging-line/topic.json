@@ -1,0 +1,53 @@
+{
+  "id": "flavor-family-packaging-line",
+  "slug": "flavor-family-packaging-line",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Flavor Family Packaging Line",
+  "short_title": "Flavor Line",
+  "description": "A Prompt Atlas theme for Flavor Family Packaging Line, testing commercial-mockup, structured-layout, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Flavor Family Packaging Line",
+      "short_title": "Flavor Line",
+      "description": "Design a packaging family across flavors or variants while keeping shelf unity and SKU-level distinction."
+    },
+    "zh-CN": {
+      "title": "多口味包装家族线",
+      "short_title": "口味包装",
+      "description": "做多口味包装家族线，强调货架统一和 SKU 区分。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

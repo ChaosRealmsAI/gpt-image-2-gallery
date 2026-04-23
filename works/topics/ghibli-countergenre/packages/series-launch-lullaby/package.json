@@ -1,0 +1,71 @@
+{
+  "id": "series-launch-lullaby",
+  "type": "series",
+  "title": "Launch Lullaby",
+  "description": "A four-image continuity series that keeps the same hand-painted rocket, gantry, valley, and camera logic while moving from quiet preparation to liftoff.",
+  "creative_direction": "This package proves countergenre through continuity rather than one-off gimmicks: a realistic orbital launch facility is restaged as a tender watercolor pastoral, preserving rocket identity and operational detail across four scenes.",
+  "cover_image": "images/01-reference-rocket-garden/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-rocket-garden/meta.json",
+      "images/02-fueling-lantern-hour/meta.json",
+      "images/03-ignition-under-paper-sky/meta.json",
+      "images/04-ascent-over-rice-clouds/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Launch Lullaby",
+      "description": "A four-image continuity series that keeps the same hand-painted rocket, gantry, valley, and camera logic while moving from quiet preparation to liftoff."
+    },
+    "zh-CN": {
+      "title": "发射摇篮曲",
+      "description": "四张连续系列在同一火箭、发射塔、山谷和镜头逻辑下，从静默准备推进到升空瞬间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "style-transfer",
+      "identity-consistency",
+      "scientific-realism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-rocket-garden",
+      "title": "Reference Rocket Garden",
+      "image": "images/01-reference-rocket-garden/image.png",
+      "meta": "images/01-reference-rocket-garden/meta.json"
+    },
+    {
+      "id": "02-fueling-lantern-hour",
+      "title": "Fueling Lantern Hour",
+      "image": "images/02-fueling-lantern-hour/image.png",
+      "meta": "images/02-fueling-lantern-hour/meta.json"
+    },
+    {
+      "id": "03-ignition-under-paper-sky",
+      "title": "Ignition Under Paper Sky",
+      "image": "images/03-ignition-under-paper-sky/image.png",
+      "meta": "images/03-ignition-under-paper-sky/meta.json"
+    },
+    {
+      "id": "04-ascent-over-rice-clouds",
+      "title": "Ascent Over Rice Clouds",
+      "image": "images/04-ascent-over-rice-clouds/image.png",
+      "meta": "images/04-ascent-over-rice-clouds/meta.json"
+    }
+  ]
+}

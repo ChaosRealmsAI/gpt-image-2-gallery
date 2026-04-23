@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior view inside a major financial trading floor during a quiet pause between market surges. The room is broad and bright, with concentric desk islands, hanging monitors turned at many angles, glass walls catching warm afternoon light, and layered depth that shows stair rails, mezzanines, cables, coffee trays, and windows to neighboring towers. The color palette should shift the usual steel-blue corporate chill into honey light, cedar brown, cream, muted green, and charcoal accents.\n\nSubject:\nThe subject is a bustling Wall Street-style trading floor interpreted through a gentle animated-film sensibility. Traders in rolled-up sleeves and practical vests are scattered through the room, some comparing charts on paper, some carrying tea kettles and ceramic cups, some leaning over terminals with tired but human expressions. The financial infrastructure must remain accurate enough to read instantly: clustered market screens, badge gates, headsets, data displays, rolling chairs, shared desks, and tiered oversight platforms. Yet the scene should feel like a communal workshop rather than a cold temple of money. Plants on ledges, worn floor mats, jackets over chair backs, and hand-labeled lunch tins add warmth.\n\nImportant details:\nThe countergenre tension is between institutional finance and domestic tenderness. Keep the architecture, equipment density, and world knowledge of a trading floor intact, but replace the usual aggressive visual language with painterly light, soft facial acting, and everyday rituals. Avoid satire, caricature, or cartoon greed. No one should be yelling theatrically; the life comes from subtle motion, layered props, and believable collaborative work.\n\nUse case:\nGhibli Countergenre single study 7/8, testing whether a Wall Street trading floor can become visually warm without losing its recognizable operational structure.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no stock ticker text, no money raining through the air, no villain posing, no empty desks, no futuristic spaceship bridge design.",
+  "id": "03-wall-street-tea-break",
+  "title": "Wall Street Tea Break",
+  "description": "A recognizable trading floor softened into a communal, workmanlike interior lit like a hand-painted studio scene.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "world-knowledge",
+    "structured-layout",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/single-countergenre-studies/images/03-wall-street-tea-break/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent finance countergenre study with strong world-knowledge cues."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wall Street Tea Break",
+      "description": "A recognizable trading floor softened into a communal, workmanlike interior lit like a hand-painted studio scene."
+    },
+    "zh-CN": {
+      "title": "华尔街茶歇",
+      "description": "可辨识的交易大厅被柔化为带有集体工坊气质的手绘室内场景。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "world-knowledge"
+    ],
+    "alt": {
+      "en": "A warm hand-painted trading floor where brokers pause for tea among dense financial equipment.",
+      "zh-CN": "在密集金融设备之间，经纪人们于温暖手绘风格的交易大厅中暂歇饮茶。"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "glassmorphism-premium-product-interface",
+  "slug": "glassmorphism-premium-product-interface",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Glassmorphism Premium Product Interface",
+  "short_title": "Glass UI",
+  "description": "A Prompt Atlas theme for Glassmorphism Premium Product Interface, testing structured-layout, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Glassmorphism Premium Product Interface",
+      "short_title": "Glass UI",
+      "description": "Create premium product interfaces using glassmorphism without sacrificing usability or hierarchy."
+    },
+    "zh-CN": {
+      "title": "玻璃拟态高级产品界面",
+      "short_title": "玻璃拟态",
+      "description": "做玻璃拟态高级产品界面，强调层次和可用性并存。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

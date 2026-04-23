@@ -1,0 +1,58 @@
+{
+  "id": "single-countergenre-studies",
+  "type": "single",
+  "title": "Countergenre Studies",
+  "description": "Four independent studies that recast apocalypse, cyberpunk, finance, and orbital operations through a warm hand-painted animated-film lens.",
+  "creative_direction": "Each image picks a genre that usually skews cold, metallic, or severe, then rebuilds it with watercolor skies, tactile props, humane scale, and soft narrative warmth without losing the underlying subject matter.",
+  "cover_image": "images/01-ruin-bathhouse-district/image.png",
+  "i18n": {
+    "en": {
+      "title": "Countergenre Studies",
+      "description": "Four independent studies that recast apocalypse, cyberpunk, finance, and orbital operations through a warm hand-painted animated-film lens."
+    },
+    "zh-CN": {
+      "title": "反题材单图研究",
+      "description": "四张独立单图以温暖手绘动画电影语汇重写末日、赛博朋克、金融和轨道控制题材。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "style-transfer",
+      "frontier-creative-composition",
+      "world-knowledge"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-ruin-bathhouse-district",
+      "title": "Ruin Bathhouse District",
+      "image": "images/01-ruin-bathhouse-district/image.png",
+      "meta": "images/01-ruin-bathhouse-district/meta.json"
+    },
+    {
+      "id": "02-cyberpunk-crosswalk-messenger",
+      "title": "Cyberpunk Crosswalk Messenger",
+      "image": "images/02-cyberpunk-crosswalk-messenger/image.png",
+      "meta": "images/02-cyberpunk-crosswalk-messenger/meta.json"
+    },
+    {
+      "id": "03-wall-street-tea-break",
+      "title": "Wall Street Tea Break",
+      "image": "images/03-wall-street-tea-break/image.png",
+      "meta": "images/03-wall-street-tea-break/meta.json"
+    },
+    {
+      "id": "04-orbital-mission-control-meadow",
+      "title": "Orbital Mission Control Meadow",
+      "image": "images/04-orbital-mission-control-meadow/image.png",
+      "meta": "images/04-orbital-mission-control-meadow/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ghibli-countergenre",
+  "slug": "ghibli-countergenre",
+  "category": "illustration",
+  "style": [
+    "painterly",
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer",
+    "world-knowledge",
+    "consistency"
+  ],
+  "title": "Ghibli Countergenre",
+  "short_title": "Ghibli Flip",
+  "description": "A Prompt Atlas theme for countergenre style transfer: hard sci-fi, apocalypse, finance, and cyberpunk scenes recast through a gentle hand-painted animated-film language.",
+  "i18n": {
+    "en": {
+      "title": "Ghibli Countergenre",
+      "short_title": "Ghibli Flip",
+      "description": "A Prompt Atlas theme for countergenre style transfer: hard sci-fi, apocalypse, finance, and cyberpunk scenes recast through a gentle hand-painted animated-film language."
+    },
+    "zh-CN": {
+      "title": "Ghibli 反题材",
+      "short_title": "反吉卜力",
+      "description": "以温柔手绘动画电影语汇重写硬核科幻、末日废墟、金融交易和赛博朋克场景的反题材风格迁移主题。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 60,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "frontier-creative-composition",
+      "identity-consistency",
+      "world-knowledge"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-launch-lullaby",
+      "type": "series",
+      "title": "Launch Lullaby",
+      "path": "packages/series-launch-lullaby/package.json"
+    },
+    {
+      "id": "single-countergenre-studies",
+      "type": "single",
+      "title": "Countergenre Studies",
+      "path": "packages/single-countergenre-studies/package.json"
+    }
+  ]
+}

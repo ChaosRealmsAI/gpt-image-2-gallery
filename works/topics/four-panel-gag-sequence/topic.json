@@ -1,0 +1,53 @@
+{
+  "id": "four-panel-gag-sequence",
+  "slug": "four-panel-gag-sequence",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Four-Panel Gag Sequence",
+  "short_title": "4-Panel Gag",
+  "description": "A Prompt Atlas theme for Four-Panel Gag Sequence, testing structured-layout, reasoning-composition, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Four-Panel Gag Sequence",
+      "short_title": "4-Panel Gag",
+      "description": "Build a compact four-panel comic with readable setup, turn, punchline, and character continuity."
+    },
+    "zh-CN": {
+      "title": "四格梗漫画",
+      "short_title": "四格漫画",
+      "description": "做四格短漫画，重点是起承转合和人物连续性。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "reasoning-composition",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

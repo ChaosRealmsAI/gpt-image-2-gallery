@@ -1,0 +1,53 @@
+{
+  "id": "gift-box-seasonal-retail-kit",
+  "slug": "gift-box-seasonal-retail-kit",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Gift Box Seasonal Retail Kit",
+  "short_title": "Gift Box Kit",
+  "description": "A Prompt Atlas theme for Gift Box Seasonal Retail Kit, testing commercial-mockup, photorealism, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Gift Box Seasonal Retail Kit",
+      "short_title": "Gift Box Kit",
+      "description": "Create seasonal gift boxes and retail presentation kits with premium unboxing appeal and campaign readiness."
+    },
+    "zh-CN": {
+      "title": "礼盒与季节零售套件",
+      "short_title": "礼盒套件",
+      "description": "做季节礼盒和零售套件，强调开箱感和节日传播。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "photorealism",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

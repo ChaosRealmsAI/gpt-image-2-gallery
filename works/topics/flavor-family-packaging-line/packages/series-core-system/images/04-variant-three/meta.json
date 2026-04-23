@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nCreate a square dependent image for Flavor Family Packaging Line. Build a third controlled variation in the same system with a premium, production-ready finish. Use a polished modular board or campaign surface with clean spacing, premium game-UI finish, and clear focal hierarchy. The composition should feel intentional, clean, and reusable for gallery, research, campaign, or internal handoff contexts. Lighting must support readability first, with the main forms clearly separated from the background and enough breathing room for the system to stay legible at both hero scale and thumbnail scale.\n\nSubject:\nCenter a coherent original game-art system built for premium production and marketing surfaces. For this image, focus on the intended support surface. Keep the same system logic stable across screenshots, cards, banners, and overview boards. Preserve exact identity or system logic from the reference image while changing only the intended variation axis. The viewer should immediately understand what role this surface plays inside a cohesive game-production asset pack.\n\nImportant details:\nLock framing, icon grammar, palette blocking, and surface hierarchy so the kit feels production-ready and consistent. Preserve the core silhouette, framing language, and material logic from the reference image while each variation changes function. Keep materials believable, edge hierarchy disciplined, and the visual language consistent with Flavor Line. Use abstract interface blocks or diagram accents when helpful, but avoid any readable language. The final result should feel like a deliberate production asset rather than a random illustration.\n\nUse case:\nFlavor Family Packaging Line series study 4/9, designed as variant three within a cohesive asset pack.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no unrelated objects, no broken visual hierarchy, no malformed anatomy or broken perspective, no random decorative clutter.",
+  "id": "04-variant-three",
+  "title": "Variant Three",
+  "description": "Variant Three for Flavor Family Packaging Line, preserving the same core system while emphasizing a third controlled variation in the same system.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "structured-layout",
+    "commercial-mockup",
+    "reasoning-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/flavor-family-packaging-line/packages/series-core-system/images/04-variant-three/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-anchor",
+        "meta_path": "works/topics/flavor-family-packaging-line/packages/series-core-system/images/01-reference-anchor/meta.json",
+        "image_path": "works/topics/flavor-family-packaging-line/packages/series-core-system/images/01-reference-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent image that must preserve the established core system from the series reference.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Variant Three",
+      "description": "Variant Three for Flavor Family Packaging Line, preserving the same core system while emphasizing a third controlled variation in the same system."
+    },
+    "zh-CN": {
+      "title": "变体三",
+      "description": "口味包装相关的变体三图像。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "structured-layout",
+      "commercial-mockup",
+      "reasoning-composition"
+    ],
+    "alt": {
+      "en": "Variant Three from Flavor Family Packaging Line.",
+      "zh-CN": "口味包装的变体三图像。"
+    }
+  }
+}

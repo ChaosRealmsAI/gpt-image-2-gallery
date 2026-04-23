@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square frame from the same hillside viewpoint and distance as the reference image, now set in blue hour just after sunset. The launch valley is dimmer, lanterns and sodium work lights glow softly through mist, and the rocket stands in the same position beside the same gantry, reflected in wet concrete and narrow irrigation channels. Low clouds hang over the hills, and the scene should feel hushed rather than dramatic.\n\nSubject:\nShow the same orbital rocket during cryogenic fueling. White vapor spills slowly around the lower tank and pad deck, the umbilical arm is connected in the same place, frost bands build on the body, and a few tiny technicians in rain capes move near tool carts and hoses. The facility must remain the same one established in the reference: same tower silhouette, same service buildings, same ridge lines, same drainage canal, same patched stair railings. The emotional twist is that a technically intense fueling operation reads like an evening village ritual, with lanterns, puddles, and patient preparation.\n\nImportant details:\nPreserve identity continuity from image 01: same rocket diameter, nose shape, engine skirt, gantry spacing, camera angle, and valley layout. The style should remain hand-painted and tactile, with watercolor skies, soft edge control, and subtle cel shading, but the hardware cannot become vague. Use cool indigo, moss green, cream, and warm amber accents. Keep the fueling vapor dense and believable near the ground, not stylized into magical clouds.\n\nUse case:\nGhibli Countergenre series study 2/8, testing whether a realistic fueling scene can retain reference identity inside a soft animated-film atmosphere.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no second launch vehicle, no fireworks, no military spectacle, no fantasy creatures, no cockpit close-up, no hard-edged neon cyberpunk lighting.",
+  "id": "02-fueling-lantern-hour",
+  "title": "Fueling Lantern Hour",
+  "description": "The reference rocket enters a quiet blue-hour fueling operation under lantern light and low mist.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "identity-consistency",
+    "scientific-realism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/02-fueling-lantern-hour/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-rocket-garden",
+        "meta_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/meta.json",
+        "image_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference rocket image to preserve vehicle and pad identity."
+  },
+  "i18n": {
+    "en": {
+      "title": "Fueling Lantern Hour",
+      "description": "The reference rocket enters a quiet blue-hour fueling operation under lantern light and low mist."
+    },
+    "zh-CN": {
+      "title": "灯笼加注时刻",
+      "description": "基准火箭在灯笼微光与低雾中进入宁静的傍晚加注阶段。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "The same hand-painted launch rocket being fueled at blue hour under warm lantern light.",
+      "zh-CN": "同一枚手绘发射火箭在蓝调时刻的灯笼暖光下进行加注。"
+    }
+  }
+}

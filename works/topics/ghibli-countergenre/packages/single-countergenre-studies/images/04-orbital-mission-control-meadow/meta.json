@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square interior looking across a mission control room built with tiered consoles facing a giant window wall of screens, during a calm orbital operations shift near sunrise. The room is softly backlit by pale morning light from clerestory windows, with long shadows across wood-and-metal consoles, instrument racks, paper checklists, plants near the edges, and a distant suggestion of antennas outside. The palette is cream, pale blue, olive, brass, and warm gray.\n\nSubject:\nThe scene should portray a serious orbital mission control center, but translated into a restorative, meadow-like emotional register. Engineers and flight controllers sit in clusters at their stations, each with headsets, notebooks, binders, mugs, and carefully arranged tools. Overhead screens show abstract orbital tracks and telemetry shapes without readable text. The room layout must feel credible: front flight director row, raised back rows, side support stations, timing displays, cable trays, and equipment cabinets. Yet instead of sterile severity, the space carries the atmosphere of a quiet greenhouse workshop. Potted grasses by the windows, sunlight catching dust motes, and hand-maintained details on the desks make the room feel lived in and patient.\n\nImportant details:\nKeep the operational grammar of real mission control intact so the subject reads instantly as orbital oversight, not a generic office. The countergenre move is tonal, not informational: realism in console density, headset posture, and screen choreography, with hand-painted softness, humane scale, and near-pastoral calm layered over it. Avoid retro toy aesthetics and avoid glossy sci-fi command bridge clichés.\n\nUse case:\nGhibli Countergenre single study 8/8, testing whether mission control can hold genuine aerospace credibility while feeling quiet, hopeful, and handcrafted.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no astronauts floating in the room, no starship cockpit, no emergency red alarm lighting, no giant holograms, no empty control center.",
+  "id": "04-orbital-mission-control-meadow",
+  "title": "Orbital Mission Control Meadow",
+  "description": "A credible aerospace control room recast as a quiet, sunlit, and hand-painted place of patient coordination.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "world-knowledge",
+    "scientific-realism",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/single-countergenre-studies/images/04-orbital-mission-control-meadow/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent mission-control countergenre study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Orbital Mission Control Meadow",
+      "description": "A credible aerospace control room recast as a quiet, sunlit, and hand-painted place of patient coordination."
+    },
+    "zh-CN": {
+      "title": "轨道控制草甸",
+      "description": "可信的航天任务控制室被重写成安静、日照充足且手绘感鲜明的协作空间。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A sunlit hand-painted mission control room where engineers quietly supervise orbital operations.",
+      "zh-CN": "阳光洒入的手绘任务控制室里，工程师们安静地监督轨道任务运行。"
+    }
+  }
+}

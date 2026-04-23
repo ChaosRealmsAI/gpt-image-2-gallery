@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square frame from the same valley overlook and approximate camera height as the earlier series images, now moments after liftoff. The rocket has risen above the tower but remains centered in the composition, with the pad, gantry, canal, terraces, and far hills still visible below. Morning clouds sit low and puffy across the valley like rice-steam layers, catching warm sunlight in pale gold and cream.\n\nSubject:\nDepict the same rocket climbing cleanly, with a bright but controlled exhaust column descending into the launch trench and a widening cloud field rolling across the ground. The gantry should remain recognizable below, confirming that this is the same site and not a generic ascent painting. The rocket body needs to match the reference identity exactly: same tank segmentation, nose profile, interstage placement, engine spacing, and weathered coloration. The countergenre payoff is that the violent physics of ascent are rendered with extraordinary gentleness in the surrounding world: terraced hills, reeds bending by the canal, distant houses, and birds scattering at the edge of the smoke.\n\nImportant details:\nKeep the animated-film treatment soft and lyrical but do not romanticize away the mechanics. Exhaust must read as hot and forceful, with clear directional thrust and ground interaction. Avoid dramatic fisheye distortion. Use a bright morning palette of cream, celadon, pale blue, rust, and soft charcoal. Preserve the same composition family and environment memory from image 01 so the series reads as one continuous event sequence.\n\nUse case:\nGhibli Countergenre series study 4/8, completing the continuity arc with a liftoff image that still feels intimate, pastoral, and technically anchored.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no orbital view, no extra spacecraft, no military jets, no stylized starfield, no city skyline swap, no comedic caricature proportions.",
+  "id": "04-ascent-over-rice-clouds",
+  "title": "Ascent Over Rice Clouds",
+  "description": "The reference rocket clears the tower and rises above the valley in a soft but physically grounded liftoff scene.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "identity-consistency",
+    "scientific-realism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/04-ascent-over-rice-clouds/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-rocket-garden",
+        "meta_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/meta.json",
+        "image_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference image to keep rocket and launch site identity stable through ascent."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ascent Over Rice Clouds",
+      "description": "The reference rocket clears the tower and rises above the valley in a soft but physically grounded liftoff scene."
+    },
+    "zh-CN": {
+      "title": "稻云之上升空",
+      "description": "基准火箭越过发射塔，在柔和但物理可信的升空画面中上升至山谷之上。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "The same launch rocket rises above a watercolor valley while the pad disappears into bright exhaust.",
+      "zh-CN": "同一枚发射火箭升出水彩山谷，发射台逐渐被明亮尾焰与烟云吞没。"
+    }
+  }
+}

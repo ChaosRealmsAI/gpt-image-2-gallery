@@ -1,0 +1,52 @@
+{
+  "id": "fight-scene-keyframe-strip",
+  "slug": "fight-scene-keyframe-strip",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Fight Scene Keyframe Strip",
+  "short_title": "Fight Strip",
+  "description": "A Prompt Atlas theme for Fight Scene Keyframe Strip, testing reasoning-composition, multi-image-reference with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fight Scene Keyframe Strip",
+      "short_title": "Fight Strip",
+      "description": "Translate a fight scene into a keyframe strip that captures escalation, spacing, and decisive hits."
+    },
+    "zh-CN": {
+      "title": "战斗关键帧条",
+      "short_title": "战斗关键帧",
+      "description": "把战斗戏做成关键帧条，突出升级和决定性打击。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "multi-image-reference"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

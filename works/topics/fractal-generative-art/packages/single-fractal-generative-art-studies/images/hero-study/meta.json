@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square, exhibition-ready image with disciplined composition, coherent lighting, and an immediately readable central idea. Build the frame around the clearest possible statement of the topic. Keep the lighting, camera distance, and spatial organization tuned for a high-signal research image rather than a casual snapshot. The image belongs to the Fractal Generative Art theme and should feel immediately legible as a prompt atlas theme for fractal generative art, testing frontier-creative-composition with gpt image 2..\n\nSubject:\nCenter the study on the clearest possible statement of the topic. Translate the theme into a concrete visual statement instead of an abstract mood board: the viewer should understand what kind of image this is, what is being tested, and why the composition is difficult. Use the slug idea of fractal generative art as a literal guide for subject matter, materials, and staging. If helpful, borrow the broad visual cues suggested by Mandelbrot, Voronoi, Flow field, Reaction-diffusion, L-system, but keep the result original and specific to this study.\n\nImportant details:\nThe result should look intentional and technically difficult, with enough structure and material clarity to hold up under close inspection. Preserve a disciplined square composition, clear focal hierarchy, and enough secondary information to make the image feel complete rather than underspecified. The image should look polished, novel, and exhibition-ready, with topic-specific credibility coming from the way surfaces, structure, and visual language reinforce Fractal Generative Art. Avoid generic filler elements that do not serve the main concept.\n\nUse case:\nFractal Generative Art single study 1/8, testing frontier-creative-composition through the hero study variation.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable text, no watermark, no logos, no generic stock-photo staging, no broken composition, no muddy subject hierarchy.",
+  "id": "hero-study",
+  "title": "Hero Study",
+  "description": "Hero Study interprets Fractal Generative Art as a self-contained image study with a distinct visual emphasis.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "frontier-creative-composition",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/fractal-generative-art/packages/single-fractal-generative-art-studies/images/hero-study/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent Fractal Generative Art single-image study; no reference URL required."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hero Study",
+      "description": "Hero Study interprets Fractal Generative Art as a self-contained image study with a distinct visual emphasis."
+    },
+    "zh-CN": {
+      "title": "主研究",
+      "description": "主研究：围绕 Fractal / Generative 算法艺术 的独立单图研究，强调该变体的关键视觉控制点。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "frontier-creative-composition",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Hero Study for Fractal Generative Art.",
+      "zh-CN": "Fractal / Generative 算法艺术主题中的主研究图像研究。"
+    }
+  }
+}

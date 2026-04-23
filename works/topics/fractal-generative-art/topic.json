@@ -1,0 +1,47 @@
+{
+  "id": "fractal-generative-art",
+  "slug": "fractal-generative-art",
+  "category": "illustration",
+  "style": [
+    "abstract"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Fractal Generative Art",
+  "short_title": "Fractal Art",
+  "description": "A Prompt Atlas theme for Fractal Generative Art, testing frontier-creative-composition with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Fractal Generative Art",
+      "short_title": "Fractal Art",
+      "description": "A Prompt Atlas theme for Fractal Generative Art, testing frontier-creative-composition with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Fractal / Generative 算法艺术",
+      "short_title": "分形艺术",
+      "description": "Fractal / Generative 算法艺术：Mandelbrot 分形 / Voronoi 泰森多边形 / Flow field 流场 / Reaction-diffusion 反应扩散 / L-system 植物"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 100,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "frontier-creative-composition",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-fractal-generative-art-studies",
+      "type": "single",
+      "title": "Fractal Art Studies",
+      "path": "packages/single-fractal-generative-art-studies/package.json"
+    }
+  ]
+}

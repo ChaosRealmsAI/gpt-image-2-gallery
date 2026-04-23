@@ -1,0 +1,53 @@
+{
+  "id": "gulf-architectural-luxury-minimalism",
+  "slug": "gulf-architectural-luxury-minimalism",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Gulf Architectural Luxury Minimalism",
+  "short_title": "Gulf Luxury",
+  "description": "A Prompt Atlas theme for Gulf Architectural Luxury Minimalism, testing photorealism, style-transfer, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Gulf Architectural Luxury Minimalism",
+      "short_title": "Gulf Luxury",
+      "description": "Build visuals rooted in Gulf luxury architecture with stone, arches, shadow, water, and restrained opulence."
+    },
+    "zh-CN": {
+      "title": "海湾建筑奢雅极简",
+      "short_title": "海湾极简",
+      "description": "围绕海湾建筑奢雅做视觉系统，结合石材、拱门、阴影、水面和克制奢华。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "style-transfer",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

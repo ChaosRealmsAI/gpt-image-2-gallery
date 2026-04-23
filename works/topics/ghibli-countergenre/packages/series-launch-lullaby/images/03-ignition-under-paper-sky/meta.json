@@ -1,0 +1,63 @@
+{
+  "prompt": "Scene:\nA square composition from the same hill-facing camera position as the first two images, now at first light during ignition. The sky is pale cream and dusty rose, layered like thin paper wash, while the valley grasses bend away from the pad. The rocket and gantry keep the same framing and scale, with the pad still fully visible and the hills wrapping around the launch site.\n\nSubject:\nShow the same rocket at the instant engines have started but before the vehicle has cleared the tower. Dense exhaust expands across the trench and spills over the concrete like rolling storm surf, with orange-white engine glow under the base and water deluge bursting upward. Small service buildings, railings, pipes, and the irrigation channel should still be recognizable through the haze. The contrast of the theme is essential: the scene must depict true launch power and heavy machinery, yet the overall feeling should still be humane, lyrical, and painterly, as if a dangerous industrial ritual has been translated into a compassionate animated world.\n\nImportant details:\nPreserve the exact identity from image 01: same rocket proportions, same tower geometry, same pad layout, same hillside silhouette, same camera height. The exhaust should feel physical and weighty, not abstract cotton. Keep the palette controlled: warm cream flame, soot gray, pale coral sky, muted green hills, and amber highlights in windows and lantern remnants. The image must remain readable as a launch pad, not a fantasy bonfire or volcanic eruption.\n\nUse case:\nGhibli Countergenre series study 3/8, testing continuity through the hardest phase change: ignition without losing either engineering clarity or the tender visual language.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no multiple towers, no mushroom-cloud apocalypse, no spacecraft in orbit, no stylized magical aura, no giant human figure in the foreground.",
+  "id": "03-ignition-under-paper-sky",
+  "title": "Ignition Under Paper Sky",
+  "description": "The same rocket reaches ignition while preserving launch realism inside a soft paper-sky palette.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "identity-consistency",
+    "scientific-realism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/03-ignition-under-paper-sky/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-rocket-garden",
+        "meta_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/meta.json",
+        "image_path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Keep the launch geometry locked while changing to the ignition phase."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ignition Under Paper Sky",
+      "description": "The same rocket reaches ignition while preserving launch realism inside a soft paper-sky palette."
+    },
+    "zh-CN": {
+      "title": "纸空之下点火",
+      "description": "同一枚火箭进入点火瞬间，在柔和纸感天空配色中保持真实发射逻辑。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "scientific-realism"
+    ],
+    "alt": {
+      "en": "A hand-painted orbital rocket ignites at dawn, filling the launch pad with heavy exhaust.",
+      "zh-CN": "一枚手绘轨道火箭在黎明点火，厚重尾气迅速铺满发射台。"
+    }
+  }
+}

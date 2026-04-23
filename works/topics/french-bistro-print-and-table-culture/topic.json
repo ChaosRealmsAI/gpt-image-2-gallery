@@ -1,0 +1,53 @@
+{
+  "id": "french-bistro-print-and-table-culture",
+  "slug": "french-bistro-print-and-table-culture",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "French Bistro Print and Table Culture",
+  "short_title": "French Bistro",
+  "description": "A Prompt Atlas theme for French Bistro Print and Table Culture, testing style-transfer, photorealism, commercial-mockup with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "French Bistro Print and Table Culture",
+      "short_title": "French Bistro",
+      "description": "Capture French bistro culture through menus, striped awnings, tabletop rituals, and print cues."
+    },
+    "zh-CN": {
+      "title": "法式小酒馆印刷与桌面文化",
+      "short_title": "法式酒馆",
+      "description": "围绕法式小酒馆文化做系统，强调菜单、遮阳篷、桌面 ritual 和印刷线索。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "photorealism",
+      "commercial-mockup"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

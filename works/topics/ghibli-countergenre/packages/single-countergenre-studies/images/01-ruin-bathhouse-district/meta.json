@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square composition looking down a wide street in a collapsed bathhouse district after years of abandonment, under late-afternoon light filtered through dust and climbing vines. Broken tram tracks run through puddles, tiled roofs sag inward, and warm shafts of sun push through hanging laundry lines, torn banners, and drifting seed fluff. The palette is muted gold, moss green, terracotta, and faded teal, with a storybook sense of atmosphere instead of horror gloom.\n\nSubject:\nThe image should translate a hard post-apocalyptic ruin into a compassionate hand-painted animated-film scene. The central structure is a grand bathhouse-like civic building with cracked ceramic ornament, shattered windows, and plants overtaking balconies. Around it sit collapsed vending kiosks, a rusted bus stop, bicycles swallowed by ivy, and a small improvised vegetable patch growing from old concrete. There may be one or two tiny figures for scale, but the emphasis is on environmental storytelling and the strange peace of the ruins. The district must still feel urban and specific, not a generic fantasy village or romantic countryside.\n\nImportant details:\nThe countergenre rule is crucial: keep the evidence of collapse real and layered, yet let the mood stay tender, breathable, and visually inviting. Avoid gore, militarized destruction, and bleak monochrome decay. Surfaces should have tactile watercolor texture and careful linework, with chipped tile patterns, moss, puddle reflections, and weathered plaster. The bathhouse architecture should anchor the frame as a recognizable civic landmark rather than a castle or temple.\n\nUse case:\nGhibli Countergenre single study 5/8, testing whether post-apocalyptic urban ruin can feel humane, painterly, and immediately legible.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no zombies, no guns, no firestorms, no armored vehicles, no dystopian neon signage, no photoreal live-action grading.",
+  "id": "01-ruin-bathhouse-district",
+  "title": "Ruin Bathhouse District",
+  "description": "A post-apocalyptic urban district rendered with warm painterly calm instead of brutal dystopian severity.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "frontier-creative-composition",
+    "world-knowledge",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/single-countergenre-studies/images/01-ruin-bathhouse-district/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent apocalypse-to-storybook countergenre study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Ruin Bathhouse District",
+      "description": "A post-apocalyptic urban district rendered with warm painterly calm instead of brutal dystopian severity."
+    },
+    "zh-CN": {
+      "title": "废墟澡堂街区",
+      "description": "以后启示录式城市废墟为题材，却用温暖手绘宁静感替代残酷末日压迫。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "An overgrown ruined bathhouse district painted with warm light, moss, and gentle urban detail.",
+      "zh-CN": "被藤蔓覆盖的澡堂街区废墟在温暖光线、苔藓与细腻城市细节中重现。"
+    }
+  }
+}

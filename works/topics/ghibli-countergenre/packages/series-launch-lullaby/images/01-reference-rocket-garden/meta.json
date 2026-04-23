@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square storybook frame looking across a coastal launch valley at early dawn, with a tall white orbital rocket and service gantry centered slightly left, green terraced hills in the foreground, shallow mist around the pad, and a luminous peach-blue sky painted with soft watercolor gradation. The camera is at hilltop eye level, far enough back to show the full vehicle, the pad deck, a reflective water channel, and tiny maintenance carts, while still feeling intimate and calm.\n\nSubject:\nThe main subject is a real launch complex translated into a tender hand-painted animated-film world. The rocket should read as technically plausible, cylindrical, and heavy-lift capable, with frost on the lower tank, soot-streaked engine skirt, venting vapor, latticework umbilicals, and grounded piping. Around it, the facility feels lived in rather than militarized: paper lantern work lights, mossy concrete, small utility sheds with patched roofs, a bicycle leaning near a fence, and birds circling the gantry. No people need to dominate, but hints of human care should be visible in the tools, catwalks, and weathered paint.\n\nImportant details:\nPreserve a soft watercolor-and-cel aesthetic, warm pastoral mood, clean rocket proportions, and legible launch hardware. The countergenre effect depends on keeping the engineering believable while the emotional tone stays gentle and domestic. Smoke vents must feel cool and low-pressure, not explosive. Colors should stay muted sage, cream, rust, pale sky blue, and warm amber. Every object should feel hand-painted, but not childish or simplified into a toy.\n\nUse case:\nGhibli Countergenre series study 1/8, establishing the reference rocket, pad, valley, and camera logic for later dependent shots.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no exaggerated anime eyes, no giant robots, no fantasy castle silhouettes, no glossy sci-fi chrome, no launch viewed from space, no extra rockets.",
+  "id": "01-reference-rocket-garden",
+  "title": "Reference Rocket Garden",
+  "description": "A calm dawn reference image that establishes the rocket, launch pad, and valley identity for the continuity series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "identity-consistency",
+    "scientific-realism",
+    "series"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/series-launch-lullaby/images/01-reference-rocket-garden/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root continuity reference for the launch series."
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Rocket Garden",
+      "description": "A calm dawn reference image that establishes the rocket, launch pad, and valley identity for the continuity series."
+    },
+    "zh-CN": {
+      "title": "基准火箭花园",
+      "description": "宁静黎明中的基准图，建立整个连续系列的火箭、发射台与山谷身份。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "A gentle hand-painted launch valley with one realistic orbital rocket waiting at dawn.",
+      "zh-CN": "温柔手绘的发射山谷中，一枚写实轨道火箭在黎明静静待命。"
+    }
+  }
+}

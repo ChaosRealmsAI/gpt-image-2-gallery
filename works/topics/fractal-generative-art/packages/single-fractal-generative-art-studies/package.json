@@ -1,0 +1,82 @@
+{
+  "id": "single-fractal-generative-art-studies",
+  "type": "single",
+  "title": "Fractal Art Studies",
+  "description": "Eight independent studies for Fractal Generative Art, each testing a different visual angle within the same theme.",
+  "creative_direction": "Eight independent images explore A Prompt Atlas theme for Fractal Generative Art, testing frontier-creative-composition with GPT Image 2. through distinct studies that emphasize frontier-creative-composition, structured-layout, photorealism while keeping every image self-contained and ready for the queue.",
+  "cover_image": "images/hero-study/image.png",
+  "i18n": {
+    "en": {
+      "title": "Fractal Art Studies",
+      "description": "Eight independent studies for Fractal Generative Art, each testing a different visual angle within the same theme."
+    },
+    "zh-CN": {
+      "title": "分形艺术单图研究",
+      "description": "围绕 分形艺术 生成八张彼此独立的单图研究，每张聚焦同一主题的不同视觉切面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "frontier-creative-composition",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "hero-study",
+      "title": "Hero Study",
+      "image": "images/hero-study/image.png",
+      "meta": "images/hero-study/meta.json"
+    },
+    {
+      "id": "variant-study",
+      "title": "Variant Study",
+      "image": "images/variant-study/image.png",
+      "meta": "images/variant-study/meta.json"
+    },
+    {
+      "id": "process-study",
+      "title": "Process Study",
+      "image": "images/process-study/image.png",
+      "meta": "images/process-study/meta.json"
+    },
+    {
+      "id": "detail-study",
+      "title": "Detail Study",
+      "image": "images/detail-study/image.png",
+      "meta": "images/detail-study/meta.json"
+    },
+    {
+      "id": "environment-study",
+      "title": "Environment Study",
+      "image": "images/environment-study/image.png",
+      "meta": "images/environment-study/meta.json"
+    },
+    {
+      "id": "comparison-study",
+      "title": "Comparison Study",
+      "image": "images/comparison-study/image.png",
+      "meta": "images/comparison-study/meta.json"
+    },
+    {
+      "id": "system-study",
+      "title": "System Study",
+      "image": "images/system-study/image.png",
+      "meta": "images/system-study/meta.json"
+    },
+    {
+      "id": "signature-study",
+      "title": "Signature Study",
+      "image": "images/signature-study/image.png",
+      "meta": "images/signature-study/meta.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "prompt": "Scene:\nA square street-level frame at a dense downtown crosswalk on a rainy night, where elevated rails, layered billboards without readable text, noodle stalls, maintenance ducts, and apartment balconies stack upward into a deep canyon of city life. Reflections in the wet asphalt glow with peach, jade, and cobalt light, but the whole scene is softened by painterly edges and breathable mist instead of harsh synthetic glare.\n\nSubject:\nThe main subject is a bicycle messenger weaving through a cyberpunk district, carrying insulated parcels and wearing a practical rain cape with patched seams and reflective trim. Around the rider are delivery drones docked like swallows on wires, tiny workshop windows, old tram signal boxes, steam from ramen carts, and pedestrians holding umbrellas of many handmade textures. The city must remain unmistakably cyberpunk in density, cabling, electronics, and vertical layering, yet the emotional register should be curious, human, and almost cozy. The rider is not a lone antihero; the district feels inhabited, communal, and improvised.\n\nImportant details:\nThe key visual rule is countergenre balance: maintain cyberpunk complexity, stacked infrastructure, and wet-night luminosity, but replace aggression and sterile futurism with hand-painted warmth, tactile clutter, and everyday kindness. Keep forms readable. Avoid chrome fetishism, black leather clichés, or nightclub menace. Use cel-shaded silhouettes, watercolor haze, and detailed props such as baskets, toolboxes, hanging plants, and patched awnings.\n\nUse case:\nGhibli Countergenre single study 6/8, testing whether a cyberpunk megacity can feel welcoming and handcrafted without losing genre density.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no guns, no nightclub posing, no giant hologram face, no empty street, no hyper-gloss CGI finish, no dystopian police raid.",
+  "id": "02-cyberpunk-crosswalk-messenger",
+  "title": "Cyberpunk Crosswalk Messenger",
+  "description": "A rainy cyberpunk delivery scene reimagined as a dense, humane, and hand-painted neighborhood ecosystem.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "style-transfer",
+    "cinematic",
+    "frontier-creative-composition",
+    "single"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/ghibli-countergenre/packages/single-countergenre-studies/images/02-cyberpunk-crosswalk-messenger/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent cyberpunk-to-hand-painted neighborhood study."
+  },
+  "i18n": {
+    "en": {
+      "title": "Cyberpunk Crosswalk Messenger",
+      "description": "A rainy cyberpunk delivery scene reimagined as a dense, humane, and hand-painted neighborhood ecosystem."
+    },
+    "zh-CN": {
+      "title": "赛博街口信使",
+      "description": "雨夜赛博朋克送件场景被重写成密集、有人情味且手绘感强烈的街区生态。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "style-transfer",
+      "cinematic"
+    ],
+    "alt": {
+      "en": "A bicycle messenger crosses a rainy cyberpunk intersection rendered with warm hand-painted city detail.",
+      "zh-CN": "一名自行车信使穿过雨夜赛博路口，城市细节被绘成温暖的手绘质感。"
+    }
+  }
+}
