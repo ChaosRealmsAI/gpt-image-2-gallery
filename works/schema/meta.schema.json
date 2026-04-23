@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-atlas.local/schema/meta.schema.json",
+  "title": "Prompt Atlas Works Image Metadata",
+  "type": "object",
+  "required": [
+    "prompt",
+    "id",
+    "title",
+    "description",
+    "type",
+    "image",
+    "aspect_ratio",
+    "tags",
+    "refs",
+    "status",
+    "generation",
+    "i18n",
+    "display"
+  ],
+  "properties": {
+    "prompt": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "single",
+        "series"
+      ]
+    },
+    "image": {
+      "type": "string"
+    },
+    "aspect_ratio": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "refs": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "prompted",
+        "running",
+        "done",
+        "failed",
+        "skipped"
+      ]
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "order",
+        "mode",
+        "model",
+        "output",
+        "depends_on",
+        "ref_urls"
+      ],
+      "properties": {
+        "order": {
+          "type": "number"
+        },
+        "mode": {
+          "enum": [
+            "image"
+          ]
+        },
+        "model": {
+          "type": "string"
+        },
+        "output": {
+          "type": "object",
+          "required": [
+            "path",
+            "name"
+          ],
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "meta_path",
+              "image_path",
+              "ref_role",
+              "required_status"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "meta_path": {
+                "type": "string"
+              },
+              "image_path": {
+                "type": "string"
+              },
+              "ref_role": {
+                "type": "string"
+              },
+              "required_status": {
+                "enum": [
+                  "done"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "ref_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "runner_notes": {
+          "type": "string"
+        },
+        "last_error": {
+          "type": "object",
+          "required": [
+            "reason",
+            "retryable",
+            "output_path",
+            "checked_at"
+          ],
+          "properties": {
+            "reason": {
+              "type": "string"
+            },
+            "retryable": {
+              "type": "boolean"
+            },
+            "output_path": {
+              "type": "string"
+            },
+            "checked_at": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "i18n": {
+      "$ref": "topic.schema.json#/$defs/i18n"
+    },
+    "display": {
+      "allOf": [
+        {
+          "$ref": "topic.schema.json#/$defs/display"
+        },
+        {
+          "type": "object",
+          "required": [
+            "alt"
+          ],
+          "properties": {
+            "alt": {
+              "type": "object",
+              "required": [
+                "en",
+                "zh-CN"
+              ],
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "additionalProperties": true
+}

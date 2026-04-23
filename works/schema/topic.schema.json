@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-atlas.local/schema/topic.schema.json",
+  "title": "Prompt Atlas Works Topic",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "description",
+    "i18n",
+    "display",
+    "packages"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "short_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "i18n": {
+      "$ref": "#/$defs/i18n"
+    },
+    "display": {
+      "$ref": "#/$defs/display"
+    },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title",
+          "path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "single",
+              "series"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "i18n": {
+      "type": "object",
+      "required": [
+        "en",
+        "zh-CN"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "title",
+          "description"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "display": {
+      "type": "object",
+      "required": [
+        "featured",
+        "sort_order",
+        "audiences"
+      ],
+      "properties": {
+        "featured": {
+          "type": "boolean"
+        },
+        "sort_order": {
+          "type": "number"
+        },
+        "audiences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

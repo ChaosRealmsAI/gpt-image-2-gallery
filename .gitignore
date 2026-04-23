@@ -1,0 +1,38 @@
+# Public repository allowlist.
+# Everything is private by default except the static gallery, public works data, and local tooling.
+
+*
+
+!.gitignore
+!AGENTS.md
+!README.md
+!README.zh-CN.md
+!LICENSE
+!package.json
+!package-lock.json
+!vite.config.js
+!vercel.json
+!public/
+!public/**
+!index.html
+!src/
+!src/**
+!tools/
+!tools/**
+!works/
+!works/**
+
+# Original PNG sources · kept on disk for re-optimization but never tracked
+works/**/image.png
+
+# Local/generated state.
+node_modules/
+dist/
+.vite/
+*.log
+
+# Closed source local inputs.
+todo/
+prototype/
+research-materials/
+.vercel

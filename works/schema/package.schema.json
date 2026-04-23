@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prompt-atlas.local/schema/package.schema.json",
+  "title": "Prompt Atlas Works Package",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "description",
+    "creative_direction",
+    "cover_image",
+    "i18n",
+    "display",
+    "images"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "single",
+        "series"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "creative_direction": {
+      "type": "string"
+    },
+    "cover_image": {
+      "type": "string"
+    },
+    "generation_plan": {
+      "type": "object",
+      "required": [
+        "status",
+        "execution",
+        "runner",
+        "images",
+        "ref_strategy",
+        "index_policy"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "execution": {
+          "enum": [
+            "single",
+            "sequential",
+            "parallel",
+            "fanout"
+          ]
+        },
+        "runner": {
+          "type": "string"
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ref_strategy": {
+          "type": "string"
+        },
+        "index_policy": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "i18n": {
+      "$ref": "topic.schema.json#/$defs/i18n"
+    },
+    "display": {
+      "$ref": "topic.schema.json#/$defs/display"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "image",
+          "meta"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "meta": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

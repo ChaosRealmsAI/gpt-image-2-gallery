@@ -1,0 +1,30 @@
+{
+  "name": "prompt-atlas-gallery",
+  "version": "0.2.0",
+  "description": "Public GPT-Image-2 prompt atlas · 1,400+ ChatGPT Images 2.0 works with full copy-paste prompts",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run works:index && npm run images:optimize && npm run readme:gen && vite build",
+    "readme:gen": "node tools/readme-gen.js",
+    "preview": "vite preview --host 127.0.0.1",
+    "works:validate": "node tools/works.js validate",
+    "works:index": "node tools/works.js build-index",
+    "works:sync": "node tools/works.js sync",
+    "works:scaffold": "node tools/works.js scaffold-package",
+    "works:generate": "node tools/works.js generate",
+    "works:queue": "node tools/works.js queue",
+    "works:scan": "node tools/works.js scan",
+    "images:optimize": "node tools/images-optimize.js",
+    "content:publish": "node tools/content-publish.js",
+    "check:public": "node tools/works.js check-public"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "vite": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
