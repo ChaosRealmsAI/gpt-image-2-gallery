@@ -1,0 +1,72 @@
+{
+  "id": "series-heiress-contract-arc",
+  "type": "series",
+  "title": "Heiress Contract Arc",
+  "description": "A reference-dependent vertical-drama quartet that locks one heiress-and-bodyguard cast pairing, then extends it across rooftop, rain, wedding, and hospital chapter posters.",
+  "creative_direction": "This package behaves like a short-drama campaign rollout. Image 01 establishes the two leads, the emotional hierarchy, and the narrow-screen poster grammar; images 02-04 must preserve their identities and relationship tension while shifting chapter settings and episode-hook mood.",
+  "cover_image": "images/01-rooftop-hook/image.png",
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-rooftop-hook/meta.json",
+      "images/02-rain-elevator-standoff/meta.json",
+      "images/03-wedding-fallout/meta.json",
+      "images/04-hospital-truce/meta.json"
+    ],
+    "ref_strategy": "Run 01 first. Use its runtime result URL as --ref for 02-04. Queue may run 02-04 concurrently after 01 is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  },
+  "i18n": {
+    "en": {
+      "title": "Heiress Contract Arc",
+      "description": "A reference-dependent vertical-drama quartet preserving one lead couple and serialized poster grammar across four chapter hooks."
+    },
+    "zh-CN": {
+      "title": "继承人契约篇",
+      "description": "一组依赖参考图的竖屏短剧海报，围绕同一对主角延展四张分集封面。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "identity-consistency"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-rooftop-hook",
+      "title": "Rooftop Hook",
+      "image": "images/01-rooftop-hook/image.png",
+      "meta": "images/01-rooftop-hook/meta.json"
+    },
+    {
+      "id": "02-rain-elevator-standoff",
+      "title": "Rain Elevator Standoff",
+      "image": "images/02-rain-elevator-standoff/image.png",
+      "meta": "images/02-rain-elevator-standoff/meta.json"
+    },
+    {
+      "id": "03-wedding-fallout",
+      "title": "Wedding Fallout",
+      "image": "images/03-wedding-fallout/image.png",
+      "meta": "images/03-wedding-fallout/meta.json"
+    },
+    {
+      "id": "04-hospital-truce",
+      "title": "Hospital Truce",
+      "image": "images/04-hospital-truce/image.png",
+      "meta": "images/04-hospital-truce/meta.json"
+    }
+  ]
+}

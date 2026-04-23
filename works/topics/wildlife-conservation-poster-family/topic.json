@@ -1,0 +1,51 @@
+{
+  "id": "wildlife-conservation-poster-family",
+  "slug": "wildlife-conservation-poster-family",
+  "category": "design",
+  "style": [
+    "photoreal",
+    "flat-graphic"
+  ],
+  "capability": [
+    "structured-layout",
+    "commercial-mockup",
+    "world-knowledge"
+  ],
+  "title": "Wildlife Conservation Poster Family",
+  "short_title": "Wildlife Posters",
+  "description": "Build conservation poster families that combine animal beauty, ecological urgency, and public-education clarity.",
+  "i18n": {
+    "en": {
+      "title": "Wildlife Conservation Poster Family",
+      "short_title": "Wildlife Posters",
+      "description": "Build conservation poster families that combine animal beauty, ecological urgency, and public-education clarity."
+    },
+    "zh-CN": {
+      "title": "野生动物保护海报家族",
+      "short_title": "保护海报",
+      "description": "做野生动物保护海报家族，结合动物之美、生态紧迫性和公众教育。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 500,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ]
+  },
+  "packages": [
+    {
+      "id": "single-conservation-poster-studies",
+      "type": "single",
+      "title": "Conservation Poster Studies",
+      "path": "packages/single-conservation-poster-studies/package.json"
+    }
+  ]
+}

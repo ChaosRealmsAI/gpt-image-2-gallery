@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA tall 9:16 mobile-first drama poster set on a luxury high-rise rooftop at night, with wet black stone, distant city bokeh, cold wind, and a narrow beam of white light cutting between rooftop structures. The composition must read instantly on a phone screen: strong top hook image, clear center relationship tension, and a calmer lower zone where a platform title block and episode badge could later sit without requiring real readable text. Keep the palette black, silver, burgundy, and muted skin tones.\n\nSubject:\nEstablish the lead pair for a serialized vertical romance-revenge drama. A sharp-featured heiress in a fitted dark coat stands near the ledge with one hand on a legal envelope; behind her, half protective and half threatening, stands her bodyguard in a rain-marked black suit. Their faces should be close enough to imply contract intimacy yet far enough to preserve distrust. The city below should feel wealthy and dangerous, but the focus stays on their emotional geometry, costume clarity, and the sense that this image can anchor later episode-cover variants.\n\nImportant details:\nThis is the reference image for the series, so identity lock matters. Keep hair shape, height difference, coat silhouettes, and gaze pattern easy to preserve in later posters. The vertical layout should feel like a real app cover: clean upper silhouette, mid-frame emotional collision, subtle lower gradient for interface overlay, and decorative but unreadable label zones. Avoid stuffing the narrow frame. The poster should feel premium and addictive, not loud or trashy.\n\nUse case:\nVertical Drama Poster System series study 1/9, establishing the lead couple and mobile-first poster grammar for a reference-dependent short-drama arc.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no crowded skyline collage, no action fight pose, no extra side characters, no gaudy neon nightclub mood, no cartoon expressions, no broken anatomy, no platform UI screenshots.",
+  "id": "01-rooftop-hook",
+  "title": "Rooftop Hook",
+  "description": "A vertical rooftop poster establishing the heiress and bodyguard as the reference pair for the series.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference cover for the lead-pair identity, height difference, and vertical short-drama poster grammar."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rooftop Hook",
+      "description": "A vertical rooftop poster establishing the heiress and bodyguard as the reference pair for the series."
+    },
+    "zh-CN": {
+      "title": "天台钩子封面",
+      "description": "一张竖屏天台封面，建立继承人与保镖这对主角的基准关系。"
+    }
+  },
+  "display": {
+    "featured": true,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "An heiress and her bodyguard confront each other on a wet rooftop in a vertical short-drama poster.",
+      "zh-CN": "继承人与保镖在潮湿天台上对峙，构成一张竖屏短剧封面。"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA tall 9:16 exile-melodrama poster on the edge of a desert checkpoint at sunset, with windblown canvas, pale dust, military trucks reduced to distant shapes, and a narrow shaft of orange light against a storm-blue sky. The cover must read strongly on mobile: a striking upper sky band, a center human hook, and a lower area that could hold future unreadable title and badge elements. Use ochre, indigo, weathered khaki, and muted skin tones.\n\nSubject:\nCreate a dramatic cover featuring a disgraced former diplomat in a torn linen suit standing beside a young translator wrapped in a desert scarf. They are separated from a convoy by a chain-link gate and one suitcase lying open in the dust. The relationship should be ambiguous: survival alliance, buried resentment, possible romance. Their silhouettes need to stay simple and legible in the narrow vertical frame, while the checkpoint world suggests political stakes without overpowering the human story.\n\nImportant details:\nThe image must feel like real platform packaging for a serialized exile drama, not a war-film poster. Keep the frame uncluttered, the wind and dust physically believable, and the emotional hook concentrated in posture, gaze, and the open suitcase. Suggest title and episode-chip zones through composition, but never render readable text. The cover should stay elegant even with harsh weather elements.\n\nUse case:\nVertical Drama Poster System single study 8/9, testing an exile-road melodrama hook in a streamlined 9:16 poster system.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no battlefield explosions, no crowded convoy action, no national flags, no heroic action pose, no documentary photo chaos, no giant desert vista swallowing the leads, no app UI screenshot.",
+  "id": "desert-exile-cover",
+  "title": "Desert Exile Cover",
+  "description": "A narrow-frame exile melodrama cover balancing dust-storm stakes with clear human tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/single-genre-poster-studies/images/desert-exile-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical-drama cover study for an exile-road hook poster."
+  },
+  "i18n": {
+    "en": {
+      "title": "Desert Exile Cover",
+      "description": "A narrow-frame exile melodrama cover balancing dust-storm stakes with clear human tension."
+    },
+    "zh-CN": {
+      "title": "荒漠流放封面",
+      "description": "一张在风沙风险与人物张力之间保持清晰平衡的流放短剧封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "frontier-creative-composition"
+    ],
+    "alt": {
+      "en": "A disgraced diplomat and young translator stand at a dusty desert checkpoint in a tall mobile-first drama cover.",
+      "zh-CN": "失势外交官与年轻翻译站在风沙弥漫的荒漠检查站前，构成一张高竖幅短剧封面。"
+    }
+  }
+}

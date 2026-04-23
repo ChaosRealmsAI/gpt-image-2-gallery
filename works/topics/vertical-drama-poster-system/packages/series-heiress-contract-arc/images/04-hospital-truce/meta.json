@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA tall 9:16 episode poster in a private hospital corridor before dawn, with sterile overhead lighting softened by blue morning haze, frosted glass panels, muted reflections on pale floor tiles, and one thin warm bedside glow leaking from an unseen room. The layout should feel engineered for mobile conversion: clear headroom for a hook image, central emotional scene, and a lower band quiet enough for future platform badges or titles that remain unreadable here.\n\nSubject:\nUsing the referenced pair as the continuity source, preserve the same heiress and bodyguard from image 01, now worn down by accumulated conflict. The bodyguard sits injured on a hallway bench with shirt collar loosened and bandage at the temple; the heiress stands beside him in a severe coat over hospital visitor clothes, holding his phone but looking away to hide concern. Their poses should suggest a temporary truce and emotional turning point. Keep their faces, height relationship, hair shapes, and key costume language consistent with the reference poster.\n\nImportant details:\nThis image should prove that serial consistency can survive a quieter chapter. The vertical poster must remain clean, dramatic, and app-cover legible even though the action is minimal. Use corridor depth, glass reflections, bandage detail, and subdued body language instead of noisy plot props. The result should feel like an episode-cover cliffhanger that invites taps while still resembling polished commercial key art.\n\nUse case:\nVertical Drama Poster System series study 4/9, testing a softer hospital-truce chapter while preserving the same reference couple and narrow-screen poster logic.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no medical-drama clutter, no extra nurses, no comedy warmth, no giant medical monitors, no hand-holding cliché, no washed-out blank corridor, no visible app UI chrome.",
+  "id": "04-hospital-truce",
+  "title": "Hospital Truce",
+  "description": "A quieter hospital chapter poster preserving the same lead pair and mobile-first visual hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/04-hospital-truce/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rooftop-hook",
+        "meta_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/meta.json",
+        "image_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the reference cover to keep the same lead pair recognizable in a quieter hospital-truce episode poster."
+  },
+  "i18n": {
+    "en": {
+      "title": "Hospital Truce",
+      "description": "A quieter hospital chapter poster preserving the same lead pair and mobile-first visual hierarchy."
+    },
+    "zh-CN": {
+      "title": "医院休战篇",
+      "description": "一张更安静的医院篇封面，在移动端竖幅中延续同一对主角。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "The same heiress stands beside her injured bodyguard in a dawn hospital corridor on a vertical episode poster.",
+      "zh-CN": "同一位继承人站在受伤保镖身旁，构成一张黎明医院走廊里的竖屏分集封面。"
+    }
+  }
+}

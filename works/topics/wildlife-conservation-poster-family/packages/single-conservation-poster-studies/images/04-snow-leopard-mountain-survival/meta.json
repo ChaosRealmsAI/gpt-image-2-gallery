@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square wildlife conservation poster or public education board that combines a compelling animal image with clean infographic zones, awareness framing, and campaign-ready hierarchy. The scene should feel useful for museums, nonprofits, school outreach, social campaigns, or public-service posters. Lead with real animal beauty and habitat credibility, then support it with disciplined layout space for future messaging outside the generated image. Use a cold high-altitude rocky slope with restrained snowfall, distant mountain layers, and disciplined infographic framing.\n\nSubject:\nFocus on one species and one conservation pressure such as habitat loss, migration disruption, reef decline, clean water, pollinator collapse, canopy protection, or coastal restoration. The animal must remain real and ecologically grounded, with species-appropriate environment, body language, and scale. Avoid sensational wildlife photography tricks that overshadow the educational purpose. Show one snow leopard alert on a ledge, physically plausible and integrated into the terrain rather than oversized for spectacle.\n\nImportant details:\nUse structured public communication cues like chart bars, map shapes, data windows, species badges, or campaign modules, but keep all text abstract and unreadable. The image should feel urgent yet credible, emotional yet educational. Make the layout clean enough for actual advocacy use and the habitat specific enough that the poster teaches through composition alone. The image should communicate rarity, range pressure, and mountain ecosystem fragility without relying on melodrama.\n\nUse case:\nWildlife Conservation Poster Family single study 4/9, snow leopard mountain survival for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable slogans, no brand logos, no disaster movie spectacle, no species mixing errors, no fantasy habitat mashups, no anthropomorphic activism props, no roaring action pose, no fantasy blue glow, no action movie cliff leap.",
+  "id": "04-snow-leopard-mountain-survival",
+  "title": "Snow Leopard Mountain Survival",
+  "description": "A mountain conservation poster that pairs snow leopard presence with habitat harshness and survival urgency in a clean public format.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 4,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wildlife-conservation-poster-family/packages/single-conservation-poster-studies/images/04-snow-leopard-mountain-survival/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent conservation poster studies image for Wildlife Posters.",
+    "attempt_count": 4
+  },
+  "i18n": {
+    "en": {
+      "title": "Snow Leopard Mountain Survival",
+      "description": "A mountain conservation poster that pairs snow leopard presence with habitat harshness and survival urgency in a clean public format."
+    },
+    "zh-CN": {
+      "title": "雪豹高山生存海报",
+      "description": "雪豹高山生存海报，用于野生动物保护海报研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 40,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A mountain conservation poster that pairs snow leopard presence with habitat harshness and survival urgency in a clean public format.",
+      "zh-CN": "雪豹高山生存海报"
+    }
+  }
+}

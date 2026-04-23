@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA tall 9:16 episode-cover poster inside a mirrored elevator lobby during heavy rain, with gold lift doors, water tracked across marble floor, and cool overhead light reflected in long vertical strips. The composition must remain instantly legible on mobile: a dramatic top third, a tight emotional midsection, and a restrained lower area where platform labels or episode markers could later sit as unreadable graphic blocks. Keep the palette deep charcoal, champagne gold, storm blue, and wine red.\n\nSubject:\nUsing the referenced lead pair as the primary continuity source, preserve the same heiress and bodyguard identities, their height difference, face structure, hair silhouettes, and distrust-charged attraction. Move them into a rain-soaked elevator standoff: the heiress has just stepped out in a dark red dress under a soaked coat, and the bodyguard blocks the closing doors with one hand while looking directly at her. Their poses should intensify the relationship while clearly remaining the same characters from image 01. Rain droplets, coat texture, and mirrored reflections should add melodrama without cluttering the narrow frame.\n\nImportant details:\nThis image tests whether the poster system can evolve chapter to chapter while staying platform-clean. Keep the visual hierarchy disciplined: top rain atmosphere, center face tension, bottom quiet area for overlay. Preserve character continuity more than styling novelty. The poster should feel like a real vertical-drama app cover that could run as episode two artwork, with room for unreadable hook-badge shapes but no literal text.\n\nUse case:\nVertical Drama Poster System series study 2/9, preserving the reference couple while translating them into a rain-soaked elevator episode cover.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no cast swap, no extra paparazzi, no broad embrace, no empty white studio backdrop, no comic lightning effects, no overfilled lower frame, no platform UI buttons.",
+  "id": "02-rain-elevator-standoff",
+  "title": "Rain Elevator Standoff",
+  "description": "A rain-soaked elevator cover preserving the same lead pair and vertical poster hierarchy.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/02-rain-elevator-standoff/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rooftop-hook",
+        "meta_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/meta.json",
+        "image_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Use the rooftop cover as reference to preserve the same lead pair in a rain-elevator episode variant."
+  },
+  "i18n": {
+    "en": {
+      "title": "Rain Elevator Standoff",
+      "description": "A rain-soaked elevator cover preserving the same lead pair and vertical poster hierarchy."
+    },
+    "zh-CN": {
+      "title": "雨夜电梯对峙",
+      "description": "一张雨夜电梯封面，在竖屏结构中延续同一对主角。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "identity-consistency"
+    ],
+    "alt": {
+      "en": "The same heiress and bodyguard face off in a rain-streaked elevator lobby on a tall drama poster.",
+      "zh-CN": "同一对继承人与保镖在雨痕电梯厅里对峙，形成一张高竖幅短剧封面。"
+    }
+  }
+}

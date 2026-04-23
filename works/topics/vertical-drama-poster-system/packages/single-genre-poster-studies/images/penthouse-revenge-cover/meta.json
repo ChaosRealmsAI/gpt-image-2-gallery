@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA tall 9:16 short-drama cover inside a penthouse dining room at blue-black night, with floor-to-ceiling windows, a city of tiny lights, shattered crystal on polished wood, and a cold spotlight framing the central confrontation. The composition must work like a mobile app cover: a strong silhouette at top, a dominant emotional event in the middle, and a lower area calm enough for future title and badge placement without readable text. Use black, chrome, wine, and ivory as the main palette.\n\nSubject:\nCreate a revenge-melodrama cover featuring a poised woman in a white suit holding divorce papers beside a half-cleared dinner table, while a wealthy man in a loosened tuxedo kneels slightly lower in frame after realizing he has lost control. A younger half-sister figure should appear only as a distant reflected silhouette in the window, not as a full competing lead. The drama should feel immediate and addictive, but the relationships and visual hierarchy must stay clear in the narrow vertical frame.\n\nImportant details:\nThe poster should feel like premium platform packaging rather than tabloid collage. Reserve structured space for unreadable title blocks, use reflective surfaces to imply wealth, and emphasize body language over prop clutter. The emotional hook must survive thumbnail scale: white suit, broken crystal, kneeling tuxedo, city night. No readable copy, but the layout should strongly suggest where copy would go.\n\nUse case:\nVertical Drama Poster System single study 5/9, testing a revenge-penthouse short-drama hook in a clean mobile-first poster format.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no cast crowding, no tabloid montage, no action slap, no giant ring-box prop, no cheap neon club palette, no social-media UI, no broken anatomy.",
+  "id": "penthouse-revenge-cover",
+  "title": "Penthouse Revenge Cover",
+  "description": "A mobile-first revenge cover built around a penthouse confrontation and clean vertical hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/single-genre-poster-studies/images/penthouse-revenge-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical-drama cover study for a revenge-penthouse hook poster."
+  },
+  "i18n": {
+    "en": {
+      "title": "Penthouse Revenge Cover",
+      "description": "A mobile-first revenge cover built around a penthouse confrontation and clean vertical hierarchy."
+    },
+    "zh-CN": {
+      "title": "顶层复仇封面",
+      "description": "一张移动端优先的复仇短剧封面，以顶层豪宅对峙为核心。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "A woman in white confronts a kneeling tuxedoed man in a penthouse dining room on a vertical revenge cover.",
+      "zh-CN": "一位白衣女子在顶层豪宅餐厅中面对跪下的礼服男子，构成竖屏复仇封面。"
+    }
+  }
+}

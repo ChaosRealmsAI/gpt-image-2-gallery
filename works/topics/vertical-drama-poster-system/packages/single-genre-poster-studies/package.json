@@ -1,0 +1,65 @@
+{
+  "id": "single-genre-poster-studies",
+  "type": "single",
+  "title": "Genre Poster Studies",
+  "description": "Five independent mobile-first poster studies for revenge, romance, republican intrigue, exile melodrama, and culinary rivalry short dramas.",
+  "creative_direction": "This package widens the theme beyond one lead pair. Every image is a self-contained 9:16 short-drama cover with clear emotional hooks, disciplined character placement, and reserved zones for platform-style labels without relying on actual readable text.",
+  "cover_image": "images/penthouse-revenge-cover/image.png",
+  "i18n": {
+    "en": {
+      "title": "Genre Poster Studies",
+      "description": "Five independent mobile-first poster studies for revenge, romance, republican intrigue, exile melodrama, and culinary rivalry short dramas."
+    },
+    "zh-CN": {
+      "title": "类型短剧封面研究",
+      "description": "五张独立的 9:16 短剧封面研究图，覆盖复仇、爱情、民国秘闻、流放和美食对抗等题材。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering",
+      "frontier-creative-composition"
+    ]
+  },
+  "images": [
+    {
+      "id": "penthouse-revenge-cover",
+      "title": "Penthouse Revenge Cover",
+      "image": "images/penthouse-revenge-cover/image.png",
+      "meta": "images/penthouse-revenge-cover/meta.json"
+    },
+    {
+      "id": "night-shift-romance-cover",
+      "title": "Night Shift Romance Cover",
+      "image": "images/night-shift-romance-cover/image.png",
+      "meta": "images/night-shift-romance-cover/meta.json"
+    },
+    {
+      "id": "republic-era-secret-cover",
+      "title": "Republic Era Secret Cover",
+      "image": "images/republic-era-secret-cover/image.png",
+      "meta": "images/republic-era-secret-cover/meta.json"
+    },
+    {
+      "id": "desert-exile-cover",
+      "title": "Desert Exile Cover",
+      "image": "images/desert-exile-cover/image.png",
+      "meta": "images/desert-exile-cover/meta.json"
+    },
+    {
+      "id": "chef-rivalry-cover",
+      "title": "Chef Rivalry Cover",
+      "image": "images/chef-rivalry-cover/image.png",
+      "meta": "images/chef-rivalry-cover/meta.json"
+    }
+  ]
+}

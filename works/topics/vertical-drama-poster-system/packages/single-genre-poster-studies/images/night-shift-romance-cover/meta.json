@@ -1,0 +1,56 @@
+{
+  "prompt": "Scene:\nA tall 9:16 romance cover inside a hospital vending-machine alcove at 3 a.m., with dim fluorescent spill, stainless steel reflections, soft green walls, and one warm vending-machine glow illuminating tired faces. The poster should be optimized for phone screens: a compelling upper silhouette, a center emotional beat, and a lower quiet gradient for imagined title and episode-chip zones. Keep the palette cool mint, navy, pale skin tones, and one gentle warm amber highlight.\n\nSubject:\nCreate a night-shift romance short-drama cover featuring an overworked resident doctor holding instant noodles and a sleep-deprived paramedic leaning against the vending machine with a blood-pressure cuff hanging from one wrist. Their bodies angle toward each other in an almost-kiss distance, but the mood is exhaustion and mutual dependence rather than glamour. Use eye lines, fatigue detail, and the narrow space between them to make the hook instantly legible on a mobile device.\n\nImportant details:\nThe image should feel platform-ready and addictive without becoming cheesy. Preserve realistic scrubs, ID-lanyard shapes that stay unreadable, vending-machine light, and hospital textures, but keep the frame uncluttered. The design logic should imply where a title, subtitle, and small platform badge would live while never actually rendering them. Emotional clarity at thumbnail scale matters more than background complexity.\n\nUse case:\nVertical Drama Poster System single study 6/9, testing a night-shift romance hook in a narrow mobile-cover format.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no medical emergency chaos, no giant heart graphics, no broad comedy, no crowded hallway extras, no app screenshot frame, no candy-colored rom-com palette, no broken hands or faces.",
+  "id": "night-shift-romance-cover",
+  "title": "Night Shift Romance Cover",
+  "description": "A tight hospital-alcove romance cover designed for thumbnail clarity and mobile-first tension.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "single",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "frontier-creative-composition"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/single-genre-poster-studies/images/night-shift-romance-cover/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent vertical-drama cover study for a hospital night-shift romance hook."
+  },
+  "i18n": {
+    "en": {
+      "title": "Night Shift Romance Cover",
+      "description": "A tight hospital-alcove romance cover designed for thumbnail clarity and mobile-first tension."
+    },
+    "zh-CN": {
+      "title": "夜班恋爱封面",
+      "description": "一张为缩略图清晰度设计的医院夜班恋爱短剧封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "An exhausted doctor and paramedic share a nearly intimate moment by a hospital vending machine on a vertical cover.",
+      "zh-CN": "疲惫的医生与急救员在医院自动贩卖机旁几乎靠近，构成一张竖屏恋爱封面。"
+    }
+  }
+}

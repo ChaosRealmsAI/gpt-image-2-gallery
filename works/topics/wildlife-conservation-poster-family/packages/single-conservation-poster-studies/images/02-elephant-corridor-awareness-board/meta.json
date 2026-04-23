@@ -1,0 +1,60 @@
+{
+  "prompt": "Scene:\nA square wildlife conservation poster or public education board that combines a compelling animal image with clean infographic zones, awareness framing, and campaign-ready hierarchy. The scene should feel useful for museums, nonprofits, school outreach, social campaigns, or public-service posters. Lead with real animal beauty and habitat credibility, then support it with disciplined layout space for future messaging outside the generated image. Use a broad forest edge or savanna corridor scene with one elephant family line and structured map-like poster panels.\n\nSubject:\nFocus on one species and one conservation pressure such as habitat loss, migration disruption, reef decline, clean water, pollinator collapse, canopy protection, or coastal restoration. The animal must remain real and ecologically grounded, with species-appropriate environment, body language, and scale. Avoid sensational wildlife photography tricks that overshadow the educational purpose. Show the elephants walking with calm intent through a plausible habitat edge, emphasizing movement and space rather than dramatic confrontation.\n\nImportant details:\nUse structured public communication cues like chart bars, map shapes, data windows, species badges, or campaign modules, but keep all text abstract and unreadable. The image should feel urgent yet credible, emotional yet educational. Make the layout clean enough for actual advocacy use and the habitat specific enough that the poster teaches through composition alone. The board should teach habitat connectivity through composition, with scale and direction doing most of the work.\n\nUse case:\nWildlife Conservation Poster Family single study 2/9, elephant corridor awareness board for a commercially reusable prompt atlas example.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable slogans, no brand logos, no disaster movie spectacle, no species mixing errors, no fantasy habitat mashups, no anthropomorphic activism props, no poaching violence cues, no safari vehicle tourism framing, no theatrical sunset overload.",
+  "id": "02-elephant-corridor-awareness-board",
+  "title": "Elephant Corridor Awareness Board",
+  "description": "A land conservation board centered on elephant movement corridors, habitat scale, and the need for connected landscapes.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "structured-layout",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/wildlife-conservation-poster-family/packages/single-conservation-poster-studies/images/02-elephant-corridor-awareness-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent conservation poster studies image for Wildlife Posters.",
+    "attempt_count": 3
+  },
+  "i18n": {
+    "en": {
+      "title": "Elephant Corridor Awareness Board",
+      "description": "A land conservation board centered on elephant movement corridors, habitat scale, and the need for connected landscapes."
+    },
+    "zh-CN": {
+      "title": "象群通道保护板",
+      "description": "象群通道保护板，用于野生动物保护海报研究中的独立商业画面研究。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "structured-layout",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "A land conservation board centered on elephant movement corridors, habitat scale, and the need for connected landscapes.",
+      "zh-CN": "象群通道保护板"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "Scene:\nA tall 9:16 mobile cover set in the side corridor of a luxury wedding hall after a public scandal, with champagne tower reflections, dropped white petals, warm gold chandeliers fading into darkness, and a slash of red emergency light from a distant exit sign glow that remains unreadable. The poster must be optimized for narrow-screen viewing: a strong high-contrast upper silhouette, a dramatic center interaction, and a lower third clear enough for imagined episode labels.\n\nSubject:\nUsing the referenced image as the identity anchor, preserve the same heiress and bodyguard from image 01. The heiress now wears a damaged wedding gown with one glove missing; the bodyguard remains in a formal dark suit, one shoulder marked by thrown champagne or rain residue. They stand close in a private corridor moment after a ruined ceremony, with the bodyguard slightly reaching toward her while she turns away in anger and grief. Their height difference, hair silhouette, facial proportions, and mutual tension must still clearly match the reference pair.\n\nImportant details:\nThe poster should feel addictive and serialized without becoming tabloid. Keep the vertical hierarchy clean, the expressions intense but controlled, and the material details believable: satin folds, glass reflections, wilted petals, and marble shine. Suggest hook-driven platform packaging through reserved label zones and a quiet lower gradient, but never use readable text. The image must feel like an episode-cover escalation, not a bridal catalog or generic romance poster.\n\nUse case:\nVertical Drama Poster System series study 3/9, testing whether the same leads can carry a scandal-wedding chapter cover in a narrow vertical frame.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 9:16 aspect ratio, no wedding crowd, no kiss pose, no slapstick melodrama, no oversized props blocking faces, no glitter explosion, no costume redesign that loses character continuity, no platform interface overlay.",
+  "id": "03-wedding-fallout",
+  "title": "Wedding Fallout",
+  "description": "A scandal-wedding chapter poster preserving the same lead pair in a high-tension vertical layout.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "9:16",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "text-rendering",
+    "identity-consistency"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/03-wedding-fallout/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-rooftop-hook",
+        "meta_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/meta.json",
+        "image_path": "works/topics/vertical-drama-poster-system/packages/series-heiress-contract-arc/images/01-rooftop-hook/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Preserve the reference pair while escalating the series into a wedding-fallout episode cover."
+  },
+  "i18n": {
+    "en": {
+      "title": "Wedding Fallout",
+      "description": "A scandal-wedding chapter poster preserving the same lead pair in a high-tension vertical layout."
+    },
+    "zh-CN": {
+      "title": "婚礼失控篇",
+      "description": "一张婚礼风波分集封面，在高张力竖屏里保持同一对主角。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "text-rendering"
+    ],
+    "alt": {
+      "en": "The same heiress and bodyguard confront each other in a wedding corridor after a scandal.",
+      "zh-CN": "同一对继承人与保镖在婚礼走廊里对峙，像一张失控篇章短剧封面。"
+    }
+  }
+}

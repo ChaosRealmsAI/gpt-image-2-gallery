@@ -1,0 +1,56 @@
+{
+  "id": "vertical-drama-poster-system",
+  "slug": "vertical-drama-poster-system",
+  "category": "design",
+  "style": [
+    "flat-graphic",
+    "minimal"
+  ],
+  "capability": [
+    "text-rendering",
+    "structured-layout",
+    "commercial-mockup"
+  ],
+  "title": "Vertical Drama Poster System",
+  "short_title": "Drama Posters",
+  "description": "A Prompt Atlas theme for mobile-first vertical drama posters that compress emotional hooks, romantic tension, and serialized campaign consistency into narrow streaming-cover formats.",
+  "i18n": {
+    "en": {
+      "title": "Vertical Drama Poster System",
+      "short_title": "Drama Posters",
+      "description": "A Prompt Atlas theme for mobile-first vertical drama posters that compress emotional hooks, romantic tension, and serialized campaign consistency into narrow streaming-cover formats."
+    },
+    "zh-CN": {
+      "title": "竖屏短剧海报系统",
+      "short_title": "短剧海报",
+      "description": "测试在极窄竖幅里同时容纳情绪关系、平台封面钩子和分集系统一致性，让短剧海报既像投放物料也像连续封面。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 150,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-heiress-contract-arc",
+      "type": "series",
+      "title": "Heiress Contract Arc",
+      "path": "packages/series-heiress-contract-arc/package.json"
+    },
+    {
+      "id": "single-genre-poster-studies",
+      "type": "single",
+      "title": "Genre Poster Studies",
+      "path": "packages/single-genre-poster-studies/package.json"
+    }
+  ]
+}
