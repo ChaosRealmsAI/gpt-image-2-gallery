@@ -1,0 +1,64 @@
+{
+  "id": "single-campaign-support-studies",
+  "type": "single",
+  "title": "Campaign Support Studies",
+  "description": "Five independent campaign studies cover support tiles, alt posters, prop focus, process boards, and recap covers.",
+  "creative_direction": "Independent campaign studies adapt the same theme into distribution-ready crops and support compositions for social, editorial, and rollout use.",
+  "cover_image": "images/supporting-promo-tile/image.png",
+  "i18n": {
+    "en": {
+      "title": "Campaign Support Studies",
+      "description": "Five independent campaign studies cover support tiles, alt posters, prop focus, process boards, and recap covers."
+    },
+    "zh-CN": {
+      "title": "Campaign Support Studies",
+      "description": "Five independent campaign studies cover support tiles, alt posters, prop focus, process boards, and recap covers."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "reasoning-composition",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "supporting-promo-tile",
+      "title": "Supporting Promo Tile",
+      "image": "images/supporting-promo-tile/image.png",
+      "meta": "images/supporting-promo-tile/meta.json"
+    },
+    {
+      "id": "character-or-prop-focus",
+      "title": "Character or Prop Focus",
+      "image": "images/character-or-prop-focus/image.png",
+      "meta": "images/character-or-prop-focus/meta.json"
+    },
+    {
+      "id": "alternate-crop-poster",
+      "title": "Alternate Crop Poster",
+      "image": "images/alternate-crop-poster/image.png",
+      "meta": "images/alternate-crop-poster/meta.json"
+    },
+    {
+      "id": "behind-the-scenes-board",
+      "title": "Behind the Scenes Board",
+      "image": "images/behind-the-scenes-board/image.png",
+      "meta": "images/behind-the-scenes-board/meta.json"
+    },
+    {
+      "id": "recap-cover-panel",
+      "title": "Recap Cover Panel",
+      "image": "images/recap-cover-panel/image.png",
+      "meta": "images/recap-cover-panel/meta.json"
+    }
+  ]
+}

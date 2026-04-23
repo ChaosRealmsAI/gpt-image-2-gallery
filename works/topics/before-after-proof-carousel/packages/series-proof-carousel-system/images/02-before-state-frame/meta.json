@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square continuity-locked proof frame showing the pre-improvement state with matched angle logic. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the same subject before change, preserving identity, environment logic, and camera coherence. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThe state difference should be honest and grounded. Make every frame conversion-oriented, with credible product or subject continuity, strong proof logic, and a premium commerce finish that could sit inside a real carousel or detail page. Subject identity and proof logic must remain consistent. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nBefore-After Proof Carousel series study 2/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no exaggerated miracle effects, no readable copy blocks, no brand logos, no fake certification seals, no chaotic ecommerce clutter.",
+  "id": "02-before-state-frame",
+  "title": "Before State Frame",
+  "description": "Before State Frame turns Before-After Proof Carousel into a production-ready image study focused on the state difference should be honest and grounded..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 2,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/02-before-state-frame/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-proof-anchor",
+        "meta_path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/01-reference-proof-anchor/meta.json",
+        "image_path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/01-reference-proof-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Before State Frame",
+      "description": "Before State Frame turns Before-After Proof Carousel into a production-ready image study focused on the state difference should be honest and grounded.."
+    },
+    "zh-CN": {
+      "title": "变化前画面",
+      "description": "变化前画面：围绕前后对比证明轮播生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 20,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Before State Frame for Before-After Proof Carousel.",
+      "zh-CN": "前后对比证明轮播主题中的变化前画面图像。"
+    }
+  }
+}

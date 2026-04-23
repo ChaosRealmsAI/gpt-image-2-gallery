@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square master board combining the whole proof sequence into one refined ecommerce system view. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow a capstone board that unifies the before-after story into one production-ready detail-page system. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nUse continuity and structure to make the system feel complete. Make every frame conversion-oriented, with credible product or subject continuity, strong proof logic, and a premium commerce finish that could sit inside a real carousel or detail page. Subject identity and proof logic must remain consistent. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nBefore-After Proof Carousel series study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no exaggerated miracle effects, no readable copy blocks, no brand logos, no fake certification seals, no chaotic ecommerce clutter.",
+  "id": "09-detail-page-master",
+  "title": "Detail Page Master",
+  "description": "Detail Page Master turns Before-After Proof Carousel into a production-ready image study focused on use continuity and structure to make the system feel complete..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/09-detail-page-master/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-proof-anchor",
+        "meta_path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/01-reference-proof-anchor/meta.json",
+        "image_path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/01-reference-proof-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Detail Page Master",
+      "description": "Detail Page Master turns Before-After Proof Carousel into a production-ready image study focused on use continuity and structure to make the system feel complete.."
+    },
+    "zh-CN": {
+      "title": "详情页总览",
+      "description": "详情页总览：围绕前后对比证明轮播生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Detail Page Master for Before-After Proof Carousel.",
+      "zh-CN": "前后对比证明轮播主题中的详情页总览图像。"
+    }
+  }
+}

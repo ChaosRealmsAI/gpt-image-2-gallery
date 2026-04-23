@@ -1,0 +1,57 @@
+{
+  "prompt": "Scene:\nA square campaign image designed for distribution, with bold focal hierarchy, strong color blocking, and cinematic energy. The framing should read instantly from a distance while still rewarding close inspection with layered secondary details and coherent scene logic.\n\nSubject:\nThe subject is a campaign-ready visual system for anonymous stencil street satire. Build the frame from anonymous stencil street satire. A Prompt Atlas theme for anonymous stencil street satire Street Satire, testing reasoning- composition, style- transfer with GPT Image 2.. anonymous stencil street satire. Focus on concrete visual elements, believable material behavior, and layered subject hierarchy so the result feels authored instead of template-like. Secondary campaign tile with clear focal hierarchy.\n\nImportant details:\nThis is an independent support study inside the same theme, so it should feel related in visual language without relying on a runtime reference image. Keep the concept specific to anonymous stencil street satire, with concrete forms and believable relationships between primary subject, support elements, and background structure. Avoid visual noise. Every secondary detail should reinforce the main idea instead of competing with it. The composition should feel immediately legible and impressive, with a self-explaining core idea and enough finish to work without heavy post-production.\n\nUse case:\nanonymous stencil street satire single study 5/9 for Prompt Atlas.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no irrelevant brand marks, no generic clip-art simplification, no broken anatomy, no muddy lighting, no random collage fragments, no empty background without purpose.",
+  "id": "supporting-promo-tile",
+  "title": "Supporting Promo Tile",
+  "description": "Secondary campaign tile with clear focal hierarchy.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "reasoning-composition",
+    "style-transfer",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/banksy-street-satire/packages/single-campaign-support-studies/images/supporting-promo-tile/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent support study with no runtime reference dependency.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Supporting Promo Tile",
+      "description": "Secondary campaign tile with clear focal hierarchy."
+    },
+    "zh-CN": {
+      "title": "Supporting Promo Tile",
+      "description": "Secondary campaign tile with clear focal hierarchy."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "Secondary campaign tile with clear focal hierarchy.",
+      "zh-CN": "Secondary campaign tile with clear focal hierarchy."
+    }
+  }
+}

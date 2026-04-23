@@ -1,0 +1,53 @@
+{
+  "id": "cinematic-end-of-world-landscape-set",
+  "slug": "cinematic-end-of-world-landscape-set",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Cinematic End-of-World Landscape Set",
+  "short_title": "Endworld Landscapes",
+  "description": "A Prompt Atlas theme for Cinematic End-of-World Landscape Set, testing reasoning-composition, photorealism, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Cinematic End-of-World Landscape Set",
+      "short_title": "Endworld Landscapes",
+      "description": "Create cinematic end-of-world landscapes that carry narrative dread, environmental storytelling, and monumental emptiness."
+    },
+    "zh-CN": {
+      "title": "末世电影景观组",
+      "short_title": "末世景观",
+      "description": "做末世电影景观组，强调叙事压迫感和环境线索。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "reasoning-composition",
+      "photorealism",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

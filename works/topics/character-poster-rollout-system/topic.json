@@ -1,0 +1,53 @@
+{
+  "id": "character-poster-rollout-system",
+  "slug": "character-poster-rollout-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Character Poster Rollout System",
+  "short_title": "Character Posters",
+  "description": "A Prompt Atlas theme for Character Poster Rollout System, testing multi-image-reference, commercial-mockup, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Character Poster Rollout System",
+      "short_title": "Character Posters",
+      "description": "Build a character-poster rollout with one visual grammar extended across multiple spotlight posters."
+    },
+    "zh-CN": {
+      "title": "角色海报套发系统",
+      "short_title": "角色海报",
+      "description": "做角色海报套发系统，统一语法下拆多个 spotlight 海报。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "commercial-mockup",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

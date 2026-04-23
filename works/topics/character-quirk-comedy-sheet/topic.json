@@ -1,0 +1,53 @@
+{
+  "id": "character-quirk-comedy-sheet",
+  "slug": "character-quirk-comedy-sheet",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Character Quirk Comedy Sheet",
+  "short_title": "Quirk Sheet",
+  "description": "A Prompt Atlas theme for Character Quirk Comedy Sheet, testing multi-image-reference, reasoning-composition, structured-layout with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Character Quirk Comedy Sheet",
+      "short_title": "Quirk Sheet",
+      "description": "Create character sheets built around tiny habits, flaws, or compulsions that generate repeatable comedy."
+    },
+    "zh-CN": {
+      "title": "角色怪癖喜剧表",
+      "short_title": "角色怪癖",
+      "description": "做围绕角色小毛病和小怪癖的喜剧表。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "multi-image-reference",
+      "reasoning-composition",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

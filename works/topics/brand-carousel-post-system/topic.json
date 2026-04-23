@@ -1,0 +1,53 @@
+{
+  "id": "brand-carousel-post-system",
+  "slug": "brand-carousel-post-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Brand Carousel Post System",
+  "short_title": "Carousel System",
+  "description": "A Prompt Atlas theme for Brand Carousel Post System, testing structured-layout, commercial-mockup, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Brand Carousel Post System",
+      "short_title": "Carousel System",
+      "description": "Build modular social carousel systems for launches, education, and campaign storytelling."
+    },
+    "zh-CN": {
+      "title": "品牌轮播贴文系统",
+      "short_title": "品牌轮播",
+      "description": "做品牌轮播贴文系统，适合发布、教育和 campaign 叙事。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

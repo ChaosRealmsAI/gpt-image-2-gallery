@@ -1,0 +1,71 @@
+{
+  "id": "series-campaign-core",
+  "type": "series",
+  "title": "Campaign Core",
+  "description": "A reference-led campaign sequence builds one visual language across reveal, escalation, and payoff.",
+  "creative_direction": "Image 01 locks the campaign visual identity. Images 02-04 keep the same palette and subject logic while shifting narrative beat and promotional framing.",
+  "cover_image": "images/01-reference-key-visual/image.png",
+  "i18n": {
+    "en": {
+      "title": "Campaign Core",
+      "description": "A reference-led campaign sequence builds one visual language across reveal, escalation, and payoff."
+    },
+    "zh-CN": {
+      "title": "Campaign Core",
+      "description": "A reference-led campaign sequence builds one visual language across reveal, escalation, and payoff."
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "reasoning-composition",
+      "style-transfer",
+      "editorial-illustration"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-key-visual",
+      "title": "Reference Key Visual",
+      "image": "images/01-reference-key-visual/image.png",
+      "meta": "images/01-reference-key-visual/meta.json"
+    },
+    {
+      "id": "02-action-beat-expansion",
+      "title": "Action Beat Expansion",
+      "image": "images/02-action-beat-expansion/image.png",
+      "meta": "images/02-action-beat-expansion/meta.json"
+    },
+    {
+      "id": "03-reveal-moment",
+      "title": "Reveal Moment",
+      "image": "images/03-reveal-moment/image.png",
+      "meta": "images/03-reveal-moment/meta.json"
+    },
+    {
+      "id": "04-payoff-frame",
+      "title": "Payoff Frame",
+      "image": "images/04-payoff-frame/image.png",
+      "meta": "images/04-payoff-frame/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-key-visual/meta.json",
+      "images/02-action-beat-expansion/meta.json",
+      "images/03-reveal-moment/meta.json",
+      "images/04-payoff-frame/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-key-visual first. Use its runtime result URL as --ref for 02-action-beat-expansion, 03-reveal-moment, 04-payoff-frame. Queue may run later series images concurrently after the reference is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

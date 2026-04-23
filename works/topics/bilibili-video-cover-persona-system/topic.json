@@ -1,0 +1,53 @@
+{
+  "id": "bilibili-video-cover-persona-system",
+  "slug": "bilibili-video-cover-persona-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Bilibili Video Cover Persona System",
+  "short_title": "Bili Covers",
+  "description": "A Prompt Atlas theme for Bilibili Video Cover Persona System, testing structured-layout, commercial-mockup, text-rendering with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Bilibili Video Cover Persona System",
+      "short_title": "Bili Covers",
+      "description": "Create Bilibili-style cover systems where creator persona, topic framing, and category expectation all read immediately."
+    },
+    "zh-CN": {
+      "title": "B站视频封面人格系统",
+      "short_title": "B站封面",
+      "description": "做 B站式视频封面系统，让创作者人格、话题 framing 和栏目类型一眼成立。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "structured-layout",
+      "commercial-mockup",
+      "text-rendering"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

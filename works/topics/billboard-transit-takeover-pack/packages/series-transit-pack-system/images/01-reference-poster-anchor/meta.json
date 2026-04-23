@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square master poster that defines the campaign thesis, palette, and focal structure for the full set. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nPresent the root campaign image that all later rollout assets inherit from. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThis becomes the reference anchor for the poster family. Build every image like a campaign-ready poster system with a memorable central thesis, strong negative space for hypothetical typography, and high-value commercial finish. Treat this image as the root visual anchor: it must be especially stable, complete, and easy for later variations to inherit from.\n\nUse case:\nBillboard Transit Takeover Pack series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable titles, no movie/IP mimicry, no unrelated secondary concepts, no flat stock-poster composition, no brand logos.",
+  "id": "01-reference-poster-anchor",
+  "title": "Reference Poster Anchor",
+  "description": "Reference Poster Anchor turns Billboard Transit Takeover Pack into a production-ready image study focused on this becomes the reference anchor for the poster family..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "editorial-illustration",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/01-reference-poster-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for a reference-driven series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Poster Anchor",
+      "description": "Reference Poster Anchor turns Billboard Transit Takeover Pack into a production-ready image study focused on this becomes the reference anchor for the poster family.."
+    },
+    "zh-CN": {
+      "title": "基准海报锚点",
+      "description": "基准海报锚点：围绕户外与地铁投放包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "editorial-illustration",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Reference Poster Anchor for Billboard Transit Takeover Pack.",
+      "zh-CN": "户外与地铁投放包主题中的基准海报锚点图像。"
+    }
+  }
+}

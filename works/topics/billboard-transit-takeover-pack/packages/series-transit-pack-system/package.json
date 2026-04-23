@@ -1,0 +1,106 @@
+{
+  "id": "series-transit-pack-system",
+  "type": "series",
+  "title": "Transit Pack System",
+  "description": "A reference-driven nine-image package translating Billboard Transit Takeover Pack into a coherent production-ready visual system.",
+  "creative_direction": "Image 01 establishes the visual anchor for Billboard Transit Takeover Pack. Images 02-09 preserve the same core identity while adapting the concept across production-ready surfaces informed by promo-poster-kv-backlog.",
+  "cover_image": "images/01-reference-poster-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Transit Pack System",
+      "description": "A reference-driven nine-image package translating Billboard Transit Takeover Pack into a coherent production-ready visual system."
+    },
+    "zh-CN": {
+      "title": "户外投放系统",
+      "description": "围绕户外与地铁投放包生成九张参考驱动的连贯系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "editorial-illustration",
+      "social-feed"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-poster-anchor",
+      "title": "Reference Poster Anchor",
+      "image": "images/01-reference-poster-anchor/image.png",
+      "meta": "images/01-reference-poster-anchor/meta.json"
+    },
+    {
+      "id": "02-close-crop-poster",
+      "title": "Close Crop Poster",
+      "image": "images/02-close-crop-poster/image.png",
+      "meta": "images/02-close-crop-poster/meta.json"
+    },
+    {
+      "id": "03-supporting-poster-view",
+      "title": "Supporting Poster View",
+      "image": "images/03-supporting-poster-view/image.png",
+      "meta": "images/03-supporting-poster-view/meta.json"
+    },
+    {
+      "id": "04-banner-adaptation",
+      "title": "Banner Adaptation",
+      "image": "images/04-banner-adaptation/image.png",
+      "meta": "images/04-banner-adaptation/meta.json"
+    },
+    {
+      "id": "05-vertical-campaign-crop",
+      "title": "Vertical Campaign Crop",
+      "image": "images/05-vertical-campaign-crop/image.png",
+      "meta": "images/05-vertical-campaign-crop/meta.json"
+    },
+    {
+      "id": "06-teaser-tile",
+      "title": "Teaser Tile",
+      "image": "images/06-teaser-tile/image.png",
+      "meta": "images/06-teaser-tile/meta.json"
+    },
+    {
+      "id": "07-environment-poster-view",
+      "title": "Environment Poster View",
+      "image": "images/07-environment-poster-view/image.png",
+      "meta": "images/07-environment-poster-view/meta.json"
+    },
+    {
+      "id": "08-social-rollout-card",
+      "title": "Social Rollout Card",
+      "image": "images/08-social-rollout-card/image.png",
+      "meta": "images/08-social-rollout-card/meta.json"
+    },
+    {
+      "id": "09-rollout-master-board",
+      "title": "Rollout Master Board",
+      "image": "images/09-rollout-master-board/image.png",
+      "meta": "images/09-rollout-master-board/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-poster-anchor/meta.json",
+      "images/02-close-crop-poster/meta.json",
+      "images/03-supporting-poster-view/meta.json",
+      "images/04-banner-adaptation/meta.json",
+      "images/05-vertical-campaign-crop/meta.json",
+      "images/06-teaser-tile/meta.json",
+      "images/07-environment-poster-view/meta.json",
+      "images/08-social-rollout-card/meta.json",
+      "images/09-rollout-master-board/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-poster-anchor first. Use its runtime result URL as --ref for 02-close-crop-poster, 03-supporting-poster-view, 04-banner-adaptation, 05-vertical-campaign-crop, 06-teaser-tile, 07-environment-poster-view, 08-social-rollout-card, 09-rollout-master-board. Queue may run the dependent images concurrently after 01-reference-poster-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

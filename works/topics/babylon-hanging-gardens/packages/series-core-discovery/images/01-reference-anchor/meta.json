@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square documentary image composed like a premium archaeology magazine feature. Use sunlit buff stone, saturated vine green, glazed deep blue, and Euphrates river haze. Frame a terraced Babylonian garden complex rising in stacked levels with irrigation channels, hanging vegetation, and distant river atmosphere with crisp depth layering, restrained contrast, and subtle atmospheric depth so the scene feels excavated, observed, and historically grounded rather than theatrical or game-like. Keep the light directional but believable, as if captured during a careful field visit.\n\nSubject:\nCenter the image on a terraced Babylonian garden complex rising in stacked levels with irrigation channels, hanging vegetation, and distant river atmosphere. Include culturally accurate surface logic, region-specific setting, and believable human-scale cues in stairs, doorways, cut blocks, relief edges, or water depth. Shapes, carvings, masonry joints, and site wear should feel studied from real archaeology, with no generic ancient-world mashup and no ornamental filler borrowed from another civilization.\n\nImportant details:\nKeep the reconstruction architecturally disciplined, with Near Eastern massing, stepped terrace engineering, visible hydraulic logic, and planted abundance that feels maintained by ancient infrastructure rather than magical floating greenery. Emphasize sun-baked masonry, glazed brick details, irrigation water, trailing vines, palms, and engineered terrace retaining walls. Keep inscriptions, painted registers, symbolic motifs, or carved bands visually plausible but not readable. Preserve a museum-grade balance between beauty and evidence: light should reveal relief depth, edge wear, repairs, sediment traces, and excavation context without turning the site into fantasy spectacle. The composition should feel like a definitive reference frame that later variations can inherit exactly.\n\nUse case:\nBabylon Hanging Gardens series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy dragons, no neon glow, no steel frameworks, no modern city skyline, no tourists, no anachronistic props, no collage layout, no exaggerated fantasy lighting.",
+  "id": "01-reference-anchor",
+  "title": "Reference Anchor",
+  "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Hanging Gardens.",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "photorealism",
+    "world-knowledge",
+    "structured-layout"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/babylon-hanging-gardens/packages/series-core-discovery/images/01-reference-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for the discovery fanout series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Anchor",
+      "description": "The base discovery view establishing the site identity, palette, and archaeological logic for Hanging Gardens."
+    },
+    "zh-CN": {
+      "title": "参考锚点",
+      "description": "建立系列基准遗址身份与视觉规则的核心参考图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "photorealism",
+      "world-knowledge",
+      "structured-layout"
+    ],
+    "alt": {
+      "en": "Terraced Hanging Gardens rise above Babylon with blue glazed brick and cascading green vines.",
+      "zh-CN": "空中花园相关研究图像。"
+    }
+  }
+}

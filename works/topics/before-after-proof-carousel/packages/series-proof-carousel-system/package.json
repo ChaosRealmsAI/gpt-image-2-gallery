@@ -1,0 +1,106 @@
+{
+  "id": "series-proof-carousel-system",
+  "type": "series",
+  "title": "Proof Carousel System",
+  "description": "A reference-driven nine-image package translating Before-After Proof Carousel into a coherent production-ready visual system.",
+  "creative_direction": "Image 01 establishes the visual anchor for Before-After Proof Carousel. Images 02-09 preserve the same core identity while adapting the concept across production-ready surfaces informed by ecommerce-conversion-backlog.",
+  "cover_image": "images/01-reference-proof-anchor/image.png",
+  "i18n": {
+    "en": {
+      "title": "Proof Carousel System",
+      "description": "A reference-driven nine-image package translating Before-After Proof Carousel into a coherent production-ready visual system."
+    },
+    "zh-CN": {
+      "title": "前后对比系统",
+      "description": "围绕前后对比证明轮播生成九张参考驱动的连贯系统图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ]
+  },
+  "images": [
+    {
+      "id": "01-reference-proof-anchor",
+      "title": "Reference Proof Anchor",
+      "image": "images/01-reference-proof-anchor/image.png",
+      "meta": "images/01-reference-proof-anchor/meta.json"
+    },
+    {
+      "id": "02-before-state-frame",
+      "title": "Before State Frame",
+      "image": "images/02-before-state-frame/image.png",
+      "meta": "images/02-before-state-frame/meta.json"
+    },
+    {
+      "id": "03-after-state-frame",
+      "title": "After State Frame",
+      "image": "images/03-after-state-frame/image.png",
+      "meta": "images/03-after-state-frame/meta.json"
+    },
+    {
+      "id": "04-close-proof-detail",
+      "title": "Close Proof Detail",
+      "image": "images/04-close-proof-detail/image.png",
+      "meta": "images/04-close-proof-detail/meta.json"
+    },
+    {
+      "id": "05-routine-step-board",
+      "title": "Routine Step Board",
+      "image": "images/05-routine-step-board/image.png",
+      "meta": "images/05-routine-step-board/meta.json"
+    },
+    {
+      "id": "06-benefit-comparison",
+      "title": "Benefit Comparison",
+      "image": "images/06-benefit-comparison/image.png",
+      "meta": "images/06-benefit-comparison/meta.json"
+    },
+    {
+      "id": "07-lifestyle-proof-crop",
+      "title": "Lifestyle Proof Crop",
+      "image": "images/07-lifestyle-proof-crop/image.png",
+      "meta": "images/07-lifestyle-proof-crop/meta.json"
+    },
+    {
+      "id": "08-carousel-promo-tile",
+      "title": "Carousel Promo Tile",
+      "image": "images/08-carousel-promo-tile/image.png",
+      "meta": "images/08-carousel-promo-tile/meta.json"
+    },
+    {
+      "id": "09-detail-page-master",
+      "title": "Detail Page Master",
+      "image": "images/09-detail-page-master/image.png",
+      "meta": "images/09-detail-page-master/meta.json"
+    }
+  ],
+  "generation_plan": {
+    "status": "prompted",
+    "execution": "fanout",
+    "runner": "image2gen",
+    "images": [
+      "images/01-reference-proof-anchor/meta.json",
+      "images/02-before-state-frame/meta.json",
+      "images/03-after-state-frame/meta.json",
+      "images/04-close-proof-detail/meta.json",
+      "images/05-routine-step-board/meta.json",
+      "images/06-benefit-comparison/meta.json",
+      "images/07-lifestyle-proof-crop/meta.json",
+      "images/08-carousel-promo-tile/meta.json",
+      "images/09-detail-page-master/meta.json"
+    ],
+    "ref_strategy": "Run 01-reference-proof-anchor first. Use its runtime result URL as --ref for 02-before-state-frame, 03-after-state-frame, 04-close-proof-detail, 05-routine-step-board, 06-benefit-comparison, 07-lifestyle-proof-crop, 08-carousel-promo-tile, 09-detail-page-master. Queue may run the dependent images concurrently after 01-reference-proof-anchor is done.",
+    "index_policy": "Only status=done images with image.png are included in works/index.json."
+  }
+}

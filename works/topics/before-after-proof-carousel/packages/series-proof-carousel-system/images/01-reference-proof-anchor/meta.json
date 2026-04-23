@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square master proof frame with stable lighting, strong continuity cues, and a premium commerce-ready layout. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nPresent the main product or subject in a neutral anchor composition that can support every later proof variation. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nThis image defines the continuity rules for the rest of the carousel system. Make every frame conversion-oriented, with credible product or subject continuity, strong proof logic, and a premium commerce finish that could sit inside a real carousel or detail page. Treat this image as the root visual anchor: it must be especially stable, complete, and easy for later variations to inherit from.\n\nUse case:\nBefore-After Proof Carousel series study 1/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no exaggerated miracle effects, no readable copy blocks, no brand logos, no fake certification seals, no chaotic ecommerce clutter.",
+  "id": "01-reference-proof-anchor",
+  "title": "Reference Proof Anchor",
+  "description": "Reference Proof Anchor turns Before-After Proof Carousel into a production-ready image study focused on this image defines the continuity rules for the rest of the carousel system..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "structured-layout",
+    "photorealism"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 1,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/before-after-proof-carousel/packages/series-proof-carousel-system/images/01-reference-proof-anchor/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Root reference image for a reference-driven series.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Reference Proof Anchor",
+      "description": "Reference Proof Anchor turns Before-After Proof Carousel into a production-ready image study focused on this image defines the continuity rules for the rest of the carousel system.."
+    },
+    "zh-CN": {
+      "title": "基准证明锚点",
+      "description": "基准证明锚点：围绕前后对比证明轮播生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 10,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "alt": {
+      "en": "Reference Proof Anchor for Before-After Proof Carousel.",
+      "zh-CN": "前后对比证明轮播主题中的基准证明锚点图像。"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "banksy-street-satire",
+  "slug": "banksy-street-satire",
+  "category": "illustration",
+  "style": [
+    "handdrawn",
+    "retro"
+  ],
+  "capability": [
+    "style-transfer",
+    "world-knowledge"
+  ],
+  "title": "Banksy Street Satire",
+  "short_title": "Banksy Satire",
+  "description": "A Prompt Atlas theme for Banksy Street Satire, testing reasoning-composition, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Banksy Street Satire",
+      "short_title": "Banksy Satire",
+      "description": "A Prompt Atlas theme for Banksy Street Satire, testing reasoning-composition, style-transfer with GPT Image 2."
+    },
+    "zh-CN": {
+      "title": "Banksy 街头讽刺 · stencil 涂鸦",
+      "short_title": "街头讽刺",
+      "description": "Banksy 街头讽刺 · stencil 涂鸦：气球女孩 / 抗议者掷花 / 猩猩议员 · 黑色 stencil + 红色重点 + 砖墙实景 + 社会隐喻"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "reasoning-composition",
+      "style-transfer",
+      "editorial-illustration"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-campaign-core",
+      "type": "series",
+      "title": "Campaign Core",
+      "path": "packages/series-campaign-core/package.json"
+    },
+    {
+      "id": "single-campaign-support-studies",
+      "type": "single",
+      "title": "Campaign Support Studies",
+      "path": "packages/single-campaign-support-studies/package.json"
+    }
+  ]
+}

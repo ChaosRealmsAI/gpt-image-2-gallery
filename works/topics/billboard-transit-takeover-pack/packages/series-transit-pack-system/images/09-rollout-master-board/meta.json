@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square capstone board combining the full poster rollout family into one polished presentation. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the complete campaign system summarized in a single production-ready board. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nEverything must clearly descend from the anchor poster. Build every image like a campaign-ready poster system with a memorable central thesis, strong negative space for hypothetical typography, and high-value commercial finish. Hook, logo zone, and core image must survive scale changes. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nBillboard Transit Takeover Pack series study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable titles, no movie/IP mimicry, no unrelated secondary concepts, no flat stock-poster composition, no brand logos.",
+  "id": "09-rollout-master-board",
+  "title": "Rollout Master Board",
+  "description": "Rollout Master Board turns Billboard Transit Takeover Pack into a production-ready image study focused on everything must clearly descend from the anchor poster..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "editorial-illustration",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 9,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/09-rollout-master-board/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-poster-anchor",
+        "meta_path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/01-reference-poster-anchor/meta.json",
+        "image_path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/01-reference-poster-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Rollout Master Board",
+      "description": "Rollout Master Board turns Billboard Transit Takeover Pack into a production-ready image study focused on everything must clearly descend from the anchor poster.."
+    },
+    "zh-CN": {
+      "title": "发布总览母版",
+      "description": "发布总览母版：围绕户外与地铁投放包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 90,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "editorial-illustration",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Rollout Master Board for Billboard Transit Takeover Pack.",
+      "zh-CN": "户外与地铁投放包主题中的发布总览母版图像。"
+    }
+  }
+}

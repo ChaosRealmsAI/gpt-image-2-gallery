@@ -1,0 +1,66 @@
+{
+  "prompt": "Scene:\nA square derived poster that broadens the same campaign world with more context. Frame the composition like a premium game-production deliverable rather than generic concept art, with disciplined square balance, controlled highlight placement, and enough negative space to keep the focal structure easy to parse. Use lighting, value grouping, and depth layers to make the scene feel intentional, collectible, and immediately useful for internal review or outward-facing promotion.\n\nSubject:\nShow the same campaign identity with added support elements or wider cast. Build the image around one dominant primary read, then support it with clearly organized secondary shapes, props, interface shells, or environment structures that reinforce gameplay context and commercial usefulness. Every object should look original, fully resolved, and designed to survive cropping for store, profile, patch, or gallery surfaces.\n\nImportant details:\nIt should read as a direct extension, not a remix. Build every image like a campaign-ready poster system with a memorable central thesis, strong negative space for hypothetical typography, and high-value commercial finish. Hook, logo zone, and core image must survive scale changes. The variation may change framing, intensity, or layout emphasis, but it must still feel like a direct continuation of the same design system.\n\nUse case:\nBillboard Transit Takeover Pack series study 3/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no readable titles, no movie/IP mimicry, no unrelated secondary concepts, no flat stock-poster composition, no brand logos.",
+  "id": "03-supporting-poster-view",
+  "title": "Supporting Poster View",
+  "description": "Supporting Poster View turns Billboard Transit Takeover Pack into a production-ready image study focused on it should read as a direct extension, not a remix..",
+  "type": "series",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "series",
+    "commercial-mockup",
+    "editorial-illustration",
+    "social-feed"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 3,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/03-supporting-poster-view/image.png",
+      "name": "image"
+    },
+    "depends_on": [
+      {
+        "id": "01-reference-poster-anchor",
+        "meta_path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/01-reference-poster-anchor/meta.json",
+        "image_path": "works/topics/billboard-transit-takeover-pack/packages/series-transit-pack-system/images/01-reference-poster-anchor/image.png",
+        "ref_role": "primary",
+        "required_status": "done"
+      }
+    ],
+    "ref_urls": [],
+    "runner_notes": "Dependent series image; inject the runtime reference URL from image 01 before generation.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Supporting Poster View",
+      "description": "Supporting Poster View turns Billboard Transit Takeover Pack into a production-ready image study focused on it should read as a direct extension, not a remix.."
+    },
+    "zh-CN": {
+      "title": "补充海报视图",
+      "description": "补充海报视图：围绕户外与地铁投放包生成的独立视觉研究，强调该变体的系统可读性与成品感。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 30,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "series",
+      "commercial-mockup",
+      "editorial-illustration",
+      "social-feed"
+    ],
+    "alt": {
+      "en": "Supporting Poster View for Billboard Transit Takeover Pack.",
+      "zh-CN": "户外与地铁投放包主题中的补充海报视图图像。"
+    }
+  }
+}

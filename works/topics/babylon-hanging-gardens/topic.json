@@ -1,0 +1,54 @@
+{
+  "id": "babylon-hanging-gardens",
+  "slug": "babylon-hanging-gardens",
+  "category": "illustration",
+  "style": [
+    "photoreal"
+  ],
+  "capability": [
+    "world-knowledge",
+    "structured-layout"
+  ],
+  "title": "Babylon Hanging Gardens",
+  "short_title": "Hanging Gardens",
+  "description": "Speculative reconstruction of the Hanging Gardens of Babylon — ziggurat terraces dripping with vines, aqueducts visible, Euphrates river in background, the Ishtar Gate blue glazed bricks glinting.",
+  "i18n": {
+    "en": {
+      "title": "Babylon Hanging Gardens",
+      "short_title": "Hanging Gardens",
+      "description": "Speculative reconstruction of the Hanging Gardens of Babylon — ziggurat terraces dripping with vines, aqueducts visible, Euphrates river in background, the Ishtar Gate blue glazed bricks glinting."
+    },
+    "zh-CN": {
+      "title": "巴比伦空中花园",
+      "short_title": "空中花园",
+      "description": "巴比伦空中花园假设复原 · 金字塔形梯田垂挂藤蔓 · 可见引水渠 · 背景幼发拉底河 · 伊什塔尔门蓝釉砖闪光。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 480,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "photorealism",
+      "world-knowledge",
+      "structured-layout"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-discovery",
+      "type": "series",
+      "title": "Core Discovery Series",
+      "path": "packages/series-core-discovery/package.json"
+    },
+    {
+      "id": "single-context-studies",
+      "type": "single",
+      "title": "Context Studies",
+      "path": "packages/single-context-studies/package.json"
+    }
+  ]
+}

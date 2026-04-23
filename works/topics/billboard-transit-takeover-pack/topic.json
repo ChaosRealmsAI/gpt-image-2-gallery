@@ -1,0 +1,47 @@
+{
+  "id": "billboard-transit-takeover-pack",
+  "slug": "billboard-transit-takeover-pack",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Billboard Transit Takeover Pack",
+  "short_title": "Transit Pack",
+  "description": "Design a takeover pack for billboards, subway walls, and transit panels with large-format readability.",
+  "i18n": {
+    "en": {
+      "title": "Billboard Transit Takeover Pack",
+      "short_title": "Transit Pack",
+      "description": "Design a takeover pack for billboards, subway walls, and transit panels with large-format readability."
+    },
+    "zh-CN": {
+      "title": "户外与地铁投放包",
+      "short_title": "户外投放",
+      "description": "做户外与地铁投放包，强调大画幅可读性。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "commercial-mockup",
+      "editorial-illustration",
+      "social-feed"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-transit-pack-system",
+      "type": "series",
+      "title": "Transit Pack System",
+      "path": "packages/series-transit-pack-system/package.json"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "character-merch-drop-system",
+  "slug": "character-merch-drop-system",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Character Merch Drop System",
+  "short_title": "Merch Drop",
+  "description": "A Prompt Atlas theme for Character Merch Drop System, testing commercial-mockup, multi-image-reference, style-transfer with GPT Image 2.",
+  "i18n": {
+    "en": {
+      "title": "Character Merch Drop System",
+      "short_title": "Merch Drop",
+      "description": "Build a merch drop system around a character or IP theme spanning posters, pins, apparel, and collector packaging."
+    },
+    "zh-CN": {
+      "title": "角色周边发售系统",
+      "short_title": "周边发售",
+      "description": "围绕角色或 IP 主题做周边发售系统，覆盖海报、徽章、服饰和收藏包装。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 220,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "commercial-mockup",
+      "multi-image-reference",
+      "style-transfer"
+    ]
+  },
+  "packages": [
+    {
+      "id": "series-core-system",
+      "type": "series",
+      "title": "Core System Series",
+      "path": "packages/series-core-system/package.json"
+    },
+    {
+      "id": "single-support-studies",
+      "type": "single",
+      "title": "Support Studies",
+      "path": "packages/single-support-studies/package.json"
+    }
+  ]
+}

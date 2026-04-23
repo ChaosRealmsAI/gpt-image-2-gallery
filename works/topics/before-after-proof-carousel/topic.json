@@ -1,0 +1,47 @@
+{
+  "id": "before-after-proof-carousel",
+  "slug": "before-after-proof-carousel",
+  "category": "illustration",
+  "style": [
+    "handdrawn"
+  ],
+  "capability": [
+    "style-transfer"
+  ],
+  "title": "Before-After Proof Carousel",
+  "short_title": "Proof Carousel",
+  "description": "Build before-after and proof-focused carousels for beauty, cleaning, fitness, and home-improvement categories.",
+  "i18n": {
+    "en": {
+      "title": "Before-After Proof Carousel",
+      "short_title": "Proof Carousel",
+      "description": "Build before-after and proof-focused carousels for beauty, cleaning, fitness, and home-improvement categories."
+    },
+    "zh-CN": {
+      "title": "前后对比证明轮播",
+      "short_title": "前后对比",
+      "description": "做前后对比和证明类轮播，适合美妆清洁健身等。"
+    }
+  },
+  "display": {
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "sort_order": 100,
+    "tags": [
+      "commercial-mockup",
+      "structured-layout",
+      "photorealism"
+    ],
+    "featured": false
+  },
+  "packages": [
+    {
+      "id": "series-proof-carousel-system",
+      "type": "series",
+      "title": "Proof Carousel System",
+      "path": "packages/series-proof-carousel-system/package.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prompt": "Scene:\nA square hero image designed for a museum wall graphic or flagship magazine cover, but without any actual typography. Use strong focal hierarchy, refined contrast, and a polished finish that still feels rooted in archaeological evidence. The frame should look complete on its own and communicate why this civilization remains visually unforgettable.\n\nSubject:\nBuild the image around an editorial reconstruction that makes the wonder feel engineered, irrigated, and historically argued rather than purely mythical. Present architecture, artifacts, environment, and atmosphere as one coherent statement. The composition can be more distilled than a field snapshot, but it must remain culturally specific, materially persuasive, and free of fantasy shorthand. Nothing should feel like a movie poster or commercial franchise imitation.\n\nImportant details:\nKeep the reconstruction architecturally disciplined, with Near Eastern massing, stepped terrace engineering, visible hydraulic logic, and planted abundance that feels maintained by ancient infrastructure rather than magical floating greenery. Distill the site or cultural world into one decisive visual argument: place, craft, weathering, engineering, and memory. Use the strongest material signatures from this civilization and let them sit in a believable environment with controlled dramatic weight. Keep any carved or painted symbols non-readable. The result should look like responsible high-end visual storytelling for research and public interpretation, not a spectacle-first matte painting.\n\nUse case:\nBabylon Hanging Gardens single study 9/9.\n\nConstraints:\nNo readable text, no watermark, no logos, preserve exact 1:1 aspect ratio, no fantasy dragons, no neon glow, no steel frameworks, no modern city skyline, no movie-poster tropes, no overdesigned framing devices, no collage layout, no brand-like iconography.",
+  "id": "editorial-reconstruction",
+  "title": "Editorial Reconstruction",
+  "description": "An independent hero image for Hanging Gardens suitable for museum or editorial presentation.",
+  "type": "single",
+  "image": "image.png",
+  "aspect_ratio": "1:1",
+  "tags": [
+    "single",
+    "photorealism",
+    "world-knowledge",
+    "editorial-illustration"
+  ],
+  "refs": [],
+  "status": "done",
+  "generation": {
+    "order": 5,
+    "mode": "image",
+    "model": "gpt-image-2",
+    "output": {
+      "path": "works/topics/babylon-hanging-gardens/packages/single-context-studies/images/editorial-reconstruction/image.png",
+      "name": "image"
+    },
+    "depends_on": [],
+    "ref_urls": [],
+    "runner_notes": "Independent single-image archaeology study for the same topic.",
+    "attempt_count": 1
+  },
+  "i18n": {
+    "en": {
+      "title": "Editorial Reconstruction",
+      "description": "An independent hero image for Hanging Gardens suitable for museum or editorial presentation."
+    },
+    "zh-CN": {
+      "title": "编辑重建图",
+      "description": "适合作为博物馆或杂志主视觉的独立重建图。"
+    }
+  },
+  "display": {
+    "featured": false,
+    "sort_order": 50,
+    "audiences": [
+      "gallery",
+      "research"
+    ],
+    "tags": [
+      "single",
+      "photorealism",
+      "world-knowledge",
+      "editorial-illustration"
+    ],
+    "alt": {
+      "en": "An editorial reconstruction distills Hanging Gardens into one decisive hero image.",
+      "zh-CN": "空中花园相关研究图像。"
+    }
+  }
+}
